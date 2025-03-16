@@ -106,7 +106,7 @@ This methodology allows us to tag 1885 verses for a large number of languages in
 |700-1000|5|
 |**Total**|**1599**|
 
-![Verse counts in corpora](data/output/plots/hist-Verse_counts.png)
+![Verse counts in corpora](data/output/plots_distr/hist-Verse_counts.png)
 
 #### 1.2 Assessing the accuracy of the POS tags <a name="accuracy-pos"></a>
 
@@ -208,7 +208,7 @@ By “word order” most researchers refer to the relative order of referential 
 
 This means that we can combine several tags (NOUN ‘noun’, PROPN ‘proper noun’, PRON ‘pronoun’) under the 'noun' class and several tags (VERB ‘verb’, AUX ‘auxiliary’) under the 'verb' class.
 
-An additional consideration is what relationship regarding word order we want to test. The end goal is to understand whether word class length has an impact on word order. For this we want to test the hypothesis that 'short' word classes occur before 'long' word classes, which follows from a claim by [Wasow (2002)](#6) that short string precede long strings crosslinguistically. This means that we can concern ourselves only with the intransitive word orders: whether a language is SV (Subject Verb) or VS (Verb Subject).
+An additional consideration is what relationship regarding word order we want to test. The end goal is to understand whether word class length has an impact on word order. For this we want to test the hypothesis that 'short' word classes occur before 'long' word classes, which follows from a claim by [Wasow (2002)](#6) that short strings precede long strings crosslinguistically. This means that we can concern ourselves only with the intransitive word orders: whether a language is SV (Subject Verb) or VS (Verb Subject).
 
 #### 2.2 Identifying word order in corpora via the N1 ratio (`analyze_taggedPBC.py`) <a name="word-order-in-corpora"></a>
 
@@ -231,7 +231,7 @@ The N1 ratio gives a proportion of N-initial sentences in a corpus, but how vali
 
 The WALS database “is a large database of structural (phonological, grammatical, lexical) properties of languages gathered from descriptive materials (such as reference grammars) by a team of 55 authors” (Dryer & Haspelmath, 2013). There are 2,498 languages or lects with coded data in the database, of which 1,367 unique lects (varieties that are identified with unique ISO 639-3 codes) have information regarding the order of Subject and Verb, where languages are identified as “SV” (noun first), “VS” (verb first) or “No dominant order” (free). Of these, 566 have translations found within the PBC.
 
-![N1 ratio and WALS](data/output/plots/N1ratio-ArgsPreds_WALS.png)
+![N1 ratio and WALS](data/output/plots_wdorder/N1ratio-ArgsPreds_WALS.png)
 
 To determine the degree to which the “N1 ratio” aligns with these expert codes regarding order of Subject and Verb, I conducted an analysis of variance (one-way ANOVA) with the N1 ratio as the dependent variable, and the WALS category as the grouping variable. For the 566 shared languages, there was a clear and significant distinction between languages identified as SV in the WALS database (noun first) and VS (verb first) languages  (p < 0.001), on the basis of the N1 ratio. There was also a significant difference between SV and “free” word order languages (p < 0.001), and between “free” and VS languages (p < 0.001). This means that the N1 ratio effectively differentiates between these languages at least as well as the expert judgements maintained in the WALS database.
 
@@ -240,7 +240,7 @@ To determine the degree to which the “N1 ratio” aligns with these expert cod
 The AUTOTYP database is a set of linguistic data that depends “on an automatic generation of category lists during data input” (Bickel et al., 2022). It contains typological information on 2,830
 languages, of which 452 have information on word order, 180 of which are also found in the PBC. The AUTOTYP database identifies languages as “V=1” (verb first), “V=2” (verb second), “V=3” (verb third), or “free” (no dominant order). For our purposes, we consider both “V=2” and “V=3” languages to be “SV”, while “V=1” is “V1”, allowing for comparison with the N1 ratio.
 
-![N1 ratio and Autotyp](data/output/plots/N1ratio-ArgsPreds_Autotyp.png)
+![N1 ratio and Autotyp](data/output/plots_wdorder/N1ratio-ArgsPreds_Autotyp.png)
 
 For these languages, I conducted an ANOVA with the N1 ratio derived from the tagged PBC as the dependent variable and the “noun first” (141 languages), “verb first” (25 languages) and “free” (14 languages) categories as the grouping variables. Similarly to the WALS database, the N1 ratio significantly differentiated between “noun first” languages and both “verb first” and “free” languages (p < 0.001), but unlike the previous comparison it did not significantly differentiate “free” languages from “verb first” languages (p = 0.088).
 
@@ -248,7 +248,7 @@ For these languages, I conducted an ANOVA with the N1 ratio derived from the tag
 
 The Grambank database is a set of linguistic data that “currently covers 2,467 language varieties, capturing a wide range of grammatical phenomena in 195 features, from word order to verbal tense, nominal plurals, and many other well-studied comparative linguistic variables” (Skirgård et al., 2023). It contains word order information on 2,320 languages (features GB130-GB136), 900 of which are also found in the PBC. Of these languages, an additional 109 languages have “UNK” as the word order feature, leaving 791 for comparison.
 
-![N1 ratio and Grambank](data/output/plots/N1ratio-ArgsPreds_Grambank.png)
+![N1 ratio and Grambank](data/output/plots_wdorder/N1ratio-ArgsPreds_Grambank.png)
 
 For these languages, I conducted an ANOVA with the N1 ratio derived from the PBC as the dependent variable and the “SV” (606 languages), “VS” (147 languages) and “free” (38 languages) categories as the grouping variables. Similarly to the AUTOTYP database, the N1 ratio significantly differentiated between “SV” languages and both “V1” and “free” languages (p < 0.001). It also significantly distinguished “free” languages from “verb first” languages (p = 0.019).
 
@@ -260,9 +260,9 @@ These comparisons show that the N1 ratio successfully differentiates between SV 
 
 Given the strong correlations between the N1 ratio and SV/VS/free word order patterns, we can also use this measure to infer or impute word order for languages in the PBC for which word order is unknown. To do so, we can train one or more classifiers on the values of the N1 ratio for languages in which SV/VS/free word orders are known, and then use these models to predict on the unknown languages.
 
-![Data distribution](data/output/plots/density_plot-counts_N1ratio.png)
+![Data distribution](data/output/plots_distr/density_plot-counts_N1ratio.png)
 
-Since the tagged PBC data is normally distributed, I trained a Gaussian Naive Bayes (GNB) classifier on the 976 languages with known word order (with the N1 ratio as the feature), and then predicted on the remaining 623 languages with unknown word order. This resulted in 528 of the languages being classified as "SV", and 95 being classified as "VS". Initial tests with other classifiers gave similar results, though some (like the Decision Tree) classified up to 10 previously unclassified languages as "free". When internet searches were conducted for these languages, existing literature identified all of the languages as having "VS" basic word order, validating the GNB classification.
+Since the tagged PBC data is normally distributed (see the `analyze_taggedPBC.py` script for more verification of this via bootstrapping), I trained a Gaussian Naive Bayes (GNB) classifier on the 976 languages with known word order (with the N1 ratio as the feature), and then predicted on the remaining 621 languages with unknown word order. This resulted in 510 of the languages being classified as "SV", and 111 being classified as "VS". Initial tests with other classifiers gave similar results, though some (like the Decision Tree) classified up to 10 previously unclassified languages as "free". When internet searches were conducted for these languages, existing literature identified all of the languages as having "VS" basic word order, validating the GNB classification.
 
 ### 3. Compare average word lengths and word order across languages (`analyze_taggedPBC.py`) <a name="compare-averages"></a>
 
@@ -290,11 +290,11 @@ For conditions 1 and 3, we are getting the unique set of Argument(s)/Noun(s) and
 
 The results are quite striking, with all conditions except for #4 showing a main effect whereby nouns/arguments are shorter than verbs/predicates in all languages (p < 0.001). Further, nouns/verbs tend to be shorter in SV languages than VS languages, and shorter in VS languages than free word order languages.
 
-![Nouns and Verbs without frequency](data/output/plots/means-Arglen_Predlen_plot.png)
+![Nouns and Verbs without frequency](data/output/plots_means/means-Arglen_Predlen_plot.png)
 
 The only condition where this is not the case is where we compare only nouns/verbs and allow for frequency effects. That is, when we consider only words tagged as nouns (excluding pronouns and proper nouns) and only words tagged as verbs (excluding auxiliaries), and allow for their relative frequencies to affect the average length of the word class (i.e. a higher frequency of a particular short noun brings the average length of nouns down), we see the opposite pattern. In this condition, nouns are shorter than verbs in VS languages, while nouns are longer than verbs in SV languages, and this length difference is significant (p < 0.001).
 
-![Nouns and Verbs with frequency](data/output/plots/means-Nlen_freq_Vlen_freq_plot.png)
+![Nouns and Verbs with frequency](data/output/plots_means/means-Nlen_freq_Vlen_freq_plot.png)
 
 #### 3.2 Testing predictive validity of word lengths (`checks/test_hbo_heb/classify_lgs.py`) <a name="testing-predictive-validity"></a>
 
