@@ -1,0 +1,23 @@
+                      Contrast   Word lengths         A              B Paired Parametric      T      dof alternative  p-unc   BF10  hedges
+                  Word lengths              - Arguments Arguments freq   True       True 92.755 1595.000   two-sided  0.000    inf   0.972
+               Noun_Verb_order              -        SV             VS  False       True -2.597  427.392   two-sided  0.010  2.049  -0.161
+               Noun_Verb_order              -        SV           free  False       True -3.188   52.294   two-sided  0.002  18.16  -0.497
+               Noun_Verb_order              -        VS           free  False       True -2.087   61.693   two-sided  0.041  1.242  -0.368
+Word lengths * Noun_Verb_order      Arguments        SV             VS  False       True -3.117  427.307   two-sided  0.002  8.795  -0.193
+Word lengths * Noun_Verb_order      Arguments        SV           free  False       True -3.183   52.141   two-sided  0.002 17.928  -0.507
+Word lengths * Noun_Verb_order      Arguments        VS           free  False       True -1.917   61.095   two-sided  0.060  0.909  -0.343
+Word lengths * Noun_Verb_order Arguments freq        SV             VS  False       True -1.933  425.891   two-sided  0.054  0.469  -0.120
+Word lengths * Noun_Verb_order Arguments freq        SV           free  False       True -3.050   52.473   two-sided  0.004 12.155  -0.464
+Word lengths * Noun_Verb_order Arguments freq        VS           free  False       True -2.176   62.528   two-sided  0.033  1.481  -0.376
+
+VS Languages mean Noun vs Verb lengths
+      T  dof alternative  p-val          CI95%  cohen-d       BF10  power
+-43.204  270   two-sided    0.0 [-1.26, -1.15]    1.147 2.487e+119    1.0
+
+SV Languages mean Noun vs Verb lengths
+      T  dof alternative  p-val          CI95%  cohen-d BF10  power
+-81.173 1274   two-sided    0.0 [-1.14, -1.08]    0.947  inf    1.0
+
+Free Languages mean Noun vs Verb lengths
+      T  dof alternative  p-val          CI95%  cohen-d      BF10  power
+-15.649   49   two-sided    0.0 [-1.34, -1.03]    0.927 4.271e+17    1.0

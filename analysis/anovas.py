@@ -33,7 +33,15 @@ def get_rm_plot(df, subj, betw, within, outfold):
     # creates a 'value' column with the length variables and a 'variable' column
     # with the within-subjects classes
     df = pd.melt(df, id_vars=[subj, betw], value_vars=within)
-    if 'Arg' in within[0]:
+    if '_freq' in within[0] and '_freq' not in within[1]:
+        rpldict = {"_": " ", "Vlen": "Verbs", "Nlen": "Nouns", "Pronlen": "Pronouns", "Arglen": "Arguments", "Predlen": "Predicates"}
+        wn0 = within[0]
+        wn1 = within[1]
+        for k in rpldict.keys():
+            wn0 = wn0.replace(k, rpldict[k])
+            wn1 = wn1.replace(k, rpldict[k])
+        df = df.replace({'variable': {within[0]: wn0, within[1]: wn1}})
+    elif 'Arg' in within[0]:
         df = df.replace({'variable': {within[0]: 'Arguments', within[1]: 'Predicates'}})
     elif 'Pron' in within[0]:
         df = df.replace({'variable': {within[0]: 'Pronouns', within[1]: 'Verbs'}})
@@ -43,13 +51,13 @@ def get_rm_plot(df, subj, betw, within, outfold):
     # conduct a repeated measures anova comparing lengths
     aov = pg.rm_anova(data=df, dv='value', within='Word lengths', subject=subj).round(3)
     # print the comparisons
-    print(within)
-    print(aov)
-    print()
+    # print(within)
+    # print(aov)
+    # print()
     # conduct a mixed anova with word order as between-subjects variable
     maov = pg.mixed_anova(data=df, dv='value', between=betw, within='Word lengths', subject=subj).round(3)
-    print(maov)
-    print()
+    # print(maov)
+    # print()
 
     posthoc = pg.pairwise_tests(data=df, dv='value', between=betw, within='Word lengths', subject=subj).round(3)
     #df.pairwise_tests(dv='value', between=betw, within='word lengths').round(3)
@@ -79,9 +87,9 @@ def get_anova_wordorder(df, subj, betw, within, outfold, ds):
     # conduct a one-way anova comparing word order and N1 ratio
     aov = pg.anova(data=df, dv=within, between=betw).round(3)
     # print the comparisons
-    print(within)
-    print(aov)
-    print()
+    # print(within)
+    # print(aov)
+    # print()
 
     posthoc = pg.pairwise_tests(data=df, dv=within, between=betw, subject=subj).round(3)
     print(posthoc)

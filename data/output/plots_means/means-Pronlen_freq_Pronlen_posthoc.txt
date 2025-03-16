@@ -1,0 +1,23 @@
+                      Contrast  Word lengths        A             B Paired Parametric      T      dof alternative  p-unc  BF10  hedges
+                  Word lengths             - Pronouns Pronouns freq   True       True 75.488 1595.000   two-sided  0.000   inf   1.215
+               Noun_Verb_order             -       SV            VS  False       True -1.783  428.392   two-sided  0.075 0.357  -0.110
+               Noun_Verb_order             -       SV          free  False       True -2.658   52.971   two-sided  0.010 4.253  -0.381
+               Noun_Verb_order             -       VS          free  False       True -1.810   64.285   two-sided  0.075 0.755  -0.300
+Word lengths * Noun_Verb_order      Pronouns       SV            VS  False       True -2.787  421.891   two-sided  0.006 3.382  -0.175
+Word lengths * Noun_Verb_order      Pronouns       SV          free  False       True -2.889   52.481   two-sided  0.006 7.759  -0.439
+Word lengths * Noun_Verb_order      Pronouns       VS          free  False       True -1.681   62.910   two-sided  0.098 0.614  -0.287
+Word lengths * Noun_Verb_order Pronouns freq       SV            VS  False       True -0.550  425.340   two-sided  0.582 0.087  -0.034
+Word lengths * Noun_Verb_order Pronouns freq       SV          free  False       True -2.012   53.137   two-sided  0.049 1.035  -0.283
+Word lengths * Noun_Verb_order Pronouns freq       VS          free  False       True -1.681   65.255   two-sided  0.098 0.614  -0.273
+
+VS Languages mean Noun vs Verb lengths
+      T  dof alternative  p-val          CI95%  cohen-d      BF10  power
+-33.977  270   two-sided    0.0 [-1.84, -1.63]    1.452 5.363e+95    1.0
+
+SV Languages mean Noun vs Verb lengths
+      T  dof alternative  p-val         CI95%  cohen-d BF10  power
+-66.722 1274   two-sided    0.0 [-1.6, -1.51]     1.17  inf    1.0
+
+Free Languages mean Noun vs Verb lengths
+      T  dof alternative  p-val          CI95%  cohen-d      BF10  power
+-12.317   49   two-sided    0.0 [-2.05, -1.47]    1.306 4.732e+13    1.0

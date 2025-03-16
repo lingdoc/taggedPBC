@@ -72,8 +72,7 @@ def get_orders(nslist, vslist, taggedbib, isodict, iso, nfcol, vfcol, nlcol, vlc
     avglenfreqnouns = statistics.mean([len(x) for x in nouns])
     isodict[iso][nlcol] = avglennouns
     isodict[iso][nlfcol] = avglenfreqnouns
-    # there is one language with noun lengths longer than 14 chars
-    # (`blk` [Pa'o Karen] has word lengths of 22, due to errors in segmentation/romanization)
+    # are there any languages with noun lengths longer than 14 chars?
     if avglennouns > 14:
         print(f"Avg noun lengths for {iso}:", avglennouns)
         # print(f"Number of nouns for {iso}:", nounnums)
@@ -93,8 +92,7 @@ def get_orders(nslist, vslist, taggedbib, isodict, iso, nfcol, vfcol, nlcol, vlc
     avglenfreqverbs = statistics.mean([len(x) for x in verbs])
     isodict[iso][vlcol] = avglenverbs
     isodict[iso][vlfcol] = avglenfreqverbs
-    # there is one language with verb lengths longer than 14 chars
-    # (`blk` [Pa'o Karen] has word lengths of 22, due to errors in segmentation/romanization)
+    # are there any languages with verb lengths longer than 14 chars?
     if avglenverbs > 14:
         print(f"Avg verb lengths for {iso}:", avglenverbs)
         # print(f"Number of verbs for {iso}:", verbnums)

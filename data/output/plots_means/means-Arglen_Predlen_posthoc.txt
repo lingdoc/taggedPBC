@@ -1,0 +1,23 @@
+                      Contrast Word lengths         A          B Paired Parametric      T      dof alternative  p-unc      BF10  hedges
+                  Word lengths            - Arguments Predicates   True       True -9.947 1595.000   two-sided  0.000 1.811e+19  -0.100
+               Noun_Verb_order            -        SV         VS  False       True -4.607  431.176   two-sided  0.000  2402.099  -0.284
+               Noun_Verb_order            -        SV       free  False       True -3.629   52.536   two-sided  0.001    74.757  -0.548
+               Noun_Verb_order            -        VS       free  False       True -1.714   62.337   two-sided  0.092     0.646  -0.297
+Word lengths * Noun_Verb_order    Arguments        SV         VS  False       True -3.117  427.307   two-sided  0.002     8.795  -0.193
+Word lengths * Noun_Verb_order    Arguments        SV       free  False       True -3.183   52.141   two-sided  0.002    17.928  -0.507
+Word lengths * Noun_Verb_order    Arguments        VS       free  False       True -1.917   61.095   two-sided  0.060     0.909  -0.343
+Word lengths * Noun_Verb_order   Predicates        SV         VS  False       True -5.684  433.746   two-sided  0.000 5.197e+05  -0.348
+Word lengths * Noun_Verb_order   Predicates        SV       free  False       True -3.959   52.969   two-sided  0.000   242.708  -0.567
+Word lengths * Noun_Verb_order   Predicates        VS       free  False       True -1.503   63.787   two-sided  0.138     0.472  -0.252
+
+VS Languages mean Noun vs Verb lengths
+      T  dof alternative  p-val          CI95%  cohen-d      BF10  power
+-12.622  270   two-sided    0.0 [-0.42, -0.31]    0.305 6.187e+25  0.999
+
+SV Languages mean Noun vs Verb lengths
+     T  dof alternative  p-val          CI95%  cohen-d      BF10  power
+-5.125 1274   two-sided    0.0 [-0.11, -0.05]    0.057 1.357e+04  0.534
+
+Free Languages mean Noun vs Verb lengths
+     T  dof alternative  p-val          CI95%  cohen-d      BF10  power
+-5.488   49   two-sided    0.0 [-0.44, -0.21]    0.229 1.175e+04  0.356

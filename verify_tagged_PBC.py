@@ -121,7 +121,7 @@ main = pd.read_excel("data/output/stats_All.xlsx", index_col=0).to_dict('index')
 print(len(main)) # check the number of languages
 
 # select the datasets with word order info
-datasets = ['grambank_word_order.xlsx', 'wals_word_order.xlsx', 'autotyp_word_order.xlsx',]
+datasets = ['wals_word_order.xlsx', 'grambank_word_order.xlsx', 'autotyp_word_order.xlsx',]
 datasets = ['data/word_order/'+x for x in datasets]
 
 newdf = pd.DataFrame() # instantiate a new df to store info
@@ -169,7 +169,7 @@ for data in datasets:
 
 newdf = newdf.reset_index()
 newdf = newdf[newdf['Noun_Verb_order'] != 'UNK'] # remove languages with "UNK" word order
-newdf = newdf.drop_duplicates(subset=['index'], keep='first')
+newdf = newdf.drop_duplicates(subset=['index'], keep='first') # remove duplicated classifications
 
 newdf.to_excel("data/output/All_comparisons.xlsx", index=False)
 
@@ -183,7 +183,7 @@ datasets = ['comparisons_Grambank.xlsx', 'comparisons_WALS.xlsx', 'comparisons_A
 datasets = ['data/output/'+x for x in datasets]
 
 for nfile in datasets:
-    outfold = "data/output/plots/"
+    outfold = "data/output/plots_wdorder/"
     ds = nfile.split("_")[-1][:-5]
 
     print(nfile)

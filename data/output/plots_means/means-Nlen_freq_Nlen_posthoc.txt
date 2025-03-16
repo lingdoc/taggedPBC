@@ -1,0 +1,23 @@
+                      Contrast Word lengths     A          B Paired Parametric      T      dof alternative  p-unc       BF10  hedges
+                  Word lengths            - Nouns Nouns freq   True       True 34.812 1595.000   two-sided  0.000 8.552e+193   0.219
+               Noun_Verb_order            -    SV         VS  False       True -3.091  419.213   two-sided  0.002       8.12  -0.195
+               Noun_Verb_order            -    SV       free  False       True -3.395   51.944   two-sided  0.001     34.448  -0.557
+               Noun_Verb_order            -    VS       free  False       True -2.142   60.916   two-sided  0.036      1.384  -0.385
+Word lengths * Noun_Verb_order        Nouns    SV         VS  False       True -3.688  419.995   two-sided  0.000      58.68  -0.232
+Word lengths * Noun_Verb_order        Nouns    SV       free  False       True -3.474   52.172   two-sided  0.001     44.575  -0.551
+Word lengths * Noun_Verb_order        Nouns    VS       free  False       True -1.952   61.798   two-sided  0.055      0.967  -0.343
+Word lengths * Noun_Verb_order   Nouns freq    SV         VS  False       True -2.445  418.737   two-sided  0.015      1.408  -0.154
+Word lengths * Noun_Verb_order   Nouns freq    SV       free  False       True -3.274   51.750   two-sided  0.002     23.575  -0.554
+Word lengths * Noun_Verb_order   Nouns freq    VS       free  False       True -2.292   60.148   two-sided  0.025      1.879  -0.421
+
+VS Languages mean Noun vs Verb lengths
+      T  dof alternative  p-val         CI95%  cohen-d      BF10  power
+-20.822  270   two-sided    0.0 [-0.4, -0.33]     0.31 3.748e+54  0.999
+
+SV Languages mean Noun vs Verb lengths
+      T  dof alternative  p-val          CI95%  cohen-d       BF10  power
+-28.978 1274   two-sided    0.0 [-0.28, -0.25]    0.205 2.021e+138    1.0
+
+Free Languages mean Noun vs Verb lengths
+     T  dof alternative  p-val          CI95%  cohen-d     BF10  power
+-5.155   49   two-sided    0.0 [-0.36, -0.16]    0.177 3987.208  0.234

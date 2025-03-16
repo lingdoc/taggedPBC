@@ -122,8 +122,6 @@ def test_classifier_on_df(filen, classifiers, original):
 	dataset = pd.concat([dataset, unks])
 	print(len(dataset))
 	# print(dataset.columns)
-	# remove outlier: `blk` (Pa'o Karen) has word lengths of 22, due to errors in segmentation/romanization
-	dataset = dataset[dataset['index']!='blk']
 	# language with iso 'nan' gets removed because python thinks it's NaN, so restore it here
 	dataset['index'] = dataset['index'].fillna('nan')
 	print(len(dataset))

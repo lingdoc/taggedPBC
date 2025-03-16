@@ -1,0 +1,23 @@
+                      Contrast Word lengths     A          B Paired Parametric      T      dof alternative  p-unc      BF10  hedges
+                  Word lengths            - Verbs Verbs freq   True       True 50.840 1595.000   two-sided  0.000       inf   0.362
+               Noun_Verb_order            -    SV         VS  False       True -6.250  439.522   two-sided  0.000 1.349e+07  -0.379
+               Noun_Verb_order            -    SV       free  False       True -4.082   53.165   two-sided  0.000   386.562  -0.572
+               Noun_Verb_order            -    VS       free  False       True -1.369   64.017   two-sided  0.176     0.396  -0.228
+Word lengths * Noun_Verb_order        Verbs    SV         VS  False       True -5.755  434.302   two-sided  0.000 7.659e+05  -0.352
+Word lengths * Noun_Verb_order        Verbs    SV       free  False       True -3.986   52.992   two-sided  0.000   267.909  -0.569
+Word lengths * Noun_Verb_order        Verbs    VS       free  False       True -1.496   63.827   two-sided  0.140     0.468  -0.251
+Word lengths * Noun_Verb_order   Verbs freq    SV         VS  False       True -6.589  442.781   two-sided  0.000 1.094e+08  -0.397
+Word lengths * Noun_Verb_order   Verbs freq    SV       free  False       True -4.095   53.334   two-sided  0.000   405.336  -0.563
+Word lengths * Noun_Verb_order   Verbs freq    VS       free  False       True -1.211   64.356   two-sided  0.230     0.328  -0.201
+
+VS Languages mean Noun vs Verb lengths
+      T  dof alternative  p-val          CI95%  cohen-d      BF10  power
+-18.859  270   two-sided    0.0 [-0.53, -0.43]    0.363 5.388e+47    1.0
+
+SV Languages mean Noun vs Verb lengths
+      T  dof alternative  p-val          CI95%  cohen-d       BF10  power
+-46.487 1274   two-sided    0.0 [-0.59, -0.54]    0.368 2.926e+272    1.0
+
+Free Languages mean Noun vs Verb lengths
+     T  dof alternative  p-val          CI95%  cohen-d      BF10  power
+-9.036   49   two-sided    0.0 [-0.67, -0.43]    0.367 1.711e+09  0.721
