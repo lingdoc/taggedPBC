@@ -12,7 +12,7 @@
 
 import re, sys, glob, os, random, tqdm
 import unicodedataplus as ud
-from uroman import uroman # for romanization
+import uroman as ur # for romanization
 from fugashi import Tagger as ftagger # for tokenizing Japanese
 from khmernltk import word_tokenize as khmtok # for tokenizing Khmer
 import jieba # for tokenizing Mandarin
@@ -28,10 +28,12 @@ def get_romanization(line):
 	number = line[0][0]
 	text = line[0][1]
 	# Processing...
-	roman = uroman(text, language=line[1])
+	roman = uroman.romanize_string(text, lcode=line[1])
 	return number, roman
 
 jtagger = ftagger('-Owakati') # choose this dictionary for tokenizing Japanese
+
+uroman = ur.Uroman()   # load uroman data (takes about a second or so)
 
 # romanized_ru = uroman("Да это транслит")
 # # romanized_ru == "Da eto transit"
@@ -144,6 +146,8 @@ for curFile in tqdm.tqdm(fileList):
 				elif fiso == 'khm':
 					textToWrite = [[x[0], " ".join(khmtok(x[1], return_tokens=True))] for x in textToWrite]
 				elif fiso == 'ksw':
+					textToWrite = [[x[0], " ".join(pds.tokenize(x[1], lang="karen", form="word"))] for x in textToWrite]
+				elif fiso == 'blk':
 					textToWrite = [[x[0], " ".join(pds.tokenize(x[1], lang="karen", form="word"))] for x in textToWrite]
 				elif fiso == 'cmn':
 					textToWrite = [[x[0], " ".join(jieba.lcut(x[1]))] for x in textToWrite]
