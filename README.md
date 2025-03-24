@@ -17,8 +17,9 @@ Explanation of the code and the reasoning behind it continues at length below. T
 
 - The `analysis` folder contains code to conduct ANOVAs, get statistics and patterns from the tagged PBC, and train classifiers for imputing word order.
 
-- The `checks` folder contains code for checking the tags in the tagged PBC against existing POS taggers and hand-annotated data. It additionally contains subfolders:  
-  - `results`: a folder containing correspondence results from comparison of tags with relevant repositories.
+- The `checks` folder contains code for checking the tags in the tagged PBC against existing POS taggers and hand-annotated data, as well as assessing how well the lengths of Nouns/Verbs predicts word order in relation to descent from a common ancestor. It additionally contains subfolders:  
+  - `glottolog`: a folder containing data files sourced from Glottolog with language family information for the ISO codes in the dataset.
+  - `results`: a folder containing correspondence results from comparison of tags with relevant repositories, and results from hierarchical linear regression models.
   - `tag_models`: a folder containing model language codes for the trained taggers.
   - `test_hbo_heb`: a folder with code to test word order classification of Ancient/Modern Hebrew based on Noun and Verb lengths in corpora.
 
@@ -46,7 +47,8 @@ Explanation of the code and the reasoning behind it continues at length below. T
 &nbsp;&nbsp;[3. Comparing word length and word order](#compare-averages)  
 &nbsp;&nbsp;&nbsp;&nbsp;[3.1 Results](#results)  
 &nbsp;&nbsp;&nbsp;&nbsp;[3.2 Testing predictive validity](#testing-predictive-validity)  
-&nbsp;&nbsp;&nbsp;&nbsp;[3.3 Discussion](#discussion)  
+&nbsp;&nbsp;&nbsp;&nbsp;[3.3 Testing descent](#testing-descent)  
+&nbsp;&nbsp;&nbsp;&nbsp;[3.4 Discussion](#discussion)  
 &nbsp;&nbsp;[References](#references)  
 
 
@@ -296,7 +298,7 @@ The only condition where this is not the case is where we compare only nouns/ver
 
 ![Nouns and Verbs with frequency](data/output/plots_means/means-Nlen_freq_Vlen_freq_plot.png)
 
-#### 3.2 Testing predictive validity of word lengths (`checks/test_hbo_heb/classify_lgs.py`) <a name="testing-predictive-validity"></a>
+#### 3.2 Testing predictive validity of word lengths (`verify_tagged_PBC.py`) <a name="testing-predictive-validity"></a>
 
 This finding suggests that word class length is a factor in how word order is realized in language, but how real is this apparent effect? One way of assessing the strength of this effect is to see whether the relative length of nouns and verbs can predict word order in corpora. That is, can we determine, based on just the relative length of nouns and verbs in tagged corpora, what the language's basic word order is? To investigate this question we can test how well a classifier is able to identify different word orders based on this feature.
 
@@ -306,13 +308,69 @@ Importantly, 3 additional features are added to the training data besides the av
 
 Training the model with these five features on the known word order data from the typological databases gives an accuracy of 66% on the test set, while training with the imputed word order gives an accuracy of 68%. In both cases, the trained classifier accurately classifies Ancient Hebrew as VS and Modern Hebrew as SV, based on the data extracted from the UD corpora.
 
-#### 3.3 Discussion <a name="discussion"></a>
+#### 3.3 Testing descent from a common ancestor (`verify_tagged_PBC.py`) <a name="testing-descent"></a>
+
+In an influential paper, [Dunn et al (2011)](#11) showed that descent from a common ancestor was a better predictor of a large number of grammatical patterns than other explanations. Although [Jäger & Wahle (2021)](#12) counter this finding with additional data, we can also assess this claim using the current dataset to see if descent is more explanatory of word order for a given language than the lengths of nouns and verbs. This investigation can proceed with several (motivated) simplifying assumptions regarding the family relationships.
+
+First, for each language we can take the highest level node of family membership that is known based on current scholarship. This is because all modern languages are the same age, and while their pathways/histories may differ, this does not impact whether they can be considered part of the same related tree. That is, if descent is more explanatory than word class length, we would expect languages belonging to the same tree to have a higher likelihood of sharing the same word order than not.
+
+Second, we can run various analyses with differing datasets in order to see how this affects the statistical robustness of the findings. It may be, for example, that using a smaller sample gives a different result than a larger or more diverse one. Here, the more languages we have for a language family, the higher the likelihood that any relationship identified is not due to chance.
+
+Finally, we can remove languages with "free" word order from consideration, as this leaves us with a binary distinction in word order (SV-VS) that opens up more possibilities for statistical tools.
+
+In particular, the use of a binary dependent variable for word order means we can use a statistical method called "hierarchical linear regression". This technique allows us to observe the relative impact of particular features that are theoretically relevant to the question at hand by seeing how they influence the performance of successive models. In the case of word order, we can train a regression model with a feature known to be relevant to word order (the N1 ratio), and then subsequent models that incorporate additional features of interest ("noun lengths", "verb lengths", "family membership"). We can then compare the models to see whether the additional features increase the variance explained in the data via the F-score: an increase in F-score and its significance indicates more variance explained by the particular feature added in a model.
+
+Accordingly, using the ISO codes, I retrieved the family membership for all languages in the taggedPBC from [Glottolog](https://glottolog.org/). Then I filtered the taggedPBC data on four conditions:
+1. `Dunn_lgs_tPBC`: languages found in the Dunn et al paper that are also present in the taggedPBC (106 languages)
+2. `Dunn_fams_tPBC`: languages found in the taggedPBC that are in the four families investigated by Dunn et al (706 languages)
+3. `>80_lg_families`: languages in families with more than 80 members in the taggedPBC (883 languages)
+4. `>1_lg_families`: languages in families with 2 or more members in the taggedPBC (1486 languages)
+
+For each of these conditions, we can run a hierarchical linear regression (`checks/hierlinreg.py` or via `verify_tagged_PBC.py`) with the N1 ratio as primary feature of the base model, add in the features of noun/verb lengths (frequency weighted) to the second model, and then add descent (family membership) as a feature for the third model. This gives us the following results:
+
+ Dunn_lgs results:
+
+| Model                     | N (obs) | F-val      | P-val (F) | F-val change | P-val (F-val change) |
+| ------------------------- | ------- | ---------- | --------- | ------------ | -------------------- |
+| 1                         | 106     | 45.847362  | 7.81E-10  | NaN          | NaN                  |
+| 2                         | 106     | 16.036528  | 1.30E-08  | 1.090996     | 0.339769             |
+| 3                         | 106     | 11.94028   | 5.54E-08  | 0.083715     | 0.772918             |
+
+ Dunn_fams results:
+
+| Model                     | N (obs) | F-val      | P-val (F) | F-val change | P-val (F-val change) |
+| ------------------------- | ------- | ---------- | --------- | ------------ | -------------------- |
+| 1                         | 706     | 275.259163 | 2.00E-52  | NaN          | NaN                  |
+| 2                         | 706     | 104.004835 | 1.03E-55  | 13.492995    | 0.000002             |
+| 3                         | 706     | 79.302067  | 1.66E-55  | 3.903332     | 0.048582             |
+
+ \>80_lg_families results:
+
+| Model                     | N (obs) | F-val      | P-val (F) | F-val change | P-val (F-val change) |
+| ------------------------- | ------- | ---------- | --------- | ------------ | -------------------- |
+| 1                         | 883     | 309.815173 | 1.18E-59  | NaN          | NaN                  |
+| 2                         | 883     | 114.328324 | 1.65E-62  | 12.530165    | 0.000004             |
+| 3                         | 883     | 87.141578  | 2.28E-62  | 4.295457     | 0.038506             |
+
+ \>1_lg_families results:
+
+| Model                     | N (obs) | F-val      | P-val (F) | F-val change | P-val (F-val change) |
+| ------------------------- | ------- | ---------- | --------- | ------------ | -------------------- |
+| 1                         | 1486    | 586.46228  | 1.87E-109 | NaN          | NaN                  |
+| 2                         | 1486    | 212.908013 | 7.97E-115 | 19.012511    | 7.03E-09             |
+| 3                         | 1486    | 165.682708 | 2.67E-117 | 17.077562    | 3.79E-05             |
+
+From these analyses we can see that the length of nouns and verbs in a language accounts for more variance and at the same time is more significant than that language's family membership in determining its word order classification.
+
+#### 3.4 Discussion <a name="discussion"></a>
 
 The results suggest some interesting nuances to the discussion of processing and word order. First, Wasow's claim is supported to some degree, in that when we consider "arguments" as a larger class, the tendency crosslinguistically is for such arguments to be shorter than verbs/predicates. Given that non-noun arguments (pronouns, proper nouns) are quite frequent in usage, this may provide some pressure (via the principle of "efficiency") for languages to place such items first in a sentence.
 
 The surprising finding that nouns (on their own) are longer than verbs (on their own) in SV languages, and that the opposite is true for VS languages, suggests another pressure whereby languages present more difficult-to-process information (or perhaps words that are more informative) first. This may provide an explanation for why VS languages are relatively stable despite the pressure provided by the use of easy-to-parse non-noun arguments.
 
 Additionally, it is quite striking that measuring the length of nouns and verbs in corpora can allow us to accurately classify word order in Hebrew. The classifier is assessing data rather different from the tagged PBC, taken from two time points in a language in which word order is known to have changed. This indicates that there is a real effect of word class length on how word order develops over time.
+
+Finally, hierarchical linear regression shows that word class length is more explanatory than family membership in relation to a language's word order.
 
 ## References <a name="references"></a>
 
@@ -348,3 +406,9 @@ Skirgård, Hedvig et al. 2023. Grambank v1.0 (v1.0.3) [Data set]. Zenodo. https:
 
 <a id="10">[10]</a>
 Brysbaert, M., Mandera, P., & Keuleers, E. 2018. The Word Frequency Effect in Word Processing: An Updated Review. Current Directions in Psychological Science, 27(1), 45-50. https://doi.org/10.1177/0963721417727521  
+
+<a id="11">[11]</a>
+Dunn, M., Greenhill, S., Levinson, S. et al. 2011. Evolved structure of language shows lineage-specific trends in word-order universals. Nature 473, 79–82. https://doi.org/10.1038/nature09923  
+
+<a id="12">[12]</a>
+Jäger, G. and Wahle, J. 2021. Phylogenetic Typology. Front. Psychol. 12:682132. doi: 10.3389/fpsyg.2021.682132  
