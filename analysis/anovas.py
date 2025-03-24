@@ -98,7 +98,7 @@ def get_anova_wordorder(df, subj, betw, within, outfold, ds):
     print()
 
     # plot the data
-    ax = sns.pointplot(data=df, x=betw, y=within, hue=betw, dodge=True, capsize=.05, errorbar='se', linestyle='', order=['SV', 'VS', 'free'], palette=sns.color_palette('bright'))
+    ax = sns.pointplot(data=df, x=betw, y=within, hue=betw, dodge=True, capsize=.05, errorbar='se', order=['SV', 'VS', 'free'], palette=sns.color_palette('bright'))
     # plt.ylim(3.5, 8)
     _ = plt.title('N1 ratio and word order ({source})'.format(source=ds))
     # plt.style.use(plot_settings)

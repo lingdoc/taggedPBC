@@ -31,42 +31,42 @@ preprocessor = ColumnTransformer(
         ]
 	)
 
+le = LabelEncoder() # label encoder to make it easier to convert between numbers/labels
+
 # a function to add our categorical variable (whether nouns or verbs are longer)
 def eval_len(df, ncol, vcol, new):
     df.loc[df[ncol] > df[vcol], new] = 'N'
     df.loc[df[ncol] < df[vcol], new] = 'V'
     df.loc[df[ncol] == df[vcol], new] = 'N'
 
-# import dataset of word order comparisons, doesn't affect outcome
-# data = "../../data/output/All_comparisons_imputed.xlsx" # including all languages from the tagged PBC
-data = "../../data/output/All_comparisons.xlsx" # only languages from typological databases
+def get_train_data(data):
+	# convert dataset to a pandas dataframe
+	dataset = pd.read_excel(data)
+	# reduce dataset to the following columns
+	names = ['index', 'Nlen', 'Vlen', 'Nlen_freq', 'Vlen_freq', 'N1ratio-NsVs', 'N1ratio-ArgsPreds', 'Noun_Verb_order']
+	dataset = dataset[names]
+	# compute ratio
+	dataset['NVlenFreqRatio'] = dataset['Nlen_freq']/dataset['Vlen_freq']
+	# compute difference
+	dataset['NVlenFreqDiff'] = dataset['Nlen_freq']-dataset['Vlen_freq']
+	# add categorical columns
+	eval_len(dataset, 'Nlen_freq', 'Vlen_freq', 'Longer_Freq')
 
-# convert dataset to a pandas dataframe
-dataset = pd.read_excel(data)
-# reduce dataset to the following columns
-names = ['index', 'Nlen', 'Vlen', 'Nlen_freq', 'Vlen_freq', 'N1ratio-NsVs', 'N1ratio-ArgsPreds', 'Noun_Verb_order']
-dataset = dataset[names]
-# compute ratio
-dataset['NVlenFreqRatio'] = dataset['Nlen_freq']/dataset['Vlen_freq']
-# compute difference
-dataset['NVlenFreqDiff'] = dataset['Nlen_freq']-dataset['Vlen_freq']
-# add categorical columns
-eval_len(dataset, 'Nlen_freq', 'Vlen_freq', 'Longer_Freq')
+	print(dataset.head()) # view the first 5 rows
+	print(len(dataset)) # view the length
+	dataset = dataset[dataset['index'] != 'heb'] # remove Modern Hebrew from the dataset, since we'll be predicting it later
 
-print(dataset.head()) # view the first 5 rows
-print(len(dataset)) # view the length
-dataset = dataset[dataset['index'] != 'heb'] # remove Modern Hebrew from the dataset, since we'll be predicting it later
+	# use the label encoder to convert our word orders to classes
+	le.fit(dataset['Noun_Verb_order'])
+	print(list(le.classes_))
+	dataset['Class'] = list(le.transform(dataset['Noun_Verb_order']))
+	print(dataset.columns)
+	# Assign values to the X and y variables
+	print(numerical_features+categorical_features)
+	X = dataset[numerical_features+categorical_features]
+	y = dataset['Class']
 
-# use the label encoder to convert our word orders to classes
-le = LabelEncoder()
-le.fit(dataset['Noun_Verb_order'])
-print(list(le.classes_))
-dataset['Class'] = list(le.transform(dataset['Noun_Verb_order']))
-print(dataset.columns)
-# Assign values to the X and y variables
-print(numerical_features+categorical_features)
-X = dataset[numerical_features+categorical_features]
-y = dataset['Class']
+	return X, y
 
 # a function to instantiate the classifier pipeline
 def get_pipe(preprocessor, classifier):
@@ -75,7 +75,7 @@ def get_pipe(preprocessor, classifier):
 	)
 	return clf
 
-# a function to test the classifier on known data
+# a function to train and test the classifier on data
 def test_clf(X, y, preprocessor, clf, name):
 	clf = get_pipe(preprocessor, clf)
 
@@ -85,49 +85,49 @@ def test_clf(X, y, preprocessor, clf, name):
 	score = clf.score(X_test, y_test)
 	print("{name} model score: {score:.3f}".format(name=name, score=score))
 
+# a function to train the classifier on all data
 def train_clf(X, y, preprocessor, clf, name):
 	clf = get_pipe(preprocessor, clf)
 	clf.fit(X, y)
 	return clf
 
-# create a dictionary of classifiers for testing multiple
-classifiers = {"GNB": GaussianNB(),}
-for clf in classifiers.keys():
-	test_clf(X, y, preprocessor, classifiers[clf], clf)
+# a function to get the data we want to predict on (from the UD corpora)
+def get_predict_data(original):
+	df = pd.read_excel(original)
+	# compute additional dimensions for data
+	df['NVlenFreqRatio'] = df['Nlen_freq']/df['Vlen_freq']
+	df['NVlenFreqDiff'] = df['Nlen_freq']-df['Vlen_freq']
+	# add categorical data
+	eval_len(df, 'Nlen_freq', 'Vlen_freq', 'Longer_Freq')
+	# print(df.head())
+	# print(len(df))
+	return df
 
-# import stats on nouns/verbs from POS-tagged corpora of Ancient and Modern Hebrew via UD 2.14
-original = "UD_stats.xlsx"
-df = pd.read_excel(original)
-# compute additional dimensions for data
-df['NVlenFreqRatio'] = df['Nlen_freq']/df['Vlen_freq']
-df['NVlenFreqDiff'] = df['Nlen_freq']-df['Vlen_freq']
-# add categorical data
-eval_len(df, 'Nlen_freq', 'Vlen_freq', 'Longer_Freq')
-print(df.head())
-print(len(df))
+# a function to train on (X, y) and predict on `df` using the trained classifier
+def train_predict(df, classifiers, X, y):
+	# train the classifier and predict on data
+	predictions = []
+	for clf in classifiers.keys():
+		model = train_clf(X, y, preprocessor, classifiers[clf], clf)
+		preds = list(model.predict(df))
+		predictions.append(preds)
 
-# train the classifier and predict on data
-predictions = []
-for clf in classifiers.keys():
-	model = train_clf(X, y, preprocessor, classifiers[clf], clf)
-	preds = list(model.predict(df))
-	predictions.append(preds)
+	# the code below averages the predictions (if using an ensemble method)
+	# or converts the array to a list (if using a single classifier)
+	print(predictions)
+	finalpreds = []
+	for cl in list(range(len(predictions[0]))):
+		avgs = []
+		for z in list(range(len(classifiers))):
+			avgs.append(predictions[z][cl])
+		avgs = round(sum(avgs)/len(avgs))
+		finalpreds.append(avgs)
+	print(len(finalpreds))
 
-# the code below averages the predictions (if using an ensemble method)
-# or converts the array to a list (if using a single classifier)
-print(predictions)
-finalpreds = []
-for cl in list(range(len(predictions[0]))):
-	avgs = []
-	for z in list(range(len(classifiers))):
-		avgs.append(predictions[z][cl])
-	avgs = round(sum(avgs)/len(avgs))
-	finalpreds.append(avgs)
-print(len(finalpreds))
+	print(Counter(finalpreds))
 
-print(Counter(finalpreds))
+	df["Noun_Verb_order"] = list(le.inverse_transform(finalpreds))
+	print(df.head())
 
-df["Noun_Verb_order"] = list(le.inverse_transform(finalpreds))
-print(df.head())
+	return df
 
-df.to_excel("word_order_hbo_heb.xlsx", index=False)
