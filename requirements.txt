@@ -5,3 +5,4 @@ pingouin==0.5.5
 seaborn==0.13.2
 numpy<2
 tqdm
+hlr
