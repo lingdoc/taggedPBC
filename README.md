@@ -244,7 +244,7 @@ To determine the degree to which the “N1 ratio” aligns with these expert cod
 ##### 2.3.2 Comparisons with Autotyp
 
 The AUTOTYP database is a set of linguistic data that depends “on an automatic generation of category lists during data input” (Bickel et al., 2022). It contains typological information on 2,830
-languages, of which 452 have information on word order, 180 of which are also found in the PBC. The AUTOTYP database identifies languages as “V=1” (verb first), “V=2” (verb second), “V=3” (verb third), or “free” (no dominant order). For our purposes, we consider both “V=2” and “V=3” languages to be “SV”, while “V=1” is “VS”, allowing for comparison with the N1 ratio.
+languages, of which 452 have information on word order; 180 of these are also found in the PBC. The AUTOTYP database identifies languages as “V=1” (verb first), “V=2” (verb second), “V=3” (verb third), or “free” (no dominant order). For our purposes, we consider both “V=2” and “V=3” languages to be “SV”, while “V=1” is “VS”, allowing for comparison with the N1 ratio.
 
 ![N1 ratio and Autotyp](data/output/plots_wdorder/N1ratio-ArgsPreds_Autotyp.png)
 
@@ -327,7 +327,7 @@ In particular, the use of a binary dependent variable for word order means we ca
 Accordingly, using the ISO codes, I retrieved the family membership for all languages in the taggedPBC from [Glottolog](https://glottolog.org/). Then I filtered the taggedPBC data on four conditions:
 1. `Dunn_lgs_tPBC`: languages found in the Dunn et al paper that are also present in the taggedPBC (106 languages)
 2. `Dunn_fams_tPBC`: languages found in the taggedPBC that are in the four families investigated by Dunn et al (539 languages)
-3. `>75_lg_families`: languages in families with more than 80 members in the taggedPBC (962 languages)
+3. `>75_lg_families`: languages in families with more than 75 members in the taggedPBC (962 languages)
 4. `>1_lg_families`: languages in families with 2 or more members in the taggedPBC (1486 languages)
 
 For each of these conditions, we can run a hierarchical linear regression (`checks/hierlinreg.py` or via `verify_taggedPBC.py`) with the N1 ratio as primary feature of the base model, then incorporate language area (a combination of macro area and GPS coordinates as identified by Glottolog) as a feature in the second model, add in the feature of family membership (descent) to the third model, and then noun/verb lengths (frequency weighted) to the fourth model. This gives us the following results:
