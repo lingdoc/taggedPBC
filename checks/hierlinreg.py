@@ -19,12 +19,16 @@ def get_families(filen, complete, linfile):
      
      # create a dict with the lineages present in our dataset
      indict = {}
-     indict = {y: k for k, v in lineages.items() for y in v if y not in indict.keys()}
+     indict = {y: [k, v[y][1], v[y][2], v[y][3]] for k, v in lineages.items() for y in v.keys() if y not in indict.keys()}
      print("Number of lineages in the data:", len(indict))
      # print(len(df))
      print(df.head())
      # create a new column with the family line for each ISO code
-     df["Family_line"] = [indict[x].split("\t")[1] for x in df['index']]
+     df["Family_line"] = [indict[x][0].split("\t")[1] for x in df['index']]
+     # create new colums with latitude, longitude, macroarea for each ISO code
+     df["latitude"] = [indict[x][1] for x in df['index']]
+     df["longitude"] = [indict[x][2] for x in df['index']]
+     df["macroarea"] = [indict[x][3] for x in df['index']]
      print(df['Family_line'])
      df.to_excel(filen)
 
@@ -37,6 +41,8 @@ def filter_families(df, listval):
           famdict2 = {k: v for k, v in famdict.items() if k in listval} # check whether the item is in the list
      elif isinstance(listval, int):
           famdict2 = {k: v for k, v in famdict.items() if v > listval} # check whether the values is greater than the int
+     elif isinstance(listval, tuple):
+          famdict2 = {k: v for k, v in famdict.items() if listval[1] > v > listval[0]} # check whether the values is greater than the int
      else:
           print(type(listval), "not supported.")
 
@@ -63,11 +69,13 @@ def run_HLR(df, X, y, name, folder):
      print("\n"+name+" results:")
      # Generate a summarised report of HLR
      summ = hreg.summary()
-     summ.to_excel(folder+"HLR_results_"+name+"_tPBC.xlsx")
+     outfile = folder+"HLR_results_"+name+"_tPBC"
+     summ.to_excel(outfile+".xlsx") # these are the full statistical results
      cols = ['Model Level', 'N (observations)', 'F-value', 'P-value (F)', 'F-value change', 'P-value (F-value change)']#, 'Std Beta coefs'
      tsumm = summ[cols]
      tsumm.columns = ['Model', 'N (obs)', 'F-val', 'P-val (F)', 'F-val change', 'P-val (F-val change)']#, 'Std Betas'
      print(tsumm.head())
+     tsumm.to_csv(outfile+".csv") # these are the main statistical results
 
      # # Run diagnostics on all the models and display in terminal
      # hreg.diagnostics(verbose=True)

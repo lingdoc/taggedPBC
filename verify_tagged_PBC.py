@@ -256,7 +256,7 @@ df.to_excel("checks/test_hbo_heb/word_order_hbo_heb.xlsx", index=False)
 import checks.hierlinreg
 from checks.hierlinreg import *
 
-famfile = "checks/glottolog/All_comparisons_imputed_families.xlsx" # the file where we add family info from Glottolog
+famfile = "checks/glottolog/All_comparisons_imputed_families_geodata.xlsx" # the file where we add family info from Glottolog
 complete = "data/output/All_comparisons_imputed.xlsx" # the file with all word orders for the taggedPBC
 
 # check if the file with families exists
@@ -274,8 +274,8 @@ print("Number of languages investigated by Dunn et al:", len(dunnlist))
 print(dunn['Family'].value_counts()) # these are the number of languages per family in the Dunn et al paper
 print(list(dunn['Family'].value_counts().keys())) # these are the language families in the Dunn et al paper
 # we could replace 'Bantu' with 'Atlantic-Congo', which is the top-level language family
-# but let's be a bit more selective and choose 'Narrow Bantu' (Glottocode 'narr1281')
-# for this we will need to import another file which contains languages with that classification
+# but let's be a bit more selective and choose 'Narrow Bantu' (Glottocode 'narr1281'), which is more in line with Dunn et al
+# for this we will need to import another file containing languages with that classification
 dunnfams = ['Narrow Bantu', 'Austronesian', 'Indo-European', 'Uto-Aztecan']
 with open("checks/glottolog/NarrowBantu-narr1281.json") as f:
     bantu = json.load(f) # load the list with ISO codes of 'Narrow Bantu' lgs from Glottolog, stored in json format
@@ -284,20 +284,21 @@ with open("checks/glottolog/NarrowBantu-narr1281.json") as f:
 df = pd.read_excel(famfile)
 df['index'] = df['index'].fillna('nan') # when pandas imports the spreadsheet it thinks this ISO code is NaN
 # print(df.head())
+df.loc[df['index'].isin(bantu), 'Family_line'] = 'Narrow Bantu' # change this value for languages in the Bantu list
 
 # remove 'free' languages from the dataset to allow for binary DV
 df = df[~df["Noun_Verb_order"].str.contains('free')]
 print("Number of languages in the taggedPBC with SV/VS orders:", len(df))
+print("Top 10 families by number of members in the taggedPBC:", df['Family_line'].value_counts()[:10])
 
 famlist = filter_families(df, dunnfams) # these are families in the taggedPBC and the Dunn et al paper (Bantu is subsumed by 'Atlantic-Congo')
-lgls1 = df[df['index'].isin(dunnlist)] # these are languages in the taggedPBC which are in the Dunn et al paper
+lgls1 = df[df['index'].isin(dunnlist)] # these are languages in the taggedPBC which are also in the Dunn et al paper
 print("Number of languages in the taggedPBC shared with Dunn et al:", len(lgls1))
-famlist = famlist+bantu # add the 'Narrow Bantu' languages
 lglist = filter_lgs(df, famlist) # these are languages in the taggedPBC which are in the families from the Dunn et al paper
 print("Number of languages in the taggedPBC shared with the families investigated by Dunn et al:", len(lglist))
-lnum = 80
-famlistcount = filter_lgs(df, filter_families(df, lnum))
-print("Number of languages in the taggedPBC in families with more than {num} members: {famc}".format(num=lnum, famc=len(famlistcount)))
+lnum = 75
+famlistcount1 = filter_lgs(df, filter_families(df, lnum))
+print("Number of languages in the taggedPBC in families with more than {num} members: {famc}".format(num=lnum, famc=len(famlistcount1)))
 cnum = 1
 famlistcount2 = filter_lgs(df, filter_families(df, cnum))
 print("Number of languages in the taggedPBC in families with more than {num} members: {famc}".format(num=cnum, famc=len(famlistcount2)))
@@ -307,27 +308,29 @@ print("All languages in the taggedPBC including isolates: {famc}".format(famc=le
 
 fit_transform_cats(df, 'Noun_Verb_order', 'Class') # convert the SV/VS classes to binary
 fit_transform_cats(df, 'Family_line', 'Fam_class') # convert the language family to numeric
+fit_transform_cats(df, 'macroarea', 'Macro_class') # convert the Macroarea to numeric
 
 # Define the models for hierarchical regression including predictors for each model
 X = {
-     1: ['N1ratio-ArgsPreds'], # variable known to differentiate word order between languages
-     2: ['N1ratio-ArgsPreds', 'Nlen_freq', 'Vlen_freq'], # include Nlen/Vlen
-     3: ['N1ratio-ArgsPreds', 'Nlen_freq', 'Vlen_freq', 'Fam_class'], # include family
+     1: ['N1ratio-ArgsPreds'], # variable known to differentiate word order between languages (base model)
+     2: ['N1ratio-ArgsPreds', 'latitude', 'longitude', 'Macro_class'], # include lat/long coordinates and macroarea
+     3: ['N1ratio-ArgsPreds', 'latitude', 'longitude', 'Macro_class', 'Fam_class'], # include family
+     4: ['N1ratio-ArgsPreds', 'latitude', 'longitude', 'Macro_class', 'Fam_class', 'Nlen_freq', 'Vlen_freq'], # include Nlen/Vlen
      }
 
 # Define the outcome variable
 y = 'Class' # SV/VS
 
-# set up a series of lists to check using HLR models
+# set up a series of lists of languages (samples) to check using HLR models
 checklists = [
                (dunnlist, "Dunn_lgs"), # the languages common to the taggedPBC and Dunn et al
                (lglist, "Dunn_fams"), # languages in the taggedPBC from the families investigated by Dunn et al
-               (famlistcount, ">{lnum}_lg_families".format(lnum=lnum)), # languages in the taggedPBC from families with a large number of members
-               (famlistcount2, ">{lnum}_lg_families".format(lnum=cnum)), # languages from families with 2+ members in the taggedPBC
+               (famlistcount1, ">{lnum}_lg_families".format(lnum=lnum)), # languages in the taggedPBC from families with a large number of members
+               (famlistcount2, ">{lnum}_lg_families".format(lnum=cnum)), # languages from families with 2+ members in the taggedPBC (excludes isolates)
                (famlistcount3, "All_lg_families".format()), # all languages in the taggedPBC
                ]
 
-# go through each list and run the HLR models
+# go through each sample and run the HLR models
 for num, check in enumerate(checklists):
      temp = df[df['index'].isin(check[0])]
      run_HLR(temp, X, y, str(num+1)+"_"+check[1], "checks/results/")
