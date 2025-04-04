@@ -24,6 +24,13 @@ if not os.path.isfile(outputfile):
 else:
     df = pd.read_excel(outputfile)
 
+## print out some basic stats from the dataset
+print("The average number of arguments in the tagged PBC is:", df['Args_count'].mean())
+print("The average number of predicates in the tagged PBC is:", df['Preds_count'].mean())
+print("The average length of arguments in the tagged PBC is:", df['Arglen'].mean())
+print("The average length of predicates in the tagged PBC is:", df['Predlen'].mean())
+print("")
+
 # to get an overview of the number of sentences in each corpus, let's create a histogram to get counts in bins
 n_plt, bins_plt, patches = plt.hist(df['Verse_counts']) # plot histogram
 print(bins_plt) # these are the different bins with values for each bin
@@ -80,7 +87,6 @@ from analysis.anovas import *
 
 # the code below assumes you have imputed word order values using the consolidated databases as a training set
 filen = "data/output/All_comparisons_imputed.xlsx" # spreadsheet with all languages classified for "SV", "VS", "free" word order
-filen = "data/output/All_comparisons_imputed_noconlang.xlsx" # spreadsheet with all languages classified for "SV", "VS", "free" word order
 outfold = "data/output/plots_means/" # output folder for the resulting datasheets and plots
 
 try:
