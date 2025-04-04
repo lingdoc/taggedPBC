@@ -11,12 +11,12 @@ Word lengths * Noun_Verb_order Predicates freq         SV            free  False
 Word lengths * Noun_Verb_order Predicates freq         VS            free  False       True -2.836   66.009   two-sided  0.006     6.721  -0.450
 
 VS Languages mean Noun vs Verb lengths
-      T  dof alternative  p-val          CI95%  cohen-d      BF10  power
--32.562  294   two-sided    0.0 [-1.18, -1.04]    0.834 5.656e+95    1.0
+      T  dof alternative  p-val          CI95%  cohen-d      BF10 power
+-32.562  294   two-sided    0.0 [-1.18, -1.04]    0.834 5.656e+95   NaN
 
 SV Languages mean Noun vs Verb lengths
-      T  dof alternative  p-val          CI95%  cohen-d BF10  power
--59.327 1250   two-sided    0.0 [-0.99, -0.92]    0.616  inf    1.0
+      T  dof alternative  p-val          CI95%  cohen-d BF10 power
+-59.327 1250   two-sided    0.0 [-0.99, -0.92]    0.616  inf   NaN
 
 Free Languages mean Noun vs Verb lengths
       T  dof alternative  p-val          CI95%  cohen-d     BF10  power

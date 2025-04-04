@@ -15,8 +15,8 @@ VS Languages mean Noun vs Verb lengths
 -21.342  294   two-sided    0.0 [-0.55, -0.45]    0.374 1.43e+58    1.0
 
 SV Languages mean Noun vs Verb lengths
-      T  dof alternative  p-val          CI95%  cohen-d       BF10  power
--45.538 1250   two-sided    0.0 [-0.59, -0.54]    0.368 3.347e+263    1.0
+      T  dof alternative  p-val          CI95%  cohen-d       BF10 power
+-45.538 1250   two-sided    0.0 [-0.59, -0.54]    0.368 3.347e+263   NaN
 
 Free Languages mean Noun vs Verb lengths
      T  dof alternative  p-val         CI95%  cohen-d      BF10  power

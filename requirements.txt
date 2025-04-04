@@ -1,8 +1,7 @@
-matplotlib==3.10.1
-openpyxl==3.1.5
-pandas==2.2.3
-pingouin==0.5.5
-seaborn==0.13.2
-numpy<2
 tqdm
-hlr
+pandas
+matplotlib
+seaborn
+openpyxl
+pingouin
+HLR

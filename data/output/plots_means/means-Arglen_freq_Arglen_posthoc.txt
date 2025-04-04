@@ -11,8 +11,8 @@ Word lengths * Noun_Verb_order Arguments freq        SV           free  False   
 Word lengths * Noun_Verb_order Arguments freq        VS           free  False       True -2.711   60.917   two-sided  0.009  4.888  -0.489
 
 VS Languages mean Noun vs Verb lengths
-      T  dof alternative  p-val          CI95%  cohen-d     BF10  power
--44.901  294   two-sided    0.0 [-1.25, -1.15]    1.131 5.1e+129    1.0
+      T  dof alternative  p-val          CI95%  cohen-d     BF10 power
+-44.901  294   two-sided    0.0 [-1.25, -1.15]    1.131 5.1e+129   NaN
 
 SV Languages mean Noun vs Verb lengths
       T  dof alternative  p-val          CI95%  cohen-d BF10  power
