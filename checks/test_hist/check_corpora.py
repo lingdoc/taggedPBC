@@ -4,7 +4,7 @@ import pandas as pd
 
 # the following code assumes you have two files from UD (v2.14) for Ancient Hebrew (hbo)
 # and Modern Hebrew (heb), as well as two additional tagged corpus files for Classical Arabic
-# and Egyptian Arabic that have been romanized using the `uroman` converter. In this case each UDT
+# and Egyptian Arabic (arz) that have been romanized using the `uroman` converter. In this case each UDT
 # file contains the complete UDT corpus of POS-tagged sentences. The other files contain
 # corpora based on the Quran and the BOLT corpus.
 folder1 = "../../../ud-2.14/iso-tagged/roman/" # this is the folder of romanized UDT
@@ -29,12 +29,14 @@ if not os.path.isfile("corpora_stats.xlsx"):
 		nslist = ["NOUN", "PROPN", "PRON"]
 		vslist = ["VERB", "AUX"]
 		N1ratio = 0
+		totalsents = 0
 
 		# open the file and compute the stats
 		with open(fn) as readfile:
 		    texts = json.load(readfile)
 
 		    for sent in texts:
+		    	totalsents += 1
 		    	sentords = []
 		    	for word in sent:
 		    		if any(x in word[1] for x in vslist):
@@ -56,12 +58,16 @@ if not os.path.isfile("corpora_stats.xlsx"):
 
 		print("Number of verbs for {iso}: {vlen}".format(iso=iso, vlen=len(verbs)))
 		print("Number of nouns for {iso}: {nlen}".format(iso=iso, nlen=len(nouns)))
-		nlenunique = mean([len(x) for x in set(nouns)])
+		print("Number of sentences for {iso}: {nlen}".format(iso=iso, nlen=len(nouns)))
+		print("")
+		nunique = set(nouns)
+		vunique = set(verbs)
+		nlenunique = mean([len(x) for x in nunique])
 		nlenfreq = mean([len(x) for x in nouns])
-		vlenunique = mean([len(x) for x in set(verbs)])
+		vlenunique = mean([len(x) for x in vunique])
 		vlenfreq = mean([len(x) for x in verbs])
 
-		isodict[iso] = {'Nlen_freq': nlenfreq, 'Vlen_freq': vlenfreq, 'Nlen': nlenunique, 'Vlen': vlenunique, 'N1ratio-ArgsPreds': N1ratio}
+		isodict[iso] = {'Sentences': totalsents, 'Unique_nouns': len(nunique), 'Unique_verbs': len(vunique), 'Nlen_freq': nlenfreq, 'Vlen_freq': vlenfreq, 'Nlen': nlenunique, 'Vlen': vlenunique, 'N1ratio-ArgsPreds': N1ratio}
 
 	df = pd.DataFrame.from_dict(isodict, orient='index').reset_index()
 	print(df.head())
