@@ -223,8 +223,8 @@ result.to_excel("data/output/All_comparisons_imputed.xlsx", index=False)
 ## Now let's see how well the measurements of noun and verb lengths can differentiate between
 ## a modern language and a historical language with different word orders.
 
-import checks.test_hbo_heb.classify_lgs
-from checks.test_hbo_heb.classify_lgs import *
+import checks.test_hist.classify_lgs
+from checks.test_hist.classify_lgs import *
 
 # import dataset of word order comparisons (doesn't affect outcome)
 # data = "data/output/All_comparisons_imputed.xlsx" # including all languages from the tagged PBC
@@ -239,14 +239,15 @@ for clf in classifiers.keys():
     test_clf(X, y, preprocessor, classifiers[clf], clf)
 
 # import stats on nouns/verbs from POS-tagged corpora of Ancient and Modern Hebrew
-# via UD 2.14 (see `checks/test_hbo_heb/check_UD.py` for more detail)
-udstats = "checks/test_hbo_heb/UD_stats.xlsx"
+# (via UD 2.14) and tagged corpora of Classical and Egyptian Arabic (via the Quran 
+# and BOLT). See `checks/test_hist/check_corpora.py` for more detail.
+udstats = "checks/test_hist/corpora_stats.xlsx"
 # get the data for prediction
 df = get_predict_data(udstats)
 # train on the training data and predict on the unseen data
 df = train_predict(df, classifiers, X, y)
 # write the results to a file
-df.to_excel("checks/test_hbo_heb/word_order_hbo_heb.xlsx", index=False)
+df.to_excel("checks/test_hist/word_order_hist.xlsx", index=False)
 
 
 ## Finally, we can conduct a hierarchical linear regression to assess whether noun/verb lengths
