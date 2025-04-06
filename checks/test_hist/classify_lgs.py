@@ -54,7 +54,9 @@ def get_train_data(data):
 
 	print(dataset.head()) # view the first 5 rows
 	print(len(dataset)) # view the length
-	dataset = dataset[dataset['index'] != 'heb'] # remove Modern Hebrew from the dataset, since we'll be predicting it later
+	remlangs = ['hbo', 'heb', 'cla', 'arz'] # lgs to remove from the dataset (Ancient Hebrew, Modern Hebrew, Arabic, Egyptian Arabic)
+	for lg in remlangs:
+		dataset = dataset[dataset['index'] != lg] # remove them from the dataset, since we'll be predicting their word order later
 
 	# use the label encoder to convert our word orders to classes
 	le.fit(dataset['Noun_Verb_order'])
@@ -126,7 +128,7 @@ def train_predict(df, classifiers, X, y):
 
 	print(Counter(finalpreds))
 
-	df["Noun_Verb_order"] = list(le.inverse_transform(finalpreds))
+	df["Noun_Verb_order_predicted"] = list(le.inverse_transform(finalpreds))
 	print(df.head())
 
 	return df

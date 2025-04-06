@@ -3,16 +3,20 @@ from statistics import mean
 import pandas as pd
 
 # the following code assumes you have two files from UD (v2.14) for Ancient Hebrew (hbo)
-# and Modern Hebrew (heb) that have been romanized using the `uroman` converter. Each 
-# file contains the complete UDT corpus of POS-tagged sentences.
-folder = "../../../ud-2.14/iso-tagged/roman/" # this is the folder of romanized UDT
+# and Modern Hebrew (heb), as well as two additional tagged corpus files for Classical Arabic
+# and Egyptian Arabic that have been romanized using the `uroman` converter. In this case each UDT
+# file contains the complete UDT corpus of POS-tagged sentences. The other files contain
+# corpora based on the Quran and the BOLT corpus.
+folder1 = "../../../ud-2.14/iso-tagged/roman/" # this is the folder of romanized UDT
+folder2 = "../../../test_arabic/data/roman/" # this is the folder of romanized Arabic texts
 
-isos = ['hbo', 'heb']
-# get the Hebrew isos
-fileslist = [x for x in glob.glob(folder+"*.txt") if x.split("/")[-1].split("_")[0] in isos]
+isos = ['hbo', 'heb', 'cla', 'arz'] # get the Hebrew & Arabic isos (Classical Arabic has no iso code, so we give it one here that hasn't been assigned)
+fileslist = [] # access the folders and get the test files
+for folder in [folder1, folder2]:
+	fileslist += [x for x in glob.glob(folder+"*.txt") if x.split("/")[-1].split("_")[0] in isos]
 
 # check to make sure the stats file doesn't exist at the current location
-if not os.path.isfile("UD_stats.xlsx"):
+if not os.path.isfile("corpora_stats.xlsx"):
 	isodict = {}
 
 	for fn in fileslist:
@@ -33,16 +37,14 @@ if not os.path.isfile("UD_stats.xlsx"):
 		    for sent in texts:
 		    	sentords = []
 		    	for word in sent:
-		    		if word[1] == "NOUN":
-		    			nouns.append(word[0])
-		    			sentords.append("N")
-		    		elif word[1] == "VERB":
-		    			verbs.append(word[0])
+		    		if any(x in word[1] for x in vslist):
 		    			sentords.append("V")
+		    			if "VERB" in word[1]:
+			    			verbs.append(word[0])
 		    		elif any(x in word[1] for x in nslist):
 		    			sentords.append("N")
-		    		elif any(x in word[1] for x in vslist):
-		    			sentords.append("V")
+		    			if "NOUN" in word[1]:
+			    			nouns.append(word[0])
 		    	if "V" in sentords and "N" in sentords:
 		    		if sentords[0] == "N":
 		    			orders.append("N1")
@@ -65,4 +67,4 @@ if not os.path.isfile("UD_stats.xlsx"):
 	print(df.head())
 
 
-	df.to_excel("UD_stats.xlsx")
+	df.to_excel("corpora_stats.xlsx")
