@@ -383,7 +383,7 @@ The results suggest some interesting nuances to the discussion of processing and
 
 The surprising finding that nouns (on their own) are longer than verbs (on their own) in SV languages, and that the opposite is true for VS languages, suggests another pressure whereby languages present more difficult-to-process information (or perhaps words that are more informative) first. This may provide an explanation for why VS languages are relatively stable despite the pressure provided by the use of easy-to-parse non-noun arguments.
 
-Additionally, it is quite striking that measuring the length of nouns and verbs in corpora can allow us to accurately classify word order in Hebrew. The classifier is assessing data rather different from the tagged PBC, taken from two time points in a language in which word order is known to have changed. This indicates that there is a real effect of word class length on how word order develops over time.
+Additionally, it is quite striking that measuring the length of nouns and verbs in corpora can allow us to accurately classify word order in Hebrew and Arabic. The classifier is assessing data rather different from the tagged PBC, taken from two time points in different languages in which word order is known to have changed. This indicates that there is a real effect of word class length on how word order develops over time.
 
 Finally, hierarchical linear regression shows that word class length is more explanatory than family membership in relation to a language's word order.
 
