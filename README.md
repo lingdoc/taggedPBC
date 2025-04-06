@@ -19,11 +19,11 @@ Explanation of the code and the reasoning behind it continues at length below. T
 
 - The `analysis` folder contains code to conduct ANOVAs, get statistics and patterns from the *tagged PBC*, and train classifiers for imputing word order.
 
-- The `checks` folder contains code for checking the tags in the tagged PBC against existing POS taggers and hand-annotated data, as well as assessing how lengths of Nouns/Verbs predicts word order in corpora and differentiates word order in relation to descent from a common ancestor. It contains subfolders:  
+- The `checks` folder contains code for checking the tags in the tagged PBC against existing POS taggers and hand-annotated data, as well as assessing how lengths of Nouns/Verbs predicts word order in (historical) corpora and differentiates word order in relation to descent from a common ancestor. It contains subfolders:  
   - `glottolog`: a folder containing data files sourced from Glottolog with language family and geographic information for the ISO codes in the dataset.
   - `results`: a folder containing correspondence results from comparison of tags with relevant repositories, and results from hierarchical linear regression models.
   - `tag_models`: a folder containing model language codes for the trained taggers.
-  - `test_hbo_heb`: a folder with code to test word order classification of Ancient/Modern Hebrew based on Noun and Verb lengths in corpora.
+  - `test_hist`: a folder with code to test word order classification of Ancient/Modern Hebrew and Classical/Egyptian Arabic based on Noun and Verb lengths in corpora.
 
 
 - The `data` folder contains multiple subfolders:  
@@ -306,11 +306,18 @@ The only condition where this is not the case is where we compare only nouns/ver
 
 This finding suggests that word class length is a factor in how word order is realized in language, but how real is this apparent effect? One way of assessing the strength of this effect is to see whether the relative length of nouns and verbs can predict word order in corpora. That is, can we determine, based on just the relative length of nouns and verbs in tagged corpora, what the language's basic word order is? To investigate this question we can test how well a classifier is able to identify different word orders based on this feature.
 
-Further, with historical corpora, if we can identify a language in which word order has changed from a previous pattern, being able to differentiate the two states would also demonstrate the likely interaction of word length change with word order change. As an example, Ancient Hebrew had a VS basic word order, but Modern Hebrew is SV. Can we use corpora of these two languages to answer this question? In fact, yes: it turns out that the UDT contains tagged corpora for both Ancient Hebrew (ISO639-3: hbo) and Modern Hebrew (ISO639-3: heb). Statistics taken from these corpora in the same manner as for the tagged PBC are stored in `checks/test_hbo_heb/UD_stats.xlsx`, and running the code `checks/test_hbo_heb/classify_lgs.py` trains a GNB classifier and outputs the results.
+Further, with historical corpora, if we can identify a language in which word order has changed from a previous pattern, being able to differentiate the two states would also demonstrate the likely interaction of word length change with word order change. As an example, Ancient Hebrew had a VS basic word order, but Modern Hebrew is SV. Can we use corpora of these two languages to answer this question? In fact, yes: it turns out that the UDT contains tagged corpora for both Ancient Hebrew (ISO639-3: hbo) and Modern Hebrew (ISO639-3: heb). As a second verification step I additionally sourced data from two other related languages where word order changed: Classical Arabic (here I give it the unassigned abbreviation `cla`) and Egyptian Arabic (ISO639-3: arz). Classical Arabic (the language of the Quran) is VS like many other Semitic languages. It was brought to Egypt in the seventh century CE and subsequently developed into modern Egyptian Arabic, which is SV. Data for Classical Arabic was taken from the POS-tagged [Quranic Arabic Corpus V0.4](https://corpus.quran.com/). Data for Egyptian Arabic are from the tagged [BOLT Egyptian Arabic Treebank - Discussion Forum](https://catalog.ldc.upenn.edu/LDC2018T23). Statistics taken from these corpora in the same manner as for the tagged PBC are stored in `checks/test_hist/corpora_stats.xlsx` (the process can be replicated by running `checks/test_hist/check_corpora.py`, provided you have processed the corpus files appropriately), and running the code `checks/test_hist/classify_lgs.py` trains a GNB classifier and outputs the results. The following table displays some of the statistical properties of the respective corpora.
+
+| Language | ISO 639-3 | Data Source | Sentences | Unique nouns | Unique verbs |
+| --------- | ----- | ------ | ------ | ------ | -------- |
+| A. Hebrew | hbo   | UDT    | 409    | 734    | 782      |
+| M. Hebrew | heb   | UDT    | 882    | 2,068  | 1,297    |
+| C. Arabic | cla   | Quran  | 6,236  | 8,243  | 7,966    |
+| E. Arabic | arz   | BOLT   | 31,688 | 16,698 | 10,581   |
 
 Importantly, 3 additional features are added to the training data besides the average lengths of Nouns/Verbs for each language, in order to expand the dimensionality of the construct. The first is a categorical feature: whether Nouns or Verbs in a language are longer. The second is a continuous feature: the ratio of noun length to verb length. This measure is related to "entropy", whereby a lower ratio indicates that the two word classes are less likely to be differentiable (and therefore predictable) based on their length. The third added feature is also continous: the difference between lengths of nouns and verbs in each language. This measure is related to "efficiency", based on the idea that a larger difference between word classes may affect the likelihood of that particular class being placed first.
 
-Training the model with these five features on the known word order data from the typological databases gives an accuracy of 66% on the test set, while training with the imputed word order gives an accuracy of 68%. In both cases, the trained classifier accurately classifies Ancient Hebrew as VS and Modern Hebrew as SV, based on the data extracted from the UD corpora.
+Training the model with these five features on the known word order data from the typological databases gives an accuracy of 66% on the test set, while training with the imputed word order gives an accuracy of 68%. In both cases, the trained classifier accurately classifies Ancient Hebrew as VS, Modern Hebrew as SV, Classical Arabic as VS, and Egyptian Arabic as SV, based on the data extracted from the respective corpora.
 
 #### 3.3 Testing descent from a common ancestor (`verify_taggedPBC.py`) <a name="testing-descent"></a>
 
