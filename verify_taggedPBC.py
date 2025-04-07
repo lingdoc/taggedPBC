@@ -334,7 +334,25 @@ checklists = [
 # go through each sample and run the HLR models
 for num, check in enumerate(checklists):
      temp = df[df['index'].isin(check[0])]
-     run_HLR(temp, X, y, str(num+1)+"_"+check[1], "checks/results/")
+     run_HLR(temp, X, y, "{:02d}".format(num+1)+"_"+check[1], "checks/results/")
 
 ## Based on this analysis, Noun/Verb lengths are a stronger predictor of word order
 ## than descent from a common ancestor (family membership).
+
+## Let's run another set of models, removing language area, just to check
+
+# Define the models for hierarchical regression, excluding language area
+X = {
+     1: ['N1ratio-ArgsPreds'], # variable known to differentiate word order between languages (base model)
+     2: ['N1ratio-ArgsPreds', 'Fam_class'], # include family
+     3: ['N1ratio-ArgsPreds', 'Fam_class', 'Nlen_freq', 'Vlen_freq'], # include Nlen/Vlen
+     }
+
+# go through each sample and run the HLR models
+for num, check in enumerate(checklists):
+     temp = df[df['index'].isin(check[0])]
+     run_HLR(temp, X, y, "{:02d}".format(num+6)+"_"+check[1], "checks/results/")
+
+## Based on these models, family membership is only significant with the sample 
+## of languages from the families in the Dunn et al paper, whereas Noun/Verb lengths
+## are significant for all samples and account for more variance.
