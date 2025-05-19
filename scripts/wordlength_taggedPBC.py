@@ -62,6 +62,7 @@ df = get_predict_data(udstats)
 df = train_predict(df, classifiers, X, y)
 # write the results to a file
 df.to_excel("checks/test_hist/word_order_hist.xlsx", index=False)
+# indeed, length of nouns and verbs allows us to predict word order
 
 
 ## Now let's conduct a hierarchical linear regression to assess whether noun/verb lengths
@@ -165,7 +166,7 @@ X = {
 # go through each sample and run the HLR models
 for num, check in enumerate(checklists):
      temp = df[df['index'].isin(check[0])]
-     run_HLR(temp, X, y, "{:02d}".format(num+6)+"_"+check[1], "checks/results/")
+     run_HLR(temp, X, y, "{:02d}".format(num+6)+"_"+check[1]+"_noLgArea", "checks/results/")
 
 ## Based on these models, family membership is only significant with the sample
 ## of languages from the families in the Dunn et al paper, whereas Noun/Verb lengths
@@ -185,7 +186,7 @@ X = {
 # go through each sample and run the HLR models
 for num, check in enumerate(checklists):
      temp = df[df['index'].isin(check[0])]
-     run_HLR(temp, X, y, "{:02d}".format(num+11)+"_"+check[1], "checks/results/")
+     run_HLR(temp, X, y, "{:02d}".format(num+11)+"_"+check[1]+"_Famfirst", "checks/results/")
 
 ## Still, based on these models, family membership is only significant with the sample
 ## of languages from the families in the Dunn et al paper, and accounts for less variance
