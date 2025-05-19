@@ -113,6 +113,7 @@ def get_df_from_tagged(fileslist, too_few):
 
         with open(bibfile) as f:
             taggedbib = json.load(f)
+        taggedbib = taggedbib['tagged'] # tagged Bible portion is the list stored as the `tagged` key
 
         # get the total number of verses in each corpus
         isodict[iso]["Verse_counts"] = len(taggedbib)
