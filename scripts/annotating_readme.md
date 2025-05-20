@@ -10,7 +10,7 @@ To generate the basic stats via this repository, install the requirements (recom
 
 `pip install -r requirements.txt`
 
-The script associated with this readme file can then be used to run the analyses reported in the paper "The *taggedPBC*: Annotating a massive parallel corpus for crosslinguistic investigations. arXiv:submit/6443708":
+The script associated with this readme file can then be used to run the analyses reported in the paper "[The *taggedPBC*](https://doi.org/10.48550/arXiv.2505.12560)":
 
 `python annotating_taggedPBC.py`
 

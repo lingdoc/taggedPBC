@@ -6,7 +6,7 @@
 
 If you use this data, please cite the following source:
 
-- Ring, Hiram. The *taggedPBC*: Annotating a massive parallel corpus for crosslinguistic investigations. arXiv:submit/6443708
+- Ring, Hiram. 2025. The *taggedPBC*: Annotating a massive parallel corpus for crosslinguistic investigations. https://doi.org/10.48550/arXiv.2505.12560 *[Submitted on 18 May 2025]*
 
 The two folders in this repository contain corpus data and scripts to run various analyses.
 
