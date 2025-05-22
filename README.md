@@ -17,7 +17,9 @@ The two folders in this repository contain corpus data and scripts to run variou
 	- `tagged`: a list of lists, with the first item in each sublist being the verse number (following PBC convention) and the second being a list of tuples in [word, POS] format where `unk` represents unknown tags
 
 
-- `scripts`: contains scripts to verify and analyze the data of the `taggedPBC`, with reference to particular papers (currently works in progress). Refer to the `README` file in the subfolder for additional information.
+- `scripts`: contains scripts to verify and analyze the data of the `taggedPBC`, with reference to particular papers (currently draft versions of submissions to journals). Refer to the `README` file in the subfolder for additional information.
+	- Ring, Hiram. 2025. The *taggedPBC*: Annotating a massive parallel corpus for crosslinguistic investigations. https://doi.org/10.48550/arXiv.2505.12560 *[Submitted on 18 May 2025]*
+	- Ring, Hiram. 2025. Word length predicts word order: "Min-max"-ing drives language evolution. https://doi.org/10.48550/arXiv.2505.13913 *[Submitted on 20 May 2025]*
 
 The following table gives counts of verses per language in the corpora:
 

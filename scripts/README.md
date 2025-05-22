@@ -17,7 +17,7 @@ List of readme files and associated scripts:
 
 
 - [wordlength_readme.md](wordlength_readme.md) assesses the relationship between word order (as imputed for languages in the `taggedPBC` by the N1 ratio classifier described in the `annotating_readme`) and lengths of nouns and verbs. The `wordlength_taggedPBC.py` script runs various statistical analyses to assess how meaningful these relationships are. I show that a classifier trained solely on properties related to word order can predict the word order of historical languages solely on the basis of tagged corpora. Additionally, length of nouns and verbs are statistically significant even when geography and linguistic area are taken into account. These findings are outlined in the paper:
-    - Ring, Hiram. Word length predicts word order: "Min-Max"-ing drives language evolution.
+    - Ring, Hiram. 2025. Word length predicts word order: "Min-max"-ing drives language evolution. https://doi.org/10.48550/arXiv.2505.13913 *[Submitted on 20 May 2025]*
 
 
 The folder structure is as follows:
