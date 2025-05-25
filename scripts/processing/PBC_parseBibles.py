@@ -15,8 +15,11 @@ import unicodedataplus as ud
 import uroman as ur # for romanization
 from fugashi import Tagger as ftagger # for tokenizing Japanese
 from khmernltk import word_tokenize as khmtok # for tokenizing Khmer
-import jieba # for tokenizing Mandarin
+import jieba, pycantonese # for tokenizing Mandarin and Cantonese
 import pyidaungsu as pds # for tokenizing Karen
+from attacut import tokenize as thaitok # for Thai
+from botok import WordTokenizer # for Tibetan
+from botok.config import Config # for Tibetan
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 def get_romanization(line):
@@ -32,6 +35,8 @@ def get_romanization(line):
 	return number, roman
 
 jtagger = ftagger('-Owakati') # choose this dictionary for tokenizing Japanese
+tibconfig = Config(dialect_name="general", base_path= Path.home())
+tibetanwt = WordTokenizer(config=tibconfig)
 
 uroman = ur.Uroman()   # load uroman data (takes about a second or so)
 
@@ -151,6 +156,12 @@ for curFile in tqdm.tqdm(fileList):
 					textToWrite = [[x[0], " ".join(pds.tokenize(x[1], lang="karen", form="word"))] for x in textToWrite]
 				elif fiso == 'cmn':
 					textToWrite = [[x[0], " ".join(jieba.lcut(x[1]))] for x in textToWrite]
+				elif fiso == 'yue':
+					textToWrite = [[x[0], " ".join(pycantonese.segment(x[1]))] for x in textToWrite]
+				elif fiso == 'nod':
+					textToWrite = [[x[0], " ".join(thaitok(x[1]))] for x in textToWrite]
+				elif fiso == 'adx':
+					textToWrite = [[x[0], " ".join([y['text'] for y in tibetanwt.tokenize(x[1], split_affixes=False)])] for x in textToWrite]
 
 				# create a list of data to parallelize the processing
 				fisolist = [fiso for n in list(range(len(textToWrite)))]
