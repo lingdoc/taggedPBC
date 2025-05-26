@@ -157,7 +157,8 @@ for curFile in tqdm.tqdm(fileList):
 				elif fiso == 'cmn':
 					textToWrite = [[x[0], " ".join(jieba.lcut(x[1]))] for x in textToWrite]
 				elif fiso == 'yue':
-					textToWrite = [[x[0], " ".join(pycantonese.segment(x[1]))] for x in textToWrite]
+					# Cantonese tokenizer has its own romanization, so we use that, replacing the tone marks
+					textToWrite = [[x[0], " ".join([re.sub("\d", "", str(y[1])) if y[1] is not None else y[0] for y in pycantonese.characters_to_jyutping(x[1])])] for x in textToWrite]
 				elif fiso == 'nod':
 					textToWrite = [[x[0], " ".join(thaitok(x[1]))] for x in textToWrite]
 				elif fiso == 'adx':
