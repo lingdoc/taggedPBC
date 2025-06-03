@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 too_few = [] # a list to store the ISO639-3 codes of languages with fewer than 100 unique nouns/verbs/predicates
-datafold = "../corpora/" # the location of the tagged PBC
+datafold = "../corpora/json/" # the location of the tagged PBC
 fileslist = [x for x in glob.glob(datafold+"*.json")] # a list of the JSON files for each tagged language
 outputfile = "data/output/stats_All.xlsx"
 

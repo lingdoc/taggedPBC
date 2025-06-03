@@ -10,7 +10,7 @@ If you use this data, please cite the following source:
 
 The two folders in this repository contain corpus data and scripts to run various analyses.
 
-- `corpora`: contains the actual POS-tagged data for a large number of (non-contiguous) parallel verses taken from New Testament translations in 1,599 languages of the PBC (including two conlangs: Esperanto and Klingon). The data is formatted as a `json` dict with the following keys:
+- `corpora`: contains the actual POS-tagged data for a large number of (non-contiguous) parallel verses taken from New Testament translations in 1,599 languages of the PBC (including two conlangs: Esperanto and Klingon). Under the subfolder `json`, the data is formatted as a `json` dict with the following keys:
 	- `info`: general information about the data
 	- `license`: information on permitted use and relevant copyright
 	- `metadata`: the original PBC metadata
