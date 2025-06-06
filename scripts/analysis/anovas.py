@@ -90,19 +90,35 @@ def get_anova_wordorder(df, subj, betw, within, outfold, ds):
     # print(within)
     # print(aov)
     # print()
+    if len(df[betw].value_counts().keys()) > 3:
+        orders = ['VI', 'VM', 'VF', 'free']
+    else:
+        orders = ['SV', 'VS', 'free']
 
     posthoc = pg.pairwise_tests(data=df, dv=within, between=betw, subject=subj).round(3)
     print(posthoc)
-    with open(outfold+within+"_"+ds+"_posthoc.txt", "w") as f:
-        f.write(posthoc.to_string(header=True, index=False))
+    if len(orders) > 3:
+        with open(outfold+ds+"_"+within+"_posthoc.txt", "w") as f:
+            f.write(posthoc.to_string(header=True, index=False))
+    else:
+        with open(outfold+within+"_"+ds+"_posthoc.txt", "w") as f:
+            f.write(posthoc.to_string(header=True, index=False))
     print()
 
+    
+
     # plot the data
-    ax = sns.pointplot(data=df, x=betw, y=within, hue=betw, dodge=True, capsize=.05, errorbar='se', order=['SV', 'VS', 'free'], palette=sns.color_palette('bright'))
+    ax = sns.pointplot(data=df, x=betw, y=within, hue=betw, dodge=True, capsize=.05, errorbar='se', order=orders, palette=sns.color_palette('bright'))
     # plt.ylim(3.5, 8)
-    _ = plt.title('N1 ratio and word order ({source})'.format(source=ds))
+    if ds == 'Trans_order':
+        _ = plt.title('Transitive word order proportions'.format())
+    else:
+        _ = plt.title('N1 ratio and word order ({source})'.format(source=ds))
     # plt.style.use(plot_settings)
     # sns.move_legend(ax, "upper left", bbox_to_anchor=(1, 1))
     plt.tight_layout()
-    plt.savefig(outfold+within+"_"+ds+".png")
+    if len(orders) > 3:
+        plt.savefig(outfold+ds+"_"+within+".png")
+    else:
+        plt.savefig(outfold+within+"_"+ds+".png")
     plt.clf()

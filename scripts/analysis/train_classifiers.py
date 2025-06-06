@@ -1,6 +1,7 @@
 # import libraries and classes
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import OneHotEncoder, StandardScaler, LabelEncoder
+from sklearn.feature_selection import SelectPercentile, chi2
 from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
 from sklearn.naive_bayes import GaussianNB
@@ -8,23 +9,6 @@ from sklearn.pipeline import Pipeline
 import pandas as pd
 from collections import Counter
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
-
-# these are the feature columns we will use for our classifier,
-# in this case just the N1 ratio computed from all arguments/predicates
-numerical_features = ['N1ratio-ArgsPreds']
-# build the pipeline to impute missing values and scales for numeric values
-# since our dataset isn't missing values, this isn't really necessary, but
-# a good practice anyway
-numeric_transformer = Pipeline(
-	steps=[("imputer", SimpleImputer(strategy="median")),
-			("scaler", StandardScaler())
-			]
-		)
-# use the preprocessor to handle multiple columns as input features
-preprocessor = ColumnTransformer(
-	transformers=[("num", numeric_transformer, numerical_features),
-        ]
-	)
 
 # a function to instantiate the classifier pipeline
 def get_pipe(preprocessor, classifier):
@@ -49,36 +33,69 @@ def train_clf(X, y, preprocessor, clf, name):
 	clf.fit(X, y)
 	return clf
 
+# a function to test a classifier using a dataset with features and coded classes
+def test_classifier_on_df(filen, classifiers, original, target_col, num_feats=[], cat_feats=[]):
+	"""
+	filen: excel spreadsheet with the hand-coded data to train the classifier
+	classifiers: a dict of classifiers to train on the data
+	original: excel spreadsheet with unclassified data
+	target_col: the spreadsheet column containing the classes for prediction
+	num_feats: a list of columns containing numerical features for training
+	cat_feats: a list of columns containing categorical features for training
+	"""
 
-def test_classifier_on_df(filen, classifiers, original):
 	# read the hand-coded word order data
 	dataset = pd.read_excel(filen)
-	# we only need the following column names for training
-	# names = ['index', 'N1ratio-ArgsPreds', 'Noun_Verb_order']
-	# dataset = dataset[names]
 	print(dataset.head())
 	print(len(dataset))
 
 	# use the label encoder to convert our word orders to classes
 	le = LabelEncoder()
-	le.fit(dataset['Noun_Verb_order'])
+	le.fit(dataset[target_col])
 	print(list(le.classes_))
+	# make a new column which is the transformed classes
+	dataset['Class'] = list(le.transform(dataset[target_col]))
 
-	dataset['Class'] = list(le.transform(dataset['Noun_Verb_order']))
+	# feature columns for our classifier can be numeric (continuous) or categorical (discrete)
+	# these are the numerical feature columns
+	numerical_features = num_feats
+	# these are the categorical feature columns
+	categorical_features = cat_feats
 
 	# Assign values to the X and y variables:
-	X = dataset[numerical_features]
+	X = dataset[numerical_features+categorical_features]
 	y = dataset['Class']
-	print(Counter(y))
+	print(Counter(le.inverse_transform(y)))
+
+	# build the pipeline to impute missing values and scales for numeric values
+	# since our dataset isn't missing values, this isn't really necessary, but
+	# a good practice anyway
+	numeric_transformer = Pipeline(
+		steps=[("imputer", SimpleImputer(strategy="median")),
+				("scaler", StandardScaler())
+				]
+			)
+
+	# build a pipeline to encode categorical features as binary 
+	categorical_transformer = Pipeline(
+	    steps=[
+	        ("encoder", OneHotEncoder(handle_unknown="ignore")),
+	        ("selector", SelectPercentile(chi2, percentile=50)),
+	    ]
+	)
+	# use the preprocessor to handle multiple columns as input features
+	preprocessor = ColumnTransformer(
+		transformers=[("num", numeric_transformer, numerical_features),
+	        ("cat", categorical_transformer, categorical_features),
+	        ]
+		)
 
 	# test the classifier by training/validating with a split of the data
 	for clf in classifiers.keys():
 		test_clf(X, y, preprocessor, classifiers[clf], clf)
 
 	# import data with unknown labels
-	# original = "../output/stats_All.xlsx" # get isos from the tagged PBC stats
 	df = pd.read_excel(original)
-	# df['Noun_Verb_order'] = "" # create a new empty column
 	print(df.head())
 	print(len(df))
 
@@ -88,8 +105,8 @@ def test_classifier_on_df(filen, classifiers, original):
 	print(len(unkst))
 	unks = df[df['index'].isin(unkst)]
 
-	print("There are {unknum} languages in the tagged PBC that are not coded for word order.".format(unknum=len(unks)))
-	print("There are {Xnum} languages in the tagged PBC with codes for word order from existing databases.".format(Xnum=len(X)))
+	print("There are {unknum} languages in the dataset that are not coded for {target_col}.".format(unknum=len(unks), target_col=target_col))
+	print("There are {Xnum} languages in the dataset with codes for {target_col} from existing databases.".format(Xnum=len(X), target_col=target_col))
 
 	# now train the classifier on all the coded languages and impute word order for the other languages
 	predictions = []
@@ -113,10 +130,10 @@ def test_classifier_on_df(filen, classifiers, original):
 		avgs = round(sum(avgs)/len(avgs))
 		finalpreds.append(avgs)
 	print(len(finalpreds))
-	print(Counter(finalpreds))
+	print(Counter(le.inverse_transform(finalpreds)))
 
 	# get the final values from the predictions
-	unks["Noun_Verb_order"] = list(le.inverse_transform(finalpreds))
+	unks[target_col] = list(le.inverse_transform(finalpreds))
 
 	# combine the predicted values with the database values
 	dataset = pd.concat([dataset, unks])
@@ -125,7 +142,7 @@ def test_classifier_on_df(filen, classifiers, original):
 	# language with iso 'nan' gets removed because python thinks it's NaN, so restore it here
 	dataset['index'] = dataset['index'].fillna('nan')
 	print(len(dataset))
-	print(Counter(dataset["Noun_Verb_order"]))
+	print(Counter(dataset[target_col]))
 	print(len(dataset))
 
 	return dataset

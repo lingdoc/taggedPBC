@@ -298,6 +298,7 @@ classifiers = {
 # import dataset
 filen = "data/output/All_comparisons.xlsx" # path to isos in databases where word order has been coded
 original = "data/output/stats_All.xlsx" # get isos from the tagged PBC stats
-result = test_classifier_on_df(filen, classifiers, original)
+
+result = test_classifier_on_df(filen, classifiers, original, 'Noun_Verb_order', ['N1ratio-ArgsPreds'])
 
 result.to_excel("data/output/All_comparisons_imputed.xlsx", index=False)
