@@ -6,7 +6,7 @@ from analysis.get_nvs import *
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-datafold = "../../../bible_proj/translate/conllu/"
+datafold = "../corpora/conllu/"
 fileslist = [x for x in glob.glob(datafold+"*.conllu")]
 
 outfile = "data/output/stats_All_conllu.xlsx"
@@ -189,46 +189,3 @@ for nfile in datasets:
 
 ## the anovas show a significant correlation between intransitive word order and the N1 ratio
 ## the difference in means is also visible in the plots
-
-## now that we have combined all the data from the different databases we can
-## proceed to impute the data for all languages in the tagged PBC which have not
-## been coded for word order, using the N1 ratio as the feature for classification
-
-import analysis.train_classifiers
-from analysis.train_classifiers import *
-
-# we could use this dict to test multiple classifiers, but
-# in our case the data is normally distributed so we use GNB
-classifiers = {
-                "GNB": GaussianNB(),
-                }
-# import dataset
-filen = "data/output/All_comparisons_conllu.xlsx" # path to isos in databases where word order has been coded
-original = "data/output/stats_All_conllu.xlsx" # get isos from the tagged PBC stats
-# now let's see if we can impute VI, VM, VF, free word order for languages that are not classified
-# on the basis of classified languages and their features
-"""
-filen: excel spreadsheet with the hand-coded data to train the classifier
-classifiers: a dict of classifiers to train on the data
-original: excel spreadsheet with unclassified data
-target_col: the spreadsheet column containing the classes for prediction
-num_feats: a list of columns containing numerical features for training
-cat_feats: a list of columns containing categorical features for training
-"""
-target_col = 'SOV_order'
-num_feats = ['N1_ratio', 'VI_prop', 'VM_prop', 'VF_prop', 'SOV_prop', 'SVO_prop', 'OSV_prop', 'OVS_prop', 'VOS_prop', 'VSO_prop']#, 'VS_prop', 'SV_prop', 'VO_prop', 'OV_prop']
-result = test_classifier_on_df(filen, classifiers, original, target_col, num_feats)
-
-result.to_excel("data/output/All_comparisons_conllu_imputed.xlsx", index=False)
-
-df = pd.read_excel(filen)
-print(len(df))
-newclass = result[~result['index'].isin(df['index'])]
-print(len(newclass))
-colstokeep = ['index', 'SOV', 'SVO', 'OSV', 'OVS', 'VOS', 'VSO', 'SO', 'OS', 'VS', 'SV', 'VO', 
-                'OV', 'SOV_prop', 'SVO_prop', 'OSV_prop', 'OVS_prop', 'VOS_prop', 'VSO_prop', 
-                'VS_prop', 'SV_prop', 'VO_prop', 'OV_prop', 'N1', 'V1', 'VI', 'VM', 'VF', 
-                'N1_ratio', 'VI_ratio', 'VM_ratio', 'VF_ratio', 'VI_prop', 'VM_prop', 'VF_prop', 
-                'SOV_order']
-newclass = newclass[colstokeep]
-newclass.to_excel("data/output/Conllu_imputed_results.xlsx", index=False)
