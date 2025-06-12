@@ -16,8 +16,11 @@ List of readme files and associated scripts:
     - Ring, Hiram. 2025. The *taggedPBC*: Annotating a massive parallel corpus for crosslinguistic investigations. https://doi.org/10.48550/arXiv.2505.12560 *[Submitted on 18 May 2025]*
 
 
-- [wordlength_readme.md](wordlength_readme.md) assesses the relationship between word order (as imputed for languages in the `taggedPBC` by the N1 ratio classifier described in the `annotating_readme`) and lengths of nouns and verbs. The `wordlength_taggedPBC.py` script runs various statistical analyses to assess how meaningful these relationships are. I show that a classifier trained solely on properties related to word order can predict the word order of historical languages solely on the basis of tagged corpora. Additionally, length of nouns and verbs are statistically significant even when geography and linguistic area are taken into account. These findings are outlined in the paper:
+- [wordlength_readme.md](wordlength_readme.md) assesses the relationship between intransitive word order (as imputed for languages in the `taggedPBC` by the N1 ratio classifier described in the `annotating_readme`) and lengths of nouns and verbs. The `wordlength_taggedPBC.py` script runs various statistical analyses to assess how meaningful these relationships are. I show that a classifier trained solely on properties related to word order can predict the word order of historical languages solely on the basis of tagged corpora. Additionally, length of nouns and verbs are statistically significant even when geography and linguistic area are taken into account. These findings are outlined in the paper:
     - Ring, Hiram. 2025. Word length predicts word order: "Min-max"-ing drives language evolution. https://doi.org/10.48550/arXiv.2505.13913 *[Submitted on 20 May 2025]*
+
+- [conllu_readme.md](conllu_readme.md) assesses the relationship between transitive word order extracted from the *taggedPBC* and existing classifications. The `conllu_tagging.py` script extracts Verb-initial, Verb-medial, and Verb-final proportions of verses from each corpus, based on dependencies transferred from English. I show that such proportions, along with the N1 ratio, correlate with determinations of transitive word order in typological datavases. These findings are outlined in the paper:
+    - Ring, Hiram. 2025. Extending dependencies to the *taggedPBC*: Word order in transitive clauses. https://doi.org/10.48550/arXiv.2506.06785 *[Submitted on 6 June 2025]*
 
 
 The folder structure is as follows:
