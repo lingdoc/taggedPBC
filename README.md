@@ -45,7 +45,7 @@ Under the subfolder `corpora/conllu` the data contains additional annotations (P
 - `# sent_id`: the PBC verse number
 - `# ref_id`: the book, chapter, verse reference
 - `# eng_text`: the English text, from a Public Domain translation
-- `# ISO_text`: the text of the source language, where `ISO` is the ISO630-3 code
+- `# ISO_text`: the text of the source language, where `ISO` is the ISO639-3 code
 - `ID`	`word`	`lemma`	`UPOS`	`XPOS` `FEATS`	`HEAD`	`DEPREL`	`DEPS`	`MISC`
 
  The `MISC` field contains the most likely English gloss based on word alignment, as well as morphological features transferred from English via that gloss.
