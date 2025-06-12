@@ -25,7 +25,7 @@ Explanation of the code and the reasoning behind it continues below.
 &nbsp;&nbsp;[1. Assumptions](#assumptions)  
 &nbsp;&nbsp;&nbsp;&nbsp;[1.1 Automatic POS and dependency tagging](#auto-pos)  
 &nbsp;&nbsp;&nbsp;&nbsp;[1.2 Assessing accuracy](#accuracy-pos)  
-&nbsp;&nbsp;[2. Word order](#id-word-order)  
+&nbsp;&nbsp;[2. Transitive word order](#id-word-order)  
 &nbsp;&nbsp;&nbsp;&nbsp;[2.1 Identifying word order proportions](#word-order-in-corpora)  
 &nbsp;&nbsp;&nbsp;&nbsp;[2.2 Assessing validity of proportions](#assessing-proportions)  
 &nbsp;&nbsp;[References](#references)  
@@ -52,7 +52,7 @@ Transferring POS tags from high-resource languages has been shown to work relati
 
 At the moment this is still a work in progress, whereby I am assessing how well automatically transferred dependencies align with human-annotated dependencies. However, there is some indication that even the coarse-grained annotations derived from the automated process align with typological observations regarding transitive word order, as is shown below.
 
-### 2. Word order for languages in the tagged corpus <a name="id-word-order"></a>
+### 2. Transitive word order for languages in the tagged corpus <a name="id-word-order"></a>
 
 As noted in previous work in this repository, by “word order” most researchers refer to the relative order of referential arguments (nouns) versus predicates (verbs), such that it is possible to talk about “verb-initial” vs “verb-final” or “verb-medial” languages, as well as grammatical constructs like Subject and Object in relation to the position of the Verb. Here, we are not strictly talking about the "noun" and "verb" word class, since Subjects and Objects are often pronouns or demonstratives rather than bare nouns. Predicates, similarly, are not solely verbs in all languages.
 
