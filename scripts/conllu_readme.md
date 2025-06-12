@@ -46,7 +46,7 @@ The original corpus (the Parallel Bible Corpus, PBC; [Mayer & Cysouw 2014](#1)) 
 
 #### 1.1 Automatic POS and dependency tagging using cross-lingual transfer <a name="auto-pos"></a>
 
-Transferring POS tags from high-resource languages has been shown to work relatively well for word classes with many members, such as Nouns and Verbs ([Agic et al 2015](#4); [Imani et al 2022](#5)). It is not completely clear that this is also the case for dependencies. However, given that these are parallel sentences/verses, where each language is trying to accurately represent the *meaning* of the source text (the original Greek/Hebrew in most cases), we can generally assume that translation equivalents will also have the same dependencies. Accordingly, if an English word is tagged as having the 'subject' relation in a sentence/verse, its translation equivalent in that same verse for a given language is tagged with the same relation.
+Transferring POS tags from high-resource languages has been shown to work relatively well for word classes with many members, such as Nouns and Verbs ([Agic et al 2015](#2); [Imani et al 2022](#3)). It is not completely clear that this is also the case for dependencies. However, given that these are parallel sentences/verses, where each language is trying to accurately represent the *meaning* of the source text (the original Greek/Hebrew in most cases), we can generally assume that translation equivalents will also have the same dependencies. Accordingly, if an English word is tagged as having the 'subject' relation in a sentence/verse, its translation equivalent in that same verse for a given language is tagged with the same relation.
 
 #### 1.2 Assessing the accuracy of the dependencies <a name="accuracy-pos"></a>
 
@@ -70,7 +70,7 @@ This gives a set of proportions regarding the relative number of each order foun
 
 #### 2.2 Assessing the validity of the proportions <a name="assessing-proportions"></a>
 
-To test whether these proportions identify transitive word order in language, similarly to "The *taggedPBC*" paper, I compare the proportions with classification of languages in existing typological databases: the World Atlas of Language Structures ([WALS](https://wals.info/); [Dryer & Haspelmath 2013](#6)), the [AUTOTYP](https://github.com/autotyp/autotyp-data) database ([Bickel et al., 2022](#7)), and [Grambank](https://grambank.clld.org/) ([Skirgård et al., 2023](#8)). These databases contain determinations of word order in many of the languages contained in the *tagged PBC* corpus. For comparative purposes, I convert all classifications to Verb-initial (VI), Verb-medial (VM), Verb-final (VM) and "free". Also due to the nature of the investigation, I combine all databases into a single set of 966 observations where the databases share ISO codes with languages in the *taggedPBC*.
+To test whether these proportions identify transitive word order in language, similarly to "The *taggedPBC*" paper, I compare the proportions with classification of languages in existing typological databases: the World Atlas of Language Structures ([WALS](https://wals.info/); [Dryer & Haspelmath 2013](#4)), the [AUTOTYP](https://github.com/autotyp/autotyp-data) database ([Bickel et al., 2022](#5)), and [Grambank](https://grambank.clld.org/) ([Skirgård et al., 2023](#6)). These databases contain determinations of word order in many of the languages contained in the *tagged PBC* corpus. For comparative purposes, I convert all classifications to Verb-initial (VI), Verb-medial (VM), Verb-final (VM) and "free". Also due to the nature of the investigation, I combine all databases into a single set of 966 observations where the databases share ISO codes with languages in the *taggedPBC*.
 
 ##### 2.2.1 Verb-initial proportions
 
@@ -111,25 +111,19 @@ We can see here that corpus statistics, both proportions of word orders as well 
 Mayer, Thomas & Michael Cysouw. 2014. Creating a massively parallel Bible corpus. In Proceedings of the Ninth International Conference on Language Resources and Evaluation (LREC'14), pages 3158–3163, Reykjavik, Iceland. European Language Resources Association (ELRA). https://aclanthology.org/L14-1215/  
 
 <a id="2">[2]</a>
-Zeman, Daniel, et al. 2024. Universal Dependencies 2.14. LINDAT/CLARIAH-CZ digital library at the Institute of Formal and Applied Linguistics (ÚFAL), Faculty of Mathematics and Physics, Charles University, http://hdl.handle.net/11234/1-5502 (online at https://universaldependencies.org/ )  
-
-<a id="3">[3]</a>
-Hahn, M., & Y. Xu. 2022. Crosslinguistic word order variation reflects evolutionary pressures of dependency and information locality, Proc. Natl. Acad. Sci. U.S.A. 119 (24) e2122604119, https://doi.org/10.1073/pnas.2122604119.  
-
-<a id="4">[4]</a>
 Agić, Željko, Dirk Hovy, & Anders Søgaard. 2015. If all you have is a bit of the Bible: Learning POS taggers for truly low-resource languages. In Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Volume 2: Short Papers), pages 268–272, Beijing, China. Association for Computational Linguistics. https://aclanthology.org/P15-2044/   
 
-<a id="5">[5]</a>
+<a id="5">[3]</a>
 Imani, Ayyoob, et al. 2022. Graph-Based Multilingual Label Propagation for Low-Resource Part-of-Speech Tagging. In Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing, pages 1577–1589, Abu Dhabi, United Arab Emirates. Association for Computational Linguistics. https://aclanthology.org/2022.emnlp-main.102/  
 
-<a id="6">[6]</a>
+<a id="6">[4]</a>
 Dryer, Matthew S. & Haspelmath, Martin (eds.) 2013.
 The World Atlas of Language Structures Online.
 Leipzig: Max Planck Institute for Evolutionary Anthropology.
 (Available online at http://wals.info )  
 
-<a id="7">[7]</a>
+<a id="7">[5]</a>
 Bickel, Balthasar, et al. 2022. The AUTOTYP database (v1.1.1). https://doi.org/10.5281/zenodo.7976754  
 
-<a id="8">[8]</a>
+<a id="8">[6]</a>
 Skirgård, Hedvig et al. 2023. Grambank v1.0 (v1.0.3) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7844558 (online at https://grambank.clld.org/ )
