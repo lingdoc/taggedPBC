@@ -8,20 +8,23 @@ If you use this data, please cite the following source or one (or all) of the pa
 
 - Ring, Hiram. 2025. The *taggedPBC*: Annotating a massive parallel corpus for crosslinguistic investigations. https://doi.org/10.48550/arXiv.2505.12560 *[Submitted on 18 May 2025]*
 
-## Description of the repository
+## Aims and Description of the repository
 
-The two folders in this repository contain corpus data and scripts to run various analyses.
+The aim of this repository is to provide a baseline dataset of parallel annotated corpora for crosslinguistic investigations. As annotations are improved it is hoped that this will support more detailed comparisons and linguistic insights.
+
+The three folders in this repository contain corpus data and scripts to run various analyses.
 
 - `corpora`: contains the actual annotated data for a large number of (non-contiguous) parallel verses taken from New Testament translations in 1,599 languages of the PBC (including two conlangs: Esperanto and Klingon).
+- `recipes`: contains scripts that illustrate how to extract info from the corpora.
 - `scripts`: contains scripts to verify and analyze the data of the `taggedPBC`, with reference to particular papers (currently draft versions of submissions to journals). Refer to the `README` file in the subfolder for additional information.
 
 Papers related to this dataset include the following:
 
-- Ring, Hiram. 2025. The *taggedPBC*: Annotating a massive parallel corpus for crosslinguistic investigations. https://doi.org/10.48550/arXiv.2505.12560 *[Submitted on 18 May 2025]*
+- Ring, Hiram. 2025. The *taggedPBC*: Annotating a massive parallel corpus for crosslinguistic investigations. https://doi.org/10.48550/arXiv.2505.12560 *[Submitted on 18 May 2025]* [Annotating README](scripts/annotating_readme.md)
 
-- Ring, Hiram. 2025. Word length predicts word order: "Min-max"-ing drives language evolution. https://doi.org/10.48550/arXiv.2505.13913 *[Submitted on 20 May 2025]*
+- Ring, Hiram. 2025. Word length predicts word order: "Min-max"-ing drives language evolution. https://doi.org/10.48550/arXiv.2505.13913 *[Submitted on 20 May 2025]* [Word length README](scripts/wordlength_readme.md)
 
-- Ring, Hiram. 2025. Extending dependencies to the *taggedPBC*: Word order in transitive clauses. https://doi.org/10.48550/arXiv.2506.06785 *[Submitted on 6 June 2025]*
+- Ring, Hiram. 2025. Extending dependencies to the *taggedPBC*: Word order in transitive clauses. https://doi.org/10.48550/arXiv.2506.06785 *[Submitted on 6 June 2025]* [CoNLL-U README](scripts/conllu_readme.md)
 
 
 ### Information regarding the tagged corpora
@@ -57,6 +60,9 @@ The following table gives counts of verses per language in the corpora:
 ![Verse counts in corpora](scripts/data/output/plots_distr/hist-Verse_counts.png)
 
 
+### How to access data in the repository
+
+Individual corpora can be downloaded from the relevant subfolder. Additionally, there are scripts illustrating how to access data systematically (see the [Recipes README](recipes/README.md) for specifics). This includes accessing information by ISO code or groups of codes (such as language families via Glottolog).
 
 ## References <a name="references"></a>
 
