@@ -16,7 +16,7 @@ The three folders in this repository contain corpus data and scripts to run vari
 
 - `corpora`: contains the actual annotated data for a large number of (non-contiguous) parallel verses taken from New Testament translations in 1,599 languages of the PBC (including two conlangs: Esperanto and Klingon).
 - `recipes`: contains scripts that illustrate how to extract info from the corpora.
-- `scripts`: contains scripts to verify and analyze the data of the `taggedPBC`, with reference to particular papers (currently draft versions of submissions to journals). Refer to the `README` file in the subfolder for additional information.
+- `scripts`: contains scripts to verify and analyze the data of the `taggedPBC`, with reference to particular papers (currently draft versions of submissions to journals). Refer to [the `README` file](scripts/README.md) in the subfolder for additional information.
 
 Papers related to this dataset include the following:
 
