@@ -5,7 +5,7 @@
 > This repository is shared under a CC BY-NC-SA 4.0 license
 
 If you make use of these scripts, please cite the following paper:
-- Ring, Hiram. 2025. The *taggedPBC*: Annotating a massive parallel corpus for crosslinguistic investigations. https://doi.org/10.48550/arXiv.2505.12560 *[Submitted on 18 May 2025]*
+- Ring, Hiram. 2025. Extending dependencies to the *taggedPBC*: Word order in transitive clauses. https://doi.org/10.48550/arXiv.2506.06785 *[Submitted on 6 June 2025]*
 
 Findings are based on metrics computed for each language and aggregated in the file `data/output/All_comparisons_conllu.xlsx` - this contains counts of transitive word orders for languages of the tagged PBC (based on the CoNLL-U format). The remainder of this README file describes the process used to obtain these counts.
 
@@ -13,7 +13,7 @@ To generate the basic stats via this repository, install the requirements (recom
 
 `pip install -r requirements.txt`
 
-The script associated with this readme file can then be used to run the analyses reported in the paper "[Extending dependencies to the *taggedPBC*]()":
+The script associated with this readme file can then be used to run the analyses reported in the paper "[Extending dependencies to the *taggedPBC*](https://doi.org/10.48550/arXiv.2506.06785)":
 
 `python conllu_tagging.py`
 
@@ -22,14 +22,12 @@ Explanation of the code and the reasoning behind it continues below.
 #### Table of Contents  
 [Overview of repository](#overview)  
 [Overview of methodology](#methodology)  
-&nbsp;&nbsp;[1. Developing the corpus](#develop-corpus)  
-&nbsp;&nbsp;&nbsp;&nbsp;[1.1 Automatic POS tagging](#auto-pos)  
+&nbsp;&nbsp;[1. Assumptions](#assumptions)  
+&nbsp;&nbsp;&nbsp;&nbsp;[1.1 Automatic POS and dependency tagging](#auto-pos)  
 &nbsp;&nbsp;&nbsp;&nbsp;[1.2 Assessing accuracy](#accuracy-pos)  
-&nbsp;&nbsp;[2. Identifying word order](#id-word-order)  
-&nbsp;&nbsp;&nbsp;&nbsp;[2.1 What is word order?](#what-is-word-order)  
-&nbsp;&nbsp;&nbsp;&nbsp;[2.2 Identifying word order in corpora](#word-order-in-corpora)  
-&nbsp;&nbsp;&nbsp;&nbsp;[2.3 Assessing validity](#assessing-N1-ratio)  
-&nbsp;&nbsp;&nbsp;&nbsp;[2.4 Classifying word order](#classifying-word-order)
+&nbsp;&nbsp;[2. Word order](#id-word-order)  
+&nbsp;&nbsp;&nbsp;&nbsp;[2.1 Identifying word order proportions](#word-order-in-corpora)  
+&nbsp;&nbsp;&nbsp;&nbsp;[2.2 Assessing validity of proportions](#assessing-proportions)  
 &nbsp;&nbsp;[References](#references)  
 
 
@@ -40,11 +38,11 @@ This repository contains data and code to reproduce the results reported in the 
 
 ## Overview of methodology for tagging the PBC <a name="methodology"></a>
 
-The methodology used here follows earlier work in "The taggedPBC", where pairs of word alignment models are trained to translate words between each language in the *taggedPBC* and English. The major difference is the use of the SpaCy parser to transfer dependency and morphological annotations from English to each language corpus, along with POS information. The resulting annotations are then written to the CoNLL-U format used by the Universal Dependencies Treebanks project.
+The methodology used here follows earlier work, where pairs of word alignment models are trained to translate words between each language in the *taggedPBC* and English. The major difference is the use of the SpaCy parser to transfer dependency and morphological annotations from English to each language corpus, along with POS information. The resulting annotations are then written to the CoNLL-U format used by the Universal Dependencies Treebanks project.
 
-### 1. Assumptions <a name="develop-corpus"></a>
+### 1. Assumptions <a name="assumptions"></a>
 
-The original corpus (the Parallel Bible Corpus, PBC; [Mayer & Cysouw 2014](#1)) contains portions of the Bible in over 2000 languages. The *taggedPBC* contains a reduced set of verses for 1597 modern languages (excluding 2 conlangs). All these scripts have been romanized for comparison.
+The original corpus (the Parallel Bible Corpus, PBC; [Mayer & Cysouw 2014](#1)) contains portions of the Bible in over 2000 languages. The *taggedPBC* contains a reduced set of verses for 1597 modern languages (as well as 2 conlangs). All these scripts have been romanized for comparison.
 
 #### 1.1 Automatic POS and dependency tagging using cross-lingual transfer <a name="auto-pos"></a>
 
@@ -60,7 +58,7 @@ As noted in previous work in this repository, by “word order” most researche
 
 The main drawback of the previous version of the *taggedPBC* with respect to word order is that it only annotated POS and did not identify dependency relations at all. This means that word order observations were limited to intransitive patterns. In contrast, the CoNLL-U version of the corpora transfers `subject` and `object` relations. When combined with verbs, this allows for observation of transitive patterns in each corpus.
 
-#### 2.2 Identifying word order in corpora via proportions <a name="word-order-in-corpora"></a>
+#### 2.1 Identifying word order in corpora via proportions <a name="word-order-in-corpora"></a>
 
 In order to identify these relations in corpora I use the following procedure for each language in the tagged PBC corpus:
 
@@ -70,26 +68,34 @@ In order to identify these relations in corpora I use the following procedure fo
 
 This gives a set of proportions regarding the relative number of each order found in each language.
 
-#### 2.3 Assessing the validity of the proportions <a name="assessing-N1-ratio"></a>
+#### 2.2 Assessing the validity of the proportions <a name="assessing-proportions"></a>
 
-To test whether these proportions identify transitive word order in language, similarly to "The *taggedPBC*" paper I compare it with classification of languages in existing typological databases: the World Atlas of Language Structures ([WALS](https://wals.info/); [Dryer & Haspelmath 2013](#6)), the [AUTOTYP](https://github.com/autotyp/autotyp-data) database ([Bickel et al., 2022](#7)), and [Grambank](https://grambank.clld.org/) ([Skirgård et al., 2023](#8)). These databases contain determinations of word order in many of the languages contained in the *tagged PBC* corpus. For comparative purposes, I convert all classifications to Verb-initial (VI), Verb-medial (VM), Verb-final (VM) and "free". Also due to the nature of the investigation, I combine all databases into a single set of 966 observations where the databases share ISO codes with languages in the *taggedPBC*.
+To test whether these proportions identify transitive word order in language, similarly to "The *taggedPBC*" paper, I compare the proportions with classification of languages in existing typological databases: the World Atlas of Language Structures ([WALS](https://wals.info/); [Dryer & Haspelmath 2013](#6)), the [AUTOTYP](https://github.com/autotyp/autotyp-data) database ([Bickel et al., 2022](#7)), and [Grambank](https://grambank.clld.org/) ([Skirgård et al., 2023](#8)). These databases contain determinations of word order in many of the languages contained in the *tagged PBC* corpus. For comparative purposes, I convert all classifications to Verb-initial (VI), Verb-medial (VM), Verb-final (VM) and "free". Also due to the nature of the investigation, I combine all databases into a single set of 966 observations where the databases share ISO codes with languages in the *taggedPBC*.
 
-##### 2.3.1 Verb-initial proportions
+##### 2.2.1 Verb-initial proportions
+
+Here we can see that the proportion of Verb-initial sentences is highest for languages classed as Verb-initial by the databases. Further, this proportion significantly differentiates between VI, VM, and VF languages, but does not differentiate between "free" and VM languages (see [results of ANOVA](data/output/plots_wdorder/Trans_order_VI_prop_posthoc.txt)).
 
 ![Transitive order Verb initial proportions](data/output/plots_wdorder/Trans_order_VI_prop.png)
 
 
-##### 2.3.2 Verb-medial proportions
+##### 2.2.2 Verb-medial proportions
+
+Here we see that the proportion of Verb-medial sentences is highest for languages classed as Verb-medial by the databases. Further, while the proportion significantly differentiates between most word order classifications, it is only marginally significant for differentiating between VI and VF languages (see [results of ANOVA](data/output/plots_wdorder/Trans_order_VM_prop_posthoc.txt)).
 
 ![Transitive order Verb medial proportions](data/output/plots_wdorder/Trans_order_VM_prop.png)
 
 
-##### 2.3.3 Verb-final proportions
+##### 2.2.3 Verb-final proportions
+
+In this plot we see that the proportion of Verb-final sentences is highest for languages classed as Verb-final by the databases. Although the proportion also significantly differentiates between all word order classifications, it is not as significant for differentiating between VI and VM languages (see [results of ANOVA](data/output/plots_wdorder/Trans_order_VF_prop_posthoc.txt)).
 
 ![Transitive order Verb final proportions](data/output/plots_wdorder/Trans_order_VF_prop.png)
 
 
-##### 2.3.4 Transitive orders and the N1 ratio
+##### 2.2.4 Transitive orders and the N1 ratio
+
+Interestingly, the N1 ratio significantly differentiates between all word order classifications, as it did with intransitive word order (see [results of ANOVA](data/output/plots_wdorder/Trans_order_N1_ratio_posthoc.txt)).
 
 ![Transitive order and N1 ratio](data/output/plots_wdorder/Trans_order_N1_ratio.png)
 
