@@ -145,7 +145,7 @@ def get_df_from_tagged(fileslist, too_few):
 
 
 # function to convert a conllu-formatted file to countable lists
-def convert_conllu(bibfile):
+def convert_conllu(bibfile, misc="gloss="):
     """
     bibfile: the path of the conllu-formatted file (Bible verses)
     """
@@ -168,7 +168,20 @@ def convert_conllu(bibfile):
             word = linelist[1] # the headword is at index 1
             pos = linelist[3] # the part of speech is at index 3
             deprel = linelist[7] # the dependency relation is at index 7
-            tagged.append((word, pos, deprel)) # append this word-level info to the tagging list
+            # there is automated English glossing at index 9
+            # (experimental) as well as some other stuff
+            # in the "MISC" field - here we only get the info if it
+            # has the tag matching what we set in the arguments above
+            if len(linelist) > 9:
+                gloss = linelist[9].split("|")
+                if misc in gloss:
+                    gloss = gloss.replace(misc, "")
+                else:
+                    gloss = ""
+            else:
+                gloss = ""
+            
+            tagged.append((word, pos, deprel, gloss)) # append this word-level info to the tagging list
 
     return alines
 
