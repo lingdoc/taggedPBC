@@ -10,7 +10,7 @@ If you use this data, please cite the following source or one (or all) of the pa
 
 ## Aims and Description of the repository
 
-The aim of this repository is to provide a baseline dataset of parallel annotated corpora for crosslinguistic investigations. As annotations are improved it is hoped that this will support more detailed comparisons and linguistic insights.
+The main aim of this repository is to provide a baseline dataset of parallel annotated corpora for crosslinguistic investigations. A secondary aim is to allow for ongoing annotation of corpora to support NLP for low-resource languages. As annotations are improved it is hoped that this will allow for more detailed comparisons and linguistic insights.
 
 The three folders in this repository contain corpus data and scripts to run various analyses.
 
@@ -26,6 +26,10 @@ Papers related to this dataset include the following:
 
 - Ring, Hiram. 2025. Extending dependencies to the *taggedPBC*: Word order in transitive clauses. https://doi.org/10.48550/arXiv.2506.06785 *[Submitted on 6 June 2025]* [CoNLL-U README](scripts/conllu_readme.md)
 
+
+### How to access data in the repository
+
+Individual corpora can be downloaded from the relevant subfolder. Additionally, there are scripts illustrating how to access data systematically (see the [Recipes README](recipes/README.md) for specifics). This includes accessing information by ISO code or groups of codes (such as language families via Glottolog).
 
 ### Information regarding the tagged corpora
 
@@ -60,9 +64,6 @@ The following table gives counts of verses per language in the corpora:
 ![Verse counts in corpora](scripts/data/output/plots_distr/hist-Verse_counts.png)
 
 
-### How to access data in the repository
-
-Individual corpora can be downloaded from the relevant subfolder. Additionally, there are scripts illustrating how to access data systematically (see the [Recipes README](recipes/README.md) for specifics). This includes accessing information by ISO code or groups of codes (such as language families via Glottolog).
 
 ## References <a name="references"></a>
 
