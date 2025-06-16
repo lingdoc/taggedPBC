@@ -64,7 +64,13 @@ The following table gives counts of verses per language in the corpora:
 
 ![Verse counts in corpora](scripts/data/output/plots_distr/hist-Verse_counts.png)
 
+The following map shows the languages found in the *taggedPBC*, colored by language family.
 
+![Languages in the taggedPBC](recipes/map.png)
+
+An interactive version of this map can be found below:
+
+![Interactive html map](recipes/map.html)
 
 ## References <a name="references"></a>
 
