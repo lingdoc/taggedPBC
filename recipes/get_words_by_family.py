@@ -17,7 +17,7 @@ with open(linfile) as f:
 	lineages = json.load(f)
 
 # this is a dictionary of all the high-level lineages (and isolates) identified
-# by Glottolog scholars, with ISO codes, names, lat/long and general location
+# by Glottolog scholars, with ISO codes, names, lat, long and general location
 # the keys of this dictionary are the Glottocode for the family, followed by a tab
 # character and the name of the family
 for k in lineages.keys():
