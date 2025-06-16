@@ -68,9 +68,7 @@ The following map shows the languages found in the *taggedPBC*, colored by langu
 
 ![Languages in the taggedPBC](recipes/map.png)
 
-An interactive version of this map can be found below:
-
-![Interactive html map](recipes/map.html)
+An interactive version of this map can be generated using the [make_language_map.py](recipes/make_language_map.py) script.
 
 ## References <a name="references"></a>
 

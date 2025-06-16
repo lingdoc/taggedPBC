@@ -68,3 +68,4 @@ hti.screenshot(
 )
 # cleanup
 os.rmdir(tempdir)
+os.remove('map.html')
