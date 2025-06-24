@@ -6,12 +6,12 @@ from sklearn.preprocessing import LabelEncoder
 # filen = "glottolog/All_comparisons_imputed_families.xlsx"
 # complete = "../data/output/All_comparisons_imputed.xlsx"
 
-def get_families(filen, complete, linfile):
-     df = pd.read_excel(complete)
-     print(len(df))
-     df['index'] = df['index'].fillna('nan') # when pandas imports the spreadsheet it thinks this ISO code is NaN
+# a function to get lineages from one file and add them to a dataframe
+def get_families(complete, linfile):
+     print(len(complete))
+     complete['index'] = complete['index'].fillna('nan') # when pandas imports the spreadsheet it thinks this ISO code is NaN
 
-     ind = df['index'].to_list()
+     ind = complete['index'].to_list()
      print(len(ind)) # this is the number of unique ISO codes in our dataset
 
      with open(linfile) as f:
@@ -21,16 +21,17 @@ def get_families(filen, complete, linfile):
      indict = {}
      indict = {y: [k, v[y][1], v[y][2], v[y][3]] for k, v in lineages.items() for y in v.keys() if y not in indict.keys()}
      print("Number of lineages in the data:", len(indict))
-     # print(len(df))
-     print(df.head())
+     # print(len(complete))
+     print(complete.head())
      # create a new column with the family line for each ISO code
-     df["Family_line"] = [indict[x][0].split("\t")[1] for x in df['index']]
+     complete["Family_line"] = [indict[x][0].split("\t")[1] for x in complete['index']]
      # create new colums with latitude, longitude, macroarea for each ISO code
-     df["latitude"] = [indict[x][1] for x in df['index']]
-     df["longitude"] = [indict[x][2] for x in df['index']]
-     df["macroarea"] = [indict[x][3] for x in df['index']]
-     print(df['Family_line'])
-     df.to_excel(filen)
+     complete["latitude"] = [indict[x][1] for x in complete['index']]
+     complete["longitude"] = [indict[x][2] for x in complete['index']]
+     complete["macroarea"] = [indict[x][3] for x in complete['index']]
+     print(complete['Family_line'])
+
+     return complete
 
 # largefams = ['Atlantic-Congo': 293, 'Austronesian': 277, 'Indo-European': 136, 'Sino-Tibetan': 106, 'Nuclear Trans New Guinea': 96, 'Otomanguean': 80, 'Afro-Asiatic': 57, 'Quechuan': 27, 'Uto-Aztecan': 27]
 
