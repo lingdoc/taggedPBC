@@ -5,6 +5,7 @@ import analysis.get_nvs
 from analysis.get_nvs import *
 import matplotlib.pyplot as plt
 import seaborn as sns
+from checks.hierlinreg import *
 
 too_few = [] # a list to store the ISO639-3 codes of languages with fewer than 100 unique nouns/verbs/predicates
 datafold = "../corpora/json/" # the location of the tagged PBC
@@ -18,9 +19,11 @@ if not os.path.isfile(outputfile):
     df = get_df_from_tagged(fileslist, too_few)
     conlangs = ['epo', 'tlh'] # these are constructed languages (Esperanto and Klingon) in the PBC
     df = df[~df['index'].isin(conlangs)] # remove constructed languages from analysis spreadsheet
+    linfile = "checks/glottolog/lineages.json" # the lineages and ISO codes from Glottolog, stored in json format
+    df = get_families(df, linfile) # here we add family information to the data
     print(df.head())
     df.to_excel(outputfile, index=False) # write to an output file
-    print(list(set(too_few))) # these languages have fewer than 100 unique nouns/verbs, currently only 'yue' (Cantonese)
+    print(list(set(too_few))) # these languages have fewer than 100 unique nouns/verbs
 else:
     df = pd.read_excel(outputfile)
 
@@ -278,7 +281,7 @@ for nfile in datasets:
     subj = 'index'
     betw = 'Noun_Verb_order'
     within = 'N1ratio-ArgsPreds'
-    get_anova_wordorder(df, subj, betw, within, outfold, ds)
+    get_anova_wordorder(df, subj, betw, within, outfold, ds, repl=True)
 
 ## the anovas show a significant correlation between intransitive word order and the N1 ratio
 ## the difference in means is also visible in the plots

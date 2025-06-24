@@ -5,6 +5,7 @@ import analysis.get_nvs
 from analysis.get_nvs import *
 import matplotlib.pyplot as plt
 import seaborn as sns
+from checks.hierlinreg import *
 
 datafold = "../corpora/conllu/"
 fileslist = [x for x in glob.glob(datafold+"*.conllu")]
@@ -16,6 +17,8 @@ if not os.path.isfile(outfile):
     df = get_orders_from_conllu(outfile, fileslist)
     conlangs = ['epo', 'tlh'] # these are constructed languages (Esperanto and Klingon) in the PBC
     df = df[~df['index'].isin(conlangs)] # remove constructed languages from analysis spreadsheet
+    linfile = "checks/glottolog/lineages.json" # the lineages and ISO codes from Glottolog, stored in json format
+    df = get_families(df, linfile) # here we add family information to the data
     df.to_excel(outfile, index=False) # write to file
 else:
     df = pd.read_excel(outfile)
@@ -176,16 +179,16 @@ for nfile in datasets:
     betw = 'Trans_order'
     within = 'N1_ratio'
     ds = betw
-    get_anova_wordorder(df, subj, betw, within, outfold, ds)
+    get_anova_wordorder(df, subj, betw, within, outfold, ds, repl=True)
     within = 'VI_prop'
     ds = betw
-    get_anova_wordorder(df, subj, betw, within, outfold, ds)
+    get_anova_wordorder(df, subj, betw, within, outfold, ds, repl=True)
     within = 'VM_prop'
     ds = betw
-    get_anova_wordorder(df, subj, betw, within, outfold, ds)
+    get_anova_wordorder(df, subj, betw, within, outfold, ds, repl=True)
     within = 'VF_prop'
     ds = betw
-    get_anova_wordorder(df, subj, betw, within, outfold, ds)
+    get_anova_wordorder(df, subj, betw, within, outfold, ds, repl=True)
 
 ## the anovas show a significant correlation between intransitive word order and the N1 ratio
 ## the difference in means is also visible in the plots

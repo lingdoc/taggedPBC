@@ -31,7 +31,7 @@ comparisons = [
 # conduct the repeated measures anova for each pair of comparisons
 for within in comparisons:
     print(within)
-    get_rm_plot(df, subj, betw, within, outfold)
+    get_rm_plot(df, subj, betw, within, outfold, repl=True)
 
 
 ## Now let's see how well the measurements of noun and verb lengths can differentiate between
@@ -78,7 +78,9 @@ complete = "data/output/All_comparisons_imputed.xlsx" # the file with all word o
 # check if the file with families exists
 if not os.path.isfile(famfile):
     linfile = "checks/glottolog/lineages.json" # the lineages and ISO codes from Glottolog, stored in json format
-    get_families(famfile, complete, linfile)
+    dfcom = pd.read_excel(complete)
+    dfam = get_families(dfcom, linfile)
+    dfam.to_excel(famfile)
 
 dunnfile = "checks/glottolog/Dunn_isos.xlsx" # this file contains the ISO codes and families of the languages from the Dunn et al paper
 dunn = pd.read_excel(dunnfile) # read in the file
