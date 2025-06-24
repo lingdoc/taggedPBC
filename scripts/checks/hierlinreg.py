@@ -53,6 +53,16 @@ def filter_lgs(df, families):
      familylist = familydf["index"].to_list()
      return familylist
 
+def family_dict(df, families):
+     familydf = df[df["Family_line"].isin(families)]
+     famdict = familydf["Family_line"].value_counts()
+     familydict = {}
+     for k in famdict.keys():
+          dftemp = df[df["Family_line"] == k]
+          familydict[k] = dftemp["index"].to_list()
+     return familydict
+
+
 le = LabelEncoder()
 
 # function to convert categorical to numeric
@@ -62,20 +72,28 @@ def fit_transform_cats(df, col1, col2):
      df[col2] = list(le.transform(df[col1]))
      # print(df[col2].value_counts())
 
-def run_HLR(df, X, y, name, folder):
+def run_HLR(df, X, y, name, folder, feedback=None, repl=False):
      # Initiate the HLR object (missing_data and ols_params are optional parameters)
      hreg = HierarchicalLinearRegression(df, X, y, ols_params=None)
 
-     print("\n"+name+" results:")
+     
      # Generate a summarised report of HLR
      summ = hreg.summary()
      outfile = folder+"HLR_results_"+name+"_tPBC"
-     summ.to_excel(outfile+".xlsx") # these are the full statistical results
+     if repl:
+          summ.to_excel(outfile+".xlsx") # these are the full statistical results
      cols = ['Model Level', 'N (observations)', 'F-value', 'P-value (F)', 'F-value change', 'P-value (F-value change)']#, 'Std Beta coefs'
      tsumm = summ[cols]
      tsumm.columns = ['Model', 'N (obs)', 'F-val', 'P-val (F)', 'F-val change', 'P-val (F-val change)']#, 'Std Betas'
-     print(tsumm.head())
-     tsumm.to_csv(outfile+".csv") # these are the main statistical results
+     # print(tsumm.head())
+     if repl:
+          tsumm.to_csv(outfile+".csv") # these are the main statistical results
+     if feedback:
+          fdict = tsumm.set_index("Model").to_dict("index")
+          return fdict
+     else:
+          print("\n"+name+" results:")
+          print(tsumm.head())
 
      # # Run diagnostics on all the models and display in terminal
      # hreg.diagnostics(verbose=True)

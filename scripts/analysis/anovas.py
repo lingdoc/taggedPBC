@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 #                         'mathtext.fontset': 'stix',
 #                         'font.family': 'STIXGeneral'}
 
-def get_rm_plot(df, subj, betw, within, outfold):
+def get_rm_plot(df, subj, betw, within, outfold, repl=False):
     # conduct paired ttests to ID length of nouns/verbs within lgs according to word order
     v1 = df[df[betw]=='VS']
     v1ttest = pg.ttest(v1[within[0]], v1[within[1]], paired=True).round(3)
@@ -62,26 +62,27 @@ def get_rm_plot(df, subj, betw, within, outfold):
     posthoc = pg.pairwise_tests(data=df, dv='value', between=betw, within='Word lengths', subject=subj).round(3)
     #df.pairwise_tests(dv='value', between=betw, within='word lengths').round(3)
     print(posthoc)
-    with open(outfold+"means-"+"_".join(within)+"_posthoc.txt", "w") as f:
-        f.write(posthoc.to_string(header=True, index=False))
-        f.write("\n\nVS Languages mean Noun vs Verb lengths\n")
-        f.write(v1ttest.to_string(header=True, index=False))
-        f.write("\n\nSV Languages mean Noun vs Verb lengths\n")
-        f.write(n1ttest.to_string(header=True, index=False))
-        f.write("\n\nFree Languages mean Noun vs Verb lengths\n")
-        f.write(freettest.to_string(header=True, index=False))
-    print()
+    if repl:
+        with open(outfold+"means-"+"_".join(within)+"_posthoc.txt", "w") as f:
+            f.write(posthoc.to_string(header=True, index=False))
+            f.write("\n\nVS Languages mean Noun vs Verb lengths\n")
+            f.write(v1ttest.to_string(header=True, index=False))
+            f.write("\n\nSV Languages mean Noun vs Verb lengths\n")
+            f.write(n1ttest.to_string(header=True, index=False))
+            f.write("\n\nFree Languages mean Noun vs Verb lengths\n")
+            f.write(freettest.to_string(header=True, index=False))
+        print()
 
-    # plot the data
-    ax = sns.pointplot(data=df, x='Word lengths', y='value', hue=betw, dodge=True, capsize=.05, errorbar='se', palette=sns.color_palette('bright'))
-    _ = plt.title('Mean lengths by word class')
-    # plt.style.use(plot_settings)
-    sns.move_legend(ax, "upper left")#, bbox_to_anchor=(1, 1))
-    plt.tight_layout()
-    plt.savefig(outfold+"means-"+"_".join(within)+"_plot.png")
-    plt.clf()
+        # plot the data
+        ax = sns.pointplot(data=df, x='Word lengths', y='value', hue=betw, dodge=True, capsize=.05, errorbar='se', palette=sns.color_palette('bright'))
+        _ = plt.title('Mean lengths by word class')
+        # plt.style.use(plot_settings)
+        sns.move_legend(ax, "upper left")#, bbox_to_anchor=(1, 1))
+        plt.tight_layout()
+        plt.savefig(outfold+"means-"+"_".join(within)+"_plot.png")
+        plt.clf()
 
-def get_anova_wordorder(df, subj, betw, within, outfold, ds):
+def get_anova_wordorder(df, subj, betw, within, outfold, ds, repl=False):
     # reduce dataset to only comparisons for word order and N1 ratio
     df = df[[subj, betw, within]]
     # conduct a one-way anova comparing word order and N1 ratio
@@ -97,12 +98,13 @@ def get_anova_wordorder(df, subj, betw, within, outfold, ds):
 
     posthoc = pg.pairwise_tests(data=df, dv=within, between=betw, subject=subj).round(3)
     print(posthoc)
-    if len(orders) > 3:
-        with open(outfold+ds+"_"+within+"_posthoc.txt", "w") as f:
-            f.write(posthoc.to_string(header=True, index=False))
-    else:
-        with open(outfold+within+"_"+ds+"_posthoc.txt", "w") as f:
-            f.write(posthoc.to_string(header=True, index=False))
+    if repl:
+        if len(orders) > 3:
+            with open(outfold+ds+"_"+within+"_posthoc.txt", "w") as f:
+                f.write(posthoc.to_string(header=True, index=False))
+        else:
+            with open(outfold+within+"_"+ds+"_posthoc.txt", "w") as f:
+                f.write(posthoc.to_string(header=True, index=False))
     print()
 
     
@@ -117,8 +119,9 @@ def get_anova_wordorder(df, subj, betw, within, outfold, ds):
     # plt.style.use(plot_settings)
     # sns.move_legend(ax, "upper left", bbox_to_anchor=(1, 1))
     plt.tight_layout()
-    if len(orders) > 3:
-        plt.savefig(outfold+ds+"_"+within+".png")
-    else:
-        plt.savefig(outfold+within+"_"+ds+".png")
+    if repl:
+        if len(orders) > 3:
+            plt.savefig(outfold+ds+"_"+within+".png")
+        else:
+            plt.savefig(outfold+within+"_"+ds+".png")
     plt.clf()

@@ -127,7 +127,7 @@ fit_transform_cats(df, 'Family_line', 'Fam_class') # convert the language family
 fit_transform_cats(df, 'macroarea', 'Macro_class') # convert the Macroarea to numeric
 
 # Define the models for hierarchical regression including predictors for each model
-X = {
+X1 = {
      1: ['N1ratio-ArgsPreds'], # variable known to differentiate word order between languages (base model)
      2: ['N1ratio-ArgsPreds', 'latitude', 'longitude', 'Macro_class'], # include lat/long coordinates and macroarea
      3: ['N1ratio-ArgsPreds', 'latitude', 'longitude', 'Macro_class', 'Fam_class'], # include family
@@ -149,7 +149,7 @@ checklists = [
 # go through each sample and run the HLR models
 for num, check in enumerate(checklists):
      temp = df[df['index'].isin(check[0])]
-     run_HLR(temp, X, y, "{:02d}".format(num+1)+"_"+check[1], "checks/results/")
+     run_HLR(temp, X1, y, "{:02d}".format(num+1)+"_"+check[1], "checks/results/")
 
 ## Based on this analysis, Noun/Verb lengths are a stronger predictor of word order
 ## than descent from a common ancestor (family membership).
@@ -157,7 +157,7 @@ for num, check in enumerate(checklists):
 ## Let's run another set of models, removing language area, just to check
 
 # Define the models for hierarchical regression, excluding language area
-X = {
+X2 = {
      1: ['N1ratio-ArgsPreds'], # variable known to differentiate word order between languages (base model)
      2: ['N1ratio-ArgsPreds', 'Fam_class'], # include family
      3: ['N1ratio-ArgsPreds', 'Fam_class', 'Nlen_freq', 'Vlen_freq'], # include Nlen/Vlen
@@ -166,7 +166,7 @@ X = {
 # go through each sample and run the HLR models
 for num, check in enumerate(checklists):
      temp = df[df['index'].isin(check[0])]
-     run_HLR(temp, X, y, "{:02d}".format(num+6)+"_"+check[1]+"_noLgArea", "checks/results/")
+     run_HLR(temp, X2, y, "{:02d}".format(num+6)+"_"+check[1]+"_noLgArea", "checks/results/")
 
 ## Based on these models, family membership is only significant with the sample
 ## of languages from the families in the Dunn et al paper, whereas Noun/Verb lengths
@@ -176,7 +176,7 @@ for num, check in enumerate(checklists):
 ## before language area.
 
 # Define the models for hierarchical regression, excluding language area
-X = {
+X3 = {
      1: ['N1ratio-ArgsPreds'], # variable known to differentiate word order between languages (base model)
      2: ['N1ratio-ArgsPreds', 'Fam_class'], # include family
      3: ['N1ratio-ArgsPreds', 'Fam_class', 'latitude', 'longitude', 'Macro_class'], # include geographical features
@@ -186,8 +186,63 @@ X = {
 # go through each sample and run the HLR models
 for num, check in enumerate(checklists):
      temp = df[df['index'].isin(check[0])]
-     run_HLR(temp, X, y, "{:02d}".format(num+11)+"_"+check[1]+"_Famfirst", "checks/results/")
+     run_HLR(temp, X3, y, "{:02d}".format(num+11)+"_"+check[1]+"_Famfirst", "checks/results/")
 
 ## Still, based on these models, family membership is only significant with the sample
 ## of languages from the families in the Dunn et al paper, and accounts for less variance
 ## than either geographical/areal factors and Noun/Verb lengths.
+
+## Now let's do some language sampling, to see how this affects results
+
+# First we import a randomization library
+import random, tqdm
+
+# set up a dictionary to count which variables are significant for each HLR
+countdict = {"NVlengths": 0, "Family": 0, "Area": 0, "None": 0}
+# let's just count how many languages are present in families with > 40 members
+famdict = family_dict(df, filter_families(df, 40))
+count = 0
+for k, v in famdict.items():
+    count += len(v)
+
+print(count) # this is the number of languages in the dataset found in large families (1017)
+print(len(famdict.keys())) # here are the families in question (8)
+# Now let's get all the languages in the dataset
+famdict = family_dict(df, filter_families(df, 0))
+
+n = 4 # this is our divisor: let's sample 1/4th of languages in a family
+
+# set up 1000 runs
+for num in tqdm.tqdm(range(1000)):
+    # for each run we take a random sample based on our divisor
+    dlist = []
+    for k, v in famdict.items():
+        try:
+            dlist += random.sample(v, int(len(v)/n))
+        except:
+            dlist.append(random.choice(v))
+    
+    # go through each sample and run the HLR models
+    temp = df[df['index'].isin(dlist)]
+    # here we use the first set of models
+    fdict = run_HLR(temp, X1, y, "XX"+"_"+check[1]+"_random", "checks/results/", feedback=True, repl=True)
+    # first we check if NVlengths is significant (model 4)
+    if fdict[4]['F-val change'] > 0.0:
+        if fdict[4]['P-val (F-val change)'] < 0.05:
+            countdict["NVlengths"] += 1
+    # then we check if Family is important (model 3)
+    elif fdict[3]['F-val change'] > 0.0:
+        if fdict[3]['P-val (F-val change)'] < 0.05:
+            countdict["Family"] += 1
+    # then we check if Area is important (model 2)
+    elif fdict[2]['F-val change'] > 0.0:
+        if fdict[2]['P-val (F-val change)'] < 0.05:
+            countdict["Area"] += 1
+    # otherwise we assume there are none
+    else:
+        countdict["None"] += 1
+
+print(len(dlist)) # this should be 1000 runs
+print(countdict) # this is the dictionary of results
+## Here we see that NVlengths is more significant that all other factors
+## over 50% of the time.
