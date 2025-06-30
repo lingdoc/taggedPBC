@@ -7,30 +7,23 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from checks.hierlinreg import *
 
-datafold = "../corpora/conllu/"
-fileslist = [x for x in glob.glob(datafold+"*.conllu")]
+filen = "data/output/stats_All.xlsx" # file with all the stats from the dataset
 
-outfile = "data/output/stats_All_conllu.xlsx"
-
-# check if the conllu stats file exists, and build it if it doesn't
-if not os.path.isfile(outfile):
-    df = get_orders_from_conllu(outfile, fileslist)
-    conlangs = ['epo', 'tlh'] # these are constructed languages (Esperanto and Klingon) in the PBC
-    df = df[~df['index'].isin(conlangs)] # remove constructed languages from analysis spreadsheet
-    linfile = "checks/glottolog/lineages.json" # the lineages and ISO codes from Glottolog, stored in json format
-    df = get_families(df, linfile) # here we add family information to the data
-    df.to_excel(outfile, index=False) # write to file
-else:
-    df = pd.read_excel(outfile)
+# check if the stats file exists, and throw an error if it doesn't
+try:
+    df = pd.read_excel(filen)
+except:
+    print("The file `{filen}` does not exist. Run the `annotating_tagged_PBC.py` script to create it.".format(filen=filen))
+    exit()
 
 print(df.columns)
 ## print out some basic stats from the dataset
-print("The average number of VSO sentences in the conllu PBC is:", df['VSO'].mean())
-print("The average number of SVO sentences in the conllu PBC is:", df['SVO'].mean())
-print("The average length of SOV sentences in the conllu PBC is:", df['SOV'].mean())
-print("The average number of VI sentences in the conllu PBC is:", df['VI'].mean())
-print("The average number of VM sentences in the conllu PBC is:", df['VM'].mean())
-print("The average length of VF sentences in the conllu PBC is:", df['VF'].mean())
+print("The average number of VSO sentences in the taggedPBC is:", df['VSO'].mean())
+print("The average number of SVO sentences in the taggedPBC is:", df['SVO'].mean())
+print("The average length of SOV sentences in the taggedPBC is:", df['SOV'].mean())
+print("The average number of VI sentences in the taggedPBC is:", df['VI'].mean())
+print("The average number of VM sentences in the taggedPBC is:", df['VM'].mean())
+print("The average length of VF sentences in the taggedPBC is:", df['VF'].mean())
 print("")
 
 # get some histograms to see if the data is normally distributed
@@ -67,7 +60,8 @@ plt.clf()
 
 ## the code below combines all the word order observations from the three typological databases
 ## first get the language stats from the conllu PBC (N1 ratio, word orders, etc)
-main = pd.read_excel("data/output/stats_All_conllu.xlsx", index_col=0).to_dict('index')
+# main = pd.read_excel("data/output/stats_All.xlsx", index_col=0).to_dict('index')
+main = pd.read_excel("data/output/stats_All.xlsx", index_col=0).to_dict('index')
 
 print(len(main)) # check the number of languages
 
@@ -77,7 +71,8 @@ datasets = ['data/word_order/'+x for x in datasets]
 
 newdf = pd.DataFrame() # instantiate a new df to store info
 
-# go through each of the typological databases
+# go through each of the typological databases to read transitive word order
+# this overwrites existing files with intrans/transitive word order
 for data in datasets:
     df = pd.read_excel(data, index_col=3) # index 3 is the ISO639-3 code
     datadict = df.to_dict('index')
@@ -103,13 +98,13 @@ for data in datasets:
         rpldict2 = {"AOV": "SOV", "AVO": "SVO", "OAV": "OSV", "OVA": "OVS", "VAO": "VSO", "VOA": "VOS", "Vxx": "VI", "V-2": "VM", "xxV": "VF"}
         df['SOV_order'] = df['WordOrderAPVBasicLex'].replace(rpldict2)
         print(df['SOV_order'].value_counts())
-        df.to_excel("data/output/comparisons_Autotyp_conllu.xlsx")
+        df.to_excel("data/output/comparisons_Autotyp.xlsx")
     elif "wals" in data:
         rpldict = {"No dominant order": "free"}#, 'SV': 'N1', 'VS': 'V1'}
         df['SOV_order'] = df['Order of Subject, Object and Verb'].replace(rpldict)
         df['Noun_Verb_order'] = df['Order of Subject and Verb'].replace(rpldict)
         print(df['SOV_order'].value_counts())
-        df.to_excel("data/output/comparisons_WALS_conllu.xlsx")
+        df.to_excel("data/output/comparisons_WALS.xlsx")
     elif "grambank" in data:
         df['Noun_Verb_order'] = df['Intrans_Order']
         
@@ -135,7 +130,7 @@ for data in datasets:
         print(len(df))
         df = df[df['SOV_order'] != "UNK"]
         print(df['SOV_order'].value_counts())
-        df.to_excel("data/output/comparisons_Grambank_conllu.xlsx")
+        df.to_excel("data/output/comparisons_Grambank.xlsx")
 
     print(df.head())
     # print(df.columns)
@@ -154,7 +149,7 @@ newdf = newdf.drop_duplicates(subset=['index'], keep='first')
 print(len(newdf))
 print(newdf['SOV_order'].value_counts())
 
-newdf.to_excel("data/output/All_comparisons_conllu.xlsx", index=False)
+newdf.to_excel("data/output/All_comparisons_transitive.xlsx", index=False)
 
 ## the following code computes statistics for the N1 ratio and word order classifications in
 ## three typological databases: Grambank, WALS, and Autotyp
@@ -162,9 +157,9 @@ import analysis.anovas
 from analysis.anovas import *
 
 # check the comparisons between the N1 ratio and word order values in the three databases
-datasets = ['comparisons_Grambank_conllu.xlsx', 'comparisons_WALS_conllu.xlsx', 'comparisons_Autotyp_conllu.xlsx',]
+datasets = ['comparisons_Grambank.xlsx', 'comparisons_WALS.xlsx', 'comparisons_Autotyp.xlsx',]
 datasets = ['data/output/'+x for x in datasets]
-datasets = ["data/output/All_comparisons_conllu.xlsx"]
+datasets = ["data/output/All_comparisons_transitive.xlsx"]
 
 for nfile in datasets:
     outfold = "data/output/plots_wdorder/"

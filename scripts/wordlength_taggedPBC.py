@@ -6,7 +6,7 @@ import analysis.anovas
 from analysis.anovas import *
 
 # the code below assumes you have imputed word order values using the consolidated databases as a training set
-filen = "data/output/All_comparisons_imputed.xlsx" # spreadsheet with all languages classified for "SV", "VS", "free" word order
+filen = "data/output/All_comparisons_intransitive_imputed.xlsx" # spreadsheet with all languages classified for "SV", "VS", "free" word order
 outfold = "data/output/plots_means/" # output folder for the resulting datasheets and plots
 
 try:
@@ -41,8 +41,8 @@ import checks.test_hist.classify_lgs
 from checks.test_hist.classify_lgs import *
 
 # import dataset of word order comparisons (doesn't affect outcome)
-# data = "data/output/All_comparisons_imputed.xlsx" # including all languages from the tagged PBC
-data = "data/output/All_comparisons.xlsx" # only languages from typological databases
+# data = "data/output/All_comparisons_intransitive_imputed.xlsx" # including all languages from the tagged PBC
+data = "data/output/All_comparisons_intransitive.xlsx" # only languages from typological databases
 
 # convert the data into the correct format
 X, y = get_train_data(data)
@@ -72,16 +72,7 @@ df.to_excel("checks/test_hist/word_order_hist.xlsx", index=False)
 import checks.hierlinreg
 from checks.hierlinreg import *
 
-famfile = "checks/glottolog/All_comparisons_imputed_families_geodata.xlsx" # the file where we add family info from Glottolog
-complete = "data/output/All_comparisons_imputed.xlsx" # the file with all word orders for the taggedPBC
-
-# check if the file with families exists
-if not os.path.isfile(famfile):
-    linfile = "checks/glottolog/lineages.json" # the lineages and ISO codes from Glottolog, stored in json format
-    dfcom = pd.read_excel(complete)
-    dfam = get_families(dfcom, linfile)
-    dfam.to_excel(famfile)
-
+complete = "data/output/All_comparisons_intransitive_imputed.xlsx" # the file with all word orders for the taggedPBC and family info from Glottolog
 dunnfile = "checks/glottolog/Dunn_isos.xlsx" # this file contains the ISO codes and families of the languages from the Dunn et al paper
 dunn = pd.read_excel(dunnfile) # read in the file
 
@@ -99,7 +90,7 @@ with open("checks/glottolog/NarrowBantu-narr1281.json") as f:
     bantu = json.load(f) # load the list with ISO codes of 'Narrow Bantu' lgs from Glottolog, stored in json format
 
 # read in the dataset with families from Glottolog
-df = pd.read_excel(famfile)
+df = pd.read_excel(complete)
 df['index'] = df['index'].fillna('nan') # when pandas imports the spreadsheet it thinks this ISO code is NaN
 # print(df.head())
 df.loc[df['index'].isin(bantu), 'Family_line'] = 'Narrow Bantu' # change this value for languages in the Bantu list
