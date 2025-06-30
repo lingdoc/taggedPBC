@@ -33,13 +33,6 @@ Individual corpora can be downloaded from the relevant subfolder. Additionally, 
 
 ### Information regarding the tagged corpora
 
-Under the subfolder `corpora/json`, the data contains POS-tagged verses formatted as a `json` dict with the following keys:
-
-- `info`: general information about the data
-- `license`: information on permitted use and relevant copyright
-- `metadata`: the original PBC metadata
-- `tagged`: a list of lists, with the first item in each sublist being the verse number (following PBC convention) and the second being a list of tuples in [word, POS] format where `unk` represents unknown tags
-
 Under the subfolder `corpora/conllu` the data contains additional annotations (POS, dependencies, morphological info) formatted following the [CoNLL-U Universal Dependencies conventions](https://universaldependencies.org/format.html). All corpora contain an introductory header with information on licensing and source, followed by specific verses with introductory comments and then the individual tagged words:
 
 - `# sent_id`: the PBC verse number
