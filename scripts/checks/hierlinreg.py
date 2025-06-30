@@ -30,6 +30,24 @@ def get_families(complete, linfile):
      complete["longitude"] = [indict[x][2] for x in complete['index']]
      complete["macroarea"] = [indict[x][3] for x in complete['index']]
      print(complete['Family_line'])
+     complete.set_index('index', inplace=True) # set index
+     compdict = complete.to_dict(orient='index') # convert to dict
+     # dict below contains updated info missing from Glottolog
+     newdictinfo = {
+               'uth': {"Family_line": "Atlantic-Congo", "latitude": 11.5, "longitude": 4, "macroarea": "Africa"}, 
+               'ukk': {"Family_line": "Austroasiatic", "latitude": 21.183333, "longitude": 100.366667, "macroarea": "Eurasia"}, 
+               'xis': {"Family_line": "Dravidian", "latitude": 24.46, "longitude": 86.47, "macroarea": "Eurasia"}, 
+               'fat': {"Family_line": "Atlantic-Congo", "latitude": 5.5, "longitude": -1, "macroarea": "Africa"}, 
+               'ltg': {"Family_line": "Indo-European", "latitude": 56.948889, "longitude": 24.106389, "macroarea": "Eurasia"},
+                    }
+     # loop through the dict and add info to the compdict if the keys exist
+     for k, v in newdictinfo.items():
+          if k in compdict.keys():
+               for key in v.keys():
+                    compdict[k][key] = newdictinfo[k][key]
+
+     # convert back to dataframe
+     complete = pd.DataFrame.from_dict(compdict, orient='index').reset_index()
 
      return complete
 
