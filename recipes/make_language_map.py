@@ -7,7 +7,7 @@ tempdir = "./tmp"
 hti = Html2Image(temp_path=tempdir) # to convert the html to a png file we create a temp dir
 import lingtypology # this package handles a lot of the mapping functions
 
-stats = "../scripts/data/output/stats_All_conllu.xlsx" # the file of stats extracted from the dataset
+stats = "../scripts/data/output/stats_All.xlsx" # the file of stats extracted from the dataset
 df = pd.read_excel(stats) # read the file with stats on word order
 isolist = df['index'].fillna('nan').to_list() # get the iso codes - "nan" is imported by `pandas` as NaN so we replace it
 print(len(isolist)) # there should be 1597 languages (we exclude the conlangs)
