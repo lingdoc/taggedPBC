@@ -8,22 +8,23 @@ import seaborn as sns
 from checks.hierlinreg import *
 
 too_few = [] # a list to store the ISO639-3 codes of languages with fewer than 100 unique nouns/verbs/predicates
-datafold = "../corpora/json/" # the location of the tagged PBC
-fileslist = [x for x in glob.glob(datafold+"*.json")] # a list of the JSON files for each tagged language
+datafold = "../corpora/conllu/" # the location of the tagged PBC
+fileslist = [x for x in glob.glob(datafold+"*.conllu")] # a list of the JSON files for each tagged language
 outputfile = "data/output/stats_All.xlsx"
 
 # if the spreadsheet doesn't exist, do the following (delete spreadsheet if you want to re-run the analyses)
 if not os.path.isfile(outputfile):
     # get the tagged data, run analyses, store it in this dataframe
     # might take a while..
-    df = get_df_from_tagged(fileslist, too_few)
+    df = get_orders_from_conllu(outputfile, fileslist, too_few)
     conlangs = ['epo', 'tlh'] # these are constructed languages (Esperanto and Klingon) in the PBC
     df = df[~df['index'].isin(conlangs)] # remove constructed languages from analysis spreadsheet
     linfile = "checks/glottolog/lineages.json" # the lineages and ISO codes from Glottolog, stored in json format
     df = get_families(df, linfile) # here we add family information to the data
     print(df.head())
     df.to_excel(outputfile, index=False) # write to an output file
-    print(list(set(too_few))) # these languages have fewer than 100 unique nouns/verbs
+    too_few = list(set(too_few))
+    print(too_few.sort()) # these languages have fewer than 100 unique nouns/verbs
 else:
     df = pd.read_excel(outputfile)
 
@@ -212,7 +213,8 @@ datasets = ['data/word_order/'+x for x in datasets]
 
 newdf = pd.DataFrame() # instantiate a new df to store info
 
-# go through each of the typological databases
+# go through each of the typological databases to read intransitive word order
+# this overwrites existing files with intrans/transitive word order
 for data in datasets:
     df = pd.read_excel(data, index_col=3)
     if "grambank" in data:
@@ -257,7 +259,7 @@ newdf = newdf.reset_index()
 newdf = newdf[newdf['Noun_Verb_order'] != 'UNK'] # remove languages with "UNK" word order
 newdf = newdf.drop_duplicates(subset=['index'], keep='first') # remove duplicated classifications
 
-newdf.to_excel("data/output/All_comparisons.xlsx", index=False)
+newdf.to_excel("data/output/All_comparisons_intransitive.xlsx", index=False)
 
 ## the following code computes statistics for the N1 ratio and word order classifications in
 ## three typological databases: Grambank, WALS, and Autotyp
@@ -299,9 +301,9 @@ classifiers = {
                 "GNB": GaussianNB(),
                 }
 # import dataset
-filen = "data/output/All_comparisons.xlsx" # path to isos in databases where word order has been coded
+filen = "data/output/All_comparisons_intransitive.xlsx" # path to isos in databases where word order has been coded
 original = "data/output/stats_All.xlsx" # get isos from the tagged PBC stats
 
 result = test_classifier_on_df(filen, classifiers, original, 'Noun_Verb_order', ['N1ratio-ArgsPreds'])
 
-result.to_excel("data/output/All_comparisons_imputed.xlsx", index=False)
+result.to_excel("data/output/All_comparisons_intransitive_imputed.xlsx", index=False)
