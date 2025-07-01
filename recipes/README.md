@@ -18,6 +18,8 @@ This folder contains Python scripts that illustrate how to access data in the *t
 - we can use this information to group languages and gather statistics about the languages found in the *taggedPBC*, such as the number of languages in each family, the number of families represented by a certain number of languages, etc:
 
 ```
+There are 21 isolates in the dataset
+There are 1922 languages in 133 language families
 There are 56 families in the dataset represented by a single language
 There are 52 families in the dataset represented by 2-9 languages: 211 total
 There are 18 families in the dataset represented by 10-32 languages: 366 total
