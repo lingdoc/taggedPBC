@@ -36,7 +36,6 @@ The folder structure is as follows:
 
 - The `data` folder contains multiple subfolders:  
   - `output`: a folder to store statistical test results and plots created by scripts in this repository.
-  - `tagged`: a folder containing the 1599 POS-tagged portions of Bibles from the PBC (including 2 conlangs).
   - `translation`: a folder containing data used for developing the tagged corpus.
   - `word_order`: a folder containing spreadsheets with word order information from three typological databases (Autotyp, Grambank, WALS). Data that was tagged with a Glottocode has been cross-referenced to identify each language with an ISO 639-3 code.
 
