@@ -1,23 +1,23 @@
-                      Contrast   Word lengths         A              B Paired Parametric      T      dof alternative  p-unc    BF10  hedges
-                  Word lengths              - Arguments Arguments freq   True       True 92.903 1597.000   two-sided  0.000     inf   0.973
-               Noun_Verb_order              -        SV             VS  False       True -2.717  474.774   two-sided  0.007   2.724  -0.166
-               Noun_Verb_order              -        SV           free  False       True -3.869   55.190   two-sided  0.000 172.417  -0.633
-               Noun_Verb_order              -        VS           free  False       True -2.776   63.590   two-sided  0.007    5.71  -0.494
-Word lengths * Noun_Verb_order      Arguments        SV             VS  False       True -3.199  473.606   two-sided  0.001  10.995  -0.196
-Word lengths * Noun_Verb_order      Arguments        SV           free  False       True -3.781   55.108   two-sided  0.000 125.639  -0.626
-Word lengths * Noun_Verb_order      Arguments        VS           free  False       True -2.534   63.358   two-sided  0.014   3.162  -0.454
-Word lengths * Noun_Verb_order Arguments freq        SV             VS  False       True -2.086  474.937   two-sided  0.037   0.616  -0.128
-Word lengths * Noun_Verb_order Arguments freq        SV           free  False       True -3.830   55.361   two-sided  0.000 149.857  -0.612
-Word lengths * Noun_Verb_order Arguments freq        VS           free  False       True -2.937   64.218   two-sided  0.005   8.724  -0.514
+                      Contrast   Word lengths         A              B Paired Parametric      T      dof alternative  p-unc   BF10  hedges
+                  Word lengths              - Arguments Arguments freq   True       True 98.021 1942.000   two-sided  0.000    inf   0.929
+               Noun_Verb_order              -        SV             VS  False       True -2.124  572.444   two-sided  0.034  0.616  -0.115
+               Noun_Verb_order              -        SV           free  False       True -3.534   65.290   two-sided  0.001 51.893  -0.558
+               Noun_Verb_order              -        VS           free  False       True -2.748   73.157   two-sided  0.008  5.096  -0.483
+Word lengths * Noun_Verb_order      Arguments        SV             VS  False       True -2.512  564.610   two-sided  0.012  1.496  -0.138
+Word lengths * Noun_Verb_order      Arguments        SV           free  False       True -3.467   65.193   two-sided  0.001 41.636  -0.555
+Word lengths * Noun_Verb_order      Arguments        VS           free  False       True -2.558   73.198   two-sided  0.013  3.188  -0.449
+Word lengths * Noun_Verb_order Arguments freq        SV             VS  False       True -1.597  575.349   two-sided  0.111  0.235  -0.086
+Word lengths * Noun_Verb_order Arguments freq        SV           free  False       True -3.504   65.515   two-sided  0.001 47.059  -0.537
+Word lengths * Noun_Verb_order Arguments freq        VS           free  False       True -2.872   73.788   two-sided  0.005  7.037  -0.496
 
 VS Languages mean Noun vs Verb lengths
-      T  dof alternative  p-val          CI95%  cohen-d       BF10  power
--44.596  294   two-sided    0.0 [-1.25, -1.14]    1.126 8.937e+128    1.0
+      T  dof alternative  p-val          CI95%  cohen-d       BF10 power
+-44.262  345   two-sided    0.0 [-1.21, -1.11]    1.109 2.317e+140   NaN
 
 SV Languages mean Noun vs Verb lengths
-      T  dof alternative  p-val          CI95%  cohen-d BF10  power
--80.286 1249   two-sided    0.0 [-1.14, -1.09]    0.956  inf    1.0
+      T  dof alternative  p-val          CI95%  cohen-d BF10 power
+-85.802 1533   two-sided    0.0 [-1.12, -1.07]     0.91  inf   NaN
 
 Free Languages mean Noun vs Verb lengths
-      T  dof alternative  p-val         CI95%  cohen-d     BF10  power
--16.693   52   two-sided    0.0 [-1.3, -1.02]    0.845 2.68e+19    1.0
+      T  dof alternative  p-val          CI95%  cohen-d      BF10  power
+-17.906   62   two-sided    0.0 [-1.28, -1.02]    0.768 1.023e+23    1.0

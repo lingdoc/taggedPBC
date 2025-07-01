@@ -1,4 +1,4 @@
        Contrast  A    B  Paired  Parametric      T     dof alternative  p-unc      BF10  hedges
-Noun_Verb_order SV   VS   False        True 21.344 316.962   two-sided    0.0 3.347e+69   1.505
-Noun_Verb_order SV free   False        True 11.128  72.020   two-sided    0.0 2.195e+22   1.016
-Noun_Verb_order VS free   False        True -4.742  65.342   two-sided    0.0  2857.668  -0.939
+Noun_Verb_order SV   VS   False        True 21.707 361.443   two-sided    0.0 4.492e+73   1.443
+Noun_Verb_order SV free   False        True 11.238  77.400   two-sided    0.0 1.233e+23   1.019
+Noun_Verb_order VS free   False        True -4.047  71.432   two-sided    0.0   250.699  -0.771

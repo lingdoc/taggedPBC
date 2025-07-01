@@ -1,7 +1,7 @@
    Contrast  A    B  Paired  Parametric       T     dof alternative  p-unc      BF10  hedges
-Trans_order VF   VI   False        True  26.214 412.880   two-sided  0.000 3.851e+88   2.103
-Trans_order VF   VM   False        True  15.109 556.335   two-sided  0.000 1.167e+41   1.178
-Trans_order VF free   False        True   9.146 314.395   two-sided  0.000 2.901e+15   0.893
-Trans_order VI   VM   False        True -15.433 277.003   two-sided  0.000 1.306e+40  -1.442
-Trans_order VI free   False        True  -9.573 254.668   two-sided  0.000 9.464e+15  -1.002
-Trans_order VM free   False        True  -0.523 231.369   two-sided  0.602     0.118  -0.058
+Trans_order VF   VI   False        True  27.465 479.129   two-sided  0.000 2.082e+98   2.037
+Trans_order VF   VM   False        True  16.461 628.814   two-sided  0.000 9.373e+48   1.203
+Trans_order VF free   False        True   9.825 384.078   two-sided  0.000 1.041e+18   0.883
+Trans_order VI   VM   False        True -15.396 328.705   two-sided  0.000 1.888e+41  -1.276
+Trans_order VI free   False        True  -9.826 299.650   two-sided  0.000  1.32e+17  -0.930
+Trans_order VM free   False        True  -0.889 279.753   two-sided  0.375     0.138  -0.089
