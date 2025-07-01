@@ -8,11 +8,11 @@ from sklearn.preprocessing import LabelEncoder
 
 # a function to get lineages from one file and add them to a dataframe
 def get_families(complete, linfile):
-     print(len(complete))
+     # print(len(complete))
      complete['index'] = complete['index'].fillna('nan') # when pandas imports the spreadsheet it thinks this ISO code is NaN
 
      ind = complete['index'].to_list()
-     print(len(ind)) # this is the number of unique ISO codes in our dataset
+     print("Number of unique ISO codes in the data:", len(ind))
 
      with open(linfile) as f:
          lineages = json.load(f) # load the json file with lineages and ISO codes from Glottolog, stored in json format
@@ -20,16 +20,16 @@ def get_families(complete, linfile):
      # create a dict with the lineages present in our dataset
      indict = {}
      indict = {y: [k, v[y][1], v[y][2], v[y][3]] for k, v in lineages.items() for y in v.keys() if y not in indict.keys()}
-     print("Number of lineages in the data:", len(indict))
+     print("Number of lineages in the Glottolog data:", len(indict))
      # print(len(complete))
-     print(complete.head())
+     # print(complete.head())
      # create a new column with the family line for each ISO code
      complete["Family_line"] = [indict[x][0].split("\t")[1] for x in complete['index']]
      # create new colums with latitude, longitude, macroarea for each ISO code
      complete["latitude"] = [indict[x][1] for x in complete['index']]
      complete["longitude"] = [indict[x][2] for x in complete['index']]
      complete["macroarea"] = [indict[x][3] for x in complete['index']]
-     print(complete['Family_line'])
+     # print(complete['Family_line'])
      complete.set_index('index', inplace=True) # set index
      compdict = complete.to_dict(orient='index') # convert to dict
      # dict below contains updated info missing from Glottolog

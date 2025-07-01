@@ -1,5 +1,6 @@
 import os, glob
 import pandas as pd
+from tqdm.contrib.concurrent import process_map
 
 # let's run statistics to see how well word class length correlates with word order
 import analysis.anovas
@@ -190,23 +191,31 @@ for num, check in enumerate(checklists):
 # First we import a randomization library
 import random, tqdm
 
-# set up a dictionary to count which variables are significant for each HLR
-countdict = {"NVlengths": 0, "Family": 0, "Area": 0, "None": 0}
 # let's just count how many languages are present in families with > 40 members
 famdict = family_dict(df, filter_families(df, 40))
 count = 0
 for k, v in famdict.items():
     count += len(v)
 
-print(count) # this is the number of languages in the dataset found in large families (1017)
-print(len(famdict.keys())) # here are the families in question (8)
+# print("The number of languages in the dataset found in large families:", count)
+print(f"There are {count} languages found in {len(famdict.keys())} families in the dataset")
 # Now let's get all the languages in the dataset
 famdict = family_dict(df, filter_families(df, 0))
 
-n = 4 # this is our divisor: let's sample 1/4th of languages in a family
+# n = 4 # this is our divisor: let's sample 1/4th of languages in a family
 
-# set up 1000 runs
-for num in tqdm.tqdm(range(1000)):
+# a function to randomly sample languages and run HLRs for each random sample
+def sample_hlr(famdict, n=4, X1=X1, y=y):
+    """
+    famdict: the dictionary of families, derived from a spreadsheet using the `family_dict` and `filter_families` functions
+    n: the divisor for sampling
+    X1: the models for hierarchical linear regression
+    y: the outcome variable for hierarchical linear regression (binary)
+    """
+
+    # set up a dictionary to count which variables are significant for each HLR
+    countdict = {"NVlengths": 0, "Family": 0, "Area": 0, "None": 0}
+
     # for each run we take a random sample based on our divisor
     dlist = []
     for k, v in famdict.items():
@@ -215,7 +224,7 @@ for num in tqdm.tqdm(range(1000)):
         except:
             dlist.append(random.choice(v))
     
-    # go through each sample and run the HLR models
+    # go through the sample and run the HLR models
     temp = df[df['index'].isin(dlist)]
     # here we use the first set of models
     fdict = run_HLR(temp, X1, y, "XX"+"_"+check[1]+"_random", "checks/results/", feedback=True, repl=True)
@@ -235,7 +244,26 @@ for num in tqdm.tqdm(range(1000)):
     else:
         countdict["None"] += 1
 
-print(len(dlist)) # this should be 1000 runs
+    return countdict
+
+workers = 30 # set number of workers for multiprocessing
+flist = [famdict for x in range(1000)] # a range of 1000 items for processing
+# run 1000 HLRs, processing a random sample of languages based on our divisor (n=4)
+values = process_map(sample_hlr, flist, max_workers=workers, chunksize=1)
+
+countdict = {} # a dict to store the results
+# go through each item returned by our process
+for d in values:
+    # check if it's been counted
+    for k, v in d.items():
+        # if not add it to our dict
+        if not k in countdict.keys():
+            countdict[k] = v
+        # if so increment the counter
+        else:
+            countdict[k] += v
+
 print(countdict) # this is the dictionary of results
+
 ## Here we see that NVlengths is more significant that all other factors
 ## over 50% of the time.

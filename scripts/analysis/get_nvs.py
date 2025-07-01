@@ -1,4 +1,6 @@
 import os, json, statistics, glob, tqdm
+from tqdm.contrib.concurrent import process_map
+from functools import partial
 import pandas as pd
 from collections import Counter
 
@@ -6,6 +8,7 @@ from collections import Counter
 def convert_conllu(bibfile, misc="gloss="):
     """
     bibfile: the path of the conllu-formatted file (Bible verses)
+    misc: any miscellaneous information in field #10 that you wish to extract
     """
     # open the file and strip newlines
     with open(bibfile) as f:
@@ -41,16 +44,17 @@ def convert_conllu(bibfile, misc="gloss="):
 
     return alines
 
+# function to get lengths of unique items
 def get_ulen(nlist):
-    # function to get lengths of unique items
     lenslst = [len(n) for n in list(set(nlist))]
     return lenslst
 
+# function to get lengths of all items (preserves freq)
 def get_flen(llist):
-    # function to get lengths of all items (preserves freq)
     lenslist = [len(n) for n in llist]
     return lenslist
 
+# function to get average of unique numbers in a list
 def get_uavg(klist):
     try:
         average = statistics.mean(get_ulen(klist))
@@ -58,6 +62,7 @@ def get_uavg(klist):
     except:
         return 0
 
+# function to get average of numbers in a list (preserves freq)
 def get_favg(ilist):
     try:
         avg = statistics.mean(get_flen(ilist))
@@ -66,7 +71,7 @@ def get_favg(ilist):
         return 0
 
 # a function to get transitive word order information from a list of dependency-tagged text
-def get_sovs(iso, taggedbib, isodict):
+def get_wordorders(iso, taggedbib, isodict):
     """
     iso: the 3-letter code of the language (ISO 639-3)
     taggedbib: the list of dependency-tagged text for this language, derived from the `convert_conllu()` function
@@ -74,24 +79,20 @@ def get_sovs(iso, taggedbib, isodict):
     """
 
     # here we instantiate various dicts and lists to count things
+    # one dict to store raw orders
     ordersdict = {"SOV": 0, "SVO": 0, "OSV": 0, "OVS": 0, "VOS": 0, "VSO": 0, "SO": 0, "OS": 0, "VS": 0, "SV": 0, "VO": 0, "OV": 0, 'errors': 0}
+    # one dict to store N-initial/V-initial counts
     n1dict = {"N1": 0, "V1": 0, "N1_only": 0, "V1_only": 0}
     # errors = 0
     preds = ["VERB", "AUX"] # the set of POS tags to consider for predicates
     args = ["NOUN", "PRON", "PROPN"] # the set of POS tags to consider for arguments
 
     # instantiate lists for tracking items
-    nouns = []
-    prons = []
-    propns = []
-    verbs = []
-    auxs = []
-    arguments = []
-    predicates = []
-
-    wordorders = []
+    nouns, prons, propns, verbs, auxs, arguments, predicates = [], [], [], [], [], [], []
 
     # first we go through the tagged bible and count arguments/predicates
+    # also appending them to lists to track their orders
+    wordorders = []
     for sent in taggedbib:
         sentord = []
         # search through each word in each verse
@@ -108,9 +109,10 @@ def get_sovs(iso, taggedbib, isodict):
         wordorders.append("_".join(sentord))
         # print(wordorders)
 
+    # then we go through the list of lists and id the orders
     newordorders = [] # list to store orders
     for nv in wordorders:
-        # check whether both N and V occur in the verse
+        # check whether both N and V occur in the verse, only count orders for those that do
         if all(x in nv for x in ["N", "V"]):
             nvx = nv.strip()
             # if so, check which one occurs first
@@ -127,15 +129,10 @@ def get_sovs(iso, taggedbib, isodict):
     for order, val in wordordercounts.items():
         n1dict[order] = val # add the counts to the dictionary
 
-    # go through each sentence in the tagged corpus to track subject/object relations
+    # now go through each sentence in the tagged corpus again to track subject/object relations
     for sentence in taggedbib:
         # set each of these indices to None at the start
-        subjind = None
-        objind = None
-        vind = None
-        argind = None
-        nind = None
-        vindo = None
+        subjind, objind, vind, argind, nind, vindo = None, None, None, None, None, None
 
         # for each of these conditions, update the relevant index
         # to reflect the first match
@@ -176,9 +173,8 @@ def get_sovs(iso, taggedbib, isodict):
                     verbs.append(word[0]) # add the item to our list of verbs
                 if "AUX" == word[1]:
                     auxs.append(word[0]) # add the item to our list of auxiliaries
-            
         
-        # now go through our indices for subject, object, and verb
+        # now go through indices for subject, object, and verb for this sentence
         # if all three indices have been updated, add to the respective
         # order in our dictionary of counts
         if all(v is not None for v in [subjind, objind, vind]):
@@ -203,10 +199,6 @@ def get_sovs(iso, taggedbib, isodict):
                     ordersdict["SO"] += 1
                 elif objind < subjind:
                     ordersdict["OS"] += 1
-                # print(sentence)
-                # print(subjind, objind, vind)
-                # print(ordersdict)
-                # exit()
             elif all(v is not None for v in [subjind, vind]):
                 if subjind < vind:
                     ordersdict["SV"] += 1
@@ -221,20 +213,30 @@ def get_sovs(iso, taggedbib, isodict):
             else:
                 ordersdict["errors"] += 1
 
-        # # now see if the POS tag indices were updated, and
-        # # if so, check which one occurs first and count it
-        # # in our N1 dictionary 
+        # now see if the POS tag indices were updated, and
+        # if so, check which one occurs first and count it
+        # in our N1 dictionary
         if all(v is not None for v in [vindo, nind]):
             if vindo < nind:
                 n1dict["V1_only"] += 1
             elif nind < vindo:
                 n1dict["N1_only"] += 1
 
-    lengthsdict = {"Verse_counts": len(taggedbib), "Ns_count": len(get_ulen(nouns)), "Vs_count": len(get_ulen(verbs)), "Prons_count": len(get_ulen(prons)), "Propns_count": len(get_ulen(propns)), "Auxs_count": len(get_ulen(auxs)), "Args_count": len(get_ulen(arguments)), "Preds_count": len(get_ulen(predicates)), "Nlen": get_uavg(nouns), "Pronlen": get_uavg(prons), "Propnlen": get_uavg(propns), "Vlen": get_uavg(verbs), "Auxlen": get_uavg(auxs), "Arglen": get_uavg(arguments), "Predlen": get_uavg(predicates), "Nlen_freq": get_favg(nouns), "Pronlen_freq": get_favg(prons), "Propnlen_freq": get_favg(propns), "Vlen_freq": get_favg(verbs), "Auxlen_freq": get_favg(auxs), "Arglen_freq": get_favg(arguments), "Predlen_freq": get_favg(predicates)}
+    # here we count various things and store values in a dict
+    lengthsdict = {"Verse_counts": len(taggedbib), "Ns_count": len(get_ulen(nouns)), 
+                    "Vs_count": len(get_ulen(verbs)), "Prons_count": len(get_ulen(prons)), 
+                    "Propns_count": len(get_ulen(propns)), "Auxs_count": len(get_ulen(auxs)), 
+                    "Args_count": len(get_ulen(arguments)), "Preds_count": len(get_ulen(predicates)), 
+                    "Nlen": get_uavg(nouns), "Pronlen": get_uavg(prons), "Propnlen": get_uavg(propns), 
+                    "Vlen": get_uavg(verbs), "Auxlen": get_uavg(auxs), "Arglen": get_uavg(arguments), 
+                    "Predlen": get_uavg(predicates), "Nlen_freq": get_favg(nouns), 
+                    "Pronlen_freq": get_favg(prons), "Propnlen_freq": get_favg(propns), 
+                    "Vlen_freq": get_favg(verbs), "Auxlen_freq": get_favg(auxs), 
+                    "Arglen_freq": get_favg(arguments), "Predlen_freq": get_favg(predicates)}
 
     # here we get the totals for all verses with 3 elements (the 6 transitive word orders)
     sums3 = sum([v for k, v in ordersdict.items() if len(k) > 2 if "V" in k])
-    # here we get the totals for all verses with 2 elements that contain a V
+    # here we get the totals for all verses with 2 elements that contain a V (intransitive word orders)
     sums2 = sum([v for k, v in ordersdict.items() if len(k) < 3 if "V" in k])
     # now create proportions based on these values and add them to new dicts
     vecdict = {k+"_prop": v/sums3 for k, v in ordersdict.items() if len(k) > 2 if "V" in k}
@@ -272,27 +274,30 @@ def get_sovs(iso, taggedbib, isodict):
 
     return isodict
 
-# a function to run the other functions, get counts, and write to a spreadsheet
-def get_orders_from_conllu(outfile, fileslist, too_few):
-    isodict = {} # instantiate our dictionary
+# function to get the iso and counts from the corpora as a list
+# to pass through the processor
+def get_isodict(bibfile):
+    """
+    bibfile: CoNLL-U formatted file with the first 3 characters being the ISO 639-3 code
+    """
+    isodict = {}
+    iso = bibfile.split("/")[-1].split("-")[0] # get the iso code
+
+    isodict[iso] = {} # make a new embedded dictionary in our main file
+
+    taggedbib = convert_conllu(bibfile) # run the function to get our list of tagged data
+
+    isodict = get_wordorders(iso, taggedbib, isodict) # count the words/relations
+
+    return [iso, isodict[iso]]
+
+# a function to run the other functions and write to a spreadsheet
+# using tqdm.process_map for faster execution
+def get_orders_from_conllu(outfile, fileslist, workers):
+
+    values = process_map(get_isodict, fileslist, max_workers=workers, chunksize=1)
     
-    # go through each conllu-formatted file in the list
-    for bibfile in tqdm.tqdm(fileslist):
-        # print(bibfile)
-        iso = bibfile.split("/")[-1].split("-")[0] # get the iso code
-        # print(iso)
-
-        isodict[iso] = {} # make a new embedded dictionary in our main file
-
-        taggedbib = convert_conllu(bibfile) # run the function to get our list of tagged data
-
-        isodict = get_sovs(iso, taggedbib, isodict) # count the words/relations
-
-        if isodict[iso]['Ns_count'] < 100:
-            too_few.append(iso+"_Ns: "+str(isodict[iso]['Ns_count']))
-        if isodict[iso]['Vs_count'] < 100:
-            too_few.append(iso+"_Vs: "+str(isodict[iso]['Vs_count']))
-
+    isodict = {k[0]: k[1] for k in values}
     df = pd.DataFrame.from_dict(isodict, orient='index').reset_index() # convert to dataframe
 
     return df

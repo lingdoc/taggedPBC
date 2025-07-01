@@ -7,7 +7,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from checks.hierlinreg import *
 
-too_few = [] # a list to store the ISO639-3 codes of languages with fewer than 100 unique nouns/verbs/predicates
 datafold = "../corpora/conllu/" # the location of the tagged PBC
 fileslist = [x for x in glob.glob(datafold+"*.conllu")] # a list of the JSON files for each tagged language
 outputfile = "data/output/stats_All.xlsx"
@@ -16,19 +15,23 @@ outputfile = "data/output/stats_All.xlsx"
 if not os.path.isfile(outputfile):
     # get the tagged data, run analyses, store it in this dataframe
     # might take a while..
-    df = get_orders_from_conllu(outputfile, fileslist, too_few)
+    workers = 30 # use this for multiprocessing to speed things up
+    df = get_orders_from_conllu(outputfile, fileslist, workers)
     conlangs = ['epo', 'tlh'] # these are constructed languages (Esperanto and Klingon) in the PBC
     df = df[~df['index'].isin(conlangs)] # remove constructed languages from analysis spreadsheet
     linfile = "checks/glottolog/lineages.json" # the lineages and ISO codes from Glottolog, stored in json format
     df = get_families(df, linfile) # here we add family information to the data
     print(df.head())
     df.to_excel(outputfile, index=False) # write to an output file
-    too_few = list(set(too_few))
-    print(too_few.sort()) # these languages have fewer than 100 unique nouns/verbs
 else:
     df = pd.read_excel(outputfile)
 
 ## print out some basic stats from the dataset
+print("Number of language families in the data:", len(df["Family_line"].value_counts()))
+lessa = df.loc[df.Ns_count < 50]
+print("Languages with fewer than 50 arguments:", lessa['index'].to_list())
+lessp = df.loc[df.Vs_count < 50]
+print("Languages with fewer than 50 predicates:", lessp['index'].to_list())
 print("The average number of arguments in the tagged PBC is:", df['Args_count'].mean())
 print("The average number of predicates in the tagged PBC is:", df['Preds_count'].mean())
 print("The average length of arguments in the tagged PBC is:", df['Arglen'].mean())
@@ -64,6 +67,7 @@ print("{}\t{}".format('N_verse','N_Langs'))
 for k, v in finalbins.items():
     label = v
     print("{}\t{}".format(k, label))
+print("")
 
 # get some histograms to see if the data is normally distributed
 # here are the columns to use for density plots:
