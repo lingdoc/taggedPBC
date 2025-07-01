@@ -10,7 +10,7 @@ If you use this data, please cite the following source or one (or all) of the pa
 
 ## Updates
 
-**UPDATE** *01 July 2025*: Added parallel data from 346 additional languages, bringing the count of corpora to 1,945 (from 1,599). Results remain largely unchanged from initial findings reported in first drafts of papers linked here. 
+**UPDATE** *01 July 2025*: Added parallel data from 346 additional languages, bringing the count of corpora to 1,945 (from 1,599). Results remain largely unchanged from initial findings reported in first drafts of papers linked here. This README and associated files in the repository have been updated with revised findings.
 
 **UPDATE** *29 June 2025*: Removed `json` formatted corpora and converted scripts to use only CoNLL-U formatted corpora. 
 
