@@ -42,7 +42,7 @@ The methodology used here follows earlier work, where pairs of word alignment mo
 
 ### 1. Assumptions <a name="assumptions"></a>
 
-The original corpus (the Parallel Bible Corpus, PBC; [Mayer & Cysouw 2014](#1)) contains portions of the Bible in over 2000 languages. The *taggedPBC* contains a reduced set of verses for 1597 modern languages (as well as 2 conlangs). All these scripts have been romanized for comparison.
+The original corpus (the Parallel Bible Corpus, PBC; [Mayer & Cysouw 2014](#1)) contains portions of the Bible in over 2,000 languages. The *taggedPBC* contains a reduced set of verses for 1,943 languages (and 2 conlangs). All these scripts have been romanized for comparison.
 
 #### 1.1 Automatic POS and dependency tagging using cross-lingual transfer <a name="auto-pos"></a>
 
@@ -70,7 +70,7 @@ This gives a set of proportions regarding the relative number of each order foun
 
 #### 2.2 Assessing the validity of the proportions <a name="assessing-proportions"></a>
 
-To test whether these proportions identify transitive word order in language, similarly to "The *taggedPBC*" paper, I compare the proportions with classification of languages in existing typological databases: the World Atlas of Language Structures ([WALS](https://wals.info/); [Dryer & Haspelmath 2013](#4)), the [AUTOTYP](https://github.com/autotyp/autotyp-data) database ([Bickel et al., 2022](#5)), and [Grambank](https://grambank.clld.org/) ([Skirgård et al., 2023](#6)). These databases contain determinations of word order in many of the languages contained in the *tagged PBC* corpus. For comparative purposes, I convert all classifications to Verb-initial (VI), Verb-medial (VM), Verb-final (VM) and "free". Also due to the nature of the investigation, I combine all databases into a single set of 966 observations where the databases share ISO codes with languages in the *taggedPBC*.
+To test whether these proportions identify transitive word order in language, similarly to "The *taggedPBC*" paper, I compare the proportions with classification of languages in existing typological databases: the World Atlas of Language Structures ([WALS](https://wals.info/); [Dryer & Haspelmath 2013](#4)), the [AUTOTYP](https://github.com/autotyp/autotyp-data) database ([Bickel et al., 2022](#5)), and [Grambank](https://grambank.clld.org/) ([Skirgård et al., 2023](#6)). These databases contain determinations of word order in many of the languages contained in the *tagged PBC* corpus. For comparative purposes, I convert all classifications to Verb-initial (VI), Verb-medial (VM), Verb-final (VM) and "free". Also due to the nature of the investigation, I combine all databases into a single set of 1,138 observations where the databases share ISO codes with languages in the *taggedPBC*.
 
 ##### 2.2.1 Verb-initial proportions
 
@@ -81,21 +81,21 @@ Here we can see that the proportion of Verb-initial sentences is highest for lan
 
 ##### 2.2.2 Verb-medial proportions
 
-Here we see that the proportion of Verb-medial sentences is highest for languages classed as Verb-medial by the databases. Further, while the proportion significantly differentiates between most word order classifications, it is only marginally significant for differentiating between VI and VF languages (see [results of ANOVA](data/output/plots_wdorder/Trans_order_VM_prop_posthoc.txt)).
+Here we see that the proportion of Verb-medial sentences is highest for languages classed as Verb-medial by the databases. Further, the proportion significantly differentiates between all word order classifications, though this is slightly less significant for VI and VF languages (see [results of ANOVA](data/output/plots_wdorder/Trans_order_VM_prop_posthoc.txt)).
 
 ![Transitive order Verb medial proportions](data/output/plots_wdorder/Trans_order_VM_prop.png)
 
 
 ##### 2.2.3 Verb-final proportions
 
-In this plot we see that the proportion of Verb-final sentences is highest for languages classed as Verb-final by the databases. Although the proportion also significantly differentiates between all word order classifications, it is not as significant for differentiating between VI and VM languages (see [results of ANOVA](data/output/plots_wdorder/Trans_order_VF_prop_posthoc.txt)).
+In this plot we see that the proportion of Verb-final sentences is highest for languages classed as Verb-final by the databases. The proportion also significantly differentiates between all word order classifications, but is not as significant for differentiating between VI and VM languages (see [results of ANOVA](data/output/plots_wdorder/Trans_order_VF_prop_posthoc.txt)).
 
 ![Transitive order Verb final proportions](data/output/plots_wdorder/Trans_order_VF_prop.png)
 
 
 ##### 2.2.4 Transitive orders and the N1 ratio
 
-Interestingly, the N1 ratio significantly differentiates between all word order classifications, as it did with intransitive word order (see [results of ANOVA](data/output/plots_wdorder/Trans_order_N1_ratio_posthoc.txt)).
+Interestingly, the N1 ratio also significantly differentiates between most word order classifications, as it did with intransitive word order (see [results of ANOVA](data/output/plots_wdorder/Trans_order_N1_ratio_posthoc.txt)).
 
 ![Transitive order and N1 ratio](data/output/plots_wdorder/Trans_order_N1_ratio.png)
 

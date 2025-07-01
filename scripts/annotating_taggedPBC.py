@@ -220,14 +220,16 @@ newdf = pd.DataFrame() # instantiate a new df to store info
 # go through each of the typological databases to read intransitive word order
 # this overwrites existing files with intrans/transitive word order
 for data in datasets:
+    name = data.split('/')[-1].split('_')[0]
     df = pd.read_excel(data, index_col=3)
     if "grambank" in data:
         df = df[df['Intrans_Order'] != "UNK"] # remove languages with "UNK" word order
+
     datadict = df.to_dict('index')
-    print(len(datadict))
+    print(f"There are {len(datadict)} languages with IntvOrder identified in {name}")
 
     combinedkeys = list(main.keys() & datadict.keys())
-    print(len(combinedkeys))
+    print(f"There are {len(combinedkeys)} languages with IntvOrder shared between the taggedPBC and {name}")
 
     combineds = {k: main[k] for k in combinedkeys}
 
@@ -254,9 +256,10 @@ for data in datasets:
         df['Noun_Verb_order'] = df['Intrans_Order']#.replace(rpldict)
         df = df[df['Noun_Verb_order'] != "UNK"] # remove languages with "UNK" word order
         df.to_excel("data/output/comparisons_Grambank.xlsx")
-    print(df.head())
+    # print(df.head())
     # print(df.columns)
-    print(len(df))
+    # print(len(df))
+    print("")
     newdf = pd.concat([newdf, df])
 
 newdf = newdf.reset_index()
@@ -278,7 +281,7 @@ for nfile in datasets:
     outfold = "data/output/plots_wdorder/"
     ds = nfile.split("_")[-1][:-5]
 
-    print(nfile)
+    print("Intransitive order and N1 ratio for:", nfile.split(".")[0].split("_")[-1])
     df = pd.read_excel(nfile)
     df['index'] = df.index
     repldict = {'N1': 'SV', 'V1': 'VS'}
@@ -288,6 +291,7 @@ for nfile in datasets:
     betw = 'Noun_Verb_order'
     within = 'N1ratio-ArgsPreds'
     get_anova_wordorder(df, subj, betw, within, outfold, ds, repl=True)
+    print("")
 
 ## the anovas show a significant correlation between intransitive word order and the N1 ratio
 ## the difference in means is also visible in the plots

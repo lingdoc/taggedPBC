@@ -1,6 +1,6 @@
 # taggedPBC
 
-**tldr**: POS-tagged verses from the Parallel Bible Corpus (PBC; [Mayer & Cysouw 2014](#1)), with Python code for extracting various metrics and making cross-linguistic comparisons.
+**tldr**: POS-tagged verses, initially from the Parallel Bible Corpus (PBC; [Mayer & Cysouw 2014](#1)), with Python code for extracting various metrics and making cross-linguistic comparisons.
 
 > This repository is shared under a CC BY-NC-SA 4.0 license
 
@@ -83,11 +83,11 @@ This methodology allows us to tag 1885 verses for a large number of languages in
 
 |Number of verses|Number of languages|
 |--|--|
-|1800+|1547|
-|1500-1800|21|
-|1000-1500|26|
-|700-1000|5|
-|**Total**|**1599**|
+|1800+|1823|
+|1500-1800|58|
+|1000-1500|50|
+|700-1000|12|
+|**Total**|**1943**|
 
 ![Verse counts in corpora](data/output/plots_distr/hist-Verse_counts.png)
 
@@ -214,28 +214,28 @@ The N1 ratio gives a proportion of N-initial sentences in a corpus, but how vali
 
 ##### 2.3.1 Comparisons with WALS
 
-The WALS database “is a large database of structural (phonological, grammatical, lexical) properties of languages gathered from descriptive materials (such as reference grammars) by a team of 55 authors” (Dryer & Haspelmath, 2013). There are 2,498 languages or lects with coded data in the database, of which 1,367 unique lects (varieties that are identified with unique ISO 639-3 codes) have information regarding the order of Subject and Verb, where languages are identified as “SV” (noun first), “VS” (verb first) or “No dominant order” (free). Of these, 566 have translations found within the PBC.
+The WALS database “is a large database of structural (phonological, grammatical, lexical) properties of languages gathered from descriptive materials (such as reference grammars) by a team of 55 authors” (Dryer & Haspelmath, 2013). There are 2,498 languages or lects with coded data in the database, of which 1,374 unique lects (varieties that are identified with unique ISO 639-3 codes) have information regarding the order of Subject and Verb, where languages are identified as “SV” (noun first), “VS” (verb first) or “No dominant order” (free). Of these, 646 have translations found within the *taggedPBC*.
 
 ![N1 ratio and WALS](data/output/plots_wdorder/N1ratio-ArgsPreds_WALS.png)
 
-To determine the degree to which the “N1 ratio” aligns with these expert codes regarding order of Subject and Verb, I conducted an analysis of variance (one-way ANOVA) with the N1 ratio as the dependent variable, and the WALS category as the grouping variable. For the 566 shared languages, there was a clear and significant distinction between languages identified as SV in the WALS database (noun first) and VS (verb first) languages  (p < 0.001), on the basis of the N1 ratio. There was also a significant difference between SV and “free” word order languages (p < 0.001), and between “free” and VS languages (p < 0.001). This means that the N1 ratio effectively differentiates between these languages at least as well as the expert judgements maintained in the WALS database.
+To determine the degree to which the “N1 ratio” aligns with these expert codes regarding order of Subject and Verb, I conducted an analysis of variance (one-way ANOVA) with the N1 ratio as the dependent variable, and the WALS category as the grouping variable. For the 646 shared languages, there was a clear and significant distinction between languages identified as SV in the WALS database (noun first) and VS (verb first) languages  (p < 0.001), on the basis of the N1 ratio. There was also a significant difference between SV and “free” word order languages (p < 0.001), and between “free” and VS languages (p < 0.001). This means that the N1 ratio effectively differentiates between these languages at least as well as the expert judgements maintained in the WALS database.
 
 ##### 2.3.2 Comparisons with Autotyp
 
 The AUTOTYP database is a set of linguistic data that depends “on an automatic generation of category lists during data input” (Bickel et al., 2022). It contains typological information on 2,830
-languages, of which 452 have information on word order; 180 of these are also found in the PBC. The AUTOTYP database identifies languages as “V=1” (verb first), “V=2” (verb second), “V=3” (verb third), or “free” (no dominant order). For our purposes, we consider both “V=2” and “V=3” languages to be “SV”, while “V=1” is “VS”, allowing for comparison with the N1 ratio.
+languages, of which 450 have information on word order; 203 of these are also found in the PBC. The AUTOTYP database identifies languages as “V=1” (verb first), “V=2” (verb second), “V=3” (verb third), or “free” (no dominant order). For our purposes, we consider both “V=2” and “V=3” languages to be “SV”, while “V=1” is “VS”, allowing for comparison with the N1 ratio.
 
 ![N1 ratio and Autotyp](data/output/plots_wdorder/N1ratio-ArgsPreds_Autotyp.png)
 
-For these languages, I conducted an ANOVA with the N1 ratio derived from the tagged PBC as the dependent variable and the “SV” (141 languages), “VS” (25 languages) and “free” (14 languages) categories as the grouping variables. Similarly to the WALS database, the N1 ratio significantly differentiated between “SV” languages and both “VS” and “free” languages (p < 0.001), but unlike the previous comparison it did not significantly differentiate “free” languages from “VS” languages (p = 0.088).
+For these languages, I conducted an ANOVA with the N1 ratio derived from the tagged PBC as the dependent variable and the “SV”, “VS” and “free” categories as the grouping variables. Similarly to the WALS database, the N1 ratio significantly differentiated between “SV” languages and both “VS” and “free” languages (p < 0.001), but unlike the previous comparison it did not significantly differentiate “free” languages from “VS” languages (p = 0.054).
 
 ##### 2.3.3 Comparisons with Grambank
 
-The Grambank database is a set of linguistic data that “currently covers 2,467 language varieties, capturing a wide range of grammatical phenomena in 195 features, from word order to verbal tense, nominal plurals, and many other well-studied comparative linguistic variables” (Skirgård et al., 2023). It contains word order information on 2,320 languages (features GB130-GB136), 900 of which are also found in the PBC. Of these languages, an additional 109 languages have “UNK” as the word order feature, leaving 791 for comparison.
+The Grambank database is a set of linguistic data that “currently covers 2,467 language varieties, capturing a wide range of grammatical phenomena in 195 features, from word order to verbal tense, nominal plurals, and many other well-studied comparative linguistic variables” (Skirgård et al., 2023). It contains word order information on 2,320 languages (features GB130-GB136). Of these languages, an additional 107 languages have “UNK” as the word order feature, and of the remaining 2213 there are 938 that are also found in the PBC.
 
 ![N1 ratio and Grambank](data/output/plots_wdorder/N1ratio-ArgsPreds_Grambank.png)
 
-For these languages, I conducted an ANOVA with the N1 ratio derived from the PBC as the dependent variable and the “SV” (606 languages), “VS” (147 languages) and “free” (38 languages) categories as the grouping variables. Similarly to the AUTOTYP database, the N1 ratio significantly differentiated between “SV” languages and both “VS” and “free” languages (p < 0.001). It also significantly distinguished “free” languages from “VS” languages (p = 0.019).
+For these languages, I conducted an ANOVA with the N1 ratio derived from the PBC as the dependent variable and the “SV”, “VS” and “free” categories as the grouping variables. Similarly to the WALS database, the N1 ratio significantly differentiated between “SV” languages and both “VS” and “free” languages (p < 0.001). It also significantly distinguished “free” languages from “VS” languages (p = 0.036).
 
 ##### Summary of N1 ratio findings
 
@@ -247,7 +247,7 @@ Given the strong correlations between the N1 ratio and SV/VS/free word order pat
 
 ![Data distribution](data/output/plots_distr/density_plot-N1ratios.png)
 
-Since the tagged PBC data is normally distributed (see the `annotating_taggedPBC.py` script for more verification of this via bootstrapping), I trained a Gaussian Naive Bayes (GNB) classifier on the 976 languages with known word order (with the N1 ratio as the feature), and then predicted on the remaining 621 languages with unknown word order. This resulted in 510 of the languages being classified as "SV", and 111 being classified as "VS". Initial tests with other classifiers gave similar results, though some (like the Decision Tree) classified up to 10 previously unclassified languages as "free". When internet searches were conducted for these languages, existing literature identified all of the languages as having "VS" basic word order, validating the GNB classification.
+Since the tagged PBC data is normally distributed (see the `annotating_taggedPBC.py` script for more verification of this via bootstrapping), I trained a Gaussian Naive Bayes (GNB) classifier on the 1153 languages with known word order (with the N1 ratio as the feature), and then predicted on the remaining 790 languages with unknown word order. This resulted in 654 of the languages being classified as "SV", and 136 being classified as "VS". Initial tests with other classifiers gave similar results, though some (like the Decision Tree) classified up to 10 previously unclassified languages as "free". When internet searches were conducted for these languages, existing literature identified all of the languages as having "VS" basic word order, validating the GNB classification.
 
 
 ## References <a name="references"></a>

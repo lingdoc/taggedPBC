@@ -74,12 +74,16 @@ newdf = pd.DataFrame() # instantiate a new df to store info
 # go through each of the typological databases to read transitive word order
 # this overwrites existing files with intrans/transitive word order
 for data in datasets:
+    name = data.split('/')[-1].split('_')[0]
     df = pd.read_excel(data, index_col=3) # index 3 is the ISO639-3 code
+
     datadict = df.to_dict('index')
-    print(len(datadict))
+    print(f"There are {len(datadict)} languages with TransvOrder identified in {name}")
+
     # get the combined set of codes between this dataset and the conllu corpora
     combinedkeys = list(main.keys() & datadict.keys())
-    print(len(combinedkeys))
+    print(f"There are {len(combinedkeys)} languages with TransvOrder shared between the taggedPBC and {name}")
+
     combineds = {k: main[k] for k in combinedkeys}
 
     for k in combinedkeys:
@@ -132,9 +136,8 @@ for data in datasets:
         print(df['SOV_order'].value_counts())
         df.to_excel("data/output/comparisons_Grambank.xlsx")
 
-    print(df.head())
+    # print(df.head())
     # print(df.columns)
-    print(len(df))
     newdf = pd.concat([newdf, df])
 
 newdf = newdf.reset_index()
@@ -146,7 +149,7 @@ litems = ["VF", "VM", "VI", "free"]
 newdf['SOV_order'] = newdf['SOV_order'].replace(items)
 newdf = newdf[newdf['SOV_order'].isin(litems)]
 newdf = newdf.drop_duplicates(subset=['index'], keep='first')
-print(len(newdf))
+print(f"There are {len(newdf)} languages with TransvOrder shared between all databases and the taggedPBC")
 print(newdf['SOV_order'].value_counts())
 
 newdf.to_excel("data/output/All_comparisons_transitive.xlsx", index=False)
@@ -157,8 +160,6 @@ import analysis.anovas
 from analysis.anovas import *
 
 # check the comparisons between the N1 ratio and word order values in the three databases
-datasets = ['comparisons_Grambank.xlsx', 'comparisons_WALS.xlsx', 'comparisons_Autotyp.xlsx',]
-datasets = ['data/output/'+x for x in datasets]
 datasets = ["data/output/All_comparisons_transitive.xlsx"]
 
 for nfile in datasets:

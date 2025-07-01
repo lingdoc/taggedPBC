@@ -102,10 +102,10 @@ Finally, we can remove languages with "free" word order from consideration, as t
 In particular, the use of a binary dependent variable for word order means we can use a statistical method called "hierarchical linear regression". This technique allows us to observe the relative impact of particular features that are theoretically relevant to the question at hand by seeing how they influence the performance of successive models. In the case of word order, we can train a regression model with a feature known to be relevant to word order (the N1 ratio), and then subsequent models that incorporate additional features of interest ("language area", "family membership", "noun/verb lengths"). We can then compare the models to see whether the additional features increase the variance explained in the data via the F-score: an increase in F-score and its significance indicates more variance explained by the particular feature added in a model.
 
 Accordingly, using the ISO codes, I retrieved the family membership for all languages in the taggedPBC from [Glottolog](https://glottolog.org/). Then I filtered the taggedPBC data on four conditions:
-1. `Dunn_lgs_tPBC`: languages found in the Dunn et al paper that are also present in the taggedPBC (106 languages)
-2. `Dunn_fams_tPBC`: languages found in the taggedPBC that are in the four families investigated by Dunn et al (539 languages)
-3. `>75_lg_families`: languages in families with more than 75 members in the taggedPBC (962 languages)
-4. `>1_lg_families`: languages in families with 2 or more members in the taggedPBC (1486 languages)
+1. `Dunn_lgs_tPBC`: languages found in the Dunn et al paper that are also present in the taggedPBC (120 languages)
+2. `Dunn_fams_tPBC`: languages found in the taggedPBC that are in the four families investigated by Dunn et al (662 languages)
+3. `>75_lg_families`: languages in families with more than 75 members in the taggedPBC (1182 languages)
+4. `>1_lg_families`: languages in families with 2 or more members in the taggedPBC (1806 languages)
 
 For each of these conditions, we can run a hierarchical linear regression (`checks/hierlinreg.py` or via `wordlength_taggedPBC.py`) with the N1 ratio as primary feature of the base model, then incorporate language area (a combination of macro area and GPS coordinates as identified by Glottolog) as a feature in the second model, add in the feature of family membership (descent) to the third model, and then noun/verb lengths (frequency weighted) to the fourth model. This gives us the following results:
 
@@ -113,37 +113,37 @@ For each of these conditions, we can run a hierarchical linear regression (`chec
 
  |Model|N (obs)|F-val|P-val (F)|F-val change|P-val (F-val change) |
  |-----|-------|-----|---------|------------|---------------------|
- |1    |106    |45.84|7.8e-10  |            |                     |
- |2    |106    |20.40|2.4e-12  |8.58        |3.9e-05              |
- |3    |106    |16.69|5.7e-12  |1.47        |0.226                |
- |4    |106    |13.40|4.9e-12  |3.26        |0.042                |
+ |1    |120    |49.97|1.1e-10  |            |                     |
+ |2    |120    |24.79|8.1e-15  |11.81       |8.3e-07              |
+ |3    |120    |20.35|1.7e-14  |1.85        |0.175                |
+ |4    |120    |16.37|1.0e-14  |3.86        |0.023                |
 
  Dunn_fams results:
 
- |Model|N (obs)|F-val|P-val (F)|F-val change|P-val (F-val change) |
- |-----|-------|-----|---------|------------|---------------------|
- |1    |539    |230.40|1.4e-43 |            |                     |
- |2    |539    |100.00|1.7e-63 |39.86       |2.9e-23              |
- |3    |539    |80.71 |5.3e-63 |2.45        |0.117                |
- |4    |539    |64.75 |3.5e-67 |14.57       |6.9e-07              |
+ |Model|N (obs)|F-val |P-val (F)|F-val change|P-val (F-val change) |
+ |-----|-------|------|---------|------------|---------------------|
+ |1    |662    |242.25|9.2e-47  |            |                     |
+ |2    |662    |113.65|1.2e-73  |52.04       |3.4e-30              |
+ |3    |662    |92.10 |2.0e-73  |3.92        |0.048                |
+ |4    |662    |75.77 |3.6e-80  |20.93       |1.5e-09              |
 
  \>75_lg_families results:
 
- |Model|N (obs)|F-val |P-val (F) |F-val change|P-val (F-val change) |
- |-----|-------|------|----------|------------|---------------------|
- |1    |962    |426.73|9.9e-79   |            |                     |
- |2    |962    |220.48|4.2e-134  |105.35      |6.1e-59              |
- |3    |962    |176.22|6.6e-133  |0.041       |0.839                |
- |4    |962    |130.93|8.3e-135  |9.69        |6.7e-05              |
+ |Model|N (obs)|F-val |P-val (F)|F-val change|P-val (F-val change) |
+ |-----|-------|------|---------|------------|---------------------|
+ |1    |1182   |442.34|1.1e-83  |            |                     |
+ |2    |1182   |238.45|5.3e-150 |124.27      |6.2e-70              |
+ |3    |1182   |190.65|8.0e-149 |0.15        |0.689                |
+ |4    |1182   |142.35|7.8e-152 |12.37       |4.8e-06              |
 
  \>1_lg_families results:
 
  |Model|N (obs)|F-val  |P-val (F) |F-val change |P-val (F-val change) |
  |-----|-------|-------|----------|-------------|---------------------|
- |1    |1486   |586.46 |1.8e-109  |             |                     |
- |2    |1486   |193.60 |1.3e-133  |45.19        |6.0e-28              |
- |3    |1486   |155.09 |1.2e-132  |1.03         |0.309                |
- |4    |1486   |115.43 |3.5e-135  |11.02        |1.7e-05              |
+ |1    |1806   |630.45 |1.4e-119  |             |                     |
+ |2    |1806   |208.18 |6.6e-147  |50.21        |3.6e-31              |
+ |3    |1806   |166.53 |8.8e-146  |0.29         |0.584                |
+ |4    |1806   |124.16 |4.8e-149  |12.77        |3.0e-06              |
 
 From these analyses we can see that the length of nouns and verbs in a language accounts for more variance and at the same time is more significant than that language's family membership in determining its word order classification.
 
