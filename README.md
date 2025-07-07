@@ -48,7 +48,7 @@ Under the subfolder `corpora/conllu` the data contains annotations (POS, depende
 - `# ISO_orth`: the text of the source language in the original script (if non-roman)
 - `ID`	`word`	`lemma`	`UPOS`	`XPOS` `FEATS`	`HEAD`	`DEPREL`	`DEPS`	`MISC`
 
- The `MISC` field contains the corresponding script representation of the word (`orth=`) if the language is represented in a non-roman script), and may also contain the most likely English gloss (`gloss=`) based on word alignment, as well as morphological features transferred from English via that gloss.
+ The `MISC` field contains the corresponding script representation of the word (`orth=`) if the language is represented in a non-roman script, and may also contain the most likely English gloss (`gloss=`) based on word alignment, as well as morphological features transferred from English via that gloss.
 
 
 The following table gives counts of verses per language in the corpora (excluding the two conlangs):
