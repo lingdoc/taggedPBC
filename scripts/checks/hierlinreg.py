@@ -19,7 +19,7 @@ def get_families(complete, linfile):
      
      # create a dict with the lineages present in our dataset
      indict = {}
-     indict = {y: [k, v[y][1], v[y][2], v[y][3]] for k, v in lineages.items() for y in v.keys() if y not in indict.keys()}
+     indict = {y: [k, v[y][1], v[y][2], v[y][3], v[y][5], v[y][6]] for k, v in lineages.items() for y in v.keys() if y not in indict.keys()}
      print("Number of lineages in the Glottolog data:", len(indict))
      # print(len(complete))
      # print(complete.head())
@@ -29,16 +29,18 @@ def get_families(complete, linfile):
      complete["latitude"] = [indict[x][1] for x in complete['index']]
      complete["longitude"] = [indict[x][2] for x in complete['index']]
      complete["macroarea"] = [indict[x][3] for x in complete['index']]
+     complete["Family_branch"] = [indict[x][4].split("\t")[1] for x in complete['index']]
+     complete["Family_subgroup"] = [indict[x][5].split("\t")[1] for x in complete['index']]
      # print(complete['Family_line'])
      complete.set_index('index', inplace=True) # set index
      compdict = complete.to_dict(orient='index') # convert to dict
      # dict below contains updated info missing from Glottolog
      newdictinfo = {
-               'uth': {"Family_line": "Atlantic-Congo", "latitude": 11.5, "longitude": 4, "macroarea": "Africa"}, 
-               'ukk': {"Family_line": "Austroasiatic", "latitude": 21.183333, "longitude": 100.366667, "macroarea": "Eurasia"}, 
-               'xis': {"Family_line": "Dravidian", "latitude": 24.46, "longitude": 86.47, "macroarea": "Eurasia"}, 
-               'fat': {"Family_line": "Atlantic-Congo", "latitude": 5.5, "longitude": -1, "macroarea": "Africa"}, 
-               'ltg': {"Family_line": "Indo-European", "latitude": 56.948889, "longitude": 24.106389, "macroarea": "Eurasia"},
+               'uth': {"Family_line": "Atlantic-Congo", "latitude": 11.5, "longitude": 4, "macroarea": "Africa", "Family_branch": "Volta-Congo", "Family_subgroup": "Benue-Congo"}, 
+               'ukk': {"Family_line": "Austroasiatic", "latitude": 21.183333, "longitude": 100.366667, "macroarea": "Eurasia", "Family_branch": "Khasi-Palaung", "Family_subgroup": "Palaungic"}, 
+               'xis': {"Family_line": "Dravidian", "latitude": 24.46, "longitude": 86.47, "macroarea": "Eurasia", "Family_branch": "North Dravidian", "Family_subgroup": "Kurux-Malto"}, 
+               'fat': {"Family_line": "Atlantic-Congo", "latitude": 5.5, "longitude": -1, "macroarea": "Africa", "Family_branch": "Volta-Congo", "Family_subgroup": "Kwa Volta-Congo"}, 
+               'ltg': {"Family_line": "Indo-European", "latitude": 56.948889, "longitude": 24.106389, "macroarea": "Eurasia", "Family_branch": "Classical Indo-European", "Family_subgroup": "Balto-Slavic"},
                     }
      # loop through the dict and add info to the compdict if the keys exist
      for k, v in newdictinfo.items():
