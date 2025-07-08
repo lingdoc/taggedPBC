@@ -5,7 +5,7 @@ import pandas as pd
 from collections import Counter
 
 # function to convert a conllu-formatted file to countable lists
-def convert_conllu(bibfile, misc="gloss="):
+def convert_conllu(bibfile, misc="gloss=", trans=False):
     """
     bibfile: the path of the conllu-formatted file (Bible verses)
     misc: any miscellaneous information in field #10 that you wish to extract
@@ -17,14 +17,22 @@ def convert_conllu(bibfile, misc="gloss="):
 
     alines = [] # a list of all the lines
     tagged = [] # a list for tagging
+    if trans==True:
+        engtrans = {}
     # go through each line in the file
     for line in conllufile:
         # if this is the start of a new sentence, append the tagging list to the list of lines and reset the tagging list
         if "# sent_id" in line and tagged != []:
             alines.append(tagged)
-            tagged = []
+            sentid = line.split(" = ")[-1]
+            tagged = [sentid, []]
+        elif "# sent_id" in line:
+            sentid = line.split(" = ")[-1]
+            tagged = [sentid, []]
+        elif "# eng_text" in line and trans == True:
+            engtrans[sentid] = line.split(" = ")[-1]
         # otherwise, if this is an annotated word line in a sentence, get the following info
-        if not "# " in line and line != '':
+        elif not "# " in line and line != '':
             linelist = line.split("\t") # split the line on tabs
             word = linelist[1] # the headword is at index 1
             pos = linelist[3] # the part of speech is at index 3
@@ -40,9 +48,11 @@ def convert_conllu(bibfile, misc="gloss="):
                     if misc in anno:
                         gloss = anno.replace(misc, "")
             
-            tagged.append((word, pos, deprel, gloss)) # append this word-level info to the tagging list
-
-    return alines
+            tagged[1].append((word, pos, deprel, gloss)) # append this word-level info to the tagging list
+    if trans==True:
+        return alines, engtrans
+    else:
+        return alines
 
 # function to get lengths of unique items
 def get_ulen(nlist):
@@ -71,7 +81,7 @@ def get_favg(ilist):
         return 0
 
 # a function to get transitive word order information from a list of dependency-tagged text
-def get_wordorders(iso, taggedbib, isodict):
+def get_wordorders(iso, taggedbib, isodict, verses=False):
     """
     iso: the 3-letter code of the language (ISO 639-3)
     taggedbib: the list of dependency-tagged text for this language, derived from the `convert_conllu()` function
@@ -83,6 +93,8 @@ def get_wordorders(iso, taggedbib, isodict):
     ordersdict = {"SOV": 0, "SVO": 0, "OSV": 0, "OVS": 0, "VOS": 0, "VSO": 0, "SO": 0, "OS": 0, "VS": 0, "SV": 0, "VO": 0, "OV": 0, 'errors': 0}
     # one dict to store N-initial/V-initial counts
     n1dict = {"N1": 0, "V1": 0, "N1_only": 0, "V1_only": 0}
+    # track the actual verses with these orders
+    vtracker = {"SOV": [], "SVO": [], "OSV": [], "OVS": [], "VOS": [], "VSO": [], "SO": [], "OS": [], "VS": [], "SV": [], "VO": [], "OV": [], 'errors': []}
     # errors = 0
     preds = ["VERB", "AUX"] # the set of POS tags to consider for predicates
     args = ["NOUN", "PRON", "PROPN"] # the set of POS tags to consider for arguments
@@ -96,7 +108,7 @@ def get_wordorders(iso, taggedbib, isodict):
     for sent in taggedbib:
         sentord = []
         # search through each word in each verse
-        for words in sent:
+        for words in sent[1]:
             # check if the word is tagged with a Noun/Argument POS tag
             if any(x in words[1] for x in args):
                 sentord.append("N") # if so, append the token "N" to our word order list
@@ -136,7 +148,7 @@ def get_wordorders(iso, taggedbib, isodict):
 
         # for each of these conditions, update the relevant index
         # to reflect the first match
-        for num, word in enumerate(sentence):
+        for num, word in enumerate(sentence[1]):
             # check for subject dependencies
             if "subj" in word[2]:
                 if not subjind:
@@ -146,7 +158,7 @@ def get_wordorders(iso, taggedbib, isodict):
                 if not objind:
                     objind = num
 
-        for num, word in enumerate(sentence):
+        for num, word in enumerate(sentence[1]):
             # check for arguments
             if any(x in word[1] for x in args):
                 # arguments.append(word[0])
@@ -180,16 +192,22 @@ def get_wordorders(iso, taggedbib, isodict):
         if all(v is not None for v in [subjind, objind, vind]):
             if subjind < objind < vind:
                 ordersdict["SOV"] += 1
+                vtracker["SOV"].append(sentence[0])
             elif subjind < vind < objind:
                 ordersdict["SVO"] += 1
+                vtracker["SVO"].append(sentence[0])
             elif objind < subjind < vind:
                 ordersdict["OSV"] += 1
+                vtracker["OSV"].append(sentence[0])
             elif objind < vind < subjind:
                 ordersdict["OVS"] += 1
+                vtracker["OVS"].append(sentence[0])
             elif vind < subjind < objind:
                 ordersdict["VSO"] += 1
+                vtracker["VSO"].append(sentence[0])
             elif vind < objind < subjind:
                 ordersdict["VOS"] += 1
+                vtracker["VOS"].append(sentence[0])
 
         # if only two indices have been updated, make the relevant
         # dictionary updates
@@ -197,21 +215,28 @@ def get_wordorders(iso, taggedbib, isodict):
             if all(v is not None for v in [subjind, objind]):
                 if subjind < objind:
                     ordersdict["SO"] += 1
+                    vtracker["SO"].append(sentence[0])
                 elif objind < subjind:
                     ordersdict["OS"] += 1
+                    vtracker["OS"].append(sentence[0])
             elif all(v is not None for v in [subjind, vind]):
                 if subjind < vind:
                     ordersdict["SV"] += 1
+                    vtracker["SV"].append(sentence[0])
                 elif vind < subjind:
                     ordersdict["VS"] += 1
+                    vtracker["VS"].append(sentence[0])
             elif all(v is not None for v in [objind, vind]):
                 if objind < vind:
                     ordersdict["OV"] += 1
+                    vtracker["OV"].append(sentence[0])
                 elif vind < objind:
                     ordersdict["VO"] += 1
+                    vtracker["VO"].append(sentence[0])
             # if there's only one index updated, don't count it
             else:
                 ordersdict["errors"] += 1
+                vtracker["errors"].append(sentence[0])
 
         # now see if the POS tag indices were updated, and
         # if so, check which one occurs first and count it
@@ -271,6 +296,11 @@ def get_wordorders(iso, taggedbib, isodict):
         isodict[iso][k] = v
     for k, v in n1dict.items():
         isodict[iso][k] = v
+
+    if verses == True:
+        isodict[iso]['tracked_sents'] = {}
+        for k, v in vtracker.items():
+            isodict[iso]['tracked_sents'][k] = v
 
     return isodict
 
