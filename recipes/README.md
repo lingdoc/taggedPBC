@@ -25,3 +25,9 @@ There are 52 families in the dataset represented by 2-9 languages: 211 total
 There are 18 families in the dataset represented by 10-32 languages: 366 total
 There are 7 families in the dataset represented by 70+ languages: 1289 total
 ```
+
+`wd_order_proportions.py` shows how information on word order proportions can be extracted from the dataset and plotted with error bands.
+- uses Glottolog information to plot variation by Family and branch affiliation (using Austroasiatic as the example)
+- produces a plot of word order variation found in the respective corpora:
+
+![Word order in Austroasiatic](AA_word_orders.png)
