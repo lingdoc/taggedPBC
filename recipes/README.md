@@ -31,3 +31,8 @@ There are 7 families in the dataset represented by 70+ languages: 1289 total
 - produces a plot of word order variation found in the respective corpora:
 
 ![Word order in Austroasiatic](AA_word_orders.png)
+
+`compare_verses.py` gives an example of extracting particular verses for comparison.
+- uses Glottolog information to get corpora from 8 languages in a particular branch of Austroasiatic (Khasi-Palaung)
+- extracts data from each corpus
+- writes a tab-separated file containing a single verse across all the selected languages
