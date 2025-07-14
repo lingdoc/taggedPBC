@@ -10,7 +10,7 @@ If you use this data, please cite the following source or one (or all) of the pa
 
 ## Updates
 
-**UPDATE** *01 July 2025*: Added parallel data from 346 additional languages, bringing the count of corpora to 1,945 (from 1,599). Results remain largely unchanged from initial findings reported in first drafts of papers linked here. This README and associated files in the repository have been updated with revised findings.
+**UPDATE** *01 July 2025*: Added parallel data from 345 additional languages, bringing the count of corpora to 1,944 (from 1,599). Results remain largely unchanged from initial findings reported in first drafts of papers linked here. This README and associated files in the repository have been updated with revised findings.
 
 **UPDATE** *29 June 2025*: Removed `json` formatted corpora and converted scripts to use only CoNLL-U formatted corpora. 
 
@@ -20,7 +20,7 @@ The main aim of this repository is to provide a baseline dataset of parallel ann
 
 The three folders in this repository contain corpus data and scripts to run various analyses.
 
-- `corpora`: contains the actual annotated data for a large number of (non-contiguous) parallel verses taken from New Testament translations in 1,945 languages (including two conlangs: Esperanto and Klingon).
+- `corpora`: contains the actual annotated data for a large number of (non-contiguous) parallel verses taken from New Testament translations in 1,944 languages (including two conlangs: Esperanto and Klingon).
 - `recipes`: contains scripts that illustrate how to extract info from the corpora.
 - `scripts`: contains scripts to verify and analyze the data of the `taggedPBC`, with reference to particular papers (currently draft versions of submissions to journals). Refer to [the README file](scripts/README.md) in the subfolder for additional information.
 
@@ -59,7 +59,7 @@ The following table gives counts of verses per language in the corpora (excludin
 |1500-1800|58|
 |1000-1500|50|
 |700-1000|12|
-|**Total**|**1943**|
+|**Total**|**1942**|
 
 ![Verse counts in corpora](scripts/data/output/plots_distr/hist-Verse_counts.png)
 
