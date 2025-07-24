@@ -94,7 +94,9 @@ readmefile = "../corpora/README.md" # the documentation that we're creating (lis
 # open the file
 with open(readmefile, "w") as f:
 	f.write(front) # write the intro material
+	f.write("<details>") # write a details block to hide initial view
 	for family, data in famdict.items():
+		f.write("<summary>"+family+"</summary>")
 		f.write("## "+family+"\n\n") # here's the heading for each family
 		f.write("|"+"|".join(newheadlist)+"|Links|\n") # here's the header of the table
 		f.write("|"+"|".join(splist)+"|--|\n")
@@ -104,3 +106,4 @@ with open(readmefile, "w") as f:
 			# write the language information
 			f.write("|"+lang+"|"+"|".join(vals)+"|"+links+"|\n")
 		f.write("\n") # end the section
+		f.write("</details>\n")
