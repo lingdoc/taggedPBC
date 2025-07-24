@@ -2573,7 +2573,7 @@ are also listed together at the end of this document.
 <details>
 <summary>Isolates</summary>
 
- ### Isolates languages in the *taggedPBC*:
+ ### Isolates in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -2639,7 +2639,7 @@ are also listed together at the end of this document.
 <details>
 <summary>Single languages</summary>
 
- ### Single languages languages in the *taggedPBC*:
+ ### Single languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|

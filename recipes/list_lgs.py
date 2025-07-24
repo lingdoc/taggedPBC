@@ -88,6 +88,7 @@ famdict['Single languages'] = {idx: list(row_dict.values()) for idx, row_dict in
 # this helps us format the tables
 newheadlist.remove('Family')
 splist = ["--" for x in newheadlist]
+temp = ["Single", "Isolates"]
 
 readmefile = "../corpora/README.md" # the documentation that we're creating (list of language info)
 
@@ -99,7 +100,10 @@ with open(readmefile, "w") as f:
 		f.write("\n")
 		f.write("<summary>"+family+"</summary>")
 		f.write("\n\n")
-		f.write(" ### "+family+" languages in the *taggedPBC*:\n\n") # here's the heading for each family
+		if any(x in family for x in temp):
+			f.write(" ### "+family+" in the *taggedPBC*:\n\n") # here's the heading for each family
+		else:
+			f.write(" ### "+family+" languages in the *taggedPBC*:\n\n") # here's the heading for each family
 		f.write("|"+"|".join(newheadlist)+"|Links|\n") # here's the header of the table
 		f.write("|"+"|".join(splist)+"|--|\n")
 		for lang, vals in data.items():
