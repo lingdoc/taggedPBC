@@ -14,8 +14,8 @@ are also listed together at the end of this document.
 
 ## Afro-Asiatic
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |jbn|Nafusi|729|Africa|Berber|Afro-Asiatic|[ISOs](https://iso639-3.sil.org/code/jbn), [Ethnologue](https://www.ethnologue.com/language/jbn), [Glottolog](http://glottolog.org/glottolog?iso=jbn)|
 |rif|Tarifiyt-Beni-Iznasen-Eastern Middle Atlas Berber|1869|Africa|Berber|Greater Zenatic|[ISOs](https://iso639-3.sil.org/code/rif), [Ethnologue](https://www.ethnologue.com/language/rif), [Glottolog](http://glottolog.org/glottolog?iso=rif)|
 |kab|Kabyle|1879|Africa|Berber|Kabyle-Atlas Berber|[ISOs](https://iso639-3.sil.org/code/kab), [Ethnologue](https://www.ethnologue.com/language/kab), [Glottolog](http://glottolog.org/glottolog?iso=kab)|
@@ -96,8 +96,8 @@ are also listed together at the end of this document.
 
 ## Algic
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |alq|Algonquin|1876|North America|Algonquian-Blackfoot|Algonquian|[ISOs](https://iso639-3.sil.org/code/alq), [Ethnologue](https://www.ethnologue.com/language/alq), [Glottolog](http://glottolog.org/glottolog?iso=alq)|
 |atj|Atikamekw|1882|North America|Algonquian-Blackfoot|Algonquian|[ISOs](https://iso639-3.sil.org/code/atj), [Ethnologue](https://www.ethnologue.com/language/atj), [Glottolog](http://glottolog.org/glottolog?iso=atj)|
 |crj|Southern East Cree|1884|North America|Algonquian-Blackfoot|Algonquian|[ISOs](https://iso639-3.sil.org/code/crj), [Ethnologue](https://www.ethnologue.com/language/crj), [Glottolog](http://glottolog.org/glottolog?iso=crj)|
@@ -112,8 +112,8 @@ are also listed together at the end of this document.
 
 ## Angan
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |agm|Angaataha|1872|Papunesia|Angan|Angan|[ISOs](https://iso639-3.sil.org/code/agm), [Ethnologue](https://www.ethnologue.com/language/agm), [Glottolog](http://glottolog.org/glottolog?iso=agm)|
 |aak|Ankave|1853|Papunesia|Nuclear Angan|Ankave-Tainae-Akoye|[ISOs](https://iso639-3.sil.org/code/aak), [Ethnologue](https://www.ethnologue.com/language/aak), [Glottolog](http://glottolog.org/glottolog?iso=aak)|
 |byr|Baruya|1880|Papunesia|Nuclear Angan|Baruya-Simbari|[ISOs](https://iso639-3.sil.org/code/byr), [Ethnologue](https://www.ethnologue.com/language/byr), [Glottolog](http://glottolog.org/glottolog?iso=byr)|
@@ -122,8 +122,8 @@ are also listed together at the end of this document.
 
 ## Arawakan
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |cab|Garifuna|1882|North America|Caribbean Arawakan|Antillean Arawakan|[ISOs](https://iso639-3.sil.org/code/cab), [Ethnologue](https://www.ethnologue.com/language/cab), [Glottolog](http://glottolog.org/glottolog?iso=cab)|
 |guc|Wayuu|1842|South America|Caribbean Arawakan|Guajiro-Paraujano|[ISOs](https://iso639-3.sil.org/code/guc), [Ethnologue](https://www.ethnologue.com/language/guc), [Glottolog](http://glottolog.org/glottolog?iso=guc)|
 |plu|Palikúr|1880|South America|Central-Eastern Maipuran|Arawakan|[ISOs](https://iso639-3.sil.org/code/plu), [Ethnologue](https://www.ethnologue.com/language/plu), [Glottolog](http://glottolog.org/glottolog?iso=plu)|
@@ -152,16 +152,16 @@ are also listed together at the end of this document.
 
 ## Arawan
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |pad|Paumari|1848|South America|Arawan|Arawan|[ISOs](https://iso639-3.sil.org/code/pad), [Ethnologue](https://www.ethnologue.com/language/pad), [Glottolog](http://glottolog.org/glottolog?iso=pad)|
 |jaa|Madi|1879|South America|Madi-Madiha|Arawan|[ISOs](https://iso639-3.sil.org/code/jaa), [Ethnologue](https://www.ethnologue.com/language/jaa), [Glottolog](http://glottolog.org/glottolog?iso=jaa)|
 |cul|Culina|1867|South America|Madi-Madiha|Madiha|[ISOs](https://iso639-3.sil.org/code/cul), [Ethnologue](https://www.ethnologue.com/language/cul), [Glottolog](http://glottolog.org/glottolog?iso=cul)|
 
 ## Athabaskan-Eyak-Tlingit
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |apw|Western Apache|1884|North America|Athabaskan-Eyak|Athabaskan|[ISOs](https://iso639-3.sil.org/code/apw), [Ethnologue](https://www.ethnologue.com/language/apw), [Glottolog](http://glottolog.org/glottolog?iso=apw)|
 |caf|Southern Carrier|1883|North America|Athabaskan-Eyak|Athabaskan|[ISOs](https://iso639-3.sil.org/code/caf), [Ethnologue](https://www.ethnologue.com/language/caf), [Glottolog](http://glottolog.org/glottolog?iso=caf)|
 |crx|Central Carrier|1883|North America|Athabaskan-Eyak|Athabaskan|[ISOs](https://iso639-3.sil.org/code/crx), [Ethnologue](https://www.ethnologue.com/language/crx), [Glottolog](http://glottolog.org/glottolog?iso=crx)|
@@ -171,8 +171,8 @@ are also listed together at the end of this document.
 
 ## Atlantic-Congo
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |gol|Gola|1643|Africa|Atlantic-Congo|Atlantic-Congo|[ISOs](https://iso639-3.sil.org/code/gol), [Ethnologue](https://www.ethnologue.com/language/gol), [Glottolog](http://glottolog.org/glottolog?iso=gol)|
 |ndv|Ndut|1875|Africa|Cangin|Palor-Ndut|[ISOs](https://iso639-3.sil.org/code/ndv), [Ethnologue](https://www.ethnologue.com/language/ndv), [Glottolog](http://glottolog.org/glottolog?iso=ndv)|
 |sav|Saafi-Saafi|1877|Africa|Cangin|Saafi-Noon-Lehar|[ISOs](https://iso639-3.sil.org/code/sav), [Ethnologue](https://www.ethnologue.com/language/sav), [Glottolog](http://glottolog.org/glottolog?iso=sav)|
@@ -576,8 +576,8 @@ are also listed together at the end of this document.
 
 ## Austroasiatic
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |hre|Hre|1884|Eurasia|Bahnaric|North Bahnaric|[ISOs](https://iso639-3.sil.org/code/hre), [Ethnologue](https://www.ethnologue.com/language/hre), [Glottolog](http://glottolog.org/glottolog?iso=hre)|
 |bdq|Bahnar|1867|Eurasia|Bahnaric|West Bahnaric|[ISOs](https://iso639-3.sil.org/code/bdq), [Ethnologue](https://www.ethnologue.com/language/bdq), [Glottolog](http://glottolog.org/glottolog?iso=bdq)|
 |brb|Brao|1410|Eurasia|Bahnaric|West Bahnaric|[ISOs](https://iso639-3.sil.org/code/brb), [Ethnologue](https://www.ethnologue.com/language/brb), [Glottolog](http://glottolog.org/glottolog?iso=brb)|
@@ -613,8 +613,8 @@ are also listed together at the end of this document.
 
 ## Austronesian
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |trv|Seediq|1882|Papunesia|Atayalic|Austronesian|[ISOs](https://iso639-3.sil.org/code/trv), [Ethnologue](https://www.ethnologue.com/language/trv), [Glottolog](http://glottolog.org/glottolog?iso=trv)|
 |dru|Rukai|1879|Papunesia|Austronesian|Austronesian|[ISOs](https://iso639-3.sil.org/code/dru), [Ethnologue](https://www.ethnologue.com/language/dru), [Glottolog](http://glottolog.org/glottolog?iso=dru)|
 |ami|Amis|1881|Papunesia|East Formosan|Central East Formosan|[ISOs](https://iso639-3.sil.org/code/ami), [Ethnologue](https://www.ethnologue.com/language/ami), [Glottolog](http://glottolog.org/glottolog?iso=ami)|
@@ -945,15 +945,15 @@ are also listed together at the end of this document.
 
 ## Aymaran
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |aym|Aymara|1884|South America|Aymaran|Aymaran|[ISOs](https://iso639-3.sil.org/code/aym), [Ethnologue](https://www.ethnologue.com/language/aym), [Glottolog](http://glottolog.org/glottolog?iso=aym)|
 |ayr|Central Aymara|1877|South America|Central-Southern Aymara|Aymaran|[ISOs](https://iso639-3.sil.org/code/ayr), [Ethnologue](https://www.ethnologue.com/language/ayr), [Glottolog](http://glottolog.org/glottolog?iso=ayr)|
 
 ## Barbacoan
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |kwi|Awa-Cuaiquer|1875|South America|Awa-Southern Barbacoan|Barbacoan|[ISOs](https://iso639-3.sil.org/code/kwi), [Ethnologue](https://www.ethnologue.com/language/kwi), [Glottolog](http://glottolog.org/glottolog?iso=kwi)|
 |cbi|Cha'palaa|1877|South America|Awa-Southern Barbacoan|Cayapa-Colorado|[ISOs](https://iso639-3.sil.org/code/cbi), [Ethnologue](https://www.ethnologue.com/language/cbi), [Glottolog](http://glottolog.org/glottolog?iso=cbi)|
 |cof|Tsafiki|1810|South America|Awa-Southern Barbacoan|Cayapa-Colorado|[ISOs](https://iso639-3.sil.org/code/cof), [Ethnologue](https://www.ethnologue.com/language/cof), [Glottolog](http://glottolog.org/glottolog?iso=cof)|
@@ -961,30 +961,30 @@ are also listed together at the end of this document.
 
 ## Boran
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |bmr|Muinane|1874|South America|Boran|Boran|[ISOs](https://iso639-3.sil.org/code/bmr), [Ethnologue](https://www.ethnologue.com/language/bmr), [Glottolog](http://glottolog.org/glottolog?iso=bmr)|
 |boa|Bora|1827|South America|Boran|Boran|[ISOs](https://iso639-3.sil.org/code/boa), [Ethnologue](https://www.ethnologue.com/language/boa), [Glottolog](http://glottolog.org/glottolog?iso=boa)|
 
 ## Border
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |amn|Amanab|1879|Papunesia|Warisic|Border|[ISOs](https://iso639-3.sil.org/code/amn), [Ethnologue](https://www.ethnologue.com/language/amn), [Glottolog](http://glottolog.org/glottolog?iso=amn)|
 |wrs|Waris|1741|Papunesia|Warisic|Nuclear Warisic|[ISOs](https://iso639-3.sil.org/code/wrs), [Ethnologue](https://www.ethnologue.com/language/wrs), [Glottolog](http://glottolog.org/glottolog?iso=wrs)|
 
 ## Bosavi
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |khs|Kasua|1861|Papunesia|Bosavi Watershed|Bosavi|[ISOs](https://iso639-3.sil.org/code/khs), [Ethnologue](https://www.ethnologue.com/language/khs), [Glottolog](http://glottolog.org/glottolog?iso=khs)|
 |beo|Beami|1881|Papunesia|Etoro-Bedamini|Bosavi|[ISOs](https://iso639-3.sil.org/code/beo), [Ethnologue](https://www.ethnologue.com/language/beo), [Glottolog](http://glottolog.org/glottolog?iso=beo)|
 |etr|Edolo|1171|Papunesia|Etoro-Bedamini|Bosavi|[ISOs](https://iso639-3.sil.org/code/etr), [Ethnologue](https://www.ethnologue.com/language/etr), [Glottolog](http://glottolog.org/glottolog?iso=etr)|
 
 ## Cariban
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |apy|Apalaí|1875|South America|Cariban|Cariban|[ISOs](https://iso639-3.sil.org/code/apy), [Ethnologue](https://www.ethnologue.com/language/apy), [Glottolog](http://glottolog.org/glottolog?iso=apy)|
 |car|Galibi Carib|1882|South America|Guianan|Cariban|[ISOs](https://iso639-3.sil.org/code/car), [Ethnologue](https://www.ethnologue.com/language/car), [Glottolog](http://glottolog.org/glottolog?iso=car)|
 |mch|Ye'kwana|1882|South America|Guianan|Maquiritari-Wayumara|[ISOs](https://iso639-3.sil.org/code/mch), [Ethnologue](https://www.ethnologue.com/language/mch), [Glottolog](http://glottolog.org/glottolog?iso=mch)|
@@ -997,8 +997,8 @@ are also listed together at the end of this document.
 
 ## Central Sudanic
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |niy|Ngiti|1883|Africa|Lenduic|Central Sudanic|[ISOs](https://iso639-3.sil.org/code/niy), [Ethnologue](https://www.ethnologue.com/language/niy), [Glottolog](http://glottolog.org/glottolog?iso=niy)|
 |ndp|Ndo|1883|Africa|Membi-Mangbutu-Efe|Central Sudanic|[ISOs](https://iso639-3.sil.org/code/ndp), [Ethnologue](https://www.ethnologue.com/language/ndp), [Glottolog](http://glottolog.org/glottolog?iso=ndp)|
 |avu|Avokaya|1822|Africa|Moru-Madi|Central Moru-Madi|[ISOs](https://iso639-3.sil.org/code/avu), [Ethnologue](https://www.ethnologue.com/language/avu), [Glottolog](http://glottolog.org/glottolog?iso=avu)|
@@ -1022,8 +1022,8 @@ are also listed together at the end of this document.
 
 ## Chibchan
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |bzd|Bribri|1845|North America|Core Chibchan|Isthmic Chibchan|[ISOs](https://iso639-3.sil.org/code/bzd), [Ethnologue](https://www.ethnologue.com/language/bzd), [Glottolog](http://glottolog.org/glottolog?iso=bzd)|
 |cjp|Cabécar|1883|North America|Core Chibchan|Isthmic Chibchan|[ISOs](https://iso639-3.sil.org/code/cjp), [Ethnologue](https://www.ethnologue.com/language/cjp), [Glottolog](http://glottolog.org/glottolog?iso=cjp)|
 |cuk|San Blas Kuna|1884|South America|Core Chibchan|Isthmic Chibchan|[ISOs](https://iso639-3.sil.org/code/cuk), [Ethnologue](https://www.ethnologue.com/language/cuk), [Glottolog](http://glottolog.org/glottolog?iso=cuk)|
@@ -1036,8 +1036,8 @@ are also listed together at the end of this document.
 
 ## Chicham
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |agr|Aguaruna|1881|South America|Chicham|Chicham|[ISOs](https://iso639-3.sil.org/code/agr), [Ethnologue](https://www.ethnologue.com/language/agr), [Glottolog](http://glottolog.org/glottolog?iso=agr)|
 |acu|Achuar-Shiwiar|1824|South America|Shuaric|Chicham|[ISOs](https://iso639-3.sil.org/code/acu), [Ethnologue](https://www.ethnologue.com/language/acu), [Glottolog](http://glottolog.org/glottolog?iso=acu)|
 |hub|Huambisa|1834|South America|Shuaric|Huambisa-Shuar|[ISOs](https://iso639-3.sil.org/code/hub), [Ethnologue](https://www.ethnologue.com/language/hub), [Glottolog](http://glottolog.org/glottolog?iso=hub)|
@@ -1045,8 +1045,8 @@ are also listed together at the end of this document.
 
 ## Chocoan
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |noa|Woun Meu|1872|South America|Chocoan|Chocoan|[ISOs](https://iso639-3.sil.org/code/noa), [Ethnologue](https://www.ethnologue.com/language/noa), [Glottolog](http://glottolog.org/glottolog?iso=noa)|
 |cto|Emberá-Catío|1445|South America|Embera|Atrato|[ISOs](https://iso639-3.sil.org/code/cto), [Ethnologue](https://www.ethnologue.com/language/cto), [Glottolog](http://glottolog.org/glottolog?iso=cto)|
 |emp|Northern Emberá|1842|South America|Embera|Atrato|[ISOs](https://iso639-3.sil.org/code/emp), [Ethnologue](https://www.ethnologue.com/language/emp), [Glottolog](http://glottolog.org/glottolog?iso=emp)|
@@ -1056,8 +1056,8 @@ are also listed together at the end of this document.
 
 ## Dagan
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |mti|Maiwa (Papua New Guinea)|1880|Papunesia|Central Dagan|Dagan|[ISOs](https://iso639-3.sil.org/code/mti), [Ethnologue](https://www.ethnologue.com/language/mti), [Glottolog](http://glottolog.org/glottolog?iso=mti)|
 |dgz|Daga|1867|Papunesia|Central Dagan|Southwest Dagan|[ISOs](https://iso639-3.sil.org/code/dgz), [Ethnologue](https://www.ethnologue.com/language/dgz), [Glottolog](http://glottolog.org/glottolog?iso=dgz)|
 |gdn|Umanakaina|1847|Papunesia|Dagan|Dagan|[ISOs](https://iso639-3.sil.org/code/gdn), [Ethnologue](https://www.ethnologue.com/language/gdn), [Glottolog](http://glottolog.org/glottolog?iso=gdn)|
@@ -1065,8 +1065,8 @@ are also listed together at the end of this document.
 
 ## Dravidian
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |kfb|Northwestern Kolami|1879|Eurasia|Central Dravidian|Kolami-Naiki|[ISOs](https://iso639-3.sil.org/code/kfb), [Ethnologue](https://www.ethnologue.com/language/kfb), [Glottolog](http://glottolog.org/glottolog?iso=kfb)|
 |kru|Kurukh|1874|Eurasia|North Dravidian|Kurux-Malto|[ISOs](https://iso639-3.sil.org/code/kru), [Ethnologue](https://www.ethnologue.com/language/kru), [Glottolog](http://glottolog.org/glottolog?iso=kru)|
 |xis|Kisan (Dravidian)|1878|Eurasia|North Dravidian|Kurux-Malto|[ISOs](https://iso639-3.sil.org/code/xis), [Ethnologue](https://www.ethnologue.com/language/xis), [Glottolog](http://glottolog.org/glottolog?iso=xis)|
@@ -1094,31 +1094,31 @@ are also listed together at the end of this document.
 
 ## East Bird's Head
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |mnx|Sougb|1766|Papunesia|East Bird's Head|East Bird's Head|[ISOs](https://iso639-3.sil.org/code/mnx), [Ethnologue](https://www.ethnologue.com/language/mnx), [Glottolog](http://glottolog.org/glottolog?iso=mnx)|
 |mej|Meyah|1866|Papunesia|Meax|East Bird's Head|[ISOs](https://iso639-3.sil.org/code/mej), [Ethnologue](https://www.ethnologue.com/language/mej), [Glottolog](http://glottolog.org/glottolog?iso=mej)|
 |mtj|Moskona|1866|Papunesia|Meax|East Bird's Head|[ISOs](https://iso639-3.sil.org/code/mtj), [Ethnologue](https://www.ethnologue.com/language/mtj), [Glottolog](http://glottolog.org/glottolog?iso=mtj)|
 
 ## East Strickland
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |kkc|Odoodee|1451|Papunesia|East Strickland|East Strickland|[ISOs](https://iso639-3.sil.org/code/kkc), [Ethnologue](https://www.ethnologue.com/language/kkc), [Glottolog](http://glottolog.org/glottolog?iso=kkc)|
 |kxw|Konai|1883|Papunesia|East Strickland|East Strickland|[ISOs](https://iso639-3.sil.org/code/kxw), [Ethnologue](https://www.ethnologue.com/language/kxw), [Glottolog](http://glottolog.org/glottolog?iso=kxw)|
 
 ## Eastern Trans-Fly
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |bon|Bine|1878|Papunesia|Eastern Trans-Fly|Eastern Trans-Fly|[ISOs](https://iso639-3.sil.org/code/bon), [Ethnologue](https://www.ethnologue.com/language/bon), [Glottolog](http://glottolog.org/glottolog?iso=bon)|
 |gdr|Wipi|1880|Papunesia|Eastern Trans-Fly|Eastern Trans-Fly|[ISOs](https://iso639-3.sil.org/code/gdr), [Ethnologue](https://www.ethnologue.com/language/gdr), [Glottolog](http://glottolog.org/glottolog?iso=gdr)|
 |tof|Gizrra|1642|Papunesia|Eastern Trans-Fly|Eastern Trans-Fly|[ISOs](https://iso639-3.sil.org/code/tof), [Ethnologue](https://www.ethnologue.com/language/tof), [Glottolog](http://glottolog.org/glottolog?iso=tof)|
 
 ## Eskimo-Aleut
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |esi|North Alaskan Inupiatun|1883|North America|Eskimo|Inuit|[ISOs](https://iso639-3.sil.org/code/esi), [Ethnologue](https://www.ethnologue.com/language/esi), [Glottolog](http://glottolog.org/glottolog?iso=esi)|
 |esk|Seward Alaska Inupiatun|1879|North America|Eskimo|Inuit|[ISOs](https://iso639-3.sil.org/code/esk), [Ethnologue](https://www.ethnologue.com/language/esk), [Glottolog](http://glottolog.org/glottolog?iso=esk)|
 |ike|Eastern Canadian Inuktitut|1884|North America|Eskimo|Inuit|[ISOs](https://iso639-3.sil.org/code/ike), [Ethnologue](https://www.ethnologue.com/language/ike), [Glottolog](http://glottolog.org/glottolog?iso=ike)|
@@ -1129,16 +1129,16 @@ are also listed together at the end of this document.
 
 ## Guahiboan
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |guo|Guayabero|1860|South America|Guahiboan|Guahiboan|[ISOs](https://iso639-3.sil.org/code/guo), [Ethnologue](https://www.ethnologue.com/language/guo), [Glottolog](http://glottolog.org/glottolog?iso=guo)|
 |cui|Cuiba|1869|South America|Nuclear Guahiboan|Central Guahibo|[ISOs](https://iso639-3.sil.org/code/cui), [Ethnologue](https://www.ethnologue.com/language/cui), [Glottolog](http://glottolog.org/glottolog?iso=cui)|
 |guh|Sikuani|1872|South America|Nuclear Guahiboan|Central Guahibo|[ISOs](https://iso639-3.sil.org/code/guh), [Ethnologue](https://www.ethnologue.com/language/guh), [Glottolog](http://glottolog.org/glottolog?iso=guh)|
 
 ## Guaicuruan
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |moc|Mocoví|1882|South America|Guaicuru del Sur|Qom|[ISOs](https://iso639-3.sil.org/code/moc), [Ethnologue](https://www.ethnologue.com/language/moc), [Glottolog](http://glottolog.org/glottolog?iso=moc)|
 |plg|Pilagá|1818|South America|Guaicuru del Sur|Qom|[ISOs](https://iso639-3.sil.org/code/plg), [Ethnologue](https://www.ethnologue.com/language/plg), [Glottolog](http://glottolog.org/glottolog?iso=plg)|
 |tob|Toba|1858|South America|Guaicuru del Sur|Qom|[ISOs](https://iso639-3.sil.org/code/tob), [Ethnologue](https://www.ethnologue.com/language/tob), [Glottolog](http://glottolog.org/glottolog?iso=tob)|
@@ -1146,15 +1146,15 @@ are also listed together at the end of this document.
 
 ## Gunwinyguan
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |nuy|Wubuy|1864|Australia|Eastern Gunwinyguan|Wubuy-Anindilyakwa|[ISOs](https://iso639-3.sil.org/code/nuy), [Ethnologue](https://www.ethnologue.com/language/nuy), [Glottolog](http://glottolog.org/glottolog?iso=nuy)|
 |gup|Bininj Kun-Wok|1854|Australia|Gunwinyguan|Gunwinyguan|[ISOs](https://iso639-3.sil.org/code/gup), [Ethnologue](https://www.ethnologue.com/language/gup), [Glottolog](http://glottolog.org/glottolog?iso=gup)|
 
 ## Heibanic
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |hbn|Ebang|1884|Africa|West-Central Heibanic|Central Heibanic|[ISOs](https://iso639-3.sil.org/code/hbn), [Ethnologue](https://www.ethnologue.com/language/hbn), [Glottolog](http://glottolog.org/glottolog?iso=hbn)|
 |lro|Laru (North Sudan)|854|Africa|West-Central Heibanic|Central Heibanic|[ISOs](https://iso639-3.sil.org/code/lro), [Ethnologue](https://www.ethnologue.com/language/lro), [Glottolog](http://glottolog.org/glottolog?iso=lro)|
 |otr|Otoro|1884|Africa|West-Central Heibanic|Central Heibanic|[ISOs](https://iso639-3.sil.org/code/otr), [Ethnologue](https://www.ethnologue.com/language/otr), [Glottolog](http://glottolog.org/glottolog?iso=otr)|
@@ -1162,30 +1162,30 @@ are also listed together at the end of this document.
 
 ## Hmong-Mien
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |hnj|Hmong Njua|1883|Eurasia|Hmongic|Nuclear Hmongic-Ho Ne|[ISOs](https://iso639-3.sil.org/code/hnj), [Ethnologue](https://www.ethnologue.com/language/hnj), [Glottolog](http://glottolog.org/glottolog?iso=hnj)|
 |mww|Hmong Daw|1883|Eurasia|Hmongic|Nuclear Hmongic-Ho Ne|[ISOs](https://iso639-3.sil.org/code/mww), [Ethnologue](https://www.ethnologue.com/language/mww), [Glottolog](http://glottolog.org/glottolog?iso=mww)|
 |ium|Iu Mien|1882|Eurasia|Mienic|Mien-Mun|[ISOs](https://iso639-3.sil.org/code/ium), [Ethnologue](https://www.ethnologue.com/language/ium), [Glottolog](http://glottolog.org/glottolog?iso=ium)|
 
 ## Huitotoan
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |hto|Minica Huitoto|1880|South America|Nuclear Witotoan|Minica-Murui|[ISOs](https://iso639-3.sil.org/code/hto), [Ethnologue](https://www.ethnologue.com/language/hto), [Glottolog](http://glottolog.org/glottolog?iso=hto)|
 |huu|Murui Huitoto|1855|South America|Nuclear Witotoan|Minica-Murui|[ISOs](https://iso639-3.sil.org/code/huu), [Ethnologue](https://www.ethnologue.com/language/huu), [Glottolog](http://glottolog.org/glottolog?iso=huu)|
 
 ## Ijoid
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |ijn|Kalabari|1883|Africa|Ijo|Eastern Ijo|[ISOs](https://iso639-3.sil.org/code/ijn), [Ethnologue](https://www.ethnologue.com/language/ijn), [Glottolog](http://glottolog.org/glottolog?iso=ijn)|
 |okr|Kirike|1882|Africa|Ijo|Eastern Ijo|[ISOs](https://iso639-3.sil.org/code/okr), [Ethnologue](https://www.ethnologue.com/language/okr), [Glottolog](http://glottolog.org/glottolog?iso=okr)|
 
 ## Indo-European
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |aln|Gheg Albanian|1883|Eurasia|Classical Indo-European|Albanian|[ISOs](https://iso639-3.sil.org/code/aln), [Ethnologue](https://www.ethnologue.com/language/aln), [Glottolog](http://glottolog.org/glottolog?iso=aln)|
 |als|Northern Tosk Albanian|1884|Eurasia|Classical Indo-European|Albanian|[ISOs](https://iso639-3.sil.org/code/als), [Ethnologue](https://www.ethnologue.com/language/als), [Glottolog](http://glottolog.org/glottolog?iso=als)|
 |hye|Eastern Armenian|1134|Eurasia|Classical Indo-European|Armenic|[ISOs](https://iso639-3.sil.org/code/hye), [Ethnologue](https://www.ethnologue.com/language/hye), [Glottolog](http://glottolog.org/glottolog?iso=hye)|
@@ -1351,30 +1351,30 @@ are also listed together at the end of this document.
 
 ## Iroquoian
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |chr|Cherokee|1884|North America|Iroquoian|Iroquoian|[ISOs](https://iso639-3.sil.org/code/chr), [Ethnologue](https://www.ethnologue.com/language/chr), [Glottolog](http://glottolog.org/glottolog?iso=chr)|
 |see|Seneca|1140|North America|Northern Iroquoian|Iroquoian|[ISOs](https://iso639-3.sil.org/code/see), [Ethnologue](https://www.ethnologue.com/language/see), [Glottolog](http://glottolog.org/glottolog?iso=see)|
 |moh|Mohawk|1140|North America|Northern Iroquoian|Mohawk-Oneida|[ISOs](https://iso639-3.sil.org/code/moh), [Ethnologue](https://www.ethnologue.com/language/moh), [Glottolog](http://glottolog.org/glottolog?iso=moh)|
 
 ## Kamula-Elevala
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |awi|Aekyom|1846|Papunesia|Elevala|Kamula-Elevala|[ISOs](https://iso639-3.sil.org/code/awi), [Ethnologue](https://www.ethnologue.com/language/awi), [Glottolog](http://glottolog.org/glottolog?iso=awi)|
 |xla|Kamula|1820|Papunesia|Kamula-Elevala|Kamula-Elevala|[ISOs](https://iso639-3.sil.org/code/xla), [Ethnologue](https://www.ethnologue.com/language/xla), [Glottolog](http://glottolog.org/glottolog?iso=xla)|
 
 ## Khoe-Kwadi
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |naq|Nama (Namibia)|1883|Africa|Khoe|Khoekhoe|[ISOs](https://iso639-3.sil.org/code/naq), [Ethnologue](https://www.ethnologue.com/language/naq), [Glottolog](http://glottolog.org/glottolog?iso=naq)|
 |nhr|Naro|1881|Africa|Khoe|Non-Khoekhoe|[ISOs](https://iso639-3.sil.org/code/nhr), [Ethnologue](https://www.ethnologue.com/language/nhr), [Glottolog](http://glottolog.org/glottolog?iso=nhr)|
 
 ## Koiarian
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |bbb|Barai|1753|Papunesia|Baraic|Barai-Namiae|[ISOs](https://iso639-3.sil.org/code/bbb), [Ethnologue](https://www.ethnologue.com/language/bbb), [Glottolog](http://glottolog.org/glottolog?iso=bbb)|
 |nvm|Namiae|1718|Papunesia|Baraic|Barai-Namiae|[ISOs](https://iso639-3.sil.org/code/nvm), [Ethnologue](https://www.ethnologue.com/language/nvm), [Glottolog](http://glottolog.org/glottolog?iso=nvm)|
 |aom|Ömie|1874|Papunesia|Baraic|Koiarian|[ISOs](https://iso639-3.sil.org/code/aom), [Ethnologue](https://www.ethnologue.com/language/aom), [Glottolog](http://glottolog.org/glottolog?iso=aom)|
@@ -1383,8 +1383,8 @@ are also listed together at the end of this document.
 
 ## Kru
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |bet|Guiberoua Béte|1867|Africa|Eastern Kru|Beteic|[ISOs](https://iso639-3.sil.org/code/bet), [Ethnologue](https://www.ethnologue.com/language/bet), [Glottolog](http://glottolog.org/glottolog?iso=bet)|
 |god|Godié|1884|Africa|Eastern Kru|Beteic|[ISOs](https://iso639-3.sil.org/code/god), [Ethnologue](https://www.ethnologue.com/language/god), [Glottolog](http://glottolog.org/glottolog?iso=god)|
 |kyf|Kouya|1859|Africa|Eastern Kru|Beteic|[ISOs](https://iso639-3.sil.org/code/kyf), [Ethnologue](https://www.ethnologue.com/language/kyf), [Glottolog](http://glottolog.org/glottolog?iso=kyf)|
@@ -1403,24 +1403,24 @@ are also listed together at the end of this document.
 
 ## Kunimaipan
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |big|Biangai|1869|Papunesia|Kunimaipan|Kunimaipan|[ISOs](https://iso639-3.sil.org/code/big), [Ethnologue](https://www.ethnologue.com/language/big), [Glottolog](http://glottolog.org/glottolog?iso=big)|
 |kup|Kunimaipa|1814|Papunesia|Kunimaipan|Kunimaipan|[ISOs](https://iso639-3.sil.org/code/kup), [Ethnologue](https://www.ethnologue.com/language/kup), [Glottolog](http://glottolog.org/glottolog?iso=kup)|
 |wer|Weri|1875|Papunesia|Weric|Kunimaipan|[ISOs](https://iso639-3.sil.org/code/wer), [Ethnologue](https://www.ethnologue.com/language/wer), [Glottolog](http://glottolog.org/glottolog?iso=wer)|
 
 ## Lengua-Mascoy
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |tmf|Toba-Enenlhet|1841|South America|Eastern Enlhet-Enenlhet|Lengua-Mascoy|[ISOs](https://iso639-3.sil.org/code/tmf), [Ethnologue](https://www.ethnologue.com/language/tmf), [Glottolog](http://glottolog.org/glottolog?iso=tmf)|
 |enl|Enlhet Norte|1880|South America|Lengua|Lengua-Mascoy|[ISOs](https://iso639-3.sil.org/code/enl), [Ethnologue](https://www.ethnologue.com/language/enl), [Glottolog](http://glottolog.org/glottolog?iso=enl)|
 |enx|Enxet Sur|1880|South America|Lengua|Lengua-Mascoy|[ISOs](https://iso639-3.sil.org/code/enx), [Ethnologue](https://www.ethnologue.com/language/enx), [Glottolog](http://glottolog.org/glottolog?iso=enx)|
 
 ## Mande
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |bib|Bissa|1883|Africa|Eastern Mande|Bisa-Busa|[ISOs](https://iso639-3.sil.org/code/bib), [Ethnologue](https://www.ethnologue.com/language/bib), [Glottolog](http://glottolog.org/glottolog?iso=bib)|
 |bqc|Boko (Benin)|1877|Africa|Eastern Mande|Bisa-Busa|[ISOs](https://iso639-3.sil.org/code/bqc), [Ethnologue](https://www.ethnologue.com/language/bqc), [Glottolog](http://glottolog.org/glottolog?iso=bqc)|
 |bqp|Busa|1877|Africa|Eastern Mande|Bisa-Busa|[ISOs](https://iso639-3.sil.org/code/bqp), [Ethnologue](https://www.ethnologue.com/language/bqp), [Glottolog](http://glottolog.org/glottolog?iso=bqp)|
@@ -1450,8 +1450,8 @@ are also listed together at the end of this document.
 
 ## Mataguayan
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |cag|Nivaclé|1883|South America|Mataguayo I|Mataguayan|[ISOs](https://iso639-3.sil.org/code/cag), [Ethnologue](https://www.ethnologue.com/language/cag), [Glottolog](http://glottolog.org/glottolog?iso=cag)|
 |mca|Maká|1884|South America|Mataguayo I|Mataguayan|[ISOs](https://iso639-3.sil.org/code/mca), [Ethnologue](https://www.ethnologue.com/language/mca), [Glottolog](http://glottolog.org/glottolog?iso=mca)|
 |crq|Forest Chorote|1819|South America|Mataguayo II|Chorote|[ISOs](https://iso639-3.sil.org/code/crq), [Ethnologue](https://www.ethnologue.com/language/crq), [Glottolog](http://glottolog.org/glottolog?iso=crq)|
@@ -1461,8 +1461,8 @@ are also listed together at the end of this document.
 
 ## Mayan
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |acr|Achi|1884|North America|Core Mayan|Quichean-Mamean|[ISOs](https://iso639-3.sil.org/code/acr), [Ethnologue](https://www.ethnologue.com/language/acr), [Glottolog](http://glottolog.org/glottolog?iso=acr)|
 |agu|Aguacateco|1881|North America|Core Mayan|Quichean-Mamean|[ISOs](https://iso639-3.sil.org/code/agu), [Ethnologue](https://www.ethnologue.com/language/agu), [Glottolog](http://glottolog.org/glottolog?iso=agu)|
 |cak|Kaqchikel|1882|North America|Core Mayan|Quichean-Mamean|[ISOs](https://iso639-3.sil.org/code/cak), [Ethnologue](https://www.ethnologue.com/language/cak), [Glottolog](http://glottolog.org/glottolog?iso=cak)|
@@ -1491,15 +1491,15 @@ are also listed together at the end of this document.
 
 ## Misumalpan
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |miq|Mískito|1881|North America|Misumalpan|Misumalpan|[ISOs](https://iso639-3.sil.org/code/miq), [Ethnologue](https://www.ethnologue.com/language/miq), [Glottolog](http://glottolog.org/glottolog?iso=miq)|
 |yan|Mayangna|1880|North America|Sumalpan|Sumuic|[ISOs](https://iso639-3.sil.org/code/yan), [Ethnologue](https://www.ethnologue.com/language/yan), [Glottolog](http://glottolog.org/glottolog?iso=yan)|
 
 ## Mixe-Zoque
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |pos|Sayula Popoluca|1884|North America|Mixe|Mixe-Zoque|[ISOs](https://iso639-3.sil.org/code/pos), [Ethnologue](https://www.ethnologue.com/language/pos), [Glottolog](http://glottolog.org/glottolog?iso=pos)|
 |mco|Coatlán Mixe|1856|North America|Mixe|Oaxaca Mixe|[ISOs](https://iso639-3.sil.org/code/mco), [Ethnologue](https://www.ethnologue.com/language/mco), [Glottolog](http://glottolog.org/glottolog?iso=mco)|
 |mir|Isthmus Mixe|1796|North America|Mixe|Oaxaca Mixe|[ISOs](https://iso639-3.sil.org/code/mir), [Ethnologue](https://www.ethnologue.com/language/mir), [Glottolog](http://glottolog.org/glottolog?iso=mir)|
@@ -1513,16 +1513,16 @@ are also listed together at the end of this document.
 
 ## Mongolic-Khitan
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |bxr|Russia Buriat|1869|Eurasia|Mongolic|Eastern Mongolic|[ISOs](https://iso639-3.sil.org/code/bxr), [Ethnologue](https://www.ethnologue.com/language/bxr), [Glottolog](http://glottolog.org/glottolog?iso=bxr)|
 |khk|Halh Mongolian|1877|Eurasia|Mongolic|Eastern Mongolic|[ISOs](https://iso639-3.sil.org/code/khk), [Ethnologue](https://www.ethnologue.com/language/khk), [Glottolog](http://glottolog.org/glottolog?iso=khk)|
 |xal|Oirad-Kalmyk-Darkhat|1803|Eurasia|Mongolic|Eastern Mongolic|[ISOs](https://iso639-3.sil.org/code/xal), [Ethnologue](https://www.ethnologue.com/language/xal), [Glottolog](http://glottolog.org/glottolog?iso=xal)|
 
 ## Nakh-Daghestanian
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |ava|Avar|1866|Eurasia|Daghestanian|Avar-Andic-Tsezic|[ISOs](https://iso639-3.sil.org/code/ava), [Ethnologue](https://www.ethnologue.com/language/ava), [Glottolog](http://glottolog.org/glottolog?iso=ava)|
 |lez|Lezgian|1862|Eurasia|Daghestanian|Lezgic|[ISOs](https://iso639-3.sil.org/code/lez), [Ethnologue](https://www.ethnologue.com/language/lez), [Glottolog](http://glottolog.org/glottolog?iso=lez)|
 |tab|Tabasaran|1873|Eurasia|Daghestanian|Lezgic|[ISOs](https://iso639-3.sil.org/code/tab), [Ethnologue](https://www.ethnologue.com/language/tab), [Glottolog](http://glottolog.org/glottolog?iso=tab)|
@@ -1531,8 +1531,8 @@ are also listed together at the end of this document.
 
 ## Ndu
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |abt|Ambulas|1807|Papunesia|Nuclear Ndu|Ambulas-Hanga-Hundi|[ISOs](https://iso639-3.sil.org/code/abt), [Ethnologue](https://www.ethnologue.com/language/abt), [Glottolog](http://glottolog.org/glottolog?iso=abt)|
 |wos|Hanga Hundi|1856|Papunesia|Nuclear Ndu|Ambulas-Hanga-Hundi|[ISOs](https://iso639-3.sil.org/code/wos), [Ethnologue](https://www.ethnologue.com/language/wos), [Glottolog](http://glottolog.org/glottolog?iso=wos)|
 |mle|Manambu|1738|Papunesia|Nuclear Ndu|Manambu-Yalaku|[ISOs](https://iso639-3.sil.org/code/mle), [Ethnologue](https://www.ethnologue.com/language/mle), [Glottolog](http://glottolog.org/glottolog?iso=mle)|
@@ -1540,8 +1540,8 @@ are also listed together at the end of this document.
 
 ## Nilotic
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |bfa|Bari|1884|Africa|Eastern Nilotic|Barian|[ISOs](https://iso639-3.sil.org/code/bfa), [Ethnologue](https://www.ethnologue.com/language/bfa), [Glottolog](http://glottolog.org/glottolog?iso=bfa)|
 |keo|Kakwa|1884|Africa|Eastern Nilotic|Barian|[ISOs](https://iso639-3.sil.org/code/keo), [Ethnologue](https://www.ethnologue.com/language/keo), [Glottolog](http://glottolog.org/glottolog?iso=keo)|
 |kdj|Karamojong|1884|Africa|Eastern Nilotic|Teso-Lotuxo-Maa|[ISOs](https://iso639-3.sil.org/code/kdj), [Ethnologue](https://www.ethnologue.com/language/kdj), [Glottolog](http://glottolog.org/glottolog?iso=kdj)|
@@ -1574,8 +1574,8 @@ are also listed together at the end of this document.
 
 ## North Halmahera
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |gbi|Galela|1859|Papunesia|Northern North Halmahera|Mainland North Halmaheran|[ISOs](https://iso639-3.sil.org/code/gbi), [Ethnologue](https://www.ethnologue.com/language/gbi), [Glottolog](http://glottolog.org/glottolog?iso=gbi)|
 |tby|Tabaru|1872|Papunesia|Northern North Halmahera|Mainland North Halmaheran|[ISOs](https://iso639-3.sil.org/code/tby), [Ethnologue](https://www.ethnologue.com/language/tby), [Glottolog](http://glottolog.org/glottolog?iso=tby)|
 |tlb|Tobelo|1875|Papunesia|Northern North Halmahera|Mainland North Halmaheran|[ISOs](https://iso639-3.sil.org/code/tlb), [Ethnologue](https://www.ethnologue.com/language/tlb), [Glottolog](http://glottolog.org/glottolog?iso=tlb)|
@@ -1583,8 +1583,8 @@ are also listed together at the end of this document.
 
 ## Nuclear Torricelli
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |aoj|Mufian|1862|Papunesia|Kombio-Arapesh-Urat|Arapesh|[ISOs](https://iso639-3.sil.org/code/aoj), [Ethnologue](https://www.ethnologue.com/language/aoj), [Glottolog](http://glottolog.org/glottolog?iso=aoj)|
 |aon|Bumbita Arapesh|1861|Papunesia|Kombio-Arapesh-Urat|Arapesh|[ISOs](https://iso639-3.sil.org/code/aon), [Ethnologue](https://www.ethnologue.com/language/aon), [Glottolog](http://glottolog.org/glottolog?iso=aon)|
 |ape|Bukiyip|1859|Papunesia|Kombio-Arapesh-Urat|Arapesh|[ISOs](https://iso639-3.sil.org/code/ape), [Ethnologue](https://www.ethnologue.com/language/ape), [Glottolog](http://glottolog.org/glottolog?iso=ape)|
@@ -1595,8 +1595,8 @@ are also listed together at the end of this document.
 
 ## Nuclear Trans New Guinea
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |asc|Casuarina Coast Asmat|1843|Papunesia|Asmat-Awyu-Ok|Asmat-Kamoro|[ISOs](https://iso639-3.sil.org/code/asc), [Ethnologue](https://www.ethnologue.com/language/asc), [Glottolog](http://glottolog.org/glottolog?iso=asc)|
 |cns|Central Asmat|1865|Papunesia|Asmat-Awyu-Ok|Asmat-Kamoro|[ISOs](https://iso639-3.sil.org/code/cns), [Ethnologue](https://www.ethnologue.com/language/cns), [Glottolog](http://glottolog.org/glottolog?iso=cns)|
 |tml|Tamnim Citak|1876|Papunesia|Asmat-Awyu-Ok|Asmat-Kamoro|[ISOs](https://iso639-3.sil.org/code/tml), [Ethnologue](https://www.ethnologue.com/language/tml), [Glottolog](http://glottolog.org/glottolog?iso=tml)|
@@ -1715,8 +1715,8 @@ are also listed together at the end of this document.
 
 ## Nuclear-Macro-Je
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |apn|Apinayé|1777|South America|Je|Cerrado|[ISOs](https://iso639-3.sil.org/code/apn), [Ethnologue](https://www.ethnologue.com/language/apn), [Glottolog](http://glottolog.org/glottolog?iso=apn)|
 |txu|Mebengokre|1837|South America|Je|Cerrado|[ISOs](https://iso639-3.sil.org/code/txu), [Ethnologue](https://www.ethnologue.com/language/txu), [Glottolog](http://glottolog.org/glottolog?iso=txu)|
 |xav|Xavánte|1768|South America|Je|Cerrado|[ISOs](https://iso639-3.sil.org/code/xav), [Ethnologue](https://www.ethnologue.com/language/xav), [Glottolog](http://glottolog.org/glottolog?iso=xav)|
@@ -1727,8 +1727,8 @@ are also listed together at the end of this document.
 
 ## Otomanguean
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |amu|Guerrero Amuzgo|1883|North America|Eastern Otomanguean|Amuzgo-Mixtecan|[ISOs](https://iso639-3.sil.org/code/amu), [Ethnologue](https://www.ethnologue.com/language/amu), [Glottolog](http://glottolog.org/glottolog?iso=amu)|
 |azg|San Pedro Amuzgos Amuzgo|1882|North America|Eastern Otomanguean|Amuzgo-Mixtecan|[ISOs](https://iso639-3.sil.org/code/azg), [Ethnologue](https://www.ethnologue.com/language/azg), [Glottolog](http://glottolog.org/glottolog?iso=azg)|
 |cut|Teutila Cuicatec|1868|North America|Eastern Otomanguean|Amuzgo-Mixtecan|[ISOs](https://iso639-3.sil.org/code/cut), [Ethnologue](https://www.ethnologue.com/language/cut), [Glottolog](http://glottolog.org/glottolog?iso=cut)|
@@ -1818,8 +1818,8 @@ are also listed together at the end of this document.
 
 ## Pama-Nyungan
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |aer|Eastern Arrernte|1823|Australia|Arandic-Thura-Yura|Arandic|[ISOs](https://iso639-3.sil.org/code/aer), [Ethnologue](https://www.ethnologue.com/language/aer), [Glottolog](http://glottolog.org/glottolog?iso=aer)|
 |aly|Alyawarr|1570|Australia|Arandic-Thura-Yura|Arandic|[ISOs](https://iso639-3.sil.org/code/aly), [Ethnologue](https://www.ethnologue.com/language/aly), [Glottolog](http://glottolog.org/glottolog?iso=aly)|
 |amx|Anmatyerre|1091|Australia|Arandic-Thura-Yura|Arandic|[ISOs](https://iso639-3.sil.org/code/amx), [Ethnologue](https://www.ethnologue.com/language/amx), [Glottolog](http://glottolog.org/glottolog?iso=amx)|
@@ -1838,8 +1838,8 @@ are also listed together at the end of this document.
 
 ## Pano-Tacanan
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |cao|Chácobo|1874|South America|Panoan|Mainline Pano|[ISOs](https://iso639-3.sil.org/code/cao), [Ethnologue](https://www.ethnologue.com/language/cao), [Glottolog](http://glottolog.org/glottolog?iso=cao)|
 |cbr|Cashibo-Cacataibo|1872|South America|Panoan|Mainline Pano|[ISOs](https://iso639-3.sil.org/code/cbr), [Ethnologue](https://www.ethnologue.com/language/cbr), [Glottolog](http://glottolog.org/glottolog?iso=cbr)|
 |cbs|Cashinahua|1793|South America|Panoan|Mainline Pano|[ISOs](https://iso639-3.sil.org/code/cbs), [Ethnologue](https://www.ethnologue.com/language/cbs), [Glottolog](http://glottolog.org/glottolog?iso=cbs)|
@@ -1854,8 +1854,8 @@ are also listed together at the end of this document.
 
 ## Quechuan
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |quf|Lambayeque Quechua|1864|South America|Cajamarca-Lambayeque Quechua|Quechuan|[ISOs](https://iso639-3.sil.org/code/quf), [Ethnologue](https://www.ethnologue.com/language/quf), [Glottolog](http://glottolog.org/glottolog?iso=quf)|
 |qvc|Cajamarca Quechua|1854|South America|Cajamarca-Lambayeque Quechua|Quechuan|[ISOs](https://iso639-3.sil.org/code/qvc), [Ethnologue](https://www.ethnologue.com/language/qvc), [Glottolog](http://glottolog.org/glottolog?iso=qvc)|
 |qug|Bolivar-North Chimborazo Highland Quichua|1884|South America|Colombia-Ecuador Quechua|Ecuadorian Quechua A|[ISOs](https://iso639-3.sil.org/code/qug), [Ethnologue](https://www.ethnologue.com/language/qug), [Glottolog](http://glottolog.org/glottolog?iso=qug)|
@@ -1886,23 +1886,23 @@ are also listed together at the end of this document.
 
 ## Ramu
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |gai|Borei|1873|Papunesia|Lower Ramu|Ottilien|[ISOs](https://iso639-3.sil.org/code/gai), [Ethnologue](https://www.ethnologue.com/language/gai), [Glottolog](http://glottolog.org/glottolog?iso=gai)|
 |geb|Kire|1861|Papunesia|Lower Ramu|Ruboni|[ISOs](https://iso639-3.sil.org/code/geb), [Ethnologue](https://www.ethnologue.com/language/geb), [Glottolog](http://glottolog.org/glottolog?iso=geb)|
 |msy|Aruamu|1847|Papunesia|Lower Ramu|Ruboni|[ISOs](https://iso639-3.sil.org/code/msy), [Ethnologue](https://www.ethnologue.com/language/msy), [Glottolog](http://glottolog.org/glottolog?iso=msy)|
 
 ## Saliban
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |pid|Piaroa|1879|South America|Maco-Piaroa|Saliban|[ISOs](https://iso639-3.sil.org/code/pid), [Ethnologue](https://www.ethnologue.com/language/pid), [Glottolog](http://glottolog.org/glottolog?iso=pid)|
 |wpc|Maco|1856|South America|Maco-Piaroa|Saliban|[ISOs](https://iso639-3.sil.org/code/wpc), [Ethnologue](https://www.ethnologue.com/language/wpc), [Glottolog](http://glottolog.org/glottolog?iso=wpc)|
 
 ## Sepik
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |iws|Sepik Iwam|1884|Papunesia|Iwam-Wogamus|Iwamic|[ISOs](https://iso639-3.sil.org/code/iws), [Ethnologue](https://www.ethnologue.com/language/iws), [Glottolog](http://glottolog.org/glottolog?iso=iws)|
 |kwj|Kwanga|1879|Papunesia|Nukuma|Kwanga-Mende|[ISOs](https://iso639-3.sil.org/code/kwj), [Ethnologue](https://www.ethnologue.com/language/kwj), [Glottolog](http://glottolog.org/glottolog?iso=kwj)|
 |sim|Mende (Papua New Guinea)|1848|Papunesia|Nukuma|Kwanga-Mende|[ISOs](https://iso639-3.sil.org/code/sim), [Ethnologue](https://www.ethnologue.com/language/sim), [Glottolog](http://glottolog.org/glottolog?iso=sim)|
@@ -1915,8 +1915,8 @@ are also listed together at the end of this document.
 
 ## Sino-Tibetan
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |adx|Amdo Tibetan|1863|Eurasia|Bodic|Bodish|[ISOs](https://iso639-3.sil.org/code/adx), [Ethnologue](https://www.ethnologue.com/language/adx), [Glottolog](http://glottolog.org/glottolog?iso=adx)|
 |dzo|Dzongkha|1877|Eurasia|Bodic|Bodish|[ISOs](https://iso639-3.sil.org/code/dzo), [Ethnologue](https://www.ethnologue.com/language/dzo), [Glottolog](http://glottolog.org/glottolog?iso=dzo)|
 |lbj|Leh Ladakhi|1779|Eurasia|Bodic|Bodish|[ISOs](https://iso639-3.sil.org/code/lbj), [Ethnologue](https://www.ethnologue.com/language/lbj), [Glottolog](http://glottolog.org/glottolog?iso=lbj)|
@@ -2042,8 +2042,8 @@ are also listed together at the end of this document.
 
 ## Songhay
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |ses|Koyraboro Senni Songhai|1860|Africa|Eastern Songhay|Songhay|[ISOs](https://iso639-3.sil.org/code/ses), [Ethnologue](https://www.ethnologue.com/language/ses), [Glottolog](http://glottolog.org/glottolog?iso=ses)|
 |ddn|Dendi (Benin)|1884|Africa|Eastern Songhay|Zarma-Kaado-Dendi|[ISOs](https://iso639-3.sil.org/code/ddn), [Ethnologue](https://www.ethnologue.com/language/ddn), [Glottolog](http://glottolog.org/glottolog?iso=ddn)|
 |dje|Zarma-Kaado|1880|Africa|Eastern Songhay|Zarma-Kaado-Dendi|[ISOs](https://iso639-3.sil.org/code/dje), [Ethnologue](https://www.ethnologue.com/language/dje), [Glottolog](http://glottolog.org/glottolog?iso=dje)|
@@ -2051,8 +2051,8 @@ are also listed together at the end of this document.
 
 ## Surmic
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |did|Didinga|1884|Africa|South Surmic|Southwest Surmic|[ISOs](https://iso639-3.sil.org/code/did), [Ethnologue](https://www.ethnologue.com/language/did), [Glottolog](http://glottolog.org/glottolog?iso=did)|
 |mur|Murle|1868|Africa|South Surmic|Southwest Surmic|[ISOs](https://iso639-3.sil.org/code/mur), [Ethnologue](https://www.ethnologue.com/language/mur), [Glottolog](http://glottolog.org/glottolog?iso=mur)|
 |tex|Tennet|1883|Africa|South Surmic|Southwest Surmic|[ISOs](https://iso639-3.sil.org/code/tex), [Ethnologue](https://www.ethnologue.com/language/tex), [Glottolog](http://glottolog.org/glottolog?iso=tex)|
@@ -2060,8 +2060,8 @@ are also listed together at the end of this document.
 
 ## Ta-Ne-Omotic
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |kbr|Kafa|1809|Africa|Kefoid|South Gonga|[ISOs](https://iso639-3.sil.org/code/kbr), [Ethnologue](https://www.ethnologue.com/language/kbr), [Glottolog](http://glottolog.org/glottolog?iso=kbr)|
 |moy|Shekkacho|1871|Africa|Kefoid|South Gonga|[ISOs](https://iso639-3.sil.org/code/moy), [Ethnologue](https://www.ethnologue.com/language/moy), [Glottolog](http://glottolog.org/glottolog?iso=moy)|
 |bwo|Boro (Ethiopia)|1883|Africa|Kefoid|Ta-Ne-Omotic|[ISOs](https://iso639-3.sil.org/code/bwo), [Ethnologue](https://www.ethnologue.com/language/bwo), [Glottolog](http://glottolog.org/glottolog?iso=bwo)|
@@ -2075,8 +2075,8 @@ are also listed together at the end of this document.
 
 ## Tai-Kadai
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |blt|Tai Dam|1880|Eurasia|Kam-Tai|Daic-Beic|[ISOs](https://iso639-3.sil.org/code/blt), [Ethnologue](https://www.ethnologue.com/language/blt), [Glottolog](http://glottolog.org/glottolog?iso=blt)|
 |lao|Lao|1883|Eurasia|Kam-Tai|Daic-Beic|[ISOs](https://iso639-3.sil.org/code/lao), [Ethnologue](https://www.ethnologue.com/language/lao), [Glottolog](http://glottolog.org/glottolog?iso=lao)|
 |nod|Northern Thai|1882|Eurasia|Kam-Tai|Daic-Beic|[ISOs](https://iso639-3.sil.org/code/nod), [Ethnologue](https://www.ethnologue.com/language/nod), [Glottolog](http://glottolog.org/glottolog?iso=nod)|
@@ -2088,29 +2088,29 @@ are also listed together at the end of this document.
 
 ## Tarascan
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |pua|Western Highland Purepecha|1882|North America|Tarascan|Tarascan|[ISOs](https://iso639-3.sil.org/code/pua), [Ethnologue](https://www.ethnologue.com/language/pua), [Glottolog](http://glottolog.org/glottolog?iso=pua)|
 |tsz|Purepecha|1883|North America|Tarascan|Tarascan|[ISOs](https://iso639-3.sil.org/code/tsz), [Ethnologue](https://www.ethnologue.com/language/tsz), [Glottolog](http://glottolog.org/glottolog?iso=tsz)|
 
 ## Teberan
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |mps|Dadibi|1871|Papunesia|Teberan|Teberan|[ISOs](https://iso639-3.sil.org/code/mps), [Ethnologue](https://www.ethnologue.com/language/mps), [Glottolog](http://glottolog.org/glottolog?iso=mps)|
 |ppo|Folopa|1840|Papunesia|Teberan|Teberan|[ISOs](https://iso639-3.sil.org/code/ppo), [Ethnologue](https://www.ethnologue.com/language/ppo), [Glottolog](http://glottolog.org/glottolog?iso=ppo)|
 
 ## Tor-Orya
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |bkl|Berik|1867|Papunesia|Tor|Tor-Orya|[ISOs](https://iso639-3.sil.org/code/bkl), [Ethnologue](https://www.ethnologue.com/language/bkl), [Glottolog](http://glottolog.org/glottolog?iso=bkl)|
 |ury|Orya|1850|Papunesia|Tor-Orya|Tor-Orya|[ISOs](https://iso639-3.sil.org/code/ury), [Ethnologue](https://www.ethnologue.com/language/ury), [Glottolog](http://glottolog.org/glottolog?iso=ury)|
 
 ## Totonacan
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |tee|Huehuetla Tepehua|1879|North America|Tepehua|Totonacan|[ISOs](https://iso639-3.sil.org/code/tee), [Ethnologue](https://www.ethnologue.com/language/tee), [Glottolog](http://glottolog.org/glottolog?iso=tee)|
 |tpp|Pisaflores Tepehua|1883|North America|Tepehua|Totonacan|[ISOs](https://iso639-3.sil.org/code/tpp), [Ethnologue](https://www.ethnologue.com/language/tpp), [Glottolog](http://glottolog.org/glottolog?iso=tpp)|
 |tpt|Tlachichilco Tepehua|1883|North America|Tepehua|Totonacan|[ISOs](https://iso639-3.sil.org/code/tpt), [Ethnologue](https://www.ethnologue.com/language/tpt), [Glottolog](http://glottolog.org/glottolog?iso=tpt)|
@@ -2122,8 +2122,8 @@ are also listed together at the end of this document.
 
 ## Tucanoan
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |bao|Waimaha|1882|South America|Eastern Tucanoan|Eastern Eastern Tucanoan|[ISOs](https://iso639-3.sil.org/code/bao), [Ethnologue](https://www.ethnologue.com/language/bao), [Glottolog](http://glottolog.org/glottolog?iso=bao)|
 |cbc|Carapana|1853|South America|Eastern Tucanoan|Eastern Eastern Tucanoan|[ISOs](https://iso639-3.sil.org/code/cbc), [Ethnologue](https://www.ethnologue.com/language/cbc), [Glottolog](http://glottolog.org/glottolog?iso=cbc)|
 |gvc|Kotiria|1855|South America|Eastern Tucanoan|Eastern Eastern Tucanoan|[ISOs](https://iso639-3.sil.org/code/gvc), [Ethnologue](https://www.ethnologue.com/language/gvc), [Glottolog](http://glottolog.org/glottolog?iso=gvc)|
@@ -2143,8 +2143,8 @@ are also listed together at the end of this document.
 
 ## Tupian
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |gnw|Western Bolivian Guaraní|1848|South America|Eastern Tupian|Maweti-Guarani|[ISOs](https://iso639-3.sil.org/code/gnw), [Ethnologue](https://www.ethnologue.com/language/gnw), [Glottolog](http://glottolog.org/glottolog?iso=gnw)|
 |gub|Guajajára|1864|South America|Eastern Tupian|Maweti-Guarani|[ISOs](https://iso639-3.sil.org/code/gub), [Ethnologue](https://www.ethnologue.com/language/gub), [Glottolog](http://glottolog.org/glottolog?iso=gub)|
 |gug|Paraguayan Guaraní|1881|South America|Eastern Tupian|Maweti-Guarani|[ISOs](https://iso639-3.sil.org/code/gug), [Ethnologue](https://www.ethnologue.com/language/gug), [Glottolog](http://glottolog.org/glottolog?iso=gug)|
@@ -2167,8 +2167,8 @@ are also listed together at the end of this document.
 
 ## Turkic
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |chv|Chuvash|1865|Eurasia|Bolgar|Turkic|[ISOs](https://iso639-3.sil.org/code/chv), [Ethnologue](https://www.ethnologue.com/language/chv), [Glottolog](http://glottolog.org/glottolog?iso=chv)|
 |alt|Southern Altai|1877|Eurasia|Common Turkic|Kipchak-Turkestan|[ISOs](https://iso639-3.sil.org/code/alt), [Ethnologue](https://www.ethnologue.com/language/alt), [Glottolog](http://glottolog.org/glottolog?iso=alt)|
 |bak|Bashkir|1871|Eurasia|Common Turkic|Kipchak-Turkestan|[ISOs](https://iso639-3.sil.org/code/bak), [Ethnologue](https://www.ethnologue.com/language/bak), [Glottolog](http://glottolog.org/glottolog?iso=bak)|
@@ -2195,8 +2195,8 @@ are also listed together at the end of this document.
 
 ## Uralic
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |ekk|Estonian|1884|Eurasia|Finnic|Coastal Finnic|[ISOs](https://iso639-3.sil.org/code/ekk), [Ethnologue](https://www.ethnologue.com/language/ekk), [Glottolog](http://glottolog.org/glottolog?iso=ekk)|
 |est|Estonian|1884|Eurasia|Finnic|Coastal Finnic|[ISOs](https://iso639-3.sil.org/code/est), [Ethnologue](https://www.ethnologue.com/language/est), [Glottolog](http://glottolog.org/glottolog?iso=est)|
 |fin|Finnish|1884|Eurasia|Finnic|Coastal Finnic|[ISOs](https://iso639-3.sil.org/code/fin), [Ethnologue](https://www.ethnologue.com/language/fin), [Glottolog](http://glottolog.org/glottolog?iso=fin)|
@@ -2209,8 +2209,8 @@ are also listed together at the end of this document.
 
 ## Uto-Aztecan
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |pao|Northern Paiute|1713|North America|Northern Uto-Aztecan|Numic|[ISOs](https://iso639-3.sil.org/code/pao), [Ethnologue](https://www.ethnologue.com/language/pao), [Glottolog](http://glottolog.org/glottolog?iso=pao)|
 |hop|Hopi|1880|North America|Northern Uto-Aztecan|Uto-Aztecan|[ISOs](https://iso639-3.sil.org/code/hop), [Ethnologue](https://www.ethnologue.com/language/hop), [Glottolog](http://glottolog.org/glottolog?iso=hop)|
 |mfy|Mayo|1884|North America|Southern Uto-Aztecan|Cahitan|[ISOs](https://iso639-3.sil.org/code/mfy), [Ethnologue](https://www.ethnologue.com/language/mfy), [Glottolog](http://glottolog.org/glottolog?iso=mfy)|
@@ -2241,8 +2241,8 @@ are also listed together at the end of this document.
 
 ## Yanomamic
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |guu|Yanomamö|1880|South America|Ninam-Yanomam-Yaroame|Yanomam-Yaroame|[ISOs](https://iso639-3.sil.org/code/guu), [Ethnologue](https://www.ethnologue.com/language/guu), [Glottolog](http://glottolog.org/glottolog?iso=guu)|
 |wca|Yanomám|1857|South America|Ninam-Yanomam-Yaroame|Yanomam-Yaroame|[ISOs](https://iso639-3.sil.org/code/wca), [Ethnologue](https://www.ethnologue.com/language/wca), [Glottolog](http://glottolog.org/glottolog?iso=wca)|
 |shb|Ninam|1833|South America|Ninam-Yanomam-Yaroame|Yanomamic|[ISOs](https://iso639-3.sil.org/code/shb), [Ethnologue](https://www.ethnologue.com/language/shb), [Glottolog](http://glottolog.org/glottolog?iso=shb)|
@@ -2250,22 +2250,22 @@ are also listed together at the end of this document.
 
 ## Yareban
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |aby|Aneme Wake|1652|Papunesia|Doriri-Abia|Yareban|[ISOs](https://iso639-3.sil.org/code/aby), [Ethnologue](https://www.ethnologue.com/language/aby), [Glottolog](http://glottolog.org/glottolog?iso=aby)|
 |yrb|Yareba|1670|Papunesia|Yareba-Bariji-Nawaru|Yareban|[ISOs](https://iso639-3.sil.org/code/yrb), [Ethnologue](https://www.ethnologue.com/language/yrb), [Glottolog](http://glottolog.org/glottolog?iso=yrb)|
 
 ## Zamucoan
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |ayo|Ayoreo|1868|South America|Zamuco-Ayoreo|Zamucoan|[ISOs](https://iso639-3.sil.org/code/ayo), [Ethnologue](https://www.ethnologue.com/language/ayo), [Glottolog](http://glottolog.org/glottolog?iso=ayo)|
 |ceg|Chamacoco|1884|South America|Zamucoan|Zamucoan|[ISOs](https://iso639-3.sil.org/code/ceg), [Ethnologue](https://www.ethnologue.com/language/ceg), [Glottolog](http://glottolog.org/glottolog?iso=ceg)|
 
 ## Isolates
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |ain|Hokkaido Ainu|1883|Eurasia|Ainu|Hokkaido-Kuril Ainu|Ainu|[ISOs](https://iso639-3.sil.org/code/ain), [Ethnologue](https://www.ethnologue.com/language/ain), [Glottolog](http://glottolog.org/glottolog?iso=ain)|
 |mmp|Siawi|1847|Papunesia|Amto-Musan|Amto-Musan|Amto-Musan|[ISOs](https://iso639-3.sil.org/code/mmp), [Ethnologue](https://www.ethnologue.com/language/mmp), [Glottolog](http://glottolog.org/glottolog?iso=mmp)|
 |kvg|Kuni-Boazi|1882|Papunesia|Anim|Marind-Boazi-Yaqai|Boazi|[ISOs](https://iso639-3.sil.org/code/kvg), [Ethnologue](https://www.ethnologue.com/language/kvg), [Glottolog](http://glottolog.org/glottolog?iso=kvg)|
@@ -2326,8 +2326,8 @@ are also listed together at the end of this document.
 
 ## Single languages
 
-|ISO 639-3|Name|Verses in corpus|Macroarea|Family|Branch|Subgroup|Links|
-|--|--|--|--|--|--|--|--|
+|ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
+|--|--|--|--|--|--|--|
 |ata|Pele-Ata|1872|Papunesia|ata|ata|ata|[ISOs](https://iso639-3.sil.org/code/ata), [Ethnologue](https://www.ethnologue.com/language/ata), [Glottolog](http://glottolog.org/glottolog?iso=ata)|
 |auc|Waorani|1883|South America|auc|auc|auc|[ISOs](https://iso639-3.sil.org/code/auc), [Ethnologue](https://www.ethnologue.com/language/auc), [Glottolog](http://glottolog.org/glottolog?iso=auc)|
 |blb|Bilua|1877|Papunesia|blb|blb|blb|[ISOs](https://iso639-3.sil.org/code/blb), [Ethnologue](https://www.ethnologue.com/language/blb), [Glottolog](http://glottolog.org/glottolog?iso=blb)|

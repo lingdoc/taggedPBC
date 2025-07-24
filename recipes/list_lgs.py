@@ -86,6 +86,7 @@ interdict = single_lgs.set_index("ISO 639-3").to_dict("index")
 famdict['Single languages'] = {idx: list(row_dict.values()) for idx, row_dict in interdict.items()}
 
 # this helps us format the tables
+newheadlist.remove('Family')
 splist = ["--" for x in newheadlist]
 
 readmefile = "../corpora/README.md" # the documentation that we're creating (list of language info)
