@@ -7,7 +7,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# this script gets all nouns in the tagged PBC for a select group of languages
+# this script gets verses in the tagged PBC for a select group of languages
 # (i.e. in a language family), allowing for comparison
 
 # first we load the lineage information that is present in Glottolog (as of 3 June 2025)
