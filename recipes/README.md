@@ -36,3 +36,11 @@ There are 7 families in the dataset represented by 70+ languages: 1289 total
 - uses Glottolog information to get corpora from 8 languages in a particular branch of Austroasiatic (Khasi-Palaung)
 - extracts data from each corpus
 - writes a tab-separated file containing a single verse across all the selected languages
+
+
+`list_lgs.py` creates a markdown-formatted README in the `../corpora/` folder that aggregates information on the languages in the dataset.
+- uses statistics and data from the [`stats_All.xlsx`](../scripts/data/output/stats_All.xlsx) file derived from the corpora to identify languages
+- groups languages in the dataset by language family
+- creates tables for each language family with subgrouping information
+- adds links to external sources
+- adds a direct link to each annotated corpus
