@@ -98,8 +98,8 @@ with open(readmefile, "w") as f:
 		f.write("<details>") # write a details block to hide initial view
 		f.write("\n")
 		f.write("<summary>"+family+"</summary>")
-		f.write("\n")
-		f.write("## "+family+"\n\n") # here's the heading for each family
+		f.write("\n\n")
+		f.write(" ### "+family+" languages in the *taggedPBC*:\n\n") # here's the heading for each family
 		f.write("|"+"|".join(newheadlist)+"|Links|\n") # here's the header of the table
 		f.write("|"+"|".join(splist)+"|--|\n")
 		for lang, vals in data.items():

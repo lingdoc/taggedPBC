@@ -14,7 +14,8 @@ are also listed together at the end of this document.
 
 <details>
 <summary>Afro-Asiatic</summary>
-## Afro-Asiatic
+
+ ### Afro-Asiatic languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -99,7 +100,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Algic</summary>
-## Algic
+
+ ### Algic languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -118,7 +120,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Angan</summary>
-## Angan
+
+ ### Angan languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -131,7 +134,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Arawakan</summary>
-## Arawakan
+
+ ### Arawakan languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -164,7 +168,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Arawan</summary>
-## Arawan
+
+ ### Arawan languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -175,7 +180,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Athabaskan-Eyak-Tlingit</summary>
-## Athabaskan-Eyak-Tlingit
+
+ ### Athabaskan-Eyak-Tlingit languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -189,7 +195,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Atlantic-Congo</summary>
-## Atlantic-Congo
+
+ ### Atlantic-Congo languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -597,7 +604,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Austroasiatic</summary>
-## Austroasiatic
+
+ ### Austroasiatic languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -637,7 +645,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Austronesian</summary>
-## Austronesian
+
+ ### Austronesian languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -972,7 +981,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Aymaran</summary>
-## Aymaran
+
+ ### Aymaran languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -982,7 +992,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Barbacoan</summary>
-## Barbacoan
+
+ ### Barbacoan languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -994,7 +1005,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Boran</summary>
-## Boran
+
+ ### Boran languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -1004,7 +1016,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Border</summary>
-## Border
+
+ ### Border languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -1014,7 +1027,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Bosavi</summary>
-## Bosavi
+
+ ### Bosavi languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -1025,7 +1039,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Cariban</summary>
-## Cariban
+
+ ### Cariban languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -1042,7 +1057,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Central Sudanic</summary>
-## Central Sudanic
+
+ ### Central Sudanic languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -1070,7 +1086,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Chibchan</summary>
-## Chibchan
+
+ ### Chibchan languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -1087,7 +1104,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Chicham</summary>
-## Chicham
+
+ ### Chicham languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -1099,7 +1117,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Chocoan</summary>
-## Chocoan
+
+ ### Chocoan languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -1113,7 +1132,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Dagan</summary>
-## Dagan
+
+ ### Dagan languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -1125,7 +1145,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Dravidian</summary>
-## Dravidian
+
+ ### Dravidian languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -1157,7 +1178,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>East Bird's Head</summary>
-## East Bird's Head
+
+ ### East Bird's Head languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -1168,7 +1190,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>East Strickland</summary>
-## East Strickland
+
+ ### East Strickland languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -1178,7 +1201,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Eastern Trans-Fly</summary>
-## Eastern Trans-Fly
+
+ ### Eastern Trans-Fly languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -1189,7 +1213,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Eskimo-Aleut</summary>
-## Eskimo-Aleut
+
+ ### Eskimo-Aleut languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -1204,7 +1229,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Guahiboan</summary>
-## Guahiboan
+
+ ### Guahiboan languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -1215,7 +1241,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Guaicuruan</summary>
-## Guaicuruan
+
+ ### Guaicuruan languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -1227,7 +1254,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Gunwinyguan</summary>
-## Gunwinyguan
+
+ ### Gunwinyguan languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -1237,7 +1265,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Heibanic</summary>
-## Heibanic
+
+ ### Heibanic languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -1249,7 +1278,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Hmong-Mien</summary>
-## Hmong-Mien
+
+ ### Hmong-Mien languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -1260,7 +1290,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Huitotoan</summary>
-## Huitotoan
+
+ ### Huitotoan languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -1270,7 +1301,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Ijoid</summary>
-## Ijoid
+
+ ### Ijoid languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -1280,7 +1312,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Indo-European</summary>
-## Indo-European
+
+ ### Indo-European languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -1450,7 +1483,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Iroquoian</summary>
-## Iroquoian
+
+ ### Iroquoian languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -1461,7 +1495,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Kamula-Elevala</summary>
-## Kamula-Elevala
+
+ ### Kamula-Elevala languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -1471,7 +1506,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Khoe-Kwadi</summary>
-## Khoe-Kwadi
+
+ ### Khoe-Kwadi languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -1481,7 +1517,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Koiarian</summary>
-## Koiarian
+
+ ### Koiarian languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -1494,7 +1531,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Kru</summary>
-## Kru
+
+ ### Kru languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -1517,7 +1555,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Kunimaipan</summary>
-## Kunimaipan
+
+ ### Kunimaipan languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -1528,7 +1567,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Lengua-Mascoy</summary>
-## Lengua-Mascoy
+
+ ### Lengua-Mascoy languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -1539,7 +1579,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Mande</summary>
-## Mande
+
+ ### Mande languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -1573,7 +1614,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Mataguayan</summary>
-## Mataguayan
+
+ ### Mataguayan languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -1587,7 +1629,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Mayan</summary>
-## Mayan
+
+ ### Mayan languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -1620,7 +1663,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Misumalpan</summary>
-## Misumalpan
+
+ ### Misumalpan languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -1630,7 +1674,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Mixe-Zoque</summary>
-## Mixe-Zoque
+
+ ### Mixe-Zoque languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -1648,7 +1693,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Mongolic-Khitan</summary>
-## Mongolic-Khitan
+
+ ### Mongolic-Khitan languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -1659,7 +1705,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Nakh-Daghestanian</summary>
-## Nakh-Daghestanian
+
+ ### Nakh-Daghestanian languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -1672,7 +1719,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Ndu</summary>
-## Ndu
+
+ ### Ndu languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -1684,7 +1732,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Nilotic</summary>
-## Nilotic
+
+ ### Nilotic languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -1721,7 +1770,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>North Halmahera</summary>
-## North Halmahera
+
+ ### North Halmahera languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -1733,7 +1783,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Nuclear Torricelli</summary>
-## Nuclear Torricelli
+
+ ### Nuclear Torricelli languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -1748,7 +1799,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Nuclear Trans New Guinea</summary>
-## Nuclear Trans New Guinea
+
+ ### Nuclear Trans New Guinea languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -1871,7 +1923,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Nuclear-Macro-Je</summary>
-## Nuclear-Macro-Je
+
+ ### Nuclear-Macro-Je languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -1886,7 +1939,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Otomanguean</summary>
-## Otomanguean
+
+ ### Otomanguean languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -1980,7 +2034,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Pama-Nyungan</summary>
-## Pama-Nyungan
+
+ ### Pama-Nyungan languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -2003,7 +2058,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Pano-Tacanan</summary>
-## Pano-Tacanan
+
+ ### Pano-Tacanan languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -2022,7 +2078,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Quechuan</summary>
-## Quechuan
+
+ ### Quechuan languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -2057,7 +2114,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Ramu</summary>
-## Ramu
+
+ ### Ramu languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -2068,7 +2126,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Saliban</summary>
-## Saliban
+
+ ### Saliban languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -2078,7 +2137,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Sepik</summary>
-## Sepik
+
+ ### Sepik languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -2095,7 +2155,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Sino-Tibetan</summary>
-## Sino-Tibetan
+
+ ### Sino-Tibetan languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -2225,7 +2286,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Songhay</summary>
-## Songhay
+
+ ### Songhay languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -2237,7 +2299,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Surmic</summary>
-## Surmic
+
+ ### Surmic languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -2249,7 +2312,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Ta-Ne-Omotic</summary>
-## Ta-Ne-Omotic
+
+ ### Ta-Ne-Omotic languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -2267,7 +2331,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Tai-Kadai</summary>
-## Tai-Kadai
+
+ ### Tai-Kadai languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -2283,7 +2348,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Tarascan</summary>
-## Tarascan
+
+ ### Tarascan languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -2293,7 +2359,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Teberan</summary>
-## Teberan
+
+ ### Teberan languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -2303,7 +2370,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Tor-Orya</summary>
-## Tor-Orya
+
+ ### Tor-Orya languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -2313,7 +2381,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Totonacan</summary>
-## Totonacan
+
+ ### Totonacan languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -2329,7 +2398,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Tucanoan</summary>
-## Tucanoan
+
+ ### Tucanoan languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -2353,7 +2423,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Tupian</summary>
-## Tupian
+
+ ### Tupian languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -2380,7 +2451,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Turkic</summary>
-## Turkic
+
+ ### Turkic languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -2411,7 +2483,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Uralic</summary>
-## Uralic
+
+ ### Uralic languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -2428,7 +2501,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Uto-Aztecan</summary>
-## Uto-Aztecan
+
+ ### Uto-Aztecan languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -2463,7 +2537,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Yanomamic</summary>
-## Yanomamic
+
+ ### Yanomamic languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -2475,7 +2550,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Yareban</summary>
-## Yareban
+
+ ### Yareban languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -2485,7 +2561,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Zamucoan</summary>
-## Zamucoan
+
+ ### Zamucoan languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -2495,7 +2572,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Isolates</summary>
-## Isolates
+
+ ### Isolates languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
@@ -2560,7 +2638,8 @@ are also listed together at the end of this document.
 </details>
 <details>
 <summary>Single languages</summary>
-## Single languages
+
+ ### Single languages languages in the *taggedPBC*:
 
 |ISO 639-3|Name|Verses in corpus|Macroarea|Branch|Subgroup|Links|
 |--|--|--|--|--|--|--|
