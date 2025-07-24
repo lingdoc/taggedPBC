@@ -1,4 +1,4 @@
-import json, os
+import json, os, glob
 import pandas as pd
 
 # this script gets the list of languages with corpora in the taggedPBC and creates a README
@@ -11,10 +11,10 @@ current version of the *taggedPBC* and is automatically generated based on the s
 via a script in the [recipes](../recipes/) folder.
 
 The current document organizes languages by language phylum/family and ISO 639-3 code. 
-Additional information includes the full name of the language and region, with links (that 
-have not been fully verified) to the ISO 639-3 site, Glottolog, and the Ethnologue. Isolates 
-are listed within a single group, and single languages that represent an individual family 
-are also listed together at the end of this document.
+Additional information includes the full name of the language and region, and links to 
+the individual corpus in the *taggedPBC*, the respective ISO 639-3 page, Glottolog, and 
+Ethnologue. Isolates are listed within a single group, and single languages that represent 
+an individual family are also listed together at the end of this document.
 
 """
 
@@ -23,6 +23,9 @@ df = pd.read_excel(stats) # read the file with language statistics
 
 df['index'] = df['index'].fillna('nan') # import language data
 dfdict = df.set_index("index").to_dict("index") # convert to dict
+
+datafold = "../corpora/conllu/" # the location of the tagged PBC
+fileslist = {x.split("/")[-1].split("-")[0]: x for x in glob.glob(datafold+"*.conllu")} # a list of the JSON files for each tagged language
 
 # load the lineage information that is present in Glottolog (as of 3 June 2025)
 linfile = "../scripts/checks/glottolog/lineages.json"
@@ -109,8 +112,9 @@ with open(readmefile, "w") as f:
 		f.write("|"+"|".join(newheadlist)+"|Links|\n") # here's the header of the table
 		f.write("|"+"|".join(splist)+"|--|\n")
 		for lang, vals in data.items():
+			corp = fileslist[lang]
 			# autogenerate links for each language
-			links = f"[ISOs](https://iso639-3.sil.org/code/{lang}), [Ethnologue](https://www.ethnologue.com/language/{lang}), [Glottolog](http://glottolog.org/glottolog?iso={lang})"
+			links = f"[corpus]({corp}), [ISOs](https://iso639-3.sil.org/code/{lang}), [Ethnologue](https://www.ethnologue.com/language/{lang}), [Glottolog](http://glottolog.org/glottolog?iso={lang})"
 			# write the language information
 			f.write("|"+lang+"|"+"|".join(vals)+"|"+links+"|\n")
 		f.write("\n") # end the section
