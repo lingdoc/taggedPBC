@@ -75,13 +75,15 @@ for i in keys:
 
 # get the group of isolates
 isolates = pd.concat([groups.get_group(name) for name in isogroups])
-interdict = isolates.set_index("ISO 639-3").to_dict("index")
+dfdict = isolates.drop('Family', axis=1).sort_values(by=['ISO 639-3']) # sort this df
+interdict = dfdict.set_index("ISO 639-3").to_dict("index")
 # add it to the family dictionary
 famdict['Isolates'] = {idx: list(row_dict.values()) for idx, row_dict in interdict.items()}
 
 # get the group of single languages
 single_lgs = pd.concat([groups.get_group(name) for name in singles])
-interdict = single_lgs.set_index("ISO 639-3").to_dict("index")
+dfdict = single_lgs.drop('Family', axis=1).sort_values(by=['ISO 639-3']) # sort this df
+interdict = dfdict.set_index("ISO 639-3").to_dict("index")
 # add them to the family dictionary
 famdict['Single languages'] = {idx: list(row_dict.values()) for idx, row_dict in interdict.items()}
 
