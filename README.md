@@ -1,6 +1,6 @@
 # taggedPBC
 
-**tldr**: POS-tagged and dependency-annotated verses, initially from the Parallel Bible Corpus (PBC; [Mayer & Cysouw 2014](#1)), with Python code for extracting various metrics and making cross-linguistic comparisons. To contribute to this dataset, please refer to [Contributing](#contributing-to-this-dataset) below.
+**tldr**: POS-tagged and dependency-annotated verses, initially from the Parallel Bible Corpus (PBC; [Mayer & Cysouw 2014](#1)), with Python code for extracting various metrics and making cross-linguistic comparisons. To contribute to this dataset, please refer to [Contributing](#contributing-to-this-dataset) below. Individual languages are grouped into families under [corpora/README.md](corpora/README.md).
 
 > This repository is shared under a CC BY-NC-SA 4.0 license, and can be used solely for research purposes. Copyright of the selected verses of each translation is retained by the original copyright holders.
 
@@ -35,11 +35,11 @@ Papers related to this dataset include the following:
 
 ### How to access data in the repository
 
-Individual corpora can be downloaded from the relevant subfolder. Additionally, there are scripts illustrating how to access data systematically (see the [Recipes README](recipes/README.md) for specifics). This includes accessing information by ISO code or groups of codes (such as language families via Glottolog).
+Individual corpora can be downloaded from the relevant subfolder (see the [corpora README](corpora/README.md) for direct links). Additionally, there are scripts illustrating how to access data systematically (see the [Recipes README](recipes/README.md) for specifics). This includes accessing information by ISO code or groups of codes (such as language families via Glottolog).
 
 ### Information regarding the tagged corpora
 
-Under the subfolder `corpora/conllu` the data contains annotations (POS, dependencies, morphological info) formatted following the [CoNLL-U Universal Dependencies conventions](https://universaldependencies.org/format.html). All corpora contain a beginning header with information on licensing and source, followed by specific verses with introductory comments and then the individual tagged words:
+Under the subfolder `corpora/conllu` the data contains annotations (POS, dependencies, morphological info) formatted following the [CoNLL-U Universal Dependencies conventions](https://universaldependencies.org/format.html). Links to additional information for each corpus can be found via the [corpora/README.md](corpora/README.md) file in the subdirectory. All corpora contain a beginning header with information on licensing and source, followed by specific verses with introductory comments and then the individual tagged words:
 
 - `# sent_id`: the PBC verse number
 - `# ref_id`: the book, chapter, verse reference
