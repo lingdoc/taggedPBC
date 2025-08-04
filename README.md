@@ -75,7 +75,7 @@ Contributions to this dataset are welcome, either in the form of new data, updat
 
 There is a broad scope for improving the annotations in individual corpora. As the initial dataset provides a baseline of automatically-generated annotations, each corpus could be improved in terms of identifying accurate tags or adding additional information. Manually tagging a portion of an individual corpus for parts of speech and/or dependency information could allow for better training of part of speech and dependency taggers for that particular language. Identifying correspondences between an individual language's romanization/script and IPA characters could allow for better comparison of sound structures between languages. Each of these improvements to annotation could be facilited by (semi-)automated approaches.
 
-For some ideas on how to train a better POS-tagger for a particular language, check out the [contributing readme](contributing_README.md).
+For some ideas on how to train a better POS-tagger for a particular language, check out the [contributing readme](contributing_readme.md).
 
 Additionally, there are various kinds of analyses that could be explored with a large dataset of this type. Some ideas are presented under the `recipes` folder. Additional scripts for processing the dataset would be welcomed, as illustrations of the kinds of information that can be extracted from large-scale parallel corpora of this kind.
 
