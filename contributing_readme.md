@@ -6,7 +6,7 @@ One way to improve the annotations is for specialists to manually annotate parts
 
 ### Guidelines for annotation
 
-To facilitate annotation, there are two subsets of verses that have been identified for broad coverage of POS tags. The first is a set of 21 verses, and the second is a set of an additional 100 verses. The first set of 21 verses are those that contain 12-14 of the POS tags present in the *taggedPBC* corpora, while the second set of 100 verses are those with between 6-11 of the POS tags. This means that annotating the first set of 21 verses gives a minimal set of verses with decent coverage for training a POS tagger for a given language. This can then assist in tagging the second set of 100 verses. With 121 verses, we have a decent beginning for tagging remaining verses in a given corpus, aided by automatic taggers.
+To facilitate annotation, there are two subsets of verses that have been identified for broad coverage of POS tags. The first is a set of 21 verses, and the second is a set of an additional 100 verses. The first set of 21 verses are those that contain 12-14 of the POS tags present in the *taggedPBC* corpora, while the second set of 100 verses are those with between 6-11 of the POS tags. This means that annotating the first set of 21 verses gives a minimal set of verses with decent coverage for training a POS tagger for a given language. This can then assist in tagging the second set of 100 verses. With 121 or so verses, we have a good beginning for tagging remaining verses in a given corpus, aided by automatic taggers.
 
 The following is the list of verses (following PBC convention) with 12-14 POS terms:
 
