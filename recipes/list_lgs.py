@@ -110,7 +110,7 @@ with open(readmefile, "w") as f:
 	for family, data in famdict.items():
 		f.write("<details>") # write a details block to hide initial view
 		f.write("\n")
-		f.write("<summary>"+family+"</summary>")
+		f.write("<summary>"+family+" ("+str(len(data))+")</summary>")
 		f.write("\n\n")
 		if any(x in family for x in temp):
 			f.write(" ### "+family+" in the *taggedPBC*:\n\n") # here's the heading for each family
