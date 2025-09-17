@@ -19,7 +19,7 @@ allowing the file to be fully searchable using standard text editing procedures,
 hiding extraneous information as needed. 
 
 <details>
-<summary>Afro-Asiatic (77)</summary>
+<summary>Afro-Asiatic (77) </summary>
 
  ### Afro-Asiatic languages in the *taggedPBC*:
 
@@ -105,7 +105,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Algic (11)</summary>
+<summary>Algic (11) </summary>
 
  ### Algic languages in the *taggedPBC*:
 
@@ -125,7 +125,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Angan (5)</summary>
+<summary>Angan (5) </summary>
 
  ### Angan languages in the *taggedPBC*:
 
@@ -139,7 +139,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Arawakan (25)</summary>
+<summary>Arawakan (25) </summary>
 
  ### Arawakan languages in the *taggedPBC*:
 
@@ -173,7 +173,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Arawan (3)</summary>
+<summary>Arawan (3) </summary>
 
  ### Arawan languages in the *taggedPBC*:
 
@@ -185,7 +185,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Athabaskan-Eyak-Tlingit (6)</summary>
+<summary>Athabaskan-Eyak-Tlingit (6) </summary>
 
  ### Athabaskan-Eyak-Tlingit languages in the *taggedPBC*:
 
@@ -200,7 +200,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Atlantic-Congo (400)</summary>
+<summary>Atlantic-Congo (400) </summary>
 
  ### Atlantic-Congo languages in the *taggedPBC*:
 
@@ -609,7 +609,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Austroasiatic (31)</summary>
+<summary>Austroasiatic (31) </summary>
 
  ### Austroasiatic languages in the *taggedPBC*:
 
@@ -649,7 +649,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Austronesian (327)</summary>
+<summary>Austronesian (327) </summary>
 
  ### Austronesian languages in the *taggedPBC*:
 
@@ -985,7 +985,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Aymaran (2)</summary>
+<summary>Aymaran (2) </summary>
 
  ### Aymaran languages in the *taggedPBC*:
 
@@ -996,7 +996,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Barbacoan (4)</summary>
+<summary>Barbacoan (4) </summary>
 
  ### Barbacoan languages in the *taggedPBC*:
 
@@ -1009,7 +1009,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Boran (2)</summary>
+<summary>Boran (2) </summary>
 
  ### Boran languages in the *taggedPBC*:
 
@@ -1020,7 +1020,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Border (2)</summary>
+<summary>Border (2) </summary>
 
  ### Border languages in the *taggedPBC*:
 
@@ -1031,7 +1031,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Bosavi (3)</summary>
+<summary>Bosavi (3) </summary>
 
  ### Bosavi languages in the *taggedPBC*:
 
@@ -1043,7 +1043,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Cariban (9)</summary>
+<summary>Cariban (9) </summary>
 
  ### Cariban languages in the *taggedPBC*:
 
@@ -1061,7 +1061,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Central Sudanic (20)</summary>
+<summary>Central Sudanic (20) </summary>
 
  ### Central Sudanic languages in the *taggedPBC*:
 
@@ -1090,7 +1090,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Chibchan (9)</summary>
+<summary>Chibchan (9) </summary>
 
  ### Chibchan languages in the *taggedPBC*:
 
@@ -1108,7 +1108,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Chicham (4)</summary>
+<summary>Chicham (4) </summary>
 
  ### Chicham languages in the *taggedPBC*:
 
@@ -1121,7 +1121,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Chocoan (6)</summary>
+<summary>Chocoan (6) </summary>
 
  ### Chocoan languages in the *taggedPBC*:
 
@@ -1136,7 +1136,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Dagan (4)</summary>
+<summary>Dagan (4) </summary>
 
  ### Dagan languages in the *taggedPBC*:
 
@@ -1149,7 +1149,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Dravidian (24)</summary>
+<summary>Dravidian (24) </summary>
 
  ### Dravidian languages in the *taggedPBC*:
 
@@ -1182,7 +1182,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>East Bird's Head (3)</summary>
+<summary>East Bird's Head (3) </summary>
 
  ### East Bird's Head languages in the *taggedPBC*:
 
@@ -1194,7 +1194,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>East Strickland (2)</summary>
+<summary>East Strickland (2) </summary>
 
  ### East Strickland languages in the *taggedPBC*:
 
@@ -1205,7 +1205,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Eastern Trans-Fly (3)</summary>
+<summary>Eastern Trans-Fly (3) </summary>
 
  ### Eastern Trans-Fly languages in the *taggedPBC*:
 
@@ -1217,7 +1217,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Eskimo-Aleut (7)</summary>
+<summary>Eskimo-Aleut (7) </summary>
 
  ### Eskimo-Aleut languages in the *taggedPBC*:
 
@@ -1233,7 +1233,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Guahiboan (3)</summary>
+<summary>Guahiboan (3) </summary>
 
  ### Guahiboan languages in the *taggedPBC*:
 
@@ -1245,7 +1245,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Guaicuruan (4)</summary>
+<summary>Guaicuruan (4) </summary>
 
  ### Guaicuruan languages in the *taggedPBC*:
 
@@ -1258,7 +1258,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Gunwinyguan (2)</summary>
+<summary>Gunwinyguan (2) </summary>
 
  ### Gunwinyguan languages in the *taggedPBC*:
 
@@ -1269,7 +1269,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Heibanic (4)</summary>
+<summary>Heibanic (4) </summary>
 
  ### Heibanic languages in the *taggedPBC*:
 
@@ -1282,7 +1282,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Hmong-Mien (3)</summary>
+<summary>Hmong-Mien (3) </summary>
 
  ### Hmong-Mien languages in the *taggedPBC*:
 
@@ -1294,7 +1294,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Huitotoan (2)</summary>
+<summary>Huitotoan (2) </summary>
 
  ### Huitotoan languages in the *taggedPBC*:
 
@@ -1305,7 +1305,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Ijoid (2)</summary>
+<summary>Ijoid (2) </summary>
 
  ### Ijoid languages in the *taggedPBC*:
 
@@ -1316,7 +1316,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Indo-European (162)</summary>
+<summary>Indo-European (162) </summary>
 
  ### Indo-European languages in the *taggedPBC*:
 
@@ -1487,7 +1487,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Iroquoian (3)</summary>
+<summary>Iroquoian (3) </summary>
 
  ### Iroquoian languages in the *taggedPBC*:
 
@@ -1499,7 +1499,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Kamula-Elevala (2)</summary>
+<summary>Kamula-Elevala (2) </summary>
 
  ### Kamula-Elevala languages in the *taggedPBC*:
 
@@ -1510,7 +1510,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Khoe-Kwadi (2)</summary>
+<summary>Khoe-Kwadi (2) </summary>
 
  ### Khoe-Kwadi languages in the *taggedPBC*:
 
@@ -1521,7 +1521,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Koiarian (5)</summary>
+<summary>Koiarian (5) </summary>
 
  ### Koiarian languages in the *taggedPBC*:
 
@@ -1535,7 +1535,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Kru (15)</summary>
+<summary>Kru (15) </summary>
 
  ### Kru languages in the *taggedPBC*:
 
@@ -1559,7 +1559,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Kunimaipan (3)</summary>
+<summary>Kunimaipan (3) </summary>
 
  ### Kunimaipan languages in the *taggedPBC*:
 
@@ -1571,7 +1571,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Lengua-Mascoy (3)</summary>
+<summary>Lengua-Mascoy (3) </summary>
 
  ### Lengua-Mascoy languages in the *taggedPBC*:
 
@@ -1583,7 +1583,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Mande (26)</summary>
+<summary>Mande (26) </summary>
 
  ### Mande languages in the *taggedPBC*:
 
@@ -1618,7 +1618,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Mataguayan (6)</summary>
+<summary>Mataguayan (6) </summary>
 
  ### Mataguayan languages in the *taggedPBC*:
 
@@ -1633,7 +1633,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Mayan (25)</summary>
+<summary>Mayan (25) </summary>
 
  ### Mayan languages in the *taggedPBC*:
 
@@ -1667,7 +1667,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Misumalpan (2)</summary>
+<summary>Misumalpan (2) </summary>
 
  ### Misumalpan languages in the *taggedPBC*:
 
@@ -1678,7 +1678,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Mixe-Zoque (10)</summary>
+<summary>Mixe-Zoque (10) </summary>
 
  ### Mixe-Zoque languages in the *taggedPBC*:
 
@@ -1697,7 +1697,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Mongolic-Khitan (3)</summary>
+<summary>Mongolic-Khitan (3) </summary>
 
  ### Mongolic-Khitan languages in the *taggedPBC*:
 
@@ -1709,7 +1709,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Nakh-Daghestanian (5)</summary>
+<summary>Nakh-Daghestanian (5) </summary>
 
  ### Nakh-Daghestanian languages in the *taggedPBC*:
 
@@ -1723,7 +1723,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Ndu (4)</summary>
+<summary>Ndu (4) </summary>
 
  ### Ndu languages in the *taggedPBC*:
 
@@ -1736,7 +1736,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Nilotic (29)</summary>
+<summary>Nilotic (29) </summary>
 
  ### Nilotic languages in the *taggedPBC*:
 
@@ -1774,7 +1774,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>North Halmahera (4)</summary>
+<summary>North Halmahera (4) </summary>
 
  ### North Halmahera languages in the *taggedPBC*:
 
@@ -1787,7 +1787,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Nuclear Torricelli (7)</summary>
+<summary>Nuclear Torricelli (7) </summary>
 
  ### Nuclear Torricelli languages in the *taggedPBC*:
 
@@ -1803,7 +1803,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Nuclear Trans New Guinea (115)</summary>
+<summary>Nuclear Trans New Guinea (115) </summary>
 
  ### Nuclear Trans New Guinea languages in the *taggedPBC*:
 
@@ -1927,7 +1927,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Nuclear-Macro-Je (7)</summary>
+<summary>Nuclear-Macro-Je (7) </summary>
 
  ### Nuclear-Macro-Je languages in the *taggedPBC*:
 
@@ -1943,7 +1943,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Otomanguean (86)</summary>
+<summary>Otomanguean (86) </summary>
 
  ### Otomanguean languages in the *taggedPBC*:
 
@@ -2038,7 +2038,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Pama-Nyungan (15)</summary>
+<summary>Pama-Nyungan (15) </summary>
 
  ### Pama-Nyungan languages in the *taggedPBC*:
 
@@ -2062,7 +2062,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Pano-Tacanan (11)</summary>
+<summary>Pano-Tacanan (11) </summary>
 
  ### Pano-Tacanan languages in the *taggedPBC*:
 
@@ -2082,7 +2082,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Quechuan (27)</summary>
+<summary>Quechuan (27) </summary>
 
  ### Quechuan languages in the *taggedPBC*:
 
@@ -2118,7 +2118,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Ramu (3)</summary>
+<summary>Ramu (3) </summary>
 
  ### Ramu languages in the *taggedPBC*:
 
@@ -2130,7 +2130,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Saliban (2)</summary>
+<summary>Saliban (2) </summary>
 
  ### Saliban languages in the *taggedPBC*:
 
@@ -2141,7 +2141,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Sepik (9)</summary>
+<summary>Sepik (9) </summary>
 
  ### Sepik languages in the *taggedPBC*:
 
@@ -2159,7 +2159,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Sino-Tibetan (122)</summary>
+<summary>Sino-Tibetan (122) </summary>
 
  ### Sino-Tibetan languages in the *taggedPBC*:
 
@@ -2290,7 +2290,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Songhay (4)</summary>
+<summary>Songhay (4) </summary>
 
  ### Songhay languages in the *taggedPBC*:
 
@@ -2303,7 +2303,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Surmic (4)</summary>
+<summary>Surmic (4) </summary>
 
  ### Surmic languages in the *taggedPBC*:
 
@@ -2316,7 +2316,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Ta-Ne-Omotic (10)</summary>
+<summary>Ta-Ne-Omotic (10) </summary>
 
  ### Ta-Ne-Omotic languages in the *taggedPBC*:
 
@@ -2335,7 +2335,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Tai-Kadai (8)</summary>
+<summary>Tai-Kadai (8) </summary>
 
  ### Tai-Kadai languages in the *taggedPBC*:
 
@@ -2352,7 +2352,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Tarascan (2)</summary>
+<summary>Tarascan (2) </summary>
 
  ### Tarascan languages in the *taggedPBC*:
 
@@ -2363,7 +2363,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Teberan (2)</summary>
+<summary>Teberan (2) </summary>
 
  ### Teberan languages in the *taggedPBC*:
 
@@ -2374,7 +2374,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Tor-Orya (2)</summary>
+<summary>Tor-Orya (2) </summary>
 
  ### Tor-Orya languages in the *taggedPBC*:
 
@@ -2385,7 +2385,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Totonacan (8)</summary>
+<summary>Totonacan (8) </summary>
 
  ### Totonacan languages in the *taggedPBC*:
 
@@ -2402,7 +2402,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Tucanoan (16)</summary>
+<summary>Tucanoan (16) </summary>
 
  ### Tucanoan languages in the *taggedPBC*:
 
@@ -2427,7 +2427,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Tupian (19)</summary>
+<summary>Tupian (19) </summary>
 
  ### Tupian languages in the *taggedPBC*:
 
@@ -2455,7 +2455,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Turkic (23)</summary>
+<summary>Turkic (23) </summary>
 
  ### Turkic languages in the *taggedPBC*:
 
@@ -2487,7 +2487,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Uralic (9)</summary>
+<summary>Uralic (9) </summary>
 
  ### Uralic languages in the *taggedPBC*:
 
@@ -2505,7 +2505,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Uto-Aztecan (27)</summary>
+<summary>Uto-Aztecan (27) </summary>
 
  ### Uto-Aztecan languages in the *taggedPBC*:
 
@@ -2541,7 +2541,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Yanomamic (4)</summary>
+<summary>Yanomamic (4) </summary>
 
  ### Yanomamic languages in the *taggedPBC*:
 
@@ -2554,7 +2554,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Yareban (2)</summary>
+<summary>Yareban (2) </summary>
 
  ### Yareban languages in the *taggedPBC*:
 
@@ -2565,7 +2565,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Zamucoan (2)</summary>
+<summary>Zamucoan (2) </summary>
 
  ### Zamucoan languages in the *taggedPBC*:
 
@@ -2576,7 +2576,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Isolates (57)</summary>
+<summary>Isolates (57) </summary>
 
  ### Isolates in the *taggedPBC*:
 
@@ -2642,7 +2642,7 @@ hiding extraneous information as needed.
 
 </details>
 <details>
-<summary>Single languages (21)</summary>
+<summary>Single languages (21) </summary>
 
  ### Single languages in the *taggedPBC*:
 
