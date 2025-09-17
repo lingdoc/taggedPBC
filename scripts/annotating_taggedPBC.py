@@ -27,7 +27,9 @@ else:
     df = pd.read_excel(outputfile)
 
 ## print out some basic stats from the dataset
+print("Number of languages in the data:", len(df))
 print("Number of language families in the data:", len(df["Family_line"].value_counts()))
+print("Number of isolates in the data:", len([k for k, v in df["Family_line"].value_counts().items() if v==1]))
 lessa = df.loc[df.Ns_count < 50]
 print("Languages with fewer than 50 arguments:", lessa['index'].to_list())
 lessp = df.loc[df.Vs_count < 50]
