@@ -4,13 +4,19 @@ This README file outlines the languages represented by CoNNL-U formatted corpora
 current version of the *taggedPBC* and is automatically generated based on the stats file 
 (["stats_All.xlsx"](../scripts/data/output/stats_All.xlsx)) found under the 
 [scripts/data/output](../scripts/data/output/) folder. This file can be re-generated 
-via a script in the [recipes](../recipes/) folder.
+via the `list_lgs.py` script in the [recipes](../recipes/) folder.
 
 The current document organizes languages by language phylum/family and ISO 639-3 code. 
 Additional information includes the full name of the language and region, and links to 
 the individual corpus in the *taggedPBC*, the respective ISO 639-3 page, Glottolog, and 
 Ethnologue. Isolates are listed within a single group, and single languages that represent 
 an individual family are also listed together at the end of this document.
+
+Language family relationships are based on Glottolog, though in some cases this does not 
+match with traditional groupings or Ethnologue classifications. As classifications are 
+updated, this document will similarly be updated. The document uses markdown formatting, 
+allowing the file to be fully searchable using standard text editing procedures, while 
+hiding extraneous information as needed. 
 
 <details>
 <summary>Afro-Asiatic</summary>
