@@ -8,7 +8,7 @@ via the `list_lgs.py` script in the [recipes](../recipes/) folder.
 
 If you are a speaker of one of these languages or a language specialist and are interested 
 in helping to develop the underlying corpus by annotating a selection of 20 verses, do 
-get in touch. You can read more about the process via the `[contributing_readme](../contributing_readme.md)` file.
+get in touch. You can read more about the process via the [contributing_readme](../contributing_readme.md) file.
 
 The current document organizes languages by language phylum/family and ISO 639-3 code. 
 Additional information includes the full name of the language and region, and links to 
