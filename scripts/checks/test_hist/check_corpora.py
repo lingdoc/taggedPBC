@@ -7,12 +7,16 @@ import pandas as pd
 # and Egyptian Arabic (arz) that have been romanized using the `uroman` converter. In this case each UDT
 # file contains the complete UDT corpus of POS-tagged sentences. The other files contain
 # corpora based on the Quran and the BOLT corpus.
-folder1 = "../../../ud-2.14/iso-tagged/roman/" # this is the folder of romanized UDT
-folder2 = "../../../test_arabic/data/roman/" # this is the folder of romanized Arabic texts
+folder1 = "../../../../../bible_proj/ud-2.14/iso-tagged/roman/" # this is the folder of romanized UDT
+folder2 = "../../../../../bible_proj/test_arabic/data/roman/" # this is the folder of romanized Arabic texts
+# to test whether we can predict a Verb-initial historical language, let's add in an old corpus of Irish
+# the Wurzburg Irish Glosses, downloaded from https://github.com/AdeDoyle/WurzburgSiteCode
+folder3 = "../../../../../bible_proj/test_irish/wurzburg/" # this is a folder containing the Wurzburg Irish glosses (tagged)
 
 isos = ['hbo', 'heb', 'cla', 'arz'] # get the Hebrew & Arabic isos (Classical Arabic has no iso code, so we give it one here that hasn't been assigned)
+isos = isos+['sga'] # add the Old Irish glosses (verb initial)
 fileslist = [] # access the folders and get the test files
-for folder in [folder1, folder2]:
+for folder in [folder1, folder2, folder3]:
 	fileslist += [x for x in glob.glob(folder+"*.txt") if x.split("/")[-1].split("_")[0] in isos]
 
 # check to make sure the stats file doesn't exist at the current location
@@ -30,6 +34,7 @@ if not os.path.isfile("corpora_stats.xlsx"):
 		vslist = ["VERB", "AUX"]
 		N1ratio = 0
 		totalsents = 0
+		print(fn)
 
 		# open the file and compute the stats
 		with open(fn) as readfile:

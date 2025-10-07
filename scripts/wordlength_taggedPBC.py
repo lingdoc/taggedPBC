@@ -55,7 +55,8 @@ for clf in classifiers.keys():
 
 # import stats on nouns/verbs from POS-tagged corpora of Ancient and Modern Hebrew
 # (via UD 2.14) and tagged corpora of Classical and Egyptian Arabic (via the Quran
-# and BOLT). See `checks/test_hist/check_corpora.py` for more detail.
+# and BOLT). Also import data from the Wurzburg Irish Glosses.
+# See `checks/test_hist/check_corpora.py` for more detail.
 udstats = "checks/test_hist/corpora_stats.xlsx"
 # get the data for prediction
 df = get_predict_data(udstats)

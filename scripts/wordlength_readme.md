@@ -89,6 +89,14 @@ Importantly, 3 additional features are added to the training data besides the av
 
 Training the model with these five features on the known word order data from the typological databases gives an accuracy of 66% on the test set, while training with the imputed word order gives an accuracy of 68%. In both cases, the trained classifier accurately classifies Ancient Hebrew as VS, Modern Hebrew as SV, Classical Arabic as VS, and Egyptian Arabic as SV, based on the data extracted from the respective corpora.
 
+As an additional check, I sourced data from another historical language, early Irish, as represented in the `Codex Paulinus Wirziburgensis`, containing Latin text of St. Paul's epistles from the middle of the eighth century. The dataset is sourced from one that has been [digitized by Adrian Doyle](https://wuerzburg.ie/about_Eng.html) and contains over 3,600 glosses with Irish content. As an Indo-European language, Irish is widely surmised to have changed its word order to verb-initial from an earlier state, so this check allows us to verify whether the same properties hold in relation to lengths of nouns and verbs.
+
+| Language  | ISO 639-3 | Data Source | Sentences | Unique nouns | Unique verbs |
+| --------- | ----- | -------- | ------ | ------ | -------- |
+| O. Irish  | sga   | Wurzburg | 3,647  | 743    | 435      |
+
+Indeed, the classifier accurately classifies Old Irish as VS, based on the data extracted from the Wurzburg Glosses.
+
 ### 3 Testing descent from a common ancestor <a name="testing-descent"></a>
 
 In an influential paper, [Dunn et al (2011)](#11) showed that descent from a common ancestor was a better predictor of a large number of grammatical patterns than other explanations. Although [Jäger & Wahle (2021)](#12) counter this finding with additional data, we can also assess this claim using the current dataset to see if descent is more explanatory of word order for a given language than the lengths of nouns and verbs. This investigation can proceed with several (motivated) simplifying assumptions regarding the family relationships.
