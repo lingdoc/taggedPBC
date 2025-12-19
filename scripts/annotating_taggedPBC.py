@@ -11,6 +11,32 @@ datafold = "../corpora/conllu/" # the location of the tagged PBC
 fileslist = [x for x in glob.glob(datafold+"*.conllu")] # a list of the JSON files for each tagged language
 outputfile = "data/output/stats_All.xlsx"
 
+accfile = f"../corpora/conllu-retagged/accuracies.json"
+
+# this dict keeps track of the accuracies of our taggers
+# and whether they were trained on xpos (lang specific pos) or upos (universal)
+with open(accfile) as f:
+    accdict = json.load(f)
+# these ISOs are not processed correctly (do not have enough N/V tags)
+keep_out = [
+            'hin', 'sah', 'bre', 'jpn', 'kir', 'sin', 'slk', 'xnr', 
+            'kor', 'tam', 'kaz', 'ell', 'ukr', 'lzh', 'amh', 'hyw', 
+            'cat', 'rus', 'bxr', 'uig', 'tha', 'bul', 'hye', 'cop'
+            ]
+# here we get the isos for languages with high accuracy on POS-training via UD if
+# 1) they are not in the exclusion list and 2) were trained on 200+ sentences
+acclist = [k for k in accdict.keys() if accdict[k]['acc'] >= 0.85 if k not in keep_out if accdict[k]['sents'] >= 200]
+# here we get the files for languages in the taggedPBC that aren't in the re-tagged list
+dfiles = [x for x in fileslist if x.split("/")[-1].split("-")[0] not in acclist]
+print(f"Files in the taggedPBC {len(dfiles)}")
+# here we get the re-tagged files from the UD set
+datafold2 = "../corpora/conllu-retagged/" # the location of tagged PBC files re-tagged via UD data
+dfiles2 = [x for x in glob.glob(datafold2+"*.conllu") if x.split("/")[-1].split("-")[0] in acclist]
+print(f"Files in the re-taggedPBC {len(dfiles2)}")
+# now we combine the two
+fileslist = dfiles2+dfiles
+print(f"Total: {len(fileslist)}")
+
 # if the spreadsheet doesn't exist, do the following (delete spreadsheet if you want to re-run the analyses)
 if not os.path.isfile(outputfile):
     # get the tagged data, run analyses, store it in this dataframe
@@ -27,9 +53,7 @@ else:
     df = pd.read_excel(outputfile)
 
 ## print out some basic stats from the dataset
-print("Number of languages in the data:", len(df))
 print("Number of language families in the data:", len(df["Family_line"].value_counts()))
-print("Number of isolates in the data:", len([k for k, v in df["Family_line"].value_counts().items() if v==1]))
 lessa = df.loc[df.Ns_count < 50]
 print("Languages with fewer than 50 arguments:", lessa['index'].to_list())
 lessp = df.loc[df.Vs_count < 50]
