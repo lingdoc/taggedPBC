@@ -9,7 +9,6 @@ from checks.hierlinreg import *
 
 datafold = "../corpora/conllu/" # the location of the tagged PBC
 fileslist = [x for x in glob.glob(datafold+"*.conllu")] # a list of the JSON files for each tagged language
-outputfile = "data/output/stats_All.xlsx"
 
 accfile = f"../corpora/conllu-retagged/accuracies.json"
 
@@ -26,6 +25,7 @@ keep_out = [
 # here we get the isos for languages with high accuracy on POS-training via UD if
 # 1) they are not in the exclusion list and 2) were trained on 200+ sentences
 acclist = [k for k in accdict.keys() if accdict[k]['acc'] >= 0.85 if k not in keep_out if accdict[k]['sents'] >= 200]
+print(len(acclist))
 # here we get the files for languages in the taggedPBC that aren't in the re-tagged list
 dfiles = [x for x in fileslist if x.split("/")[-1].split("-")[0] not in acclist]
 print(f"Files in the taggedPBC {len(dfiles)}")
@@ -37,6 +37,7 @@ print(f"Files in the re-taggedPBC {len(dfiles2)}")
 fileslist = dfiles2+dfiles
 print(f"Total: {len(fileslist)}")
 
+outputfile = "data/output/stats_All.xlsx" # this is the spreadsheet for the analyses
 # if the spreadsheet doesn't exist, do the following (delete spreadsheet if you want to re-run the analyses)
 if not os.path.isfile(outputfile):
     # get the tagged data, run analyses, store it in this dataframe

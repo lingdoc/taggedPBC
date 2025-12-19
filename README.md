@@ -10,6 +10,8 @@ If you use this data, please cite the following source or one (or all) of the pa
 
 ## Updates
 
+**UPDATE** *19 Dec 2025*: Added re-tagged data for 108 existing languages, based on trained NLTK POS taggers from UD corpora. The re-tagged dataset is used if the POS-tagger achieved > 0.85 accuracy on a random held-out test set for a given corpus and was trained on 200+ sentences, resulting in 38 language corpora being updated. Results remain largely unchanged from revised findings.
+
 **UPDATE** *01 July 2025*: Added parallel data from 345 additional languages, bringing the count of corpora to 1,944 (from 1,599). Results remain largely unchanged from initial findings reported in first drafts of papers linked here. This README and associated files in the repository have been updated with revised findings.
 
 **UPDATE** *29 June 2025*: Removed `json` formatted corpora and converted scripts to use only CoNLL-U formatted corpora. 
