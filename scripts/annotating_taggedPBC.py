@@ -10,28 +10,15 @@ from checks.hierlinreg import *
 datafold = "../corpora/conllu/" # the location of the tagged PBC
 fileslist = [x for x in glob.glob(datafold+"*.conllu")] # a list of the JSON files for each tagged language
 
-accfile = f"../corpora/conllu-retagged/accuracies.json"
+# here we get the re-tagged files from the UD set (tagged automatically with NLTK taggers that achieve > 0.85 acc)
+datafold2 = "../corpora/conllu-retagged/autoUD/" # the location of tagged PBC files re-tagged via UD data
+dfiles2 = [x for x in glob.glob(datafold2+"*.conllu")]
+reisos = [x.split("/")[-1].split("-")[0] for x in dfiles2]
 
-# this dict keeps track of the accuracies of our taggers
-# and whether they were trained on xpos (lang specific pos) or upos (universal)
-with open(accfile) as f:
-    accdict = json.load(f)
-# these ISOs are not processed correctly (do not have enough N/V tags)
-keep_out = [
-            'hin', 'sah', 'bre', 'jpn', 'kir', 'sin', 'slk', 'xnr', 
-            'kor', 'tam', 'kaz', 'ell', 'ukr', 'lzh', 'amh', 'hyw', 
-            'cat', 'rus', 'bxr', 'uig', 'tha', 'bul', 'hye', 'cop'
-            ]
-# here we get the isos for languages with high accuracy on POS-training via UD if
-# 1) they are not in the exclusion list and 2) were trained on 200+ sentences
-acclist = [k for k in accdict.keys() if accdict[k]['acc'] >= 0.85 if k not in keep_out if accdict[k]['sents'] >= 200]
-print(len(acclist))
 # here we get the files for languages in the taggedPBC that aren't in the re-tagged list
-dfiles = [x for x in fileslist if x.split("/")[-1].split("-")[0] not in acclist]
+dfiles = [x for x in fileslist if x.split("/")[-1].split("-")[0] not in reisos]
 print(f"Files in the taggedPBC {len(dfiles)}")
-# here we get the re-tagged files from the UD set
-datafold2 = "../corpora/conllu-retagged/" # the location of tagged PBC files re-tagged via UD data
-dfiles2 = [x for x in glob.glob(datafold2+"*.conllu") if x.split("/")[-1].split("-")[0] in acclist]
+
 print(f"Files in the re-taggedPBC {len(dfiles2)}")
 # now we combine the two
 fileslist = dfiles2+dfiles
