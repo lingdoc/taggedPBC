@@ -1,22 +1,22 @@
-                      Contrast   Word lengths         A              B Paired Parametric      T      dof alternative  p-unc    BF10  hedges
-                  Word lengths              - Arguments Arguments freq   True       True 96.175 1941.000   two-sided  0.000     inf   0.941
-               Noun_Verb_order              -        SV             VS  False       True -2.452  481.748   two-sided  0.015   1.358  -0.136
-               Noun_Verb_order              -        SV           free  False       True -3.591   65.255   two-sided  0.001  63.047  -0.563
-               Noun_Verb_order              -        VS           free  False       True -2.667   74.044   two-sided  0.009   4.166  -0.476
-Word lengths * Noun_Verb_order      Arguments        SV             VS  False       True -3.094  480.340   two-sided  0.002   7.786  -0.172
-Word lengths * Noun_Verb_order      Arguments        SV           free  False       True -3.755   65.256   two-sided  0.000 111.598  -0.588
-Word lengths * Noun_Verb_order      Arguments        VS           free  False       True -2.609   74.138   two-sided  0.011   3.619  -0.465
-Word lengths * Noun_Verb_order Arguments freq        SV             VS  False       True -1.639  476.995   two-sided  0.102   0.264  -0.092
-Word lengths * Noun_Verb_order Arguments freq        SV           free  False       True -3.292   65.340   two-sided  0.002   23.76  -0.510
-Word lengths * Noun_Verb_order Arguments freq        VS           free  False       True -2.629   74.684   two-sided  0.010   3.801  -0.462
+                      Contrast   Word lengths         A              B Paired Parametric      T      dof alternative  p-unc   BF10  hedges
+                  Word lengths              - Arguments Arguments freq   True       True 95.404 1941.000   two-sided  0.000    inf   0.942
+               Noun_Verb_order              -        SV             VS  False       True -2.059  546.376   two-sided  0.040  0.548  -0.112
+               Noun_Verb_order              -        SV           free  False       True -3.575   65.327   two-sided  0.001 59.646  -0.560
+               Noun_Verb_order              -        VS           free  False       True -2.802   73.369   two-sided  0.006   5.86  -0.496
+Word lengths * Noun_Verb_order      Arguments        SV             VS  False       True -2.463  541.291   two-sided  0.014  1.348  -0.135
+Word lengths * Noun_Verb_order      Arguments        SV           free  False       True -3.722   65.333   two-sided  0.000 99.095  -0.582
+Word lengths * Noun_Verb_order      Arguments        VS           free  False       True -2.802   73.655   two-sided  0.006  5.868  -0.492
+Word lengths * Noun_Verb_order Arguments freq        SV             VS  False       True -1.511  545.391   two-sided  0.131  0.209  -0.082
+Word lengths * Noun_Verb_order Arguments freq        SV           free  False       True -3.295   65.416   two-sided  0.002 23.939  -0.510
+Word lengths * Noun_Verb_order Arguments freq        VS           free  False       True -2.699   73.730   two-sided  0.009  4.499  -0.473
 
 VS Languages mean Noun vs Verb lengths
-      T  dof alternative  p-val          CI95%  cohen-d      BF10 power
--42.145  300   two-sided    0.0 [-1.26, -1.15]    1.194 1.41e+124   NaN
+      T  dof alternative  p-val          CI95%  cohen-d       BF10  power
+-42.679  330   two-sided    0.0 [-1.24, -1.13]    1.146 2.936e+132    1.0
 
 SV Languages mean Noun vs Verb lengths
       T  dof alternative  p-val          CI95%  cohen-d BF10 power
--85.097 1577   two-sided    0.0 [-1.13, -1.08]    0.915  inf   NaN
+-83.736 1547   two-sided    0.0 [-1.14, -1.09]    0.919  inf   NaN
 
 Free Languages mean Noun vs Verb lengths
       T  dof alternative  p-val         CI95%  cohen-d      BF10  power
