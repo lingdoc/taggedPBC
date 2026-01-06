@@ -1,0 +1,840 @@
+## The following text has been annotated for parts of speech by students at NTU Singapore as part of a class project in AY 2025.
+## Verses are extracted from the taggedPBC. Annotations have been developed with a combination of manual and automated approaches, with reference to existing literature and (where possible) native speakers.
+## ISO 639-3: jvn, Language: Caribbean Javanese, Number of verses: 21
+## References: Robson, S., & Wibisono, S. (2013). Javanese English Dictionary. Tuttle Publishing.
+
+# sent_id = 40006024
+# ref_id = Matthew 6:24
+# eng_text = " No one can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You can't serve both God and Mammon .
+# jvn_text = Tembungé Gusti Yésus : " Ora ènèng wong sing bisa ngrangkep ngladèni gusti loro . Awit wongé bakal sengit karo sing siji lan nrésnani liyané , apa ngelem sing siji lan nyepèlèkké sing liyané . Semono uga kowé , kowé ora bisa ngladèni Gusti Allah lan uga ngladèni duwit . "
+1	Tembungé	tembungé	VERB	_	_	_	_	_	gloss=what someone says
+2	Gusti	gusti	NOUN	_	_	_	_	_   gloss=lord,master
+3	Yésus	yésus	PROPN	_	_	_	_	_	gloss=Jesus
+4	:	:	PUNCT	_	_	_	_	_
+5	"	"	PUNCT	_	_	12	punct	_	PunctSide=Ini|PunctType=Quot
+6	Ora	ora	PART	_	_	_	_	_	gloss=not, no (negation)
+7	ènèng	ènèng	VERBPH	_	_	_	pobj	_	gloss=there is/are
+8	wong	wong	NOUN	_	_	_	_	_	gloss=man
+9	sing	sing	DET	_	_	_	_	_	gloss=who
+10	bisa	bisa	AUX	_	_	_	_	_	gloss=can
+11	ngrangkep	ngrangkep	ADVPH	_	_	_	conj	_	gloss=to double as, to double up
+12	ngladèni	ngladèni	VERB	_	_	0	root	_	gloss=to serve, to be of service to
+13	gusti	gusti	NOUN	_	_	0	root	_	gloss=lord,master
+14	loro	loro	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+15	.	.	PUNCT	_	_	12	punct	_	PunctType=Peri
+16	Awit	awit	ADP	_	_	19	prep	_	gloss=For
+17	wongé	wongé	NOUN	_	_	_	_	_	gloss=man
+18	bakal	bakal	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+19	sengit	sengit	VERB	_	_	_	ccomp	_	gloss=hate|VerbForm=Inf
+20	karo	karo	ADP	_	_	_	_	_	gloss=with
+21	sing	sing	PRON	_	_	_	_	_	gloss=who
+22	siji	siji	NUM	_	_	_	_	_	gloss=one
+23	lan	lan	CCONJ	_	_	45	cc	_	gloss=and|ConjType=Cmp
+24	nrésnani	nrésnani	VERB	_	_	_	acomp	_	gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+25	liyané	liyané	NOUN	_	_	_	_	_	gloss=another
+26	,	,	PUNCT	_	_	_	_	_
+27	apa	apa	ADV	_	_	_	_	_	gloss=What
+28	ngelem	ngelem	VERB	_	_	_	_	_	gloss=hold
+29	sing	sing	PRON	_	_	_	_	_	gloss=who
+30	siji	siji	NUM	_	_	_	_	_	gloss=one
+31	lan	lan	CCONJ	_	_	45	cc	_	gloss=and|ConjType=Cmp
+32	nyepèlèkké	nyepèlèkké	VERB	_	_	_	_	_	gloss=despise
+33	sing	sing	PRON	_	_	_	_	_	gloss=who
+34	liyané	liyané	NOUN	_	_	_	_	_	gloss=another
+35	.	.	PUNCT	_	_	43	punct	_	PunctType=Peri
+36	Semono	semono	DET	_	_	_	_	_	gloss= that much/many, to that extent
+37	uga	uga	ADV	_	_	_	_	_	gloss=also
+38	kowé	kowé	PRON	_	_	_	nsubj	_	gloss=you|Case=Nom|Person=2|PronType=Prs
+39	,	,	PUNCT	_	_	_	_	_
+40	kowé	kowé	PRON	_	_	_	nsubj	_	gloss=you|Case=Nom|Person=2|PronType=Prs
+41	ora	ora	PART	_	_	_	_	_	gloss=not, no (negation)
+42	bisa	bisa	AUX	_	_	_	_	_	gloss=can
+43	ngladèni	ngladèni	VERB	_	_	0	root	_	gloss=serve|VerbForm=Inf
+44	Gusti	gusti	NOUN	_	_	_	_	_
+45	Allah	allah	PROPN	_	_	43	dobj	_	gloss=God|Number=Sing
+46	lan	lan	CCONJ	_	_	45	cc	_	gloss=and|ConjType=Cmp
+47	uga	uga	ADV	_	_	_	_	_	gloss=also
+48	ngladèni	ngladèni	VERB	_	_	0	root	_	gloss=serve|VerbForm=Inf
+49	duwit	duwit	NOUN	_	_	_	_	_	gloss=money
+50	.	.	PUNCT	_	_	48	punct	_	PunctType=Peri
+51	"	"	PUNCT	_	_	_	_	_
+
+# sent_id = 40018012
+# ref_id = Matthew 18:12
+# eng_text = " What do you think ? If a man has one hundred sheep , and one of them goes astray , doesn't he leave the ninety-nine , go to the mountains , and seek that which has gone astray ?
+# jvn_text = Gusti Yésus terus takon : " Kepriyé pinemumu ? Semunggoné ènèng wong nduwé wedus satus terus ènèng siji sing ilang . Wongé terus ngapa ? Apa wongé ora terus ninggal wedusé sing sangang puluh sanga nang pangonan lan budal nggolèki wedus siji sing ilang mau ?
+1	Gusti	gusti	NOUN	_	_	_	_	_ gloss=lord, master
+2	Yésus	yésus	PROPN	_	_	_	_	_	gloss=Jesus
+3	terus	terus	SCONJ	_	_	_	_	_	gloss=Then
+4	takon	takon	VERB	_	_	_	_	_	gloss=asked
+5	:	:	PUNCT	_	_	_	_	_
+6	"	"	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+7	Kepriyé	kepriyé	ADV	_	_	_	_	_	gloss=how?/ what else?
+8	pinemumu	pinemumu	VERB	_	_	_	_	_	gloss=you think?
+9	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+10	Semunggoné	semunggoné	unk	_	_	_	_	_	gloss=unk
+11	ènèng	ènèng	VERBPH	_	_	_	pobj	_	gloss=there is/are
+12	wong	wong	NOUN	_	_	_	nsubj	_	gloss=man|Number=Sing
+13	nduwé	nduwé	VERB	_	_	_	_	_	gloss=owner
+14	wedus	wedus	NOUN	_	_	_	dobj	_	gloss=sheep|Number=Plur
+15	satus	satus	NUM	_	_	14	nummod	_	gloss=hundred|NumType=Card
+16	terus	terus	SCONJ	_	_	_	_	_	gloss=Then
+17	ènèng	ènèng	VERBPH	_	_	_	pobj	_	gloss=there is/are
+18	siji	siji	NUM	_	_	_	_	_	gloss=one
+19	sing	sing	PRON	_	_	_	_	_	gloss=who
+20	ilang	ilang	VERB	_	_	_	_	_	gloss=loses
+21	.	.	PUNCT	_	_	_	_	_
+22	Wongé	wongé	NOUN	_	_	_	_	_	gloss=person
+23	terus	terus	SCONJ	_	_	_	_	_	gloss=Then
+24	ngapa	ngapa	ADV	_	_	_	_	_	gloss=to do what
+25	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+26	Apa	apa	ADV	_	_	_	_	_	gloss=what
+27	wongé	wongé	NOUN	_	_	_	_	_	gloss=person
+28	ora	ora		PART	_	_	_	_	gloss=not, no (negation)
+29	terus	terus	SCONJ	_	_	_	_	_	gloss=Then
+30	ninggal	ninggal	VERB	_	_	_	_	_	gloss=leave
+31	wedusé	wedusé	NOUN	_	_	_	dobj	_	gloss=sheep|Number=Plur
+32	sing	sing	PRON	_	_	_	_	_	gloss=who
+33	sangang	sangang	NUM	_	_	_	_	_	K gloss=nine (ninety)
+34	puluh	puluh	NUM	_	_	_	_	_	I gloss=hundred
+35	sanga	sanga	NUM	_	_	_	_	_	V gloss=nine
+36	nang	nang	ADP	_	_	_	prep	_	gloss=on
+37	pangonan	pangonan	NOUN	_	_	_	_	_	gloss=ninety-nine
+38	lan	lan	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+39	budal	budal	VERB	_	_	_	_	_	gloss=go
+40	nggolèki	nggolèki	VERB	_	_	_	advcl	_	gloss=search|VerbForm=Inf
+41	wedus	wedus	NOUN	_	_	_	dobj	_	gloss=sheep|Number=Plur
+42	siji	siji	NUM	_	_	_	_	_	gloss=one
+43	sing	sing	PRON	_	_	_	_	_	gloss=who
+44	ilang	ilang	VERB	_	_	_	_	_	gloss=loses
+45	mau	mau		ADVPH	_	_	_	_	gloss=just now, earlier
+46	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 40020021
+# ref_id = Matthew 20:21
+# eng_text = He said to her , " What do you want ? " She said to him , " Command that these , my two sons , may sit , one on your right hand , and one on your left hand , in your kingdom . "
+# jvn_text = Gusti Yésus terus takon : " Apa sing mbok karepké ? " Bojoné Sébédéus terus ngomong : " Gusti , mbok janji ta , nèk Gusti mbésuk dadi ratu , anakku kabèh loro kelilan njagong nang sebelahé Gusti , sing siji tengen lan liyané kiwa ? "
+1	Gusti	gusti	NOUN	_	_	_	_	gloss=lord, master
+2	Yésus	yésus	PROPN	_	_	_	_	_	gloss=Jesus
+3	terus	terus	SCONJ	_	_	_	_	_	gloss=Then
+4	takon	takon	VERB	_	_	0	root	_	gloss=asked|Tense=Past|VerbForm=Fin
+5	:	:	PUNCT	_	_	_	_	_
+6	"	"	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+7	Apa	apa	ADV	_	_	_	_	_	gloss=what
+8	sing	sing	PRON	_	_	_	_	_	gloss=who
+9	mbok	mbok	ADV	_	_	_	_	_	gloss=please
+10	karepké	karepké	VERB	_	_	_	_	_	gloss=you wish, you intend
+11	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+12	"	"	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+13	Bojoné	bojoné	NOUN	_	_	_	_	_	gloss=widow
+14	Sébédéus	sébédéus	NOUN	_	_	_	nsubj	_	gloss=sons|Number=Plur
+15	terus	terus	SCONJ	_	_	_	_	_	gloss=Then
+16	ngomong	ngomong	VERB	_	_	_	_	_	gloss=said
+17	:	:	PUNCT	_	_	_	_	_
+18	"	"	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+19	Gusti	gusti	NOUN	_	_	_	_	_
+20	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+21	mbok	mbok	ADV	_	_	_	_	_	gloss=please
+22	janji	janji	VERB	_	_	_	_	_	gloss=promise
+23	ta	ta	PART	_	_	_	_	_	KIVgloss=wages
+24	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+25	nèk	nèk		SCONJ	_	_	_	_	gloss=if, when, that
+26	Gusti	gusti	NOUN	_	_	_	_	_ gloss= lord, master
+27	mbésuk	mbésuk	ADP	_	_	_	_	_	gloss=in the future
+28	dadi	dadi	VERB	_	_	_	_	_	gloss=to be, become
+29	ratu	ratu	NOUN	_	_	_	_	_	gloss=king
+30	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+31	anakku	anakku	NOUN	_	_	_	_	_	gloss=my son
+32	kabèh	kabèh	DET	_	_	_	_	_	gloss=all
+33	loro	loro	NUM	_	_	14	nummod	_	gloss=two|NumType=Card
+34	kelilan	kelilan	VERB	_	_	_	_	_	gloss=to be allowed
+35	njagong	njagong	VERB	_	_	_	_	_	gloss=to attend a ceremony
+36	nang	nang	ADP	_	_	_	prep	_	gloss=on
+37	sebelahé	sebelahé	NOUN	_	_	_	nsubj	_	gloss=request|Number=Sing
+38	Gusti	gusti	NOUN	_	_	_	_	_ gloss=lord, master
+39	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+40	sing	sing	PRON	_	_	_	_	_	gloss=who
+41	siji	siji	NUM	_	_	_	_	_	gloss=one
+42	tengen	tengen	NOUN	_	_	36	pobj	_	gloss=right|Number=Sing
+43	lan	lan	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+44	liyané	liyané	NOUN	_	_	_	_	_	gloss=another
+45	kiwa	kiwa	NOUN	_	_	_	pobj	_	gloss=left|Number=Sing
+46	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+47	"	"	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 40026002
+# ref_id = Matthew 26:2
+# eng_text = " You know that after two days the Passover is coming , and the Son of Man will be delivered up to be crucified . "
+# jvn_text = " Kowé wis pada ngerti nèk riyaya Paskah wis kurang rong dina menèh lan Anaké Manungsa bakal dityekel lan dipentèng . "
+1	"	"	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+2	Kowé	kowé	PRON	_	_	_	_	_	gloss=You
+3	wis	wis		VERB	_	_	_	_	gloss=already finished
+4	pada	pada	VERB	_	_	_	_	_	gloss=were
+5	ngerti	ngerti	VERB	_	_	_	advcl	_	gloss=know|Tense=Pres|VerbForm=Fin
+6	nèk	nèk	SCONJ	_	_	_	_	_	gloss=if, when, that
+7	riyaya	riyaya	NOUN	_	_	_	_	_	gloss=festival
+8	Paskah	paskah	PROPN	_	_	_	nsubj	_	gloss=Passover|Number=Sing
+9	wis	wis	VERB	_	_	_	_	_	gloss=already finished
+10	kurang	kurang	ADJ	_	_	_	_	_	gloss=not enough, lacking
+11	rong	rong	NOUN	_	_	_	_	_	gloss=hole, hollow
+12	dina	dina	NOUN	_	_	_	pobj	_	gloss=days|Number=Plur
+13	menèh	menèh	ADV	_	_	_	_	_	gloss=again
+14	lan	lan	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+15	Anaké	anaké	PROPN	_	_	_	nsubjpass	_	gloss=Son|Number=Sing
+16	Manungsa	manungsa	PROPN	_	_	_	pobj	_	gloss=Man|Number=Sing
+17	bakal	bakal	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+18	dityekel	dityekel	unk	_	_	_	_	_	gloss=unk
+19	lan	lan	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+20	dipentèng	dipentèng	VERB	_	_	_	advcl	_	gloss=crucified|Aspect=Perf|Tense=Past|VerbForm=Part
+21	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+22	"	"	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 40026061
+# ref_id = Matthew 26:61
+# eng_text = and said , " This man said , ' I am able to destroy the temple of God , and to build it in three days . ' "
+# jvn_text = Terus ènèng wong loro maju ngomong : " Wong kuwi tau ngomong : " Aku bisa mbubrah Gréja Gedé lan bisa ngedekké menèh ing sakjeroné telung dina . " "
+1	Terus	terus	SCONJ	_	_	_	_	_	gloss=then
+2	ènèng	ènèng	VERBPH	_	_	_	_	_	gloss=there is/are
+3	wong	wong	NOUN	_	_	6	nsubj	_	gloss=man|Number=Sing
+4	loro	loro	NUM	_	_	_	_	_	gloss=two
+5	maju	maju	VERB	_	_	_	_	_	gloss=to go forward, advance
+6	ngomong	ngomong	VERB	_	_	_	ccomp	_	gloss=said|Tense=Past|VerbForm=Fin
+7	:	:	PUNCT	_	_	_	_	_
+8	"	"	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+9	Wong	wong	NOUN	_	_	_	_	_	gloss=man
+10	kuwi	kuwi	SCONJ	_	_	_	dobj	_	gloss=that/the
+11	tau	tau	VERB	_	_	_	_	_	gloss=know
+12	ngomong	ngomong	VERB	_	_	_	ccomp	_	gloss=said|Tense=Past|VerbForm=Fin
+13	:	:	PUNCT	_	_	_	_	_
+14	"	"	PUNCT	_	_	12	punct	_	PunctSide=Ini|PunctType=Quot
+15	Aku	aku	PRON	_	_	_	_	_	gloss=I
+16	bisa	bisa	AUX	_	_	_	_	_	gloss=can
+17	mbubrah	mbubrah	VERB	_	_	_	_	_ gloss=to damage, wreck, disrupt
+18	Gréja	gréja	PROPN	_	_	_	dobj	_	gloss=Temple|Number=Sing
+19	Gedé	gedé	ADJ	_	_	_	_	_	gloss=big, large
+20	lan	lan	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+21	bisa	bisa	AUX	_	_	_	_	_	gloss=can
+22	ngedekké	ngedekké	VERB	_	_	_	_	_	gloss=builds
+23	menèh	menèh	ADV	_	_	_	_	_	gloss=again
+24	ing	ing	ADP	_	_	_	_	_	gloss=at, in, on
+25	sakjeroné	sakjeroné	kivunk	_	_	_	_	_	gloss=troubles
+26	telung	telung	NUM	_	_	27	nummod	_	gloss=three|NumType=Card
+27	dina	dina	NOUN	_	_	_	pobj	_	gloss=days|Number=Plur
+28	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+29	"	"	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+30	"	"	PUNCT	_	_	0	root	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 40028016
+# ref_id = Matthew 28:16
+# eng_text = But the eleven disciples went into Galilee , to the mountain where Jesus had sent them .
+# jvn_text = Murid-muridé Gusti Yésus sewelas pada budal nang Galiléa , nang gunung sing wis diomong karo Gusti Yésus .
+1	Murid-muridé	murid-muridé	NOUN	_	_	_	_	_	gloss=disciples
+2	Gusti	gusti	NOUN	_	_	_	_	_gloss= lord, master
+3	Yésus	yésus	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+4	sewelas	sewelas	NUM	_	_	_	_	_   gloss= eleven
+5	pada	pada	VERB	_	_	_	_	_	gloss=were
+6	budal	budal	VERB	_	_	_	_	_	gloss=go (edited)
+7	nang	nang	ADP	_	_	_	_	_	gloss=on
+8	Galiléa	galiléa	PROPN	_	_	_	pobj	_	gloss=Galilee|Number=Sing
+9	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+10	nang	nang	ADP	_	_	_	_	_	gloss=on
+11	gunung	gunung	NOUN	_	_	_	pobj	_	gloss=mountain|Number=Sing
+12	sing	sing	PRON	_	_	_	_	_	gloss=who
+13	wis	wis	ADV	_	_	_	_	_	gloss=already
+14	diomong	diomong	VERB	_	_	_	_	_	gloss=said
+15	karo	karo	CCONJ	_	_	_	_	_	gloss=and, with
+16	Gusti	gusti	NOUN	_	_	_	_	_ gloss= lord, master
+17	Yésus	yésus	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+18	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41002023
+# ref_id = Mark 2:23
+# eng_text = It happened , that he was going on the Sabbath day through the grain fields , and his disciples began , as they went , to pluck the ears of grain .
+# jvn_text = Ing sakwijiné dina sabat Gusti Yésus mlaku turut kebon gandum karo murid-muridé . Sak barengé mlaku murid-muridé pada ngepèki wohé gandum dipangan .
+1	Ing	ing	ADP	_	_	_	_	_	gloss=at, in, on (Edited)
+2	sakwijiné	sakwijiné	unk	_	_	_	_	_	gloss=unk
+3	dina	dina	NOUN	_	_	_	_	_	gloss=day
+4	sabat	sabat	PROPN	_	_	_	compound	_	gloss=Sabbath|Number=Sing
+5	Gusti	gusti	NOUN	_	_	_	_	_ gloss= lord, master
+6	Yésus	yésus	PROPN	_	_	7	nsubj	_	gloss=Jesus|Number=Sing
+7	mlaku	mlaku	VERB	_	_	_	advcl	_	gloss=walking|Aspect=Prog|Tense=Pres|VerbForm=Part
+8	turut	turut	VERB	_	_	_	_	_	gloss=to obey (edited)
+9	kebon	kebon	NOUN	_	_	_	_	_	gloss=garden, field
+10	gandum	gandum	NOUN	_	_	_	_	_	gloss=wheat
+11	karo	karo	CCONJ	_	_	_	_	_	gloss=and, with
+12	murid-muridé	murid-muridé	NOUN	_	_	_	nsubj	_	gloss=disciples|Number=Plur
+13	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+14	Sak	sak	unk	_	_	_	_	_	gloss=unk
+15	barengé	barengé	SCONJ	_	_	_	_	_	gloss=while
+16	mlaku	mlaku	VERB	_	_	_	advcl	_	gloss=walking|Aspect=Prog|Tense=Pres|VerbForm=Part
+17	murid-muridé	murid-muridé	NOUN	_	_	_	nsubj	_	gloss=disciples|Number=Plur
+18	pada	pada	AUX	_	_	_	_	_	gloss=were
+19	ngepèki	ngepèki	VERB	_	_	_	_	_ gloss=pluck
+20	wohé	wohé	NOUN	_	_	_	_	_	gloss=fruit
+21	gandum	gandum	NOUN	_	_	_	_	_	gloss=wheat
+22	dipangan	dipangan	VERB	_	_	_	_	_	gloss=to be eaten
+23	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41012032
+# ref_id = Mark 12:32
+# eng_text = The scribe said to him , " Truly , teacher , you have said well that he is one , and there is none other but he ,
+# jvn_text = Guru Kitab mau semaur : " Kowé bener , Guru . Pantyèn Gusti Allah mung siji , ora ènèng liyané .
+1	Guru	guru	NOUN	_	_	_	npadvmod	_	gloss=Teacher|Number=Sing
+2	Kitab	kitab	ADJ	_	_	_	amod	_	gloss=religious|Degree=Pos
+3	mau	mau	ADVPH	_	_	_	_	_	gloss=just now, earlier
+4	semaur	semaur	VERB	_	_	0	root	_	gloss=replied|Tense=Past|VerbForm=Fin
+5	:	:	PUNCT	_	_	_	_	_
+6	"	"	PUNCT	_	_	4	punct	_	PunctSide=Ini|PunctType=Quot
+7	Kowé	kowé	PRON	_	_	_	nsubj	_	gloss=You|Case=Nom|Person=2|PronType=Prs
+8	bener	bener	ADJ	_	_	_	_	_	gloss=righteousness
+9	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+10	Guru	guru	NOUN	_	_	_	npadvmod	_	gloss=Teacher|Number=Sing
+11	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+12	Pantyèn	pantyèn	VERB	_	_	_	_	_	gloss=said
+13	Gusti	gusti	NOUN	_	_	_	_	_
+14	Allah	allah	PROPN	_	_	_	attr	_	gloss=God|Number=Sing
+15	mung	mung	NOUN	_	_	4	nsubj	_	gloss=teacher|Number=Sing
+16	siji	siji	NOUN	_	_	_	_	_	gloss=one
+17	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+18	ora	ora	PART	_	_	_	_	_	gloss=not, no (negation)
+19	ènèng	ènèng	VERBPH	_	_	14	nummod	_	gloss=there is/are
+20	liyané	liyané	NOUN	_	_	_	_	_	gloss=another
+21	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41014037
+# ref_id = Mark 14:37
+# eng_text = He came and found them sleeping , and said to Peter , " Simon , are you sleeping ? Couldn't you watch one hour ?
+# jvn_text = Gusti Yésus terus balik menèh lan nemu muridé sing telu mau ijik turu . Dèkné terus ngomong marang rasul Pétrus : " Simon , lah kowé kok turu . Mosok ora bisa melèk sak jam ?
+1	Gusti	gusti	NOUN	_	_	_	_	_
+2	Yésus	yésus	PROPN	_	_	_	_	_	gloss=Jesus
+3	terus	terus	ADV	_	_	4	advmod	_	gloss=Then|PronType=Dem
+4	balik	balik	VERB	_	_	0	root	_	gloss=returned|Tense=Past|VerbForm=Fin
+5	menèh	menèh	ADV	_	_	_	_	_	gloss=again
+6	lan	lan	CCONJ	_	_	4	cc	_	gloss=and|ConjType=Cmp
+7	nemu	nemu	VERB	_	_	_	_	_	gloss=meet
+8	muridé	muridé	NOUN	_	_	_	_	_	gloss=disciple
+9	sing	sing	PRON	_	_	_	_	_	gloss=who
+10	telu	telu	NUM	_	_	_	_	_	gloss=three
+11	mau	mau	ADVPH	_	_	_	_	_	gloss=just now, earlier
+12	ijik	ijik	ADV	_	_	_	_	_	gloss=a bit
+13	turu	turu	VERB	_	_	_	_	_	gloss=to sleep
+14	.	.	PUNCT	_	_	4	punct	_	PunctType=Peri
+15	Dèkné	dèkné	PRON	_	_	_	_	_	gloss=him
+16	terus	terus	ADV	_	_	4	advmod	_	gloss=Then|PronType=Dem
+17	ngomong	ngomong	VERB	_	_	0	root	_	gloss=said|Tense=Past|VerbForm=Fin
+18	marang	marang	ADP	_	_	_	_	_	gloss=to
+19	rasul	rasul	NOUN	_	_	_	_	_	gloss=apostle
+20	Pétrus	pétrus	PROPN	_	_	_	pobj	_	gloss=Peter|Number=Sing
+21	:	:	PUNCT	_	_	_	_	_
+22	"	"	PUNCT	_	_	17	punct	_	PunctSide=Ini|PunctType=Quot
+23	Simon	simon	PROPN	_	_	_	npadvmod	_	gloss=Simon|Number=Sing
+24	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+25	lah	lah	INTJ	_	_	_	_	_	gloss=well then! (exclamation)
+26	kowé	kowé	PRON	_	_	33	nsubj	_	gloss=you|Case=Nom|Person=2|PronType=Prs
+27	kok	kok	ADV	_	_	_	_	_	gloss=why?, how come?
+28	turu	turu	VERB	_	_	_	_	_	gloss=to sleep
+29	.	.	PUNCT	_	_	4	punct	_	PunctType=Peri
+30	Mosok	mosok	INTJ	_	_	_	_	_	gloss=(exclamation of disbelief)
+31	ora	ora	PART	_	_	_	_	_	gloss=not,no (negation)
+32	bisa	bisa	AUX	_	_	_	_	_	gloss=can
+33	melèk	melèk	VERB	_	_	0	root	_	gloss=watch|VerbForm=Inf
+34	sak	sak	unk	_	_	_	_	_	gloss=unk
+35	jam	jam	NOUN	_	_	33	npadvmod	_	gloss=hour|Number=Sing
+36	?	?	PUNCT	_	_	33	punct	_	PunctType=Peri
+
+# sent_id = 42004002
+# ref_id = Luke 4:2
+# eng_text = for forty days , being tempted by the devil . He ate nothing in those days . Afterward , when they were completed , he was hungry .
+# jvn_text = Nang kono Gusti Yésus digoda karo Sétan . Suwéné nang wustèn kono Gusti Yésus ora mangan apa-apa . Kadung wis rampung waktuné Dèkné krasa ngelih .
+1	Nang	nang	ADP	_	_	_	_	_	gloss=at,in,on
+2	kono	kono	PRON	_	_	_	_	_	gloss=there
+3	Gusti	gusti	NOUN	_	_	_	_	_
+4	Yésus	yésus	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+5	digoda	digoda	VERB	_	_	_	_	_ glos= tempted
+6	karo	karo	CCONJ	_	_	_	_	_	gloss=with
+7	Sétan	sétan	NOUN	_	_	_	pobj	_	gloss=devil|Number=Sing
+8	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+9	Suwéné	suwéné	unk	_	_	_	_	_	gloss=unk
+10	nang	nang	ADP	_	_	_	_	_	gloss=on
+11	wustèn	wustèn	unk	_	_	_	_	_	gloss=unk
+12	kono	kono	PRON	_	_	_	_	_	gloss=there
+13	Gusti	gusti	NOUN	_	_	_	_	_
+14	Yésus	yésus	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+15	ora	ora	PART	_	_	_	_	_	gloss=not, no (negation)
+16	mangan	mangan	VERB	_	_	_	_	_	gloss=eats
+17	apa-apa	apa-apa	NOUN	_	_	_	_	_	gloss=anything
+18	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+19	Kadung	kadung	ADJ	_	_	_	_	_	gloss=not sufficient
+20	wis	wis	ADV	_	_	_	_	_	gloss=already
+21	rampung	rampung	VERB	_	_	_	_	_	gloss=finished
+22	waktuné	waktuné	unk	_	_	_	_	_	gloss=unk
+23	Dèkné	dèkné	PRON	_	_	_	_	_	gloss=him
+24	krasa	krasa	VERB	_	_	_	_	_	gloss=to have (a certain) feeling,
+25	ngelih	ngelih	ADJ	_	_	_	acomp	_	gloss=hungry|Degree=Pos
+26	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 42016013
+# ref_id = Luke 16:13
+# eng_text = No servant can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You aren't able to serve God and mammon . "
+# jvn_text = " Ora ènèng wong sing bisa ngrangkep ngladèni gusti loro . Awit wongé bakal sengit marang sing siji lan nrésnani liyané apa ngelem sing siji lan nyepèlèkké liyané . Kowé ora bisa ngawula marang Gusti Allah lan uga ngawula marang duwit . "
+1	"	"	PUNCT	_	_	9	punct	_	PunctSide=Ini|PunctType=Quot
+2	Ora	ora	PART	_	_	_	_	_	gloss=Not, no
+3	ènèng	ènèng	VERBPH	_	_	_	pobj	_	gloss=there is/are -> verb phrase
+4	wong	wong	NOUN	_	_	_	_	_	gloss=person
+5	sing	sing	PRON	_	_	_	_	_	gloss=who
+6	bisa	bisa	AUX	_	_	_	_	_	gloss=can
+7	ngrangkep	ngrangkep	ADVPH	_	_	_	conj	_	gloss=to double as, to double up
+8	ngladèni	ngladèni	VERB	_	_	0	root	_	gloss=to serve, to be of service to
+9	gusti	gusti	NOUN	_	_	0	root	_	gloss=lord, master
+10	loro	loro	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+11	.	.	PUNCT	_	_	9	punct	_	PunctType=Peri
+12	Awit	awit	ADP	_	_	15	prep	_	gloss=For
+13	wongé	wongé	NOUN	_	_	_	_	_	gloss=person
+14	bakal	bakal	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+15	sengit	sengit	VERB	_	_	_	ccomp	_	gloss=hate|VerbForm=Inf
+16	marang	marang	ADP	_	_	_	_	_	gloss=to, toward
+17	sing	sing	PRON	_	_	_	_	_	gloss=who
+18	siji	siji	NUM	_	_	_	_	_	gloss=one
+19	lan	lan	CCONJ	_	_	36	cc	_	gloss=and|ConjType=Cmp
+20	nrésnani	nrésnani	VERB	_	_	_	acomp	_	gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+21	liyané	liyané	NOUN	_	_	_	_	_	gloss=another
+22	apa	apa	ADV	_	_	_	_	_	gloss=what
+23	ngelem	ngelem	VERB	_	_	_	_	_	gloss=hold
+24	sing	sing	PRON	_	_	_	_	_	gloss=who
+25	siji	siji	NUM	_	_	_	_	_	gloss=one
+26	lan	lan	CCONJ	_	_	36	cc	_	gloss=and|ConjType=Cmp
+27	nyepèlèkké	nyepèlèkké	VERB	_	_	_	_	_	gloss=despise
+28	liyané	liyané	NOUN	_	_	_	_	_	gloss=another
+29	.	.	PUNCT	_	_	9	punct	_	PunctType=Peri
+30	Kowé	kowé	PRON	_	_	9	nsubj	_	gloss=You|Case=Nom|Person=2|PronType=Prs
+31	ora	ora	PART	_	_	_	_	_	gloss=not, no (negation)
+32	bisa	bisa	AUX	_	_	_	_	_	gloss=can
+33	ngawula	ngawula	VERB	_	_	_	acomp	_	gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+34	marang	marang	ADP	_	_	_	_	_	gloss=to, toward
+35	Gusti	gusti	NOUN	_	_	_	_	_gloss= lord, master
+36	Allah	allah	PROPN	_	_	9	dobj	_	gloss=God|Number=Sing
+37	lan	lan	CCONJ	_	_	36	cc	_	gloss=and|ConjType=Cmp
+38	uga	uga	ADV	_	_	_	_	_	gloss=also
+39	ngawula	ngawula	VERB	_	_	_	acomp	_	gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+40	marang	marang	ADP	_	_	_	_	_	gloss=to, toward
+41	duwit	duwit	NOUN	_	_	_	_	_	gloss=money
+42	.	.	PUNCT	_	_	9	punct	_	PunctType=Peri
+43	"	"	PUNCT	_	_	9	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 42024018
+# ref_id = Luke 24:18
+# eng_text = One of them , named Cleopas , answered him , " Are you the only one travelling in Jerusalem who doesn't know the things which have happened there in these days ? "
+# jvn_text = Sing siji , sing jenengé Kléopas , semaur : " Tak kira namung Kowé déwé sing manggon nang Yérusalèm sing ora ngerti bab lelakon-lelakon ing dina-dina sing kepungkur kuwi . "
+1	Sing	sing	PRON	_	_	_	_	_	gloss=who
+2	siji	siji	NUM	_	_	_	_	_	gloss=one
+3	,	,	PUNCT	_	_	8	punct	_	PunctType=Comm
+4	sing	sing	PRON	_	_	_	nsubj	_	gloss=who
+5	jenengé	jenengé	VERB	_	_	_	_	_	gloss=named
+6	Kléopas	kléopas	PROPN	_	_	_	_	_gloss= Cleopas
+7	,	,	PUNCT	_	_	8	punct	_	PunctType=Comm
+8	semaur	semaur	VERB	_	_	0	root	_	gloss=replied|Tense=Past|VerbForm=Fin
+9	:	:	PUNCT	_	_	_	_	_
+10	"	"	PUNCT	_	_	8	punct	_	PunctSide=Ini|PunctType=Quot
+11	Tak	tak	unk	_	_	_	_	_	gloss=unk
+12	kira	kira	VERB	_	_	_	neg	_	gloss=to estimate
+13	namung	namung	ADJ	_	_	_	_	_	gloss=only, just
+14	Kowé	kowé	PRON	_	_	_	nsubj	_	gloss=You|Case=Nom|Person=2|PronType=Prs
+15	déwé	déwé	NOUN	_	_	_	_	_	gloss=god, male deity
+16	sing	sing	PRON	_	_	_	nsubj	_	gloss=who
+17	manggon	manggon	VERB	_	_	_	_	_	gloss=to live in, to stay
+18	nang	nang	ADP	_	_	_	_	_	gloss=in, at, on
+19	Yérusalèm	yérusalèm	PROPN	_	_	_	pobj	_	gloss=Jerusalem|Number=Sing
+20	sing	sing	PRON	_	_	_	nsubj	_	gloss=who
+21	ora	ora	PART	_	_	_	_	_	gloss=not, no (negation)
+22	ngerti	ngerti	VERB	_	_	_	_	_	gloss=know
+23	bab	bab	ADP	_	_	_	_	_	gloss=about, on
+24	lelakon-lelakon	lelakon-lelakon	NOUN	_	_	_	neg	_	gloss=scenario, plot
+25	ing	ing	ADP	_	_	_	_	_	gloss=in, at, on
+26	dina-dina	dina-dina	NOUN	_	_	_	_	_	gloss=day/ day after day
+27	sing	sing	PRON	_	_	_	nsubj	_	gloss=who
+28	kepungkur	kepungkur	ADJ	_	_	_	_	_	gloss=past, previous
+29	kuwi	kuwi	SCONJ	_	_	_	_	_	gloss=that/the
+30	.	.	PUNCT	_	_	8	punct	_	PunctType=Peri
+31	"	"	PUNCT	_	_	8	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 43001039
+# ref_id = John 1:39
+# eng_text = He said to them , " Come , and see . " They came and saw where he was staying , and they stayed with him that day . It was about the tenth hour .
+# jvn_text = Gusti Yésus semaur : " Hayuk mèlu Aku , mengko kowé lak weruh déwé ! " Mulané terus pada mèlu lan pada weruh omahé sing dienggoni Gusti Yésus . Mbenginé pada nginep nang kono , awit tekané wis soré , kira-kira jam papat .
+1	Gusti	gusti	NOUN	_	_	_	_	_ gloss= lord, master
+2	Yésus	yésus	PROPN	_	_	_	_	_	gloss=Jesus
+3	semaur	semaur	VERB	_	_	_	_	_	gloss=replied
+4	:	:	PUNCT	_	_	_	_	_
+5	"	"	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+6	Hayuk	hayuk	VERB	_	_	_	_	_	gloss=come on, let's
+7	mèlu	mèlu	VERB	_	_	_	_	_	gloss=follow
+8	Aku	aku	PRON	_	_	_	_	_	gloss=me
+9	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+10	mengko	mengko	ADJ	_	_	_	_	_	gloss=later on
+11	kowé	kowé	PRON	_	_	_	_	_	gloss=you
+12	lak	lak	kiv	_	_	_	_	_	gloss=wages
+13	weruh	weruh	VERB	_	_	_	_	_	gloss=saw
+14	déwé	déwé	NOUN	_	_	_	_	_	gloss=god, male deity
+15	!	!	PUNCT	_	_	_	_	_	gloss=sn
+16	"	"	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+17	Mulané	mulané	NOUN	_	_	_	_	_	gloss=originally
+18	terus	terus	ADV	_	_	_	_	_	gloss=Then
+19	pada	pada	AUX	_	_	_	_	_	gloss=were
+20	mèlu	mèlu	VERB	_	_	_	_	_	gloss=follow
+21	lan	lan	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+22	pada	pada	AUX	_	_	_	_	_	gloss=were
+23	weruh	weruh	VERB	_	_	_	_	_	gloss=saw
+24	omahé	omahé	NOUN	_	_	_	_	_	gloss=house
+25	sing	sing	PRON	_	_	_	_	_	gloss=who
+26	dienggoni	dienggoni	VERB	_	_	_	_	_	gloss=stayed
+27	Gusti	gusti	NOUN	_	_	_	_	_
+28	Yésus	yésus	PROPN	_	_	_	_	_	gloss=Jesus
+29	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+30	Mbenginé	mbenginé	unk	_	_	_	_	_ gloss=unk
+31	pada	pada	AUX	_	_	_	_	_	gloss=were
+32	nginep	nginep	VERB	_	_	_	_	_	gloss=accompanied
+33	nang	nang	ADP	_	_	_	_	_	gloss=on
+34	kono	kono	PRON	_	_	_	_	_	gloss=there
+35	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+36	awit	awit	ADP	_	_	_	_	_	gloss=because
+37	tekané	tekané	VERB	_	_	_	_	_	gloss=up to, until
+38	wis	wis	ADV	_	_	_	_	_	gloss=already
+39	soré	soré	NOUN	_	_	_	pobj	_	gloss=afternoon|Number=Sing
+40	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+41	kira-kira	kira-kira	NOUN	_	_	_	attr	_	gloss=oclock|Number=Sing
+42	jam	jam	NOUN	_	_	_	_	_	gloss=hour
+43	papat	papat	NUM	_	_	41	nummod	_	gloss=four|NumType=Card
+44	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 43003016
+# ref_id = John 3:16
+# eng_text = For God so loved the world , that he gave his one and only Son , that whoever believes in him should not perish , but have eternal life .
+# jvn_text = Awit katrésnané Gusti Allah marang manungsa gedé banget , nganti Dèkné masrahké Anaké sing ora ènèng tunggalé , supaya saben wong sing pretyaya marang Dèkné ora tiba ing karusakan , nanging nduwéni urip langgeng .
+1	Awit	awit	ADP	_	_	_	prep	_	gloss=For
+2	katrésnané	katrésnané	ADV	_	_	_	advmod	_	gloss=much
+3	Gusti	gusti	NOUN	_	_	_	_	_gloss= lord, master
+4	Allah	allah	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+5	marang	marang	ADP	_	_	_	_	_	gloss=to, toward
+6	manungsa	manungsa	NOUN	_	_	_	_	_	gloss=human being
+7	gedé	gedé	ADJ	_	_	_	_	_	gloss=great
+8	banget	banget	ADV	_	_	_	_	_	gloss=very
+9	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+10	nganti	nganti	ADP	_	_	_	_	_	gloss=until
+11	Dèkné	dèkné	PRON	_	_	_	pobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+12	masrahké	masrahké	VERB	_	_	_	_	_	gloss=offer
+13	Anaké	anaké	PROPN	_	_	16	appos	_	gloss=Son|Number=Sing
+14	sing	sing	PRON	_	_	_	nsubj	_	gloss=who
+15	ora	ora	PART	_	_	_	_	_	gloss=not, no (negation)
+16	ènèng	ènèng	VERBPH	_	_	_	dobj	_	gloss=there is, are
+17	tunggalé	tunggalé	NOUN	_	_	_	_	_	gloss=group
+18	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+19	supaya	supaya	SCONJ	_	_	_	mark	_	gloss=so
+20	saben	saben	DET	_	_	_	_	_	gloss=each, every
+21	wong	wong	NOUN	_	_	_	_	_	gloss=person
+22	sing	sing	PRON	_	_	_	nsubj	_	gloss=who
+23	pretyaya	pretyaya	VERB	_	_	_	_	_	gloss=believe
+24	marang	marang	ADP	_	_	_	_	_	gloss=to, toward
+25	Dèkné	dèkné	PRON	_	_	_	pobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+26	ora	ora	PART	_	_	_	_	_	gloss=not, no (negation)
+27	tiba	tiba	VERB	_	_	_	_	_	gloss=fell
+28	ing	ing	ADP	_	_	_	_	_	gloss=in, at, on
+29	karusakan	karusakan	NOUN	_	_	_	_	_	gloss=destruction
+30	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+31	nanging	nanging	CCONJ	_	_	_	cc	_	gloss=but|ConjType=Cmp
+32	nduwéni	nduwéni	VERB	_	_	_	_	_	gloss=to have, get posession of
+33	urip	urip	NOUN	_	_	_	dobj	_	gloss=life|Number=Sing
+34	langgeng	langgeng	ADJ	_	_	33	amod	_	gloss=eternal|Degree=Pos
+35	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 44002030
+# ref_id = Acts 2:30
+# eng_text = Therefore , being a prophet , and knowing that God had sworn with an oath to him that of the fruit of his body , according to the flesh , he would raise up the Christ to sit on his throne ,
+# jvn_text = Ratu Daved kuwi pantyèn nabi lan dèkné ngerti nèk Gusti Allah wis ngetokké prejanjian marang dèkné nganggo sumpah , yakuwi , Gusti Allah bakal ngedekké ratu sangka turunané ratu Daved déwé .
+1	Ratu	ratu	NOUN	_	_	_	_	_	gloss=King
+2	Daved	daved	PROPN	_	_	28	poss	_	gloss=David|Number=Sing
+3	kuwi	kuwi	SCONJ	_	_	_	_	_	gloss=that/the
+4	pantyèn	pantyèn	VERB	_	_	_	_	_	gloss=said
+5	nabi	nabi	NOUN	_	_	_	attr	_	gloss=prophet|Number=Sing
+6	lan	lan	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+7	dèkné	dèkné	PRON	_	_	_	_	_	gloss=him
+8	ngerti	ngerti	VERB	_	_	_	_	_	gloss=know
+9	nèk	nèk	SCONJ	_	_	_	_	_	gloss=if, when,that
+10	Gusti	gusti	NOUN	_	_	_	_	_gloss=Lord
+11	Allah	allah	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+12	wis	wis	ADV	_	_	_	_	_	gloss=already
+13	ngetokké	ngetokké	unk	_	_	_	_	_	gloss=unk
+14	prejanjian	prejanjian	NOUN	_	_	_	_	_	gloss=agreement
+15	marang	marang	ADP	_	_	_	_	_	gloss=to, toward
+16	dèkné	dèkné	PRON	_	_	_	_	_	gloss=him
+17	nganggo	nganggo	VERB	_	_	_	_	_	gloss=using
+18	sumpah	sumpah	NOUN	_	_	_	pobj	_	gloss=oath|Number=Sing
+19	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+20	yakuwi	yakuwi	SCONJ	_	_	_	_	_	gloss=that is
+21	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+22	Gusti	gusti	NOUN	_	_	_	_	_ gloss= lord, master
+23	Allah	allah	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+24	bakal	bakal	AUX	_	_	_	_	_	gloss=will
+25	ngedekké	ngedekké	VERB	_	_	_	_	_	gloss=builds
+26	ratu	ratu	NOUN	_	_	_	_	_	gloss=king
+27	sangka	sangka	ADP	_	_	_	_	_	gloss=from
+28	turunané	turunané	NOUN	_	_	_	pobj	_	gloss=descendants|Number=Plur
+29	ratu	ratu	NOUN	_	_	_	_	_	gloss=king
+30	Daved	daved	PROPN	_	_	28	poss	_	gloss=David|Number=Sing
+31	déwé	déwé	NOUN	_	_	_	_	_	gloss=god, male deity
+32	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 44009038
+# ref_id = Acts 9:38
+# eng_text = As Lydda was near Joppa , the disciples , hearing that Peter was there , sent two men to him , imploring him not to delay in coming to them .
+# jvn_text = Kuta Yopé kuwi ora adoh sangka kuta Lida . Kadung murid-muridé Gusti Yésus krungu nèk rasul Pétrus nang kuta Lida , terus pada kongkonan wong loro marani Pétrus , disuwun ndang gelis teka nang kuta Yopé .
+1	Kuta	kuta	NOUN	_	_	_	_	_	gloss=city
+2	Yopé	yopé	PROPN	_	_	_	_	_	gloss=Joppa
+3	kuwi	kuwi	SCONJ	_	_	_	_	_	gloss=that/the
+4	ora	ora	PART	_	_	_	_	_	gloss=not, no (negation)
+5	adoh	adoh	ADJ	_	_	_	_	_	gloss=far
+6	sangka	sangka	ADP	_	_	_	_	_	gloss=from
+7	kuta	kuta	NOUN	_	_	_	_	_	gloss=city
+8	Lida	lida	PROPN	_	_	_	_	_	gloss=Lydia
+9	.	.	PUNCT	_	_	_	_	_
+10	Kadung	kadung	ADJ	_	_	_	_	_	gloss=not sufficient
+11	murid-muridé	murid-muridé	NOUN	_	_	_	_	_	gloss=disciples
+12	Gusti	gusti	NOUN	_	_	_	_	_ gloss=lord, master
+13	Yésus	yésus	PROPN	_	_	_	_	_	gloss=Jesus
+14	krungu	krungu	VERB	_	_	_	ccomp	_	gloss=heard|Aspect=Perf|Tense=Past|VerbForm=Part
+15	nèk	nèk	SCONJ	_	_	_	_	_	gloss=if, when, that
+16	rasul	rasul	NOUN	_	_	_	_	_	gloss=apostles
+17	Pétrus	pétrus	PROPN	_	_	_	nsubj	_	gloss=Peter|Number=Sing
+18	nang	nang	ADP	_	_	_	_	_	gloss=on
+19	kuta	kuta	NOUN	_	_	_	_	_	gloss=city
+20	Lida	lida	PROPN	_	_	_	_	_	gloss=Lydia
+21	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+22	terus	terus	ADV	_	_	_	_	_	gloss=Then
+23	pada	pada	AUX	_	_	_	_	_	gloss=were
+24	kongkonan	kongkonan	NOUN	_	_	_	_	_	gloss=messenger
+25	wong	wong	NOUN	_	_	_	_	_	gloss=man
+26	loro	loro	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+27	marani	marani	VERB	_	_	_	_	_	gloss=to approach/to go and get something somewhere
+28	Pétrus	pétrus	PROPN	_	_	_	nsubj	_	gloss=Peter|Number=Sing
+29	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+30	disuwun	disuwun	VERB	_	_	_	_	_	gloss=asked (humbly)
+31	ndang	ndang	ADV	_	_	_	_	_	gloss=quickly
+32	gelis	gelis	ADV	_	_	_	_	_	gloss=speedy, quick
+33	teka	teka	VERB	_	_	_	_	_	gloss=coming
+34	nang	nang	ADP	_	_	_	_	_	gloss=on
+35	kuta	kuta	NOUN	_	_	_	_	_	gloss=city
+36	Yopé	yopé	PROPN	_	_	_	_	_	gloss=Joppa
+37	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 44011011
+# ref_id = Acts 11:11
+# eng_text = Behold , immediately three men stood before the house where I was , having been sent from Caesarea to me .
+# jvn_text = Ing waktu kuwi ènèng wong lanang telu teka nang omah sing tak inepi . Wong telu kuwi kongkonan sangka kuta Sésaréa , kongkon nggolèki aku .
+1	Ing	ing	ADP	_	_	_	_	_	gloss=at, on, in
+2	waktu	waktu	NOUN	_	_	_	_	_	gloss=time
+3	kuwi	kuwi	SCONJ	_	_	_	_	_	gloss=that/the
+4	ènèng	ènèng	VERBPH	_	_	_	_	_	gloss=there is/are
+5	wong	wong	NOUN	_	_	_	_	_	gloss=man
+6	lanang	lanang	NOUN	_	_	_	_	_	gloss=male
+7	telu	telu	NUM	_	_	_	_	_	gloss=three
+8	teka	teka	VERB	_	_	_	_	_	gloss=coming
+9	nang	nang	ADP	_	_	_	_	_	gloss=on
+10	omah	omah	NOUN	_	_	_	pobj	_	gloss=house|Number=Sing
+11	sing	sing	PRON	_	_	_	nsubjpass	_	gloss=who
+12	tak	tak	unk	_	_	_	_	_	gloss=unk
+13	inepi	inepi	VERB	_	_	_	_	_ gloss=to spend overnight
+14	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+15	Wong	wong	NOUN	_	_	_	_	_	gloss=man
+16	telu	telu	NUM	_	_	_	_	_	gloss=three
+17	kuwi	kuwi	SCONJ	_	_	_	_	_	gloss=that/the
+18	kongkonan	kongkonan	NOUN	_	_	_	_	_	gloss=messengers
+19	sangka	sangka	ADP	_	_	_	prep	_	gloss=from
+20	kuta	kuta	NOUN	_	_	_	_	_	gloss=city
+21	Sésaréa	sésaréa	PROPN	_	_	19	pobj	_	gloss=Caesarea|Number=Sing
+22	,	,	PUNCT	_	_	_	_	_
+23	kongkon	kongkon	VERB	_	_	_	_	_	gloss=to order someone to do something
+24	nggolèki	nggolèki	VERB	_	_	_	_	_	gloss=search
+25	aku	aku	PRON	_	_	_	_	_	gloss=me
+26	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 44021034
+# ref_id = Acts 21:34
+# eng_text = Some shouted one thing , some another , among the crowd . When he couldn't find out the truth because of the noise , he commanded him to be brought into the barracks .
+# jvn_text = Nanging wong okèh kuwi terus pating brengok , ènèng sing ngomong ngéné , ènèng sing ngomong ngono , ramé banget . Entèk-entèké kumendané ora bisa ngerti apa jalarané gègèran kuwi . Mulané wongé terus mréntah kongkon nggawa rasul Paulus nang panggonané soldat-soldat .
+1	Nanging	nanging	CCONJ	_	_	_	_	_	gloss=But
+2	wong	wong	NOUN	_	_	_	_	_	gloss=man
+3	okèh	okèh	DET	_	_	_	_	_	gloss=many
+4	kuwi	kuwi	SCONJ	_	_	_	_	_	gloss=that/the
+5	terus	terus	ADV	_	_	_	_	_	gloss=Then
+6	pating	pating	PART	_	_	_	_	_	gloss=to
+7	brengok	brengok	VERB	_	_	_	_	_ gloss=shout
+8	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+9	ènèng	ènèng	VERBPH	_	_	_	nummod	_	gloss=there is/are
+10	sing	sing	PRON	_	_	_	_	_	gloss=who
+11	ngomong	ngomong	VERB	_	_	_	_	_	gloss=said
+12	ngéné	ngéné	INTJ	_	_	_	_	_	gloss=so
+13	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+14	ènèng	ènèng	VERBPH	_	_	_	nummod	_	gloss=there is/are
+15	sing	sing	PRON	_	_	_	_	_	gloss=who
+16	ngomong	ngomong	VERB	_	_	_	_	_	gloss=said
+17	ngono	ngono	unk	_	_	_	_	_	gloss=ist
+18	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+19	ramé	ramé	ADJ	_	_	_	_	_	gloss=noisy
+20	banget	banget	ADV	_	_	_	_	_	gloss=very
+21	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+22	Entèk-entèké	entèk-entèké	ADV	_	_	_	_	_	gloss=finally
+23	kumendané	kumendané	NOUN	_	_	_	_	_	gloss=guard
+24	ora	ora	PART	_	_	_	_	_	gloss=not, no (negation)
+25	bisa	bisa	AUX	_	_	_	_	_	gloss=can
+26	ngerti	ngerti	VERB	_	_	_	_	_	gloss=know
+27	apa	apa	ADV	_	_	_	_	_	gloss=What
+28	jalarané	jalarané	VERB	_	_	_	_	_	gloss=use
+29	gègèran	gègèran	NOUN	_	_	_	_	_	gloss=chaos
+30	kuwi	kuwi	NOUN	_	_	_	_	_	gloss=that/the
+31	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+32	Mulané	mulané	NOUN	_	_	_	_	_	gloss=originally
+33	wongé	wongé	NOUN	_	_	_	_	_	gloss=man
+34	terus	terus	ADV	_	_	_	_	_	gloss=Then
+35	mréntah	mréntah	VERB	_	_	_	_	_	gloss=to fall (down,off)
+36	kongkon	kongkon	VERB	_	_	_	_	_	gloss=to order someone to do something
+37	nggawa	nggawa	VERB	_	_	_	_	_	gloss=bring
+38	rasul	rasul	NOUN	_	_	_	_	_	gloss=apostles
+39	Paulus	paulus	PROPN	_	_	_	nsubjpass	_	gloss=Paul|Number=Sing
+40	nang	nang	ADP	_	_	_	_	_	gloss=on
+41	panggonané	panggonané	unk	_	_	_	_	_	gloss=ning
+42	soldat-soldat	soldat-soldat	unk	_	_	_	_	_	gloss=Am
+43	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 47012002
+# ref_id = 2 Corinthians 12:2
+# eng_text = I know a man in Christ , fourteen years ago ( whether in the body , I don't know , or whether out of the body , I don't know ; God knows ) , such a one caught up into the third heaven .
+# jvn_text = Aku kenal sakwijiné wong Kristen sing patbelas taun kepungkur diangkat mlebu nang swarga sing duwur déwé . Aku ora ngerti embuh sak awaké , embuh namung nyawané . Namung Gusti Allah sing ngerti .
+1	Aku	aku	PRON	_	_	_	_	_	gloss=I
+2	kenal	kenal	VERB	_	_	_	_	_	gloss=to know
+3	sakwijiné	sakwijiné	VERB	_	_	_	_	_	gloss=unk
+4	wong	wong	NOUN	_	_	_	_	_	gloss=man
+5	Kristen	kristen	PROPN	_	_	_	_	_	gloss=Christ
+6	sing	sing	PRON	_	_	_	_	_	gloss=who
+7	patbelas	patbelas	NUM	_	_	8	nummod	_	gloss=fourteen|NumType=Card
+8	taun	taun	NOUN	_	_	_	npadvmod	_	gloss=years|Number=Plur
+9	kepungkur	kepungkur	NUM	_	_	8	nummod	_	gloss=fourteen|NumType=Card
+10	diangkat	diangkat	VERB	_	_	_	_	_	gloss=lifted, elevated
+11	mlebu	mlebu	VERB	_	_	_	_	_	gloss=enter
+12	nang	nang	ADP	_	_	_	_	_	gloss=on
+13	swarga	swarga	NOUN	_	_	_	pobj	_	gloss=heaven|Number=Sing
+14	sing	sing	PRON	_	_	_	_	_	gloss=who
+15	duwur	duwur	ADJ	_	_	_	_	_	gloss=high, tall
+16	déwé	déwé	NOUN	_	_	_	_	_	gloss=god, male deity
+17	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+18	Aku	aku	PRON	_	_	_	_	_	gloss=I
+19	ora	ora	PART	_	_	_	_	_	gloss=not, no (negation)
+20	ngerti	ngerti	VERB	_	_	_	_	_	gloss=know
+21	embuh	embuh	SCONJ	_	_	_	mark	_	gloss=Whether
+22	sak	sak	unk	_	_	_	_	_	gloss=unk
+23	awaké	awaké	PRON	_	_	_	_	_	gloss=our
+24	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+25	embuh	embuh	SCONJ	_	_	_	mark	_	gloss=Whether
+26	namung	namung	ADJ	_	_	_	_	_	gloss=only, just
+27	nyawané	nyawané	NOUN	_	_	_	mark	_	gloss=dead
+28	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+29	Namung	namung	ADJ	_	_	_	_	_	gloss=only, just
+30	Gusti	gusti	NOUN	_	_	_	_	_ gloss= lord, master
+31	Allah	allah	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+32	sing	sing	PRON	_	_	_	_	_	gloss=who
+33	ngerti	ngerti	VERB	_	_	_	_	_	gloss=know
+34	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 62004009
+# ref_id = 1 John 4:9
+# eng_text = By this was God's love revealed in us , that God has sent his only born Son into the world that we might live through him .
+# jvn_text = Kepriyé awaké déwé bisané ngerti nèk Gusti Allah trésna marang awaké déwé . Tandané katrésnané Gusti Allah iki : Dèkné ngongkon Anaké sing ora ènèng tunggalé , yakuwi Gusti Yésus Kristus , teka nang jagat kéné , supaya awaké déwé bisa nampa urip langgeng , nèk gelem pretyaya marang Dèkné .
+1	Kepriyé	kepriyé	ADV	_	_	_	_	_	gloss=how?/what else?
+2	awaké	awaké	PRON	_	_	_	_	_	gloss=our
+3	déwé	déwé	NOUN	_	_	_	_	_	gloss=god, male deity
+4	bisané	bisané	DET	_	_	_	_	_	gloss=what one is capable of
+5	ngerti	ngerti	VERB	_	_	_	_	_	gloss=know
+6	nèk	nèk	ADP	_	_	_	_	_	gloss=in,at,on
+7	Gusti	gusti	NOUN	_	_	_	_	_ gloss= lord, master
+8	Allah	allah	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+9	trésna	trésna	VERB	_	_	_	_	_	gloss=love
+10	marang	marang	ADP	_	_	_	_	_	gloss=to, toward
+11	awaké	awaké	PRON	_	_	_	_	_	gloss=our
+12	déwé	déwé	NOUN	_	_	_	_	_	gloss=god, male deity
+13	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+14	Tandané	tandané	unk	_	_	_	_	_ gloss=unk
+15	katrésnané	katrésnané	ADV	_	_	_	advmod	_	gloss=much
+16	Gusti	gusti	NOUN	_	_	_	_	_ gloss= lord, master
+17	Allah	allah	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+18	iki	iki	DET	_	_	_	_	_	gloss=this
+19	:	:	PUNCT	_	_	_	_	_
+20	Dèkné	dèkné	PRON	_	_	_	pobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+21	ngongkon	ngongkon	VERB	_	_	_	_	_	gloss=to order someone to do something
+22	Anaké	anaké	PROPN	_	_	25	conj	_	gloss=Son|Number=Sing
+23	sing	sing	PRON	_	_	_	_	_	gloss=who
+24	ora	ora	PART	_	_	_	_	_	gloss=not, no (negation)
+25	ènèng	ènèng	VERBPH	_	_	_	dobj	_	gloss=there is/are
+26	tunggalé	tunggalé	NOUN	_	_	_	_	_	gloss=group
+27	,	,	PUNCT	_	_	_	_	_
+28	yakuwi	yakuwi	ADJ	_	_	_	_	_	gloss=most
+29	Gusti	gusti	NOUN	_	_	_	_	_
+30	Yésus	yésus	PROPN	_	_	_	_	_	gloss=Jesus
+31	Kristus	kristus	PROPN	_	_	_	_	_	gloss=Messiah
+32	,	,	PUNCT	_	_	_	_	_
+33	teka	teka	VERB	_	_	_	_	_	gloss=coming
+34	nang	nang	ADP	_	_	_	_	_	gloss=on
+35	jagat	jagat	NOUN	_	_	_	pobj	_	gloss=world|Number=Sing
+36	kéné	kéné	ADV	_	_	_	_	_	gloss=here
+37	,	,	PUNCT	_	_	_	_	_
+38	supaya	supaya	SCONJ	_	_	_	mark	_	gloss=so
+39	awaké	awaké	PRON	_	_	_	_	_	gloss=our
+40	déwé	déwé	NOUN	_	_	_	_	_	gloss=god, male deity
+41	bisa	bisa	AUX	_	_	_	_	_	gloss=can
+42	nampa	nampa	VERB	_	_	_	_	_	gloss=receive
+43	urip	urip	NOUN	_	_	_	dobj	_	gloss=life|Number=Sing
+44	langgeng	langgeng	ADJ	_	_	43	amod	_	gloss=eternal|Degree=Pos
+45	,	,	PUNCT	_	_	_	_	_
+46	nèk	nèk	ADP	_	_	_	_	_	gloss=in, at, on
+47	gelem	gelem	VERB	_	_	_	_	_	gloss=willing
+48	pretyaya	pretyaya	VERB	_	_	_	_	_	gloss=believe
+49	marang	marang	ADP	_	_	_	_	_	gloss=to, toward
+50	Dèkné	dèkné	PRON	_	_	_	pobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+51	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 63001005
+# ref_id = 2 John 1:5
+# eng_text = Now I beg you , dear lady , not as though I wrote to you a new commandment , but that which we had from the beginning , that we love one another .
+# jvn_text = Mulané aku ya ngélingké sepisan menèh , hayuk pada trésna terus marang sakpada-pada . Sing tak omong iki ora prekara sing anyar , awit angger-angger iki wis dikèkké marang awaké déwé kawit wiwitané .
+1	Mulané	mulané	NOUN	_	_	_	_	_	gloss=originally, from the beginning
+2	aku	aku	PRON	_	_	_	_	_	gloss=I
+3	ya	ya	PART	_	_	_	_	_	gloss=yes, indeed
+4	ngélingké	ngélingké	VERB	_	_	_	xcomp	_	gloss=remind|VerbForm=Inf
+5	sepisan	sepisan	SCONJ	_	_	_	_	_	gloss=once, one time
+6	menèh	menèh	ADV	_	_	_	_	_	gloss=again
+7	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+8	hayuk	hayuk	VERB	_	_	_	_	_	gloss=let's
+9	pada	pada	AUX	_	_	_	_	_	gloss=were
+10	trésna	trésna	VERB	_	_	_	ccomp	_	gloss=love|VerbForm=Inf
+11	terus	terus	ADV	_	_	_	_	_	gloss=Then
+12	marang	marang	ADP	_	_	_	_	_	gloss=to, toward
+13	sakpada-pada	sakpada-pada	unk	_	_	_	_	_	gloss=unk
+14	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+15	Sing	sing	PRON	_	_	_	_	_	gloss=who
+16	tak	tak	unk	_	_	_	_	_	gloss=unk
+17	omong	omong	VERB	_	_	_	_	_	gloss=talking
+18	iki	iki	DET	_	_	_	aux	_	gloss=this
+19	ora	ora	PART	_	_	_	_	_	gloss=not, no (negation)
+20	prekara	prekara	NOUN	_	_	_	_	_	gloss=matter
+21	sing	sing	PRON	_	_	_	_	_	gloss=who
+22	anyar	anyar	ADJ	_	_	25	amod	_	gloss=new|Degree=Pos
+23	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+24	awit	awit	ADP	_	_	_	_	_	gloss=because
+25	angger-angger	angger-angger	NOUN	_	_	_	attr	_	gloss=commandment|Number=Sing
+26	iki	iki	DET	_	_	_	aux	_	gloss=this
+27	wis	wis	ADV	_	_	_	_	_	gloss=already
+28	dikèkké	dikèkké	unk	_	_	_	_	_	gloss=unk
+29	marang	marang	ADP	_	_	_	_	_	gloss=to, toward
+30	awaké	awaké	PRON	_	_	_	_	_	gloss=our
+31	déwé	déwé	NOUN	_	_	_	_	_	gloss=god, male deity
+32	kawit	kawit	NOUN	_	_	_	pobj	_	gloss=beginning|Number=Sing
+33	wiwitané	wiwitané	NOUN	_	_	_	pobj	_	gloss=beginning|Number=Sing
+34	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+

@@ -1,0 +1,769 @@
+## The following text has been annotated for parts of speech by students at NTU Singapore as part of a class project in AY 2025.
+## Verses are extracted from the taggedPBC. Annotations have been developed with a combination of manual and automated approaches, with reference to existing literature and (where possible) native speakers.
+## ISO 639-3: sin, Language: Sinhala, Number of verses: 21
+## References: Worked with native speakers
+
+# sent_id = 40006024
+# ref_id = Matthew 6:24
+# eng_text = " No one can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You can't serve both God and Mammon .
+# sin_text = “ svaamivarun dedenekutta mehevara kiriimatta kisivekutta nupuluvana . manda , ohu ek kenekutta vaira baeda anik ayatta preema vannee ya . naetahot , ek kenekutta laedi vii , anik aya helaa daknee ya . deviyan vahanseetta saha vastuvatta seevaya karanna obatta nohaeki ya . ”
+# sin_orth = “ ස්වාමිවරුන් දෙදෙනෙකුට මෙහෙවර කිරීමට කිසිවෙකුට නුපුළුවන . මන්ද , ඔහු එක් කෙනෙකුට වෛර බැඳ අනික් අයට ප්‍රේම වන්නේ ය . නැතහොත් , එක් කෙනෙකුට ළැදි වී , අනික් අය හෙළා දක්නේ ය . දෙවියන් වහන්සේට සහ වස්තුවට සේවය කරන්න ඔබට නොහැකි ය . ”
+1	“	“	PUNCT	_	_	39	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+2	svaamivarun	svaamivarun	NOUN	_	_	_	_	_	orth=ස්වාමිවරුන්
+3	dedenekutta	dedenekutta	DET	_	_	_	_	_	orth=දෙදෙනෙකුට
+4	mehevara	mehevara	NOUN	_	_	_	_	_	orth=මෙහෙවර
+5	kiriimatta	kiriimatta	VERB	_	_	_	_	_	orth=කිරීමට|gloss=ex
+6	kisivekutta	kisivekutta	PRON	_	_	_	_	_	orth=කිසිවෙකුට|gloss=dared
+7	nupuluvana	nupuluvana	VERB	_	_	_	_	_	orth=නුපුළුවන|gloss=Let
+8	.	.	PUNCT	_	_	_	_	_	orth=.
+9	manda	manda	ADP	_	_	_	prep	_	orth=මන්ද|gloss=For
+10	,	,	PUNCT	_	_	_	_	_	orth=,
+11	ohu	ohu	PRON	_	_	_	_	_	orth=ඔහු|gloss=prostit
+12	ek	ek	PRON	_	_	_	_	_	orth=එක්|gloss=6
+13	kenekutta	kenekutta	PRON	_	_	_	_	_	orth=කෙනෙකුට|gloss=mist
+14	vaira	vaira	NOUN	_	_	_	_	_	orth=වෛර|gloss=hates
+15	baeda	baeda	VERB	_	_	_	_	_	orth=බැඳ|gloss=tied
+16	anik	anik	PRON	_	_	_	_	_	orth=අනික්|gloss=Two
+17	ayatta	ayatta	NOUN	_	_	_	_	_	orth=අයට|gloss=those
+18	preema	preema	VERB	_	_	_	conj	_	orth=ප්‍රේම|gloss=love|VerbForm=Inf
+19	vannee	vannee	VERB	_	_	_	_	_	orth=වන්නේ|gloss=weeping
+20	ya	ya	AUX	_	_	_	_	_	orth=ය|gloss=a
+21	.	.	PUNCT	_	_	_	_	_	orth=.
+22	naetahot	naetahot	CCONJ	_	_	_	_	_	orth=නැතහොත්|gloss=Stand
+23	,	,	PUNCT	_	_	_	_	_	orth=,
+24	ek	ek	PRON	_	_	_	_	_	orth=එක්|gloss=6
+25	kenekutta	kenekutta	PRON	_	_	_	_	_	orth=කෙනෙකුට|gloss=mist
+26	laedi	laedi	VERB	_	_	_	_	_	orth=ළැදි
+27	vii	vii	PART	_	_	_	_	_	orth=වී|gloss=Al
+28	,	,	PUNCT	_	_	_	_	_	orth=,
+29	anik	anik	PRON	_	_	_	_	_	orth=අනික්|gloss=Two
+30	aya	aya	NOUN	_	_	_	_	_	orth=අය|gloss=Dam
+31	helaa	helaa	VERB	_	_	_	_	_	orth=හෙළා|gloss=look
+32	daknee	daknee	VERB	_	_	_	_	_	orth=දක්නේ
+33	ya	ya	AUX	_	_	_	_	_	orth=ය|gloss=a
+34	.	.	PUNCT	_	_	_	_	_	orth=.
+35	deviyan	deviyan	PROPN	_	_	39	dobj	_	orth=දෙවියන්|gloss=God|Number=Sing
+36	vahanseetta	vahanseetta	PRON	_	_	_	_	_	orth=වහන්සේට|gloss=val
+37	saha	saha	CCONJ	_	_	_	_	_	orth=සහ|gloss=ri
+38	vastuvatta	vastuvatta	NOUN	_	_	_	_	_	orth=වස්තුවට
+39	seevaya	seevaya	VERB	_	_	0	root	_	orth=සේවය|gloss=serve|VerbForm=Inf
+40	karanna	karanna	NOUN	_	_	39	dobj	_	orth=කරන්න|gloss=masters|Number=Plur
+41	obatta	obatta	PRON	_	_	_	_	_	orth=ඔබට|gloss=Young
+42	nohaeki	nohaeki	ADJ	_	_	_	_	_	orth=නොහැකි|gloss=cannot
+43	ya	ya	AUX	_	_	_	_	_	orth=ය|gloss=a
+44	.	.	PUNCT	_	_	_	_	_	orth=.
+45	”	”	PUNCT	_	_	_	_	_	orth=”
+
+# sent_id = 40018012
+# ref_id = Matthew 18:12
+# eng_text = " What do you think ? If a man has one hundred sheep , and one of them goes astray , doesn't he leave the ninety-nine , go to the mountains , and seek that which has gone astray ?
+# sin_text = “ oba kumak sitannahu da ? baettaluvan siyayak aeti yam minisek , ungen ekeku mulaa va giyot , itiri anuu navadenaa kadukarayee inna haera , mulaa va giya ekaa soyaa yannee naed da ?
+# sin_orth = “ ඔබ කුමක් සිතන්නහු ද ? බැටළුවන් සියයක් ඇති යම් මිනිසෙක් , උන්ගෙන් එකෙකු මුළා ව ගියොත් , ඉතිරි අනූ නවදෙනා කඳුකරයේ ඉන්න හැර , මුළා ව ගිය එකා සොයා යන්නේ නැද් ද ?
+1	“	“	PUNCT	_	_	_	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+2	oba	oba	PRON	_	_	_	_	_	orth=ඔබ|gloss=you
+3	kumak	kumak	PRON	_	_	_	_	_	orth=කුමක්|gloss=What
+4	sitannahu	sitannahu	VERB	_	_	_	_	_	orth=සිතන්නහු|gloss=think
+5	da	da	PART	_	_	10	cc	_	orth=ද|gloss=and|ConjType=Cmp
+6	?	?	PUNCT	_	_	10	punct	_	orth=?|PunctType=Peri
+7	baettaluvan	baettaluvan	NOUN	_	_	_	dobj	_	orth=බැටළුවන්|gloss=sheep|Number=Plur
+8	siyayak	siyayak	NUM	_	_	31	nummod	_	orth=සියයක්|gloss=hundred|NumType=Card
+9	aeti	aeti	NOUN	_	_	_	_	_	orth=ඇති|gloss=members
+10	yam	yam	VERB	_	_	0	root	_	orth=යම්|gloss=leave|VerbForm=Inf
+11	minisek	minisek	NOUN	_	_	_	_	_	orth=මිනිසෙක්|gloss=pit
+12	,	,	PUNCT	_	_	_	punct	_	orth=,|PunctType=Comm
+13	ungen	ungen	PRON	_	_	_	_	_	orth=උන්ගෙන්
+14	ekeku	ekeku	NUM	_	_	31	nummod	_	orth=එකෙකු|gloss=hundred|NumType=Card
+15	mulaa	mulaa	DET	_	_	_	_	_	orth=මුළා|gloss=dece
+16	va	va	PART	_	_	_	_	_	orth=ව|gloss=id
+17	giyot	giyot	VERB	_	_	_	_	_	orth=ගියොත්|gloss=reconciled
+18	,	,	PUNCT	_	_	_	punct	_	orth=,|PunctType=Comm
+19	itiri	itiri	ADJ	_	_	_	_	_	orth=ඉතිරි|gloss=top
+20	anuu	anuu	NUM	_	_	_	_	_	orth=අනූ
+21	navadenaa	navadenaa	NUM	_	_	_	_	_	orth=නවදෙනා
+22	kadukarayee	kadukarayee	NOUN	_	_	_	_	_	orth=කඳුකරයේ
+23	inna	inna	VERB	_	_	_	_	_	orth=ඉන්න|gloss=watch
+24	haera	haera	ADP	_	_	_	_	_	orth=හැර|gloss=ninety-nine
+25	,	,	PUNCT	_	_	_	punct	_	orth=,|PunctType=Comm
+26	mulaa	mulaa	DET	_	_	_	_	_	orth=මුළා|gloss=dece
+27	va	va	PART	_	_	_	_	_	orth=ව|gloss=id
+28	giya	giya	VERB	_	_	_	_	_	orth=ගිය|gloss=instructions
+29	ekaa	ekaa	PRON	_	_	_	_	_	orth=එකා
+30	soyaa	soyaa	VERB	_	_	_	_	_	orth=සොයා|gloss=find
+31	yannee	yannee	NOUN	_	_	_	dobj	_	orth=යන්නේ|gloss=sheep|Number=Plur
+32	naed	naed	PART	_	_	_	_	_	orth=නැද්|gloss=read
+33	da	da	PART	_	_	10	cc	_	orth=ද|gloss=and|ConjType=Cmp
+34	?	?	PUNCT	_	_	10	punct	_	orth=?|PunctType=Peri
+
+# sent_id = 40020021
+# ref_id = Matthew 20:21
+# eng_text = He said to her , " What do you want ? " She said to him , " Command that these , my two sons , may sit , one on your right hand , and one on your left hand , in your kingdom . "
+# sin_text = un vahansee kataa karamin , “ oba kumak illannehi dae ” yi aeyagen aesuu seeka . aee pilituru demin , “ obagee raajyayehi dii mee maagee putun dedenaagen ek keneku obagee dakunu pasehi da ek keneku vam pasehi da hidagaeniimatta niyama kala maenavae ” yi kiivaa ya .
+# sin_orth = උන් වහන්සේ කතා කරමින් , “ ඔබ කුමක් ඉල්ලන්නෙහි දැ ” යි ඇයගෙන් ඇසූ සේක . ඈ පිළිතුරු දෙමින් , “ ඔබගේ රාජ්‍යයෙහි දී මේ මාගේ පුතුන් දෙදෙනාගෙන් එක් කෙනෙකු ඔබගේ දකුණු පසෙහි ද එක් කෙනෙකු වම් පසෙහි ද හිඳගැනීමට නියම කළ මැනවැ ” යි කීවා ය .
+1	un	un	PRON	_	_	_	_	_	orth=උන්|gloss=He
+2	vahansee	vahansee	NOUN	_	_	_	_	_	orth=වහන්සේ|gloss=from
+3	kataa	kataa	VERB	_	_	_	_	_	orth=කතා|gloss=speak
+4	karamin	karamin	VERB	_	_	_	_	_	orth=කරමින්|gloss=Jud
+5	,	,	PUNCT	_	_	_	punct	_	orth=,|PunctType=Comm
+6	“	“	PUNCT	_	_	19	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+7	oba	oba	PRON	_	_	_	pobj	_	orth=ඔබ|gloss=you|Case=Acc|Person=2|PronType=Prs
+8	kumak	kumak	PRON	_	_	_	attr	_	orth=කුමක්|gloss=What
+9	illannehi	illannehi	VERB	_	_	_	_	_	orth=ඉල්ලන්නෙහි
+10	dae	dae	AUX	_	_	_	punct	_	orth=දැ|PunctType=Peri
+11	”	”	PUNCT	_	_	19	punct	_	orth=”|PunctSide=Fin|PunctType=Quot
+12	yi	yi	AUX	_	_	19	punct	_	orth=යි|PunctSide=Fin|PunctType=Quot
+13	aeyagen	aeyagen	PRON	_	_	_	_	_	orth=ඇයගෙන්
+14	aesuu	aesuu	VERB	_	_	0	root	_	orth=ඇසූ|gloss=asked|Tense=Past|VerbForm=Fin
+15	seeka	seeka	VERB	_	_	_	_	_	orth=සේක|gloss=up
+16	.	.	PUNCT	_	_	_	_	_	orth=.
+17	aee	aee	PRON	_	_	_	_	_	orth=ඈ|gloss=she
+18	pilituru	pilituru	VERB	_	_	0	root	_	orth=පිළිතුරු|gloss=replied|Tense=Past|VerbForm=Fin
+19	demin	demin	VERB	_	_	0	root	_	orth=දෙමින්|gloss=replied|Tense=Past|VerbForm=Fin
+20	,	,	PUNCT	_	_	_	punct	_	orth=,|PunctType=Comm
+21	“	“	PUNCT	_	_	19	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+22	obagee	obagee	PRON	_	_	_	_	_	orth=ඔබගේ|gloss=cons
+23	raajyayehi	raajyayehi	PROPN	_	_	_	pobj	_	orth=රාජ්‍යයෙහි|gloss=Kingdom|Number=Sing
+24	dii	dii	ADP	_	_	_	_	_	orth=දී|gloss=during
+25	mee	mee	DET	_	_	_	_	_	orth=මේ|gloss=ised
+26	maagee	maagee	PRON	_	_	_	poss	_	orth=මාගේ|gloss=my|Number=Sing|Person=1|Poss=Yes|PronType=Prs
+27	putun	putun	NOUN	_	_	_	_	_	orth=පුතුන්
+28	dedenaagen	dedenaagen	PRON	_	_	_	_	_	orth=දෙදෙනාගෙන්
+29	ek	ek	PRON	_	_	_	_	_	orth=එක්|gloss=6
+30	keneku	keneku	PRON	_	_	_	_	_	orth=කෙනෙකු|gloss=als
+31	obagee	obagee	PRON	_	_	_	_	_	orth=ඔබගේ|gloss=cons
+32	dakunu	dakunu	NOUN	_	_	_	pobj	_	orth=දකුණු|gloss=right|Number=Sing
+33	pasehi	pasehi	NOUN	_	_	_	nsubj	_	orth=පසෙහි|gloss=request|Number=Sing
+34	da	da	PART	_	_	_	cc	_	orth=ද|gloss=and|ConjType=Cmp
+35	ek	ek	PRON	_	_	_	_	_	orth=එක්|gloss=6
+36	keneku	keneku	PRON	_	_	_	_	_	orth=කෙනෙකු|gloss=als
+37	vam	vam	NOUN	_	_	_	pobj	_	orth=වම්|gloss=left|Number=Sing
+38	pasehi	pasehi	NOUN	_	_	_	nsubj	_	orth=පසෙහි|gloss=request|Number=Sing
+39	da	da	PART	_	_	_	cc	_	orth=ද|gloss=and|ConjType=Cmp
+40	hidagaeniimatta	hidagaeniimatta	VERB	_	_	_	_	_	orth=හිඳගැනීමට
+41	niyama	niyama	VERB	_	_	_	_	_	orth=නියම|gloss=ins
+42	kala	kala	VERB	_	_	_	_	_	orth=කළ|gloss=When
+43	maenavae	maenavae	VERB	_	_	_	_	_	orth=මැනවැ|gloss=lain
+44	”	”	PUNCT	_	_	19	punct	_	orth=”|PunctSide=Fin|PunctType=Quot
+45	yi	yi	AUX	_	_	19	punct	_	orth=යි|PunctSide=Fin|PunctType=Quot
+46	kiivaa	kiivaa	VERB	_	_	19	nsubj	_	orth=කීවා|gloss=She|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs
+47	ya	ya	AUX	_	_	_	_	_	orth=ය|gloss=a
+48	.	.	PUNCT	_	_	_	_	_	orth=.
+
+# sent_id = 40026002
+# ref_id = Matthew 26:2
+# eng_text = " You know that after two days the Passover is coming , and the Son of Man will be delivered up to be crucified . "
+# sin_text = “ tava dedinakin paasku mangalyaya paeminena bava oba dannahu ya; manusya-putrayaanan kurusiyehi aena gasanu laebiimatta paavaa denu aetae ” yi vadaala seeka .
+# sin_orth = “ තව දෙදිනකින් පාස්කු මංගල්‍යය පැමිණෙන බව ඔබ දන්නහු ය; මනුෂ්‍ය-පුත්‍රයාණන් කුරුසියෙහි ඇණ ගසනු ලැබීමට පාවා දෙනු ඇතැ ” යි වදාළ සේක .
+1	“	“	PUNCT	_	_	_	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+2	tava	tava	ADV	_	_	_	_	_	orth=තව|gloss=enty-four
+3	dedinakin	dedinakin	NUM	_	_	_	_	_	orth=දෙදිනකින්
+4	paasku	paasku	PROPN	_	_	_	nsubj	_	orth=පාස්කු|gloss=Passover|Number=Sing
+5	mangalyaya	mangalyaya	NOUN	_	_	_	_	_	orth=මංගල්‍යය|gloss=banqu
+6	paeminena	paeminena	VERB	_	_	_	_	_	orth=පැමිණෙන|gloss=ex
+7	bava	bava	NOUN	_	_	_	_	_	orth=බව|gloss=that
+8	oba	oba	PRON	_	_	_	nsubj	_	orth=ඔබ|gloss=you|Case=Nom|Person=2|PronType=Prs
+9	dannahu	dannahu	VERB	_	_	_	_	_	orth=දන්නහු|gloss=officials
+10	ya;	ya;	PRON	_	_	_	_	_	orth=ය;|gloss=uel
+11	manusya-putrayaanan	manusya-putrayaanan	PROPN	_	_	_	pobj	_	orth=මනුෂ්‍ය-පුත්‍රයාණන්|gloss=Man|Number=Sing
+12	kurusiyehi	kurusiyehi	VERB	_	_	_	advcl	_	orth=කුරුසියෙහි|gloss=crucified|Aspect=Perf|Tense=Past|VerbForm=Part
+13	aena	aena	VERB	_	_	_	advcl	_	orth=ඇණ|gloss=crucified|Aspect=Perf|Tense=Past|VerbForm=Part
+14	gasanu	gasanu	VERB	_	_	_	advcl	_	orth=ගසනු|gloss=crucified|Aspect=Perf|Tense=Past|VerbForm=Part
+15	laebiimatta	laebiimatta	VERB	_	_	_	_	_	orth=ලැබීමට|gloss=e
+16	paavaa	paavaa	NOUN	_	_	_	_	_	orth=පාවා|gloss=betray
+17	denu	denu	VERB	_	_	_	_	_	orth=දෙනු|gloss=advance
+18	aetae	aetae	AUX	_	_	_	_	_	orth=ඇතැ|gloss=declare
+19	”	”	PUNCT	_	_	_	punct	_	orth=”|PunctSide=Fin|PunctType=Quot
+20	yi	yi	AUX	_	_	_	punct	_	orth=යි|PunctSide=Fin|PunctType=Quot
+21	vadaala	vadaala	VERB	_	_	_	_	_	orth=වදාළ|gloss=go
+22	seeka	seeka	VERB	_	_	_	_	_	orth=සේක|gloss=up
+23	.	.	PUNCT	_	_	_	_	_	orth=.
+
+# sent_id = 40026061
+# ref_id = Matthew 26:61
+# eng_text = and said , " This man said , ' I am able to destroy the temple of God , and to build it in three days . ' "
+# sin_text = “ ‘ deeva maaligaava kaddaadamaa eya tun dinakin yali goddanaganna matta puluvana ’ kiyaa mohu kiivee ya ” yi kii ha .
+# sin_orth = “ ‘ දේව මාලිගාව කඩාදමා එය තුන් දිනකින් යළි ගොඩනඟන්න මට පුළුවන ’ කියා මොහු කීවේ ය ” යි කී හ .
+1	“	“	PUNCT	_	_	_	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+2	‘	‘	PUNCT	_	_	_	punct	_	orth=‘|PunctSide=Ini|PunctType=Quot
+3	deeva	deeva	PROPN	_	_	_	dobj	_	orth=දේව|gloss=Temple|Number=Sing
+4	maaligaava	maaligaava	NOUN	_	_	_	_	_	orth=මාලිගාව|gloss=fools
+5	kaddaadamaa	kaddaadamaa	VERB	_	_	_	_	_	orth=කඩාදමා
+6	eya	eya	PRON	_	_	_	_	_	orth=එය|gloss=itself
+7	tun	tun	NUM	_	_	_	_	_	orth=තුන්|gloss=third
+8	dinakin	dinakin	NOUN	_	_	_	_	_	orth=දිනකින්
+9	yali	yali	ADV	_	_	_	_	_	orth=යළි|gloss=rebu
+10	goddanaganna	goddanaganna	VERB	_	_	_	_	_	orth=ගොඩනඟන්න
+11	matta	matta	PRON	_	_	_	_	_	orth=මට|gloss=me
+12	puluvana	puluvana	AUX	_	_	_	_	_	orth=පුළුවන
+13	’	’	PUNCT	_	_	_	punct	_	orth=’|PunctSide=Fin|PunctType=Quot
+14	kiyaa	kiyaa	VERB	_	_	_	_	_	orth=කියා|gloss=ons
+15	mohu	mohu	PRON	_	_	_	_	_	orth=මොහු|gloss=crime
+16	kiivee	kiivee	VERB	_	_	_	_	_	orth=කීවේ|gloss=referring
+17	ya	ya	AUX	_	_	_	_	_	orth=ය|gloss=a
+18	”	”	PUNCT	_	_	0	root	_	orth=”|PunctSide=Fin|PunctType=Quot
+19	yi	yi	AUX	_	_	0	root	_	orth=යි|PunctSide=Fin|PunctType=Quot
+20	kii	kii	VERB	_	_	_	_	_	orth=කී|gloss=denied
+21	ha	ha	CCONJ	_	_	_	_	_	orth=හ|gloss=some
+22	.	.	PUNCT	_	_	_	_	_	orth=.
+
+# sent_id = 40028016
+# ref_id = Matthew 28:16
+# eng_text = But the eleven disciples went into Galilee , to the mountain where Jesus had sent them .
+# sin_text = sraavakayoo ekolos denaa jeesus vahansee ovuntta niyama kala paridi galiilayee kandatta giyaha .
+# sin_orth = ශ්‍රාවකයෝ එකොළොස් දෙනා ජේසුස් වහන්සේ ඔවුන්ට නියම කළ පරිදි ගලීලයේ කන්දට ගියහ .
+1	sraavakayoo	sraavakayoo	NOUN	_	_	_	nsubj	_	orth=ශ්‍රාවකයෝ|gloss=disciples|Number=Plur
+2	ekolos	ekolos	NUM	_	_	_	_	_	orth=එකොළොස්
+3	denaa	denaa	NOUN	_	_	_	_	_	orth=දෙනා|gloss=twelve
+4	jeesus	jeesus	PROPN	_	_	_	nsubj	_	orth=ජේසුස්|gloss=Jesus|Number=Sing
+5	vahansee	vahansee	NOUN	_	_	_	_	_	orth=වහන්සේ|gloss=from
+6	ovuntta	ovuntta	PRON	_	_	_	dobj	_	orth=ඔවුන්ට|gloss=them|Case=Acc|Number=Plur|Person=3|PronType=Prs
+7	niyama	niyama	VERB	_	_	_	_	_	orth=නියම|gloss=ins
+8	kala	kala	VERB	_	_	_	_	_	orth=කළ|gloss=When
+9	paridi	paridi	ADP	_	_	_	_	_	orth=පරිදි|gloss=is
+10	galiilayee	galiilayee	PROPN	_	_	_	pobj	_	orth=ගලීලයේ|gloss=Galilee|Number=Sing
+11	kandatta	kandatta	NOUN	_	_	_	_	_	orth=කන්දට|gloss=Olives
+12	giyaha	giyaha	VERB	_	_	_	_	_	orth=ගියහ|gloss=Mount
+13	.	.	PUNCT	_	_	_	_	_	orth=.
+
+# sent_id = 41002023
+# ref_id = Mark 2:23
+# eng_text = It happened , that he was going on the Sabbath day through the grain fields , and his disciples began , as they went , to pluck the ears of grain .
+# sin_text = tavada , un vahansee sabat dinayee dii velyaayak maedin vaddina vitta , un vahanseegee sraavakayoo karal kadda kaddaa giyaha .
+# sin_orth = තවද , උන් වහන්සේ සබත් දිනයේ දී වෙල්යායක් මැදින් වඩින විට , උන් වහන්සේගේ ශ්‍රාවකයෝ කරල් කඩ කඩා ගියහ .
+1	tavada	tavada	ADV	_	_	_	_	_	orth=තවද|gloss=ledge
+2	,	,	PUNCT	_	_	_	punct	_	orth=,|PunctType=Comm
+3	un	un	PRON	_	_	_	_	_	orth=උන්|gloss=He
+4	vahansee	vahansee	NOUN	_	_	_	_	_	orth=වහන්සේ|gloss=from
+5	sabat	sabat	PROPN	_	_	_	compound	_	orth=සබත්|gloss=Sabbath|Number=Sing
+6	dinayee	dinayee	NOUN	_	_	_	pobj	_	orth=දිනයේ|gloss=grain|Number=Sing
+7	dii	dii	ADP	_	_	_	_	_	orth=දී|gloss=during
+8	velyaayak	velyaayak	NOUN	_	_	_	_	_	orth=වෙල්යායක්
+9	maedin	maedin	ADP	_	_	_	_	_	orth=මැදින්|gloss=Ph
+10	vaddina	vaddina	VERB	_	_	_	_	_	orth=වඩින|gloss=ield
+11	vitta	vitta	SCONJ	_	_	_	_	_	orth=විට|gloss=pit
+12	,	,	PUNCT	_	_	_	punct	_	orth=,|PunctType=Comm
+13	un	un	PRON	_	_	_	_	_	orth=උන්|gloss=He
+14	vahanseegee	vahanseegee	DET	_	_	_	_	_	orth=වහන්සේගේ|gloss=eag
+15	sraavakayoo	sraavakayoo	NOUN	_	_	_	nsubj	_	orth=ශ්‍රාවකයෝ|gloss=disciples|Number=Plur
+16	karal	karal	NOUN	_	_	_	_	_	orth=කරල්
+17	kadda	kadda	VERB	_	_	_	_	_	orth=කඩ|gloss=hing
+18	kaddaa	kaddaa	VERB	_	_	_	_	_	orth=කඩා|gloss=broke
+19	giyaha	giyaha	VERB	_	_	_	_	_	orth=ගියහ|gloss=Mount
+20	.	.	PUNCT	_	_	_	_	_	orth=.
+
+# sent_id = 41012032
+# ref_id = Mark 12:32
+# eng_text = The scribe said to him , " Truly , teacher , you have said well that he is one , and there is none other but he ,
+# sin_text = evitta vinayadarayaa un vahanseetta pilituru demin , “ gurudeevayeni , eya saebae ya . ‘ un vahansee eka ma taenaen vahansee ya’yi oba kiivaa hari ya . un vahansee haera an devi kenek naeta .
+# sin_orth = එවිට විනයධරයා උන් වහන්සේට පිළිතුරු දෙමින් , “ ගුරුදේවයෙනි , එය සැබෑ ය . ‘ උන් වහන්සේ එක ම තැනැන් වහන්සේ ය’යි ඔබ කීවා හරි ය . උන් වහන්සේ හැර අන් දෙවි ‍ කෙනෙක් නැත .
+1	evitta	evitta	ADV	_	_	_	_	_	orth=එවිට|gloss=So
+2	vinayadarayaa	vinayadarayaa	PROPN	_	_	_	_	_	orth=විනයධරයා
+3	un	un	PRON	_	_	_	_	_	orth=උන්|gloss=He
+4	vahanseetta	vahanseetta	PRON	_	_	_	_	_	orth=වහන්සේට|gloss=val
+5	pilituru	pilituru	VERB	_	_	0	root	_	orth=පිළිතුරු|gloss=replied|Tense=Past|VerbForm=Fin
+6	demin	demin	VERB	_	_	0	root	_	orth=දෙමින්|gloss=replied|Tense=Past|VerbForm=Fin
+7	,	,	PUNCT	_	_	_	punct	_	orth=,|PunctType=Comm
+8	“	“	PUNCT	_	_	6	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+9	gurudeevayeni	gurudeevayeni	NOUN	_	_	_	npadvmod	_	orth=ගුරුදේවයෙනි|gloss=Teacher|Number=Sing
+10	,	,	PUNCT	_	_	_	punct	_	orth=,|PunctType=Comm
+11	eya	eya	PRON	_	_	_	_	_	orth=එය|gloss=itself
+12	saebae	saebae	ADJ	_	_	_	_	_	orth=සැබෑ|gloss=true
+13	ya	ya	AUX	_	_	_	_	_	orth=ය|gloss=a
+14	.	.	PUNCT	_	_	_	_	_	orth=.
+15	‘	‘	PUNCT	_	_	_	_	_	orth=‘
+16	un	un	PRON	_	_	_	_	_	orth=උන්|gloss=He
+17	vahansee	vahansee	NOUN	_	_	_	_	_	orth=වහන්සේ|gloss=from
+18	eka	eka	NUM	_	_	_	_	_	orth=එක|gloss=ified
+19	ma	ma	PART	_	_	_	_	_	orth=ම|gloss=own
+20	taenaen	taenaen	NOUN	_	_	_	_	_	orth=තැනැන්|gloss=Sarah
+21	vahansee	vahansee	NOUN	_	_	_	_	_	orth=වහන්සේ|gloss=from
+22	ya’yi	ya’yi	AUX	_	_	_	_	_	orth=ය’යි
+23	oba	oba	PRON	_	_	_	_	_	orth=ඔබ|gloss=you
+24	kiivaa	kiivaa	VERB	_	_	_	_	_	orth=කීවා|gloss=She
+25	hari	hari	ADJ	_	_	_	_	_	orth=හරි|gloss=gri
+26	ya	ya	AUX	_	_	_	_	_	orth=ය|gloss=a
+27	.	.	PUNCT	_	_	_	_	_	orth=.
+28	un	un	PRON	_	_	_	_	_	orth=උන්|gloss=He
+29	vahansee	vahansee	NOUN	_	_	_	_	_	orth=වහන්සේ|gloss=from
+30	haera	haera	ADP	_	_	_	_	_	orth=හැර|gloss=ninety-nine
+31	an	an	ADJ	_	_	_	_	_	orth=අන්|gloss=another
+32	devi	devi	NOUN	_	_	_	_	_	orth=දෙවි|gloss=strength
+33	kenek	kenek	NOUN	_	_	_	_	_	orth=‍|gloss=Another
+34	naeta	naeta	AUX	_	_	_	_	_	orth=කෙනෙක්|gloss=isn’t
+35	.	.	PUNCT	_	_	_	_	_	orth=නැත
+
+# sent_id = 41014037
+# ref_id = Mark 14:37
+# eng_text = He came and found them sleeping , and said to Peter , " Simon , are you sleeping ? Couldn't you watch one hour ?
+# sin_text = pasuva un vahansee avut , ovun nidaa hidinu daeka , peeduru amataa , “ siimon oba nidi da ? paeyak vat avadi va inna obatta nohaeki vuuyee da ?
+# sin_orth = පසුව උන් වහන්සේ අවුත් , ඔවුන් නිදා හිඳිනු දැක , පේදුරු අමතා , “ සීමොන් ඔබ නිදි ද ? පැයක් වත් අවදි ව ඉන්න ඔබට නොහැකි වූයේ ද ?
+1	pasuva	pasuva	ADV	_	_	_	_	_	orth=පසුව|gloss=ough
+2	un	un	PRON	_	_	_	nsubj	_	orth=උන්|gloss=He|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+3	vahansee	vahansee	NOUN	_	_	_	_	_	orth=වහන්සේ|gloss=from
+4	avut	avut	VERB	_	_	_	_	_	orth=අවුත්|gloss=ean
+5	,	,	PUNCT	_	_	_	punct	_	orth=,|PunctType=Comm
+6	ovun	ovun	PRON	_	_	_	_	_	orth=ඔවුන්|gloss=them
+7	nidaa	nidaa	ADJ	_	_	_	acomp	_	orth=නිදා|gloss=asleep|Degree=Pos
+8	hidinu	hidinu	ADJ	_	_	_	acomp	_	orth=හිඳිනු|gloss=asleep|Degree=Pos
+9	daeka	daeka	VERB	_	_	_	_	_	orth=දැක|gloss=saw
+10	,	,	PUNCT	_	_	_	punct	_	orth=,|PunctType=Comm
+11	peeduru	peeduru	PROPN	_	_	_	pobj	_	orth=පේදුරු|gloss=Peter|Number=Sing
+12	amataa	amataa	VERB	_	_	_	_	_	orth=අමතා|gloss=Thomas
+13	,	,	PUNCT	_	_	_	punct	_	orth=,|PunctType=Comm
+14	“	“	PUNCT	_	_	_	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+15	siimon	siimon	PROPN	_	_	_	npadvmod	_	orth=සීමොන්|gloss=Simon|Number=Sing
+16	oba	oba	PRON	_	_	24	nsubj	_	orth=ඔබ|gloss=you|Case=Nom|Person=2|PronType=Prs
+17	nidi	nidi	ADJ	_	_	_	acomp	_	orth=නිදි|gloss=asleep|Degree=Pos
+18	da	da	PART	_	_	_	cc	_	orth=ද|gloss=and|ConjType=Cmp
+19	?	?	PUNCT	_	_	24	punct	_	orth=?|PunctType=Peri
+20	paeyak	paeyak	NUM	_	_	_	_	_	orth=පැයක්
+21	vat	vat	ADV	_	_	_	advmod	_	orth=වත්|gloss=even
+22	avadi	avadi	VERB	_	_	0	root	_	orth=අවදි|gloss=watch|VerbForm=Inf
+23	va	va	PART	_	_	_	_	_	orth=ව|gloss=id
+24	inna	inna	VERB	_	_	0	root	_	orth=ඉන්න|gloss=watch|VerbForm=Inf
+25	obatta	obatta	PRON	_	_	_	_	_	orth=ඔබට|gloss=Young
+26	nohaeki	nohaeki	ADJ	_	_	_	_	_	orth=නොහැකි|gloss=cannot
+27	vuuyee	vuuyee	AUX	_	_	_	_	_	orth=වූයේ|gloss=par
+28	da	da	PART	_	_	_	cc	_	orth=ද|gloss=and|ConjType=Cmp
+29	?	?	PUNCT	_	_	24	punct	_	orth=?|PunctType=Peri
+
+# sent_id = 42004002
+# ref_id = Luke 4:2
+# eng_text = for forty days , being tempted by the devil . He ate nothing in those days . Afterward , when they were completed , he was hungry .
+# sin_text = ehi dii dina satalisak mulullee yaksayaa un vahansee pariiksaa kelee ya . ee davasvala dii un vahansee kisivak novaeladuu seeka . ee kaalaya nima vuu pasu un vahanseetta kusagini aeti viya .
+# sin_orth = එහි දී දින සතළිසක් මුළුල්ලේ යක්ෂයා උන් වහන්සේ පරීක්ෂා කෙළේ ය . ඒ දවස්වල දී උන් වහන්සේ කිසිවක් නොවැළඳූ සේක . ඒ කාලය නිම වූ පසු උන් වහන්සේට කුසගිනි ඇති විය .
+1	ehi	ehi	ADV	_	_	_	_	_	orth=එහි|gloss=there
+2	dii	dii	ADP	_	_	_	_	_	orth=දී|gloss=during
+3	dina	dina	NOUN	_	_	_	_	_	orth=දින|gloss=Sabbath
+4	satalisak	satalisak	NUM	_	_	_	_	_	orth=සතළිසක්
+5	mulullee	mulullee	NOUN	_	_	_	_	_	orth=මුළුල්ලේ
+6	yaksayaa	yaksayaa	NOUN	_	_	_	pobj	_	orth=යක්ෂයා|gloss=devil|Number=Sing
+7	un	un	PRON	_	_	_	_	_	orth=උන්|gloss=He
+8	vahansee	vahansee	NOUN	_	_	_	_	_	orth=වහන්සේ|gloss=from
+9	pariiksaa	pariiksaa	VERB	_	_	_	_	_	orth=පරීක්ෂා|gloss=trap
+10	kelee	kelee	VERB	_	_	_	_	_	orth=කෙළේ|gloss=daughter
+11	ya	ya	AUX	_	_	_	_	_	orth=ය|gloss=a
+12	.	.	PUNCT	_	_	_	_	_	orth=.
+13	ee	ee	DET	_	_	_	_	_	orth=ඒ|gloss=at
+14	davasvala	davasvala	NOUN	_	_	_	pobj	_	orth=දවස්වල|gloss=days|Number=Plur
+15	dii	dii	ADP	_	_	_	_	_	orth=දී|gloss=during
+16	un	un	PRON	_	_	_	_	_	orth=උන්|gloss=He
+17	vahansee	vahansee	NOUN	_	_	_	_	_	orth=වහන්සේ|gloss=from
+18	kisivak	kisivak	PRON	_	_	_	_	_	orth=කිසිවක්|gloss=Nothing
+19	novaeladuu	novaeladuu	VERB	_	_	_	_	_	orth=නොවැළඳූ
+20	seeka	seeka	VERB	_	_	_	_	_	orth=සේක|gloss=up
+21	.	.	PUNCT	_	_	_	_	_	orth=.
+22	ee	ee	DET	_	_	_	_	_	orth=ඒ|gloss=at
+23	kaalaya	kaalaya	NOUN	_	_	_	npadvmod	_	orth=කාලය|gloss=time|Number=Sing
+24	nima	nima	VERB	_	_	_	_	_	orth=නිම|gloss=finished
+25	vuu	vuu	AUX	_	_	_	_	_	orth=වූ|gloss=j
+26	pasu	pasu	ADV	_	_	_	_	_	orth=පසු|gloss=After
+27	un	un	PRON	_	_	_	_	_	orth=උන්|gloss=He
+28	vahanseetta	vahanseetta	PRON	_	_	_	_	_	orth=වහන්සේට|gloss=val
+29	kusagini	kusagini	NOUN	_	_	_	_	_	orth=කුසගිනි
+30	aeti	aeti	NOUN	_	_	_	_	_	orth=ඇති|gloss=members
+31	viya	viya	AUX	_	_	_	_	_	orth=විය|gloss=quickly
+32	.	.	PUNCT	_	_	_	_	_	orth=.
+
+# sent_id = 42016013
+# ref_id = Luke 16:13
+# eng_text = No servant can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You aren't able to serve God and mammon . "
+# sin_text = svaamivarun dedenekutta seevaya karanna kisi seevakayekutta nupuluvana; manda , ohu ek kenekutta vaira karannee ya; anek ayatta preema karannee ya . nohot ek kenekutta laedi vannee ya; anik aya helaa dakinnee ya . deviyan vahanseetta haa vastuvatta ekavitta ma seevaya karannatta obatta baeri ya . ”
+# sin_orth = ස්වාමිවරුන් දෙදෙනෙකුට සේවය කරන්න කිසි සේවකයෙකුට නුපුළුවන; මන්ද , ඔහු එක් කෙනෙකුට වෛර කරන්නේ ය; අනෙක් අයට ප්‍රේම කරන්නේ ය . නොහොත් එක් කෙනෙකුට ලැදි වන්නේ ය; අනික් අය හෙළා දකින්නේ ය . දෙවියන් වහන්සේට හා වස්තුවට එකවිට ම සේවය කරන්නට ඔබට බැරි ය . ”
+1	svaamivarun	svaamivarun	NOUN	_	_	_	_	_	orth=ස්වාමිවරුන්
+2	dedenekutta	dedenekutta	DET	_	_	_	_	_	orth=දෙදෙනෙකුට
+3	seevaya	seevaya	VERB	_	_	0	root	_	orth=සේවය|gloss=serve|VerbForm=Inf
+4	karanna	karanna	NOUN	_	_	3	dobj	_	orth=කරන්න|gloss=masters|Number=Plur
+5	kisi	kisi	PRON	_	_	_	_	_	orth=කිසි|gloss=never
+6	seevakayekutta	seevakayekutta	NOUN	_	_	_	_	_	orth=සේවකයෙකුට
+7	nupuluvana;	nupuluvana;	VERB	_	_	_	_	_	orth=නුපුළුවන;
+8	manda	manda	ADP	_	_	_	prep	_	orth=මන්ද|gloss=For
+9	,	,	PUNCT	_	_	_	_	_	orth=,
+10	ohu	ohu	PRON	_	_	_	_	_	orth=ඔහු|gloss=prostit
+11	ek	ek	PRON	_	_	_	_	_	orth=එක්|gloss=6
+12	kenekutta	kenekutta	PRON	_	_	_	_	_	orth=කෙනෙකුට|gloss=mist
+13	vaira	vaira	NOUN	_	_	_	_	_	orth=වෛර|gloss=hates
+14	karannee	karannee	VERB	_	_	_	_	_	orth=කරන්නේ|gloss=imate
+15	ya;	ya;	PRON	_	_	_	_	_	orth=ය;|gloss=uel
+16	anek	anek	ADJ	_	_	_	_	_	orth=අනෙක්|gloss=Tw
+17	ayatta	ayatta	NOUN	_	_	_	_	_	orth=අයට|gloss=those
+18	preema	preema	VERB	_	_	_	conj	_	orth=ප්‍රේම|gloss=love|VerbForm=Inf
+19	karannee	karannee	VERB	_	_	_	_	_	orth=කරන්නේ|gloss=imate
+20	ya	ya	AUX	_	_	_	_	_	orth=ය|gloss=a
+21	.	.	PUNCT	_	_	_	_	_	orth=.
+22	nohot	nohot	CONJ	_	_	_	_	_	orth=නොහොත්|gloss=we’ve
+23	ek	ek	PRON	_	_	_	_	_	orth=එක්|gloss=6
+24	kenekutta	kenekutta	PRON	_	_	_	_	_	orth=කෙනෙකුට|gloss=mist
+25	laedi	laedi	VERB	_	_	_	_	_	orth=ලැදි
+26	vannee	vannee	VERB	_	_	_	_	_	orth=වන්නේ|gloss=weeping
+27	ya;	ya;	PRON	_	_	_	_	_	orth=ය;|gloss=uel
+28	anik	anik	PRON	_	_	_	_	_	orth=අනික්|gloss=Two
+29	aya	aya	NOUN	_	_	_	_	_	orth=අය|gloss=Dam
+30	helaa	helaa	VERB	_	_	_	_	_	orth=හෙළා|gloss=look
+31	dakinnee	dakinnee	VERB	_	_	_	_	_	orth=දකින්නේ
+32	ya	ya	AUX	_	_	_	_	_	orth=ය|gloss=a
+33	.	.	PUNCT	_	_	_	_	_	orth=.
+34	deviyan	deviyan	PROPN	_	_	40	dobj	_	orth=දෙවියන්|gloss=God|Number=Sing
+35	vahanseetta	vahanseetta	PRON	_	_	_	_	_	orth=වහන්සේට|gloss=val
+36	haa	haa	CONJ	_	_	_	_	_	orth=හා|gloss=crippled
+37	vastuvatta	vastuvatta	NOUN	_	_	_	_	_	orth=වස්තුවට
+38	ekavitta	ekavitta	ADV	_	_	_	_	_	orth=එකවිට
+39	ma	ma	PART	_	_	_	_	_	orth=ම|gloss=own
+40	seevaya	seevaya	VERB	_	_	0	root	_	orth=සේවය|gloss=serve|VerbForm=Inf
+41	karannatta	karannatta	VERB	_	_	_	_	_	orth=කරන්නට|gloss=accus
+42	obatta	obatta	PRON	_	_	_	_	_	orth=ඔබට|gloss=Young
+43	baeri	baeri	ADJ	_	_	_	_	_	orth=බැරි|gloss=tre
+44	ya	ya	AUX	_	_	_	_	_	orth=ය|gloss=a
+45	.	.	PUNCT	_	_	_	_	_	orth=.
+46	”	”	PUNCT	_	_	40	punct	_	orth=”|PunctSide=Fin|PunctType=Quot
+
+# sent_id = 42024018
+# ref_id = Luke 24:18
+# eng_text = One of them , named Cleopas , answered him , " Are you the only one travelling in Jerusalem who doesn't know the things which have happened there in these days ? "
+# sin_text = ovungen kleeyoopas nam taenaettaa uttara demin , “ mee davasvala jerusalamehi siduvuu kaaranaa nodaena sittina amuttaa oba pamanak dae ” yi un vahanseetta kii ya .
+# sin_orth = ඔවුන්ගෙන් ක්ලේයෝපස් නම් තැනැත්තා උත්තර දෙමින් , “ මේ දවස්වල ජෙරුසලමෙහි සිදුවූ කාරණා නොදැන සිටින අමුත්තා ඔබ පමණක් දැ ” යි උන් වහන්සේට කී ය .
+1	ovungen	ovungen	PRON	_	_	_	_	_	orth=ඔවුන්ගෙන්|gloss=Greek
+2	kleeyoopas	kleeyoopas	PROPN	_	_	_	_	_	orth=ක්ලේයෝපස්
+3	nam	nam	PART	_	_	_	_	_	orth=නම්|gloss=If
+4	taenaettaa	taenaettaa	NOUN	_	_	_	attr	_	orth=තැනැත්තා|gloss=person|Number=Sing
+5	uttara	uttara	NOUN	_	_	_	_	_	orth=උත්තර|gloss=faithless
+6	demin	demin	VERB	_	_	0	root	_	orth=දෙමින්|gloss=replied|Tense=Past|VerbForm=Fin
+7	,	,	PUNCT	_	_	6	punct	_	orth=,|PunctType=Comm
+8	“	“	PUNCT	_	_	6	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+9	mee	mee	DET	_	_	_	_	_	orth=මේ|gloss=ised
+10	davasvala	davasvala	NOUN	_	_	12	npadvmod	_	orth=දවස්වල|gloss=days|Number=Plur
+11	jerusalamehi	jerusalamehi	PART	_	_	_	neg	_	orth=ජෙරුසලමෙහි|gloss=n’t
+12	siduvuu	siduvuu	VERB	_	_	_	relcl	_	orth=සිදුවූ|gloss=happened|Aspect=Perf|Tense=Past|VerbForm=Part
+13	kaaranaa	kaaranaa	NOUN	_	_	_	_	_	orth=කාරණා|gloss=m
+14	nodaena	nodaena	VERB	_	_	_	_	_	orth=නොදැන|gloss=realize
+15	sittina	sittina	VERB	_	_	_	_	_	orth=සිටින|gloss=F
+16	amuttaa	amuttaa	NOUN	_	_	_	_	_	orth=අමුත්තා
+17	oba	oba	PRON	_	_	_	_	_	orth=ඔබ|gloss=you
+18	pamanak	pamanak	ADJ	_	_	4	amod	_	orth=පමණක්|gloss=only|Degree=Pos
+19	dae	dae	AUX	_	_	_	_	_	orth=දැ
+20	”	”	PUNCT	_	_	6	punct	_	orth=”|PunctSide=Fin|PunctType=Quot
+21	yi	yi	AUX	_	_	6	punct	_	orth=යි|PunctSide=Fin|PunctType=Quot
+22	un	un	PRON	_	_	_	_	_	orth=උන්|gloss=He
+23	vahanseetta	vahanseetta	PRON	_	_	_	_	_	orth=වහන්සේට|gloss=val
+24	kii	kii	VERB	_	_	_	_	_	orth=කී|gloss=denied
+25	ya	ya	AUX	_	_	_	_	_	orth=ය|gloss=a
+26	.	.	PUNCT	_	_	_	_	_	orth=.
+
+# sent_id = 43001039
+# ref_id = John 1:39
+# eng_text = He said to them , " Come , and see . " They came and saw where he was staying , and they stayed with him that day . It was about the tenth hour .
+# sin_text = “ aevit balannae ” yi un vahansee ovuntta vadaala seeka . esee ovhu avut un vahansee vaedda vasana staanaya daeka , edina un vahansee samaga gata kalaha . veelaava savasa hataratta pamana vii ya .
+# sin_orth = “ ඇවිත් බලන්නැ ” යි උන් වහන්සේ ඔවුන්ට වදාළ සේක . එසේ ඔව්හු අවුත් උන් වහන්සේ වැඩ වසන ස්ථානය දැක , එදින උන් වහන්සේ සමඟ ගත කළහ . වේලාව සවස හතරට පමණ වී ය .
+1	“	“	PUNCT	_	_	_	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+2	aevit	aevit	VERB	_	_	_	_	_	orth=ඇවිත්|gloss=Could
+3	balannae	balannae	VERB	_	_	_	_	_	orth=බලන්නැ
+4	”	”	PUNCT	_	_	_	punct	_	orth=”|PunctSide=Fin|PunctType=Quot
+5	yi	yi	AUX	_	_	_	punct	_	orth=යි|PunctSide=Fin|PunctType=Quot
+6	un	un	PRON	_	_	_	_	_	orth=උන්|gloss=He
+7	vahansee	vahansee	NOUN	_	_	_	_	_	orth=වහන්සේ|gloss=from
+8	ovuntta	ovuntta	PRON	_	_	_	_	_	orth=ඔවුන්ට|gloss=them
+9	vadaala	vadaala	VERB	_	_	_	_	_	orth=වදාළ|gloss=go
+10	seeka	seeka	VERB	_	_	_	_	_	orth=සේක|gloss=up
+11	.	.	PUNCT	_	_	_	_	_	orth=.
+12	esee	esee	ADV	_	_	_	_	_	orth=එසේ|gloss=without
+13	ovhu	ovhu	PRON	_	_	_	_	_	orth=ඔව්හු|gloss=They
+14	avut	avut	VERB	_	_	_	_	_	orth=අවුත්|gloss=ean
+15	un	un	PRON	_	_	_	_	_	orth=උන්|gloss=He
+16	vahansee	vahansee	NOUN	_	_	_	_	_	orth=වහන්සේ|gloss=from
+17	vaedda	vaedda	NOUN	_	_	_	_	_	orth=වැඩ|gloss=sits
+18	vasana	vasana	VERB	_	_	_	_	_	orth=වසන|gloss=gr
+19	staanaya	staanaya	NOUN	_	_	_	_	_	orth=ස්ථානය|gloss=ias
+20	daeka	daeka	VERB	_	_	_	_	_	orth=දැක|gloss=saw
+21	,	,	PUNCT	_	_	_	punct	_	orth=,|PunctType=Comm
+22	edina	edina	ADV	_	_	_	_	_	orth=එදින
+23	un	un	PRON	_	_	_	_	_	orth=උන්|gloss=He
+24	vahansee	vahansee	NOUN	_	_	_	_	_	orth=වහන්සේ|gloss=from
+25	samaga	samaga	ADP	_	_	_	prep	_	orth=සමඟ|gloss=with
+26	gata	gata	VERB	_	_	_	_	_	orth=ගත|gloss=vis
+27	kalaha	kalaha	VERB	_	_	_	_	_	orth=කළහ|gloss=branch
+28	.	.	PUNCT	_	_	_	_	_	orth=.
+29	veelaava	veelaava	NOUN	_	_	_	_	_	orth=වේලාව|gloss=noon
+30	savasa	savasa	NOUN	_	_	_	attr	_	orth=සවස|gloss=o’clock|Number=Sing
+31	hataratta	hataratta	NUM	_	_	_	_	_	orth=හතරට
+32	pamana	pamana	PART	_	_	_	_	_	orth=පමණ|gloss=5,000
+33	vii	vii	PART	_	_	_	_	_	orth=වී|gloss=Al
+34	ya	ya	AUX	_	_	_	_	_	orth=ය|gloss=a
+35	.	.	PUNCT	_	_	_	_	_	orth=.
+
+# sent_id = 43003016
+# ref_id = John 3:16
+# eng_text = For God so loved the world , that he gave his one and only Son , that whoever believes in him should not perish , but have eternal life .
+# sin_text = “ deviyan vahansee lookayaatta kotaram preema kala seek da kiivot , svakiiya eeka jaataka putrayaanan vuva da lovatta devaa vadaala seeka . esee kelee , un vahansee kerehi adahana siyalu denaa ma vinaasa novii sadaatana jiivanaya labana pinisa ya .
+# sin_orth = “ දෙවියන් වහන්සේ ලෝකයාට කොතරම් ප්‍රේම කළ සේක් ද කීවොත් , ස්වකීය ඒක ජාතක පුත්‍රයාණන් වුව ද ලොවට දෙවා වදාළ සේක . එසේ කෙළේ , උන් වහන්සේ කෙරෙහි අදහන සියලු දෙනා ම විනාශ නොවී සදාතන ජීවනය ලබන පිණිස ය .
+1	“	“	PUNCT	_	_	_	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+2	deviyan	deviyan	PROPN	_	_	_	nsubj	_	orth=දෙවියන්|gloss=God|Number=Sing
+3	vahansee	vahansee	NOUN	_	_	_	_	_	orth=වහන්සේ|gloss=from
+4	lookayaatta	lookayaatta	NOUN	_	_	_	_	_	orth=ලෝකයාට|gloss=ict
+5	kotaram	kotaram	ADV	_	_	_	_	_	orth=කොතරම්|gloss=doubt
+6	preema	preema	VERB	_	_	_	_	_	orth=ප්‍රේම|gloss=love
+7	kala	kala	VERB	_	_	_	_	_	orth=කළ|gloss=When
+8	seek	seek	AUX	_	_	_	_	_	orth=සේක්|gloss=s
+9	da	da	PART	_	_	_	cc	_	orth=ද|gloss=and|ConjType=Cmp
+10	kiivot	kiivot	VERB	_	_	_	_	_	orth=කීවොත්|gloss=consider
+11	,	,	PUNCT	_	_	_	punct	_	orth=,|PunctType=Comm
+12	svakiiya	svakiiya	ADJ	_	_	_	_	_	orth=ස්වකීය|gloss=predicted
+13	eeka	eeka	ADV	_	_	_	advmod	_	orth=ඒක|gloss=much
+14	jaataka	jaataka	ADJ	_	_	_	_	_	orth=ජාතක
+15	putrayaanan	putrayaanan	PROPN	_	_	_	appos	_	orth=පුත්‍රයාණන්|gloss=Son|Number=Sing
+16	vuva	vuva	VERB	_	_	_	_	_	orth=වුව|gloss=seasoning
+17	da	da	PART	_	_	_	cc	_	orth=ද|gloss=and|ConjType=Cmp
+18	lovatta	lovatta	NOUN	_	_	_	_	_	orth=ලොවට
+19	devaa	devaa	PRON	_	_	_	nsubj	_	orth=දෙවා|gloss=everyone|Number=Sing|PronType=Ind
+20	vadaala	vadaala	VERB	_	_	_	_	_	orth=වදාළ|gloss=go
+21	seeka	seeka	VERB	_	_	_	_	_	orth=සේක|gloss=up
+22	.	.	PUNCT	_	_	_	_	_	orth=.
+23	esee	esee	ADV	_	_	_	_	_	orth=එසේ|gloss=without
+24	kelee	kelee	VERB	_	_	_	_	_	orth=කෙළේ|gloss=daughter
+25	,	,	PUNCT	_	_	_	punct	_	orth=,|PunctType=Comm
+26	un	un	PRON	_	_	_	_	_	orth=උන්|gloss=He
+27	vahansee	vahansee	NOUN	_	_	_	_	_	orth=වහන්සේ|gloss=from
+28	kerehi	kerehi	ADP	_	_	_	_	_	orth=කෙරෙහි|gloss=together
+29	adahana	adahana	VERB	_	_	19	relcl	_	orth=අදහන|gloss=believes|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+30	siyalu	siyalu	ADJ	_	_	_	_	_	orth=සියලු|gloss=All
+31	denaa	denaa	NOUN	_	_	_	_	_	orth=දෙනා|gloss=twelve
+32	ma	ma	PART	_	_	_	_	_	orth=ම|gloss=own
+33	vinaasa	vinaasa	NOUN	_	_	_	_	_	orth=විනාශ|gloss=destroy
+34	novii	novii	VERB	_	_	_	_	_	orth=නොවී|gloss=Instead
+35	sadaatana	sadaatana	ADJ	_	_	36	amod	_	orth=සදාතන|gloss=eternal|Degree=Pos
+36	jiivanaya	jiivanaya	NOUN	_	_	_	dobj	_	orth=ජීවනය|gloss=life|Number=Sing
+37	labana	labana	VERB	_	_	_	_	_	orth=ලබන|gloss=covenant
+38	pinisa	pinisa	SCONJ	_	_	_	mark	_	orth=පිණිස|gloss=so
+39	ya	ya	AUX	_	_	_	_	_	orth=ය|gloss=a
+40	.	.	PUNCT	_	_	_	_	_	orth=.
+
+# sent_id = 44002030
+# ref_id = Acts 2:30
+# eng_text = Therefore , being a prophet , and knowing that God had sworn with an oath to him that of the fruit of his body , according to the flesh , he would raise up the Christ to sit on his throne ,
+# sin_text = ohu divaesivarayeku vuu baevin , ohugee vansayen keneku ohugee sinhaasanaya pitta hiduvana seekae yi deviyan vahansee divurumakin ohutta divula bava ohu daena gattee ya .
+# sin_orth = ඔහු දිවැසිවරයෙකු වූ බැවින් , ඔහුගේ වංශයෙන් කෙනෙකු ඔහුගේ සිංහාසනය පිට හිඳුවන සේකැ යි දෙවියන් වහන්සේ දිවුරුමකින් ඔහුට දිවුළ බව ඔහු දැන ගත්තේ ය .
+1	ohu	ohu	PRON	_	_	_	_	_	orth=ඔහු|gloss=prostit
+2	divaesivarayeku	divaesivarayeku	NOUN	_	_	_	attr	_	orth=දිවැසිවරයෙකු|gloss=prophet|Number=Sing
+3	vuu	vuu	AUX	_	_	_	_	_	orth=වූ|gloss=j
+4	baevin	baevin	CONJ	_	_	_	_	_	orth=බැවින්|gloss=because
+5	,	,	PUNCT	_	_	_	punct	_	orth=,|PunctType=Comm
+6	ohugee	ohugee	PRON	_	_	_	_	_	orth=ඔහුගේ|gloss=ear
+7	vansayen	vansayen	NOUN	_	_	_	_	_	orth=වංශයෙන්
+8	keneku	keneku	PRON	_	_	_	_	_	orth=කෙනෙකු|gloss=als
+9	ohugee	ohugee	PRON	_	_	_	_	_	orth=ඔහුගේ|gloss=ear
+10	sinhaasanaya	sinhaasanaya	NOUN	_	_	11	pobj	_	orth=සිංහාසනය|gloss=throne|Number=Sing
+11	pitta	pitta	ADP	_	_	_	prep	_	orth=පිට|gloss=on
+12	hiduvana	hiduvana	VERB	_	_	_	_	_	orth=හිඳුවන
+13	seekae	seekae	AUX	_	_	_	_	_	orth=සේකැ|gloss=whip
+14	yi	yi	AUX	_	_	_	_	_	orth=යි
+15	deviyan	deviyan	PROPN	_	_	_	nsubj	_	orth=දෙවියන්|gloss=God|Number=Sing
+16	vahansee	vahansee	NOUN	_	_	_	_	_	orth=වහන්සේ|gloss=from
+17	divurumakin	divurumakin	NOUN	_	_	_	_	_	orth=දිවුරුමකින්
+18	ohutta	ohutta	PRON	_	_	_	_	_	orth=ඔහුට|gloss=king
+19	divula	divula	NOUN	_	_	_	_	_	orth=දිවුළ
+20	bava	bava	NOUN	_	_	_	mark	_	orth=බව|gloss=that
+21	ohu	ohu	PRON	_	_	_	_	_	orth=ඔහු|gloss=prostit
+22	daena	daena	VERB	_	_	_	conj	_	orth=දැන|gloss=knew|Tense=Past|VerbForm=Fin
+23	gattee	gattee	VERB	_	_	_	_	_	orth=ගත්තේ|gloss=wa
+24	ya	ya	AUX	_	_	2	det	_	orth=ය|gloss=a|Definite=Ind|PronType=Art
+25	.	.	PUNCT	_	_	_	_	_	orth=.
+
+# sent_id = 44009038
+# ref_id = Acts 9:38
+# eng_text = As Lydda was near Joppa , the disciples , hearing that Peter was there , sent two men to him , imploring him not to delay in coming to them .
+# sin_text = liddaava joppaavatta samiipa baevin , peeduru ehi sittina bava aesuu sraavakayoo “ pamaa novii apa veta ennae ” yi ayaedimin minisun dedeneku ohu veta yaevuu ha .
+# sin_orth = ලිද්දාව ජොප්පාවට සමීප බැවින් , පේදුරු එහි සිටින බව ඇසූ ශ්‍රාවකයෝ “ පමා නොවී අප වෙත එන්නැ ” යි අයැදිමින් මිනිසුන් දෙදෙනෙකු ඔහු වෙත යැවූ හ .
+1	liddaava	liddaava	NOUN	_	_	_	_	_	orth=ලිද්දාව
+2	joppaavatta	joppaavatta	NOUN	_	_	_	_	_	orth=ජොප්පාවට
+3	samiipa	samiipa	ADJ	_	_	_	_	_	orth=සමීප
+4	baevin	baevin	CONJ	_	_	_	_	_	orth=බැවින්|gloss=because
+5	,	,	PUNCT	_	_	_	punct	_	orth=,|PunctType=Comm
+6	peeduru	peeduru	PROPN	_	_	_	nsubj	_	orth=පේදුරු|gloss=Peter|Number=Sing
+7	ehi	ehi	ADV	_	_	_	_	_	orth=එහි|gloss=there
+8	sittina	sittina	VERB	_	_	_	_	_	orth=සිටින|gloss=F
+9	bava	bava	NOUN	_	_	_	mark	_	orth=බව|gloss=that
+10	aesuu	aesuu	VERB	_	_	_	_	_	orth=ඇසූ|gloss=asked
+11	sraavakayoo	sraavakayoo	NOUN	_	_	_	_	_	orth=ශ්‍රාවකයෝ|gloss=disciples
+12	“	“	PUNCT	_	_	_	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+13	pamaa	pamaa	ADV	_	_	_	_	_	orth=පමා|gloss=wondering
+14	novii	novii	VERB	_	_	_	_	_	orth=නොවී|gloss=Instead
+15	apa	apa	PRON	_	_	_	_	_	orth=අප|gloss=us
+16	veta	veta	VERB	_	_	_	_	_	orth=වෙත|gloss=visit
+17	ennae	ennae	VERB	_	_	_	_	_	orth=එන්නැ|gloss=Come
+18	”	”	PUNCT	_	_	_	punct	_	orth=”|PunctSide=Fin|PunctType=Quot
+19	yi	yi	AUX	_	_	_	punct	_	orth=යි|PunctSide=Fin|PunctType=Quot
+20	ayaedimin	ayaedimin	VERB	_	_	_	_	_	orth=අයැදිමින්
+21	minisun	minisun	NOUN	_	_	_	dobj	_	orth=මිනිසුන්|gloss=men|Number=Plur
+22	dedeneku	dedeneku	NUM	_	_	21	nummod	_	orth=දෙදෙනෙකු|gloss=two|NumType=Card
+23	ohu	ohu	PRON	_	_	_	_	_	orth=ඔහු|gloss=prostit
+24	veta	veta	VERB	_	_	_	_	_	orth=වෙත|gloss=visit
+25	yaevuu	yaevuu	VERB	_	_	_	_	_	orth=යැවූ|gloss=accepted
+26	ha	ha	CCONJ	_	_	_	_	_	orth=හ|gloss=some
+27	.	.	PUNCT	_	_	_	_	_	orth=.
+
+# sent_id = 44011011
+# ref_id = Acts 11:11
+# eng_text = Behold , immediately three men stood before the house where I was , having been sent from Caesarea to me .
+# sin_text = “ eveelehi ma kaayisaariyen maa veta evana lada minissu tun denek maa visuu nivesa idiriyehi sittiyaha .
+# sin_orth = “ එවේලෙහි ම කායිසාරියෙන් මා වෙත එවන ලද මිනිස්සු තුන් දෙනෙක් මා විසූ නිවෙස ඉදිරියෙහි සිටියහ .
+1	“	“	PUNCT	_	_	_	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+2	eveelehi	eveelehi	ADV	_	_	_	_	_	orth=එවේලෙහි
+3	ma	ma	PART	_	_	_	_	_	orth=ම|gloss=own
+4	kaayisaariyen	kaayisaariyen	PROPN	_	_	_	_	_	orth=කායිසාරියෙන්
+5	maa	maa	PRON	_	_	_	_	_	orth=මා|gloss=me
+6	veta	veta	VERB	_	_	_	_	_	orth=වෙත|gloss=visit
+7	evana	evana	VERB	_	_	_	_	_	orth=එවන|gloss=lifet
+8	lada	lada	VERB	_	_	_	_	_	orth=ලද|gloss=spoken
+9	minissu	minissu	PROPN	_	_	_	pobj	_	orth=මිනිස්සු|gloss=Caesarea|Number=Sing
+10	tun	tun	NUM	_	_	_	_	_	orth=තුන්|gloss=third
+11	denek	denek	NUM	_	_	_	_	_	orth=දෙනෙක්|gloss=Many
+12	maa	maa	PRON	_	_	_	_	_	orth=මා|gloss=me
+13	visuu	visuu	VERB	_	_	_	_	_	orth=විසූ|gloss=oth
+14	nivesa	nivesa	NOUN	_	_	_	_	_	orth=නිවෙස|gloss=comm
+15	idiriyehi	idiriyehi	NOUN	_	_	_	_	_	orth=ඉදිරියෙහි|gloss=before
+16	sittiyaha	sittiyaha	VERB	_	_	_	_	_	orth=සිටියහ|gloss=watching
+17	.	.	PUNCT	_	_	_	_	_	orth=.
+
+# sent_id = 44021034
+# ref_id = Acts 21:34
+# eng_text = Some shouted one thing , some another , among the crowd . When he couldn't find out the truth because of the noise , he commanded him to be brought into the barracks .
+# sin_text = evitta samuuhayaa atara samaharek ekak da tavat samaharek anekak da moragasaa kii ha . mee koolaahalaya nisaa aetta naetta daenagannatta ohutta baeri vuuyen , paavulu balakottuvatta gena yannatta ohu ana kelee ya .
+# sin_orth = එවිට සමූහයා අතර සමහරෙක් එකක් ද තවත් සමහරෙක් අනෙකක් ද මොරගසා කී හ . මේ කෝලාහලය නිසා ඇත්ත නැත්ත දැනගන්නට ඔහුට බැරි වූයෙන් , පාවුලු බලකොටුවට ගෙන යන්නට ඔහු අණ කෙළේ ය .
+1	evitta	evitta	ADV	_	_	_	_	_	orth=එවිට|gloss=So
+2	samuuhayaa	samuuhayaa	NOUN	_	_	_	_	_	orth=සමූහයා|gloss=crowd
+3	atara	atara	ADP	_	_	_	_	_	orth=අතර|gloss=among
+4	samaharek	samaharek	DET	_	_	_	predet	_	orth=සමහරෙක්|gloss=some
+5	ekak	ekak	NUM	_	_	_	_	_	orth=එකක්|gloss=usion
+6	da	da	PART	_	_	_	cc	_	orth=ද|gloss=and|ConjType=Cmp
+7	tavat	tavat	ADV	_	_	_	_	_	orth=තවත්|gloss=Still
+8	samaharek	samaharek	DET	_	_	_	predet	_	orth=සමහරෙක්|gloss=some
+9	anekak	anekak	NUM	_	_	_	_	_	orth=අනෙකක්
+10	da	da	PART	_	_	_	cc	_	orth=ද|gloss=and|ConjType=Cmp
+11	moragasaa	moragasaa	VERB	_	_	_	_	_	orth=මොරගසා|gloss=shouting
+12	kii	kii	VERB	_	_	_	_	_	orth=කී|gloss=denied
+13	ha	ha	CCONJ	_	_	_	predet	_	orth=හ|gloss=some
+14	.	.	PUNCT	_	_	_	_	_	orth=.
+15	mee	mee	DET	_	_	_	_	_	orth=මේ|gloss=ised
+16	koolaahalaya	koolaahalaya	NOUN	_	_	_	_	_	orth=කෝලාහලය
+17	nisaa	nisaa	CONJ	_	_	_	_	_	orth=නිසා|gloss=torment
+18	aetta	aetta	NOUN	_	_	_	_	_	orth=ඇත්ත|gloss=Ex
+19	naetta	naetta	VERB	_	_	_	_	_	orth=නැත්ත
+20	daenagannatta	daenagannatta	VERB	_	_	_	_	_	orth=දැනගන්නට|gloss=usion
+21	ohutta	ohutta	PRON	_	_	_	_	_	orth=ඔහුට|gloss=king
+22	baeri	baeri	ADJ	_	_	_	_	_	orth=බැරි|gloss=tre
+23	vuuyen	vuuyen	AUX	_	_	_	_	_	orth=වූයෙන්|gloss=old
+24	,	,	PUNCT	_	_	30	punct	_	orth=,|PunctType=Comm
+25	paavulu	paavulu	PROPN	_	_	_	nsubjpass	_	orth=පාවුලු|gloss=Paul|Number=Sing
+26	balakottuvatta	balakottuvatta	NOUN	_	_	_	_	_	orth=බලකොටුවට
+27	gena	gena	VERB	_	_	_	_	_	orth=ගෙන|gloss=took
+28	yannatta	yannatta	VERB	_	_	_	_	_	orth=යන්නට|gloss=slipped
+29	ohu	ohu	PRON	_	_	_	_	_	orth=ඔහු|gloss=prostit
+30	ana	ana	VERB	_	_	0	root	_	orth=අණ|gloss=ordered|Tense=Past|VerbForm=Fin
+31	kelee	kelee	VERB	_	_	_	_	_	orth=කෙළේ|gloss=daughter
+32	ya	ya	AUX	_	_	_	_	_	orth=ය|gloss=a
+33	.	.	PUNCT	_	_	_	_	_	orth=.
+
+# sent_id = 47012002
+# ref_id = 2 Corinthians 12:2
+# eng_text = I know a man in Christ , fourteen years ago ( whether in the body , I don't know , or whether out of the body , I don't know ; God knows ) , such a one caught up into the third heaven .
+# sin_text = dasasatara vasarakatta pera , tun vana svargaya dakvaa osavaaganu laebuu kitunuveku mama danimi . esee vuuyee sariirayen yukta va da , nohot sariirayen viyukta va dae yi mama nodanimi . deviyan vahansee dannaa seeka .
+# sin_orth = දසසතර වසරකට පෙර , තුන් වන ස්වර්ගය දක්වා ඔසවාගනු ලැබූ කිතුනුවෙකු මම දනිමි . එසේ වූයේ ශරීරයෙන් යුක්ත ව ද , නොහොත් ශරීරයෙන් වියුක්ත ව දැ යි මම නොදනිමි . දෙවියන් වහන්සේ දන්නා සේක .
+1	dasasatara	dasasatara	NUM	_	_	_	_	_	orth=දසසතර
+2	vasarakatta	vasarakatta	NOUN	_	_	_	_	_	orth=වසරකට
+3	pera	pera	ADV	_	_	_	_	_	orth=පෙර|gloss=before
+4	,	,	PUNCT	_	_	_	punct	_	orth=,|PunctType=Comm
+5	tun	tun	NUM	_	_	_	amod	_	orth=තුන්|gloss=third|Degree=Pos
+6	vana	vana	PART	_	_	_	_	_	orth=වන
+7	svargaya	svargaya	NOUN	_	_	_	_	_	orth=ස්වර්ගය|gloss=Lo
+8	dakvaa	dakvaa	VERB	_	_	_	_	_	orth=දක්වා|gloss=flashes
+9	osavaaganu	osavaaganu	VERB	_	_	_	_	_	orth=ඔසවාගනු
+10	laebuu	laebuu	VERB	_	_	_	_	_	orth=ලැබූ|gloss=received
+11	kitunuveku	kitunuveku	NOUN	_	_	_	_	_	orth=කිතුනුවෙකු
+12	mama	mama	PRON	_	_	_	nsubj	_	orth=මම|gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+13	danimi	danimi	VERB	_	_	_	_	_	orth=දනිමි|gloss=claims
+14	.	.	PUNCT	_	_	_	_	_	orth=.
+15	esee	esee	ADV	_	_	_	_	_	orth=එසේ|gloss=without
+16	vuuyee	vuuyee	AUX	_	_	_	_	_	orth=වූයේ|gloss=par
+17	sariirayen	sariirayen	NOUN	_	_	_	_	_	orth=ශරීරයෙන්
+18	yukta	yukta	CCONJ	_	_	_	cc	_	orth=යුක්ත|gloss=or|ConjType=Cmp
+19	va	va	PART	_	_	_	_	_	orth=ව|gloss=id
+20	da	da	PART	_	_	_	_	_	orth=ද|gloss=and
+21	,	,	PUNCT	_	_	_	punct	_	orth=,|PunctType=Comm
+22	nohot	nohot	CONJ	_	_	_	_	_	orth=නොහොත්|gloss=we’ve
+23	sariirayen	sariirayen	NOUN	_	_	_	_	_	orth=ශරීරයෙන්
+24	viyukta	viyukta	ADJ	_	_	_	_	_	orth=වියුක්ත
+25	va	va	PART	_	_	_	_	_	orth=ව|gloss=id
+26	dae	dae	AUX	_	_	_	_	_	orth=දැ
+27	yi	yi	AUX	_	_	_	_	_	orth=යි
+28	mama	mama	PRON	_	_	_	nsubj	_	orth=මම|gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+29	nodanimi	nodanimi	VERB	_	_	_	_	_	orth=නොදනිමි|gloss=y
+30	.	.	PUNCT	_	_	_	_	_	orth=.
+31	deviyan	deviyan	PROPN	_	_	33	nsubj	_	orth=දෙවියන්|gloss=God|Number=Sing
+32	vahansee	vahansee	NOUN	_	_	_	_	_	orth=වහන්සේ|gloss=from
+33	dannaa	dannaa	VERB	_	_	0	root	_	orth=දන්නා|gloss=knows|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+34	seeka	seeka	VERB	_	_	_	prt	_	orth=සේක|gloss=up
+35	.	.	PUNCT	_	_	_	_	_	orth=.
+
+# sent_id = 62004009
+# ref_id = 1 John 4:9
+# eng_text = By this was God's love revealed in us , that God has sent his only born Son into the world that we might live through him .
+# sin_text = apa kerehi deviyan vahanseegee preemaya prakaasa karanu laebuvee deviyan vahansee svakiiya eekajaataka putrayaanan , apa un vahansee karanakottagena jiivat vana pinisa , lookayatta evaa vadaala kaaranayen ya .
+# sin_orth = අප කෙරෙහි දෙවියන් වහන්සේගේ ප්‍රේමය ප්‍රකාශ කරනු ලැබුවේ දෙවියන් වහන්සේ ස්වකීය ඒකජාතක පුත්‍රයාණන් , අප උන් වහන්සේ කරණකොටගෙන ජීවත් වන පිණිස , ලෝකයට එවා වදාළ කාරණයෙන් ය .
+1	apa	apa	PRON	_	_	_	dobj	_	orth=අප|gloss=us|Case=Acc|Number=Plur|Person=1|PronType=Prs
+2	kerehi	kerehi	ADP	_	_	_	_	_	orth=කෙරෙහි|gloss=together
+3	deviyan	deviyan	PROPN	_	_	_	nsubj	_	orth=දෙවියන්|gloss=God|Number=Sing
+4	vahanseegee	vahanseegee	DET	_	_	_	_	_	orth=වහන්සේගේ|gloss=eag
+5	preemaya	preemaya	NOUN	_	_	_	_	_	orth=ප්‍රේමය|gloss=love
+6	prakaasa	prakaasa	VERB	_	_	_	_	_	orth=ප්‍රකාශ|gloss=proclaim
+7	karanu	karanu	VERB	_	_	_	_	_	orth=කරනු|gloss=wasn’t
+8	laebuvee	laebuvee	VERB	_	_	_	_	_	orth=ලැබුවේ|gloss=Through
+9	deviyan	deviyan	PROPN	_	_	_	nsubj	_	orth=දෙවියන්|gloss=God|Number=Sing
+10	vahansee	vahansee	NOUN	_	_	_	_	_	orth=වහන්සේ|gloss=from
+11	svakiiya	svakiiya	ADJ	_	_	_	_	_	orth=ස්වකීය|gloss=predicted
+12	eekajaataka	eekajaataka	ADJ	_	_	_	_	_	orth=ඒකජාතක
+13	putrayaanan	putrayaanan	PROPN	_	_	_	conj	_	orth=පුත්‍රයාණන්|gloss=Son|Number=Sing
+14	,	,	PUNCT	_	_	_	_	_	orth=,
+15	apa	apa	PRON	_	_	_	dobj	_	orth=අප|gloss=us|Case=Acc|Number=Plur|Person=1|PronType=Prs
+16	un	un	PRON	_	_	_	_	_	orth=උන්|gloss=He
+17	vahansee	vahansee	NOUN	_	_	_	_	_	orth=වහන්සේ|gloss=from
+18	karanakottagena	karanakottagena	ADP	_	_	_	prep	_	orth=කරණකොටගෙන|gloss=through
+19	jiivat	jiivat	VERB	_	_	_	_	_	orth=ජීවත්|gloss=live
+20	vana	vana	PART	_	_	_	_	_	orth=වන
+21	pinisa	pinisa	SCONJ	_	_	_	mark	_	orth=පිණිස|gloss=so
+22	,	,	PUNCT	_	_	_	_	_	orth=,
+23	lookayatta	lookayatta	NOUN	_	_	_	pobj	_	orth=ලෝකයට|gloss=world|Number=Sing
+24	evaa	evaa	VERB	_	_	_	_	_	orth=එවා|gloss=sent
+25	vadaala	vadaala	VERB	_	_	_	_	_	orth=වදාළ|gloss=go
+26	kaaranayen	kaaranayen	NOUN	_	_	_	_	_	orth=කාරණයෙන්
+27	ya	ya	AUX	_	_	_	_	_	orth=ය|gloss=a
+28	.	.	PUNCT	_	_	_	_	_	orth=.
+
+# sent_id = 63001005
+# ref_id = 2 John 1:5
+# eng_text = Now I beg you , dear lady , not as though I wrote to you a new commandment , but that which we had from the beginning , that we love one another .
+# sin_text = ebaevin maataaveni , api ekinekaatta preema karamu . mee vanaahi obatta liyana alut aagnaavak nova , pattangaenmee sitta ma apatta tibunu aagnaava ma ya .
+# sin_orth = එබැවින් මාතාවෙනි , අපි එකිනෙකාට ප්‍රේම කරමු . මේ වනාහි ඔබට ලියන අලුත් ආඥාවක් නොව , පටන්ගැන්මේ සිට ම අපට තිබුණු ආඥාව ම ය .
+1	ebaevin	ebaevin	CCONJ	_	_	_	_	_	orth=එබැවින්|gloss=Therefore
+2	maataaveni	maataaveni	NOUN	_	_	_	_	_	orth=මාතාවෙනි
+3	,	,	PUNCT	_	_	_	punct	_	orth=,|PunctType=Comm
+4	api	api	PRON	_	_	_	_	_	orth=අපි|gloss=We
+5	ekinekaatta	ekinekaatta	PRON	_	_	_	_	_	orth=එකිනෙකාට|gloss=each
+6	preema	preema	VERB	_	_	_	ccomp	_	orth=ප්‍රේම|gloss=love|VerbForm=Inf
+7	karamu	karamu	VERB	_	_	_	_	_	orth=කරමු|gloss=und
+8	.	.	PUNCT	_	_	_	_	_	orth=.
+9	mee	mee	DET	_	_	_	_	_	orth=මේ|gloss=ised
+10	vanaahi	vanaahi	ADV	_	_	_	_	_	orth=වනාහි|gloss=Again
+11	obatta	obatta	PRON	_	_	_	_	_	orth=ඔබට|gloss=Young
+12	liyana	liyana	NOUN	_	_	_	attr	_	orth=ලියන|gloss=commandment|Number=Sing
+13	alut	alut	ADJ	_	_	22	amod	_	orth=අලුත්|gloss=new|Degree=Pos
+14	aagnaavak	aagnaavak	NOUN	_	_	_	_	_	orth=ආඥාවක්
+15	nova	nova	VERB	_	_	_	_	_	orth=නොව|gloss=ies
+16	,	,	PUNCT	_	_	_	punct	_	orth=,|PunctType=Comm
+17	pattangaenmee	pattangaenmee	NOUN	_	_	_	_	_	orth=පටන්ගැන්මේ
+18	sitta	sitta	ADP	_	_	_	_	_	orth=සිට|gloss=stood
+19	ma	ma	PART	_	_	_	_	_	orth=ම|gloss=own
+20	apatta	apatta	PRON	_	_	_	_	_	orth=අපට|gloss=us
+21	tibunu	tibunu	VERB	_	_	_	_	_	orth=තිබුණු|gloss=explain
+22	aagnaava	aagnaava	NOUN	_	_	_	attr	_	orth=ආඥාව|gloss=commandment|Number=Sing
+23	ma	ma	PART	_	_	_	_	_	orth=ම|gloss=own
+24	ya	ya	AUX	_	_	22	det	_	orth=ය|gloss=a|Definite=Ind|PronType=Art
+25	.	.	PUNCT	_	_	_	_	_	orth=.
+

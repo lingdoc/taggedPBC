@@ -1,0 +1,653 @@
+## The following text has been annotated for parts of speech by students at NTU Singapore as part of a class project in AY 2025.
+## Verses are extracted from the taggedPBC. Annotations have been developed with a combination of manual and automated approaches, with reference to existing literature and (where possible) native speakers.
+## ISO 639-3: jae, Language: Yabem, Number of verses: 21
+## References: Jabem–English Dictionary (S.A.Wurm, Australian National University, 1917)
+
+# sent_id = 40006024
+# ref_id = Matthew 6:24
+# eng_text = " No one can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You can't serve both God and Mammon .
+# jae_text = “Ŋac teŋ ênam sakiŋ ŋatau luagêc êŋgôm êtôm atom, eŋ oc têtac endec teŋ ma têtac êwiŋ teŋ me oc êsap teŋ tôŋ ma têtac êmbu teŋ. Amac amboac tonaŋ. Atôm gebe anam sakiŋ Anôtô to awa êpi tageŋ atom.
+1	“Ŋac	“ŋac	NOUN	_	_	_	_	_	gloss=man
+2	teŋ	teŋ	DET	_	_	_	_	_	gloss=a
+3	ênam	ênam	VERB	_	_	_	_	_	gloss=Remember
+4	sakiŋ	sakiŋ	VERB	_	_	0	root	_	gloss=serve|VerbForm=Inf
+5	ŋatau	ŋatau	NOUN	_	_	_	_	_	gloss=owner
+6	luagêc	luagêc	NUM	_	_	33	nummod	_	gloss=two|NumType=Card
+7	êŋgôm	êŋgôm	unk	_	_	_	_	_
+8	êtôm	êtôm	unk	_	_	_	_	_
+9	atom,	atom,	PART	_	_	4	neg	_	gloss=not|Polarity=Neg
+10	eŋ	eŋ	PRON	_	_	_	_	_	gloss=him
+11	oc	oc	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+12	têtac	têtac	VERB	_	_	_	_	_	gloss=loved
+13	endec	endec	VERB	_	_	_	conj	_	gloss=despise|VerbForm=Inf
+14	teŋ	teŋ	DET	_	_	_	_	_	gloss=a
+15	ma	ma	SCONJ	_	_	4	punct	_	gloss=then
+16	têtac	têtac	VERB	_	_	_	_	_	gloss=loved
+17	êwiŋ	êwiŋ	ADP	_	_	_	_	_	gloss=with
+18	teŋ	teŋ	DET	_	_	_	_	_	gloss=a
+19	me	me	CCONJ	_	_	_	_	_	gloss=or
+20	oc	oc	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+21	êsap	êsap	VERB	_	_	_	acomp	_	gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+22	teŋ	teŋ	DET	_	_	_	_	_	gloss=a
+23	tôŋ	tôŋ	VERB	_	_	_	_	_	gloss=praying
+24	ma	ma	PUNCT	_	_	34	punct	_	PunctType=Peri
+25	têtac	têtac	VERB	_	_	_	_	_	gloss=loved
+26	êmbu	êmbu	VERB	_	_	_	conj	_	gloss=despise|VerbForm=Inf
+27	teŋ.	teŋ.	VERB	_	_	_	acomp	_	gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+28	Amac	amac	PRON	_	_	34	nsubj	_	gloss=You|Case=Nom|Person=2|PronType=Prs
+29	amboac	amboac	SCONJ	_	_	_	_	_	gloss=as
+30	tonaŋ.	tonaŋ.	ADV	_	_	_	_	_	gloss=that
+31	Atôm	atôm	ADV	_	_	_	_	_	gloss=exactly
+32	gebe	gebe	SCONJ	_	_	_	_	_   gloss=that
+33	anam	anam	NOUN	_	_	34	dobj	_	gloss=masters|Number=Plur
+34	sakiŋ	sakiŋ	VERB	_	_	0	root	_	gloss=serve|VerbForm=Inf
+35	Anôtô	anôtô	PROPN	_	_	34	dobj	_	gloss=God|Number=Sing
+36	to	to	CCONJ	_	_	35	cc	_	gloss=and|ConjType=Cmp
+37	awa	awa	NOUN	_	_	_	_	_	gloss=voice
+38	êpi	êpi	VERB	_	_	_	_	_	gloss=continue
+39	tageŋ	tageŋ	ADV	_	_	_	_	_	gloss=only
+40	atom.	atom.	ADV	_	_	_	_	_	gloss=not
+
+# sent_id = 40018012
+# ref_id = Matthew 18:12
+# eng_text = " What do you think ? If a man has one hundred sheep , and one of them goes astray , doesn't he leave the ninety-nine , go to the mountains , and seek that which has gone astray ?
+# jae_text = “Amac abe amboac ondoc. Ŋac teŋ embe nê domba 100. sêmoa e ŋateŋ êmbôm, oc endec 99, naŋ sêmoa lôc ma naensom gêbôm tonaŋ atom me.
+1	“Amac	“amac	PRON	_	_	_	_	_	gloss=you
+2	abe	abe	unk	_	_	_	_	_
+3	amboac	amboac	SCONJ	_	_	_	_	_	gloss=as
+4	ondoc.	ondoc.	NOUN	_	_	_	_	_	gloss=a bundle of long objects
+5	Ŋac	ŋac	NOUN	_	_	_	_	_	gloss=man
+6	teŋ	teŋ	DET	_	_	_	quantmod	_	gloss=a|Definite=Ind|PronType=Art
+7	embe	embe	SCONJ	_	_	_	_	_	gloss=if
+8	nê	nê	PRON	_	_	_	_	_	gloss=his
+9	domba	domba	NOUN	_	_	_	dobj	_	gloss=sheep|Number=Plur
+10	100.	100.	NUM	_	_	_	_	_   gloss=one hundred
+11	sêmoa	sêmoa	unk	_	_	_	_	_
+12	e	e	INTJ	_	_	_	_	_	gloss=stop
+13	ŋateŋ	ŋateŋ	NOUN	_	_	_	_	_	gloss=female animal
+14	êmbôm,	êmbôm,	unk	_	_	_	_	_
+15	oc	oc	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+16	endec	endec	unk	_	_	_	_	_
+17	99,	99,	NUM	_	_	_	_	_   gloss=ninety-nine
+18	naŋ	naŋ	unk	_	_	_	_	_
+19	sêmoa	sêmoa	unk	_	_	_	_	_
+20	lôc	lôc	NOUN	_	_	_	_	_	gloss=mountain
+21	ma	ma	SCONJ	_	_	_	_	_   gloss=then
+22	naensom	naensom	unk	_	_	_	_	_
+23	gêbôm	gêbôm	VERB	_	_	_	_	_	gloss=escaped
+24	tonaŋ	tonaŋ	PRON	_	_	_	_	_	gloss=that
+25	atom	atom	ADV	_	_	_	_	_	gloss=not
+26	me.	me.	SCONJ	_	_	_	_	_	gloss=or
+
+# sent_id = 40020021
+# ref_id = Matthew 20:21
+# eng_text = He said to her , " What do you want ? " She said to him , " Command that these , my two sons , may sit , one on your right hand , and one on your left hand , in your kingdom . "
+# jae_text = Tec Jesu kêsôm gêdêŋ eŋ gebe “Aôm gobe amboac ondoc.” Awê tau kêsôm gêdêŋ eŋ gebe “Ôsôm êtu tôŋ gebe latucagêc tonec nêŋ teŋ êŋgôŋ aôm anôŋa ma teŋ êŋgôŋ aôm gasêŋa aŋga nêm gamêŋ.”
+1	Tec	tec	DET	_	_	_	_	_	gloss=this
+2	Jesu	jesu	PROPN	_	_	_	_	_	gloss=Jesus
+3	kêsôm	kêsôm	unk	_	_	_	_	_
+4	gêdêŋ	gêdêŋ	VERB	_	_	_	_	_	gloss=go
+5	eŋ	eŋ	PRON	_	_	_	_	_	gloss=him
+6	gebe	gebe	SCONJ	_	_	_	_	_   gloss=that
+7	“Aôm	“aôm	PRON	_	_	_	_	_	gloss=You
+8	gobe	gobe	PRON	_	_	_	attr	_	gloss=What
+9	amboac	amboac	SCONJ	_	_	_	_	_	gloss=as
+10	ondoc.”	ondoc.”	PRON	_	_	_	attr	_	gloss=What
+11	Awê	awê	PRON	_	_	_	nsubj	_	gloss=She|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs
+12	tau	tau	PRON	_	_	_	_	_	gloss=himself
+13	kêsôm	kêsôm	unk	_	_	_	_	_
+14	gêdêŋ	gêdêŋ	VERB	_	_	_	_	_	gloss=go
+15	eŋ	eŋ	PRON	_	_	_	_	_	gloss=him
+16	gebe	gebe	SCONJ	_	_	_	_	_   gloss=that
+17	“Ôsôm	“ôsôm	unk	_	_	_	nsubj	_
+18	êtu	êtu	SCONJ	_	_	_	_	_	gloss=because
+19	tôŋ	tôŋ	ADJ	_	_	_	_	_	gloss=stiff
+20	gebe	gebe	SCONJ	_	_	_	_	_   gloss=that
+21	latucagêc	latucagêc	unk	_	_	_	_	_
+22	tonec	tonec	unk	_	_	_	_	_
+23	nêŋ	nêŋ	PRON	_	_	_	_	_	gloss=our
+24	teŋ	teŋ	DET	_	_	_	_	_	gloss=a
+25	êŋgôŋ	êŋgôŋ	unk	_	_	_	_	_
+26	aôm	aôm	PRON	_	_	_	_	_	gloss=you
+27	anôŋa	anôŋa	NOUN	_	_	_	pobj	_	gloss=right|Number=Sing
+28	ma	ma	SCONJ	_	_	_	punct	_	gloss=then
+29	teŋ	teŋ	DET	_	_	_	_	_	gloss=a
+30	êŋgôŋ	êŋgôŋ	unk	_	_	_	_	_
+31	aôm	aôm	PRON	_	_	_	_	_	gloss=you
+32	gasêŋa	gasêŋa	NOUN	_	_	_	pobj	_	gloss=places|Number=Plur
+33	aŋga	aŋga	ADP	_	_	_	_	_	gloss=from
+34	nêm	nêm	PRON	_	_	_	poss	_	gloss=your|Person=2|Poss=Yes|PronType=Prs
+35	gamêŋ.”	gamêŋ.”	NOUN	_	_	_	nsubj	_	gloss=request|Number=Sing
+
+# sent_id = 40026002
+# ref_id = Matthew 26:2
+# eng_text = " You know that after two days the Passover is coming , and the Son of Man will be delivered up to be crucified . "
+# jae_text = “Amac alicgac, bêc luagêc ênaŋa acgom, ma Pasa, ma oc sêkêŋ Ŋamalacnê Latu êpi kakesotau êna.”
+1	“Amac	“amac	PRON	_	_	_	_	_	gloss=you
+2	alicgac,	alicgac,	unk	_	_	_	_	_
+3	bêc	bêc	NOUN	_	_	_	_	_	gloss=day
+4	luagêc	luagêc	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+5	ênaŋa	ênaŋa	unk	_	_	_	_	_
+6	acgom,	acgom,	SCONJ	_	_	_	_	_	gloss=when
+7	ma	ma	SCONJ	_	_	_	punct	_	gloss=then
+8	Pasa,	pasa,	NOUN	_	_	_	_	_   gloss=Holy
+9	ma	ma	SCONJ	_	_	_	punct	_	gloss=then
+10	oc	oc	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+11	sêkêŋ	sêkêŋ	unk	_	_	_	_	_
+12	Ŋamalacnê	ŋamalacnê	NOUN	_	_	_	pobj	_	gloss=Man|Number=Sing
+13	Latu	latu	NOUN	_	_	_	nsubjpass	_	gloss=Son|Number=Sing
+14	êpi	êpi	ADV	_	_	_	_	_	gloss=upwards
+15	kakesotau	kakesotau	unk	_	_	_	_	_
+16	êna.”	êna.”	unk	_	_	_	_	_
+
+# sent_id = 40026061
+# ref_id = Matthew 26:61
+# eng_text = and said , " This man said , ' I am able to destroy the temple of God , and to build it in three days . ' "
+# jae_text = ma sêsôm gebe “Ŋac tonec kêsôm gebe ‘Aê katôm gebe janseŋ Anôtônê lôm dabuŋ su ma jakwê sa êtôm bêc têlêac.’”
+1	ma	ma	SCONJ	_	_	_	punct	_	gloss=then
+2	sêsôm	sêsôm	unk	_	_	_	_	_
+3	gebe	gebe	SCONJ	_	_	_	_	_   gloss=that
+4	“Ŋac	“ŋac	NOUN	_	_	_	_	_	gloss=man
+5	tonec	tonec	ADV	_	_	_	_	_   gloss=this
+6	kêsôm	kêsôm	unk	_	_	_	ccomp	_
+7	gebe	gebe	SCONJ	_	_	_	_	_   gloss=that
+8	‘Aê	‘aê	PRON	_	_	6	punct	_	gloss=I
+9	katôm	katôm	unk	_	_	_	_	_
+10	gebe	gebe	SCONJ	_	_	_	_	_   gloss=that
+11	janseŋ	janseŋ	unk	_	_	_	_	_
+12	Anôtônê	anôtônê	NOUN	_	_	_	_	_	gloss=God’s
+13	lôm	lôm	NOUN	_	_	_	_	_	gloss=church
+14	dabuŋ	dabuŋ	ADJ	_	_	_	_	_	gloss=fast
+15	su	su	NOUN	_	_	_	_	_	gloss=milk
+16	ma	ma	SCONJ	_	_	_	punct	_	gloss=then
+17	jakwê	jakwê	unk	_	_	_	_	_
+18	sa	sa	VERB	_	_	_	_	_	gloss=bring
+19	êtôm	êtôm	ADJ	_	_	_	_	_	gloss=enough
+20	bêc	bêc	NOUN	_	_	_	_	_	gloss=day
+21	têlêac.’”	têlêac.’”	NUM	_	_	_	_	_   gloss=three
+
+# sent_id = 40028016
+# ref_id = Matthew 28:16
+# eng_text = But the eleven disciples went into Galilee , to the mountain where Jesus had sent them .
+# jae_text = Êsêac ŋacseŋomi 11 sêja Galilaia jasêpi lôc, taŋ Jesu gêjac noc êsêac naŋ.
+1	Êsêac	êsêac	PRON	_	_	_	_	_	gloss=They
+2	ŋacseŋomi	ŋacseŋomi	unk	_	_	_	nsubj	_
+3	11	11	NUM	_	_	_	_	_
+4	sêja	sêja	unk	_	_	_	_	_
+5	Galilaia	galilaia	PROPN	_	_	_	pobj	_	gloss=Galilee|Number=Sing
+6	jasêpi	jasêpi	unk	_	_	_	_	_
+7	lôc,	lôc,	NOUN	_	_	_	_	_   gloss=mountain
+8	taŋ	taŋ	PRON	_	_	_	_	_	gloss=which
+9	Jesu	jesu	PROPN	_	_	_	nsubj	_	gloss=Jesus
+10	gêjac	gêjac	VERB	_	_	_	_	_	gloss=make
+11	noc	noc	NOUN	_	_	_	_	_	gloss=time
+12	êsêac	êsêac	PRON	_	_	_	dobj	_	gloss=them|Case=Acc|Number=Plur|Person=3|PronType=Prs
+13	naŋ.	naŋ.	unk	_	_	_	_	_
+
+# sent_id = 41002023
+# ref_id = Mark 2:23
+# eng_text = It happened , that he was going on the Sabbath day through the grain fields , and his disciples began , as they went , to pluck the ears of grain .
+# jae_text = Gêdêŋ sabat teŋ Jesu kêsêlêŋ gêmoa kôm polom-ŋa ŋalêlôm ma nê ŋacseŋomi sêsêlêŋ sêwiŋ ma sesolop polom ŋanô.
+1	Gêdêŋ	gêdêŋ	VERB	_	_	_	_	_	gloss=go
+2	sabat	sabat	PROPN	_	_	_	compound	_	gloss=Sabbath|Number=Sing
+3	teŋ	teŋ	DET	_	_	_	_	_	gloss=a
+4	Jesu	jesu	PROPN	_	_	5	nsubj	_	gloss=Jesus|Number=Sing
+5	kêsêlêŋ	kêsêlêŋ	unk	_	_	_	advcl	_
+6	gêmoa	gêmoa	unk	_	_	_	_	_
+7	kôm	kôm	unk	_	_	_	_	_	gloss=field
+8	polom-ŋa	polom-ŋa	unk	_	_	_	_	_
+9	ŋalêlôm	ŋalêlôm	unk	_	_	_	_	_
+10	ma	ma	SCONJ	_	_	_	punct	_	gloss=then
+11	nê	nê	PRON	_	_	_	_	_	gloss=his
+12	ŋacseŋomi	ŋacseŋomi	unk	_	_	_	nsubj	_
+13	sêsêlêŋ	sêsêlêŋ	unk	_	_	_	prep	_
+14	sêwiŋ	sêwiŋ	unk	_	_	_	_	_
+15	ma	ma	SCONJ	_	_	_	punct	_	gloss=then
+16	sesolop	sesolop	unk	_	_	_	_	_
+17	polom	polom	NOUN	_	_	_	_	_	gloss=bread
+18	ŋanô.	ŋanô.	unk	_	_	_	_	_
+
+# sent_id = 41012032
+# ref_id = Mark 12:32
+# eng_text = The scribe said to him , " Truly , teacher , you have said well that he is one , and there is none other but he ,
+# jae_text = Go biŋsutau kêsôm gêdêŋ eŋ gebe “Mêtêmôkê, biŋŋanô, aôm kôsôm jagêdêŋ gebe Anôtô eŋ tageŋ, teŋ gêmoa atom, eŋ taugeŋ.
+1	Go	go	ADV	_	_	_	_	_	gloss=Then
+2	biŋsutau	biŋsutau	unk	_	_	_	amod	_
+3	kêsôm	kêsôm	unk	_	_	_	ccomp	_
+4	gêdêŋ	gêdêŋ	VERB	_	_	_	_	_	gloss=go
+5	eŋ	eŋ	PRON	_	_	_	_	_	gloss=him
+6	gebe	gebe	SCONJ	_	_	_	_	_   gloss=that
+7	“Mêtêmôkê,	“mêtêmôkê,	unk	_	_	3	npadvmod	_
+8	biŋŋanô,	biŋŋanô,	unk	_	_	_	_	_
+9	aôm	aôm	PRON	_	_	_	_	_	gloss=you
+10	kôsôm	kôsôm	unk	_	_	_	_	_
+11	jagêdêŋ	jagêdêŋ	VERB	_	_	_	nsubj	_	gloss=go
+12	gebe	gebe	SCONJ	_	_	_	_	_   gloss=that
+13	Anôtô	anôtô	PROPN	_	_	_	attr	_	gloss=God|Number=Sing
+14	eŋ	eŋ	PRON	_	_	_	_	_	gloss=him
+15	tageŋ,	tageŋ,	ADV	_	_	_	_	_	gloss=only
+16	teŋ	teŋ	DET	_	_	_	_	_	gloss=a
+17	gêmoa	gêmoa	unk	_	_	_	_	_
+18	atom,	atom,	ADV	_	_	_	_	_	gloss=not
+19	eŋ	eŋ	PRON	_	_	_	_	_	gloss=him
+20	taugeŋ.	taugeŋ.	ADJ	_	_	_	_	_	gloss=alone
+
+# sent_id = 41014037
+# ref_id = Mark 14:37
+# eng_text = He came and found them sleeping , and said to Peter , " Simon , are you sleeping ? Couldn't you watch one hour ?
+# jae_text = Go gêmu gêja e gêlic êsêac sêc bêc. Ma kêsôm gêdêŋ Petere gebe “Simon, aôm gôêc bêc me. Aôm oc ônam jali ockatu ŋasawa tageŋ ôtôm atom me.
+1	Go	go	ADV	_	_	2	advmod	_	gloss=Then|PronType=Dem
+2	gêmu	gêmu	VERB	_	_	0	root	_	gloss=chop|Tense=Past|VerbForm=Fin
+3	gêja	gêja	VERB	_	_	_	_	_	gloss=go
+4	e	e	INTJ	_	_	_	_	_	gloss=stop
+5	gêlic	gêlic	unk	_	_	_	_	_
+6	êsêac	êsêac	PRON	_	_	_	_	_	gloss=them
+7	sêc	sêc	unk	_	_	_	_	_
+8	bêc.	bêc.	NOUN	_	_	_	_	_	gloss=day
+9	Ma	ma	SCONJ	_	_	_	_	_	gloss=then
+10	kêsôm	kêsôm	unk	_	_	0	root	_
+11	gêdêŋ	gêdêŋ	VERB	_	_	_	_	_	gloss=go
+12	Petere	petere	PROPN	_	_	_	pobj	_	gloss=Peter|Number=Sing
+13	gebe	gebe	SCONJ	_	_	_	_	_   gloss=that
+14	“Simon,	“simon,	PROPN	_	_	_	npadvmod	_	gloss=Simon|Number=Sing
+15	aôm	aôm	PRON	_	_	_	_	_	gloss=You
+16	gôêc	gôêc	unk	_	_	_	_	_
+17	bêc	bêc	unk	_	_	_	_	_	gloss=day
+18	me.	me.	SCONJ	_	_	_	_	_	gloss=your
+19	Aôm	aôm	PRON	_	_	_	_	_	gloss=you
+20	oc	oc	AUX	_	_	_	_	_	gloss=will
+21	ônam	ônam	unk	_	_	_	_	_
+22	jali	jali	ADJ	_	_	0	root	_	gloss=awake
+23	ockatu	ockatu	unk	_	_	22	npadvmod	_
+24	ŋasawa	ŋasawa	ADV	_	_	22	npadvmod	_	gloss=interval
+25	tageŋ	tageŋ	ADV	_	_	_	_	_	gloss=only
+26	ôtôm	ôtôm	unk	_	_	_	_	_
+27	atom	atom	ADV	_	_	_	_	_	gloss=not
+28	me.	me.	SCONJ	_	_	_	_	_	gloss=or
+
+# sent_id = 42004002
+# ref_id = Luke 4:2
+# eng_text = for forty days , being tempted by the devil . He ate nothing in those days . Afterward , when they were completed , he was hungry .
+# jae_text = e kêtôm bêc 40 ma Sadaŋ kêlêtôm eŋ. Jesu geŋ gêŋ atom e bêc samob tonaŋ gêbacnê, tec mo gêjô eŋ.
+1	e	e	INTJ	_	_	_	_	_	gloss=stop
+2	kêtôm	kêtôm	ADJ	_	_	_	_	_	gloss=enough
+3	bêc	bêc	NOUN	_	_	_	_	_	gloss=day
+4	40	40	NUM	_	_	_	_	_
+5	ma	ma	SCONJ	_	_	_	punct	_	gloss=then
+6	Sadaŋ	sadaŋ	PROPN	_	_	_	pobj	_	gloss=devil|Number=Sing
+7	kêlêtôm	kêlêtôm	unk	_	_	_	_	_
+8	eŋ.	eŋ.	PRON	_	_	_	_	_	gloss=him
+9	Jesu	jesu	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+10	geŋ	geŋ	VERB	_	_	_	_	_	gloss=eat
+11	gêŋ	gêŋ	unk	_	_	_	_	_
+12	atom	atom    ADV	_	_	_	_	_	gloss=not
+13	e	e	INTJ	_	_	_	_	_	gloss=stop
+14	bêc	bêc	NOUN	_	_	_	_	_	gloss=day
+15	samob	samob	unk	_	_	_	_	_
+16	tonaŋ	tonaŋ	PRON	_	_	_	_	_	gloss=that
+17	gêbacnê,	gêbacnê,	ADV	_	_	_	_	_	gloss=finished
+18	tec	tec	DET	_	_	_	_	_	gloss=this
+19	mo	mo	NOUN	_	_	_	acomp	_	gloss=taro
+20	gêjô	gêjô	VERB	_	_	_	_	_	gloss=crave
+21	eŋ.	eŋ.	PRON	_	_	_	_	_	gloss=him
+
+# sent_id = 42016013
+# ref_id = Luke 16:13
+# eng_text = No servant can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You aren't able to serve God and mammon . "
+# jae_text = “Sakiŋwaga teŋ ênam sakiŋ apômtau luagêc êtôm atom, eŋ oc têtac endec teŋ ma têtac êwiŋ teŋ me oc êsap teŋ tôŋ ma têtac êmbu teŋ. Amac amboac tonaŋ, atôm gebe anam Anôtô to awa êpi tageŋ atom.”
+1	“Sakiŋwaga	“sakiŋwaga	unk	_	_	_	_	_
+2	teŋ	teŋ	DET	_	_	_	_	_	gloss=a
+3	ênam	ênam	VERB	_	_	_	_	_	gloss=Remember
+4	sakiŋ	sakiŋ	VERB	_	_	0	root	_	gloss=serve|VerbForm=Inf
+5	apômtau	apômtau	NOUN	_	_	_	_	_	gloss=generosity
+6	luagêc	luagêc	NUM	_	_	32	nummod	_	gloss=two|NumType=Card
+7	êtôm	êtôm	ADJ	_	_	_	_	_	gloss=enough
+8	atom,	atom,	ADV	_	_	4	neg	_	gloss=not|Polarity=Neg
+9	eŋ	eŋ	PRON	_	_	_	_	_	gloss=him
+10	oc	oc	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+11	têtac	têtac	VERB	_	_	_	_	_	gloss=loved
+12	endec	endec	VERB	_	_	_	conj	_	gloss=despise|VerbForm=Inf
+13	teŋ	teŋ	DET	_	_	_	_	_	gloss=a
+14	ma	ma	SCONJ	_	_	4	punct	_	gloss=then
+15	têtac	têtac	VERB	_	_	_	_	_	gloss=loved
+16	êwiŋ	êwiŋ	ADP	_	_	_	_	_	gloss=with
+17	teŋ	teŋ	DET	_	_	_	_	_	gloss=a
+18	me	me	SCONJ	_	_	_	_	_	gloss=or
+19	oc	oc	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+20	êsap	êsap	VERB	_	_	_	acomp	_	gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+21	teŋ	teŋ	DET	_	_	_	_	_	gloss=a
+22	tôŋ	tôŋ	ADJ	_	_	_	_	_	gloss=stiff
+23	ma	ma	SCONJ	_	_	4	punct	_	gloss=then
+24	têtac	têtac	VERB	_	_	_	_	_	gloss=loved
+25	êmbu	êmbu	VERB	_	_	_	conj	_	gloss=despise|VerbForm=Inf
+26	teŋ.	teŋ.	DET	_	_	_	acomp	_	gloss=a
+27	Amac	amac	PRON	_	_	4	nsubj	_	gloss=You|Case=Nom|Person=2|PronType=Prs
+28	amboac	amboac	SCONJ	_	_	_	_	_	gloss=as
+29	tonaŋ,	tonaŋ,	PRON	_	_	_	_	_	gloss=that
+30	atôm	atôm	ADV	_	_	_	_	_	gloss=exactly
+31	gebe	gebe	SCONJ	_	_	_	_	_   gloss=that
+32	anam	anam	NOUN	_	_	4	dobj	_	gloss=masters|Number=Plur
+33	Anôtô	anôtô	PROPN	_	_	4	dobj	_	gloss=God|Number=Sing
+34	to	to	CCONJ	_	_	33	cc	_	gloss=and
+35	awa	awa	NOUN	_	_	_	_	_	gloss=voice
+36	êpi	êpi	VERB	_	_	_	_	_	gloss=continue
+37	tageŋ	tageŋ	ADV	_	_	_	_	_	gloss=only
+38	atom.”	atom.”	ADV	_	_	_	_	_	gloss=not
+
+# sent_id = 42024018
+# ref_id = Luke 24:18
+# eng_text = One of them , named Cleopas , answered him , " Are you the only one travelling in Jerusalem who doesn't know the things which have happened there in these days ? "
+# jae_text = Go agêcnêŋ ŋac teŋ, ŋaê Kleopa, gêjô eŋ awa gebe “Aôm ŋac jaba tageŋ tonec, tec gômoa Jerusalem ma kôjala biŋ, taŋ sêgôm aŋga malac gêdêŋ ŋasawa tecenec naŋ atom me.”
+1	Go	go	ADV	_	_	_	advmod	_	gloss=Then|PronType=Dem
+2	agêcnêŋ	agêcnêŋ	unk	_	_	_	_	_
+3	ŋac	ŋac	NOUN	_	_	_	_	_	gloss=man
+4	teŋ,	teŋ,	DET	_	_	_	_	_	gloss=a
+5	ŋaê	ŋaê	unk	_	_	_	_	_
+6	Kleopa,	kleopa,	PROPN	_	_	_	_	_   gloss=Cleopas
+7	gêjô	gêjô	VERB	_	_	_	_	_	gloss=crave
+8	eŋ	eŋ	PRON	_	_	_	_	_	gloss=him
+9	awa	awa	NOUN	_	_	_	_	_	gloss=voice
+10	gebe	gebe	SCONJ	_	_	_	_	_   gloss=that
+11	“Aôm	“aôm	PRON	_	_	_	_	_	gloss=You
+12	ŋac	ŋac	NOUN	_	_	_	_	_	gloss=man
+13	jaba	jaba	VERB	_	_	_	_	_	gloss=do
+14	tageŋ	tageŋ	ADV	_	_	_	amod	_	gloss=only|Degree=Pos
+15	tonec,	tonec,	DET	_	_	_	_	_	gloss=this
+16	tec	tec	DET	_	_	_	_	_	gloss=this
+17	gômoa	gômoa	unk	_	_	_	_	_
+18	Jerusalem	jerusalem	PROPN	_	_	_	pobj	_	gloss=Jerusalem|Number=Sing
+19	ma	ma	SCONJ	_	_	_	punct	_	gloss=then
+20	kôjala	kôjala	unk	_	_	_	_	_
+21	biŋ,	biŋ,	NOUN	_	_	_	_	_	gloss=language
+22	taŋ	taŋ	PRON	_	_	_	nsubj	_	gloss=which
+23	sêgôm	sêgôm	unk	_	_	_	_	_
+24	aŋga	aŋga	ADP	_	_	_	_	_	gloss=from
+25	malac	malac	NOUN	_	_	_	_	_	gloss=village
+26	gêdêŋ	gêdêŋ	VERB	_	_	_	_	_	gloss=go
+27	ŋasawa	ŋasawa	ADV	_	_	_	_	_	gloss=interval
+28	tecenec	tecenec	unk	_	_	_	_	_
+29	naŋ	naŋ	unk	_	_	_	_	_
+30	atom	atom	ADV	_	_	_	_	_	gloss=not
+31	me.”	me.”	SCONJ	_	_	_	_	_	gloss=or
+
+# sent_id = 43001039
+# ref_id = John 1:39
+# eng_text = He said to them , " Come , and see . " They came and saw where he was staying , and they stayed with him that day . It was about the tenth hour .
+# jae_text = Ma eŋ kêsôm gêdêŋ êsêagêc gebe “Amêŋ, mêŋalic.” Tec êsêagêc sêja sêlic gamêŋ, taŋ eŋ gêc naŋ, ma gêdêŋ bêc tonaŋ agêc sêmoa sêwiŋ eŋ. Ma biŋ tonaŋ gêdêŋ oc gebeŋ kwalamgeŋ.
+1	Ma	ma	SCONJ	_	_	_	_	_	gloss=Then
+2	eŋ	eŋ	PRON	_	_	_	pobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+3	kêsôm	kêsôm	unk	_	_	0	root	_
+4	gêdêŋ	gêdêŋ	VERB	_	_	_	_	_	gloss=go
+5	êsêagêc	êsêagêc	unk	_	_	_	_	_	gloss=Barnabas
+6	gebe	gebe	SCONJ	_	_	_	_	_   gloss=that
+7	“Amêŋ,	“amêŋ,	unk	_	_	_	conj	_
+8	mêŋalic.”	mêŋalic.”	unk	_	_	_	_	_
+9	Tec	tec	DET	_	_	_	_	_	gloss=This
+10	êsêagêc 	êsêagêc	unk	_	_	_	_	_
+11	sêja	sêja	unk	_	_	_	_	_
+12	sêlic	sêlic	unk	_	_	_	conj	_
+13	gamêŋ,	gamêŋ,	NOUN	_	_	_	advmod	_	gloss=request
+14	taŋ	taŋ	PRON	_	_	_	_	_	gloss=which
+15	eŋ	eŋ	PRON	_	_	_	pobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+16	gêc	gêc	VERB	_	_	_	_	_	gloss=lie
+17	naŋ,	naŋ,	unk	_	_	_	_	_
+18	ma	ma	SCONJ	_	_	7	punct	_	gloss=then
+19	gêdêŋ	gêdêŋ	VERB	_	_	_	_	_	gloss=go
+20	bêc	bêc	NOUN	_	_	_	pobj	_	gloss=day|Number=Sing
+21	tonaŋ	tonaŋ	PRON	_	_	_	_	_	gloss=that
+22	agêc	agêc	unk	_	_	_	_	_
+23	sêmoa	sêmoa	unk	_	_	_	_	_
+24	sêwiŋ	sêwiŋ	unk	_	_	_	_	_
+25	eŋ.	eŋ.	PRON	_	_	_	_	_	gloss=him
+26	Ma	ma	SCONJ	_	_	_	_	_	gloss=Then
+27	biŋ	biŋ	NOUN	_	_	_	_	_	gloss=language
+28	tonaŋ	tonaŋ	PRON	_	_	_	_	_	gloss=that
+29	gêdêŋ	gêdêŋ	VERB	_	_	_	_	_	gloss=go
+30	oc	oc	AUX	_	_	_	_	_	gloss=will
+31	gebeŋ	gebeŋ	unk	_	_	_	_	_
+32	kwalamgeŋ.	kwalamgeŋ.	unk	_	_	_	_	_
+
+# sent_id = 43003016
+# ref_id = John 3:16
+# eng_text = For God so loved the world , that he gave his one and only Son , that whoever believes in him should not perish , but have eternal life .
+# jae_text = Gebe Anôtô têtac gêwiŋ ŋamalac kaiŋ teŋ, tec kêkêŋ nê Latu tageŋ gêmêŋ gebe samob, taŋ sêkêŋ gêwiŋ eŋ naŋ, sênaŋa atom, sêŋgôŋ mateŋ jali teŋgeŋ.
+1	Gebe	gebe	SCONJ	_	_	3	prep	_	gloss=That
+2	Anôtô	anôtô	PROPN	_	_	3	nsubj	_	gloss=God|Number=Sing
+3	têtac	têtac	VERB	_	_	0	root	_	gloss=loved|Tense=Past|VerbForm=Fin
+4	gêwiŋ	gêwiŋ	ADP	_	_	_	_	_	gloss=with
+5	ŋamalac	ŋamalac	NOUN	_	_	_	_	_	gloss=human
+6	kaiŋ	kaiŋ	NOUN	_	_	_	_	_	gloss=type
+7	teŋ,	teŋ,	DET	_	_	_	_	_	gloss=a
+8	tec	tec	DET	_	_	_	_	_	gloss=this
+9	kêkêŋ	kêkêŋ	VERB	_	_	_	ccomp	_	gloss=gave|Tense=Past|VerbForm=Fin
+10	nê	nê	PRON	_	_	_	_	_	gloss=his
+11	Latu	latu	NOUN	_	_	_	appos	_	gloss=Son|Number=Sing
+12	tageŋ	tageŋ	ADV	_	_	_	conj	_	gloss=only
+13	gêmêŋ	gêmêŋ	unk	_	_	_	_	_
+14	gebe	gebe	SCONJ	_	_	_	_	_   gloss=that
+15	samob,	samob,	unk	_	_	_	_	_
+16	taŋ	taŋ	PRON	_	_	_	nsubj	_	gloss=which
+17	sêkêŋ	sêkêŋ	unk	_	_	_	_	_
+18	gêwiŋ	gêwiŋ	ADP	_	_	_	_	_	gloss=with
+19	eŋ	eŋ	PRON	_	_	_	pobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+20	naŋ,	naŋ,	unk	_	_	_	_	_
+21	sênaŋa	sênaŋa	unk	_	_	_	_	_
+22	atom,	atom,	ADV	_	_	_	neg	_	gloss=not|Polarity=Neg
+23	sêŋgôŋ	sêŋgôŋ	unk	_	_	_	_	_
+24	mateŋ	mateŋ	NOUN	_	_	_	dobj	_	gloss=eye|Number=Sing
+25	jali	jali	ADJ	_	_	_	_	_	gloss=awake
+26	teŋgeŋ.	teŋgeŋ.	ADJ	_	_	24	amod	_	gloss=eternal|Degree=Pos
+
+# sent_id = 44002030
+# ref_id = Acts 2:30
+# eng_text = Therefore , being a prophet , and knowing that God had sworn with an oath to him that of the fruit of his body , according to the flesh , he would raise up the Christ to sit on his throne ,
+# jae_text = Ŋac tonaŋ eŋ propete teŋ ma kêjala biŋ, taŋ Anôtô kêsôm kêtu tôŋ kêpi eŋ gebe ‘Aô mnêm wakuc teŋ oc êŋgôŋ nêm lêpôŋ kiŋŋa.’
+1	Ŋac	ŋac	NOUN	_	_	_	_	_	gloss=man
+2	tonaŋ	tonaŋ	PRON	_	_	_	_	_	gloss=that
+3	eŋ	eŋ	PRON	_	_	_	_	_	gloss=him
+4	propete	propete	NOUN	_	_	_	attr	_	gloss=prophet|Number=Sing
+5	teŋ	teŋ	DET	_	_	4	det	_	gloss=a|Definite=Ind|PronType=Art
+6	ma	ma	SCONJ	_	_	7	punct	_	gloss=that
+7	kêjala	kêjala	unk	_	_	_	conj	_
+8	biŋ,	biŋ,	NOUN	_	_	_	_	_	gloss=language
+9	taŋ	taŋ	PRON	_	_	_	_	_	gloss=who
+10	Anôtô	anôtô	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+11	kêsôm	kêsôm	unk	_	_	_	_	_
+12	kêtu	kêtu	VERB	_	_	_	_	_	gloss=become
+13	tôŋ	tôŋ	ADJ	_	_	_	_	_	gloss=stiff
+14	kêpi	kêpi	NOUN	_	_	_	_	_	gloss=yam
+15	eŋ	eŋ	PRON	_	_	_	_	_	gloss=him
+16	gebe	gebe	SCONJ	_	_	_	_	_   gloss=that
+17	‘Aô	‘aô	unk	_	_	_	_	_
+18	mnêm	mnêm	unk	_	_	_	_	_
+19	wakuc	wakuc	ADJ	_	_	_	_	_	gloss=new
+20	teŋ	teŋ	DET	_	_	4	det	_	gloss=a|Definite=Ind|PronType=Art
+21	oc	oc	AUX	_	_	_	_	_	gloss=will
+22	êŋgôŋ	êŋgôŋ	unk	_	_	_	_	_
+23	nêm	nêm	PRON	_	_	_	_	_	gloss=your
+24	lêpôŋ	lêpôŋ	NOUN	_	_	_	_	_	gloss=seat
+25	kiŋŋa.’	kiŋŋa.’	unk	_	_	_	_	_
+
+# sent_id = 44009038
+# ref_id = Acts 9:38
+# eng_text = As Lydda was near Joppa , the disciples , hearing that Peter was there , sent two men to him , imploring him not to delay in coming to them .
+# jae_text = Ŋacseŋomi sêŋô Petere gêmoa Luda, taŋ gêc Jope ŋagala naŋ ŋawae, tec sêsakiŋ ŋac luagêc jateteŋ eŋ gebe “Ôndêŋ aêac ômôêŋ sebeŋmaŋ.”
+1	Ŋacseŋomi	ŋacseŋomi	unk	_	_	_	_	_
+2	sêŋô	sêŋô	unk	_	_	_	_	_
+3	Petere	petere	PROPN	_	_	_	nsubj	_	gloss=Peter|Number=Sing
+4	gêmoa	gêmoa	unk	_	_	_	_	_
+5	Luda,	luda,	PROPN	_	_	_	_	_   gloss=Lydda
+6	taŋ	taŋ	PRON	_	_	_	_	_	gloss=who
+7	gêc	gêc	VERB	_	_	_	_	_	gloss=lie
+8	Jope	jope	PROPN	_	_	_	_	_	gloss=Joppa
+9	ŋagala	ŋagala	ADJ	_	_	_	_	_	gloss=near
+10	naŋ	naŋ	unk	_	_	_	_	_
+11	ŋawae,	ŋawae,	NOUN	_	_	_	_	_	gloss=message
+12	tec	tec	DET	_	_	_	_	_	gloss=this
+13	sêsakiŋ	sêsakiŋ	unk	_	_	_	_	_
+14	ŋac	ŋac	NOUN	_	_	_	_	_	gloss=man
+15	luagêc	luagêc	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+16	jateteŋ	jateteŋ	VERB	_	_	_	advcl	_	gloss=beg|VerbForm=Inf
+17	eŋ	eŋ	PRON	_	_	16	dobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+18	gebe	gebe	SCONJ	_	_	_	_	_   gloss=that
+19	“Ôndêŋ	“ôndêŋ	unk	_	_	_	_	_
+20	aêac	aêac	unk	_	_	_	_	_	gloss=us
+21	ômôêŋ	ômôêŋ	INTJ	_	_	_	intj	_	gloss=Please
+22	sebeŋmaŋ.”	sebeŋmaŋ.”	unk	_	_	_	_	_
+
+# sent_id = 44011011
+# ref_id = Acts 11:11
+# eng_text = Behold , immediately three men stood before the house where I was , having been sent from Caesarea to me .
+# jae_text = Ma gaôgeŋ galic lau têlêac, taŋ sêsakiŋ aŋga Kaisarea dêdêŋ aê mêŋsêô lasê andu, taŋ gaŋgôŋ naŋ.
+1	Ma	ma	SCONJ	_	_	_	_	_	gloss=That
+2	gaôgeŋ	gaôgeŋ	unk	_	_	_	_	_
+3	galic	galic	unk	_	_	_	_	_
+4	lau	lau	NOUN	_	_	_	_	_	gloss=people
+5	têlêac,	têlêac,	NUM	_	_	_	_	_	gloss=three
+6	taŋ	taŋ	PRON	_	_	_	nsubjpass	_	gloss=who
+7	sêsakiŋ	sêsakiŋ	unk	_	_	_	_	_
+8	aŋga	aŋga	ADP	_	_	_	prep	_	gloss=from
+9	Kaisarea	kaisarea	PROPN	_	_	8	pobj	_	gloss=Caesarea|Number=Sing
+10	dêdêŋ	dêdêŋ	unk	_	_	_	_	_
+11	aê	aê	PRON	_	_	_	_	_	gloss=I
+12	mêŋsêô	mêŋsêô	unk	_	_	_	_	_
+13	lasê	lasê	VERB	_	_	0	root	_	gloss=arrived|Tense=Past|VerbForm=Fin
+14	andu,	andu,	NOUN	_	_	_	_	_	gloss=house
+15	taŋ	taŋ	PRON	_	_	_	nsubjpass	_	gloss=who
+16	gaŋgôŋ	gaŋgôŋ	unk	_	_	_	_	_
+17	naŋ.	naŋ.	unk	_	_	_	_	_
+
+# sent_id = 44021034
+# ref_id = Acts 21:34
+# eng_text = Some shouted one thing , some another , among the crowd . When he couldn't find out the truth because of the noise , he commanded him to be brought into the barracks .
+# jae_text = Lau samob sêmôêc kesotau-kesotau e sêôc gamêŋ auc laŋgwageŋ, tec eŋ gêŋô biŋ sapu ma kêsôm sêkôc Paulu dêdêŋ siŋwaganêŋ gamêŋ sêja.
+1	Lau	lau	NOUN	_	_	_	_	_	gloss=people
+2	samob	samob	unk	_	_	_	_	_
+3	sêmôêc	sêmôêc	VERB	_	_	_	_	_	gloss=roared
+4	kesotau-kesotau	kesotau-kesotau	unk	_	_	_	_	_
+5	e	e	INTJ	_	_	_	_	_	gloss=stop
+6	sêôc	sêôc	unk	_	_	_	_	_
+7	gamêŋ	gamêŋ	NOUN	_	_	_	_	_	gloss=request
+8	auc	auc	unk	_	_	_	_	_
+9	laŋgwageŋ,	laŋgwageŋ,	unk	_	_	_	_	_
+10	tec	tec	DET	_	_	_	_	_	gloss=this
+11	eŋ	eŋ	PRON	_	_	_	_	_	gloss=him
+12	gêŋô	gêŋô	NOUN	_	_	_	_	_	gloss=possessions
+13	biŋ	biŋ	NOUN	_	_	_	_	_	gloss=language
+14	sapu	sapu	ADJ	_	_	_	_	_   gloss=fail
+15	ma	ma	SCONJ	_	_	_	punct	_	gloss=that
+16	kêsôm	kêsôm	unk	_	_	_	_	_
+17	sêkôc	sêkôc	VERB	_	_	_	ccomp	_	gloss=taken|Aspect=Perf|Tense=Past|VerbForm=Part
+18	Paulu	paulu	PROPN	_	_	17	nsubjpass	_	gloss=Paul|Number=Sing
+19	dêdêŋ	dêdêŋ	unk	_	_	_	_	_
+20	siŋwaganêŋ	siŋwaganêŋ	unk	_	_	_	_	_
+21	gamêŋ	gamêŋ	NOUN	_	_	_	_	_	gloss=request
+22	sêja.	sêja.	unk	_	_	_	_	_
+
+# sent_id = 47012002
+# ref_id = 2 Corinthians 12:2
+# eng_text = I know a man in Christ , fourteen years ago ( whether in the body , I don't know , or whether out of the body , I don't know ; God knows ) , such a one caught up into the third heaven .
+# jae_text = Aê kajala ŋac teŋ Kilisi gêbiŋ eŋ tôŋ ma kêsuŋ eŋ sa kêpi undambê ŋadeŋ kêtu têlêacŋa naŋ gêja. Biŋ tonaŋ kêsa ŋajala 14 su. Ŋac tau toôligeŋ gêja me gêwi ôli siŋ, aê kajala atom. Anôtô tec gêlic.
+1	Aê	aê	PRON	_	_	_	_	_	gloss=I
+2	kajala	kajala	VERB	_	_	_	_	_	gloss=know
+3	ŋac	ŋac	NOUN	_	_	_	_	_	gloss=man
+4	teŋ	teŋ	DET	_	_	_	_	_	gloss=a
+5	Kilisi	kilisi	PROPN	_	_	_	_	_	gloss=Christ
+6	gêbiŋ	gêbiŋ	unk	_	_	_	_	_
+7	eŋ	eŋ	PRON	_	_	_	_	_	gloss=him
+8	tôŋ	tôŋ	ADJ	_	_	_	_	_	gloss=stiff
+9	ma	ma	SCONJ	_	_	39	punct	_	gloss=that
+10	kêsuŋ	kêsuŋ	ADJ	_	_	_	_	_	gloss=swollen
+11	eŋ	eŋ	PRON	_	_	_	_	_	gloss=him
+12	sa	sa	ADP	_	_	_	prt	_	gloss=up
+13	kêpi	kêpi	NOUN	_	_	_	_	_	gloss=yam
+14	undambê	undambê	NOUN	_	_	_	pobj	_	gloss=heaven|Number=Sing
+15	ŋadeŋ	ŋadeŋ	unk	_	_	_	_	_
+16	kêtu	kêtu	VERB	_	_	_	_	_	gloss=become
+17	têlêacŋa	têlêacŋa	NUM	_	_	14	amod	_	gloss=third|Degree=Pos
+18	naŋ	naŋ	DET	_	_	_	_	_	gloss=A
+19	gêja.	gêja.	VERB	_	_	_	_	_	gloss=go
+20	Biŋ	biŋ	NOUN	_	_	_	_	_	gloss=language
+21	tonaŋ	tonaŋ	PRON	_	_	_	_	_	gloss=that
+22	kêsa	kêsa	VERB	_	_	_	_	_	gloss=cut
+23	ŋajala	ŋajala	NOUN	_	_	_	_	_   gloss=year
+24	14	14	NUM	_	_	_	nummod	_	gloss=fourteen|NumType=Card
+25	su.	su.	NOUN	_	_	_	_	_	gloss=milk
+26	Ŋac	ŋac	NOUN	_	_	_	_	_	gloss=man
+27	tau	tau	PRON	_	_	_	_	_	gloss=himself
+28	toôligeŋ	toôligeŋ	unk	_	_	_	_	_
+29	gêja	gêja	VERB	_	_	_	_	_	gloss=go
+30	me	me	SCONJ	_	_	_	cc	_	gloss=or|ConjType=Cmp
+31	gêwi	gêwi	unk	_	_	_	_	_
+32	ôli	ôli	NOUN	_	_	_	_	_	gloss=price
+33	siŋ,	siŋ,	unk	_	_	_	_	_
+34	aê	aê	PRON	_	_	_	_	_	gloss=I
+35	kajala	kajala	unk	_	_	_	_	_
+36	atom.	atom.	ADV	_	_	_	_	_	gloss=not
+37	Anôtô	anôtô	PROPN	_	_	39	nsubj	_	gloss=God|Number=Sing
+38	tec	tec	DET	_	_	_	_	_	gloss=this
+39	gêlic.	gêlic.	unk	_	_	0	root	_
+
+# sent_id = 62004009
+# ref_id = 1 John 4:9
+# eng_text = By this was God's love revealed in us , that God has sent his only born Son into the world that we might live through him .
+# jae_text = Anôtô geoc nê têtac gêwiŋ lasê kêpi biŋ tecenec gebe eŋ kêsakiŋ nê Latu tageŋ gêmêŋ nom gebe daŋgôŋ mateŋ jali êtu eŋŋa.
+1	Anôtô	anôtô	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+2	geoc	geoc	VERB	_	_	_	_	_	gloss=appeared
+3	nê	nê	PRON	_	_	_	_	_	gloss=his
+4	têtac	têtac	VERB	_	_	_	ccomp	_	gloss=loved|Tense=Past|VerbForm=Fin
+5	gêwiŋ	gêwiŋ	ADP	_	_	_	_	_	gloss=with
+6	lasê	lasê	VERB	_	_	_	_	_	gloss=arrived
+7	kêpi	kêpi	NOUN	_	_	_	_	_	gloss=yam
+8	biŋ	biŋ	NOUN	_	_	_	_	_	gloss=language
+9	tecenec	tecenec	unk	_	_	_	_	_
+10	gebe	gebe	SCONJ	_	_	_	_	_   gloss=that
+11	eŋ	eŋ	PRON	_	_	_	pobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+12	kêsakiŋ	kêsakiŋ	unk	_	_	_	_	_
+13	nê	nê	PRON	_	_	_	_	_	gloss=his
+14	Latu	latu	PROPN	_	_	_	conj	_	gloss=Son|Number=Sing
+15	tageŋ	tageŋ	ADV	_	_	14	advmod	_	gloss=only
+16	gêmêŋ	gêmêŋ	unk	_	_	_	_	_
+17	nom	nom	NOUN	_	_	_	_	_	gloss=tail
+18	gebe	gebe	SCONJ	_	_	_	_	_   gloss=that
+19	daŋgôŋ	daŋgôŋ	VERB	_	_	_	_	_	gloss=swallow
+20	mateŋ	mateŋ	NOUN	_	_	_	dobj	_	gloss=eyes
+21	jali	jali	ADJ	_	_	_	_	_	gloss=awake
+22	êtu	êtu	SCONJ	_	_	_	_	_	gloss=because
+23	eŋŋa.	eŋŋa.	unk	_	_	_	_	_
+
+# sent_id = 63001005
+# ref_id = 2 John 1:5
+# eng_text = Now I beg you , dear lady , not as though I wrote to you a new commandment , but that which we had from the beginning , that we love one another .
+# jae_text = O ŋatauo, galoc jateŋ aôm gebe takêŋ têntac gêwiŋ elom tau. Biŋ tonaŋ aê kato gêdêŋ aôm amboac biŋsu wakuc teŋ atom, kato kêtôm biŋsu, taŋ takôc gêdêŋ andaŋgeŋ naŋ.
+1	O	o	INTJ	_	_	_	amod	_	gloss=oh
+2	ŋatauo,	ŋatauo,	VERB	_	_	0	root	_	gloss=writing|Aspect=Prog|Tense=Pres|VerbForm=Part
+3	galoc	galoc	ADV	_	_	_	_	_	gloss=now
+4	jateŋ	jateŋ	VERB	_	_	_	_	_	gloss=ask
+5	aôm	aôm	PRON	_	_	_	_	_	gloss=You
+6	gebe	gebe	SCONJ	_	_	_	_	_   gloss=that
+7	takêŋ	takêŋ	unk	_	_	_	_	_
+8	têntac	têntac	NOUN	_	_	_	_	_	gloss=belly
+9	gêwiŋ	gêwiŋ	ADP	_	_	_	_	_	gloss=with
+10	elom	elom	unk	_	_	_	_	_
+11	tau.	tau.	PRON	_	_	_	_	_	gloss=himself
+12	Biŋ	biŋ	NOUN	_	_	_	_	_	gloss=language
+13	tonaŋ	tonaŋ	PRON	_	_	_	_	_	gloss=that
+14	aê	aê	PRON	_	_	_	_	_	gloss=I
+15	kato	kato	ADJ	_	_	_	attr	_	gloss=clear
+16	gêdêŋ	gêdêŋ	VERB	_	_	_	_	_	gloss=go
+17	aôm	aôm	PRON	_	_	_	_	_	gloss=You
+18	amboac	amboac	SCONJ	_	_	_	_	_	gloss=as
+19	biŋsu	biŋsu	unk	_	_	_	_	_
+20	wakuc	wakuc	ADJ	_	_	27	amod	_	gloss=new|Degree=Pos
+21	teŋ	teŋ	DET	_	_	27	det	_	gloss=a|Definite=Ind|PronType=Art
+22	atom,	atom,	ADV	_	_	_	neg	_	gloss=not|Polarity=Neg
+23	kato	kato	ADJ	_	_	_	attr	_	gloss=clear
+24	kêtôm	kêtôm	ADJ	_	_	_	_	_	gloss=enough
+25	biŋsu,	biŋsu,	unk	_	_	_	_	_
+26	taŋ	taŋ	PRON	_	_	_	_	_	gloss=who
+27	takôc	takôc	NOUN	_	_	_	attr	_	gloss=board
+28	gêdêŋ	gêdêŋ	VERB	_	_	_	_	_	gloss=go
+29	andaŋgeŋ	andaŋgeŋ	NOUN	_	_	_	pobj	_	gloss=beginning|Number=Sing
+30	naŋ.	naŋ.	DET	_	_	_	_	_	gloss=a
+

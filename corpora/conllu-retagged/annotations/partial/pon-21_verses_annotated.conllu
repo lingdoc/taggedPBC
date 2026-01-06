@@ -1,0 +1,761 @@
+## The following text has been annotated for parts of speech by students at NTU Singapore as part of a class project in AY 2025.
+## Verses are extracted from the taggedPBC. Annotations have been developed with a combination of manual and automated approaches, with reference to existing literature and (where possible) native speakers.
+## ISO 639-3: pon, Language: Pohnpeian, Number of verses: 21
+## References: Pohnpeian Language (PON). (n.d.). Ethnologue (Free All). Retrieved September 23, 2025, from https://www.ethnologue.com/language/pon/ ; Rehg, K. (1981). Ponapean Reference Grammar. The University Press of Hawaii. ; Wordlist Pohnpeian. (2025). Automated Similarity Judgment Program. ; https://asjp.clld.org/languages/POHNPEIAN.txt ; English-Pohnpeian Finderlist. (2025). University of Hawaii. https://www2.hawaii.edu/~rehg/finderl.htm ; Pohnpeian-English. (2025). University of Hawaii. https://www2.hawaii.edu/~rehg/pnp-s.htm‌
+
+# sent_id = 40006024
+# ref_id = Matthew 6:24
+# eng_text = " No one can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You can't serve both God and Mammon .
+# pon_text = Sota amen me pan kak papa saumas riamen , pwe a pan kailongki amen , ap pok ong me teio , de a pan kasampwaleki amen , ap mamaleki me teio . Komail sota pan kak papa Kot o mamon .
+1	Sota	sota	NEG	_	_	_	conj	_	gloss=not, none, nothing
+2	amen	amen	NUM	_	_	18	pobj	_	gloss=one|NumType=Card
+3	me	me	PRON	_	_	_	_	_	gloss=who
+4	pan	pan	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+5	kak	kak	VERB	_	_	_	_	_	gloss=be able to
+6	papa	papa	VERB	_	_	0	root	_	gloss=serve|VerbForm=Inf
+7	saumas	saumas	NOUN	_	_	6	dobj	_	gloss=masters|Number=Plur
+8	riamen	riamen	NUM	_	_	7	nummod	_	gloss=two|NumType=Card
+9	,	,	PUNCT	_	_	_	_	_
+10	pwe	pwe	unk	_	_	_	_	_	gloss=bling
+11	a	a	CCONJ	_	_	_	_	_	gloss=but
+12	pan	pan	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+13	kailongki	kailongki	VERB	_	_	_	acomp	_	gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+14	amen	amen	NUM	_	_	18	pobj	_	gloss=one|NumType=Card
+15	,	,	PUNCT	_	_	_	_	_
+16	ap	ap	VERB	_	_	_	_	_	gloss=commits
+17	pok	pok	VERB	_	_	_	_	_	gloss=loved
+18	ong	ong	ADP	_	_	40	prep	_	gloss=to
+19	me	me	PRON	_	_	_	_	_	gloss=who
+20	teio	teio	VERB	_	_	_	conj	_	gloss=despise|VerbForm=Inf
+21	,	,	PUNCT	_	_	_	_	_
+22	de	de	CONJ	_	_	_	_	_	gloss=or
+23	a	a	CCONJ	_	_	_	_	_	gloss=but
+24	pan	pan	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+25	kasampwaleki	kasampwaleki	VERB	_	_	_	acomp	_	gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+26	amen	amen	NUM	_	_	18	pobj	_	gloss=one|NumType=Card
+27	,	,	PUNCT	_	_	_	_	_
+28	ap	ap	VERB	_	_	_	_	_	gloss=commits
+29	mamaleki	mamaleki	unk	_	_	_	_	_	gloss=beying
+30	me	me	PRON	_	_	_	_	_	gloss=who
+31	teio	teio	VERB	_	_	_	conj	_	gloss=despise|VerbForm=Inf
+32	.	.	PUNCT	_	_	37	punct	_	PunctType=Peri
+33	Komail	komail	VERB	_	_	_	_	_	gloss=read
+34	sota	sota	NEG	_	_	_	_	_	gloss=not, none, nothing
+35	pan	pan	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+36	kak	kak	VERB	_	_	_	_	_	gloss=be able to
+37	papa	papa	VERB	_	_	0	root	_	gloss=serve|VerbForm=Inf
+38	Kot	kot	PROPN	_	_	37	dobj	_	gloss=God|Number=Sing
+39	o	o	CCONJ	_	_	38	cc	_	gloss=and|ConjType=Cmp
+40	mamon	mamon	VERB	_	_	_	acomp	_	gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+41	.	.	PUNCT	_	_	37	punct	_	PunctType=Peri
+
+# sent_id = 40018012
+# ref_id = Matthew 18:12
+# eng_text = " What do you think ? If a man has one hundred sheep , and one of them goes astray , doesn't he leave the ninety-nine , go to the mountains , and seek that which has gone astray ?
+# pon_text = Da me komail lamelame , ma aramas amen , naineki sip epuki , a amen irail pan salongala , a so pan pwilikidi duekduamen pon nana , ap kola raparapaki me salongala ?
+1	Da	da	unk	_	_	_	_	_	gloss=Why
+2	me	me	PRON	_	_	_	_	_	gloss=who
+3	komail	komail	unk	_	_	_	_	_	gloss=you
+4	lamelame	lamelame	VERB	_	_	_	_	_	gloss=think
+5	,	,	PUNCT	_	_	_	_	_
+6	ma	ma	unk	_	_	_	_	_	gloss=if
+7	aramas	aramas	NOUN	_	_	_	_	_	gloss=human
+8	amen	amen	NUM	_	_	_	pobj	_	gloss=one|Number=Sing
+9	,	,	PUNCT	_	_	_	_	_
+10	naineki	naineki	NOUN	_	_	_	_	_	gloss=hill
+11	sip	sip	NOUN	_	_	_	dobj	_	gloss=sheep|Number=Plur
+12	epuki	epuki	NUM	_	_	11	nummod	_	gloss=hundred|NumType=Card
+13	,	,	PUNCT	_	_	_	_	_
+14	a	a	CCONJ	_	_	_	_	_	gloss=but
+15	amen	amen	NUM	_	_	_	pobj	_	gloss=one|Number=Sing
+16	irail	irail	NOUN	_	_	_	_	_	gloss=part
+17	pan	pan	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+18	salongala	salongala	VERB	_	_	_	ccomp	_	gloss=wanders|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+19	,	,	PUNCT	_	_	_	_	_
+20	a	a	NOUN	_	_	_	_	_	gloss=but
+21	so	so	VERB	_	_	_	_	_	gloss=Won’t
+22	pan	pan	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+23	pwilikidi	pwilikidi	_	_	_	_	_	_
+24	duekduamen	duekduamen	NUM	_	_	_	_	_	gloss=ninety-nine
+25	pon	pon	unk	_	_	_	_	_	gloss=ro
+26	nana	nana	NOUN	_	_	_	_	_	gloss=mountain
+27	,	,	PUNCT	_	_	_	_	_
+28	ap	ap	VERB	_	_	_	_	_	gloss=commits
+29	kola	kola	unk	_	_	_	_	_	gloss=Gethsemane
+30	raparapaki	raparapaki	VERB	_	_	_	_	_	gloss=act
+31	me	me	PRON	_	_	_	_	_	gloss=who
+32	salongala	salongala	VERB	_	_	_	ccomp	_	gloss=wanders|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+33	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 40020021
+# ref_id = Matthew 20:21
+# eng_text = He said to her , " What do you want ? " She said to him , " Command that these , my two sons , may sit , one on your right hand , and one on your left hand , in your kingdom . "
+# pon_text = A ap kotin masani ong i : Da me koe mauki ? A potoan ong i : Re kotin mueid ong ai tungol putak riamen , en mondi re ir , amen ni pali maun omui , amen ni pali maing omui nan omui wei .
+1	A	a	CCONJ	_	_	_	_	_	gloss=But
+2	ap	ap	VERB	_	_	_	_	_	gloss=commits
+3	kotin	kotin	NOUN	_	_	_	_	_	gloss=things
+4	masani	masani	VERB	_	_	_	_	_	gloss=said
+5	ong	ong	ADP	_	_	_	prep	_	gloss=to
+6	i	i	unk	_	_	_	_	_	gloss=poss
+7	:	:	PUNCT	_	_	_	_	_	gloss=theft
+8	Da	da	unk	_	_	_	_	_	gloss=Why
+9	me	me	PRON	_	_	_	_	_	gloss=who
+10	koe	koe	NOUN	_	_	_	_	_	gloss=seat
+11	mauki	mauki	NOUN	_	_	_	nsubj	_	gloss=request|Number=Sing
+12	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+13	A	a	CCONJ	_	_	_	_	_	gloss=But
+14	potoan	potoan	unk	_	_	_	_	_	gloss=kn
+15	ong	ong	ADP	_	_	_	prep	_	gloss=to
+16	i	i	unk	_	_	_	_	_	gloss=poss
+17	:	:	PUNCT	_	_	_	_	_	gloss=theft
+18	Re	re	unk	_	_	_	_	_	gloss=lain
+19	kotin	kotin	NOUN	_	_	_	_	_	gloss=things
+20	mueid	mueid	NOUN	_	_	_	pobj	_	gloss=places|Number=Plur
+21	ong	ong	ADP	_	_	_	prep	_	gloss=to
+22	ai	ai	PRON	_	_	_	poss	_	gloss=my|Number=Sing|Person=1|Poss=Yes|PronType=Prs
+23	tungol	tungol	unk	_	_	_	_	_	gloss=pl
+24	putak	putak	NOUN	_	_	_	_	_	gloss=son
+25	riamen	riamen	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+26	,	,	PUNCT	_	_	_	_	_
+27	en	en	ADP	_	_	41	prep	_	gloss=of
+28	mondi	mondi	VERB	_	_	_	ccomp	_	gloss=sit|Tense=Pres|VerbForm=Fin
+29	re	re	VERB	_	_	_	_	_	gloss=ask
+30	ir	ir	unk	_	_	_	_	_	gloss=cheer
+31	,	,	PUNCT	_	_	_	_	_
+32	amen	amen	NUM	_	_	28	npadvmod	_	gloss=one|NumType=Card
+33	ni	ni	VERB	_	_	_	_	_	gloss=been
+34	pali	pali	NOUN	_	_	_	_	_	gloss=nature
+35	maun	maun	NOUN	_	_	_	pobj	_	gloss=right|Number=Sing
+36	omui	omui	VERB	_	_	_	_	_	gloss=interfering
+37	,	,	PUNCT	_	_	_	_	_
+38	amen	amen	NUM	_	_	28	npadvmod	_	gloss=one|NumType=Card
+39	ni	ni	VERB	_	_	_	_	_	gloss=been
+40	pali	pali	NOUN	_	_	_	_	_	gloss=nature
+41	maing	maing	NOUN	_	_	_	pobj	_	gloss=places|Number=Plur
+42	omui	omui	VERB	_	_	_	_	_	gloss=interfering
+43	nan	nan	VERB	_	_	_	_	_	gloss=are
+44	omui	omui	VERB	_	_	_	_	_	gloss=interfering
+45	wei	wei	ADJ	_	_	_	_	_	gloss=held
+46	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 40026002
+# ref_id = Matthew 26:2
+# eng_text = " You know that after two days the Passover is coming , and the Son of Man will be delivered up to be crucified . "
+# pon_text = Komail asa , pong ria pong pasa pan wiaui o Nain aramas pan pangala , en kalopula .
+1	Komail	komail	VERB	_	_	_	_	_	gloss=read
+2	asa	asa	VERB	_	_	_	advcl	_	gloss=know|Tense=Pres|VerbForm=Fin
+3	,	,	PUNCT	_	_	_	_	_
+4	pong	pong	NOUN	_	_	_	_	_	gloss=night
+5	ria	ria	NUM	_	_	_	_	_	gloss=two
+6	pong	pong	NOUN	_	_	_	_	_	gloss=night
+7	pasa	pasa	PROPN	_	_	_	nsubj	_	gloss=Passover|Number=Sing
+8	pan	pan	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+9	wiaui	wiaui	unk	_	_	_	_	_	gloss=forward
+10	o	o	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+11	Nain	nain	PROPN	_	_	16	pobj	_	gloss=Man|Number=Sing
+12	aramas	aramas	NOUN	_	_	_	_	_	gloss=human
+13	pan	pan	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+14	pangala	pangala	VERB	_	_	_	_	_	gloss=betray, give up a secret
+15	,	,	PUNCT	_	_	_	_	_
+16	en	en	ADP	_	_	_	prep	_	gloss=of
+17	kalopula	kalopula	unk	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 40026061
+# ref_id = Matthew 26:61
+# eng_text = and said , " This man said , ' I am able to destroy the temple of God , and to build it in three days . ' "
+# pon_text = Indada : Lap en me inda : I kak ong kawela im en kaudok en Kot ap id kauada ni pong sili pong .
+1	Indada	indada	VERB	_	_	_	xcomp	_	gloss=destroy|VerbForm=Inf
+2	:	:	PUNCT	_	_	_	_	_	gloss=theft
+3	Lap	lap	unk	_	_	_	_	_	gloss=rebu
+4	en	en	ADP	_	_	14	prep	_	gloss=of
+5	me	me	PRON	_	_	_	nsubj	_	gloss=who
+6	inda	inda	VERB	_	_	_	_	_	gloss=say
+7	:	:	PUNCT	_	_	_	_	_	gloss=theft
+8	I	i	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+9	kak	kak	VERB	_	_	_	_	_	gloss=be able to
+10	ong	ong	PART	_	_	1	aux	_	gloss=to
+11	kawela	kawela	unk	_	_	_	_	_	gloss=consid
+12	im	im	NOUN	_	_	_	_	_	gloss=house
+13	en	en	ADP	_	_	14	prep	_	gloss=of
+14	kaudok	kaudok	PROPN	_	_	1	dobj	_	gloss=Temple|Number=Sing
+15	en	en	ADP	_	_	14	prep	_	gloss=of
+16	Kot	kot	PROPN	_	_	15	pobj	_	gloss=God|Number=Sing
+17	ap	ap	VERB	_	_	_	_	_	gloss=commits
+18	id	id	NOUN	_	_	_	_	_	gloss=heir
+19	kauada	kauada	unk	_	_	_	_	_	gloss=ild
+20	ni	ni	VERB	_	_	_	_	_	gloss=been
+21	pong	pong	NOUN	_	_	_	_	_	gloss=night
+22	sili	sili	NUM	_	_	_	_	_	gloss=three
+23	pong	pong	NOUN	_	_	_	_	_	gloss=night
+24	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 40028016
+# ref_id = Matthew 28:16
+# eng_text = But the eleven disciples went into Galilee , to the mountain where Jesus had sent them .
+# pon_text = A tounpadak ekamen kowei ong Kaliläa , pon nana eu , me Iesus kotin kakalik ong irail er .
+1	A	a	CCONJ	_	_	_	_	_	gloss=But
+2	tounpadak	tounpadak	NOUN	_	_	_	nsubj	_	gloss=disciples|Number=Plur
+3	ekamen	ekamen	NUM	_	_	_	_	_	gloss=eleven
+4	kowei	kowei	VERB	_	_	_	xcomp	_	gloss=go|VerbForm=Inf
+5	ong	ong	PART	_	_	4	aux	_	gloss=to
+6	Kaliläa	kaliläa	PROPN	_	_	_	pobj	_	gloss=Galilee|Number=Sing
+7	,	,	PUNCT	_	_	_	_	_
+8	pon	pon	unk	_	_	_	_	_	gloss=ro
+9	nana	nana	NOUN	_	_	5	pobj	_	gloss=mountain|Number=Sing
+10	eu	eu	NUM	_	_	_	_	_	gloss=one
+11	,	,	PUNCT	_	_	_	_	_
+12	me	me	PRON	_	_	_	_	_	gloss=who
+13	Iesus	iesus	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+14	kotin	kotin	NOUN	_	_	_	_	_	gloss=things
+15	kakalik	kakalik	unk	_	_	_	_	_	gloss=ele
+16	ong	ong	PART	_	_	4	aux	_	gloss=to
+17	irail	irail	NOUN	_	_	_	_	_	gloss=part
+18	er	er	unk	_	_	_	_	_	gloss=diso
+19	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41002023
+# ref_id = Mark 2:23
+# eng_text = It happened , that he was going on the Sabbath day through the grain fields , and his disciples began , as they went , to pluck the ears of grain .
+# pon_text = Kadekadeo a kotin weid nan mat en korn ni ran en sapat . Sapwilim a tounpadak kan ap dondolung kowei wan korn .
+1	Kadekadeo	kadekadeo	unk	_	_	_	_	_	gloss=circum
+2	a	a	CCONJ	_	_	_	_	_	gloss=but
+3	kotin	kotin	NOUN	_	_	_	_	_	gloss=things
+4	weid	weid	unk	_	_	_	_	_	gloss=ield
+5	nan	nan	VERB	_	_	_	_	_	gloss=are
+6	mat	mat	unk	_	_	_	_	_	gloss=ield
+7	en	en	ADP	_	_	_	prep	_	gloss=of
+8	korn	korn	unk	_	_	_	_	_	gloss=ield
+9	ni	ni	VERB	_	_	_	_	_	gloss=been
+10	ran	ran	NOUN	_	_	_	npadvmod	_	gloss=day|Number=Sing
+11	en	en	ADP	_	_	_	prep	_	gloss=of
+12	sapat	sapat	PROPN	_	_	10	compound	_	gloss=Sabbath|Number=Sing
+13	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+14	Sapwilim	sapwilim	NOUN	_	_	_	_	_	gloss=Son
+15	a	a	CCONJ	_	_	_	_	_	gloss=but
+16	tounpadak	tounpadak	NOUN	_	_	_	nsubj	_	gloss=disciples|Number=Plur
+17	kan	kan	NOUN	_	_	_	_	_	gloss=believers
+18	ap	ap	VERB	_	_	_	_	_	gloss=commits
+19	dondolung	dondolung	unk	_	_	_	_	_
+20	kowei	kowei	VERB	_	_	_	_	_	gloss=go
+21	wan	wan	unk	_	_	_	_	_	gloss=igs
+22	korn	korn	unk	_	_	_	_	_	gloss=ield
+23	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41012032
+# ref_id = Mark 12:32
+# eng_text = The scribe said to him , " Truly , teacher , you have said well that he is one , and there is none other but he ,
+# pon_text = Saunkawewe ap potoan ong i : Me mau Saunpadak ! Melel me kom masani en ! Pwe i me ta men , a sota pil amen , pwe i eta !
+1	Saunkawewe	saunkawewe	VERB	_	_	_	_	_	gloss=insulted
+2	ap	ap	VERB	_	_	_	_	_	gloss=commits
+3	potoan	potoan	unk	_	_	_	_	_	gloss=kn
+4	ong	ong	PART	_	_	_	_	_	gloss=to
+5	i	i	unk	_	_	_	_	_	gloss=poss
+6	:	:	PUNCT	_	_	_	_	_	gloss=theft
+7	Me	me	unk	_	_	_	_	_	gloss=branches
+8	mau	mau	ADJ	_	_	_	_	_	gloss=good
+9	Saunpadak	saunpadak	NOUN	_	_	14	npadvmod	_	gloss=Teacher|Number=Sing
+10	!	!	PUNCT	_	_	_	_	_	gloss=ver
+11	Melel	melel	NOUN	_	_	_	dobj	_	gloss=truth|Number=Sing
+12	me	me	PRON	_	_	_	_	_	gloss=who
+13	kom	kom	unk	_	_	_	_	_	gloss=tom
+14	masani	masani	VERB	_	_	_	ccomp	_	gloss=said|Tense=Past|VerbForm=Fin
+15	en	en	ADP	_	_	_	prep	_	gloss=of
+16	!	!	PUNCT	_	_	_	_	_	gloss=ver
+17	Pwe	pwe	ADP	_	_	_	_	_	gloss=For
+18	i	i	unk	_	_	_	_	_	gloss=poss
+19	me	me	PRON	_	_	_	_	_	gloss=who
+20	ta	ta	ADV	_	_	26	advmod	_	gloss=only
+21	men	men	VERB	_	_	_	_	_	gloss=want
+22	,	,	PUNCT	_	_	_	_	_
+23	a	a	CCONJ	_	_	_	_	_	gloss=but
+24	sota	sota	NEG	_	_	_	_	_	gloss=not, none, nothing
+25	pil	pil	ADV	_	_	_	_	_	gloss=also
+26	amen	amen	NUM	_	_	_	nummod	_	gloss=one|NumType=Card
+27	,	,	PUNCT	_	_	_	_	_
+28	pwe	pwe	unk	_	_	_	_	_	gloss=bling
+29	i	i	unk	_	_	_	_	_	gloss=poss
+30	eta	eta	unk	_	_	_	_	_	gloss=Only
+31	!	!	PUNCT	_	_	_	_	_	gloss=ver
+
+# sent_id = 41014037
+# ref_id = Mark 14:37
+# eng_text = He came and found them sleeping , and said to Peter , " Simon , are you sleeping ? Couldn't you watch one hour ?
+# pon_text = I ari kotido diar ir ar mamair , ap kotin masani ong Petrus : Simon koe men mair , koe sota kak masamasan auer eu ?
+1	I	i	PRON	_	_	_	_	_	gloss=I
+2	ari	ari	CONJ	_	_	_	_	_	gloss=So
+3	kotido	kotido	unk	_	_	_	_	_	gloss=ie
+4	diar	diar	VERB	_	_	_	_	_	gloss=stir
+5	ir	ir	unk	_	_	_	_	_	gloss=cheer
+6	ar	ar	unk	_	_	_	_	_	gloss=their
+7	mamair	mamair	ADJ	_	_	_	acomp	_	gloss=asleep|Degree=Pos
+8	,	,	PUNCT	_	_	_	_	_
+9	ap	ap	VERB	_	_	_	_	_	gloss=commits
+10	kotin	kotin	NOUN	_	_	_	_	_	gloss=things
+11	masani	masani	VERB	_	_	0	root	_	gloss=said|Tense=Past|VerbForm=Fin
+12	ong	ong	ADP	_	_	11	prep	_	gloss=to
+13	Petrus	petrus	PROPN	_	_	12	pobj	_	gloss=Peter|Number=Sing
+14	:	:	PUNCT	_	_	_	_	_	gloss=theft
+15	Simon	simon	PROPN	_	_	_	npadvmod	_	gloss=Simon|Number=Sing
+16	koe	koe	NOUN	_	_	_	_	_	gloss=seat
+17	men	men	VERB	_	_	_	_	_	gloss=want
+18	mair	mair	unk	_	_	_	_	_	gloss=fallen
+19	,	,	PUNCT	_	_	_	_	_
+20	koe	koe	NOUN	_	_	_	_	_	gloss=seat
+21	sota	sota	NEG	_	_	_	_	_	gloss=not, none, nothing
+22	kak	kak	VERB	_	_	_	_	_	gloss=be able to
+23	masamasan	masamasan	VERB	_	_	0	root	_	gloss=watch|VerbForm=Inf
+24	auer	auer	NOUN	_	_	23	npadvmod	_	gloss=hour|Number=Sing
+25	eu	eu	NUM	_	_	_	_	_	gloss=one
+26	?	?	PUNCT	_	_	23	punct	_	PunctType=Peri
+
+# sent_id = 42004002
+# ref_id = Luke 4:2
+# eng_text = for forty days , being tempted by the devil . He ate nothing in those days . Afterward , when they were completed , he was hungry .
+# pon_text = O wia songesong pan tewil ran pangaul . A sota kotin konot ni ran oko . Ran akan lao imwisokela ap men konot .
+1	O	o	unk	_	_	_	_	_	gloss=ning
+2	wia	wia	unk	_	_	_	_	_	gloss=ap
+3	songesong	songesong	ADJ	_	_	_	_	_	gloss=weak
+4	pan	pan	AUX	_	_	_	_	_	gloss=will
+5	tewil	tewil	NOUN	_	_	_	_	_	gloss=demons
+6	ran	ran	NOUN	_	_	_	_	_	gloss=day
+7	pangaul	pangaul	NUM	_	_	_	_	_	gloss=forty
+8	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+9	A	a	CCONJ	_	_	_	_	_	gloss=But
+10	sota	sota	NEG	_	_	_	_	_	gloss=not, none, nothing
+11	kotin	kotin	NOUN	_	_	_	_	_	gloss=things
+12	konot	konot	ADJ	_	_	_	acomp	_	gloss=hungry|Degree=Pos
+13	ni	ni	VERB	_	_	_	_	_	gloss=been
+14	ran	ran	NOUN	_	_	_	_	_	gloss=day
+15	oko	oko	NOUN	_	_	_	_	_	gloss=leaders
+16	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+17	Ran	ran	NOUN	_	_	_	_	_	gloss=Today
+18	akan	akan	unk	_	_	_	_	_	gloss=vers
+19	lao	lao	unk	_	_	_	_	_	gloss=When
+20	imwisokela	imwisokela	VERB	_	_	_	_	_	gloss=tempt
+21	ap	ap	VERB	_	_	_	_	_	gloss=commits
+22	men	men	VERB	_	_	_	_	_	gloss=want
+23	konot	konot	ADJ	_	_	_	acomp	_	gloss=hungry|Degree=Pos
+24	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 42016013
+# ref_id = Luke 16:13
+# eng_text = No servant can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You aren't able to serve God and mammon . "
+# pon_text = Sota ladu men me pan kak papa saumas riamen ; pwe a pan kailongki amen o pok ong me teio . De kasampwaleki amen o mamaleki me teio . Komail sota pan kak pariai pena Kot o mamon .
+1	Sota	sota	NEG	_	_	_	conj	_	gloss=not, none, nothing
+2	ladu	ladu	NOUN	_	_	_	_	_	gloss=servant
+3	men	men	VERB	_	_	_	_	_	gloss=want
+4	me	me	PRON	_	_	_	_	_	gloss=who
+5	pan	pan	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+6	kak	kak	VERB	_	_	_	_	_	gloss=be able to
+7	papa	papa	VERB	_	_	0	root	_	gloss=serve|VerbForm=Inf
+8	saumas	saumas	NOUN	_	_	7	dobj	_	gloss=masters|Number=Plur
+9	riamen	riamen	NUM	_	_	8	nummod	_	gloss=two|NumType=Card
+10	;	;	PUNCT	_	_	_	_	_	gloss=baptizing
+11	pwe	pwe	unk	_	_	_	_	_	gloss=bling
+12	a	a	CCONJ	_	_	_	_	_	gloss=but
+13	pan	pan	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+14	kailongki	kailongki	VERB	_	_	_	acomp	_	gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+15	amen	amen	NUM	_	_	18	pobj	_	gloss=one|NumType=Card
+16	o	o	CCONJ	_	_	36	cc	_	gloss=and|ConjType=Cmp
+17	pok	pok	VERB	_	_	_	_	_	gloss=loved
+18	ong	ong	ADP	_	_	38	prep	_	gloss=to
+19	me	me	PRON	_	_	_	_	_	gloss=who
+20	teio	teio	VERB	_	_	_	conj	_	gloss=despise|VerbForm=Inf
+21	.	.	PUNCT	_	_	7	punct	_	PunctType=Peri
+22	De	de	CONJ	_	_	_	_	_	gloss=Or
+23	kasampwaleki	kasampwaleki	VERB	_	_	_	acomp	_	gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+24	amen	amen	NUM	_	_	18	pobj	_	gloss=one|NumType=Card
+25	o	o	CCONJ	_	_	36	cc	_	gloss=and|ConjType=Cmp
+26	mamaleki	mamaleki	unk	_	_	_	_	_	gloss=beying
+27	me	me	PRON	_	_	_	_	_	gloss=who
+28	teio	teio	VERB	_	_	_	conj	_	gloss=despise|VerbForm=Inf
+29	.	.	PUNCT	_	_	7	punct	_	PunctType=Peri
+30	Komail	komail	VERB	_	_	_	_	_	gloss=read
+31	sota	sota	NEG	_	_	_	_	_	gloss=not, none, nothing
+32	pan	pan	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+33	kak	kak	VERB	_	_	_	_	_	gloss=be able to
+34	pariai	pariai	unk	_	_	_	_	_
+35	pena	pena	unk	_	_	_	_	_	gloss=together
+36	Kot	kot	PROPN	_	_	7	dobj	_	gloss=God|Number=Sing
+37	o	o	CCONJ	_	_	36	cc	_	gloss=and|ConjType=Cmp
+38	mamon	mamon	VERB	_	_	_	acomp	_	gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+39	.	.	PUNCT	_	_	7	punct	_	PunctType=Peri
+
+# sent_id = 42024018
+# ref_id = Luke 24:18
+# eng_text = One of them , named Cleopas , answered him , " Are you the only one travelling in Jerusalem who doesn't know the things which have happened there in these days ? "
+# pon_text = Amen ira , me ad a Kleopas , ap sapeng indang i : Koe men wai ta men nan Ierusalem , me sasa , me wiauier wasa o ni ran pukat ?
+1	Amen	amen	NUM	_	_	_	_	_	gloss=one
+2	ira	ira	unk	_	_	_	_	_	gloss=ort
+3	,	,	PUNCT	_	_	_	_	_
+4	me	me	PRON	_	_	_	nsubj	_	gloss=who
+5	ad	ad	NOUN	_	_	_	_	_	gloss=name
+6	a	a	CCONJ	_	_	_	_	_	gloss=but
+7	Kleopas	kleopas	unk	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_
+9	ap	ap	VERB	_	_	_	_	_	gloss=commits
+10	sapeng	sapeng	VERB	_	_	0	root	_	gloss=replied|Tense=Past|VerbForm=Fin
+11	indang	indang	unk	_	_	_	_	_	gloss=aren’t
+12	i	i	unk	_	_	_	_	_	gloss=poss
+13	:	:	PUNCT	_	_	_	_	_	gloss=theft
+14	Koe	koe	unk	_	_	_	_	_	gloss=mon
+15	men	men	VERB	_	_	_	_	_	gloss=want
+16	wai	wai	VERB	_	_	_	_	_	gloss=drag
+17	ta	ta	ADJ	_	_	_	amod	_	gloss=only|Degree=Pos
+18	men	men	VERB	_	_	_	_	_	gloss=want
+19	nan	nan	VERB	_	_	_	_	_	gloss=are
+20	Ierusalem	ierusalem	PROPN	_	_	_	pobj	_	gloss=Jerusalem|Number=Sing
+21	,	,	PUNCT	_	_	_	_	_
+22	me	me	PRON	_	_	_	nsubj	_	gloss=who
+23	sasa	sasa	unk	_	_	_	_	_	gloss=ab
+24	,	,	PUNCT	_	_	_	_	_
+25	me	me	PRON	_	_	_	nsubj	_	gloss=who
+26	wiauier	wiauier	unk	_	_	_	_	_	gloss=Gree
+27	wasa	wasa	VERB	_	_	_	_	_	gloss=place
+28	o	o	CCONJ	_	_	_	_	_	gloss=and
+29	ni	ni	VERB	_	_	_	_	_	gloss=been
+30	ran	ran	NOUN	_	_	_	_	_	gloss=day
+31	pukat	pukat	unk	_	_	_	_	_	gloss=these
+32	?	?	PUNCT	_	_	_	_	_
+
+# sent_id = 43001039
+# ref_id = John 1:39
+# eng_text = He said to them , " Come , and see . " They came and saw where he was staying , and they stayed with him that day . It was about the tenth hour .
+# pon_text = A kotin masani ong ira : Kodo kilang ! Ira ap poto dong kilanger wasa , me a kotikot ia , ap mimieta re a ni ran o . Mepukat wiauier impan auer kaeisok .
+1	A	a	CCONJ	_	_	_	_	_	gloss=But
+2	kotin	kotin	NOUN	_	_	_	_	_	gloss=things
+3	masani	masani	VERB	_	_	0	root	_	gloss=said|Tense=Past|VerbForm=Fin
+4	ong	ong	ADP	_	_	_	prep	_	gloss=to
+5	ira	ira	unk	_	_	_	_	_	gloss=ort
+6	:	:	PUNCT	_	_	_	_	_	gloss=theft
+7	Kodo	kodo	VERB	_	_	_	_	_	gloss=Could
+8	kilang	kilang	VERB	_	_	_	conj	_	gloss=see|VerbForm=Inf
+9	!	!	PUNCT	_	_	_	_	_	gloss=ver
+10	Ira	ira	VERB	_	_	_	_	_	gloss=greeted
+11	ap	ap	VERB	_	_	_	_	_	gloss=commits
+12	poto	poto	NOUN	_	_	_	pobj	_	gloss=afternoon|Number=Sing
+13	dong	dong	VERB	_	_	_	_	_	gloss=come
+14	kilanger	kilanger	VERB	_	_	_	_	_	gloss=saw
+15	wasa	wasa	NOUN	_	_	4	pobj	_	gloss=place|Number=Sing
+16	,	,	PUNCT	_	_	_	_	_
+17	me	me	PRON	_	_	_	_	_	gloss=who
+18	a	a	CCONJ	_	_	_	_	_	gloss=but
+19	kotikot	kotikot	unk	_	_	_	_	_	gloss=baptizing
+20	ia	ia	unk	_	_	_	_	_	gloss=me
+21	,	,	PUNCT	_	_	_	_	_
+22	ap	ap	VERB	_	_	_	_	_	gloss=commits
+23	mimieta	mimieta	NOUN	_	_	_	_	_	gloss=months
+24	re	re	VERB	_	_	_	_	_	gloss=ask
+25	a	a	CCONJ	_	_	_	_	_	gloss=but
+26	ni	ni	VERB	_	_	_	_	_	gloss=been
+27	ran	ran	NOUN	_	_	_	pobj	_	gloss=day|Number=Sing
+28	o	o	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+29	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+30	Mepukat	mepukat	unk	_	_	_	_	_	gloss=Gree
+31	wiauier	wiauier	unk	_	_	_	_	_	gloss=Gree
+32	impan	impan	NOUN	_	_	_	_	_	gloss=noon
+33	auer	auer	NOUN	_	_	_	_	_	gloss=hour
+34	kaeisok	kaeisok	NUM	_	_	_	_	_	gloss=tenth
+35	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 43003016
+# ref_id = John 3:16
+# eng_text = For God so loved the world , that he gave his one and only Son , that whoever believes in him should not perish , but have eternal life .
+# pon_text = Pwe iet duen Kot kotin kupura sappa , me a kotikidoki sapwilim a Ieros , pwe karos , me posonla i , ender salongala , a en aneki maur soutuk .
+1	Pwe	pwe	ADP	_	_	_	prep	_	gloss=For
+2	iet	iet	VERB	_	_	_	_	_	gloss=appointed
+3	duen	duen	unk	_	_	_	_	_	gloss=ne
+4	Kot	kot	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+5	kotin	kotin	NOUN	_	_	_	_	_	gloss=things
+6	kupura	kupura	NOUN	_	_	_	_	_	gloss=mercy
+7	sappa	sappa	NOUN	_	_	_	dobj	_	gloss=world|Number=Sing
+8	,	,	PUNCT	_	_	_	_	_
+9	me	me	PRON	_	_	_	nsubj	_	gloss=who
+10	a	a	CCONJ	_	_	_	cc	_	gloss=but|ConjType=Cmp
+11	kotikidoki	kotikidoki	unk	_	_	_	_	_
+12	sapwilim	sapwilim	PROPN	_	_	_	appos	_	gloss=Son|Number=Sing
+13	a	a	CCONJ	_	_	_	cc	_	gloss=but|ConjType=Cmp
+14	Ieros	ieros	unk	_	_	_	_	_	gloss=ish
+15	,	,	PUNCT	_	_	_	_	_
+16	pwe	pwe	unk	_	_	_	_	_	gloss=bling
+17	karos	karos	unk	_	_	_	_	_	gloss=all
+18	,	,	PUNCT	_	_	_	_	_
+19	me	me	PRON	_	_	_	nsubj	_	gloss=who
+20	posonla	posonla	VERB	_	_	_	_	_	gloss=believed
+21	i	i	unk	_	_	_	_	_	gloss=poss
+22	,	,	PUNCT	_	_	_	_	_
+23	ender	ender	unk	_	_	_	_	_	gloss=per
+24	salongala	salongala	VERB	_	_	_	_	_	gloss=wanders
+25	,	,	PUNCT	_	_	_	_	_
+26	a	a	CCONJ	_	_	_	cc	_	gloss=but|ConjType=Cmp
+27	en	en	ADP	_	_	_	_	_	gloss=of
+28	aneki	aneki	VERB	_	_	_	_	_	gloss=estate
+29	maur	maur	NOUN	_	_	_	dobj	_	gloss=life|Number=Sing
+30	soutuk	soutuk	ADJ	_	_	29	amod	_	gloss=eternal|Degree=Pos
+31	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 44002030
+# ref_id = Acts 2:30
+# eng_text = Therefore , being a prophet , and knowing that God had sworn with an oath to him that of the fruit of his body , according to the flesh , he would raise up the Christ to sit on his throne ,
+# pon_text = A saukop amen , ap mangi , me Kot kotin kaula inauki ong i , me kisan wa men pan kaipokedi pon mol a .
+1	A	a	CCONJ	_	_	_	cc	_	gloss=But|ConjType=Cmp
+2	saukop	saukop	NOUN	_	_	_	attr	_	gloss=prophet|Number=Sing
+3	amen	amen	NUM	_	_	_	nsubj	_	gloss=one|NumType=Card
+4	,	,	PUNCT	_	_	_	_	_
+5	ap	ap	VERB	_	_	_	_	_	gloss=commits
+6	mangi	mangi	VERB	_	_	_	_	_	gloss=knows
+7	,	,	PUNCT	_	_	_	_	_
+8	me	me	PRON	_	_	_	_	_	gloss=who
+9	Kot	kot	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+10	kotin	kotin	NOUN	_	_	_	_	_	gloss=things
+11	kaula	kaula	NOUN	_	_	_	pobj	_	gloss=oath|Number=Sing
+12	inauki	inauki	ADJ	_	_	_	_	_	gloss=bound
+13	ong	ong	ADP	_	_	_	_	_	gloss=to
+14	i	i	unk	_	_	_	_	_	gloss=poss
+15	,	,	PUNCT	_	_	_	_	_
+16	me	me	PRON	_	_	_	_	_	gloss=who
+17	kisan	kisan	ADJ	_	_	_	_	_	gloss=Greek
+18	wa	wa	NOUN	_	_	_	_	_	gloss=fruit
+19	men	men	VERB	_	_	_	_	_	gloss=want
+20	pan	pan	AUX	_	_	_	_	_	gloss=will
+21	kaipokedi	kaipokedi	VERB	_	_	_	_	_	gloss=sat
+22	pon	pon	unk	_	_	_	_	_	gloss=ro
+23	mol	mol	NOUN	_	_	_	pobj	_	gloss=throne|Number=Sing
+24	a	a	CCONJ	_	_	_	_	_	gloss=but
+25	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 44009038
+# ref_id = Acts 9:38
+# eng_text = As Lydda was near Joppa , the disciples , hearing that Peter was there , sent two men to him , imploring him not to delay in coming to them .
+# pon_text = A Lida me koren iong Iope . Tounpadak kan lao ronger , me Petrus kotikot wasa o , rap kadarala ol riamen re a , poekipoeki : Kom der peikasal , koti dong kit !
+1	A	a	CCONJ	_	_	_	cc	_	gloss=But|ConjType=Cmp
+2	Lida	lida	unk	_	_	_	_	_
+3	me	me	PRON	_	_	_	_	_	gloss=who
+4	koren	koren	unk	_	_	_	_	_	gloss=near
+5	iong	iong	unk	_	_	_	_	_	gloss=wor
+6	Iope	iope	unk	_	_	_	_	_	gloss=Joppa
+7	.	.	PUNCT	_	_	_	_	_
+8	Tounpadak	tounpadak	VERB	_	_	_	_	_	gloss=use
+9	kan	kan	NOUN	_	_	_	nsubj	_	gloss=believers|Number=Plur
+10	lao	lao	unk	_	_	_	_	_	gloss=When
+11	ronger	ronger	unk	_	_	_	_	_	gloss=Thessalonica
+12	,	,	PUNCT	_	_	_	_	_
+13	me	me	PRON	_	_	_	_	_	gloss=who
+14	Petrus	petrus	PROPN	_	_	_	nsubj	_	gloss=Peter|Number=Sing
+15	kotikot	kotikot	VERB	_	_	_	_	_	gloss=baptizing
+16	wasa	wasa	NOUN	_	_	_	_	_	gloss=place
+17	o	o	CCONJ	_	_	_	_	_	gloss=and
+18	,	,	PUNCT	_	_	_	_	_
+19	rap	rap	NOUN	_	_	_	_	_	gloss=car
+20	kadarala	kadarala	unk	_	_	_	_	_	gloss=messenger
+21	ol	ol	NOUN	_	_	_	dobj	_	gloss=men|Number=Plur
+22	riamen	riamen	NUM	_	_	21	nummod	_	gloss=two|NumType=Card
+23	re	re	VERB	_	_	_	_	_	gloss=ask
+24	a	a	CCONJ	_	_	_	_	_	gloss=but
+25	,	,	PUNCT	_	_	_	_	_
+26	poekipoeki	poekipoeki	unk	_	_	_	_	_	gloss=seeks
+27	:	:	PUNCT	_	_	_	_	_	gloss=theft
+28	Kom	kom	VERB	_	_	_	_	_	gloss=pleaded
+29	der	der	NOUN	_	_	_	_	_	gloss=marketplace
+30	peikasal	peikasal	VERB	_	_	_	_	_	gloss=lift
+31	,	,	PUNCT	_	_	_	_	_
+32	koti	koti	NOUN	_	_	_	_	_	gloss=bedside
+33	dong	dong	VERB	_	_	_	xcomp	_	gloss=come|VerbForm=Inf
+34	kit	kit	PRON	_	_	_	_	_	gloss=we
+35	!	!	PUNCT	_	_	_	_	_	gloss=ver
+
+# sent_id = 44011011
+# ref_id = Acts 11:11
+# eng_text = Behold , immediately three men stood before the house where I was , having been sent from Caesarea to me .
+# pon_text = A kilang , madang ol silimen kasinenda mon im , me i mi lole , me pakadara dong ia sang Säsarea .
+1	A	a	CCONJ	_	_	_	_	_	gloss=But
+2	kilang	kilang	VERB	_	_	_	_	_	gloss=see
+3	,	,	PUNCT	_	_	_	_	_
+4	madang	madang	ADV	_	_	_	_	_	gloss=quickly
+5	ol	ol	NOUN	_	_	_	nsubj	_	gloss=men|Number=Plur
+6	silimen	silimen	NUM	_	_	_	_	_	gloss=three
+7	kasinenda	kasinenda	VERB	_	_	_	_	_	gloss=stood
+8	mon	mon	VERB	_	_	_	_	_	gloss=sits
+9	im	im	NOUN	_	_	_	pobj	_	gloss=house|Number=Sing
+10	,	,	PUNCT	_	_	_	_	_
+11	me	me	PRON	_	_	_	nsubjpass	_	gloss=who
+12	i	i	unk	_	_	_	_	_	gloss=poss
+13	mi	mi	unk	_	_	_	_	_	gloss=ol
+14	lole	lole	ADP	_	_	_	_	_	gloss=inside
+15	,	,	PUNCT	_	_	_	_	_
+16	me	me	PRON	_	_	_	nsubjpass	_	gloss=who
+17	pakadara	pakadara	unk	_	_	_	_	_	gloss=ou
+18	dong	dong	VERB	_	_	_	_	_	gloss=come
+19	ia	ia	unk	_	_	_	_	_	gloss=me
+20	sang	sang	ADP	_	_	_	prep	_	gloss=from
+21	Säsarea	säsarea	PROPN	_	_	20	pobj	_	gloss=Caesarea|Number=Sing
+22	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 44021034
+# ref_id = Acts 21:34
+# eng_text = Some shouted one thing , some another , among the crowd . When he couldn't find out the truth because of the noise , he commanded him to be brought into the barracks .
+# pon_text = A akai sang nan pokon o weriwer wiada eu song en lokaia a akai eu . A ni a sota kak weweki , me re moromorongki , ap masani , a en wisikelang nan im en saunpei .
+1	A	a	CCONJ	_	_	_	_	_	gloss=But
+2	akai	akai	DET	_	_	_	predet	_	gloss=some
+3	sang	sang	ADP	_	_	_	_	_	gloss=from
+4	nan	nan	VERB	_	_	_	_	_	gloss=are
+5	pokon	pokon	NOUN	_	_	_	_	_	gloss=crowd
+6	o	o	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+7	weriwer	weriwer	NOUN	_	_	_	_	_	gloss=ghost
+8	wiada	wiada	unk	_	_	_	_	_	gloss=wound
+9	eu	eu	NUM	_	_	_	_	_	gloss=one
+10	song	song	unk	_	_	_	_	_	gloss=Such
+11	en	en	ADP	_	_	_	_	_	gloss=of
+12	lokaia	lokaia	unk	_	_	_	_	_	gloss=ring
+13	a	a	CCONJ	_	_	_	_	_	gloss=but
+14	akai	akai	DET	_	_	_	predet	_	gloss=some
+15	eu	eu	NUM	_	_	_	_	_	gloss=one
+16	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+17	A	a	CCONJ	_	_	_	_	_	gloss=But
+18	ni	ni	VERB	_	_	_	_	_	gloss=been
+19	a	a	CCONJ	_	_	_	_	_	gloss=but
+20	sota	sota	NEG	_	_	_	_	_	gloss=not, none, nothing
+21	kak	kak	VERB	_	_	_	_	_	gloss=be able to
+22	weweki	weweki	VERB	_	_	_	_	_	gloss=understood
+23	,	,	PUNCT	_	_	_	_	_
+24	me	me	PRON	_	_	_	_	_	gloss=who
+25	re	re	VERB	_	_	_	_	_	gloss=ask
+26	moromorongki	moromorongki	unk	_	_	_	_	_
+27	,	,	PUNCT	_	_	_	_	_
+28	ap	ap	VERB	_	_	_	_	_	gloss=commits
+29	masani	masani	VERB	_	_	_	_	_	gloss=said
+30	,	,	PUNCT	_	_	_	_	_
+31	a	a	CCONJ	_	_	_	_	_	gloss=but
+32	en	en	ADP	_	_	_	_	_	gloss=of
+33	wisikelang	wisikelang	unk	_	_	_	_	_	gloss=usion
+34	nan	nan	VERB	_	_	_	_	_	gloss=are
+35	im	im	NOUN	_	_	_	_	_	gloss=house
+36	en	en	ADP	_	_	_	_	_	gloss=of
+37	saunpei	saunpei	NOUN	_	_	_	_	_	gloss=soldiers
+38	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 47012002
+# ref_id = 2 Corinthians 12:2
+# eng_text = I know a man in Christ , fourteen years ago ( whether in the body , I don't know , or whether out of the body , I don't know ; God knows ) , such a one caught up into the third heaven .
+# pon_text = I asa duen aramas amen ren Kristus , mon saunpar eisok paieu ; i sasa , ma a mi nan war a , de ma a mi likin war a , i pil sasa , Kot me kotin mangi , i aramas o , me peukadala lel nanlang kasilu .
+1	I	i	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+2	asa	asa	VERB	_	_	_	_	_	gloss=know
+3	duen	duen	unk	_	_	_	_	_	gloss=ne
+4	aramas	aramas	NOUN	_	_	_	_	_	gloss=human
+5	amen	amen	NUM	_	_	_	_	_	gloss=one
+6	ren	ren	unk	_	_	_	_	_	gloss=ign
+7	Kristus	kristus	unk	_	_	_	_	_	gloss=Christ
+8	,	,	PUNCT	_	_	_	_	_
+9	mon	mon	NOUN	_	_	_	_	_	gloss=sits
+10	saunpar	saunpar	NOUN	_	_	_	npadvmod	_	gloss=years|Number=Plur
+11	eisok	eisok	NUM	_	_	10	nummod	_	gloss=fourteen|NumType=Card
+12	paieu	paieu	NUM	_	_	10	nummod	_	gloss=fourteen|NumType=Card
+13	;	;	PUNCT	_	_	_	_	_	gloss=baptizing
+14	i	i	unk	_	_	_	_	_	gloss=poss
+15	sasa	sasa	unk	_	_	_	_	_	gloss=ab
+16	,	,	PUNCT	_	_	_	_	_
+17	ma	ma	unk	_	_	_	_	_	gloss=if
+18	a	a	CCONJ	_	_	_	_	_	gloss=but
+19	mi	mi	unk	_	_	_	_	_	gloss=ol
+20	nan	nan	VERB	_	_	_	_	_	gloss=are
+21	war	war	unk	_	_	_	_	_	gloss=deser
+22	a	a	CCONJ	_	_	_	_	_	gloss=but
+23	,	,	PUNCT	_	_	_	_	_
+24	de	de	CCONJ	_	_	_	cc	_	gloss=or|ConjType=Cmp
+25	ma	ma	unk	_	_	_	_	_	gloss=if
+26	a	a	CONJ	_	_	_	_	_	gloss=but
+27	mi	mi	unk	_	_	_	_	_	gloss=ol
+28	likin	likin	VERB	_	_	_	_	_	gloss=suffered
+29	war	war	unk	_	_	_	_	_	gloss=deser
+30	a	a	CCONJ	_	_	_	_	_	gloss=but
+31	,	,	PUNCT	_	_	_	_	_
+32	i	i	unk	_	_	_	_	_	gloss=poss
+33	pil	pil	ADV	_	_	_	_	_	gloss=also
+34	sasa	sasa	unk	_	_	_	_	_	gloss=ab
+35	,	,	PUNCT	_	_	_	_	_
+36	Kot	kot	PROPN	_	_	39	nsubj	_	gloss=God|Number=Sing
+37	me	me	PRON	_	_	_	_	_	gloss=who
+38	kotin	kotin	unk	_	_	_	_	_	gloss=things
+39	mangi	mangi	VERB	_	_	0	root	_	gloss=knows|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+40	,	,	PUNCT	_	_	_	_	_
+41	i	i	unk	_	_	_	_	_	gloss=poss
+42	aramas	aramas	NOUN	_	_	_	_	_	gloss=human
+43	o	o	CCONJ	_	_	_	_	_	gloss=and
+44	,	,	PUNCT	_	_	_	_	_
+45	me	me	PRON	_	_	_	_	_	gloss=who
+46	peukadala	peukadala	unk	_	_	_	_	_
+47	lel	lel	unk	_	_	_	_	_	gloss=flashes
+48	nanlang	nanlang	PROPN	_	_	_	pobj	_	gloss=heaven|Number=Sing
+49	kasilu	kasilu	NUM	_	_	_	_	_	gloss=third
+50	.	.	PUNCT	_	_	39	punct	_	PunctType=Peri
+
+# sent_id = 62004009
+# ref_id = 1 John 4:9
+# eng_text = By this was God's love revealed in us , that God has sent his only born Son into the world that we might live through him .
+# pon_text = Ni met limpok en Kot sansal dong kitail : Kot kotin porone dong sappa sapwilim a Ieros eu , pwe kitail en maur ki i .
+1	Ni	ni	unk	_	_	_	_	_	gloss=med
+2	met	met	unk	_	_	_	_	_	gloss=sur
+3	limpok	limpok	VERB	_	_	_	_	_	gloss=love
+4	en	en	ADP	_	_	_	_	_	gloss=of
+5	Kot	kot	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+6	sansal	sansal	ADV	_	_	_	_	_	gloss=plainly
+7	dong	dong	VERB	_	_	_	_	_	gloss=come
+8	kitail	kitail	unk	_	_	_	_	_	gloss=let’s
+9	:	:	PUNCT	_	_	_	_	_	gloss=theft
+10	Kot	kot	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+11	kotin	kotin	NOUN	_	_	_	_	_	gloss=things
+12	porone	porone	_	_	_	_	_	_
+13	dong	dong	VERB	_	_	_	_	_	gloss=come
+14	sappa	sappa	NOUN	_	_	_	pobj	_	gloss=world|Number=Sing
+15	sapwilim	sapwilim	PROPN	_	_	_	conj	_	gloss=Son|Number=Sing
+16	a	a	CCONJ	_	_	_	_	_	gloss=but
+17	Ieros	ieros	unk	_	_	_	_	_	gloss=ish
+18	eu	eu	NUM	_	_	_	_	_	gloss=one
+19	,	,	PUNCT	_	_	_	_	_
+20	pwe	pwe	unk	_	_	_	_	_	gloss=bling
+21	kitail	kitail	unk	_	_	_	_	_	gloss=let’s
+22	en	en	ADP	_	_	_	_	_	gloss=of
+23	maur	maur	NOUN	_	_	_	dobj	_	gloss=life|Number=Sing
+24	ki	ki	NOUN	_	_	_	_	_	gloss=mat
+25	i	i	unk	_	_	_	_	_	gloss=poss
+26	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 63001005
+# ref_id = 2 John 1:5
+# eng_text = Now I beg you , dear lady , not as though I wrote to you a new commandment , but that which we had from the beginning , that we love one another .
+# pon_text = Ari , i poeki re omui , Maing , kaidin kusoned kap pot , me i inting wong komui , a me kitail aleer sang ni tapi o kitail en pololol pena .
+1	Ari	ari	unk	_	_	_	_	_	gloss=app
+2	,	,	PUNCT	_	_	_	_	_
+3	i	i	PRON	_	_	_	_	_	gloss=I
+4	poeki	poeki	VERB	_	_	_	_	_	gloss=begged
+5	re	re	VERB	_	_	_	_	_	gloss=ask
+6	omui	omui	VERB	_	_	_	_	_	gloss=interfering
+7	,	,	PUNCT	_	_	_	_	_
+8	Maing	maing	NOUN	_	_	_	_	_	gloss=lord
+9	,	,	PUNCT	_	_	_	_	_
+10	kaidin	kaidin	unk	_	_	_	_	_	gloss=diso
+11	kusoned	kusoned	NOUN	_	_	_	attr	_	gloss=commandment|Number=Sing
+12	kap	kap	NOUN	_	_	_	_	_	gloss=covenant
+13	pot	pot	unk	_	_	_	_	_	gloss=iled
+14	,	,	PUNCT	_	_	_	_	_
+15	me	me	PRON	_	_	_	_	_	gloss=who
+16	i	i	unk	_	_	_	_	_	gloss=poss
+17	inting	inting	unk	_	_	_	_	_	gloss=ef
+18	wong	wong	unk	_	_	_	_	_	gloss=ef
+19	komui	komui	VERB	_	_	_	_	_	gloss=Aren’t
+20	,	,	PUNCT	_	_	_	_	_
+21	a	a	CCONJ	_	_	_	cc	_	gloss=but|ConjType=Cmp
+22	me	me	PRON	_	_	_	_	_	gloss=who
+23	kitail	kitail	unk	_	_	_	_	_	gloss=let’s
+24	aleer	aleer	VERB	_	_	_	_	_	gloss=received
+25	sang	sang	ADP	_	_	_	prep	_	gloss=from
+26	ni	ni	VERB	_	_	_	_	_	gloss=been
+27	tapi	tapi	NOUN	_	_	25	pobj	_	gloss=beginning|Number=Sing
+28	o	o	CCONJ	_	_	_	_	_	gloss=and
+29	kitail	kitail	unk	_	_	_	_	_	gloss=let’s
+30	en	en	ADP	_	_	_	_	_	gloss=of
+31	pololol	pololol	unk	_	_	_	_	_
+32	pena	pena	unk	_	_	_	_	_	gloss=together
+33	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+

@@ -1,0 +1,3439 @@
+## The following text has been annotated for parts of speech by students at NTU Singapore as part of a class project in AY 2025.
+## Verses are extracted from the taggedPBC. Annotations have been developed with a combination of manual and automated approaches, with reference to existing literature and (where possible) native speakers.
+## ISO 639-3: zsm, Language: Standard Malay, Number of verses: 100
+## References: Alfred, R., Mujat, A., & Obit, J.H. (2013). A Rule-Based Part of Speech (RPOS) Tagger for Malay Text Articles. In H. Haron, A. Selamat, & N. Nguyen (Eds.), INTELLIGENT INFORMATION AND DATABASE SYSTEMS (ACIIDS 2013), PT II (Vol. 7803, pp. 50-59). Springer Nature ; Eberhard, David M., Gary F. Simons, and Charles D. Fennig (eds.). 2025. Ethnologue: Languages of the World. Twenty-eighth edition. Dallas, Texas: SIL International. Online version: https://www.ethnologue.com/language/zsm/ ; Kiue, C. Y. (2024, March 25). Richness of the malay language: 7 captivating facts revealed about bahasa melayu. https://languageeducatorsassemble.com/malay-language/ ; Omar, A. (1989). The Malay spelling reform. Journal of the Simplified Spelling Society. https://web.archive.org/web/20110826053108/http://www.englishspellingsociety.org/journals/j11/malay.php ; Wichmann, Søren, Eric W. Holman, Cecil H. Brown, Matthew S. Dryer, and Qibin Ran (eds.). 2025. The ASJP Database (version 21).
+
+# sent_id = 40009020
+# ref_id = Matthew 9:20
+# eng_text = Behold , a woman , who had an issue of blood for twelve years , came behind him , and touched the tassels of his garment ;
+# zsm_text = ¶ Maka sesungguhnya adalah seorang perempuan yang ada penyakit tumpah tumpah darah , dua belas tahun lamanya , maka datanglah iya dari belakang Isa menjamah tepi bajunya .
+1	¶	¶	unk	_	_	_	_	_	gloss=scatt
+2	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+3	sesungguhnya	sesungguhnya	INTJ	_	_	_	_	_	gloss=indeed
+4	adalah	adalah	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_	gloss=There
+5	seorang	seorang	DET	_	_	_	_	_	gloss=one
+6	perempuan	perempuan	NOUN	_	_	20	nsubj	_	gloss=woman|Number=Sing
+7	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+8	ada	ada	AUX	_	_	_	_	_	gloss=even
+9	penyakit	penyakit	NOUN	_	Number=Sing	_	_	_	gloss=diseases
+10	tumpah	tumpah	NOUN	_	_	_	pobj	_	gloss=bleeding|Number=Sing
+11	tumpah	tumpah	NOUN	_	_	_	pobj	_	gloss=bleeding|Number=Sing
+12	darah	darah	NOUN	_	_	_	_	_	gloss=blood
+13	,	,	PUNCT	_	_	_	_	_
+14	dua	dua	NUM	NumType=Card|Number=Sing	_	_	_	_	gloss=two
+15	belas	belas	NUM	_	_	16	nummod	_	gloss=twelve|NumType=Card
+16	tahun	tahun	NOUN	_	_	_	pobj	_	gloss=years|Number=Plur
+17	lamanya	lamanya	ADJ	_	_	_	_	_	gloss=ures
+18	,	,	PUNCT	_	_	_	_	_
+19	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+20	datanglah	datanglah	VERB	_	_	0	root	_	gloss=came|Tense=Past|VerbForm=Fin
+21	iya	iya	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	_	_	_	_	gloss=he
+22	dari	dari	ADP	_	_	_	_	_	gloss=t
+23	belakang	belakang	ADP	_	_	20	prep	_	gloss=behind
+24	Isa	isa	PROPN	_	_	_	_	_	gloss=Jesus
+25	menjamah	menjamah	VERB	_	Voice=Act	_	_	_	gloss=touch
+26	tepi	tepi	ADP	_	Mood=Imp	_	_	_
+27	bajunya	bajunya	NOUN	_	_	_	pobj	_	gloss=robe|Number=Sing
+28	.	.	PUNCT	_	_	20	punct	_	PunctType=Peri
+
+# sent_id = 40009027
+# ref_id = Matthew 9:27
+# eng_text = As Jesus passed by from there , two blind men followed him , calling out and saying , " Have mercy on us , son of David ! "
+# zsm_text = ¶ Maka apabila berjalanlah Isa dari sana , maka datanglah dua orang buta mengikot dia , sambil berteriak , katanya , Kasihankanlah kami hie anak Daud .
+1	¶	¶	PUNCT	_	_	_	_	_	gloss=scatt
+2	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+3	apabila	apabila	SCONJ	_	_	_	_	_	gloss=When
+4	berjalanlah	berjalanlah	VERB	_	Voice=Act	_	_	_	gloss=Before
+5	Isa	isa	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+6	dari	dari	ADP	_	_	_	_	_	gloss=t
+7	sana	sana	ADV	_	_	_	_	_	gloss=Tit
+8	,	,	PUNCT	_	_	_	_	_
+9	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+10	datanglah	datanglah	VERB	_	_	_	_	_	gloss=came
+11	dua	dua	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+12	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+13	buta	buta	ADJ	_	_	_	amod	_	gloss=blind|Degree=Pos
+14	mengikot	mengikot	VERB	_	_	0	root	_	gloss=followed|Aspect=Perf|Tense=Past|VerbForm=Part
+15	dia	dia	PRON	_	_	_	pobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+16	,	,	PUNCT	_	_	_	_	_
+17	sambil	sambil	SCONJ	_	_	_	_	_	gloss=s
+18	berteriak	berteriak	VERB	_	Voice=Act	_	_	_	gloss=louder
+19	,	,	PUNCT	_	_	_	_	_
+20	katanya	katanya	VERB	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+21	,	,	PUNCT	_	_	_	_	_
+22	Kasihankanlah	kasihankanlah	VERB	_	_	_	dobj	_	gloss=mercy|Number=Sing
+23	kami	kami	PRON	_	Mood=Imp	_	_	_	gloss=we
+24	hie	hie	INTJ	_	_	_	_	_	gloss=amount
+25	anak	anak	NOUN	_	_	_	npadvmod	_	gloss=Son|Number=Sing
+26	Daud	daud	PROPN	_	_	_	pobj	_	gloss=David|Number=Sing
+27	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40010023
+# ref_id = Matthew 10:23
+# eng_text = But when they persecute you in this city , flee into the next , for most assuredly I tell you , you will not have gone through the cities of Israel , until the Son of Man has come .
+# zsm_text = Maka apabila dianiayai orang akan kamu dalam negeri ini , larilah kamu kesebuah negeri lain , kerana sesungguhnya aku berkata kepadamu , tiada akan habis pekerjaanmu dalam negeri negeri Israil itu , kalau sebelum datang anak manusia .
+1	Maka	maka	unk	_	_	_	_	_	gloss=Then
+2	apabila	apabila	SCONJ	_	_	_	advmod	_	gloss=When
+3	dianiayai	dianiayai	VERB	_	Voice=Pass	_	_	_
+4	orang	orang	NOUN	Number=Sing	_	_	_	_	gloss=man
+5	akan	akan	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+6	kamu	kamu	PRON	_	_	_	nsubj	_	gloss=you|Case=Nom|Person=2|PronType=Prs
+7	dalam	dalam	ADP	_	_	_	_	_	gloss=ci
+8	negeri	negeri	NOUN	_	Mood=Imp	_	_	_	gloss=city
+9	ini	ini	DET	Demonstrative=Prox|PronType=Dem	_	_	_	_	gloss=this
+10	,	,	PUNCT	_	_	_	_	_
+11	larilah	larilah	VERB	_	_	_	_	_	gloss=fled
+12	kamu	kamu	PRON	_	_	_	nsubj	_	gloss=you|Case=Nom|Person=2|PronType=Prs
+13	kesebuah	kesebuah	ADJ	_	_	_	_	_
+14	negeri	negeri	NOUN	_	Mood=Imp	_	_	_	gloss=city
+15	lain	lain	DET	_	Number=Sing	_	_	_	gloss=another
+16	,	,	PUNCT	_	_	_	_	_
+17	kerana	kerana	SCONJ	_	_	_	_	_	gloss=because
+18	sesungguhnya	sesungguhnya	INTJ	_	_	_	_	_	gloss=indeed
+19	aku	aku	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+20	berkata	berkata	VERB	_	Voice=Act	_	_	_	gloss=ered
+21	kepadamu	kepadamu	ADP	_	_	_	_	_	gloss=ou
+22	,	,	PUNCT	_	_	_	_	_
+23	tiada	tiada	PART	_	Polarity=Neg	_	_	_	gloss=without
+24	akan	akan	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+25	habis	habis	VERB	_	Number=Sing	_	_	_	gloss=inning
+26	pekerjaanmu	pekerjaanmu	Noun	_	_	_	_	_	gloss=fle
+27	dalam	dalam	ADP	_	_	_	_	_	gloss=ci
+28	negeri	negeri	NOUN	_	Mood=Imp	_	_	_	gloss=city
+29	negeri	negeri	NOUN	_	Mood=Imp	_	_	_	gloss=city
+30	Israil	israil	PROPN	_	_	_	pobj	_	gloss=Israel|Number=Sing
+31	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+32	,	,	PUNCT	_	_	_	_	_
+33	kalau	kalau	SCONJ	_	_	_	_	_	gloss=if
+34	sebelum	sebelum	ADJ	_	_	_	_	_	gloss=deny
+35	datang	datang	VERB	VerbForm=Fin	_	_	_	_	gloss=coming
+36	anak	anak	PROPN	_	_	_	nsubj	_	gloss=Son|Number=Sing
+37	manusia	manusia	PROPN	_	_	_	pobj	_	gloss=Man|Number=Sing
+38	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 40011001
+# ref_id = Matthew 11:1
+# eng_text = It happened that when Jesus had finished directing his twelve disciples , he departed there to teach and preach in their cities .
+# zsm_text = SŬBARMULA maka apabila habislah sudah Isa berpesan kepada kedua belas muridnya itu , maka undorlah iya dari sana , sebab iya hendak mengajar , dan memashorkan Injil dalam segala negeri mereka itu .
+1	SŬBARMULA	sebarmula	None	_	_	_	_	_	gloss=fam
+2	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+3	apabila	apabila	SCONJ	_	_	_	advmod	_	gloss=When
+4	habislah	habislah	ADJ	_	_	_	_	_	gloss=pit
+5	sudah	sudah	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_	gloss=After
+6	Isa	isa	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+7	berpesan	berpesan	NOUN	_	_	_	dobj	_	gloss=instructions|Number=Plur
+8	kepada	kepada	PART	_	_	_	aux	_	gloss=to
+9	kedua	kedua	None	_	_	_	_	_	gloss=second
+10	belas	belas	NUM	_	_	11	nummod	_	gloss=twelve|NumType=Card
+11	muridnya	muridnya	NOUN	_	_	8	pobj	_	gloss=disciples|Number=Plur
+12	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+13	,	,	PUNCT	_	_	_	_	_
+14	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+15	undorlah	undorlah	ADJ	_	_	_	_	_	gloss=att
+16	iya	iya	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+17	dari	dari	ADP	_	_	_	_	_	gloss=t
+18	sana	sana	None	_	_	_	_	_	gloss=Tit
+19	,	,	PUNCT	_	_	_	_	_
+20	sebab	sebab	SCONJ	_	_	_	_	_	gloss=shame
+21	iya	iya	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+22	hendak	hendak	AUX	_	_	_	_	_	gloss=gr
+23	mengajar	mengajar	VERB	_	Voice=Act	_	_	_	gloss=prophesying
+24	,	,	PUNCT	_	_	_	_	_
+25	dan	dan	CCONJ	_	_	_	_	_	gloss=ind
+26	memashorkan	memashorkan	VERB	_	Voice=Act	_	_	_	gloss=Good
+27	Injil	injil	None	_	_	_	_	_	gloss=News
+28	dalam	dalam	ADP	_	_	_	_	_	gloss=ci
+29	segala	segala	DET	_	_	_	_	_	gloss=all
+30	negeri	negeri	NOUN	_	Mood=Imp	_	_	_	gloss=city
+31	mereka	mereka	PRON	Number=Plur|Person=3|PronType=Prs|Poss=Yes	_	_	_	_	gloss=They
+32	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+33	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 40013008
+# ref_id = Matthew 13:8
+# eng_text = and others fell on good soil , and yielded fruit : some one hundred times , some sixty , and some thirty .
+# zsm_text = Tetapi setengahnya yang lain itu jatuhlah pada tanah yang baik , maka berbuahlah iya bergandah gandah , ada yang seratus , ada yang anam puluh , ada yang tiga puluh banyaknya .
+1	Tetapi	tetapi	CCONJ	_	_	_	_	_	gloss=But
+2	setengahnya	setengahnya	NOUN	_	_	6	nsubj	_	gloss=seeds|Number=Plur
+3	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+4	lain	lain	NOUN	_	Number=Sing	_	_	_	gloss=another
+5	itu	itu	DET	Definite=Def|PronType=Art	_	_	_	_	gloss=the
+6	jatuhlah	jatuhlah	VERB	_	_	0	root	_	gloss=fell|Tense=Past|VerbForm=Fin
+7	pada	pada	ADP	_	_	_	_	_	gloss=guilty
+8	tanah	tanah	ADJ	_	_	_	_	_	gloss=preaching
+9	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+10	baik	baik	NOUN	_	Number=Sing	_	_	_	gloss=good
+11	,	,	PUNCT	_	_	_	_	_
+12	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+13	berbuahlah	berbuahlah	NUM	_	_	_	conj	_	gloss=sixty|NumType=Card
+14	iya	iya	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	_	_	_	_	gloss=he
+15	bergandah	bergandah	VERB	_	Voice=Act	_	_	_
+16	gandah	gandah	ADJ	_	_	_	amod	_	gloss=fertile|Degree=Pos
+17	,	,	PUNCT	_	_	_	_	_
+18	ada	ada	ADV	_	_	20	advmod	_	gloss=even
+19	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+20	seratus	seratus	NUM	_	_	_	nummod	_	gloss=hundred|NumType=Card
+21	,	,	PUNCT	_	_	_	_	_
+22	ada	ada	ADV	_	_	20	advmod	_	gloss=even
+23	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+24	anam	anam	ADJ	_	_	_	amod	_	gloss=fertile|Degree=Pos
+25	puluh	puluh	DET	Number=Sing	_	_	_	_	gloss=sev
+26	,	,	PUNCT	_	_	_	_	_
+27	ada	ada	ADV	_	_	20	advmod	_	gloss=even
+28	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+29	tiga	tiga	NUM	NumType=Card|Number=Sing	_	_	_	_	gloss=three
+30	puluh	puluh	DET	Number=Sing	_	_	_	_	gloss=sev
+31	banyaknya	banyaknya	None	_	_	_	_	_	gloss=5,000
+32	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40014017
+# ref_id = Matthew 14:17
+# eng_text = They told him , " We only have here five loaves and two fish . "
+# zsm_text = Maka jawab mereka itu padanya , Suatu pun tiada pada kami disini , melainkan lima buah roti , dan dua ekor ikan sahaja .
+1	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+2	jawab	jawab	VERB	_	_	0	root	_	gloss=answered|Tense=Past|VerbForm=Fin
+3	mereka	mereka	PRON	Number=Plur|Person=3|PronType=Prs|Poss=Yes	_	_	_	_	gloss=They
+4	itu	itu	DET	Definite=Def|PronType=Art	_	_	_	_	gloss=the
+5	padanya	padanya	NOUN	_	_	_	_	_	gloss=ea
+6	,	,	PUNCT	_	_	_	_	_
+7	Suatu	suatu	PRON	_	_	_	_	_	gloss=aren’t
+8	pun	pun	PART	_	_	_	_	_	gloss=or
+9	tiada	tiada	PART	_	Polarity=Neg	_	_	_	gloss=without
+10	pada	pada	ADP	_	_	_	_	_	gloss=guilty
+11	kami	kami	PRON	_	_	_	nsubj	_	gloss=we|Case=Nom|Number=Plur|Person=1|PronType=Prs
+12	disini	disini	VERB	_	Voice=Pass	_	_	_	gloss=Gethsemane
+13	,	,	PUNCT	_	_	_	_	_
+14	melainkan	melainkan	VERB	_	Voice=Act	_	_	_	gloss=ot
+15	lima	lima	NUM	_	_	16	nummod	_	gloss=five|NumType=Card
+16	buah	buah	NOUN	_	_	_	dobj	_	gloss=loaves|Number=Plur
+17	roti	roti	NOUN	_	_	_	pobj	_	gloss=bread|Number=Sing
+18	,	,	PUNCT	_	_	_	_	_
+19	dan	dan	CCONJ	_	_	_	_	_	gloss=ind
+20	dua	dua	NUM	_	_	22	nummod	_	gloss=two|NumType=Card
+21	ekor	ekor	DET	Number=Sing	_	_	_	_	gloss=Won’t
+22	ikan	ikan	NOUN	_	_	16	conj	_	gloss=fish|Number=Sing
+23	sahaja	sahaja	None	_	_	_	_	_	gloss=im
+24	.	.	PUNCT	_	_	2	punct	_	PunctType=Peri
+
+# sent_id = 40015034
+# ref_id = Matthew 15:34
+# eng_text = Jesus said to them , " How many loaves do you have ? " They said , " Seven , and a few small fish . "
+# zsm_text = Maka kata Isa pada mereka itu , Ada berapa buah roti padamu ? Maka jawab mereka itu , Ada tujuh buah , dan ikan kecil kecil sedikit .
+1	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+2	kata	kata	VERB	_	_	_	_	_	gloss=spoken
+3	Isa	isa	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+4	pada	pada	ADP	_	_	_	_	_	gloss=guilty
+5	mereka	mereka	PRON	_	_	_	nsubj	_	gloss=They|Case=Nom|Number=Plur|Person=3|PronType=Prs
+6	itu	itu	DET	Definite=Def|PronType=Art	_	_	_	_	gloss=the
+7	,	,	PUNCT	_	_	_	_	_
+8	Ada	ada	AUX	_	_	_	_	_	gloss=felt
+9	berapa	berapa	None	_	_	_	_	_	gloss=discipline
+10	buah	buah	NOUN	_	_	_	dobj	_	gloss=loaves|Number=Plur
+11	roti	roti	NOUN	_	_	_	dobj	_	gloss=bread|Number=Sing
+12	padamu	padamu	None	_	_	_	_	_	gloss=sends
+13	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+14	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+15	jawab	jawab	None	_	_	_	_	_	gloss=answered
+16	mereka	mereka	PRON	_	_	_	nsubj	_	gloss=They|Case=Nom|Number=Plur|Person=3|PronType=Prs
+17	itu	itu	DET	Definite=Def|PronType=Art	_	_	_	_	gloss=the
+18	,	,	PUNCT	_	_	_	_	_
+19	Ada	ada	AUX	_	_	_	_	_	gloss=felt
+20	tujuh	tujuh	None	_	_	_	_	_	gloss=seven
+21	buah	buah	NOUN	_	_	_	dobj	_	gloss=loaves|Number=Plur
+22	,	,	PUNCT	_	_	_	_	_
+23	dan	dan	CCONJ	_	_	_	_	_	gloss=ind
+24	ikan	ikan	NOUN	_	_	21	conj	_	gloss=fish|Number=Sing
+25	kecil	kecil	ADJ	_	_	24	amod	_	gloss=small|Degree=Pos
+26	kecil	kecil	ADJ	_	_	24	amod	_	gloss=small|Degree=Pos
+27	sedikit	sedikit	ADJ	_	_	24	amod	_	gloss=few|Degree=Pos
+28	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 40015037
+# ref_id = Matthew 15:37
+# eng_text = They all ate , and were filled . They took up seven baskets full of the broken pieces that were left over .
+# zsm_text = Maka makanlah segala mereka itu sampai kenyang ; kemudian diangkat oranglah sisa yang tinggal tinggal itu , tujuh buah bakol penoh .
+1	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+2	makanlah	makanlah	ADJ	_	_	_	_	_
+3	segala	segala	PRON	_	_	4	appos	_	gloss=all
+4	mereka	mereka	PRON	_	_	_	nsubj	_	gloss=They|Case=Nom|Number=Plur|Person=3|PronType=Prs
+5	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+6	sampai	sampai	ADV	_	_	_	_	_	gloss=corners
+7	kenyang	kenyang	ADV	_	_	11	advmod	_	gloss=Afterward
+8	;	;	PUNCT	_	_	_	_	_	gloss=am
+9	kemudian	kemudian	NOUN	_	Number=Sing	_	_	_	gloss=ant
+10	diangkat	diangkat	ADV	_	_	11	advmod	_	gloss=Afterward
+11	oranglah	oranglah	VERB	_	_	0	root	_	gloss=picked|Tense=Past|VerbForm=Fin
+12	sisa	sisa	NOUN	_	_	11	dobj	_	gloss=baskets|Number=Plur
+13	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+14	tinggal	tinggal	NOUN	_	Number=Sing	_	_	_	gloss=remain
+15	tinggal	tinggal	NOUN	_	Number=Sing	_	_	_	gloss=remain
+16	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+17	,	,	PUNCT	_	_	_	_	_
+18	tujuh	tujuh	NUM	_	_	12	nummod	_	gloss=seven|NumType=Card
+19	buah	buah	DET	Number=Sing	_	_	_	_	gloss=loaves
+20	bakol	bakol	NOUN	_	_	_	compound	_	gloss=leftover|Number=Sing
+21	penoh	penoh	NOUN	_	_	_	compound	_	gloss=leftover|Number=Sing
+22	.	.	PUNCT	_	_	11	punct	_	PunctType=Peri
+
+# sent_id = 40019005
+# ref_id = Matthew 19:5
+# eng_text = and said , ' For this cause a man will leave his father and mother , and will join to his wife ; and the two will become one flesh ? '
+# zsm_text = Maka iya telah berkata , dari sebab itu , patutlah manusia ini berjarak daripada ibu bapanya , dan berdamping pada bininya ; maka keduanya itu kelak akan menjadi suatu darah daging adanya .
+1	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+2	iya	iya	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+3	telah	telah	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_	gloss=has
+4	berkata	berkata	VERB	_	Voice=Act	_	_	_	gloss=ered
+5	,	,	PUNCT	_	_	_	_	_
+6	dari	dari	ADP	_	_	_	_	_	gloss=t
+7	sebab	sebab	SCONJ	_	_	_	_	_	gloss=shame
+8	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+9	,	,	PUNCT	_	_	_	_	_
+10	patutlah	patutlah	ADJ	_	_	_	_	_	gloss=ought
+11	manusia	manusia	NOUN	_	_	_	_	_	gloss=Man
+12	ini	ini	DET	Demonstrative=Prox|PronType=Dem	_	_	_	_	gloss=this
+13	berjarak	berjarak	VERB	_	Voice=Act	_	_	_
+14	daripada	daripada	ADP	_	_	_	_	_	gloss=than
+15	ibu	ibu	None	_	_	_	_	_	gloss=parents
+16	bapanya	bapanya	NOUN	_	_	_	dobj	_	gloss=father|Number=Sing
+17	,	,	PUNCT	_	_	_	_	_
+18	dan	dan	CCONJ	_	_	_	_	_	gloss=ind
+19	berdamping	berdamping	VERB	_	_	_	conj	_	gloss=joined|Aspect=Perf|Tense=Past|VerbForm=Part
+20	pada	pada	ADP	_	_	_	_	_	gloss=guilty
+21	bininya	bininya	ADJ	_	_	_	_	_	gloss=widow
+22	;	;	PUNCT	_	_	_	_	_	gloss=am
+23	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+24	keduanya	keduanya	None	_	_	_	_	_	gloss=record
+25	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+26	kelak	kelak	ADJ	_	NumType=Ord	_	_	_	gloss=will
+27	akan	akan	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	_	_	_	_	gloss=will
+28	menjadi	menjadi	VERB	_	Voice=Act	_	_	_	gloss=become
+29	suatu	suatu	PRON	_	_	_	_	_
+30	darah	darah	NOUN	_	_	_	_	_	gloss=blood
+31	daging	daging	NOUN	_	_	_	_	_	gloss=meat
+32	adanya	adanya	NOUN	_	_	_	_	_	gloss=shown
+33	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 40021024
+# ref_id = Matthew 21:24
+# eng_text = Jesus answered them , " I also will ask you one question , which if you tell me , I likewise will tell you by what authority I do these things .
+# zsm_text = Maka jawab Isa serta berkata kepada mereka itu , bahawa aku pun hendak bertanya juga suatu perkara kepadamu , maka jikalau kiranya engkau dapat menjawab akan dia , maka aku pun boleh mengatakan kepadamu , dengan kuasa siapa aku berbuat segala perkara ini .
+1	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+2	jawab	jawab	None	_	_	_	_	_	gloss=answered
+3	Isa	isa	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+4	serta	serta	ADJ	_	_	_	_	_	gloss=awhile
+5	berkata	berkata	VERB	_	Voice=Act	_	_	_	gloss=ered
+6	kepada	kepada	ADP	_	_	_	_	_	gloss=to
+7	mereka	mereka	PRON	Number=Plur|Person=3|PronType=Prs|Poss=Yes	_	_	_	_	gloss=They
+8	itu	itu	DET	Definite=Def|PronType=Art	_	_	_	_	gloss=the
+9	,	,	PUNCT	_	_	_	_	_
+10	bahawa	bahawa	SCONJ	_	_	_	_	_	gloss=me
+11	aku	aku	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+12	pun	pun	PART	_	_	_	_	_	gloss=or
+13	hendak	hendak	AUX	_	_	_	_	_	gloss=gr
+14	bertanya	bertanya	VERB	_	Voice=Act	_	_	_	gloss=ask
+15	juga	juga	ADV	_	_	_	_	_	gloss=same
+16	suatu	suatu	PRON	_	_	_	_	_
+17	perkara	perkara	NOUN	_	_	_	dobj	_	gloss=things|Number=Plur
+18	kepadamu	kepadamu	ADP	_	_	_	_	_	gloss=ou
+19	,	,	PUNCT	_	_	_	_	_
+20	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+21	jikalau	jikalau	SCONJ	_	_	25	mark	_	gloss=if
+22	kiranya	kiranya	None	_	_	_	_	_	gloss=pleaded
+23	engkau	engkau	PRON	_	_	_	_	_	gloss=clean
+24	dapat	dapat	NOUN	_	Number=Sing	_	_	_	gloss=disobeyed
+25	menjawab	menjawab	VERB	_	_	_	advcl	_	gloss=answer|Tense=Pres|VerbForm=Fin
+26	akan	akan	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	_	_	_	_	gloss=will
+27	dia	dia	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	_	_	_	_	gloss=him
+28	,	,	PUNCT	_	_	_	_	_
+29	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+30	aku	aku	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+31	pun	pun	PART	_	_	_	_	_	gloss=or
+32	boleh	boleh	AUX	_	_	_	_	_	gloss=can
+33	mengatakan	mengatakan	VERB	_	Voice=Act	_	_	_	gloss=Could
+34	kepadamu	kepadamu	ADP	_	_	_	_	_	gloss=ou
+35	,	,	PUNCT	_	_	_	_	_
+36	dengan	dengan	ADP	_	_	_	_	_	gloss=ius
+37	kuasa	kuasa	None	_	_	_	_	_	gloss=power
+38	siapa	siapa	PRON	_	_	_	_	_	gloss=ily
+39	aku	aku	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+40	berbuat	berbuat	VERB	_	Voice=Act	_	_	_	gloss=job
+41	segala	segala	DET	_	_	_	_	_	gloss=all
+42	perkara	perkara	NOUN	_	_	_	dobj	_	gloss=things|Number=Plur
+43	ini	ini	DET	Demonstrative=Prox|PronType=Dem	_	_	_	_	gloss=this
+44	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 40021028
+# ref_id = Matthew 21:28
+# eng_text = But what do you think ? A man had two sons , and he came to the first , and said , ' Son , go work today in my vineyard . '
+# zsm_text = ¶ Apakah pada sangkamu , ada pada sianu itu dua orang anak laki laki , maka pergilah iya pertama tama kepada seorang , katanya , Hie anakku , pergilah engkau bekerja pada hari ini kakebun anggorku .
+1	¶	¶	PUNCT	_	_	_	_	_	gloss=scatt
+2	Apakah	apakah	ADJ	_	_	_	_	_	gloss=What
+3	pada	pada	ADP	_	_	_	_	_	gloss=guilty
+4	sangkamu	sangkamu	VERB	_	_	0	root	_	gloss=think|VerbForm=Inf
+5	,	,	PUNCT	_	_	_	_	_
+6	ada	ada	AUX	_	_	_	_	_	gloss=even
+7	pada	pada	ADP	_	_	_	_	_	gloss=guilty
+8	sianu	sianu	None	_	_	_	_	_
+9	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+10	dua	dua	NUM	_	_	13	nummod	_	gloss=two|NumType=Card
+11	orang	orang	NOUN	_	_	_	nsubj	_	gloss=man|Number=Sing
+12	anak	anak	NOUN	_	_	_	npadvmod	_	gloss=Son|Number=Sing
+13	laki	laki	NOUN	_	_	_	pobj	_	gloss=sons|Number=Plur
+14	laki	laki	NOUN	_	_	_	pobj	_	gloss=sons|Number=Plur
+15	,	,	PUNCT	_	_	_	_	_
+16	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+17	pergilah	pergilah	NOUN	_	Number=Sing	_	_	_	gloss=went
+18	iya	iya	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	_	_	_	_	gloss=he
+19	pertama	pertama	NOUN	_	Number=Sing	_	_	_	gloss=first
+20	tama	tama	None	_	_	_	_	_	gloss=desires
+21	kepada	kepada	ADP	_	_	_	_	_	gloss=to
+22	seorang	seorang	PRON	_	_	_	_	_	gloss=one
+23	,	,	PUNCT	_	_	_	_	_
+24	katanya	katanya	PUNCT	_	_	4	punct	_	PunctSide=Ini|PunctType=Quot
+25	,	,	PUNCT	_	_	_	_	_
+26	Hie	hie	None	_	_	_	_	_	gloss=fools
+27	anakku	anakku	NOUN	_	_	_	_	_	gloss=dearly
+28	,	,	PUNCT	_	_	_	_	_
+29	pergilah	pergilah	NOUN	_	Number=Sing	_	_	_	gloss=went
+30	engkau	engkau	PRON	_	_	_	_	_	gloss=clean
+31	bekerja	bekerja	VERB	_	_	_	conj	_	gloss=work|VerbForm=Inf
+32	pada	pada	ADP	_	_	_	_	_	gloss=guilty
+33	hari	hari	VERB	_	Mood=Imp	_	_	_	gloss=days
+34	ini	ini	PRON	_	_	_	pobj	_	gloss=this|Number=Sing|PronType=Dem
+35	kakebun	kakebun	None	_	_	_	_	_
+36	anggorku	anggorku	None	_	_	_	_	_
+37	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 40022025
+# ref_id = Matthew 22:25
+# eng_text = Now there were with us seven brothers . The first married and died , and having no seed left his wife to his brother .
+# zsm_text = bahawa disini adalah tujuh orang bersaudara laki laki , maka yang pertama setelah sudah iya kahwin , maka matilah iya , tetapi tiada iya meninggalkan baka , maka ditinggalkannya bininya itu kepada saudaranya .
+1	bahawa	bahawa	SCONJ	_	_	_	_	_	gloss=me
+2	disini	disini	VERB	_	Voice=Pass	_	_	_	gloss=Gethsemane
+3	adalah	adalah	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_	gloss=There
+4	tujuh	tujuh	NUM	_	_	_	nummod	_	gloss=seven|NumType=Card
+5	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+6	bersaudara	bersaudara	VERB	_	_	0	root	_	gloss=suppose|VerbForm=Inf
+7	laki	laki	VERB	_	Mood=Imp	_	_	_	gloss=sons
+8	laki	laki	VERB	_	Mood=Imp	_	_	_	gloss=sons
+9	,	,	PUNCT	_	_	_	_	_
+10	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+11	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+12	pertama	pertama	NOUN	_	Number=Sing	_	_	_	gloss=first
+13	setelah	setelah	ADJ	_	_	_	_	_	gloss=i
+14	sudah	sudah	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_	gloss=After
+15	iya	iya	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	_	_	_	_	gloss=he
+16	kahwin	kahwin	None	_	_	_	_	_	gloss=marries
+17	,	,	PUNCT	_	_	_	_	_
+18	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+19	matilah	matilah	VERB	_	_	_	conj	_	gloss=died|Tense=Past|VerbForm=Fin
+20	iya	iya	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	_	_	_	_	gloss=he
+21	,	,	PUNCT	_	_	_	_	_
+22	tetapi	tetapi	CCONJ	_	_	_	_	_	gloss=but
+23	tiada	tiada	ADP	_	_	19	prep	_	gloss=without
+24	iya	iya	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	_	_	_	_	gloss=he
+25	meninggalkan	meninggalkan	VERB	_	Voice=Act	_	_	_	gloss=omes
+26	baka	baka	None	_	_	_	_	_	gloss=dies
+27	,	,	PUNCT	_	_	_	_	_
+28	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+29	ditinggalkannya	ditinggalkannya	NOUN	_	_	_	dobj	_	gloss=widow|Number=Sing
+30	bininya	bininya	NOUN	_	_	_	dobj	_	gloss=widow|Number=Sing
+31	itu	itu	DET	_	_	30	det	_	gloss=the|Definite=Def|PronType=Art
+32	kepada	kepada	ADP	_	_	_	_	_	gloss=to
+33	saudaranya	saudaranya	NOUN	_	_	_	nsubj	_	gloss=brother|Number=Sing
+34	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 40024041
+# ref_id = Matthew 24:41
+# eng_text = two women grinding at the mill , one is taken , and one is left .
+# zsm_text = Maka dua perempuan kelak mengisar pada kisarannya , seorang akan diambil , dan seorang akan ditinggalkan .
+1	Maka	maka	unk	_	_	_	_	_	gloss=Then
+2	dua	dua	NUM	NumType=Card|Number=Sing	_	_	_	_	gloss=two
+3	perempuan	perempuan	NOUN	_	Number=Sing	_	_	_	gloss=woman
+4	kelak	kelak	AUX	_	_	11	aux	_	gloss=will|VerbForm=Fin
+5	mengisar	mengisar	VERB	_	_	11	ccomp	_	gloss=grinding|Aspect=Prog|Tense=Pres|VerbForm=Part
+6	pada	pada	ADP	_	_	_	_	_	gloss=guilty
+7	kisarannya	kisarannya	None	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_
+9	seorang	seorang	PRON	_	_	11	nsubjpass	_	gloss=one|PronType=Prs
+10	akan	akan	AUX	_	_	11	aux	_	gloss=will|VerbForm=Fin
+11	diambil	diambil	VERB	_	_	_	ccomp	_	gloss=taken|Aspect=Perf|Tense=Past|VerbForm=Part
+12	,	,	PUNCT	_	_	_	_	_
+13	dan	dan	CCONJ	_	_	_	_	_	gloss=ind
+14	seorang	seorang	PRON	_	_	11	nsubjpass	_	gloss=one|PronType=Prs
+15	akan	akan	AUX	_	_	11	aux	_	gloss=will|VerbForm=Fin
+16	ditinggalkan	ditinggalkan	VERB	_	_	11	ccomp	_	gloss=grinding|Aspect=Prog|Tense=Pres|VerbForm=Part
+17	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 40025018
+# ref_id = Matthew 25:18
+# eng_text = But he who received the one went away and dug in the earth , and hid his lord's money .
+# zsm_text = Tetapi orang yang telah mendapat satu telanta itu , maka pergilah iya menggali lobang ditanah , lalu disembunyikannyalah wang tuannya itu .
+1	Tetapi	tetapi	CCONJ	_	_	_	cc	_	gloss=But|ConjType=Cmp
+2	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+3	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+4	telah	telah	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_	gloss=has
+5	mendapat	mendapat	VERB	_	Voice=Act	_	_	_	gloss=find
+6	satu	satu	NUM	NumType=Card|Number=Sing	_	_	_	_	gloss=ag
+7	telanta	telanta	None	_	_	_	_	_
+8	itu	itu	DET	_	_	20	det	_	gloss=the|Definite=Def|PronType=Art
+9	,	,	PUNCT	_	_	_	_	_
+10	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+11	pergilah	pergilah	NOUN	_	Number=Sing	_	_	_	gloss=went
+12	iya	iya	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	_	_	_	_	gloss=he
+13	menggali	menggali	VERB	_	Voice=Act	_	_	_
+14	lobang	lobang	None	_	_	_	_	_
+15	ditanah	ditanah	NOUN	_	_	_	pobj	_	gloss=ground|Number=Sing
+16	,	,	PUNCT	_	_	_	_	_
+17	lalu	lalu	ADV	_	_	_	_	_	gloss=slipped
+18	disembunyikannyalah	disembunyikannyalah	VERB	_	Voice=Pass	_	_	_
+19	wang	wang	NOUN	_	_	_	dobj	_	gloss=money|Number=Sing
+20	tuannya	tuannya	NOUN	_	_	19	poss	_	gloss=master|Number=Sing
+21	itu	itu	DET	_	_	20	det	_	gloss=the|Definite=Def|PronType=Art
+22	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 40025040
+# ref_id = Matthew 25:40
+# eng_text = The King will answer them , ' Most assuredly I tell you , inasmuch as you did it to one of the least of these my brothers , you did it to me . '
+# zsm_text = Maka Raja itu akan menjawab pada mereka itu , sesungguhnya aku berkata padamu , maka sebab tampak barang yang kamu telah berbuat pada seorang yang terkechil sekali pun daripada segala saudaraku ini , seperti kamu telah berbuat itu kepadaku .
+1	Maka	maka	unk	_	_	_	_	_	gloss=Then
+2	Raja	raja	PROPN	_	_	_	nsubj	_	gloss=King|Number=Sing
+3	itu	itu	DET	_	_	26	det	_	gloss=the|Definite=Def|PronType=Art
+4	akan	akan	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+5	menjawab	menjawab	VERB	_	Voice=Act	_	_	_	gloss=answer
+6	pada	pada	ADP	_	_	_	_	_	gloss=guilty
+7	mereka	mereka	PRON	Number=Plur|Person=3|PronType=Prs|Poss=Yes	_	_	_	_	gloss=They
+8	itu	itu	DET	_	_	26	det	_	gloss=the|Definite=Def|PronType=Art
+9	,	,	PUNCT	_	_	_	_	_
+10	sesungguhnya	sesungguhnya	INTJ	_	_	_	_	_	gloss=indeed
+11	aku	aku	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+12	berkata	berkata	VERB	_	Voice=Act	_	_	_	gloss=ered
+13	padamu	padamu	None	_	_	_	_	_	gloss=sends
+14	,	,	PUNCT	_	_	_	_	_
+15	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+16	sebab	sebab	SCONJ	_	_	_	_	_	gloss=shame
+17	tampak	tampak	None	_	_	_	_	_	gloss=gone
+18	barang	barang	DET	_	_	_	_	_	gloss=tells
+19	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+20	kamu	kamu	PRON	_	_	_	nsubj	_	gloss=you|Case=Nom|Person=2|PronType=Prs
+21	telah	telah	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_	gloss=has
+22	berbuat	berbuat	VERB	_	Voice=Act	_	_	_	gloss=job
+23	pada	pada	ADP	_	_	_	_	_	gloss=guilty
+24	seorang	seorang	PRON	_	_	_	pobj	_	gloss=one|NumType=Card
+25	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+26	terkechil	terkechil	ADJ	_	_	_	pobj	_	gloss=least|Degree=Sup
+27	sekali	sekali	VERB	_	Mood=Imp	_	_	_	gloss=ev
+28	pun	pun	PART	_	_	_	_	_	gloss=or
+29	daripada	daripada	ADP	_	_	_	_	_	gloss=than
+30	segala	segala	DET	_	_	_	_	_	gloss=all
+31	saudaraku	saudaraku	NOUN	_	_	26	conj	_	gloss=brothers|Number=Plur
+32	ini	ini	DET	Demonstrative=Prox|PronType=Dem	_	_	_	_	gloss=this
+33	,	,	PUNCT	_	_	_	_	_
+34	seperti	seperti	VERB	_	Mood=Imp	_	_	_	gloss=like
+35	kamu	kamu	PRON	_	_	_	nsubj	_	gloss=you|Case=Nom|Person=2|PronType=Prs
+36	telah	telah	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_	gloss=has
+37	berbuat	berbuat	VERB	_	Voice=Act	_	_	_	gloss=job
+38	itu	itu	DET	_	_	26	det	_	gloss=the|Definite=Def|PronType=Art
+39	kepadaku	kepadaku	PRON	_	_	_	pobj	_	gloss=me|Case=Acc|Number=Sing|Person=1|PronType=Prs
+40	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40026015
+# ref_id = Matthew 26:15
+# eng_text = and said , " What are you willing to give me , and I will deliver him to you ? " They weighed out for him thirty pieces of silver .
+# zsm_text = Sambil berkata padanya , Apa kamu hendak bri padaku , supaya aku menyerahkan Isa kepadamu ? Maka mereka itu berjanjilah hendak memberi akan dia tiga puluh wang perak .
+1	Sambil	sambil	SCONJ	_	_	_	_	_	gloss=ship
+2	berkata	berkata	VERB	_	Voice=Act	_	_	_	gloss=ered
+3	padanya	padanya	NOUN	_	_	_	_	_	gloss=ea
+4	,	,	PUNCT	_	_	_	_	_
+5	Apa	apa	None	_	_	_	_	_	gloss=Why
+6	kamu	kamu	PRON	_	_	_	pobj	_	gloss=you|Case=Acc|Person=2|PronType=Prs
+7	hendak	hendak	AUX	_	_	_	_	_	gloss=gr
+8	bri	bri	VERB	_	Mood=Imp	_	_	_	gloss=Heal
+9	padaku	padaku	None	_	_	_	_	_	gloss=nd
+10	,	,	PUNCT	_	_	_	_	_
+11	supaya	supaya	SCONJ	_	_	_	_	_	gloss=ning
+12	aku	aku	PRON	_	_	_	_	_	gloss=I
+13	menyerahkan	menyerahkan	VERB	_	_	_	advcl	_	gloss=betray|VerbForm=Inf
+14	Isa	isa	PROPN	_	_	13	dobj	_	gloss=Jesus|Number=Sing
+15	kepadamu	kepadamu	ADP	_	_	_	_	_	gloss=ou
+16	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+17	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+18	mereka	mereka	PRON	Number=Plur|Person=3|PronType=Prs|Poss=Yes	_	_	_	_	gloss=They
+19	itu	itu	DET	Definite=Def|PronType=Art	_	_	_	_	gloss=the
+20	berjanjilah	berjanjilah	VERB	_	Voice=Act	_	_	_
+21	hendak	hendak	AUX	_	_	_	_	_	gloss=gr
+22	memberi	memberi	VERB	_	Voice=Act	_	_	_	gloss=give
+23	akan	akan	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+24	dia	dia	PRON	_	_	_	dative	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+25	tiga	tiga	NUM	NumType=Card|Number=Sing	_	_	_	_	gloss=three
+26	puluh	puluh	DET	Number=Sing	_	_	_	_	gloss=sev
+27	wang	wang	None	_	_	_	_	_	gloss=money
+28	perak	perak	NOUN	_	Number=Sing	_	_	_	gloss=coin
+29	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 40026034
+# ref_id = Matthew 26:34
+# eng_text = Jesus said to him , " Most assuredly I tell you , that tonight , before the cock crows , you will deny me three times . "
+# zsm_text = Maka berkata Isa padanya , sesungguhnya juga aku berkata padamu , bahawa pada malam ini juga , sebelum ayam berkokok , maka engkau akan menyangkali aku tiga kali .
+1	Maka	maka	unk	_	_	_	_	_	gloss=Then
+2	berkata	berkata	VERB	_	Voice=Act	_	_	_	gloss=ered
+3	Isa	isa	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+4	padanya	padanya	NOUN	_	_	_	_	_	gloss=ea
+5	,	,	PUNCT	_	_	_	_	_
+6	sesungguhnya	sesungguhnya	INTJ	_	_	_	_	_	gloss=indeed
+7	juga	juga	unk	_	_	_	_	_	gloss=same
+8	aku	aku	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+9	berkata	berkata	VERB	_	Voice=Act	_	_	_	gloss=ered
+10	padamu	padamu	None	_	_	_	_	_	gloss=sends
+11	,	,	PUNCT	_	_	_	_	_
+12	bahawa	bahawa	SCONJ	_	_	_	_	_	gloss=wasn’t
+13	pada	pada	ADP	_	_	_	_	_	gloss=guilty
+14	malam	malam	NOUN	_	_	25	npadvmod	_	gloss=night|Number=Sing
+15	ini	ini	DET	Demonstrative=Prox|PronType=Dem	_	_	_	_	gloss=this
+16	juga	juga	ADV	_	_	_	_	_	gloss=same
+17	,	,	PUNCT	_	_	_	_	_
+18	sebelum	sebelum	VERB	_	_	0	root	_	gloss=deny|VerbForm=Inf
+19	ayam	ayam	NOUN	_	_	_	nsubj	_	gloss=rooster|Number=Sing
+20	berkokok	berkokok	VERB	_	Voice=Act	_	_	_
+21	,	,	PUNCT	_	_	_	_	_
+22	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+23	engkau	engkau	PRON	_	_	_	_	_	gloss=clean
+24	akan	akan	AUX	_	_	25	aux	_	gloss=will|VerbForm=Fin
+25	menyangkali	menyangkali	VERB	_	_	0	root	_	gloss=deny|VerbForm=Inf
+26	aku	aku	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+27	tiga	tiga	NUM	_	_	_	nummod	_	gloss=three|NumType=Card
+28	kali	kali	VERB	_	Mood=Imp	_	_	_	gloss=ions
+29	.	.	PUNCT	_	_	25	punct	_	PunctType=Peri
+
+# sent_id = 40026040
+# ref_id = Matthew 26:40
+# eng_text = He came to the disciples , and found them sleeping , and said to Peter , " What , couldn't you watch with me for one hour ?
+# zsm_text = Maka kembalilah iya pada murid muridnya , maka didapatinya mereka itu tidor , lalu katanya kepada Petros , Bagimana , tiadakah boleh kamu berjaga sertaku sejam sahaja ?
+1	Maka	maka	ADV	_	_	2	advmod	_	gloss=Then|PronType=Dem
+2	kembalilah	kembalilah	VERB	_	_	0	root	_	gloss=returned|Tense=Past|VerbForm=Fin
+3	iya	iya	PRON	_	_	2	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+4	pada	pada	ADP	_	_	_	_	_	gloss=guilty
+5	murid	murid	NOUN	_	_	16	pobj	_	gloss=disciples|Number=Plur
+6	muridnya	muridnya	NOUN	_	_	16	pobj	_	gloss=disciples|Number=Plur
+7	,	,	PUNCT	_	_	_	_	_
+8	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+9	didapatinya	didapatinya	VERB	_	Voice=Pass	_	_	_	gloss=finds
+10	mereka	mereka	PRON	Number=Plur|Person=3|PronType=Prs|Poss=Yes	_	_	_	_	gloss=They
+11	itu	itu	DET	_	_	6	det	_	gloss=the|Definite=Def|PronType=Art
+12	tidor	tidor	ADJ	_	_	_	_	_	gloss=sleeping
+13	,	,	PUNCT	_	_	_	_	_
+14	lalu	lalu	ADV	_	_	_	_	_	gloss=slipped
+15	katanya	katanya	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+16	kepada	kepada	ADP	_	_	_	prep	_	gloss=to
+17	Petros	petros	PROPN	_	_	16	pobj	_	gloss=Peter|Number=Sing
+18	,	,	PUNCT	_	_	_	_	_
+19	Bagimana	bagimana	None	_	_	_	_	_	gloss=hed
+20	,	,	PUNCT	_	_	_	_	_
+21	tiadakah	tiadakah	ADJ	_	_	_	_	_	gloss=on’t
+22	boleh	boleh	AUX	_	_	_	_	_	gloss=can
+23	kamu	kamu	PRON	_	_	24	nsubj	_	gloss=you|Case=Nom|Person=2|PronType=Prs
+24	berjaga	berjaga	VERB	_	_	_	ccomp	_	gloss=watch|VerbForm=Inf
+25	sertaku	sertaku	ADJ	_	_	_	_	_	gloss=Give
+26	sejam	sejam	ADJ	_	_	_	_	_
+27	sahaja	sahaja	None	_	_	_	_	_	gloss=im
+28	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 40026051
+# ref_id = Matthew 26:51
+# eng_text = Behold , one of those who were with Jesus stretched out his hand , and drew his sword , and struck the servant of the high priest , and struck off his ear .
+# zsm_text = Maka sesungguhnya ada seorang daripada mereka itu yang bersama sama dengan Isa menghulorkan tangannya , serta dihunasnya pedangnya , lalu dichinchangnya hamba imam besar itu , putuslah tlinganya .
+1	Maka	maka	unk	_	_	_	_	_	gloss=Then
+2	sesungguhnya	sesungguhnya	INTJ	_	_	_	_	_	gloss=indeed
+3	ada	ada	unk	_	_	_	_	_	gloss=even
+4	seorang	seorang	NUM	_	_	18	nsubj	_	gloss=one|NumType=Card
+5	daripada	daripada	ADP	_	_	_	_	_	gloss=than
+6	mereka	mereka	PRON	Number=Plur|Person=3|PronType=Prs|Poss=Yes	_	_	_	_	gloss=They
+7	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+8	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+9	bersama	bersama	VERB	_	Voice=Act	_	_	_	gloss=together
+10	sama	sama	ADV	_	_	_	_	_	gloss=ents
+11	dengan	dengan	ADP	_	_	_	_	_	gloss=ius
+12	Isa	isa	PROPN	_	_	_	pobj	_	gloss=Jesus|Number=Sing
+13	menghulorkan	menghulorkan	VERB	_	Voice=Act	_	_	_
+14	tangannya	tangannya	None	_	_	_	_	_	gloss=hand
+15	,	,	PUNCT	_	_	_	_	_
+16	serta	serta	ADJ	_	_	_	_	_	gloss=awhile
+17	dihunasnya	dihunasnya	NOUN	_	_	18	dobj	_	gloss=sword|Number=Sing
+18	pedangnya	pedangnya	VERB	_	_	0	root	_	gloss=pulled|Tense=Past|VerbForm=Fin
+19	,	,	PUNCT	_	_	_	_	_
+20	lalu	lalu	ADV	_	_	_	_	_	gloss=slipped
+21	dichinchangnya	dichinchangnya	VERB	_	Voice=Pass	_	_	_
+22	hamba	hamba	NOUN	_	_	_	_	_	gloss=servant
+23	imam	imam	None	_	_	_	_	_	gloss=priests
+24	besar	besar	ADJ	_	_	_	amod	_	gloss=high|Degree=Pos
+25	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+26	,	,	PUNCT	_	_	_	_	_
+27	putuslah	putuslah	ADJ	_	_	_	_	_	gloss=priest’s
+28	tlinganya	tlinganya	None	_	_	_	_	_
+29	.	.	PUNCT	_	_	18	punct	_	PunctType=Peri
+
+# sent_id = 40027021
+# ref_id = Matthew 27:21
+# eng_text = But the governor answered them , " Which of the two do you want me to release to you ? " They said , " Barabbas ! "
+# zsm_text = Maka kata Raja kepada mereka itu , Dalam antara kadua orang ini , siapakah yang kamu kahendaki aku lepaskan ? Maka berkatalah mereka itu , Beraba .
+1	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+2	kata	kata	VERB	_	_	_	_	_	gloss=spoken
+3	Raja	raja	None	_	_	_	_	_	gloss=King
+4	kepada	kepada	ADP	_	_	_	prep	_	gloss=to
+5	mereka	mereka	PRON	Number=Plur|Person=3|PronType=Prs|Poss=Yes	_	_	_	_	gloss=They
+6	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+7	,	,	PUNCT	_	_	_	_	_
+8	Dalam	dalam	PRON	_	_	_	dobj	_	gloss=Which
+9	antara	antara	None	_	_	_	_	_	gloss=rebuke
+10	kadua	kadua	None	_	_	_	_	_	gloss=second
+11	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+12	ini	ini	DET	Demonstrative=Prox|PronType=Dem	_	_	_	_	gloss=this
+13	,	,	PUNCT	_	_	_	_	_
+14	siapakah	siapakah	ADJ	_	_	_	_	_	gloss=whom
+15	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+16	kamu	kamu	PRON	_	_	4	pobj	_	gloss=you|Case=Acc|Person=2|PronType=Prs
+17	kahendaki	kahendaki	VERB	_	_	_	ccomp	_	gloss=want|VerbForm=Inf
+18	aku	aku	PRON	_	_	_	_	_	gloss=I
+19	lepaskan	lepaskan	NOUN	_	Number=Sing	_	_	_	gloss=Would
+20	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+21	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+22	berkatalah	berkatalah	VERB	_	Voice=Act	_	_	_	gloss=roll
+23	mereka	mereka	PRON	Number=Plur|Person=3|PronType=Prs|Poss=Yes	_	_	_	_	gloss=They
+24	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+25	,	,	PUNCT	_	_	_	_	_
+26	Beraba	beraba	PROPN	_	_	_	npadvmod	_	gloss=Barabbas|Number=Sing
+27	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40027063
+# ref_id = Matthew 27:63
+# eng_text = saying , " Sir , we remember what that deceiver said while he was still alive : ' After three days I will rise again . '
+# zsm_text = Katanya , Ya Tuan , bahawa kami sekalian teringat , adapun orang penipu itu telah berkata tatkala iya lagi hidup , Maka kemudian daripada tiga hari aku akan hidup pula .
+1	Katanya	katanya	PUNCT	_	_	_	_	_	gloss=accus
+2	,	,	PUNCT	_	_	_	_	_
+3	Ya	ya	None	_	_	_	_	_	gloss=To
+4	Tuan	tuan	PROPN	_	_	_	npadvmod	_	gloss=Sir|Number=Sing
+5	,	,	PUNCT	_	_	_	_	_
+6	bahawa	bahawa	SCONJ	_	_	_	_	_	gloss=wasn’t
+7	kami	kami	PRON	_	_	_	nsubj	_	gloss=we|Case=Nom|Number=Plur|Person=1|PronType=Prs
+8	sekalian	sekalian	NOUN	_	Number=Sing	_	_	_	gloss=awe
+9	teringat	teringat	VERB	_	Voice=Pass	_	_	_	gloss=iver
+10	,	,	PUNCT	_	_	_	_	_
+11	adapun	adapun	PART	_	_	_	_	_	gloss=ex
+12	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+13	penipu	penipu	NOUN	_	Number=Sing	_	_	_
+14	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+15	telah	telah	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_	gloss=has
+16	berkata	berkata	VERB	_	Voice=Act	_	_	_	gloss=ered
+17	tatkala	tatkala	None	_	_	_	_	_	gloss=tr
+18	iya	iya	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+19	lagi	lagi	VERB	_	Mood=Imp	_	_	_	gloss=member
+20	hidup	hidup	VERB	_	_	_	_	_	gloss=living
+21	,	,	PUNCT	_	_	_	_	_
+22	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+23	kemudian	kemudian	NOUN	_	Number=Sing	_	_	_	gloss=ant
+24	daripada	daripada	ADP	_	_	_	_	_	gloss=than
+25	tiga	tiga	NUM	_	_	26	nummod	_	gloss=three|NumType=Card
+26	hari	hari	NOUN	_	_	_	pobj	_	gloss=days|Number=Plur
+27	aku	aku	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+28	akan	akan	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+29	hidup	hidup	VERB	_	_	_	_	_	gloss=living
+30	pula	pula	ADV	_	_	_	_	_	gloss=planted
+31	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41004008
+# ref_id = Mark 4:8
+# eng_text = Others fell into the good ground , and yielded fruit , growing up and increasing . Some brought forth thirty times , some sixty times , and some one hundred times as much . "
+# zsm_text = Dan yang lain pula jatuhlah ditanah yang baik , maka berbuahlah iya makin bertambah tambah buahnya , ada yang tiga puluh , ada yang anam puluh , ada yang seratus .
+1	Dan	dan	CCONJ	_	_	_	_	_	gloss=our
+2	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+3	lain	lain	NOUN	_	Number=Sing	_	_	_	gloss=another
+4	pula	pula	ADV	_	_	_	advcl	_	gloss=planted|Aspect=Perf|Tense=Past|VerbForm=Part
+5	jatuhlah	jatuhlah	VERB	_	_	0	root	_	gloss=fell|Tense=Past|VerbForm=Fin
+6	ditanah	ditanah	VERB	_	Voice=Pass	_	_	_	gloss=ground
+7	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+8	baik	baik	NOUN	_	Number=Sing	_	_	_	gloss=good
+9	,	,	PUNCT	_	_	_	_	_
+10	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+11	berbuahlah	berbuahlah	NUM	_	_	_	conj	_	gloss=sixty|NumType=Card
+12	iya	iya	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	_	_	_	_	gloss=he
+13	makin	makin	VERB	_	_	5	conj	_	gloss=sprouted|Tense=Past|VerbForm=Fin
+14	bertambah	bertambah	VERB	_	_	13	conj	_	gloss=grew|Tense=Past|VerbForm=Fin
+15	tambah	tambah	ADJ	_	_	_	_	_	gloss=strong
+16	buahnya	buahnya	NOUN	_	_	_	dobj	_	gloss=crop|Number=Sing
+17	,	,	PUNCT	_	_	_	_	_
+18	ada	ada	ADV	_	_	_	advmod	_	gloss=even
+19	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+20	tiga	tiga	NUM	NumType=Card|Number=Sing	_	_	_	_	gloss=three
+21	puluh	puluh	DET	Number=Sing	_	_	_	_	gloss=sev
+22	,	,	PUNCT	_	_	_	_	_
+23	ada	ada	ADV	_	_	_	advmod	_	gloss=even
+24	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+25	anam	anam	ADJ	_	_	_	amod	_	gloss=fertile|Degree=Pos
+26	puluh	puluh	DET	Number=Sing	_	_	_	_	gloss=sev
+27	,	,	PUNCT	_	_	_	_	_
+28	ada	ada	ADV	_	_	_	advmod	_	gloss=even
+29	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+30	seratus	seratus	ADJ	_	_	_	_	_	gloss=Roman
+31	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 41006007
+# ref_id = Mark 6:7
+# eng_text = He called to himself the twelve , and began to send them out two by two ; and he gave them authority over the unclean spirits .
+# zsm_text = ¶ Maka dipanggillah oleh Isa dua belas orang itu , dimulainyalah menyurohkan pergi dua dua orang , serta dibrinya kuasa mereka itu atas segala hantu hantu yang nejis .
+1	¶	¶	PUNCT	_	_	_	_	_	gloss=scatt
+2	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+3	dipanggillah	dipanggillah	VERB	_	Voice=Pass	_	_	_	gloss=offic
+4	oleh	oleh	ADP	_	_	_	_	_	gloss=ation
+5	Isa	isa	PROPN	_	_	_	_	_	gloss=Jesus
+6	dua	dua	NUM	_	_	_	pobj	_	gloss=two|NumType=Card
+7	belas	belas	NUM	_	_	_	nummod	_	gloss=twelve|NumType=Card
+8	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+9	itu	itu	DET	Definite=Def|PronType=Art	_	_	_	_	gloss=the
+10	,	,	PUNCT	_	_	_	_	_
+11	dimulainyalah	dimulainyalah	VERB	_	Voice=Pass	_	_	_	gloss=entered
+12	menyurohkan	menyurohkan	VERB	_	_	_	xcomp	_	gloss=sending|Aspect=Prog|Tense=Pres|VerbForm=Part
+13	pergi	pergi	VERB	VerbForm=Fin	_	_	_	_	gloss=go
+14	dua	dua	NUM	_	_	_	pobj	_	gloss=two|NumType=Card
+15	dua	dua	NUM	_	_	_	pobj	_	gloss=two|NumType=Card
+16	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+17	,	,	PUNCT	_	_	_	_	_
+18	serta	serta	ADJ	_	_	_	_	_	gloss=awhile
+19	dibrinya	dibrinya	VERB	_	Voice=Pass	_	_	_	gloss=receives
+20	kuasa	kuasa	None	_	_	_	_	_	gloss=power
+21	mereka	mereka	PRON	Number=Plur|Person=3|PronType=Prs|Poss=Yes	_	_	_	_	gloss=They
+22	itu	itu	DET	Definite=Def|PronType=Art	_	_	_	_	gloss=the
+23	atas	atas	NOUN	_	Number=Sing	_	_	_	gloss=scoff
+24	segala	segala	DET	_	_	_	_	_	gloss=all
+25	hantu	hantu	NOUN	_	_	_	dobj	_	gloss=spirits|Number=Plur
+26	hantu	hantu	NOUN	_	_	_	dobj	_	gloss=spirits|Number=Plur
+27	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+28	nejis	nejis	NOUN	_	Number=Sing	_	_	_	gloss=impure
+29	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41006038
+# ref_id = Mark 6:38
+# eng_text = He said to them , " How many loaves do you have ? Go see . " When they knew , they said , " Five , and two fish . "
+# zsm_text = Maka kata Isa kepada mereka itu , berapakah roti ada kepada kamu ? pergilah lihat ; setelah diketahui oleh mereka itu , katanya , Lima buah , dan dua ekor ikan .
+1	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+2	kata	kata	VERB	_	_	_	_	_	gloss=spoken
+3	Isa	isa	PROPN	_	_	_	_	_	gloss=Jesus
+4	kepada	kepada	ADP	_	_	_	_	_	gloss=to
+5	mereka	mereka	PRON	_	_	_	nsubj	_	gloss=They|Case=Nom|Number=Plur|Person=3|PronType=Prs
+6	itu	itu	DET	Definite=Def|PronType=Art	_	_	_	_	gloss=the
+7	,	,	PUNCT	_	_	_	_	_
+8	berapakah	berapakah	ADJ	_	_	_	_	_
+9	roti	roti	NOUN	_	_	_	pobj	_	gloss=bread|Number=Sing
+10	ada	ada	AUX	_	_	_	_	_	gloss=even
+11	kepada	kepada	ADP	_	_	_	_	_	gloss=to
+12	kamu	kamu	PRON	_	_	_	nsubj	_	gloss=you|Case=Nom|Person=2|PronType=Prs
+13	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+14	pergilah	pergilah	NOUN	_	Number=Sing	_	_	_	gloss=went
+15	lihat	lihat	NOUN	_	Number=Sing	_	_	_	gloss=W
+16	;	;	PUNCT	_	_	_	_	_	gloss=am
+17	setelah	setelah	ADJ	_	_	_	_	_	gloss=i
+18	diketahui	diketahui	VERB	_	Voice=Pass	_	_	_	gloss=ble
+19	oleh	oleh	ADP	_	_	_	_	_	gloss=ation
+20	mereka	mereka	PRON	_	_	_	nsubj	_	gloss=They|Case=Nom|Number=Plur|Person=3|PronType=Prs
+21	itu	itu	DET	Definite=Def|PronType=Art	_	_	_	_	gloss=the
+22	,	,	PUNCT	_	_	_	_	_
+23	katanya	katanya	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+24	,	,	PUNCT	_	_	_	_	_
+25	Lima	lima	None	_	_	_	_	_
+26	buah	buah	NOUN	_	_	_	dobj	_	gloss=loaves|Number=Plur
+27	,	,	PUNCT	_	_	_	_	_
+28	dan	dan	CCONJ	_	_	_	_	_	gloss=ind
+29	dua	dua	NUM	_	_	31	nummod	_	gloss=two|NumType=Card
+30	ekor	ekor	DET	Number=Sing	_	_	_	_	gloss=Won’t
+31	ikan	ikan	NOUN	_	_	26	conj	_	gloss=fish|Number=Sing
+32	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41006043
+# ref_id = Mark 6:43
+# eng_text = They took up twelve baskets full of broken pieces and also of the fish .
+# zsm_text = Maka diangkatlah oleh mereka itu dua belas bakol penoh sisa sisa dan ikan ikan itu .
+1	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+2	diangkatlah	diangkatlah	VERB	_	Voice=Pass	_	_	_
+3	oleh	oleh	ADP	_	_	_	_	_	gloss=ation
+4	mereka	mereka	PRON	Number=Plur|Person=3|PronType=Prs|Poss=Yes	_	_	_	_	gloss=They
+5	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+6	dua	dua	NUM	NumType=Card|Number=Sing	_	_	_	_	gloss=two
+7	belas	belas	NUM	_	_	10	nummod	_	gloss=twelve|NumType=Card
+8	bakul	bakul	NOUN	_	_	_	compound	_	gloss=leftover|Number=Sing
+9	penuh	penuh	NOUN	_	_	_	compound	_	gloss=leftover|Number=Sing
+10	sisa	sisa	NOUN	_	_	_	dobj	_	gloss=baskets|Number=Plur
+11	sisa	sisa	NOUN	_	_	_	dobj	_	gloss=baskets|Number=Plur
+12	dan	dan	CCONJ	_	_	_	_	_	gloss=ind
+13	ikan	ikan	NOUN	_	_	_	conj	_	gloss=fish|Number=Sing
+14	ikan	ikan	NOUN	_	_	_	conj	_	gloss=fish|Number=Sing
+15	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+16	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41008005
+# ref_id = Mark 8:5
+# eng_text = He asked them , " How many loaves do you have ? " They said , " Seven . "
+# zsm_text = Maka ditanyalah oleh Isa kepada mereka itu , Ada berapakah roti kepada kamu ? Maka jawab mereka itu , tujuh .
+1	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+2	ditanyalah	ditanyalah	VERB	_	Voice=Pass	_	_	_	gloss=insist
+3	oleh	oleh	ADP	_	_	_	_	_	gloss=ation
+4	Isa	isa	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+5	kepada	kepada	ADP	_	_	_	_	_	gloss=to
+6	mereka	mereka	PRON	Number=Plur|Person=3|PronType=Prs|Poss=Yes	_	_	_	_	gloss=They
+7	itu	itu	DET	Definite=Def|PronType=Art	_	_	_	_	gloss=the
+8	,	,	PUNCT	_	_	_	_	_
+9	Ada	ada	AUX	_	_	_	_	_	gloss=felt
+10	berapakah	berapakah	VERB	_	Voice=Act	_	_	_
+11	roti	roti	NOUN	_	_	_	dobj	_	gloss=bread|Number=Sing
+12	kepada	kepada	ADP	_	_	_	_	_	gloss=to
+13	kamu	kamu	PRON	_	_	_	nsubj	_	gloss=you|Case=Nom|Person=2|PronType=Prs
+14	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+15	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+16	jawab	jawab	None	_	_	_	_	_	gloss=answered
+17	mereka	mereka	PRON	Number=Plur|Person=3|PronType=Prs|Poss=Yes	_	_	_	_	gloss=They
+18	itu	itu	DET	Definite=Def|PronType=Art	_	_	_	_	gloss=the
+19	,	,	PUNCT	_	_	_	_	_
+20	tujuh	tujuh	None	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41008008
+# ref_id = Mark 8:8
+# eng_text = They ate , and were filled . They took up seven baskets of broken pieces that were left over .
+# zsm_text = kemudian dimakannyalah oleh mereka itu sampai kenyang , maka diangkat oleh mereka itu sisa sisa yang tertinggal tujuh bakol .
+1	kemudian	kemudian	NOUN	_	Number=Sing	_	_	_	gloss=enty-f
+2	dimakannyalah	dimakannyalah	VERB	_	Voice=Pass	_	_	_
+3	oleh	oleh	ADP	_	_	_	_	_	gloss=ation
+4	mereka	mereka	PRON	_	_	_	nsubj	_	gloss=They|Case=Nom|Number=Plur|Person=3|PronType=Prs
+5	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+6	sampai	sampai	ADV	_	_	_	_	_	gloss=corners
+7	kenyang	kenyang	ADV	_	_	_	advmod	_	gloss=Afterward
+8	,	,	PUNCT	_	_	_	_	_
+9	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+10	diangkat	diangkat	ADV	_	_	_	advmod	_	gloss=Afterward
+11	oleh	oleh	ADP	_	_	_	_	_	gloss=ation
+12	mereka	mereka	PRON	_	_	_	nsubj	_	gloss=They|Case=Nom|Number=Plur|Person=3|PronType=Prs
+13	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+14	sisa	sisa	NOUN	_	_	_	dobj	_	gloss=baskets|Number=Plur
+15	sisa	sisa	NOUN	_	_	_	dobj	_	gloss=baskets|Number=Plur
+16	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+17	tertinggal	tertinggal	VERB	_	Voice=Pass	_	_	_	gloss=Not
+18	tujuh	tujuh	NUM	_	_	15	nummod	_	gloss=seven|NumType=Card
+19	bakol	bakol	NOUN	_	_	_	compound	_	gloss=leftover|Number=Sing
+20	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41008014
+# ref_id = Mark 8:14
+# eng_text = They forgot to take bread ; and they didn't have more than one loaf in the boat with them .
+# zsm_text = ¶ Adapun murid muridnya itu telah terlupalah membawa roti , melainkan ada kepada mereka itu dalam prahu sebuah roti sahaja .
+1	¶	¶	PUNCT	_	_	_	_	_	gloss=scatt
+2	Adapun	adapun	PART	_	_	_	_	_	gloss=run
+3	murid	murid	NOUN	_	_	_	nsubj	_	gloss=disciples|Number=Plur
+4	muridnya	muridnya	NOUN	_	_	_	nsubj	_	gloss=disciples|Number=Plur
+5	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+6	telah	telah	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_	gloss=has
+7	terlupalah	terlupalah	VERB	_	Voice=Pass	_	_	_
+8	membawa	membawa	VERB	_	_	_	xcomp	_	gloss=bring|VerbForm=Inf
+9	roti	roti	NOUN	_	_	_	pobj	_	gloss=bread|Number=Sing
+10	,	,	PUNCT	_	_	_	_	_
+11	melainkan	melainkan	VERB	_	Voice=Act	_	_	_	gloss=ot
+12	ada	ada	AUX	_	_	_	_	_	gloss=even
+13	kepada	kepada	PART	_	_	8	aux	_	gloss=to
+14	mereka	mereka	PRON	_	_	_	nsubj	_	gloss=They|Case=Nom|Number=Plur|Person=3|PronType=Prs
+15	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+16	dalam	dalam	ADP	_	_	_	_	_	gloss=ci
+17	prahu	prahu	NOUN	_	Number=Sing	_	_	_	gloss=crossed
+18	sebuah	sebuah	ADJ	_	_	_	_	_	gloss=des
+19	roti	roti	NOUN	_	_	_	pobj	_	gloss=bread|Number=Sing
+20	sahaja	sahaja	None	_	_	_	_	_	gloss=im
+21	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41010037
+# ref_id = Mark 10:37
+# eng_text = They said to him , " Grant to us that we may sit , one at your right hand , and one at your left hand , in your glory . "
+# zsm_text = Maka kata mereka itu kepadanya , Kurniakanlah kepada kami , supaya kami boleh duduk seorang disebelah kananmu , dan seorang disebelah kirimu dalam kamuliaanmu .
+1	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+2	kata	kata	VERB	_	_	_	_	_	gloss=spoken
+3	mereka	mereka	PRON	_	_	_	nsubj	_	gloss=They|Case=Nom|Number=Plur|Person=3|PronType=Prs
+4	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+5	kepadanya	kepadanya	ADP-NOUN	_	_	_	_	_	gloss=discovered
+6	,	,	PUNCT	_	_	_	_	_
+7	Kurniakanlah	kurniakanlah	ADJ	_	_	_	_	_
+8	kepada	kepada	ADP	_	_	_	prep	_	gloss=to
+9	kami	kami	PRON	_	_	_	nsubj	_	gloss=we|Case=Nom|Number=Plur|Person=1|PronType=Prs
+10	,	,	PUNCT	_	_	_	_	_
+11	supaya	supaya	SCONJ	_	_	_	_	_	gloss=ning
+12	kami	kami	PRON	_	_	_	nsubj	_	gloss=we|Case=Nom|Number=Plur|Person=1|PronType=Prs
+13	boleh	boleh	AUX	_	_	_	_	_	gloss=can
+14	duduk	duduk	None	_	_	_	_	_	gloss=sitting
+15	seorang	seorang	NUM	_	_	_	npadvmod	_	gloss=one|NumType=Card
+16	disebelah	disebelah	VERB	_	Voice=Pass	_	_	_	gloss=seated
+17	kananmu	kananmu	NOUN	_	_	_	pobj	_	gloss=places|Number=Plur
+18	,	,	PUNCT	_	_	_	_	_
+19	dan	dan	CCONJ	_	_	_	_	_	gloss=ind
+20	seorang	seorang	NUM	_	_	_	npadvmod	_	gloss=one|NumType=Card
+21	disebelah	disebelah	VERB	_	Voice=Pass	_	_	_	gloss=seated
+22	kirimu	kirimu	NOUN	_	_	_	pobj	_	gloss=places|Number=Plur
+23	dalam	dalam	ADP	_	_	_	_	_	gloss=ci
+24	kamuliaanmu	kamuliaanmu	None	_	_	_	_	_
+25	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41011029
+# ref_id = Mark 11:29
+# eng_text = Jesus said to them , " I will ask you one question . Answer me , and I will tell you by what authority I do these things .
+# zsm_text = Maka jawab Isa serta berkata kepada mereka itu , Aku pun bertanya kepadamu suatu soal , jawablah kepadaku , maka bolehlah aku berkata kepadamu , dengan kuasa siapa aku berbuat perkara perkara ini .
+1	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+2	jawab	jawab	None	_	_	_	_	_	gloss=answered
+3	Isa	isa	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+4	serta	serta	ADJ	_	_	_	_	_	gloss=awhile
+5	berkata	berkata	VERB	_	Voice=Act	_	_	_	gloss=ered
+6	kepada	kepada	ADP	_	_	_	_	_	gloss=to
+7	mereka	mereka	PRON	Number=Plur|Person=3|PronType=Prs|Poss=Yes	_	_	_	_	gloss=They
+8	itu	itu	DET	Definite=Def|PronType=Art	_	_	_	_	gloss=the
+9	,	,	PUNCT	_	_	_	_	_
+10	Aku	aku	PRON	_	_	_	_	_	gloss=innocent
+11	pun	pun	PART	_	_	_	_	_	gloss=or
+12	bertanya	bertanya	VERB	_	Voice=Act	_	_	_	gloss=ask
+13	kepadamu	kepadamu	ADP	_	_	_	_	_	gloss=ou
+14	suatu	suatu	PRON	_	_	_	_	_
+15	soal	soal	NOUN	_	Number=Sing	_	_	_	gloss=Three
+16	,	,	PUNCT	_	_	_	_	_
+17	jawablah	jawablah	ADJ	_	_	_	_	_
+18	kepadaku	kepadaku	ADJ	_	_	_	_	_	gloss=me
+19	,	,	PUNCT	_	_	_	_	_
+20	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+21	bolehlah	bolehlah	ADJ	_	_	_	_	_	gloss=knelt
+22	aku	aku	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+23	berkata	berkata	VERB	_	Voice=Act	_	_	_	gloss=ered
+24	kepadamu	kepadamu	ADP	_	_	_	_	_	gloss=ou
+25	,	,	PUNCT	_	_	_	_	_
+26	dengan	dengan	ADP	_	_	_	_	_	gloss=ius
+27	kuasa	kuasa	None	_	_	_	_	_	gloss=power
+28	siapa	siapa	PRON	_	_	_	_	_	gloss=ily
+29	aku	aku	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+30	berbuat	berbuat	VERB	_	Voice=Act	_	_	_	gloss=job
+31	perkara	perkara	NOUN	_	_	_	dobj	_	gloss=things|Number=Plur
+32	perkara	perkara	NOUN	_	_	_	dobj	_	gloss=things|Number=Plur
+33	ini	ini	DET	Demonstrative=Prox|PronType=Dem	_	_	_	_	gloss=this
+34	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41012006
+# ref_id = Mark 12:6
+# eng_text = Therefore he had yet one , a beloved son , he sent him last to them , saying , ' They will respect my son . '
+# zsm_text = Maka adalah bagienya lagi seorang anak laki laki yang dikasihinya sangat , maka pada akhirnya disuruhkannya akan dia kepada mereka itu , seraya katanya , mereka itu kelak akan menghormati anakku itu .
+1	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+2	adalah	adalah	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_	gloss=There
+3	bagienya	bagienya	PUNCT	_	_	_	punct	_	PunctType=Comm
+4	lagi	lagi	VERB	_	Mood=Imp	_	_	_	gloss=member
+5	seorang	seorang	DET	_	_	_	nummod	_	gloss=one|NumType=Card
+6	anak	anak	NOUN	Number=Sing	_	_	_	_	gloss=Son
+7	laki	laki	VERB	_	Mood=Imp	_	_	_	gloss=sons
+8	laki	laki	VERB	_	Mood=Imp	_	_	_	gloss=sons
+9	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+10	dikasihinya	dikasihinya	VERB	_	Voice=Pass	_	_	_	gloss=disciple
+11	sangat	sangat	NOUN	_	Number=Sing	_	_	_	gloss=grief
+12	,	,	PUNCT	_	_	_	_	_
+13	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+14	pada	pada	ADP	_	_	_	_	_	gloss=guilty
+15	akhirnya	akhirnya	None	_	_	_	_	_	gloss=worse
+16	disuruhkannya	disuruhkannya	VERB	_	_	0	root	_	gloss=sent|Tense=Past|VerbForm=Fin
+17	akan	akan	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+18	dia	dia	PRON	_	_	16	dobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+19	kepada	kepada	ADP	_	_	_	_	_	gloss=to
+20	mereka	mereka	PRON	Number=Plur|Person=3|PronType=Prs|Poss=Yes	_	_	_	_	gloss=They
+21	itu	itu	DET	Definite=Def|PronType=Art	_	_	_	_	gloss=the
+22	,	,	PUNCT	_	_	_	_	_
+23	seraya	seraya	ADJ	_	_	_	_	_	gloss=sy
+24	katanya	katanya	PUNCT	_	_	_	_	_
+25	,	,	PUNCT	_	_	_	_	_
+26	mereka	mereka	PRON	Number=Plur|Person=3|PronType=Prs|Poss=Yes	_	_	_	_
+27	itu	itu	DET	Definite=Def|PronType=Art	_	_	_	_	gloss=the
+28	kelak	kelak	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+29	akan	akan	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+30	menghormati	menghormati	VERB	_	Voice=Act	_	_	_
+31	anakku	anakku	NOUN	_	_	_	advmod	_	gloss=dearly
+32	itu	itu	DET	Definite=Def|PronType=Art	_	_	_	_	gloss=the
+33	.	.	PUNCT	_	_	16	punct	_	PunctType=Peri
+
+# sent_id = 41012007
+# ref_id = Mark 12:7
+# eng_text = But those farmers said among themselves , ' This is the heir . Come , let's kill him , and the inheritance will be ours . '
+# zsm_text = Tetapi kata orang kebun itu sama sendirinya , Inilah warisnya , marilah biar kita bunuh akan dia , maka pusaka itu kelak jadilah kita punya .
+1	Tetapi	tetapi	CCONJ	_	_	_	cc	_	gloss=But|ConjType=Cmp
+2	kata	kata	VERB	_	_	_	_	_	gloss=spoken
+3	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+4	kebun	kebun	ADJ	_	NumType=Ord	_	_	_	gloss=collect
+5	itu	itu	DET	_	_	25	det	_	gloss=the|Definite=Def|PronType=Art
+6	sama	sama	ADV	_	_	_	_	_	gloss=ents
+7	sendirinya	sendirinya	NOUN	_	_	_	nsubj	_	gloss=heir|Number=Sing
+8	,	,	PUNCT	_	_	_	_	_
+9	Inilah	inilah	NOUN	_	_	_	nsubj	_	gloss=farmers|Number=Plur
+10	warisnya	warisnya	None	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_
+12	marilah	marilah	ADJ	_	_	_	_	_	gloss=official
+13	biar	biar	NOUN	_	_	_	nsubj	_	gloss=heir|Number=Sing
+14	kita	kita	None	_	_	_	_	_	gloss=Let’s
+15	bunuh	bunuh	NOUN	_	_	_	nsubj	_	gloss=tenant|Number=Sing
+16	akan	akan	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	_	_	_	_	gloss=will
+17	dia	dia	PRON	_	_	_	dobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+18	,	,	PUNCT	_	_	_	_	_
+19	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+20	pusaka	pusaka	NOUN	_	_	_	dobj	_	gloss=estate|Number=Sing
+21	itu	itu	DET	_	_	25	det	_	gloss=the|Definite=Def|PronType=Art
+22	kelak	kelak	ADJ	_	NumType=Ord	_	_	_	gloss=will
+23	jadilah	jadilah	ADJ	_	_	_	_	_	gloss=produced
+24	kita	kita	None	_	_	_	_	_	gloss=Let’s
+25	punya	punya	NOUN	_	_	_	dobj	_	gloss=estate|Number=Sing
+26	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41012020
+# ref_id = Mark 12:20
+# eng_text = There were seven brothers . The first took a wife , and dying left no children .
+# zsm_text = Maka adalah orang tujuh bersaudara , maka yang pertama adalah berbini , dan tatkala iya mati tiada meninggalkan benih :
+1	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+2	adalah	adalah	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_	gloss=There
+3	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+4	tujuh	tujuh	NUM	_	_	_	nummod	_	gloss=seven|NumType=Card
+5	bersaudara	bersaudara	VERB	_	_	0	root	_	gloss=suppose|VerbForm=Inf
+6	,	,	PUNCT	_	_	_	_	_
+7	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+8	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+9	pertama	pertama	NOUN	_	Number=Sing	_	_	_	gloss=first
+10	adalah	adalah	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_	gloss=There
+11	berbini	berbini	VERB	_	_	0	root	_	gloss=suppose|VerbForm=Inf
+12	,	,	PUNCT	_	_	_	_	_
+13	dan	dan	CCONJ	_	_	_	_	_	gloss=ind
+14	tatkala	tatkala	None	_	_	_	_	_	gloss=tr
+15	iya	iya	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	_	_	_	_	gloss=he
+16	mati	mati	VERB	_	Mood=Imp	_	_	_	gloss=die
+17	tiada	tiada	ADP	_	_	_	prep	_	gloss=without
+18	meninggalkan	meninggalkan	VERB	_	Voice=Act	_	_	_	gloss=omes
+19	benih	benih	NOUN	_	_	_	_	_	gloss=seeds
+20	:	:	PUNCT	_	_	_	_	_	gloss=led
+
+# sent_id = 41012022
+# ref_id = Mark 12:22
+# eng_text = and the seven took her and left no children . Last of all the woman also died .
+# zsm_text = Maka ketujuhnya telah mengambil akan perempuan itu tiada meninggalkan benih , maka pada akhirnya sekalian itu , perempuan itu pun matilah .
+1	Maka	maka	unk	_	_	_	_	_	gloss=Then
+2	ketujuhnya	ketujuhnya	NUM	_	_	_	pobj	_	gloss=seven|NumType=Card
+3	telah	telah	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_	gloss=has
+4	mengambil	mengambil	VERB	_	Voice=Act	_	_	_	gloss=John’s
+5	akan	akan	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	_	_	_	_	gloss=will
+6	perempuan	perempuan	NOUN	_	_	21	nsubj	_	gloss=woman|Number=Sing
+7	itu	itu	DET	_	_	6	det	_	gloss=the|Definite=Def|PronType=Art
+8	tiada	tiada	PART	_	Polarity=Neg	_	_	_	gloss=without
+9	meninggalkan	meninggalkan	VERB	_	Voice=Act	_	_	_	gloss=omes
+10	benih	benih	NOUN	_	_	_	_	_	gloss=seeds
+11	,	,	PUNCT	_	_	_	_	_
+12	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+13	pada	pada	ADP	_	_	_	_	_	gloss=guilty
+14	akhirnya	akhirnya	None	_	_	_	_	_	gloss=worse
+15	sekalian	sekalian	NOUN	_	Number=Sing	_	_	_	gloss=awe
+16	itu	itu	DET	_	_	18	det	_	gloss=the|Definite=Def|PronType=Art
+17	,	,	PUNCT	_	_	_	_	_
+18	perempuan	perempuan	NOUN	_	_	21	nsubj	_	gloss=woman|Number=Sing
+19	itu	itu	DET	_	_	18	det	_	gloss=the|Definite=Def|PronType=Art
+20	pun	pun	PART	_	_	_	_	_	gloss=or
+21	matilah	matilah	VERB	_	_	0	root	_	gloss=died|Tense=Past|VerbForm=Fin
+22	.	.	PUNCT	_	_	21	punct	_	PunctType=Peri
+
+# sent_id = 41013002
+# ref_id = Mark 13:2
+# eng_text = Jesus said to him , " Do you see these great buildings ? There will not be left here one stone on another , which will not be thrown down . "
+# zsm_text = Maka jawab Isa serta berkata kepadanya , Lihatlah kamu rumah yang besar ini , maka iya itu kelak tiada akan tertinggal sebuah batu pun diatas yang lain , yang tiada akan diruntuhkan .
+1	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+2	jawab	jawab	VERB	_	_	_	_	_	gloss=answered
+3	Isa	isa	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+4	serta	serta	ADJ	_	_	_	_	_	gloss=awhile
+5	berkata	berkata	VERB	_	Voice=Act	_	_	_	gloss=ered
+6	kepadanya	kepadanya	ADP-NOUN	_	_	_	_	_	gloss=discovered
+7	,	,	PUNCT	_	_	_	_	_
+8	Lihatlah	lihatlah	PART	_	_	_	neg	_	gloss=Not|Polarity=Neg
+9	kamu	kamu	PRON	_	_	_	_	_	gloss=you
+10	rumah	rumah	ADJ	_	_	_	_	_	gloss=house
+11	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+12	besar	besar	None	_	_	_	_	_	gloss=high
+13	ini	ini	DET	Demonstrative=Prox|PronType=Dem	_	_	_	_	gloss=this
+14	,	,	PUNCT	_	_	_	_	_
+15	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+16	iya	iya	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	_	_	_	_	gloss=he
+17	itu	itu	DET	Definite=Def|PronType=Art	_	_	_	_	gloss=the
+18	kelak	kelak	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+19	tiada	tiada	PART	_	Polarity=Neg	_	_	_	gloss=without
+20	akan	akan	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+21	tertinggal	tertinggal	PART	_	_	_	neg	_	gloss=Not|Polarity=Neg
+22	sebuah	sebuah	ADJ	_	_	_	_	_	gloss=des
+23	batu	batu	NOUN	_	_	_	nsubjpass	_	gloss=stone|Number=Sing
+24	pun	pun	PART	_	_	_	_	_	gloss=or
+25	diatas	diatas	ADP	_	_	_	prep	_	gloss=on
+26	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+27	lain	lain	NOUN	_	_	_	pobj	_	gloss=another
+28	,	,	PUNCT	_	_	_	_	_
+29	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+30	tiada	tiada	PART	_	Polarity=Neg	_	_	_	gloss=without
+31	akan	akan	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+32	diruntuhkan	diruntuhkan	VERB	_	Voice=Pass	_	_	_
+33	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41014010
+# ref_id = Mark 14:10
+# eng_text = Judas Iscariot , who was one of the twelve , went away to the chief priests , that he might deliver him to them .
+# zsm_text = ¶ Maka adalah Yudas Iskariot itu seorang daripada dua belas murid itu , pergilah iya kepada kepala kepala imam , hendak diserahkan dengan tipu akan Isa kepada mereka itu .
+1	¶	¶	PUNCT	_	_	_	_	_	gloss=scatt
+2	Maka	maka	ADV	_	_	14	advmod	_	gloss=Then|PronType=Dem
+3	adalah	adalah	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_	gloss=There
+4	Yudas	yudas	PROPN	_	_	_	compound	_	gloss=Judas|Number=Sing
+5	Iskariot	iskariot	PROPN	_	_	_	_	_
+6	itu	itu	DET	_	_	19	det	_	gloss=the|Definite=Def|PronType=Art
+7	seorang	seorang	NUM	_	_	_	appos	_	gloss=one|NumType=Card
+8	daripada	daripada	ADP	_	_	_	_	_	gloss=than
+9	dua	dua	NUM	NumType=Card|Number=Sing	_	_	_	_	gloss=two
+10	belas	belas	NUM	_	_	11	nummod	_	gloss=twelve|NumType=Card
+11	murid	murid	NOUN	_	_	_	pobj	_	gloss=disciples|Number=Plur
+12	itu	itu	DET	_	_	19	det	_	gloss=the|Definite=Def|PronType=Art
+13	,	,	PUNCT	_	_	_	_	_
+14	pergilah	pergilah	VERB	_	_	0	root	_	gloss=went|Tense=Past|VerbForm=Fin
+15	iya	iya	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	_	_	_	_	gloss=he
+16	kepada	kepada	ADP	_	_	24	prep	_	gloss=to
+17	kepala	kepala	VERB	_	_	19	amod	_	gloss=leading|Aspect=Prog|Tense=Pres|VerbForm=Part
+18	kepala	kepala	VERB	_	_	19	amod	_	gloss=leading|Aspect=Prog|Tense=Pres|VerbForm=Part
+19	imam	imam	NOUN	_	_	16	pobj	_	gloss=priests|Number=Plur
+20	,	,	PUNCT	_	_	_	_	_
+21	hendak	hendak	AUX	_	_	_	_	_	gloss=gr
+22	diserahkan	diserahkan	VERB	_	Voice=Pass	_	_	_	gloss=betrayed
+23	dengan	dengan	ADP	_	_	_	_	_	gloss=ius
+24	tipu	tipu	VERB	_	_	_	xcomp	_	gloss=betray|VerbForm=Inf
+25	akan	akan	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	_	_	_	_	gloss=will
+26	Isa	isa	PROPN	_	_	24	dobj	_	gloss=Jesus|Number=Sing
+27	kepada	kepada	ADP	_	_	24	prep	_	gloss=to
+28	mereka	mereka	PRON	Number=Plur|Person=3|PronType=Prs|Poss=Yes	_	_	_	_	gloss=They
+29	itu	itu	DET	_	_	19	det	_	gloss=the|Definite=Def|PronType=Art
+30	.	.	PUNCT	_	_	14	punct	_	PunctType=Peri
+
+# sent_id = 41014013
+# ref_id = Mark 14:13
+# eng_text = He sent two of his disciples , and said to them , " Go into the city , and there you will meet a man carrying a pitcher of water . Follow him ,
+# zsm_text = Maka disuruhkannya dua orang muridnya , serta katanya kepadanya , Pergilah engkau masuk kedalam negeri , maka disana engkau akan bertemu dengan seorang yang ada mengangkat sebuah buyong air , ikotlah akan dia .
+1	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+2	disuruhkannya	disuruhkannya	VERB	_	_	21	ccomp	_	gloss=sent|Tense=Past|VerbForm=Fin
+3	dua	dua	NUM	_	_	2	dobj	_	gloss=two|NumType=Card
+4	orang	orang	NOUN	_	_	21	nsubj	_	gloss=man|Number=Sing
+5	muridnya	muridnya	NOUN	_	_	_	_	_	gloss=disciples
+6	,	,	PUNCT	_	_	_	_	_
+7	serta	serta	ADJ	_	_	_	_	_	gloss=awhile
+8	katanya	katanya	PUNCT	_	_	21	punct	_	PunctSide=Ini|PunctType=Quot
+9	kepadanya	kepadanya	ADP-NOUN	_	_	_	_	_	gloss=discovered
+10	,	,	PUNCT	_	_	_	_	_
+11	Pergilah	pergilah	NOUN	_	Number=Sing	_	_	_	gloss=Go
+12	engkau	engkau	PRON	_	_	_	_	_	gloss=clean
+13	masuk	masuk	None	_	_	_	_	_	gloss=enter
+14	kedalam	kedalam	ADJ	_	NumType=Ord	_	_	_	gloss=making
+15	negeri	negeri	NOUN	_	_	_	pobj	_	gloss=city|Number=Sing
+16	,	,	PUNCT	_	_	_	_	_
+17	maka	maka	SCONJ	_	_	_	mark	_	gloss=As
+18	disana	disana	VERB	_	Voice=Pass	_	_	_	gloss=care
+19	engkau	engkau	PRON	_	_	_	_	_	gloss=clean
+20	akan	akan	AUX	_	_	21	aux	_	gloss=will|VerbForm=Fin
+21	bertemu	bertemu	VERB	_	_	0	root	_	gloss=meet|VerbForm=Inf
+22	dengan	dengan	ADP	_	_	_	_	_	gloss=ius
+23	seorang	seorang	PRON	_	_	_	_	_	gloss=one
+24	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+25	ada	ada	AUX	_	_	_	_	_	gloss=even
+26	mengangkat	mengangkat	VERB	_	Voice=Act	_	_	_	gloss=da
+27	sebuah	sebuah	ADJ	_	_	_	_	_	gloss=des
+28	buyong	buyong	None	_	_	_	_	_
+29	air	air	NOUN	_	_	_	pobj	_	gloss=water|Number=Sing
+30	,	,	PUNCT	_	_	_	_	_
+31	ikotlah	ikotlah	ADJ	_	_	_	_	_	gloss=cher
+32	akan	akan	AUX	_	_	21	aux	_	gloss=will|VerbForm=Fin
+33	dia	dia	PRON	_	_	_	dobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+34	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41014018
+# ref_id = Mark 14:18
+# eng_text = As they sat and were eating , Jesus said , " Most assuredly I tell you , one of you will betray me - - he who eats with me . "
+# zsm_text = Maka apabila tengah mereka itu makan , maka kata Isa , Sesungguhnya aku berkata kepada kamu , seorang daripada kamu yang makan dengan aku akan menyerahkan aku dengan tipu .
+1	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+2	apabila	apabila	SCONJ	_	_	_	_	_	gloss=When
+3	tengah	tengah	ADJ	_	_	_	_	_	gloss=slipped
+4	mereka	mereka	PRON	Number=Plur|Person=3|PronType=Prs|Poss=Yes	_	_	_	_	gloss=They
+5	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+6	makan	makan	NOUN	_	Number=Sing	_	_	_	gloss=eat
+7	,	,	PUNCT	_	_	_	_	_
+8	maka	maka	SCONJ	_	_	_	mark	_	gloss=As
+9	kata	kata	VERB	_	_	_	_	_	gloss=spoken
+10	Isa	isa	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+11	,	,	PUNCT	_	_	_	_	_
+12	Sesungguhnya	sesungguhnya	INTJ	_	_	_	_	_	gloss=indeed
+13	aku	aku	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+14	berkata	berkata	VERB	_	Voice=Act	_	_	_	gloss=ered
+15	kepada	kepada	ADP	_	_	_	_	_	gloss=to
+16	kamu	kamu	PRON	_	_	_	pobj	_	gloss=you|Case=Acc|Person=2|PronType=Prs
+17	,	,	PUNCT	_	_	_	_	_
+18	seorang	seorang	NUM	_	_	29	nsubj	_	gloss=one|NumType=Card
+19	daripada	daripada	ADP	_	_	_	_	_	gloss=than
+20	kamu	kamu	PRON	_	_	_	pobj	_	gloss=you|Case=Acc|Person=2|PronType=Prs
+21	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+22	makan	makan	NOUN	_	Number=Sing	_	_	_	gloss=eat
+23	dengan	dengan	ADP	_	_	_	_	_	gloss=ius
+24	aku	aku	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+25	akan	akan	AUX	_	_	29	aux	_	gloss=will|VerbForm=Fin
+26	menyerahkan	menyerahkan	VERB	_	_	_	ccomp	_	gloss=betray|VerbForm=Inf
+27	aku	aku	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+28	dengan	dengan	ADP	_	_	_	_	_	gloss=ius
+29	tipu	tipu	VERB	_	_	_	ccomp	_	gloss=betray|VerbForm=Inf
+30	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41014047
+# ref_id = Mark 14:47
+# eng_text = But a certain one of those who stood by drew his sword , and struck the servant of the high priest , and cut off his ear .
+# zsm_text = Maka adalah seorang yang berdiri dekat itu , menghunaslah pedangnya , lalu diparangkannya kepada seorang hamba imam yang besar , lalu putuslah telinganya .
+1	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+2	adalah	adalah	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_	gloss=There
+3	seorang	seorang	NUM	_	_	10	nsubj	_	gloss=one|NumType=Card
+4	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+5	berdiri	berdiri	VERB	_	Voice=Act	_	_	_	gloss=standing
+6	dekat	dekat	NOUN	_	Number=Sing	_	_	_	gloss=near
+7	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+8	,	,	PUNCT	_	_	_	_	_
+9	menghunaslah	menghunaslah	VERB	_	Voice=Act	_	_	_
+10	pedangnya	pedangnya	VERB	_	_	0	root	_	gloss=pulled|Tense=Past|VerbForm=Fin
+11	,	,	PUNCT	_	_	_	_	_
+12	lalu	lalu	ADV	_	_	_	_	_	gloss=slipped
+13	diparangkannya	diparangkannya	VERB	_	Voice=Pass	_	_	_
+14	kepada	kepada	ADP	_	_	_	_	_	gloss=to
+15	seorang	seorang	DET	_	_	10	nsubj	_	gloss=one|NumType=Card
+16	hamba	hamba	NOUN	_	_	_	_	_	gloss=servant
+17	imam	imam	None	_	_	_	_	_	gloss=priests
+18	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+19	besar	besar	ADJ	_	_	_	amod	_	gloss=high|Degree=Pos
+20	,	,	PUNCT	_	_	_	_	_
+21	lalu	lalu	ADV	_	_	_	_	_	gloss=slipped
+22	putuslah	putuslah	ADJ	_	_	_	_	_	gloss=priest’s
+23	telinganya	telinganya	NOUN	_	_	_	dobj	_	gloss=ear|Number=Sing
+24	.	.	PUNCT	_	_	10	punct	_	PunctType=Peri
+
+# sent_id = 41014061
+# ref_id = Mark 14:61
+# eng_text = But he stayed quiet , and answered nothing . Again the high priest asked him , " Are you the Christ , the Son of the Blessed ? "
+# zsm_text = Tetapi diamlah iya , maka suatu pun tiada dijawabnya . Ditanya oleh imam besar itu pula akan dia , serta berkata kepadanya , engkaukah Almasih anak berkat itu ?
+1	Tetapi	tetapi	CCONJ	_	_	_	cc	_	gloss=But|ConjType=Cmp
+2	diamlah	diamlah	ADJ	_	_	_	acomp	_	gloss=silent|Degree=Pos
+3	iya	iya	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	_	_	_	_	gloss=he
+4	,	,	PUNCT	_	_	_	_	_
+5	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+6	suatu	suatu	PRON	_	_	_	_	_
+7	pun	pun	PART	_	_	_	_	_	gloss=or
+8	tiada	tiada	PART	_	Polarity=Neg	_	_	_	gloss=without
+9	dijawabnya	dijawabnya	VERB	_	Voice=Pass	_	_	_	gloss=R
+10	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+11	Ditanya	ditanya	VERB	_	Voice=Pass	_	_	_
+12	oleh	oleh	ADP	_	_	_	_	_	gloss=ation
+13	imam	imam	None	_	_	_	_	_	gloss=priests
+14	besar	besar	ADJ	_	_	_	amod	_	gloss=high|Degree=Pos
+15	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+16	pula	pula	ADV	_	_	_	_	_	gloss=planted
+17	akan	akan	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	_	_	_	_	gloss=will
+18	dia	dia	PRON	_	_	_	dobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+19	,	,	PUNCT	_	_	_	_	_
+20	serta	serta	ADJ	_	_	_	_	_	gloss=awhile
+21	berkata	berkata	VERB	_	Voice=Act	_	_	_	gloss=ered
+22	kepadanya	kepadanya	ADP-NOUN	_	_	_	_	_	gloss=discovered
+23	,	,	PUNCT	_	_	_	_	_
+24	engkaukah	engkaukah	AUX	_	_	_	ccomp	_	gloss=Are|Mood=Ind|Tense=Pres|VerbForm=Fin
+25	Almasih	almasih	PROPN	_	_	_	_	_	gloss=Christ
+26	anak	anak	NOUN	_	_	_	appos	_	gloss=Son|Number=Sing
+27	berkat	berkat	VERB	_	Voice=Act	_	_	_	gloss=prairs
+28	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+29	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 42002046
+# ref_id = Luke 2:46
+# eng_text = It happened , after three days they found him in the temple , sitting in the midst of the teachers , both listening to them , and asking them questions .
+# zsm_text = Shahadan maka kemudian daripada tiga hari , maka didapatilah oleh mereka itu akan dia dalam ka’abah , iya itu duduk ditengah tengah pendita pendita , menengarkan perkataannya , dan bertanya soal soal kepadanya .
+1	Shahadan	shahadan	ADV	_	Number=Sing	_	_	_	gloss=pigs
+2	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+3	kemudian	kemudian	NOUN	_	Number=Sing	_	_	_	gloss=ant
+4	daripada	daripada	ADP	_	_	_	_	_	gloss=than
+5	tiga	tiga	NUM	NumType=Card|Number=Sing	_	_	_	_	gloss=three
+6	hari	hari	NOUN	_	_	_	npadvmod	_	gloss=days|Number=Plur
+7	,	,	PUNCT	_	_	_	_	_
+8	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+9	didapatilah	didapatilah	VERB	_	Voice=Pass	_	_	_
+10	oleh	oleh	ADP	_	_	_	_	_	gloss=ation
+11	mereka	mereka	PRON	Number=Plur|Person=3|PronType=Prs|Poss=Yes	_	_	_	_	gloss=They
+12	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+13	akan	akan	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	_	_	_	_	gloss=will
+14	dia	dia	PRON	_	_	33	dobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+15	dalam	dalam	ADP	_	_	_	_	_	gloss=ci
+16	ka’abah	ka’abah	PROPN	_	_	_	pobj	_	gloss=Temple|Number=Sing
+17	,	,	PUNCT	_	_	_	_	_
+18	iya	iya	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	_	_	_	_	gloss=he
+19	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+20	duduk	duduk	VERB	_	_	33	advcl	_	gloss=sitting|Aspect=Prog|Tense=Pres|VerbForm=Part
+21	ditengah	ditengah	VERB	_	Voice=Pass	_	_	_	gloss=middle
+22	tengah	tengah	ADJ	_	_	_	_	_	gloss=slipped
+23	pendita	pendita	NOUN	_	Number=Sing	_	_	_	gloss=wise
+24	pendita	pendita	NOUN	_	Number=Sing	_	_	_	gloss=wise
+25	,	,	PUNCT	_	_	_	_	_
+26	menengarkan	menengarkan	VERB	_	Voice=Act	_	_	_	gloss=listened
+27	perkataannya	perkataannya	NOUN	_	Number=Sing	_	_	_	gloss=ax
+28	,	,	PUNCT	_	_	_	_	_
+29	dan	dan	CCONJ	_	_	_	_	_	gloss=ind
+30	bertanya	bertanya	VERB	_	Voice=Act	_	_	_	gloss=ask
+31	soal	soal	NUM	_	_	6	nummod	_	gloss=Three|NumType=Card
+32	soal	soal	NUM	_	_	6	nummod	_	gloss=Three|NumType=Card
+33	kepadanya	kepadanya	VERB	_	_	0	root	_	gloss=discovered|Tense=Past|VerbForm=Fin
+34	.	.	PUNCT	_	_	33	punct	_	PunctType=Peri
+
+# sent_id = 42006012
+# ref_id = Luke 6:12
+# eng_text = It happened in these days , that he went out into the mountain to pray , and he continued all night in prair to God .
+# zsm_text = ¶ Maka sekali perstua pada suatu masa itu , Isa pun pergilah kluar kepada sebuah gunong akan meminta doa , maka semalam malaman itu adalah iya meminta doa kepada Allah .
+1	¶	¶	PUNCT	_	_	_	_	_	gloss=scatt
+2	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+3	sekali	sekali	VERB	_	Mood=Imp	_	_	_	gloss=ev
+4	perstua	perstua	NOUN	_	Number=Sing	_	_	_	gloss=eight
+5	pada	pada	ADP	_	_	_	_	_	gloss=guilty
+6	suatu	suatu	PRON	_	_	_	_	_
+7	masa	masa	NOUN	Number=Sing	_	_	_	_	gloss=ate
+8	itu	itu	DET	Definite=Def|PronType=Art	_	_	_	_	gloss=the
+9	,	,	PUNCT	_	_	_	_	_
+10	Isa	isa	PROPN	_	_	12	nsubj	_	gloss=Jesus|Number=Sing
+11	pun	pun	PART	_	_	_	_	_	gloss=or
+12	pergilah	pergilah	VERB	_	_	0	root	_	gloss=went|Tense=Past|VerbForm=Fin
+13	kluar	kluar	None	_	_	_	_	_	gloss=clothes
+14	kepada	kepada	ADP	_	_	_	prep	_	gloss=to
+15	sebuah	sebuah	ADJ	_	_	_	_	_	gloss=des
+16	gunong	gunong	NOUN	_	_	_	pobj	_	gloss=mountain|Number=Sing
+17	akan	akan	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	_	_	_	_	gloss=will
+18	meminta	meminta	VERB	_	Voice=Act	_	_	_	gloss=receives
+19	doa	doa	VERB	_	_	12	advcl	_	gloss=pray|VerbForm=Inf
+20	,	,	PUNCT	_	_	_	_	_
+21	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+22	semalam	semalam	ADV	_	_	12	advmod	_	gloss=afterward
+23	malaman	malaman	NOUN	_	Number=Sing	_	_	_	gloss=catch
+24	itu	itu	DET	Definite=Def|PronType=Art	_	_	_	_	gloss=the
+25	adalah	adalah	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_	gloss=There
+26	iya	iya	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+27	meminta	meminta	VERB	_	Voice=Act	_	_	_	gloss=receives
+28	doa	doa	VERB	_	_	12	advcl	_	gloss=pray|VerbForm=Inf
+29	kepada	kepada	ADP	_	_	_	prep	_	gloss=to
+30	Allah	allah	PROPN	_	_	29	pobj	_	gloss=God|Number=Sing
+31	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 42008022
+# ref_id = Luke 8:22
+# eng_text = Now it happened on one of those days , that he entered into a boat , himself and his disciples , and he said to them , " Let's go over to the other side of the lake . " So they launched out .
+# zsm_text = ¶ Maka sekali perstua adalah pada suatu hari anu , maka masuklah Isa kedalam sebuah perahu serta dengan murid muridnya , maka katanya kepada mereka itu , Marilah kita menyebrang disebelah sana tasik ini , maka mereka itu sekalian naiklah perahu .
+1	¶	¶	PUNCT	_	_	_	_	_	gloss=scatt
+2	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+3	sekali	sekali	VERB	_	Mood=Imp	_	_	_	gloss=ev
+4	perstua	perstua	NOUN	_	Number=Sing	_	_	_	gloss=eight
+5	adalah	adalah	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_	gloss=There
+6	pada	pada	ADP	_	_	_	_	_	gloss=guilty
+7	suatu	suatu	PRON	_	_	_	_	_
+8	hari	hari	VERB	_	Mood=Imp	_	_	_	gloss=days
+9	anu	anu	None	_	_	_	_	_	gloss=Among
+10	,	,	PUNCT	_	_	_	_	_
+11	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+12	masuklah	masuklah	ADJ	_	_	_	_	_	gloss=entered
+13	Isa	isa	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+14	kedalam	kedalam	ADJ	_	NumType=Ord	_	_	_	gloss=making
+15	sebuah	sebuah	ADJ	_	_	_	_	_	gloss=des
+16	perahu	perahu	NOUN	_	_	_	pobj	_	gloss=boat|Number=Sing
+17	serta	serta	ADJ	_	_	_	_	_	gloss=awhile
+18	dengan	dengan	ADP	_	_	_	_	_	gloss=ius
+19	murid	murid	NOUN	_	_	24	pobj	_	gloss=disciples|Number=Plur
+20	muridnya	muridnya	NOUN	_	_	24	pobj	_	gloss=disciples|Number=Plur
+21	,	,	PUNCT	_	_	_	_	_
+22	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+23	katanya	katanya	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+24	kepada	kepada	ADP	_	_	_	prep	_	gloss=to
+25	mereka	mereka	PRON	Number=Plur|Person=3|PronType=Prs|Poss=Yes	_	_	_	_	gloss=They
+26	itu	itu	DET	_	_	30	det	_	gloss=the|Definite=Def|PronType=Art
+27	,	,	PUNCT	_	_	_	_	_
+28	Marilah	marilah	ADJ	_	_	_	_	_	gloss=Come
+29	kita	kita	None	_	_	_	_	_	gloss=Let’s
+30	menyebrang	menyebrang	NOUN	_	_	_	pobj	_	gloss=lake|Number=Sing
+31	disebelah	disebelah	VERB	_	Voice=Pass	_	_	_	gloss=seated
+32	sana	sana	None	_	_	_	_	_	gloss=Tit
+33	tasik	tasik	NOUN	_	Number=Sing	_	_	_	gloss=Sea
+34	ini	ini	DET	Demonstrative=Prox|PronType=Dem	_	_	_	_	gloss=this
+35	,	,	PUNCT	_	_	_	_	_
+36	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+37	mereka	mereka	PRON	Number=Plur|Person=3|PronType=Prs|Poss=Yes	_	_	_	_	gloss=They
+38	itu	itu	DET	_	_	30	det	_	gloss=the|Definite=Def|PronType=Art
+39	sekalian	sekalian	NOUN	_	Number=Sing	_	_	_	gloss=awe
+40	naiklah	naiklah	ADJ	_	_	_	_	_	gloss=upstairs
+41	perahu	perahu	NOUN	_	_	_	pobj	_	gloss=boat|Number=Sing
+42	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 42008042
+# ref_id = Luke 8:42
+# eng_text = for he had an only daughter , about twelve years of age , and she was dying . But as he went , the multitudes thronged him .
+# zsm_text = Kerana adalah kepadanya seorang anak perempuan tunggal sahaja , kira kira dua belas tahun umornya , maka adalah iya itu terbaring hendak mati . Maka apabila Isa hendak berjalan , orang pun berkrumun lah .
+1	Kerana	kerana	SCONJ	_	_	_	_	_	gloss=oh
+2	adalah	adalah	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_	gloss=There
+3	kepadanya	kepadanya	ADP-NOUN	_	_	_	_	_	gloss=discovered
+4	seorang	seorang	PRON	_	_	_	_	_	gloss=one
+5	anak	anak	NOUN	Number=Sing	_	_	_	_	gloss=Son
+6	perempuan	perempuan	NOUN	_	Number=Sing	_	_	_	gloss=woman
+7	tunggal	tunggal	NOUN	_	Number=Sing	_	_	_	gloss=much
+8	sahaja	sahaja	None	_	_	_	_	_	gloss=im
+9	,	,	PUNCT	_	_	_	_	_
+10	kira	kira	NOUN	_	_	_	_	_	gloss=account
+11	kira	kira	NOUN	_	_	_	_	_	gloss=account
+12	dua	dua	NUM	NumType=Card|Number=Sing	_	_	_	_	gloss=two
+13	belas	belas	NUM	_	_	14	nummod	_	gloss=twelve|NumType=Card
+14	tahun	tahun	NOUN	_	_	15	npadvmod	_	gloss=years|Number=Plur
+15	umornya	umornya	ADJ	_	_	_	acomp	_	gloss=old|Degree=Pos
+16	,	,	PUNCT	_	_	_	_	_
+17	maka	maka	SCONJ	_	_	_	mark	_	gloss=As
+18	adalah	adalah	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_	gloss=There
+19	iya	iya	PRON	_	_	_	nsubjpass	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+20	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+21	terbaring	terbaring	VERB	_	_	0	root	_	gloss=dying|Aspect=Prog|Tense=Pres|VerbForm=Part
+22	hendak	hendak	AUX	_	_	_	_	_	gloss=gr
+23	mati	mati	VERB	_	Mood=Imp	_	_	_	gloss=die
+24	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+25	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+26	apabila	apabila	SCONJ	_	_	_	_	_	gloss=When
+27	Isa	isa	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+28	hendak	hendak	AUX	_	_	_	_	_	gloss=gr
+29	berjalan	berjalan	VERB	_	Voice=Act	_	_	_	gloss=walking
+30	,	,	PUNCT	_	_	_	_	_
+31	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+32	pun	pun	PART	_	_	_	_	_	gloss=or
+33	berkrumun	berkrumun	VERB	_	Voice=Act	_	_	_	gloss=shore
+34	lah	lah	ADJ	_	_	_	_	_
+35	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 42009013
+# ref_id = Luke 9:13
+# eng_text = But he said to them , " You give them something to eat . " They said , " We have no more than five loaves and two fish , unless we should go and buy food for all these people . "
+# zsm_text = Tetapi kata Isa kepadanya , Brilah oleh kamu akan mereka itu makan . Maka kata mereka itu , Tiadalah kepada kami lebih daripada lima buah roti , dan dua ekor ikan , melainkan kalau kami pergi memblikan makanan akan segala kaum ini .
+1	Tetapi	tetapi	CCONJ	_	_	_	cc	_	gloss=But|ConjType=Cmp
+2	kata	kata	VERB	_	_	_	_	_	gloss=spoken
+3	Isa	isa	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+4	kepadanya	kepadanya	ADP-NOUN	_	_	_	_	_	gloss=discovered
+5	,	,	PUNCT	_	_	_	_	_
+6	Brilah	brilah	ADJ	_	_	_	_	_	gloss=Greet
+7	oleh	oleh	ADP	_	_	_	_	_	gloss=ation
+8	kamu	kamu	PRON	_	_	_	nsubj	_	gloss=you|Case=Nom|Person=2|PronType=Prs
+9	akan	akan	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	_	_	_	_	gloss=will
+10	mereka	mereka	PRON	Number=Plur|Person=3|PronType=Prs|Poss=Yes	_	_	_	_	gloss=They
+11	itu	itu	DET	Definite=Def|PronType=Art	_	_	_	_	gloss=the
+12	makan	makan	NOUN	_	Number=Sing	_	_	_	gloss=eat
+13	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+14	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+15	kata	kata	VERB	_	_	_	_	_	gloss=spoken
+16	mereka	mereka	PRON	Number=Plur|Person=3|PronType=Prs|Poss=Yes	_	_	_	_	gloss=They
+17	itu	itu	DET	Definite=Def|PronType=Art	_	_	_	_	gloss=the
+18	,	,	PUNCT	_	_	_	_	_
+19	Tiadalah	tiadalah	ADJ	_	_	_	_	_	gloss=doctorsick
+20	kepada	kepada	PART	_	_	36	aux	_	gloss=to
+21	kami	kami	PRON	_	_	_	nsubj	_	gloss=we|Case=Nom|Number=Plur|Person=1|PronType=Prs
+22	lebih	lebih	None	_	_	_	_	_	gloss=ear
+23	daripada	daripada	ADP	_	_	_	_	_	gloss=than
+24	lima	lima	NUM	_	_	25	nummod	_	gloss=five|NumType=Card
+25	buah	buah	NOUN	_	_	_	dobj	_	gloss=loaves|Number=Plur
+26	roti	roti	NOUN	_	_	_	pobj	_	gloss=bread|Number=Sing
+27	,	,	PUNCT	_	_	_	_	_
+28	dan	dan	CCONJ	_	_	_	_	_	gloss=ind
+29	dua	dua	NUM	_	_	31	nummod	_	gloss=two|NumType=Card
+30	ekor	ekor	DET	Number=Sing	_	_	_	_	gloss=Won’t
+31	ikan	ikan	NOUN	_	_	25	conj	_	gloss=fish|Number=Sing
+32	,	,	PUNCT	_	_	_	_	_
+33	melainkan	melainkan	VERB	_	Voice=Act	_	_	_	gloss=ot
+34	kalau	kalau	None	_	_	_	_	_	gloss=ig
+35	kami	kami	PRON	_	_	_	nsubj	_	gloss=we|Case=Nom|Number=Plur|Person=1|PronType=Prs
+36	pergi	pergi	VERB	_	_	_	ccomp	_	gloss=go|VerbForm=Inf
+37	memblikan	memblikan	VERB	_	Voice=Act	_	_	_
+38	makanan	makanan	NOUN	_	_	_	dobj	_	gloss=food|Number=Sing
+39	akan	akan	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	_	_	_	_	gloss=will
+40	segala	segala	DET	_	_	_	_	_	gloss=all
+41	kaum	kaum	ADJ	_	_	_	_	_	gloss=tribes
+42	ini	ini	DET	_	_	_	det	_	gloss=this|Number=Sing|PronType=Dem
+43	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 42009028
+# ref_id = Luke 9:28
+# eng_text = It happened about eight days after these sayings , that he took with him Peter , John , and James , and went up onto the mountain to pray .
+# zsm_text = ¶ Maka pada sekali perstua adalah kira kira delapan hari kemudian daripada segala perkataan itu , maka dibawalah oleh Isa Petros , dan Yahya , dan Yakob , naiklah iya ka’atas sabuah gunong akan meminta doa .
+1	¶	¶	PUNCT	_	_	_	_	_	gloss=scatt
+2	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+3	pada	pada	ADP	_	_	_	_	_	gloss=guilty
+4	sekali	sekali	VERB	_	Mood=Imp	_	_	_	gloss=ev
+5	perstua	perstua	NUM	_	_	10	nummod	_	gloss=eight|NumType=Card
+6	adalah	adalah	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_	gloss=There
+7	kira	kira	NOUN	_	_	_	_	_	gloss=account
+8	kira	kira	NOUN	_	_	_	_	_	gloss=account
+9	delapan	delapan	NUM	_	_	10	nummod	_	gloss=eight|NumType=Card
+10	hari	hari	NOUN	_	_	_	npadvmod	_	gloss=days|Number=Plur
+11	kemudian	kemudian	NOUN	_	Number=Sing	_	_	_	gloss=ant
+12	daripada	daripada	ADP	_	_	_	_	_	gloss=than
+13	segala	segala	DET	_	_	_	_	_	gloss=all
+14	perkataan	perkataan	NOUN	_	Number=Sing	_	_	_	gloss=words
+15	itu	itu	DET	Definite=Def|PronType=Art	_	_	_	_	gloss=the
+16	,	,	PUNCT	_	_	_	_	_
+17	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+18	dibawalah	dibawalah	VERB	_	Voice=Pass	_	_	_	gloss=brought
+19	oleh	oleh	ADP	_	_	_	_	_	gloss=ation
+20	Isa	isa	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+21	Petros	petros	PROPN	_	_	_	dobj	_	gloss=Peter|Number=Sing
+22	,	,	PUNCT	_	_	_	_	_
+23	dan	dan	CCONJ	_	_	_	_	_	gloss=ind
+24	Yahya	yahya	PROPN	_	_	21	conj	_	gloss=John|Number=Sing
+25	,	,	PUNCT	_	_	_	_	_
+26	dan	dan	CCONJ	_	_	_	_	_	gloss=ind
+27	Yakob	yakob	None	_	_	_	_	_	gloss=Jacob
+28	,	,	PUNCT	_	_	_	_	_
+29	naiklah	naiklah	ADJ	_	_	_	_	_	gloss=upstairs
+30	iya	iya	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	_	_	_	_	gloss=he
+31	ka’atas	ka’atas	NOUN	_	Number=Sing	_	_	_	gloss=ro
+32	sabuah	sabuah	ADJ	_	_	_	_	_
+33	gunong	gunong	NOUN	_	_	_	pobj	_	gloss=mountain|Number=Sing
+34	akan	akan	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	_	_	_	_	gloss=will
+35	meminta	meminta	VERB	_	Voice=Act	_	_	_	gloss=receives
+36	doa	doa	VERB	_	_	_	advcl	_	gloss=pray|VerbForm=Inf
+37	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 42009032
+# ref_id = Luke 9:32
+# eng_text = Now Peter and those who were with him were heavy with sleep , but when they were fully awake , they saw his glory , and the two men who stood with him .
+# zsm_text = Tetapi Petros serta segala mereka itu yang ada dengan dia pun sangatlah mengantok , maka apabila mereka itu tersedar , dilihatnyalah kemuliannya , dan dua orang berdiri dengan dia .
+1	Tetapi	tetapi	CCONJ	_	_	_	_	_	gloss=But
+2	Petros	petros	PROPN	_	_	_	nsubj	_	gloss=Peter|Number=Sing
+3	serta	serta	ADJ	_	_	_	_	_	gloss=awhile
+4	segala	segala	DET	_	_	_	_	_	gloss=all
+5	mereka	mereka	PRON	Number=Plur|Person=3|PronType=Prs|Poss=Yes	_	_	_	_	gloss=They
+6	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+7	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+8	ada	ada	AUX	_	_	_	_	_	gloss=even
+9	dengan	dengan	ADP	_	_	_	_	_	gloss=ius
+10	dia	dia	PRON	_	_	_	pobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+11	pun	pun	PART	_	_	_	_	_	gloss=or
+12	sangatlah	sangatlah	ADJ	_	_	_	_	_
+13	mengantok	mengantok	VERB	_	Voice=Act	_	_	_
+14	,	,	PUNCT	_	_	_	_	_
+15	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+16	apabila	apabila	SCONJ	_	_	21	advmod	_	gloss=When
+17	mereka	mereka	PRON	Number=Plur|Person=3|PronType=Prs|Poss=Yes	_	_	_	_	gloss=They
+18	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+19	tersedar	tersedar	VERB	_	Voice=Pass	_	_	_
+20	,	,	PUNCT	_	_	_	_	_
+21	dilihatnyalah	dilihatnyalah	VERB	_	_	_	advcl	_	gloss=woke|Tense=Past|VerbForm=Fin
+22	kemuliannya	kemuliannya	ADJ	_	NumType=Ord	_	_	_	gloss=entering
+23	,	,	PUNCT	_	_	_	_	_
+24	dan	dan	CCONJ	_	_	_	_	_	gloss=ind
+25	dua	dua	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+26	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+27	berdiri	berdiri	VERB	_	_	_	acl	_	gloss=standing|Aspect=Prog|Tense=Pres|VerbForm=Part
+28	dengan	dengan	ADP	_	_	_	_	_	gloss=ius
+29	dia	dia	PRON	_	_	_	pobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+30	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 42011026
+# ref_id = Luke 11:26
+# eng_text = Then he goes , and takes seven other spirits more evil than himself , and they enter in and dwell there . The last state of that man becomes worse than the first . "
+# zsm_text = setelah itu pergilah iya , dibawanya bersama sama dengan dia tujuh hantu yang lain , yang terlebih jahat daripadanya sendiri , maka masuklah mereka itu kedalam tinggallah disana ; adapun halnya manusia itu pada akhirnya terlebih jahat daripada yang pertama .
+1	setelah	setelah	ADJ	_	_	_	_	_	gloss=omes
+2	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+3	pergilah	pergilah	NOUN	_	Number=Sing	_	_	_	gloss=went
+4	iya	iya	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	_	_	_	_	gloss=he
+5	,	,	PUNCT	_	_	_	_	_
+6	dibawanya	dibawanya	VERB	_	Voice=Pass	_	_	_	gloss=led
+7	bersama	bersama	VERB	_	Voice=Act	_	_	_	gloss=together
+8	sama	sama	ADV	_	_	_	_	_	gloss=ents
+9	dengan	dengan	ADP	_	_	_	_	_	gloss=ius
+10	dia	dia	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	_	_	_	_	gloss=him
+11	tujuh	tujuh	NUM	_	_	19	nummod	_	gloss=seven|NumType=Card
+12	hantu	hantu	NOUN	_	_	18	nsubj	_	gloss=spirits|Number=Plur
+13	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+14	lain	lain	NOUN	_	Number=Sing	_	_	_	gloss=another
+15	,	,	PUNCT	_	_	_	_	_
+16	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+17	terlebih	terlebih	ADP	_	_	_	prep	_	gloss=than
+18	jahat	jahat	ADJ	_	_	_	ccomp	_	gloss=evil|Degree=Pos
+19	daripadanya	daripadanya	NOUN	_	_	18	nsubj	_	gloss=spirits|Number=Plur
+20	sendiri	sendiri	ADJ	_	_	_	_	_	gloss=qu
+21	,	,	PUNCT	_	_	_	_	_
+22	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+23	masuklah	masuklah	ADJ	_	_	_	_	_	gloss=entered
+24	mereka	mereka	PRON	Number=Plur|Person=3|PronType=Prs|Poss=Yes	_	_	_	_	gloss=They
+25	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+26	kedalam	kedalam	ADJ	_	NumType=Ord	_	_	_	gloss=making
+27	tinggallah	tinggallah	ADJ	_	_	_	_	_	gloss=stayed
+28	disana	disana	VERB	_	Voice=Pass	_	_	_	gloss=care
+29	;	;	PUNCT	_	_	_	_	_	gloss=am
+30	adapun	adapun	PART	_	_	_	_	_	gloss=ex
+31	halnya	halnya	None	_	_	_	_	_	gloss=referring
+32	manusia	manusia	NOUN	_	_	_	_	_	gloss=Man
+33	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+34	pada	pada	ADP	_	_	_	_	_	gloss=guilty
+35	akhirnya	akhirnya	ADJ	_	_	_	acomp	_	gloss=worse|Degree=Cmp
+36	terlebih	terlebih	ADP	_	_	_	prep	_	gloss=than
+37	jahat	jahat	ADJ	_	_	_	ccomp	_	gloss=evil|Degree=Pos
+38	daripada	daripada	ADP	_	_	_	prep	_	gloss=than
+39	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+40	pertama	pertama	NOUN	_	Number=Sing	_	_	_	gloss=first
+41	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 42015004
+# ref_id = Luke 15:4
+# eng_text = " Which of you men , if you had one hundred sheep , and lost one of them , wouldn't leave the ninety-nine in the wilderness , and go after the one that was lost , until he found it ?
+# zsm_text = Katanya , Siapakah dari pada kamu yang ada seratus ekor kambing , jikalau iya hilang seekor daripadanya , tiadakah iya meninggalkan sembilan puluh sembilan ekor itu dipadang , maka iya pergi mencari yang hilang itu sampailah didapatinya akan dia .
+1	Katanya	katanya	PUNCT	_	_	_	_	_	gloss=accus
+2	,	,	PUNCT	_	_	_	_	_
+3	Siapakah	siapakah	ADJ	_	_	_	_	_	gloss=Who
+4	dari	dari	ADP	_	_	_	_	_	gloss=t
+5	pada	pada	ADP	_	_	_	_	_	gloss=guilty
+6	kamu	kamu	PRON	_	_	_	_	_	gloss=you
+7	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+8	ada	ada	AUX	_	_	_	_	_	gloss=even
+9	seratus	seratus	ADJ	_	_	_	_	_	gloss=Roman
+10	ekor	ekor	DET	Number=Sing	_	_	_	_	gloss=Won’t
+11	kambing	kambing	NOUN	_	_	_	dobj	_	gloss=sheep|Number=Plur
+12	,	,	PUNCT	_	_	_	_	_
+13	jikalau	jikalau	SCONJ	_	_	_	_	_	gloss=if
+14	iya	iya	PRON	_	_	37	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+15	hilang	hilang	VERB	_	_	_	relcl	_	gloss=lost|Aspect=Perf|Tense=Past|VerbForm=Part
+16	seekor	seekor	ADJ	_	_	_	_	_	gloss=ninety-nine
+17	daripadanya	daripadanya	None	_	_	_	_	_	gloss=spirits
+18	,	,	PUNCT	_	_	_	_	_
+19	tiadakah	tiadakah	ADJ	_	_	_	_	_	gloss=on’t
+20	iya	iya	PRON	_	_	37	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+21	meninggalkan	meninggalkan	VERB	_	Voice=Act	_	_	_	gloss=omes
+22	sembilan	sembilan	ADJ	_	_	_	_	_	gloss=ninety-nine
+23	puluh	puluh	DET	Number=Sing	_	_	_	_	gloss=sev
+24	sembilan	sembilan	ADJ	_	_	_	_	_	gloss=ninety-nine
+25	ekor	ekor	DET	Number=Sing	_	_	_	_	gloss=Won’t
+26	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+27	dipadang	dipadang	VERB	_	Voice=Pass	_	_	_	gloss=j
+28	,	,	PUNCT	_	_	_	_	_
+29	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+30	iya	iya	PRON	_	_	37	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+31	pergi	pergi	VERB	_	_	_	conj	_	gloss=go|VerbForm=Inf
+32	mencari	mencari	NOUN	_	_	31	advcl	_	gloss=search|Number=Sing
+33	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+34	hilang	hilang	VERB	_	_	_	relcl	_	gloss=lost|Aspect=Perf|Tense=Past|VerbForm=Part
+35	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+36	sampailah	sampailah	ADJ	_	_	_	_	_	gloss=storm
+37	didapatinya	didapatinya	VERB	_	_	34	advcl	_	gloss=finds|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+38	akan	akan	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+39	dia	dia	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	_	_	_	_	gloss=him
+40	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 42017002
+# ref_id = Luke 17:2
+# eng_text = It would be better for him if a millstone were hanged about his neck , and he were thrown into the sea , rather than that he should cause one of these little ones to stumble .
+# zsm_text = Maka terlebihlah baik bagienya , jikalau digantongkannya batu kisaran itu pada lehirnya , dan dicampakkannya dirinya kelaut , daripada iya kelak mendatangkan salah atas orang orang yang terkechil ini .
+1	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+2	terlebihlah	terlebihlah	VERB	_	Voice=Pass	_	_	_
+3	baik	baik	NOUN	_	Number=Sing	_	_	_	gloss=good
+4	bagienya	bagienya	None	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_
+6	jikalau	jikalau	SCONJ	_	_	_	_	_	gloss=if
+7	digantongkannya	digantongkannya	VERB	_	Voice=Pass	_	_	_
+8	batu	batu	None	_	_	_	_	_	gloss=stone
+9	kisaran	kisaran	NOUN	_	Number=Sing	_	_	_
+10	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+11	pada	pada	ADP	_	_	_	_	_	gloss=guilty
+12	lehirnya	lehirnya	None	_	_	_	_	_
+13	,	,	PUNCT	_	_	_	_	_
+14	dan	dan	CCONJ	_	_	_	_	_	gloss=ind
+15	dicampakkannya	dicampakkannya	VERB	_	Voice=Pass	_	_	_
+16	dirinya	dirinya	VERB	_	Voice=Pass	_	_	_	gloss=ant
+17	kelaut	kelaut	NUM	_	_	_	nsubj	_	gloss=one|NumType=Card
+18	,	,	PUNCT	_	_	_	_	_
+19	daripada	daripada	SCONJ	_	_	_	mark	_	gloss=than
+20	iya	iya	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	_	_	_	_	gloss=he
+21	kelak	kelak	ADJ	_	NumType=Ord	_	_	_	gloss=will
+22	mendatangkan	mendatangkan	VERB	_	Voice=Act	_	_	_	gloss=purpose
+23	salah	salah	ADJ	_	_	_	_	_	gloss=despise
+24	atas	atas	NOUN	_	Number=Sing	_	_	_	gloss=scoff
+25	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+26	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+27	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+28	terkechil	terkechil	VERB	_	Voice=Pass	_	_	_	gloss=least
+29	ini	ini	DET	Demonstrative=Prox|PronType=Dem	_	_	_	_	gloss=this
+30	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 42017004
+# ref_id = Luke 17:4
+# eng_text = If he sins against you seven times in the day , and seven times turns again , saying , ' I repent , ' you shall forgive him . "
+# zsm_text = Maka jikalau iya menyalahkan akan dikau tujuh kali dalam sehari , dan tujuh kali dalam sehari iya berbalik pula kepadamu , katanya , Aku taubatlah ; hendaklah engkau ampuni akan dia .
+1	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+2	jikalau	jikalau	SCONJ	_	_	_	mark	_	gloss=if
+3	iya	iya	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	_	_	_	_	gloss=he
+4	menyalahkan	menyalahkan	VERB	_	Voice=Act	_	_	_	gloss=condemn
+5	akan	akan	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	_	_	_	_	gloss=will
+6	dikau	dikau	VERB	_	Voice=Pass	_	_	_	gloss=amount
+7	tujuh	tujuh	NUM	_	_	_	nummod	_	gloss=seven|NumType=Card
+8	kali	kali	VERB	_	Mood=Imp	_	_	_	gloss=ions
+9	dalam	dalam	ADP	_	_	_	_	_	gloss=ci
+10	sehari	sehari	ADJ	_	_	_	_	_	gloss=da
+11	,	,	PUNCT	_	_	_	_	_
+12	dan	dan	CCONJ	_	_	_	_	_	gloss=ind
+13	tujuh	tujuh	NUM	_	_	_	nummod	_	gloss=seven|NumType=Card
+14	kali	kali	VERB	_	Mood=Imp	_	_	_	gloss=ions
+15	dalam	dalam	ADP	_	_	_	_	_	gloss=ci
+16	sehari	sehari	ADJ	_	_	_	_	_	gloss=da
+17	iya	iya	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	_	_	_	_	gloss=he
+18	berbalik	berbalik	VERB	_	Voice=Act	_	_	_	gloss=cons
+19	pula	pula	None	_	_	_	_	_	gloss=planted
+20	kepadamu	kepadamu	ADP	_	_	_	_	_	gloss=ou
+21	,	,	PUNCT	_	_	_	_	_
+22	katanya	katanya	PUNCT	_	_	_	_	_
+23	,	,	PUNCT	_	_	_	_	_
+24	Aku	aku	PRON	_	_	_	_	_	gloss=innocent
+25	taubatlah	taubatlah	ADJ	_	_	_	_	_
+26	;	;	PUNCT	_	_	_	_	_	gloss=am
+27	hendaklah	hendaklah	ADJ	_	_	_	_	_	gloss=ink
+28	engkau	engkau	PRON	_	_	_	_	_	gloss=clean
+29	ampuni	ampuni	VERB	_	Mood=Imp	_	_	_
+30	akan	akan	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	_	_	_	_	gloss=will
+31	dia	dia	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	_	_	_	_	gloss=him
+32	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 42017024
+# ref_id = Luke 17:24
+# eng_text = for as the lightning , when it flashes out of the one part under the sky , shines to the other part under the sky ; so will the Son of Man be in his day .
+# zsm_text = Kerana seperti kilat yang terpanchar terbit daripada suatu bahagian dibawah langit , iya itu menerangi akan suatu bahagian yang lain dibawah langit , demikianlah adanya Anak manusia inipun kelak jadi pada harinya .
+1	Kerana	kerana	SCONJ	_	_	_	_	_	gloss=oh
+2	seperti	seperti	VERB	_	Mood=Imp	_	_	_	gloss=like
+3	kilat	kilat	NOUN	_	_	_	compound	_	gloss=lightning|Number=Sing
+4	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+5	terpanchar	terpanchar	NOUN	_	_	_	compound	_	gloss=lightning|Number=Sing
+6	terbit	terbit	VERB	_	Voice=Pass	_	_	_	gloss=eople
+7	daripada	daripada	ADP	_	_	_	_	_	gloss=than
+8	suatu	suatu	PRON	_	_	_	_	_
+9	bahagian	bahagian	NOUN	_	Number=Sing	_	_	_	gloss=-third
+10	dibawah	dibawah	VERB	_	Voice=Pass	_	_	_	gloss=sub
+11	langit	langit	NOUN	_	_	_	dobj	_	gloss=sky|Number=Sing
+12	,	,	PUNCT	_	_	_	_	_
+13	iya	iya	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	_	_	_	_	gloss=he
+14	itu	itu	DET	_	_	26	det	_	gloss=the|Definite=Def|PronType=Art
+15	menerangi	menerangi	VERB	_	Voice=Act	_	_	_
+16	akan	akan	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+17	suatu	suatu	PRON	_	_	_	_	_
+18	bahagian	bahagian	NOUN	_	Number=Sing	_	_	_	gloss=-third
+19	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+20	lain	lain	NOUN	_	Number=Sing	_	_	_	gloss=another
+21	dibawah	dibawah	VERB	_	Voice=Pass	_	_	_	gloss=sub
+22	langit	langit	NOUN	_	_	_	dobj	_	gloss=sky|Number=Sing
+23	,	,	PUNCT	_	_	_	_	_
+24	demikianlah	demikianlah	ADJ	_	_	_	_	_	gloss=burning
+25	adanya	adanya	NOUN	_	_	_	_	_	gloss=shown
+26	Anak	anak	NOUN	_	_	_	nsubj	_	gloss=Son|Number=Sing
+27	manusia	manusia	NOUN	_	_	_	pobj	_	gloss=Man|Number=Sing
+28	inipun	inipun	None	_	_	_	_	_
+29	kelak	kelak	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+30	jadi	jadi	VERB	_	Mood=Imp	_	_	_	gloss=ened
+31	pada	pada	ADP	_	_	_	_	_	gloss=guilty
+32	harinya	harinya	None	_	_	_	_	_	gloss=next
+33	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 42017035
+# ref_id = Luke 17:35
+# eng_text = There will be two women grinding together . The one will be taken , and the other will be left . "
+# zsm_text = Maka dua orang perempuan kelak yang ada mengisar bersama sama , seorang akan diambil , dan seorang akan ditinggalkan .
+1	Maka	maka	unk	_	_	_	_	_	gloss=Then
+2	dua	dua	NUM	NumType=Card|Number=Sing	_	_	_	_	gloss=two
+3	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+4	perempuan	perempuan	NOUN	_	Number=Sing	_	_	_	gloss=woman
+5	kelak	kelak	AUX	_	_	14	aux	_	gloss=will|VerbForm=Fin
+6	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+7	ada	ada	AUX	_	_	_	_	_	gloss=even
+8	mengisar	mengisar	VERB	_	_	14	ccomp	_	gloss=grinding|Aspect=Prog|Tense=Pres|VerbForm=Part
+9	bersama	bersama	None	_	_	_	_	_
+10	sama	sama	ADV	_	_	_	_	_	gloss=ents
+11	,	,	PUNCT	_	_	_	_	_
+12	seorang	seorang	NUM	_	_	14	nsubjpass	_	gloss=one|PronType=Prs
+13	akan	akan	AUX	_	_	14	aux	_	gloss=will|VerbForm=Fin
+14	diambil	diambil	VERB	_	_	_	ccomp	_	gloss=taken|Aspect=Perf|Tense=Past|VerbForm=Part
+15	,	,	PUNCT	_	_	_	_	_
+16	dan	dan	CCONJ	_	_	_	_	_	gloss=ind
+17	seorang	seorang	NUM	_	_	14	nsubjpass	_	gloss=one|PronType=Prs
+18	akan	akan	AUX	_	_	14	aux	_	gloss=will|VerbForm=Fin
+19	ditinggalkan	ditinggalkan	VERB	_	_	14	ccomp	_	gloss=grinding|Aspect=Prog|Tense=Pres|VerbForm=Part
+20	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 42018010
+# ref_id = Luke 18:10
+# eng_text = " Two men went up into the temple to pray ; one was a Pharisee , and the other was a tax collector .
+# zsm_text = Maka adalah dua orang masuk kedalam ka’abah meminta doa , iya itu seorang orang Farisia , dan seorang orang memegang chukie .
+1	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+2	adalah	adalah	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_	gloss=There
+3	dua	dua	NUM	NumType=Card|Number=Sing	_	_	_	_	gloss=two
+4	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+5	masuk	masuk	None	_	_	_	_	_	gloss=enter
+6	kedalam	kedalam	ADJ	_	NumType=Ord	_	_	_	gloss=making
+7	ka’abah	ka’abah	PROPN	_	_	_	pobj	_	gloss=Temple|Number=Sing
+8	meminta	meminta	VERB	_	Voice=Act	_	_	_	gloss=receives
+9	doa	doa	VERB	_	_	_	advcl	_	gloss=pray|VerbForm=Inf
+10	,	,	PUNCT	_	_	_	_	_
+11	iya	iya	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	_	_	_	_	gloss=he
+12	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+13	seorang	seorang	NUM	_	_	_	_	_	gloss=one
+14	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+15	Farisia	farisia	PROPN	_	_	_	_	_	gloss=Pharisees
+16	,	,	PUNCT	_	_	_	_	_
+17	dan	dan	CCONJ	_	_	_	_	_	gloss=ind
+18	seorang	seorang	NUM	_	_	_	_	_	gloss=one
+19	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+20	memegang	memegang	VERB	_	Voice=Act	_	_	_	gloss=pped
+21	chukie	chukie	None	_	_	_	_	_	gloss=scum
+22	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 42020031
+# ref_id = Luke 20:31
+# eng_text = The third took her , and likewise the seven all left no children , and died .
+# zsm_text = Maka yang ketiga pula mengambil dia , dan demikian juga yang ketujuh pun , maka tiada mereka itu meninggalkan anak , lalu mati .
+1	Maka	maka	ADV	_	_	_	advmod	_	gloss=Then|PronType=Dem
+2	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+3	ketiga	ketiga	ADJ	_	_	_	amod	_	gloss=third|Degree=Pos
+4	pula	pula	None	_	_	_	_	_	gloss=planted
+5	mengambil	mengambil	VERB	_	Voice=Act	_	_	_	gloss=John’s
+6	dia	dia	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	_	_	_	_	gloss=him
+7	,	,	PUNCT	_	_	_	_	_
+8	dan	dan	CCONJ	_	_	_	_	_	gloss=ind
+9	demikian	demikian	NOUN	_	Number=Sing	_	_	_	gloss=uel
+10	juga	juga	ADV	_	_	_	_	_	gloss=same
+11	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+12	ketujuh	ketujuh	None	_	_	_	_	_	gloss=sil
+13	pun	pun	PART	_	_	_	_	_	gloss=or
+14	,	,	PUNCT	_	_	_	_	_
+15	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+16	tiada	tiada	ADP	_	_	_	prep	_	gloss=without
+17	mereka	mereka	PRON	Number=Plur|Person=3|PronType=Prs|Poss=Yes	_	_	_	_	gloss=They
+18	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+19	meninggalkan	meninggalkan	VERB	_	Voice=Act	_	_	_	gloss=omes
+20	anak	anak	NOUN	Number=Sing	_	_	_	_	gloss=Son
+21	,	,	PUNCT	_	_	_	_	_
+22	lalu	lalu	ADV	_	_	_	_	_	gloss=slipped
+23	mati	mati	VERB	_	Mood=Imp	_	_	_	gloss=die
+24	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 42022030
+# ref_id = Luke 22:30
+# eng_text = that you may eat and drink at my table in my kingdom . You will sit on thrones , judging the twelve tribes of Israel . "
+# zsm_text = Supaya kamu makan dan minum pada hidanganku , dalam kerajaanku , dan duduk diatas tahkta tahkta menghukumkan dua belas kaum bani Israil .
+1	Supaya	supaya	SCONJ	_	_	_	_	_	gloss=ity
+2	kamu	kamu	PRON	_	_	_	nsubj	_	gloss=you|Case=Nom|Person=2|PronType=Prs
+3	makan	makan	VERB	_	_	0	root	_	gloss=eat|VerbForm=Inf
+4	dan	dan	CCONJ	_	_	_	_	_	gloss=ind
+5	minum	minum	VERB	_	_	3	conj	_	gloss=drink|VerbForm=Inf
+6	pada	pada	ADP	_	_	_	_	_	gloss=guilty
+7	hidanganku	hidanganku	None	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_
+9	dalam	dalam	ADP	_	_	_	_	_	gloss=ci
+10	kerajaanku	kerajaanku	None	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_
+12	dan	dan	CCONJ	_	_	_	_	_	gloss=ind
+13	duduk	duduk	None	_	_	_	_	_	gloss=sitting
+14	diatas	diatas	ADP	_	_	_	prep	_	gloss=on
+15	tahkta	tahkta	NOUN	_	_	17	dobj	_	gloss=tribes|Number=Plur
+16	tahkta	tahkta	NOUN	_	_	17	dobj	_	gloss=tribes|Number=Plur
+17	menghukumkan	menghukumkan	VERB	_	_	_	advcl	_	gloss=judging|Aspect=Prog|Tense=Pres|VerbForm=Part
+18	dua	dua	NUM	NumType=Card|Number=Sing	_	_	_	_	gloss=two
+19	belas	belas	NUM	_	_	20	nummod	_	gloss=twelve|NumType=Card
+20	kaum	kaum	NOUN	_	_	17	dobj	_	gloss=tribes|Number=Plur
+21	bani	bani	VERB	_	Mood=Imp	_	_	_	gloss=disobedient
+22	Israil	israil	PROPN	_	_	_	pobj	_	gloss=Israel|Number=Sing
+23	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 42022050
+# ref_id = Luke 22:50
+# eng_text = A certain one of them struck the servant of the high priest , and cut off his right ear .
+# zsm_text = ¶ Maka seorang daripada mereka itu menyinchang akan hamba imam besar itu putuslah telinga kanannya .
+1	¶	¶	PUNCT	_	_	_	_	_	gloss=scatt
+2	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+3	seorang	seorang	NUM	_	_	_	nsubj	_	gloss=one|NumType=Card
+4	daripada	daripada	ADP	_	_	_	_	_	gloss=than
+5	mereka	mereka	PRON	Number=Plur|Person=3|PronType=Prs|Poss=Yes	_	_	_	_	gloss=They
+6	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+7	menyinchang	menyinchang	VERB	_	Voice=Act	_	_	_
+8	akan	akan	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	_	_	_	_	gloss=will
+9	hamba	hamba	NOUN	_	_	_	_	_	gloss=servant
+10	imam	imam	None	_	_	_	_	_	gloss=priests
+11	besar	besar	ADJ	_	_	_	amod	_	gloss=high|Degree=Pos
+12	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+13	putuslah	putuslah	ADJ	_	_	_	_	_	gloss=priest’s
+14	telinga	telinga	NOUN	_	_	_	dobj	_	gloss=ear|Number=Sing
+15	kanannya	kanannya	ADJ	_	_	14	amod	_	gloss=right|Degree=Pos
+16	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 42023033
+# ref_id = Luke 23:33
+# eng_text = When they came to the place that is called The Skull , they crucified him there with the criminals , one on the right and the other on the left .
+# zsm_text = Maka apabila sampailah mereka itu kepada tempat yang bernama Kalbari maka disanalah disalibkannya akan Isa dan orang orang yang derhaka itu , seorang disebelah kanan dan seorang disebelah kiri .
+1	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+2	apabila	apabila	SCONJ	_	_	_	advmod	_	gloss=When
+3	sampailah	sampailah	ADJ	_	_	_	_	_	gloss=storm
+4	mereka	mereka	PRON	Number=Plur|Person=3|PronType=Prs|Poss=Yes	_	_	_	_	gloss=They
+5	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+6	kepada	kepada	ADP	_	_	_	prep	_	gloss=to
+7	tempat	tempat	NOUN	_	Number=Sing	_	_	_	gloss=den
+8	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+9	bernama	bernama	PROPN	_	_	_	oprd	_	gloss=Skull|Number=Sing
+10	Kalbari	kalbari	NOUN	_	Mood=Imp	_	_	_
+11	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+12	disanalah	disanalah	VERB	_	Voice=Pass	_	_	_	gloss=fled
+13	disalibkannya	disalibkannya	VERB	_	Voice=Pass	_	_	_	gloss=ail
+14	akan	akan	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	_	_	_	_	gloss=will
+15	Isa	isa	PROPN	_	_	_	_	_	gloss=Jesus
+16	dan	dan	CCONJ	_	_	_	_	_	gloss=ind
+17	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+18	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+19	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+20	derhaka	derhaka	None	_	_	_	_	_	gloss=reject
+21	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+22	,	,	PUNCT	_	_	_	_	_
+23	seorang	seorang	NUM	_	_	25	conj	_	gloss=one|NumType=Card
+24	disebelah	disebelah	VERB	_	Voice=Pass	_	_	_	gloss=seated
+25	kanan	kanan	NOUN	_	_	_	pobj	_	gloss=right|Number=Sing
+26	dan	dan	CCONJ	_	_	_	_	_	gloss=ind
+27	seorang	seorang	NUM	_	_	25	conj	_	gloss=one|NumType=Card
+28	disebelah	disebelah	VERB	_	Voice=Pass	_	_	_	gloss=seated
+29	kiri	kiri	VERB	_	Mood=Imp	_	_	_	gloss=cust
+30	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 42024035
+# ref_id = Luke 24:35
+# eng_text = They related the things that happened along the way , and how he was recognized by them in the breaking of the bread .
+# zsm_text = Maka dikatakanlah oleh mereka itu perkara perkara yang telah jadi dijalan , dan bagimana dia orang telah mengetahui dari halnya dalam memecahkan roti .
+1	Maka	maka	ADV	_	_	_	advmod	_	gloss=Then|PronType=Dem
+2	dikatakanlah	dikatakanlah	VERB	_	Voice=Pass	_	_	_	gloss=AUX
+3	oleh	oleh	ADP	_	_	_	_	_	gloss=ation
+4	mereka	mereka	PRON	Number=Plur|Person=3|PronType=Prs|Poss=Yes	_	_	_	_	gloss=They
+5	itu	itu	DET	_	_	23	det	_	gloss=the|Definite=Def|PronType=Art
+6	perkara	perkara	NOUN	_	Number=Sing	_	_	_	gloss=things
+7	perkara	perkara	NOUN	_	Number=Sing	_	_	_	gloss=things
+8	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+9	telah	telah	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_	gloss=has
+10	jadi	jadi	VERB	_	Mood=Imp	_	_	_	gloss=ened
+11	dijalan	dijalan	VERB	_	Voice=Pass	_	_	_	gloss=awhile
+12	,	,	PUNCT	_	_	_	_	_
+13	dan	dan	CCONJ	_	_	_	_	_	gloss=ind
+14	bagimana	bagimana	None	_	_	_	_	_	gloss=guard
+15	dia	dia	PRON	_	_	_	dobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+16	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+17	telah	telah	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_	gloss=has
+18	mengetahui	mengetahui	VERB	_	Voice=Act	_	_	_	gloss=lead
+19	dari	dari	ADP	_	_	_	_	_	gloss=t
+20	halnya	halnya	None	_	_	_	_	_	gloss=referring
+21	dalam	dalam	ADP	_	_	_	_	_	gloss=ci
+22	memecahkan	memecahkan	VERB	_	Voice=Act	_	_	_	gloss=rebu
+23	roti	roti	NOUN	_	_	_	dobj	_	gloss=bread|Number=Sing
+24	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 43001040
+# ref_id = John 1:40
+# eng_text = One of the two who heard John , and followed him , was Andrew , Simon Peter's brother .
+# zsm_text = Maka adalah seorang daripada kadua mereka itu yang meneugar perkataan Yahya itu , dan yang mengikot akan Isa , iya itu Andria , saudaranya Simon Petros .
+1	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+2	adalah	adalah	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_	gloss=There
+3	seorang	seorang	NUM	_	_	_	attr	_	gloss=one|NumType=Card
+4	daripada	daripada	ADP	_	_	_	_	_	gloss=than
+5	kadua	kadua	None	_	_	_	_	_	gloss=second
+6	mereka	mereka	PRON	Number=Plur|Person=3|PronType=Prs|Poss=Yes	_	_	_	_	gloss=They
+7	itu	itu	DET	Definite=Def|PronType=Art	_	_	_	_	gloss=the
+8	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+9	meneugar	meneugar	VERB	_	Voice=Act	_	_	_
+10	perkataan	perkataan	NOUN	_	Number=Sing	_	_	_	gloss=words
+11	Yahya	yahya	PROPN	_	_	_	nsubj	_	gloss=John|Number=Sing
+12	itu	itu	DET	Definite=Def|PronType=Art	_	_	_	_	gloss=the
+13	,	,	PUNCT	_	_	_	_	_
+14	dan	dan	CCONJ	_	_	_	_	_	gloss=ind
+15	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+16	mengikot	mengikot	VERB	_	_	_	conj	_	gloss=followed|Tense=Past|VerbForm=Fin
+17	akan	akan	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	_	_	_	_	gloss=will
+18	Isa	isa	PROPN	_	_	16	dobj	_	gloss=Jesus|Number=Sing
+19	,	,	PUNCT	_	_	_	_	_
+20	iya	iya	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	_	_	_	_	gloss=he
+21	itu	itu	DET	Definite=Def|PronType=Art	_	_	_	_	gloss=the
+22	Andria	andria	PROPN	_	_	_	npadvmod	_	gloss=Andrew|Number=Sing
+23	,	,	PUNCT	_	_	_	_	_
+24	saudaranya	saudaranya	NOUN	_	_	22	appos	_	gloss=brother|Number=Sing
+25	Simon	simon	PROPN	_	_	26	compound	_	gloss=Simon|Number=Sing
+26	Petros	petros	PROPN	_	_	24	poss	_	gloss=Peter|Number=Sing
+27	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 43002019
+# ref_id = John 2:19
+# eng_text = Jesus answered them , " Destroy this temple , and in three days I will raise it up . "
+# zsm_text = Maka jawab Isa kepada mereka itu katanya , Robohkanlah ka’abah ini ; maka dalam tiga hari aku akan membangunkan dia pula .
+1	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+2	jawab	jawab	None	_	_	_	_	_	gloss=answered
+3	Isa	isa	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+4	kepada	kepada	ADP	_	_	_	_	_	gloss=to
+5	mereka	mereka	PRON	Number=Plur|Person=3|PronType=Prs|Poss=Yes	_	_	_	_	gloss=They
+6	itu	itu	DET	Definite=Def|PronType=Art	_	_	_	_	gloss=the
+7	katanya	katanya	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+8	,	,	PUNCT	_	_	_	_	_
+9	Robohkanlah	robohkanlah	ADJ	_	_	_	_	_
+10	ka’abah	ka’abah	ADJ	_	_	_	_	_	gloss=Temple
+11	ini	ini	DET	_	_	_	det	_	gloss=this|Number=Sing|PronType=Dem
+12	;	;	PUNCT	_	_	_	_	_	gloss=am
+13	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+14	dalam	dalam	ADP	_	_	_	_	_	gloss=ci
+15	tiga	tiga	NUM	_	_	16	nummod	_	gloss=three|NumType=Card
+16	hari	hari	NOUN	_	_	_	pobj	_	gloss=days|Number=Plur
+17	aku	aku	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+18	akan	akan	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+19	membangunkan	membangunkan	None	_	Voice=Act	_	_	_	gloss=emple
+20	dia	dia	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	_	_	_	_	gloss=him
+21	pula	pula	ADV	_	_	_	_	_	gloss=planted
+22	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 43006010
+# ref_id = John 6:10
+# eng_text = Jesus said , " Have the people sit down . " Now there was much grass in that place . So the men sat down , in number about five thousand .
+# zsm_text = Maka kata Isa , suruhkanlah duduk orang orang itu . Maka adalah ditempat itu rumput banyak , maka duduklah orang orang itu adalah kira kira lima ribu orang banyaknya .
+1	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+2	kata	kata	VERB	_	_	_	_	_	gloss=spoken
+3	Isa	isa	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+4	,	,	PUNCT	_	_	_	_	_
+5	suruhkanlah	suruhkanlah	ADJ	_	_	_	_	_	gloss=num
+6	duduk	duduk	None	_	_	_	_	_	gloss=sitting
+7	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+8	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+9	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+10	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+11	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+12	adalah	adalah	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_	gloss=There
+13	ditempat	ditempat	VERB	_	Voice=Pass	_	_	_	gloss=where
+14	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+15	rumput	rumput	None	_	_	_	_	_
+16	banyak	banyak	None	_	_	_	_	_	gloss=many
+17	,	,	PUNCT	_	_	_	_	_
+18	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+19	duduklah	duduklah	VERB	_	_	0	root	_	gloss=sat|Tense=Past|VerbForm=Fin
+20	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+21	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+22	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+23	adalah	adalah	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_	gloss=There
+24	kira	kira	NOUN	_	_	_	_	_	gloss=account
+25	kira	kira	NOUN	_	_	_	_	_	gloss=account
+26	lima	lima	None	_	_	_	_	_	gloss=five
+27	ribu	ribu	NUM	_	_	_	dobj	_	gloss=5,000|NumType=Card
+28	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+29	banyaknya	banyaknya	NUM	_	_	_	dobj	_	gloss=5,000|NumType=Card
+30	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 43006019
+# ref_id = John 6:19
+# eng_text = When therefore they had rowed about twenty-five or thirty stadia , they saw Jesus walking on the sea , and drawing near to the boat ; and they were afraid .
+# zsm_text = Adapun setelah sudah mereka itu berdayong dua atau tiga mil jauhnya , maka dilihat mereka itu Isa berjalan diatas air dalam tasek itu lalu datang menghampiri perahu itu , maka ketakotanlah mereka itu .
+1	Adapun	Adapun	None	_	_	_	_	_
+2	setelah	setelah	ADJ	_	_	_	_	_	gloss=i
+3	sudah	sudah	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_	gloss=After
+4	mereka	mereka	PRON	_	_	_	nsubjpass	_	gloss=They|Case=Nom|Number=Plur|Person=3|PronType=Prs
+5	itu	itu	DET	_	_	27	det	_	gloss=the|Definite=Def|PronType=Art
+6	berdayong	berdayong	VERB	_	Voice=Act	_	_	_
+7	dua	dua	NUM	NumType=Card|Number=Sing	_	_	_	_	gloss=two
+8	atau	atau	CCONJ	_	_	9	cc	_	gloss=or|ConjType=Cmp
+9	tiga	tiga	NUM	_	_	_	nummod	_	gloss=three|NumType=Card
+10	mil	mil	None	_	_	_	_	_
+11	jauhnya	jauhnya	None	_	_	_	_	_
+12	,	,	PUNCT	_	_	_	_	_
+13	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+14	dilihat	dilihat	VERB	_	_	_	advcl	_	gloss=saw|Tense=Past|VerbForm=Fin
+15	mereka	mereka	PRON	_	_	_	nsubjpass	_	gloss=They|Case=Nom|Number=Plur|Person=3|PronType=Prs
+16	itu	itu	DET	_	_	27	det	_	gloss=the|Definite=Def|PronType=Art
+17	Isa	isa	PROPN	_	_	18	nsubj	_	gloss=Jesus|Number=Sing
+18	berjalan	berjalan	VERB	_	_	14	ccomp	_	gloss=walking|Aspect=Prog|Tense=Pres|VerbForm=Part
+19	diatas	diatas	ADP	_	_	18	prep	_	gloss=on
+20	air	air	NOUN	_	_	19	pobj	_	gloss=water|Number=Sing
+21	dalam	dalam	ADP	_	_	_	_	_	gloss=ci
+22	tasek	tasek	None	_	_	_	_	_
+23	itu	itu	DET	_	_	27	det	_	gloss=the|Definite=Def|PronType=Art
+24	lalu	lalu	ADV	_	_	_	_	_	gloss=slipped
+25	datang	datang	VERB	VerbForm=Fin	_	_	_	_	gloss=coming
+26	menghampiri	menghampiri	VERB	_	Voice=Act	_	_	_	gloss=inter
+27	perahu	perahu	NOUN	_	_	_	pobj	_	gloss=boat|Number=Sing
+28	itu	itu	DET	_	_	27	det	_	gloss=the|Definite=Def|PronType=Art
+29	,	,	PUNCT	_	_	_	_	_
+30	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+31	ketakotanlah	ketakotanlah	ADJ	_	NumType=Ord	_	_	_	gloss=kn
+32	mereka	mereka	PRON	_	_	_	nsubjpass	_	gloss=They|Case=Nom|Number=Plur|Person=3|PronType=Prs
+33	itu	itu	DET	_	_	27	det	_	gloss=the|Definite=Def|PronType=Art
+34	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 43008009
+# ref_id = John 8:9
+# eng_text = They , when they heard it , being convicted by their conscience , went out one by one , beginning from the oldest , even to the last . Jesus was left alone with the woman where she was , in the midst .
+# zsm_text = Maka demi didengar oleh orang orang itu akan perkataan itu , sebab kena templak angan angan hatinya sendiri , lalu kluarlah iya seorang demi seorang , daripada besar dan kecil , maka tinggallah Isa seorang dirinya , maka perempuan itu pun ada lagi terdiri juga ditengah tengah .
+1	Maka	maka	unk	_	_	_	_	_	gloss=Then
+2	demi	demi	VERB	_	Mood=Imp	_	_	_	gloss=and
+3	didengar	didengar	VERB	_	_	47	advcl	_	gloss=heard|Tense=Past|VerbForm=Fin
+4	oleh	oleh	ADP	_	_	_	_	_	gloss=ation
+5	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+6	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+7	itu	itu	DET	_	_	39	det	_	gloss=the|Definite=Def|PronType=Art
+8	akan	akan	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	_	_	_	_	gloss=will
+9	perkataan	perkataan	NOUN	_	Number=Sing	_	_	_	gloss=words
+10	itu	itu	DET	_	_	39	det	_	gloss=the|Definite=Def|PronType=Art
+11	,	,	PUNCT	_	_	_	_	_
+12	sebab	sebab	SCONJ	_	_	_	_	_	gloss=shame
+13	kena	kena	ADJ	_	NumType=Ord	_	_	_	gloss=aches
+14	templak	templak	None	_	_	_	_	_
+15	angan	angan	NOUN	_	Number=Sing	_	_	_	gloss=either
+16	angan	angan	NOUN	_	Number=Sing	_	_	_	gloss=either
+17	hatinya	hatinya	None	_	_	_	_	_	gloss=torment
+18	sendiri	sendiri	ADJ	_	_	_	_	_	gloss=qu
+19	,	,	PUNCT	_	_	_	_	_
+20	lalu	lalu	VERB	_	_	0	root	_	gloss=slipped|Tense=Past|VerbForm=Fin
+21	kluarlah	kluarlah	ADJ	_	_	_	_	_	gloss=Olives
+22	iya	iya	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	_	_	_	_	gloss=he
+23	seorang	seorang	NUM	_	_	_	pobj	_	gloss=one|NumType=Card
+24	demi	demi	VERB	_	Mood=Imp	_	_	_	gloss=and
+25	seorang	seorang	NUM	_	_	_	pobj	_	gloss=one|NumType=Card
+26	,	,	PUNCT	_	_	_	_	_
+27	daripada	daripada	ADP	_	_	_	_	_	gloss=than
+28	besar	besar	None	_	_	_	_	_	gloss=high
+29	dan	dan	CCONJ	_	_	_	_	_	gloss=ind
+30	kecil	kecil	ADJ	_	NumType=Ord	_	_	_	gloss=small
+31	,	,	PUNCT	_	_	_	_	_
+32	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+33	tinggallah	tinggallah	ADJ	_	_	_	_	_	gloss=stayed
+34	Isa	isa	PROPN	_	_	_	nsubjpass	_	gloss=Jesus|Number=Sing
+35	seorang	seorang	NUM	_	_	_	pobj	_	gloss=one|NumType=Card
+36	dirinya	dirinya	VERB	_	Voice=Pass	_	_	_	gloss=ant
+37	,	,	PUNCT	_	_	_	_	_
+38	maka	maka	unk	_	_	_	_	_	gloss=As
+39	perempuan	perempuan	NOUN	_	_	_	pobj	_	gloss=woman|Number=Sing
+40	itu	itu	DET	_	_	39	det	_	gloss=the|Definite=Def|PronType=Art
+41	pun	pun	PART	_	_	_	_	_	gloss=or
+42	ada	ada	AUX	_	_	_	_	_	gloss=even
+43	lagi	lagi	VERB	_	Mood=Imp	_	_	_	gloss=member
+44	terdiri	terdiri	VERB	_	Voice=Pass	_	_	_	gloss=suddenly
+45	juga	juga	ADV	_	_	_	_	_	gloss=same
+46	ditengah	ditengah	NOUN	_	_	_	pobj	_	gloss=middle|Number=Sing
+47	tengah	tengah	VERB	_	_	0	root	_	gloss=slipped|Tense=Past|VerbForm=Fin
+48	.	.	PUNCT	_	_	47	punct	_	PunctType=Peri
+
+# sent_id = 43011009
+# ref_id = John 11:9
+# eng_text = Jesus answered , " Aren't there twelve hours of daylight ? If a man walks in the day , he doesn't stumble , because he sees the light of this world .
+# zsm_text = Maka sahut Isa , Bukankah dalam sehari itu dua belas jam ? Maka jikalau barang siapa berjalan pada siang hari itu , tiadalah iya terantok adanya , sebab dilihatnya trang dunia .
+1	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+2	sahut	sahut	None	_	_	_	_	_	gloss=lain
+3	Isa	isa	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+4	,	,	PUNCT	_	_	_	_	_
+5	Bukankah	bukankah	ADJ	_	_	_	_	_	gloss=You’re
+6	dalam	dalam	ADP	_	_	_	_	_	gloss=ci
+7	sehari	sehari	ADJ	_	_	_	_	_	gloss=da
+8	itu	itu	DET	_	_	29	det	_	gloss=the|Definite=Def|PronType=Art
+9	duabelas	duabelas	NOUN	_	_	_	dobj	_	gloss=light|Number=Sing
+10	jam	jam	NOUN	_	_	_	_	_	gloss=hour
+11	?	?	PUNCT	_	_	_	_	_
+12	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+13	jikalau	jikalau	SCONJ	_	_	_	_	_	gloss=if
+14	barang	barang	DET	_	_	_	_	_	gloss=tells
+15	siapa	siapa	PRON	_	_	_	_	_	gloss=ily
+16	berjalan	berjalan	VERB	_	Voice=Act	_	_	_	gloss=walking
+17	pada	pada	ADP	_	_	_	_	_	gloss=guilty
+18	siang	siang	None	_	_	_	_	_	gloss=morning
+19	hari	hari	VERB	_	Mood=Imp	_	_	_	gloss=days
+20	itu	itu	DET	_	_	29	det	_	gloss=the|Definite=Def|PronType=Art
+21	,	,	PUNCT	_	_	_	_	_
+22	tiadalah	tiadalah	ADJ	_	_	_	_	_	gloss=nor
+23	iya	iya	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	_	_	_	_	gloss=he
+24	terantok	terantok	VERB	_	Voice=Pass	_	_	_	gloss=stumble
+25	adanya	adanya	NOUN	_	_	_	_	_	gloss=shown
+26	,	,	PUNCT	_	_	_	_	_
+27	sebab	sebab	SCONJ	_	_	_	_	_	gloss=shame
+28	dilihatnya	dilihatnya	VERB	_	Voice=Pass	_	_	_	gloss=ds
+29	trang	trang	NOUN	_	_	_	dobj	_	gloss=light|Number=Sing
+30	dunia	dunia	NOUN	_	_	_	pobj	_	gloss=world|Number=Sing
+31	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 43011050
+# ref_id = John 11:50
+# eng_text = nor do you take account that it is advantageous for us that one man should die for the people , and that the whole nation not perish . "
+# zsm_text = Dan kamu tiada berfikiran , bahawa haruslah pada kita kelak seorang mati ganti kaum ini , asal jangan segala bangsa kita binasa .
+1	Dan	dan	CCONJ	_	_	_	_	_	gloss=our
+2	kamu	kamu	PRON	_	_	_	pobj	_	gloss=you|Case=Acc|Person=2|PronType=Prs
+3	tiada	tiada	PART	_	Polarity=Neg	_	_	_	gloss=without
+4	berfikiran	berfikiran	VERB	_	Voice=Act	_	_	_
+5	,	,	PUNCT	_	_	_	_	_
+6	bahawa	bahawa	SCONJ	_	_	_	_	_	gloss=wasn’t
+7	haruslah	haruslah	ADJ	_	_	_	_	_	gloss=offer
+8	pada	pada	ADP	_	_	_	_	_	gloss=guilty
+9	kita	kita	None	_	_	_	_	_	gloss=Let’s
+10	kelak	kelak	ADJ	_	NumType=Ord	_	_	_	gloss=will
+11	seorang	seorang	NUM	_	_	_	nummod	_	gloss=one|NumType=Card
+12	mati	mati	VERB	_	_	_	ccomp	_	gloss=die|VerbForm=Inf
+13	ganti	ganti	VERB	_	Mood=Imp	_	_	_	gloss=gods
+14	kaum	kaum	ADJ	_	_	_	_	_	gloss=tribes
+15	ini	ini	DET	Demonstrative=Prox|PronType=Dem	_	_	_	_	gloss=this
+16	,	,	PUNCT	_	_	_	_	_
+17	asal	asal	NOUN	_	Number=Sing	_	_	_	gloss=mit
+18	jangan	jangan	NOUN	_	Number=Sing	_	_	_	gloss=terrible
+19	segala	segala	DET	_	_	_	_	_	gloss=all
+20	bangsa	bangsa	None	_	_	_	_	_	gloss=nations
+21	kita	kita	None	_	_	_	_	_	gloss=Let’s
+22	binasa	binasa	VERB	_	_	12	advcl	_	gloss=destroyed|Aspect=Perf|Tense=Past|VerbForm=Part
+23	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 43018039
+# ref_id = John 18:39
+# eng_text = But you have a custom , that I should release to you one at the Passover . Therefore do you desire that I release to you the King of the Jews ? "
+# zsm_text = Tetapi ada adat kamu , bahawa pada waktu hari langkah , harus aku melepaskan seorang akan kamu ; mahukah engkau aku lepaskan akan dikau Raja orang Yahudi itu ?
+1	Tetapi	tetapi	CCONJ	_	_	_	cc	_	gloss=But|ConjType=Cmp
+2	ada	ada	AUX	_	_	_	_	_	gloss=even
+3	adat	adat	NOUN	_	Number=Sing	_	_	_	gloss=trad
+4	kamu	kamu	PRON	_	_	_	nsubj	_	gloss=you|Case=Nom|Person=2|PronType=Prs
+5	,	,	PUNCT	_	_	_	_	_
+6	bahawa	bahawa	SCONJ	_	_	_	_	_	gloss=wasn’t
+7	pada	pada	ADP	_	_	_	_	_	gloss=guilty
+8	waktu	waktu	NOUN	_	_	_	_	_	gloss=afternoon
+9	hari	hari	VERB	_	Mood=Imp	_	_	_	gloss=days
+10	langkah	langkah	ADJ	_	_	_	_	_	gloss=meal
+11	,	,	PUNCT	_	_	_	_	_
+12	harus	harus	None	_	_	_	_	_	gloss=See
+13	aku	aku	PRON	_	_	_	_	_	gloss=I
+14	melepaskan	melepaskan	VERB	_	Voice=Act	_	_	_	gloss=rescue
+15	seorang	seorang	NUM	_	_	_	nummod	_	gloss=one|NumType=Card
+16	akan	akan	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	_	_	_	_	gloss=will
+17	kamu	kamu	PRON	_	_	_	nsubj	_	gloss=you|Case=Nom|Person=2|PronType=Prs
+18	;	;	PUNCT	_	_	_	_	_	gloss=am
+19	mahukah	mahukah	VERB	_	_	_	xcomp	_	gloss=release|VerbForm=Inf
+20	engkau	engkau	PRON	_	_	_	_	_	gloss=clean
+21	aku	aku	PRON	_	_	_	_	_	gloss=I
+22	lepaskan	lepaskan	AUX	_	_	_	aux	_	gloss=Would|VerbForm=Fin
+23	akan	akan	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	_	_	_	_	gloss=will
+24	dikau	dikau	VERB	_	Voice=Pass	_	_	_	gloss=amount
+25	Raja	raja	NOUN	_	_	19	dobj	_	gloss=King|Number=Sing
+26	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+27	Yahudi	yahudi	PROPN	_	Mood=Imp	_	_	_	gloss=Jewish
+28	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+29	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 43019023
+# ref_id = John 19:23
+# eng_text = Then the soldiers , when they had crucified Jesus , took his garments and made four parts , to every soldier a part ; and also the coat . Now the coat was without seam , woven from the top throughout .
+# zsm_text = ¶ Bermula setelah sudah segala lashkar itu mensalibkan Isa , maka diambilnyalah segala pakaiannya , lalu dibahagikannya itu empat bahagian , iya itu pada seorang satu bahagian , maka bajunya pun demikian juga ; adapun bajunya itu tiada berkelim , melainkan ditenun sahaja dari atas sampai kebawah .
+1	¶	¶	PUNCT	_	_	_	_	_	gloss=scatt
+2	Bermula	bermula	VERB	_	Voice=Act	_	_	_	gloss=Write
+3	setelah	setelah	ADJ	_	_	_	_	_	gloss=i
+4	sudah	sudah	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_	gloss=After
+5	segala	segala	DET	_	_	_	_	_	gloss=all
+6	lashkar	lashkar	NOUN	_	_	8	nsubj	_	gloss=soldiers|Number=Plur
+7	itu	itu	DET	_	_	19	det	_	gloss=the|Definite=Def|PronType=Art
+8	mensalibkan	mensalibkan	VERB	_	_	_	advcl	_	gloss=crucified|Aspect=Perf|Tense=Past|VerbForm=Part
+9	Isa	isa	PROPN	_	_	8	dobj	_	gloss=Jesus|Number=Sing
+10	,	,	PUNCT	_	_	_	_	_
+11	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+12	diambilnyalah	diambilnyalah	NOUN	_	_	_	pobj	_	gloss=piece|Number=Sing
+13	segala	segala	DET	_	_	_	_	_	gloss=all
+14	pakaiannya	pakaiannya	NOUN	_	_	_	_	_	gloss=clothing
+15	,	,	PUNCT	_	_	_	_	_
+16	lalu	lalu	ADV	_	_	_	_	_	gloss=slipped
+17	dibahagikannya	dibahagikannya	NOUN	_	_	_	pobj	_	gloss=bottom|Number=Sing
+18	itu	itu	DET	_	_	19	det	_	gloss=the|Definite=Def|PronType=Art
+19	empat	empat	NUM	_	_	_	pobj	_	gloss=four|NumType=Card
+20	bahagian	bahagian	NOUN	_	Number=Sing	_	_	_	gloss=-third
+21	,	,	PUNCT	_	_	_	_	_
+22	iya	iya	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	_	_	_	_	gloss=he
+23	itu	itu	DET	_	_	19	det	_	gloss=the|Definite=Def|PronType=Art
+24	pada	pada	ADP	_	_	_	_	_	gloss=guilty
+25	seorang	seorang	NUM	_	_	12	nummod	_	gloss=one|NumType=Card
+26	satu	satu	NUM	NumType=Card|Number=Sing	_	_	_	_	gloss=ag
+27	bahagian	bahagian	NOUN	_	Number=Sing	_	_	_	gloss=-third
+28	,	,	PUNCT	_	_	_	_	_
+29	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+30	bajunya	bajunya	NOUN	_	_	_	dobj	_	gloss=robe|Number=Sing
+31	pun	pun	PART	_	_	_	_	_	gloss=or
+32	demikian	demikian	NOUN	_	Number=Sing	_	_	_	gloss=uel
+33	juga	juga	ADV	_	_	_	_	_	gloss=same
+34	;	;	PUNCT	_	_	_	_	_	gloss=am
+35	adapun	adapun	PART	_	_	_	_	_	gloss=ex
+36	bajunya	bajunya	NOUN	_	_	_	dobj	_	gloss=robe|Number=Sing
+37	itu	itu	DET	_	_	19	det	_	gloss=the|Definite=Def|PronType=Art
+38	tiada	tiada	PART	_	Polarity=Neg	_	_	_	gloss=without
+39	berkelim	berkelim	VERB	_	Voice=Act	_	_	_
+40	,	,	PUNCT	_	_	_	_	_
+41	melainkan	melainkan	VERB	_	Voice=Act	_	_	_	gloss=ot
+42	ditenun	ditenun	VERB	_	Voice=Pass	_	_	_
+43	sahaja	sahaja	None	_	_	_	_	_	gloss=im
+44	dari	dari	ADP	_	_	_	_	_	gloss=t
+45	atas	atas	NOUN	_	Number=Sing	_	_	_	gloss=scoff
+46	sampai	sampai	ADV	_	_	_	_	_	gloss=corners
+47	kebawah	kebawah	ADJ	_	NumType=Ord	_	_	_	gloss=ided
+48	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 43020012
+# ref_id = John 20:12
+# eng_text = and she saw two angels in white sitting , one at the head , and one at the feet , where the body of Jesus had lain .
+# zsm_text = Maka tiba tiba dilihatnya malaikat dua orang memakie pakaian puteh , duduk seorang ara kepala , dan seorang ara kaki ditempat diletakkan mayat Isa itu .
+1	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+2	tiba	tiba	None	_	_	_	_	_	gloss=to
+3	tiba	tiba	None	_	_	_	_	_	gloss=to
+4	dilihatnya	dilihatnya	VERB	_	Voice=Pass	_	_	_	gloss=ds
+5	malaikat	malaikat	VERB	_	Voice=Act	_	_	_	gloss=angel
+6	dua	dua	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+7	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+8	memakie	memakie	VERB	_	Voice=Act	_	_	_	gloss=white-robed
+9	pakaian	pakaian	NOUN	_	Number=Sing	_	_	_	gloss=appoint
+10	puteh	puteh	None	_	_	_	_	_	gloss=white-robed
+11	,	,	PUNCT	_	_	_	_	_
+12	duduk	duduk	VERB	_	_	13	acl	_	gloss=sitting|Aspect=Prog|Tense=Pres|VerbForm=Part
+13	seorang	seorang	NUM	_	_	_	appos	_	gloss=one|NumType=Card
+14	ara	ara	None	_	_	_	_	_	gloss=fig
+15	kepala	kepala	ADJ	_	NumType=Ord	_	_	_	gloss=leading
+16	,	,	PUNCT	_	_	_	_	_
+17	dan	dan	CCONJ	_	_	_	_	_	gloss=ind
+18	seorang	seorang	NUM	_	_	_	appos	_	gloss=one|NumType=Card
+19	ara	ara	None	_	_	_	_	_	gloss=fig
+20	kaki	kaki	NOUN	_	_	_	pobj	_	gloss=foot|Number=Sing
+21	ditempat	ditempat	SCONJ	_	_	_	advmod	_	gloss=where
+22	diletakkan	diletakkan	VERB	_	Voice=Pass	_	_	_	gloss=vast
+23	mayat	mayat	NOUN	_	Number=Sing	_	_	_	gloss=are
+24	Isa	isa	PROPN	_	_	_	pobj	_	gloss=Jesus|Number=Sing
+25	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+26	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 44001010
+# ref_id = Acts 1:10
+# eng_text = While they were looking steadfastly into the sky as he went , behold , two men stood by them in white clothing ,
+# zsm_text = Maka apabila mereka itu merenung renung kelangit antara iya diangkatkan itu , hieran , sekunyong kunyong maka adalah dua orang terdiri disisi mereka itu dengan memakie pakaian puteh ,
+1	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+2	apabila	apabila	SCONJ	_	_	_	_	_	gloss=When
+3	mereka	mereka	PRON	Number=Plur|Person=3|PronType=Prs|Poss=Yes	_	_	_	_	gloss=They
+4	itu	itu	DET	Definite=Def|PronType=Art	_	_	_	_	gloss=the
+5	merenung	merenung	VERB	_	Voice=Act	_	_	_
+6	renung	renung	None	_	_	_	_	_	gloss=wild
+7	kelangit	kelangit	ADJ	_	NumType=Ord	_	_	_
+8	antara	antara	None	_	_	_	_	_	gloss=rebuke
+9	iya	iya	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	_	_	_	_	gloss=he
+10	diangkatkan	diangkatkan	VERB	_	Voice=Pass	_	_	_	gloss=witness
+11	itu	itu	DET	Definite=Def|PronType=Art	_	_	_	_	gloss=the
+12	,	,	PUNCT	_	_	_	_	_
+13	hieran	hieran	NOUN	_	Number=Sing	_	_	_	gloss=gra
+14	,	,	PUNCT	_	_	_	_	_
+15	sekunyong	sekunyong	ADJ	_	_	_	_	_
+16	kunyong	kunyong	None	_	_	_	_	_
+17	maka	maka	SCONJ	_	_	_	mark	_	gloss=As
+18	adalah	adalah	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_	gloss=There
+19	dua	dua	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+20	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+21	terdiri	terdiri	ADV	_	_	_	advmod	_	gloss=suddenly
+22	disisi	disisi	VERB	_	Voice=Pass	_	_	_	gloss=reg
+23	mereka	mereka	PRON	Number=Plur|Person=3|PronType=Prs|Poss=Yes	_	_	_	_	gloss=They
+24	itu	itu	DET	Definite=Def|PronType=Art	_	_	_	_	gloss=the
+25	dengan	dengan	ADP	_	_	_	_	_	gloss=ius
+26	memakie	memakie	VERB	_	Voice=Act	_	_	_	gloss=white-robed
+27	pakaian	pakaian	NOUN	_	Number=Sing	_	_	_	gloss=appoint
+28	puteh	puteh	None	_	_	_	_	_	gloss=white-robed
+29	,	,	PUNCT	_	_	_	_	_
+
+# sent_id = 44004004
+# ref_id = Acts 4:4
+# eng_text = But many of those who heard the word believed , and the number of the men came to be about five thousand .
+# zsm_text = Akan tetapi banyak orang yang akan mendengar perkataan itu perchayalah iya ; adalah bilangan segala orang yang perchaya itu , kira kira lima ribu orang banyaknya .
+1	Akan	akan	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	_	_	_	_	gloss=sh
+2	tetapi	tetapi	CCONJ	_	_	_	_	_	gloss=but
+3	banyak	banyak	ADJ	_	_	_	nsubj	_	gloss=many|Degree=Pos
+4	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+5	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+6	akan	akan	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	_	_	_	_	gloss=will
+7	mendengar	mendengar	VERB	_	Voice=Act	_	_	_	gloss=hear
+8	perkataan	perkataan	NOUN	_	Number=Sing	_	_	_	gloss=words
+9	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+10	perchayalah	perchayalah	NOUN	_	Number=Sing	_	_	_	gloss=Jairus
+11	iya	iya	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	_	_	_	_	gloss=he
+12	;	;	PUNCT	_	_	_	_	_	gloss=am
+13	adalah	adalah	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_	gloss=There
+14	bilangan	bilangan	ADJ	_	_	_	_	_	gloss=count
+15	segala	segala	DET	_	_	_	_	_	gloss=all
+16	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+17	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+18	perchaya	perchaya	NOUN	_	Number=Sing	_	_	_	gloss=believe
+19	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+20	,	,	PUNCT	_	_	_	_	_
+21	kira	kira	NOUN	_	_	_	_	_	gloss=account
+22	kira	kira	NOUN	_	_	_	_	_	gloss=account
+23	lima	lima	None	_	_	_	_	_	gloss=five
+24	ribu	ribu	NUM	_	_	_	nummod	_	gloss=5,000|NumType=Card
+25	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+26	banyaknya	banyaknya	NUM	_	_	_	nummod	_	gloss=5,000|NumType=Card
+27	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 44007029
+# ref_id = Acts 7:29
+# eng_text = Moses fled at this saying , and became an alien in the land of Midian , where he became the father of two sons .
+# zsm_text = Maka Musa larilah sebab mendengar perkataan itu , maka jadilah iya seorang dagang di negeri Median , maka disanalah dipranakannya dua orang anak laki laki .
+1	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+2	Musa	musa	PROPN	_	_	_	nsubj	_	gloss=Moses|Number=Sing
+3	larilah	larilah	VERB	_	_	0	root	_	gloss=fled|Tense=Past|VerbForm=Fin
+4	sebab	sebab	SCONJ	_	_	_	_	_	gloss=shame
+5	mendengar	mendengar	VERB	_	Voice=Act	_	_	_	gloss=hear
+6	perkataan	perkataan	NOUN	_	Number=Sing	_	_	_	gloss=words
+7	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+8	,	,	PUNCT	_	_	_	_	_
+9	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+10	jadilah	jadilah	ADJ	_	_	_	_	_	gloss=produced
+11	iya	iya	PRON	_	_	18	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+12	seorang	seorang	ADJ	_	_	_	_	_	gloss=one
+13	dagang	dagang	ADJ	_	_	_	_	_	gloss=ian
+14	dinegeri	dinegeri	NOUN	_	Voice=Pass	_	_	_	gloss=aby
+15	Median	median	None	_	_	_	_	_
+16	,	,	PUNCT	_	_	_	_	_
+17	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+18	disanalah	disanalah	VERB	_	_	0	root	_	gloss=fled|Tense=Past|VerbForm=Fin
+19	dipranakannya	dipranakannya	VERB	_	Voice=Pass	_	_	_
+20	dua	dua	NUM	_	_	23	nummod	_	gloss=two|NumType=Card
+21	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+22	anak	anak	NOUN	Number=Sing	_	_	_	_	gloss=Son
+23	laki	laki	NOUN	_	_	_	nsubjpass	_	gloss=sons|Number=Plur
+24	laki	laki	NOUN	_	_	_	nsubjpass	_	gloss=sons|Number=Plur
+25	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 44007036
+# ref_id = Acts 7:36
+# eng_text = This man led them forth , having worked wonders and signs in Egypt , in the Red Sea , and in the wilderness forty years .
+# zsm_text = Iya itulah yang mengluarkan mereka itu , kemudian daripada diadakannya beberapa mujizat dan ajaib dibanua Masir , dan dalam laut Kalzom , dan dalam padang Tiah empat puluh tahun lamanya .
+1	Iya	iya	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	_	_	_	_	gloss=prince
+2	itulah	itulah	ADJ	_	_	_	_	_	gloss=ff
+3	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+4	mengluarkan	mengluarkan	PROPN	_	_	_	pobj	_	gloss=Egypt|Number=Sing
+5	mereka	mereka	PRON	Number=Plur|Person=3|PronType=Prs|Poss=Yes	_	_	_	_	gloss=They
+6	itu	itu	DET	_	_	25	det	_	gloss=the|Definite=Def|PronType=Art
+7	,	,	PUNCT	_	_	_	_	_
+8	kemudian	kemudian	NOUN	_	Number=Sing	_	_	_	gloss=ant
+9	daripada	daripada	ADP	_	_	_	_	_	gloss=than
+10	diadakannya	diadakannya	VERB	_	Voice=Pass	_	_	_	gloss=Here
+11	beberapa	beberapa	NOUN	_	_	14	conj	_	gloss=signs|Number=Plur
+12	mujizat	mujizat	ADJ	_	_	11	amod	_	gloss=miraculous|Degree=Pos
+13	dan	dan	CCONJ	_	_	_	_	_	gloss=ind
+14	ajaib	ajaib	NOUN	_	_	_	pobj	_	gloss=wonders|Number=Plur
+15	dibanua	dibanua	VERB	_	Voice=Pass	_	_	_
+16	Masir	masir	None	_	_	_	_	_	gloss=Egyptian
+17	,	,	PUNCT	_	_	_	_	_
+18	dan	dan	CCONJ	_	_	_	_	_	gloss=ind
+19	dalam	dalam	ADP	_	_	_	_	_	gloss=ci
+20	laut	laut	None	_	_	_	_	_	gloss=sea
+21	Kalzom	kalzom	None	_	_	_	_	_
+22	,	,	PUNCT	_	_	_	_	_
+23	dan	dan	CCONJ	_	_	_	_	_	gloss=ind
+24	dalam	dalam	ADP	_	_	_	_	_	gloss=ci
+25	padang	padang	NOUN	_	_	_	pobj	_	gloss=wilderness|Number=Sing
+26	Tiah	tiah	ADJ	_	_	_	_	_
+27	empat	empat	NUM	NumType=Card|Number=Sing	_	_	_	_	gloss=four
+28	puluh	puluh	DET	Number=Sing	_	_	_	_	gloss=sev
+29	tahun	tahun	NOUN	_	_	_	pobj	_	gloss=years|Number=Plur
+30	lamanya	lamanya	ADJ	_	_	_	_	_	gloss=ures
+31	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 44009033
+# ref_id = Acts 9:33
+# eng_text = There he found a certain man named Aeneas , who had been bedridden for eight years , because he was paralyzed .
+# zsm_text = Maka disanalah iya mendapat akan seorang yang bernama Enias , iya itu telah terhantar diatas katilnya delapan tahun lamanya dengan sakit tepok .
+1	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+2	disanalah	disanalah	VERB	_	Voice=Pass	_	_	_	gloss=fled
+3	iya	iya	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+4	mendapat	mendapat	VERB	_	Voice=Act	_	_	_	gloss=find
+5	akan	akan	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	_	_	_	_	gloss=will
+6	seorang	seorang	ADJ	_	_	_	_	_	gloss=one
+7	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+8	bernama	bernama	VERB	_	Voice=Act	_	_	_	gloss=Skull
+9	Enias	enias	PROPN	_	_	_	oprd	_	gloss=Aeneas|Number=Sing
+10	,	,	PUNCT	_	_	_	_	_
+11	iya	iya	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+12	itu	itu	DET	Definite=Def|PronType=Art	_	_	_	_	gloss=the
+13	telah	telah	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_	gloss=has
+14	terhantar	terhantar	VERB	_	Voice=Pass	_	_	_	gloss=bed
+15	diatas	diatas	VERB	_	Voice=Pass	_	_	_	gloss=on
+16	katilnya	katilnya	None	_	_	_	_	_	gloss=den
+17	delapan	delapan	NUM	_	_	18	nummod	_	gloss=eight|NumType=Card
+18	tahun	tahun	NOUN	_	_	_	pobj	_	gloss=years|Number=Plur
+19	lamanya	lamanya	ADJ	_	_	_	_	_	gloss=ures
+20	dengan	dengan	ADP	_	_	_	_	_	gloss=ius
+21	sakit	sakit	None	_	_	_	_	_	gloss=sick
+22	tepok	tepok	ADJ	_	_	_	relcl	_	gloss=paralyzed|Degree=Pos
+23	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 44010003
+# ref_id = Acts 10:3
+# eng_text = At about the ninth hour of the day , he clearly saw in a vision an angel of God coming to him , and saying to him , " Cornelius ! "
+# zsm_text = Maka ada kira kira pada jam pukol tiga petang , dalam khial dilihatnya dengan nyatanya akan seorang malaikat Allah datang kepadanya , lalu berkata , Kornelius ,
+1	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+2	ada	ada	AUX	_	_	_	_	_	gloss=even
+3	kira	kira	NOUN	_	_	_	_	_	gloss=account
+4	kira	kira	NOUN	_	_	_	_	_	gloss=account
+5	pada	pada	ADP	_	_	_	_	_	gloss=guilty
+6	jam	jam	NOUN	_	_	_	_	_	gloss=hour
+7	pukol	pukol	NOUN	_	_	_	appos	_	gloss=o’clock|Number=Sing
+8	tiga	tiga	NUM	_	_	9	nummod	_	gloss=three|NumType=Card
+9	petang	petang	NOUN	_	_	_	appos	_	gloss=o’clock|Number=Sing
+10	,	,	PUNCT	_	_	_	_	_
+11	dalam	dalam	ADP	_	_	_	_	_	gloss=ci
+12	khial	khial	NOUN	_	Number=Sing	_	_	_
+13	dilihatnya	dilihatnya	VERB	_	Voice=Pass	_	_	_	gloss=ds
+14	dengan	dengan	ADP	_	_	_	_	_	gloss=ius
+15	nyatanya	nyatanya	None	_	_	_	_	_
+16	akan	akan	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	_	_	_	_	gloss=will
+17	seorang	seorang	ADJ	_	_	_	_	_	gloss=one
+18	malaikat	malaikat	NOUN	_	_	_	nsubj	_	gloss=angel|Number=Sing
+19	Allah	allah	PROPN	_	_	_	pobj	_	gloss=God|Number=Sing
+20	datang	datang	VERB	_	_	_	ccomp	_	gloss=coming|Aspect=Prog|Tense=Pres|VerbForm=Part
+21	kepadanya	kepadanya	ADP-NOUN	_	_	_	_	_	gloss=discovered
+22	,	,	PUNCT	_	_	_	_	_
+23	lalu	lalu	ADV	_	_	_	_	_	gloss=slipped
+24	berkata	berkata	VERB	_	Voice=Act	_	_	_	gloss=ered
+25	,	,	PUNCT	_	_	_	_	_
+26	Kornelius	kornelius	PROPN	_	_	0	root	_	gloss=Cornelius|Number=Sing
+27	,	,	PUNCT	_	_	_	_	_
+
+# sent_id = 44010007
+# ref_id = Acts 10:7
+# eng_text = When the angel who spoke to him had departed , Cornelius called two of his household servants , and a devout soldier of those who waited on him continually .
+# zsm_text = Adapun setelah sudah undorlah malaikat yang berkata kata kepada Kornelius , maka dipanggilnyalah dua orang hambanya yang dirumahnya , serta dengan seorang lashkar yang berbakti dari antara orang yang mengawali akan dia sentiasa .
+1	Adapun	adapun	PART	_	_	_	_	_	gloss=run
+2	setelah	setelah	ADJ	_	_	_	_	_	gloss=i
+3	sudah	sudah	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_	gloss=After
+4	undorlah	undorlah	ADJ	_	_	_	_	_	gloss=att
+5	malaikat	malaikat	NOUN	_	_	_	nsubjpass	_	gloss=angel|Number=Sing
+6	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+7	berkata	berkata	VERB	_	Voice=Act	_	_	_	gloss=ered
+8	kata	kata	VERB	_	_	_	_	_	gloss=spoken
+9	kepada	kepada	ADP	_	_	_	_	_	gloss=to
+10	Kornelius	kornelius	PROPN	_	_	_	nsubj	_	gloss=Cornelius|Number=Sing
+11	,	,	PUNCT	_	_	_	_	_
+12	maka	maka	ADV	_	_	_	advmod	_	gloss=As
+13	dipanggilnyalah	dipanggilnyalah	VERB	_	Voice=Pass	_	_	_	gloss=arrives
+14	dua	dua	NUM	_	_	_	dobj	_	gloss=two|NumType=Card
+15	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+16	hambanya	hambanya	NOUN	_	_	_	pobj	_	gloss=servants|Number=Plur
+17	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+18	dirumahnya	dirumahnya	VERB	_	Voice=Pass	_	_	_	gloss=oper
+19	,	,	PUNCT	_	_	_	_	_
+20	serta	serta	ADJ	_	_	_	_	_	gloss=awhile
+21	dengan	dengan	ADP	_	_	_	_	_	gloss=ius
+22	seorang	seorang	NUM	_	_	_	appos	_	gloss=one|NumType=Card
+23	lashkar	lashkar	None	_	_	_	_	_	gloss=soldiers
+24	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+25	berbakti	berbakti	VERB	_	Voice=Act	_	_	_	gloss=Tit
+26	dari	dari	ADP	_	_	_	_	_	gloss=t
+27	antara	antara	None	_	_	_	_	_
+28	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+29	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+30	mengawali	mengawali	VERB	_	Voice=Act	_	_	_
+31	akan	akan	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	_	_	_	_	gloss=will
+32	dia	dia	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	_	_	_	_	gloss=him
+33	sentiasa	sentiasa	ADJ	_	_	_	amod	_	gloss=devout|Degree=Pos
+34	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 44010011
+# ref_id = Acts 10:11
+# eng_text = He saw heaven opened , and a certain container descending to him , like a great sheet , let down by four corners on the earth ,
+# zsm_text = Maka dilihatlah langit terbuka , lalu turunlah kepadanya suatu benda seperti sah’lie selimut yang besar yang terpanjut pada empat puncanya , maka terhulurlah iya sampai kebumi .
+1	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+2	dilihatlah	dilihatlah	VERB	_	Voice=Pass	_	_	_
+3	langit	langit	NOUN	_	_	4	nsubj	_	gloss=sky|Number=Sing
+4	terbuka	terbuka	ADJ	_	_	_	ccomp	_	gloss=open|Degree=Pos
+5	,	,	PUNCT	_	_	_	_	_
+6	lalu	lalu	ADV	_	_	_	_	_	gloss=slipped
+7	turunlah	turunlah	ADJ	_	_	_	_	_	gloss=fierce
+8	kepadanya	kepadanya	ADP-NOUN	_	_	_	_	_	gloss=discovered
+9	suatu	suatu	PRON	_	_	_	_	_
+10	benda	benda	None	_	_	_	_	_	gloss=gu
+11	seperti	seperti	ADP	_	_	_	prep	_	gloss=like
+12	sah’lie	sah’lie	None	_	_	_	_	_
+13	selimut	selimut	None	_	_	_	_	_
+14	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+15	besar	besar	None	_	_	_	_	_	gloss=high
+16	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+17	terpanjut	terpanjut	VERB	_	Voice=Pass	_	_	_
+18	pada	pada	ADP	_	_	_	_	_	gloss=guilty
+19	empat	empat	NUM	_	_	25	nummod	_	gloss=four|NumType=Card
+20	puncanya	puncanya	None	_	_	_	_	_
+21	,	,	PUNCT	_	_	_	_	_
+22	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+23	terhulurlah	terhulurlah	VERB	_	Voice=Pass	_	_	_
+24	iya	iya	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	_	_	_	_	gloss=he
+25	sampai	sampai	NOUN	_	_	_	pobj	_	gloss=corners|Number=Plur
+26	kebumi	kebumi	VERB	_	Mood=Imp	_	_	_	gloss=ther
+27	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 44017002
+# ref_id = Acts 17:2
+# eng_text = Paul , as was his custom , went in to them , and for three Sabbath days reasoned with them from the Scriptures ,
+# zsm_text = Maka masuklah Paulus kepada mereka itu seperti adatnya , maka adalah tiga sabtu lamanya iya bercakap cakap dengan mereka itu akan perkataan kitab ;
+1	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+2	masuklah	masuklah	ADJ	_	_	_	_	_	gloss=entered
+3	Paulus	paulus	PROPN	_	_	8	poss	_	gloss=Paul|Number=Sing
+4	kepada	kepada	PART	_	_	_	aux	_	gloss=to
+5	mereka	mereka	PRON	Number=Plur|Person=3|PronType=Prs|Poss=Yes	_	_	_	_	gloss=They
+6	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+7	seperti	seperti	VERB	_	Mood=Imp	_	_	_	gloss=like
+8	adatnya	adatnya	NOUN	_	_	_	nsubj	_	gloss=custom|Number=Sing
+9	,	,	PUNCT	_	_	_	_	_
+10	maka	maka	SCONJ	_	_	_	mark	_	gloss=As
+11	adalah	adalah	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_	gloss=There
+12	tiga	tiga	NUM	_	_	_	nummod	_	gloss=three|NumType=Card
+13	sabtu	sabtu	PROPN	_	_	_	_	_	gloss=Sabbath
+14	lamanya	lamanya	ADJ	_	_	_	_	_	gloss=ures
+15	iya	iya	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+16	bercakap	bercakap	VERB	_	Voice=Act	_	_	_	gloss=sed
+17	cakap	cakap	None	_	_	_	_	_
+18	dengan	dengan	ADP	_	_	_	_	_	gloss=ius
+19	mereka	mereka	PRON	Number=Plur|Person=3|PronType=Prs|Poss=Yes	_	_	_	_	gloss=They
+20	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+21	akan	akan	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	_	_	_	_	gloss=will
+22	perkataan	perkataan	NOUN	_	Number=Sing	_	_	_	gloss=words
+23	kitab	kitab	NOUN	_	_	_	_	_	gloss=scroll
+24	;	;	PUNCT	_	_	_	_	_	gloss=am
+
+# sent_id = 44019008
+# ref_id = Acts 19:8
+# eng_text = He entered into the synagogue , and spoke boldly for a period of three months , reasoning and persuading about the things concerning the kingdom of God .
+# zsm_text = Maka Paulus pun masuklah kedalam kenisa , serta mengajar dengan beraninya , sambil berbantah , dan memujuk mereka itu tiga bulan lamanya darihal perkara kerajaan Allah .
+1	Maka	maka	ADV	_	_	_	advmod	_	gloss=Then|PronType=Dem
+2	Paulus	paulus	PROPN	_	_	_	nsubj	_	gloss=Paul|Number=Sing
+3	pun	pun	PART	_	_	_	_	_	gloss=or
+4	masuklah	masuklah	ADJ	_	_	_	_	_	gloss=entered
+5	kedalam	kedalam	ADJ	_	NumType=Ord	_	_	_	gloss=making
+6	kenisa	kenisa	NOUN	_	_	_	pobj	_	gloss=synagogue|Number=Sing
+7	,	,	PUNCT	_	_	_	_	_
+8	serta	serta	ADJ	_	_	_	_	_	gloss=awhile
+9	mengajar	mengajar	VERB	_	Voice=Act	_	_	_	gloss=prophesying
+10	dengan	dengan	ADP	_	_	_	_	_	gloss=ius
+11	beraninya	beraninya	VERB	_	Voice=Act	_	_	_
+12	,	,	PUNCT	_	_	_	_	_
+13	sambil	sambil	SCONJ	_	_	_	_	_	gloss=s
+14	berbantah	berbantah	VERB	_	_	_	advcl	_	gloss=arguing|Aspect=Prog|Tense=Pres|VerbForm=Part
+15	,	,	PUNCT	_	_	_	_	_
+16	dan	dan	CCONJ	_	_	_	_	_	gloss=ind
+17	memujuk	memujuk	VERB	_	Voice=Act	_	_	_	gloss=persu
+18	mereka	mereka	PRON	Number=Plur|Person=3|PronType=Prs|Poss=Yes	_	_	_	_	gloss=They
+19	itu	itu	DET	_	_	25	det	_	gloss=the|Definite=Def|PronType=Art
+20	tiga	tiga	NUM	_	_	21	nummod	_	gloss=three|NumType=Card
+21	bulan	bulan	NOUN	_	_	_	pobj	_	gloss=months|Number=Plur
+22	lamanya	lamanya	ADJ	_	_	_	_	_	gloss=ures
+23	darihal	darihal	ADP	_	_	14	prep	_	gloss=about
+24	perkara	perkara	NOUN	_	Number=Sing	_	_	_	gloss=things
+25	kerajaan	kerajaan	PROPN	_	_	23	pobj	_	gloss=Kingdom|Number=Sing
+26	Allah	allah	PROPN	_	_	_	pobj	_	gloss=God|Number=Sing
+27	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 44019010
+# ref_id = Acts 19:10
+# eng_text = This continued for the space of two years , so that all those who lived in Asia heard the word of the Lord Jesus , both Jews and Greeks .
+# zsm_text = Maka selalulah dengan hal yang demikian dua tahun lamanya , sehingga segala orang yang diam diAsia pun mendengar darihal perkataan Tuhan Isa , baik orang orang Yahudi , baik orang Grika .
+1	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+2	selalulah	selalulah	ADJ	_	_	_	_	_
+3	dengan	dengan	ADP	_	_	_	_	_	gloss=ius
+4	hal	hal	NOUN	_	Number=Sing	_	_	_	gloss=ard
+5	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+6	demikian	demikian	NOUN	_	Number=Sing	_	_	_	gloss=uel
+7	dua	dua	NUM	_	_	8	nummod	_	gloss=two|NumType=Card
+8	tahun	tahun	NOUN	_	_	_	pobj	_	gloss=years|Number=Plur
+9	lamanya	lamanya	ADJ	_	_	_	_	_	gloss=ures
+10	,	,	PUNCT	_	_	_	_	_
+11	sehingga	sehingga	SCONJ	_	_	_	_	_	gloss=oth
+12	segala	segala	DET	_	_	_	_	_	gloss=all
+13	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+14	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+15	diam	diam	VERB	_	Voice=Pass	_	_	_	gloss=yelled
+16	diAsia	diasia	VERB	_	Voice=Pass	_	_	_
+17	pun	pun	PART	_	_	_	_	_	gloss=or
+18	mendengar	mendengar	VERB	_	Voice=Act	_	_	_	gloss=hear
+19	darihal	darihal	NOUN	_	Number=Sing	_	_	_	gloss=about
+20	perkataan	perkataan	NOUN	_	Number=Sing	_	_	_	gloss=words
+21	Tuhan	tuhan	PROPN	_	_	_	pobj	_	gloss=Lord|Number=Sing
+22	Isa	isa	PROPN	_	_	_	_	_	gloss=Jesus
+23	,	,	PUNCT	_	_	_	_	_
+24	baik	baik	NOUN	_	Number=Sing	_	_	_	gloss=good
+25	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+26	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+27	Yahudi	yahudi	PROPN	_	Mood=Imp	_	_	_	gloss=Jewish
+28	,	,	PUNCT	_	_	_	_	_
+29	baik	baik	NOUN	_	Number=Sing	_	_	_	gloss=good
+30	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+31	Grika	grika	PROPN	_	_	_	_	_	gloss=oth
+32	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 44023017
+# ref_id = Acts 23:17
+# eng_text = Paul summoned one of the centurions , and said , " Bring this young man to the commanding officer , for he has something to tell him . "
+# zsm_text = Seketika itu dipanggillah oleh Paulus seorang penghulu orang seratus , lalu katanya , Bawa orang muda ini kepada penghulu orang seribu , kerana ada kepadanya suatu khabar hendak disampaikannya itu kepadanya .
+1	Seketika	Seketika	ADV	_	_	_	_	_
+2	itu	itu	DET	_	_	21	det	_	gloss=the|Definite=Def|PronType=Art
+3	dipanggillah	dipanggillah	VERB	_	Voice=Pass	_	_	_	gloss=offic
+4	oleh	oleh	ADP	_	_	_	_	_	gloss=ation
+5	Paulus	paulus	PROPN	_	_	_	nsubj	_	gloss=Paul|Number=Sing
+6	seorang	seorang	NUM	_	_	_	pobj	_	gloss=one|NumType=Card
+7	penghulu	penghulu	NOUN	_	Number=Sing	_	_	_	gloss=captain
+8	orang	orang	NOUN	_	_	_	dobj	_	gloss=man|Number=Sing
+9	seratus	seratus	ADJ	_	_	_	amod	_	gloss=Roman|Degree=Pos
+10	,	,	PUNCT	_	_	_	_	_
+11	lalu	lalu	ADV	_	_	_	_	_	gloss=slipped
+12	katanya	katanya	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+13	,	,	PUNCT	_	_	_	_	_
+14	Bawa	bawa	None	_	_	_	_	_
+15	orang	orang	NOUN	_	_	_	dobj	_	gloss=man|Number=Sing
+16	muda	muda	ADJ	_	_	15	amod	_	gloss=young|Degree=Pos
+17	ini	ini	DET	_	_	15	det	_	gloss=this|Number=Sing|PronType=Dem
+18	kepada	kepada	PART	_	_	_	aux	_	gloss=to
+19	penghulu	penghulu	NOUN	_	Number=Sing	_	_	_	gloss=captain
+20	orang	orang	NOUN	_	_	_	dobj	_	gloss=man|Number=Sing
+21	seribu	seribu	NOUN	_	_	18	pobj	_	gloss=commander|Number=Sing
+22	,	,	PUNCT	_	_	_	_	_
+23	kerana	kerana	SCONJ	_	_	_	_	_	gloss=because
+24	ada	ada	AUX	_	_	_	_	_	gloss=even
+25	kepadanya	kepadanya	ADP-NOUN	_	_	_	_	_	gloss=discovered
+26	suatu	suatu	PRON	_	_	_	_	_
+27	khabar	khabar	NOUN	_	_	_	_	_	gloss=news
+28	hendak	hendak	AUX	_	_	_	_	_	gloss=gr
+29	disampaikannya	disampaikannya	VERB	_	Voice=Pass	_	_	_	gloss=branch
+30	itu	itu	DET	_	_	21	det	_	gloss=the|Definite=Def|PronType=Art
+31	kepadanya	kepadanya	ADP-NOUN	_	_	_	_	_	gloss=discovered
+32	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 44024021
+# ref_id = Acts 24:21
+# eng_text = unless it is for this one thing that I cried standing among them , ' Concerning the resurrection of the dead I am being judged before you today ! ' "
+# zsm_text = Hanya dari sebab perkataan yang telah kukatakan tatkala aku berdiri diantara mereka itu mengatakan , bahawa darihal orang yang mati itu akan dibangkitkan pula , aku didakwa oleh kamu pada hari ini .
+1	Hanya	hanya	None	_	_	_	_	_	gloss=Judge
+2	dari	dari	ADP	_	_	_	_	_	gloss=t
+3	sebab	sebab	SCONJ	_	_	_	_	_	gloss=shame
+4	perkataan	perkataan	NOUN	_	Number=Sing	_	_	_	gloss=words
+5	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+6	telah	telah	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_	gloss=has
+7	kukatakan	kukatakan	VERB	_	Number=Sing	_	_	_	gloss=Ask
+8	tatkala	tatkala	None	_	_	_	_	_	gloss=tr
+9	aku	aku	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+10	berdiri	berdiri	VERB	_	Voice=Act	_	_	_	gloss=standing
+11	diantara	diantara	ADP	_	_	_	_	_	gloss=among
+12	mereka	mereka	PRON	Number=Plur|Person=3|PronType=Prs|Poss=Yes	_	_	_	_	gloss=They
+13	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+14	mengatakan	mengatakan	VERB	_	Voice=Act	_	_	_	gloss=Could
+15	,	,	PUNCT	_	_	_	_	_
+16	bahawa	bahawa	SCONJ	_	_	_	_	_	gloss=wasn’t
+17	darihal	darihal	NOUN	_	Number=Sing	_	_	_	gloss=about
+18	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+19	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+20	mati	mati	VERB	_	Mood=Imp	_	_	_	gloss=die
+21	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+22	akan	akan	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	_	_	_	_	gloss=will
+23	dibangkitkan	dibangkitkan	VERB	_	Voice=Pass	_	_	_	gloss=ince
+24	pula	pula	ADV	_	_	_	_	_	gloss=planted
+25	,	,	PUNCT	_	_	_	_	_
+26	aku	aku	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+27	didakwa	didakwa	VERB	_	Voice=Pass	_	_	_	gloss=char
+28	oleh	oleh	ADP	_	_	_	_	_	gloss=ation
+29	kamu	kamu	PRON	_	_	_	pobj	_	gloss=you|Case=Acc|Person=2|PronType=Prs
+30	pada	pada	ADP	_	_	_	_	_	gloss=guilty
+31	hari	hari	VERB	_	Mood=Imp	_	_	_	gloss=days
+32	ini	ini	DET	Demonstrative=Prox|PronType=Dem	_	_	_	_	gloss=this
+33	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 46008004
+# ref_id = 1 Corinthians 8:4
+# eng_text = Therefore concerning the eating of things sacrificed to idols , we know that no idol is anything in the world , and that there is no other God but one .
+# zsm_text = Adapun sebab itu darihal memakan barang yang telah dipersembahkan kepada berhala itu , maka kita mengatahui , adapun berhala itu satu pun tidak dalam dunia ini , dan tiada sesuatu Allah yang lain melainkan asa adanya .
+1	Adapun	adapun	PART	_	_	_	_	_	gloss=run
+2	sebab	sebab	SCONJ	_	_	_	_	_	gloss=shame
+3	itu	itu	DET	Definite=Def|PronType=Art	_	_	_	_	gloss=the
+4	darihal	darihal	ADP	_	_	0	root	_	gloss=about
+5	memakan	memakan	VERB	_	Voice=Act	_	_	_	gloss=dogs
+6	barang	barang	DET	_	_	_	_	_	gloss=tells
+7	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+8	telah	telah	AUX	_	_	9	aux	_	gloss=has|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+9	dipersembahkan	dipersembahkan	VERB	_	_	_	relcl	_	gloss=offered|Aspect=Perf|Tense=Past|VerbForm=Part
+10	kepada	kepada	ADP	_	_	9	dative	_	gloss=to
+11	berhala	berhala	NOUN	_	_	_	nsubj	_	gloss=idol|Number=Sing
+12	itu	itu	DET	Definite=Def|PronType=Art	_	_	_	_	gloss=the
+13	,	,	PUNCT	_	_	_	_	_
+14	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+15	kita	kita	None	_	_	_	_	_	gloss=Let’s
+16	mengatahui	mengatahui	VERB	_	Voice=Act	_	_	_	gloss=contr
+17	,	,	PUNCT	_	_	_	_	_
+18	adapun	adapun	PART	_	_	_	_	_	gloss=ex
+19	berhala	berhala	NOUN	_	_	_	nsubj	_	gloss=idol|Number=Sing
+20	itu	itu	DET	Definite=Def|PronType=Art	_	_	_	_	gloss=the
+21	satu	satu	NUM	NumType=Card|Number=Sing	_	_	_	_	gloss=ag
+22	pun	pun	PART	_	_	_	_	_	gloss=or
+23	tidak	tidak	None	_	_	_	_	_	gloss=whether
+24	dalam	dalam	ADP	_	_	_	_	_	gloss=ci
+25	dunia	dunia	NOUN	Number=Sing	_	_	_	_	gloss=world
+26	ini	ini	DET	Demonstrative=Prox|PronType=Dem	_	_	_	_	gloss=this
+27	,	,	PUNCT	_	_	_	_	_
+28	dan	dan	CCONJ	_	_	_	_	_	gloss=ind
+29	tiada	tiada	PART	_	Polarity=Neg	_	_	_	gloss=without
+30	sesuatu	sesuatu	ADJ	_	_	_	_	_	gloss=rebellion
+31	Allah	allah	PROPN	_	_	_	attr	_	gloss=God|Number=Sing
+32	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+33	lain	lain	NOUN	_	Number=Sing	_	_	_	gloss=another
+34	melainkan	melainkan	VERB	_	Voice=Act	_	_	_	gloss=ot
+35	asa	asa	INTJ	_	_	_	intj	_	gloss=Well
+36	adanya	adanya	NOUN	_	_	_	_	_	gloss=shown
+37	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 48001018
+# ref_id = Galatians 1:18
+# eng_text = Then after three years I went up to Jerusalem to visit Peter , and stayed with him fifteen days .
+# zsm_text = Setelah kemudian daripada tiga tahun lamanya , pulanglah aku kenegeri Jerusalem sebab hendak bertemu dengan Petros , maka aku pun tinggallah bersama sama dengan dia limabelas hari lamanya .
+1	Setelah	setelah	ADJ	_	_	_	_	_	gloss=omes
+2	kemudian	kemudian	NOUN	_	Number=Sing	_	_	_	gloss=ant
+3	daripada	daripada	ADP	_	_	_	_	_	gloss=than
+4	tiga	tiga	NUM	_	_	5	nummod	_	gloss=three|NumType=Card
+5	tahun	tahun	NOUN	_	_	_	npadvmod	_	gloss=years|Number=Plur
+6	lamanya	lamanya	ADJ	_	_	_	_	_	gloss=ures
+7	,	,	PUNCT	_	_	_	_	_
+8	pulanglah	pulanglah	ADJ	_	_	_	_	_	gloss=teen
+9	aku	aku	PRON	_	_	21	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+10	kenegeri	kenegeri	NOUN	_	Mood=Imp	_	_	_	gloss=country
+11	Jerusalem	jerusalem	PROPN	_	_	_	pobj	_	gloss=Jerusalem|Number=Sing
+12	sebab	sebab	SCONJ	_	_	_	_	_	gloss=shame
+13	hendak	hendak	AUX	_	_	_	_	_	gloss=gr
+14	bertemu	bertemu	VERB	_	Voice=Act	_	_	_	gloss=meet
+15	dengan	dengan	ADP	_	_	_	_	_	gloss=ius
+16	Petros	petros	PROPN	_	_	_	dobj	_	gloss=Peter|Number=Sing
+17	,	,	PUNCT	_	_	_	_	_
+18	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+19	aku	aku	PRON	_	_	21	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+20	pun	pun	PART	_	_	_	_	_	gloss=or
+21	tinggallah	tinggallah	VERB	_	_	_	conj	_	gloss=stayed|Tense=Past|VerbForm=Fin
+22	bersama	bersama	VERB	_	Voice=Act	_	_	_	gloss=together
+23	sama	sama	ADV	_	_	_	_	_	gloss=ents
+24	dengan	dengan	ADP	_	_	_	_	_	gloss=ius
+25	dia	dia	PRON	_	_	_	pobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+26	limabelas	limabelas	None	_	_	_	_	_
+27	hari	hari	NOUN	_	_	_	pobj	_	gloss=days|Number=Plur
+28	lamanya	lamanya	ADJ	_	_	_	_	_	gloss=ures
+29	.	.	PUNCT	_	_	21	punct	_	PunctType=Peri
+
+# sent_id = 48002001
+# ref_id = Galatians 2:1
+# eng_text = Then after a period of fourteen years I went up again to Jerusalem with Barnabas , taking Titus also with me .
+# zsm_text = ADAPUN setelah empatbelas tahun kemudian naiklah pula aku keJerusalem serta dengan Barnabas , sambil kubawa pula Titus bersama sama .
+1	ADAPUN	adapun	NUM	_	_	4	nummod	_	gloss=fourteen|NumType=Card
+2	setelah	setelah	ADJ	_	_	_	_	_	gloss=i
+3	empatbelas	empatbelas	NUM	_	_	4	nummod	_	gloss=fourteen|NumType=Card
+4	tahun	tahun	NOUN	_	_	_	npadvmod	_	gloss=years|Number=Plur
+5	kemudian	kemudian	NOUN	_	Number=Sing	_	_	_	gloss=ant
+6	naiklah	naiklah	ADJ	_	_	_	_	_	gloss=upstairs
+7	pula	pula	ADV	_	_	_	_	_	gloss=planted
+8	aku	aku	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+9	keJerusalem	keJerusalem	PROPN	_	_	_	pobj	_	gloss=Jerusalem|Number=Sing
+10	serta	serta	ADJ	_	_	_	_	_	gloss=awhile
+11	dengan	dengan	ADP	_	_	_	_	_	gloss=ius
+12	Barnabas	barnabas	PROPN	_	_	_	pobj	_	gloss=Barnabas|Number=Sing
+13	,	,	PUNCT	_	_	_	_	_
+14	sambil	sambil	SCONJ	_	_	_	_	_	gloss=s
+15	kubawa	kubawa	NOUN	_	_	_	_	_
+16	pula	pula	ADV	_	_	_	_	_	gloss=planted
+17	Titus	titus	PROPN	_	_	_	nsubj	_	gloss=Titus|Number=Sing
+18	bersama	bersama	VERB	_	Voice=Act	_	_	_	gloss=together
+19	sama	sama	ADV	_	_	_	_	_	gloss=ents
+20	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 49005031
+# ref_id = Ephesians 5:31
+# eng_text = " For this cause a man will leave his father and mother , and will be joined to his wife . The two will become one flesh . "
+# zsm_text = Maka oleh sebab itu , patutlah seorang itu meninggalkan ayah bondanya , dan berhubong dengan istrinya , maka keduanya itu menjadi suatu daging juga adanya .
+1	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+2	oleh	oleh	ADP	_	_	_	_	_	gloss=ation
+3	sebab	sebab	SCONJ	_	_	_	_	_	gloss=shame
+4	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+5	,	,	PUNCT	_	_	_	_	_
+6	patutlah	patutlah	ADJ	_	_	_	_	_	gloss=ought
+7	seorang	seorang	NUM	_	_	_	pobj	_	gloss=one|NumType=Card
+8	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+9	meninggalkan	meninggalkan	VERB	_	Voice=Act	_	_	_	gloss=omes
+10	ayah	ayah	NOUN	_	_	_	dobj	_	gloss=father|Number=Sing
+11	bondanya	bondanya	None	_	_	_	_	_	gloss=fr
+12	,	,	PUNCT	_	_	_	_	_
+13	dan	dan	CCONJ	_	_	_	_	_	gloss=ind
+14	berhubong	berhubong	VERB	_	Voice=Act	_	_	_	gloss=Justus
+15	dengan	dengan	ADP	_	_	_	_	_	gloss=ius
+16	istrinya	istrinya	NOUN	_	_	_	pobj	_	gloss=wife|Number=Sing
+17	,	,	PUNCT	_	_	_	_	_
+18	maka	maka	SCONJ	_	_	_	mark	_	gloss=As
+19	keduanya	keduanya	None	_	_	_	_	_	gloss=record
+20	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+21	menjadi	menjadi	VERB	_	Voice=Act	_	_	_	gloss=become
+22	suatu	suatu	PRON	_	_	_	_	_
+23	daging	daging	None	_	_	_	_	_	gloss=meat
+24	juga	juga	ADV	_	_	_	_	_	gloss=same
+25	adanya	adanya	NOUN	_	_	_	_	_	gloss=shown
+26	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 49006008
+# ref_id = Ephesians 6:8
+# eng_text = knowing that whatever good thing each one does , he will receive the same again from the Lord , whether he is bound or free .
+# zsm_text = Sebab kami mengatahui , adapun barang perkara , baik yang diperbuat oleh sbarang orang , maka itulah juga kelak akan ditrimanya daripada Tuhan , baik hamba atau merdehka .
+1	Sebab	sebab	SCONJ	_	_	_	_	_	gloss=plac
+2	kami	kami	PRON	_	_	_	nsubj	_	gloss=we|Case=Nom|Number=Plur|Person=1|PronType=Prs
+3	mengatahui	mengatahui	VERB	_	Voice=Act	_	_	_	gloss=contr
+4	,	,	PUNCT	_	_	_	_	_
+5	adapun	adapun	PART	_	_	_	_	_	gloss=ex
+6	barang	barang	DET	_	_	_	_	_	gloss=tells
+7	perkara	perkara	NOUN	_	Number=Sing	_	_	_	gloss=things
+8	,	,	PUNCT	_	_	_	_	_
+9	baik	baik	NOUN	_	_	_	pobj	_	gloss=good|Number=Sing
+10	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+11	diperbuat	diperbuat	VERB	_	Voice=Act,Pass	_	_	_	gloss=sign
+12	oleh	oleh	ADP	_	_	_	_	_	gloss=ation
+13	sbarang	sbarang	None	_	_	_	_	_
+14	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+15	,	,	PUNCT	_	_	_	_	_
+16	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+17	itulah	itulah	ADJ	_	_	_	_	_	gloss=ff
+18	juga	juga	ADV	_	_	_	_	_	gloss=same
+19	kelak	kelak	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+20	akan	akan	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+21	ditrimanya	ditrimanya	VERB	_	Voice=Pass	_	_	_	gloss=rocky
+22	daripada	daripada	ADP	_	_	_	_	_	gloss=than
+23	Tuhan	tuhan	PROPN	_	_	_	nsubj	_	gloss=Lord|Number=Sing
+24	,	,	PUNCT	_	_	_	_	_
+25	baik	baik	NOUN	_	_	_	pobj	_	gloss=good|Number=Sing
+26	hamba	hamba	NOUN	_	_	_	_	_	gloss=servant
+27	atau	atau	CCONJ	_	_	_	cc	_	gloss=or|ConjType=Cmp
+28	merdehka	merdehka	ADJ	_	_	_	conj	_	gloss=free|Degree=Pos
+29	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 51004009
+# ref_id = Colossians 4:9
+# eng_text = together with Onesimus , the faithful and beloved brother , who is one of you . They will make known to you all things that are going on here .
+# zsm_text = Bersama sama dengan Onesimus , saudara yang setiawan dan kekasih , lagi seorang dari antaramu , maka mereka itulah kelak akan memberi tahu kepada kamu segala perkara yang telah berlaku disini .
+1	Bersama	bersama	VERB	_	Voice=Act	_	_	_
+2	sama	sama	ADV	_	_	_	_	_	gloss=ents
+3	dengan	dengan	ADP	_	_	_	_	_	gloss=ius
+4	Onesimus	onesimus	None	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_
+6	saudara	saudara	None	_	_	_	_	_	gloss=brothers
+7	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+8	setiawan	setiawan	ADJ	_	_	_	amod	_	gloss=faithful|Degree=Pos
+9	dan	dan	CCONJ	_	_	_	_	_	gloss=ind
+10	kekasih	kekasih	ADJ	_	NumType=Ord	_	_	_	gloss=ch
+11	,	,	PUNCT	_	_	_	_	_
+12	lagi	lagi	VERB	_	Mood=Imp	_	_	_	gloss=member
+13	seorang	seorang	NUM	_	_	_	appos	_	gloss=one|NumType=Card
+14	dari	dari	ADP	_	_	_	_	_	gloss=t
+15	antaramu	antaramu	None	_	_	_	_	_	gloss=Ty
+16	,	,	PUNCT	_	_	_	_	_
+17	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+18	mereka	mereka	PRON	Number=Plur|Person=3|PronType=Prs|Poss=Yes	_	_	_	_	gloss=They
+19	itulah	itulah	ADJ	_	_	_	_	_	gloss=ff
+20	kelak	kelak	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+21	akan	akan	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+22	memberi	memberi	VERB	_	Voice=Act	_	_	_	gloss=give
+23	tahu	tahu	VERB	_	_	_	_	_	gloss=lo
+24	kepada	kepada	ADP	_	_	_	_	_	gloss=to
+25	kamu	kamu	PRON	_	_	_	dative	_	gloss=you|Person=2|PronType=Prs
+26	segala	segala	DET	_	_	_	_	_	gloss=all
+27	perkara	perkara	NOUN	_	Number=Sing	_	_	_	gloss=things
+28	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+29	telah	telah	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_	gloss=has
+30	berlaku	berlaku	VERB	_	Voice=Act	_	_	_	gloss=fully
+31	disini	disini	VERB	_	Voice=Pass	_	_	_	gloss=Gethsemane
+32	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 53001003
+# ref_id = 2 Thessalonians 1:3
+# eng_text = We are bound to always give thanks to God for you , brothers , even as it is appropriate , because your faith grows exceedingly , and the love of each and every one of you towards one another abounds ;
+# zsm_text = Saudara saudara , ta’dapat tiada haruslah kiranya kami menguchap shukor kepada Allah pada sediakala kerana kamu , oleh sebab iman kamu bertambah tambah sangat , dan kasih masing masing kamu seorang dengan seorang terlempahlah .
+1	Saudara	saudara	None	_	_	_	_	_	gloss=celebr
+2	saudara	saudara	NOUN	_	_	_	npadvmod	_	gloss=brothers|Number=Plur
+3	,	,	PUNCT	_	_	_	_	_
+4	ta’dapat	ta’dapat	NOUN	_	Number=Sing	_	_	_	gloss=flour
+5	tiada	tiada	PART	_	Polarity=Neg	_	_	_	gloss=without
+6	haruslah	haruslah	ADJ	_	_	_	_	_	gloss=offer
+7	kiranya	kiranya	None	_	_	_	_	_	gloss=pleaded
+8	kami	kami	PRON	_	_	_	nsubj	_	gloss=we|Case=Nom|Number=Plur|Person=1|PronType=Prs
+9	menguchap	menguchap	VERB	_	Voice=Act	_	_	_	gloss=thanks
+10	shukor	shukor	None	_	_	_	_	_	gloss=ever
+11	kepada	kepada	ADP	_	_	_	_	_	gloss=to
+12	Allah	allah	PROPN	_	_	_	dobj	_	gloss=God|Number=Sing
+13	pada	pada	ADP	_	_	_	_	_	gloss=guilty
+14	sediakala	sediakala	ADJ	_	_	_	_	_	gloss=flour
+15	kerana	kerana	SCONJ	_	_	_	mark	_	gloss=because
+16	kamu	kamu	PRON	_	_	_	pobj	_	gloss=you|Case=Acc|Person=2|PronType=Prs
+17	,	,	PUNCT	_	_	_	_	_
+18	oleh	oleh	ADP	_	_	_	_	_	gloss=ation
+19	sebab	sebab	SCONJ	_	_	_	_	_	gloss=shame
+20	iman	iman	NOUN	_	_	_	nsubj	_	gloss=faith|Number=Sing
+21	kamu	kamu	PRON	_	_	_	pobj	_	gloss=you|Case=Acc|Person=2|PronType=Prs
+22	bertambah	bertambah	VERB	_	Voice=Act	_	_	_	gloss=grew
+23	tambah	tambah	ADJ	_	_	_	_	_	gloss=strong
+24	sangat	sangat	NOUN	_	Number=Sing	_	_	_	gloss=grief
+25	,	,	PUNCT	_	_	_	_	_
+26	dan	dan	CCONJ	_	_	_	_	_	gloss=ind
+27	kasih	kasih	NOUN	_	_	_	conj	_	gloss=love|Number=Sing
+28	masing	masing	None	_	_	_	_	_	gloss=w
+29	masing	masing	None	_	_	_	_	_	gloss=w
+30	kamu	kamu	PRON	_	_	_	pobj	_	gloss=you|Case=Acc|Person=2|PronType=Prs
+31	seorang	seorang	NUM	_	_	_	pobj	_	gloss=one|NumType=Card
+32	dengan	dengan	ADP	_	_	_	_	_	gloss=ius
+33	seorang	seorang	NUM	_	_	_	pobj	_	gloss=one|NumType=Card
+34	terlempahlah	terlempahlah	VERB	_	Voice=Pass	_	_	_
+35	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 58008013
+# ref_id = Hebrews 8:13
+# eng_text = In that he says , " A new covenant , " he has made the first old . But that which is becoming old and grows aged is near to vanishing away .
+# zsm_text = Adapun sebab iya berkata , waad yang bahru itu , maka dijadikannya yang mula mula itu lama , Maka sekarang yang burok dan lama itu iya itu hampir akan raib adanya .
+1	Adapun	adapun	PART	_	_	_	_	_	gloss=run
+2	sebab	sebab	SCONJ	_	_	_	_	_	gloss=shame
+3	iya	iya	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+4	berkata	berkata	VERB	_	Voice=Act	_	_	_	gloss=ered
+5	,	,	PUNCT	_	_	_	_	_
+6	waad	waad	NOUN	_	_	_	pobj	_	gloss=covenant|Number=Sing
+7	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+8	bahru	bahru	ADJ	_	_	6	amod	_	gloss=new|Degree=Pos
+9	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+10	,	,	PUNCT	_	_	_	_	_
+11	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+12	dijadikannya	dijadikannya	VERB	_	Voice=Pass	_	_	_	gloss=te
+13	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+14	mula	mula	ADV	_	_	_	_	_	gloss=-in-law
+15	mula	mula	ADV	_	_	_	_	_	gloss=-in-law
+16	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+17	lama	lama	ADJ	_	_	_	_	_	gloss=te
+18	,	,	PUNCT	_	_	_	_	_
+19	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+20	sekarang	sekarang	ADV	_	_	_	_	_	gloss=Now
+21	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+22	burok	burok	None	_	_	_	_	_
+23	dan	dan	CCONJ	_	_	_	_	_	gloss=ind
+24	lama	lama	ADJ	_	_	_	_	_	gloss=te
+25	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+26	iya	iya	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+27	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+28	hampir	hampir	ADV	_	_	_	_	_	gloss=te
+29	akan	akan	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+30	raib	raib	NOUN	_	_	_	pobj	_	gloss=date|Number=Sing
+31	adanya	adanya	NOUN	_	_	_	_	_	gloss=shown
+32	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 66001012
+# ref_id = Revelation 1:12
+# eng_text = I turned to see the voice that spoke with me . Having turned , I saw seven golden lampstands .
+# zsm_text = Maka aku pun berpalinglah hendak melihat swara yang berkata kata kepadaku itu ; demi aku berpaling , maka kulihat tujuh kaki dian yang kaamasan ;
+1	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+2	aku	aku	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+3	pun	pun	PART	_	_	_	_	_	gloss=or
+4	berpalinglah	berpalinglah	VERB	_	_	_	advcl	_	gloss=turned|Tense=Past|VerbForm=Fin
+5	hendak	hendak	AUX	_	_	_	_	_	gloss=gr
+6	melihat	melihat	VERB	_	Voice=Act	_	_	_	gloss=seen
+7	swara	swara	NOUN	_	Number=Sing	_	_	_	gloss=voice
+8	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+9	berkata	berkata	VERB	_	Voice=Act	_	_	_	gloss=ered
+10	kata	kata	VERB	_	_	_	_	_	gloss=spoken
+11	kepadaku	kepadaku	PRON	_	_	_	pobj	_	gloss=me|Case=Acc|Number=Sing|Person=1|PronType=Prs
+12	itu	itu	DET	Definite=Def|PronType=Art	_	_	_	_	gloss=the
+13	;	;	PUNCT	_	_	_	_	_	gloss=am
+14	demi	demi	VERB	_	Mood=Imp	_	_	_	gloss=and
+15	aku	aku	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+16	berpaling	berpaling	NOUN	_	_	_	compound	_	gloss=gold|Number=Sing
+17	,	,	PUNCT	_	_	_	_	_
+18	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+19	kulihat	kulihat	NOUN	_	Number=Sing	_	_	_	gloss=ch
+20	tujuh	tujuh	NUM	_	_	_	nummod	_	gloss=seven|NumType=Card
+21	kaki	kaki	VERB	_	Mood=Imp	_	_	_	gloss=foot
+22	dian	dian	VERB	_	Voice=Pass	_	_	_	gloss=lamp
+23	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+24	kaamasan	kaamasan	NOUN	_	_	_	compound	_	gloss=gold|Number=Sing
+25	;	;	PUNCT	_	_	_	_	_	gloss=am
+
+# sent_id = 66005014
+# ref_id = Revelation 5:14
+# eng_text = The four living creatures said , " Amen ! " The elders fell down and worshipped .
+# zsm_text = Maka empat empat binatang itu pun mengatakan Amin . Dan kadua puluh empat orang tua tua itupun sujudlah menyembah akan dia , yang hidup selama lamanya .
+1	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+2	empat	empat	NUM	_	_	15	nummod	_	gloss=four|NumType=Card
+3	empat	empat	NUM	_	_	15	nummod	_	gloss=four|NumType=Card
+4	binatang	binatang	ADJ	_	_	_	_	_	gloss=animals
+5	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+6	pun	pun	PART	_	_	_	_	_	gloss=or
+7	mengatakan	mengatakan	VERB	_	Voice=Act	_	_	_	gloss=Could
+8	Amin	amin	INTJ	_	_	_	intj	_	gloss=Amen
+9	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+10	Dan	dan	CCONJ	_	_	_	_	_	gloss=our
+11	kadua	kadua	None	_	_	_	_	_	gloss=second
+12	puluh	puluh	DET	Number=Sing	_	_	_	_	gloss=sev
+13	empat	empat	NUM	_	_	15	nummod	_	gloss=four|NumType=Card
+14	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+15	tua	tua	NOUN	_	_	_	nsubj	_	gloss=elders|Number=Plur
+16	tua	tua	NOUN	_	_	_	nsubj	_	gloss=elders|Number=Plur
+17	itupun	itupun	None	_	_	_	_	_	gloss=2
+18	sujudlah	sujudlah	VERB	_	_	_	conj	_	gloss=worshiped|Tense=Past|VerbForm=Fin
+19	menyembah	menyembah	VERB	_	Voice=Act	_	_	_	gloss=worship
+20	akan	akan	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	_	_	_	_	gloss=will
+21	dia	dia	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	_	_	_	_	gloss=him
+22	,	,	PUNCT	_	_	_	_	_
+23	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+24	hidup	hidup	VERB	_	_	_	amod	_	gloss=living|Aspect=Prog|Tense=Pres|VerbForm=Part
+25	selama	selama	None	_	_	_	_	_	gloss=forever
+26	lamanya	lamanya	ADJ	_	_	_	_	_	gloss=ures
+27	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 66007001
+# ref_id = Revelation 7:1
+# eng_text = After this , I saw four angels standing at the four corners of the earth , holding the four winds of the earth , so that no wind would blow on the earth , or on the sea , or on any tree .
+# zsm_text = Kelakian kemudian daripada segala perkara itu , maka kulihat empat orang malaikat berdirilah pada empat penjuru bumi , dengan memegang iya empat mata angin dibumi , supaya jangan angin bertiup diatas bumi , atau dilaut , atau pada barang pohon pohon kayu .
+1	Kelakian	Kelakian	ADV	_	Number=Sing	_	_	_
+2	kemudian	kemudian	NOUN	_	Number=Sing	_	_	_	gloss=ant
+3	daripada	daripada	ADP	_	_	_	_	_	gloss=than
+4	segala	segala	DET	_	_	_	_	_	gloss=all
+5	perkara	perkara	NOUN	_	Number=Sing	_	_	_	gloss=things
+6	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+7	,	,	PUNCT	_	_	_	_	_
+8	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+9	kulihat	kulihat	NOUN	_	Number=Sing	_	_	_	gloss=ch
+10	empat	empat	NUM	_	_	30	nummod	_	gloss=four|NumType=Card
+11	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+12	malaikat	malaikat	VERB	_	Voice=Act	_	_	_	gloss=angel
+13	berdirilah	berdirilah	VERB	_	Voice=Act	_	_	_	gloss=stood
+14	pada	pada	ADP	_	_	_	_	_	gloss=guilty
+15	empat	empat	NUM	_	_	30	nummod	_	gloss=four|NumType=Card
+16	penjuru	penjuru	NOUN	_	Number=Sing	_	_	_	gloss=cornerstone
+17	bumi	bumi	NOUN	_	_	31	pobj	_	gloss=earth|Number=Sing
+18	,	,	PUNCT	_	_	_	_	_
+19	dengan	dengan	ADP	_	_	_	_	_	gloss=ius
+20	memegang	memegang	VERB	_	Voice=Act	_	_	_	gloss=pped
+21	iya	iya	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	_	_	_	_	gloss=he
+22	empat	empat	NUM	_	_	30	nummod	_	gloss=four|NumType=Card
+23	mata	mata	None	_	_	_	_	_	gloss=eyes
+24	angin	angin	NOUN	_	Number=Sing	_	_	_	gloss=waves
+25	dibumi	dibumi	VERB	_	Voice=Pass	_	_	_	gloss=kings
+26	,	,	PUNCT	_	_	_	_	_
+27	supaya	supaya	SCONJ	_	_	_	_	_	gloss=ning
+28	jangan	jangan	NOUN	_	Number=Sing	_	_	_	gloss=terrible
+29	angin	angin	NOUN	_	Number=Sing	_	_	_	gloss=waves
+30	bertiup	bertiup	NOUN	_	_	_	dobj	_	gloss=winds|Number=Plur
+31	diatas	diatas	ADP	_	_	_	conj	_	gloss=on
+32	bumi	bumi	NOUN	_	_	31	pobj	_	gloss=earth|Number=Sing
+33	,	,	PUNCT	_	_	_	_	_
+34	atau	atau	CCONJ	_	_	_	cc	_	gloss=or|ConjType=Cmp
+35	dilaut	dilaut	VERB	_	Voice=Pass	_	_	_
+36	,	,	PUNCT	_	_	_	_	_
+37	atau	atau	CCONJ	_	_	_	cc	_	gloss=or|ConjType=Cmp
+38	pada	pada	ADP	_	_	_	_	_	gloss=guilty
+39	barang	barang	DET	_	_	_	_	_	gloss=tells
+40	pohon	pohon	NOUN	_	_	31	pobj	_	gloss=tree|Number=Sing
+41	pohon	pohon	NOUN	_	_	31	pobj	_	gloss=tree|Number=Sing
+42	kayu	kayu	None	_	_	_	_	_	gloss=cross
+43	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 66008002
+# ref_id = Revelation 8:2
+# eng_text = I saw the seven angels who stand before God , and seven trumpets were given to them .
+# zsm_text = Maka kulihatlah tujuh orang malaikat yang berdiri dihalrat Allah itu ; maka dikurniakanlah kepada mereka itu tujuh nafiri .
+1	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+2	kulihatlah	kulihatlah	ADJ	_	_	_	_	_	gloss=sp
+3	tujuh	tujuh	NUM	_	_	_	nummod	_	gloss=seven|NumType=Card
+4	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+5	malaikat	malaikat	VERB	_	Voice=Act	_	_	_	gloss=angel
+6	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+7	berdiri	berdiri	VERB	_	Voice=Act	_	_	_	gloss=standing
+8	dihalrat	dihalrat	VERB	_	Voice=Pass	_	_	_	gloss=trump
+9	Allah	allah	PROPN	_	_	_	pobj	_	gloss=God|Number=Sing
+10	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+11	;	;	PUNCT	_	_	_	_	_	gloss=am
+12	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+13	dikurniakanlah	dikurniakanlah	VERB	_	Voice=Pass	_	_	_
+14	kepada	kepada	ADP	_	_	_	_	_	gloss=to
+15	mereka	mereka	PRON	Number=Plur|Person=3|PronType=Prs|Poss=Yes	_	_	_	_	gloss=They
+16	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+17	tujuh	tujuh	NUM	_	_	_	nummod	_	gloss=seven|NumType=Card
+18	nafiri	nafiri	VERB	_	Mood=Imp	_	_	_	gloss=trumpet
+19	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 66009018
+# ref_id = Revelation 9:18
+# eng_text = By these three plagues were one third of mankind killed : by the fire , the smoke , and the sulfur , which proceeded out of their mouths .
+# zsm_text = Maka dengan tiga inilah telah terbunuh tiga bahagian manusia dengan api , dan asap , dan blerang yang kluar dari pada mulot mulotnya .
+1	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+2	dengan	dengan	ADP	_	_	_	_	_	gloss=ius
+3	tiga	tiga	NUM	_	_	_	nummod	_	gloss=three|NumType=Card
+4	inilah	inilah	ADJ	_	_	_	_	_	gloss=This
+5	telah	telah	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_	gloss=has
+6	terbunuh	terbunuh	VERB	_	Voice=Pass	_	_	_
+7	tiga	tiga	NUM	_	_	_	nummod	_	gloss=three|NumType=Card
+8	bahagian	bahagian	NOUN	_	Number=Sing	_	_	_	gloss=-third
+9	manusia	manusia	NOUN	_	_	_	_	_	gloss=Man
+10	dengan	dengan	ADP	_	_	_	_	_	gloss=ius
+11	api	api	NOUN	_	_	_	appos	_	gloss=fire|Number=Sing
+12	,	,	PUNCT	_	_	_	_	_
+13	dan	dan	CCONJ	_	_	_	_	_	gloss=ind
+14	asap	asap	None	_	_	_	_	_
+15	,	,	PUNCT	_	_	_	_	_
+16	dan	dan	CCONJ	_	_	_	_	_	gloss=ind
+17	blerang	blerang	None	_	_	_	_	_
+18	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+19	kluar	kluar	None	_	_	_	_	_	gloss=clothes
+20	dari	dari	ADP	_	_	_	_	_	gloss=t
+21	pada	pada	ADP	_	_	_	_	_	gloss=guilty
+22	mulot	mulot	None	_	_	_	_	_	gloss=mouth
+23	mulotnya	mulotnya	None	_	_	_	_	_	gloss=lips
+24	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 66010003
+# ref_id = Revelation 10:3
+# eng_text = He cried with a loud voice , as a lion roars . When he cried , the seven thunders uttered their voices .
+# zsm_text = Lalu berteriaklah iya dengan nyaring swaranya , seperti singa memekis : setelah sudah iya berteriak itu , maka tujuh halalintar berbunyilah .
+1	Lalu	lalu	ADV	_	_	_	_	_	gloss=ph
+2	berteriaklah	berteriaklah	VERB	_	Voice=Act	_	_	_	gloss=ghost
+3	iya	iya	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+4	dengan	dengan	ADP	_	_	_	_	_	gloss=ius
+5	nyaring	nyaring	NOUN	_	_	_	dobj	_	gloss=shout|Number=Sing
+6	swaranya	swaranya	NOUN	_	_	8	pobj	_	gloss=roar|Number=Sing
+7	,	,	PUNCT	_	_	_	_	_
+8	seperti	seperti	ADP	_	_	5	prep	_	gloss=like
+9	singa	singa	None	_	_	_	_	_
+10	memekis	memekis	VERB	_	Voice=Act	_	_	_
+11	:	:	PUNCT	_	_	_	_	_	gloss=led
+12	setelah	setelah	ADJ	_	_	_	_	_	gloss=i
+13	sudah	sudah	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_	gloss=After
+14	iya	iya	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+15	berteriak	berteriak	VERB	_	Voice=Act	_	_	_	gloss=louder
+16	itu	itu	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+17	,	,	PUNCT	_	_	_	_	_
+18	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+19	tujuh	tujuh	NUM	_	_	_	nummod	_	gloss=seven|NumType=Card
+20	halalintar	halalintar	None	_	_	_	_	_
+21	berbunyilah	berbunyilah	VERB	_	Voice=Act	_	_	_
+22	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 66011011
+# ref_id = Revelation 11:11
+# eng_text = After the three and a half days , the breath of life from God entered into them , and they stood on their feet . Great fear fell on those who saw them .
+# zsm_text = Maka kemudian daripada tengah empat hari lamanya itu , maka Roh yang menghidupkan daripada Allah masuklah kadalam mereka itu , berdirilah mereka itu dengan kakinya ; dan berlakulah katakotan yang besar atas segala orang yang melihat akan mereka itu .
+1	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+2	kemudian	kemudian	NOUN	_	Number=Sing	_	_	_	gloss=ant
+3	daripada	daripada	ADP	_	_	_	_	_	gloss=than
+4	tengah	tengah	ADJ	_	_	_	_	_	gloss=slipped
+5	empat	empat	NUM	NumType=Card|Number=Sing	_	_	_	_	gloss=four
+6	hari	hari	NOUN	_	_	_	pobj	_	gloss=days|Number=Plur
+7	lamanya	lamanya	ADJ	_	_	_	_	_	gloss=ures
+8	itu	itu	DET	Definite=Def|PronType=Art	_	_	_	_	gloss=the
+9	,	,	PUNCT	_	_	_	_	_
+10	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+11	Roh	roh	None	_	_	_	_	_	gloss=Spirit
+12	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+13	menghidupkan	menghidupkan	VERB	_	Voice=Act	_	_	_	gloss=gives
+14	daripada	daripada	ADP	_	_	_	_	_	gloss=than
+15	Allah	allah	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+16	masuklah	masuklah	ADJ	_	_	_	_	_	gloss=entered
+17	kadalam	kadalam	ADJ	_	_	_	_	_	gloss=responsibilities
+18	mereka	mereka	PRON	Number=Plur|Person=3|PronType=Prs|Poss=Yes	_	_	_	_	gloss=They
+19	itu	itu	DET	Definite=Def|PronType=Art	_	_	_	_	gloss=the
+20	,	,	PUNCT	_	_	_	_	_
+21	berdirilah	berdirilah	VERB	_	_	_	conj	_	gloss=stood|Tense=Past|VerbForm=Fin
+22	mereka	mereka	PRON	Number=Plur|Person=3|PronType=Prs|Poss=Yes	_	_	_	_	gloss=They
+23	itu	itu	DET	Definite=Def|PronType=Art	_	_	_	_	gloss=the
+24	dengan	dengan	ADP	_	_	_	_	_	gloss=ius
+25	kakinya	kakinya	None	_	_	_	_	_	gloss=feet
+26	;	;	PUNCT	_	_	_	_	_	gloss=am
+27	dan	dan	CCONJ	_	_	_	_	_	gloss=ind
+28	berlakulah	berlakulah	VERB	_	Voice=Act	_	_	_	gloss=oor
+29	katakotan	katakotan	NOUN	_	Number=Sing	_	_	_
+30	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+31	besar	besar	None	_	_	_	_	_	gloss=high
+32	atas	atas	NOUN	_	Number=Sing	_	_	_	gloss=scoff
+33	segala	segala	PRON	_	_	_	dobj	_	gloss=all
+34	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+35	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+36	melihat	melihat	VERB	_	Voice=Act	_	_	_	gloss=seen
+37	akan	akan	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	_	_	_	_	gloss=will
+38	mereka	mereka	PRON	Number=Plur|Person=3|PronType=Prs|Poss=Yes	_	_	_	_	gloss=They
+39	itu	itu	DET	Definite=Def|PronType=Art	_	_	_	_	gloss=the
+40	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 66013011
+# ref_id = Revelation 13:11
+# eng_text = I saw another beast coming up out of the earth . He had two horns like a lamb , and he spoke like a dragon .
+# zsm_text = Maka kulihat pula seekor binatang lain kluar dari bumi ; adalah bagienya dua tandok seperti anak domba , maka iya bertutor seperti naga .
+1	Maka	maka	ADV	_	_	_	advmod	_	gloss=Then|PronType=Dem
+2	kulihat	kulihat	NOUN	_	Number=Sing	_	_	_	gloss=ch
+3	pula	pula	ADV	_	_	_	_	_	gloss=planted
+4	seekor	seekor	ADJ	_	_	_	_	_	gloss=ninety-nine
+5	binatang	binatang	ADJ	_	_	_	_	_	gloss=animals
+6	lain	lain	DET	_	_	_	det	_	gloss=another
+7	kluar	kluar	None	_	_	_	_	_	gloss=clothes
+8	dari	dari	ADP	_	_	_	_	_	gloss=t
+9	bumi	bumi	NOUN	_	_	_	pobj	_	gloss=earth|Number=Sing
+10	;	;	PUNCT	_	_	_	_	_	gloss=am
+11	adalah	adalah	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_	gloss=There
+12	bagienya	bagienya	PUNCT	_	_	_	punct	_	PunctType=Comm
+13	dua	dua	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+14	tandok	tandok	None	_	_	_	_	_
+15	seperti	seperti	ADP	_	_	_	prep	_	gloss=like
+16	anak	anak	NOUN	Number=Sing	_	_	_	_	gloss=Son
+17	domba	domba	None	_	_	_	_	_	gloss=sheep
+18	,	,	PUNCT	_	_	_	_	_
+19	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+20	iya	iya	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+21	bertutor	bertutor	VERB	_	Voice=Act	_	_	_	gloss=talking
+22	seperti	seperti	ADP	_	_	_	prep	_	gloss=like
+23	naga	naga	NOUN	_	_	_	pobj	_	gloss=dragon|Number=Sing
+24	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 66021014
+# ref_id = Revelation 21:14
+# eng_text = The wall of the city had twelve foundations , and on them twelve names of the twelve Apostles of the Lamb .
+# zsm_text = Maka tembok negeri itu adalah duabelas alas , maka dalamnya itu adalah nama duabelas orang rasul anak Domba itu .
+1	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+2	tembok	tembok	NOUN	_	_	_	nsubj	_	gloss=wall|Number=Sing
+3	negeri	negeri	NOUN	_	_	_	pobj	_	gloss=city|Number=Sing
+4	itu	itu	DET	_	_	18	det	_	gloss=the|Definite=Def|PronType=Art
+5	adalah	adalah	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_	gloss=There
+6	duabelas	duabelas	None	_	_	_	_	_	gloss=light
+7	alas	alas	NOUN	_	_	_	compound	_	gloss=foundation|Number=Sing
+8	,	,	PUNCT	_	_	_	_	_
+9	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+10	dalamnya	dalamnya	None	_	_	_	_	_	gloss=sister
+11	itu	itu	DET	_	_	18	det	_	gloss=the|Definite=Def|PronType=Art
+12	adalah	adalah	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_	gloss=There
+13	nama	nama	None	_	_	_	_	_	gloss=name
+14	duabelas	duabelas	None	_	_	_	_	_	gloss=light
+15	orang	orang	DET	Number=Sing	_	_	_	_	gloss=man
+16	rasul	rasul	NOUN	_	_	_	pobj	_	gloss=apostles|Number=Plur
+17	anak	anak	NOUN	Number=Sing	_	_	_	_	gloss=Son
+18	Domba	domba	PROPN	_	_	_	pobj	_	gloss=Lamb|Number=Sing
+19	itu	itu	DET	_	_	18	det	_	gloss=the|Definite=Def|PronType=Art
+20	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 66022008
+# ref_id = Revelation 22:8
+# eng_text = Now I , John , am the one who heard and saw these things . When I heard and saw , I fell down to worship before the feet of the angel who showed me these things .
+# zsm_text = Maka aku Yahya telah melihat , dan mendengar segala perkara ini . Maka apabila aku mendengar dan melihat , maka sujudlah aku menyembah dikaki malaikat yang menunjokkan segala perkara ini padaku .
+1	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+2	aku	aku	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+3	Yahya	yahya	PROPN	_	_	_	npadvmod	_	gloss=John|Number=Sing
+4	telah	telah	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_	gloss=has
+5	melihat	melihat	VERB	_	Voice=Act	_	_	_	gloss=seen
+6	,	,	PUNCT	_	_	_	_	_
+7	dan	dan	CCONJ	_	_	_	_	_	gloss=ind
+8	mendengar	mendengar	VERB	_	Voice=Act	_	_	_	gloss=hear
+9	segala	segala	DET	_	_	10	predet	_	gloss=all
+10	perkara	perkara	NOUN	_	_	_	dobj	_	gloss=things|Number=Plur
+11	ini	ini	DET	Demonstrative=Prox|PronType=Dem	_	_	_	_	gloss=this
+12	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+13	Maka	maka	SCONJ	_	_	_	_	_	gloss=Then
+14	apabila	apabila	SCONJ	_	_	_	_	_	gloss=When
+15	aku	aku	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+16	mendengar	mendengar	VERB	_	Voice=Act	_	_	_	gloss=hear
+17	dan	dan	CCONJ	_	_	_	_	_	gloss=ind
+18	melihat	melihat	VERB	_	Voice=Act	_	_	_	gloss=seen
+19	,	,	PUNCT	_	_	_	_	_
+20	maka	maka	SCONJ	_	_	_	_	_	gloss=As
+21	sujudlah	sujudlah	ADJ	_	_	_	_	_	gloss=worshiped
+22	aku	aku	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+23	menyembah	menyembah	VERB	_	_	_	advcl	_	gloss=worship|VerbForm=Inf
+24	dikaki	dikaki	VERB	_	_	25	relcl	_	gloss=showed|Tense=Past|VerbForm=Fin
+25	malaikat	malaikat	NOUN	_	_	_	pobj	_	gloss=angel|Number=Sing
+26	yang	yang	SCONJ	_	_	_	_	_	gloss=counted
+27	menunjokkan	menunjokkan	VERB	_	Voice=Act	_	_	_	gloss=el
+28	segala	segala	DET	_	_	29	predet	_	gloss=all
+29	perkara	perkara	NOUN	_	_	_	dobj	_	gloss=things|Number=Plur
+30	ini	ini	DET	Demonstrative=Prox|PronType=Dem	_	_	_	_	gloss=this
+31	padaku	padaku	None	_	_	_	_	_	gloss=nd
+32	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+

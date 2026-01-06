@@ -1,0 +1,808 @@
+## The following text has been annotated for parts of speech by students at NTU Singapore as part of a class project in AY 2025.
+## Verses are extracted from the taggedPBC. Annotations have been developed with a combination of manual and automated approaches, with reference to existing literature and (where possible) native speakers.
+## ISO 639-3: hoy, Language: Holiya, Number of verses: 21
+## References: Central Institute of Indian Languages. Holiya (ISO-639-3 code: hoy). (n.d). https://sanchika.ciil.org/communi-es/98fe9069-4585-4352-828b-c06a8fc72480?utm_source= ; Ethnologue. (n.d). Holiya https://www.ethnologue.com/language/hoy/
+
+# sent_id = 40006024
+# ref_id = Matthew 6:24
+# eng_text = " No one can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You can't serve both God and Mammon .
+# hoy_text = “ yaavaaraa mamllasaa yeddhddha svaamiigollda syaavaa maall sakaalun , yatikii aav uumd mamllasaa se dushmanii adik dusaraa mamllasaa se pyaar iittyaan , yaa uumd se mel milaap maallyaan adik dusaraa mamllasaa ak niic jaanasyaan . niiv parameshvar adik dhan yeddhddhu syaavaa saamgullalyaa maall sakaaliir . ”
+# hoy_orth = “ यावारा मंळसा येढ्ढ स्वामीगोळ्द स्यावा माळ सकालुन , यतिकी आव ऊंद मंळसा से दुश्मनी अदिक दुसरा मंळसा से प्यार ईट्यान , या ऊंद से मेल मिलाप माळ्यान अदिक दुसरा मंळसा अक नीच जानस्यान . नीव परमेश्वर अदिक धन येढ्ढु स्यावा सांगुळल्या माळ सकालीर . ”
+1	“	“	PUNCT	_	_	_	_	_	orth=“
+2	yaavaaraa	yaavaaraa	unk	_	_	_	_	_	orth=यावारा|gloss=Anyone
+3	mamllasaa	mamllasaa	unk	_	_	_	_	_	orth=मंळसा|gloss=disobey
+4	yeddhddyha	yeddhddha	NUM	_	_	_	nummod	_	orth=येढ्ढ|gloss=two|NumType=Card
+5	svaamiigollda	svaamiigollda	VERB	_	_	_	acomp	_	orth=स्वामीगोळ्द|gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+6	syaavaa	syaavaa	VERB	_	_	0	root	_	orth=स्यावा|gloss=serve|VerbForm=Inf
+7	maall	maall	unk	_	_	_	_	_	orth=माळ|gloss=grows
+8	sakaalun	sakaalun	unk	_	_	_	_	_	orth=सकालुन|gloss=ince
+9	,	,	PUNCT	_	_	_	_	_	orth=,
+10	yatikii	yatikii	ADP	_	_	15	prep	_	orth=यतिकी|gloss=For
+11	aav	aav	unk	_	_	_	_	_	orth=आव|gloss=he
+12	uumd	uumd	NUM	_	_	_	pobj	_	orth=ऊंद|gloss=one|NumType=Card
+13	mamllasaa	mamllasaa	unk	_	_	_	_	_	orth=मंळसा|gloss=disobey
+14	se	se	unk	_	_	_	_	_	orth=से
+15	dushmanii	dushmanii	VERB	_	_	_	ccomp	_	orth=दुश्मनी|gloss=hate|VerbForm=Inf
+16	adik	adik	CCONJ	_	_	37	cc	_	orth=अदिक|gloss=and|ConjType=Cmp
+17	dusaraa	dusaraa	unk	_	_	_	_	_	orth=दुसरा|gloss=second
+18	mamllasaa	mamllasaa	unk	_	_	_	_	_	orth=मंळसा|gloss=disobey
+19	se	se	unk	_	_	_	_	_	orth=से
+20	pyaar	pyaar	VERB	_	_	15	conj	_	orth=प्यार|gloss=love|VerbForm=Inf
+21	iittyaan	iittyaan	VERB	_	_	_	acomp	_	orth=ईट्यान|gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+22	,	,	PUNCT	_	_	_	_	_	orth=,
+23	yaa	yaa	unk	_	_	_	_	_	orth=या|gloss=or
+24	uumd	uumd	NUM	_	_	_	pobj	_	orth=ऊंद|gloss=one|NumType=Card
+25	se	se	unk	_	_	_	_	_	orth=से
+26	mel	mel	unk	_	_	_	_	_	orth=मेल|gloss=reconcil
+27	milaap	milaap	unk	_	_	_	_	_	orth=मिलाप|gloss=plead
+28	maallyaan	maallyaan	unk	_	_	_	_	_	orth=माळ्यान|gloss=committed
+29	adik	adik	CCONJ	_	_	37	cc	_	orth=अदिक|gloss=and|ConjType=Cmp
+30	dusaraa	dusaraa	unk	_	_	_	_	_	orth=दुसरा|gloss=second
+31	mamllasaa	mamllasaa	unk	_	_	_	_	_	orth=मंळसा|gloss=disobey
+32	ak	ak	unk	_	_	_	_	_	orth=अक|gloss=ise
+33	niic	niic	unk	_	_	_	_	_	orth=नीच|gloss=desp
+34	jaanasyaan	jaanasyaan	VERB	_	_	_	acomp	_	orth=जानस्यान|gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+35	.	.	PUNCT	_	_	_	_	_	orth=.
+36	niiv	niiv	PRON	_	_	41	nsubj	_	orth=नीव|gloss=You|Case=Nom|Person=2|PronType=Prs
+37	parameshvar	parameshvar	PROPN	_	_	41	dobj	_	orth=परमेश्वर|gloss=God|Number=Sing
+38	adik	adik	CCONJ	_	_	37	cc	_	orth=अदिक|gloss=and|ConjType=Cmp
+39	dhan	dhan	unk	_	_	_	_	_	orth=धन|gloss=treasures
+40	yeddhddhu	yeddhddhu	CCONJ	_	_	37	det	_	orth=येढ्ढु|gloss=both|ConjType=Cmp
+41	syaavaa	syaavaa	VERB	_	_	0	root	_	orth=स्यावा|gloss=serve|VerbForm=Inf
+42	saamgullalyaa	saamgullalyaa	unk	_	_	_	_	_	orth=सांगुळल्या
+43	maall	maall	unk	_	_	_	_	_	orth=माळ|gloss=grows
+44	sakaaliir	sakaaliir	unk	_	_	_	_	_	orth=सकालीर|gloss=cannot
+45	.	.	PUNCT	_	_	_	_	_	orth=.
+46	”	”	PUNCT	_	_	_	_	_	orth=”
+
+# sent_id = 40018012
+# ref_id = Matthew 18:12
+# eng_text = " What do you think ? If a man has one hundred sheep , and one of them goes astray , doesn't he leave the ninety-nine , go to the mountains , and seek that which has gone astray ?
+# hoy_text = “ niiv yen socatiir ? agar yaavaaraa mamllasaa anda sau myaamddaagoll aav , adik adurdaa ttu uumd bhattakusegul , raa yen aav ninyaanabe ak bittaku , adik pahaalliigoll maa hogaku , aa bhattakusda myaamddaa ak ddhumddhsatiidil ?
+# hoy_orth = “ नीव येन सोचतीर ? अगर यावारा मंळसा अन्द सौ म्यांडागोळ आव , अदिक अदुर्दा टु ऊंद भटकुसेगुल , रा येन आव निन्यानबे अक बिटकु , अदिक पहाळीगोळ मा होगकु , आ भटकुस्द म्यांडा अक ढुँढ्सतीदिल ?
+1	“	“	PUNCT	_	_	_	_	_	orth=“
+2	niiv	niiv	unk	_	_	_	_	_	orth=नीव|gloss=You
+3	yen	yen	unk	_	_	_	_	_	orth=येन|gloss=Of
+4	socatiir	socatiir	NOUN	_	_	29	pobj	_	orth=सोचतीर|gloss=hills|Number=Plur
+5	?	?	PUNCT	_	_	_	_	_	orth=?
+6	agar	agar	unk	_	_	_	_	_	orth=अगर|gloss=if
+7	yaavaaraa	yaavaaraa	unk	_	_	_	_	_	orth=यावारा|gloss=Anyone
+8	mamllasaa	mamllasaa	unk	_	_	_	_	_	orth=मंळसा|gloss=disobey
+9	anda	anda	unk	_	_	_	_	_	orth=अन्द|gloss=ot
+10	sau	sau	unk	_	_	_	_	_	orth=सौ|gloss=1
+11	myaamddaagoll	myaamddaagoll	NOUN	_	_	_	dobj	_	orth=म्यांडागोळ|gloss=sheep|Number=Plur
+12	aav	aav	PRON	_	_	_	nsubj	_	orth=आव|gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+13	,	,	PUNCT	_	_	_	_	_	orth=,
+14	adik	adik	CCONJ	_	_	_	cc	_	orth=अदिक|gloss=and|ConjType=Cmp
+15	adurdaa	adurdaa	unk	_	_	_	_	_	orth=अदुर्दा|gloss=planted
+16	ttu	ttu	unk	_	_	_	_	_	orth=टु|gloss=from
+17	uumd	uumd	NOUN	_	_	_	pobj	_	orth=ऊंद|gloss=one|Number=Sing
+18	bhattakusegul	bhattakusegul	unk	_	_	_	_	_	orth=भटकुसेगुल
+19	,	,	PUNCT	_	_	_	_	_	orth=,
+20	raa	raa	unk	_	_	_	_	_	orth=रा|gloss=when
+21	yen	yen	unk	_	_	_	_	_	orth=येन|gloss=Of
+22	aav	aav	PRON	_	_	_	nsubj	_	orth=आव|gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+23	ninyaanabe	ninyaanabe	unk	_	_	_	_	_	orth=निन्यानबे
+24	ak	ak	unk	_	_	_	_	_	orth=अक|gloss=ise
+25	bittaku	bittaku	unk	_	_	_	_	_	orth=बिटकु|gloss=gr
+26	,	,	PUNCT	_	_	_	_	_	orth=,
+27	adik	adik	CCONJ	_	_	_	cc	_	orth=अदिक|gloss=and|ConjType=Cmp
+28	pahaalliigoll	pahaalliigoll	unk	_	_	_	_	_	orth=पहाळीगोळ|gloss=rocks
+29	maa	maa	ADP	_	_	_	prep	_	orth=मा|gloss=on
+30	hogaku	hogaku	unk	_	_	_	_	_	orth=होगकु|gloss=went
+31	,	,	PUNCT	_	_	_	_	_	orth=,
+32	aa	aa	unk	_	_	_	_	_	orth=आ|gloss=ull
+33	bhattakusda	bhattakusda	unk	_	_	_	_	_	orth=भटकुस्द
+34	myaamddaa	myaamddaa	NOUN	_	_	_	dobj	_	orth=म्यांडा|gloss=sheep|Number=Plur
+35	ak	ak	unk	_	_	_	_	_	orth=अक|gloss=ise
+36	ddhumddhsatiidil	ddhumddhsatiidil	unk	_	_	_	_	_	orth=ढुँढ्सतीदिल
+37	?	?	PUNCT	_	_	_	_	_	orth=?
+
+# sent_id = 40020021
+# ref_id = Matthew 20:21
+# eng_text = He said to her , " What do you want ? " She said to him , " Command that these , my two sons , may sit , one on your right hand , and one on your left hand , in your kingdom . "
+# hoy_text = yiishu aakin se amdun , “ nii yen caahaasatyaa ? ” aak aauun se maataalladur , “ iid vacan koll ki naanor ii yeddhddha cikor niin raajya daa uumd niin uumaa kay adik uumd niin ddaakyaa kay dii kurataar . ”
+# hoy_orth = यीशु आकिन से अंदुन , “ नी येन चाहासत्या ? ” आक आऊन से माताळदुर , “ ईद वचन कोळ कि नानोर ई येढ्ढ चिकोर नीन राज्य दा ऊंद नीन ऊमा कय अदिक ऊंद नीन डाक्या कय दी कुरतार . ”
+1	yiishu	yiishu	unk	_	_	_	_	_	orth=यीशु|gloss=Jesus
+2	aakin	aakin	unk	_	_	_	_	_	orth=आकिन|gloss=her
+3	se	se	unk	_	_	_	_	_	orth=से
+4	amdun	amdun	unk	_	_	_	_	_	orth=अंदुन|gloss=said
+5	,	,	PUNCT	_	_	_	_	_	orth=,
+6	“	“	PUNCT	_	_	_	_	_	orth=“
+7	nii	nii	unk	_	_	_	_	_	orth=नी|gloss=are
+8	yen	yen	unk	_	_	_	_	_	orth=येन|gloss=Of
+9	caahaasatyaa	caahaasatyaa	unk	_	_	_	_	_	orth=चाहासत्या|gloss=ob
+10	?	?	PUNCT	_	_	_	_	_	orth=?
+11	”	”	PUNCT	_	_	_	_	_	orth=”
+12	aak	aak	unk	_	_	_	_	_	orth=आक|gloss=she
+13	aauun	aauun	unk	_	_	_	_	_	orth=आऊन|gloss=him
+14	se	se	unk	_	_	_	_	_	orth=से
+15	maataalladur	maataalladur	unk	_	_	_	_	_	orth=माताळदुर|gloss=rather
+16	,	,	PUNCT	_	_	_	_	_	orth=,
+17	“	“	PUNCT	_	_	_	_	_	orth=“
+18	iid	iid	unk	_	_	_	_	_	orth=ईद|gloss=This
+19	vacan	vacan	unk	_	_	_	_	_	orth=वचन|gloss=word
+20	koll	koll	unk	_	_	_	_	_	orth=कोळ|gloss=give
+21	ki	ki	unk	_	_	_	_	_	orth=कि|gloss=that
+22	naanor	naanor	unk	_	_	_	_	_	orth=नानोर
+23	ii	ii	unk	_	_	_	_	_	orth=ई|gloss=these
+24	yeddhddha	yeddhddha	NUM	_	_	_	nummod	_	orth=येढ्ढ|gloss=two|NumType=Card
+25	cikor	cikor	NOUN	_	_	_	nsubj	_	orth=चिकोर|gloss=request|Number=Sing
+26	niin	niin	unk	_	_	_	_	_	orth=नीन|gloss=ering
+27	raajya	raajya	PROPN	_	_	_	pobj	_	orth=राज्य|gloss=Kingdom|Number=Sing
+28	daa	daa	ADP	_	_	_	prep	_	orth=दा|gloss=in
+29	uumd	uumd	NUM	_	_	_	npadvmod	_	orth=ऊंद|gloss=one|NumType=Card
+30	niin	niin	unk	_	_	_	_	_	orth=नीन|gloss=ering
+31	uumaa	uumaa	unk	_	_	_	_	_	orth=ऊमा|gloss=ashed
+32	kay	kay	unk	_	_	_	_	_	orth=कय|gloss=hand
+33	adik	adik	CCONJ	_	_	34	cc	_	orth=अदिक|gloss=and|ConjType=Cmp
+34	uumd	uumd	NUM	_	_	_	npadvmod	_	orth=ऊंद|gloss=one|NumType=Card
+35	niin	niin	unk	_	_	_	_	_	orth=नीन|gloss=ering
+36	ddaakyaa	ddaakyaa	NOUN	_	_	28	pobj	_	orth=डाक्या|gloss=places|Number=Plur
+37	kay	kay	unk	_	_	_	_	_	orth=कय|gloss=hand
+38	dii	dii	unk	_	_	_	_	_	orth=दी|gloss=bed
+39	kurataar	kurataar	unk	_	_	_	_	_	orth=कुरतार
+40	.	.	PUNCT	_	_	_	_	_	orth=.
+41	”	”	PUNCT	_	_	_	_	_	orth=”
+
+# sent_id = 40026002
+# ref_id = Matthew 26:2
+# eng_text = " You know that after two days the Passover is coming , and the Son of Man will be delivered up to be crucified . "
+# hoy_text = “ niiv jaansatiir ki yeddhddha din in baaddaa phasah anda haabba aad , adik mamllasaa anda paar kruus maa yerasor saattii hullasusaku aadaan . ”
+# hoy_orth = “ नीव जान्सतीर कि येढ्ढ दिन इन बाद्दा फसह अन्द हाब्ब आद , अदिक मंळसा अन्द पार क्रूस मा येरसोर साटी हुळसुसकु आदान . ”
+1	“	“	PUNCT	_	_	_	_	_	orth=“
+2	niiv	niiv	unk	_	_	_	_	_	orth=नीव|gloss=You
+3	jaansatiir	jaansatiir	unk	_	_	_	_	_	orth=जान्सतीर|gloss=thief
+4	ki	ki	unk	_	_	_	_	_	orth=कि|gloss=that
+5	yeddhddha	yeddhddha	NUM	_	_	6	nummod	_	orth=येढ्ढ|gloss=two|NumType=Card
+6	din	din	NOUN	_	_	_	pobj	_	orth=दिन|gloss=days|Number=Plur
+7	in	in	unk	_	_	_	_	_	orth=इन|gloss=course
+8	baaddaa	baaddaa	unk	_	_	_	_	_	orth=बाद्दा|gloss=later
+9	phasah	phasah	PROPN	_	_	_	nsubj	_	orth=फसह|gloss=Passover|Number=Sing
+10	anda	anda	unk	_	_	_	_	_	orth=अन्द|gloss=ot
+11	haabba	haabba	unk	_	_	_	_	_	orth=हाब्ब|gloss=celebration
+12	aad	aad	unk	_	_	_	_	_	orth=आद|gloss=say
+13	,	,	PUNCT	_	_	_	_	_	orth=,
+14	adik	adik	CCONJ	_	_	_	cc	_	orth=अदिक|gloss=and|ConjType=Cmp
+15	mamllasaa	mamllasaa	unk	_	_	_	_	_	orth=मंळसा|gloss=disobey
+16	anda	anda	unk	_	_	_	_	_	orth=अन्द|gloss=ot
+17	paar	paar	PROPN	_	_	_	nsubjpass	_	orth=पार|gloss=Son|Number=Sing
+18	kruus	kruus	VERB	_	_	_	advcl	_	orth=क्रूस|gloss=crucified|Aspect=Perf|Tense=Past|VerbForm=Part
+19	maa	maa	unk	_	_	_	_	_	orth=मा|gloss=on
+20	yerasor	yerasor	unk	_	_	_	_	_	orth=येरसोर|gloss=tired
+21	saattii	saattii	unk	_	_	_	_	_	orth=साटी|gloss=uring
+22	hullasusaku	hullasusaku	unk	_	_	_	_	_	orth=हुळसुसकु|gloss=betray
+23	aadaan	aadaan	unk	_	_	_	_	_	orth=आदान|gloss=Great
+24	.	.	PUNCT	_	_	_	_	_	orth=.
+25	”	”	PUNCT	_	_	_	_	_	orth=”
+
+# sent_id = 40026061
+# ref_id = Matthew 26:61
+# eng_text = and said , " This man said , ' I am able to destroy the temple of God , and to build it in three days . ' "
+# hoy_text = adik amdur , “ iiv amdaan ki naa parameshvar un mamdir ik keddu sakatiin adik adarii mur din daa maall sakatiin . ”
+# hoy_orth = अदिक अंदुर , “ ईव अंदान कि ना परमेश्वर उन मंदिर इक केडु सकतीन अदिक अदरी मुर दिन दा माळ सकतीन . ”
+1	adik	adik	CCONJ	_	_	_	cc	_	orth=अदिक|gloss=and|ConjType=Cmp
+2	amdur	amdur	unk	_	_	_	_	_	orth=अंदुर|gloss=Others
+3	,	,	PUNCT	_	_	_	_	_	orth=,
+4	“	“	PUNCT	_	_	_	_	_	orth=“
+5	iiv	iiv	unk	_	_	_	_	_	orth=ईव|gloss=scoffed
+6	amdaan	amdaan	unk	_	_	_	_	_	orth=अंदान|gloss=tells
+7	ki	ki	unk	_	_	_	_	_	orth=कि|gloss=that
+8	naa	naa	PRON	_	_	_	nsubj	_	orth=ना|gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+9	parameshvar	parameshvar	PROPN	_	_	_	pobj	_	orth=परमेश्वर|gloss=God|Number=Sing
+10	un	un	unk	_	_	_	_	_	orth=उन|gloss=s
+11	mamdir	mamdir	PROPN	_	_	_	dobj	_	orth=मंदिर|gloss=Temple|Number=Sing
+12	ik	ik	unk	_	_	_	_	_	orth=इक|gloss=pur
+13	keddu	keddu	unk	_	_	_	_	_	orth=केडु|gloss=pur
+14	sakatiin	sakatiin	VERB	_	_	_	conj	_	orth=सकतीन|gloss=rebuild|VerbForm=Inf
+15	adik	adik	CCONJ	_	_	_	cc	_	orth=अदिक|gloss=and|ConjType=Cmp
+16	adarii	adarii	unk	_	_	_	_	_	orth=अदरी|gloss=falls
+17	mur	mur	NUM	_	_	18	nummod	_	orth=मुर|gloss=three|NumType=Card
+18	din	din	NOUN	_	_	19	pobj	_	orth=दिन|gloss=days|Number=Plur
+19	daa	daa	ADP	_	_	21	prep	_	orth=दा|gloss=in
+20	maall	maall	unk	_	_	_	_	_	orth=माळ|gloss=grows
+21	sakatiin	sakatiin	VERB	_	_	_	conj	_	orth=सकतीन|gloss=rebuild|VerbForm=Inf
+22	.	.	PUNCT	_	_	_	_	_	orth=.
+23	”	”	PUNCT	_	_	_	_	_	orth=”
+
+# sent_id = 40028016
+# ref_id = Matthew 28:16
+# eng_text = But the eleven disciples went into Galilee , to the mountain where Jesus had sent them .
+# hoy_text = hannell celaagoll galiil in aa pahaall maa hodur , yaarii yaarii yiishu helliidun .
+# hoy_orth = हन्नेळ चेलागोळ गलील इन आ पहाळ मा होदुर , यारी यारी यीशु हेळीदुन .
+1	hannell	hannell	unk	_	_	_	_	_	orth=हन्नेळ|gloss=twelve
+2	celaagoll	celaagoll	NOUN	_	_	_	nsubj	_	orth=चेलागोळ|gloss=disciples|Number=Plur
+3	galiil	galiil	PROPN	_	_	_	pobj	_	orth=गलील|gloss=Galilee|Number=Sing
+4	in	in	unk	_	_	_	_	_	orth=इन|gloss=course
+5	aa	aa	unk	_	_	_	_	_	orth=आ|gloss=ull
+6	pahaall	pahaall	unk	_	_	_	_	_	orth=पहाळ|gloss=hillside
+7	maa	maa	unk	_	_	_	_	_	orth=मा|gloss=on
+8	hodur	hodur	unk	_	_	_	_	_	orth=होदुर|gloss=mn
+9	,	,	PUNCT	_	_	_	_	_	orth=,
+10	yaarii	yaarii	unk	_	_	_	_	_	orth=यारी|gloss=u
+11	yaarii	yaarii	unk	_	_	_	_	_	orth=यारी|gloss=u
+12	yiishu	yiishu	PROPN	_	_	_	nsubj	_	orth=यीशु|gloss=Jesus|Number=Sing
+13	helliidun	helliidun	NUM	_	_	2	nummod	_	orth=हेळीदुन|gloss=eleven|NumType=Card
+14	.	.	PUNCT	_	_	_	_	_	orth=.
+
+# sent_id = 41002023
+# ref_id = Mark 2:23
+# eng_text = It happened , that he was going on the Sabbath day through the grain fields , and his disciples began , as they went , to pluck the ears of grain .
+# hoy_text = adik himg aat ki yiishu aaraam in dishii keii dii ttu aagatelaa hogon ; adik aauun celaagoll nallutelaa godii nav lombaagollii muruu kuratur .
+# hoy_orth = अदिक हिंग आत कि यीशु आराम इन दिशी केई दी टु आगतेला होगोन ; अदिक आऊन चेलागोळ नळुतेला गोदी नव लॉम्बागोळी मुरू कुरतुर .
+1	adik	adik	unk	_	_	_	_	_	orth=अदिक|gloss=and
+2	himg	himg	unk	_	_	_	_	_	orth=हिंग|gloss=becomes
+3	aat	aat	unk	_	_	_	_	_	orth=आत|gloss=revelation
+4	ki	ki	unk	_	_	_	_	_	orth=कि|gloss=that
+5	yiishu	yiishu	PROPN	_	_	18	nsubj	_	orth=यीशु|gloss=Jesus|Number=Sing
+6	aaraam	aaraam	PROPN	_	_	8	compound	_	orth=आराम|gloss=Sabbath|Number=Sing
+7	in	in	unk	_	_	_	_	_	orth=इन|gloss=course
+8	dishii	dishii	NOUN	_	_	23	npadvmod	_	orth=दिशी|gloss=day|Number=Sing
+9	keii	keii	unk	_	_	_	_	_	orth=केई|gloss=field
+10	dii	dii	unk	_	_	_	_	_	orth=दी|gloss=bed
+11	ttu	ttu	unk	_	_	_	_	_	orth=टु|gloss=from
+12	aagatelaa	aagatelaa	unk	_	_	_	_	_	orth=आगतेला|gloss=iting
+13	hogon	hogon	unk	_	_	_	_	_	orth=होगोन|gloss=inted
+14	;	;	PUNCT	_	_	_	_	_	orth=;
+15	adik	adik	unk	_	_	_	_	_	orth=अदिक|gloss=and
+16	aauun	aauun	unk	_	_	_	_	_	orth=आऊन|gloss=him
+17	celaagoll	celaagoll	NOUN	_	_	23	nsubj	_	orth=चेलागोळ|gloss=disciples|Number=Plur
+18	nallutelaa	nallutelaa	VERB	_	_	23	advcl	_	orth=नळुतेला|gloss=walking|Aspect=Prog|Tense=Pres|VerbForm=Part
+19	godii	godii	unk	_	_	_	_	_	orth=गोदी|gloss=wheat
+20	nav	nav	NOUN	_	_	_	dobj	_	orth=नव|gloss=heads|Number=Plur
+21	lombaagollii	lombaagollii	unk	_	_	_	_	_	orth=लॉम्बागोळी
+22	muruu	muruu	unk	_	_	_	_	_	orth=मुरू|gloss=plagues
+23	kuratur	kuratur	VERB	_	_	0	root	_	orth=कुरतुर|gloss=began|Tense=Past|VerbForm=Fin
+24	.	.	PUNCT	_	_	_	_	_	orth=.
+
+# sent_id = 41012032
+# ref_id = Mark 12:32
+# eng_text = The scribe said to him , " Truly , teacher , you have said well that he is one , and there is none other but he ,
+# hoy_text = niyamagoll guru yiishu se amdun , “ he guru , ” haapaall vallliid ! nii kharaa anda ki parameshvar uumdaa aan , adik aauuk bittaku adik yaauu dusaraa parameshvar hailec .
+# hoy_orth = नियमगोळ गुरु यीशु से अंदुन , “ हे गुरु , ” हापाळ वळ्लीद ! नी खरा अन्द कि परमेश्वर ऊंदा आन , अदिक आऊक बिटकु अदिक याऊ दुसरा परमेश्वर हैलेच .
+1	niyamagoll	niyamagoll	NOUN	_	_	_	nsubj	_	orth=नियमगोळ|gloss=teacher|Number=Sing
+2	guru	guru	NOUN	_	_	5	npadvmod	_	orth=गुरु|gloss=Teacher|Number=Sing
+3	yiishu	yiishu	unk	_	_	_	_	_	orth=यीशु|gloss=Jesus
+4	se	se	unk	_	_	_	_	_	orth=से
+5	amdun	amdun	VERB	_	_	_	ccomp	_	orth=अंदुन|gloss=said|Tense=Past|VerbForm=Fin
+6	,	,	PUNCT	_	_	_	_	_	orth=,
+7	“	“	PUNCT	_	_	_	_	_	orth=“
+8	he	he	unk	_	_	_	_	_	orth=हे|gloss=dear
+9	guru	guru	NOUN	_	_	5	npadvmod	_	orth=गुरु|gloss=Teacher|Number=Sing
+10	,	,	PUNCT	_	_	_	_	_	orth=,
+11	”	”	PUNCT	_	_	_	_	_	orth=”
+12	haapaall	haapaall	unk	_	_	_	_	_	orth=हापाळ|gloss=many
+13	vallliid	vallliid	unk	_	_	_	_	_	orth=वळ्लीद|gloss=good
+14	!	!	PUNCT	_	_	_	_	_	orth=!
+15	nii	nii	unk	_	_	_	_	_	orth=नी|gloss=are
+16	kharaa	kharaa	NOUN	_	_	_	dobj	_	orth=खरा|gloss=truth|Number=Sing
+17	anda	anda	unk	_	_	_	_	_	orth=अन्द|gloss=ot
+18	ki	ki	SCONJ	_	_	20	mark	_	orth=कि|gloss=that
+19	parameshvar	parameshvar	PROPN	_	_	20	attr	_	orth=परमेश्वर|gloss=God|Number=Sing
+20	uumdaa	uumdaa	VERB	_	_	_	ccomp	_	orth=ऊंदा|gloss=is|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+21	aan	aan	unk	_	_	_	_	_	orth=आन|gloss=makes
+22	,	,	PUNCT	_	_	_	_	_	orth=,
+23	adik	adik	CCONJ	_	_	19	cc	_	orth=अदिक|gloss=and|ConjType=Cmp
+24	aauuk	aauuk	unk	_	_	_	_	_	orth=आऊक|gloss=ges
+25	bittaku	bittaku	unk	_	_	_	_	_	orth=बिटकु|gloss=gr
+26	adik	adik	CCONJ	_	_	29	cc	_	orth=अदिक|gloss=and|ConjType=Cmp
+27	yaauu	yaauu	DET	_	_	_	det	_	orth=याऊ|gloss=no
+28	dusaraa	dusaraa	unk	_	_	_	_	_	orth=दुसरा|gloss=second
+29	parameshvar	parameshvar	PROPN	_	_	20	attr	_	orth=परमेश्वर|gloss=God|Number=Sing
+30	hailec	hailec	unk	_	_	_	_	_	orth=हैलेच|gloss=car
+31	.	.	PUNCT	_	_	_	_	_	orth=.
+
+# sent_id = 41014037
+# ref_id = Mark 14:37
+# eng_text = He came and found them sleeping , and said to Peter , " Simon , are you sleeping ? Couldn't you watch one hour ?
+# hoy_text = baak yiishu vaapas bamdun adik nolladun ki muruu celaagoll mimgegyaar iid nollaku pataras se amdun , “ he shamaun , nii mimgetyaa ? yen nii uumd taas bhii jaagsa sakidiil ?
+# hoy_orth = बाक यीशु वापस बंदुन अदिक नोळदुन कि मुरू चेलागोळ मिंगेग्यार ईद नोळकु पतरस से अंदुन , “ हे शमौन , नी मिंगेत्या ? येन नी ऊंद तास भी जाग्स सकिदील ?
+1	baak	baak	unk	_	_	_	_	_	orth=बाक|gloss=sang
+2	yiishu	yiishu	unk	_	_	_	_	_	orth=यीशु|gloss=Jesus
+3	vaapas	vaapas	VERB	_	_	0	root	_	orth=वापस|gloss=returned|Tense=Past|VerbForm=Fin
+4	bamdun	bamdun	unk	_	_	_	_	_	orth=बंदुन|gloss=region
+5	adik	adik	CCONJ	_	_	3	cc	_	orth=अदिक|gloss=and|ConjType=Cmp
+6	nolladun	nolladun	ADJ	_	_	21	acomp	_	orth=नोळदुन|gloss=asleep|Degree=Pos
+7	ki	ki	unk	_	_	_	_	_	orth=कि|gloss=that
+8	muruu	muruu	unk	_	_	_	_	_	orth=मुरू|gloss=plagues
+9	celaagoll	celaagoll	NOUN	_	_	6	nsubj	_	orth=चेलागोळ|gloss=disciples|Number=Plur
+10	mimgegyaar	mimgegyaar	unk	_	_	_	_	_	orth=मिंगेग्यार
+11	iid	iid	unk	_	_	_	_	_	orth=ईद|gloss=This
+12	nollaku	nollaku	unk	_	_	_	_	_	orth=नोळकु|gloss=intently
+13	pataras	pataras	PROPN	_	_	_	pobj	_	orth=पतरस|gloss=Peter|Number=Sing
+14	se	se	unk	_	_	_	_	_	orth=से
+15	amdun	amdun	VERB	_	_	0	root	_	orth=अंदुन|gloss=said|Tense=Past|VerbForm=Fin
+16	,	,	PUNCT	_	_	_	_	_	orth=,
+17	“	“	PUNCT	_	_	_	_	_	orth=“
+18	he	he	unk	_	_	_	_	_	orth=हे|gloss=dear
+19	shamaun	shamaun	PROPN	_	_	21	npadvmod	_	orth=शमौन|gloss=Simon|Number=Sing
+20	,	,	PUNCT	_	_	_	_	_	orth=,
+21	nii	nii	AUX	_	_	15	ccomp	_	orth=नी|gloss=are|Mood=Ind|Tense=Pres|VerbForm=Fin
+22	mimgetyaa	mimgetyaa	unk	_	_	_	_	_	orth=मिंगेत्या
+23	?	?	PUNCT	_	_	_	_	_	orth=?
+24	yen	yen	unk	_	_	_	_	_	orth=येन|gloss=Of
+25	nii	nii	AUX	_	_	15	ccomp	_	orth=नी|gloss=are|Mood=Ind|Tense=Pres|VerbForm=Fin
+26	uumd	uumd	NUM	_	_	_	nummod	_	orth=ऊंद|gloss=one|NumType=Card
+27	taas	taas	unk	_	_	_	_	_	orth=तास
+28	bhii	bhii	unk	_	_	_	_	_	orth=भी|gloss=also
+29	jaagsa	jaagsa	unk	_	_	_	_	_	orth=जाग्स|gloss=vis
+30	sakidiil	sakidiil	AUX	_	_	_	aux	_	orth=सकिदील|gloss=Could|VerbForm=Fin
+31	?	?	PUNCT	_	_	_	_	_	orth=?
+
+# sent_id = 42004002
+# ref_id = Luke 4:2
+# eng_text = for forty days , being tempted by the devil . He ate nothing in those days . Afterward , when they were completed , he was hungry .
+# hoy_text = adik caaliis din taakaa aatmaa anda kalsadur del sunasaan jaagaa daa ttettaallatelaa iittun ; adik shaitaan aauun pariikssaa maallatelaa iitta . aa dinagoll daa yiishu yenu tamdidiil , adik yaag av din puraa aadav , raa aauuk hasu hat .
+# hoy_orth = अदिक चालीस दिन ताका आत्मा अन्द कल्सदुर देल सुनसान जागा दा टेटाळतेला ईत्‍तुन ; अदिक शैतान आऊन परीक्षा माळतेला ईत्‍त . आ दिनगोळ दा यीशु येनु तंदिदील , अदिक याग अव दिन पुरा आदव , रा आऊक हसु हत .
+1	adik	adik	CCONJ	_	_	_	cc	_	orth=अदिक|gloss=and|ConjType=Cmp
+2	caaliis	caaliis	NUM	_	_	3	nummod	_	orth=चालीस|gloss=forty|NumType=Card
+3	din	din	NOUN	_	_	_	pobj	_	orth=दिन|gloss=days|Number=Plur
+4	taakaa	taakaa	unk	_	_	_	_	_	orth=ताका|gloss=months
+5	aatmaa	aatmaa	unk	_	_	_	_	_	orth=आत्मा|gloss=Spirit
+6	anda	anda	unk	_	_	_	_	_	orth=अन्द|gloss=ot
+7	kalsadur	kalsadur	unk	_	_	_	_	_	orth=कल्सदुर
+8	del	del	unk	_	_	_	_	_	orth=देल|gloss=behalf
+9	sunasaan	sunasaan	unk	_	_	_	_	_	orth=सुनसान|gloss=late
+10	jaagaa	jaagaa	unk	_	_	_	_	_	orth=जागा|gloss=place
+11	daa	daa	unk	_	_	_	_	_	orth=दा|gloss=in
+12	ttettaallatelaa	ttettaallatelaa	unk	_	_	_	_	_	orth=टेटाळतेला|gloss=ting
+13	iittun	iittun	unk	_	_	_	_	_	orth=ईत्‍तुन|gloss=traveled
+14	;	;	PUNCT	_	_	_	_	_	orth=;
+15	adik	adik	CCONJ	_	_	_	cc	_	orth=अदिक|gloss=and|ConjType=Cmp
+16	shaitaan	shaitaan	NOUN	_	_	_	pobj	_	orth=शैतान|gloss=devil|Number=Sing
+17	aauun	aauun	unk	_	_	_	_	_	orth=आऊन|gloss=him
+18	pariikssaa	pariikssaa	unk	_	_	_	_	_	orth=परीक्षा|gloss=weak
+19	maallatelaa	maallatelaa	unk	_	_	_	_	_	orth=माळतेला|gloss=occ
+20	iitta	iitta	unk	_	_	_	_	_	orth=ईत्‍त|gloss=amount
+21	.	.	PUNCT	_	_	_	_	_	orth=.
+22	aa	aa	unk	_	_	_	_	_	orth=आ|gloss=ull
+23	dinagoll	dinagoll	NOUN	_	_	_	pobj	_	orth=दिनगोळ|gloss=days|Number=Plur
+24	daa	daa	unk	_	_	_	_	_	orth=दा|gloss=in
+25	yiishu	yiishu	PROPN	_	_	_	nsubj	_	orth=यीशु|gloss=Jesus|Number=Sing
+26	yenu	yenu	PRON	_	_	_	dobj	_	orth=येनु|gloss=nothing|Number=Sing|PronType=Ind
+27	tamdidiil	tamdidiil	unk	_	_	_	_	_	orth=तंदिदील|gloss=food
+28	,	,	PUNCT	_	_	_	_	_	orth=,
+29	adik	adik	CCONJ	_	_	_	cc	_	orth=अदिक|gloss=and|ConjType=Cmp
+30	yaag	yaag	unk	_	_	_	_	_	orth=याग|gloss=stands
+31	av	av	unk	_	_	_	_	_	orth=अव|gloss=someday
+32	din	din	NOUN	_	_	_	pobj	_	orth=दिन|gloss=days|Number=Plur
+33	puraa	puraa	unk	_	_	_	_	_	orth=पुरा|gloss=atch
+34	aadav	aadav	unk	_	_	_	_	_	orth=आदव|gloss=forgiven
+35	,	,	PUNCT	_	_	_	_	_	orth=,
+36	raa	raa	unk	_	_	_	_	_	orth=रा|gloss=when
+37	aauuk	aauuk	unk	_	_	_	_	_	orth=आऊक|gloss=ges
+38	hasu	hasu	ADJ	_	_	_	acomp	_	orth=हसु|gloss=hungry|Degree=Pos
+39	hat	hat	unk	_	_	_	_	_	orth=हत|gloss=mountains
+40	.	.	PUNCT	_	_	_	_	_	orth=.
+
+# sent_id = 42016013
+# ref_id = Luke 16:13
+# eng_text = No servant can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You aren't able to serve God and mammon . "
+# hoy_text = “ yaavaaraa daas yeddhddha svaamiigollda syaavaa maall sakaalun : yatikii aav raa uumd se dushmanii adik dusaraa se pyaar iittyaan ; yaa uumd mamllasaa ak iimaanadaar adik dusaraa ak niic jaanasyaan . niiv parameshvar adik dhan yeddhddhu syaavaa maall sakaaliir . ”
+# hoy_orth = “ यावारा दास येढ्ढ स्वामीगोळ्द स्यावा माळ सकालुन : यतिकी आव रा ऊंद से दुश्मनी अदिक दुसरा से प्यार ईट्यान ; या ऊंद मंळसा अक ईमानदार अदिक दुसरा अक नीच जानस्यान . नीव परमेश्वर अदिक धन येढ्ढु स्यावा माळ सकालीर . ”
+1	“	“	PUNCT	_	_	_	_	_	orth=“
+2	yaavaaraa	yaavaaraa	unk	_	_	_	_	_	orth=यावारा|gloss=Anyone
+3	daas	daas	unk	_	_	_	_	_	orth=दास|gloss=servant
+4	yeddhddha	yeddhddha	NUM	_	_	_	nummod	_	orth=येढ्ढ|gloss=two|NumType=Card
+5	svaamiigollda	svaamiigollda	VERB	_	_	_	acomp	_	orth=स्वामीगोळ्द|gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+6	syaavaa	syaavaa	VERB	_	_	0	root	_	orth=स्यावा|gloss=serve|VerbForm=Inf
+7	maall	maall	unk	_	_	_	_	_	orth=माळ|gloss=grows
+8	sakaalun	sakaalun	unk	_	_	_	_	_	orth=सकालुन|gloss=ince
+9	:	:	PUNCT	_	_	_	_	_	orth=:
+10	yatikii	yatikii	ADP	_	_	15	prep	_	orth=यतिकी|gloss=For
+11	aav	aav	unk	_	_	_	_	_	orth=आव|gloss=he
+12	raa	raa	unk	_	_	_	_	_	orth=रा|gloss=when
+13	uumd	uumd	NUM	_	_	_	pobj	_	orth=ऊंद|gloss=one|NumType=Card
+14	se	se	unk	_	_	_	_	_	orth=से
+15	dushmanii	dushmanii	VERB	_	_	_	ccomp	_	orth=दुश्मनी|gloss=hate|VerbForm=Inf
+16	adik	adik	CCONJ	_	_	34	cc	_	orth=अदिक|gloss=and|ConjType=Cmp
+17	dusaraa	dusaraa	unk	_	_	_	_	_	orth=दुसरा|gloss=second
+18	se	se	unk	_	_	_	_	_	orth=से
+19	pyaar	pyaar	VERB	_	_	15	conj	_	orth=प्यार|gloss=love|VerbForm=Inf
+20	iittyaan	iittyaan	VERB	_	_	_	acomp	_	orth=ईट्यान|gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+21	;	;	PUNCT	_	_	_	_	_	orth=;
+22	yaa	yaa	unk	_	_	_	_	_	orth=या|gloss=or
+23	uumd	uumd	NUM	_	_	_	pobj	_	orth=ऊंद|gloss=one|NumType=Card
+24	mamllasaa	mamllasaa	unk	_	_	_	_	_	orth=मंळसा|gloss=disobey
+25	ak	ak	unk	_	_	_	_	_	orth=अक|gloss=ise
+26	iimaanadaar	iimaanadaar	unk	_	_	_	_	_	orth=ईमानदार
+27	adik	adik	CCONJ	_	_	34	cc	_	orth=अदिक|gloss=and|ConjType=Cmp
+28	dusaraa	dusaraa	unk	_	_	_	_	_	orth=दुसरा|gloss=second
+29	ak	ak	unk	_	_	_	_	_	orth=अक|gloss=ise
+30	niic	niic	unk	_	_	_	_	_	orth=नीच|gloss=desp
+31	jaanasyaan	jaanasyaan	VERB	_	_	_	acomp	_	orth=जानस्यान|gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+32	.	.	PUNCT	_	_	_	_	_	orth=.
+33	niiv	niiv	PRON	_	_	38	nsubj	_	orth=नीव|gloss=You|Case=Nom|Person=2|PronType=Prs
+34	parameshvar	parameshvar	PROPN	_	_	38	dobj	_	orth=परमेश्वर|gloss=God|Number=Sing
+35	adik	adik	CCONJ	_	_	34	cc	_	orth=अदिक|gloss=and|ConjType=Cmp
+36	dhan	dhan	unk	_	_	_	_	_	orth=धन|gloss=treasures
+37	yeddhddhu	yeddhddhu	CCONJ	_	_	34	det	_	orth=येढ्ढु|gloss=both|ConjType=Cmp
+38	syaavaa	syaavaa	VERB	_	_	0	root	_	orth=स्यावा|gloss=serve|VerbForm=Inf
+39	maall	maall	unk	_	_	_	_	_	orth=माळ|gloss=grows
+40	sakaaliir	sakaaliir	unk	_	_	_	_	_	orth=सकालीर|gloss=cannot
+41	.	.	PUNCT	_	_	_	_	_	orth=.
+42	”	”	PUNCT	_	_	_	_	_	orth=”
+
+# sent_id = 42024018
+# ref_id = Luke 24:18
+# eng_text = One of them , named Cleopas , answered him , " Are you the only one travelling in Jerusalem who doesn't know the things which have happened there in these days ? "
+# hoy_text = iid kellaku aamdur daa ttu kliyopaas hesur iinav uumd mamllasaa amdun , “ yen nii yaruushalem daa aabanaa paradeshii aay , jo jaansaalun ki ii dinagoll daa adurdaa yen yen aagyaad ? ”
+# hoy_orth = ईद केळकु आंदुर दा टु क्लियोपास हेसुर ईनव ऊंद मंळसा अंदुन , “ येन नी यरूशलेम दा आबना परदेशी आय , जो जान्सालुन कि ई दिनगोळ दा अदुर्दा येन येन आग्याद ? ”
+1	iid	iid	unk	_	_	_	_	_	orth=ईद|gloss=This
+2	kellaku	kellaku	unk	_	_	_	_	_	orth=केळकु|gloss=iled
+3	aamdur	aamdur	unk	_	_	_	_	_	orth=आंदुर|gloss=they
+4	daa	daa	ADP	_	_	_	prep	_	orth=दा|gloss=in
+5	ttu	ttu	unk	_	_	_	_	_	orth=टु|gloss=from
+6	kliyopaas	kliyopaas	unk	_	_	_	_	_	orth=क्लियोपास
+7	hesur	hesur	unk	_	_	_	_	_	orth=हेसुर|gloss=name
+8	iinav	iinav	unk	_	_	_	_	_	orth=ईनव|gloss=leader
+9	uumd	uumd	NUM	_	_	_	nsubj	_	orth=ऊंद|gloss=one|NumType=Card
+10	mamllasaa	mamllasaa	unk	_	_	_	_	_	orth=मंळसा|gloss=disobey
+11	amdun	amdun	unk	_	_	_	_	_	orth=अंदुन|gloss=said
+12	,	,	PUNCT	_	_	_	_	_	orth=,
+13	“	“	PUNCT	_	_	_	_	_	orth=“
+14	yen	yen	unk	_	_	_	_	_	orth=येन|gloss=Of
+15	nii	nii	unk	_	_	_	_	_	orth=नी|gloss=are
+16	yaruushalem	yaruushalem	PROPN	_	_	17	pobj	_	orth=यरूशलेम|gloss=Jerusalem|Number=Sing
+17	daa	daa	ADP	_	_	_	prep	_	orth=दा|gloss=in
+18	aabanaa	aabanaa	unk	_	_	_	_	_	orth=आबना|gloss=alone
+19	paradeshii	paradeshii	unk	_	_	_	_	_	orth=परदेशी|gloss=stranger
+20	aay	aay	unk	_	_	_	_	_	orth=आय|gloss=enjoy
+21	,	,	PUNCT	_	_	_	_	_	orth=,
+22	jo	jo	PRON	_	_	_	nsubj	_	orth=जो|gloss=who
+23	jaansaalun	jaansaalun	unk	_	_	_	_	_	orth=जान्सालुन|gloss=flames
+24	ki	ki	PRON	_	_	_	nsubj	_	orth=कि|gloss=that|PronType=Rel
+25	ii	ii	unk	_	_	_	_	_	orth=ई|gloss=these
+26	dinagoll	dinagoll	NOUN	_	_	_	npadvmod	_	orth=दिनगोळ|gloss=days|Number=Plur
+27	daa	daa	ADP	_	_	_	prep	_	orth=दा|gloss=in
+28	adurdaa	adurdaa	unk	_	_	_	_	_	orth=अदुर्दा|gloss=planted
+29	yen	yen	unk	_	_	_	_	_	orth=येन|gloss=Of
+30	yen	yen	unk	_	_	_	_	_	orth=येन|gloss=Of
+31	aagyaad	aagyaad	unk	_	_	_	_	_	orth=आग्याद|gloss=ies
+32	?	?	PUNCT	_	_	_	_	_	orth=?
+33	”	”	PUNCT	_	_	_	_	_	orth=”
+
+# sent_id = 43001039
+# ref_id = John 1:39
+# eng_text = He said to them , " Come , and see . " They came and saw where he was staying , and they stayed with him that day . It was about the tenth hour .
+# hoy_text = yiishu aamdur se amdun , “ nallii , raa noll komddiir . ” aag aamdur hogaku aauun iirod jaagaa nolladur , adik aa din aauun saamgull iittur . yatikii dyaavamullakaa nav lagabhag naak muradogidav .
+# hoy_orth = यीशु आंदुर से अंदुन , “ नळी , रा नोळ कोंडीर . ” आग आंदुर होगकु आऊन ईरोद जागा नोळदुर , अदिक आ दिन आऊन सांगुळ ईत्‍तुर . यतिकी द्यावमुळका नव लगभग नाक मुरदोगिदव .
+1	yiishu	yiishu	unk	_	_	_	_	_	orth=यीशु|gloss=Jesus
+2	aamdur	aamdur	PRON	_	_	_	nsubj	_	orth=आंदुर|gloss=they|Case=Nom|Number=Plur|Person=3|PronType=Prs
+3	se	se	unk	_	_	_	_	_	orth=से
+4	amdun	amdun	VERB	_	_	0	root	_	orth=अंदुन|gloss=said|Tense=Past|VerbForm=Fin
+5	,	,	PUNCT	_	_	_	_	_	orth=,
+6	“	“	PUNCT	_	_	_	_	_	orth=“
+7	nallii	nallii	unk	_	_	_	_	_	orth=नळी|gloss=require
+8	,	,	PUNCT	_	_	_	_	_	orth=,
+9	raa	raa	SCONJ	_	_	16	advmod	_	orth=रा|gloss=when
+10	noll	noll	VERB	_	_	_	conj	_	orth=नोळ|gloss=see|VerbForm=Inf
+11	komddiir	komddiir	unk	_	_	_	_	_	orth=कोंडीर|gloss=Li
+12	.	.	PUNCT	_	_	_	_	_	orth=.
+13	”	”	PUNCT	_	_	_	_	_	orth=”
+14	aag	aag	unk	_	_	_	_	_	orth=आग|gloss=Then
+15	aamdur	aamdur	PRON	_	_	_	nsubj	_	orth=आंदुर|gloss=they|Case=Nom|Number=Plur|Person=3|PronType=Prs
+16	hogaku	hogaku	VERB	_	_	_	advcl	_	orth=होगकु|gloss=went|Tense=Past|VerbForm=Fin
+17	aauun	aauun	PRON	_	_	26	pobj	_	orth=आऊन|gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+18	iirod	iirod	unk	_	_	_	_	_	orth=ईरोद|gloss=room
+19	jaagaa	jaagaa	NOUN	_	_	_	pobj	_	orth=जागा|gloss=place|Number=Sing
+20	nolladur	nolladur	unk	_	_	_	_	_	orth=नोळदुर|gloss=streets
+21	,	,	PUNCT	_	_	_	_	_	orth=,
+22	adik	adik	CCONJ	_	_	_	cc	_	orth=अदिक|gloss=and|ConjType=Cmp
+23	aa	aa	unk	_	_	_	_	_	orth=आ|gloss=ull
+24	din	din	unk	_	_	_	_	_	orth=दिन|gloss=days
+25	aauun	aauun	PRON	_	_	26	pobj	_	orth=आऊन|gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+26	saamgull	saamgull	ADP	_	_	_	prep	_	orth=सांगुळ|gloss=with
+27	iittur	iittur	unk	_	_	_	_	_	orth=ईत्‍तुर|gloss=pregnant
+28	.	.	PUNCT	_	_	_	_	_	orth=.
+29	yatikii	yatikii	unk	_	_	_	_	_	orth=यतिकी|gloss=For
+30	dyaavamullakaa	dyaavamullakaa	unk	_	_	_	_	_	orth=द्यावमुळका|gloss=tomorrow
+31	nav	nav	unk	_	_	_	_	_	orth=नव|gloss=heads
+32	lagabhag	lagabhag	unk	_	_	_	_	_	orth=लगभग|gloss=cl
+33	naak	naak	unk	_	_	_	_	_	orth=नाक|gloss=4
+34	muradogidav	muradogidav	unk	_	_	_	_	_	orth=मुरदोगिदव
+35	.	.	PUNCT	_	_	_	_	_	orth=.
+
+# sent_id = 43003016
+# ref_id = John 3:16
+# eng_text = For God so loved the world , that he gave his one and only Son , that whoever believes in him should not perish , but have eternal life .
+# hoy_text = “ yatikii parameshvar duniyaa se himg pyaar iittadun ki aav taan uumd tthaisaa paar kott buttttun , taakii jo yaavaaraa aauun maa vishvaas maallyaan aauun naash aagabaallul , lekiin aauuk ananta jiivan sikul .
+# hoy_orth = “ यतिकी परमेश्वर दुनिया से हिंग प्यार ईटदुन कि आव तान ऊंद ठैसा पार कोट बुट्टुन , ताकी जो यावारा आऊन मा विश्वास माळ्यान आऊन नाश आगबाळुल , लेकीन आऊक अनन्त जीवन सिकुल .
+1	“	“	PUNCT	_	_	_	_	_	orth=“
+2	yatikii	yatikii	ADP	_	_	_	prep	_	orth=यतिकी|gloss=For
+3	parameshvar	parameshvar	PROPN	_	_	_	nsubj	_	orth=परमेश्वर|gloss=God|Number=Sing
+4	duniyaa	duniyaa	NOUN	_	_	_	dobj	_	orth=दुनिया|gloss=world|Number=Sing
+5	se	se	unk	_	_	_	_	_	orth=से
+6	himg	himg	unk	_	_	_	_	_	orth=हिंग|gloss=becomes
+7	pyaar	pyaar	unk	_	_	_	_	_	orth=प्यार|gloss=love
+8	iittadun	iittadun	unk	_	_	_	_	_	orth=ईटदुन|gloss=placed
+9	ki	ki	SCONJ	_	_	_	mark	_	orth=कि|gloss=that
+10	aav	aav	PRON	_	_	15	nsubj	_	orth=आव|gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+11	taan	taan	unk	_	_	_	_	_	orth=तान|gloss=their
+12	uumd	uumd	NUM	_	_	15	dobj	_	orth=ऊंद|gloss=one|NumType=Card
+13	tthaisaa	tthaisaa	ADV	_	_	_	advmod	_	orth=ठैसा|gloss=much
+14	paar	paar	PROPN	_	_	12	appos	_	orth=पार|gloss=Son|Number=Sing
+15	kott	kott	VERB	_	_	13	ccomp	_	orth=कोट|gloss=gave|Tense=Past|VerbForm=Fin
+16	buttttun	buttttun	unk	_	_	_	_	_	orth=बुट्टुन|gloss=ashing
+17	,	,	PUNCT	_	_	_	_	_	orth=,
+18	taakii	taakii	unk	_	_	_	_	_	orth=ताकी|gloss=suffered
+19	jo	jo	PRON	_	_	_	nsubj	_	orth=जो|gloss=who
+20	yaavaaraa	yaavaaraa	unk	_	_	_	_	_	orth=यावारा|gloss=Anyone
+21	aauun	aauun	PRON	_	_	_	pobj	_	orth=आऊन|gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+22	maa	maa	unk	_	_	_	_	_	orth=मा|gloss=on
+23	vishvaas	vishvaas	unk	_	_	_	_	_	orth=विश्वास|gloss=faith
+24	maallyaan	maallyaan	unk	_	_	_	_	_	orth=माळ्यान|gloss=committed
+25	aauun	aauun	PRON	_	_	_	pobj	_	orth=आऊन|gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+26	naash	naash	unk	_	_	_	_	_	orth=नाश|gloss=destroy
+27	aagabaallul	aagabaallul	unk	_	_	_	_	_	orth=आगबाळुल|gloss=m
+28	,	,	PUNCT	_	_	_	_	_	orth=,
+29	lekiin	lekiin	unk	_	_	_	_	_	orth=लेकीन|gloss=But
+30	aauuk	aauuk	unk	_	_	_	_	_	orth=आऊक|gloss=ges
+31	ananta	ananta	ADJ	_	_	32	amod	_	orth=अनन्त|gloss=eternal|Degree=Pos
+32	jiivan	jiivan	NOUN	_	_	_	dobj	_	orth=जीवन|gloss=life|Number=Sing
+33	sikul	sikul	unk	_	_	_	_	_	orth=सिकुल|gloss=deserve
+34	.	.	PUNCT	_	_	_	_	_	orth=.
+
+# sent_id = 44002030
+# ref_id = Acts 2:30
+# eng_text = Therefore , being a prophet , and knowing that God had sworn with an oath to him that of the fruit of his body , according to the flesh , he would raise up the Christ to sit on his throne ,
+# hoy_text = yatikii aav parameshvar un dii ttu baatannii taraavaallaa iiron , aav jaanason ki parameshvar naan se himg kiryaa timdaan ki naa niimd vamsh daa ttu uumd mamllasaa ak niin simhaasan maa kurasaaiin ;
+# hoy_orth = यतिकी आव परमेश्वर उन दी टु बातणी तरावाळा ईरोन , आव जानसोन कि परमेश्वर नान से हिंग किर्‍या तिंदान कि ना नींद वंश दा टु ऊंद मंळसा अक नीन सिंहासन मा कुरसाईन ;
+1	yatikii	yatikii	unk	_	_	_	_	_	orth=यतिकी|gloss=For
+2	aav	aav	PRON	_	_	12	nsubj	_	orth=आव|gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+3	parameshvar	parameshvar	PROPN	_	_	_	nsubj	_	orth=परमेश्वर|gloss=God|Number=Sing
+4	un	un	unk	_	_	_	_	_	orth=उन|gloss=s
+5	dii	dii	unk	_	_	_	_	_	orth=दी|gloss=bed
+6	ttu	ttu	unk	_	_	_	_	_	orth=टु|gloss=from
+7	baatannii	baatannii	unk	_	_	_	_	_	orth=बातणी|gloss=alike
+8	taraavaallaa	taraavaallaa	NOUN	_	_	_	pobj	_	orth=तरावाळा|gloss=descendants|Number=Plur
+9	iiron	iiron	AUX	_	_	0	root	_	orth=ईरोन|gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+10	,	,	PUNCT	_	_	_	_	_	orth=,
+11	aav	aav	PRON	_	_	12	nsubj	_	orth=आव|gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+12	jaanason	jaanason	VERB	_	_	9	conj	_	orth=जानसोन|gloss=knew|Tense=Past|VerbForm=Fin
+13	ki	ki	SCONJ	_	_	_	mark	_	orth=कि|gloss=that
+14	parameshvar	parameshvar	PROPN	_	_	_	nsubj	_	orth=परमेश्वर|gloss=God|Number=Sing
+15	naan	naan	unk	_	_	_	_	_	orth=नान|gloss=my
+16	se	se	unk	_	_	_	_	_	orth=से
+17	himg	himg	unk	_	_	_	_	_	orth=हिंग|gloss=becomes
+18	kiryaa	kiryaa	NOUN	_	_	_	pobj	_	orth=किर्‍या|gloss=oath|Number=Sing
+19	timdaan	timdaan	NOUN	_	_	_	pobj	_	orth=तिंदान|gloss=oath|Number=Sing
+20	ki	ki	SCONJ	_	_	_	mark	_	orth=कि|gloss=that
+21	naa	naa	unk	_	_	_	_	_	orth=ना|gloss=I
+22	niimd	niimd	unk	_	_	_	_	_	orth=नींद|gloss=naked
+23	vamsh	vamsh	unk	_	_	_	_	_	orth=वंश|gloss=liness
+24	daa	daa	unk	_	_	_	_	_	orth=दा|gloss=in
+25	ttu	ttu	unk	_	_	_	_	_	orth=टु|gloss=from
+26	uumd	uumd	NUM	_	_	_	nsubj	_	orth=ऊंद|gloss=one|NumType=Card
+27	mamllasaa	mamllasaa	unk	_	_	_	_	_	orth=मंळसा|gloss=disobey
+28	ak	ak	unk	_	_	_	_	_	orth=अक|gloss=ise
+29	niin	niin	unk	_	_	_	_	_	orth=नीन|gloss=ering
+30	simhaasan	simhaasan	NOUN	_	_	31	pobj	_	orth=सिंहासन|gloss=throne|Number=Sing
+31	maa	maa	ADP	_	_	_	prep	_	orth=मा|gloss=on
+32	kurasaaiin	kurasaaiin	unk	_	_	_	_	_	orth=कुरसाईन
+33	;	;	PUNCT	_	_	_	_	_	orth=;
+
+# sent_id = 44009038
+# ref_id = Acts 9:38
+# eng_text = As Lydda was near Joppa , the disciples , hearing that Peter was there , sent two men to him , imploring him not to delay in coming to them .
+# hoy_text = idurasaattii ki luddaa yaaphaa an haattii iirod , celaagoll iid kellaku ki pataras al aan , yeddhddha mamllasaa kalluku aauun se vinatii maalladur , “ naam haatii baror saattii der maallabaall . ”
+# hoy_orth = इदुरसाटी कि लुद्दा याफा अन हात्‍ती ईरोद , चेलागोळ ईद केळकु कि पतरस अल आन , येढ्ढ मंळसा कळुकु आऊन से विनती माळदुर , “ नाम हाती बरोर साटी देर माळबाळ . ”
+1	idurasaattii	idurasaattii	unk	_	_	_	_	_	orth=इदुरसाटी|gloss=Therefore
+2	ki	ki	SCONJ	_	_	_	mark	_	orth=कि|gloss=that
+3	luddaa	luddaa	unk	_	_	_	_	_	orth=लुद्दा
+4	yaaphaa	yaaphaa	unk	_	_	_	_	_	orth=याफा|gloss=Joppa
+5	an	an	unk	_	_	_	_	_	orth=अन|gloss=stand
+6	haattii	haattii	unk	_	_	_	_	_	orth=हात्‍ती|gloss=near
+7	iirod	iirod	unk	_	_	_	_	_	orth=ईरोद|gloss=room
+8	,	,	PUNCT	_	_	_	_	_	orth=,
+9	celaagoll	celaagoll	unk	_	_	_	_	_	orth=चेलागोळ|gloss=disciples
+10	iid	iid	unk	_	_	_	_	_	orth=ईद|gloss=This
+11	kellaku	kellaku	unk	_	_	_	_	_	orth=केळकु|gloss=iled
+12	ki	ki	SCONJ	_	_	_	mark	_	orth=कि|gloss=that
+13	pataras	pataras	PROPN	_	_	_	nsubj	_	orth=पतरस|gloss=Peter|Number=Sing
+14	al	al	unk	_	_	_	_	_	orth=अल|gloss=there
+15	aan	aan	unk	_	_	_	_	_	orth=आन|gloss=makes
+16	,	,	PUNCT	_	_	_	_	_	orth=,
+17	yeddhddha	yeddhddha	NUM	_	_	_	nummod	_	orth=येढ्ढ|gloss=two|NumType=Card
+18	mamllasaa	mamllasaa	unk	_	_	_	_	_	orth=मंळसा|gloss=disobey
+19	kalluku	kalluku	unk	_	_	_	_	_	orth=कळुकु|gloss=sum
+20	aauun	aauun	PRON	_	_	_	dobj	_	orth=आऊन|gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+21	se	se	unk	_	_	_	_	_	orth=से
+22	vinatii	vinatii	unk	_	_	_	_	_	orth=विनती|gloss=begged
+23	maalladur	maalladur	unk	_	_	_	_	_	orth=माळदुर|gloss=greet
+24	,	,	PUNCT	_	_	_	_	_	orth=,
+25	“	“	PUNCT	_	_	_	_	_	orth=“
+26	naam	naam	unk	_	_	_	_	_	orth=नाम|gloss=our
+27	haatii	haatii	unk	_	_	_	_	_	orth=हाती|gloss=close
+28	baror	baror	unk	_	_	_	_	_	orth=बरोर|gloss=dark
+29	saattii	saattii	unk	_	_	_	_	_	orth=साटी|gloss=uring
+30	der	der	unk	_	_	_	_	_	orth=देर|gloss=del
+31	maallabaall	maallabaall	unk	_	_	_	_	_	orth=माळबाळ|gloss=Ly
+32	.	.	PUNCT	_	_	_	_	_	orth=.
+33	”	”	PUNCT	_	_	_	_	_	orth=”
+
+# sent_id = 44011011
+# ref_id = Acts 11:11
+# eng_text = Behold , immediately three men stood before the house where I was , having been sent from Caesarea to me .
+# hoy_text = adik nollii , turanta mur mamllasaa jo kaisariyaa ttu naan haattii kalluku aagiidur , aa maanyaa yal naav iirev , bamdaku niduradur .
+# hoy_orth = अदिक नोळी , तुरन्त मुर मंळसा जो कैसरिया टु नान हात्‍ती कळुकु आगीदुर , आ मान्या यल नाव ईरेव , बंदकु निदुरदुर .
+1	adik	adik	unk	_	_	_	_	_	orth=अदिक|gloss=and
+2	nollii	nollii	unk	_	_	_	_	_	orth=नोळी|gloss=Look
+3	,	,	PUNCT	_	_	_	_	_	orth=,
+4	turanta	turanta	unk	_	_	_	_	_	orth=तुरन्त|gloss=immediately
+5	mur	mur	NUM	_	_	_	nummod	_	orth=मुर|gloss=three|NumType=Card
+6	mamllasaa	mamllasaa	unk	_	_	_	_	_	orth=मंळसा|gloss=disobey
+7	jo	jo	PRON	_	_	_	nsubjpass	_	orth=जो|gloss=who
+8	kaisariyaa	kaisariyaa	PROPN	_	_	9	pobj	_	orth=कैसरिया|gloss=Caesarea|Number=Sing
+9	ttu	ttu	ADP	_	_	_	prep	_	orth=टु|gloss=from
+10	naan	naan	unk	_	_	_	_	_	orth=नान|gloss=my
+11	haattii	haattii	unk	_	_	_	_	_	orth=हात्‍ती|gloss=near
+12	kalluku	kalluku	unk	_	_	_	_	_	orth=कळुकु|gloss=sum
+13	aagiidur	aagiidur	unk	_	_	_	_	_	orth=आगीदुर|gloss=cured
+14	,	,	PUNCT	_	_	_	_	_	orth=,
+15	aa	aa	unk	_	_	_	_	_	orth=आ|gloss=ull
+16	maanyaa	maanyaa	unk	_	_	_	_	_	orth=मान्या|gloss=home
+17	yal	yal	SCONJ	_	_	_	advmod	_	orth=यल|gloss=where
+18	naav	naav	PRON	_	_	_	nsubj	_	orth=नाव|gloss=we|Case=Nom|Number=Plur|Person=1|PronType=Prs
+19	iirev	iirev	unk	_	_	_	_	_	orth=ईरेव|gloss=ole
+20	,	,	PUNCT	_	_	_	_	_	orth=,
+21	bamdaku	bamdaku	VERB	_	_	0	root	_	orth=बंदकु|gloss=arrived|Tense=Past|VerbForm=Fin
+22	niduradur	niduradur	unk	_	_	_	_	_	orth=निदुरदुर|gloss=stra
+23	.	.	PUNCT	_	_	_	_	_	orth=.
+
+# sent_id = 44021034
+# ref_id = Acts 21:34
+# eng_text = Some shouted one thing , some another , among the crowd . When he couldn't find out the truth because of the noise , he commanded him to be brought into the barracks .
+# hoy_text = lekiin bhiill daa ttu yaavaaraa yenaaraa raa yaavaaraa yenaaraa cilllaasatelaa iittur . yaag aav damgaa in kaarann nishcit ruup del saccaaii jaansa sakidiil , raa aauuk kilaa daa oyod aagyaa kottttun .
+# hoy_orth = लेकीन भीळ दा टु यावारा येनारा रा यावारा येनारा चिल्ळासतेला ईत्‍तुर . याग आव दंगा इन कारण निश्चित रूप देल सच्चाई जान्स सकिदील , रा आऊक किला दा ओयोद आग्या कोट्टुन .
+1	lekiin	lekiin	unk	_	_	_	_	_	orth=लेकीन|gloss=But
+2	bhiill	bhiill	unk	_	_	_	_	_	orth=भीळ|gloss=crowd
+3	daa	daa	ADP	_	_	_	prep	_	orth=दा|gloss=in
+4	ttu	ttu	unk	_	_	_	_	_	orth=टु|gloss=from
+5	yaavaaraa	yaavaaraa	unk	_	_	_	_	_	orth=यावारा|gloss=Anyone
+6	yenaaraa	yenaaraa	unk	_	_	_	_	_	orth=येनारा|gloss=something
+7	raa	raa	unk	_	_	_	_	_	orth=रा|gloss=when
+8	yaavaaraa	yaavaaraa	unk	_	_	_	_	_	orth=यावारा|gloss=Anyone
+9	yenaaraa	yenaaraa	unk	_	_	_	_	_	orth=येनारा|gloss=something
+10	cilllaasatelaa	cilllaasatelaa	unk	_	_	_	_	_	orth=चिल्ळासतेला|gloss=ion
+11	iittur	iittur	unk	_	_	_	_	_	orth=ईत्‍तुर|gloss=pregnant
+12	.	.	PUNCT	_	_	_	_	_	orth=.
+13	yaag	yaag	unk	_	_	_	_	_	orth=याग|gloss=stands
+14	aav	aav	PRON	_	_	_	nsubj	_	orth=आव|gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+15	damgaa	damgaa	unk	_	_	_	_	_	orth=दंगा|gloss=stir
+16	in	in	unk	_	_	_	_	_	orth=इन|gloss=course
+17	kaarann	kaarann	unk	_	_	_	_	_	orth=कारण|gloss=since
+18	nishcit	nishcit	unk	_	_	_	_	_	orth=निश्चित|gloss=fort
+19	ruup	ruup	unk	_	_	_	_	_	orth=रूप|gloss=view
+20	del	del	unk	_	_	_	_	_	orth=देल|gloss=behalf
+21	saccaaii	saccaaii	unk	_	_	_	_	_	orth=सच्चाई|gloss=ries
+22	jaansa	jaansa	unk	_	_	_	_	_	orth=जान्स|gloss=forgiveness
+23	sakidiil	sakidiil	unk	_	_	_	_	_	orth=सकिदील|gloss=Could
+24	,	,	PUNCT	_	_	_	_	_	orth=,
+25	raa	raa	unk	_	_	_	_	_	orth=रा|gloss=when
+26	aauuk	aauuk	unk	_	_	_	_	_	orth=आऊक|gloss=ges
+27	kilaa	kilaa	unk	_	_	_	_	_	orth=किला|gloss=ress
+28	daa	daa	ADP	_	_	_	prep	_	orth=दा|gloss=in
+29	oyod	oyod	unk	_	_	_	_	_	orth=ओयोद|gloss=ress
+30	aagyaa	aagyaa	unk	_	_	_	_	_	orth=आग्या|gloss=command
+31	kottttun	kottttun	unk	_	_	_	_	_	orth=कोट्टुन|gloss=roy
+32	.	.	PUNCT	_	_	_	_	_	orth=.
+
+# sent_id = 47012002
+# ref_id = 2 Corinthians 12:2
+# eng_text = I know a man in Christ , fourteen years ago ( whether in the body , I don't know , or whether out of the body , I don't know ; God knows ) , such a one caught up into the third heaven .
+# hoy_text = naa masiih daa uumd mamllasaa ak aruutiin ; jo caudaa varssa aagyaav ki maaluum iilaa shariir sahit , maaluum iilaa shariir rahit , parameshvar aruutaan ; himg mamllasaa tisaraa svarga taakaa neguku aadun .
+# hoy_orth = ना मसीह दा ऊंद मंळसा अक अरूतीन ; जो चौदा वर्ष आग्याव कि मालूम ईला शरीर सहित , मालूम ईला शरीर रहित , परमेश्वर अरूतान ; हिंग मंळसा तिसरा स्वर्ग ताका नेगुकु आदुन .
+1	naa	naa	PRON	_	_	_	nsubj	_	orth=ना|gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+2	masiih	masiih	unk	_	_	_	_	_	orth=मसीह|gloss=Christ
+3	daa	daa	ADP	_	_	_	prep	_	orth=दा|gloss=in
+4	uumd	uumd	unk	_	_	_	_	_	orth=ऊंद|gloss=one
+5	mamllasaa	mamllasaa	unk	_	_	_	_	_	orth=मंळसा|gloss=disobey
+6	ak	ak	unk	_	_	_	_	_	orth=अक|gloss=ise
+7	aruutiin	aruutiin	unk	_	_	_	_	_	orth=अरूतीन|gloss=ering
+8	;	;	PUNCT	_	_	_	_	_	orth=;
+9	jo	jo	unk	_	_	_	_	_	orth=जो|gloss=who
+10	caudaa	caudaa	NUM	_	_	11	nummod	_	orth=चौदा|gloss=fourteen|NumType=Card
+11	varssa	varssa	NOUN	_	_	_	npadvmod	_	orth=वर्ष|gloss=years|Number=Plur
+12	aagyaav	aagyaav	unk	_	_	_	_	_	orth=आग्याव|gloss=hether
+13	ki	ki	unk	_	_	_	_	_	orth=कि|gloss=that
+14	maaluum	maaluum	unk	_	_	_	_	_	orth=मालूम|gloss=find
+15	iilaa	iilaa	unk	_	_	_	_	_	orth=ईला|gloss=n
+16	shariir	shariir	unk	_	_	_	_	_	orth=शरीर|gloss=instead
+17	sahit	sahit	unk	_	_	_	_	_	orth=सहित
+18	,	,	PUNCT	_	_	_	_	_	orth=,
+19	maaluum	maaluum	unk	_	_	_	_	_	orth=मालूम|gloss=find
+20	iilaa	iilaa	unk	_	_	_	_	_	orth=ईला|gloss=n
+21	shariir	shariir	unk	_	_	_	_	_	orth=शरीर|gloss=instead
+22	rahit	rahit	unk	_	_	_	_	_	orth=रहित
+23	,	,	PUNCT	_	_	_	_	_	orth=,
+24	parameshvar	parameshvar	PROPN	_	_	_	nsubj	_	orth=परमेश्वर|gloss=God|Number=Sing
+25	aruutaan	aruutaan	NUM	_	_	11	nummod	_	orth=अरूतान|gloss=fourteen|NumType=Card
+26	;	;	PUNCT	_	_	_	_	_	orth=;
+27	himg	himg	unk	_	_	_	_	_	orth=हिंग|gloss=becomes
+28	mamllasaa	mamllasaa	unk	_	_	_	_	_	orth=मंळसा|gloss=disobey
+29	tisaraa	tisaraa	ADJ	_	_	30	amod	_	orth=तिसरा|gloss=third|Degree=Pos
+30	svarga	svarga	PROPN	_	_	_	pobj	_	orth=स्वर्ग|gloss=heaven|Number=Sing
+31	taakaa	taakaa	unk	_	_	_	_	_	orth=ताका|gloss=months
+32	neguku	neguku	unk	_	_	_	_	_	orth=नेगुकु|gloss=ressed
+33	aadun	aadun	unk	_	_	_	_	_	orth=आदुन|gloss=deeply
+34	.	.	PUNCT	_	_	_	_	_	orth=.
+
+# sent_id = 62004009
+# ref_id = 1 John 4:9
+# eng_text = By this was God's love revealed in us , that God has sent his only born Son into the world that we might live through him .
+# hoy_text = jo pyaar parameshvar naam se iittataan , ad iidur del pragatt aagyaad ki parameshvar taan uumd tthaisaa paar uk duniyaa daa kallyaan ki naav aauun dvaaraa jiivan praapta maallev .
+# hoy_orth = जो प्यार परमेश्वर नाम से ईटतान , अद ईदुर देल प्रगट आग्याद कि परमेश्वर तान ऊंद ठैसा पार उक दुनिया दा कळ्यान कि नाव आऊन द्वारा जीवन प्राप्त माळेव .
+1	jo	jo	unk	_	_	_	_	_	orth=जो|gloss=who
+2	pyaar	pyaar	unk	_	_	_	_	_	orth=प्यार|gloss=love
+3	parameshvar	parameshvar	PROPN	_	_	_	nsubj	_	orth=परमेश्वर|gloss=God|Number=Sing
+4	naam	naam	unk	_	_	_	_	_	orth=नाम|gloss=our
+5	se	se	unk	_	_	_	_	_	orth=से
+6	iittataan	iittataan	unk	_	_	_	_	_	orth=ईटतान|gloss=hates
+7	,	,	PUNCT	_	_	_	_	_	orth=,
+8	ad	ad	unk	_	_	_	_	_	orth=अद|gloss=b
+9	iidur	iidur	unk	_	_	_	_	_	orth=ईदुर|gloss=rejoice
+10	del	del	unk	_	_	_	_	_	orth=देल|gloss=behalf
+11	pragatt	pragatt	unk	_	_	_	_	_	orth=प्रगट|gloss=revealed
+12	aagyaad	aagyaad	unk	_	_	_	_	_	orth=आग्याद|gloss=ies
+13	ki	ki	SCONJ	_	_	_	mark	_	orth=कि|gloss=that
+14	parameshvar	parameshvar	PROPN	_	_	_	nsubj	_	orth=परमेश्वर|gloss=God|Number=Sing
+15	taan	taan	unk	_	_	_	_	_	orth=तान|gloss=their
+16	uumd	uumd	NUM	_	_	_	dobj	_	orth=ऊंद|gloss=one|NumType=Card
+17	tthaisaa	tthaisaa	ADV	_	_	_	advmod	_	orth=ठैसा|gloss=much
+18	paar	paar	PROPN	_	_	16	conj	_	orth=पार|gloss=Son|Number=Sing
+19	uk	uk	unk	_	_	_	_	_	orth=उक|gloss=pleased
+20	duniyaa	duniyaa	NOUN	_	_	_	pobj	_	orth=दुनिया|gloss=world|Number=Sing
+21	daa	daa	unk	_	_	_	_	_	orth=दा|gloss=in
+22	kallyaan	kallyaan	unk	_	_	_	_	_	orth=कळ्यान|gloss=sent
+23	ki	ki	SCONJ	_	_	_	mark	_	orth=कि|gloss=that
+24	naav	naav	PRON	_	_	_	nsubj	_	orth=नाव|gloss=we|Case=Nom|Number=Plur|Person=1|PronType=Prs
+25	aauun	aauun	PRON	_	_	26	pobj	_	orth=आऊन|gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+26	dvaaraa	dvaaraa	ADP	_	_	_	prep	_	orth=द्वारा|gloss=through
+27	jiivan	jiivan	NOUN	_	_	_	dobj	_	orth=जीवन|gloss=life|Number=Sing
+28	praapta	praapta	unk	_	_	_	_	_	orth=प्राप्त|gloss=glorious
+29	maallev	maallev	unk	_	_	_	_	_	orth=माळेव|gloss=Night
+30	.	.	PUNCT	_	_	_	_	_	orth=.
+
+# sent_id = 63001005
+# ref_id = 2 John 1:5
+# eng_text = Now I beg you , dear lady , not as though I wrote to you a new commandment , but that which we had from the beginning , that we love one another .
+# hoy_text = iig he aarta , naa niinii iig yaatodu vhaashod aagyaa iilaa , lekiin adaa jo payale ttu naam haattii aad , likhsatiin ; adik niin se vinatii maallatiin ki naav aabur daabur se pyaar iittttev .
+# hoy_orth = ईग हे आर्त , ना नीनी ईग यातोदु व्हाशोद आग्या ईला , लेकीन अदा जो पयले टु नाम हात्‍ती आद , लिख्सतीन ; अदिक नीन से विनती माळतीन कि नाव आबुर दाबुर से प्यार ईट्टेव .
+1	iig	iig	unk	_	_	_	_	_	orth=ईग|gloss=hor
+2	he	he	ADJ	_	_	_	amod	_	orth=हे|gloss=dear|Degree=Pos
+3	aarta	aarta	unk	_	_	_	_	_	orth=आर्त|gloss=woman
+4	,	,	PUNCT	_	_	_	_	_	orth=,
+5	naa	naa	PRON	_	_	_	nsubj	_	orth=ना|gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+6	niinii	niinii	unk	_	_	_	_	_	orth=नीनी|gloss=la
+7	iig	iig	unk	_	_	_	_	_	orth=ईग|gloss=hor
+8	yaatodu	yaatodu	unk	_	_	_	_	_	orth=यातोदु|gloss=worthless
+9	vhaashod	vhaashod	ADJ	_	_	22	amod	_	orth=व्हाशोद|gloss=new|Degree=Pos
+10	aagyaa	aagyaa	unk	_	_	_	_	_	orth=आग्या|gloss=command
+11	iilaa	iilaa	unk	_	_	_	_	_	orth=ईला|gloss=n
+12	,	,	PUNCT	_	_	_	_	_	orth=,
+13	lekiin	lekiin	unk	_	_	_	_	_	orth=लेकीन|gloss=But
+14	adaa	adaa	unk	_	_	_	_	_	orth=अदा|gloss=pass
+15	jo	jo	unk	_	_	_	_	_	orth=जो|gloss=who
+16	payale	payale	unk	_	_	_	_	_	orth=पयले|gloss=Before
+17	ttu	ttu	ADP	_	_	_	prep	_	orth=टु|gloss=from
+18	naam	naam	unk	_	_	_	_	_	orth=नाम|gloss=our
+19	haattii	haattii	unk	_	_	_	_	_	orth=हात्‍ती|gloss=near
+20	aad	aad	unk	_	_	_	_	_	orth=आद|gloss=say
+21	,	,	PUNCT	_	_	_	_	_	orth=,
+22	likhsatiin	likhsatiin	NOUN	_	_	_	attr	_	orth=लिख्सतीन|gloss=commandment|Number=Sing
+23	;	;	PUNCT	_	_	_	_	_	orth=;
+24	adik	adik	unk	_	_	_	_	_	orth=अदिक|gloss=and
+25	niin	niin	unk	_	_	_	_	_	orth=नीन|gloss=ering
+26	se	se	unk	_	_	_	_	_	orth=से
+27	vinatii	vinatii	unk	_	_	_	_	_	orth=विनती|gloss=begged
+28	maallatiin	maallatiin	unk	_	_	_	_	_	orth=माळतीन|gloss=bri
+29	ki	ki	SCONJ	_	_	34	mark	_	orth=कि|gloss=that
+30	naav	naav	PRON	_	_	_	nsubj	_	orth=नाव|gloss=we|Case=Nom|Number=Plur|Person=1|PronType=Prs
+31	aabur	aabur	unk	_	_	_	_	_	orth=आबुर|gloss=each
+32	daabur	daabur	unk	_	_	_	_	_	orth=दाबुर|gloss=each
+33	se	se	unk	_	_	_	_	_	orth=से
+34	pyaar	pyaar	VERB	_	_	_	ccomp	_	orth=प्यार|gloss=love|VerbForm=Inf
+35	iittttev	iittttev	unk	_	_	_	_	_	orth=ईट्टेव|gloss=express
+36	.	.	PUNCT	_	_	_	_	_	orth=.
+

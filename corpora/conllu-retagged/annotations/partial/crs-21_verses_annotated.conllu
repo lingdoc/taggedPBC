@@ -1,0 +1,786 @@
+## The following text has been annotated for parts of speech by students at NTU Singapore as part of a class project in AY 2025.
+## Verses are extracted from the taggedPBC. Annotations have been developed with a combination of manual and automated approaches, with reference to existing literature and (where possible) native speakers.
+## ISO 639-3: crs, Language: Seselwa Creole French, Number of verses: 21
+## References: Bonan, C. (2013). The core grammar of Guadeloupean Creole: A descriptive and comparative approach [Master’s thesis, Ca’ Foscari University of Venice]. Università Ca’ Foscari Venezia. https://unitesi.unive.it/retrieve/37222082-c842-4449-b0c8-5ed33507c3bd/823195-1173889.pdf ; Haspelmath, M., & Tadmor, U. (Eds.). (2020). World Loanword Database (WOLD). Max Planck Institute for Evolutionary Anthropology. https://wold.clld.org/vocabulary/7
+
+# sent_id = 40006024
+# ref_id = Matthew 6:24
+# eng_text = " No one can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You can't serve both God and Mammon .
+# crs_text = Personn pa kapab servi de met . Annefe , swa i pou ay enn e kontan lot ; swa i pou devoue anver enn e mepriz lot . Ou pa kapab servi Bondye ek larzan anmenmtan .
+1	Personn	personn	PRON	_	_	_	_	_	gloss=nobody
+2	pa	pa	PART	_	_	4	neg	_	gloss=not
+3	kapab	kapab	AUX	_	_	4	aux	_	gloss=can
+4	servi	servi	VERB	_	_	0	root	_	gloss=serve
+5	de	de	NUM	_	_	_	nummod	_	gloss=two
+6	met	met	NOUN	_	_	_	_	_	gloss=master
+7	.	.	PUNCT	_	_	4	punct	_	PunctType=Peri
+8	Annefe	annefe	ADV	_	_	_	_	_	gloss=indeed
+9	,	,	PUNCT	_	_	_	_	_
+10	swa	swa	CCONJ	_	_	_	det	_	gloss=or
+11	i	i	PRON	_	_	_	_	_	gloss=he/she/it
+12	pou	pou	AUX	_	_	_	aux	_	gloss=will
+13	ay	ay	VERB	_	_	_	ccomp	_	gloss=hate
+14	enn	enn	DET	_	_	_	_	_	gloss=one
+15	e	e	CCONJ	_	_	_	cc	_	gloss=and
+16	kontan	kontan	VERB	_	_	_	_	_	gloss=love
+17	lot	lot	DET	_	_	_	_	_	gloss=another/other
+18	;	;	PUNCT	_	_	_	_	_	gloss=ment
+19	swa	swa	CCONJ	_	_	_	det	_	gloss=or
+20	i	i	PRON	_	_	_	_	_	gloss=he/she/it
+21	pou	pou	AUX	_	_	_	aux	_	gloss=will
+22	devoue	devoue	VERB	_	_	_	acomp	_	gloss=devote
+23	anver	anver	unk	_	_	_	_	_	gloss=Love
+24	enn	enn	DET	_	_	_	_	_	gloss=one
+25	e	e	CCONJ	_	_	_	cc	_	gloss=and
+26	mepriz	mepriz	VERB	_	_	_	_	_	gloss=despise
+27	lot	lot	DET	_	_	_	_	_	gloss=another/other
+28	.	.	PUNCT	_	_	32	punct	_	PunctType=Peri
+29	Ou	ou	PRON	_	_	_	_	_	gloss=you(sg)
+30	pa	pa	PART	_	_	32	neg	_	gloss=not
+31	kapab	kapab	AUX	_	_	32	aux	_	gloss=can
+32	servi	servi	VERB	_	_	0	root	_	gloss=serve
+33	Bondye	bondye	PROPN	_	_	_	_	_	gloss=God
+34	ek	ek	CCONJ	_	_	_	_	_	gloss=and/with
+35	larzan	larzan	NOUN	_	_	_	conj	_	gloss=money
+36	anmenmtan	anmenmtan	ADV	_	_	_	conj	_	gloss=at the same time
+37	.	.	PUNCT	_	_	32	punct	_	PunctType=Peri
+
+# sent_id = 40018012
+# ref_id = Matthew 18:12
+# eng_text = " What do you think ? If a man has one hundred sheep , and one of them goes astray , doesn't he leave the ninety-nine , go to the mountains , and seek that which has gone astray ?
+# crs_text = Ki zot mazinen ? Si en dimoun i annan 100 mouton e i perdi enn , pa i pou kit sa 99 mouton lo montanny , pour al rod sa enn ki'n perdi ?
+1	Ki	ki	unk	_	_	_	_	_	gloss=What
+2	zot	zot	PRON	_	_	_	pobj	_	gloss=you/they(pl)
+3	mazinen	mazinen	unk	_	_	_	_	_	gloss=think
+4	?	?	PUNCT	_	_	20	punct	_	PunctType=Peri
+5	Si	si	SCONJ	_	_	_	_	_	gloss=if
+6	en	en	DET	_	_	10	quantmod	_	gloss=a/an
+7	dimoun	dimoun	unk	_	_	_	_	_	gloss=lo
+8	i	i	PRON	_	_	14	auxpass	_	gloss=he/she/it
+9	annan	annan	VERB	_	_	_	_	_	gloss=have/there is
+10	100	100	NUM	_	_	11	nummod	_	gloss=hundred|NumType=Card
+11	mouton	mouton	NOUN	_	_	_	dobj	_	gloss=sheep
+12	e	e	CCONJ	_	_	20	cc	_	gloss=and
+13	i	i	PRON	_	_	14	auxpass	_	gloss=he/she/it
+14	perdi	perdi	VERB	_	_	_	relcl	_	gloss=lost|Aspect=Perf|Tense=Past|VerbForm=Part
+15	enn	enn	DET	_	_	_	_	_	gloss=one
+16	,	,	PUNCT	_	_	_	_	_
+17	pa	pa	PART	_	_	_	_	_	gloss=not
+18	i	i	PRON	_	_	14	auxpass	_	gloss=he/she/it
+19	pou	pou	AUX	_	_	_	aux	_	gloss=will
+20	kit	kit	VERB	_	_	0	root	_	gloss=leave
+21	sa	sa	DET	_	_	_	_	_	gloss=the/that
+22	99	99	unk	_	_	_	_	_	gloss=Won’t
+23	mouton	mouton	NOUN	_	_	_	dobj	_	gloss=sheep
+24	lo	lo	ADP	_	_	20	prep	_	gloss=on/at
+25	montanny	montanny	unk	_	_	_	_	_	gloss=mountain
+26	,	,	PUNCT	_	_	_	_	_
+27	pour	pour	ADP	_	_	29	prep	_	gloss=for/to
+28	al	al	VERB	_	_	_	_	_	gloss=go
+29	rod	rod	VERB	_	_	_	advcl	_	gloss=search
+30	sa	sa	DET	_	_	_	_	_	gloss=the/that
+31	enn	enn	DET	_	_	_	_	_	gloss=one
+32	ki'n	ki'n	unk	_	_	_	_	_	gloss=Give
+33	perdi	perdi	VERB	_	_	_	relcl	_	gloss=lost|Aspect=Perf|Tense=Past|VerbForm=Part
+34	?	?	PUNCT	_	_	20	punct	_	PunctType=Peri
+
+# sent_id = 40020021
+# ref_id = Matthew 20:21
+# eng_text = He said to her , " What do you want ? " She said to him , " Command that these , my two sons , may sit , one on your right hand , and one on your left hand , in your kingdom . "
+# crs_text = Zezi ti dir li , “ Ki ou oule mon fer pour ou ? ” I ti reponn , “ Promet mwan ki kan ou ava dan ou rwayonm , mon de garson ava asiz , enn lo ou kote drwat e lot lo ou kote gos . ”
+1	Zezi	zezi	PROPN	_	_	_	_	_	gloss=Jesus
+2	ti	ti	AUX	_	_	_	_	_	gloss=was/did
+3	dir	dir	VERB	_	_	_	_	_	gloss=say
+4	li	li	PRON	_	_	_	_	_	gloss=him/her/it
+5	,	,	PUNCT	_	_	_	_	_
+6	“	“	PUNCT	_	_	18	punct	_	PunctSide=Ini|PunctType=Quot
+7	Ki	ki	PRON	_	_	_	attr	_	gloss=What
+8	ou	ou	PRON	_	_	_	poss	_	gloss=you(sg)
+9	oule	oule	VERB	_	_	_	_	_	gloss=to want
+10	mon	mon	PRON	_	_	_	poss	_	gloss=I/my
+11	fer	fer	unk	_	_	_	_	_	gloss=did
+12	pour	pour	ADP	_	_	_	_	_	gloss=for/to
+13	ou	ou	PRON	_	_	_	poss	_	gloss=you(sg)
+14	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+15	”	”	PUNCT	_	_	18	punct	_	PunctSide=Fin|PunctType=Quot
+16	I	i	PRON	_	_	_	_	_	gloss=he/she/it
+17	ti	ti	AUX	_	_	_	_	_	gloss=was/did
+18	reponn	reponn	VERB	_	_	0	root	_	gloss=replied|Tense=Past|VerbForm=Fin
+19	,	,	PUNCT	_	_	_	_	_
+20	“	“	PUNCT	_	_	18	punct	_	PunctSide=Ini|PunctType=Quot
+21	Promet	promet	unk	_	_	_	_	_
+22	mwan	mwan	PRON	_	_	_	_	_	gloss=me
+23	ki	ki	unk	_	_	_	_	_	gloss=that
+24	kan	kan	unk	_	_	_	_	_	gloss=when
+25	ou	ou	PRON	_	_	_	poss	_	gloss=you(sg)
+26	ava	ava	unk	_	_	_	_	_	gloss=I’ll
+27	dan	dan	ADP	_	_	_	prep	_	gloss=in/into
+28	ou	ou	PRON	_	_	_	poss	_	gloss=you(sg)
+29	rwayonm	rwayonm	unk	_	_	_	_	_	gloss=kingdom
+30	,	,	PUNCT	_	_	_	_	_
+31	mon	mon	PRON	_	_	_	poss	_	gloss=I/my
+32	de	de	NUM	_	_	_	nummod	_	gloss=two
+33	garson	garson	unk	_	_	_	_	_	gloss=son
+34	ava	ava	unk	_	_	_	_	_	gloss=I’ll
+35	asiz	asiz	VERB	_	_	_	_	_	gloss=sit
+36	,	,	PUNCT	_	_	_	_	_
+37	enn	enn	DET	_	_	_	_	_	gloss=one
+38	lo	lo	ADP	_	_	_	prep	_	gloss=on/at
+39	ou	ou	PRON	_	_	_	poss	_	gloss=you(sg)
+40	kote	kote	unk	_	_	_	_	_	gloss=side
+41	drwat	drwat	NOUN	_	_	38	pobj	_	gloss=right|Number=Sing
+42	e	e	CCONJ	_	_	_	cc	_	gloss=and
+43	lot	lot	DET	_	_	_	_	_	gloss=another/other
+44	lo	lo	ADP	_	_	_	prep	_	gloss=on/at
+45	ou	ou	PRON	_	_	_	poss	_	gloss=you(sg)
+46	kote	kote	unk	_	_	_	_	_	gloss=side
+47	gos	gos	unk	_	_	_	_	_	gloss=ail
+48	.	.	PUNCT	_	_	18	punct	_	PunctType=Peri
+49	”	”	PUNCT	_	_	18	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 40026002
+# ref_id = Matthew 26:2
+# eng_text = " You know that after two days the Passover is coming , and the Son of Man will be delivered up to be crucified . "
+# crs_text = “ Zot konnen dan de zour i lafet Pak , e Fis-de-Lonm pou ganny livre pour li ganny krisifye . ”
+1	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+2	Zot	zot	PRON	_	_	_	_	_	gloss=you/they(pl)
+3	konnen	konnen	VERB	_	_	_	advcl	_	gloss=know|Tense=Pres|VerbForm=Fin
+4	dan	dan	ADP	_	_	_	prep	_	gloss=in/into
+5	de	de	NUM	_	_	6	nummod	_	gloss=two
+6	zour	zour	NOUN	_	_	4	pobj	_	gloss=day/days
+7	i	i	PRON	_	_	_	_	_	gloss=he/she/it
+8	lafet	lafet	NOUN	_	_	_	_	_	gloss=party/celebration
+9	Pak	pak	PROPN	_	_	_	nsubj	_	gloss=Passover|Number=Sing
+10	,	,	PUNCT	_	_	_	_	_
+11	e	e	CCONJ	_	_	_	cc	_	gloss=and
+12	Fis-de-Lonm	fis-de-lonm	PROPN	_	_	_	pobj	_	gloss=Son of Man
+13	pou	pou	AUX	_	_	_	aux	_	gloss=will
+14	ganny	ganny	VERB	_	_	_	_	_	gloss=to get
+15	livre	livre	unk	_	_	_	_	_	gloss=Romans
+16	pour	pour	ADP	_	_	_	_	_	gloss=for/to
+17	li	li	PRON	_	_	_	_	_	gloss=him/her/it
+18	ganny	ganny	VERB	_	_	_	_	_	gloss=to get
+19	krisifye	krisifye	VERB	_	_	_	advcl	_	gloss=crucified|Aspect=Perf|Tense=Past|VerbForm=Part
+20	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+21	”	”	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 40026061
+# ref_id = Matthew 26:61
+# eng_text = and said , " This man said , ' I am able to destroy the temple of God , and to build it in three days . ' "
+# crs_text = Zot ti dir , “ Sa zonm in dir : Mon kapab detri Tanp e rekonstri li dan trwa zour . ”
+1	Zot	zot	PRON	_	_	_	_	_	gloss=you/they(pl)
+2	ti	ti	AUX	_	_	_	_	_	gloss=was/did
+3	dir	dir	VERB	_	_	_	_	_	gloss=say
+4	,	,	PUNCT	_	_	_	_	_
+5	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+6	Sa	sa	DET	_	_	_	_	_	gloss=the/that
+7	zonm	zonm	NOUN	_	_	_	nsubj	_	gloss=man|Number=Sing
+8	in	in	unk	_	_	_	_	_	gloss=has
+9	dir	dir	VERB	_	_	_	_	_	gloss=say
+10	:	:	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+11	Mon	mon	PRON	_	_	_	_	_	gloss=I/my
+12	kapab	kapab	AUX	_	_	_	_	_	gloss=can
+13	detri	detri	unk	_	_	_	_	_	gloss=destroyed
+14	Tanp	tanp	PROPN	_	_	_	dobj	_	gloss=Temple|Number=Sing
+15	e	e	CCONJ	_	_	_	cc	_	gloss=and
+16	rekonstri	rekonstri	unk	_	_	_	_	_	gloss=rebu
+17	li	li	PRON	_	_	_	_	_	gloss=him/her/it
+18	dan	dan	ADP	_	_	_	prep	_	gloss=in/into
+19	trwa	trwa	NUM	_	_	20	nummod	_	gloss=three
+20	zour	zour	NOUN	_	_	18	pobj	_	gloss=day/days
+21	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+22	”	”	PUNCT	_	_	0	root	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 40028016
+# ref_id = Matthew 28:16
+# eng_text = But the eleven disciples went into Galilee , to the mountain where Jesus had sent them .
+# crs_text = Sa onz disip ti al Galile , lo montanny kot Zezi ti'n dir zot .
+1	Sa	sa	DET	_	_	_	_	_	gloss=the/that
+2	onz	onz	unk	_	_	_	_	_
+3	disip	disip	NOUN	_	_	_	nsubj	_	gloss=disciples|Number=Plur
+4	ti	ti	AUX	_	_	_	_	_	gloss=was/did
+5	al	al	VERB	_	_	_	_	_	gloss=go
+6	Galile	galile	PROPN	_	_	_	pobj	_	gloss=Galilee|Number=Sing
+7	,	,	PUNCT	_	_	_	_	_
+8	lo	lo	ADP	_	_	_	_	_	gloss=on/at
+9	montanny	montanny	NOUN	_	_	_	pobj	_	gloss=mountain|Number=Sing
+10	kot	kot	SCONJ	_	_	_	advmod	_	gloss=where
+11	Zezi	zezi	PROPN	_	_	_	nsubj	_	gloss=Jesus
+12	ti'n	ti'n	AUX	_	_	_	aux	_	gloss=had|Tense=Past|VerbForm=Fin
+13	dir	dir	VERB	_	_	_	_	_	gloss=say
+14	zot	zot	PRON	_	_	_	dobj	_	gloss=you/they(pl)
+15	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41002023
+# ref_id = Mark 2:23
+# eng_text = It happened , that he was going on the Sabbath day through the grain fields , and his disciples began , as they went , to pluck the ears of grain .
+# crs_text = En zour saba , Zezi ti pe travers dan bann plantasyon dible . Son bann disip ti kas bann zepi dible .
+1	En	en	DET	_	_	_	_	_	gloss=a/an
+2	zour	zour	NOUN	_	_	_	_	_	gloss=day/days
+3	saba	saba	PROPN	_	_	_	compound	_	gloss=Sabbath|Number=Sing
+4	,	,	PUNCT	_	_	_	_	_
+5	Zezi	zezi	PROPN	_	_	_	nsubj	_	gloss=Jesus
+6	ti	ti	AUX	_	_	_	aux	_	gloss=was/did
+7	pe	pe	unk	_	_	_	_	_	gloss=erve
+8	travers	travers	unk	_	_	_	_	_	gloss=traveled
+9	dan	dan	ADP	_	_	_	_	_	gloss=in/into
+10	bann	bann	DET	_	_	_	_	_	gloss=Plural/Group Marker
+11	plantasyon	plantasyon	unk	_	_	_	_	_	gloss=planted
+12	dible	dible	NOUN	_	_	_	pobj	_	gloss=grain|Number=Sing
+13	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+14	Son	son	PRON	_	_	_	_	_	gloss=his/her/its
+15	bann	bann	DET	_	_	_	_	_	gloss=Plural/Group Marker
+16	disip	disip	NOUN	_	_	_	nsubj	_	gloss=disciples|Number=Plur
+17	ti	ti	AUX	_	_	_	aux	_	gloss=was/did
+18	kas	kas	unk	_	_	_	_	_	gloss=broken
+19	bann	bann	DET	_	_	_	_	_	gloss=Plural/Group Marker
+20	zepi	zepi	unk	_	_	_	_	_
+21	dible	dible	NOUN	_	_	_	pobj	_	gloss=grain|Number=Sing
+22	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41012032
+# ref_id = Mark 12:32
+# eng_text = The scribe said to him , " Truly , teacher , you have said well that he is one , and there is none other but he ,
+# crs_text = Sa profeser Lalwa ti dir li , “ Ou annan rezon , Met ! I vre ki i annan en sel Bondye e napa en lot .
+1	Sa	sa	DET	_	_	_	_	_	gloss=the/that
+2	profeser	profeser	unk	_	_	_	_	_	gloss=teachers
+3	Lalwa	lalwa	NOUN	_	_	_	pobj	_	gloss=law|Number=Sing
+4	ti	ti	AUX	_	_	_	_	_	gloss=was/did
+5	dir	dir	VERB	_	_	_	pcomp	_	gloss=say
+6	li	li	PRON	_	_	_	_	_	gloss=him/her/it
+7	,	,	PUNCT	_	_	_	_	_
+8	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+9	Ou	ou	PRON	_	_	_	_	_	gloss=you(sg)
+10	annan	annan	VERB	_	_	_	_	_	gloss=have/there is
+11	rezon	rezon	unk	_	_	_	_	_	gloss=Therefore
+12	,	,	PUNCT	_	_	_	_	_
+13	Met	met	NOUN	_	_	_	npadvmod	_	gloss=master
+14	!	!	PUNCT	_	_	_	_	_	gloss=dear
+15	I	i	PRON	_	_	_	_	_	gloss=he/she/it
+16	vre	vre	unk	_	_	_	_	_	gloss=true
+17	ki	ki	SCONJ	_	_	18	mark	_	gloss=that
+18	i	i	PRON	_	_	5	ccomp	_	gloss=he/she/it
+19	annan	annan	VERB	_	_	_	_	_	gloss=have/there is
+20	en	en	DET	_	_	_	_	_	gloss=a/an
+21	sel	sel	unk	_	_	_	_	_	gloss=united
+22	Bondye	bondye	PROPN	_	_	_	_	_	gloss=God
+23	e	e	CCONJ	_	_	_	cc	_	gloss=and
+24	napa	napa	unk	_	_	_	_	_	gloss=doubt
+25	en	en	DET	_	_	_	_	_	gloss=a/an
+26	lot	lot	DET	_	_	_	_	_	gloss=another/other
+27	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41014037
+# ref_id = Mark 14:37
+# eng_text = He came and found them sleeping , and said to Peter , " Simon , are you sleeping ? Couldn't you watch one hour ?
+# crs_text = I ti retournen e i ti trouv sa trwa disip pe dormi . I ti dir avek Pyer , “ Simon ou dormi ? Ou pa'n ganny lafors pour vey enn erdtan ?
+1	I	i	PRON	_	_	_	nsubj	_	gloss=he/she/it
+2	ti	ti	AUX	_	_	_	_	_	gloss=was/did
+3	retournen	retournen	unk	_	_	_	_	_	gloss=fattened
+4	e	e	CCONJ	_	_	_	cc	_	gloss=and
+5	i	i	PRON	_	_	_	_	_	gloss=he/she/it
+6	ti	ti	AUX	_	_	_	_	_	gloss=was/did
+7	trouv	trouv	unk	_	_	_	_	_	gloss=find
+8	sa	sa	DET	_	_	_	_	_	gloss=the/that
+9	trwa	trwa	NUM	_	_	_	_	_	gloss=three
+10	disip	disip	NOUN	_	_	12	nsubj	_	gloss=disciples|Number=Plur
+11	pe	pe	unk	_	_	_	_	_	gloss=erve
+12	dormi	dormi	ADJ	_	_	_	acomp	_	gloss=asleep|Degree=Pos
+13	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+14	I	i	PRON	_	_	_	nsubj	_	gloss=he/she/it
+15	ti	ti	AUX	_	_	_	_	_	gloss=was/did
+16	dir	dir	VERB	_	_	_	_	_	gloss=say
+17	avek	avek	ADP	_	_	_	_	_	gloss=with/to
+18	Pyer	pyer	PROPN	_	_	_	pobj	_	gloss=Peter
+19	,	,	PUNCT	_	_	_	_	_
+20	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+21	Simon	simon	PROPN	_	_	_	npadvmod	_	gloss=Simon|Number=Sing
+22	ou	ou	PRON	_	_	_	_	_	gloss=you(sg)
+23	dormi	dormi	ADJ	_	_	_	acomp	_	gloss=asleep|Degree=Pos
+24	?	?	PUNCT	_	_	30	punct	_	PunctType=Peri
+25	Ou	ou	PRON	_	_	_	_	_	gloss=you(sg)
+26	pa'n	pa'n	unk	_	_	_	_	_	gloss=imag
+27	ganny	ganny	VERB	_	_	_	_	_	gloss=to get
+28	lafors	lafors	unk	_	_	_	_	_	gloss=strength
+29	pour	pour	ADP	_	_	_	_	_	gloss=for/to
+30	vey	vey	VERB	_	_	0	root	_	gloss=watch|VerbForm=Inf
+31	enn	enn	DET	_	_	_	_	_	gloss=one
+32	erdtan	erdtan	NOUN	_	_	30	npadvmod	_	gloss=hour|Number=Sing
+33	?	?	PUNCT	_	_	30	punct	_	PunctType=Peri
+
+# sent_id = 42004002
+# ref_id = Luke 4:2
+# eng_text = for forty days , being tempted by the devil . He ate nothing in those days . Afterward , when they were completed , he was hungry .
+# crs_text = Laba , dyab ti tant li pandan 40 zour . Zezi pa ti manz nanryen pandan tou sa letan . Alor , i ti lafen .
+1	Laba	laba	unk	_	_	_	_	_
+2	,	,	PUNCT	_	_	_	_	_
+3	dyab	dyab	NOUN	_	_	_	pobj	_	gloss=devil|Number=Sing
+4	ti	ti	AUX	_	_	_	auxpass	_	gloss=was/did
+5	tant	tant	unk	_	_	_	_	_	gloss=crow
+6	li	li	PRON	_	_	_	_	_	gloss=him/her/it
+7	pandan	pandan	unk	_	_	_	_	_	gloss=months
+8	40	40	NUM	_	_	9	nummod	_	gloss=forty|NumType=Card
+9	zour	zour	NOUN	_	_	_	pobj	_	gloss=day/days
+10	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+11	Zezi	zezi	PROPN	_	_	_	nsubj	_	gloss=Jesus
+12	pa	pa	PART	_	_	_	_	_	gloss=not
+13	ti	ti	AUX	_	_	_	auxpass	_	gloss=was/did
+14	manz	manz	unk	_	_	_	_	_	gloss=eats
+15	nanryen	nanryen	unk	_	_	_	_	_	gloss=worthless
+16	pandan	pandan	unk	_	_	_	_	_	gloss=months
+17	tou	tou	unk	_	_	_	_	_	gloss=edly
+18	sa	sa	DET	_	_	_	_	_	gloss=the/that
+19	letan	letan	unk	_	_	_	_	_	gloss=ign
+20	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+21	Alor	alor	unk	_	_	_	_	_	gloss=So
+22	,	,	PUNCT	_	_	_	_	_
+23	i	i	PRON	_	_	_	_	_	gloss=he/she/it
+24	ti	ti	AUX	_	_	_	auxpass	_	gloss=was/did
+25	lafen	lafen	ADJ	_	_	_	acomp	_	gloss=hungry|Degree=Pos
+26	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 42016013
+# ref_id = Luke 16:13
+# eng_text = No servant can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You aren't able to serve God and mammon . "
+# crs_text = En serviter pa kapab servi de met ; swa i pou ay enn e kontan lot , swa i pou devoue anver enn e mepriz lot . Ou pa kapab servi Bondye ek larzan anmenmtan . ”
+1	En	en	DET	_	_	_	_	_	gloss=a/an
+2	serviter	serviter	unk	_	_	_	_	_	gloss=servants
+3	pa	pa	PART	_	_	5	neg	_	gloss=not
+4	kapab	kapab	AUX	_	_	5	aux	_	gloss=can
+5	servi	servi	VERB	_	_	0	root	_	gloss=serve
+6	de	de	NUM	_	_	_	nummod	_	gloss=two
+7	met	met	NOUN	_	_	_	_	_	gloss=master
+8	;	;	PUNCT	_	_	_	_	_	gloss=ment
+9	swa	swa	CCONJ	_	_	_	det	_	gloss=or
+10	i	i	PRON	_	_	_	_	_	gloss=he/she/it
+11	pou	pou	AUX	_	_	_	aux	_	gloss=will
+12	ay	ay	VERB	_	_	_	ccomp	_	gloss=hate
+13	enn	enn	DET	_	_	_	_	_	gloss=one
+14	e	e	CCONJ	_	_	_	cc	_	gloss=and
+15	kontan	kontan	VERB	_	_	_	_	_	gloss=love
+16	lot	lot	DET	_	_	_	_	_	gloss=another/other
+17	,	,	PUNCT	_	_	_	_	_
+18	swa	swa	CCONJ	_	_	_	det	_	gloss=or
+19	i	i	PRON	_	_	_	_	_	gloss=he/she/it
+20	pou	pou	AUX	_	_	_	aux	_	gloss=will
+21	devoue	devoue	VERB	_	_	_	acomp	_	gloss=devote
+22	anver	anver	unk	_	_	_	_	_	gloss=Love
+23	enn	enn	DET	_	_	_	_	_	gloss=one
+24	e	e	CCONJ	_	_	_	cc	_	gloss=and
+25	mepriz	mepriz	VERB	_	_	_	_	_	gloss=despise
+26	lot	lot	DET	_	_	_	_	_	gloss=another/other
+27	.	.	PUNCT	_	_	31	punct	_	PunctType=Peri
+28	Ou	ou	PRON	_	_	_	_	_	gloss=you(sg)
+29	pa	pa	PART	_	_	31	neg	_	gloss=not
+30	kapab	kapab	AUX	_	_	31	aux	_	gloss=can
+31	servi	servi	VERB	_	_	0	root	_	gloss=serve
+32	Bondye	bondye	PROPN	_	_	_	_	_	gloss=God
+33	ek	ek	CCONJ	_	_	_	_	_	gloss=and/with
+34	larzan	larzan	NOUN	_	_	_	conj	_	gloss=money
+35	anmenmtan	anmenmtan	ADV	_	_	_	conj	_	gloss=at the same time
+36	.	.	PUNCT	_	_	31	punct	_	PunctType=Peri
+37	”	”	PUNCT	_	_	31	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 42024018
+# ref_id = Luke 24:18
+# eng_text = One of them , named Cleopas , answered him , " Are you the only one travelling in Jerusalem who doesn't know the things which have happened there in these days ? "
+# crs_text = Enn parmi zot ki ti apel Kleopas ti reponn , “ Eski zis ou dan Zerizalenm ki pa konnen sa ki'n arive ? ”
+1	Enn	enn	DET	_	_	_	_	_	gloss=one
+2	parmi	parmi	ADP	_	_	_	_	_	gloss=among
+3	zot	zot	PRON	_	_	_	pobj	_	gloss=you/they(pl)
+4	ki	ki	PRON	_	_	_	nsubj	_	gloss=that|PronType=Rel
+5	ti	ti	AUX	_	_	_	_	_	gloss=was/did
+6	apel	apel	unk	_	_	_	_	_	gloss=calls
+7	Kleopas	kleopas	unk	_	_	_	_	_
+8	ti	ti	AUX	_	_	_	_	_	gloss=was/did
+9	reponn	reponn	VERB	_	_	0	root	_	gloss=replied|Tense=Past|VerbForm=Fin
+10	,	,	PUNCT	_	_	_	_	_
+11	“	“	PUNCT	_	_	9	punct	_	PunctSide=Ini|PunctType=Quot
+12	Eski	eski	unk	_	_	_	_	_	gloss=Would
+13	zis	zis	unk	_	_	_	_	_	gloss=da
+14	ou	ou	PRON	_	_	_	_	_	gloss=you(sg)
+15	dan	dan	ADP	_	_	_	prep	_	gloss=in/into
+16	Zerizalenm	zerizalenm	PROPN	_	_	15	pobj	_	gloss=Jerusalem
+17	ki	ki	PRON	_	_	_	nsubj	_	gloss=that|PronType=Rel
+18	pa	pa	PART	_	_	_	_	_	gloss=not
+19	konnen	konnen	unk	_	_	_	_	_	gloss=know
+20	sa	sa	DET	_	_	_	_	_	gloss=the/that
+21	ki'n	ki'n	unk	_	_	_	_	_	gloss=Give
+22	arive	arive	unk	_	_	_	_	_	gloss=happen
+23	?	?	PUNCT	_	_	_	_	_
+24	”	”	PUNCT	_	_	9	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 43001039
+# ref_id = John 1:39
+# eng_text = He said to them , " Come , and see . " They came and saw where he was staying , and they stayed with him that day . It was about the tenth hour .
+# crs_text = Zezi ti dir zot , “ Vini zot ava war . ” Alor , zot ti vini , zot ti war kote i ti pe reste . Zot ti pas leres lazournen avek li . Sa ti apepre 4 er apremidi .
+1	Zezi	zezi	PROPN	_	_	_	_	_	gloss=Jesus
+2	ti	ti	AUX	_	_	_	aux	_	gloss=was/did
+3	dir	dir	VERB	_	_	_	_	_	gloss=say
+4	zot	zot	PRON	_	_	_	_	_	gloss=you/they(pl)
+5	,	,	PUNCT	_	_	_	_	_
+6	“	“	PUNCT	_	_	7	punct	_	PunctSide=Ini|PunctType=Quot
+7	Vini	vini	VERB	_	_	_	ccomp	_	gloss=Come|VerbForm=Inf
+8	zot	zot	PRON	_	_	_	_	_	gloss=you/they(pl)
+9	ava	ava	unk	_	_	_	_	_	gloss=I’ll
+10	war	war	unk	_	_	_	_	_	gloss=saw
+11	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+12	”	”	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+13	Alor	alor	unk	_	_	_	_	_	gloss=So
+14	,	,	PUNCT	_	_	_	_	_
+15	zot	zot	PRON	_	_	_	_	_	gloss=you/they(pl)
+16	ti	ti	AUX	_	_	_	aux	_	gloss=was/did
+17	vini	vini	unk	_	_	_	_	_	gloss=coming
+18	,	,	PUNCT	_	_	_	_	_
+19	zot	zot	PRON	_	_	_	_	_	gloss=you/they(pl)
+20	ti	ti	AUX	_	_	_	aux	_	gloss=was/did
+21	war	war	unk	_	_	_	_	_	gloss=saw
+22	kote	kote	unk	_	_	_	_	_	gloss=side
+23	i	i	PRON	_	_	_	_	_	gloss=he/she/it
+24	ti	ti	AUX	_	_	_	aux	_	gloss=was/did
+25	pe	pe	unk	_	_	_	_	_	gloss=erve
+26	reste	reste	unk	_	_	_	_	_	gloss=stayed
+27	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+28	Zot	zot	PRON	_	_	_	_	_	gloss=you/they(pl)
+29	ti	ti	AUX	_	_	_	aux	_	gloss=was/did
+30	pas	pas	unk	_	_	_	_	_	gloss=claim
+31	leres	leres	unk	_	_	_	_	_	gloss=ity
+32	lazournen	lazournen	unk	_	_	_	_	_	gloss=disobedient
+33	avek	avek	ADP	_	_	_	_	_	gloss=with/to
+34	li	li	PRON	_	_	_	pobj	_	gloss=him/her/it
+35	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+36	Sa	sa	DET	_	_	_	_	_	gloss=the/that
+37	ti	ti	AUX	_	_	_	aux	_	gloss=was/did
+38	apepre	apepre	ADV	_	_	_	_	_	gloss=about
+39	4	4	unk	_	_	_	_	_	gloss=4
+40	er	er	unk	_	_	_	_	_	gloss=ence
+41	apremidi	apremidi	NOUN	_	_	37	attr	_	gloss=o’clock|Number=Sing
+42	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 43003016
+# ref_id = John 3:16
+# eng_text = For God so loved the world , that he gave his one and only Son , that whoever believes in him should not perish , but have eternal life .
+# crs_text = Annefe , Bondye in telman kontan lemonn ki i'n donn son sel Garson , pour ki nenport ki , ki krwar dan li , pa pou mor , me i ava ganny lavi eternel .
+1	Annefe	annefe	ADV	_	_	_	_	_	gloss=indeed
+2	,	,	PUNCT	_	_	_	_	_
+3	Bondye	bondye	PROPN	_	_	_	_	_	gloss=God
+4	in	in	unk	_	_	_	_	_	gloss=has
+5	telman	telman	unk	_	_	_	_	_	gloss=exh
+6	kontan	kontan	VERB	_	_	_	_	_	gloss=love
+7	lemonn	lemonn	NOUN	_	_	_	dobj	_	gloss=world|Number=Sing
+8	ki	ki	SCONJ	_	_	_	mark	_	gloss=that
+9	i'n	i'n	unk	_	_	_	_	_	gloss=ies
+10	donn	donn	VERB	_	_	_	ccomp	_	gloss=gave|Tense=Past|VerbForm=Fin
+11	son	son	PRON	_	_	_	poss	_	gloss=his/her/its
+12	sel	sel	unk	_	_	_	_	_	gloss=united
+13	Garson	garson	PROPN	_	_	_	appos	_	gloss=Son|Number=Sing
+14	,	,	PUNCT	_	_	_	_	_
+15	pour	pour	ADP	_	_	_	_	_	gloss=for/to
+16	ki	ki	SCONJ	_	_	_	mark	_	gloss=that
+17	nenport	nenport	unk	_	_	_	_	_	gloss=earlier
+18	ki	ki	SCONJ	_	_	_	mark	_	gloss=that
+19	,	,	PUNCT	_	_	_	_	_
+20	ki	ki	SCONJ	_	_	_	mark	_	gloss=that
+21	krwar	krwar	unk	_	_	_	_	_	gloss=believe
+22	dan	dan	ADP	_	_	_	prep	_	gloss=in/into
+23	li	li	PRON	_	_	22	pobj	_	gloss=him/her/it
+24	,	,	PUNCT	_	_	_	_	_
+25	pa	pa	PART	_	_	_	neg	_	gloss=not
+26	pou	pou	AUX	_	_	_	aux	_	gloss=will
+27	mor	mor	unk	_	_	_	_	_	gloss=die
+28	,	,	PUNCT	_	_	_	_	_
+29	me	me	CCONJ	_	_	_	_	_	gloss=but
+30	i	i	PRON	_	_	_	_	_	gloss=he/she/it
+31	ava	ava	unk	_	_	_	_	_	gloss=I’ll
+32	ganny	ganny	VERB	_	_	_	_	_	gloss=to get
+33	lavi	lavi	NOUN	_	_	_	dobj	_	gloss=life|Number=Sing
+34	eternel	eternel	ADJ	_	_	33	amod	_	gloss=eternal|Degree=Pos
+35	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 44002030
+# ref_id = Acts 2:30
+# eng_text = Therefore , being a prophet , and knowing that God had sworn with an oath to him that of the fruit of his body , according to the flesh , he would raise up the Christ to sit on his throne ,
+# crs_text = David ti en profet , e i ti konn bann promes ki Bondye ti'n fer avek li par serman . Bondye ti promet pour fer enn son desandan vin lerwa parey li .
+1	David	david	PROPN	_	_	28	poss	_	gloss=David
+2	ti	ti	AUX	_	_	0	root	_	gloss=was/did
+3	en	en	DET	_	_	4	det	_	gloss=a/an
+4	profet	profet	NOUN	_	_	2	attr	_	gloss=prophet|Number=Sing
+5	,	,	PUNCT	_	_	_	_	_
+6	e	e	CCONJ	_	_	8	cc	_	gloss=and
+7	i	i	PRON	_	_	_	_	_	gloss=he/she/it
+8	ti	ti	AUX	_	_	0	root	_	gloss=was/did
+9	konn	konn	unk	_	_	_	_	_	gloss=inst
+10	bann	bann	DET	_	_	_	_	_	gloss=Plural/Group Marker
+11	promes	promes	unk	_	_	_	_	_	gloss=promise
+12	ki	ki	SCONJ	_	_	_	mark	_	gloss=that
+13	Bondye	bondye	PROPN	_	_	_	_	_	gloss=God
+14	ti'n	ti'n	AUX	_	_	23	aux	_	gloss=had|Tense=Past|VerbForm=Fin
+15	fer	fer	unk	_	_	_	_	_	gloss=did
+16	avek	avek	ADP	_	_	_	_	_	gloss=with/to
+17	li	li	PRON	_	_	_	_	_	gloss=him/her/it
+18	par	par	ADP	_	_	_	_	_	gloss=by
+19	serman	serman	NOUN	_	_	_	pobj	_	gloss=oath|Number=Sing
+20	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+21	Bondye	bondye	PROPN	_	_	_	_	_	gloss=God
+22	ti	ti	AUX	_	_	0	root	_	gloss=was/did
+23	promet	promet	VERB	_	_	_	ccomp	_	gloss=to promise
+24	pour	pour	ADP	_	_	_	_	_	gloss=for/to
+25	fer	fer	unk	_	_	_	_	_	gloss=did
+26	enn	enn	DET	_	_	_	_	_	gloss=one
+27	son	son	PRON	_	_	_	poss	_	gloss=his/her/its
+28	desandan	desandan	NOUN	_	_	_	pobj	_	gloss=descendants|Number=Plur
+29	vin	vin	unk	_	_	_	_	_	gloss=become
+30	lerwa	lerwa	unk	_	_	_	_	_	gloss=king
+31	parey	parey	unk	_	_	_	_	_	gloss=like
+32	li	li	PRON	_	_	_	_	_	gloss=him/her/it
+33	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 44009038
+# ref_id = Acts 9:38
+# eng_text = As Lydda was near Joppa , the disciples , hearing that Peter was there , sent two men to him , imploring him not to delay in coming to them .
+# crs_text = Bann disip ki ti Zope , ti tande ki Pyer ti Lida , en lavil pros avek Zope . Zot ti anvoy de zonm avek sa mesaz : “ Nou sipliy ou vin kot nou , deswit . ”
+1	Bann	bann	DET	_	_	_	_	_	gloss=Plural/Group Marker
+2	disip	disip	unk	_	_	_	_	_	gloss=disciples
+3	ki	ki	SCONJ	_	_	4	mark	_	gloss=that
+4	ti	ti	AUX	_	_	_	ccomp	_	gloss=was/did
+5	Zope	zope	unk	_	_	_	_	_	gloss=Joppa
+6	,	,	PUNCT	_	_	_	_	_
+7	ti	ti	AUX	_	_	_	ccomp	_	gloss=was/did
+8	tande	tande	unk	_	_	_	_	_	gloss=To
+9	ki	ki	SCONJ	_	_	7	mark	_	gloss=that
+10	Pyer	pyer	PROPN	_	_	11	nsubj	_	gloss=Peter
+11	ti	ti	AUX	_	_	_	ccomp	_	gloss=was/did
+12	Lida	lida	unk	_	_	_	_	_
+13	,	,	PUNCT	_	_	_	_	_
+14	en	en	DET	_	_	_	_	_	gloss=a/an
+15	lavil	lavil	unk	_	_	_	_	_	gloss=city
+16	pros	pros	unk	_	_	_	_	_	gloss=near
+17	avek	avek	ADP	_	_	_	_	_	gloss=with/to
+18	Zope	zope	unk	_	_	_	_	_	gloss=Joppa
+19	.	.	PUNCT	_	_	_	_	_
+20	Zot	zot	PRON	_	_	_	_	_	gloss=you/they(pl)
+21	ti	ti	AUX	_	_	_	ccomp	_	gloss=was/did
+22	anvoy	anvoy	VERB	_	_	0	root	_	gloss=sent|Tense=Past|VerbForm=Fin
+23	de	de	NUM	_	_	_	nummod	_	gloss=two
+24	zonm	zonm	unk	_	_	_	_	_	gloss=man
+25	avek	avek	ADP	_	_	_	_	_	gloss=with/to
+26	sa	sa	DET	_	_	_	_	_	gloss=the/that
+27	mesaz	mesaz	unk	_	_	_	_	_	gloss=message
+28	:	:	PUNCT	_	_	_	_	_
+29	“	“	PUNCT	_	_	22	punct	_	PunctSide=Ini|PunctType=Quot
+30	Nou	nou	PRON	_	_	_	_	_	gloss=we/us
+31	sipliy	sipliy	unk	_	_	_	_	_	gloss=begging
+32	ou	ou	PRON	_	_	_	_	_	gloss=you(sg)
+33	vin	vin	unk	_	_	_	_	_	gloss=become
+34	kot	kot	unk	_	_	_	_	_	gloss=where
+35	nou	nou	PRON	_	_	_	_	_	gloss=we/us
+36	,	,	PUNCT	_	_	_	_	_
+37	deswit	deswit	unk	_	_	_	_	_	gloss=quickly
+38	.	.	PUNCT	_	_	_	_	_
+39	”	”	PUNCT	_	_	22	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 44011011
+# ref_id = Acts 11:11
+# eng_text = Behold , immediately three men stood before the house where I was , having been sent from Caesarea to me .
+# crs_text = Dan sa menm moman , trwa zonm ti ariv kot lakaz kot nou ti ete . Zot ti'n ganny anvoye sorti Sezare pour vin kot mwan .
+1	Dan	dan	ADP	_	_	_	_	_	gloss=in/into
+2	sa	sa	DET	_	_	_	_	_	gloss=the/that
+3	menm	menm	unk	_	_	_	_	_	gloss=same
+4	moman	moman	unk	_	_	_	_	_	gloss=ther
+5	,	,	PUNCT	_	_	_	_	_
+6	trwa	trwa	NUM	_	_	_	nummod	_	gloss=three
+7	zonm	zonm	unk	_	_	_	_	_	gloss=man
+8	ti	ti	AUX	_	_	_	_	_	gloss=was/did
+9	ariv	ariv	VERB	_	_	0	root	_	gloss=arrived|Tense=Past|VerbForm=Fin
+10	kot	kot	SCONJ	_	_	_	advmod	_	gloss=where
+11	lakaz	lakaz	NOUN	_	_	_	pobj	_	gloss=house|Number=Sing
+12	kot	kot	SCONJ	_	_	_	advmod	_	gloss=where
+13	nou	nou	PRON	_	_	_	_	_	gloss=we/us
+14	ti	ti	AUX	_	_	_	_	_	gloss=was/did
+15	ete	ete	unk	_	_	_	_	_	gloss=ser
+16	.	.	PUNCT	_	_	9	punct	_	PunctType=Peri
+17	Zot	zot	PRON	_	_	_	_	_	gloss=you/they(pl)
+18	ti'n	ti'n	AUX	_	_	_	aux	_	gloss=had|Tense=Past|VerbForm=Fin
+19	ganny	ganny	VERB	_	_	_	_	_	gloss=to get
+20	anvoye	anvoye	VERB	_	_	_	_	_	gloss=to send
+21	sorti	sorti	ADP	_	_	_	prep	_	gloss=from
+22	Sezare	sezare	PROPN	_	_	21	pobj	_	gloss=Caesarea|Number=Sing
+23	pour	pour	ADP	_	_	_	_	_	gloss=for/to
+24	vin	vin	unk	_	_	_	_	_	gloss=become
+25	kot	kot	SCONJ	_	_	_	advmod	_	gloss=where
+26	mwan	mwan	PRON	_	_	_	_	_	gloss=me
+27	.	.	PUNCT	_	_	9	punct	_	PunctType=Peri
+
+# sent_id = 44021034
+# ref_id = Acts 21:34
+# eng_text = Some shouted one thing , some another , among the crowd . When he couldn't find out the truth because of the noise , he commanded him to be brought into the barracks .
+# crs_text = Me lafoul ti dan konfizyon ; en bann ti dir en keksoz , en lot bann ti dir en lot zafer . Komandan pa ti kapab konpran nanryen dan sa dezord . Alor , i ti donn lord pour anmenn Pol dan fortres .
+1	Me	me	CCONJ	_	_	_	_	_	gloss=but
+2	lafoul	lafoul	unk	_	_	_	_	_	gloss=crowd
+3	ti	ti	AUX	_	_	_	_	_	gloss=was/did
+4	dan	dan	ADP	_	_	_	prep	_	gloss=in/into
+5	konfizyon	konfizyon	unk	_	_	_	_	_
+6	;	;	PUNCT	_	_	_	_	_	gloss=ment
+7	en	en	DET	_	_	_	_	_	gloss=a/an
+8	bann	bann	DET	_	_	_	_	_	gloss=Plural/Group Marker
+9	ti	ti	AUX	_	_	_	_	_	gloss=was/did
+10	dir	dir	VERB	_	_	_	_	_	gloss=say
+11	en	en	DET	_	_	_	_	_	gloss=a/an
+12	keksoz	keksoz	PRON	_	_	38	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+13	,	,	PUNCT	_	_	_	_	_
+14	en	en	DET	_	_	_	_	_	gloss=a/an
+15	lot	lot	DET	_	_	_	conj	_	gloss=another/other
+16	bann	bann	DET	_	_	_	_	_	gloss=Plural/Group Marker
+17	ti	ti	AUX	_	_	_	_	_	gloss=was/did
+18	dir	dir	VERB	_	_	_	_	_	gloss=say
+19	en	en	DET	_	_	_	_	_	gloss=a/an
+20	lot	lot	DET	_	_	_	conj	_	gloss=another/other
+21	zafer	zafer	unk	_	_	_	_	_	gloss=amount
+22	.	.	PUNCT	_	_	38	punct	_	PunctType=Peri
+23	Komandan	komandan	unk	_	_	_	_	_	gloss=usion
+24	pa	pa	PART	_	_	_	_	_	gloss=not
+25	ti	ti	AUX	_	_	_	_	_	gloss=was/did
+26	kapab	kapab	AUX	_	_	_	_	_	gloss=can
+27	konpran	konpran	unk	_	_	_	_	_	gloss=understand
+28	nanryen	nanryen	unk	_	_	_	_	_	gloss=worthless
+29	dan	dan	ADP	_	_	_	prep	_	gloss=in/into
+30	sa	sa	DET	_	_	_	_	_	gloss=the/that
+31	dezord	dezord	NOUN	_	_	29	pobj	_	gloss=uproar|Number=Sing
+32	.	.	PUNCT	_	_	38	punct	_	PunctType=Peri
+33	Alor	alor	unk	_	_	_	_	_	gloss=So
+34	,	,	PUNCT	_	_	_	_	_
+35	i	i	PRON	_	_	_	_	_	gloss=he/she/it
+36	ti	ti	AUX	_	_	_	_	_	gloss=was/did
+37	donn	donn	unk	_	_	_	_	_	gloss=gave
+38	lord	lord	VERB	_	_	0	root	_	gloss=ordered|Tense=Past|VerbForm=Fin
+39	pour	pour	ADP	_	_	_	_	_	gloss=for/to
+40	anmenn	anmenn	unk	_	_	_	_	_	gloss=bring
+41	Pol	pol	PROPN	_	_	_	nsubjpass	_	gloss=Paul|Number=Sing
+42	dan	dan	ADP	_	_	_	prep	_	gloss=in/into
+43	fortres	fortres	unk	_	_	_	_	_
+44	.	.	PUNCT	_	_	38	punct	_	PunctType=Peri
+
+# sent_id = 47012002
+# ref_id = 2 Corinthians 12:2
+# eng_text = I know a man in Christ , fourteen years ago ( whether in the body , I don't know , or whether out of the body , I don't know ; God knows ) , such a one caught up into the third heaven .
+# crs_text = Mon konn en zonm kretyen ki , 14 an pase , ti ganny anmennen ziska trwazyenm lesyel . Si i ti mont avek son lekor oubyen san son lekor , sa mon pa konnen , Bondye ki konnen . Sa zonm ti monte ziska trwazyenm lesyel .
+1	Mon	mon	PRON	_	_	_	_	_	gloss=I/my
+2	konn	konn	unk	_	_	_	_	_	gloss=inst
+3	en	en	DET	_	_	_	_	_	gloss=a/an
+4	zonm	zonm	unk	_	_	_	_	_	gloss=man
+5	kretyen	kretyen	unk	_	_	_	_	_	gloss=j
+6	ki	ki	unk	_	_	_	_	_	gloss=that
+7	,	,	PUNCT	_	_	_	_	_
+8	14	14	NUM	_	_	_	nummod	_	gloss=fourteen|NumType=Card
+9	an	an	unk	_	_	_	_	_	gloss=ative
+10	pase	pase	unk	_	_	_	_	_	gloss=ected
+11	,	,	PUNCT	_	_	_	_	_
+12	ti	ti	AUX	_	_	_	advcl	_	gloss=was/did
+13	ganny	ganny	VERB	_	_	_	_	_	gloss=to get
+14	anmennen	anmennen	SCONJ	_	_	12	mark	_	gloss=Whether
+15	ziska	ziska	unk	_	_	_	_	_	gloss=until
+16	trwazyenm	trwazyenm	ADJ	_	_	17	amod	_	gloss=third|Degree=Pos
+17	lesyel	lesyel	PROPN	_	_	_	pobj	_	gloss=heaven|Number=Sing
+18	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+19	Si	si	SCONJ	_	_	_	_	_	gloss=if
+20	i	i	PRON	_	_	_	_	_	gloss=he/she/it
+21	ti	ti	AUX	_	_	_	advcl	_	gloss=was/did
+22	mont	mont	unk	_	_	_	_	_	gloss=got
+23	avek	avek	ADP	_	_	_	_	_	gloss=with/to
+24	son	son	PRON	_	_	_	_	_	gloss=his/her/its
+25	lekor	lekor	NOUN	_	_	_	pobj	_	gloss=body|Number=Sing
+26	oubyen	oubyen	CCONJ	_	_	_	cc	_	gloss=or|ConjType=Cmp
+27	san	san	unk	_	_	_	_	_	gloss=blameless
+28	son	son	PRON	_	_	_	_	_	gloss=his/her/its
+29	lekor	lekor	NOUN	_	_	_	pobj	_	gloss=body|Number=Sing
+30	,	,	PUNCT	_	_	_	_	_
+31	sa	sa	DET	_	_	_	_	_	gloss=the/that
+32	mon	mon	PRON	_	_	29	poss	_	gloss=I/my
+33	pa	pa	PART	_	_	_	_	_	gloss=not
+34	konnen	konnen	unk	_	_	_	_	_	gloss=know
+35	,	,	PUNCT	_	_	_	_	_
+36	Bondye	bondye	PROPN	_	_	_	_	_	gloss=God
+37	ki	ki	unk	_	_	_	_	_	gloss=that
+38	konnen	konnen	unk	_	_	_	_	_	gloss=know
+39	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+40	Sa	sa	DET	_	_	_	_	_	gloss=the/that
+41	zonm	zonm	unk	_	_	_	_	_	gloss=man
+42	ti	ti	AUX	_	_	_	advcl	_	gloss=was/did
+43	monte	monte	unk	_	_	_	_	_	gloss=str
+44	ziska	ziska	unk	_	_	_	_	_	gloss=until
+45	trwazyenm	trwazyenm	ADJ	_	_	46	amod	_	gloss=third|Degree=Pos
+46	lesyel	lesyel	PROPN	_	_	_	pobj	_	gloss=heaven|Number=Sing
+47	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 62004009
+# ref_id = 1 John 4:9
+# eng_text = By this was God's love revealed in us , that God has sent his only born Son into the world that we might live through him .
+# crs_text = La ki mannyer Bondye in montre son lanmour pour nou : In anvoy son sel Garson dan lemonn , pour ki par li , nou ganny lavi .
+1	La	la	unk	_	_	_	_	_	gloss=Look
+2	ki	ki	SCONJ	_	_	_	mark	_	gloss=that
+3	mannyer	mannyer	unk	_	_	_	_	_	gloss=best
+4	Bondye	bondye	PROPN	_	_	_	_	_	gloss=God
+5	in	in	unk	_	_	_	_	_	gloss=has
+6	montre	montre	unk	_	_	_	_	_	gloss=proved
+7	son	son	PRON	_	_	_	poss	_	gloss=his/her/its
+8	lanmour	lanmour	unk	_	_	_	_	_	gloss=love
+9	pour	pour	ADP	_	_	_	_	_	gloss=for/to
+10	nou	nou	PRON	_	_	_	dobj	_	gloss=we/us
+11	:	:	PUNCT	_	_	_	_	_
+12	In	in	unk	_	_	_	_	_	gloss=uring
+13	anvoy	anvoy	unk	_	_	_	_	_	gloss=sent
+14	son	son	PRON	_	_	_	poss	_	gloss=his/her/its
+15	sel	sel	unk	_	_	_	_	_	gloss=united
+16	Garson	garson	PROPN	_	_	_	conj	_	gloss=Son|Number=Sing
+17	dan	dan	ADP	_	_	_	_	_	gloss=in/into
+18	lemonn	lemonn	NOUN	_	_	_	pobj	_	gloss=world|Number=Sing
+19	,	,	PUNCT	_	_	_	_	_
+20	pour	pour	ADP	_	_	_	_	_	gloss=for/to
+21	ki	ki	SCONJ	_	_	_	mark	_	gloss=that
+22	par	par	ADP	_	_	_	_	_	gloss=by
+23	li	li	PRON	_	_	_	pobj	_	gloss=him/her/it
+24	,	,	PUNCT	_	_	_	_	_
+25	nou	nou	PRON	_	_	_	dobj	_	gloss=we/us
+26	ganny	ganny	VERB	_	_	_	_	_	gloss=to get
+27	lavi	lavi	NOUN	_	_	_	dobj	_	gloss=life|Number=Sing
+28	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 63001005
+# ref_id = 2 John 1:5
+# eng_text = Now I beg you , dear lady , not as though I wrote to you a new commandment , but that which we had from the beginning , that we love one another .
+# crs_text = Aprezan , Madanm ! La sa ki mon demann ou : Kontan kanmarad . Sa pa en nouvo komannman ki mon pe ekri ; me sa enn ki nou'n resevwar depi o konmansman .
+1	Aprezan	aprezan	unk	_	_	_	_	_	gloss=Now
+2	,	,	PUNCT	_	_	_	_	_
+3	Madanm	madanm	VERB	_	_	0	root	_	gloss=writing|Aspect=Prog|Tense=Pres|VerbForm=Part
+4	!	!	ADJ	_	_	_	amod	_	gloss=dear|Degree=Pos
+5	La	la	unk	_	_	_	_	_	gloss=Look
+6	sa	sa	DET	_	_	_	_	_	gloss=the/that
+7	ki	ki	SCONJ	_	_	_	mark	_	gloss=that
+8	mon	mon	PRON	_	_	_	_	_	gloss=I/my
+9	demann	demann	unk	_	_	_	_	_	gloss=demanded
+10	ou	ou	PRON	_	_	_	_	_	gloss=you(sg)
+11	:	:	PUNCT	_	_	_	_	_
+12	Kontan	kontan	VERB	_	_	_	_	_	gloss=love
+13	kanmarad	kanmarad	unk	_	_	_	_	_	gloss=each
+14	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+15	Sa	sa	DET	_	_	_	_	_	gloss=the/that
+16	pa	pa	PART	_	_	_	neg	_	gloss=not
+17	en	en	DET	_	_	_	det	_	gloss=a/an
+18	nouvo	nouvo	ADJ	_	_	_	amod	_	gloss=new|Degree=Pos
+19	komannman	komannman	unk	_	_	_	_	_	gloss=commandments
+20	ki	ki	SCONJ	_	_	_	mark	_	gloss=that
+21	mon	mon	PRON	_	_	_	_	_	gloss=I/my
+22	pe	pe	unk	_	_	_	_	_	gloss=erve
+23	ekri	ekri	unk	_	_	_	_	_	gloss=written
+24	;	;	PUNCT	_	_	_	_	_	gloss=ment
+25	me	me	CCONJ	_	_	_	_	_	gloss=but
+26	sa	sa	DET	_	_	_	_	_	gloss=the/that
+27	enn	enn	DET	_	_	_	_	_	gloss=one
+28	ki	ki	SCONJ	_	_	_	mark	_	gloss=that
+29	nou'n	nou'n	unk	_	_	_	_	_	gloss=ourselves
+30	resevwar	resevwar	unk	_	_	_	_	_	gloss=receives
+31	depi	depi	unk	_	_	_	_	_	gloss=sleep
+32	o	o	unk	_	_	_	_	_	gloss=impr
+33	konmansman	konmansman	NOUN	_	_	_	pobj	_	gloss=beginning|Number=Sing
+34	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+

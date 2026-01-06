@@ -1,0 +1,3735 @@
+## The following text has been annotated for parts of speech by students at NTU Singapore as part of a class project in AY 2025.
+## Verses are extracted from the taggedPBC. Annotations have been developed with a combination of manual and automated approaches, with reference to existing literature and (where possible) native speakers.
+## ISO 639-3: haw, Language: Hawaiian, Number of verses: 100
+## References: https://web.archive.org/web/20250117065505/https://www.endangeredlanguages.com/lang/125 ; https://www.ethnologue.com/language/haw/ ; https://en.wikipedia.org/wiki/Hawaiian_language ; https://www.cambridge.org/core/journals/journal-of-the-international-phonetic-association/article/hawaiian/9F2B300BCF6EE97EA7E4437C5FCECB57 ; Ulukau (https://wehewehe.org/gsdl2.85/cgi-bin/hdict?l=en)
+
+# sent_id = 40009020
+# ref_id = Matthew 9:20
+# eng_text = Behold , a woman , who had an issue of blood for twelve years , came behind him , and touched the tassels of his garment ;
+# haw_text = Aia hoi, he wahine hee koko i na makahiki he umikumamalua, hele aku la ia mahope iho ona, a hoopa aku la i ka lepa o kona aahu:
+1	Aia	aia	VERB	_	_	_	_	_	gloss=Suddenly
+2	hoi,	hoi,	PART	_	_	_	_	_	gloss=ion
+3	he	he	PART	_	_	_	_	_	gloss=teen
+4	wahine	wahine	NOUN	_	_	_	_	_	gloss=women
+5	hee	hee	NOUN	_	_	_	pobj	_	gloss=bleeding|Number=Sing
+6	koko	koko	NOUN	_	_	_	_	_	gloss=between
+7	i	i	ADP	_	_	_	_	_
+8	na	na	DET	_	_	_	_	_	gloss=sisters
+9	makahiki	makahiki	NOUN	_	_	_	pobj	_	gloss=years|Number=Plur
+10	he	he	PART	_	_	_	_	_	gloss=teen
+11	umikumamalua,	umikumamalua,	NUM	_	_	9	nummod	_	gloss=twelve|NumType=Card
+12	hele	hele	VERB	_	_	_	_	_	gloss=walking
+13	aku	aku	PART	_	_	_	_	_	gloss=os
+14	la	la	NOUN	_	_	_	_	_	gloss=day
+15	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+16	mahope	mahope	PART	_	_	_	_	_	gloss=unt
+17	iho	iho	PART	_	_	_	_	_	gloss=inside
+18	ona,	ona,	ADJ	_	_	_	pobj	_	gloss=bleeding|Number=Sing
+19	a	a	CCONJ	_	_	_	_	_	gloss=and
+20	hoopa	hoopa	NOUN	_	_	_	_	_	gloss=touch
+21	aku	aku	PART	_	_	_	_	_	gloss=os
+22	la	la	NOUN	_	_	_	_	_	gloss=day
+23	i	i	ADP	_	_	_	_	_
+24	ka	ka	DET	_	_	25	det	_	gloss=the|Definite=Def|PronType=Art
+25	lepa	lepa	NOUN	_	_	_	dobj	_	gloss=fringe|Number=Sing
+26	o	o	PART	_	_	_	_	_	gloss=been
+27	kona	kona	PRON	_	_	_	poss	_	gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+28	aahu:	aahu:	NOUN	_	_	_	_	_
+
+# sent_id = 40009027
+# ref_id = Matthew 9:27
+# eng_text = As Jesus passed by from there , two blind men followed him , calling out and saying , " Have mercy on us , son of David ! "
+# haw_text = A hele aku la o Iesu mai ia wahi aku, elua kanaka makapo i hahai ia ia, kahea mai la laua, i mai la, E ka mamo a Davida, e aloha mai oe ia maua.
+1	A	a	CCONJ	_	_	_	_	_	gloss=At
+2	hele	hele	VERB	_	_	_	_	_	gloss=walking
+3	aku	aku	PART	_	_	_	_	_	gloss=os
+4	la	la	NOUN	_	_	_	_	_	gloss=day
+5	o	o	PART	_	_	_	_	_	gloss=been
+6	Iesu	iesu	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+7	mai	mai	ADP	_	_	_	_	_	gloss=from
+8	ia	ia	PRON	_	_	_	_	_
+9	wahi	wahi	NOUN	_	_	_	_	_	gloss=strange
+10	aku,	aku,	PART	_	_	_	_	_	gloss=age
+11	elua	elua	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+12	kanaka	kanaka	NOUN	_	_	_	_	_	gloss=ation
+13	makapo	makapo	NOUN	_	_	_	amod	_	gloss=blind|Degree=Pos
+14	i	i	ADP	_	_	_	_	_
+15	hahai	hahai	VERB	_	_	_	_	_	gloss=follow
+16	ia	ia	PRON	_	_	_	_	_
+17	ia,	ia,	PRON	_	_	_	_	_	gloss=Ex
+18	kahea	kahea	NOUN	_	_	_	_	_	gloss=shouted
+19	mai	mai	ADP	_	_	_	_	_	gloss=from
+20	la	la	NOUN	_	_	_	_	_	gloss=day
+21	laua,	laua,	PRON	_	_	_	_	_	gloss=pit
+22	i	i	ADP	_	_	_	_	_
+23	mai	mai	ADP	_	_	_	_	_	gloss=from
+24	la,	la,	NOUN	_	_	_	_	_	gloss=ame
+25	E	e	AUX	_	_	_	_	_
+26	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+27	mamo	mamo	NOUN	_	_	_	_	_	gloss=descend
+28	a	a	CCONJ	_	_	_	_	_	gloss=and
+29	Davida,	davida,	NOUN	_	_	_	pobj	_	gloss=David|Number=Sing
+30	e	e	AUX	_	_	_	_	_	gloss=will
+31	aloha	aloha	VERB	_	_	_	_	_	gloss=love
+32	mai	mai	ADP	_	_	_	_	_	gloss=from
+33	oe	oe	PRON	_	_	_	_	_	gloss=You
+34	ia	ia	PRON	_	_	_	_	_
+35	maua.	maua.	NOUN	_	_	_	_	_
+
+# sent_id = 40010023
+# ref_id = Matthew 10:23
+# eng_text = But when they persecute you in this city , flee into the next , for most assuredly I tell you , you will not have gone through the cities of Israel , until the Son of Man has come .
+# haw_text = Aia hana ino mai lakou ia oukou iloko o kekahi kulanakauhale, e holo aku oukou i kekahi; he oiaio ka'u e olelo aku nei ia oukou, Aole e pau e na kulanakauhale o ka Iseraela i ke kaaheleia e oukou, a hihi mai no ke Keiki a ke kanaka.
+1	Aia	aia	VERB	_	_	_	_	_	gloss=Suddenly
+2	hana	hana	VERB	_	_	_	_	_	gloss=miracles
+3	ino	ino	NOUN	_	_	_	_	_	gloss=bad
+4	mai	mai	ADP	_	_	_	_	_	gloss=from
+5	lakou	lakou	PRON	_	_	_	_	_	gloss=They
+6	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+7	oukou	oukou	PRON	_	_	_	_	_	gloss=Laodicea
+8	iloko	iloko	ADP	_	_	_	_	_	gloss=within
+9	o	o	PART	_	_	_	_	_	gloss=been
+10	kekahi	kekahi	DET	_	_	_	_	_	gloss=another
+11	kulanakauhale,	kulanakauhale,	NOUN	_	_	_	dobj	_	gloss=towns|Number=Plur
+12	e	e	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+13	holo	holo	VERB	_	_	_	_	_	gloss=crossed
+14	aku	aku	PART	_	_	_	_	_	gloss=os
+15	oukou	oukou	PRON	_	_	_	_	_	gloss=Laodicea
+16	i	i	ADP	_	_	_	_	_
+17	kekahi;	kekahi;	DET	_	_	_	_	_	gloss=vious
+18	he	he	PART	_	_	_	_	_	gloss=teen
+19	oiaio	oiaio	NOUN	_	_	_	dobj	_	gloss=truth|Number=Sing
+20	ka'u	ka'u	NOUN	_	_	_	_	_	gloss=greater
+21	e	e	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+22	olelo	olelo	VERB	_	_	_	_	_	gloss=speak
+23	aku	aku	PART	_	_	_	_	_	gloss=os
+24	nei	nei	PART	_	_	_	_	_	gloss=grum
+25	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+26	oukou,	oukou,	PRON	_	_	_	_	_	gloss=weak
+27	Aole	aole	PART	_	_	_	_	_	gloss=No
+28	e	e	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+29	pau	pau	VERB	_	_	_	_	_	gloss=All
+30	e	e	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+31	na	na	DET	_	_	_	_	_	gloss=sisters
+32	kulanakauhale	kulanakauhale	NOUN	_	_	_	pobj	_	gloss=town|Number=Sing
+33	o	o	PART	_	_	_	_	_	gloss=been
+34	ka	ka	DET	_	_	11	det	_	gloss=the|Definite=Def|PronType=Art
+35	Iseraela	iseraela	NOUN	_	_	_	pobj	_	gloss=Israel|Number=Sing
+36	i	i	ADP	_	_	_	_	_
+37	ke	ke	DET	_	_	_	_	_	gloss=high
+38	kaaheleia	kaaheleia	NOUN	_	_	_	_	_
+39	e	e	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+40	oukou,	oukou,	PRON	_	_	_	_	_	gloss=weak
+41	a	a	CCONJ	_	_	_	_	_	gloss=and
+42	hihi	hihi	NOUN	_	_	_	_	_	gloss=animals
+43	mai	mai	ADP	_	_	_	_	_	gloss=from
+44	no	no	PART	_	_	_	_	_	gloss=even
+45	ke	ke	DET	_	_	_	_	_	gloss=high
+46	Keiki	keiki	NOUN	_	_	_	nsubj	_	gloss=Son|Number=Sing
+47	a	a	CCONJ	_	_	_	_	_	gloss=and
+48	ke	ke	DET	_	_	_	_	_	gloss=high
+49	kanaka.	kanaka.	NOUN	_	_	_	_	_	gloss=tr
+
+# sent_id = 40011001
+# ref_id = Matthew 11:1
+# eng_text = It happened that when Jesus had finished directing his twelve disciples , he departed there to teach and preach in their cities .
+# haw_text = A OKI ae la ka Iesu ao ana aku i kana poe haumana he umikumamalua, hele aku la ia malaila aku, e ao a e olelo aku iloko o ko lakou mau kulanakauhale.
+1	A	a	CCONJ	_	_	_	_	_	gloss=At
+2	OKI	oki	VERB	_	_	_	_	_
+3	ae	ae	PART	_	_	_	_	_	gloss=Even
+4	la	la	NOUN	_	_	_	_	_	gloss=day
+5	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+6	Iesu	iesu	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+7	ao	ao	NOUN	_	_	_	advcl	_	gloss=teach|VerbForm=Inf
+8	ana	ana	PART	_	_	_	_	_	gloss=co
+9	aku	aku	PART	_	_	_	_	_	gloss=os
+10	i	i	ADP	_	_	_	_	_
+11	kana	kana	PRON	_	_	_	_	_	gloss=date
+12	poe	poe	NOUN	_	_	_	_	_	gloss=calls
+13	haumana	haumana	NOUN	_	_	_	pobj	_	gloss=disciples|Number=Plur
+14	he	he	PART	_	_	_	_	_	gloss=teen
+15	umikumamalua,	umikumamalua,	NUM	_	_	13	nummod	_	gloss=twelve|NumType=Card
+16	hele	hele	VERB	_	_	_	_	_	gloss=walking
+17	aku	aku	PART	_	_	_	_	_	gloss=os
+18	la	la	NOUN	_	_	_	_	_	gloss=day
+19	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+20	malaila	malaila	ADV	_	_	_	_	_	gloss=ort
+21	aku,	aku,	PART	_	_	_	_	_	gloss=age
+22	e	e	AUX	_	_	_	_	_	gloss=will
+23	ao	ao	NOUN	_	_	_	advcl	_	gloss=teach|VerbForm=Inf
+24	a	a	CCONJ	_	_	23	cc	_	gloss=and|ConjType=Cmp
+25	e	e	AUX	_	_	_	_	_	gloss=will
+26	olelo	olelo	VERB	_	_	_	_	_	gloss=speak
+27	aku	aku	PART	_	_	_	_	_	gloss=os
+28	iloko	iloko	ADP	_	_	_	_	_	gloss=within
+29	o	o	PART	_	_	_	_	_	gloss=been
+30	ko	ko	ADP	_	_	_	_	_	gloss=own
+31	lakou	lakou	PRON	_	_	_	_	_	gloss=They
+32	mau	mau	PART	_	_	_	_	_	gloss=uel
+33	kulanakauhale.	kulanakauhale.	NOUN	_	_	_	dobj	_	gloss=instructions|Number=Plur
+
+# sent_id = 40013008
+# ref_id = Matthew 13:8
+# eng_text = and others fell on good soil , and yielded fruit : some one hundred times , some sixty , and some thirty .
+# haw_text = Aka helelei iho la hoi kekahi ma ka lepo maikai, a hua mai la i ka hua, he pahaneri ka kekahi, he pakanaono ka kekahi, a he pakanakolu ka kekahi.
+1	Aka	aka	CCONJ	_	_	_	_	_	gloss=ber
+2	helelei	helelei	NOUN	_	_	_	_	_	gloss=Other
+3	iho	iho	PART	_	_	_	_	_	gloss=inside
+4	la	la	NOUN	_	_	_	_	_	gloss=day
+5	hoi	hoi	PART	_	_	_	_	_	gloss=glorif
+6	kekahi	kekahi	DET	_	_	_	_	_	gloss=another
+7	ma	ma	ADP	_	_	_	_	_	gloss=m
+8	ka	ka	DET	_	_	_	_	_	gloss=the
+9	lepo	lepo	NOUN	_	_	_	_	_	gloss=dust
+10	maikai,	maikai,	ADJ	_	_	_	_	_	gloss=ned
+11	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+12	hua	hua	NOUN	_	_	_	_	_	gloss=seed
+13	mai	mai	ADP	_	_	_	_	_	gloss=from
+14	la	la	NOUN	_	_	_	_	_	gloss=day
+15	i	i	ADP	_	_	_	_	_
+16	ka	ka	DET	_	_	_	_	_	gloss=the
+17	hua,	hua,	NOUN	_	_	_	dobj	_	gloss=crop|Number=Sing
+18	he	he	PART	_	_	_	_	_	gloss=teen
+19	pahaneri	pahaneri	NOUN	_	_	_	advmod	_	gloss=Still
+20	ka	ka	DET	_	_	_	_	_	gloss=the
+21	kekahi,	kekahi,	DET	_	_	_	_	_	gloss=Two
+22	he	he	PART	_	_	_	_	_	gloss=teen
+23	pakanaono	pakanaono	NOUN	_	_	_	amod	_	gloss=fertile|Degree=Pos
+24	ka	ka	DET	_	_	_	_	_	gloss=the
+25	kekahi,	kekahi,	DET	_	_	_	_	_	gloss=Two
+26	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+27	he	he	PART	_	_	_	_	_	gloss=teen
+28	pakanakolu	pakanakolu	NOUN	_	_	_	_	_
+29	ka	ka	DET	_	_	_	_	_	gloss=the
+30	kekahi.	kekahi.	DET	_	_	_	_	_	gloss=Two
+
+# sent_id = 40014017
+# ref_id = Matthew 14:17
+# eng_text = They told him , " We only have here five loaves and two fish . "
+# haw_text = I aku la lakou ia ia, Elima wale no popo berena a makou, a me na ia elua.
+1	I	i	ADP	_	_	_	_	_	gloss=persuad
+2	aku	aku	PART	_	_	_	_	_	gloss=os
+3	la	la	NOUN	_	_	_	_	_	gloss=day
+4	lakou	lakou	PRON	_	_	_	_	_	gloss=They
+5	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+6	ia,	ia,	PRON	_	_	_	_	_	gloss=Ex
+7	Elima	elima	NUM	_	_	10	nummod	_	gloss=five|NumType=Card
+8	wale	wale	ADV	_	_	18	advmod	_	gloss=only
+9	no	no	PART	_	_	_	_	_	gloss=even
+10	popo	popo	NOUN	_	_	_	dobj	_	gloss=loaves|Number=Plur
+11	berena	berena	NOUN	_	_	_	pobj	_	gloss=bread|Number=Sing
+12	a	a	ADP	_	_	10	cc	_	gloss=and|ConjType=Cmp
+13	makou,	makou,	PRON	_	_	_	_	_	gloss=loc
+14	a	a	CCONJ	_	_	10	cc	_	gloss=and|ConjType=Cmp
+15	me	me	ADP	_	_	_	_	_	gloss=as
+16	na	na	DET	_	_	_	_	_	gloss=sisters
+17	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+18	elua.	elua.	NUM	_	_	10	nummod	_	gloss=five|NumType=Card
+
+# sent_id = 40015034
+# ref_id = Matthew 15:34
+# eng_text = Jesus said to them , " How many loaves do you have ? " They said , " Seven , and a few small fish . "
+# haw_text = Ninau mai la o Iesu ia lakou, Ehia na popo berena a oukou? I aku la lakou, Ehiku, a he mau wahi ia liilii.
+1	Ninau	ninau	VERB	_	_	_	_	_	gloss=demanded
+2	mai	mai	ADP	_	_	_	_	_	gloss=from
+3	la	la	NOUN	_	_	_	_	_	gloss=day
+4	o	o	PART	_	_	_	_	_	gloss=been
+5	Iesu	iesu	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+6	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+7	lakou,	lakou,	PRON	_	_	_	_	_	gloss=them
+8	Ehia	ehia	NOUN	_	_	_	dobj	_	gloss=loaves|Number=Plur
+9	na	na	DET	_	_	_	_	_	gloss=sisters
+10	popo	popo	NOUN	_	_	_	dobj	_	gloss=loaves|Number=Plur
+11	berena	berena	NOUN	_	_	_	dobj	_	gloss=bread|Number=Sing
+12	a	a	ADP	_	_	10	cc	_	gloss=and|ConjType=Cmp
+13	oukou?	oukou?	PRON	_	_	_	advmod	_	gloss=How
+14	I	i	ADP	_	_	_	_	_	gloss=persuad
+15	aku	aku	PART	_	_	_	_	_	gloss=os
+16	la	la	NOUN	_	_	_	_	_	gloss=day
+17	lakou,	lakou,	PRON	_	_	_	_	_	gloss=them
+18	Ehiku,	ehiku,	NUM	_	_	_	_	_
+19	a	a	CCONJ	_	_	10	cc	_	gloss=and|ConjType=Cmp
+20	he	he	PART	_	_	_	_	_	gloss=teen
+21	mau	mau	PART	_	_	_	_	_	gloss=uel
+22	wahi	wahi	NOUN	_	_	_	_	_	gloss=strange
+23	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+24	liilii.	liilii.	NOUN	_	_	_	_	_
+
+# sent_id = 40015037
+# ref_id = Matthew 15:37
+# eng_text = They all ate , and were filled . They took up seven baskets full of the broken pieces that were left over .
+# haw_text = Ai iho la lakou a pau a maona: hoiliili iho la lakou i na hakina i koe, ehiku hinai i piha.
+1	Ai	ai	PART	_	_	0	root	_	gloss=ate|Tense=Past|VerbForm=Fin
+2	iho	iho	PART	_	_	_	_	_	gloss=inside
+3	la	la	NOUN	_	_	_	_	_	gloss=day
+4	lakou	lakou	PRON	_	_	1	nsubj	_	gloss=They|Case=Nom|Number=Plur|Person=3|PronType=Prs
+5	a	a	CCONJ	_	_	_	_	_	gloss=and
+6	pau	pau	VERB	_	_	_	_	_	gloss=All
+7	a	a	CCONJ	_	_	_	_	_	gloss=and
+8	maona:	maona:	NOUN	_	_	_	_	_
+9	hoiliili	hoiliili	NOUN	_	_	_	_	_	gloss=ng
+10	iho	iho	PART	_	_	_	_	_	gloss=inside
+11	la	la	NOUN	_	_	_	_	_	gloss=day
+12	lakou	lakou	PRON	_	_	1	nsubj	_	gloss=They|Case=Nom|Number=Plur|Person=3|PronType=Prs
+13	i	i	ADP	_	_	_	_	_
+14	na	na	DET	_	_	_	_	_	gloss=sisters
+15	hakina	hakina	NOUN	_	_	_	_	_
+16	i	i	ADP	_	_	_	_	_
+17	koe,	koe,	ADJ	_	_	_	_	_	gloss=ins
+18	ehiku	ehiku	NUM	_	_	21	nummod	_	gloss=seven|NumType=Card
+19	hinai	hinai	NOUN	_	_	_	compound	_	gloss=leftover|Number=Sing
+20	i	i	ADP	_	_	_	_	_
+21	piha.	piha.	NOUN	_	_	_	dobj	_	gloss=baskets|Number=Plur
+
+# sent_id = 40019005
+# ref_id = Matthew 19:5
+# eng_text = and said , ' For this cause a man will leave his father and mother , and will join to his wife ; and the two will become one flesh ? '
+# haw_text = I iho la ia, No keia mea, e haalele ke kanaka i kona makuakane a me kona makuwahine, a e pili aku ia me kana wahine, a e lilo laua elua i io hookahi.
+1	I	i	ADP	_	_	_	_	_	gloss=persuad
+2	iho	iho	PART	_	_	_	_	_	gloss=inside
+3	la	la	NOUN	_	_	_	_	_	gloss=day
+4	ia,	ia,	PRON	_	_	_	_	_	gloss=Ex
+5	No	no	PART	_	_	_	_	_	gloss=Therefore
+6	keia	keia	DET	_	_	_	_	_	gloss=this
+7	mea,	mea,	NOUN	_	_	_	_	_	gloss=For
+8	e	e	AUX	_	_	_	_	_	gloss=will
+9	haalele	haalele	VERB	_	_	_	ccomp	_	gloss=leaves|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+10	ke	ke	DET	_	_	_	_	_	gloss=high
+11	kanaka	kanaka	NOUN	_	_	_	_	_	gloss=ation
+12	i	i	ADP	_	_	_	_	_
+13	kona	kona	PRON	_	_	_	poss	_	gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+14	makuakane	makuakane	NOUN	_	_	9	dobj	_	gloss=father|Number=Sing
+15	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+16	me	me	ADP	_	_	_	_	_	gloss=as
+17	kona	kona	PRON	_	_	_	poss	_	gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+18	makuwahine,	makuwahine,	NOUN	_	_	14	conj	_	gloss=mother|Number=Sing
+19	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+20	e	e	AUX	_	_	_	_	_	gloss=will
+21	pili	pili	NOUN	_	_	_	_	_	gloss=vine
+22	aku	aku	PART	_	_	_	_	_	gloss=os
+23	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+24	me	me	ADP	_	_	_	_	_	gloss=as
+25	kana	kana	PRON	_	_	_	_	_	gloss=date
+26	wahine,	wahine,	NOUN	_	_	_	_	_	gloss=oldest
+27	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+28	e	e	AUX	_	_	_	_	_	gloss=will
+29	lilo	lilo	VERB	_	_	_	_	_	gloss=become
+30	laua	laua	PRON	_	_	_	_	_	gloss=threw
+31	elua	elua	NUM	_	_	_	nsubjpass	_	gloss=two|NumType=Card
+32	i	i	ADP	_	_	_	_	_
+33	io	io	NOUN	_	_	_	_	_	gloss=hope
+34	hookahi.	hookahi.	NOUN	_	_	_	_	_
+
+# sent_id = 40021024
+# ref_id = Matthew 21:24
+# eng_text = Jesus answered them , " I also will ask you one question , which if you tell me , I likewise will tell you by what authority I do these things .
+# haw_text = Olelo aku la o Iesu ia lakou, i aku la, Owau kekahi e ninau aku ia oukou, a i hai mai oukou ia, e hai aku no hoi au ia oukou i ka mea nana i haawi mai ia'u e hana keia mau mea.
+1	Olelo	olelo	VERB	_	_	_	_	_	gloss=op
+2	aku	aku	PART	_	_	_	_	_	gloss=os
+3	la	la	NOUN	_	_	_	_	_	gloss=day
+4	o	o	PART	_	_	_	_	_	gloss=been
+5	Iesu	iesu	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+6	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+7	lakou,	lakou,	PRON	_	_	_	_	_	gloss=them
+8	i	i	ADP	_	_	_	_	_
+9	aku	aku	PART	_	_	_	_	_	gloss=os
+10	la,	la,	NOUN	_	_	_	_	_	gloss=ame
+11	Owau	owau	NOUN	_	_	_	_	_	gloss=Am
+12	kekahi	kekahi	DET	_	_	_	_	_	gloss=another
+13	e	e	AUX	_	_	_	_	_	gloss=will
+14	ninau	ninau	VERB	_	_	_	_	_	gloss=asked
+15	aku	aku	PART	_	_	_	_	_	gloss=os
+16	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+17	oukou,	oukou,	PRON	_	_	_	_	_	gloss=weak
+18	a	a	CCONJ	_	_	_	_	_	gloss=and
+19	i	i	CCONJ	_	_	_	_	_
+20	hai	hai	VERB	_	_	_	_	_	gloss=news
+21	mai	mai	ADP	_	_	_	_	_	gloss=from
+22	oukou	oukou	PRON	_	_	_	_	_	gloss=Laodicea
+23	ia,	ia,	PRON	_	_	_	_	_	gloss=Ex
+24	e	e	AUX	_	_	_	_	_	gloss=will
+25	hai	hai	VERB	_	_	_	_	_	gloss=news
+26	aku	aku	PART	_	_	_	_	_	gloss=os
+27	no	no	PART	_	_	_	_	_	gloss=even
+28	hoi	hoi	PART	_	_	_	_	_	gloss=glorif
+29	au	au	PRON	_	_	_	_	_	gloss=ili
+30	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+31	oukou	oukou	PRON	_	_	_	_	_	gloss=Laodicea
+32	i	i	ADP	_	_	_	_	_
+33	ka	ka	DET	_	_	_	_	_	gloss=the
+34	mea	mea	NOUN	_	_	_	_	_	gloss=ure
+35	nana	nana	PRON	_	_	_	_	_	gloss=Advocate
+36	i	i	ADP	_	_	_	_	_
+37	haawi	haawi	VERB	_	_	_	_	_	gloss=gave
+38	mai	mai	ADP	_	_	_	_	_	gloss=from
+39	ia'u	ia'u	PRON	_	_	_	_	_	gloss=poss
+40	e	e	AUX	_	_	_	_	_	gloss=will
+41	hana	hana	VERB	_	_	_	_	_	gloss=miracles
+42	keia	keia	DET	_	_	_	_	_	gloss=this
+43	mau	mau	PART	_	_	_	_	_	gloss=uel
+44	mea.	mea.	NOUN	_	_	_	_	_	gloss=cheer
+
+# sent_id = 40021028
+# ref_id = Matthew 21:28
+# eng_text = But what do you think ? A man had two sons , and he came to the first , and said , ' Son , go work today in my vineyard . '
+# haw_text = Aka, heaha ka oukou manao? He wahi kanaka ia ia na keikikane elua; a hele aku la ia i ka mua, i aku la, E kuu keiki, e hele aku oe e hana i keia la ma kuu pawaina.
+1	Aka,	aka,	CCONJ	_	_	_	_	_	gloss=ght
+2	heaha	heaha	PRON	_	_	_	_	_	gloss=sacred
+3	ka	ka	DET	_	_	39	det	_	gloss=the|Definite=Def|PronType=Art
+4	oukou	oukou	PRON	_	_	_	_	_	gloss=Laodicea
+5	manao?	manao?	NOUN	_	_	0	root	_	gloss=think|VerbForm=Inf
+6	He	he	PART	_	_	_	_	_	gloss=Salt
+7	wahi	wahi	NOUN	_	_	_	_	_	gloss=strange
+8	kanaka	kanaka	NOUN	_	_	_	_	_	gloss=ation
+9	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+10	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+11	na	na	DET	_	_	_	_	_	gloss=sisters
+12	keikikane	keikikane	NOUN	_	_	_	pobj	_	gloss=sons|Number=Plur
+13	elua;	elua;	NUM	_	_	_	_	_	gloss=Gree
+14	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+15	hele	hele	VERB	_	_	_	_	_	gloss=walking
+16	aku	aku	PART	_	_	_	_	_	gloss=os
+17	la	la	NOUN	_	_	_	_	_	gloss=day
+18	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+19	i	i	ADP	_	_	_	_	_
+20	ka	ka	DET	_	_	39	det	_	gloss=the|Definite=Def|PronType=Art
+21	mua,	mua,	NOUN	_	_	_	_	_	gloss=il
+22	i	i	ADP	_	_	_	_	_
+23	aku	aku	PART	_	_	_	_	_	gloss=os
+24	la,	la,	NOUN	_	_	_	_	_	gloss=ame
+25	E	e	AUX	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+26	kuu	kuu	NOUN	_	_	_	_	_	gloss=ently
+27	keiki,	keiki,	NOUN	_	_	_	_	_	gloss=parents
+28	e	e	AUX	_	_	_	_	_	gloss=will
+29	hele	hele	VERB	_	_	_	_	_	gloss=walking
+30	aku	aku	PART	_	_	_	_	_	gloss=os
+31	oe	oe	PRON	_	_	_	_	_	gloss=You
+32	e	e	AUX	_	_	_	_	_	gloss=will
+33	hana	hana	VERB	_	_	_	_	_	gloss=miracles
+34	i	i	ADP	_	_	_	_	_
+35	keia	keia	DET	_	_	_	pobj	_	gloss=this|Number=Sing|PronType=Dem
+36	la	la	NOUN	_	_	_	_	_	gloss=day
+37	ma	ma	ADP	_	_	_	_	_	gloss=m
+38	kuu	kuu	NOUN	_	_	_	_	_	gloss=ently
+39	pawaina.	pawaina.	NOUN	_	_	_	pobj	_	gloss=vineyard|Number=Sing
+
+# sent_id = 40022025
+# ref_id = Matthew 22:25
+# eng_text = Now there were with us seven brothers . The first married and died , and having no seed left his wife to his brother .
+# haw_text = Ehiku mau hoahanau me makou: mare iho la ka makahiapo i wahine, a make iho la, aohe ana keiki; a lilo aku la kana wahine na kona kaikaina.
+1	Ehiku	ehiku	NUM	_	_	0	root	_	gloss=suppose|VerbForm=Inf
+2	mau	mau	PART	_	_	_	_	_	gloss=uel
+3	hoahanau	hoahanau	NOUN	_	_	_	attr	_	gloss=brothers|Number=Plur
+4	me	me	ADP	_	_	_	_	_	gloss=as
+5	makou:	makou:	PRON	_	_	_	_	_
+6	mare	mare	NOUN	_	_	_	_	_	gloss=commits
+7	iho	iho	PART	_	_	_	_	_	gloss=inside
+8	la	la	NOUN	_	_	_	_	_	gloss=day
+9	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+10	makahiapo	makahiapo	NOUN	_	_	_	_	_	gloss=su
+11	i	i	ADP	_	_	_	_	_
+12	wahine,	wahine,	NOUN	_	_	_	amod	_	gloss=oldest|Degree=Sup
+13	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+14	make	make	VERB	_	_	_	conj	_	gloss=died|Tense=Past|VerbForm=Fin
+15	iho	iho	PART	_	_	_	_	_	gloss=inside
+16	la,	la,	NOUN	_	_	_	_	_	gloss=ame
+17	aohe	aohe	PART	_	_	_	_	_	gloss=cause
+18	ana	ana	PART	_	_	_	_	_	gloss=co
+19	keiki;	keiki;	NOUN	_	_	_	_	_	gloss=ceremon
+20	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+21	lilo	lilo	VERB	_	_	_	_	_	gloss=become
+22	aku	aku	PART	_	_	_	_	_	gloss=os
+23	la	la	NOUN	_	_	_	_	_	gloss=day
+24	kana	kana	PRON	_	_	_	_	_	gloss=date
+25	wahine	wahine	NOUN	_	_	_	_	_	gloss=women
+26	na	na	DET	_	_	_	_	_	gloss=sisters
+27	kona	kona	PRON	_	_	_	poss	_	gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+28	kaikaina.	kaikaina.	NOUN	_	_	_	_	_
+
+# sent_id = 40024041
+# ref_id = Matthew 24:41
+# eng_text = two women grinding at the mill , one is taken , and one is left .
+# haw_text = Elua wahine e wili palaoa ana, a laweia kekahi, a e koe no kekahi.
+1	Elua	elua	NUM	_	_	_	ccomp	_	gloss=grinding|Aspect=Prog|Tense=Pres|VerbForm=Part
+2	wahine	wahine	NOUN	_	_	4	nsubj	_	gloss=women|Number=Plur
+3	e	e	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+4	wili	wili	NOUN	_	_	_	ccomp	_	gloss=grinding|Aspect=Prog|Tense=Pres|VerbForm=Part
+5	palaoa	palaoa	NOUN	_	_	_	pobj	_	gloss=mill|Number=Sing
+6	ana,	ana,	PART	_	_	_	_	_	gloss=endurance
+7	a	a	CCONJ	_	_	_	_	_	gloss=and
+8	laweia	laweia	NOUN	_	_	_	_	_	gloss=accompan
+9	kekahi,	kekahi,	DET	_	_	2	nummod	_	gloss=Two|NumType=Card
+10	a	a	CCONJ	_	_	_	_	_	gloss=and
+11	e	e	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+12	koe	koe	ADJ	_	_	_	_	_	gloss=fa
+13	no	no	PART	_	_	_	_	_	gloss=even
+14	kekahi.	kekahi.	DET	_	_	2	nummod	_	gloss=Two|NumType=Card
+
+# sent_id = 40025018
+# ref_id = Matthew 25:18
+# eng_text = But he who received the one went away and dug in the earth , and hid his lord's money .
+# haw_text = Aka, o ka mea ia ia ke talena hookahi, hele aku la ia, eli iho la ma ka lepo, a huna iho la i ka moni a kona haku.
+1	Aka,	aka,	CCONJ	_	_	_	_	_	gloss=ght
+2	o	o	PART	_	_	_	_	_	gloss=been
+3	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+4	mea	mea	NOUN	_	_	_	_	_	gloss=ure
+5	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+6	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+7	ke	ke	DET	_	_	_	_	_	gloss=high
+8	talena	talena	NOUN	_	_	_	_	_
+9	hookahi,	hookahi,	NOUN	_	_	_	_	_	gloss=ag
+10	hele	hele	VERB	_	_	_	_	_	gloss=walking
+11	aku	aku	PART	_	_	_	_	_	gloss=os
+12	la	la	NOUN	_	_	_	_	_	gloss=day
+13	ia,	ia,	PRON	_	_	_	_	_	gloss=Ex
+14	eli	eli	NOUN	_	_	_	_	_
+15	iho	iho	PART	_	_	_	_	_	gloss=inside
+16	la	la	NOUN	_	_	_	_	_	gloss=day
+17	ma	ma	ADP	_	_	_	_	_	gloss=m
+18	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+19	lepo,	lepo,	NOUN	_	_	_	pobj	_	gloss=ground|Number=Sing
+20	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+21	huna	huna	NOUN	_	_	_	_	_	gloss=secret
+22	iho	iho	PART	_	_	_	_	_	gloss=inside
+23	la	la	NOUN	_	_	_	_	_	gloss=day
+24	i	i	ADP	_	_	_	_	_
+25	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+26	moni	moni	NOUN	_	_	_	pobj	_	gloss=silver|Number=Sing
+27	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+28	kona	kona	PRON	_	_	_	_	_	gloss=his
+29	haku.	haku.	NOUN	_	_	_	_	_	gloss=ally
+
+# sent_id = 40025040
+# ref_id = Matthew 25:40
+# eng_text = The King will answer them , ' Most assuredly I tell you , inasmuch as you did it to one of the least of these my brothers , you did it to me . '
+# haw_text = A e olelo aku ke alii ia lakou, me ka i aku, He oiaio ka'u e olelo aku nei ia oukou, i ka oukou hana ana pela i kekahi mea liilii loa o keia poe hoahanau o'u, ua hana mai oukou pela ia'u.
+1	A	a	CCONJ	_	_	_	_	_	gloss=At
+2	e	e	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+3	olelo	olelo	VERB	_	_	_	_	_	gloss=speak
+4	aku	aku	PART	_	_	_	_	_	gloss=os
+5	ke	ke	DET	_	_	_	_	_	gloss=high
+6	alii	alii	NOUN	_	_	_	_	_	gloss=king
+7	ia	ia	PRON	_	_	_	_	_
+8	lakou,	lakou,	PRON	_	_	_	_	_	gloss=them
+9	me	me	ADP	_	_	_	_	_	gloss=as
+10	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+11	i	i	ADP	_	_	_	_	_
+12	aku,	aku,	PART	_	_	_	_	_	gloss=age
+13	He	he	PART	_	_	_	_	_	gloss=Salt
+14	oiaio	oiaio	NOUN	_	_	_	dobj	_	gloss=truth|Number=Sing
+15	ka'u	ka'u	NOUN	_	_	_	_	_	gloss=greater
+16	e	e	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+17	olelo	olelo	VERB	_	_	_	_	_	gloss=speak
+18	aku	aku	PART	_	_	_	_	_	gloss=os
+19	nei	nei	PART	_	_	_	_	_	gloss=grum
+20	ia	ia	PRON	_	_	_	_	_
+21	oukou,	oukou,	PRON	_	_	_	_	_	gloss=weak
+22	i	i	ADP	_	_	_	_	_
+23	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+24	oukou	oukou	PRON	_	_	_	_	_	gloss=Laodicea
+25	hana	hana	VERB	_	_	_	_	_	gloss=miracles
+26	ana	ana	PART	_	_	_	_	_	gloss=co
+27	pela	pela	NOUN	_	_	_	_	_	gloss=flashes
+28	i	i	ADP	_	_	_	_	_
+29	kekahi	kekahi	DET	_	_	_	_	_	gloss=another
+30	mea	mea	NOUN	_	_	_	_	_	gloss=ure
+31	liilii	liilii	NOUN	_	_	_	_	_	gloss=small
+32	loa	loa	ADV	_	_	_	_	_	gloss=bling
+33	o	o	PART	_	_	_	_	_	gloss=been
+34	keia	keia	DET	_	_	_	_	_	gloss=this
+35	poe	poe	NOUN	_	_	_	_	_	gloss=calls
+36	hoahanau	hoahanau	NOUN	_	_	_	conj	_	gloss=brothers|Number=Plur
+37	o'u,	o'u,	NOUN	_	_	_	_	_	gloss=ough
+38	ua	ua	AUX	_	_	_	_	_	gloss=Gentile
+39	hana	hana	VERB	_	_	_	_	_	gloss=miracles
+40	mai	mai	ADP	_	_	_	_	_	gloss=from
+41	oukou	oukou	PRON	_	_	_	_	_	gloss=Laodicea
+42	pela	pela	NOUN	_	_	_	_	_	gloss=flashes
+43	ia'u.	ia'u.	PRON	_	_	_	_	_	gloss=ily
+
+# sent_id = 40026015
+# ref_id = Matthew 26:15
+# eng_text = and said , " What are you willing to give me , and I will deliver him to you ? " They weighed out for him thirty pieces of silver .
+# haw_text = Heaha ka oukou e haawi mai ai ia'u a na'u ia e kumakaia aka ia oakou? A kaupaona mai la lakou nana i na wahi moni he kanakolu.
+1	Heaha	heaha	PRON	_	_	_	_	_	gloss=What
+2	ka	ka	DET	_	_	_	_	_	gloss=the
+3	oukou	oukou	PRON	_	_	_	_	_	gloss=Laodicea
+4	e	e	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+5	haawi	haawi	VERB	_	_	0	root	_	gloss=gave|Tense=Past|VerbForm=Fin
+6	mai	mai	ADP	_	_	_	_	_	gloss=from
+7	ai	ai	PART	_	_	_	_	_	gloss=ving
+8	ia'u	ia'u	PRON	_	_	_	_	_	gloss=poss
+9	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+10	na'u	na'u	NOUN	_	_	_	_	_	gloss=um
+11	ia	ia	PRON	_	_	5	punct	_	PunctType=Peri
+12	e	e	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+13	kumakaia	kumakaia	VERB	_	_	_	advcl	_	gloss=betray|VerbForm=Inf
+14	aka	aka	CCONJ	_	_	_	_	_	gloss=um
+15	ia	ia	PRON	_	_	5	punct	_	PunctType=Peri
+16	oakou?	oakou?	NOUN	_	_	_	_	_
+17	A	a	CCONJ	_	_	_	_	_	gloss=At
+18	kaupaona	kaupaona	NOUN	_	_	_	_	_
+19	mai	mai	ADP	_	_	_	_	_	gloss=from
+20	la	la	NOUN	_	_	_	_	_	gloss=day
+21	lakou	lakou	PRON	_	_	_	_	_	gloss=They
+22	nana	nana	PRON	_	_	_	_	_	gloss=Advocate
+23	i	i	ADP	_	_	_	_	_
+24	na	na	DET	_	_	_	_	_	gloss=sisters
+25	wahi	wahi	NOUN	_	_	_	_	_	gloss=strange
+26	moni	moni	NOUN	_	_	_	pobj	_	gloss=silver|Number=Sing
+27	he	he	PART	_	_	_	_	_	gloss=teen
+28	kanakolu.	kanakolu.	NOUN	_	_	_	_	_
+
+# sent_id = 40026034
+# ref_id = Matthew 26:34
+# eng_text = Jesus said to him , " Most assuredly I tell you , that tonight , before the cock crows , you will deny me three times . "
+# haw_text = I mai la o Iesu ia ia, He oiaio ka'u e olelo aku nei ia oe, i keia po, mamua mai o ke ooo ana o ka mea, e pakolu kau hoole ana mai ia'u.
+1	I	i	ADP	_	_	_	_	_	gloss=persuad
+2	mai	mai	ADP	_	_	_	_	_	gloss=from
+3	la	la	NOUN	_	_	_	_	_	gloss=day
+4	o	o	PART	_	_	_	_	_	gloss=been
+5	Iesu	iesu	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+6	ia	ia	PRON	_	_	32	punct	_	PunctType=Peri
+7	ia,	ia,	PRON	_	_	_	_	_	gloss=Ex
+8	He	he	PART	_	_	_	_	_	gloss=Salt
+9	oiaio	oiaio	NOUN	_	_	_	dobj	_	gloss=truth|Number=Sing
+10	ka'u	ka'u	NOUN	_	_	_	_	_	gloss=greater
+11	e	e	AUX	_	_	32	aux	_	gloss=will|VerbForm=Fin
+12	olelo	olelo	VERB	_	_	_	_	_	gloss=speak
+13	aku	aku	PART	_	_	_	_	_	gloss=os
+14	nei	nei	PART	_	_	_	_	_	gloss=grum
+15	ia	ia	PRON	_	_	32	punct	_	PunctType=Peri
+16	oe,	oe,	PRON	_	_	_	_	_	gloss=seat
+17	i	i	ADP	_	_	_	_	_
+18	keia	keia	DET	_	_	_	_	_	gloss=this
+19	po,	po,	NOUN	_	_	32	npadvmod	_	gloss=night|Number=Sing
+20	mamua	mamua	NOUN	_	_	_	_	_	gloss=rebellion
+21	mai	mai	ADP	_	_	_	_	_	gloss=from
+22	o	o	PART	_	_	_	_	_	gloss=been
+23	ke	ke	DET	_	_	_	_	_	gloss=high
+24	ooo	ooo	NOUN	_	_	_	nsubj	_	gloss=rooster|Number=Sing
+25	ana	ana	PART	_	_	_	_	_	gloss=co
+26	o	o	PART	_	_	_	_	_	gloss=been
+27	ka	ka	DET	_	_	24	det	_	gloss=the|Definite=Def|PronType=Art
+28	mea,	mea,	NOUN	_	_	_	_	_	gloss=For
+29	e	e	AUX	_	_	32	aux	_	gloss=will|VerbForm=Fin
+30	pakolu	pakolu	NOUN	_	_	_	_	_
+31	kau	kau	VERB	_	_	_	_	_	gloss=als
+32	hoole	hoole	NOUN	_	_	0	root	_	gloss=deny|VerbForm=Inf
+33	ana	ana	PART	_	_	_	_	_	gloss=co
+34	mai	mai	ADP	_	_	_	_	_	gloss=from
+35	ia'u.	ia'u.	PRON	_	_	_	_	_	gloss=ily
+
+# sent_id = 40026040
+# ref_id = Matthew 26:40
+# eng_text = He came to the disciples , and found them sleeping , and said to Peter , " What , couldn't you watch with me for one hour ?
+# haw_text = Hoi mai la ia i ua mau haumana la, a loaa iho la lakou e hiamoe ana; i mai ia ia Petero, Pela no anei, aole e hiki ia oukou ke kiai pu me au i hookahi hora?
+1	Hoi	hoi	PART	_	_	11	ccomp	_	gloss=asleep|Degree=Pos
+2	mai	mai	ADP	_	_	_	_	_	gloss=from
+3	la	la	NOUN	_	_	_	_	_	gloss=day
+4	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+5	i	i	ADP	_	_	_	_	_
+6	ua	ua	AUX	_	_	_	_	_	gloss=Gentile
+7	mau	mau	PART	_	_	_	_	_	gloss=uel
+8	haumana	haumana	NOUN	_	_	_	pobj	_	gloss=disciples|Number=Plur
+9	la,	la,	NOUN	_	_	_	_	_	gloss=ame
+10	a	a	ADP	_	_	_	cc	_	gloss=and|ConjType=Cmp
+11	loaa	loaa	VERB	_	_	_	conj	_	gloss=found|Tense=Past|VerbForm=Fin
+12	iho	iho	PART	_	_	_	_	_	gloss=inside
+13	la	la	NOUN	_	_	_	_	_	gloss=day
+14	lakou	lakou	PRON	_	_	_	_	_	gloss=They
+15	e	e	AUX	_	_	_	_	_	gloss=will
+16	hiamoe	hiamoe	VERB	_	_	_	_	_	gloss=sleeping
+17	ana;	ana;	PART	_	_	_	_	_	gloss=future
+18	i	i	ADP	_	_	_	_	_
+19	mai	mai	ADP	_	_	_	_	_	gloss=from
+20	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+21	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+22	Petero,	petero,	PROPN	_	_	_	pobj	_	gloss=Peter|Number=Sing
+23	Pela	pela	NOUN	_	_	_	_	_	gloss=same
+24	no	no	PART	_	_	_	advmod	_	gloss=even
+25	anei,	anei,	PART	_	_	_	_	_	gloss=Was
+26	aole	aole	PART	_	_	_	_	_	gloss=not
+27	e	e	AUX	_	_	_	_	_	gloss=will
+28	hiki	hiki	VERB	_	_	_	_	_	gloss=able
+29	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+30	oukou	oukou	PRON	_	_	_	_	_	gloss=Laodicea
+31	ke	ke	DET	_	_	_	_	_	gloss=high
+32	kiai	kiai	NOUN	_	_	_	ccomp	_	gloss=watch|VerbForm=Inf
+33	pu	pu	PART	_	_	_	_	_	gloss=ures
+34	me	me	ADP	_	_	_	_	_	gloss=as
+35	au	au	PRON	_	_	_	_	_	gloss=ili
+36	i	i	ADP	_	_	_	_	_
+37	hookahi	hookahi	NOUN	_	_	_	_	_	gloss=1
+38	hora?	hora?	NOUN	_	_	11	ccomp	_	gloss=asleep|Degree=Pos
+
+# sent_id = 40026051
+# ref_id = Matthew 26:51
+# eng_text = Behold , one of those who were with Jesus stretched out his hand , and drew his sword , and struck the servant of the high priest , and struck off his ear .
+# haw_text = Aia hoi, o kekahi o ka poe me Iesu, lalau iho la kona lima i kana pahikana, unuhi ae la, a hahau aku la i ke kauwa a ke kaluna nui, a old aku la i kona pepeiao.
+1	Aia	aia	VERB	_	_	_	_	_	gloss=Suddenly
+2	hoi,	hoi,	PART	_	_	_	_	_	gloss=ion
+3	o	o	PART	_	_	_	_	_	gloss=been
+4	kekahi	kekahi	DET	_	_	_	_	_	gloss=another
+5	o	o	PART	_	_	_	_	_	gloss=been
+6	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+7	poe	poe	NOUN	_	_	_	_	_	gloss=calls
+8	me	me	ADP	_	_	_	_	_	gloss=as
+9	Iesu,	iesu,	PROPN	_	_	_	_	_	gloss=Gree
+10	lalau	lalau	NOUN	_	_	_	_	_	gloss=arrest
+11	iho	iho	PART	_	_	_	_	_	gloss=inside
+12	la	la	NOUN	_	_	_	_	_	gloss=day
+13	kona	kona	PRON	_	_	_	poss	_	gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+14	lima	lima	NOUN	_	_	_	_	_	gloss=hand
+15	i	i	ADP	_	_	_	_	_
+16	kana	kana	PRON	_	_	_	_	_	gloss=date
+17	pahikana,	pahikana,	NOUN	_	_	_	_	_	gloss=ub
+18	unuhi	unuhi	VERB	_	_	38	dobj	_	gloss=sword|Number=Sing
+19	ae	ae	PART	_	_	_	_	_	gloss=Even
+20	la,	la,	NOUN	_	_	_	_	_	gloss=ame
+21	a	a	CCONJ	_	_	38	cc	_	gloss=and|ConjType=Cmp
+22	hahau	hahau	NOUN	_	_	_	_	_	gloss=flog
+23	aku	aku	PART	_	_	_	_	_	gloss=os
+24	la	la	NOUN	_	_	_	_	_	gloss=day
+25	i	i	ADP	_	_	_	_	_
+26	ke	ke	DET	_	_	_	amod	_	gloss=high|Degree=Pos
+27	kauwa	kauwa	NOUN	_	_	_	_	_	gloss=servants
+28	a	a	CCONJ	_	_	38	cc	_	gloss=and|ConjType=Cmp
+29	ke	ke	DET	_	_	_	amod	_	gloss=high|Degree=Pos
+30	kaluna	kaluna	NOUN	_	_	_	_	_
+31	nui,	nui,	ADJ	_	_	_	conj	_	gloss=slashing|Aspect=Prog|Tense=Pres|VerbForm=Part
+32	a	a	CCONJ	_	_	38	cc	_	gloss=and|ConjType=Cmp
+33	old	old	NOUN	_	_	_	_	_
+34	aku	aku	PART	_	_	_	_	_	gloss=os
+35	la	la	NOUN	_	_	_	_	_	gloss=day
+36	i	i	ADP	_	_	_	_	_
+37	kona	kona	PRON	_	_	_	poss	_	gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+38	pepeiao.	pepeiao.	NOUN	_	_	0	root	_	gloss=pulled|Tense=Past|VerbForm=Fin
+
+# sent_id = 40027021
+# ref_id = Matthew 27:21
+# eng_text = But the governor answered them , " Which of the two do you want me to release to you ? " They said , " Barabbas ! "
+# haw_text = Olelo aka la ke kiaaina, i aku la ia lakou, Owai ko oukou mea makemake o laua nei, e kuu aku ai au no oukou? I mai la lakou, O Baraba.
+1	Olelo	olelo	VERB	_	_	_	_	_	gloss=op
+2	aka	aka	CCONJ	_	_	_	_	_	gloss=um
+3	la	la	NOUN	_	_	_	_	_	gloss=day
+4	ke	ke	DET	_	_	_	_	_	gloss=high
+5	kiaaina,	kiaaina,	NOUN	_	_	_	_	_	gloss=crime
+6	i	i	ADP	_	_	_	_	_
+7	aku	aku	PART	_	_	_	_	_	gloss=os
+8	la	la	NOUN	_	_	_	_	_	gloss=day
+9	ia	ia	PRON	_	_	_	_	_
+10	lakou,	lakou,	PRON	_	_	_	_	_	gloss=them
+11	Owai	owai	NOUN	_	_	_	_	_	gloss=Who
+12	ko	ko	ADP	_	_	_	_	_	gloss=own
+13	oukou	oukou	PRON	_	_	_	_	_	gloss=Laodicea
+14	mea	mea	NOUN	_	_	_	_	_	gloss=ure
+15	makemake	makemake	VERB	_	_	_	_	_	gloss=ab
+16	o	o	PART	_	_	_	_	_	gloss=been
+17	laua	laua	PRON	_	_	_	_	_	gloss=threw
+18	nei,	nei,	PART	_	_	_	_	_	gloss=lead
+19	e	e	AUX	_	_	_	_	_	gloss=will
+20	kuu	kuu	NOUN	_	_	_	_	_	gloss=ently
+21	aku	aku	PART	_	_	_	_	_	gloss=os
+22	ai	ai	PART	_	_	_	_	_	gloss=ving
+23	au	au	PRON	_	_	_	_	_	gloss=ili
+24	no	no	PART	_	_	_	_	_	gloss=even
+25	oukou?	oukou?	PRON	_	_	_	_	_	gloss=How
+26	I	i	ADP	_	_	_	_	_	gloss=persuad
+27	mai	mai	ADP	_	_	_	_	_	gloss=from
+28	la	la	NOUN	_	_	_	_	_	gloss=day
+29	lakou,	lakou,	PRON	_	_	_	_	_	gloss=them
+30	O	o	PART	_	_	_	_	_	gloss=Anyone
+31	Baraba.	baraba.	NOUN	_	_	_	_	_
+
+# sent_id = 40027063
+# ref_id = Matthew 27:63
+# eng_text = saying , " Sir , we remember what that deceiver said while he was still alive : ' After three days I will rise again . '
+# haw_text = I aku la, E ka haku, ke hoomanao nei makou, i olelo mai ua kanaka hoopunipuni la i kona wa e ola ana, A po akolu ae, e ala hou mai ana au.
+1	I	i	ADP	_	_	_	_	_	gloss=persuad
+2	aku	aku	PART	_	_	_	_	_	gloss=os
+3	la,	la,	NOUN	_	_	_	_	_	gloss=ame
+4	E	e	AUX	_	_	8	punct	_	PunctSide=Ini|PunctType=Quot
+5	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+6	haku,	haku,	NOUN	_	_	_	_	_	gloss=Master
+7	ke	ke	DET	_	_	_	_	_	gloss=high
+8	hoomanao	hoomanao	NOUN	_	_	_	ccomp	_	gloss=remember|Tense=Pres|VerbForm=Fin
+9	nei	nei	PART	_	_	_	_	_	gloss=grum
+10	makou,	makou,	PRON	_	_	_	_	_	gloss=loc
+11	i	i	ADP	_	_	_	_	_
+12	olelo	olelo	VERB	_	_	_	_	_	gloss=speak
+13	mai	mai	ADP	_	_	29	prep	_	gloss=from
+14	ua	ua	AUX	_	_	_	_	_	gloss=Gentile
+15	kanaka	kanaka	NOUN	_	_	_	_	_	gloss=ation
+16	hoopunipuni	hoopunipuni	NOUN	_	_	_	_	_	gloss=dece
+17	la	la	NOUN	_	_	_	_	_	gloss=day
+18	i	i	ADP	_	_	_	_	_
+19	kona	kona	PRON	_	_	_	_	_	gloss=his
+20	wa	wa	NOUN	_	_	_	_	_	gloss=marriage
+21	e	e	AUX	_	_	29	aux	_	gloss=will|VerbForm=Fin
+22	ola	ola	NOUN	_	_	_	_	_	gloss=life
+23	ana,	ana,	PART	_	_	_	_	_	gloss=endurance
+24	A	a	CCONJ	_	_	_	_	_	gloss=At
+25	po	po	NOUN	_	_	_	_	_	gloss=night
+26	akolu	akolu	NOUN	_	_	_	_	_	gloss=whip
+27	ae,	ae,	PART	_	_	_	_	_	gloss=next
+28	e	e	AUX	_	_	29	aux	_	gloss=will|VerbForm=Fin
+29	ala	ala	NOUN	_	_	8	ccomp	_	gloss=rise|VerbForm=Inf
+30	hou	hou	ADJ	_	_	_	_	_	gloss=again
+31	mai	mai	ADP	_	_	29	prep	_	gloss=from
+32	ana	ana	PART	_	_	_	_	_	gloss=co
+33	au.	au.	PRON	_	_	_	_	_	gloss=shone
+
+# sent_id = 41004008
+# ref_id = Mark 4:8
+# eng_text = Others fell into the good ground , and yielded fruit , growing up and increasing . Some brought forth thirty times , some sixty times , and some one hundred times as much . "
+# haw_text = Helelei iho la kekahi ma kahi lepo maikai, a pun mai la i ka hua, i kupu a mahuahua, a hua mai, pakanakolu, a pakanaono kekahi, a pahaneri kekahi.
+1	Helelei	helelei	NOUN	_	_	_	conj	_	gloss=sprouted|Tense=Past|VerbForm=Fin
+2	iho	iho	PART	_	_	_	_	_	gloss=inside
+3	la	la	NOUN	_	_	_	_	_	gloss=day
+4	kekahi	kekahi	DET	_	_	_	_	_	gloss=another
+5	ma	ma	ADP	_	_	_	_	_	gloss=m
+6	kahi	kahi	NOUN	_	_	_	_	_	gloss=very
+7	lepo	lepo	NOUN	_	_	_	_	_	gloss=dust
+8	maikai,	maikai,	ADJ	_	_	_	_	_	gloss=ned
+9	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+10	pun	pun	NOUN	_	_	_	_	_
+11	mai	mai	ADP	_	_	_	_	_	gloss=from
+12	la	la	NOUN	_	_	_	_	_	gloss=day
+13	i	i	ADP	_	_	_	_	_
+14	ka	ka	DET	_	_	_	_	_	gloss=the
+15	hua,	hua,	NOUN	_	_	_	dobj	_	gloss=crop|Number=Sing
+16	i	i	ADP	_	_	_	_	_
+17	kupu	kupu	NOUN	_	_	_	_	_	gloss=plants
+18	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+19	mahuahua,	mahuahua,	NOUN	_	_	_	_	_
+20	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+21	hua	hua	NOUN	_	_	_	_	_	gloss=seed
+22	mai,	mai,	ADP	_	_	_	_	_	gloss=rej
+23	pakanakolu,	pakanakolu,	NOUN	_	_	_	_	_
+24	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+25	pakanaono	pakanaono	NOUN	_	_	_	amod	_	gloss=fertile|Degree=Pos
+26	kekahi,	kekahi,	DET	_	_	_	_	_	gloss=Two
+27	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+28	pahaneri	pahaneri	NOUN	_	_	_	advmod	_	gloss=Still
+29	kekahi.	kekahi.	DET	_	_	_	_	_	gloss=Two
+
+# sent_id = 41006007
+# ref_id = Mark 6:7
+# eng_text = He called to himself the twelve , and began to send them out two by two ; and he gave them authority over the unclean spirits .
+# haw_text = Alaila houluulu mai la ia i ka poe umikumaraalua, a hoomaka e hoouna papalua ae la ia lakou, a haawi mai la i ka mana na lakou maluna iho o na uhane ino.
+1	Alaila	alaila	NOUN	_	_	_	_	_	gloss=ime
+2	houluulu	houluulu	NOUN	_	_	_	_	_	gloss=supp
+3	mai	mai	ADP	_	_	_	_	_	gloss=from
+4	la	la	NOUN	_	_	_	_	_	gloss=day
+5	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+6	i	i	ADP	_	_	_	_	_
+7	ka	ka	DET	_	_	_	_	_	gloss=the
+8	poe	poe	NOUN	_	_	_	_	_	gloss=calls
+9	umikumaraalua,	umikumaraalua,	NOUN	_	_	_	_	_
+10	a	a	ADP	_	_	_	cc	_	gloss=and|ConjType=Cmp
+11	hoomaka	hoomaka	NOUN	_	_	_	conj	_	gloss=began|Tense=Past|VerbForm=Fin
+12	e	e	AUX	_	_	_	_	_	gloss=will
+13	hoouna	hoouna	VERB	_	_	_	_	_	gloss=sent
+14	papalua	papalua	NOUN	_	_	_	_	_	gloss=enty-
+15	ae	ae	PART	_	_	_	_	_	gloss=Even
+16	la	la	NOUN	_	_	_	_	_	gloss=day
+17	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+18	lakou,	lakou,	PRON	_	_	_	dative	_	gloss=them|Case=Acc|Number=Plur|Person=3|PronType=Prs
+19	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+20	haawi	haawi	VERB	_	_	_	_	_	gloss=gave
+21	mai	mai	ADP	_	_	_	_	_	gloss=from
+22	la	la	NOUN	_	_	_	_	_	gloss=day
+23	i	i	ADP	_	_	_	_	_
+24	ka	ka	DET	_	_	_	_	_	gloss=the
+25	mana	mana	NOUN	_	_	_	_	_	gloss=power
+26	na	na	DET	_	_	_	_	_	gloss=sisters
+27	lakou	lakou	PRON	_	_	_	_	_	gloss=They
+28	maluna	maluna	NOUN	_	_	_	_	_	gloss=unc
+29	iho	iho	PART	_	_	_	_	_	gloss=inside
+30	o	o	PART	_	_	_	_	_	gloss=been
+31	na	na	DET	_	_	_	_	_	gloss=sisters
+32	uhane	uhane	NOUN	_	_	_	_	_	gloss=spirit
+33	ino.	ino.	NOUN	_	_	_	amod	_	gloss=evil|Degree=Pos
+
+# sent_id = 41006038
+# ref_id = Mark 6:38
+# eng_text = He said to them , " How many loaves do you have ? Go see . " When they knew , they said , " Five , and two fish . "
+# haw_text = Ninau mai la oia ia lakou, Ehia na popo berena a oukou? E hele e nana. A ike lakou, hai aku la, Elima a me na ia elua.
+1	Ninau	ninau	VERB	_	_	_	_	_	gloss=demanded
+2	mai	mai	ADP	_	_	_	_	_	gloss=from
+3	la	la	NOUN	_	_	_	_	_	gloss=day
+4	oia	oia	PRON	_	_	_	_	_	gloss=himself
+5	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+6	lakou,	lakou,	PRON	_	_	_	_	_	gloss=them
+7	Ehia	ehia	NOUN	_	_	_	dobj	_	gloss=loaves|Number=Plur
+8	na	na	DET	_	_	_	_	_	gloss=sisters
+9	popo	popo	NOUN	_	_	_	dobj	_	gloss=loaves|Number=Plur
+10	berena	berena	NOUN	_	_	_	pobj	_	gloss=bread|Number=Sing
+11	a	a	ADP	_	_	9	cc	_	gloss=and|ConjType=Cmp
+12	oukou?	oukou?	PRON	_	_	_	advmod	_	gloss=How
+13	E	e	AUX	_	_	_	_	_
+14	hele	hele	VERB	_	_	_	_	_	gloss=walking
+15	e	e	AUX	_	_	_	_	_	gloss=will
+16	nana.	nana.	PRON	_	_	_	conj	_	gloss=reported|Tense=Past|VerbForm=Fin
+17	A	a	CCONJ	_	_	_	_	_	gloss=At
+18	ike	ike	VERB	_	_	_	_	_	gloss=see
+19	lakou,	lakou,	PRON	_	_	_	_	_	gloss=them
+20	hai	hai	VERB	_	_	_	_	_	gloss=news
+21	aku	aku	PART	_	_	_	_	_	gloss=os
+22	la,	la,	NOUN	_	_	_	_	_	gloss=ame
+23	Elima	elima	NUM	_	_	9	nummod	_	gloss=five|NumType=Card
+24	a	a	ADP	_	_	9	cc	_	gloss=and|ConjType=Cmp
+25	me	me	ADP	_	_	_	_	_	gloss=as
+26	na	na	DET	_	_	_	_	_	gloss=sisters
+27	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+28	elua.	elua.	NUM	_	_	9	nummod	_	gloss=five|NumType=Card
+
+# sent_id = 41006043
+# ref_id = Mark 6:43
+# eng_text = They took up twelve baskets full of broken pieces and also of the fish .
+# haw_text = Hoiliili iho la lakou i ke koena ai, a me ko ka ia, a piha ae la na hinai he umikumamalua.
+1	Hoiliili	hoiliili	NOUN	_	_	_	_	_
+2	iho	iho	PART	_	_	_	_	_	gloss=inside
+3	la	la	NOUN	_	_	_	_	_	gloss=day
+4	lakou	lakou	PRON	_	_	_	_	_	gloss=They
+5	i	i	ADP	_	_	_	_	_
+6	ke	ke	DET	_	_	_	_	_	gloss=high
+7	koena	koena	NOUN	_	_	_	compound	_	gloss=leftover|Number=Sing
+8	ai,	ai,	PART	_	_	_	_	_	gloss=ect
+9	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+10	me	me	ADP	_	_	_	_	_	gloss=as
+11	ko	ko	ADP	_	_	_	_	_	gloss=own
+12	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+13	ia,	ia,	PRON	_	_	_	_	_	gloss=Ex
+14	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+15	piha	piha	NOUN	_	_	_	_	_	gloss=jar
+16	ae	ae	PART	_	_	_	_	_	gloss=Even
+17	la	la	NOUN	_	_	_	_	_	gloss=day
+18	na	na	DET	_	_	_	_	_	gloss=sisters
+19	hinai	hinai	NOUN	_	_	_	compound	_	gloss=leftover|Number=Sing
+20	he	he	PART	_	_	_	_	_	gloss=teen
+21	umikumamalua.	umikumamalua.	NUM	_	_	_	nummod	_	gloss=twelve|NumType=Card
+
+# sent_id = 41008005
+# ref_id = Mark 8:5
+# eng_text = He asked them , " How many loaves do you have ? " They said , " Seven . "
+# haw_text = Ninau mai la oia ia lakou, Ehia na popo berena a oukou? I mai la lakou, Ehiku.
+1	Ninau	ninau	VERB	_	_	_	_	_	gloss=demanded
+2	mai	mai	ADP	_	_	_	_	_	gloss=from
+3	la	la	NOUN	_	_	_	_	_	gloss=day
+4	oia	oia	PRON	_	_	_	_	_	gloss=himself
+5	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+6	lakou,	lakou,	PRON	_	_	_	_	_	gloss=them
+7	Ehia	ehia	NOUN	_	_	_	npadvmod	_	gloss=loaves|Number=Plur
+8	na	na	DET	_	_	_	_	_	gloss=sisters
+9	popo	popo	NOUN	_	_	_	npadvmod	_	gloss=loaves|Number=Plur
+10	berena	berena	NOUN	_	_	_	dobj	_	gloss=bread|Number=Sing
+11	a	a	ADP	_	_	_	_	_	gloss=and
+12	oukou?	oukou?	PRON	_	_	_	advmod	_	gloss=How
+13	I	i	ADP	_	_	_	_	_	gloss=persuad
+14	mai	mai	ADP	_	_	_	_	_	gloss=from
+15	la	la	NOUN	_	_	_	_	_	gloss=day
+16	lakou,	lakou,	PRON	_	_	_	_	_	gloss=them
+17	Ehiku.	ehiku.	NUM	_	_	_	_	_
+
+# sent_id = 41008008
+# ref_id = Mark 8:8
+# eng_text = They ate , and were filled . They took up seven baskets of broken pieces that were left over .
+# haw_text = Ai iho la lakou a maona, a hoiliili iho la lakou i ke koena ai, ehiku hinai i piha.
+1	Ai	ai	PART	_	_	0	root	_	gloss=ate|Tense=Past|VerbForm=Fin
+2	iho	iho	PART	_	_	_	_	_	gloss=inside
+3	la	la	NOUN	_	_	_	_	_	gloss=day
+4	lakou	lakou	PRON	_	_	1	nsubj	_	gloss=They|Case=Nom|Number=Plur|Person=3|PronType=Prs
+5	a	a	CCONJ	_	_	_	_	_	gloss=and
+6	maona,	maona,	NOUN	_	_	_	_	_
+7	a	a	CCONJ	_	_	_	_	_	gloss=and
+8	hoiliili	hoiliili	NOUN	_	_	_	_	_	gloss=ng
+9	iho	iho	PART	_	_	_	_	_	gloss=inside
+10	la	la	NOUN	_	_	_	_	_	gloss=day
+11	lakou	lakou	PRON	_	_	1	nsubj	_	gloss=They|Case=Nom|Number=Plur|Person=3|PronType=Prs
+12	i	i	ADP	_	_	_	_	_
+13	ke	ke	DET	_	_	_	_	_	gloss=high
+14	koena	koena	NOUN	_	_	_	compound	_	gloss=leftover|Number=Sing
+15	ai,	ai,	PART	_	_	_	_	_	gloss=ect
+16	ehiku	ehiku	NUM	_	_	19	nummod	_	gloss=seven|NumType=Card
+17	hinai	hinai	NOUN	_	_	_	compound	_	gloss=leftover|Number=Sing
+18	i	i	ADP	_	_	_	_	_
+19	piha.	piha.	NOUN	_	_	_	dobj	_	gloss=baskets|Number=Plur
+
+# sent_id = 41008014
+# ref_id = Mark 8:14
+# eng_text = They forgot to take bread ; and they didn't have more than one loaf in the boat with them .
+# haw_text = Ua poina ia lakou ke lawe pu i ka berena, hookahi wale no popo berena a lakou iloko o ka moku.
+1	Ua	ua	AUX	_	_	_	_	_	gloss=me
+2	poina	poina	NOUN	_	_	0	root	_	gloss=forgotten|Aspect=Perf|Tense=Past|VerbForm=Part
+3	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+4	lakou	lakou	PRON	_	_	_	nsubj	_	gloss=They|Case=Nom|Number=Plur|Person=3|PronType=Prs
+5	ke	ke	DET	_	_	_	_	_	gloss=high
+6	lawe	lawe	VERB	_	_	_	_	_	gloss=take
+7	pu	pu	PART	_	_	_	_	_	gloss=ures
+8	i	i	ADP	_	_	_	_	_
+9	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+10	berena,	berena,	NOUN	_	_	_	pobj	_	gloss=bread|Number=Sing
+11	hookahi	hookahi	NOUN	_	_	_	_	_	gloss=1
+12	wale	wale	ADV	_	_	_	advmod	_	gloss=only
+13	no	no	PART	_	_	_	_	_	gloss=even
+14	popo	popo	NOUN	_	_	_	_	_	gloss=loaves
+15	berena	berena	NOUN	_	_	_	pobj	_	gloss=bread|Number=Sing
+16	a	a	ADP	_	_	_	_	_	gloss=and
+17	lakou	lakou	PRON	_	_	_	nsubj	_	gloss=They|Case=Nom|Number=Plur|Person=3|PronType=Prs
+18	iloko	iloko	ADP	_	_	_	_	_	gloss=within
+19	o	o	PART	_	_	_	_	_	gloss=been
+20	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+21	moku.	moku.	VERB	_	_	_	_	_	gloss=overboard
+
+# sent_id = 41010037
+# ref_id = Mark 10:37
+# eng_text = They said to him , " Grant to us that we may sit , one at your right hand , and one at your left hand , in your glory . "
+# haw_text = I aku la laua ia ia, E haawi mai oe ia maua, e noho kekahi o maua ma kou lima akau, a o kekahi ma kou lima hema, maloko o kou nani.
+1	I	i	ADP	_	_	_	_	_	gloss=persuad
+2	aku	aku	PART	_	_	_	_	_	gloss=os
+3	la	la	NOUN	_	_	_	_	_	gloss=day
+4	laua	laua	PRON	_	_	_	_	_	gloss=threw
+5	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+6	ia,	ia,	PRON	_	_	_	_	_	gloss=Ex
+7	E	e	AUX	_	_	_	_	_
+8	haawi	haawi	VERB	_	_	_	_	_	gloss=gave
+9	mai	mai	ADP	_	_	_	_	_	gloss=from
+10	oe	oe	PRON	_	_	_	_	_	gloss=You
+11	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+12	maua,	maua,	NOUN	_	_	_	_	_	gloss=quiet
+13	e	e	AUX	_	_	_	_	_	gloss=will
+14	noho	noho	VERB	_	_	_	_	_	gloss=sitting
+15	kekahi	kekahi	DET	_	_	_	_	_	gloss=another
+16	o	o	PART	_	_	_	_	_	gloss=been
+17	maua	maua	NOUN	_	_	_	_	_	gloss=girl’s
+18	ma	ma	ADP	_	_	_	_	_	gloss=m
+19	kou	kou	PRON	_	_	_	poss	_	gloss=your|Person=2|Poss=Yes|PronType=Prs
+20	lima	lima	NOUN	_	_	_	_	_	gloss=hand
+21	akau,	akau,	ADJ	_	_	_	pobj	_	gloss=places|Number=Plur
+22	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+23	o	o	PART	_	_	_	_	_	gloss=been
+24	kekahi	kekahi	DET	_	_	_	_	_	gloss=another
+25	ma	ma	ADP	_	_	_	_	_	gloss=m
+26	kou	kou	PRON	_	_	_	poss	_	gloss=your|Person=2|Poss=Yes|PronType=Prs
+27	lima	lima	NOUN	_	_	_	_	_	gloss=hand
+28	hema,	hema,	ADJ	_	_	_	pobj	_	gloss=places|Number=Plur
+29	maloko	maloko	NOUN	_	_	_	_	_	gloss=ri
+30	o	o	PART	_	_	_	_	_	gloss=been
+31	kou	kou	PRON	_	_	_	poss	_	gloss=your|Person=2|Poss=Yes|PronType=Prs
+32	nani.	nani.	NOUN	_	_	_	amod	_	gloss=glorious|Degree=Pos
+
+# sent_id = 41011029
+# ref_id = Mark 11:29
+# eng_text = Jesus said to them , " I will ask you one question . Answer me , and I will tell you by what authority I do these things .
+# haw_text = Olelo aku la Iesu ia lakou, i aku la, E niuau aku no hoi au ia oukou i kekahi mea; e hai mai oukou ia'u, alaila, hai aku au ia oukou i ko'u pono e hana'i i keia mau mea.
+1	Olelo	olelo	VERB	_	_	_	_	_	gloss=op
+2	aku	aku	PART	_	_	_	_	_	gloss=os
+3	la	la	NOUN	_	_	_	_	_	gloss=day
+4	Iesu	iesu	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+5	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+6	lakou,	lakou,	PRON	_	_	_	_	_	gloss=them
+7	i	i	ADP	_	_	_	_	_
+8	aku	aku	PART	_	_	_	_	_	gloss=os
+9	la,	la,	NOUN	_	_	_	_	_	gloss=ame
+10	E	e	AUX	_	_	_	_	_
+11	niuau	niuau	NOUN	_	_	_	_	_	gloss=fully
+12	aku	aku	PART	_	_	_	_	_	gloss=os
+13	no	no	PART	_	_	_	_	_	gloss=even
+14	hoi	hoi	PART	_	_	_	_	_	gloss=glorif
+15	au	au	PRON	_	_	_	_	_	gloss=ili
+16	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+17	oukou	oukou	PRON	_	_	_	_	_	gloss=Laodicea
+18	i	i	ADP	_	_	_	_	_
+19	kekahi	kekahi	DET	_	_	_	_	_	gloss=another
+20	mea;	mea;	NOUN	_	_	_	_	_	gloss=remembered
+21	e	e	AUX	_	_	_	_	_	gloss=will
+22	hai	hai	VERB	_	_	_	_	_	gloss=news
+23	mai	mai	ADP	_	_	_	_	_	gloss=from
+24	oukou	oukou	PRON	_	_	_	_	_	gloss=Laodicea
+25	ia'u,	ia'u,	PRON	_	_	_	_	_	gloss=me
+26	alaila,	alaila,	NOUN	_	_	_	_	_	gloss=male
+27	hai	hai	VERB	_	_	_	_	_	gloss=news
+28	aku	aku	PART	_	_	_	_	_	gloss=os
+29	au	au	PRON	_	_	_	_	_	gloss=ili
+30	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+31	oukou	oukou	PRON	_	_	_	_	_	gloss=Laodicea
+32	i	i	ADP	_	_	_	_	_
+33	ko'u	ko'u	NOUN	_	_	_	_	_	gloss=spare
+34	pono	pono	ADJ	_	_	_	_	_	gloss=ard
+35	e	e	AUX	_	_	_	_	_	gloss=will
+36	hana'i	hana'i	NOUN	_	_	_	dobj	_	gloss=question|Number=Sing
+37	i	i	ADP	_	_	_	_	_
+38	keia	keia	DET	_	_	_	_	_	gloss=this
+39	mau	mau	PART	_	_	_	_	_	gloss=uel
+40	mea.	mea.	NOUN	_	_	_	_	_	gloss=cheer
+
+# sent_id = 41012006
+# ref_id = Mark 12:6
+# eng_text = Therefore he had yet one , a beloved son , he sent him last to them , saying , ' They will respect my son . '
+# haw_text = He keikikane hookahi kana, o kana punahele, oia kana i hoouna hope mai ai ia lakou, i mai la, E mahalo mai paha lakou i kuu keikikane.
+1	He	he	PART	_	_	_	_	_	gloss=Salt
+2	keikikane	keikikane	NOUN	_	_	_	_	_	gloss=sons
+3	hookahi	hookahi	NOUN	_	_	_	_	_	gloss=1
+4	kana,	kana,	PRON	_	_	_	_	_	gloss=lef
+5	o	o	PART	_	_	_	_	_	gloss=been
+6	kana	kana	PRON	_	_	_	_	_	gloss=date
+7	punahele,	punahele,	NOUN	_	_	11	nsubj	_	gloss=owner|Number=Sing
+8	oia	oia	PRON	_	_	_	_	_	gloss=himself
+9	kana	kana	PRON	_	_	_	_	_	gloss=date
+10	i	i	ADP	_	_	_	_	_
+11	hoouna	hoouna	VERB	_	_	0	root	_	gloss=sent|Tense=Past|VerbForm=Fin
+12	hope	hope	NOUN	_	_	_	_	_	gloss=worse
+13	mai	mai	ADP	_	_	_	_	_	gloss=from
+14	ai	ai	PART	_	_	_	_	_	gloss=ving
+15	ia	ia	PRON	_	_	11	punct	_	PunctType=Peri
+16	lakou,	lakou,	PRON	_	_	_	_	_	gloss=them
+17	i	i	ADP	_	_	_	_	_
+18	mai	mai	ADP	_	_	_	_	_	gloss=from
+19	la,	la,	NOUN	_	_	_	_	_	gloss=ame
+20	E	e	AUX	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+21	mahalo	mahalo	NOUN	_	_	11	nsubj	_	gloss=owner|Number=Sing
+22	mai	mai	ADP	_	_	_	_	_	gloss=from
+23	paha	paha	ADV	_	_	_	_	_	gloss=noon
+24	lakou	lakou	PRON	_	_	_	_	_	gloss=They
+25	i	i	ADP	_	_	_	_	_
+26	kuu	kuu	NOUN	_	_	_	_	_	gloss=ently
+27	keikikane.	keikikane.	NOUN	_	_	_	_	_	gloss=baby
+
+# sent_id = 41012007
+# ref_id = Mark 12:7
+# eng_text = But those farmers said among themselves , ' This is the heir . Come , let's kill him , and the inheritance will be ours . '
+# haw_text = I ae la kela poe hoaaina ia lakou iho no, Eia no ka hooilina; ina kakou e pepehi ia ia, alaila, e lilo mai ka waiwai no kakou.
+1	I	i	ADP	_	_	_	_	_	gloss=persuad
+2	ae	ae	PART	_	_	_	_	_	gloss=Even
+3	la	la	NOUN	_	_	_	_	_	gloss=day
+4	kela	kela	NOUN	_	_	_	_	_	gloss=various
+5	poe	poe	NOUN	_	_	_	_	_	gloss=calls
+6	hoaaina	hoaaina	NOUN	_	_	_	nsubj	_	gloss=farmers|Number=Plur
+7	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+8	lakou	lakou	PRON	_	_	_	_	_	gloss=They
+9	iho	iho	PART	_	_	_	_	_	gloss=inside
+10	no,	no,	PART	_	_	_	_	_	gloss=fathers
+11	Eia	eia	PART	_	_	_	_	_	gloss=bri
+12	no	no	PART	_	_	_	_	_	gloss=even
+13	ka	ka	DET	_	_	26	det	_	gloss=the|Definite=Def|PronType=Art
+14	hooilina;	hooilina;	NOUN	_	_	_	nsubj	_	gloss=heir|Number=Sing
+15	ina	ina	SCONJ	_	_	_	_	_	gloss=if
+16	kakou	kakou	PRON	_	_	_	_	_	gloss=Let’s
+17	e	e	AUX	_	_	_	_	_	gloss=will
+18	pepehi	pepehi	NOUN	_	_	_	ccomp	_	gloss=kill|VerbForm=Inf
+19	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+20	ia,	ia,	PRON	_	_	_	_	_	gloss=Ex
+21	alaila,	alaila,	NOUN	_	_	_	_	_	gloss=male
+22	e	e	AUX	_	_	_	_	_	gloss=will
+23	lilo	lilo	VERB	_	_	_	_	_	gloss=become
+24	mai	mai	ADP	_	_	_	_	_	gloss=from
+25	ka	ka	DET	_	_	26	det	_	gloss=the|Definite=Def|PronType=Art
+26	waiwai	waiwai	NOUN	_	_	_	dobj	_	gloss=estate|Number=Sing
+27	no	no	PART	_	_	_	_	_	gloss=even
+28	kakou.	kakou.	PRON	_	_	_	nsubj	_	gloss=farmers|Number=Plur
+
+# sent_id = 41012020
+# ref_id = Mark 12:20
+# eng_text = There were seven brothers . The first took a wife , and dying left no children .
+# haw_text = Ehiku no na keiki kane; a mare aku la ka hiapo i ka wahine, a make ia, aole ana keiki.
+1	Ehiku	ehiku	NUM	_	_	0	root	_	gloss=suppose|VerbForm=Inf
+2	no	no	PART	_	_	_	_	_	gloss=even
+3	na	na	DET	_	_	_	_	_	gloss=sisters
+4	keiki	keiki	NOUN	_	_	_	_	_	gloss=fattened
+5	kane;	kane;	NOUN	_	_	0	root	_	gloss=suppose|VerbForm=Inf
+6	a	a	ADP	_	_	_	cc	_	gloss=and|ConjType=Cmp
+7	mare	mare	NOUN	_	_	_	_	_	gloss=commits
+8	aku	aku	PART	_	_	_	_	_	gloss=os
+9	la	la	NOUN	_	_	_	_	_	gloss=day
+10	ka	ka	DET	_	_	_	_	_	gloss=the
+11	hiapo	hiapo	NOUN	_	_	_	_	_
+12	i	i	ADP	_	_	_	_	_
+13	ka	ka	DET	_	_	_	_	_	gloss=the
+14	wahine,	wahine,	NOUN	_	_	_	amod	_	gloss=oldest|Degree=Sup
+15	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+16	make	make	VERB	_	_	_	conj	_	gloss=died|Tense=Past|VerbForm=Fin
+17	ia,	ia,	PRON	_	_	_	_	_	gloss=Ex
+18	aole	aole	PART	_	_	_	_	_	gloss=not
+19	ana	ana	PART	_	_	_	_	_	gloss=co
+20	keiki.	keiki.	NOUN	_	_	_	_	_	gloss=official
+
+# sent_id = 41012022
+# ref_id = Mark 12:22
+# eng_text = and the seven took her and left no children . Last of all the woman also died .
+# haw_text = A mare ae la no hoi ka poe ehiku a pau ia ia, aole hoi a lakou keiki; a mahope iho, make aku la no hoi ka wahine.
+1	A	a	CCONJ	_	_	_	_	_	gloss=At
+2	mare	mare	NOUN	_	_	_	_	_	gloss=commits
+3	ae	ae	PART	_	_	_	_	_	gloss=Even
+4	la	la	NOUN	_	_	_	_	_	gloss=day
+5	no	no	PART	_	_	_	_	_	gloss=even
+6	hoi	hoi	PART	_	_	_	_	_	gloss=glorif
+7	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+8	poe	poe	NOUN	_	_	_	_	_	gloss=calls
+9	ehiku	ehiku	NUM	_	_	_	pobj	_	gloss=seven|NumType=Card
+10	a	a	ADP	_	_	_	cc	_	gloss=and|ConjType=Cmp
+11	pau	pau	VERB	_	_	_	_	_	gloss=All
+12	ia	ia	PRON	_	_	22	punct	_	PunctType=Peri
+13	ia,	ia,	PRON	_	_	_	_	_	gloss=Ex
+14	aole	aole	PART	_	_	_	_	_	gloss=not
+15	hoi	hoi	PART	_	_	_	_	_	gloss=glorif
+16	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+17	lakou	lakou	PRON	_	_	_	_	_	gloss=They
+18	keiki;	keiki;	NOUN	_	_	_	_	_	gloss=ceremon
+19	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+20	mahope	mahope	PART	_	_	_	_	_	gloss=unt
+21	iho,	iho,	PART	_	_	_	_	_	gloss=re
+22	make	make	VERB	_	_	0	root	_	gloss=died|Tense=Past|VerbForm=Fin
+23	aku	aku	PART	_	_	_	_	_	gloss=os
+24	la	la	NOUN	_	_	_	_	_	gloss=day
+25	no	no	PART	_	_	_	_	_	gloss=even
+26	hoi	hoi	PART	_	_	_	_	_	gloss=glorif
+27	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+28	wahine.	wahine.	NOUN	_	_	_	_	_	gloss=reconciled
+
+# sent_id = 41013002
+# ref_id = Mark 13:2
+# eng_text = Jesus said to him , " Do you see these great buildings ? There will not be left here one stone on another , which will not be thrown down . "
+# haw_text = Olelo mai la Iesu, i mai la ia ia, Ke ike nei anei oe i keia mau hale nui? Aole e waihoia kekahi pohaku, maluna iho o kekahi pohaku i ka hoohiolo ole ia.
+1	Olelo	olelo	VERB	_	_	_	_	_	gloss=op
+2	mai	mai	ADP	_	_	_	_	_	gloss=from
+3	la	la	NOUN	_	_	_	_	_	gloss=day
+4	Iesu,	iesu,	PROPN	_	_	_	_	_	gloss=Gree
+5	i	i	ADP	_	_	_	_	_
+6	mai	mai	ADP	_	_	_	_	_	gloss=from
+7	la	la	NOUN	_	_	_	_	_	gloss=day
+8	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+9	ia,	ia,	PRON	_	_	_	_	_	gloss=Ex
+10	Ke	ke	DET	_	_	_	_	_	gloss=greetings
+11	ike	ike	VERB	_	_	_	_	_	gloss=see
+12	nei	nei	PART	_	_	_	_	_	gloss=grum
+13	anei	anei	PART	_	_	_	_	_
+14	oe	oe	PRON	_	_	_	_	_	gloss=You
+15	i	i	ADP	_	_	_	_	_
+16	keia	keia	DET	_	_	_	_	_	gloss=this
+17	mau	mau	PART	_	_	_	_	_	gloss=uel
+18	hale	hale	NOUN	_	_	_	_	_	gloss=house
+19	nui?	nui?	ADJ	_	_	_	_	_
+20	Aole	aole	PART	_	_	_	_	_	gloss=No
+21	e	e	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+22	waihoia	waihoia	VERB	_	_	_	_	_	gloss=dem
+23	kekahi	kekahi	DET	_	_	_	pobj	_	gloss=another
+24	pohaku,	pohaku,	NOUN	_	_	_	neg	_	gloss=Not|Polarity=Neg
+25	maluna	maluna	NOUN	_	_	_	_	_	gloss=unc
+26	iho	iho	PART	_	_	_	_	_	gloss=inside
+27	o	o	PART	_	_	_	_	_	gloss=been
+28	kekahi	kekahi	DET	_	_	_	pobj	_	gloss=another
+29	pohaku	pohaku	NOUN	_	_	_	nsubjpass	_	gloss=stone|Number=Sing
+30	i	i	ADP	_	_	_	_	_
+31	ka	ka	DET	_	_	_	_	_	gloss=the
+32	hoohiolo	hoohiolo	VERB	_	_	_	_	_
+33	ole	ole	PART	_	_	_	_	_	gloss=blameless
+34	ia.	ia.	PRON	_	_	_	_	_	gloss=sor
+
+# sent_id = 41014010
+# ref_id = Mark 14:10
+# eng_text = Judas Iscariot , who was one of the twelve , went away to the chief priests , that he might deliver him to them .
+# haw_text = Ilaila ka hele ana o Iuda Isekariota, kekahi o ka poe umikumamalua, i ka poe kahuna nui, e kumakaia ia ia na lakou.
+1	Ilaila	ilaila	NOUN	_	_	_	_	_	gloss=oun
+2	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+3	hele	hele	VERB	_	_	_	_	_	gloss=walking
+4	ana	ana	PART	_	_	_	_	_	gloss=co
+5	o	o	PART	_	_	_	_	_	gloss=been
+6	Iuda	iuda	NOUN	_	_	_	compound	_	gloss=Judas|Number=Sing
+7	Isekariota,	isekariota,	NOUN	_	_	_	_	_
+8	kekahi	kekahi	DET	_	_	_	_	_	gloss=another
+9	o	o	PART	_	_	_	_	_	gloss=been
+10	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+11	poe	poe	NOUN	_	_	_	_	_	gloss=calls
+12	umikumamalua,	umikumamalua,	NUM	_	_	_	nummod	_	gloss=twelve|NumType=Card
+13	i	i	ADP	_	_	_	_	_
+14	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+15	poe	poe	NOUN	_	_	_	_	_	gloss=calls
+16	kahuna	kahuna	NOUN	_	_	_	_	_	gloss=priest
+17	nui,	nui,	ADJ	_	_	_	_	_	gloss=slashing
+18	e	e	AUX	_	_	_	_	_	gloss=will
+19	kumakaia	kumakaia	VERB	_	_	_	xcomp	_	gloss=betray|VerbForm=Inf
+20	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+21	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+22	na	na	DET	_	_	_	_	_	gloss=sisters
+23	lakou.	lakou.	PRON	_	_	_	_	_	gloss=our
+
+# sent_id = 41014013
+# ref_id = Mark 14:13
+# eng_text = He sent two of his disciples , and said to them , " Go into the city , and there you will meet a man carrying a pitcher of water . Follow him ,
+# haw_text = A hoouna ae la ia i na haumana ana elua, i ae la ia laua, E hele aku olua i ke kulanakauhale, alaila olua e halawai ai me kekahi kanaka e hali ana i ke kiaha wai, e hahai aku olua ia ia.
+1	A	a	CCONJ	_	_	_	_	_	gloss=At
+2	hoouna	hoouna	VERB	_	_	26	ccomp	_	gloss=sent|Tense=Past|VerbForm=Fin
+3	ae	ae	PART	_	_	_	_	_	gloss=Even
+4	la	la	NOUN	_	_	_	_	_	gloss=day
+5	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+6	i	i	ADP	_	_	_	_	_
+7	na	na	DET	_	_	_	_	_	gloss=sisters
+8	haumana	haumana	NOUN	_	_	_	_	_	gloss=disciples
+9	ana	ana	PART	_	_	_	_	_	gloss=co
+10	elua,	elua,	NUM	_	_	2	dobj	_	gloss=two|NumType=Card
+11	i	i	ADP	_	_	_	_	_
+12	ae	ae	PART	_	_	_	_	_	gloss=Even
+13	la	la	NOUN	_	_	_	_	_	gloss=day
+14	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+15	laua,	laua,	PRON	_	_	_	_	_	gloss=pit
+16	E	e	AUX	_	_	_	_	_
+17	hele	hele	VERB	_	_	_	_	_	gloss=walking
+18	aku	aku	PART	_	_	_	_	_	gloss=os
+19	olua	olua	PRON	_	_	_	_	_	gloss=Untie
+20	i	i	ADP	_	_	_	_	_
+21	ke	ke	DET	_	_	_	_	_	gloss=high
+22	kulanakauhale,	kulanakauhale,	NOUN	_	_	_	_	_	gloss=towns
+23	alaila	alaila	NOUN	_	_	_	_	_	gloss=pit
+24	olua	olua	PRON	_	_	_	_	_	gloss=Untie
+25	e	e	AUX	_	_	26	aux	_	gloss=will|VerbForm=Fin
+26	halawai	halawai	VERB	_	_	0	root	_	gloss=meet|VerbForm=Inf
+27	ai	ai	PART	_	_	_	_	_	gloss=ving
+28	me	me	ADP	_	_	_	_	_	gloss=as
+29	kekahi	kekahi	DET	_	_	_	_	_	gloss=another
+30	kanaka	kanaka	NOUN	_	_	_	_	_	gloss=ation
+31	e	e	AUX	_	_	26	aux	_	gloss=will|VerbForm=Fin
+32	hali	hali	VERB	_	_	_	_	_	gloss=rying
+33	ana	ana	PART	_	_	_	_	_	gloss=co
+34	i	i	ADP	_	_	_	_	_
+35	ke	ke	DET	_	_	_	_	_	gloss=high
+36	kiaha	kiaha	NOUN	_	_	_	_	_	gloss=cup
+37	wai,	wai,	NOUN	_	_	_	_	_	gloss=ood
+38	e	e	AUX	_	_	26	aux	_	gloss=will|VerbForm=Fin
+39	hahai	hahai	VERB	_	_	_	_	_	gloss=follow
+40	aku	aku	PART	_	_	_	_	_	gloss=os
+41	olua	olua	PRON	_	_	_	_	_	gloss=Untie
+42	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+43	ia.	ia.	PRON	_	_	_	_	_	gloss=sor
+
+# sent_id = 41014018
+# ref_id = Mark 14:18
+# eng_text = As they sat and were eating , Jesus said , " Most assuredly I tell you , one of you will betray me - - he who eats with me . "
+# haw_text = A i ko lakou moe ana i ka ahaaina, olelo mai la Iesu, He oiaio ka'u e olelo aku nei ia oukou, E kumakaiaia auanei au e kekahi o oukou, o ka mea e ai pu ana me au.
+1	A	a	CCONJ	_	_	_	_	_	gloss=At
+2	i	i	CCONJ	_	_	_	_	_
+3	ko	ko	ADP	_	_	_	_	_	gloss=own
+4	lakou	lakou	PRON	_	_	_	_	_	gloss=They
+5	moe	moe	VERB	_	_	_	_	_	gloss=adultery
+6	ana	ana	PART	_	_	_	_	_	gloss=co
+7	i	i	ADP	_	_	_	_	_
+8	ka	ka	DET	_	_	15	det	_	gloss=the|Definite=Def|PronType=Art
+9	ahaaina,	ahaaina,	NOUN	_	_	_	_	_	gloss=festival
+10	olelo	olelo	VERB	_	_	_	_	_	gloss=speak
+11	mai	mai	ADP	_	_	_	_	_	gloss=from
+12	la	la	NOUN	_	_	_	_	_	gloss=day
+13	Iesu,	iesu,	PROPN	_	_	_	_	_	gloss=Gree
+14	He	he	PART	_	_	_	_	_	gloss=Salt
+15	oiaio	oiaio	NOUN	_	_	_	dobj	_	gloss=truth|Number=Sing
+16	ka'u	ka'u	NOUN	_	_	_	_	_	gloss=greater
+17	e	e	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+18	olelo	olelo	VERB	_	_	_	_	_	gloss=speak
+19	aku	aku	PART	_	_	_	_	_	gloss=os
+20	nei	nei	PART	_	_	_	_	_	gloss=grum
+21	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+22	oukou,	oukou,	PRON	_	_	_	_	_	gloss=weak
+23	E	e	AUX	_	_	_	_	_
+24	kumakaiaia	kumakaiaia	VERB	_	_	_	_	_	gloss=ins
+25	auanei	auanei	NOUN	_	_	_	_	_	gloss=stri
+26	au	au	PRON	_	_	_	_	_	gloss=ili
+27	e	e	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+28	kekahi	kekahi	DET	_	_	_	_	_	gloss=another
+29	o	o	PART	_	_	_	_	_	gloss=been
+30	oukou,	oukou,	PRON	_	_	_	_	_	gloss=weak
+31	o	o	PART	_	_	_	_	_	gloss=been
+32	ka	ka	DET	_	_	15	det	_	gloss=the|Definite=Def|PronType=Art
+33	mea	mea	NOUN	_	_	_	_	_	gloss=ure
+34	e	e	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+35	ai	ai	PART	_	_	_	_	_	gloss=ving
+36	pu	pu	PART	_	_	_	_	_	gloss=ures
+37	ana	ana	PART	_	_	_	_	_	gloss=co
+38	me	me	ADP	_	_	_	_	_	gloss=as
+39	au.	au.	PRON	_	_	_	_	_	gloss=shone
+
+# sent_id = 41014047
+# ref_id = Mark 14:47
+# eng_text = But a certain one of those who stood by drew his sword , and struck the servant of the high priest , and cut off his ear .
+# haw_text = A o kekahi o lakou e ku ana malaila, unuhi ae la ia i ka pahikaua, hahau aku la i kekahi kauwa o ke kahuna nui, a oki ae la i kona pepeiao.
+1	A	a	CCONJ	_	_	_	_	_	gloss=At
+2	o	o	PART	_	_	_	_	_	gloss=been
+3	kekahi	kekahi	DET	_	_	_	_	_	gloss=another
+4	o	o	PART	_	_	_	_	_	gloss=been
+5	lakou	lakou	PRON	_	_	_	_	_	gloss=They
+6	e	e	AUX	_	_	_	_	_	gloss=will
+7	ku	ku	VERB	_	_	_	_	_	gloss=standing
+8	ana	ana	PART	_	_	_	_	_	gloss=co
+9	malaila,	malaila,	ADV	_	_	_	_	_	gloss=vis
+10	unuhi	unuhi	VERB	_	_	33	dobj	_	gloss=sword|Number=Sing
+11	ae	ae	PART	_	_	_	_	_	gloss=Even
+12	la	la	NOUN	_	_	_	_	_	gloss=day
+13	ia	ia	PRON	_	_	33	punct	_	PunctType=Peri
+14	i	i	ADP	_	_	_	_	_
+15	ka	ka	DET	_	_	25	det	_	gloss=the|Definite=Def|PronType=Art
+16	pahikaua,	pahikaua,	NOUN	_	_	_	_	_
+17	hahau	hahau	NOUN	_	_	_	_	_	gloss=flog
+18	aku	aku	PART	_	_	_	_	_	gloss=os
+19	la	la	NOUN	_	_	_	_	_	gloss=day
+20	i	i	ADP	_	_	_	_	_
+21	kekahi	kekahi	DET	_	_	_	_	_	gloss=another
+22	kauwa	kauwa	NOUN	_	_	_	_	_	gloss=servants
+23	o	o	PART	_	_	_	_	_	gloss=been
+24	ke	ke	DET	_	_	25	amod	_	gloss=high|Degree=Pos
+25	kahuna	kahuna	NOUN	_	_	_	poss	_	gloss=priest|Number=Sing
+26	nui,	nui,	ADJ	_	_	_	conj	_	gloss=slashing|Aspect=Prog|Tense=Pres|VerbForm=Part
+27	a	a	CCONJ	_	_	33	cc	_	gloss=and|ConjType=Cmp
+28	oki	oki	NOUN	_	_	26	prt	_	gloss=off
+29	ae	ae	PART	_	_	_	_	_	gloss=Even
+30	la	la	NOUN	_	_	_	_	_	gloss=day
+31	i	i	ADP	_	_	_	_	_
+32	kona	kona	PRON	_	_	_	poss	_	gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+33	pepeiao.	pepeiao.	NOUN	_	_	0	root	_	gloss=pulled|Tense=Past|VerbForm=Fin
+
+# sent_id = 41014061
+# ref_id = Mark 14:61
+# eng_text = But he stayed quiet , and answered nothing . Again the high priest asked him , " Are you the Christ , the Son of the Blessed ? "
+# haw_text = Noho malie iho la ia, aole i olelo mai. Ninau hou aku la ke kahuna nui ia ia, i aku la, O oe no anei ka Mesia, ke Keiki a ka mea i hoomaikaiia?
+1	Noho	noho	VERB	_	_	_	_	_	gloss=bered
+2	malie	malie	ADJ	_	_	_	acomp	_	gloss=silent|Degree=Pos
+3	iho	iho	PART	_	_	_	_	_	gloss=inside
+4	la	la	NOUN	_	_	_	_	_	gloss=day
+5	ia,	ia,	PRON	_	_	_	_	_	gloss=Ex
+6	aole	aole	PART	_	_	_	_	_	gloss=not
+7	i	i	ADP	_	_	_	_	_
+8	olelo	olelo	VERB	_	_	_	_	_	gloss=speak
+9	mai.	mai.	ADP	_	_	_	_	_	gloss=ible
+10	Ninau	ninau	VERB	_	_	_	_	_	gloss=demanded
+11	hou	hou	ADJ	_	_	_	_	_	gloss=again
+12	aku	aku	PART	_	_	_	_	_	gloss=os
+13	la	la	NOUN	_	_	_	_	_	gloss=day
+14	ke	ke	DET	_	_	15	amod	_	gloss=high|Degree=Pos
+15	kahuna	kahuna	NOUN	_	_	_	nsubj	_	gloss=priest|Number=Sing
+16	nui	nui	ADJ	_	_	_	_	_	gloss=large
+17	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+18	ia,	ia,	PRON	_	_	_	_	_	gloss=Ex
+19	i	i	ADP	_	_	_	_	_
+20	aku	aku	PART	_	_	_	_	_	gloss=os
+21	la,	la,	NOUN	_	_	_	_	_	gloss=ame
+22	O	o	PART	_	_	_	_	_	gloss=Anyone
+23	oe	oe	PRON	_	_	_	_	_	gloss=You
+24	no	no	PART	_	_	_	_	_	gloss=even
+25	anei	anei	PART	_	_	_	punct	_	PunctType=Peri
+26	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+27	Mesia,	mesia,	NOUN	_	_	_	attr	_	gloss=Messiah|Number=Sing
+28	ke	ke	DET	_	_	15	amod	_	gloss=high|Degree=Pos
+29	Keiki	keiki	NOUN	_	_	27	appos	_	gloss=Son|Number=Sing
+30	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+31	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+32	mea	mea	NOUN	_	_	_	_	_	gloss=ure
+33	i	i	ADP	_	_	_	_	_
+34	hoomaikaiia?	hoomaikaiia?	NOUN	_	_	_	_	_
+
+# sent_id = 42002046
+# ref_id = Luke 2:46
+# eng_text = It happened , after three days they found him in the temple , sitting in the midst of the teachers , both listening to them , and asking them questions .
+# haw_text = Eia kekahi, a hala na la ekolu, ike aku la laua ia ia iloko o ka luakini e noho ana mawaena o ka poe kumu, e hoolohe ana ia lakou, a e ninau ana hoi ia lakou.
+1	Eia	eia	PART	_	_	_	_	_	gloss=bri
+2	kekahi,	kekahi,	DET	_	_	_	_	_	gloss=Two
+3	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+4	hala	hala	VERB	_	_	_	_	_	gloss=gone
+5	na	na	DET	_	_	_	_	_	gloss=sisters
+6	la	la	NOUN	_	_	_	_	_	gloss=day
+7	ekolu,	ekolu,	NUM	_	_	_	_	_	gloss=three
+8	ike	ike	VERB	_	_	_	_	_	gloss=see
+9	aku	aku	PART	_	_	_	_	_	gloss=os
+10	la	la	NOUN	_	_	_	_	_	gloss=day
+11	laua	laua	PRON	_	_	_	_	_	gloss=threw
+12	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+13	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+14	iloko	iloko	ADP	_	_	_	_	_	gloss=within
+15	o	o	PART	_	_	_	_	_	gloss=been
+16	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+17	luakini	luakini	NOUN	_	_	_	_	_	gloss=ind
+18	e	e	AUX	_	_	_	_	_	gloss=will
+19	noho	noho	VERB	_	_	_	advcl	_	gloss=sitting|Aspect=Prog|Tense=Pres|VerbForm=Part
+20	ana	ana	PART	_	_	_	_	_	gloss=co
+21	mawaena	mawaena	NOUN	_	_	_	_	_	gloss=rebuke
+22	o	o	PART	_	_	_	_	_	gloss=been
+23	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+24	poe	poe	NOUN	_	_	_	_	_	gloss=calls
+25	kumu,	kumu,	NOUN	_	_	_	_	_	gloss=collectors
+26	e	e	AUX	_	_	_	_	_	gloss=will
+27	hoolohe	hoolohe	VERB	_	_	_	_	_	gloss=listen
+28	ana	ana	PART	_	_	_	_	_	gloss=co
+29	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+30	lakou,	lakou,	PRON	_	_	_	pobj	_	gloss=them|Case=Acc|Number=Plur|Person=3|PronType=Prs
+31	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+32	e	e	AUX	_	_	_	_	_	gloss=will
+33	ninau	ninau	VERB	_	_	_	_	_	gloss=asked
+34	ana	ana	PART	_	_	_	_	_	gloss=co
+35	hoi	hoi	PART	_	_	_	_	_	gloss=glorif
+36	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+37	lakou.	lakou.	PRON	_	_	_	_	_	gloss=our
+
+# sent_id = 42006012
+# ref_id = Luke 6:12
+# eng_text = It happened in these days , that he went out into the mountain to pray , and he continued all night in prayer to God .
+# haw_text = Eia kekahi, ia mau la no, hele aku la ia i ka mauna e pule; hoomau iho la oia i ka pule i ke Akua ia po a ao.
+1	Eia	eia	PART	_	_	_	_	_	gloss=bri
+2	kekahi,	kekahi,	DET	_	_	_	_	_	gloss=Two
+3	ia	ia	PRON	_	_	22	punct	_	PunctType=Peri
+4	mau	mau	PART	_	_	_	_	_	gloss=uel
+5	la	la	NOUN	_	_	_	npadvmod	_	gloss=day|Number=Sing
+6	no,	no,	PART	_	_	_	_	_	gloss=fathers
+7	hele	hele	VERB	_	_	_	_	_	gloss=walking
+8	aku	aku	PART	_	_	_	_	_	gloss=os
+9	la	la	NOUN	_	_	_	npadvmod	_	gloss=day|Number=Sing
+10	ia	ia	PRON	_	_	22	punct	_	PunctType=Peri
+11	i	i	ADP	_	_	_	_	_
+12	ka	ka	DET	_	_	_	_	_	gloss=the
+13	mauna	mauna	NOUN	_	_	_	_	_	gloss=Olives
+14	e	e	AUX	_	_	_	_	_	gloss=will
+15	pule;	pule;	VERB	_	_	_	_	_	gloss=collector
+16	hoomau	hoomau	VERB	_	_	_	_	_	gloss=ings
+17	iho	iho	PART	_	_	_	_	_	gloss=inside
+18	la	la	NOUN	_	_	_	npadvmod	_	gloss=day|Number=Sing
+19	oia	oia	PRON	_	_	_	_	_	gloss=himself
+20	i	i	ADP	_	_	_	_	_
+21	ka	ka	DET	_	_	_	_	_	gloss=the
+22	pule	pule	VERB	_	_	_	conj	_	gloss=prayed|Tense=Past|VerbForm=Fin
+23	i	i	ADP	_	_	_	_	_
+24	ke	ke	DET	_	_	_	_	_	gloss=high
+25	Akua	akua	PROPN	_	_	_	_	_	gloss=oked
+26	ia	ia	PRON	_	_	22	punct	_	PunctType=Peri
+27	po	po	NOUN	_	_	22	npadvmod	_	gloss=night|Number=Sing
+28	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+29	ao.	ao.	NOUN	_	_	_	_	_	gloss=age
+
+# sent_id = 42008022
+# ref_id = Luke 8:22
+# eng_text = Now it happened on one of those days , that he entered into a boat , himself and his disciples , and he said to them , " Let's go over to the other side of the lake . " So they launched out .
+# haw_text = Eia kekahi, i kekahi la, ee ae la ia me kana mau haumana, ma ka moku; a i mai la oia ia lakou, E holo kakou ma kela kapa o ka moanawai. A holo aku la lakou.
+1	Eia	eia	PART	_	_	_	_	_	gloss=bri
+2	kekahi,	kekahi,	DET	_	_	_	_	_	gloss=Two
+3	i	i	ADP	_	_	_	_	_
+4	kekahi	kekahi	DET	_	_	_	_	_	gloss=another
+5	la,	la,	NOUN	_	_	_	_	_	gloss=ame
+6	ee	ee	VERB	_	_	_	pobj	_	gloss=boat|Number=Sing
+7	ae	ae	PART	_	_	_	_	_	gloss=Even
+8	la	la	NOUN	_	_	_	npadvmod	_	gloss=day|Number=Sing
+9	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+10	me	me	ADP	_	_	_	_	_	gloss=as
+11	kana	kana	PRON	_	_	_	_	_	gloss=date
+12	mau	mau	PART	_	_	_	_	_	gloss=uel
+13	haumana,	haumana,	NOUN	_	_	_	_	_	gloss=Sit
+14	ma	ma	ADP	_	_	_	_	_	gloss=m
+15	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+16	moku;	moku;	VERB	_	_	_	_	_
+17	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+18	i	i	CCONJ	_	_	_	_	_
+19	mai	mai	ADP	_	_	_	_	_	gloss=from
+20	la	la	NOUN	_	_	_	npadvmod	_	gloss=day|Number=Sing
+21	oia	oia	PRON	_	_	_	_	_	gloss=himself
+22	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+23	lakou,	lakou,	PRON	_	_	_	_	_	gloss=them
+24	E	e	AUX	_	_	_	_	_
+25	holo	holo	VERB	_	_	_	_	_	gloss=crossed
+26	kakou	kakou	PRON	_	_	_	_	_	gloss=Let’s
+27	ma	ma	ADP	_	_	_	_	_	gloss=m
+28	kela	kela	NOUN	_	_	_	_	_	gloss=various
+29	kapa	kapa	NOUN	_	_	_	_	_	gloss=garments
+30	o	o	PART	_	_	_	_	_	gloss=been
+31	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+32	moanawai.	moanawai.	NOUN	_	_	_	pobj	_	gloss=side|Number=Sing
+33	A	a	CCONJ	_	_	_	_	_	gloss=At
+34	holo	holo	VERB	_	_	_	_	_	gloss=crossed
+35	aku	aku	PART	_	_	_	_	_	gloss=os
+36	la	la	NOUN	_	_	_	npadvmod	_	gloss=day|Number=Sing
+37	lakou.	lakou.	PRON	_	_	_	_	_	gloss=our
+
+# sent_id = 42008042
+# ref_id = Luke 8:42
+# eng_text = for he had an only daughter , about twelve years of age , and she was dying . But as he went , the multitudes thronged him .
+# haw_text = No ka mea, he kaikamahine kamakahi kana, he umikumamalua paha kona mau makahiki, a e make ana ia. A i ko Iesu hele ana, hooke ae la ka ahakanaka ia ia.
+1	No	no	ADP	_	_	_	_	_	gloss=Therefore
+2	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+3	mea,	mea,	NOUN	_	_	_	_	_	gloss=For
+4	he	he	PART	_	_	_	_	_	gloss=teen
+5	kaikamahine	kaikamahine	NOUN	_	_	_	_	_	gloss=girl
+6	kamakahi	kamakahi	NOUN	_	_	_	_	_
+7	kana,	kana,	PRON	_	_	_	_	_	gloss=lef
+8	he	he	PART	_	_	_	_	_	gloss=teen
+9	umikumamalua	umikumamalua	NUM	_	_	13	nummod	_	gloss=twelve|NumType=Card
+10	paha	paha	ADV	_	_	_	_	_	gloss=noon
+11	kona	kona	PRON	_	_	_	_	_	gloss=his
+12	mau	mau	PART	_	_	_	_	_	gloss=uel
+13	makahiki,	makahiki,	NOUN	_	_	_	npadvmod	_	gloss=years|Number=Plur
+14	a	a	CCONJ	_	_	_	_	_	gloss=and
+15	e	e	AUX	_	_	_	_	_	gloss=will
+16	make	make	VERB	_	_	_	_	_	gloss=died
+17	ana	ana	PART	_	_	_	_	_	gloss=co
+18	ia.	ia.	PRON	_	_	_	_	_	gloss=sor
+19	A	a	CCONJ	_	_	_	_	_	gloss=At
+20	i	i	CCONJ	_	_	_	_	_
+21	ko	ko	ADP	_	_	_	_	_	gloss=own
+22	Iesu	iesu	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+23	hele	hele	VERB	_	_	_	_	_	gloss=walking
+24	ana,	ana,	PART	_	_	_	_	_	gloss=endurance
+25	hooke	hooke	VERB	_	_	_	_	_	gloss=cour
+26	ae	ae	PART	_	_	_	_	_	gloss=Even
+27	la	la	NOUN	_	_	_	_	_	gloss=day
+28	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+29	ahakanaka	ahakanaka	NOUN	_	_	_	_	_	gloss=ered
+30	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+31	ia.	ia.	PRON	_	_	_	_	_	gloss=sor
+
+# sent_id = 42009013
+# ref_id = Luke 9:13
+# eng_text = But he said to them , " You give them something to eat . " They said , " We have no more than five loaves and two fish , unless we should go and buy food for all these people . "
+# haw_text = I mai la oia ia lakou, E haawi aku oukou ia lakou e ai. I aku la lakou, Elima wale no popo berena a makou a me na ia elua, ke hele ole makou e kuai i ai na keia poe kanaka a pau.
+1	I	i	ADP	_	_	_	_	_	gloss=persuad
+2	mai	mai	ADP	_	_	_	_	_	gloss=from
+3	la	la	NOUN	_	_	_	_	_	gloss=day
+4	oia	oia	PRON	_	_	_	_	_	gloss=himself
+5	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+6	lakou,	lakou,	PRON	_	_	_	dobj	_	gloss=them|Case=Acc|Number=Plur|Person=3|PronType=Prs
+7	E	e	AUX	_	_	_	_	_
+8	haawi	haawi	VERB	_	_	_	_	_	gloss=gave
+9	aku	aku	PART	_	_	_	_	_	gloss=os
+10	oukou	oukou	PRON	_	_	_	_	_	gloss=Laodicea
+11	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+12	lakou	lakou	PRON	_	_	_	_	_	gloss=They
+13	e	e	AUX	_	_	_	_	_	gloss=will
+14	ai.	ai.	PART	_	_	_	_	_	gloss=during
+15	I	i	ADP	_	_	_	_	_	gloss=persuad
+16	aku	aku	PART	_	_	_	_	_	gloss=os
+17	la	la	NOUN	_	_	_	_	_	gloss=day
+18	lakou,	lakou,	PRON	_	_	_	dobj	_	gloss=them|Case=Acc|Number=Plur|Person=3|PronType=Prs
+19	Elima	elima	NUM	_	_	22	nummod	_	gloss=five|NumType=Card
+20	wale	wale	ADV	_	_	19	advmod	_	gloss=only
+21	no	no	PART	_	_	_	_	_	gloss=even
+22	popo	popo	NOUN	_	_	_	dobj	_	gloss=loaves|Number=Plur
+23	berena	berena	NOUN	_	_	_	pobj	_	gloss=bread|Number=Sing
+24	a	a	ADP	_	_	_	cc	_	gloss=and|ConjType=Cmp
+25	makou	makou	PRON	_	_	_	_	_	gloss=We
+26	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+27	me	me	ADP	_	_	_	_	_	gloss=as
+28	na	na	DET	_	_	_	_	_	gloss=sisters
+29	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+30	elua,	elua,	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+31	ke	ke	DET	_	_	_	_	_	gloss=high
+32	hele	hele	VERB	_	_	_	_	_	gloss=walking
+33	ole	ole	PART	_	_	_	_	_	gloss=blameless
+34	makou	makou	PRON	_	_	_	_	_	gloss=We
+35	e	e	AUX	_	_	_	_	_	gloss=will
+36	kuai	kuai	VERB	_	_	_	_	_	gloss=selling
+37	i	i	ADP	_	_	_	_	_
+38	ai	ai	PART	_	_	_	_	_	gloss=ving
+39	na	na	DET	_	_	_	_	_	gloss=sisters
+40	keia	keia	DET	_	_	_	det	_	gloss=this|Number=Sing|PronType=Dem
+41	poe	poe	NOUN	_	_	_	_	_	gloss=calls
+42	kanaka	kanaka	NOUN	_	_	_	_	_	gloss=ation
+43	a	a	ADP	_	_	_	cc	_	gloss=and|ConjType=Cmp
+44	pau.	pau.	VERB	_	_	_	_	_	gloss=unbelievers
+
+# sent_id = 42009028
+# ref_id = Luke 9:28
+# eng_text = It happened about eight days after these sayings , that he took with him Peter , John , and James , and went up onto the mountain to pray .
+# haw_text = Eia kekahi, a hala ae la na la ewalu paha mahope iho o ia mau olelo, lawe pu iho la oia ia Petero, a me Ioane, a me Iakobo, a pii aku la i ka mauna e pule.
+1	Eia	eia	PART	_	_	_	_	_	gloss=bri
+2	kekahi,	kekahi,	DET	_	_	_	_	_	gloss=Two
+3	a	a	CCONJ	_	_	26	cc	_	gloss=and|ConjType=Cmp
+4	hala	hala	VERB	_	_	_	_	_	gloss=gone
+5	ae	ae	PART	_	_	_	_	_	gloss=Even
+6	la	la	NOUN	_	_	_	_	_	gloss=day
+7	na	na	DET	_	_	_	_	_	gloss=sisters
+8	la	la	NOUN	_	_	_	_	_	gloss=day
+9	ewalu	ewalu	NUM	_	_	_	_	_	gloss=ight
+10	paha	paha	ADV	_	_	_	_	_	gloss=noon
+11	mahope	mahope	PART	_	_	_	_	_	gloss=unt
+12	iho	iho	PART	_	_	_	_	_	gloss=inside
+13	o	o	PART	_	_	_	_	_	gloss=been
+14	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+15	mau	mau	PART	_	_	_	_	_	gloss=uel
+16	olelo,	olelo,	VERB	_	_	_	_	_	gloss=sad
+17	lawe	lawe	VERB	_	_	_	_	_	gloss=take
+18	pu	pu	PART	_	_	_	_	_	gloss=ures
+19	iho	iho	PART	_	_	_	_	_	gloss=inside
+20	la	la	NOUN	_	_	_	_	_	gloss=day
+21	oia	oia	PRON	_	_	_	_	_	gloss=himself
+22	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+23	Petero,	petero,	PROPN	_	_	_	dobj	_	gloss=Peter|Number=Sing
+24	a	a	CCONJ	_	_	26	cc	_	gloss=and|ConjType=Cmp
+25	me	me	ADP	_	_	_	_	_	gloss=as
+26	Ioane,	ioane,	NOUN	_	_	23	conj	_	gloss=John|Number=Sing
+27	a	a	CCONJ	_	_	26	cc	_	gloss=and|ConjType=Cmp
+28	me	me	ADP	_	_	_	_	_	gloss=as
+29	Iakobo,	iakobo,	NOUN	_	_	26	conj	_	gloss=James|Number=Sing
+30	a	a	CCONJ	_	_	26	cc	_	gloss=and|ConjType=Cmp
+31	pii	pii	VERB	_	_	_	advmod	_	gloss=later|Degree=Cmp
+32	aku	aku	PART	_	_	_	_	_	gloss=os
+33	la	la	NOUN	_	_	_	_	_	gloss=day
+34	i	i	ADP	_	_	_	_	_
+35	ka	ka	DET	_	_	_	_	_	gloss=the
+36	mauna	mauna	NOUN	_	_	_	_	_	gloss=Olives
+37	e	e	AUX	_	_	_	_	_	gloss=will
+38	pule.	pule.	VERB	_	_	_	_	_
+
+# sent_id = 42009032
+# ref_id = Luke 9:32
+# eng_text = Now Peter and those who were with him were heavy with sleep , but when they were fully awake , they saw his glory , and the two men who stood with him .
+# haw_text = A o Petero, a me na mea me ia, ua pauhia i ka hiamoe. A ala ae la, ike aku la lakou i kona nani, a i kela mau kanaka elua e ku pu ana me ia.
+1	A	a	CCONJ	_	_	_	_	_	gloss=At
+2	o	o	PART	_	_	_	_	_	gloss=been
+3	Petero,	petero,	PROPN	_	_	_	nsubj	_	gloss=Peter|Number=Sing
+4	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+5	me	me	ADP	_	_	_	_	_	gloss=as
+6	na	na	DET	_	_	_	_	_	gloss=sisters
+7	mea	mea	NOUN	_	_	_	_	_	gloss=ure
+8	me	me	ADP	_	_	_	_	_	gloss=as
+9	ia,	ia,	PRON	_	_	_	_	_	gloss=Ex
+10	ua	ua	AUX	_	_	_	_	_	gloss=Gentile
+11	pauhia	pauhia	NOUN	_	_	_	_	_
+12	i	i	ADP	_	_	_	_	_
+13	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+14	hiamoe.	hiamoe.	VERB	_	_	_	_	_
+15	A	a	CCONJ	_	_	_	_	_	gloss=At
+16	ala	ala	NOUN	_	_	_	_	_	gloss=rise
+17	ae	ae	PART	_	_	_	_	_	gloss=Even
+18	la,	la,	NOUN	_	_	_	_	_	gloss=ame
+19	ike	ike	VERB	_	_	_	_	_	gloss=see
+20	aku	aku	PART	_	_	_	_	_	gloss=os
+21	la	la	NOUN	_	_	_	_	_	gloss=day
+22	lakou	lakou	PRON	_	_	_	_	_	gloss=They
+23	i	i	ADP	_	_	_	_	_
+24	kona	kona	PRON	_	_	_	_	_	gloss=his
+25	nani,	nani,	NOUN	_	_	_	_	_	gloss=referring
+26	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+27	i	i	CCONJ	_	_	_	_	_
+28	kela	kela	NOUN	_	_	_	_	_	gloss=various
+29	mau	mau	PART	_	_	_	_	_	gloss=uel
+30	kanaka	kanaka	NOUN	_	_	_	_	_	gloss=ation
+31	elua	elua	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+32	e	e	AUX	_	_	_	_	_	gloss=will
+33	ku	ku	VERB	_	_	_	acl	_	gloss=standing|Aspect=Prog|Tense=Pres|VerbForm=Part
+34	pu	pu	PART	_	_	_	_	_	gloss=ures
+35	ana	ana	PART	_	_	_	_	_	gloss=co
+36	me	me	ADP	_	_	_	_	_	gloss=as
+37	ia.	ia.	PRON	_	_	_	_	_	gloss=sor
+
+# sent_id = 42011026
+# ref_id = Luke 11:26
+# eng_text = Then he goes , and takes seven other spirits more evil than himself , and they enter in and dwell there . The last state of that man becomes worse than the first . "
+# haw_text = Alaila kii aku la a lawe mai i kekahi poe uhane e ehiku, ua oi aku ko lakou hewa i kona iho, a komo hoi lakou a noho malaila; a ua oi aku ka hewa o hope o ua kanaka la i ko ka noho ana mamua.
+1	Alaila	alaila	NOUN	_	_	_	_	_	gloss=ime
+2	kii	kii	NOUN	_	_	_	_	_	gloss=f
+3	aku	aku	PART	_	_	_	_	_	gloss=os
+4	la	la	NOUN	_	_	_	_	_	gloss=day
+5	a	a	CCONJ	_	_	24	cc	_	gloss=and|ConjType=Cmp
+6	lawe	lawe	VERB	_	_	_	_	_	gloss=take
+7	mai	mai	ADP	_	_	_	_	_	gloss=from
+8	i	i	ADP	_	_	_	_	_
+9	kekahi	kekahi	DET	_	_	_	_	_	gloss=another
+10	poe	poe	NOUN	_	_	_	_	_	gloss=calls
+11	uhane	uhane	NOUN	_	_	_	nsubj	_	gloss=spirit|Number=Sing
+12	e	e	AUX	_	_	_	_	_	gloss=will
+13	ehiku,	ehiku,	NUM	_	_	_	_	_	gloss=trump
+14	ua	ua	AUX	_	_	_	_	_	gloss=Gentile
+15	oi	oi	NOUN	_	_	_	prep	_	gloss=than
+16	aku	aku	PART	_	_	_	_	_	gloss=os
+17	ko	ko	ADP	_	_	_	_	_	gloss=own
+18	lakou	lakou	PRON	_	_	_	_	_	gloss=They
+19	hewa	hewa	NOUN	_	_	_	acomp	_	gloss=worse|Degree=Cmp
+20	i	i	ADP	_	_	_	_	_
+21	kona	kona	PRON	_	_	_	_	_	gloss=his
+22	iho,	iho,	PART	_	_	_	_	_	gloss=re
+23	a	a	CCONJ	_	_	24	cc	_	gloss=and|ConjType=Cmp
+24	komo	komo	VERB	_	_	_	conj	_	gloss=enter|Tense=Pres|VerbForm=Fin
+25	hoi	hoi	PART	_	_	_	_	_	gloss=glorif
+26	lakou	lakou	PRON	_	_	_	_	_	gloss=They
+27	a	a	CCONJ	_	_	24	cc	_	gloss=and|ConjType=Cmp
+28	noho	noho	VERB	_	_	_	_	_	gloss=sitting
+29	malaila;	malaila;	ADV	_	_	_	_	_
+30	a	a	CCONJ	_	_	24	cc	_	gloss=and|ConjType=Cmp
+31	ua	ua	AUX	_	_	_	_	_	gloss=Gentile
+32	oi	oi	NOUN	_	_	_	prep	_	gloss=than
+33	aku	aku	PART	_	_	_	_	_	gloss=os
+34	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+35	hewa	hewa	NOUN	_	_	_	acomp	_	gloss=worse|Degree=Cmp
+36	o	o	PART	_	_	_	_	_	gloss=been
+37	hope	hope	NOUN	_	_	_	acomp	_	gloss=worse|Degree=Cmp
+38	o	o	PART	_	_	_	_	_	gloss=been
+39	ua	ua	AUX	_	_	_	_	_	gloss=Gentile
+40	kanaka	kanaka	NOUN	_	_	_	_	_	gloss=ation
+41	la	la	NOUN	_	_	_	_	_	gloss=day
+42	i	i	ADP	_	_	_	_	_
+43	ko	ko	ADP	_	_	_	_	_	gloss=own
+44	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+45	noho	noho	VERB	_	_	_	_	_	gloss=sitting
+46	ana	ana	PART	_	_	_	_	_	gloss=co
+47	mamua.	mamua.	NOUN	_	_	32	pobj	_	gloss=itself|Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Reflex=Yes
+
+# sent_id = 42015004
+# ref_id = Luke 15:4
+# eng_text = " Which of you men , if you had one hundred sheep , and lost one of them , wouldn't leave the ninety-nine in the wilderness , and go after the one that was lost , until he found it ?
+# haw_text = Owai ke kanaka iwaena o oukou he poe hipa kana hookahi haneri, a nalowale kekahi o lakou, aole anei ia i waiho aku i na hipa he kanaiwakumamaiwa ma ka waonahele, a imi aku i ka mea i nalowale a loaa ia ia ia?
+1	Owai	owai	NOUN	_	_	_	_	_	gloss=Who
+2	ke	ke	DET	_	_	_	_	_	gloss=high
+3	kanaka	kanaka	NOUN	_	_	_	_	_	gloss=ation
+4	iwaena	iwaena	ADP	_	_	_	_	_	gloss=among
+5	o	o	PART	_	_	_	_	_	gloss=been
+6	oukou	oukou	PRON	_	_	_	_	_	gloss=Laodicea
+7	he	he	PART	_	_	_	_	_	gloss=teen
+8	poe	poe	NOUN	_	_	_	_	_	gloss=calls
+9	hipa	hipa	NOUN	_	_	_	dobj	_	gloss=sheep|Number=Plur
+10	kana	kana	PRON	_	_	_	_	_	gloss=date
+11	hookahi	hookahi	NOUN	_	_	_	_	_	gloss=1
+12	haneri,	haneri,	NOUN	_	_	_	_	_	gloss=perfume
+13	a	a	ADP	_	_	_	cc	_	gloss=and|ConjType=Cmp
+14	nalowale	nalowale	VERB	_	_	_	relcl	_	gloss=lost|Aspect=Perf|Tense=Past|VerbForm=Part
+15	kekahi	kekahi	DET	_	_	_	_	_	gloss=another
+16	o	o	PART	_	_	_	_	_	gloss=been
+17	lakou,	lakou,	PRON	_	_	_	pobj	_	gloss=them|Case=Acc|Number=Plur|Person=3|PronType=Prs
+18	aole	aole	PART	_	_	_	_	_	gloss=not
+19	anei	anei	PART	_	_	_	punct	_	PunctType=Peri
+20	ia	ia	PRON	_	_	_	_	_
+21	i	i	ADP	_	_	_	_	_
+22	waiho	waiho	VERB	_	_	_	_	_	gloss=ninety-nine
+23	aku	aku	PART	_	_	_	_	_	gloss=os
+24	i	i	ADP	_	_	_	_	_
+25	na	na	DET	_	_	_	_	_	gloss=sisters
+26	hipa	hipa	NOUN	_	_	_	dobj	_	gloss=sheep|Number=Plur
+27	he	he	PART	_	_	_	_	_	gloss=teen
+28	kanaiwakumamaiwa	kanaiwakumamaiwa	NUM	_	_	_	_	_
+29	ma	ma	ADP	_	_	_	_	_	gloss=m
+30	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+31	waonahele,	waonahele,	NOUN	_	_	_	_	_	gloss=,000
+32	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+33	imi	imi	VERB	_	_	_	advcl	_	gloss=search|Number=Sing
+34	aku	aku	PART	_	_	_	_	_	gloss=os
+35	i	i	ADP	_	_	_	_	_
+36	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+37	mea	mea	NOUN	_	_	_	_	_	gloss=ure
+38	i	i	ADP	_	_	_	_	_
+39	nalowale	nalowale	VERB	_	_	_	relcl	_	gloss=lost|Aspect=Perf|Tense=Past|VerbForm=Part
+40	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+41	loaa	loaa	VERB	_	_	_	_	_	gloss=found
+42	ia	ia	PRON	_	_	_	_	_
+43	ia	ia	PRON	_	_	_	_	_
+44	ia?	ia?	PRON	_	_	_	_	_	gloss=Was
+
+# sent_id = 42017002
+# ref_id = Luke 17:2
+# eng_text = It would be better for him if a millstone were hanged about his neck , and he were thrown into the sea , rather than that he should cause one of these little ones to stumble .
+# haw_text = Ina ua kauia ka pohaku kaa palaoa ma kona a-i, a e kiolaia oia ilalo i ke kai, e aho ia i ka hoohihia ana i kekahi o keia mau mea uuku.
+1	Ina	ina	SCONJ	_	_	_	_	_	gloss=If
+2	ua	ua	AUX	_	_	_	_	_	gloss=Gentile
+3	kauia	kauia	NOUN	_	_	_	_	_	gloss=mark
+4	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+5	pohaku	pohaku	NOUN	_	_	_	_	_	gloss=stone
+6	kaa	kaa	NOUN	_	_	_	_	_	gloss=ck
+7	palaoa	palaoa	NOUN	_	_	_	_	_	gloss=mill
+8	ma	ma	ADP	_	_	_	_	_	gloss=m
+9	kona	kona	PRON	_	_	_	_	_	gloss=his
+10	a-i,	a-i,	NOUN	_	_	_	_	_
+11	a	a	CCONJ	_	_	_	_	_	gloss=and
+12	e	e	AUX	_	_	_	_	_	gloss=will
+13	kiolaia	kiolaia	NOUN	_	_	_	_	_
+14	oia	oia	PRON	_	_	_	_	_	gloss=himself
+15	ilalo	ilalo	NOUN	_	_	_	_	_	gloss=ck
+16	i	i	ADP	_	_	_	_	_
+17	ke	ke	DET	_	_	_	_	_	gloss=high
+18	kai,	kai,	NOUN	_	_	_	xcomp	_	gloss=thrown|Aspect=Perf|Tense=Past|VerbForm=Part
+19	e	e	AUX	_	_	_	_	_	gloss=will
+20	aho	aho	NOUN	_	_	_	acomp	_	gloss=better|Degree=Cmp
+21	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+22	i	i	ADP	_	_	_	_	_
+23	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+24	hoohihia	hoohihia	NOUN	_	_	_	advcl	_	gloss=cause|VerbForm=Inf
+25	ana	ana	PART	_	_	_	_	_	gloss=co
+26	i	i	ADP	_	_	_	_	_
+27	kekahi	kekahi	DET	_	_	_	_	_	gloss=another
+28	o	o	PART	_	_	_	_	_	gloss=been
+29	keia	keia	DET	_	_	_	_	_	gloss=this
+30	mau	mau	PART	_	_	_	_	_	gloss=uel
+31	mea	mea	NOUN	_	_	_	_	_	gloss=ure
+32	uuku.	uuku.	NOUN	_	_	_	_	_	gloss=ck
+
+# sent_id = 42017004
+# ref_id = Luke 17:4
+# eng_text = If he sins against you seven times in the day , and seven times turns again , saying , ' I repent , ' you shall forgive him . "
+# haw_text = A ina ehiku kana hana hewa ana ia oe i ka la hookahi, a ina ehiku kona huli ana mai ia oe i ka la hookahi, me ka olelo, Ua mihi au; e kala aku oe ia ia.
+1	A	a	CCONJ	_	_	_	_	_	gloss=At
+2	ina	ina	SCONJ	_	_	_	mark	_	gloss=if
+3	ehiku	ehiku	NUM	_	_	_	nummod	_	gloss=seven|NumType=Card
+4	kana	kana	PRON	_	_	_	_	_	gloss=date
+5	hana	hana	VERB	_	_	_	_	_	gloss=miracles
+6	hewa	hewa	NOUN	_	_	_	_	_	gloss=worse
+7	ana	ana	PART	_	_	_	_	_	gloss=co
+8	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+9	oe	oe	PRON	_	_	_	_	_	gloss=You
+10	i	i	ADP	_	_	_	_	_
+11	ka	ka	DET	_	_	_	_	_	gloss=the
+12	la	la	NOUN	_	_	_	npadvmod	_	gloss=day|Number=Sing
+13	hookahi,	hookahi,	NOUN	_	_	_	_	_	gloss=ag
+14	a	a	ADP	_	_	_	cc	_	gloss=and|ConjType=Cmp
+15	ina	ina	SCONJ	_	_	_	mark	_	gloss=if
+16	ehiku	ehiku	NUM	_	_	_	nummod	_	gloss=seven|NumType=Card
+17	kona	kona	PRON	_	_	_	_	_	gloss=his
+18	huli	huli	VERB	_	_	_	_	_	gloss=turned
+19	ana	ana	PART	_	_	_	_	_	gloss=co
+20	mai	mai	ADP	_	_	_	_	_	gloss=from
+21	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+22	oe	oe	PRON	_	_	_	_	_	gloss=You
+23	i	i	ADP	_	_	_	_	_
+24	ka	ka	DET	_	_	_	_	_	gloss=the
+25	la	la	NOUN	_	_	_	npadvmod	_	gloss=day|Number=Sing
+26	hookahi,	hookahi,	NOUN	_	_	_	_	_	gloss=ag
+27	me	me	ADP	_	_	_	_	_	gloss=as
+28	ka	ka	DET	_	_	_	_	_	gloss=the
+29	olelo,	olelo,	VERB	_	_	_	_	_	gloss=sad
+30	Ua	ua	AUX	_	_	_	_	_	gloss=me
+31	mihi	mihi	NOUN	_	_	_	_	_	gloss=repent
+32	au;	au;	PRON	_	_	_	_	_	gloss=Rejoice
+33	e	e	AUX	_	_	_	_	_	gloss=will
+34	kala	kala	NOUN	_	_	_	_	_	gloss=unt
+35	aku	aku	PART	_	_	_	_	_	gloss=os
+36	oe	oe	PRON	_	_	_	_	_	gloss=You
+37	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+38	ia.	ia.	PRON	_	_	_	_	_	gloss=sor
+
+# sent_id = 42017024
+# ref_id = Luke 17:24
+# eng_text = for as the lightning , when it flashes out of the one part under the sky , shines to the other part under the sky ; so will the Son of Man be in his day .
+# haw_text = No ka mea, e like me ka uila e anapu mai ana ma kekahi aoao mai o ka lani, a alohilohi aku ma kekahi aoao o ka lani, pela no ke Keiki a ke kanaka i kona la.
+1	No	no	ADP	_	_	_	_	_	gloss=Therefore
+2	ka	ka	DET	_	_	32	det	_	gloss=the|Definite=Def|PronType=Art
+3	mea,	mea,	NOUN	_	_	_	prep	_	gloss=For
+4	e	e	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+5	like	like	ADJ	_	_	_	_	_	gloss=oc
+6	me	me	ADP	_	_	3	prep	_	gloss=as
+7	ka	ka	DET	_	_	32	det	_	gloss=the|Definite=Def|PronType=Art
+8	uila	uila	NOUN	_	_	29	compound	_	gloss=lightning|Number=Sing
+9	e	e	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+10	anapu	anapu	NOUN	_	_	6	pobj	_	gloss=flashes|Number=Plur
+11	mai	mai	ADP	_	_	38	prep	_	gloss=from
+12	ana	ana	PART	_	_	_	_	_	gloss=co
+13	ma	ma	ADP	_	_	_	_	_	gloss=m
+14	kekahi	kekahi	DET	_	_	_	_	_	gloss=another
+15	aoao	aoao	NOUN	_	_	29	conj	_	gloss=lights|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+16	mai	mai	ADP	_	_	38	prep	_	gloss=from
+17	o	o	PART	_	_	_	_	_	gloss=been
+18	ka	ka	DET	_	_	32	det	_	gloss=the|Definite=Def|PronType=Art
+19	lani,	lani,	NOUN	_	_	38	dobj	_	gloss=sky|Number=Sing
+20	a	a	CCONJ	_	_	29	cc	_	gloss=and|ConjType=Cmp
+21	alohilohi	alohilohi	NOUN	_	_	29	conj	_	gloss=lights|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+22	aku	aku	PART	_	_	_	_	_	gloss=os
+23	ma	ma	ADP	_	_	_	_	_	gloss=m
+24	kekahi	kekahi	DET	_	_	_	_	_	gloss=another
+25	aoao	aoao	NOUN	_	_	29	conj	_	gloss=lights|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+26	o	o	PART	_	_	_	_	_	gloss=been
+27	ka	ka	DET	_	_	32	det	_	gloss=the|Definite=Def|PronType=Art
+28	lani,	lani,	NOUN	_	_	38	dobj	_	gloss=sky|Number=Sing
+29	pela	pela	NOUN	_	_	6	pobj	_	gloss=flashes|Number=Plur
+30	no	no	PART	_	_	_	_	_	gloss=even
+31	ke	ke	DET	_	_	_	_	_	gloss=high
+32	Keiki	keiki	NOUN	_	_	_	nsubj	_	gloss=Son|Number=Sing
+33	a	a	CCONJ	_	_	29	cc	_	gloss=and|ConjType=Cmp
+34	ke	ke	DET	_	_	_	_	_	gloss=high
+35	kanaka	kanaka	NOUN	_	_	_	_	_	gloss=ation
+36	i	i	ADP	_	_	_	_	_
+37	kona	kona	PRON	_	_	_	_	_	gloss=his
+38	la.	la.	NOUN	_	_	29	conj	_	gloss=lights|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+
+# sent_id = 42017035
+# ref_id = Luke 17:35
+# eng_text = There will be two women grinding together . The one will be taken , and the other will be left . "
+# haw_text = Elua hoi wahine e wili pu ana; e laweia'ku kekahi, a e waiho no kekahi.
+1	Elua	elua	NUM	_	_	9	ccomp	_	gloss=grinding|Aspect=Prog|Tense=Pres|VerbForm=Part
+2	hoi	hoi	PART	_	_	_	_	_	gloss=glorif
+3	wahine	wahine	NOUN	_	_	5	nsubj	_	gloss=women|Number=Plur
+4	e	e	AUX	_	_	9	aux	_	gloss=will|VerbForm=Fin
+5	wili	wili	NOUN	_	_	9	ccomp	_	gloss=grinding|Aspect=Prog|Tense=Pres|VerbForm=Part
+6	pu	pu	PART	_	_	_	_	_	gloss=ures
+7	ana;	ana;	PART	_	_	_	_	_	gloss=future
+8	e	e	AUX	_	_	9	aux	_	gloss=will|VerbForm=Fin
+9	laweia'ku	laweia'ku	VERB	_	_	_	ccomp	_	gloss=taken|Aspect=Perf|Tense=Past|VerbForm=Part
+10	kekahi,	kekahi,	DET	_	_	3	nummod	_	gloss=Two|NumType=Card
+11	a	a	CCONJ	_	_	_	_	_	gloss=and
+12	e	e	AUX	_	_	9	aux	_	gloss=will|VerbForm=Fin
+13	waiho	waiho	VERB	_	_	_	_	_	gloss=ninety-nine
+14	no	no	PART	_	_	_	_	_	gloss=even
+15	kekahi.	kekahi.	DET	_	_	3	nummod	_	gloss=Two|NumType=Card
+
+# sent_id = 42018010
+# ref_id = Luke 18:10
+# eng_text = " Two men went up into the temple to pray ; one was a Pharisee , and the other was a tax collector .
+# haw_text = Hele ae la na kanaka elua i ka luakini e pule; he Parisaio kekahi, a he lunaauhau kekahi.
+1	Hele	hele	VERB	_	_	_	_	_	gloss=Should
+2	ae	ae	PART	_	_	_	_	_	gloss=Even
+3	la	la	NOUN	_	_	_	_	_	gloss=day
+4	na	na	DET	_	_	_	_	_	gloss=sisters
+5	kanaka	kanaka	NOUN	_	_	_	_	_	gloss=ation
+6	elua	elua	NUM	_	_	_	_	_	gloss=two
+7	i	i	ADP	_	_	_	_	_
+8	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+9	luakini	luakini	NOUN	_	_	_	_	_	gloss=ind
+10	e	e	AUX	_	_	_	_	_	gloss=will
+11	pule;	pule;	VERB	_	_	_	attr	_	gloss=collector|Number=Sing
+12	he	he	PART	_	_	_	_	_	gloss=teen
+13	Parisaio	parisaio	NOUN	_	_	_	_	_	gloss=Pharisees
+14	kekahi,	kekahi,	DET	_	_	_	nummod	_	gloss=Two|NumType=Card
+15	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+16	he	he	PART	_	_	_	_	_	gloss=teen
+17	lunaauhau	lunaauhau	NOUN	_	_	_	attr	_	gloss=collector|Number=Sing
+18	kekahi.	kekahi.	DET	_	_	_	nummod	_	gloss=Two|NumType=Card
+
+# sent_id = 42020031
+# ref_id = Luke 20:31
+# eng_text = The third took her , and likewise the seven all left no children , and died .
+# haw_text = A o ke kolu hoi, ua mare aku la oia ia ia, a pela no hoi lakou a ehiku; make iho la lakou, aole a lakou keiki.
+1	A	a	CCONJ	_	_	_	_	_	gloss=At
+2	o	o	PART	_	_	_	_	_	gloss=been
+3	ke	ke	DET	_	_	_	_	_	gloss=high
+4	kolu	kolu	NOUN	_	_	_	amod	_	gloss=third|Degree=Pos
+5	hoi,	hoi,	PART	_	_	_	_	_	gloss=ion
+6	ua	ua	AUX	_	_	_	_	_	gloss=Gentile
+7	mare	mare	NOUN	_	_	_	_	_	gloss=commits
+8	aku	aku	PART	_	_	_	_	_	gloss=os
+9	la	la	NOUN	_	_	_	_	_	gloss=day
+10	oia	oia	PRON	_	_	_	_	_	gloss=himself
+11	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+12	ia,	ia,	PRON	_	_	_	_	_	gloss=Ex
+13	a	a	CCONJ	_	_	_	_	_	gloss=and
+14	pela	pela	NOUN	_	_	_	_	_	gloss=flashes
+15	no	no	PART	_	_	_	_	_	gloss=even
+16	hoi	hoi	PART	_	_	_	_	_	gloss=glorif
+17	lakou	lakou	PRON	_	_	_	_	_	gloss=They
+18	a	a	CCONJ	_	_	_	_	_	gloss=and
+19	ehiku;	ehiku;	NUM	_	_	_	pobj	_	gloss=seven|NumType=Card
+20	make	make	VERB	_	_	19	relcl	_	gloss=died|Tense=Past|VerbForm=Fin
+21	iho	iho	PART	_	_	_	_	_	gloss=inside
+22	la	la	NOUN	_	_	_	_	_	gloss=day
+23	lakou,	lakou,	PRON	_	_	_	pobj	_	gloss=them|Case=Acc|Number=Plur|Person=3|PronType=Prs
+24	aole	aole	PART	_	_	_	_	_	gloss=not
+25	a	a	CCONJ	_	_	_	_	_	gloss=and
+26	lakou	lakou	PRON	_	_	_	_	_	gloss=They
+27	keiki.	keiki.	NOUN	_	_	_	_	_	gloss=official
+
+# sent_id = 42022030
+# ref_id = Luke 22:30
+# eng_text = that you may eat and drink at my table in my kingdom . You will sit on thrones , judging the twelve tribes of Israel . "
+# haw_text = E ai oukou a e inu hoi ma ka'u papa aina iloko o ko'u aupuni, a e noho hoi ma na nohoalii e hoopono ana i na ohana he umikumamalua a Iseraela.
+1	E	e	AUX	_	_	_	_	_
+2	ai	ai	PART	_	_	_	_	_	gloss=ving
+3	oukou	oukou	PRON	_	_	_	_	_	gloss=Laodicea
+4	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+5	e	e	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+6	inu	inu	NOUN	_	_	_	_	_	gloss=drinks
+7	hoi	hoi	PART	_	_	_	_	_	gloss=glorif
+8	ma	ma	ADP	_	_	_	_	_	gloss=m
+9	ka'u	ka'u	PRON	_	_	_	_	_	gloss=greater
+10	papa	papa	NOUN	_	_	_	_	_	gloss=stop
+11	aina	aina	NOUN	_	_	_	_	_	gloss=land
+12	iloko	iloko	ADP	_	_	_	_	_	gloss=within
+13	o	o	PART	_	_	_	_	_	gloss=been
+14	ko'u	ko'u	NOUN	_	_	_	_	_	gloss=spare
+15	aupuni,	aupuni,	NOUN	_	_	_	_	_	gloss=crowned
+16	a	a	ADP	_	_	_	cc	_	gloss=and|ConjType=Cmp
+17	e	e	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+18	noho	noho	VERB	_	_	_	_	_	gloss=sitting
+19	hoi	hoi	PART	_	_	_	_	_	gloss=glorif
+20	ma	ma	ADP	_	_	_	_	_	gloss=m
+21	na	na	DET	_	_	_	_	_	gloss=sisters
+22	nohoalii	nohoalii	NOUN	_	_	_	pobj	_	gloss=thrones|Number=Plur
+23	e	e	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+24	hoopono	hoopono	NOUN	_	_	_	_	_	gloss=Ty
+25	ana	ana	PART	_	_	_	_	_	gloss=co
+26	i	i	ADP	_	_	_	_	_
+27	na	na	DET	_	_	_	_	_	gloss=sisters
+28	ohana	ohana	NOUN	_	_	_	dobj	_	gloss=tribes|Number=Plur
+29	he	he	PART	_	_	_	_	_	gloss=teen
+30	umikumamalua	umikumamalua	NUM	_	_	32	nummod	_	gloss=twelve|NumType=Card
+31	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+32	Iseraela.	iseraela.	NOUN	_	_	_	dobj	_	gloss=tribes|Number=Plur
+
+# sent_id = 42022050
+# ref_id = Luke 22:50
+# eng_text = A certain one of them struck the servant of the high priest , and cut off his right ear .
+# haw_text = A hahau iho la kekahi o lakou i ke kauwa a ke kahuna nui, a oki ae la i kona pepeiao akau.
+1	A	a	CCONJ	_	_	_	_	_	gloss=At
+2	hahau	hahau	NOUN	_	_	_	_	_	gloss=flog
+3	iho	iho	PART	_	_	_	_	_	gloss=inside
+4	la	la	NOUN	_	_	_	_	_	gloss=day
+5	kekahi	kekahi	DET	_	_	_	_	_	gloss=another
+6	o	o	PART	_	_	_	_	_	gloss=been
+7	lakou	lakou	PRON	_	_	_	_	_	gloss=They
+8	i	i	ADP	_	_	_	_	_
+9	ke	ke	DET	_	_	13	amod	_	gloss=high|Degree=Pos
+10	kauwa	kauwa	NOUN	_	_	_	_	_	gloss=servants
+11	a	a	CCONJ	_	_	_	_	_	gloss=and
+12	ke	ke	DET	_	_	13	amod	_	gloss=high|Degree=Pos
+13	kahuna	kahuna	NOUN	_	_	_	poss	_	gloss=priest|Number=Sing
+14	nui,	nui,	ADJ	_	_	_	advcl	_	gloss=slashing|Aspect=Prog|Tense=Pres|VerbForm=Part
+15	a	a	CCONJ	_	_	_	_	_	gloss=and
+16	oki	oki	NOUN	_	_	14	prt	_	gloss=off
+17	ae	ae	PART	_	_	_	_	_	gloss=Even
+18	la	la	NOUN	_	_	_	_	_	gloss=day
+19	i	i	ADP	_	_	_	_	_
+20	kona	kona	PRON	_	_	_	poss	_	gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+21	pepeiao	pepeiao	NOUN	_	_	_	_	_	gloss=ears
+22	akau.	akau.	ADJ	_	_	_	_	_	gloss=priest’s
+
+# sent_id = 42023033
+# ref_id = Luke 23:33
+# eng_text = When they came to the place that is called The Skull , they crucified him there with the criminals , one on the right and the other on the left .
+# haw_text = A hiki aku la lakou i ka wahi i kapaia o Kalevari, malaila lakou i kau aku ai ia ia ma ke kea, a me na lawehala, ma ka akau kekahi, a ma ka hema kekahi.
+1	A	a	CCONJ	_	_	_	_	_	gloss=At
+2	hiki	hiki	VERB	_	_	_	_	_	gloss=able
+3	aku	aku	PART	_	_	_	_	_	gloss=os
+4	la	la	NOUN	_	_	_	_	_	gloss=day
+5	lakou	lakou	PRON	_	_	_	_	_	gloss=They
+6	i	i	ADP	_	_	_	_	_
+7	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+8	wahi	wahi	NOUN	_	_	_	_	_	gloss=strange
+9	i	i	ADP	_	_	_	_	_
+10	kapaia	kapaia	NOUN	_	_	_	_	_	gloss=conce
+11	o	o	PART	_	_	_	_	_	gloss=been
+12	Kalevari,	kalevari,	NOUN	_	_	_	_	_
+13	malaila	malaila	ADV	_	_	_	_	_	gloss=ort
+14	lakou	lakou	PRON	_	_	_	_	_	gloss=They
+15	i	i	ADP	_	_	_	_	_
+16	kau	kau	VERB	_	_	_	_	_	gloss=als
+17	aku	aku	PART	_	_	_	_	_	gloss=os
+18	ai	ai	PART	_	_	_	_	_	gloss=ving
+19	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+20	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+21	ma	ma	ADP	_	_	_	_	_	gloss=m
+22	ke	ke	DET	_	_	_	_	_	gloss=high
+23	kea,	kea,	NOUN	_	_	_	pobj	_	gloss=cross|Number=Sing
+24	a	a	CCONJ	_	_	30	cc	_	gloss=and|ConjType=Cmp
+25	me	me	ADP	_	_	_	_	_	gloss=as
+26	na	na	DET	_	_	_	_	_	gloss=sisters
+27	lawehala,	lawehala,	NOUN	_	_	_	_	_
+28	ma	ma	ADP	_	_	_	_	_	gloss=m
+29	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+30	akau	akau	ADJ	_	_	_	pobj	_	gloss=right|Number=Sing
+31	kekahi,	kekahi,	DET	_	_	_	_	_	gloss=Two
+32	a	a	CCONJ	_	_	30	cc	_	gloss=and|ConjType=Cmp
+33	ma	ma	ADP	_	_	_	_	_	gloss=m
+34	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+35	hema	hema	ADJ	_	_	_	_	_	gloss=concerning
+36	kekahi.	kekahi.	DET	_	_	_	_	_	gloss=Two
+
+# sent_id = 42024035
+# ref_id = Luke 24:35
+# eng_text = They related the things that happened along the way , and how he was recognized by them in the breaking of the bread .
+# haw_text = A hai mai la laua i na mea i hanaia ma ke alanui, a me kona maopopo ana ia laua i ka wawahi berena ana.
+1	A	a	CCONJ	_	_	_	_	_	gloss=At
+2	hai	hai	VERB	_	_	_	_	_	gloss=news
+3	mai	mai	ADP	_	_	_	prep	_	gloss=from
+4	la	la	NOUN	_	_	_	_	_	gloss=day
+5	laua	laua	PRON	_	_	_	_	_	gloss=threw
+6	i	i	ADP	_	_	_	_	_
+7	na	na	DET	_	_	_	_	_	gloss=sisters
+8	mea	mea	NOUN	_	_	_	_	_	gloss=ure
+9	i	i	ADP	_	_	_	_	_
+10	hanaia	hanaia	VERB	_	_	_	_	_	gloss=entering
+11	ma	ma	ADP	_	_	_	_	_	gloss=m
+12	ke	ke	DET	_	_	_	_	_	gloss=high
+13	alanui,	alanui,	NOUN	_	_	_	_	_	gloss=footpath
+14	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+15	me	me	ADP	_	_	_	mark	_	gloss=as
+16	kona	kona	PRON	_	_	_	_	_	gloss=his
+17	maopopo	maopopo	NOUN	_	_	_	_	_	gloss=cept
+18	ana	ana	PART	_	_	_	_	_	gloss=co
+19	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+20	laua	laua	PRON	_	_	_	_	_	gloss=threw
+21	i	i	ADP	_	_	_	_	_
+22	ka	ka	DET	_	_	24	det	_	gloss=the|Definite=Def|PronType=Art
+23	wawahi	wawahi	VERB	_	_	_	_	_	gloss=broke
+24	berena	berena	NOUN	_	_	_	dobj	_	gloss=bread|Number=Sing
+25	ana.	ana.	PART	_	_	_	_	_	gloss=ared
+
+# sent_id = 43001040
+# ref_id = John 1:40
+# eng_text = One of the two who heard John , and followed him , was Andrew , Simon Peter's brother .
+# haw_text = O Anederea, ke kaikaina o Simona Petero, oia kekahi o ua mau haumana la elua i lohe i ka Ioane, a hahai aku la ia Iesu.
+1	O	o	PART	_	_	_	_	_	gloss=Anyone
+2	Anederea,	anederea,	NOUN	_	_	_	npadvmod	_	gloss=Andrew|Number=Sing
+3	ke	ke	DET	_	_	_	_	_	gloss=high
+4	kaikaina	kaikaina	NOUN	_	_	2	appos	_	gloss=brother|Number=Sing
+5	o	o	PART	_	_	_	_	_	gloss=been
+6	Simona	simona	PROPN	_	_	7	compound	_	gloss=Simon|Number=Sing
+7	Petero,	petero,	PROPN	_	_	4	poss	_	gloss=Peter|Number=Sing
+8	oia	oia	PRON	_	_	_	_	_	gloss=himself
+9	kekahi	kekahi	DET	_	_	_	_	_	gloss=another
+10	o	o	PART	_	_	_	_	_	gloss=been
+11	ua	ua	AUX	_	_	_	_	_	gloss=Gentile
+12	mau	mau	PART	_	_	_	_	_	gloss=uel
+13	haumana	haumana	NOUN	_	_	_	_	_	gloss=disciples
+14	la	la	NOUN	_	_	_	_	_	gloss=day
+15	elua	elua	NUM	_	_	_	_	_	gloss=two
+16	i	i	ADP	_	_	_	_	_
+17	lohe	lohe	VERB	_	_	_	relcl	_	gloss=heard|Tense=Past|VerbForm=Fin
+18	i	i	ADP	_	_	_	_	_
+19	ka	ka	DET	_	_	_	_	_	gloss=the
+20	Ioane,	ioane,	NOUN	_	_	_	nsubj	_	gloss=John|Number=Sing
+21	a	a	CCONJ	_	_	17	cc	_	gloss=and|ConjType=Cmp
+22	hahai	hahai	VERB	_	_	_	_	_	gloss=follow
+23	aku	aku	PART	_	_	_	_	_	gloss=os
+24	la	la	NOUN	_	_	_	_	_	gloss=day
+25	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+26	Iesu.	iesu.	PROPN	_	_	_	_	_	gloss=ction
+
+# sent_id = 43002019
+# ref_id = John 2:19
+# eng_text = Jesus answered them , " Destroy this temple , and in three days I will raise it up . "
+# haw_text = Olelo mai la o Iesu ia lakou, E wawahi oukou i keia luakini, a e kukulu hou aku au ia i na la ekolu.
+1	Olelo	olelo	VERB	_	_	_	_	_	gloss=op
+2	mai	mai	ADP	_	_	_	_	_	gloss=from
+3	la	la	NOUN	_	_	_	_	_	gloss=day
+4	o	o	PART	_	_	_	_	_	gloss=been
+5	Iesu	iesu	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+6	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+7	lakou,	lakou,	PRON	_	_	_	_	_	gloss=them
+8	E	e	AUX	_	_	_	_	_
+9	wawahi	wawahi	VERB	_	_	_	_	_	gloss=broke
+10	oukou	oukou	PRON	_	_	_	_	_	gloss=Laodicea
+11	i	i	ADP	_	_	_	_	_
+12	keia	keia	DET	_	_	_	det	_	gloss=this|Number=Sing|PronType=Dem
+13	luakini,	luakini,	NOUN	_	_	_	_	_	gloss=Temple
+14	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+15	e	e	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+16	kukulu	kukulu	NOUN	_	_	_	_	_	gloss=farthest
+17	hou	hou	ADJ	_	_	_	_	_	gloss=again
+18	aku	aku	PART	_	_	_	_	_	gloss=os
+19	au	au	PRON	_	_	_	_	_	gloss=ili
+20	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+21	i	i	ADP	_	_	_	_	_
+22	na	na	DET	_	_	_	_	_	gloss=sisters
+23	la	la	NOUN	_	_	_	_	_	gloss=day
+24	ekolu.	ekolu.	NUM	_	_	_	_	_	gloss=emple
+
+# sent_id = 43006010
+# ref_id = John 6:10
+# eng_text = Jesus said , " Have the people sit down . " Now there was much grass in that place . So the men sat down , in number about five thousand .
+# haw_text = Olelo mai la o Iesu, E hoonoho i na kanaka ilalo. He nui no ka weuweu ma ia wahi. Noho iho la na kanaka, elima tausani paha.
+1	Olelo	olelo	VERB	_	_	_	_	_	gloss=op
+2	mai	mai	ADP	_	_	_	_	_	gloss=from
+3	la	la	NOUN	_	_	_	_	_	gloss=day
+4	o	o	PART	_	_	_	_	_	gloss=been
+5	Iesu,	iesu,	PROPN	_	_	_	_	_	gloss=Gree
+6	E	e	AUX	_	_	_	_	_
+7	hoonoho	hoonoho	NOUN	_	_	_	_	_	gloss=faithful
+8	i	i	ADP	_	_	_	_	_
+9	na	na	DET	_	_	_	_	_	gloss=sisters
+10	kanaka	kanaka	NOUN	_	_	_	_	_	gloss=ation
+11	ilalo.	ilalo.	NOUN	_	_	_	_	_	gloss=num
+12	He	he	PART	_	_	_	_	_	gloss=Salt
+13	nui	nui	ADJ	_	_	_	_	_	gloss=large
+14	no	no	PART	_	_	_	_	_	gloss=even
+15	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+16	weuweu	weuweu	NOUN	_	_	_	_	_	gloss=grass
+17	ma	ma	ADP	_	_	_	_	_	gloss=m
+18	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+19	wahi.	wahi.	NOUN	_	_	_	_	_	gloss=num
+20	Noho	noho	VERB	_	_	_	_	_	gloss=bered
+21	iho	iho	PART	_	_	_	_	_	gloss=inside
+22	la	la	NOUN	_	_	_	_	_	gloss=day
+23	na	na	DET	_	_	_	_	_	gloss=sisters
+24	kanaka,	kanaka,	NOUN	_	_	_	_	_	gloss=human
+25	elima	elima	NUM	_	_	_	dobj	_	gloss=5,000|NumType=Card
+26	tausani	tausani	NOUN	_	_	_	_	_	gloss=2
+27	paha.	paha.	ADV	_	_	_	_	_
+
+# sent_id = 43006019
+# ref_id = John 6:19
+# eng_text = When therefore they had rowed about twenty-five or thirty stadia , they saw Jesus walking on the sea , and drawing near to the boat ; and they were afraid .
+# haw_text = Hoe aku la lakou i na setadia he iwakalua kumamalima, he kanakolu paha, ike aku la lakou ia Iesu e hele mai ana maluna o ka moanawai, a kokoke ia ma ka moku: makau iho la lakou.
+1	Hoe	hoe	NOUN	_	_	_	_	_
+2	aku	aku	PART	_	_	_	_	_	gloss=os
+3	la	la	NOUN	_	_	_	_	_	gloss=day
+4	lakou	lakou	PRON	_	_	_	nsubjpass	_	gloss=They|Case=Nom|Number=Plur|Person=3|PronType=Prs
+5	i	i	ADP	_	_	_	_	_
+6	na	na	DET	_	_	_	_	_	gloss=sisters
+7	setadia	setadia	NOUN	_	_	_	_	_
+8	he	he	PART	_	_	_	_	_	gloss=teen
+9	iwakalua	iwakalua	NOUN	_	_	_	_	_	gloss=iles
+10	kumamalima,	kumamalima,	NOUN	_	_	_	_	_
+11	he	he	PART	_	_	_	_	_	gloss=teen
+12	kanakolu	kanakolu	NOUN	_	_	_	_	_	gloss=thirty
+13	paha,	paha,	ADV	_	_	_	cc	_	gloss=or|ConjType=Cmp
+14	ike	ike	VERB	_	_	_	_	_	gloss=see
+15	aku	aku	PART	_	_	_	_	_	gloss=os
+16	la	la	NOUN	_	_	_	_	_	gloss=day
+17	lakou	lakou	PRON	_	_	_	nsubjpass	_	gloss=They|Case=Nom|Number=Plur|Person=3|PronType=Prs
+18	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+19	Iesu	iesu	PROPN	_	_	21	nsubj	_	gloss=Jesus|Number=Sing
+20	e	e	AUX	_	_	_	_	_	gloss=will
+21	hele	hele	VERB	_	_	_	ccomp	_	gloss=walking|Aspect=Prog|Tense=Pres|VerbForm=Part
+22	mai	mai	ADP	_	_	_	_	_	gloss=from
+23	ana	ana	PART	_	_	_	_	_	gloss=co
+24	maluna	maluna	NOUN	_	_	_	_	_	gloss=unc
+25	o	o	PART	_	_	_	_	_	gloss=been
+26	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+27	moanawai,	moanawai,	NOUN	_	_	_	_	_	gloss=ter
+28	a	a	CCONJ	_	_	_	_	_	gloss=and
+29	kokoke	kokoke	ADV	_	_	_	_	_	gloss=near
+30	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+31	ma	ma	ADP	_	_	_	_	_	gloss=m
+32	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+33	moku:	moku:	VERB	_	_	_	_	_	gloss=’ll
+34	makau	makau	NOUN	_	_	_	_	_	gloss=afraid
+35	iho	iho	PART	_	_	_	_	_	gloss=inside
+36	la	la	NOUN	_	_	_	_	_	gloss=day
+37	lakou.	lakou.	PRON	_	_	_	_	_	gloss=our
+
+# sent_id = 43008009
+# ref_id = John 8:9
+# eng_text = They , when they heard it , being convicted by their conscience , went out one by one , beginning from the oldest , even to the last . Jesus was left alone with the woman where she was , in the midst .
+# haw_text = A lohe ae la lakou, a na hoahewaia lakou e ko lakou lunaikehala, hele pakahi aku la lakou iwaho, mai na lunakahiko ka hoomaka ana, a hiki i ka poe ilalo loa; a koe iho la o Iesu wale no, a me ka wahine e ku ana iwaena.
+1	A	a	CCONJ	_	_	_	_	_	gloss=At
+2	lohe	lohe	VERB	_	_	_	advcl	_	gloss=heard|Tense=Past|VerbForm=Fin
+3	ae	ae	PART	_	_	_	_	_	gloss=Even
+4	la	la	NOUN	_	_	_	_	_	gloss=day
+5	lakou,	lakou,	PRON	_	_	_	_	_	gloss=them
+6	a	a	CCONJ	_	_	_	_	_	gloss=and
+7	na	na	DET	_	_	_	_	_	gloss=sisters
+8	hoahewaia	hoahewaia	NOUN	_	_	_	_	_	gloss=pres
+9	lakou	lakou	PRON	_	_	_	_	_	gloss=They
+10	e	e	AUX	_	_	_	_	_	gloss=will
+11	ko	ko	ADP	_	_	_	_	_	gloss=own
+12	lakou	lakou	PRON	_	_	_	_	_	gloss=They
+13	lunaikehala,	lunaikehala,	NOUN	_	_	_	_	_
+14	hele	hele	VERB	_	_	_	_	_	gloss=walking
+15	pakahi	pakahi	NUM	_	_	_	_	_	gloss=div
+16	aku	aku	PART	_	_	_	_	_	gloss=os
+17	la	la	NOUN	_	_	_	_	_	gloss=day
+18	lakou	lakou	PRON	_	_	_	_	_	gloss=They
+19	iwaho,	iwaho,	ADP	_	_	_	_	_	gloss=Mount
+20	mai	mai	ADP	_	_	_	_	_	gloss=from
+21	na	na	DET	_	_	_	_	_	gloss=sisters
+22	lunakahiko	lunakahiko	NOUN	_	_	_	_	_	gloss=elders
+23	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+24	hoomaka	hoomaka	NOUN	_	_	_	_	_	gloss=began
+25	ana,	ana,	PART	_	_	_	_	_	gloss=endurance
+26	a	a	CCONJ	_	_	_	_	_	gloss=and
+27	hiki	hiki	VERB	_	_	_	_	_	gloss=able
+28	i	i	ADP	_	_	_	_	_
+29	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+30	poe	poe	NOUN	_	_	_	_	_	gloss=calls
+31	ilalo	ilalo	NOUN	_	_	_	_	_	gloss=ck
+32	loa;	loa;	ADV	_	_	_	_	_	gloss=whether
+33	a	a	CCONJ	_	_	_	_	_	gloss=and
+34	koe	koe	ADJ	_	_	_	_	_	gloss=fa
+35	iho	iho	PART	_	_	_	_	_	gloss=inside
+36	la	la	NOUN	_	_	_	_	_	gloss=day
+37	o	o	PART	_	_	_	_	_	gloss=been
+38	Iesu	iesu	PROPN	_	_	_	nsubjpass	_	gloss=Jesus|Number=Sing
+39	wale	wale	ADV	_	_	38	advmod	_	gloss=only
+40	no,	no,	PART	_	_	_	_	_	gloss=fathers
+41	a	a	CCONJ	_	_	_	_	_	gloss=and
+42	me	me	ADP	_	_	_	_	_	gloss=as
+43	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+44	wahine	wahine	NOUN	_	_	_	_	_	gloss=women
+45	e	e	AUX	_	_	_	_	_	gloss=will
+46	ku	ku	VERB	_	_	_	_	_	gloss=standing
+47	ana	ana	PART	_	_	_	_	_	gloss=co
+48	iwaena.	iwaena.	ADP	_	_	_	_	_
+
+# sent_id = 43011009
+# ref_id = John 11:9
+# eng_text = Jesus answered , " Aren't there twelve hours of daylight ? If a man walks in the day , he doesn't stumble , because he sees the light of this world .
+# haw_text = I mai la o Iesu, Aole anei he umikumamalua hora o ke ao? Ina e hele kekahi i ke ao, aole ia e okupe, no ka mea, ua ike no ia i ka malamalama o keia ao.
+1	I	i	ADP	_	_	_	_	_	gloss=persuad
+2	mai	mai	ADP	_	_	_	_	_	gloss=from
+3	la	la	NOUN	_	_	_	pobj	_	gloss=day|Number=Sing
+4	o	o	PART	_	_	_	_	_	gloss=been
+5	Iesu,	iesu,	PROPN	_	_	_	_	_	gloss=Gree
+6	Aole	aole	PART	_	_	_	_	_	gloss=No
+7	anei	anei	PART	_	_	_	_	_
+8	he	he	PART	_	_	_	_	_	gloss=teen
+9	umikumamalua	umikumamalua	NUM	_	_	_	nummod	_	gloss=twelve|NumType=Card
+10	hora	hora	NOUN	_	_	_	_	_	gloss=Brother
+11	o	o	PART	_	_	_	_	_	gloss=been
+12	ke	ke	DET	_	_	_	_	_	gloss=high
+13	ao?	ao?	NOUN	_	_	_	_	_
+14	Ina	ina	SCONJ	_	_	_	_	_	gloss=If
+15	e	e	AUX	_	_	_	_	_	gloss=will
+16	hele	hele	VERB	_	_	_	_	_	gloss=walking
+17	kekahi	kekahi	DET	_	_	_	_	_	gloss=another
+18	i	i	ADP	_	_	_	_	_
+19	ke	ke	DET	_	_	_	_	_	gloss=high
+20	ao,	ao,	NOUN	_	_	_	_	_	gloss=wor
+21	aole	aole	PART	_	_	_	_	_	gloss=not
+22	ia	ia	PRON	_	_	29	punct	_	PunctType=Peri
+23	e	e	AUX	_	_	_	_	_	gloss=will
+24	okupe,	okupe,	NOUN	_	_	_	_	_
+25	no	no	PART	_	_	_	_	_	gloss=even
+26	ka	ka	DET	_	_	34	det	_	gloss=the|Definite=Def|PronType=Art
+27	mea,	mea,	NOUN	_	_	_	_	_	gloss=For
+28	ua	ua	AUX	_	_	_	_	_	gloss=Gentile
+29	ike	ike	VERB	_	_	0	root	_	gloss=see|VerbForm=Inf
+30	no	no	PART	_	_	_	_	_	gloss=even
+31	ia	ia	PRON	_	_	29	punct	_	PunctType=Peri
+32	i	i	ADP	_	_	_	_	_
+33	ka	ka	DET	_	_	34	det	_	gloss=the|Definite=Def|PronType=Art
+34	malamalama	malamalama	NOUN	_	_	_	dobj	_	gloss=light|Number=Sing
+35	o	o	PART	_	_	_	_	_	gloss=been
+36	keia	keia	DET	_	_	_	det	_	gloss=this|Number=Sing|PronType=Dem
+37	ao.	ao.	NOUN	_	_	_	_	_	gloss=age
+
+# sent_id = 43011050
+# ref_id = John 11:50
+# eng_text = nor do you take account that it is advantageous for us that one man should die for the people , and that the whole nation not perish . "
+# haw_text = Aole hoi oukou i manao, he pono no kakou e make kekahi kanaka no na kanaka, aole hoi e lukuia ka lahuikanaka a pau.
+1	Aole	aole	DET	_	_	_	_	_	gloss=No
+2	hoi	hoi	PART	_	_	_	_	_	gloss=glorif
+3	oukou	oukou	PRON	_	_	_	_	_	gloss=Laodicea
+4	i	i	ADP	_	_	_	_	_
+5	manao,	manao,	NOUN	_	_	_	_	_	gloss=const
+6	he	he	PART	_	_	_	_	_	gloss=teen
+7	pono	pono	ADJ	_	_	_	_	_	gloss=ard
+8	no	no	PART	_	_	_	_	_	gloss=even
+9	kakou	kakou	PRON	_	_	_	_	_	gloss=Let’s
+10	e	e	AUX	_	_	_	_	_	gloss=will
+11	make	make	VERB	_	_	_	_	_	gloss=died
+12	kekahi	kekahi	DET	_	_	_	_	_	gloss=another
+13	kanaka	kanaka	NOUN	_	_	_	_	_	gloss=ation
+14	no	no	PART	_	_	_	_	_	gloss=even
+15	na	na	DET	_	_	_	_	_	gloss=sisters
+16	kanaka,	kanaka,	NOUN	_	_	_	_	_	gloss=human
+17	aole	aole	PART	_	_	_	_	_	gloss=not
+18	hoi	hoi	PART	_	_	_	_	_	gloss=glorif
+19	e	e	AUX	_	_	_	_	_	gloss=will
+20	lukuia	lukuia	NOUN	_	_	_	_	_
+21	ka	ka	DET	_	_	22	det	_	gloss=the|Definite=Def|PronType=Art
+22	lahuikanaka	lahuikanaka	NOUN	_	_	_	nsubjpass	_	gloss=nation|Number=Sing
+23	a	a	CCONJ	_	_	_	_	_	gloss=and
+24	pau.	pau.	VERB	_	_	_	_	_	gloss=unbelievers
+
+# sent_id = 43018039
+# ref_id = John 18:39
+# eng_text = But you have a custom , that I should release to you one at the Passover . Therefore do you desire that I release to you the King of the Jews ? "
+# haw_text = Aka, he mea mau no ia oukou i hookuu aku ai au i kekahi kanaka no oukou i ka moliaola: ke makemake nei anei oukou e hookuu aku wau no oukou i ke alii o na Iudaio?
+1	Aka,	aka,	CCONJ	_	_	_	_	_	gloss=ght
+2	he	he	PART	_	_	_	_	_	gloss=teen
+3	mea	mea	NOUN	_	_	_	_	_	gloss=ure
+4	mau	mau	PART	_	_	_	_	_	gloss=uel
+5	no	no	PART	_	_	_	_	_	gloss=even
+6	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+7	oukou	oukou	PRON	_	_	_	_	_	gloss=Laodicea
+8	i	i	ADP	_	_	_	_	_
+9	hookuu	hookuu	VERB	_	_	_	_	_	gloss=dec
+10	aku	aku	PART	_	_	_	_	_	gloss=os
+11	ai	ai	PART	_	_	_	_	_	gloss=ving
+12	au	au	PRON	_	_	_	_	_	gloss=ili
+13	i	i	ADP	_	_	_	_	_
+14	kekahi	kekahi	DET	_	_	_	_	_	gloss=another
+15	kanaka	kanaka	NOUN	_	_	_	_	_	gloss=ation
+16	no	no	PART	_	_	_	_	_	gloss=even
+17	oukou	oukou	PRON	_	_	_	_	_	gloss=Laodicea
+18	i	i	ADP	_	_	_	_	_
+19	ka	ka	DET	_	_	37	det	_	gloss=the|Definite=Def|PronType=Art
+20	moliaola:	moliaola:	NOUN	_	_	_	_	_
+21	ke	ke	DET	_	_	_	_	_	gloss=high
+22	makemake	makemake	VERB	_	_	_	_	_	gloss=ab
+23	nei	nei	PART	_	_	_	_	_	gloss=grum
+24	anei	anei	PART	_	_	_	punct	_	PunctType=Peri
+25	oukou	oukou	PRON	_	_	_	_	_	gloss=Laodicea
+26	e	e	AUX	_	_	_	_	_	gloss=will
+27	hookuu	hookuu	VERB	_	_	_	_	_	gloss=dec
+28	aku	aku	PART	_	_	_	_	_	gloss=os
+29	wau	wau	PRON	_	_	_	_	_	gloss=blast
+30	no	no	PART	_	_	_	_	_	gloss=even
+31	oukou	oukou	PRON	_	_	_	_	_	gloss=Laodicea
+32	i	i	ADP	_	_	_	_	_
+33	ke	ke	DET	_	_	_	_	_	gloss=high
+34	alii	alii	NOUN	_	_	_	_	_	gloss=king
+35	o	o	PART	_	_	_	_	_	gloss=been
+36	na	na	DET	_	_	_	_	_	gloss=sisters
+37	Iudaio?	iudaio?	NOUN	_	_	_	pobj	_	gloss=Jews|Number=Plur
+
+# sent_id = 43019023
+# ref_id = John 19:23
+# eng_text = Then the soldiers , when they had crucified Jesus , took his garments and made four parts , to every soldier a part ; and also the coat . Now the coat was without seam , woven from the top throughout .
+# haw_text = A i ka manawa i kau ai ka poe koa ia Iesu ma ke kea, lawe no lakou i kona mau kapa, a puunaue ae la i na puu eha, pakahi no kela koa, keia koa, a me ke kapakomo. Aole i humuhumuia ke kapakomo, ua ulana okoa no ia mai luna, a hala loa ilalo.
+1	A	a	CCONJ	_	_	_	_	_	gloss=At
+2	i	i	CCONJ	_	_	_	_	_
+3	ka	ka	DET	_	_	30	det	_	gloss=the|Definite=Def|PronType=Art
+4	manawa	manawa	NOUN	_	_	_	_	_	gloss=Before
+5	i	i	ADP	_	_	_	_	_
+6	kau	kau	VERB	_	_	_	_	_	gloss=als
+7	ai	ai	PART	_	_	_	_	_	gloss=ving
+8	ka	ka	DET	_	_	30	det	_	gloss=the|Definite=Def|PronType=Art
+9	poe	poe	NOUN	_	_	_	_	_	gloss=calls
+10	koa	koa	NOUN	_	_	_	_	_	gloss=soldier
+11	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+12	Iesu	iesu	PROPN	_	_	_	dobj	_	gloss=Jesus|Number=Sing
+13	ma	ma	ADP	_	_	_	_	_	gloss=m
+14	ke	ke	DET	_	_	_	_	_	gloss=high
+15	kea,	kea,	NOUN	_	_	_	_	_	gloss=cross
+16	lawe	lawe	VERB	_	_	_	_	_	gloss=take
+17	no	no	PART	_	_	_	_	_	gloss=even
+18	lakou	lakou	PRON	_	_	_	nsubj	_	gloss=They|Case=Nom|Number=Plur|Person=3|PronType=Prs
+19	i	i	ADP	_	_	_	_	_
+20	kona	kona	PRON	_	_	_	poss	_	gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+21	mau	mau	PART	_	_	_	_	_	gloss=uel
+22	kapa,	kapa,	NOUN	_	_	_	_	_	gloss=Immediately
+23	a	a	CCONJ	_	_	_	_	_	gloss=and
+24	puunaue	puunaue	NOUN	_	_	_	_	_	gloss=inheritance
+25	ae	ae	PART	_	_	_	_	_	gloss=Even
+26	la	la	NOUN	_	_	_	_	_	gloss=day
+27	i	i	ADP	_	_	_	_	_
+28	na	na	DET	_	_	_	_	_	gloss=sisters
+29	puu	puu	NOUN	_	_	_	_	_	gloss=Im
+30	eha,	eha,	NUM	_	_	_	pobj	_	gloss=four|NumType=Card
+31	pakahi	pakahi	NUM	_	_	_	_	_	gloss=div
+32	no	no	PART	_	_	_	_	_	gloss=even
+33	kela	kela	NOUN	_	_	_	_	_	gloss=various
+34	koa,	koa,	NOUN	_	_	_	nsubj	_	gloss=soldiers|Number=Plur
+35	keia	keia	DET	_	_	_	_	_	gloss=this
+36	koa,	koa,	NOUN	_	_	_	nsubj	_	gloss=soldiers|Number=Plur
+37	a	a	CCONJ	_	_	_	_	_	gloss=and
+38	me	me	ADP	_	_	_	_	_	gloss=as
+39	ke	ke	DET	_	_	_	_	_	gloss=high
+40	kapakomo.	kapakomo.	NOUN	_	_	_	_	_
+41	Aole	aole	PART	_	_	_	_	_	gloss=No
+42	i	i	ADP	_	_	_	_	_
+43	humuhumuia	humuhumuia	VERB	_	_	_	_	_
+44	ke	ke	DET	_	_	_	_	_	gloss=high
+45	kapakomo,	kapakomo,	NOUN	_	_	_	_	_
+46	ua	ua	AUX	_	_	_	_	_	gloss=Gentile
+47	ulana	ulana	VERB	_	_	_	_	_
+48	okoa	okoa	ADJ	_	_	_	_	_
+49	no	no	PART	_	_	_	_	_	gloss=even
+50	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+51	mai	mai	ADP	_	_	_	prep	_	gloss=from
+52	luna,	luna,	NOUN	_	_	_	_	_	gloss=along
+53	a	a	CCONJ	_	_	_	_	_	gloss=and
+54	hala	hala	VERB	_	_	_	_	_	gloss=gone
+55	loa	loa	ADV	_	_	_	_	_	gloss=bling
+56	ilalo.	ilalo.	NOUN	_	_	_	_	_	gloss=num
+
+# sent_id = 43020012
+# ref_id = John 20:12
+# eng_text = and she saw two angels in white sitting , one at the head , and one at the feet , where the body of Jesus had lain .
+# haw_text = A ike iho la i na anela elua i kahikoia i ke kapa keokeo e noho ana, ma ke poo kekahi, a ma ka wawae kekahi, ma kahi i waihoia'i ke kino o Iesu.
+1	A	a	CCONJ	_	_	_	_	_	gloss=At
+2	ike	ike	VERB	_	_	_	_	_	gloss=see
+3	iho	iho	PART	_	_	_	_	_	gloss=inside
+4	la	la	NOUN	_	_	_	_	_	gloss=day
+5	i	i	ADP	_	_	_	_	_
+6	na	na	DET	_	_	_	_	_	gloss=sisters
+7	anela	anela	NOUN	_	_	_	_	_	gloss=angel
+8	elua	elua	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+9	i	i	ADP	_	_	_	_	_
+10	kahikoia	kahikoia	ADJ	_	_	_	_	_	gloss=expensive
+11	i	i	ADP	_	_	_	_	_
+12	ke	ke	DET	_	_	_	_	_	gloss=high
+13	kapa	kapa	NOUN	_	_	_	_	_	gloss=garments
+14	keokeo	keokeo	ADJ	_	_	_	_	_
+15	e	e	AUX	_	_	_	_	_	gloss=will
+16	noho	noho	VERB	_	_	_	acl	_	gloss=sitting|Aspect=Prog|Tense=Pres|VerbForm=Part
+17	ana,	ana,	PART	_	_	_	_	_	gloss=endurance
+18	ma	ma	ADP	_	_	_	_	_	gloss=m
+19	ke	ke	DET	_	_	_	_	_	gloss=high
+20	poo	poo	NOUN	_	_	_	pobj	_	gloss=head|Number=Sing
+21	kekahi,	kekahi,	DET	_	_	_	_	_	gloss=Two
+22	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+23	ma	ma	ADP	_	_	_	_	_	gloss=m
+24	ka	ka	DET	_	_	32	det	_	gloss=the|Definite=Def|PronType=Art
+25	wawae	wawae	NOUN	_	_	_	_	_	gloss=ame
+26	kekahi,	kekahi,	DET	_	_	_	_	_	gloss=Two
+27	ma	ma	ADP	_	_	_	_	_	gloss=m
+28	kahi	kahi	NOUN	_	_	_	_	_	gloss=very
+29	i	i	ADP	_	_	_	_	_
+30	waihoia'i	waihoia'i	VERB	_	_	_	_	_	gloss=bask
+31	ke	ke	DET	_	_	_	_	_	gloss=high
+32	kino	kino	NOUN	_	_	_	nsubj	_	gloss=body|Number=Sing
+33	o	o	PART	_	_	_	aux	_	gloss=been|Tense=Past|VerbForm=Part
+34	Iesu.	iesu.	PROPN	_	_	_	_	_	gloss=ction
+
+# sent_id = 44001010
+# ref_id = Acts 1:10
+# eng_text = While they were looking steadfastly into the sky as he went , behold , two men stood by them in white clothing ,
+# haw_text = A i ko lakou haka pono ana aku i ka lani, i kona pii ana, aia hoi, ku kokoke mai la me lakou na kanaka elua, me ka aahu keokeo;
+1	A	a	CCONJ	_	_	_	_	_	gloss=At
+2	i	i	CCONJ	_	_	_	_	_
+3	ko	ko	ADP	_	_	_	_	_	gloss=own
+4	lakou	lakou	PRON	_	_	_	_	_	gloss=They
+5	haka	haka	NOUN	_	_	_	_	_	gloss=str
+6	pono	pono	ADJ	_	_	_	_	_	gloss=ard
+7	ana	ana	PART	_	_	_	_	_	gloss=co
+8	aku	aku	PART	_	_	_	_	_	gloss=os
+9	i	i	ADP	_	_	_	_	_
+10	ka	ka	DET	_	_	_	_	_	gloss=the
+11	lani,	lani,	NOUN	_	_	_	_	_	gloss=sky
+12	i	i	ADP	_	_	_	_	_
+13	kona	kona	PRON	_	_	_	_	_	gloss=his
+14	pii	pii	VERB	_	_	_	_	_	gloss=later
+15	ana,	ana,	PART	_	_	_	_	_	gloss=endurance
+16	aia	aia	VERB	_	_	_	_	_	gloss=app
+17	hoi,	hoi,	PART	_	_	_	_	_	gloss=ion
+18	ku	ku	VERB	_	_	_	_	_	gloss=standing
+19	kokoke	kokoke	ADV	_	_	_	_	_	gloss=near
+20	mai	mai	ADP	_	_	_	_	_	gloss=from
+21	la	la	NOUN	_	_	_	_	_	gloss=day
+22	me	me	ADP	_	_	_	_	_	gloss=as
+23	lakou	lakou	PRON	_	_	_	_	_	gloss=They
+24	na	na	DET	_	_	_	_	_	gloss=sisters
+25	kanaka	kanaka	NOUN	_	_	_	_	_	gloss=ation
+26	elua,	elua,	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+27	me	me	ADP	_	_	_	_	_	gloss=as
+28	ka	ka	DET	_	_	_	_	_	gloss=the
+29	aahu	aahu	NOUN	_	_	_	_	_	gloss=robe
+30	keokeo;	keokeo;	ADJ	_	_	_	_	_
+
+# sent_id = 44004004
+# ref_id = Acts 4:4
+# eng_text = But many of those who heard the word believed , and the number of the men came to be about five thousand .
+# haw_text = A he nui na mea o ka poe lohe i ka olelo, i manaoio; a o ka helu ana o na kanaka, elima paha o lakou tausani.
+1	A	a	CCONJ	_	_	_	_	_	gloss=At
+2	he	he	PART	_	_	_	_	_	gloss=teen
+3	nui	nui	ADJ	_	_	_	_	_	gloss=large
+4	na	na	DET	_	_	_	_	_	gloss=sisters
+5	mea	mea	NOUN	_	_	_	_	_	gloss=ure
+6	o	o	PART	_	_	_	_	_	gloss=been
+7	ka	ka	DET	_	_	27	det	_	gloss=the|Definite=Def|PronType=Art
+8	poe	poe	NOUN	_	_	_	_	_	gloss=calls
+9	lohe	lohe	VERB	_	_	_	relcl	_	gloss=heard|Tense=Past|VerbForm=Fin
+10	i	i	ADP	_	_	_	_	_
+11	ka	ka	DET	_	_	27	det	_	gloss=the|Definite=Def|PronType=Art
+12	olelo,	olelo,	VERB	_	_	_	_	_	gloss=sad
+13	i	i	ADP	_	_	_	_	_
+14	manaoio;	manaoio;	VERB	_	_	_	nsubj	_	gloss=number|Number=Sing
+15	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+16	o	o	PART	_	_	_	_	_	gloss=been
+17	ka	ka	DET	_	_	27	det	_	gloss=the|Definite=Def|PronType=Art
+18	helu	helu	NOUN	_	_	_	nsubj	_	gloss=number|Number=Sing
+19	ana	ana	PART	_	_	_	_	_	gloss=co
+20	o	o	PART	_	_	_	_	_	gloss=been
+21	na	na	DET	_	_	_	_	_	gloss=sisters
+22	kanaka,	kanaka,	NOUN	_	_	_	_	_	gloss=human
+23	elima	elima	NUM	_	_	_	nummod	_	gloss=5,000|NumType=Card
+24	paha	paha	ADV	_	_	_	_	_	gloss=noon
+25	o	o	PART	_	_	_	_	_	gloss=been
+26	lakou	lakou	PRON	_	_	_	_	_	gloss=They
+27	tausani.	tausani.	NOUN	_	_	_	nsubj	_	gloss=number|Number=Sing
+
+# sent_id = 44007029
+# ref_id = Acts 7:29
+# eng_text = Moses fled at this saying , and became an alien in the land of Midian , where he became the father of two sons .
+# haw_text = Holo aku la o Mose no keia olelo, a lilo i malihini ma ka aina Midiana, malaila i hanau ai nana, na keikikane elua.
+1	Holo	holo	VERB	_	_	0	root	_	gloss=fled|Tense=Past|VerbForm=Fin
+2	aku	aku	PART	_	_	_	_	_	gloss=os
+3	la	la	NOUN	_	_	_	_	_	gloss=day
+4	o	o	PART	_	_	_	_	_	gloss=been
+5	Mose	mose	NOUN	_	_	_	nsubj	_	gloss=Moses|Number=Sing
+6	no	no	PART	_	_	_	_	_	gloss=even
+7	keia	keia	DET	_	_	_	_	_	gloss=this
+8	olelo,	olelo,	VERB	_	_	_	_	_	gloss=sad
+9	a	a	CCONJ	_	_	1	cc	_	gloss=and|ConjType=Cmp
+10	lilo	lilo	VERB	_	_	_	_	_	gloss=become
+11	i	i	ADP	_	_	_	_	_
+12	malihini	malihini	NOUN	_	_	1	dobj	_	gloss=country|Number=Sing
+13	ma	ma	ADP	_	_	_	_	_	gloss=m
+14	ka	ka	DET	_	_	15	det	_	gloss=the|Definite=Def|PronType=Art
+15	aina	aina	NOUN	_	_	_	pobj	_	gloss=land|Number=Sing
+16	Midiana,	midiana,	PROPN	_	_	_	_	_
+17	malaila	malaila	ADV	_	_	_	_	_	gloss=ort
+18	i	i	ADP	_	_	_	_	_
+19	hanau	hanau	NOUN	_	_	0	root	_	gloss=born|Aspect=Perf|Tense=Past|VerbForm=Part
+20	ai	ai	PART	_	_	_	_	_	gloss=ving
+21	nana,	nana,	PRON	_	_	_	_	_	gloss=instance
+22	na	na	DET	_	_	_	_	_	gloss=sisters
+23	keikikane	keikikane	NOUN	_	_	19	nsubjpass	_	gloss=sons|Number=Plur
+24	elua.	elua.	NUM	_	_	_	_	_	gloss=five
+
+# sent_id = 44007036
+# ref_id = Acts 7:36
+# eng_text = This man led them forth , having worked wonders and signs in Egypt , in the Red Sea , and in the wilderness forty years .
+# haw_text = Nana no lakou i alakai iwaho, e hana ana i na mea kupanaha, a me na hoailona ma ka aina o Aigupita, a me ke Kaiula, a ma ka waonahele i na makahiki hookahi kanaha.
+1	Nana	nana	PRON	_	_	_	_	_	gloss=looked
+2	no	no	PART	_	_	_	_	_	gloss=even
+3	lakou	lakou	PRON	_	_	_	_	_	gloss=They
+4	i	i	ADP	_	_	_	_	_
+5	alakai	alakai	VERB	_	_	0	root	_	gloss=led|Tense=Past|VerbForm=Fin
+6	iwaho,	iwaho,	ADP	_	_	_	_	_	gloss=Mount
+7	e	e	AUX	_	_	_	_	_	gloss=will
+8	hana	hana	VERB	_	_	_	_	_	gloss=miracles
+9	ana	ana	PART	_	_	_	_	_	gloss=co
+10	i	i	ADP	_	_	_	_	_
+11	na	na	DET	_	_	_	_	_	gloss=sisters
+12	mea	mea	NOUN	_	_	_	_	_	gloss=ure
+13	kupanaha,	kupanaha,	ADJ	_	_	_	pobj	_	gloss=wonders|Number=Plur
+14	a	a	ADP	_	_	_	cc	_	gloss=and|ConjType=Cmp
+15	me	me	ADP	_	_	_	_	_	gloss=as
+16	na	na	DET	_	_	_	_	_	gloss=sisters
+17	hoailona	hoailona	NOUN	_	_	_	_	_	gloss=forehead
+18	ma	ma	ADP	_	_	_	_	_	gloss=m
+19	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+20	aina	aina	NOUN	_	_	_	_	_	gloss=land
+21	o	o	PART	_	_	_	_	_	gloss=been
+22	Aigupita,	aigupita,	PROPN	_	_	_	_	_	gloss=,000
+23	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+24	me	me	ADP	_	_	_	_	_	gloss=as
+25	ke	ke	DET	_	_	_	_	_	gloss=high
+26	Kaiula,	kaiula,	NOUN	_	_	_	_	_
+27	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+28	ma	ma	ADP	_	_	_	_	_	gloss=m
+29	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+30	waonahele	waonahele	NOUN	_	_	_	_	_	gloss=ne
+31	i	i	ADP	_	_	_	_	_
+32	na	na	DET	_	_	_	_	_	gloss=sisters
+33	makahiki	makahiki	NOUN	_	_	_	pobj	_	gloss=years|Number=Plur
+34	hookahi	hookahi	NOUN	_	_	_	_	_	gloss=1
+35	kanaha.	kanaha.	NUM	_	_	_	_	_
+
+# sent_id = 44009033
+# ref_id = Acts 9:33
+# eng_text = There he found a certain man named Aeneas , who had been bedridden for eight years , because he was paralyzed .
+# haw_text = Loaa aku la ia ia ilaila kekahi kanaka, o Ainea kona inoa, ua moe ma ka moe no na makahiki ewalu, i ka mai lolo.
+1	Loaa	loaa	VERB	_	_	_	_	_	gloss=urely
+2	aku	aku	PART	_	_	_	_	_	gloss=os
+3	la	la	NOUN	_	_	_	_	_	gloss=day
+4	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+5	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+6	ilaila	ilaila	NOUN	_	_	_	_	_	gloss=ss
+7	kekahi	kekahi	DET	_	_	_	_	_	gloss=another
+8	kanaka,	kanaka,	NOUN	_	_	_	_	_	gloss=human
+9	o	o	PART	_	_	_	auxpass	_	gloss=been|Tense=Past|VerbForm=Part
+10	Ainea	ainea	ADJ	_	_	_	_	_
+11	kona	kona	PRON	_	_	_	_	_	gloss=his
+12	inoa,	inoa,	NOUN	_	_	_	acl	_	gloss=named|Aspect=Perf|Tense=Past|VerbForm=Part
+13	ua	ua	AUX	_	_	_	_	_	gloss=Gentile
+14	moe	moe	VERB	_	_	_	_	_	gloss=adultery
+15	ma	ma	ADP	_	_	_	_	_	gloss=m
+16	ka	ka	DET	_	_	_	_	_	gloss=the
+17	moe	moe	VERB	_	_	_	_	_	gloss=adultery
+18	no	no	PART	_	_	_	_	_	gloss=even
+19	na	na	DET	_	_	_	_	_	gloss=sisters
+20	makahiki	makahiki	NOUN	_	_	_	pobj	_	gloss=years|Number=Plur
+21	ewalu,	ewalu,	NOUN	_	_	_	_	_
+22	i	i	ADP	_	_	_	_	_
+23	ka	ka	DET	_	_	_	_	_	gloss=the
+24	mai	mai	ADP	_	_	_	_	_	gloss=from
+25	lolo.	lolo.	NOUN	_	_	_	_	_
+
+# sent_id = 44010003
+# ref_id = Acts 10:3
+# eng_text = At about the ninth hour of the day , he clearly saw in a vision an angel of God coming to him , and saying to him , " Cornelius ! "
+# haw_text = Ma ka hora aiwa paha o ka la, ike paka aku la ia ma ka hihio, i anela o ke Akua, e hele mai ana io na la, a i mai la ia ia, E Korenelio.
+1	Ma	ma	ADP	_	_	_	_	_	gloss=By
+2	ka	ka	DET	_	_	18	det	_	gloss=the|Definite=Def|PronType=Art
+3	hora	hora	NOUN	_	_	_	_	_	gloss=Brother
+4	aiwa	aiwa	NUM	_	_	_	_	_
+5	paha	paha	ADV	_	_	_	_	_	gloss=noon
+6	o	o	PART	_	_	_	_	_	gloss=been
+7	ka	ka	DET	_	_	18	det	_	gloss=the|Definite=Def|PronType=Art
+8	la,	la,	NOUN	_	_	_	_	_	gloss=ame
+9	ike	ike	VERB	_	_	_	_	_	gloss=see
+10	paka	paka	VERB	_	_	_	_	_	gloss=ief
+11	aku	aku	PART	_	_	_	_	_	gloss=os
+12	la	la	NOUN	_	_	_	_	_	gloss=day
+13	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+14	ma	ma	ADP	_	_	_	_	_	gloss=m
+15	ka	ka	DET	_	_	18	det	_	gloss=the|Definite=Def|PronType=Art
+16	hihio,	hihio,	NOUN	_	_	_	_	_
+17	i	i	ADP	_	_	_	_	_
+18	anela	anela	NOUN	_	_	_	nsubj	_	gloss=angel|Number=Sing
+19	o	o	PART	_	_	_	_	_	gloss=been
+20	ke	ke	DET	_	_	_	_	_	gloss=high
+21	Akua,	akua,	PROPN	_	_	_	_	_	gloss=God-fearing
+22	e	e	AUX	_	_	_	_	_	gloss=will
+23	hele	hele	VERB	_	_	_	_	_	gloss=walking
+24	mai	mai	ADP	_	_	_	_	_	gloss=from
+25	ana	ana	PART	_	_	_	_	_	gloss=co
+26	io	io	NOUN	_	_	_	_	_	gloss=hope
+27	na	na	DET	_	_	_	_	_	gloss=sisters
+28	la,	la,	NOUN	_	_	_	_	_	gloss=ame
+29	a	a	CCONJ	_	_	_	_	_	gloss=and
+30	i	i	CCONJ	_	_	_	_	_
+31	mai	mai	ADP	_	_	_	_	_	gloss=from
+32	la	la	NOUN	_	_	_	_	_	gloss=day
+33	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+34	ia,	ia,	PRON	_	_	_	_	_	gloss=Ex
+35	E	e	AUX	_	_	_	_	_
+36	Korenelio.	korenelio.	NOUN	_	_	_	_	_
+
+# sent_id = 44010007
+# ref_id = Acts 10:7
+# eng_text = When the angel who spoke to him had departed , Cornelius called two of his household servants , and a devout soldier of those who waited on him continually .
+# haw_text = A hala aku la ka anela i olelo aku ai ia ia, alaila hea aku la ia i na ohua ona elua, a me kekahi koa haipule o ka poe malama mau ia ia.
+1	A	a	CCONJ	_	_	_	_	_	gloss=At
+2	hala	hala	VERB	_	_	_	advcl	_	gloss=gone|Aspect=Perf|Tense=Past|VerbForm=Part
+3	aku	aku	PART	_	_	_	_	_	gloss=os
+4	la	la	NOUN	_	_	_	_	_	gloss=day
+5	ka	ka	DET	_	_	6	det	_	gloss=the|Definite=Def|PronType=Art
+6	anela	anela	NOUN	_	_	2	nsubjpass	_	gloss=angel|Number=Sing
+7	i	i	ADP	_	_	_	_	_
+8	olelo	olelo	VERB	_	_	_	_	_	gloss=speak
+9	aku	aku	PART	_	_	_	_	_	gloss=os
+10	ai	ai	PART	_	_	_	_	_	gloss=ving
+11	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+12	ia,	ia,	PRON	_	_	_	_	_	gloss=Ex
+13	alaila	alaila	NOUN	_	_	_	_	_	gloss=pit
+14	hea	hea	VERB	_	_	_	_	_	gloss=offic
+15	aku	aku	PART	_	_	_	_	_	gloss=os
+16	la	la	NOUN	_	_	_	_	_	gloss=day
+17	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+18	i	i	ADP	_	_	_	_	_
+19	na	na	DET	_	_	_	_	_	gloss=sisters
+20	ohua	ohua	NOUN	_	_	_	compound	_	gloss=household|Number=Sing
+21	ona	ona	ADJ	_	_	_	_	_	gloss=horns
+22	elua,	elua,	NUM	_	_	_	dobj	_	gloss=two|NumType=Card
+23	a	a	CCONJ	_	_	22	cc	_	gloss=and|ConjType=Cmp
+24	me	me	ADP	_	_	2	mark	_	gloss=as
+25	kekahi	kekahi	DET	_	_	_	_	_	gloss=another
+26	koa	koa	NOUN	_	_	22	conj	_	gloss=soldier|Number=Sing
+27	haipule	haipule	ADJ	_	_	_	_	_	gloss=godly
+28	o	o	PART	_	_	_	_	_	gloss=been
+29	ka	ka	DET	_	_	6	det	_	gloss=the|Definite=Def|PronType=Art
+30	poe	poe	NOUN	_	_	_	_	_	gloss=calls
+31	malama	malama	VERB	_	_	_	_	_	gloss=amount
+32	mau	mau	PART	_	_	_	_	_	gloss=uel
+33	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+34	ia.	ia.	PRON	_	_	_	_	_	gloss=sor
+
+# sent_id = 44010011
+# ref_id = Acts 10:11
+# eng_text = He saw heaven opened , and a certain container descending to him , like a great sheet , let down by four corners on the earth ,
+# haw_text = Ike aku la ia, ua weheia ka lani, a iho mai la kekahi puolo io na la, ua like me ke kuina nui i huiia na kihi eha, a kuuia iho la ilalo i ka honua:
+1	Ike	ike	VERB	_	_	_	_	_	gloss=ghost
+2	aku	aku	PART	_	_	_	_	_	gloss=os
+3	la	la	NOUN	_	_	_	_	_	gloss=day
+4	ia,	ia,	PRON	_	_	_	_	_	gloss=Ex
+5	ua	ua	AUX	_	_	_	_	_	gloss=Gentile
+6	weheia	weheia	VERB	_	_	_	_	_	gloss=sickness
+7	ka	ka	DET	_	_	8	det	_	gloss=the|Definite=Def|PronType=Art
+8	lani,	lani,	NOUN	_	_	_	nsubj	_	gloss=sky|Number=Sing
+9	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+10	iho	iho	PART	_	_	_	_	_	gloss=inside
+11	mai	mai	ADP	_	_	_	_	_	gloss=from
+12	la	la	NOUN	_	_	_	_	_	gloss=day
+13	kekahi	kekahi	DET	_	_	_	_	_	gloss=another
+14	puolo	puolo	NOUN	_	_	_	_	_
+15	io	io	NOUN	_	_	_	_	_	gloss=hope
+16	na	na	DET	_	_	_	_	_	gloss=sisters
+17	la,	la,	NOUN	_	_	_	_	_	gloss=ame
+18	ua	ua	AUX	_	_	_	_	_	gloss=Gentile
+19	like	like	ADJ	_	_	_	_	_	gloss=oc
+20	me	me	ADP	_	_	_	_	_	gloss=as
+21	ke	ke	DET	_	_	_	_	_	gloss=high
+22	kuina	kuina	NOUN	_	_	_	_	_
+23	nui	nui	ADJ	_	_	36	amod	_	gloss=large|Degree=Pos
+24	i	i	ADP	_	_	_	_	_
+25	huiia	huiia	NOUN	_	_	_	_	_	gloss=full
+26	na	na	DET	_	_	_	_	_	gloss=sisters
+27	kihi	kihi	NOUN	_	_	_	pobj	_	gloss=corners|Number=Plur
+28	eha,	eha,	NUM	_	_	27	nummod	_	gloss=four|NumType=Card
+29	a	a	ADP	_	_	_	cc	_	gloss=and|ConjType=Cmp
+30	kuuia	kuuia	NOUN	_	_	_	pobj	_	gloss=sheet|Number=Sing
+31	iho	iho	PART	_	_	_	_	_	gloss=inside
+32	la	la	NOUN	_	_	_	_	_	gloss=day
+33	ilalo	ilalo	NOUN	_	_	_	_	_	gloss=ck
+34	i	i	ADP	_	_	_	_	_
+35	ka	ka	DET	_	_	8	det	_	gloss=the|Definite=Def|PronType=Art
+36	honua:	honua:	NOUN	_	_	_	pobj	_	gloss=sheet|Number=Sing
+
+# sent_id = 44017002
+# ref_id = Acts 17:2
+# eng_text = Paul , as was his custom , went in to them , and for three Sabbath days reasoned with them from the Scriptures ,
+# haw_text = Komo aku la o Paulo io lakou la, e like me kona aoao mau, a ekoiu Sabati ana i kamailio aku ai ia lakou, ma ka palapala hemolele;
+1	Komo	komo	VERB	_	_	_	pobj	_	gloss=service|Number=Sing
+2	aku	aku	PART	_	_	_	_	_	gloss=os
+3	la	la	NOUN	_	_	_	_	_	gloss=day
+4	o	o	PART	_	_	_	_	_	gloss=been
+5	Paulo	paulo	PROPN	_	_	_	poss	_	gloss=Paul|Number=Sing
+6	io	io	NOUN	_	_	_	_	_	gloss=hope
+7	lakou	lakou	PRON	_	_	_	_	_	gloss=They
+8	la,	la,	NOUN	_	_	_	_	_	gloss=ame
+9	e	e	AUX	_	_	_	_	_	gloss=will
+10	like	like	ADJ	_	_	_	_	_	gloss=oc
+11	me	me	ADP	_	_	_	_	_	gloss=as
+12	kona	kona	PRON	_	_	_	_	_	gloss=his
+13	aoao	aoao	NOUN	_	_	_	_	_	gloss=lights
+14	mau,	mau,	PART	_	_	_	pobj	_	gloss=service|Number=Sing
+15	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+16	ekoiu	ekoiu	NOUN	_	_	_	_	_
+17	Sabati	sabati	NOUN	_	_	_	_	_	gloss=ost
+18	ana	ana	PART	_	_	_	_	_	gloss=co
+19	i	i	ADP	_	_	_	_	_
+20	kamailio	kamailio	NOUN	_	_	_	_	_	gloss=suddenly
+21	aku	aku	PART	_	_	_	_	_	gloss=os
+22	ai	ai	PART	_	_	_	_	_	gloss=ving
+23	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+24	lakou,	lakou,	PRON	_	_	_	_	_	gloss=them
+25	ma	ma	ADP	_	_	_	_	_	gloss=m
+26	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+27	palapala	palapala	NOUN	_	_	_	dobj	_	gloss=Scriptures|Number=Plur
+28	hemolele;	hemolele;	ADJ	_	_	_	_	_	gloss=alt
+
+# sent_id = 44019008
+# ref_id = Acts 19:8
+# eng_text = He entered into the synagogue , and spoke boldly for a period of three months , reasoning and persuading about the things concerning the kingdom of God .
+# haw_text = Hele mai la ia iloko o ka halehalawai, olelo wiwo ole mai la, ekolu malama ana i hooakaka ai, a i hoohuli mai ma na mea o ke aupuni o ke Akua.
+1	Hele	hele	VERB	_	_	_	_	_	gloss=Should
+2	mai	mai	ADP	_	_	_	_	_	gloss=from
+3	la	la	NOUN	_	_	_	_	_	gloss=day
+4	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+5	iloko	iloko	ADP	_	_	_	_	_	gloss=within
+6	o	o	PART	_	_	_	_	_	gloss=been
+7	ka	ka	DET	_	_	29	det	_	gloss=the|Definite=Def|PronType=Art
+8	halehalawai,	halehalawai,	NOUN	_	_	_	pobj	_	gloss=synagogue|Number=Sing
+9	olelo	olelo	VERB	_	_	_	_	_	gloss=speak
+10	wiwo	wiwo	ADJ	_	_	_	_	_	gloss=bold
+11	ole	ole	PART	_	_	_	_	_	gloss=blameless
+12	mai	mai	ADP	_	_	_	_	_	gloss=from
+13	la,	la,	NOUN	_	_	_	_	_	gloss=ame
+14	ekolu	ekolu	NUM	_	_	_	_	_	gloss=uzz
+15	malama	malama	VERB	_	_	_	_	_	gloss=amount
+16	ana	ana	PART	_	_	_	_	_	gloss=co
+17	i	i	ADP	_	_	_	_	_
+18	hooakaka	hooakaka	NOUN	_	_	_	_	_
+19	ai,	ai,	PART	_	_	_	_	_	gloss=ect
+20	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+21	i	i	CCONJ	_	_	_	_	_
+22	hoohuli	hoohuli	NOUN	_	_	_	_	_	gloss=persu
+23	mai	mai	ADP	_	_	_	_	_	gloss=from
+24	ma	ma	ADP	_	_	_	_	_	gloss=m
+25	na	na	DET	_	_	_	_	_	gloss=sisters
+26	mea	mea	NOUN	_	_	_	_	_	gloss=ure
+27	o	o	PART	_	_	_	_	_	gloss=been
+28	ke	ke	DET	_	_	_	_	_	gloss=high
+29	aupuni	aupuni	NOUN	_	_	_	pobj	_	gloss=Kingdom|Number=Sing
+30	o	o	PART	_	_	_	_	_	gloss=been
+31	ke	ke	DET	_	_	_	_	_	gloss=high
+32	Akua.	akua.	PROPN	_	_	_	_	_	gloss=ments
+
+# sent_id = 44019010
+# ref_id = Acts 19:10
+# eng_text = This continued for the space of two years , so that all those who lived in Asia heard the word of the Lord Jesus , both Jews and Greeks .
+# haw_text = Ua hana mau ia keia mea i na makahiki elua; no ia mea, lohe ka poe a pau i noho ma Asia i ka olelo a ka Haku, a Iesu, o ka poe Iudaio a me ka poe Helene.
+1	Ua	ua	AUX	_	_	_	_	_	gloss=me
+2	hana	hana	VERB	_	_	_	_	_	gloss=miracles
+3	mau	mau	PART	_	_	_	_	_	gloss=uel
+4	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+5	keia	keia	DET	_	_	_	_	_	gloss=this
+6	mea	mea	NOUN	_	_	_	_	_	gloss=ure
+7	i	i	ADP	_	_	_	_	_
+8	na	na	DET	_	_	_	_	_	gloss=sisters
+9	makahiki	makahiki	NOUN	_	_	_	pobj	_	gloss=years|Number=Plur
+10	elua;	elua;	NUM	_	_	_	_	_	gloss=Gree
+11	no	no	ADP	_	_	_	_	_	gloss=even
+12	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+13	mea,	mea,	NOUN	_	_	_	_	_	gloss=For
+14	lohe	lohe	VERB	_	_	_	_	_	gloss=heard
+15	ka	ka	DET	_	_	28	det	_	gloss=the|Definite=Def|PronType=Art
+16	poe	poe	NOUN	_	_	_	_	_	gloss=calls
+17	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+18	pau	pau	VERB	_	_	_	_	_	gloss=All
+19	i	i	ADP	_	_	_	_	_
+20	noho	noho	VERB	_	_	_	_	_	gloss=sitting
+21	ma	ma	ADP	_	_	_	_	_	gloss=m
+22	Asia	asia	NOUN	_	_	_	_	_
+23	i	i	ADP	_	_	_	_	_
+24	ka	ka	DET	_	_	28	det	_	gloss=the|Definite=Def|PronType=Art
+25	olelo	olelo	VERB	_	_	_	_	_	gloss=speak
+26	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+27	ka	ka	DET	_	_	28	det	_	gloss=the|Definite=Def|PronType=Art
+28	Haku,	haku,	NOUN	_	_	_	pobj	_	gloss=Lord|Number=Sing
+29	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+30	Iesu,	iesu,	PROPN	_	_	_	_	_	gloss=Gree
+31	o	o	PART	_	_	_	_	_	gloss=been
+32	ka	ka	DET	_	_	28	det	_	gloss=the|Definite=Def|PronType=Art
+33	poe	poe	NOUN	_	_	_	_	_	gloss=calls
+34	Iudaio	iudaio	NOUN	_	_	_	_	_	gloss=Jewish
+35	a	a	ADP	_	_	_	cc	_	gloss=and|ConjType=Cmp
+36	me	me	ADP	_	_	_	_	_	gloss=as
+37	ka	ka	DET	_	_	28	det	_	gloss=the|Definite=Def|PronType=Art
+38	poe	poe	NOUN	_	_	_	_	_	gloss=calls
+39	Helene.	helene.	NOUN	_	_	_	_	_
+
+# sent_id = 44023017
+# ref_id = Acts 23:17
+# eng_text = Paul summoned one of the centurions , and said , " Bring this young man to the commanding officer , for he has something to tell him . "
+# haw_text = Alaila, hea aku la o Paulo i kekahi o na lunahaneri, i aku la ia ia, E alakai oe i keia kanaka opio i ka lunatausani; no ka mea, he olelo kana e hai aku ai ia ia.
+1	Alaila,	alaila,	NOUN	_	_	_	_	_	gloss=meeting
+2	hea	hea	VERB	_	_	_	_	_	gloss=offic
+3	aku	aku	PART	_	_	_	_	_	gloss=os
+4	la	la	NOUN	_	_	_	_	_	gloss=day
+5	o	o	PART	_	_	_	_	_	gloss=been
+6	Paulo	paulo	PROPN	_	_	_	nsubj	_	gloss=Paul|Number=Sing
+7	i	i	ADP	_	_	_	_	_
+8	kekahi	kekahi	DET	_	_	_	_	_	gloss=another
+9	o	o	PART	_	_	_	_	_	gloss=been
+10	na	na	DET	_	_	_	_	_	gloss=sisters
+11	lunahaneri,	lunahaneri,	NOUN	_	_	_	_	_	gloss=officer
+12	i	i	ADP	_	_	_	_	_
+13	aku	aku	PART	_	_	_	_	_	gloss=os
+14	la	la	NOUN	_	_	_	_	_	gloss=day
+15	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+16	ia,	ia,	PRON	_	_	_	_	_	gloss=Ex
+17	E	e	AUX	_	_	_	_	_
+18	alakai	alakai	VERB	_	_	_	_	_	gloss=led
+19	oe	oe	PRON	_	_	_	_	_	gloss=You
+20	i	i	ADP	_	_	_	_	_
+21	keia	keia	DET	_	_	_	det	_	gloss=this|Number=Sing|PronType=Dem
+22	kanaka	kanaka	NOUN	_	_	_	_	_	gloss=ation
+23	opio	opio	NOUN	_	_	_	amod	_	gloss=young|Degree=Pos
+24	i	i	ADP	_	_	_	_	_
+25	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+26	lunatausani;	lunatausani;	NOUN	_	_	_	_	_
+27	no	no	PART	_	_	_	_	_	gloss=even
+28	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+29	mea,	mea,	NOUN	_	_	_	_	_	gloss=For
+30	he	he	PART	_	_	_	_	_	gloss=teen
+31	olelo	olelo	VERB	_	_	_	_	_	gloss=speak
+32	kana	kana	PRON	_	_	_	_	_	gloss=date
+33	e	e	AUX	_	_	_	_	_	gloss=will
+34	hai	hai	VERB	_	_	_	_	_	gloss=news
+35	aku	aku	PART	_	_	_	_	_	gloss=os
+36	ai	ai	PART	_	_	_	_	_	gloss=ving
+37	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+38	ia.	ia.	PRON	_	_	_	_	_	gloss=sor
+
+# sent_id = 44024021
+# ref_id = Acts 24:21
+# eng_text = unless it is for this one thing that I cried standing among them , ' Concerning the resurrection of the dead I am being judged before you today ! ' "
+# haw_text = No keia leo hookahi wale no a'u i hea aku ai, i ko'u ku ana iwaena o lakou. No ke alahouana o ka poe make, oia ko'u mea i hookolokoloia mai ai imua o oukou i keia la.
+1	No	no	ADP	_	_	_	_	_	gloss=Therefore
+2	keia	keia	DET	_	_	_	_	_	gloss=this
+3	leo	leo	NOUN	_	_	_	_	_	gloss=shouting
+4	hookahi	hookahi	NOUN	_	_	_	_	_	gloss=1
+5	wale	wale	ADV	_	_	_	_	_	gloss=only
+6	no	no	PART	_	_	_	_	_	gloss=even
+7	a'u	a'u	DET	_	_	_	_	_	gloss=ib
+8	i	i	ADP	_	_	_	_	_
+9	hea	hea	VERB	_	_	_	_	_	gloss=offic
+10	aku	aku	PART	_	_	_	_	_	gloss=os
+11	ai,	ai,	PART	_	_	_	_	_	gloss=ect
+12	i	i	ADP	_	_	_	_	_
+13	ko'u	ko'u	NOUN	_	_	_	_	_	gloss=spare
+14	ku	ku	VERB	_	_	_	_	_	gloss=standing
+15	ana	ana	PART	_	_	_	_	_	gloss=co
+16	iwaena	iwaena	ADP	_	_	_	_	_	gloss=among
+17	o	o	PART	_	_	_	_	_	gloss=been
+18	lakou.	lakou.	PRON	_	_	_	_	_	gloss=our
+19	No	no	PART	_	_	_	_	_	gloss=Therefore
+20	ke	ke	DET	_	_	_	_	_	gloss=high
+21	alahouana	alahouana	NOUN	_	_	_	_	_	gloss=aven’t
+22	o	o	PART	_	_	_	_	_	gloss=been
+23	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+24	poe	poe	NOUN	_	_	_	_	_	gloss=calls
+25	make,	make,	VERB	_	_	_	_	_	gloss=int
+26	oia	oia	PRON	_	_	_	_	_	gloss=himself
+27	ko'u	ko'u	NOUN	_	_	_	_	_	gloss=spare
+28	mea	mea	NOUN	_	_	_	_	_	gloss=ure
+29	i	i	ADP	_	_	_	_	_
+30	hookolokoloia	hookolokoloia	NOUN	_	_	_	_	_
+31	mai	mai	ADP	_	_	_	_	_	gloss=from
+32	ai	ai	PART	_	_	_	_	_	gloss=ving
+33	imua	imua	NOUN	_	_	_	_	_	gloss=presence
+34	o	o	PART	_	_	_	_	_	gloss=been
+35	oukou	oukou	PRON	_	_	_	_	_	gloss=Laodicea
+36	i	i	ADP	_	_	_	_	_
+37	keia	keia	DET	_	_	_	_	_	gloss=this
+38	la.	la.	NOUN	_	_	_	_	_	gloss=lights
+
+# sent_id = 46008004
+# ref_id = 1 Corinthians 8:4
+# eng_text = Therefore concerning the eating of things sacrificed to idols , we know that no idol is anything in the world , and that there is no other God but one .
+# haw_text = Ma ka ai ana i na mea i kaumahaia na na kii, ua ike no kakou, he mea ole ke kii, ma ka honua nei, aole hoi he Akua e ae, hookahi wale no.
+1	Ma	ma	ADP	_	_	_	_	_	gloss=By
+2	ka	ka	DET	_	_	_	_	_	gloss=the
+3	ai	ai	PART	_	_	_	_	_	gloss=ving
+4	ana	ana	PART	_	_	_	_	_	gloss=co
+5	i	i	ADP	_	_	_	_	_
+6	na	na	DET	_	_	_	_	_	gloss=sisters
+7	mea	mea	NOUN	_	_	_	_	_	gloss=ure
+8	i	i	ADP	_	_	_	_	_
+9	kaumahaia	kaumahaia	NOUN	_	_	_	_	_
+10	na	na	DET	_	_	_	_	_	gloss=sisters
+11	na	na	DET	_	_	_	_	_	gloss=sisters
+12	kii,	kii,	NOUN	_	_	_	nsubj	_	gloss=idol|Number=Sing
+13	ua	ua	AUX	_	_	_	_	_	gloss=Gentile
+14	ike	ike	VERB	_	_	_	_	_	gloss=see
+15	no	no	PART	_	_	_	_	_	gloss=even
+16	kakou,	kakou,	PRON	_	_	_	_	_	gloss=us
+17	he	he	PART	_	_	_	_	_	gloss=teen
+18	mea	mea	NOUN	_	_	_	_	_	gloss=ure
+19	ole	ole	PART	_	_	_	_	_	gloss=blameless
+20	ke	ke	DET	_	_	_	_	_	gloss=high
+21	kii,	kii,	NOUN	_	_	_	nsubj	_	gloss=idol|Number=Sing
+22	ma	ma	ADP	_	_	_	_	_	gloss=m
+23	ka	ka	DET	_	_	_	_	_	gloss=the
+24	honua	honua	NOUN	_	_	_	_	_	gloss=earth
+25	nei,	nei,	PART	_	_	_	_	_	gloss=lead
+26	aole	aole	PART	_	_	_	neg	_	gloss=not|Polarity=Neg
+27	hoi	hoi	PART	_	_	_	_	_	gloss=glorif
+28	he	he	PART	_	_	_	_	_	gloss=teen
+29	Akua	akua	PROPN	_	_	_	_	_	gloss=oked
+30	e	e	AUX	_	_	_	_	_	gloss=will
+31	ae,	ae,	VERB	_	_	_	_	_	gloss=next
+32	hookahi	hookahi	NOUN	_	_	_	_	_	gloss=1
+33	wale	wale	ADV	_	_	_	advmod	_	gloss=only
+34	no.	no.	PART	_	_	_	_	_	gloss=answered
+
+# sent_id = 48001018
+# ref_id = Galatians 1:18
+# eng_text = Then after three years I went up to Jerusalem to visit Peter , and stayed with him fifteen days .
+# haw_text = A hala na makahiki ekolu, pii aku la au i Ierusalema e ike ia Petero a noho pu iho la au me ia i na la he umikumamalima.
+1	A	a	CCONJ	_	_	_	_	_	gloss=At
+2	hala	hala	VERB	_	_	_	_	_	gloss=gone
+3	na	na	DET	_	_	_	_	_	gloss=sisters
+4	makahiki	makahiki	NOUN	_	_	6	npadvmod	_	gloss=years|Number=Plur
+5	ekolu,	ekolu,	NUM	_	_	4	nummod	_	gloss=three|NumType=Card
+6	pii	pii	VERB	_	_	_	advmod	_	gloss=later|Degree=Cmp
+7	aku	aku	PART	_	_	_	_	_	gloss=os
+8	la	la	NOUN	_	_	_	_	_	gloss=day
+9	au	au	PRON	_	_	_	_	_	gloss=ili
+10	i	i	ADP	_	_	_	_	_
+11	Ierusalema	ierusalema	PROPN	_	_	_	_	_	gloss=east
+12	e	e	AUX	_	_	_	_	_	gloss=will
+13	ike	ike	VERB	_	_	_	_	_	gloss=see
+14	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+15	Petero	petero	PROPN	_	_	_	dobj	_	gloss=Peter|Number=Sing
+16	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+17	noho	noho	VERB	_	_	_	_	_	gloss=sitting
+18	pu	pu	PART	_	_	_	_	_	gloss=ures
+19	iho	iho	PART	_	_	_	_	_	gloss=inside
+20	la	la	NOUN	_	_	_	_	_	gloss=day
+21	au	au	PRON	_	_	_	_	_	gloss=ili
+22	me	me	ADP	_	_	_	_	_	gloss=as
+23	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+24	i	i	ADP	_	_	_	_	_
+25	na	na	DET	_	_	_	_	_	gloss=sisters
+26	la	la	NOUN	_	_	_	_	_	gloss=day
+27	he	he	PART	_	_	_	_	_	gloss=teen
+28	umikumamalima.	umikumamalima.	NOUN	_	_	_	_	_
+
+# sent_id = 48002001
+# ref_id = Galatians 2:1
+# eng_text = Then after a period of fourteen years I went up again to Jerusalem with Barnabas , taking Titus also with me .
+# haw_text = A HALA na makahiki he umikumamaha, pii hou aku la au i Ierusalema, me Barenaba, a lawe pu aku no hoi ia Tito.
+1	A	a	CCONJ	_	_	_	_	_	gloss=At
+2	HALA	hala	VERB	_	_	4	nummod	_	gloss=fourteen|NumType=Card
+3	na	na	DET	_	_	_	_	_	gloss=sisters
+4	makahiki	makahiki	NOUN	_	_	7	npadvmod	_	gloss=years|Number=Plur
+5	he	he	PART	_	_	_	_	_	gloss=teen
+6	umikumamaha,	umikumamaha,	NUM	_	_	4	nummod	_	gloss=fourteen|NumType=Card
+7	pii	pii	VERB	_	_	_	advmod	_	gloss=later|Degree=Cmp
+8	hou	hou	ADJ	_	_	_	advmod	_	gloss=again
+9	aku	aku	PART	_	_	_	_	_	gloss=os
+10	la	la	NOUN	_	_	_	_	_	gloss=day
+11	au	au	PRON	_	_	_	_	_	gloss=ili
+12	i	i	ADP	_	_	_	_	_
+13	Ierusalema,	ierusalema,	PROPN	_	_	_	pobj	_	gloss=Jerusalem|Number=Sing
+14	me	me	ADP	_	_	_	_	_	gloss=as
+15	Barenaba,	barenaba,	NOUN	_	_	_	pobj	_	gloss=Barnabas|Number=Sing
+16	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+17	lawe	lawe	VERB	_	_	_	_	_	gloss=take
+18	pu	pu	PART	_	_	_	_	_	gloss=ures
+19	aku	aku	PART	_	_	_	_	_	gloss=os
+20	no	no	PART	_	_	_	_	_	gloss=even
+21	hoi	hoi	PART	_	_	_	_	_	gloss=glorif
+22	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+23	Tito.	tito.	NOUN	_	_	_	_	_
+
+# sent_id = 49005031
+# ref_id = Ephesians 5:31
+# eng_text = " For this cause a man will leave his father and mother , and will be joined to his wife . The two will become one flesh . "
+# haw_text = No ia hoi, e haalele ke kanaka i kona makuakane a me ka makuwahine, a e hoopiliia'ku ia i kana wahine, a e lilo laua elua i bookahi to.
+1	No	no	ADP	_	_	_	_	_	gloss=Therefore
+2	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+3	hoi,	hoi,	PART	_	_	_	_	_	gloss=ion
+4	e	e	AUX	_	_	_	_	_	gloss=will
+5	haalele	haalele	VERB	_	_	0	root	_	gloss=leaves|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+6	ke	ke	DET	_	_	_	_	_	gloss=high
+7	kanaka	kanaka	NOUN	_	_	_	_	_	gloss=ation
+8	i	i	ADP	_	_	_	_	_
+9	kona	kona	PRON	_	_	_	poss	_	gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+10	makuakane	makuakane	NOUN	_	_	5	dobj	_	gloss=father|Number=Sing
+11	a	a	CCONJ	_	_	5	cc	_	gloss=and|ConjType=Cmp
+12	me	me	ADP	_	_	_	_	_	gloss=as
+13	ka	ka	DET	_	_	26	det	_	gloss=the|Definite=Def|PronType=Art
+14	makuwahine,	makuwahine,	NOUN	_	_	10	conj	_	gloss=mother|Number=Sing
+15	a	a	CCONJ	_	_	5	cc	_	gloss=and|ConjType=Cmp
+16	e	e	AUX	_	_	_	_	_	gloss=will
+17	hoopiliia'ku	hoopiliia'ku	NOUN	_	_	_	_	_
+18	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+19	i	i	ADP	_	_	_	_	_
+20	kana	kana	PRON	_	_	_	_	_	gloss=date
+21	wahine,	wahine,	NOUN	_	_	_	_	_	gloss=oldest
+22	a	a	CCONJ	_	_	5	cc	_	gloss=and|ConjType=Cmp
+23	e	e	AUX	_	_	_	_	_	gloss=will
+24	lilo	lilo	VERB	_	_	_	_	_	gloss=become
+25	laua	laua	PRON	_	_	_	_	_	gloss=threw
+26	elua	elua	NUM	_	_	_	nsubjpass	_	gloss=two|NumType=Card
+27	i	i	ADP	_	_	_	_	_
+28	bookahi	bookahi	NOUN	_	_	_	_	_
+29	to.	to.	NOUN	_	_	_	_	_
+
+# sent_id = 49006008
+# ref_id = Ephesians 6:8
+# eng_text = knowing that whatever good thing each one does , he will receive the same again from the Lord , whether he is bound or free .
+# haw_text = E ike hoi oukou, a i haua kekahi i ka mea maikai, e ukuia mai oia e ka Haku, o ka mea paa a me ka mea paa ole.
+1	E	e	AUX	_	_	_	_	_
+2	ike	ike	VERB	_	_	_	_	_	gloss=see
+3	hoi	hoi	PART	_	_	_	_	_	gloss=glorif
+4	oukou,	oukou,	PRON	_	_	_	_	_	gloss=weak
+5	a	a	CCONJ	_	_	_	_	_	gloss=and
+6	i	i	CCONJ	_	_	_	_	_
+7	haua	haua	VERB	_	_	_	_	_	gloss=pract
+8	kekahi	kekahi	DET	_	_	_	_	_	gloss=another
+9	i	i	ADP	_	_	_	_	_
+10	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+11	mea	mea	NOUN	_	_	_	_	_	gloss=ure
+12	maikai,	maikai,	ADJ	_	_	_	_	_	gloss=ned
+13	e	e	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+14	ukuia	ukuia	NOUN	_	_	_	mark	_	gloss=whether
+15	mai	mai	ADP	_	_	_	_	_	gloss=from
+16	oia	oia	PRON	_	_	_	_	_	gloss=himself
+17	e	e	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+18	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+19	Haku,	haku,	NOUN	_	_	_	nsubj	_	gloss=Lord|Number=Sing
+20	o	o	PART	_	_	_	_	_	gloss=been
+21	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+22	mea	mea	NOUN	_	_	_	_	_	gloss=ure
+23	paa	paa	VERB	_	_	_	_	_	gloss=hired
+24	a	a	CCONJ	_	_	_	_	_	gloss=and
+25	me	me	ADP	_	_	_	_	_	gloss=as
+26	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+27	mea	mea	NOUN	_	_	_	_	_	gloss=ure
+28	paa	paa	VERB	_	_	_	_	_	gloss=hired
+29	ole.	ole.	PART	_	_	_	_	_	gloss=helpless
+
+# sent_id = 51004009
+# ref_id = Colossians 4:9
+# eng_text = together with Onesimus , the faithful and beloved brother , who is one of you . They will make known to you all things that are going on here .
+# haw_text = Me Oneaimo, ka hoahanau aloha hoopono, no oukou mai ia; na laua e hoike aku ia oukou i na mea a pau o nei.
+1	Me	me	ADP	_	_	_	_	_	gloss=scatt
+2	Oneaimo,	oneaimo,	NOUN	_	_	_	_	_
+3	ka	ka	DET	_	_	_	_	_	gloss=the
+4	hoahanau	hoahanau	NOUN	_	_	_	_	_	gloss=brothers
+5	aloha	aloha	VERB	_	_	_	_	_	gloss=love
+6	hoopono,	hoopono,	NOUN	_	_	_	_	_
+7	no	no	PART	_	_	_	_	_	gloss=even
+8	oukou	oukou	PRON	_	_	_	_	_	gloss=Laodicea
+9	mai	mai	ADP	_	_	_	_	_	gloss=from
+10	ia;	ia;	PRON	_	_	_	_	_	gloss=ap
+11	na	na	DET	_	_	_	_	_	gloss=sisters
+12	laua	laua	PRON	_	_	_	_	_	gloss=threw
+13	e	e	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+14	hoike	hoike	VERB	_	_	_	_	_	gloss=ative
+15	aku	aku	PART	_	_	_	_	_	gloss=os
+16	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+17	oukou	oukou	PRON	_	_	_	_	_	gloss=Laodicea
+18	i	i	ADP	_	_	_	_	_
+19	na	na	DET	_	_	_	_	_	gloss=sisters
+20	mea	mea	NOUN	_	_	_	_	_	gloss=ure
+21	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+22	pau	pau	VERB	_	_	_	_	_	gloss=All
+23	o	o	PART	_	_	_	_	_	gloss=been
+24	nei.	nei.	PART	_	_	_	_	_	gloss=urther
+
+# sent_id = 53001003
+# ref_id = 2 Thessalonians 1:3
+# eng_text = We are bound to always give thanks to God for you , brothers , even as it is appropriate , because your faith grows exceedingly , and the love of each and every one of you towards one another abounds ;
+# haw_text = E pono no makou e hoomaikai mau aku i ke Akua no oukou, e na hoahanau; he mea maikai no ia, no ka ulu nui ana o ko oukou paulele, a o ke aloha o oukou a pau loa, ua mahuahua ae ia i kekahi i kekahi.
+1	E	e	AUX	_	_	_	_	_
+2	pono	pono	ADJ	_	_	_	_	_	gloss=ard
+3	no	no	PART	_	_	_	_	_	gloss=even
+4	makou	makou	PRON	_	_	_	_	_	gloss=We
+5	e	e	AUX	_	_	_	_	_	gloss=will
+6	hoomaikai	hoomaikai	ADJ	_	_	_	_	_	gloss=praising
+7	mau	mau	PART	_	_	_	_	_	gloss=uel
+8	aku	aku	PART	_	_	_	_	_	gloss=os
+9	i	i	ADP	_	_	_	_	_
+10	ke	ke	DET	_	_	_	_	_	gloss=high
+11	Akua	akua	PROPN	_	_	_	_	_	gloss=oked
+12	no	no	PART	_	_	_	_	_	gloss=even
+13	oukou,	oukou,	PRON	_	_	_	_	_	gloss=weak
+14	e	e	AUX	_	_	_	_	_	gloss=will
+15	na	na	DET	_	_	_	conj	_	gloss=sisters|Number=Plur
+16	hoahanau;	hoahanau;	NOUN	_	_	_	_	_	gloss=urged
+17	he	he	PART	_	_	_	_	_	gloss=teen
+18	mea	mea	NOUN	_	_	_	_	_	gloss=ure
+19	maikai	maikai	ADJ	_	_	_	_	_	gloss=cious
+20	no	no	PART	_	_	_	_	_	gloss=even
+21	ia,	ia,	PRON	_	_	_	_	_	gloss=Ex
+22	no	no	PART	_	_	_	_	_	gloss=even
+23	ka	ka	DET	_	_	_	_	_	gloss=the
+24	ulu	ulu	NOUN	_	_	_	_	_
+25	nui	nui	ADJ	_	_	_	_	_	gloss=large
+26	ana	ana	PART	_	_	_	_	_	gloss=co
+27	o	o	PART	_	_	_	_	_	gloss=been
+28	ko	ko	ADP	_	_	_	_	_	gloss=own
+29	oukou	oukou	PRON	_	_	_	_	_	gloss=Laodicea
+30	paulele,	paulele,	NOUN	_	_	_	_	_	gloss=pur
+31	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+32	o	o	PART	_	_	_	_	_	gloss=been
+33	ke	ke	DET	_	_	_	_	_	gloss=high
+34	aloha	aloha	VERB	_	_	_	conj	_	gloss=love|Number=Sing
+35	o	o	PART	_	_	_	_	_	gloss=been
+36	oukou	oukou	PRON	_	_	_	_	_	gloss=Laodicea
+37	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+38	pau	pau	VERB	_	_	_	_	_	gloss=All
+39	loa,	loa,	ADV	_	_	_	_	_	gloss=ship
+40	ua	ua	AUX	_	_	_	_	_	gloss=Gentile
+41	mahuahua	mahuahua	NOUN	_	_	_	_	_	gloss=hundred
+42	ae	ae	PART	_	_	_	_	_	gloss=Even
+43	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+44	i	i	ADP	_	_	_	_	_
+45	kekahi	kekahi	DET	_	_	_	nsubj	_	gloss=another
+46	i	i	ADP	_	_	_	_	_
+47	kekahi.	kekahi.	DET	_	_	_	_	_	gloss=Two
+
+# sent_id = 58008013
+# ref_id = Hebrews 8:13
+# eng_text = In that he says , " A new covenant , " he has made the first old . But that which is becoming old and grows aged is near to vanishing away .
+# haw_text = I kana olelo ana, He berita hou, ua hoolilo oia i ka mea mua i lualua; a o ka mea lualua, e elemakule ana hoi, ua kokoke no ia e nalo aku.
+1	I	i	ADP	_	_	_	_	_	gloss=persuad
+2	kana	kana	PRON	_	_	_	pobj	_	gloss=date|Number=Sing
+3	olelo	olelo	VERB	_	_	_	_	_	gloss=speak
+4	ana,	ana,	PART	_	_	_	_	_	gloss=endurance
+5	He	he	PART	_	_	_	_	_	gloss=Salt
+6	berita	berita	NOUN	_	_	_	pobj	_	gloss=covenant|Number=Sing
+7	hou,	hou,	ADJ	_	_	_	pobj	_	gloss=covenant|Number=Sing
+8	ua	ua	AUX	_	_	_	_	_	gloss=Gentile
+9	hoolilo	hoolilo	NOUN	_	_	_	_	_	gloss=claim
+10	oia	oia	PRON	_	_	_	_	_	gloss=himself
+11	i	i	ADP	_	_	_	_	_
+12	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+13	mea	mea	NOUN	_	_	_	_	_	gloss=ure
+14	mua	mua	NOUN	_	_	_	amod	_	gloss=first|Degree=Pos
+15	i	i	ADP	_	_	_	_	_
+16	lualua;	lualua;	NOUN	_	_	_	_	_
+17	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+18	o	o	PART	_	_	_	_	_	gloss=been
+19	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+20	mea	mea	NOUN	_	_	_	_	_	gloss=ure
+21	lualua,	lualua,	NOUN	_	_	_	_	_
+22	e	e	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+23	elemakule	elemakule	NOUN	_	_	_	_	_
+24	ana	ana	PART	_	_	_	_	_	gloss=co
+25	hoi,	hoi,	PART	_	_	_	_	_	gloss=ion
+26	ua	ua	AUX	_	_	_	_	_	gloss=Gentile
+27	kokoke	kokoke	ADV	_	_	_	_	_	gloss=near
+28	no	no	PART	_	_	_	_	_	gloss=even
+29	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+30	e	e	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+31	nalo	nalo	VERB	_	_	_	_	_	gloss=te
+32	aku.	aku.	PART	_	_	_	advcl	_	gloss=speaks|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+
+# sent_id = 66001012
+# ref_id = Revelation 1:12
+# eng_text = I turned to see the voice that spoke with me . Having turned , I saw seven golden lampstands .
+# haw_text = Huli ae la au e ike i ka leo i kamailio mai ia'u; a i ko'u huli ana, ike aku la au i na ipukukui gula ehiku;
+1	Huli	huli	VERB	_	_	_	_	_
+2	ae	ae	PART	_	_	_	_	_	gloss=Even
+3	la	la	NOUN	_	_	_	_	_	gloss=day
+4	au	au	PRON	_	_	_	_	_	gloss=ili
+5	e	e	AUX	_	_	_	_	_	gloss=will
+6	ike	ike	VERB	_	_	17	xcomp	_	gloss=see|VerbForm=Inf
+7	i	i	ADP	_	_	_	_	_
+8	ka	ka	DET	_	_	_	_	_	gloss=the
+9	leo	leo	NOUN	_	_	_	_	_	gloss=shouting
+10	i	i	ADP	_	_	_	_	_
+11	kamailio	kamailio	NOUN	_	_	_	_	_	gloss=suddenly
+12	mai	mai	ADP	_	_	_	_	_	gloss=from
+13	ia'u;	ia'u;	PRON	_	_	_	_	_	gloss=lamp
+14	a	a	CCONJ	_	_	_	_	_	gloss=and
+15	i	i	CCONJ	_	_	_	_	_
+16	ko'u	ko'u	NOUN	_	_	_	_	_	gloss=spare
+17	huli	huli	VERB	_	_	_	advcl	_	gloss=turned|Tense=Past|VerbForm=Fin
+18	ana,	ana,	PART	_	_	_	_	_	gloss=endurance
+19	ike	ike	VERB	_	_	17	xcomp	_	gloss=see|VerbForm=Inf
+20	aku	aku	PART	_	_	_	_	_	gloss=os
+21	la	la	NOUN	_	_	_	_	_	gloss=day
+22	au	au	PRON	_	_	_	_	_	gloss=ili
+23	i	i	ADP	_	_	_	_	_
+24	na	na	DET	_	_	_	_	_	gloss=sisters
+25	ipukukui	ipukukui	NOUN	_	_	_	_	_
+26	gula	gula	NOUN	_	_	_	compound	_	gloss=gold|Number=Sing
+27	ehiku;	ehiku;	NUM	_	_	_	nummod	_	gloss=seven|NumType=Card
+
+# sent_id = 66005014
+# ref_id = Revelation 5:14
+# eng_text = The four living creatures said , " Amen ! " The elders fell down and worshipped .
+# haw_text = I mai la na mea ola eha, Amene. Moe iho la na lunakahiko he iwakaluakumamaha, hoomana aku la i ka Mea e ola mau ana ia ao aku, ia ao aku.
+1	I	i	ADP	_	_	_	_	_	gloss=persuad
+2	mai	mai	ADP	_	_	_	_	_	gloss=from
+3	la	la	NOUN	_	_	_	_	_	gloss=day
+4	na	na	DET	_	_	_	_	_	gloss=sisters
+5	mea	mea	NOUN	_	_	_	_	_	gloss=ure
+6	ola	ola	NOUN	_	_	_	_	_	gloss=life
+7	eha,	eha,	NUM	_	_	13	nummod	_	gloss=four|NumType=Card
+8	Amene.	amene.	PART	_	_	_	intj	_	gloss=Amen
+9	Moe	moe	VERB	_	_	_	_	_	gloss=patient
+10	iho	iho	PART	_	_	_	_	_	gloss=inside
+11	la	la	NOUN	_	_	_	_	_	gloss=day
+12	na	na	DET	_	_	_	_	_	gloss=sisters
+13	lunakahiko	lunakahiko	NOUN	_	_	_	nsubj	_	gloss=elders|Number=Plur
+14	he	he	PART	_	_	_	_	_	gloss=teen
+15	iwakaluakumamaha,	iwakaluakumamaha,	NOUN	_	_	_	_	_	gloss=twenty-four
+16	hoomana	hoomana	NOUN	_	_	_	_	_	gloss=worship
+17	aku	aku	PART	_	_	_	_	_	gloss=os
+18	la	la	NOUN	_	_	_	_	_	gloss=day
+19	i	i	ADP	_	_	_	_	_
+20	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+21	Mea	mea	NOUN	_	_	_	_	_	gloss=sits
+22	e	e	AUX	_	_	_	_	_	gloss=will
+23	ola	ola	NOUN	_	_	_	_	_	gloss=life
+24	mau	mau	PART	_	_	_	_	_	gloss=uel
+25	ana	ana	PART	_	_	_	_	_	gloss=co
+26	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+27	ao	ao	NOUN	_	_	_	_	_	gloss=teach
+28	aku,	aku,	PART	_	_	_	_	_	gloss=age
+29	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+30	ao	ao	NOUN	_	_	_	_	_	gloss=teach
+31	aku.	aku.	PART	_	_	_	_	_	gloss=speaks
+
+# sent_id = 66007001
+# ref_id = Revelation 7:1
+# eng_text = After this , I saw four angels standing at the four corners of the earth , holding the four winds of the earth , so that no wind would blow on the earth , or on the sea , or on any tree .
+# haw_text = MAHOPE iho o keia mau mea, ike aku la au i na anela eha e ku ana ma na kihi eha o ka honua, e paa ana i na makani eha o ka honua, i pa ole mai ka makani ma ka aina, aole hoi ma ka moana, aole hoi ma kekahi laau.
+1	MAHOPE	mahope	PART	_	_	_	_	_	gloss=traveled
+2	iho	iho	PART	_	_	_	_	_	gloss=inside
+3	o	o	PART	_	_	_	_	_	gloss=been
+4	keia	keia	DET	_	_	_	_	_	gloss=this
+5	mau	mau	PART	_	_	_	_	_	gloss=uel
+6	mea,	mea,	NOUN	_	_	_	_	_	gloss=For
+7	ike	ike	VERB	_	_	_	_	_	gloss=see
+8	aku	aku	PART	_	_	_	_	_	gloss=os
+9	la	la	NOUN	_	_	_	_	_	gloss=day
+10	au	au	PRON	_	_	_	_	_	gloss=ili
+11	i	i	ADP	_	_	_	_	_
+12	na	na	DET	_	_	_	_	_	gloss=sisters
+13	anela	anela	NOUN	_	_	_	_	_	gloss=angel
+14	eha	eha	NUM	_	_	_	_	_	gloss=sc
+15	e	e	AUX	_	_	_	_	_	gloss=will
+16	ku	ku	VERB	_	_	_	ccomp	_	gloss=standing|Aspect=Prog|Tense=Pres|VerbForm=Part
+17	ana	ana	PART	_	_	_	_	_	gloss=co
+18	ma	ma	ADP	_	_	_	_	_	gloss=m
+19	na	na	DET	_	_	_	_	_	gloss=sisters
+20	kihi	kihi	NOUN	_	_	_	pobj	_	gloss=corners|Number=Plur
+21	eha	eha	NUM	_	_	_	_	_	gloss=sc
+22	o	o	PART	_	_	_	_	_	gloss=been
+23	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+24	honua,	honua,	NOUN	_	_	_	pobj	_	gloss=earth|Number=Sing
+25	e	e	AUX	_	_	_	_	_	gloss=will
+26	paa	paa	VERB	_	_	_	_	_	gloss=hired
+27	ana	ana	PART	_	_	_	_	_	gloss=co
+28	i	i	ADP	_	_	_	_	_
+29	na	na	DET	_	_	_	_	_	gloss=sisters
+30	makani	makani	NOUN	_	_	_	_	_	gloss=waves
+31	eha	eha	NUM	_	_	_	_	_	gloss=sc
+32	o	o	PART	_	_	_	_	_	gloss=been
+33	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+34	honua,	honua,	NOUN	_	_	_	pobj	_	gloss=earth|Number=Sing
+35	i	i	ADP	_	_	_	_	_
+36	pa	pa	NOUN	_	_	_	_	_	gloss=cr
+37	ole	ole	PART	_	_	_	_	_	gloss=blameless
+38	mai	mai	ADP	_	_	_	_	_	gloss=from
+39	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+40	makani	makani	NOUN	_	_	_	_	_	gloss=waves
+41	ma	ma	ADP	_	_	_	_	_	gloss=m
+42	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+43	aina,	aina,	NOUN	_	_	_	_	_	gloss=pl
+44	aole	aole	PART	_	_	_	neg	_	gloss=not|Polarity=Neg
+45	hoi	hoi	PART	_	_	_	_	_	gloss=glorif
+46	ma	ma	ADP	_	_	_	_	_	gloss=m
+47	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+48	moana,	moana,	NOUN	_	_	_	_	_
+49	aole	aole	PART	_	_	_	neg	_	gloss=not|Polarity=Neg
+50	hoi	hoi	PART	_	_	_	_	_	gloss=glorif
+51	ma	ma	ADP	_	_	_	_	_	gloss=m
+52	kekahi	kekahi	DET	_	_	_	_	_	gloss=another
+53	laau.	laau.	NOUN	_	_	_	_	_	gloss=ging
+
+# sent_id = 66008002
+# ref_id = Revelation 8:2
+# eng_text = I saw the seven angels who stand before God , and seven trumpets were given to them .
+# haw_text = A ike aku la au i na anela ehiku, ka poe i ku imua o ke Akua; a ua Laawiia mai ia lakou ehiku pu puhi.
+1	A	a	CCONJ	_	_	_	_	_	gloss=At
+2	ike	ike	VERB	_	_	_	_	_	gloss=see
+3	aku	aku	PART	_	_	_	_	_	gloss=os
+4	la	la	NOUN	_	_	_	_	_	gloss=day
+5	au	au	PRON	_	_	_	_	_	gloss=ili
+6	i	i	ADP	_	_	_	_	_
+7	na	na	DET	_	_	_	_	_	gloss=sisters
+8	anela	anela	NOUN	_	_	_	_	_	gloss=angel
+9	ehiku,	ehiku,	NUM	_	_	_	_	_	gloss=trump
+10	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+11	poe	poe	NOUN	_	_	_	_	_	gloss=calls
+12	i	i	ADP	_	_	_	_	_
+13	ku	ku	VERB	_	_	_	_	_	gloss=standing
+14	imua	imua	NOUN	_	_	_	_	_	gloss=presence
+15	o	o	PART	_	_	_	_	_	gloss=been
+16	ke	ke	DET	_	_	_	_	_	gloss=high
+17	Akua;	akua;	PROPN	_	_	_	_	_	gloss=ression
+18	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+19	ua	ua	AUX	_	_	_	_	_	gloss=Gentile
+20	Laawiia	laawiia	NOUN	_	_	_	_	_
+21	mai	mai	ADP	_	_	_	_	_	gloss=from
+22	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+23	lakou	lakou	PRON	_	_	_	_	_	gloss=They
+24	ehiku	ehiku	NUM	_	_	_	nummod	_	gloss=seven|NumType=Card
+25	pu	pu	PART	_	_	_	_	_	gloss=ures
+26	puhi.	puhi.	NOUN	_	_	_	_	_
+
+# sent_id = 66009018
+# ref_id = Revelation 9:18
+# eng_text = By these three plagues were one third of mankind killed : by the fire , the smoke , and the sulfur , which proceeded out of their mouths .
+# haw_text = I keia mau mea ino ekolu, i make ai ka hapakolu o kanaka, i ke ahi, a i ka uahi a me ka luaipele i puka mai iwaho o ko lakou waha.
+1	I	i	ADP	_	_	_	_	_	gloss=persuad
+2	keia	keia	DET	_	_	_	_	_	gloss=this
+3	mau	mau	PART	_	_	_	_	_	gloss=uel
+4	mea	mea	NOUN	_	_	_	_	_	gloss=ure
+5	ino	ino	NOUN	_	_	_	_	_	gloss=bad
+6	ekolu,	ekolu,	NUM	_	_	_	nummod	_	gloss=three|NumType=Card
+7	i	i	ADP	_	_	_	_	_
+8	make	make	VERB	_	_	_	_	_	gloss=died
+9	ai	ai	PART	_	_	_	_	_	gloss=ving
+10	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+11	hapakolu	hapakolu	NOUN	_	_	_	_	_	gloss=-third
+12	o	o	PART	_	_	_	_	_	gloss=been
+13	kanaka,	kanaka,	NOUN	_	_	_	_	_	gloss=human
+14	i	i	ADP	_	_	_	_	_
+15	ke	ke	DET	_	_	_	_	_	gloss=high
+16	ahi,	ahi,	NOUN	_	_	_	appos	_	gloss=fire|Number=Sing
+17	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+18	i	i	CCONJ	_	_	_	_	_
+19	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+20	uahi	uahi	NOUN	_	_	_	_	_
+21	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+22	me	me	ADP	_	_	_	_	_	gloss=as
+23	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+24	luaipele	luaipele	NOUN	_	_	_	_	_
+25	i	i	ADP	_	_	_	_	_
+26	puka	puka	NOUN	_	_	_	_	_	gloss=camel
+27	mai	mai	ADP	_	_	_	prep	_	gloss=from
+28	iwaho	iwaho	ADP	_	_	_	_	_	gloss=expelled
+29	o	o	PART	_	_	_	_	_	gloss=been
+30	ko	ko	ADP	_	_	_	_	_	gloss=own
+31	lakou	lakou	PRON	_	_	_	_	_	gloss=They
+32	waha.	waha.	NOUN	_	_	_	_	_	gloss=hy
+
+# sent_id = 66010003
+# ref_id = Revelation 10:3
+# eng_text = He cried with a loud voice , as a lion roars . When he cried , the seven thunders uttered their voices .
+# haw_text = Kahea mai la ia me ka leo nui, e like me ka uwo ana o ka liona. A i kona kahea ana, poha mai la ka leo o na hekili ehiku.
+1	Kahea	kahea	NOUN	_	_	_	_	_	gloss=flaunt
+2	mai	mai	ADP	_	_	_	_	_	gloss=from
+3	la	la	NOUN	_	_	_	_	_	gloss=day
+4	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+5	me	me	ADP	_	_	_	_	_	gloss=as
+6	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+7	leo	leo	NOUN	_	_	_	_	_	gloss=shouting
+8	nui,	nui,	ADJ	_	_	_	_	_	gloss=slashing
+9	e	e	AUX	_	_	_	_	_	gloss=will
+10	like	like	ADJ	_	_	_	_	_	gloss=oc
+11	me	me	ADP	_	_	_	_	_	gloss=as
+12	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+13	uwo	uwo	NOUN	_	_	_	_	_
+14	ana	ana	PART	_	_	_	_	_	gloss=co
+15	o	o	PART	_	_	_	_	_	gloss=been
+16	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+17	liona.	liona.	NOUN	_	_	_	_	_
+18	A	a	CCONJ	_	_	_	_	_	gloss=At
+19	i	i	CCONJ	_	_	_	_	_
+20	kona	kona	PRON	_	_	_	_	_	gloss=his
+21	kahea	kahea	NOUN	_	_	_	advcl	_	gloss=shouted|Tense=Past|VerbForm=Fin
+22	ana,	ana,	PART	_	_	_	_	_	gloss=endurance
+23	poha	poha	NOUN	_	_	_	_	_	gloss=nders
+24	mai	mai	ADP	_	_	_	_	_	gloss=from
+25	la	la	NOUN	_	_	_	_	_	gloss=day
+26	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+27	leo	leo	NOUN	_	_	_	_	_	gloss=shouting
+28	o	o	PART	_	_	_	_	_	gloss=been
+29	na	na	DET	_	_	_	_	_	gloss=sisters
+30	hekili	hekili	NOUN	_	_	_	_	_	gloss=th
+31	ehiku.	ehiku.	NUM	_	_	_	_	_
+
+# sent_id = 66011011
+# ref_id = Revelation 11:11
+# eng_text = After the three and a half days , the breath of life from God entered into them , and they stood on their feet . Great fear fell on those who saw them .
+# haw_text = A hala na la ekolu a me ka hapa, komo iho la ka uhane ola no ke Akua mai, iloko o laua, a ku mai la laua ma ko laua mau wawae; a kau mai la ka makau nui maluna o ka poe a pau i ike aku ia laua.
+1	A	a	CCONJ	_	_	_	_	_	gloss=At
+2	hala	hala	VERB	_	_	_	_	_	gloss=gone
+3	na	na	DET	_	_	_	_	_	gloss=sisters
+4	la	la	NOUN	_	_	_	_	_	gloss=day
+5	ekolu	ekolu	NUM	_	_	_	_	_	gloss=uzz
+6	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+7	me	me	ADP	_	_	_	_	_	gloss=as
+8	ka	ka	DET	_	_	_	_	_	gloss=the
+9	hapa,	hapa,	NOUN	_	_	_	conj	_	gloss=half|Number=Sing
+10	komo	komo	VERB	_	_	_	_	_	gloss=enter
+11	iho	iho	PART	_	_	_	_	_	gloss=inside
+12	la	la	NOUN	_	_	_	_	_	gloss=day
+13	ka	ka	DET	_	_	_	_	_	gloss=the
+14	uhane	uhane	NOUN	_	_	_	_	_	gloss=spirit
+15	ola	ola	NOUN	_	_	_	dobj	_	gloss=life|Number=Sing
+16	no	no	PART	_	_	_	_	_	gloss=even
+17	ke	ke	DET	_	_	_	_	_	gloss=high
+18	Akua	akua	PROPN	_	_	_	_	_	gloss=oked
+19	mai,	mai,	ADP	_	_	_	_	_	gloss=rej
+20	iloko	iloko	ADP	_	_	_	_	_	gloss=within
+21	o	o	PART	_	_	_	_	_	gloss=been
+22	laua,	laua,	PRON	_	_	_	_	_	gloss=pit
+23	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+24	ku	ku	VERB	_	_	_	_	_	gloss=standing
+25	mai	mai	ADP	_	_	_	_	_	gloss=from
+26	la	la	NOUN	_	_	_	_	_	gloss=day
+27	laua	laua	PRON	_	_	_	_	_	gloss=threw
+28	ma	ma	ADP	_	_	_	_	_	gloss=m
+29	ko	ko	ADP	_	_	_	_	_	gloss=own
+30	laua	laua	PRON	_	_	_	_	_	gloss=threw
+31	mau	mau	PART	_	_	_	_	_	gloss=uel
+32	wawae;	wawae;	NOUN	_	_	_	_	_
+33	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+34	kau	kau	VERB	_	_	_	_	_	gloss=als
+35	mai	mai	ADP	_	_	_	_	_	gloss=from
+36	la	la	NOUN	_	_	_	_	_	gloss=day
+37	ka	ka	DET	_	_	_	_	_	gloss=the
+38	makau	makau	NOUN	_	_	_	_	_	gloss=afraid
+39	nui	nui	ADJ	_	_	_	_	_	gloss=large
+40	maluna	maluna	NOUN	_	_	_	_	_	gloss=unc
+41	o	o	PART	_	_	_	_	_	gloss=been
+42	ka	ka	DET	_	_	_	_	_	gloss=the
+43	poe	poe	NOUN	_	_	_	_	_	gloss=calls
+44	a	a	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+45	pau	pau	VERB	_	_	_	_	_	gloss=All
+46	i	i	ADP	_	_	_	_	_
+47	ike	ike	VERB	_	_	_	_	_	gloss=see
+48	aku	aku	PART	_	_	_	_	_	gloss=os
+49	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+50	laua.	laua.	PRON	_	_	_	_	_	gloss=bre
+
+# sent_id = 66013011
+# ref_id = Revelation 13:11
+# eng_text = I saw another beast coming up out of the earth . He had two horns like a lamb , and he spoke like a dragon .
+# haw_text = A ike aku la au i kahi holoholona hou e hoea mai ana, mailoko mai o ka honua; elua ona pepeiaohao e like me ke keikihipa, a olelo ae la ia e like me ka deragona.
+1	A	a	CCONJ	_	_	_	_	_	gloss=At
+2	ike	ike	VERB	_	_	_	_	_	gloss=see
+3	aku	aku	PART	_	_	_	_	_	gloss=os
+4	la	la	NOUN	_	_	_	_	_	gloss=day
+5	au	au	PRON	_	_	_	_	_	gloss=ili
+6	i	i	ADP	_	_	_	_	_
+7	kahi	kahi	NOUN	_	_	_	_	_	gloss=very
+8	holoholona	holoholona	NOUN	_	_	_	_	_	gloss=animals
+9	hou	hou	ADJ	_	_	_	_	_	gloss=again
+10	e	e	AUX	_	_	_	_	_	gloss=will
+11	hoea	hoea	NOUN	_	_	_	_	_	gloss=amb
+12	mai	mai	ADP	_	_	_	_	_	gloss=from
+13	ana,	ana,	PART	_	_	_	_	_	gloss=endurance
+14	mailoko	mailoko	NOUN	_	_	_	_	_	gloss=sharp
+15	mai	mai	ADP	_	_	_	_	_	gloss=from
+16	o	o	PART	_	_	_	_	_	gloss=been
+17	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+18	honua;	honua;	NOUN	_	_	_	_	_	gloss=imag
+19	elua	elua	NUM	_	_	20	nummod	_	gloss=two|NumType=Card
+20	ona	ona	ADJ	_	_	_	dobj	_	gloss=horns|Number=Plur
+21	pepeiaohao	pepeiaohao	NOUN	_	_	_	_	_
+22	e	e	AUX	_	_	_	_	_	gloss=will
+23	like	like	ADJ	_	_	_	_	_	gloss=oc
+24	me	me	ADP	_	_	_	_	_	gloss=as
+25	ke	ke	DET	_	_	_	_	_	gloss=high
+26	keikihipa,	keikihipa,	NOUN	_	_	_	_	_
+27	a	a	CCONJ	_	_	_	_	_	gloss=and
+28	olelo	olelo	VERB	_	_	_	_	_	gloss=speak
+29	ae	ae	PART	_	_	_	_	_	gloss=Even
+30	la	la	NOUN	_	_	_	_	_	gloss=day
+31	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+32	e	e	AUX	_	_	_	_	_	gloss=will
+33	like	like	ADJ	_	_	_	_	_	gloss=oc
+34	me	me	ADP	_	_	_	_	_	gloss=as
+35	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+36	deragona.	deragona.	NOUN	_	_	_	_	_
+
+# sent_id = 66021014
+# ref_id = Revelation 21:14
+# eng_text = The wall of the city had twelve foundations , and on them twelve names of the twelve Apostles of the Lamb .
+# haw_text = He umikumamalua pohaku kumu o ka pa o ua kulanakauhale la, a ma ia mau pohaku, na inoa o ka poe lunaolelo a ke Keikihipa, he umikumamalua.
+1	He	he	PART	_	_	_	_	_	gloss=Salt
+2	umikumamalua	umikumamalua	NUM	_	_	22	nummod	_	gloss=twelve|NumType=Card
+3	pohaku	pohaku	NOUN	_	_	_	_	_	gloss=stone
+4	kumu	kumu	NOUN	_	_	_	_	_	gloss=example
+5	o	o	PART	_	_	_	_	_	gloss=been
+6	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+7	pa	pa	NOUN	_	_	_	_	_	gloss=cr
+8	o	o	PART	_	_	_	_	_	gloss=been
+9	ua	ua	AUX	_	_	_	_	_	gloss=Gentile
+10	kulanakauhale	kulanakauhale	NOUN	_	_	_	_	_	gloss=town
+11	la,	la,	NOUN	_	_	_	_	_	gloss=ame
+12	a	a	ADP	_	_	_	cc	_	gloss=and|ConjType=Cmp
+13	ma	ma	ADP	_	_	_	_	_	gloss=m
+14	ia	ia	PRON	_	_	_	punct	_	PunctType=Peri
+15	mau	mau	PART	_	_	_	_	_	gloss=uel
+16	pohaku,	pohaku,	NOUN	_	_	_	_	_	gloss=Not
+17	na	na	DET	_	_	_	_	_	gloss=sisters
+18	inoa	inoa	NOUN	_	_	_	_	_	gloss=name
+19	o	o	PART	_	_	_	_	_	gloss=been
+20	ka	ka	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+21	poe	poe	NOUN	_	_	_	_	_	gloss=calls
+22	lunaolelo	lunaolelo	NOUN	_	_	_	pobj	_	gloss=apostles|Number=Plur
+23	a	a	ADP	_	_	_	cc	_	gloss=and|ConjType=Cmp
+24	ke	ke	DET	_	_	_	_	_	gloss=high
+25	Keikihipa,	keikihipa,	NOUN	_	_	_	_	_
+26	he	he	PART	_	_	_	_	_	gloss=teen
+27	umikumamalua.	umikumamalua.	NUM	_	_	22	nummod	_	gloss=twelve|NumType=Card
+
+# sent_id = 66022008
+# ref_id = Revelation 22:8
+# eng_text = Now I , John , am the one who heard and saw these things . When I heard and saw , I fell down to worship before the feet of the angel who showed me these things .
+# haw_text = Owau, o Ioane nei ka mea i ike a i lohe hoi i neia mau mea: a i ka wa a'u i lohe ai a ike aku ai hoi, moe iho la au e hoomana aku ma na wawae o ka anela nana i hoike mai ia'u i neia mau mea.
+1	Owau,	owau,	NOUN	_	_	_	_	_
+2	o	o	PART	_	_	_	_	_	gloss=been
+3	Ioane	ioane	NOUN	_	_	_	npadvmod	_	gloss=John|Number=Sing
+4	nei	nei	PART	_	_	_	_	_	gloss=grum
+5	ka	ka	DET	_	_	42	det	_	gloss=the|Definite=Def|PronType=Art
+6	mea	mea	NOUN	_	_	_	_	_	gloss=ure
+7	i	i	ADP	_	_	_	_	_
+8	ike	ike	VERB	_	_	_	_	_	gloss=see
+9	a	a	CCONJ	_	_	11	cc	_	gloss=and|ConjType=Cmp
+10	i	i	CCONJ	_	_	_	_	_
+11	lohe	lohe	VERB	_	_	_	advcl	_	gloss=heard|Tense=Past|VerbForm=Fin
+12	hoi	hoi	PART	_	_	_	_	_	gloss=glorif
+13	i	i	ADP	_	_	_	_	_
+14	neia	neia	DET	_	_	_	_	_	gloss=ke
+15	mau	mau	PART	_	_	_	_	_	gloss=uel
+16	mea:	mea:	NOUN	_	_	_	_	_
+17	a	a	CCONJ	_	_	11	cc	_	gloss=and|ConjType=Cmp
+18	i	i	CCONJ	_	_	_	_	_
+19	ka	ka	DET	_	_	42	det	_	gloss=the|Definite=Def|PronType=Art
+20	wa	wa	NOUN	_	_	_	_	_	gloss=marriage
+21	a'u	a'u	PRON	_	_	_	_	_	gloss=ib
+22	i	i	ADP	_	_	_	_	_
+23	lohe	lohe	VERB	_	_	_	advcl	_	gloss=heard|Tense=Past|VerbForm=Fin
+24	ai	ai	PART	_	_	_	_	_	gloss=ving
+25	a	a	CCONJ	_	_	23	cc	_	gloss=and|ConjType=Cmp
+26	ike	ike	VERB	_	_	_	_	_	gloss=see
+27	aku	aku	PART	_	_	_	_	_	gloss=os
+28	ai	ai	PART	_	_	_	_	_	gloss=ving
+29	hoi,	hoi,	PART	_	_	_	_	_	gloss=ion
+30	moe	moe	VERB	_	_	_	_	_	gloss=adultery
+31	iho	iho	PART	_	_	_	_	_	gloss=inside
+32	la	la	NOUN	_	_	_	_	_	gloss=day
+33	au	au	PRON	_	_	_	_	_	gloss=ili
+34	e	e	AUX	_	_	_	_	_	gloss=will
+35	hoomana	hoomana	NOUN	_	_	_	advcl	_	gloss=worship|VerbForm=Inf
+36	aku	aku	PART	_	_	_	_	_	gloss=os
+37	ma	ma	ADP	_	_	_	_	_	gloss=m
+38	na	na	DET	_	_	_	_	_	gloss=sisters
+39	wawae	wawae	NOUN	_	_	_	_	_	gloss=ame
+40	o	o	PART	_	_	_	_	_	gloss=been
+41	ka	ka	DET	_	_	42	det	_	gloss=the|Definite=Def|PronType=Art
+42	anela	anela	NOUN	_	_	_	pobj	_	gloss=angel|Number=Sing
+43	nana	nana	PRON	_	_	_	_	_	gloss=Advocate
+44	i	i	ADP	_	_	_	_	_
+45	hoike	hoike	VERB	_	_	_	_	_	gloss=ative
+46	mai	mai	ADP	_	_	_	_	_	gloss=from
+47	ia'u	ia'u	PRON	_	_	_	_	_	gloss=poss
+48	i	i	ADP	_	_	_	_	_
+49	neia	neia	DET	_	_	_	_	_	gloss=ke
+50	mau	mau	PART	_	_	_	_	_	gloss=uel
+51	mea.	mea.	NOUN	_	_	_	_	_	gloss=cheer
+

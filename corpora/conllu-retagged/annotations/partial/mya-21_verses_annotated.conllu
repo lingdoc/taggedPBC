@@ -1,0 +1,491 @@
+## The following text has been annotated for parts of speech by students at NTU Singapore as part of a class project in AY 2025.
+## Verses are extracted from the taggedPBC. Annotations have been developed with a combination of manual and automated approaches, with reference to existing literature and (where possible) native speakers.
+## ISO 639-3: mya, Language: Burmese, Number of verses: 21
+## References: Okell, J. (1969). A reference grammar of colloquial Burmese. By John Okell. 2 vols. pp.xviii, 482. London, Oxford University Press, 1969. £11.55. Journal of the Royal Asiatic Society of Great Britain & Ireland, 104(2). https://doi.org/10.1017/s0035869x00157703 ; SEAlang Library Burmese Lexicography. (n.d.). http://sealang.net/burmese/dictionary.htm
+
+# sent_id = 40006024
+# ref_id = Matthew 6:24
+# eng_text = " No one can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You can't serve both God and Mammon .
+# mya_text = abhaysuumyha sakhangnhacuuacekiu makhanniung . sakhangtauukiumun -jwe tauukiukhyacmanny . sakhangtauukiu mhiikhiu -jwe tauukiu makhanmannyaaprumanny . sangtiusanny bhuraasakhang -i acekiu legau ng , leaakiicannycim -i acekiu legau ng makhanniungkra .
+# mya_orth = အဘယ်သူမျှ သခင်နှစ်ဦးအစေကို မခံနိုင် ။ သခင်တဦးကိုမုန်း ၍ တဦးကိုချစ်မည် ။ သခင်တဦးကို မှီခို ၍ တဦးကို မခန့်မညားပြုမည် ။ သင်တို့သည် ဘုရားသခင် ၏ အစေကို ၎ င်း ၊ လောကီစည်းစိမ် ၏ အစေကို ၎ င်း မခံနိုင်ကြ ။
+1	abhaysuumyha	abhaysuumyha	PART	_	_	_	_	_	orth=အဘယ်သူမျှ|gloss=ess|EnhancedBy=Grammar|ASJP_No=18|ASJP_Gloss=person|ASJP_Form=lu|Core_Vocab=YES|Notes=ASJP form variant: person
+2	sakhangnhacuuacekiu	sakhangnhacuuacekiu	PART	_	_	_	_	_	orth=သခင်နှစ်ဦးအစေကို|EnhancedBy=Grammar
+3	makhanniung	makhanniung	unk	_	_	_	_	_	orth=မခံနိုင်
+4	.	.	PUNCT	_	_	_	_	_	orth=။
+5	sakhangtauukiumun	sakhangtauukiumun	unk	_	_	_	_	_	orth=သခင်တဦးကိုမုန်း
+6	-jwe	-jwe	CCONJ	_	_	_	cc	_	orth=၍|gloss=and|ConjType=Cmp
+7	tauukiukhyacmanny	tauukiukhyacmanny	unk	_	_	_	_	_	orth=တဦးကိုချစ်မည်
+8	.	.	PUNCT	_	_	_	_	_	orth=။
+9	sakhangtauukiu	sakhangtauukiu	VERB	_	_	_	conj	_	orth=သခင်တဦးကို|gloss=despise|VerbForm=Inf|ASJP_No=11|ASJP_Gloss=one|ASJP_Form=taT|Core_Vocab=YES|Notes=ASJP form variant: one
+10	mhiikhiu	mhiikhiu	unk	_	_	_	_	_	orth=မှီခို|gloss=nests
+11	-jwe	-jwe	CCONJ	_	_	_	cc	_	orth=၍|gloss=and|ConjType=Cmp
+12	tauukiu	tauukiu	VERB	_	_	_	acomp	_	orth=တဦးကို|gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part|ASJP_No=11|ASJP_Gloss=one|ASJP_Form=taT|Core_Vocab=YES|Notes=ASJP form variant: one
+13	makhanmannyaaprumanny	makhanmannyaaprumanny	unk	_	_	_	_	_	orth=မခန့်မညားပြုမည်
+14	.	.	PUNCT	_	_	_	_	_	orth=။
+15	sangtiusanny	sangtiusanny	PRON	_	_	_	nsubj	_	orth=သင်တို့သည်|gloss=you|Case=Nom|Person=2|PronType=Prs|ASJP_No=2|ASJP_Gloss=you|ASJP_Form=TaN|Core_Vocab=YES|Notes=ASJP direct match: you
+16	bhuraasakhang	bhuraasakhang	unk	_	_	_	_	_	orth=ဘုရားသခင်|gloss=God’s|ASJP_No=-|ASJP_Gloss=go|ASJP_Form=swaa|Core_Vocab=YES|Notes=ASJP direct match: go
+17	-i	-i	PUNCT	_	_	_	punct	_	orth=၏|PunctType=Peri
+18	acekiu	acekiu	VERB	_	_	_	conj	_	orth=အစေကို|gloss=despise|VerbForm=Inf
+19	legau	legau	unk	_	_	_	_	_	orth=၎|gloss=ber
+20	ng	ng	unk	_	_	_	_	_	orth=င်း|gloss=rep
+21	,	,	PUNCT	_	_	_	_	_	orth=၊
+22	leaakiicannycim	leaakiicannycim	VERB	_	_	_	conj	_	orth=လောကီစည်းစိမ်|gloss=despise|VerbForm=Inf
+23	-i	-i	PUNCT	_	_	_	punct	_	orth=၏|PunctType=Peri
+24	acekiu	acekiu	VERB	_	_	_	conj	_	orth=အစေကို|gloss=despise|VerbForm=Inf
+25	legau	legau	unk	_	_	_	_	_	orth=၎|gloss=ber
+26	ng	ng	unk	_	_	_	_	_	orth=င်း|gloss=rep
+27	makhanniungkra	makhanniungkra	unk	_	_	_	_	_	orth=မခံနိုင်ကြ
+28	.	.	PUNCT	_	_	_	_	_	orth=။
+
+# sent_id = 40018012
+# ref_id = Matthew 18:12
+# eng_text = " What do you think ? If a man has one hundred sheep , and one of them goes astray , doesn't he leave the ninety-nine , go to the mountains , and seek that which has gone astray ?
+# mya_text = abhaysiuthangkrasananny . siutaraarhiseaasuu -nai siutakeaangsannylamlwai -jwe pyeaaklyhang , thiusuu sanny kiuchaykiukeaangseaasiutiukiu teaangpeaamhaathaakhaipriimha , lamlwai -jwe pyeaakseaa siutakeaangkiu swaa -jwe rhaatatsanny mahutleaa .
+# mya_orth = အဘယ်သို့ထင်ကြသနည်း ။ သိုးတရာရှိသောသူ ၌ သိုးတကောင်သည်လမ်းလွဲ ၍ ပျောက်လျှင် ၊ ထိုသူ သည် ကိုးဆယ်ကိုးကောင်သောသိုးတို့ကို တောင်ပေါ်မှာထားခဲ့ပြီးမှ ၊ လမ်းလွဲ ၍ ပျောက်သော သိုးတကောင်ကို သွား ၍ ရှာတတ်သည် မဟုတ်လော ။
+1	abhaysiuthangkrasananny	abhaysiuthangkrasananny	unk	_	_	_	_	_	orth=အဘယ်သို့ထင်ကြသနည်း|gloss=think|ASJP_No=61|ASJP_Gloss=die|ASJP_Form=siy|Core_Vocab=YES|Notes=ASJP form variant: die
+2	.	.	PUNCT	_	_	_	_	_	orth=။
+3	siutaraarhiseaasuu	siutaraarhiseaasuu	unk	_	_	_	_	_	orth=သိုးတရာရှိသောသူ
+4	-nai	-nai	PART	_	_	_	_	_	orth=၌|gloss=in|EnhancedBy=Grammar
+5	siutakeaangsannylamlwai	siutakeaangsannylamlwai	PART	_	_	_	_	_	orth=သိုးတကောင်သည်လမ်းလွဲ|EnhancedBy=Grammar
+6	-jwe	-jwe	CCONJ	_	_	_	cc	_	orth=၍|gloss=and|ConjType=Cmp
+7	pyeaaklyhang	pyeaaklyhang	unk	_	_	_	_	_	orth=ပျောက်လျှင်
+8	,	,	PUNCT	_	_	_	punct	_	orth=၊|PunctType=Comm
+9	thiusuu	thiusuu	PRON	_	_	_	_	_	orth=ထိုသူ|gloss=unt|EnhancedBy=Grammar|ASJP_No=18|ASJP_Gloss=person|ASJP_Form=lu|Core_Vocab=YES|Notes=ASJP form variant: person
+10	sanny	sanny	PART	_	_	_	_	_	orth=သည်|gloss=ks|EnhancedBy=Grammar
+11	kiuchaykiukeaangseaasiutiukiu	kiuchaykiukeaangseaasiutiukiu	PART	_	_	_	_	_	orth=ကိုးဆယ်ကိုးကောင်သောသိုးတို့ကို|EnhancedBy=Grammar
+12	teaangpeaamhaathaakhaipriimha	teaangpeaamhaathaakhaipriimha	PART	_	_	_	_	_	orth=တောင်ပေါ်မှာထားခဲ့ပြီးမှ|EnhancedBy=Grammar
+13	,	,	PUNCT	_	_	_	punct	_	orth=၊|PunctType=Comm
+14	lamlwai	lamlwai	PART	_	_	_	_	_	orth=လမ်းလွဲ|EnhancedBy=Grammar|ASJP_No=85|ASJP_Gloss=path|ASJP_Form=lam|Core_Vocab=YES|Notes=ASJP form match: path
+15	-jwe	-jwe	CCONJ	_	_	_	cc	_	orth=၍|gloss=and|ConjType=Cmp
+16	pyeaakseaa	pyeaakseaa	VERB	_	_	_	relcl	_	orth=ပျောက်သော|gloss=lost|Aspect=Perf|Tense=Past|VerbForm=Part|EnhancedBy=Hopple
+17	siutakeaangkiu	siutakeaangkiu	PART	_	_	_	_	_	orth=သိုးတကောင်ကို|EnhancedBy=Grammar
+18	swaa	swaa	VERB	_	_	_	_	_	orth=သွား|gloss=noon|EnhancedBy=SEAlang|Hopple|ASJP_No=-|ASJP_Gloss=go|ASJP_Form=swaa|Core_Vocab=YES|Notes=ASJP form variant: go
+19	-jwe	-jwe	CCONJ	_	_	_	cc	_	orth=၍|gloss=and|ConjType=Cmp
+20	rhaatatsanny	rhaatatsanny	PART	_	_	_	_	_	orth=ရှာတတ်သည်|EnhancedBy=Grammar
+21	mahutleaa	mahutleaa	NOUN	_	_	_	_	_	orth=မဟုတ်လော|gloss=arrives|EnhancedBy=Hopple
+22	.	.	PUNCT	_	_	_	_	_	orth=။
+
+# sent_id = 40020021
+# ref_id = Matthew 20:21
+# eng_text = He said to her , " What do you want ? " She said to him , " Command that these , my two sons , may sit , one on your right hand , and one on your left hand , in your kingdom . "
+# mya_text = kiuyteaa -i niungngantwang kywanma -nai iisaanhacyeaaktiusanny lakyaateaabhak -nai tayeaak , lakwai teaabhak -nai tayeaak thiungraseaaakhwangkiupeteaamuupaahu lyheaakle -i .
+# mya_orth = ကိုယ်တော် ၏ နိုင်ငံတွင် ကျွန်မ ၌ ဤသားနှစ်ယောက်တို့သည် လက်ျာတော်ဘက် ၌ တယောက် ၊ လက်ဝဲ တော်ဘက် ၌ တယောက် ထိုင်ရသောအခွင့်ကိုပေးတော်မူပါဟု လျှောက်လေ ၏ ။
+1	kiuyteaa	kiuyteaa	NOUN	_	_	_	_	_	orth=ကိုယ်တော်|gloss=beying|EnhancedBy=Hopple
+2	-i	-i	PUNCT	_	_	_	punct	_	orth=၏|PunctType=Peri
+3	niungngantwang	niungngantwang	unk	_	_	_	_	_	orth=နိုင်ငံတွင်
+4	kywanma	kywanma	PRON	_	_	_	_	_	orth=ကျွန်မ|gloss=bridesmaids|EnhancedBy=Grammar
+5	-nai	-nai	ADP	_	_	_	prep	_	orth=၌|gloss=in
+6	iisaanhacyeaaktiusanny	iisaanhacyeaaktiusanny	PART	_	_	_	_	_	orth=ဤသားနှစ်ယောက်တို့သည်|EnhancedBy=Grammar
+7	lakyaateaabhak	lakyaateaabhak	NOUN	_	_	_	_	_	orth=လက်ျာတော်ဘက်|EnhancedBy=Hopple
+8	-nai	-nai	ADP	_	_	_	prep	_	orth=၌|gloss=in
+9	tayeaak	tayeaak	NUM	_	_	_	npadvmod	_	orth=တယောက်|gloss=one|NumType=Card|EnhancedBy=Hopple|ASJP_No=11|ASJP_Gloss=one|ASJP_Form=taT|Core_Vocab=YES|Notes=ASJP direct match: one
+10	,	,	PUNCT	_	_	_	punct	_	orth=၊|PunctType=Comm
+11	lakwai	lakwai	NOUN	_	_	_	pobj	_	orth=လက်ဝဲ|gloss=left|Number=Sing|ASJP_No=48|ASJP_Gloss=hand|ASJP_Form=lak|Core_Vocab=YES|Notes=ASJP form variant: hand
+12	teaabhak	teaabhak	NOUN	_	_	_	_	_	orth=တော်ဘက်|EnhancedBy=Hopple
+13	-nai	-nai	ADP	_	_	_	prep	_	orth=၌|gloss=in
+14	tayeaak	tayeaak	NUM	_	_	_	npadvmod	_	orth=တယောက်|gloss=one|NumType=Card|EnhancedBy=Hopple|ASJP_No=11|ASJP_Gloss=one|ASJP_Form=taT|Core_Vocab=YES|Notes=ASJP direct match: one
+15	thiungraseaaakhwangkiupeteaamuupaahu	thiungraseaaakhwangkiupeteaamuupaahu	unk	_	_	_	_	_	orth=ထိုင်ရသောအခွင့်ကိုပေးတော်မူပါဟု
+16	lyheaakle	lyheaakle	unk	_	_	_	_	_	orth=လျှောက်လေ|gloss=omes
+17	-i	-i	PUNCT	_	_	_	punct	_	orth=၏|PunctType=Peri
+18	.	.	PUNCT	_	_	_	_	_	orth=။
+
+# sent_id = 40026002
+# ref_id = Matthew 26:2
+# eng_text = " You know that after two days the Passover is coming , and the Son of Man will be delivered up to be crucified . "
+# mya_text = nhacraklwanmhapasakhaapwainereaakmannykiu sangtiusikra -i . thiuakhaa luusaakiulakwaakaptiungmhaa riuk satcekhrangnghaa apnhankralimmannyhu minteaamuu -i .
+# mya_orth = နှစ်ရက်လွန်မှပသခါပွဲနေ့ရောက်မည်ကို သင်တို့သိကြ ၏ ။ ထိုအခါ လူသားကိုလက်ဝါးကပ်တိုင်မှာ ရိုက် သတ်စေခြင်းငှါ အပ်နှံကြလိမ့်မည်ဟု မိန့်တော်မူ ၏ ။
+1	nhacraklwanmhapasakhaapwainereaakmannykiu	nhacraklwanmhapasakhaapwainereaakmannykiu	PART	_	_	_	_	_	orth=နှစ်ရက်လွန်မှပသခါပွဲနေ့ရောက်မည်ကို|EnhancedBy=Grammar
+2	sangtiusikra	sangtiusikra	unk	_	_	_	_	_	orth=သင်တို့သိကြ|gloss=burglar|ASJP_No=61|ASJP_Gloss=die|ASJP_Form=siy|Core_Vocab=YES|Notes=ASJP form variant: die
+3	-i	-i	PUNCT	_	_	_	punct	_	orth=၏|PunctType=Peri
+4	.	.	PUNCT	_	_	_	_	_	orth=။
+5	thiuakhaa	thiuakhaa	NOUN	_	_	_	_	_	orth=ထိုအခါ|gloss=Then|EnhancedBy=Hopple
+6	luusaakiulakwaakaptiungmhaa	luusaakiulakwaakaptiungmhaa	NOUN	_	_	_	_	_	orth=လူသားကိုလက်ဝါးကပ်တိုင်မှာ|EnhancedBy=Hopple
+7	riuk	riuk	unk	_	_	_	_	_	orth=ရိုက်|gloss=ins|ASJP_No=75|ASJP_Gloss=water|ASJP_Form=riy|Core_Vocab=YES|Notes=ASJP form variant: water
+8	satcekhrangnghaa	satcekhrangnghaa	NOUN	_	_	_	_	_	orth=သတ်စေခြင်းငှါ|EnhancedBy=Hopple
+9	apnhankralimmannyhu	apnhankralimmannyhu	unk	_	_	_	_	_	orth=အပ်နှံကြလိမ့်မည်ဟု
+10	minteaamuu	minteaamuu	PUNCT	_	_	_	punct	_	orth=မိန့်တော်မူ|PunctSide=Fin|PunctType=Quot|ASJP_No=-|ASJP_Gloss=say|ASJP_Form=preaapaa|Core_Vocab=YES|Notes=ASJP form match: say
+11	-i	-i	PUNCT	_	_	_	punct	_	orth=၏|PunctType=Peri
+12	.	.	PUNCT	_	_	_	_	_	orth=။
+
+# sent_id = 40026061
+# ref_id = Matthew 26:61
+# eng_text = and said , " This man said , ' I am able to destroy the temple of God , and to build it in three days . ' "
+# mya_text = iisuuka ngaasanny bhuraasakhang -i bimaanteaakiu phriuphyak -jwe sunrakatwangtwang tannycheaakniung sannyhu preaapaasannyhu saksekhankra -i .
+# mya_orth = ဤသူက ငါသည် ဘုရားသခင် ၏ ဗိမာန်တော်ကို ဖြိုဖျက် ၍ သုံးရက်အတွင်းတွင် တည်ဆောက်နိုင် သည်ဟု ပြောပါသည်ဟု သက်သေခံကြ ၏ ။
+1	iisuuka	iisuuka	PART	_	_	_	_	_	orth=ဤသူက|EnhancedBy=Grammar
+2	ngaasanny	ngaasanny	PRON	_	_	_	nsubj	_	orth=ငါသည်|gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs|ASJP_No=19|ASJP_Gloss=fish|ASJP_Form=Na|Core_Vocab=YES|Notes=ASJP form variant: fish
+3	bhuraasakhang	bhuraasakhang	unk	_	_	_	_	_	orth=ဘုရားသခင်|gloss=God’s|ASJP_No=-|ASJP_Gloss=go|ASJP_Form=swaa|Core_Vocab=YES|Notes=ASJP direct match: go
+4	-i	-i	PUNCT	_	_	_	punct	_	orth=၏|PunctType=Peri
+5	bimaanteaakiu	bimaanteaakiu	PART	_	_	_	_	_	orth=ဗိမာန်တော်ကို|EnhancedBy=Grammar
+6	phriuphyak	phriuphyak	NOUN	_	_	_	_	_	orth=ဖြိုဖျက်|EnhancedBy=Hopple
+7	-jwe	-jwe	CCONJ	_	_	_	cc	_	orth=၍|gloss=and|ConjType=Cmp
+8	sunrakatwangtwang	sunrakatwangtwang	unk	_	_	_	_	_	orth=သုံးရက်အတွင်းတွင်
+9	tannycheaakniung	tannycheaakniung	unk	_	_	_	_	_	orth=တည်ဆောက်နိုင်
+10	sannyhu	sannyhu	unk	_	_	_	_	_	orth=သည်ဟု|gloss=Still
+11	preaapaasannyhu	preaapaasannyhu	unk	_	_	_	_	_	orth=ပြောပါသည်ဟု
+12	saksekhankra	saksekhankra	unk	_	_	_	_	_	orth=သက်သေခံကြ|gloss=ild
+13	-i	-i	PUNCT	_	_	_	punct	_	orth=၏|PunctType=Peri
+14	.	.	PUNCT	_	_	_	_	_	orth=။
+
+# sent_id = 40028016
+# ref_id = Matthew 28:16
+# eng_text = But the eleven disciples went into Galilee , to the mountain where Jesus had sent them .
+# mya_text = takyiptapaaseaa tapannyteaatiusanny gaalilaiprannysiu swaa -jwe yerhumhaathaateaamuuseaa teaang peaasiu takkralyhang , kiuyteaakiutwemrang -jwe prapwapkiukwaykra -i .
+# mya_orth = တကျိပ်တပါးသော တပည့်တော်တို့သည် ဂါလိလဲပြည်သို့ သွား ၍ ယေရှုမှာထားတော်မူသော တောင် ပေါ်သို့ တက်ကြလျှင် ၊ ကိုယ်တော်ကိုတွေ့မြင် ၍ ပြပ်ဝပ်ကိုးကွယ်ကြ ၏ ။
+1	takyiptapaaseaa	takyiptapaaseaa	NOUN	_	_	_	_	_	orth=တကျိပ်တပါးသော|EnhancedBy=Hopple
+2	tapannyteaatiusanny	tapannyteaatiusanny	NOUN	_	_	_	nsubj	_	orth=တပည့်တော်တို့သည်|gloss=disciples|Number=Plur|ASJP_No=11|ASJP_Gloss=one|ASJP_Form=taT|Core_Vocab=YES|Notes=ASJP form variant: one
+3	gaalilaiprannysiu	gaalilaiprannysiu	PROPN	_	_	_	pobj	_	orth=ဂါလိလဲပြည်သို့|gloss=Galilee|Number=Sing|ASJP_No=61|ASJP_Gloss=die|ASJP_Form=siy|Core_Vocab=YES|Notes=ASJP form variant: die
+4	swaa	swaa	VERB	_	_	_	_	_	orth=သွား|gloss=noon|EnhancedBy=SEAlang|Hopple|ASJP_No=-|ASJP_Gloss=go|ASJP_Form=swaa|Core_Vocab=YES|Notes=ASJP form variant: go
+5	-jwe	-jwe	unk	_	_	_	_	_	orth=၍|gloss=and
+6	yerhumhaathaateaamuuseaa	yerhumhaathaateaamuuseaa	NOUN	_	_	_	_	_	orth=ယေရှုမှာထားတော်မူသော|EnhancedBy=Hopple
+7	teaang	teaang	unk	_	_	_	_	_	orth=တောင်|gloss=receives
+8	peaasiu	peaasiu	unk	_	_	_	_	_	orth=ပေါ်သို့
+9	takkralyhang	takkralyhang	unk	_	_	_	_	_	orth=တက်ကြလျှင်
+10	,	,	PUNCT	_	_	_	punct	_	orth=၊|PunctType=Comm
+11	kiuyteaakiutwemrang	kiuyteaakiutwemrang	unk	_	_	_	_	_	orth=ကိုယ်တော်ကိုတွေ့မြင်
+12	-jwe	-jwe	unk	_	_	_	_	_	orth=၍|gloss=and
+13	prapwapkiukwaykra	prapwapkiukwaykra	unk	_	_	_	_	_	orth=ပြပ်ဝပ်ကိုးကွယ်ကြ
+14	-i	-i	PUNCT	_	_	_	punct	_	orth=၏|PunctType=Peri
+15	.	.	PUNCT	_	_	_	_	_	orth=။
+
+# sent_id = 41002023
+# ref_id = Mark 2:23
+# eng_text = It happened , that he was going on the Sabbath day through the grain fields , and his disciples began , as they went , to pluck the ears of grain .
+# mya_text = upusne -nai kiuyteaasanny gyuncapaalaykwaktiukiu rheaakkrwateaamuulyhang , tapannyteaatiusanny capaaasiianhankiu chwatlyak khariiswaakra -i .
+# mya_orth = ဥပုသ်နေ့ ၌ ကိုယ်တော်သည် ဂျုံစပါးလယ်ကွက်တို့ကို ရှောက်ကြွတော်မူလျှင် ၊ တပည့်တော်တို့သည် စပါးအသီးအနှံကို ဆွတ်လျက် ခရီးသွားကြ ၏ ။
+1	upusne	upusne	PROPN	_	_	_	compound	_	orth=ဥပုသ်နေ့|gloss=Sabbath|Number=Sing|ASJP_No=72|ASJP_Gloss=sun|ASJP_Form=niy|Core_Vocab=YES|Notes=ASJP form variant: sun
+2	-nai	-nai	PART	_	_	_	_	_	orth=၌|gloss=in|EnhancedBy=Grammar
+3	kiuyteaasanny	kiuyteaasanny	PART	_	_	_	_	_	orth=ကိုယ်တော်သည်|gloss=once|EnhancedBy=Grammar
+4	gyuncapaalaykwaktiukiu	gyuncapaalaykwaktiukiu	PART	_	_	_	_	_	orth=ဂျုံစပါးလယ်ကွက်တို့ကို|EnhancedBy=Grammar
+5	rheaakkrwateaamuulyhang	rheaakkrwateaamuulyhang	unk	_	_	_	_	_	orth=ရှောက်ကြွတော်မူလျှင်
+6	,	,	PUNCT	_	_	_	punct	_	orth=၊|PunctType=Comm
+7	tapannyteaatiusanny	tapannyteaatiusanny	NOUN	_	_	_	nsubj	_	orth=တပည့်တော်တို့သည်|gloss=disciples|Number=Plur|ASJP_No=11|ASJP_Gloss=one|ASJP_Form=taT|Core_Vocab=YES|Notes=ASJP form variant: one
+8	capaaasiianhankiu	capaaasiianhankiu	PART	_	_	_	_	_	orth=စပါးအသီးအနှံကို|EnhancedBy=Grammar
+9	chwatlyak	chwatlyak	NOUN	_	_	_	_	_	orth=ဆွတ်လျက်|EnhancedBy=Hopple
+10	khariiswaakra	khariiswaakra	unk	_	_	_	_	_	orth=ခရီးသွားကြ
+11	-i	-i	PUNCT	_	_	_	punct	_	orth=၏|PunctType=Peri
+12	.	.	PUNCT	_	_	_	_	_	orth=။
+
+# sent_id = 41012032
+# ref_id = Mark 12:32
+# eng_text = The scribe said to him , " Truly , teacher , you have said well that he is one , and there is none other but he ,
+# mya_text = kyamprucharaakalanny , arhangbhuraa , akaycangcac kiuyteaasanny lyeaakpatcwaaminteaamuuprii . bhuraasakhangtachuutannyrhiteaamuu -i .
+# mya_orth = ကျမ်းပြုဆရာကလည်း ၊ အရှင်ဘုရား ၊ အကယ်စင်စစ် ကိုယ်တော်သည် လျောက်ပတ်စွာမိန့်တော်မူပြီ ။ ဘုရားသခင်တဆူတည်းရှိတော်မူ ၏ ။
+1	kyamprucharaakalanny	kyamprucharaakalanny	unk	_	_	_	_	_	orth=ကျမ်းပြုဆရာကလည်း
+2	,	,	PUNCT	_	_	_	punct	_	orth=၊|PunctType=Comm
+3	arhangbhuraa	arhangbhuraa	NOUN	_	_	_	npadvmod	_	orth=အရှင်ဘုရား|gloss=Teacher|Number=Sing|EnhancedBy=Hopple
+4	,	,	PUNCT	_	_	_	punct	_	orth=၊|PunctType=Comm
+5	akaycangcac	akaycangcac	unk	_	_	_	_	_	orth=အကယ်စင်စစ်|gloss=bystanders
+6	kiuyteaasanny	kiuyteaasanny	PART	_	_	_	_	_	orth=ကိုယ်တော်သည်|gloss=once|EnhancedBy=Grammar
+7	lyeaakpatcwaaminteaamuuprii	lyeaakpatcwaaminteaamuuprii	PART	_	_	_	_	_	orth=လျောက်ပတ်စွာမိန့်တော်မူပြီ|EnhancedBy=Grammar
+8	.	.	PUNCT	_	_	_	_	_	orth=။
+9	bhuraasakhangtachuutannyrhiteaamuu	bhuraasakhangtachuutannyrhiteaamuu	unk	_	_	_	_	_	orth=ဘုရားသခင်တဆူတည်းရှိတော်မူ
+10	-i	-i	PUNCT	_	_	_	punct	_	orth=၏|PunctType=Peri
+11	.	.	PUNCT	_	_	_	_	_	orth=။
+
+# sent_id = 41014037
+# ref_id = Mark 14:37
+# eng_text = He came and found them sleeping , and said to Peter , " Simon , are you sleeping ? Couldn't you watch one hour ?
+# mya_text = pranlaa -jwe tapannyteaatiusanny aippyeaalyak nekrasannykiutweteaamuulyhang , rhimun , sangsanny aippyeaasaleaa . tanaariikhanmyhaceaangnekhrangnghaa macwamniungsaleaa .
+# mya_orth = ပြန်လာ ၍ တပည့်တော်တို့သည် အိပ်ပျော်လျက် နေကြသည်ကိုတွေ့တော်မူလျှင် ၊ ရှိမုန် ၊ သင်သည် အိပ်ပျော်သလော ။ တနာရီခန့်မျှစောင့်နေခြင်းငှါ မစွမ်းနိုင်သလော ။
+1	pranlaa	pranlaa	NOUN	_	_	_	_	_	orth=ပြန်လာ|gloss=crowned|EnhancedBy=Hopple|ASJP_No=66|ASJP_Gloss=come|ASJP_Form=la|Core_Vocab=YES|Notes=ASJP form variant: come
+2	-jwe	-jwe	CCONJ	_	_	_	cc	_	orth=၍|gloss=and|ConjType=Cmp
+3	tapannyteaatiusanny	tapannyteaatiusanny	NOUN	_	_	_	nsubj	_	orth=တပည့်တော်တို့သည်|gloss=disciples|Number=Plur|ASJP_No=11|ASJP_Gloss=one|ASJP_Form=taT|Core_Vocab=YES|Notes=ASJP form variant: one
+4	aippyeaalyak	aippyeaalyak	NOUN	_	_	_	_	_	orth=အိပ်ပျော်လျက်|EnhancedBy=Hopple
+5	nekrasannykiutweteaamuulyhang	nekrasannykiutweteaamuulyhang	unk	_	_	_	_	_	orth=နေကြသည်ကိုတွေ့တော်မူလျှင်
+6	,	,	PUNCT	_	_	_	punct	_	orth=၊|PunctType=Comm
+7	rhimun	rhimun	PROPN	_	_	_	npadvmod	_	orth=ရှိမုန်|gloss=Simon|Number=Sing
+8	,	,	PUNCT	_	_	_	punct	_	orth=၊|PunctType=Comm
+9	sangsanny	sangsanny	PART	_	_	_	_	_	orth=သင်သည်|gloss=asked|EnhancedBy=Grammar|ASJP_No=2|ASJP_Gloss=you|ASJP_Form=TaN|Core_Vocab=YES|Notes=ASJP form variant: you
+10	aippyeaasaleaa	aippyeaasaleaa	NOUN	_	_	_	_	_	orth=အိပ်ပျော်သလော|EnhancedBy=Hopple
+11	.	.	PUNCT	_	_	_	_	_	orth=။
+12	tanaariikhanmyhaceaangnekhrangnghaa	tanaariikhanmyhaceaangnekhrangnghaa	NOUN	_	_	_	_	_	orth=တနာရီခန့်မျှစောင့်နေခြင်းငှါ|EnhancedBy=Hopple
+13	macwamniungsaleaa	macwamniungsaleaa	NOUN	_	_	_	_	_	orth=မစွမ်းနိုင်သလော|EnhancedBy=Hopple
+14	.	.	PUNCT	_	_	_	_	_	orth=။
+
+# sent_id = 42004002
+# ref_id = Luke 4:2
+# eng_text = for forty days , being tempted by the devil . He ate nothing in those days . Afterward , when they were completed , he was hungry .
+# mya_text = araklechaypatlun maarnat -i cuncamswecheaangkhrangkiu khanteaamuu -i . thiukaalapatlun acaaaaahaarakiu suncheaangteaamamuu . thiukaalalwanpriimha mwatsipteaamuu -i .
+# mya_orth = အရက်လေးဆယ်ပတ်လုံး မာရ်နတ် ၏ စုံစမ်းသွေးဆောင်ခြင်းကို ခံတော်မူ ၏ ။ ထိုကာလပတ်လုံး အစာအာဟာရကို သုံးဆောင်တော်မမူ ။ ထိုကာလလွန်ပြီးမှ မွတ်သိပ်တော်မူ ၏ ။
+1	araklechaypatlun	araklechaypatlun	unk	_	_	_	_	_	orth=အရက်လေးဆယ်ပတ်လုံး
+2	maarnat	maarnat	NOUN	_	_	_	pobj	_	orth=မာရ်နတ်|gloss=devil|Number=Sing
+3	-i	-i	PUNCT	_	_	_	punct	_	orth=၏|PunctType=Peri
+4	cuncamswecheaangkhrangkiu	cuncamswecheaangkhrangkiu	PART	_	_	_	_	_	orth=စုံစမ်းသွေးဆောင်ခြင်းကို|EnhancedBy=Grammar
+5	khanteaamuu	khanteaamuu	unk	_	_	_	_	_	orth=ခံတော်မူ|gloss=tempt
+6	-i	-i	PUNCT	_	_	_	punct	_	orth=၏|PunctType=Peri
+7	.	.	PUNCT	_	_	_	_	_	orth=။
+8	thiukaalapatlun	thiukaalapatlun	unk	_	_	_	_	_	orth=ထိုကာလပတ်လုံး
+9	acaaaaahaarakiu	acaaaaahaarakiu	PART	_	_	_	_	_	orth=အစာအာဟာရကို|EnhancedBy=Grammar
+10	suncheaangteaamamuu	suncheaangteaamamuu	unk	_	_	_	_	_	orth=သုံးဆောင်တော်မမူ
+11	.	.	PUNCT	_	_	_	_	_	orth=။
+12	thiukaalalwanpriimha	thiukaalalwanpriimha	PART	_	_	_	_	_	orth=ထိုကာလလွန်ပြီးမှ|EnhancedBy=Grammar
+13	mwatsipteaamuu	mwatsipteaamuu	unk	_	_	_	_	_	orth=မွတ်သိပ်တော်မူ
+14	-i	-i	PUNCT	_	_	_	punct	_	orth=၏|PunctType=Peri
+15	.	.	PUNCT	_	_	_	_	_	orth=။
+
+# sent_id = 42016013
+# ref_id = Luke 16:13
+# eng_text = No servant can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You aren't able to serve God and mammon . "
+# mya_text = abhayacekhanmyha sakhangnhacuuacekiu makhanniung . sakhangtauukiumun -jwe tauukiukhyacmanny . sakhangtauu mhiikhiu -jwe tauukiu makhanmannyaaprumanny . sangtiusanny bhuraasakhang -i acekiu legau ng , leaakiicannycim -i acekiu legau ng makhanniungkrahu minteaamuu -i .
+# mya_orth = အဘယ်အစေခံမျှ သခင်နှစ်ဦးအစေကို မခံနိုင် ။ သခင်တဦးကိုမုန်း ၍ တဦးကိုချစ်မည် ။ သခင်တဦး မှီခို ၍ တဦးကို မခန့်မညားပြုမည် ။ သင်တို့သည် ဘုရားသခင် ၏ အစေကို ၎ င်း ၊ လောကီစည်းစိမ် ၏ အစေကို ၎ င်း မခံနိုင်ကြဟု မိန့်တော်မူ ၏ ။
+1	abhayacekhanmyha	abhayacekhanmyha	PART	_	_	_	_	_	orth=အဘယ်အစေခံမျှ|EnhancedBy=Grammar
+2	sakhangnhacuuacekiu	sakhangnhacuuacekiu	PART	_	_	_	_	_	orth=သခင်နှစ်ဦးအစေကို|EnhancedBy=Grammar
+3	makhanniung	makhanniung	unk	_	_	_	_	_	orth=မခံနိုင်
+4	.	.	PUNCT	_	_	_	_	_	orth=။
+5	sakhangtauukiumun	sakhangtauukiumun	unk	_	_	_	_	_	orth=သခင်တဦးကိုမုန်း
+6	-jwe	-jwe	CCONJ	_	_	_	cc	_	orth=၍|gloss=and|ConjType=Cmp
+7	tauukiukhyacmanny	tauukiukhyacmanny	unk	_	_	_	_	_	orth=တဦးကိုချစ်မည်
+8	.	.	PUNCT	_	_	_	_	_	orth=။
+9	sakhangtauu	sakhangtauu	unk	_	_	_	_	_	orth=သခင်တဦး
+10	mhiikhiu	mhiikhiu	unk	_	_	_	_	_	orth=မှီခို|gloss=nests
+11	-jwe	-jwe	CCONJ	_	_	_	cc	_	orth=၍|gloss=and|ConjType=Cmp
+12	tauukiu	tauukiu	VERB	_	_	_	acomp	_	orth=တဦးကို|gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part|ASJP_No=11|ASJP_Gloss=one|ASJP_Form=taT|Core_Vocab=YES|Notes=ASJP form variant: one
+13	makhanmannyaaprumanny	makhanmannyaaprumanny	unk	_	_	_	_	_	orth=မခန့်မညားပြုမည်
+14	.	.	PUNCT	_	_	_	_	_	orth=။
+15	sangtiusanny	sangtiusanny	PRON	_	_	_	nsubj	_	orth=သင်တို့သည်|gloss=you|Case=Nom|Person=2|PronType=Prs|ASJP_No=2|ASJP_Gloss=you|ASJP_Form=TaN|Core_Vocab=YES|Notes=ASJP direct match: you
+16	bhuraasakhang	bhuraasakhang	unk	_	_	_	_	_	orth=ဘုရားသခင်|gloss=God’s|ASJP_No=-|ASJP_Gloss=go|ASJP_Form=swaa|Core_Vocab=YES|Notes=ASJP direct match: go
+17	-i	-i	PUNCT	_	_	_	punct	_	orth=၏|PunctType=Peri
+18	acekiu	acekiu	VERB	_	_	_	conj	_	orth=အစေကို|gloss=despise|VerbForm=Inf
+19	legau	legau	unk	_	_	_	_	_	orth=၎|gloss=ber
+20	ng	ng	unk	_	_	_	_	_	orth=င်း|gloss=rep
+21	,	,	PUNCT	_	_	_	_	_	orth=၊
+22	leaakiicannycim	leaakiicannycim	VERB	_	_	_	conj	_	orth=လောကီစည်းစိမ်|gloss=despise|VerbForm=Inf
+23	-i	-i	PUNCT	_	_	_	punct	_	orth=၏|PunctType=Peri
+24	acekiu	acekiu	VERB	_	_	_	conj	_	orth=အစေကို|gloss=despise|VerbForm=Inf
+25	legau	legau	unk	_	_	_	_	_	orth=၎|gloss=ber
+26	ng	ng	unk	_	_	_	_	_	orth=င်း|gloss=rep
+27	makhanniungkrahu	makhanniungkrahu	unk	_	_	_	_	_	orth=မခံနိုင်ကြဟု
+28	minteaamuu	minteaamuu	PUNCT	_	_	_	punct	_	orth=မိန့်တော်မူ|PunctSide=Fin|PunctType=Quot|ASJP_No=-|ASJP_Gloss=say|ASJP_Form=preaapaa|Core_Vocab=YES|Notes=ASJP form match: say
+29	-i	-i	PUNCT	_	_	_	punct	_	orth=၏|PunctType=Peri
+30	.	.	PUNCT	_	_	_	_	_	orth=။
+
+# sent_id = 42024018
+# ref_id = Luke 24:18
+# eng_text = One of them , named Cleopas , answered him , " Are you the only one travelling in Jerusalem who doesn't know the things which have happened there in these days ? "
+# mya_text = suutiutwang kaleaaphaamannyrhiseaasuuka , sangsanny yerurhalangmriu -nai ennysannyphraclyaksaa yakhu akhaa thiumriu -nai phrackhaipriiseaa akreaangaraatiukiu masisaleaahu preaachiu -i .
+# mya_orth = သူတို့တွင် ကလောဖအမည်ရှိသောသူက ၊ သင်သည် ယေရုရှလင်မြို့ ၌ ဧည့်သည်ဖြစ်လျက်သာ ယခု အခါ ထိုမြို့ ၌ ဖြစ်ခဲ့ပြီးသော အကြောင်းအရာတို့ကို မသိသလောဟု ပြောဆို ၏ ။
+1	suutiutwang	suutiutwang	ADJ	_	_	_	amod	_	orth=သူတို့တွင်|gloss=few|Degree=Pos|ASJP_No=18|ASJP_Gloss=person|ASJP_Form=lu|Core_Vocab=YES|Notes=ASJP form variant: person
+2	kaleaaphaamannyrhiseaasuuka	kaleaaphaamannyrhiseaasuuka	PART	_	_	_	_	_	orth=ကလောဖအမည်ရှိသောသူက|EnhancedBy=Grammar
+3	,	,	PUNCT	_	_	_	punct	_	orth=၊|PunctType=Comm
+4	sangsanny	sangsanny	PART	_	_	_	_	_	orth=သင်သည်|gloss=asked|EnhancedBy=Grammar|ASJP_No=2|ASJP_Gloss=you|ASJP_Form=TaN|Core_Vocab=YES|Notes=ASJP form variant: you
+5	yerurhalangmriu	yerurhalangmriu	PROPN	_	_	6	pobj	_	orth=ယေရုရှလင်မြို့|gloss=Jerusalem|Number=Sing|ASJP_No=75|ASJP_Gloss=water|ASJP_Form=riy|Core_Vocab=YES|Notes=ASJP form variant: water
+6	-nai	-nai	ADP	_	_	_	prep	_	orth=၌|gloss=in
+7	ennysannyphraclyaksaa	ennysannyphraclyaksaa	NOUN	_	_	_	_	_	orth=ဧည့်သည်ဖြစ်လျက်သာ|EnhancedBy=Hopple
+8	yakhu	yakhu	unk	_	_	_	_	_	orth=ယခု|gloss=come|ASJP_No=66|ASJP_Gloss=come|ASJP_Form=la|Core_Vocab=YES|Notes=ASJP direct match: come
+9	akhaa	akhaa	NOUN	_	_	_	_	_	orth=အခါ|gloss=form|EnhancedBy=Hopple
+10	thiumriu	thiumriu	unk	_	_	_	_	_	orth=ထိုမြို့|gloss=onia|ASJP_No=75|ASJP_Gloss=water|ASJP_Form=riy|Core_Vocab=YES|Notes=ASJP form variant: water
+11	-nai	-nai	ADP	_	_	_	prep	_	orth=၌|gloss=in
+12	phrackhaipriiseaa	phrackhaipriiseaa	NOUN	_	_	_	_	_	orth=ဖြစ်ခဲ့ပြီးသော|EnhancedBy=Hopple
+13	akreaangaraatiukiu	akreaangaraatiukiu	PART	_	_	_	_	_	orth=အကြောင်းအရာတို့ကို|EnhancedBy=Grammar
+14	masisaleaahu	masisaleaahu	unk	_	_	_	_	_	orth=မသိသလောဟု
+15	preaachiu	preaachiu	unk	_	_	_	_	_	orth=ပြောဆို|gloss=und
+16	-i	-i	PUNCT	_	_	_	punct	_	orth=၏|PunctType=Peri
+17	.	.	PUNCT	_	_	_	_	_	orth=။
+
+# sent_id = 43001039
+# ref_id = John 1:39
+# eng_text = He said to them , " Come , and see . " They came and saw where he was staying , and they stayed with him that day . It was about the tenth hour .
+# mya_text = yerhukalanny laa -jwe krannykraleaahu minteaamuu -i . thiusuutiusannyswaa -jwe neteaamuuraaarapkiu krannykra -i . thiuakhyinsanny chaynaariiakhyinphrac -jwe miughkhyupsannytiungaeaang athanteaa -nai nekra -i .
+# mya_orth = ယေရှုကလည်း လာ ၍ ကြည့်ကြလော့ဟု မိန့်တော်မူ ၏ ။ ထိုသူတို့သည်သွား ၍ နေတော်မူရာအရပ်ကို ကြည့်ကြ ၏ ။ ထိုအချိန်သည် ဆယ်နာရီအချိန်ဖြစ် ၍ မိုဃ်းချုပ်သည်တိုင်အောင် အထံတော် ၌ နေကြ ၏ ။
+1	yerhukalanny	yerhukalanny	unk	_	_	_	_	_	orth=ယေရှုကလည်း|gloss=Jesus
+2	laa	laa	VERB	_	_	_	_	_	orth=လာ|gloss=bel|EnhancedBy=SEAlang|Hopple|ASJP_No=66|ASJP_Gloss=come|ASJP_Form=la|Core_Vocab=YES|Notes=ASJP form variant: come
+3	-jwe	-jwe	CCONJ	_	_	_	cc	_	orth=၍|gloss=and|ConjType=Cmp
+4	krannykraleaahu	krannykraleaahu	unk	_	_	_	_	_	orth=ကြည့်ကြလော့ဟု
+5	minteaamuu	minteaamuu	PUNCT	_	_	_	punct	_	orth=မိန့်တော်မူ|PunctSide=Fin|PunctType=Quot|ASJP_No=-|ASJP_Gloss=say|ASJP_Form=preaapaa|Core_Vocab=YES|Notes=ASJP form match: say
+6	-i	-i	PUNCT	_	_	11	punct	_	orth=၏|PunctType=Peri
+7	.	.	PUNCT	_	_	_	_	_	orth=။
+8	thiusuutiusannyswaa	thiusuutiusannyswaa	NOUN	_	_	_	_	_	orth=ထိုသူတို့သည်သွား|EnhancedBy=Hopple
+9	-jwe	-jwe	CCONJ	_	_	_	cc	_	orth=၍|gloss=and|ConjType=Cmp
+10	neteaamuuraaarapkiu	neteaamuuraaarapkiu	PART	_	_	_	_	_	orth=နေတော်မူရာအရပ်ကို|EnhancedBy=Grammar
+11	krannykra	krannykra	VERB	_	_	_	conj	_	orth=ကြည့်ကြ|gloss=remained|Tense=Past|VerbForm=Fin|ASJP_No=57|ASJP_Gloss=see|ASJP_Form=mraN|Core_Vocab=YES|Notes=ASJP form variant: see
+12	-i	-i	PUNCT	_	_	11	punct	_	orth=၏|PunctType=Peri
+13	.	.	PUNCT	_	_	_	_	_	orth=။
+14	thiuakhyinsanny	thiuakhyinsanny	PART	_	_	_	_	_	orth=ထိုအချိန်သည်|EnhancedBy=Grammar
+15	chaynaariiakhyinphrac	chaynaariiakhyinphrac	unk	_	_	_	_	_	orth=ဆယ်နာရီအချိန်ဖြစ်
+16	-jwe	-jwe	CCONJ	_	_	_	cc	_	orth=၍|gloss=and|ConjType=Cmp
+17	miughkhyupsannytiungaeaang	miughkhyupsannytiungaeaang	unk	_	_	_	_	_	orth=မိုဃ်းချုပ်သည်တိုင်အောင်
+18	athanteaa	athanteaa	NOUN	_	_	_	_	_	orth=အထံတော်|gloss=shore|EnhancedBy=Hopple
+19	-nai	-nai	ADP	_	_	_	prep	_	orth=၌|gloss=in
+20	nekra	nekra	unk	_	_	_	_	_	orth=နေကြ|gloss=ps|ASJP_No=72|ASJP_Gloss=sun|ASJP_Form=niy|Core_Vocab=YES|Notes=ASJP form variant: sun
+21	-i	-i	PUNCT	_	_	11	punct	_	orth=၏|PunctType=Peri
+22	.	.	PUNCT	_	_	_	_	_	orth=။
+
+# sent_id = 43003016
+# ref_id = John 3:16
+# eng_text = For God so loved the world , that he gave his one and only Son , that whoever believes in him should not perish , but have eternal life .
+# mya_text = bhuraasakhang -i saateaakiu yunkrannyseaasuuapeaangtiusanny , pyakciikhrangsiumareaak , thaawara asakkiu racekhrangnghaa , bhuraasakhangsanny mimi -nai tapaatannyseaa saateaakiu cwanteaamuusannytiungaeaang leaakiisaakiu khyacteaamuu -i .
+# mya_orth = ဘုရားသခင် ၏ သားတော်ကို ယုံကြည်သောသူအပေါင်းတို့သည် ၊ ပျက်စီးခြင်းသို့မရောက် ၊ ထာဝရ အသက်ကို ရစေခြင်းငှါ ၊ ဘုရားသခင်သည် မိမိ ၌ တပါးတည်းသော သားတော်ကို စွန့်တော်မူသည်တိုင်အောင် လောကီသားကို ချစ်တော်မူ ၏ ။
+1	bhuraasakhang	bhuraasakhang	unk	_	_	_	_	_	orth=ဘုရားသခင်|gloss=God’s|ASJP_No=-|ASJP_Gloss=go|ASJP_Form=swaa|Core_Vocab=YES|Notes=ASJP direct match: go
+2	-i	-i	PUNCT	_	_	_	punct	_	orth=၏|PunctType=Peri
+3	saateaakiu	saateaakiu	PROPN	_	_	_	appos	_	orth=သားတော်ကို|gloss=Son|Number=Sing|ASJP_No=-|ASJP_Gloss=son|ASJP_Form=saa|Core_Vocab=YES|Notes=ASJP direct match: son
+4	yunkrannyseaasuuapeaangtiusanny	yunkrannyseaasuuapeaangtiusanny	PART	_	_	_	_	_	orth=ယုံကြည်သောသူအပေါင်းတို့သည်|EnhancedBy=Grammar
+5	,	,	PUNCT	_	_	_	punct	_	orth=၊|PunctType=Comm
+6	pyakciikhrangsiumareaak	pyakciikhrangsiumareaak	NOUN	_	_	_	_	_	orth=ပျက်စီးခြင်းသို့မရောက်|EnhancedBy=Hopple
+7	,	,	PUNCT	_	_	_	punct	_	orth=၊|PunctType=Comm
+8	thaawara	thaawara	unk	_	_	_	_	_	orth=ထာဝရ|gloss=forever
+9	asakkiu	asakkiu	NOUN	_	_	_	dobj	_	orth=အသက်ကို|gloss=life|Number=Sing|ASJP_No=-|ASJP_Gloss=life|ASJP_Form=asak|Core_Vocab=YES|Notes=ASJP direct match: life
+10	racekhrangnghaa	racekhrangnghaa	NOUN	_	_	_	_	_	orth=ရစေခြင်းငှါ|gloss=per|EnhancedBy=Hopple
+11	,	,	PUNCT	_	_	_	punct	_	orth=၊|PunctType=Comm
+12	bhuraasakhangsanny	bhuraasakhangsanny	PROPN	_	_	_	nsubj	_	orth=ဘုရားသခင်သည်|gloss=God|Number=Sing|ASJP_No=-|ASJP_Gloss=go|ASJP_Form=swaa|Core_Vocab=YES|Notes=ASJP direct match: go
+13	mimi	mimi	PRON	_	_	_	poss	_	orth=မိမိ|gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|ASJP_No=82|ASJP_Gloss=fire|ASJP_Form=mi|Core_Vocab=YES|Notes=ASJP form variant: fire
+14	-nai	-nai	ADP	_	_	_	prep	_	orth=၌|gloss=in
+15	tapaatannyseaa	tapaatannyseaa	NOUN	_	_	_	_	_	orth=တပါးတည်းသော|EnhancedBy=Hopple
+16	saateaakiu	saateaakiu	PROPN	_	_	_	appos	_	orth=သားတော်ကို|gloss=Son|Number=Sing|ASJP_No=-|ASJP_Gloss=son|ASJP_Form=saa|Core_Vocab=YES|Notes=ASJP direct match: son
+17	cwanteaamuusannytiungaeaang	cwanteaamuusannytiungaeaang	unk	_	_	_	_	_	orth=စွန့်တော်မူသည်တိုင်အောင်
+18	leaakiisaakiu	leaakiisaakiu	PART	_	_	_	_	_	orth=လောကီသားကို|EnhancedBy=Grammar
+19	khyacteaamuu	khyacteaamuu	unk	_	_	_	_	_	orth=ချစ်တော်မူ|ASJP_No=-|ASJP_Gloss=love|ASJP_Form=khyac|Core_Vocab=YES|Notes=ASJP form match: love
+20	-i	-i	PUNCT	_	_	_	punct	_	orth=၏|PunctType=Peri
+21	.	.	PUNCT	_	_	_	_	_	orth=။
+
+# sent_id = 44002030
+# ref_id = Acts 2:30
+# eng_text = Therefore , being a prophet , and knowing that God had sworn with an oath to him that of the fruit of his body , according to the flesh , he would raise up the Christ to sit on his throne ,
+# mya_text = thiusuusanny mimiamyiuanwaythaika luujaatiaaaphrang kharacteaakiu bhuraasakhangthamreaakce -jwe mimi pallangpeaamhaatangteaamuumannyakreaang dhitttthaan kyinchiuteaamuusannykiu pareaaphak uaannaaaphrangsi -jwe ,
+# mya_orth = ထိုသူသည် မိမိအမျိုးအနွယ်ထဲက လူဇာတိအားဖြင့် ခရစ်တော်ကို ဘုရားသခင်ထမြောက်စေ ၍ မိမိ ပလ္လင်ပေါ်မှာတင်တော်မူမည်အကြောင်း ဓိဋ္ဌာန် ကျိန်ဆိုတော်မူသည်ကို ပရောဖက် ဥာဏ်အားဖြင့်သိ ၍ ၊
+1	thiusuusanny	thiusuusanny	PART	_	_	_	_	_	orth=ထိုသူသည်|gloss=anyone|EnhancedBy=Grammar|ASJP_No=11|ASJP_Gloss=one|ASJP_Form=taT|Core_Vocab=YES|Notes=ASJP direct match: one
+2	mimiamyiuanwaythaika	mimiamyiuanwaythaika	PART	_	_	_	_	_	orth=မိမိအမျိုးအနွယ်ထဲက|EnhancedBy=Grammar
+3	luujaatiaaaphrang	luujaatiaaaphrang	PART	_	_	_	_	_	orth=လူဇာတိအားဖြင့်|EnhancedBy=Grammar
+4	kharacteaakiu	kharacteaakiu	PART	_	_	_	_	_	orth=ခရစ်တော်ကို|gloss=Messiah|EnhancedBy=Grammar
+5	bhuraasakhangthamreaakce	bhuraasakhangthamreaakce	unk	_	_	_	_	_	orth=ဘုရားသခင်ထမြောက်စေ
+6	-jwe	-jwe	CCONJ	_	_	_	cc	_	orth=၍|gloss=and|ConjType=Cmp
+7	mimi	mimi	PRON	_	_	_	poss	_	orth=မိမိ|gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|ASJP_No=82|ASJP_Gloss=fire|ASJP_Form=mi|Core_Vocab=YES|Notes=ASJP form variant: fire
+8	pallangpeaamhaatangteaamuumannyakreaang	pallangpeaamhaatangteaamuumannyakreaang	unk	_	_	_	_	_	orth=ပလ္လင်ပေါ်မှာတင်တော်မူမည်အကြောင်း
+9	dhitttthaan	dhitttthaan	NOUN	_	_	_	pobj	_	orth=ဓိဋ္ဌာန်|gloss=descendants|Number=Plur
+10	kyinchiuteaamuusannykiu	kyinchiuteaamuusannykiu	PART	_	_	_	_	_	orth=ကျိန်ဆိုတော်မူသည်ကို|EnhancedBy=Grammar
+11	pareaaphak	pareaaphak	NOUN	_	_	_	_	_	orth=ပရောဖက်|gloss=alike|EnhancedBy=Hopple
+12	uaannaaaphrangsi	uaannaaaphrangsi	PART	_	_	_	_	_	orth=ဥာဏ်အားဖြင့်သိ|EnhancedBy=Grammar
+13	-jwe	-jwe	CCONJ	_	_	_	cc	_	orth=၍|gloss=and|ConjType=Cmp
+14	,	,	PUNCT	_	_	_	punct	_	orth=၊|PunctType=Comm
+
+# sent_id = 44009038
+# ref_id = Acts 9:38
+# eng_text = As Lydda was near Joppa , the disciples , hearing that Peter was there , sent two men to him , imploring him not to delay in coming to them .
+# mya_text = luddamriusanny yupwemriunhang niisannyphrac -jwe thiumriu -nai petaru rhikreaangkiu tapannyteaatiusannykraalyhang , petarusanny alyangamran krwalaapaamanny akreaang luunhacyeaakkiu celwhat -jwe teaangpan kra -i .
+# mya_orth = လုဒ္ဒမြို့သည် ယုပွေမြို့နှင့် နီးသည်ဖြစ် ၍ ထိုမြို့ ၌ ပေတရု ရှိကြောင်းကို တပည့်တော်တို့သည်ကြားလျှင် ၊ ပေတရုသည် အလျင်အမြန် ကြွလာပါမည် အကြောင်း လူနှစ်ယောက်ကို စေလွှတ် ၍ တောင်းပန် ကြ ၏ ။
+1	luddamriusanny	luddamriusanny	PART	_	_	_	_	_	orth=လုဒ္ဒမြို့သည်|EnhancedBy=Grammar
+2	yupwemriunhang	yupwemriunhang	unk	_	_	_	_	_	orth=ယုပွေမြို့နှင့်
+3	niisannyphrac	niisannyphrac	unk	_	_	_	_	_	orth=နီးသည်ဖြစ်
+4	-jwe	-jwe	unk	_	_	_	_	_	orth=၍|gloss=and
+5	thiumriu	thiumriu	unk	_	_	_	_	_	orth=ထိုမြို့|gloss=onia|ASJP_No=75|ASJP_Gloss=water|ASJP_Form=riy|Core_Vocab=YES|Notes=ASJP form variant: water
+6	-nai	-nai	PART	_	_	_	_	_	orth=၌|gloss=in|EnhancedBy=Grammar
+7	petaru	petaru	PROPN	_	_	_	nsubj	_	orth=ပေတရု|gloss=Peter|Number=Sing|ASJP_No=11|ASJP_Gloss=one|ASJP_Form=taT|Core_Vocab=YES|Notes=ASJP form variant: one
+8	rhikreaangkiu	rhikreaangkiu	PART	_	_	_	_	_	orth=ရှိကြောင်းကို|EnhancedBy=Grammar
+9	tapannyteaatiusannykraalyhang	tapannyteaatiusannykraalyhang	unk	_	_	_	_	_	orth=တပည့်တော်တို့သည်ကြားလျှင်
+10	,	,	PUNCT	_	_	16	punct	_	orth=၊|PunctType=Comm
+11	petarusanny	petarusanny	PROPN	_	_	_	nsubj	_	orth=ပေတရုသည်|gloss=Peter|Number=Sing|ASJP_No=11|ASJP_Gloss=one|ASJP_Form=taT|Core_Vocab=YES|Notes=ASJP form variant: one
+12	alyangamran	alyangamran	unk	_	_	_	_	_	orth=အလျင်အမြန်|gloss=quickly|ASJP_No=19|ASJP_Gloss=fish|ASJP_Form=Na|Core_Vocab=YES|Notes=ASJP form variant: fish
+13	krwalaapaamanny	krwalaapaamanny	unk	_	_	_	_	_	orth=ကြွလာပါမည်
+14	akreaang	akreaang	unk	_	_	_	_	_	orth=အကြောင်း|gloss=nderstand
+15	luunhacyeaakkiu	luunhacyeaakkiu	PART	_	_	_	_	_	orth=လူနှစ်ယောက်ကို|EnhancedBy=Grammar
+16	celwhat	celwhat	VERB	_	_	0	root	_	orth=စေလွှတ်|gloss=sent|Tense=Past|VerbForm=Fin
+17	-jwe	-jwe	unk	_	_	_	_	_	orth=၍|gloss=and
+18	teaangpan	teaangpan	unk	_	_	_	_	_	orth=တောင်းပန်|gloss=begging
+19	kra	kra	unk	_	_	_	_	_	orth=ကြ|gloss=Because
+20	-i	-i	PART	_	_	_	_	_	orth=၏|EnhancedBy=Grammar
+21	.	.	PUNCT	_	_	_	_	_	orth=။
+
+# sent_id = 44011011
+# ref_id = Acts 11:11
+# eng_text = Behold , immediately three men stood before the house where I was , having been sent from Caesarea to me .
+# mya_text = thiukhannakhrangtwang kaisarimriumha ngaathansiucelwhat seaa luusunyeaaktiusanny ngaarhiseaaaimanaamhaa rapnekra -i .
+# mya_orth = ထိုခဏခြင်းတွင် ကဲသရိမြို့မှ ငါ့ထံသို့စေလွှတ် သော လူသုံးယောက်တို့သည် ငါရှိသောအိမ်အနားမှာ ရပ်နေကြ ၏ ။
+1	thiukhannakhrangtwang	thiukhannakhrangtwang	unk	_	_	_	_	_	orth=ထိုခဏခြင်းတွင်|gloss=disappeared
+2	kaisarimriumha	kaisarimriumha	PART	_	_	_	_	_	orth=ကဲသရိမြို့မှ|EnhancedBy=Grammar
+3	ngaathansiucelwhat	ngaathansiucelwhat	unk	_	_	_	_	_	orth=ငါ့ထံသို့စေလွှတ်
+4	seaa	seaa	NOUN	_	_	_	_	_	orth=သော|gloss=ame|EnhancedBy=Hopple
+5	luusunyeaaktiusanny	luusunyeaaktiusanny	PART	_	_	_	_	_	orth=လူသုံးယောက်တို့သည်|EnhancedBy=Grammar
+6	ngaarhiseaaaimanaamhaa	ngaarhiseaaaimanaamhaa	NOUN	_	_	_	_	_	orth=ငါရှိသောအိမ်အနားမှာ|EnhancedBy=Hopple
+7	rapnekra	rapnekra	unk	_	_	_	_	_	orth=ရပ်နေကြ|gloss=stood|ASJP_No=72|ASJP_Gloss=sun|ASJP_Form=niy|Core_Vocab=YES|Notes=ASJP form variant: sun
+8	-i	-i	PUNCT	_	_	_	punct	_	orth=၏|PunctType=Peri
+9	.	.	PUNCT	_	_	_	_	_	orth=။
+
+# sent_id = 44021034
+# ref_id = Acts 21:34
+# eng_text = Some shouted one thing , some another , among the crowd . When he couldn't find out the truth because of the noise , he commanded him to be brought into the barracks .
+# mya_text = luuacuawethai -nai asiisiiakhraakhraahackreaa -jwe asanmyaaseaakreaang , cacsuukriisanny amhankiumasiniungsaphrang , peaalukiuraitiukthaisiu cheaangswaacekhrangnghaa ciirangpranle -i .
+# mya_orth = လူအစုအဝေးထဲ ၌ အသီးသီးအခြားခြားဟစ်ကြော် ၍ အသံများသောကြောင့် ၊ စစ်သူကြီးသည် အမှန်ကိုမသိနိုင်သဖြင့် ၊ ပေါလုကိုရဲတိုက်ထဲသို့ ဆောင်သွားစေခြင်းငှါ စီရင်ပြန်လေ ၏ ။
+1	luuacuawethai	luuacuawethai	PART	_	_	_	_	_	orth=လူအစုအဝေးထဲ|gloss=nursed|EnhancedBy=Grammar|ASJP_No=18|ASJP_Gloss=person|ASJP_Form=lu|Core_Vocab=YES|Notes=ASJP form variant: person
+2	-nai	-nai	ADP	_	_	_	prep	_	orth=၌|gloss=in
+3	asiisiiakhraakhraahackreaa	asiisiiakhraakhraahackreaa	NOUN	_	_	_	_	_	orth=အသီးသီးအခြားခြားဟစ်ကြော်|EnhancedBy=Hopple
+4	-jwe	-jwe	CCONJ	_	_	_	cc	_	orth=၍|gloss=and|ConjType=Cmp
+5	asanmyaaseaakreaang	asanmyaaseaakreaang	unk	_	_	_	_	_	orth=အသံများသောကြောင့်
+6	,	,	PUNCT	_	_	_	punct	_	orth=၊|PunctType=Comm
+7	cacsuukriisanny	cacsuukriisanny	PART	_	_	_	_	_	orth=စစ်သူကြီးသည်|EnhancedBy=Grammar
+8	amhankiumasiniungsaphrang	amhankiumasiniungsaphrang	PART	_	_	_	_	_	orth=အမှန်ကိုမသိနိုင်သဖြင့်|EnhancedBy=Grammar
+9	,	,	PUNCT	_	_	_	punct	_	orth=၊|PunctType=Comm
+10	peaalukiuraitiukthaisiu	peaalukiuraitiukthaisiu	unk	_	_	_	_	_	orth=ပေါလုကိုရဲတိုက်ထဲသို့
+11	cheaangswaacekhrangnghaa	cheaangswaacekhrangnghaa	NOUN	_	_	_	_	_	orth=ဆောင်သွားစေခြင်းငှါ|EnhancedBy=Hopple
+12	ciirangpranle	ciirangpranle	unk	_	_	_	_	_	orth=စီရင်ပြန်လေ
+13	-i	-i	PUNCT	_	_	_	punct	_	orth=၏|PunctType=Peri
+14	.	.	PUNCT	_	_	_	_	_	orth=။
+
+# sent_id = 47012002
+# ref_id = 2 Corinthians 12:2
+# eng_text = I know a man in Christ , fourteen years ago ( whether in the body , I don't know , or whether out of the body , I don't know ; God knows ) , such a one caught up into the third heaven .
+# mya_text = tachaylenhacathakka , kharacteaa -i tapannyphracseaa luutayeaakkiu tatiyakeaang kangsiutiungaeaang khyiicheaangsannyakreaangkiu ngaasi -i . thiuakhaasuu -nai kiuykhandhaapaasannymapaasannykiu ngaamasi . bhuraasakhangsiteaamuu -i .
+# mya_orth = တဆယ်လေးနှစ်အထက်က ၊ ခရစ်တော် ၏ တပည့်ဖြစ်သော လူတယောက်ကို တတိယကောင်း ကင်သို့တိုင်အောင် ချီဆောင်သည်အကြောင်းကို ငါသိ ၏ ။ ထိုအခါသူ ၌ ကိုယ်ခန္ဓာပါသည်မပါသည်ကို ငါမသိ ။ ဘုရားသခင်သိတော်မူ ၏ ။
+1	tachaylenhacathakka	tachaylenhacathakka	PART	_	_	_	_	_	orth=တဆယ်လေးနှစ်အထက်က|EnhancedBy=Grammar
+2	,	,	PUNCT	_	_	_	punct	_	orth=၊|PunctType=Comm
+3	kharacteaa	kharacteaa	NOUN	_	_	_	_	_	orth=ခရစ်တော်|gloss=Christ|EnhancedBy=Hopple
+4	-i	-i	PUNCT	_	_	_	punct	_	orth=၏|PunctType=Peri
+5	tapannyphracseaa	tapannyphracseaa	NOUN	_	_	_	_	_	orth=တပည့်ဖြစ်သော|EnhancedBy=Hopple
+6	luutayeaakkiu	luutayeaakkiu	PART	_	_	_	_	_	orth=လူတယောက်ကို|gloss=Would|EnhancedBy=Grammar|ASJP_No=11|ASJP_Gloss=one|ASJP_Form=taT|Core_Vocab=YES|Notes=ASJP form variant: one
+7	tatiyakeaang	tatiyakeaang	unk	_	_	_	_	_	orth=တတိယကောင်း
+8	kangsiutiungaeaang	kangsiutiungaeaang	unk	_	_	_	_	_	orth=ကင်သို့တိုင်အောင်
+9	khyiicheaangsannyakreaangkiu	khyiicheaangsannyakreaangkiu	PART	_	_	_	_	_	orth=ချီဆောင်သည်အကြောင်းကို|EnhancedBy=Grammar
+10	ngaasi	ngaasi	PART	_	_	_	_	_	orth=ငါသိ|gloss=claims|EnhancedBy=Grammar|ASJP_No=19|ASJP_Gloss=fish|ASJP_Form=Na|Core_Vocab=YES|Notes=ASJP form variant: fish
+11	-i	-i	PUNCT	_	_	_	punct	_	orth=၏|PunctType=Peri
+12	.	.	PUNCT	_	_	_	_	_	orth=။
+13	thiuakhaasuu	thiuakhaasuu	unk	_	_	_	_	_	orth=ထိုအခါသူ
+14	-nai	-nai	ADP	_	_	_	prep	_	orth=၌|gloss=in
+15	kiuykhandhaapaasannymapaasannykiu	kiuykhandhaapaasannymapaasannykiu	PART	_	_	_	_	_	orth=ကိုယ်ခန္ဓာပါသည်မပါသည်ကို|EnhancedBy=Grammar
+16	ngaamasi	ngaamasi	VERB	_	_	0	root	_	orth=ငါမသိ|gloss=caught|Aspect=Perf|Tense=Past|VerbForm=Part|ASJP_No=19|ASJP_Gloss=fish|ASJP_Form=Na|Core_Vocab=YES|Notes=ASJP form variant: fish
+17	.	.	PUNCT	_	_	_	_	_	orth=။
+18	bhuraasakhangsiteaamuu	bhuraasakhangsiteaamuu	VERB	_	_	0	root	_	orth=ဘုရားသခင်သိတော်မူ|gloss=caught|Aspect=Perf|Tense=Past|VerbForm=Part|ASJP_No=61|ASJP_Gloss=die|ASJP_Form=siy|Core_Vocab=YES|Notes=ASJP form variant: die
+19	-i	-i	PUNCT	_	_	_	punct	_	orth=၏|PunctType=Peri
+20	.	.	PUNCT	_	_	_	_	_	orth=။
+
+# sent_id = 62004009
+# ref_id = 1 John 4:9
+# eng_text = By this was God's love revealed in us , that God has sent his only born Son into the world that we might live through him .
+# mya_text = saateaaaaaphrang ngaatiusanny asakrhangcekhrangnghaa , bhuraasakhangsannytapaatannyseaa saateaakiu iileaakasiucelwhatteaamuuseaaaraa -nai , ngaatiukiu khyacteaamuuseaa mettaateaasanny thangrhaalyakrhi -i .
+# mya_orth = သားတော်အားဖြင့် ငါတို့သည် အသက်ရှင်စေခြင်းငှါ ၊ ဘုရားသခင်သည်တပါးတည်းသော သားတော်ကို ဤလောကသို့စေလွှတ်တော်မူသောအရာ ၌ ၊ ငါတို့ကို ချစ်တော်မူသော မေတ္တာတော်သည် ထင်ရှားလျက်ရှိ ၏ ။
+1	saateaaaaaphrang	saateaaaaaphrang	PART	_	_	_	_	_	orth=သားတော်အားဖြင့်|EnhancedBy=Grammar
+2	ngaatiusanny	ngaatiusanny	PRON	_	_	_	nsubj	_	orth=ငါတို့သည်|gloss=we|Case=Nom|Number=Plur|Person=1|PronType=Prs|ASJP_No=19|ASJP_Gloss=fish|ASJP_Form=Na|Core_Vocab=YES|Notes=ASJP form variant: fish
+3	asakrhangcekhrangnghaa	asakrhangcekhrangnghaa	NOUN	_	_	_	_	_	orth=အသက်ရှင်စေခြင်းငှါ|EnhancedBy=Hopple
+4	,	,	PUNCT	_	_	_	_	_	orth=၊
+5	bhuraasakhangsannytapaatannyseaa	bhuraasakhangsannytapaatannyseaa	NOUN	_	_	_	_	_	orth=ဘုရားသခင်သည်တပါးတည်းသော|EnhancedBy=Hopple
+6	saateaakiu	saateaakiu	PROPN	_	_	_	conj	_	orth=သားတော်ကို|gloss=Son|Number=Sing|ASJP_No=-|ASJP_Gloss=son|ASJP_Form=saa|Core_Vocab=YES|Notes=ASJP direct match: son
+7	iileaakasiucelwhatteaamuuseaaaraa	iileaakasiucelwhatteaamuuseaaaraa	NOUN	_	_	_	_	_	orth=ဤလောကသို့စေလွှတ်တော်မူသောအရာ|EnhancedBy=Hopple
+8	-nai	-nai	PART	_	_	_	_	_	orth=၌|gloss=in|EnhancedBy=Grammar
+9	,	,	PUNCT	_	_	_	_	_	orth=၊
+10	ngaatiukiu	ngaatiukiu	PRON	_	_	_	dobj	_	orth=ငါတို့ကို|gloss=us|Case=Acc|Number=Plur|Person=1|PronType=Prs|ASJP_No=19|ASJP_Gloss=fish|ASJP_Form=Na|Core_Vocab=YES|Notes=ASJP form variant: fish
+11	khyacteaamuuseaa	khyacteaamuuseaa	NOUN	_	_	_	_	_	orth=ချစ်တော်မူသော|EnhancedBy=Hopple
+12	mettaateaasanny	mettaateaasanny	PART	_	_	_	_	_	orth=မေတ္တာတော်သည်|gloss=shows|EnhancedBy=Grammar|ASJP_No=11|ASJP_Gloss=one|ASJP_Form=taT|Core_Vocab=YES|Notes=ASJP form variant: one
+13	thangrhaalyakrhi	thangrhaalyakrhi	PART	_	_	_	_	_	orth=ထင်ရှားလျက်ရှိ|EnhancedBy=Grammar
+14	-i	-i	PUNCT	_	_	_	punct	_	orth=၏|PunctType=Peri
+15	.	.	PUNCT	_	_	_	_	_	orth=။
+
+# sent_id = 63001005
+# ref_id = 2 John 1:5
+# eng_text = Now I beg you , dear lady , not as though I wrote to you a new commandment , but that which we had from the beginning , that we love one another .
+# mya_text = yakhutwangpannyatteaasackiu marebhailyak , ngaatiu -nai rheuucwaakapangrhiseaa pannyatteaakiurethaa -jwe , sakhangma , akhyangkhyangkhyackhrang mettaarhikrakunanhu ngaateaangpan -i .
+# mya_orth = ယခုတွင်ပညတ်တော်သစ်ကို မရေးဘဲလျက် ၊ ငါတို့ ၌ ရှေ့ဦးစွာကပင်ရှိသော ပညတ်တော်ကိုရေးထား ၍ ၊ သခင်မ ၊ အချင်းချင်းချစ်ခြင်း မေတ္တာရှိကြကုန်အံ့ဟု ငါတောင်းပန် ၏ ။
+1	yakhutwangpannyatteaasackiu	yakhutwangpannyatteaasackiu	PART	_	_	_	_	_	orth=ယခုတွင်ပညတ်တော်သစ်ကို|EnhancedBy=Grammar
+2	marebhailyak	marebhailyak	NOUN	_	_	_	_	_	orth=မရေးဘဲလျက်|EnhancedBy=Hopple
+3	,	,	PUNCT	_	_	_	punct	_	orth=၊|PunctType=Comm
+4	ngaatiu	ngaatiu	unk	_	_	_	_	_	orth=ငါတို့|gloss=our|ASJP_No=19|ASJP_Gloss=fish|ASJP_Form=Na|Core_Vocab=YES|Notes=ASJP form variant: fish
+5	-nai	-nai	PART	_	_	_	_	_	orth=၌|gloss=in|EnhancedBy=Grammar
+6	rheuucwaakapangrhiseaa	rheuucwaakapangrhiseaa	NOUN	_	_	_	_	_	orth=ရှေ့ဦးစွာကပင်ရှိသော|EnhancedBy=Hopple
+7	pannyatteaakiurethaa	pannyatteaakiurethaa	NOUN	_	_	_	_	_	orth=ပညတ်တော်ကိုရေးထား|EnhancedBy=Hopple
+8	-jwe	-jwe	unk	_	_	_	_	_	orth=၍|gloss=and
+9	,	,	PUNCT	_	_	_	punct	_	orth=၊|PunctType=Comm
+10	sakhangma	sakhangma	unk	_	_	_	_	_	orth=သခင်မ
+11	,	,	PUNCT	_	_	_	punct	_	orth=၊|PunctType=Comm
+12	akhyangkhyangkhyackhrang	akhyangkhyangkhyackhrang	unk	_	_	_	_	_	orth=အချင်းချင်းချစ်ခြင်း
+13	mettaarhikrakunanhu	mettaarhikrakunanhu	unk	_	_	_	_	_	orth=မေတ္တာရှိကြကုန်အံ့ဟု
+14	ngaateaangpan	ngaateaangpan	unk	_	_	_	_	_	orth=ငါတောင်းပန်
+15	-i	-i	PUNCT	_	_	_	punct	_	orth=၏|PunctType=Peri
+16	.	.	PUNCT	_	_	_	_	_	orth=။
+

@@ -1,0 +1,701 @@
+## The following text has been annotated for parts of speech by students at NTU Singapore as part of a class project in AY 2025.
+## Verses are extracted from the taggedPBC. Annotations have been developed with a combination of manual and automated approaches, with reference to existing literature and (where possible) native speakers.
+## ISO 639-3: kfc, Language: Konda-Dora, Number of verses: 21
+## References: KRISHNAMURTI, BH. 1969. KONDA OR KŪBI a DRAVIDIAN LANGUAGE. Tribal Digital Document Repository. ; https://repository.tribal.gov.in/bitstream/123456789/74080/1/APTM_1969_0075_handbook.pdf
+
+# sent_id = 40006024
+# ref_id = Matthew 6:24
+# eng_text = " No one can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You can't serve both God and Mammon .
+# kfc_text = aren loku rieri maalikkaa saakar aadengg aatten . waan arenwaaningg kaaddnaan maari aaiwaaningg jibannonaan , maari arenwaaningg maanaanaan maari arenwaaningg maanaaen . mir maapuru ni ddaabukaasudi saakar aadengg aattider .
+# kfc_orth = ଅରେନ୍‍ ଲୋକୁ ରିଏରି ମାଲିକ୍‌କା ସାକର୍‌ ଆଦେଙ୍ଗ୍‌ ଆଟ୍‍ଏନ୍‍ । ୱାନ୍‌ ଅରେନ୍‍ୱାନିଙ୍ଗ୍‍ କାଡ଼୍‍ନାନ୍‍ ମାରି ଆଇୱାନିଙ୍ଗ୍‍ ଜିବନ୍‍ନୋନାନ୍‍ , ମାରି ଅରେନ୍‍ୱାନିଙ୍ଗ୍‍ ମାନାନାନ୍‍ ମାରି ଅରେନ୍‍ୱାନିଙ୍ଗ୍‍ ମାନାଏନ୍‌ । ମିର୍‌ ମାପୁରୁ ନି ଡାବୁକାସୁଦି ସାକର୍‌ ଆଦେଙ୍ଗ୍‌ ଆଟ୍‍ଇଦେର୍‍ ।
+1	aren	aren	NUM	_	_	_	pobj	_	orth=ଅରେନ୍‍|gloss=one|NumType=Card
+2	loku	loku	NOUN	_	_	_	_	_	orth=ଲୋକୁ|gloss=person
+3	rieri	rieri	unk	_	_	_	_	_	orth=ରିଏରି|gloss=ars
+4	maalikkaa	maalikkaa	NOUN	_	_	_	dobj	_	orth=ମାଲିକ୍‌କା|gloss=masters|Number=Plur
+5	saakar	saakar	NOUN	_	_	_	_	_	orth=ସାକର୍‌|gloss=master
+6	aadengg	aadengg	VERB	_	_	_	_	_	orth=ଆଦେଙ୍ଗ୍‌|gloss=Think
+7	aatten	aatten	VERB	_	_	_	_	_	orth=ଆଟ୍‍ଏନ୍‍|gloss=enter
+8	.	.	PUNCT	_	_	_	_	_	orth=।
+9	waan	waan	PROPN	_	_	_	_	_	orth=ୱାନ୍‌|gloss=He
+10	arenwaaningg	arenwaaningg	NOUN	_	_	_	_	_	orth=ଅରେନ୍‍ୱାନିଙ୍ଗ୍‍|gloss=year
+11	kaaddnaan	kaaddnaan	VERB	_	_	_	acomp	_	orth=କାଡ଼୍‍ନାନ୍‍|gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+12	maari	maari	unk	_	_	_	_	_	orth=ମାରି
+13	aaiwaaningg	aaiwaaningg	VERB	_	_	_	_	_	orth=ଆଇୱାନିଙ୍ଗ୍‍|gloss=ise
+14	jibannonaan	jibannonaan	VERB	_	_	_	_	_	orth=ଜିବନ୍‍ନୋନାନ୍‍|gloss=loves
+15	,	,	PUNCT	_	_	_	_	_	orth=,
+16	maari	maari	unk	_	_	_	_	_	orth=ମାରି
+17	arenwaaningg	arenwaaningg	NOUN	_	_	_	_	_	orth=ଅରେନ୍‍ୱାନିଙ୍ଗ୍‍|gloss=year
+18	maanaanaan	maanaanaan	unk	_	_	_	_	_	orth=ମାନାନାନ୍‍|gloss=bors
+19	maari	maari	unk	_	_	_	_	_	orth=ମାରି
+20	arenwaaningg	arenwaaningg	NOUN	_	_	_	_	_	orth=ଅରେନ୍‍ୱାନିଙ୍ଗ୍‍|gloss=year
+21	maanaaen	maanaaen	VERB	_	_	_	_	_	orth=ମାନାଏନ୍‌|gloss=obey
+22	.	.	PUNCT	_	_	_	_	_	orth=।
+23	mir	mir	PROPN	_	_	_	nsubj	_	orth=ମିର୍‌|gloss=You|Case=Nom|Person=2|PronType=Prs
+24	maapuru	maapuru	PROPN	_	_	_	dobj	_	orth=ମାପୁରୁ|gloss=God|Number=Sing
+25	ni	ni	unk	_	_	_	_	_	orth=ନି|gloss=ial
+26	ddaabukaasudi	ddaabukaasudi	unk	_	_	_	_	_	orth=ଡାବୁକାସୁଦି
+27	saakar	saakar	NOUN	_	_	_	_	_	orth=ସାକର୍‌|gloss=master
+28	aadengg	aadengg	VERB	_	_	_	_	_	orth=ଆଦେଙ୍ଗ୍‌|gloss=Think
+29	aattider	aattider	unk	_	_	_	_	_	orth=ଆଟ୍‍ଇଦେର୍‍|gloss=vine
+30	.	.	PUNCT	_	_	_	_	_	orth=।
+
+# sent_id = 40018012
+# ref_id = Matthew 18:12
+# eng_text = " What do you think ? If a man has one hundred sheep , and one of them goes astray , doesn't he leave the ninety-nine , go to the mountains , and seek that which has gone astray ?
+# kfc_text = mir inikaa addbijinider , jadi aren lokaawi 100 gottaa menntenggmaane maari aabennuku unddri murunaat , aartingg waan inikaa kinaan ? nabe naagottaa menntenggaam garan laaktu saaraadengg ddisnaasinaanno aayaa muritimaani menntaadingg paydenggsonaan .
+# kfc_orth = ମିର୍‌ ଇନିକା ଅଡ଼୍‍ବିଜିନିଦେର୍‍ , ଜଦି ଅରେନ୍‍ ଲୋକାୱି ୧୦୦ ଗୋଟା ମେଣ୍ତେଙ୍ଗ୍‌ମାନେ ମାରି ଆବେଣୁକୁ ଉନ୍‌ଡ୍ରି ମୁରୁନାତ୍‌ , ଆର୍‌ତିଙ୍ଗ୍‌ ୱାନ୍‌ ଇନିକା କିନାନ୍‌ ? ନବେ ନଅଗୋଟା ମେଣ୍ତେଙ୍ଗାଁ ଗରନ୍‌ ଲାକ୍‌ତୁ ସାରାଦେଙ୍ଗ୍‌ ଡ଼ିସ୍‌ନାସିନାନ୍‌ନୋ ଆୟା ମୁରିତିମାନି ମେଣ୍ତାଦିଙ୍ଗ୍‌ ପୟ୍‌ଦେଙ୍ଗ୍‌ସୋନାନ୍‌ ।
+1	mir	mir	PROPN	_	_	_	_	_	orth=ମିର୍‌|gloss=You
+2	inikaa	inikaa	unk	_	_	_	_	_	orth=ଇନିକା|gloss=t
+3	addbijinider	addbijinider	VERB	_	_	_	_	_	orth=ଅଡ଼୍‍ବିଜିନିଦେର୍‍|gloss=think
+4	,	,	PUNCT	_	_	_	_	_	orth=,
+5	jadi	jadi	SCONJ	_	_	_	mark	_	orth=ଜଦି|gloss=If
+6	aren	aren	NUM	_	_	_	pobj	_	orth=ଅରେନ୍‍|gloss=one|Number=Sing
+7	lokaawi	lokaawi	unk	_	_	_	_	_	orth=ଲୋକାୱି
+8	100	100	NUM	_	_	_	_	_	orth=୧୦୦|gloss=ety
+9	gottaa	gottaa	NUM	_	_	23	nummod	_	orth=ଗୋଟା|gloss=hundred|NumType=Card
+10	menntenggmaane	menntenggmaane	unk	_	_	_	_	_	orth=ମେଣ୍ତେଙ୍ଗ୍‌ମାନେ|gloss=ety
+11	maari	maari	unk	_	_	_	_	_	orth=ମାରି
+12	aabennuku	aabennuku	unk	_	_	_	_	_	orth=ଆବେଣୁକୁ
+13	unddri	unddri	ADJ	_	_	_	_	_	orth=ଉନ୍‌ଡ୍ରି|gloss=sour
+14	murunaat	murunaat	unk	_	_	_	_	_	orth=ମୁରୁନାତ୍‌
+15	,	,	PUNCT	_	_	_	_	_	orth=,
+16	aartingg	aartingg	NOUN	_	_	_	_	_	orth=ଆର୍‌ତିଙ୍ଗ୍‌|gloss=responsibility
+17	waan	waan	PRON	_	_	_	_	_	orth=ୱାନ୍‌|gloss=He
+18	inikaa	inikaa	unk	_	_	_	_	_	orth=ଇନିକା|gloss=t
+19	kinaan	kinaan	ADJ	_	_	_	_	_	orth=କିନାନ୍‌|gloss=humble
+20	?	?	PUNCT	_	_	_	_	_	orth=?
+21	nabe	nabe	unk	_	_	_	_	_	orth=ନବେ|gloss=ety
+22	naagottaa	naagottaa	unk	_	_	_	_	_	orth=ନଅଗୋଟା
+23	menntenggaam	menntenggaam	NOUN	_	_	_	dobj	_	orth=ମେଣ୍ତେଙ୍ଗାଁ|gloss=sheep|Number=Plur
+24	garan	garan	NOUN	_	_	_	_	_	orth=ଗରନ୍‌|gloss=hillside
+25	laaktu	laaktu	VERB	_	_	_	_	_	orth=ଲାକ୍‌ତୁ|gloss=fail
+26	saaraadengg	saaraadengg	unk	_	_	_	_	_	orth=ସାରାଦେଙ୍ଗ୍‌
+27	ddisnaasinaanno	ddisnaasinaanno	unk	_	_	_	_	_	orth=ଡ଼ିସ୍‌ନାସିନାନ୍‌ନୋ
+28	aayaa	aayaa	VERB	_	_	_	_	_	orth=ଆୟା|gloss=uct
+29	muritimaani	muritimaani	unk	_	_	_	_	_	orth=ମୁରିତିମାନି
+30	menntaadingg	menntaadingg	unk	_	_	_	_	_	orth=ମେଣ୍ତାଦିଙ୍ଗ୍‌
+31	paydenggsonaan	paydenggsonaan	unk	_	_	_	_	_	orth=ପୟ୍‌ଦେଙ୍ଗ୍‌ସୋନାନ୍‌
+32	.	.	PUNCT	_	_	_	_	_	orth=।
+
+# sent_id = 40020021
+# ref_id = Matthew 20:21
+# eng_text = He said to her , " What do you want ? " She said to him , " Command that these , my two sons , may sit , one on your right hand , and one on your left hand , in your kingdom . "
+# kfc_text = jisu taaningg wenbaataan , “ nin inikaa badaakijini ? ” waad irhaat , “ nin estiwaale raajaa aani , naa iyaa rier maarisiringg ni unneri kiyu tarin maari aren loktingg ni ddebrikiyu tarin baastengg maattaa sidaa . ”
+# kfc_orth = ଜିସୁ ତାନିଙ୍ଗ୍‌ ୱେନ୍‌ବାତାନ୍‌ , “ ନିନ୍‌ ଇନିକା ବଦାକିଜିନି ? ” ୱାଦ୍‌ ଇର୍ହାତ୍‌ , “ ନିନ୍‌ ଏସ୍ତିୱାଲେ ରାଜା ଆନି , ନା ଇୟା ରିଏର୍‌ ମାରିସିରିଙ୍ଗ୍‌ ନି ଉଣେରି କିୟୁ ତରିନ୍‍ ମାରି ଅରେନ୍‍ ଲୋକ୍‌ତିଙ୍ଗ୍‌ ନି ଡେବ୍‍ରିକିୟୁ ତରିନ୍‍ ବାସ୍ତେଙ୍ଗ୍‍ ମାଟା ସିଦା । ”
+1	jisu	jisu	PRON	_	_	_	_	_	orth=ଜିସୁ|gloss=Jesus
+2	taaningg	taaningg	PRON	_	_	_	_	_	orth=ତାନିଙ୍ଗ୍‌|gloss=her
+3	wenbaataan	wenbaataan	VERB	_	_	0	root	_	orth=ୱେନ୍‌ବାତାନ୍‌|gloss=asked|Tense=Past|VerbForm=Fin
+4	,	,	PUNCT	_	_	_	_	_	orth=,
+5	“	“	PUNCT	_	_	_	_	_	orth=“
+6	nin	nin	unk	_	_	_	_	_	orth=ନିନ୍‌|gloss=ael
+7	inikaa	inikaa	unk	_	_	_	_	_	orth=ଇନିକା|gloss=t
+8	badaakijini	badaakijini	NOUN	_	_	_	nsubj	_	orth=ବଦାକିଜିନି|gloss=request|Number=Sing
+9	?	?	PUNCT	_	_	_	_	_	orth=?
+10	”	”	PUNCT	_	_	_	_	_	orth=”
+11	waad	waad	PRON	_	_	_	_	_	orth=ୱାଦ୍‌|gloss=she
+12	irhaat	irhaat	PRON	_	_	_	nsubj	_	orth=ଇର୍ହାତ୍‌|gloss=She|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs
+13	,	,	PUNCT	_	_	_	_	_	orth=,
+14	“	“	PUNCT	_	_	_	_	_	orth=“
+15	nin	nin	unk	_	_	_	_	_	orth=ନିନ୍‌|gloss=ael
+16	estiwaale	estiwaale	SCONJ	_	_	_	_	_	orth=ଏସ୍ତିୱାଲେ|gloss=when
+17	raajaa	raajaa	NOUN	_	_	_	_	_	orth=ରାଜା|gloss=king
+18	aani	aani	unk	_	_	_	_	_	orth=ଆନି|gloss=ble
+19	,	,	PUNCT	_	_	_	_	_	orth=,
+20	naa	naa	PRON	_	_	_	poss	_	orth=ନା|gloss=my|Number=Sing|Person=1|Poss=Yes|PronType=Prs
+21	iyaa	iyaa	PRON	_	_	_	_	_	orth=ଇୟା|gloss=this
+22	rier	rier	NUM	_	_	_	nummod	_	orth=ରିଏର୍‌|gloss=two|NumType=Card
+23	maarisiringg	maarisiringg	unk	_	_	_	_	_	orth=ମାରିସିରିଙ୍ଗ୍‌
+24	ni	ni	unk	_	_	_	_	_	orth=ନି|gloss=ial
+25	unneri	unneri	NOUN	_	_	_	pobj	_	orth=ଉଣେରି|gloss=right|Number=Sing
+26	kiyu	kiyu	NOUN	_	_	_	_	_	orth=କିୟୁ|gloss=hands
+27	tarin	tarin	ADP	_	_	_	_	_	orth=ତରିନ୍‍|gloss=toward
+28	maari	maari	unk	_	_	_	_	_	orth=ମାରି
+29	aren	aren	NUM	_	_	_	npadvmod	_	orth=ଅରେନ୍‍|gloss=one|NumType=Card
+30	loktingg	loktingg	NOUN	_	_	_	_	_	orth=ଲୋକ୍‌ତିଙ୍ଗ୍‌|gloss=mon
+31	ni	ni	unk	_	_	_	_	_	orth=ନି|gloss=ial
+32	ddebrikiyu	ddebrikiyu	NOUN	_	_	_	pobj	_	orth=ଡେବ୍‍ରିକିୟୁ|gloss=places|Number=Plur
+33	tarin	tarin	ADP	_	_	_	_	_	orth=ତରିନ୍‍|gloss=toward
+34	baastengg	baastengg	NOUN	_	_	_	pobj	_	orth=ବାସ୍ତେଙ୍ଗ୍‍|gloss=places|Number=Plur
+35	maattaa	maattaa	VERB	_	_	_	_	_	orth=ମାଟା|gloss=speaking
+36	sidaa	sidaa	VERB	_	_	_	ccomp	_	orth=ସିଦା|gloss=let|VerbForm=Inf
+37	.	.	PUNCT	_	_	_	_	_	orth=।
+38	”	”	PUNCT	_	_	_	_	_	orth=”
+
+# sent_id = 40026002
+# ref_id = Matthew 26:2
+# eng_text = " You know that after two days the Passover is coming , and the Son of Man will be delivered up to be crucified . "
+# kfc_text = “ mir nesnider , nistaar panntay aadengg maari rinen maanaat . naastiwaale manusyaputra krusadu saani unntingg sapreaanaan . ”
+# kfc_orth = “ ମିର୍‌ ନେସ୍‌ନିଦେର୍‌ , ନିସ୍ତାର୍‌ ପଣ୍ତୟ୍‌ ଆଦେଙ୍ଗ୍‌ ମାରି ରିନେନ୍‌ ମାନାତ୍‌ । ନାସ୍ତିୱାଲେ ମନୁସ୍ୟପୁତ୍ର କ୍ରୁସଦୁ ସାନି ଉଣ୍ତିଙ୍ଗ୍‌ ସପ୍ରେଆନାନ୍‌ । ”
+1	“	“	PUNCT	_	_	_	_	_	orth=“
+2	mir	mir	PRON	_	_	_	_	_	orth=ମିର୍‌|gloss=You
+3	nesnider	nesnider	NOUN	_	_	_	_	_	orth=ନେସ୍‌ନିଦେର୍‌|gloss=thief
+4	,	,	PUNCT	_	_	_	_	_	orth=,
+5	nistaar	nistaar	PROPN	_	_	_	nsubj	_	orth=ନିସ୍ତାର୍‌|gloss=Passover|Number=Sing
+6	panntay	panntay	PROPN	_	_	_	nsubj	_	orth=ପଣ୍ତୟ୍‌|gloss=Passover|Number=Sing
+7	aadengg	aadengg	VERB	_	_	_	_	_	orth=ଆଦେଙ୍ଗ୍‌|gloss=Think
+8	maari	maari	unk	_	_	_	_	_	orth=ମାରି
+9	rinen	rinen	unk	_	_	_	_	_	orth=ରିନେନ୍‌
+10	maanaat	maanaat	DET	_	_	_	_	_	orth=ମାନାତ୍‌|gloss=each
+11	.	.	PUNCT	_	_	_	_	_	orth=।
+12	naastiwaale	naastiwaale	VERB	_	_	_	_	_	orth=ନାସ୍ତିୱାଲେ|gloss=swept
+13	manusyaputra	manusyaputra	PROPN	_	_	_	pobj	_	orth=ମନୁସ୍ୟପୁତ୍ର|gloss=Man|Number=Sing
+14	krusadu	krusadu	NOUN	_	_	_	_	_	orth=କ୍ରୁସଦୁ|gloss=han
+15	saani	saani	NOUN	_	_	_	_	_	orth=ସାନି|gloss=death
+16	unntingg	unntingg	unk	_	_	_	_	_	orth=ଉଣ୍ତିଙ୍ଗ୍‌|gloss=for
+17	sapreaanaan	sapreaanaan	ADP	_	_	_	_	_	orth=ସପ୍ରେଆନାନ୍‌
+18	.	.	PUNCT	_	_	_	_	_	orth=।
+19	”	”	PUNCT	_	_	_	_	_	orth=”
+
+# sent_id = 40026061
+# ref_id = Matthew 26:61
+# eng_text = and said , " This man said , ' I am able to destroy the temple of God , and to build it in three days . ' "
+# kfc_text = waar irhaar , “ iyaakaan iraa maarhaan , naan maapurudi mandirtingg rukunaano munetti wenkaa taaningg maariddesi tiaar kidengg aattnaa . ”
+# kfc_orth = ୱାର୍‌ ଇର୍ହାର୍‌ , “ ଇୟାକାନ୍‌ ଇର୍‌ଆ ମାର୍ହାନ୍‌ , ନାନ୍ ମାପୁରୁଦି ମନ୍ଦିର୍‌ତିଙ୍ଗ୍‌ ରୁକୁନାନୋ ମୁନେଟି ୱେନ୍‌କା ତାନିଙ୍ଗ୍‌ ମାରିଡ଼େସି ତିଆର୍‌ କିଦେଙ୍ଗ୍‌ ଆଟ୍‍ନା । ”
+1	waar	waar	PRON	_	_	_	_	_	orth=ୱାର୍‌|gloss=they
+2	irhaar	irhaar	VERB	_	_	_	_	_	orth=ଇର୍ହାର୍‌|gloss=ob
+3	,	,	PUNCT	_	_	_	_	_	orth=,
+4	“	“	PUNCT	_	_	_	_	_	orth=“
+5	iyaakaan	iyaakaan	VERB	_	_	_	_	_	orth=ଇୟାକାନ୍‌|gloss=refer
+6	iraa	iraa	VERB	_	_	0	root	_	orth=ଇର୍‌ଆ|gloss=declared|Tense=Past|VerbForm=Fin
+7	maarhaan	maarhaan	ADJ	_	_	_	_	_	orth=ମାର୍ହାନ୍‌|gloss=precious
+8	,	,	PUNCT	_	_	_	_	_	orth=,
+9	naan	naan	PRON	_	_	_	nsubj	_	orth=ନାନ୍|gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+10	maapurudi	maapurudi	PROPN	_	_	_	pobj	_	orth=ମାପୁରୁଦି|gloss=God|Number=Sing
+11	mandirtingg	mandirtingg	NOUN	_	_	_	_	_	orth=ମନ୍ଦିର୍‌ତିଙ୍ଗ୍‌|gloss=roy
+12	rukunaano	rukunaano	unk	_	_	_	_	_	orth=ରୁକୁନାନୋ
+13	munetti	munetti	unk	_	_	_	_	_	orth=ମୁନେଟି|gloss=whip
+14	wenkaa	wenkaa	ADP	_	_	_	_	_	orth=ୱେନ୍‌କା|gloss=xt
+15	taaningg	taaningg	PRON	_	_	_	_	_	orth=ତାନିଙ୍ଗ୍‌|gloss=her
+16	maariddesi	maariddesi	ADV	_	_	_	_	_	orth=ମାରିଡ଼େସି|gloss=again
+17	tiaar	tiaar	NOUN	_	_	_	_	_	orth=ତିଆର୍‌|gloss=foundation
+18	kidengg	kidengg	unk	_	_	_	_	_	orth=କିଦେଙ୍ଗ୍‌|gloss=Nothing
+19	aattnaa	aattnaa	VERB	_	_	_	conj	_	orth=ଆଟ୍‍ନା|gloss=rebuild|VerbForm=Inf
+20	.	.	PUNCT	_	_	_	_	_	orth=।
+21	”	”	PUNCT	_	_	_	_	_	orth=”
+
+# sent_id = 40028016
+# ref_id = Matthew 28:16
+# eng_text = But the eleven disciples went into Galilee , to the mountain where Jesus had sent them .
+# kfc_text = jisu wertimaani anusaardaan egaar loku sisur gaalilidu solsi , jisu aamaa garan bisay waaringg iraa maarhaan , aayaa garantu sarhaar .
+# kfc_orth = ଜିସୁ ୱେର୍‌ତିମାନି ଅନୁସାର୍‌ଦାନ୍‌ ଏଗାର୍‌ ଲୋକୁ ସିସୁର୍‍ ଗାଲିଲିଦୁ ସୋଲ୍‌ସି , ଜିସୁ ଆମା ଗରନ୍‌ ବିସୟ୍‌ ୱାରିଙ୍ଗ୍‌ ଇର୍‌ଆ ମାର୍ହାନ୍‌ , ଆୟା ଗରନ୍‌ତୁ ସର୍ହାର୍‌ ।
+1	jisu	jisu	PROPN	_	_	_	nsubj	_	orth=ଜିସୁ|gloss=Jesus|Number=Sing
+2	wertimaani	wertimaani	VERB	_	_	_	_	_	orth=ୱେର୍‌ତିମାନି|gloss=warned
+3	anusaardaan	anusaardaan	unk	_	_	_	_	_	orth=ଅନୁସାର୍‌ଦାନ୍‌
+4	egaar	egaar	unk	_	_	_	_	_	orth=ଏଗାର୍‌
+5	loku	loku	NOUN	_	_	_	_	_	orth=ଲୋକୁ|gloss=person
+6	sisur	sisur	NOUN	_	_	_	nsubj	_	orth=ସିସୁର୍‍|gloss=disciples|Number=Plur
+7	gaalilidu	gaalilidu	PROPN	_	_	_	pobj	_	orth=ଗାଲିଲିଦୁ|gloss=Galilee|Number=Sing
+8	solsi	solsi	VERB	_	_	_	_	_	orth=ସୋଲ୍‌ସି|gloss=dragged
+9	,	,	PUNCT	_	_	_	_	_	orth=,
+10	jisu	jisu	PROPN	_	_	_	nsubj	_	orth=ଜିସୁ|gloss=Jesus|Number=Sing
+11	aamaa	aamaa	SCONJ	_	_	_	_	_	orth=ଆମା|gloss=part
+12	garan	garan	NOUN	_	_	_	_	_	orth=ଗରନ୍‌|gloss=hillside
+13	bisay	bisay	unk	_	_	_	_	_	orth=ବିସୟ୍‌|gloss=things
+14	waaringg	waaringg	PRON	_	_	_	dobj	_	orth=ୱାରିଙ୍ଗ୍‌|gloss=them|Case=Acc|Number=Plur|Person=3|PronType=Prs
+15	iraa	iraa	VERB	_	_	_	_	_	orth=ଇର୍‌ଆ|gloss=declared
+16	maarhaan	maarhaan	ADJ	_	_	_	_	_	orth=ମାର୍ହାନ୍‌|gloss=precious
+17	,	,	PUNCT	_	_	_	_	_	orth=,
+18	aayaa	aayaa	VERB	_	_	_	_	_	orth=ଆୟା|gloss=uct
+19	garantu	garantu	NOUN	_	_	_	pobj	_	orth=ଗରନ୍‌ତୁ|gloss=mountain|Number=Sing
+20	sarhaar	sarhaar	unk	_	_	_	_	_	orth=ସର୍ହାର୍‌|gloss=sense
+21	.	.	PUNCT	_	_	_	_	_	orth=।
+
+# sent_id = 41002023
+# ref_id = Mark 2:23
+# eng_text = It happened , that he was going on the Sabbath day through the grain fields , and his disciples began , as they went , to pluck the ears of grain .
+# kfc_text = arlen ramnidintu jisu paasi kiddii naaddmi siji salsi maaraan , maari waani sisur waaniwaale salpu salpu paasi serenku teutengg aastaar .
+# kfc_orth = ଅର୍‍ଲେନ୍‍ ରମ୍‍ନିଦିନ୍‍ତୁ ଜିସୁ ପାସି କିଡ଼ିଇ ନାଡ଼୍‍ମି ସିଜି ସଲ୍‌ସି ମାର୍‌ଆନ୍‌ , ମାରି ୱାନି ସିସୁର୍‍ ୱାନିୱାଲେ ସଲ୍‍ପୁ ସଲ୍‍ପୁ ପାସି ସେରେନ୍‍କୁ ତେଉତେଙ୍ଗ୍‍ ଆସ୍‌ତାର୍‌ ।
+1	arlen	arlen	unk	_	_	_	_	_	orth=ଅର୍‍ଲେନ୍‍|gloss=workers
+2	ramnidintu	ramnidintu	VERB	_	_	_	xcomp	_	orth=ରମ୍‍ନିଦିନ୍‍ତୁ|gloss=breaking|Aspect=Prog|Tense=Pres|VerbForm=Part
+3	jisu	jisu	PROPN	_	_	_	nsubj	_	orth=ଜିସୁ|gloss=Jesus|Number=Sing
+4	paasi	paasi	NOUN	_	_	_	_	_	orth=ପାସି|gloss=linen
+5	kiddii	kiddii	NOUN	_	_	_	_	_	orth=କିଡ଼ିଇ|gloss=ield
+6	naaddmi	naaddmi	NOUN	_	_	_	_	_	orth=ନାଡ଼୍‍ମି|gloss=middle
+7	siji	siji	ADP	_	_	_	prep	_	orth=ସିଜି|gloss=through
+8	salsi	salsi	VERB	_	_	_	_	_	orth=ସଲ୍‌ସି|gloss=went
+9	maaraan	maaraan	AUX	_	_	_	_	_	orth=ମାର୍‌ଆନ୍‌|gloss=ared
+10	,	,	PUNCT	_	_	_	_	_	orth=,
+11	maari	maari	unk	_	_	_	_	_	orth=ମାରି
+12	waani	waani	PRON	_	_	13	poss	_	orth=ୱାନି|gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+13	sisur	sisur	NOUN	_	_	_	nsubj	_	orth=ସିସୁର୍‍|gloss=disciples|Number=Plur
+14	waaniwaale	waaniwaale	NOUN	_	_	_	_	_	orth=ୱାନିୱାଲେ|gloss=fellow
+15	salpu	salpu	unk	_	_	_	_	_	orth=ସଲ୍‍ପୁ|gloss=rod
+16	salpu	salpu	unk	_	_	_	_	_	orth=ସଲ୍‍ପୁ|gloss=rod
+17	paasi	paasi	NOUN	_	_	_	_	_	orth=ପାସି|gloss=linen
+18	serenku	serenku	unk	_	_	_	_	_	orth=ସେରେନ୍‍କୁ
+19	teutengg	teutengg	unk	_	_	_	_	_	orth=ତେଉତେଙ୍ଗ୍‍
+20	aastaar	aastaar	VERB	_	_	_	_	_	orth=ଆସ୍‌ତାର୍‌|gloss=awe
+21	.	.	PUNCT	_	_	_	_	_	orth=।
+
+# sent_id = 41012032
+# ref_id = Mark 12:32
+# eng_text = The scribe said to him , " Truly , teacher , you have said well that he is one , and there is none other but he ,
+# kfc_text = aabett aayaa saastri jisunggum iraan , “ e guru , aakaa sat , waanntru ne aren maari waaningg ddistingg enbaa silen , ikaa nin sat wertimaani .
+# kfc_orth = ଆବେଟ୍‌ ଆୟା ସାସ୍ତ୍ରି ଜିସୁଙ୍ଗୁଁ ଇର୍‌ଆନ୍‌ , “ ଏ ଗୁରୁ , ଆକା ସତ୍‌ , ୱାଣ୍ତ୍ରୁ ନେ ଅରେନ୍‍ ମାରି ୱାନିଙ୍ଗ୍‌ ଡ଼ିସ୍‌ତିଙ୍ଗ୍‌ ଏନ୍‍ବା ସିଲେନ୍‌ , ଇକା ନିନ୍‌ ସତ୍‌ ୱେର୍ତିମାନି ।
+1	aabett	aabett	unk	_	_	_	_	_	orth=ଆବେଟ୍‌|gloss=emp
+2	aayaa	aayaa	VERB	_	_	_	_	_	orth=ଆୟା|gloss=uct
+3	saastri	saastri	NOUN	_	_	_	_	_	orth=ସାସ୍ତ୍ରି|gloss=eal
+4	jisunggum	jisunggum	ADJ	_	_	_	amod	_	orth=ଜିସୁଙ୍ଗୁଁ|gloss=religious|Degree=Pos
+5	iraan	iraan	VERB	_	_	_	_	_	orth=ଇର୍‌ଆନ୍‌|gloss=Ab
+6	,	,	PUNCT	_	_	_	_	_	orth=,
+7	“	“	PUNCT	_	_	_	_	_	orth=“
+8	e	e	unk	_	_	_	_	_	orth=ଏ|gloss=dear
+9	guru	guru	NOUN	_	_	_	npadvmod	_	orth=ଗୁରୁ|gloss=Teacher|Number=Sing
+10	,	,	PUNCT	_	_	_	_	_	orth=,
+11	aakaa	aakaa	PRON	_	_	_	_	_	orth=ଆକା|gloss=it
+12	sat	sat	NOUN	_	_	_	dobj	_	orth=ସତ୍‌|gloss=truth|Number=Sing
+13	,	,	PUNCT	_	_	_	_	_	orth=,
+14	waanntru	waanntru	ADV	_	_	_	_	_	orth=ୱାଣ୍ତ୍ରୁ|gloss=stop
+15	ne	ne	unk	_	_	_	_	_	orth=ନେ|gloss=th
+16	aren	aren	NUM	_	_	_	nummod	_	orth=ଅରେନ୍‍|gloss=one|NumType=Card
+17	maari	maari	unk	_	_	_	_	_	orth=ମାରି
+18	waaningg	waaningg	PRON	_	_	_	_	_	orth=ୱାନିଙ୍ଗ୍‌|gloss=him
+19	ddistingg	ddistingg	ADV	_	_	_	_	_	orth=ଡ଼ିସ୍‌ତିଙ୍ଗ୍‌|gloss=apart
+20	enbaa	enbaa	ADJ	_	_	_	_	_	orth=ଏନ୍‍ବା|gloss=ea
+21	silen	silen	unk	_	_	_	_	_	orth=ସିଲେନ୍‌|gloss=stop
+22	,	,	PUNCT	_	_	_	_	_	orth=,
+23	ikaa	ikaa	VERB	_	_	_	_	_	orth=ଇକା|gloss=protested
+24	nin	nin	PRON	_	_	_	_	_	orth=ନିନ୍‌|gloss=ael
+25	sat	sat	NOUN	_	_	_	dobj	_	orth=ସତ୍‌|gloss=truth|Number=Sing
+26	wertimaani	wertimaani	VERB	_	_	_	_	_	orth=ୱେର୍ତିମାନି|gloss=warned
+27	.	.	PUNCT	_	_	_	_	_	orth=।
+
+# sent_id = 41014037
+# ref_id = Mark 14:37
+# eng_text = He came and found them sleeping , and said to Peter , " Simon , are you sleeping ? Couldn't you watch one hour ?
+# kfc_text = aabett waanntru ddesiwaaji waaringg sujnikaa suddutaan maari pitartingg iraan , “ simon , mir inikaa sustider ? naa waale unntriganttaabaa kaapkidengg aattitider ? ”
+# kfc_orth = ଆବେଟ୍‌ ୱାଣ୍ତ୍ରୁ ଡ଼େସିୱାଜି ୱାରିଙ୍ଗ୍‌ ସୁଜ୍‍ନିକା ସୁଡ଼ୁତାନ୍‌ ମାରି ପିତର୍‍ତିଙ୍ଗ୍‍ ଇର୍‌ଆନ୍‌ , “ ସିମୋନ୍‌ , ମିର୍‌ ଇନିକା ସୁସ୍‍ତିଦେର୍‍ ? ନା ୱାଲେ ଉଣ୍ତ୍ରିଗନ୍‌ଟାବା କାପ୍‌କିଦେଙ୍ଗ୍‌ ଆଟ୍‍ଇତିଦେର୍‍ ? ”
+1	aabett	aabett	unk	_	_	_	_	_	orth=ଆବେଟ୍‌|gloss=emp
+2	waanntru	waanntru	unk	_	_	_	_	_	orth=ୱାଣ୍ତ୍ରୁ|gloss=stop
+3	ddesiwaaji	ddesiwaaji	VERB	_	_	_	_	_	orth=ଡ଼େସିୱାଜି|gloss=sli
+4	waaringg	waaringg	PRON	_	_	_	_	_	orth=ୱାରିଙ୍ଗ୍‌|gloss=them
+5	sujnikaa	sujnikaa	ADJ	_	_	_	acomp	_	orth=ସୁଜ୍‍ନିକା|gloss=asleep|Degree=Pos
+6	suddutaan	suddutaan	VERB	_	_	0	root	_	orth=ସୁଡ଼ୁତାନ୍‌|gloss=returned|Tense=Past|VerbForm=Fin
+7	maari	maari	unk	_	_	_	_	_	orth=ମାରି
+8	pitartingg	pitartingg	PROPN	_	_	_	_	_	orth=ପିତର୍‍ତିଙ୍ଗ୍‍|gloss=light
+9	iraan	iraan	VERB	_	_	_	_	_	orth=ଇର୍‌ଆନ୍‌|gloss=Ab
+10	,	,	PUNCT	_	_	_	_	_	orth=,
+11	“	“	PUNCT	_	_	_	_	_	orth=“
+12	simon	simon	PROPN	_	_	_	npadvmod	_	orth=ସିମୋନ୍‌|gloss=Simon|Number=Sing
+13	,	,	PUNCT	_	_	_	_	_	orth=,
+14	mir	mir	PRON	_	_	_	_	_	orth=ମିର୍‌|gloss=You
+15	inikaa	inikaa	AUX	_	_	_	_	_	orth=ଇନିକା|gloss=t
+16	sustider	sustider	VERB	_	_	_	_	_	orth=ସୁସ୍‍ତିଦେର୍‍
+17	?	?	PUNCT	_	_	_	_	_	orth=?
+18	naa	naa	PRON	_	_	_	_	_	orth=ନା|gloss=my
+19	waale	waale	ADP	_	_	21	prep	_	orth=ୱାଲେ|gloss=with
+20	unntriganttaabaa	unntriganttaabaa	unk	_	_	_	_	_	orth=ଉଣ୍ତ୍ରିଗନ୍‌ଟାବା
+21	kaapkidengg	kaapkidengg	VERB	_	_	0	root	_	orth=କାପ୍‌କିଦେଙ୍ଗ୍‌|gloss=watch|VerbForm=Inf
+22	aattitider	aattitider	unk	_	_	_	_	_	orth=ଆଟ୍‍ଇତିଦେର୍‍
+23	?	?	PUNCT	_	_	_	_	_	orth=?
+24	”	”	PUNCT	_	_	_	_	_	orth=”
+
+# sent_id = 42004002
+# ref_id = Luke 4:2
+# eng_text = for forty days , being tempted by the devil . He ate nothing in those days . Afterward , when they were completed , he was hungry .
+# kfc_text = aaben waan sayataan maannaan saalis din saandi parikaa kiaay aataan . aayaawiju dintu waan inikaa baa unnuenngaa tinenngaa maaraan , maari aayaawiju naannddingg wijiti wenkaa , jisu naannta baanggaam saataan .
+# kfc_orth = ଆବେନ୍‍ ୱାନ୍‍ ସୟତାନ୍‍ ମାଣାନ୍‍ ସାଲିସ୍‍ ଦିନ୍‍ ସାନ୍ଦି ପରିକା କିଆୟ୍‍ ଆତାନ୍‌ । ଆୟାୱିଜୁ ଦିନ୍‌ତୁ ୱାନ୍‌ ଇନିକା ବା ଉଣୁଏଣ୍‌ଗା ତିନ୍‌ଏଣ୍‌ଗା ମାର୍‌ଆନ୍‌ , ମାରି ଆୟାୱିଜୁ ନାଣ୍ଡିଙ୍ଗ୍ ୱିଜିତି ୱେନ୍‌କା , ଜିସୁ ନାଣ୍ତ ବାଙ୍ଗାଁ ସାତାନ୍ ।
+1	aaben	aaben	unk	_	_	_	_	_	orth=ଆବେନ୍‍|gloss=W
+2	waan	waan	PRON	_	_	_	_	_	orth=ୱାନ୍‍|gloss=He
+3	sayataan	sayataan	NOUN	_	_	_	pobj	_	orth=ସୟତାନ୍‍|gloss=devil|Number=Sing
+4	maannaan	maannaan	VERB	_	_	_	_	_	orth=ମାଣାନ୍‍|gloss=ites
+5	saalis	saalis	NUM	_	_	6	nummod	_	orth=ସାଲିସ୍‍|gloss=forty|NumType=Card
+6	din	din	NOUN	_	_	_	pobj	_	orth=ଦିନ୍‍|gloss=days|Number=Plur
+7	saandi	saandi	ADP	_	_	_	_	_	orth=ସାନ୍ଦି|gloss=until
+8	parikaa	parikaa	VERB	_	_	_	_	_	orth=ପରିକା|gloss=examine
+9	kiaay	kiaay	unk	_	_	_	_	_	orth=କିଆୟ୍‍|gloss=isions
+10	aataan	aataan	NOUN	_	_	_	_	_	orth=ଆତାନ୍‌|gloss=miracle
+11	.	.	PUNCT	_	_	_	_	_	orth=।
+12	aayaawiju	aayaawiju	NOUN	_	_	_	_	_	orth=ଆୟାୱିଜୁ|gloss=age
+13	dintu	dintu	NOUN	_	_	_	_	_	orth=ଦିନ୍‌ତୁ|gloss=men
+14	waan	waan	PRON	_	_	_	_	_	orth=ୱାନ୍‌|gloss=He
+15	inikaa	inikaa	AUX	_	_	_	_	_	orth=ଇନିକା|gloss=t
+16	baa	baa	ADV	_	_	_	_	_	orth=ବା|gloss=also
+17	unnuenngaa	unnuenngaa	unk	_	_	_	_	_	orth=ଉଣୁଏଣ୍‌ଗା
+18	tinenngaa	tinenngaa	unk	_	_	_	_	_	orth=ତିନ୍‌ଏଣ୍‌ଗା
+19	maaraan	maaraan	AUX	_	_	_	_	_	orth=ମାର୍‌ଆନ୍‌|gloss=ared
+20	,	,	PUNCT	_	_	_	_	_	orth=,
+21	maari	maari	unk	_	_	_	_	_	orth=ମାରି
+22	aayaawiju	aayaawiju	NOUN	_	_	_	_	_	orth=ଆୟାୱିଜୁ|gloss=age
+23	naannddingg	naannddingg	VERB	_	_	_	_	_	orth=ନାଣ୍ଡିଙ୍ଗ୍|gloss=pleased
+24	wijiti	wijiti	ADP	_	_	_	_	_	orth=ୱିଜିତି|gloss=mid
+25	wenkaa	wenkaa	SCONJ	_	_	_	_	_	orth=ୱେନ୍‌କା|gloss=xt
+26	,	,	PUNCT	_	_	_	_	_	orth=,
+27	jisu	jisu	PROPN	_	_	_	nsubj	_	orth=ଜିସୁ|gloss=Jesus|Number=Sing
+28	naannta	naannta	unk	_	_	_	_	_	orth=ନାଣ୍ତ|gloss=iast
+29	baanggaam	baanggaam	ADJ	_	_	_	acomp	_	orth=ବାଙ୍ଗାଁ|gloss=hungry|Degree=Pos
+30	saataan	saataan	unk	_	_	_	_	_	orth=ସାତାନ୍|gloss=died
+31	.	.	PUNCT	_	_	_	_	_	orth=।
+
+# sent_id = 42016013
+# ref_id = Luke 16:13
+# eng_text = No servant can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You aren't able to serve God and mammon . "
+# kfc_text = “ aren saakar rieri maalikkaa saakar aadengg aatten ; maatar waan arenwaaningg kaaddnaan maari aaiwaaningg jibannonaa , maari arenwaani unntingg laaktu kinaan maari aaiwaaningg ddisnaan . mir maapuru maari dana rieri saakar aadengg aattider . ”
+# kfc_orth = “ ଅରେନ୍‍ ସାକର୍‌ ରିଏରି ମାଲିକ୍‌କା ସାକର୍‌ ଆଦେଙ୍ଗ୍‌ ଆଟ୍‍ଏନ୍‍ ; ମାତର୍‌ ୱାନ୍‌ ଅରେନ୍‍ୱାନିଙ୍ଗ୍‍ କାଡ଼୍‍ନାନ୍‍ ମାରି ଆଇୱାନିଙ୍ଗ୍‍ ଜିବନ୍‌ନୋନା , ମାରି ଅରେନ୍‍ୱାନି ଉଣ୍ତିଙ୍ଗ୍‌ ଲାକ୍‌ତୁ କିନାନ୍‍ ମାରି ଆଇୱାନିଙ୍ଗ୍‍ ଡ଼ିସ୍‍ନାନ୍‍ । ମିର୍‌ ମାପୁରୁ ମାରି ଦନ ରିଏରି ସାକର୍‌ ଆଦେଙ୍ଗ୍‌ ଆଟ୍‍ଇଦେର୍‍ । ”
+1	“	“	PUNCT	_	_	_	_	_	orth=“
+2	aren	aren	NUM	_	_	_	pobj	_	orth=ଅରେନ୍‍|gloss=one|NumType=Card
+3	saakar	saakar	NOUN	_	_	_	_	_	o9rth=ସାକର୍‌|gloss=master
+4	rieri	rieri	NUM	_	_	_	_	_	orth=ରିଏରି|gloss=ars
+5	maalikkaa	maalikkaa	NOUN	_	_	_	dobj	_	orth=ମାଲିକ୍‌କା|gloss=masters|Number=Plur
+6	saakar	saakar	NOUN	_	_	_	_	_	orth=ସାକର୍‌|gloss=master
+7	aadengg	aadengg	VERB	_	_	_	_	_	orth=ଆଦେଙ୍ଗ୍‌|gloss=Think
+8	aatten	aatten	AUX	_	_	_	_	_	orth=ଆଟ୍‍ଏନ୍‍|gloss=enter
+9	;	;	PUNCT	_	_	_	_	_	orth=;
+10	maatar	maatar	CCONJ	_	_	_	_	_	orth=ମାତର୍‌|gloss=But
+11	waan	waan	PRON	_	_	_	_	_	orth=ୱାନ୍‌|gloss=He
+12	arenwaaningg	arenwaaningg	PRON	_	_	_	_	_	orth=ଅରେନ୍‍ୱାନିଙ୍ଗ୍‍|gloss=year
+13	kaaddnaan	kaaddnaan	VERB	_	_	_	acomp	_	orth=କାଡ଼୍‍ନାନ୍‍|gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+14	maari	maari	unk	_	_	_	_	_	orth=ମାରି
+15	aaiwaaningg	aaiwaaningg	PRON	_	_	_	_	_	orth=ଆଇୱାନିଙ୍ଗ୍‍|gloss=ise
+16	jibannonaa	jibannonaa	VERB	_	_	_	_	_	orth=ଜିବନ୍‌ନୋନା|gloss=elder
+17	,	,	PUNCT	_	_	_	_	_	orth=,
+18	maari	maari	unk	_	_	_	_	_	orth=ମାରି
+19	arenwaani	arenwaani	PRON	_	_	_	_	_	orth=ଅରେନ୍‍ୱାନି|gloss=hung
+20	unntingg	unntingg	ADP	_	_	_	_	_	orth=ଉଣ୍ତିଙ୍ଗ୍‌|gloss=for
+21	laaktu	laaktu	VERB	_	_	_	_	_	orth=ଲାକ୍‌ତୁ|gloss=fail
+22	kinaan	kinaan	VERB	_	_	_	_	_	orth=କିନାନ୍‍|gloss=humble
+23	maari	maari	unk	_	_	_	_	_	orth=ମାରି
+24	aaiwaaningg	aaiwaaningg	PRON	_	_	_	_	_	orth=ଆଇୱାନିଙ୍ଗ୍‍|gloss=ise
+25	ddisnaan	ddisnaan	AUX	_	_	_	_	_	orth=ଡ଼ିସ୍‍ନାନ୍‍|gloss=ces
+26	.	.	PUNCT	_	_	_	_	_	orth=।
+27	mir	mir	PRON	_	_	_	nsubj	_	orth=ମିର୍‌|gloss=You|Case=Nom|Person=2|PronType=Prs
+28	maapuru	maapuru	PROPN	_	_	_	dobj	_	orth=ମାପୁରୁ|gloss=God|Number=Sing
+29	maari	maari	unk	_	_	_	_	_	orth=ମାରି
+30	dana	dana	unk	_	_	_	_	_	orth=ଦନ
+31	rieri	rieri	unk	_	_	_	_	_	orth=ରିଏରି|gloss=ars
+32	saakar	saakar	VERB	_	_	_	_	_	orth=ସାକର୍‌|gloss=master
+33	aadengg	aadengg	AUX	_	_	_	_	_	orth=ଆଦେଙ୍ଗ୍‌|gloss=Think
+34	aattider	aattider	AUX	_	_	_	_	_	orth=ଆଟ୍‍ଇଦେର୍‍|gloss=vine
+35	.	.	PUNCT	_	_	_	_	_	orth=।
+36	”	”	PUNCT	_	_	_	_	_	orth=”
+
+# sent_id = 42024018
+# ref_id = Luke 24:18
+# eng_text = One of them , named Cleopas , answered him , " Are you the only one travelling in Jerusalem who doesn't know the things which have happened there in these days ? "
+# kfc_text = maari , waari maannnaa kayaapaa dartikaan aren waaningg iraan , “ jirusaalamati lokaari maannku nin inikaa arinde aayaabaaddidi iyaa esa dinti gattnaa nesei ? ”
+# kfc_orth = ମାରି , ୱାରି ମାଣ୍‌ନା କୟାପା ଦର୍‌ତିକାନ୍‌ ଅରେନ୍‍ ୱାନିଙ୍ଗ୍‌ ଇର୍‌ଆନ୍‌ , “ ଜିରୁସାଲମତି ଲୋକାରି ମାଣ୍‌କୁ ନିନ୍‌ ଇନିକା ଅରିନ୍ଦେ ଆୟାବାଡିଦି ଇୟା ଏସ ଦିନ୍‌ତି ଗଟ୍‌ନା ନେସେଇ ? ”
+1	maari	maari	unk	_	_	_	_	_	orth=ମାରି
+2	,	,	PUNCT	_	_	_	_	_	orth=,
+3	waari	waari	PRON	_	_	_	_	_	orth=ୱାରି|gloss=their
+4	maannnaa	maannnaa	unk	_	_	_	_	_	orth=ମାଣ୍‌ନା
+5	kayaapaa	kayaapaa	PROPN	_	_	_	_	_	orth=କୟାପା|gloss=Caiaphas
+6	dartikaan	dartikaan	PROPN	_	_	_	_	_	orth=ଦର୍‌ତିକାନ୍‌|gloss=Cle
+7	aren	aren	NUM	_	_	_	nsubj	_	orth=ଅରେନ୍‍|gloss=one|NumType=Card
+8	waaningg	waaningg	PRON	_	_	_	_	_	orth=ୱାନିଙ୍ଗ୍‌|gloss=him
+9	iraan	iraan	VERB	_	_	_	_	_	orth=ଇର୍‌ଆନ୍‌|gloss=Ab
+10	,	,	PUNCT	_	_	_	_	_	orth=,
+11	“	“	PUNCT	_	_	_	_	_	orth=“
+12	jirusaalamati	jirusaalamati	PROPN	_	_	_	_	_	orth=ଜିରୁସାଲମତି|gloss=op
+13	lokaari	lokaari	unk	_	_	_	_	_	orth=ଲୋକାରି
+14	maannku	maannku	ADP	_	_	_	_	_	orth=ମାଣ୍‌କୁ|gloss=To
+15	nin	nin	PRON	_	_	_	_	_	orth=ନିନ୍‌|gloss=ael
+16	inikaa	inikaa	unk	_	_	_	_	_	orth=ଇନିକା|gloss=t
+17	arinde	arinde	unk	_	_	_	_	_	orth=ଅରିନ୍ଦେ
+18	aayaabaaddidi	aayaabaaddidi	unk	_	_	_	_	_	orth=ଆୟାବାଡିଦି
+19	iyaa	iyaa	PRON	_	_	_	_	_	orth=ଇୟା|gloss=this
+20	esa	esa	DET	_	_	_	_	_	orth=ଏସ|gloss=some
+21	dinti	dinti	NOUN	_	_	_	_	_	orth=ଦିନ୍‌ତି|gloss=moon
+22	gattnaa	gattnaa	VERB	_	_	_	relcl	_	orth=ଗଟ୍‌ନା|gloss=happened|Aspect=Perf|Tense=Past|VerbForm=Part
+23	nesei	nesei	ADV	_	_	_	_	_	orth=ନେସେଇ|gloss=offended
+24	?	?	PUNCT	_	_	_	_	_	orth=?
+25	”	”	PUNCT	_	_	_	_	_	orth=”
+
+# sent_id = 43001039
+# ref_id = John 1:39
+# eng_text = He said to them , " Come , and see . " They came and saw where he was staying , and they stayed with him that day . It was about the tenth hour .
+# kfc_text = jisu waaringg irhaan , raadu , sunnider . aabett waar salsi waani baasaanikaa suddutaar , maari aayaa naannddingg waaniwaale tebaataar ; naastiwaale milmilikaa saarttaa weddaa aataamaaraat .
+# kfc_orth = ଜିସୁ ୱାରିଙ୍ଗ୍‌ ଇର୍ହାନ୍‌ , ରାଦୁ , ସୁଣିଦେର୍‍ । ଆବେଟ୍‌ ୱାର୍‌ ସଲ୍‌ସି ୱାନି ବାସାନିକା ସୁଡ଼ୁତାର୍‌ , ମାରି ଆୟା ନାଣ୍ଡିଙ୍ଗ୍ ୱାନିୱାଲେ ତେବାତାର୍‌ ; ନାସ୍ତିୱାଲେ ମିଲ୍‌ମିଲିକା ସାର୍‍ଟା ୱେଡ଼ା ଆତାମାର୍‍ଆତ୍‍ ।
+1	jisu	jisu	PROPN	_	_	_	_	_	orth=ଜିସୁ|gloss=Jesus
+2	waaringg	waaringg	PRON	_	_	_	_	_	orth=ୱାରିଙ୍ଗ୍‌|gloss=them
+3	irhaan	irhaan	VERB	_	_	_	_	_	orth=ଇର୍ହାନ୍‌|gloss=told
+4	,	,	PUNCT	_	_	_	_	_	orth=,
+5	raadu	raadu	VERB	_	_	_	ccomp	_	orth=ରାଦୁ|gloss=Come|VerbForm=Inf
+6	,	,	PUNCT	_	_	_	_	_	orth=,
+7	sunnider	sunnider	VERB	_	_	_	_	_	orth=ସୁଣିଦେର୍‍|gloss=poss
+8	.	.	PUNCT	_	_	_	_	_	orth=।
+9	aabett	aabett	unk	_	_	_	_	_	orth=ଆବେଟ୍‌|gloss=emp
+10	waar	waar	PRON	_	_	_	nsubj	_	orth=ୱାର୍‌|gloss=they|Case=Nom|Number=Plur|Person=3|PronType=Prs
+11	salsi	salsi	VERB	_	_	_	advcl	_	orth=ସଲ୍‌ସି|gloss=went|Tense=Past|VerbForm=Fin
+12	waani	waani	PRON	_	_	_	_	_	orth=ୱାନି|gloss=his
+13	baasaanikaa	baasaanikaa	VERB	_	_	_	_	_	orth=ବାସାନିକା|gloss=cleans
+14	suddutaar	suddutaar	unk	_	_	_	_	_	orth=ସୁଡ଼ୁତାର୍‌|gloss=aring
+15	,	,	PUNCT	_	_	_	_	_	orth=,
+16	maari	maari	unk	_	_	_	_	_	orth=ମାରି
+17	aayaa	aayaa	unk	_	_	_	_	_	orth=ଆୟା|gloss=uct
+18	naannddingg	naannddingg	VERB	_	_	_	_	_	orth=ନାଣ୍ଡିଙ୍ଗ୍|gloss=pleased
+19	waaniwaale	waaniwaale	ADP	_	_	_	_	_	orth=ୱାନିୱାଲେ|gloss=fellow
+20	tebaataar	tebaataar	ADV	_	_	_	_	_	orth=ତେବାତାର୍‌|gloss=quietly
+21	;	;	PUNCT	_	_	_	_	_	orth=;
+22	naastiwaale	naastiwaale	AUX	_	_	_	_	_	orth=ନାସ୍ତିୱାଲେ|gloss=swept
+23	milmilikaa	milmilikaa	unk	_	_	_	_	_	orth=ମିଲ୍‌ମିଲିକା
+24	saarttaa	saarttaa	NOUN	_	_	_	_	_	orth=ସାର୍‍ଟା
+25	weddaa	weddaa	NOUN	_	_	_	pobj	_	orth=ୱେଡ଼ା|gloss=afternoon|Number=Sing
+26	aataamaaraat	aataamaaraat	NOUN	_	_	_	_	_	orth=ଆତାମାର୍‍ଆତ୍‍|gloss=pigs
+27	.	.	PUNCT	_	_	_	_	_	orth=।
+
+# sent_id = 43003016
+# ref_id = John 3:16
+# eng_text = For God so loved the world , that he gave his one and only Son , that whoever believes in him should not perish , but have eternal life .
+# kfc_text = iringg maapuru iyaa jagattingg nisaa jiban nataan je , waan nijedi aren maarintingg sitaan , enntes enaapin waanimaanu bisbaas kinaan , waan naasttu aaenntaa eskaanggwiji jiban painaan .
+# kfc_orth = ଇରିଙ୍ଗ୍‌ ମାପୁରୁ ଇୟା ଜଗତ୍‌ତିଙ୍ଗ୍‌ ନିସା ଜିବନ୍‌ ନତାନ୍‌ ଜେ , ୱାନ୍‌ ନିଜେଦି ଅରେନ୍‌ ମାରିନ୍‌ତିଙ୍ଗ୍‌ ସିତାନ୍‌ , ଏଣ୍ତେସ୍‌ ଏନ୍‌ଆପିନ୍‌ ୱାନିମାନୁ ବିସ୍‌ବାସ୍‌ କିନାନ୍‌ , ୱାନ୍‌ ନାସ୍ଟୁ ଆଏଣ୍ତା ଏସ୍‌କାଙ୍ଗ୍‌ୱିଜ୍‍ଇ ଜିବନ୍‌ ପଇନାନ୍‌ ।
+1	iringg	iringg	ADP	_	_	13	prep	_	orth=ଇରିଙ୍ଗ୍‌|gloss=For
+2	maapuru	maapuru	PROPN	_	_	13	nsubj	_	orth=ମାପୁରୁ|gloss=God|Number=Sing
+3	iyaa	iyaa	ADV	_	_	_	_	_	orth=ଇୟା|gloss=this
+4	jagattingg	jagattingg	NOUN	_	_	_	_	_	orth=ଜଗତ୍‌ତିଙ୍ଗ୍‌|gloss=offers
+5	nisaa	nisaa	ADV	_	_	_	_	_	orth=ନିସା|gloss=acked
+6	jiban	jiban	NOUN	_	_	_	dobj	_	orth=ଜିବନ୍‌|gloss=life|Number=Sing
+7	nataan	nataan	SCONJ	_	_	_	_	_	orth=ନତାନ୍‌
+8	je	je	SCONJ	_	_	_	_	_	orth=ଜେ|gloss=conscience
+9	,	,	PUNCT	_	_	_	_	_	orth=,
+10	waan	waan	PRON	_	_	_	_	_	orth=ୱାନ୍‌|gloss=He
+11	nijedi	nijedi	PRON	_	_	_	_	_	orth=ନିଜେଦି|gloss=ity
+12	aren	aren	NUM	_	_	14	dobj	_	orth=ଅରେନ୍‌|gloss=one|NumType=Card
+13	maarintingg	maarintingg	VERB	_	_	0	root	_	orth=ମାରିନ୍‌ତିଙ୍ଗ୍‌|gloss=loved|Tense=Past|VerbForm=Fin
+14	sitaan	sitaan	VERB	_	_	_	ccomp	_	orth=ସିତାନ୍‌|gloss=gave|Tense=Past|VerbForm=Fin
+15	,	,	PUNCT	_	_	_	_	_	orth=,
+16	enntes	enntes	SCONJ	_	_	_	mark	_	orth=ଏଣ୍ତେସ୍‌|gloss=so
+17	enaapin	enaapin	unk	_	_	_	_	_	orth=ଏନ୍‌ଆପିନ୍‌|gloss=learn
+18	waanimaanu	waanimaanu	PRON	_	_	_	_	_	orth=ୱାନିମାନୁ|gloss=sister
+19	bisbaas	bisbaas	VERB	_	_	_	_	_	orth=ବିସ୍‌ବାସ୍‌|gloss=believe
+20	kinaan	kinaan	unk	_	_	_	_	_	orth=କିନାନ୍‌|gloss=humble
+21	,	,	PUNCT	_	_	_	_	_	orth=,
+22	waan	waan	PRON	_	_	_	_	_	orth=ୱାନ୍‌|gloss=He
+23	naasttu	naasttu	VERB	_	_	_	_	_	orth=ନାସ୍ଟୁ|gloss=destruction
+24	aaenntaa	aaenntaa	PART	_	_	_	_	_	orth=ଆଏଣ୍ତା|gloss=without
+25	eskaanggwiji	eskaanggwiji	ADJ	_	_	26	amod	_	orth=ଏସ୍‌କାଙ୍ଗ୍‌ୱିଜ୍‍ଇ|gloss=eternal|Degree=Pos
+26	jiban	jiban	NOUN	_	_	_	dobj	_	orth=ଜିବନ୍‌|gloss=life|Number=Sing
+27	painaan	painaan	unk	_	_	_	_	_	orth=ପଇନାନ୍‌
+28	.	.	PUNCT	_	_	_	_	_	orth=।
+
+# sent_id = 44002030
+# ref_id = Acts 2:30
+# eng_text = Therefore , being a prophet , and knowing that God had sworn with an oath to him that of the fruit of his body , according to the flesh , he would raise up the Christ to sit on his throne ,
+# kfc_text = waan aren baababaadi maarhaan , aadengg waani unntingg maapurudi jid maattaa nestaamaarhaan . daaudati kuttumti loi aren waaningg raajaa kinaan iji maapuru paarmaann kitaamaarhaan .
+# kfc_orth = ୱାନ୍‌ ଅରେନ୍‌ ବାବବାଦି ମାର୍ହାନ୍‍ , ଆଦେଙ୍ଗ୍‌ ୱାନି ଉଣ୍ତିଙ୍ଗ୍‌ ମାପୁରୁଦି ଜିଦ୍‌ ମାଟା ନେସ୍‍ତାମାର୍ହାନ୍‍ । ଦାଉଦତି କୁଟୁମ୍‌ତି ଲୋଇ ଅରେନ୍‌ ୱାନିଙ୍ଗ୍‌ ରାଜା କିନାନ୍‌ ଇଜି ମାପୁରୁ ପାର୍‌ମାଣ୍‌ କିତାମାର୍ହାନ୍‌ ।
+1	waan	waan	PRON	_	_	_	_	_	orth=ୱାନ୍‌|gloss=He
+2	aren	aren	NUM	_	_	_	nsubj	_	orth=ଅରେନ୍‌|gloss=one|NumType=Card
+3	baababaadi	baababaadi	NOUN	_	_	_	attr	_	orth=ବାବବାଦି|gloss=prophet|Number=Sing
+4	maarhaan	maarhaan	ADJ	_	_	_	_	_	orth=ମାର୍ହାନ୍‍|gloss=precious
+5	,	,	PUNCT	_	_	_	_	_	orth=,
+6	aadengg	aadengg	unk	_	_	_	_	_	orth=ଆଦେଙ୍ଗ୍‌|gloss=Think
+7	waani	waani	PRON	_	_	_	poss	_	orth=ୱାନି|gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+8	unntingg	unntingg	ADP	_	_	_	_	_	orth=ଉଣ୍ତିଙ୍ଗ୍‌|gloss=for
+9	maapurudi	maapurudi	PROPN	_	_	_	nsubj	_	orth=ମାପୁରୁଦି|gloss=God|Number=Sing
+10	jid	jid	NOUN	_	_	_	pobj	_	orth=ଜିଦ୍‌|gloss=descendants|Number=Plur
+11	maattaa	maattaa	NOUN	_	_	_	_	_	orth=ମାଟା|gloss=speaking
+12	nestaamaarhaan	nestaamaarhaan	VERB	_	_	_	conj	_	orth=ନେସ୍‍ତାମାର୍ହାନ୍‍|gloss=knew|Tense=Past|VerbForm=Fin
+13	.	.	PUNCT	_	_	_	_	_	orth=।
+14	daaudati	daaudati	PROPN	_	_	15	poss	_	orth=ଦାଉଦତି|gloss=David|Number=Sing
+15	kuttumti	kuttumti	NOUN	_	_	_	pobj	_	orth=କୁଟୁମ୍‌ତି|gloss=descendants|Number=Plur
+16	loi	loi	ADP	_	_	_	_	_	orth=ଲୋଇ|gloss=inside
+17	aren	aren	NUM	_	_	_	nsubj	_	orth=ଅରେନ୍‌|gloss=one|NumType=Card
+18	waaningg	waaningg	PRON	_	_	_	_	_	orth=ୱାନିଙ୍ଗ୍‌|gloss=him
+19	raajaa	raajaa	NOUN	_	_	_	_	_	orth=ରାଜା|gloss=king
+20	kinaan	kinaan	ADJ	_	_	_	_	_	orth=କିନାନ୍‌|gloss=humble
+21	iji	iji	PART	_	_	_	_	_	orth=ଇଜି|gloss=ing
+22	maapuru	maapuru	PROPN	_	_	_	nsubj	_	orth=ମାପୁରୁ|gloss=God|Number=Sing
+23	paarmaann	paarmaann	NOUN	_	_	_	_	_	orth=ପାର୍‌ମାଣ୍‌|gloss=promise
+24	kitaamaarhaan	kitaamaarhaan	VERB	_	_	_	_	_	o`rth=କିତାମାର୍ହାନ୍‌|gloss=oun
+25	.	.	PUNCT	_	_	_	_	_	orth=।
+
+# sent_id = 44009038
+# ref_id = Acts 9:38
+# eng_text = As Lydda was near Joppa , the disciples , hearing that Peter was there , sent two men to him , imploring him not to delay in coming to them .
+# kfc_text = japaa ludaadaan aaka siletaat . pitara ludaadu maanaan iji wenji , japaadu maani bisbaasir rier lokaangg waani laaktu innyji poktaar , “ dayaa kiji begi maa laaktu raaaa . ”
+# kfc_orth = ଜପା ଲୁଦାଦାନ୍‍ ଆକ ସିଲେତାତ୍‍ । ପିତର ଲୁଦାଦୁ ମାନାନ୍‌ ଇଜି ୱେନ୍‌ଜି , ଜପାଦୁ ମାନି ବିସ୍‍ବାସିର୍‍ ରିଏର୍‌ ଲୋକାଙ୍ଗ୍‌ ୱାନି ଲାକ୍‌ତୁ ଇନ୍‌ଞ୍ଜି ପୋକ୍‌ତାର୍‌ , “ ଦୟା କିଜି ବେଗି ମା ଲାକ୍‌ତୁ ରାଆ । ”
+1	japaa	japaa	PROPN	_	_	_	_	_	orth=ଜପା
+2	ludaadaan	ludaadaan	PROPN	_	_	_	_	_	orth=ଲୁଦାଦାନ୍‍
+3	aaka	aaka	ADP	_	_	_	_	_	orth=ଆକ|gloss=far
+4	siletaat	siletaat	VERB	_	_	_	_	_	orth=ସିଲେତାତ୍‍|gloss=Ly
+5	.	.	PUNCT	_	_	_	_	_	orth=।
+6	pitara	pitara	PROPN	_	_	_	nsubj	_	orth=ପିତର|gloss=Peter|Number=Sing
+7	ludaadu	ludaadu	NOUN	_	_	_	_	_	orth=ଲୁଦାଦୁ
+8	maanaan	maanaan	NOUN	_	_	_	_	_	orth=ମାନାନ୍‌|gloss=report
+9	iji	iji	PART	_	_	_	_	_	orth=ଇଜି|gloss=ing
+10	wenji	wenji	VERB	_	_	_	ccomp	_	orth=ୱେନ୍‌ଜି|gloss=heard|Aspect=Perf|Tense=Past|VerbForm=Part
+11	,	,	PUNCT	_	_	_	_	_	orth=,
+12	japaadu	japaadu	PROPN	_	_	_	_	_	orth=ଜପାଦୁ|gloss=Joppa
+13	maani	maani	NOUN	_	_	_	_	_	orth=ମାନି|gloss=Ar
+14	bisbaasir	bisbaasir	NOUN	_	_	_	_	_	orth=ବିସ୍‍ବାସିର୍‍|gloss=prisoners
+15	rier	rier	NUM	_	_	_	nummod	_	orth=ରିଏର୍‌|gloss=two|NumType=Card
+16	lokaangg	lokaangg	NOUN	_	_	_	_	_	orth=ଲୋକାଙ୍ଗ୍‌|gloss=fav
+17	waani	waani	PRON	_	_	_	_	_	orth=ୱାନି|gloss=his
+18	laaktu	laaktu	VERB	_	_	_	_	_	orth=ଲାକ୍‌ତୁ|gloss=fail
+19	innyji	innyji	VERB	_	_	_	_	_	orth=ଇନ୍‌ଞ୍ଜି|gloss=icing
+20	poktaar	poktaar	NOUN	_	_	_	_	_	orth=ପୋକ୍‌ତାର୍‌|gloss=ship
+21	,	,	PUNCT	_	_	_	_	_	orth=,
+22	“	“	PUNCT	_	_	_	_	_	orth=“
+23	dayaa	dayaa	INTJ	_	_	_	_	_	orth=ଦୟା|gloss=grace
+24	kiji	kiji	VERB	_	_	_	_	_	orth=କିଜି|gloss=ing
+25	begi	begi	ADV	_	_	_	advmod	_	orth=ବେଗି|gloss=soon
+26	maa	maa	PRON	_	_	_	_	_	orth=ମା|gloss=our
+27	laaktu	laaktu	VERB	_	_	_	_	_	orth=ଲାକ୍‌ତୁ|gloss=fail
+28	raaaa	raaaa	PART	_	_	_	_	_	orth=ରାଆ|gloss=official
+29	.	.	PUNCT	_	_	_	_	_	orth=।
+30	”	”	PUNCT	_	_	_	_	_	orth=”
+
+# sent_id = 44011011
+# ref_id = Acts 11:11
+# eng_text = Behold , immediately three men stood before the house where I was , having been sent from Caesarea to me .
+# kfc_text = ttik aayaa samaytu , siseriaadaan naa laaktu pakaayaaaatimaarri muer loku naan eme iludu tebaajimaarhaa , aabe igaawaataar .
+# kfc_orth = ଟିକ୍‌ ଆୟା ସମୟ୍‍ତୁ , ସିସେରିଆଦାନ୍‍ ନା ଲାକ୍‌ତୁ ପକାୟାଆତିମାର୍‍ରି ମୁଏର୍‌ ଲୋକୁ ନାନ୍ ଏମେ ଇଲୁଦୁ ତେବାଜିମାର୍ହା , ଆବେ ଇଗାୱାତାର୍‍ ।
+1	ttik	ttik	INTJ	_	_	_	_	_	orth=ଟିକ୍‌|gloss=ish
+2	aayaa	aayaa	ADV	_	_	_	_	_	orth=ଆୟା|gloss=uct
+3	samaytu	samaytu	NOUN	_	_	_	_	_	orth=ସମୟ୍‍ତୁ|gloss=utter
+4	,	,	PUNCT	_	_	_	_	_	orth=,
+5	siseriaadaan	siseriaadaan	PROPN	_	_	_	_	_	orth=ସିସେରିଆଦାନ୍‍
+6	naa	naa	PRON	_	_	_	_	_	orth=ନା|gloss=my
+7	laaktu	laaktu	VERB	_	_	_	_	_	orth=ଲାକ୍‌ତୁ|gloss=fail
+8	pakaayaaaatimaarri	pakaayaaaatimaarri	VERB	_	_	_	_	_	orth=ପକାୟାଆତିମାର୍‍ରି
+9	muer	muer	unk	_	_	_	_	_	orth=ମୁଏର୍‌|gloss=puzz
+10	loku	loku	NOUN	_	_	_	_	_	orth=ଲୋକୁ|gloss=person
+11	naan	naan	PRON	_	_	_	_	_	orth=ନାନ୍|gloss=I
+12	eme	eme	unk	_	_	_	_	_	orth=ଏମେ|gloss=n
+13	iludu	iludu	NOUN	_	_	_	_	_	orth=ଇଲୁଦୁ|gloss=synagogue
+14	tebaajimaarhaa	tebaajimaarhaa	VERB	_	_	_	_	_	orth=ତେବାଜିମାର୍ହା
+15	,	,	PUNCT	_	_	_	_	_	orth=,
+16	aabe	aabe	ADV	_	_	_	_	_	orth=ଆବେ|gloss=there
+17	igaawaataar	igaawaataar	unk	_	_	_	_	_	orth=ଇଗାୱାତାର୍‍
+18	.	.	PUNCT	_	_	_	_	_	orth=।
+
+# sent_id = 44021034
+# ref_id = Acts 21:34
+# eng_text = Some shouted one thing , some another , among the crowd . When he couldn't find out the truth because of the noise , he commanded him to be brought into the barracks .
+# kfc_text = loku gali loi en esa rakamti maattaa iji aauli aataar . iyaawaajaa asaanti aataatje , sanyari netaa sat maattaa inikaa , inikaabaa nestengg aattetaan . aabett waan paaulatinggm sanyartebaani baaddi loi atenggm iji sanyaringg aades sitaan .
+# kfc_orth = ଲୋକୁ ଗଲି ଲୋଇ ଏନ୍‌ ଏସ ରକମ୍‌ତି ମାଟା ଇଜି ଆଉଲି ଆତାର୍‌ । ଇୟାୱାଜା ଅସାନ୍ତି ଆତାତ୍‍ଜେ , ସନ୍ୟରି ନେତା ସତ୍‌ ମାଟା ଇନିକା , ଇନିକାବା ନେସ୍‌ତେଙ୍ଗ୍‌ ଆଟ୍‍ଏତାନ୍‍ । ଆବେଟ୍‌ ୱାନ୍‌ ପାଉଲତିଙ୍ଗ୍‍ଁ ସନ୍ୟର୍‌ତେବାନି ବାଡି ଲୋଇ ଅତେଙ୍ଗ୍‍ଁ ଇଜି ସନ୍ୟରିଙ୍ଗ୍‌ ଆଦେସ୍‌ ସିତାନ୍‌ ।
+1	loku	loku	NOUN	_	_	_	_	_	orth=ଲୋକୁ|gloss=person
+2	gali	gali	NOUN	_	_	_	_	_	orth=ଗଲି|gloss=conside
+3	loi	loi	ADP	_	_	_	_	_	orth=ଲୋଇ|gloss=inside
+4	en	en	PRON	_	_	_	_	_	orth=ଏନ୍‌|gloss=Who
+5	esa	esa	DET	_	_	_	predet	_	orth=ଏସ|gloss=some
+6	rakamti	rakamti	NOUN	_	_	_	_	_	orth=ରକମ୍‌ତି|gloss=sexual
+7	maattaa	maattaa	NOUN	_	_	_	_	_	orth=ମାଟା|gloss=speaking
+8	iji	iji	PART	_	_	_	_	_	orth=ଇଜି|gloss=ing
+9	aauli	aauli	VERB	_	_	0	root	_	orth=ଆଉଲି|gloss=shouted|Tense=Past|VerbForm=Fin
+10	aataar	aataar	PART	_	_	_	_	_	orth=ଆତାର୍‌|gloss=filled
+11	.	.	PUNCT	_	_	_	_	_	orth=।
+12	iyaawaajaa	iyaawaajaa	NOUN	_	_	_	_	_	orth=ଇୟାୱାଜା|gloss=ic
+13	asaanti	asaanti	NOUN	_	_	_	_	_	orth=ଅସାନ୍ତି
+14	aataatje	aataatje	ADP	_	_	_	_	_	orth=ଆତାତ୍‍ଜେ|gloss=ress
+15	,	,	PUNCT	_	_	_	_	_	orth=,
+16	sanyari	sanyari	NOUN	_	_	_	_	_	orth=ସନ୍ୟରି|gloss=commander
+17	netaa	netaa	NOUN	_	_	_	_	_	orth=ନେତା|gloss=odem
+18	sat	sat	NOUN	_	_	_	dobj	_	orth=ସତ୍‌|gloss=truth|Number=Sing
+19	maattaa	maattaa	NOUN	_	_	_	_	_	orth=ମାଟା|gloss=speaking
+20	inikaa	inikaa	VERB	_	_	_	_	_	orth=ଇନିକା|gloss=t
+21	,	,	PUNCT	_	_	_	_	_	orth=,
+22	inikaabaa	inikaabaa	PART	_	_	_	_	_	orth=ଇନିକାବା|gloss=moment
+23	nestengg	nestengg	unk	_	_	_	_	_	orth=ନେସ୍‌ତେଙ୍ଗ୍‌|gloss=conv
+24	aattetaan	aattetaan	unk	_	_	_	_	_	orth=ଆଟ୍‍ଏତାନ୍‍|gloss=unbelief
+25	.	.	PUNCT	_	_	_	_	_	orth=।
+26	aabett	aabett	ADV	_	_	_	_	_	orth=ଆବେଟ୍‌|gloss=emp
+27	waan	waan	PRON	_	_	_	_	_	orth=ୱାନ୍‌|gloss=He
+28	paaulatinggm	paaulatinggm	PROPN	_	_	_	_	_	orth=ପାଉଲତିଙ୍ଗ୍‍ଁ|gloss=bound
+29	sanyartebaani	sanyartebaani	NOUN	_	_	_	_	_	orth=ସନ୍ୟର୍‌ତେବାନି|gloss=violent
+30	baaddi	baaddi	NOUN	_	_	_	_	_	orth=ବାଡି|gloss=seats
+31	loi	loi	ADP	_	_	_	_	_	orth=ଲୋଇ|gloss=inside
+32	atenggm	atenggm	VERB	_	_	_	_	_	orth=ଅତେଙ୍ଗ୍‍ଁ
+33	iji	iji	PART	_	_	_	_	_	orth=ଇଜି|gloss=ing
+34	sanyaringg	sanyaringg	NOUN	_	_	_	_	_	orth=ସନ୍ୟରିଙ୍ଗ୍‌|gloss=commanding
+35	aades	aades	VERB	_	_	0	root	_	orth=ଆଦେସ୍‌|gloss=ordered|Tense=Past|VerbForm=Fin
+36	sitaan	sitaan	VERB	_	_	_	_	_	orth=ସିତାନ୍‌|gloss=gave
+37	.	.	PUNCT	_	_	_	_	_	orth=।
+
+# sent_id = 47012002
+# ref_id = 2 Corinthians 12:2
+# eng_text = I know a man in Christ , fourteen years ago ( whether in the body , I don't know , or whether out of the body , I don't know ; God knows ) , such a one caught up into the third heaven .
+# kfc_text = kristadimaanu maani arena lok sauda baarsek aagddi munddriripurtu sarhaamaarhaan waan nijedi mendaltaan sarhaamaarhaan baa lab suddutaamaarhaan , naanu nesee , aakaa kebala maapuru nesnaan .
+# kfc_orth = କ୍ରିସ୍ତଦିମାନୁ ମାନି ଅରେନ ଲୋକ୍‍ ସଉଦ ବାର୍ସେକ୍ ଆଗ୍‍ଡ଼ି ମୁନ୍‍ଡ୍ରିରିପୁର୍‍ତୁ ସର୍ହାମାର୍ହାନ୍‍ ୱାନ୍‌ ନିଜେଦି ମେନ୍ଦଲ୍‌ତାନ୍ ସର୍ହାମାର୍ହାନ୍‍ ବା ଲବ୍‍ ସୁଡ଼ୁତାମାର୍ହାନ୍ , ନାନୁ ନେସେଏ , ଆକା କେବଲ ମାପୁରୁ ନେସ୍‌ନାନ୍ ।
+1	kristadimaanu	kristadimaanu	NOUN	_	_	_	_	_	orth=କ୍ରିସ୍ତଦିମାନୁ|gloss=Yet
+2	maani	maani	NOUN	_	_	_	_	_	orth=ମାନି|gloss=Ar
+3	arena	arena	DET	_	_	_	_	_	orth=ଅରେନ
+4	lok	lok	VERB	_	_	_	_	_	orth=ଲୋକ୍‍|gloss=drinking
+5	sauda	sauda	NUM	_	_	6	nummod	_	orth=ସଉଦ|gloss=fourteen|NumType=Card
+6	baarsek	baarsek	NOUN	_	_	_	npadvmod	_	orth=ବାର୍ସେକ୍|gloss=years|Number=Plur
+7	aagddi	aagddi	ADV	_	_	_	_	_	orth=ଆଗ୍‍ଡ଼ି|gloss=before
+8	munddriripurtu	munddriripurtu	NOUN	_	_	_	_	_	orth=ମୁନ୍‍ଡ୍ରିରିପୁର୍‍ତୁ
+9	sarhaamaarhaan	sarhaamaarhaan	VERB	_	_	_	_	_	orth=ସର୍ହାମାର୍ହାନ୍‍|gloss=roof
+10	waan	waan	PRON	_	_	_	_	_	orth=ୱାନ୍‌|gloss=He
+11	nijedi	nijedi	PRON	_	_	_	_	_	orth=ନିଜେଦି|gloss=ity
+12	mendaltaan	mendaltaan	VERB	_	_	_	_	_	orth=ମେନ୍ଦଲ୍‌ତାନ୍|gloss=celebrating
+13	sarhaamaarhaan	sarhaamaarhaan	VERB	_	_	_	_	_	orth=ସର୍ହାମାର୍ହାନ୍‍|gloss=roof
+14	baa	baa	unk	_	_	_	_	_	orth=ବା|gloss=also
+15	lab	lab	SCONJ	_	_	_	_	_	orth=ଲବ୍‍|gloss=hether
+16	suddutaamaarhaan	suddutaamaarhaan	VERB	_	_	_	_	_	orth=ସୁଡ଼ୁତାମାର୍ହାନ୍
+17	,	,	PUNCT	_	_	_	_	_	orth=,
+18	naanu	naanu	PRON	_	_	_	nsubj	_	orth=ନାନୁ|gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+19	nesee	nesee	VERB	_	_	_	_	_	orth=ନେସେଏ|gloss=rooster
+20	,	,	PUNCT	_	_	_	_	_	orth=,
+21	aakaa	aakaa	PRON	_	_	_	_	_	orth=ଆକା|gloss=it
+22	kebala	kebala	ADV	_	_	_	_	_	orth=କେବଲ|gloss=situation
+23	maapuru	maapuru	PROPN	_	_	24	nsubj	_	orth=ମାପୁରୁ|gloss=God|Number=Sing
+24	nesnaan	nesnaan	VERB	_	_	0	root	_	orth=ନେସ୍‌ନାନ୍|gloss=knows|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+25	.	.	PUNCT	_	_	_	_	_	orth=।
+
+# sent_id = 62004009
+# ref_id = 1 John 4:9
+# eng_text = By this was God's love revealed in us , that God has sent his only born Son into the world that we might live through him .
+# kfc_text = ibenu maapurudi jibannonikaa maa unntingg tartaamaanaan , maapuru je nijedi maarintingg jagatdu poktaataan , enntes maap waanimaannuku wijudin jiban paynaap .
+# kfc_orth = ଇବେନୁ ମାପୁରୁଦି ଜିବନ୍‌ନୋନିକା ମା ଉଣ୍ତିଙ୍ଗ୍‌ ତର୍‌ତାମାନାନ୍‌ , ମାପୁରୁ ଜେ ନିଜେଦି ମାରିନ୍‌ତିଙ୍ଗ୍‌ ଜଗତ୍‌ଦୁ ପୋକ୍‌ତାତାନ୍‌ , ଏଣ୍ତେସ୍‌ ମାପ୍‌ ୱାନିମାଣୁକୁ ୱିଜୁଦିନ୍ ଜିବନ୍‌ ପୟ୍‌ନାପ୍‌ ।
+1	ibenu	ibenu	ADV	_	_	_	_	_	orth=ଇବେନୁ|gloss=here
+2	maapurudi	maapurudi	PROPN	_	_	_	nsubj	_	orth=ମାପୁରୁଦି|gloss=God|Number=Sing
+3	jibannonikaa	jibannonikaa	NOUN	_	_	_	_	_	orth=ଜିବନ୍‌ନୋନିକା|gloss=love
+4	maa	maa	PRON	_	_	_	_	_	orth=ମା|gloss=our
+5	unntingg	unntingg	ADP	_	_	_	_	_	orth=ଉଣ୍ତିଙ୍ଗ୍‌|gloss=for
+6	tartaamaanaan	tartaamaanaan	VERB	_	_	_	_	_	orth=ତର୍‌ତାମାନାନ୍‌|gloss=source
+7	,	,	PUNCT	_	_	_	_	_	orth=,
+8	maapuru	maapuru	PROPN	_	_	_	nsubj	_	orth=ମାପୁରୁ|gloss=God|Number=Sing
+9	je	je	SCONJ	_	_	_	_	_	orth=ଜେ|gloss=conscience
+10	nijedi	nijedi	PRON	_	_	_	_	_	orth=ନିଜେଦି|gloss=ity
+11	maarintingg	maarintingg	VERB	_	_	_	ccomp	_	orth=ମାରିନ୍‌ତିଙ୍ଗ୍‌|gloss=loved|Tense=Past|VerbForm=Fin
+12	jagatdu	jagatdu	NOUN	_	_	_	_	_	orth=ଜଗତ୍‌ଦୁ|gloss=shows
+13	poktaataan	poktaataan	VERB	_	_	_	_	_	orth=ପୋକ୍‌ତାତାନ୍‌|gloss=real
+14	,	,	PUNCT	_	_	_	_	_	orth=,
+15	enntes	enntes	SCONJ	_	_	_	mark	_	orth=ଏଣ୍ତେସ୍‌|gloss=so
+16	maap	maap	PRON	_	_	_	_	_	orth=ମାପ୍‌|gloss=We
+17	waanimaannuku	waanimaannuku	PRON	_	_	_	_	_	orth=ୱାନିମାଣୁକୁ|gloss=disappeared
+18	wijudin	wijudin	VERB	_	_	_	_	_	orth=ୱିଜୁଦିନ୍|gloss=imm
+19	jiban	jiban	NOUN	_	_	_	dobj	_	orth=ଜିବନ୍‌|gloss=life|Number=Sing
+20	paynaap	paynaap	unk	_	_	_	_	_	orth=ପୟ୍‌ନାପ୍‌
+21	.	.	PUNCT	_	_	_	_	_	orth=।
+
+# sent_id = 63001005
+# ref_id = 2 John 1:5
+# eng_text = Now I beg you , dear lady , not as though I wrote to you a new commandment , but that which we had from the beginning , that we love one another .
+# kfc_text = e negi aaimaa , ninggim naanu werni maattaa , maaddu nijenijedingg jibannojisaanikaa maanaat . naan je mi laaktu ini puni maattaa raassinaa , aakaa sile , maatar purbedaanne maapu iyaa aades paytaa maanaap .
+# kfc_orth = ଏ ନେଗି ଆଇମା , ନିଙ୍ଗିଁ ନାନୁ ୱେର୍‌ନି ମାଟା , ମାଡୁ ନିଜେନିଜେଦିଙ୍ଗ୍‌ ଜିବନ୍‌ନୋଜିସାନିକା ମାନାତ୍‌ । ନାନ୍‌ ଜେ ମି ଲାକ୍‌ତୁ ଇନି ପୁନି ମାଟା ରାସ୍‌ସିନା , ଆକା ସିଲେ , ମାତର୍‌ ପୁର୍ବେଦାନ୍‌ନେ ମାପୁ ଇୟା ଆଦେସ୍‌ ପୟ୍‌ତା ମାନାପ୍‌ ।
+1	e	e	ADJ	_	_	_	amod	_	orth=ଏ|gloss=dear|Degree=Pos
+2	negi	negi	ADJ	_	_	_	_	_	orth=ନେଗି|gloss=good
+3	aaimaa	aaimaa	NOUN	_	_	_	_	_	orth=ଆଇମା|gloss=woman
+4	,	,	PUNCT	_	_	_	_	_	orth=,
+5	ninggim	ninggim	ADV	_	_	_	_	_	orth=ନିଙ୍ଗିଁ|gloss=Right
+6	naanu	naanu	PRON	_	_	22	nsubj	_	orth=ନାନୁ|gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+7	werni	werni	NOUN	_	_	_	attr	_	orth=ୱେର୍‌ନି|gloss=commandment|Number=Sing
+8	maattaa	maattaa	NOUN	_	_	_	_	_	orth=ମାଟା|gloss=speaking
+9	,	,	PUNCT	_	_	_	_	_	orth=,
+10	maaddu	maaddu	PRON	_	_	_	nsubj	_	orth=ମାଡୁ|gloss=we|Case=Nom|Number=Plur|Person=1|PronType=Prs
+11	nijenijedingg	nijenijedingg	PRON	_	_	_	_	_	orth=ନିଜେନିଜେଦିଙ୍ଗ୍‌|gloss=each
+12	jibannojisaanikaa	jibannojisaanikaa	NOUN	_	_	_	_	_	orth=ଜିବନ୍‌ନୋଜିସାନିକା|gloss=express
+13	maanaat	maanaat	VERB	_	_	_	_	_	orth=ମାନାତ୍‌|gloss=each
+14	.	.	PUNCT	_	_	_	_	_	orth=।
+15	naan	naan	PRON	_	_	22	nsubj	_	orth=ନାନ୍‌|gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+16	je	je	SCONJ	_	_	_	_	_	orth=ଜେ|gloss=conscience
+17	mi	mi	PRON	_	_	_	_	_	orth=ମି|gloss=your
+18	laaktu	laaktu	VERB	_	_	_	_	_	orth=ଲାକ୍‌ତୁ|gloss=fail
+19	ini	ini	ADV	_	_	_	_	_	orth=ଇନି|gloss=source
+20	puni	puni	ADJ	_	_	7	amod	_	orth=ପୁନି|gloss=new|Degree=Pos
+21	maattaa	maattaa	NOUN	_	_	_	_	_	orth=ମାଟା|gloss=speaking
+22	raassinaa	raassinaa	VERB	_	_	0	root	_	orth=ରାସ୍‌ସିନା|gloss=writing|Aspect=Prog|Tense=Pres|VerbForm=Part
+23	,	,	PUNCT	_	_	_	_	_	orth=,
+24	aakaa	aakaa	PRON	_	_	_	_	_	orth=ଆକା|gloss=it
+25	sile	sile	PART	_	_	_	neg	_	orth=ସିଲେ|gloss=not|Polarity=Neg
+26	,	,	PUNCT	_	_	_	_	_	orth=,
+27	maatar	maatar	unk	_	_	0	dep	_	orth=ମାତର୍‌|gloss=But
+28	purbedaanne	purbedaanne	NOUN	_	_	_	_	_	orth=ପୁର୍ବେଦାନ୍‌ନେ
+29	maapu	maapu	NOUN	_	_	_	_	_	orth=ମାପୁ|gloss=showing
+30	iyaa	iyaa	DET	_	_	_	_	_	orth=ଇୟା|gloss=this
+31	aades	aades	NOUN	_	_	_	_	_	orth=ଆଦେସ୍‌|gloss=ordered
+32	paytaa	paytaa	VERB	_	_	_	_	_	orth=ପୟ୍‌ତା|gloss=var
+33	maanaap	maanaap	VERB	_	_	_	_	_	orth=ମାନାପ୍‌|gloss=pract
+34	.	.	PUNCT	_	_	_	_	_	orth=।
+

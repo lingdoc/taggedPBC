@@ -1,0 +1,998 @@
+## The following text has been annotated for parts of speech by students at NTU Singapore as part of a class project in AY 2025.
+## Verses are extracted from the taggedPBC. Annotations have been developed with a combination of manual and automated approaches, with reference to existing literature and (where possible) native speakers.
+## ISO 639-3: ami, Language: Amis, Number of verses: 21
+## References: Council of Indigenous Peoples 原住民族委員會. (n.d.) Yuanzhuminzu yuyan xianshang cidian 原住民族語言線上辭典 [Online dictionaries of Indigenous languages]. Retrieved on 24 October 2025 from https://e-dictionary.ilrdf.org.tw/home. ; Ethnologue. (2023) 26th Edition. ; Fey, V . (1986). Amis dictionary. Taipei: The Bible Society. ; Glosbe. (n.d.) Dictionary Amis - English. Retrieved on 22 October 2025 from https://en.glosbe.com/ami/en. ; Glottolog. (n.d.) Spoken L1 Language: Amis. Retrieved on 24 October 2025 from https://glottolog.org/resource/languoid/id/amis1246. ; Maddieson, I., & Wright, R. (1995). The consonants and vowels of Amis—A preliminary report. UCLA: Working Papers in Phonetics, 91, pp. 45–66. https://escholarship.org/uc/item/3h25w3h3. ; miaoski. (2016). miaoski/amis-data [Python]. GitHub. Retrieved on 13 October 2025 from https://github.com/miaoski/amis-data. ; Moseley, Christopher. (2010) Atlas of the World's Languages in Danger. UNESCO. https://unesdoc.unesco.org/ark:/48223/pf0000187026.locale=en. ; The World Atlas of Language Structure Online(WALS Online). (n.d.) Language Amis. Retrieved on 24 October 2025 from https://wals.info/languoid/lect/wals_code_ami
+
+# sent_id = 40006024
+1	<	<	PUNCT	_	_	_	_	_	_	_	PUNCT
+2	<	<	PUNCT	_	_	_	_	_	_	_	PUNCT
+3	Caay	caay	PART	_	_	_	_	_	gloss=und	no * not * negative	PART	不, 不是, 否定詞
+4	ka	ka	unk	_	_	_	_	_	gloss=t	prefix	unk	前綴，行為本身
+5	nga'ay	nga'ay	AUX	_	_	_	_	_	_	okay * agreed * acceptable	AUX	好，同意，贊成，可接受
+6	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	CCONJ	連結詞 (為某種意義或修飾用)
+7	tosa	tosa	NUM	_	_	_	_	_	gloss=twelve	two	NUM	二
+8	ko	ko	PART	_	_	_	dobj	_	gloss=other|Degree=Pos	See Appendix 1 - Connective Grammatical Markers.	PART	參閱附錄I，連接詞
+9	tapang	tapang	NOUN	_	_	_	_	_	gloss=commander	lord * master	NOUN	主人
+10	no	no	ADP	_	_	_	_	_	gloss=of	a grammatical particle * of * by.  See Grammar Appendix 2.	ADP	文法上的用詞有屬於或憑，依據，藉，經等用法。參閱附錄Ⅱ文法
+11	ccay	ccay	NUM	_	_	_	pobj	_	gloss=one|NumType=Card	one	NUM	_
+12	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+13	matayalay	matayalay	NOUN	_	_	_	_	_	gloss=servants	worker	NOUN	工人
+14	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+15	koli	koli	NOUN	_	_	_	_	_	gloss=slave	laborer * slave	NOUN	佣人，奴僕
+16	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+17	Nawhani	nawhani	SCONJ	_	_	_	prep	_	gloss=For	because * for	SCONJ	因為
+18	ano	ano	SCONJ	_	_	_	_	_	gloss=un	if * contingent particle	SCONJ	如果，若，假使 (偶然性或意外情境中的詞類)
+19	haenen	haenen	unk	_	_	_	_	_	gloss=store	store	unk	_
+20	ningra	ningra	PRON	_	_	_	_	_	gloss=pleaded	his * hers * by him or her.  See Pronouns - Appendix 1.	PRON	他 (她) 的；藉著他 (她) 。參閱附錄I代名詞
+21	i	i	ADP	_	_	_	_	_	gloss=in	a grammatical particle indicating place or time past	ADP	地點，過去的時間
+22	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+23	ka'osien	ka'osien	VERB	_	_	_	_	_	_	dislike * detest	VERB	挑剔
+24	ningra	ningra	PRON	_	_	_	_	_	gloss=pleaded	his * hers * by him or her.  See Pronouns - Appendix 1.	_	他 (她) 的；藉著他 (她) 。參閱附錄I代名詞
+25	ko	ko	PART	_	_	_	dobj	_	gloss=other|Degree=Pos	See Appendix 1 - Connective Grammatical Markers.	ADP	參閱附錄I，連接詞
+26	ccay	ccay	NUM	_	_	_	pobj	_	gloss=one|NumType=Card	one	NUM	_
+27	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+28	kaolahen	kaolahen	NOUN	_	_	_	_	_	gloss=ise	ise	NOUN	喜歡的人或物
+29	ningra	ningra	PRON	_	_	_	_	_	gloss=pleaded	his * hers * by him or her.  See Pronouns - Appendix 1.	_	他 (她) 的；藉著他 (她) 。參閱附錄I代名詞
+30	ko	ko	PART	_	_	_	dobj	_	gloss=other|Degree=Pos	See Appendix 1 - Connective Grammatical Markers.	ADP	參閱附錄I，連接詞
+31	ccay	ccay	NUM	_	_	_	pobj	_	gloss=one|NumType=Card	one	NUM	_
+32	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+33	Ano	ano	SCONJ	_	_	_	_	_	gloss=If	if * contingent particle	SCONJ	如果，若，假使 (偶然性或意外情境中的詞類)
+34	^	^	PUNCT	_	_	_	_	_	_	_	PUNCT
+35	ca	ca	PART	_	_	_	_	_	gloss=prophes	a negative particle	PART	否定詞
+36	i	i	ADP	_	_	_	_	_	gloss=in	a grammatical particle indicating place or time past	ADP	地點，過去的時間
+37	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+38	kangodoen	kangodoen	VERB	_	_	_	_	_	gloss=Surely	Surely	VERB	_
+39	ningra	ningra	PRON	_	_	_	_	_	gloss=pleaded	his * hers * by him or her.  See Pronouns - Appendix 1.	_	他 (她) 的；藉著他 (她) 。參閱附錄I代名詞
+40	ko	ko	PART	_	_	_	dobj	_	gloss=other|Degree=Pos	See Appendix 1 - Connective Grammatical Markers.	ADP	參閱附錄I，連接詞
+41	ccay	ccay	NUM	_	_	_	pobj	_	gloss=one|NumType=Card	one	NUM	_
+42	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+43	^	^	PUNCT	_	_	_	_	_	_	_	PUNCT
+44	pecen	pecen	unk	_	_	_	_	_	gloss=ise	ise	unk	_
+45	ningra	ningra	PRON	_	_	_	_	_	gloss=pleaded	his * hers * by him or her.  See Pronouns - Appendix 1.	_	他 (她) 的；藉著他 (她) 。參閱附錄I代名詞
+46	ko	ko	PART	_	_	_	dobj	_	gloss=other|Degree=Pos	See Appendix 1 - Connective Grammatical Markers.	ADP	參閱附錄I，連接詞
+47	ccay	ccay	NUM	_	_	_	pobj	_	gloss=one|NumType=Card	one	NUM	_
+48	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+49	Orasaka	orasaka	SCONJ	_	_	_	_	_	gloss=Therefore	a logical connective meaning so * therefore	SCONJ	所以(連接詞)
+50	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+51	ano	ano	SCONJ	_	_	_	_	_	gloss=un	if * contingent particle	SCONJ	如果，若，假使 (偶然性或意外情境中的詞類)
+52	palcaden	palcaden	unk	_	_	_	_	_	gloss=ise	ise	unk	_
+53	namo	namo	PRON	_	_	_	_	_	gloss=your	yours (plural) * your.  See Pronouns - Appendix 1.	PRON	你們的；參閱附錄I代名詞
+54	ko	ko	PART	_	_	_	dobj	_	gloss=other|Degree=Pos	See Appendix 1 - Connective Grammatical Markers.	ADP	參閱附錄I，連接詞
+55	harateng	harateng	NOUN	_	_	_	_	_	gloss=discipline	thoughts * thinking * point of view	NOUN	想法，思想
+56	to	to	PART	_	_	_	_	_	gloss=also	also	PART	_
+57	saki	saki	SCONJ	_	_	_	_	_	gloss=asks	for the sake of	SCONJ	為了，因……的緣故
+58	Kawas	kawas	PROPN	_	_	_	dobj	_	gloss=God|Number=Sing	Kawas - God	PROPN	上帝
+59	ato	ato	CCONJ	_	_	_	_	_	gloss=ounding	and	CCONJ	和，及，與
+60	saki	saki	SCONJ	_	_	_	_	_	gloss=asks	for the sake of	SCONJ	為了，因……的緣故
+61	dafong	dafong	NOUN	_	_	_	_	_	gloss=sad	possessions * things that you own	NOUN	所有物，財產
+62	i	i	ADP	_	_	_	_	_	gloss=in	a grammatical particle indicating place or time past	ADP	地點，過去的時間
+63	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+64	caay	caay	PART	_	_	_	_	_	gloss=n	no * not * negative	PART	不, 不是, 否定詞
+65	ka	ka	unk	_	_	_	_	_	gloss=t	prefix	unk	前綴，行為本身
+66	nga'ay	nga'ay	AUX	_	_	_	_	_	_	okay * agreed * acceptable	_	好，同意，贊成，可接受
+67	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+
+# sent_id = 40018012
+1	<	<	PUNCT	_	_	_	_	_	_	_	PUNCT
+2	<	<	PUNCT	_	_	_	_	_	_	_	PUNCT
+3	Ano	ano	SCONJ	_	_	_	mark	_	gloss=If	if * contingent particle	如果，若，假使 (偶然性或意外情境中的詞類)	如果，若，假使 (偶然性或意外情境中的詞類)
+4	ira	ira	VERB	_	_	_	_	_	gloss=year	there is * existing	VERB	存在
+5	ko	ko	PART	_	_	_	_	_	gloss=other	See Appendix 1 - Connective Grammatical Markers.	_	參閱附錄I，連接詞
+6	cisiriay	cisiriay	ADJ	_	_	_	_	_	gloss=ety	ety	ADJ	_
+7	to	to	PART	_	_	_	_	_	gloss=also	also	_	_
+8	smo'otay	smo'otay	unk	_	_	_	_	_	_	_	unk	_
+9	i	i	ADP	_	_	_	_	_	gloss=in	a grammatical particle indicating place or time past	_	地點，過去的時間
+10	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+11	ano	ano	SCONJ	_	_	_	_	_	gloss=un	if * contingent particle	_	如果，若，假使 (偶然性或意外情境中的詞類)
+12	masiday	masiday	ADJ	_	_	_	_	_	gloss=ety	ety	ADJ	被遺失 * 遺失 * 缺少
+13	ko	ko	PART	_	_	_	_	_	gloss=other	See Appendix 1 - Connective Grammatical Markers.	_	參閱附錄I，連接詞
+14	ccay	ccay	NUM	_	_	_	pobj	_	gloss=one|Number=Sing	one	NOUN	_
+15	nonini	nonini	DET	_	_	_	_	_	gloss=meant	this * of this * by this.  See Pronouns - Appendix 1.	DET	這個，屬這個，依據這個。參閱附錄Ⅰ代名詞
+16	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+17	caay	caay	PART	_	_	_	_	_	gloss=n	no * not * negative	_	不, 不是, 否定詞
+18	hakiya	hakiya	INTJ	_	_	_	_	_	gloss=W	verbal question mark * meaning is less than obvious * provoking thought	INTJ	口頭上的疑問句，意義不明顯，引發思想
+19	ka	ka	unk	_	_	_	_	_	gloss=t	prefix	_	前綴，行為本身
+20	siday	siday	VERB	_	_	_	_	_	gloss=port	to leave behind	VERB	遺失，遺留，遺忘
+21	han	han	VERB	_	_	_	_	_	gloss=ps	an untranslatable grammatical particle suffix, with a response agent type force	VERB	無法翻譯的文法尾詞
+22	ningra	ningra	PRON	_	_	_	_	_	gloss=pleaded	his * hers * by him or her.  See Pronouns - Appendix 1.	_	他 (她) 的；藉著他 (她) 。參閱附錄I代名詞
+23	itira	itira	DET	_	_	_	_	_	gloss=there	there * place pronoun (also i tira)	DET	在那兒；地方代名詞 (或寫作 i tira)
+24	i	i	ADP	_	_	_	_	_	gloss=in	a grammatical particle indicating place or time past	_	地點，過去的時間
+25	kasadafdaf	kasadafdaf	VERB	_	_	_	_	_	_	leave * go	VERB	出去 * 出现 * 出来
+26	no	no	ADP	_	_	14	prep	_	gloss=of	a grammatical particle * of * by.  See Grammar Appendix 2.	ADP	文法上的用詞有屬於或憑，依據，藉，經等用法。參閱附錄Ⅱ文法
+27	lotok	lotok	NOUN	_	_	_	_	_	gloss=Mount	mountain	NOUN	山嶺，山
+28	koya	koya	SCONJ	_	_	_	_	_	gloss=remains	the * that * See Appendix 1 - Connective Crammatical Paricles	SCONJ	那個。參閱附錄I連接詞
+29	siwa	siwa	NUM	_	_	_	_	_	gloss=ety	nine	NUM	九
+30	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+31	polo'	polo'	NUM	_	_	_	_	_	_	a bird * Bamboo Partridge	NUM	鷓鴣鳥
+32	ira	ira	VERB	_	_	_	_	_	gloss=year	there is * existing	_	存在
+33	ko	ko	PART	_	_	_	_	_	gloss=other	See Appendix 1 - Connective Grammatical Markers.	_	參閱附錄I，連接詞
+34	siwa	siwa	NUM	_	_	_	_	_	gloss=ety	nine	_	九
+35	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+36	siri	siri	NOUN	_	_	_	dobj	_	gloss=sheep|Number=Plur	goats	NOUN	公羊
+37	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+38	ta	ta	CCONJ	_	_	_	_	_	gloss=dis	a connective particle meaning and or then in quick time succession	CCONJ	文法連接詞或在短促的時間內迅速完成
+39	tayra	tayra	VERB	_	_	_	_	_	gloss=went	to go	VERB	往，去
+40	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+41	mikilim	mikilim	VERB	_	_	_	advcl	_	gloss=search|VerbForm=Inf	search	VERB	_
+42	toya	toya	unk	_	_	_	_	_	gloss=pro	pro	unk	_
+43	ccay	ccay	NUM	_	_	_	pobj	_	gloss=one|Number=Sing	one	NOUN	_
+44	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+45	masidayay	masidayay	VERB	_	_	43	relcl	_	gloss=lost|Aspect=Perf|Tense=Past|VerbForm=Part	lost	VERB	_
+46	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+47	siri	siri	NOUN	_	_	_	dobj	_	gloss=sheep|Number=Plur	goats	NOUN	公羊
+48	?	?	PUNCT	_	_	_	_	_	_	_	PUNCT
+49	Masamaan	masamaan	ADV	_	_	_	_	_	_	how	ADV	如何 * 怎麼樣
+50	ko	ko	PART	_	_	_	_	_	gloss=other	See Appendix 1 - Connective Grammatical Markers.	_	參閱附錄I，連接詞
+51	harateng	harateng	NOUN	_	_	_	_	_	gloss=discipline	thoughts * thinking * point of view	_	想法，思想
+52	namo	namo	PRON	_	_	_	_	_	gloss=your	yours (plural) * your.  See Pronouns - Appendix 1.	_	你們的；參閱附錄I代名詞
+53	?	?	PUNCT	_	_	_	_	_	_	_	PUNCT
+
+# sent_id = 40020021
+1	Licay	licay	VERB	_	_	_	_	_	gloss=Seven	greeting	VERB	請安
+2	sa	sa	unk	_	_	_	_	_	gloss=struck	struck	unk	_
+3	ci	ci	PART	_	_	_	_	_	gloss=out	out	PART	_
+4	Yis	yis	PROPN	_	_	_	_	_	gloss=Jesus	Jesus	PROPN	_
+5	i	i	ADP	_	_	_	prep	_	gloss=in	a grammatical particle indicating place or time past	ADP	地點，過去的時間
+6	cingraan	cingraan	PRON	_	_	_	_	_	gloss=ledge	ledge	PRON	_
+7	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+8	<	<	PUNCT	_	_	_	_	_	_	_	PUNCT
+9	<	<	PUNCT	_	_	_	_	_	_	_	PUNCT
+10	O	o	DET	_	_	_	_	_	gloss=To	To	DET	那是*那个
+11	maan	maan	PRON	_	_	_	attr	_	gloss=What	what * whatever	PRON	什麼，任何東西
+12	ko	ko	PART	_	_	49	conj	_	gloss=other|Degree=Pos	See Appendix 1 - Connective Grammatical Markers.	ADJ	參閱附錄I，連接詞
+13	lalongocen	lalongocen	NOUN	_	_	_	nsubj	_	gloss=sons|Number=Plur	sons	NOUN	_
+14	iso	iso	PRON	_	_	_	_	_	gloss=Your	you * your (singular) * a pronoun	PRON	你(的)(單數)；代名詞
+15	saw	saw	INTJ	_	_	_	_	_	gloss=How	a question particle indicating that the speaker expects the answer to be obvious	INTJ	疑問句，指說話者的期望能獲得更具體的回答
+16	?	?	PUNCT	_	_	_	_	_	_	_	PUNCT
+17	>	>	PUNCT	_	_	_	_	_	_	_	PUNCT
+18	>	>	PUNCT	_	_	_	_	_	_	_	PUNCT
+19	han	han	VERB	_	_	_	_	_	gloss=ps	an untranslatable grammatical particle suffix, with a response agent type force		無法翻譯的文法尾詞
+20	Ningra	ningra	PRON	_	_	_	_	_	gloss=real	his * hers * by him or her.  See Pronouns - Appendix 1.	PRON	他 (她) 的；藉著他 (她) 。參閱附錄I代名詞
+21	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+22	Paca'of	paca'of	VERB	_	_	_	_	_	_	to give an answer	VERB	給一回答
+23	sa	sa	unk	_	_	_	_	_	gloss=struck	struck	unk	_
+24	koya	koya	SCONJ	_	_	_	_	_	gloss=remains	the * that * See Appendix 1 - Connective Crammatical Paricles	_	那個。參閱附錄I連接詞
+25	ina	ina	NOUN	_	_	_	_	_	gloss=mother	mother	NOUN	母親
+26	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+27	<	<	PUNCT	_	_	_	_	_	_	_	PUNCT
+28	<	<	PUNCT	_	_	_	_	_	_	_	PUNCT
+29	Nanay	nanay	VERB	_	_	_	_	_	gloss=Amen	an expression of wish or desire	VERB	但願，希望
+30	milahci	milahci	unk	_	_	_	_	_	gloss=grabbed	grabbed	unk	_
+31	Kiso	kiso	PRON	_	_	_	_	_	gloss=heal	you (singular) See Appendix 1 - Pronouns.	PRON	你，參閱附錄I代名詞
+32	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+33	ano	ano	SCONJ	_	_	_	_	_	gloss=un	if * contingent particle	_	如果，若，假使 (偶然性或意外情境中的詞類)
+34	malahongtito	malahongtito	NOUN	_	_	_	_	_	_	king * kingdom	NOUN	_
+35	Kiso	kiso	PRON	_	_	_	_	_	gloss=heal	you (singular) See Appendix 1 - Pronouns.	_	你，參閱附錄I代名詞
+36	i	i	ADP	_	_	_	prep	_	gloss=in	a grammatical particle indicating place or time past	ADP	地點，過去的時間
+37	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+38	pakamaro'en	pakamaro'en	VERB    請就座位	_	_	_	_	_	_	please take the seat	VERB    請就座位
+39	ko	ko	PART	_	_	49	conj	_	gloss=other|Degree=Pos	See Appendix 1 - Connective Grammatical Markers.	ADJ	參閱附錄I，連接詞
+40	tatosaay	tatosaay	NUM	_	_	13	nummod	_	gloss=two|NumType=Card	two	NUM	_
+41	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+42	wawa	wawa	NOUN	_	_	_	_	_	gloss=son	offspring	NOUN	子孫
+43	ako	ako	PRON	_	_	_	_	_	gloss=dear	my * mine * by me.  See Appendix 1 pronouns.	PRON	我的。請參閱附錄Ⅰ - 代名詞
+44	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+45	i	i	ADP	_	_	_	prep	_	gloss=in	a grammatical particle indicating place or time past	ADP	地點，過去的時間
+46	kawananen	kawananen	NOUN	_	_	45	pobj	_	gloss=places|Number=Plur	places	NOUN	_
+47	Iso	iso	PRON	_	_	_	_	_	gloss=lain	you * your (singular) * a pronoun	PRON	你(的)(單數)；代名詞
+48	ko	ko	PART	_	_	49	conj	_	gloss=other|Degree=Pos	See Appendix 1 - Connective Grammatical Markers.	ADJ	參閱附錄I，連接詞
+49	ccay	ccay	NUM	_	_	_	npadvmod	_	gloss=one|NumType=Card	one	NUM	_
+50	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+51	i	i	ADP	_	_	_	prep	_	gloss=in	a grammatical particle indicating place or time past	ADP	地點，過去的時間
+52	kawilien	kawilien	NOUN	_	_	51	pobj	_	gloss=places|Number=Plur	places	NOUN	_
+53	Iso	iso	PRON	_	_	_	_	_	gloss=lain	you * your (singular) * a pronoun	_	你(的)(單數)；代名詞
+54	ko	ko	PART	_	_	55	conj	_	gloss=other|Degree=Pos	See Appendix 1 - Connective Grammatical Markers.	ADJ	參閱附錄I，連接詞
+55	ccay	ccay	NUM	_	_	_	npadvmod	_	gloss=one|NumType=Card	one	NUM	_
+56	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+57	>	>	PUNCT	_	_	_	_	_	_	_	PUNCT
+58	>	>	PUNCT	_	_	_	_	_	_	_	PUNCT
+59	han	han	VERB	_	_	_	_	_	gloss=ps	an untranslatable grammatical particle suffix, with a response agent type force	_	無法翻譯的文法尾詞
+60	ningra	ningra	PRON	_	_	_	_	_	gloss=pleaded	his * hers * by him or her.  See Pronouns - Appendix 1.	_	他 (她) 的；藉著他 (她) 。參閱附錄I代名詞
+61	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+
+# sent_id = 40026002
+1	<	<	PUNCT	_	_	_	_	_	_	_	PUNCT
+2	<	<	PUNCT	_	_	_	_	_	_	_	PUNCT
+3	Mafana'	mafana'	VERB	_	_	_	_	_	_	know	VERB	会 * 知道
+4	kamo	kamo	PRON	_	_	_	_	_	gloss=fl	you plural.  See Appendix 1 - Pronouns	PRON	你們，參閱附錄I代名詞
+5	ato	ato	CCONJ	_	_	_	_	_	gloss=ounding	and	_	和，及，與
+6	tosato	tosato	NUM	_	_	_	_	_	_	compound: 'tosa'+'to'	NUM	_
+7	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+8	romi'ad	romi'ad	NOUN	_	_	_	_	_	_	day	NOUN	日
+9	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+10	ta	ta	CCONJ	_	_	_	_	_	gloss=dis	a connective particle meaning and or then in quick time succession	_	文法連接詞或在短促的時間內迅速完成
+11	maraod	maraod	VERB	_	_	0	root	_	gloss=begins|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	begins	VERB	_
+12	ko	ko	PART	_	_	_	_	_	gloss=other	See Appendix 1 - Connective Grammatical Markers.	_	參閱附錄I，連接詞
+13	Pita'lifan	pita'lifan	unk	_	_	_	_	_	_	_	unk	_
+14	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+15	Lisin	lisin	NOUN	_	_	_	_	_	gloss=requ	superstitions * animistic worship	NOUN	迷信，禁忌，祭典 (物魅崇拜之祭典)
+16	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+17	O	o	DET	_	_	_	_	_	gloss=To	To	DET	_
+18	mamapacakay	mamapacakay	unk	_	_	_	_	_	_	mamapacok = about to be sacrificed	unk	_
+19	ko	ko	PART	_	_	_	_	_	gloss=other	See Appendix 1 - Connective Grammatical Markers.	_	參閱附錄I，連接詞
+20	Wawa	wawa	NOUN	_	_	_	nsubjpass	_	gloss=Son|Number=Sing	offspring	PROPN	子孫
+21	no	no	ADP	_	_	20	prep	_	gloss=of	a grammatical particle * of * by.  See Grammar Appendix 2.	ADP	文法上的用詞有屬於或憑，依據，藉，經等用法。參閱附錄Ⅱ文法
+22	Tamdaw	tamdaw	NOUN	_	_	21	pobj	_	gloss=Man|Number=Sing	man * generic for	NOUN	人的總稱
+23	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+24	ta	ta	CCONJ	_	_	_	_	_	gloss=dis	a connective particle meaning and or then in quick time succession	_	文法連接詞或在短促的時間內迅速完成
+25	o	o	DET	_	_	_	aux	_	gloss=will|VerbForm=Fin	To	?	_
+26	mamapacek	mamapacek	unk	_	_	_	_	_	_	mamapacok = about to be sacrificed	unk	_
+27	i	i	ADP	_	_	11	prep	_	gloss=in	a grammatical particle indicating place or time past	ADP	地點，過去的時間
+28	ciwcika	ciwcika	VERB	_	_	_	advcl	_	gloss=crucified|Aspect=Perf|Tense=Past|VerbForm=Part	the cross * wood frame on which Jesus was crucified (from Japanese)	VERB	十字架(引自日語)
+29	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+30	>	>	PUNCT	_	_	_	_	_	_	_	PUNCT
+31	>	>	PUNCT	_	_	_	_	_	_	_	PUNCT
+32	han	han	VERB	_	_	_	_	_	gloss=ps	an untranslatable grammatical particle suffix, with a response agent type force	_	無法翻譯的文法尾詞
+33	Ningra	ningra	PRON	_	_	_	_	_	gloss=real	his * hers * by him or her.  See Pronouns - Appendix 1.	_	他 (她) 的；藉著他 (她) 。參閱附錄I代名詞
+34	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+
+# sent_id = 40026061
+1	<	<	PUNCT	_	_	_	_	_	_	_	PUNCT
+2	<	<	PUNCT	_	_	_	_	_	_	_	PUNCT
+3	O	o	DET	_	_	_	_	_	gloss=To	To	_	_
+4	sowal	sowal	NOUN	_	_	_   _   _	gloss=word  words	NOUN    文字		words		文字
+5	nonini	nonini	DET	_	_	_	_	_	gloss=meant	this * of this * by this.  See Pronouns - Appendix 1.	_	這個，屬這個，依據這個。參閱附錄Ⅰ代名詞
+6	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+7	tamdaw	tamdaw	NOUN	_	_	_	_	_	gloss=ly	man * generic for	NOUN	人的總稱
+8	i	i	ADP	_	_	_	prep	_	gloss=in	a grammatical particle indicating place or time past	ADP	地點，過去的時間
+9	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+10	<	<	PUNCT	_	_	_	_	_	_	_	PUNCT
+11	Ma	ma	PART	_	_	_	_	_	gloss=num	active verbal particles / passive verbal particles	PART	主動的動詞前置詞/被動的動詞前置詞
+12	^	^	PUNCT	_	_	_	_	_	_	_	PUNCT
+13	deng	deng	unk	_	_	_	_	_	gloss=appro	appro	unk	_
+14	Kako	kako	AUX	_	_	_	ccomp	_	gloss=am|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	I * the first person personal pronoun (see Appendix 1 - Pronouns)	AUX	我，第一人稱代名詞，參閱附錄Ⅰ
+15	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+16	mipleng	mipleng	VERB	_	_	_	xcomp	_	gloss=destroy|VerbForm=Inf	destroy	VERB	_
+17	tonini	tonini	DET	_	_	_	_	_	gloss=broken	this.  See Pronouns - Appendix 1.	DET	這。參閱附錄Ⅰ代名詞
+18	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+19	Fangcalay	fangcalay	ADJ	_	_	_	_	_	gloss=Holy	Holy	ADJ	_
+20	Pita'ongan	pita'ongan	VERB	_	_	_	_	_	_	to worship	VERB	_
+21	to	to	PART	_	_	_	_	_	gloss=also	also	_	_
+22	Kawas	kawas	PROPN	_	_	_	pobj	_	gloss=God|Number=Sing	Kawas - God	PROPN	上帝
+23	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+24	ta	ta	CCONJ	_	_	_	_	_	gloss=dis	a connective particle meaning and or then in quick time succession	_	文法連接詞或在短促的時間內迅速完成
+25	liyawen	liyawen	VERB	_	_	_	_	_	gloss=temple	temple	VERB	_
+26	Ako	ako	PRON	_	_	_	_	_	gloss=my	my * mine * by me.  See Appendix 1 pronouns.	PRON	我的。請參閱附錄Ⅰ - 代名詞
+27	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+28	mipatireng	mipatireng	unk	_	_	_	_	_	gloss=accomp	accomp	unk	_
+29	i	i	ADP	_	_	_	prep	_	gloss=in	a grammatical particle indicating place or time past	ADP	地點，過去的時間
+30	tolo	tolo	NUM	_	_	_	nummod	_	gloss=three|NumType=Card	three	NUM	三
+31	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+32	romi'ad	romi'ad	NOUN	_	_	_	_	_	_	day	_	日
+33	konini	konini	DET	_	_	_	_	_	gloss=countryside	this.  See Appendix 1 Pronouns	DET	這個；參閱附錄I代名詞
+34	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+35	Pita'ongan	pita'ongan	VERB	_	_	_	_	_	_	to worship	VERB	_
+36	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+37	>	>	PUNCT	_	_	_	_	_	_	_	PUNCT
+38	saan	saan	INTJ	_	_	_	_	_	gloss=ud	a grammatical particle indicating a quotation mark marking the end of someone's words or thoughts	INTJ	文法上含概著許多自己意念的表達：一個句子的最後一個語氣的懇定
+39	Cingra	cingra	PRON	_	_	_	_	_	gloss=record	he * she.  See Appendix 1 - Pronouns.	PRON	他或她，參閱附錄Ⅰ - 代名詞
+40	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+41	>	>	PUNCT	_	_	_	_	_	_	_	PUNCT
+42	>	>	PUNCT	_	_	_	_	_	_	_	PUNCT
+43	han	han	VERB	_	_	_	_	_	gloss=ps	an untranslatable grammatical particle suffix, with a response agent type force	_	無法翻譯的文法尾詞
+44	nangra	nangra	PRON	_	_	_	_	_	gloss=their	their * theirs * belonging to them * they.  See Pronouns - Appendix 1	PRON	他們的，參閱附錄I代名詞
+45	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+
+# sent_id = 40028016
+1	Nanoya	nanoya	ADP	_	_	_	_	_	gloss=secretly	after that * after an interval of time	ADP	從那時候，從某一段時間之後
+2	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+3	tayra	tayra	VERB	_	_	_	_	_	gloss=went	to go	VERB	往，去
+4	i	i	ADP	_	_	_	_	_	gloss=in	a grammatical particle indicating place or time past	_	地點，過去的時間
+5	Kalili	kalili	PROPN	_	_	_	pobj	_	gloss=Galilee|Number=Sing	Galilee	PROPN	_
+6	koya	koya	SCONJ	_	_	_	_	_	gloss=remains	the * that * See Appendix 1 - Connective Crammatical Paricles	_	那個。參閱附錄I連接詞
+7	ccay	ccay	NUM	_	_	_	_	_	gloss=one	one	_	_
+8	ko	ko	PART	_	_	_	_	_	gloss=other	See Appendix 1 - Connective Grammatical Markers.	_	參閱附錄I，連接詞
+9	safaw	safaw	NUM	_	_	_	_	_	gloss=twelve	more than ten	NUM	十幾個，十來個
+10	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+11	nisawawaan	nisawawaan	NOUN	_	_	_	nsubj	_	gloss=disciples|Number=Plur	a disciple	NOUN	門徒
+12	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+13	macokacok	macokacok	NOUN	_	_	_	pobj	_	gloss=mountain|Number=Sing	mountain	NOUN	_
+14	i	i	ADP	_	_	_	_	_	gloss=in	a grammatical particle indicating place or time past	_	地點，過去的時間
+15	nisowalan	nisowalan	NOUN	_	_	_	_	_	gloss=refer	refer	NOUN	話
+16	ni	ni	unk	_	_	_	_	_	gloss=an	an	unk	_
+17	Yis	yis	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing	Jesus	PROPN	_
+18	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+19	lotok	lotok	NOUN	_	_	_	_	_	gloss=Mount	mountain	_	山嶺，山
+20	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+
+# sent_id = 41002023
+1	Yo	yo	INTJ	_	_	_	_	_	gloss=As	a response word - look * here	INTJ	反應詞，看！這裡！
+2	ccay	ccay	NUM	_	_	_	_	_	gloss=one	one	_	_
+3	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+4	Pasla'an	pasla'an	unk	_	_	_	_	_	_	_	unk	_
+5	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+6	Romi'ad	romi'ad	NOUN	_	_	_	_	_	_	day	_	日
+7	pakayra	pakayra	ADP	_	_	_	_	_	gloss=out	by that means	ADP	通過那個手段
+8	i	i	ADP	_	_	_	_	_	gloss=in	a grammatical particle indicating place or time past	_	地點，過去的時間
+9	ci	ci	PART	_	_	_	_	_	gloss=out	out	_	_
+10	^	^	PUNCT	_	_	_	_	_	_	_	PUNCT
+11	miay	miay	NOUN	_	_	_	_	_	gloss=wheat	wheat	NOUN	_
+12	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+13	omah	omah	NOUN	_	_	_	_	_	gloss=field	field * farm	NOUN	水田，田地
+14	ca	ca	PART	_	_	_	_	_	gloss=prophes	a negative particle	_	否定詞
+15	Yis	yis	PROPN	_	_	17	nsubj	_	gloss=Jesus|Number=Sing	Jesus	PROPN	_
+16	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+17	romakat	romakat	VERB	_	_	_	advcl	_	gloss=walking|Aspect=Prog|Tense=Pres|VerbForm=Part	walking	VERB	_
+18	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+19	Itiya	itiya	ADP	_	_	_	_	_	gloss=breath	then * at that point in time (also i tiya)	ADP	當時，那時，彼時 (或寫作 i tiya)
+20	i	i	ADP	_	_	_	_	_	gloss=in	a grammatical particle indicating place or time past	_	地點，過去的時間
+21	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+22	kalanipihapric	kalanipihapric	unk	_	_	_	_	_	_	_	unk	_
+23	han	han	VERB	_	_	_	_	_	gloss=ps	an untranslatable grammatical particle suffix, with a response agent type force	_	無法翻譯的文法尾詞
+24	no	no	ADP	_	_	_	prep	_	gloss=of	a grammatical particle * of * by.  See Grammar Appendix 2.	ADP	文法上的用詞有屬於或憑，依據，藉，經等用法。參閱附錄Ⅱ文法
+25	nisawawaan	nisawawaan	NOUN	_	_	_	nsubj	_	gloss=disciples|Number=Plur	a disciple	NOUN	門徒
+26	ningra	ningra	PRON	_	_	_	_	_	gloss=pleaded	his * hers * by him or her.  See Pronouns - Appendix 1.	_	他 (她) 的；藉著他 (她) 。參閱附錄I代名詞
+27	to	to	PART	_	_	_	_	_	gloss=also	also	_	_
+28	minaro'an	minaro'an	NOUN	_	_	_	_	_	_	heads * clusters of grain	NOUN	稻穗
+29	no	no	ADP	_	_	_	prep	_	gloss=of	a grammatical particle * of * by.  See Grammar Appendix 2.	ADP	文法上的用詞有屬於或憑，依據，藉，經等用法。參閱附錄Ⅱ文法
+30	^	^	PUNCT	_	_	_	_	_	_	_	PUNCT
+31	mi	mi	PART	_	_	_	_	_	gloss=precious	active verbal particles	PART	主動的動詞前置詞
+32	ko	ko	PART	_	_	_	_	_	gloss=other	See Appendix 1 - Connective Grammatical Markers.	_	參閱附錄I，連接詞
+33	nika	nika	ADP	_	_	_	_	_	gloss=mill	a grammatical marker indicating the state of something	ADP	文法上的用語指某些事情的狀態
+34	lahaklong	lahaklong	NOUN	_	_	_	_	_	gloss=man	man	NOUN	_
+35	nangra	nangra	PRON	_	_	_	_	_	gloss=their	their * theirs * belonging to them * they.  See Pronouns - Appendix 1	PRON	他們的，參閱附錄I代名詞
+36	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+37	romakat	romakat	VERB	_	_	_	advcl	_	gloss=walking|Aspect=Prog|Tense=Pres|VerbForm=Part	walking	VERB	_
+38	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+
+# sent_id = 41012032
+1	Pasowal	pasowal	NOUN	_	_	_	_	_	gloss=covenant	covenant	NOUN	_
+2	sa	sa	unk	_	_	_	_	_	gloss=struck	struck	_	_
+3	koya	koya	SCONJ	_	_	_	_	_	gloss=remains	the * that * See Appendix 1 - Connective Crammatical Paricles	_	那個。參閱附錄I連接詞
+4	pasifana'ay	pasifana'ay	VERB	_	_	_	_	_	_	allow to understand or teach	VERB	讓...了解/教導
+5	to	to	PART	_	_	_	_	_	gloss=also	also	_	_
+6	Rikec	rikec	NOUN	_	_	_	pobj	_	gloss=law|Number=Sing	law * rule	NOUN	法，法律，訴訟，法則，規則
+7	i	i	ADP	_	_	_	_	_	gloss=in	a grammatical particle indicating place or time past	_	地點，過去的時間
+8	ci	ci	PART	_	_	_	_	_	gloss=out	out	_	_
+9	Yisan	yisan	PROPN	_	_	_	_	_	gloss=tried	tried	PROPN	_
+10	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+11	<	<	PUNCT	_	_	_	_	_	_	_	PUNCT
+12	<	<	PUNCT	_	_	_	_	_	_	_	PUNCT
+13	Singsiaw	singsiaw	NOUN	_	_	_	npadvmod	_	gloss=Teacher|Number=Sing	Teacher	NOUN	_
+14	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+15	mato	mato	ADP	_	_	_	_	_	gloss=quite	a shortened form for matiya without pointing to a specific person or activity * as * like * appeared to be	ADP	並未指定特定的一人物或活動；有「如」，「好像」，「被認為」等的用法
+16	sowal	sowal	NOUN	_	_	_	_	_	gloss=word	words	NOUN	文字
+17	Iso	iso	PRON	_	_	_	_	_	gloss=lain	you * your (singular) * a pronoun	PRON	你(的)(單數)；代名詞
+18	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+19	deng	deng	unk	_	_	_	_	_	gloss=appro	appro	_	_
+20	ccay	ccay	NUM	_	_	23	nummod	_	gloss=one|NumType=Card	one	NUM	_
+21	aca	aca	unk	_	_	_	_	_	gloss=thing	an untranslatable particle	unk	無法翻譯的詞類，但具有僅僅，只有，祇是，唯有等之含意
+22	ko	ko	PART	_	_	23	conj	_	gloss=other|Degree=Pos	See Appendix 1 - Connective Grammatical Markers.	ADJ	參閱附錄I，連接詞
+23	Kawas	kawas	PROPN	_	_	_	attr	_	gloss=God|Number=Sing	Kawas - God	PROPN	上帝
+24	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+25	Awaay	awaay	ADV	_	_	_	_	_	gloss=effort	effort	ADV	没有 * 不在
+26	ko	ko	PART	_	_	23	conj	_	gloss=other|Degree=Pos	See Appendix 1 - Connective Grammatical Markers.	ADJ	參閱附錄I，連接詞
+27	roma	roma	DET	_	_	_	_	_	gloss=another	other * another	DET	別的，其他，另外
+28	yasanay	yasanay	unk	_	_	_	_	_	gloss=qu	qu	unk	_
+29	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+30	sowal	sowal	NOUN	_	_	_	_	_	gloss=word	words	_	文字
+31	Iso	iso	PRON	_	_	_	_	_	gloss=lain	you * your (singular) * a pronoun	_	你(的)(單數)；代名詞
+32	i	i	ADP	_	_	_	_	_	gloss=in	a grammatical particle indicating place or time past	_	地點，過去的時間
+33	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+34	so'linay	so'linay	ADJ _	_	_	_	_	_	_	so'elin=real*true	ADJ _
+35	kora	kora	NOUN	_	_	_	nsubj	_	gloss=teacher|Number=Sing	that.  See Appendix 1 Pronouns.	NOUN	那個，參閱附錄I代名詞
+36	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+
+# sent_id = 41014037
+1	Ta	ta	CCONJ	_	_	_	_	_	gloss=Shepherd	a connective particle meaning and or then in quick time succession	_	文法連接詞或在短促的時間內迅速完成
+2	patiko	patiko	VERB	_	_	0	root	_	gloss=returned|Tense=Past|VerbForm=Fin	returned	VERB	_
+3	sa	sa	unk	_	_	_	_	_	gloss=struck	struck	_	_
+4	ci	ci	PART	_	_	_	_	_	gloss=out	out	_	_
+5	Yis	yis	PROPN	_	_	_	_	_	gloss=Jesus	Jesus	_	_
+6	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+7	tayra	tayra	VERB	_	_	_	_	_	gloss=went	to go	_	往，去
+8	i	i	ADP	_	_	_	_	_	gloss=in	a grammatical particle indicating place or time past	_	地點，過去的時間
+9	tatoloay	tatoloay	AUX	_	_	_	aux	_	gloss=Could|VerbForm=Fin	Could	AUX	_
+10	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+11	nisawawaan	nisawawaan	NOUN	_	_	39	nsubj	_	gloss=disciples|Number=Plur	a disciple	NOUN	門徒
+12	Ningra	ningra	PRON	_	_	_	_	_	gloss=real	his * hers * by him or her.  See Pronouns - Appendix 1.	_	他 (她) 的；藉著他 (她) 。參閱附錄I代名詞
+13	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+14	Ma'araw	ma'araw	VERB	_	_	_	_	_	_	seen	VERB	被看到
+15	Ningra	ningra	PRON	_	_	_	_	_	gloss=real	his * hers * by him or her.  See Pronouns - Appendix 1.	_	他 (她) 的；藉著他 (她) 。參閱附錄I代名詞
+16	ko	ko	PART	_	_	_	_	_	gloss=other	See Appendix 1 - Connective Grammatical Markers.	_	參閱附錄I，連接詞
+17	nika	nika	ADP	_	_	_	_	_	gloss=mill	a grammatical marker indicating the state of something	_	文法上的用語指某些事情的狀態
+18	foti'	foti'	VERB	_	_	_	_	_	_	to lie down	VERB	躺下來
+19	nangra	nangra	PRON	_	_	_	_	_	gloss=their	their * theirs * belonging to them * they.  See Pronouns - Appendix 1	_	他們的，參閱附錄I代名詞
+20	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+21	Sowal	sowal	NOUN	_	_	_	_	_	gloss=cont	words	_	文字
+22	sa	sa	unk	_	_	_	_	_	gloss=struck	struck	_	_
+23	Cingra	cingra	PRON	_	_	_	_	_	gloss=record	he * she.  See Appendix 1 - Pronouns.	_	他或她，參閱附錄Ⅰ - 代名詞
+24	ci	ci	PART	_	_	_	_	_	gloss=out	out	_	_
+25	Pitiroan	pitiroan	PROPN	_	_	_	_	_	gloss=d	d	PROPN	_
+26	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+27	<	<	PUNCT	_	_	_	_	_	_	_	PUNCT
+28	<	<	PUNCT	_	_	_	_	_	_	_	PUNCT
+29	Simonaw	simonaw	PROPN	_	_	_	_	_	gloss=Pharisee	Pharisee	PROPN	_
+30	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+31	mafoti'	mafoti'	VERB	_	_	_	_	_	_	sleep	VERB	睡覺
+32	kiso	kiso	PRON	_	_	_	_	_	gloss=You	you (singular) See Appendix 1 - Pronouns.	_	你，參閱附錄I代名詞
+33	haw	haw	INTJ	_	_	_	_	_	gloss=Or	"question particle * meaning is ""Is that okey?"""	INTJ	可以嗎？
+34	?	?	PUNCT	_	_	_	_	_	_	_	PUNCT
+35	Caay	caay	PART	_	_	_	_	_	gloss=und	no * not * negative	_	不, 不是, 否定詞
+36	pakafilofilo	pakafilofilo	VERB	_	_	_	_	_	_	to be competent * qualified	VERB	能夠勝任
+37	kiso	kiso	PRON	_	_	_	_	_	gloss=You	you (singular) See Appendix 1 - Pronouns.	_	你，參閱附錄I代名詞
+38	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+39	mapalal	mapalal	ADJ	_	_	_	acomp	_	gloss=asleep|Degree=Pos	asleep	ADJ	_
+40	to	to	PART	_	_	_	_	_	gloss=also	also	_	_
+41	ccaccay	ccaccay	unk	_	_	_	_	_	gloss=rem	rem	unk	_
+42	aca	aca	unk	_	_	_	_	_	gloss=thing	an untranslatable particle	_	無法翻譯的詞類，但具有僅僅，只有，祇是，唯有等之含意
+43	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+44	tatokian	tatokian	NOUN	_	_	_	npadvmod	_	gloss=hour|Number=Sing	hour	NOUN	_
+45	saw	saw	INTJ	_	_	_	_	_	gloss=How	a question particle indicating that the speaker expects the answer to be obvious	_	疑問句，指說話者的期望能獲得更具體的回答
+46	?	?	PUNCT	_	_	_	_	_	_	_	PUNCT
+
+# sent_id = 42004002
+1	Spat	spat	VERB	_	_	0	root	_	gloss=tempted|Aspect=Perf|Tense=Past|VerbForm=Part	tempted	VERB	_
+2	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+3	polo'	polo'	NUM	_	_	_	_	_	_	a bird * Bamboo Partridge	_	鷓鴣鳥
+4	ko	ko	PART	_	_	_	_	_	gloss=other	See Appendix 1 - Connective Grammatical Markers.	_	參閱附錄I，連接詞
+5	romi'ad	romi'ad	NOUN	_	_	_	_	_	_	day	_	日
+6	ni	ni	unk	_	_	_	_	_	gloss=an	an	_	_
+7	Yis	yis	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing	Jesus	PROPN	_
+8	itira	itira	DET	_	_	_	_	_	gloss=there	there * place pronoun (also i tira)	_	在那兒；地方代名詞 (或寫作 i tira)
+9	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+10	lifeten	lifeten	unk	_	_	_	_	_	_	lifet=competition/challenge	unk	_
+11	no	no	ADP	_	_	_	_	_	gloss=of	a grammatical particle * of * by.  See Grammar Appendix 2.	_	文法上的用詞有屬於或憑，依據，藉，經等用法。參閱附錄Ⅱ文法
+12	Palafoay	palafoay	NOUN	_	_	_	pobj	_	gloss=devil|Number=Sing	devil	NOUN	_
+13	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+14	Caay	caay	PART	_	_	_	_	_	gloss=und	no * not * negative	_	不, 不是, 否定詞
+15	ka	ka	unk	_	_	_	_	_	gloss=t	prefix	_	前綴，行為本身
+16	komaen	komaen	VERB	_	_	_	_	_	gloss=eat	to eat	VERB	吃
+17	Cingra	cingra	PRON	_	_	_	_	_	gloss=record	he * she.  See Appendix 1 - Pronouns.	_	他或她，參閱附錄Ⅰ - 代名詞
+18	to	to	PART	_	_	_	_	_	gloss=also	also	_	_
+19	maan	maan	PRON	_	_	_	_	_	gloss=What	what * whatever	_	什麼，任何東西
+20	aca	aca	unk	_	_	_	_	_	gloss=thing	an untranslatable particle	_	無法翻譯的詞類，但具有僅僅，只有，祇是，唯有等之含意
+21	toya	toya	unk	_	_	_	_	_	gloss=pro	pro	_	_
+22	romi'ad	romi'ad	NOUN	_	_	_	_	_	_	day	_	日
+23	saka	saka	SCONJ	_	_	_	_	_	gloss=since	prefix on many words.  See Appendix 1 - Grammar.	SCONJ	加字首語，加在許多字詞之首。參閱附錄Ⅰ文法
+24	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+25	malpon	malpon	unk	_	_	_	_	_	_	_	unk	_
+26	Ningra	ningra	PRON	_	_	_	_	_	gloss=real	his * hers * by him or her.  See Pronouns - Appendix 1.	_	他 (她) 的；藉著他 (她) 。參閱附錄I代名詞
+27	koya	koya	SCONJ	_	_	_	_	_	gloss=remains	the * that * See Appendix 1 - Connective Crammatical Paricles	_	那個。參閱附錄I連接詞
+28	romi'ad	romi'ad	NOUN	_	_	_	_	_	_	day	_	日
+29	i	i	ADP	_	_	_	_	_	gloss=in	a grammatical particle indicating place or time past	_	地點，過去的時間
+30	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+31	macahiwento	macahiwento	unk	_	_	_	_	_	_	macahiwen=feel hungry, -to=object class	unk	_
+32	Cingra	cingra	PRON	_	_	_	_	_	gloss=record	he * she.  See Appendix 1 - Pronouns.	_	他或她，參閱附錄Ⅰ - 代名詞
+33	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+
+# sent_id = 42016013
+1	<	<	PUNCT	_	_	_	_	_	_	_	PUNCT
+2	<	<	PUNCT	_	_	_	_	_	_	_	PUNCT
+3	Caay	caay	PART	_	_	_	_	_	gloss=und	no * not * negative	_	不, 不是, 否定詞
+4	ka	ka	unk	_	_	_	_	_	gloss=t	prefix	_	前綴，行為本身
+5	nga'ay	nga'ay	AUX	_	_	_	_	_	_	okay * agreed * acceptable	_	好，同意，贊成，可接受
+6	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+7	tosa	tosa	NUM	_	_	_	_	_	gloss=twelve	two	_	二
+8	ko	ko	PART	_	_	_	dobj	_	gloss=other|Degree=Pos	See Appendix 1 - Connective Grammatical Markers.	ADJ	參閱附錄I，連接詞
+9	tapang	tapang	NOUN	_	_	_	_	_	gloss=commander	lord * master	_	主人
+10	no	no	ADP	_	_	_	_	_	gloss=of	a grammatical particle * of * by.  See Grammar Appendix 2.	_	文法上的用詞有屬於或憑，依據，藉，經等用法。參閱附錄Ⅱ文法
+11	ccay	ccay	NUM	_	_	_	pobj	_	gloss=one|NumType=Card	one	NUM	_
+12	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+13	matayalay	matayalay	NOUN	_	_	_	_	_	gloss=servants	worker	_	工人
+14	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+15	koli	koli	NOUN	_	_	_	_	_	gloss=slave	laborer * slave	_	佣人，奴僕
+16	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+17	Nawhani	nawhani	SCONJ	_	_	_	prep	_	gloss=For	because * for	ADP	因為
+18	ano	ano	SCONJ	_	_	_	_	_	gloss=un	if * contingent particle	_	如果，若，假使 (偶然性或意外情境中的詞類)
+19	haenen	haenen	unk	_	_	_	_	_	gloss=store	store	_	_
+20	ningra	ningra	PRON	_	_	_	_	_	gloss=pleaded	his * hers * by him or her.  See Pronouns - Appendix 1.	_	他 (她) 的；藉著他 (她) 。參閱附錄I代名詞
+21	i	i	ADP	_	_	_	_	_	gloss=in	a grammatical particle indicating place or time past	_	地點，過去的時間
+22	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+23	ka'osien	ka'osien	VERB	_	_	_	_	_	_	dislike * detest	_
+24	ningra	ningra	PRON	_	_	_	_	_	gloss=pleaded	his * hers * by him or her.  See Pronouns - Appendix 1.	_	他 (她) 的；藉著他 (她) 。參閱附錄I代名詞
+25	ko	ko	PART	_	_	_	dobj	_	gloss=other|Degree=Pos	See Appendix 1 - Connective Grammatical Markers.	ADJ	參閱附錄I，連接詞
+26	ccay	ccay	NUM	_	_	_	pobj	_	gloss=one|NumType=Card	one	NUM	_
+27	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+28	kaolahen	kaolahen	NOUN	_	_	_	_	_	gloss=ise	ise	_	_
+29	ningra	ningra	PRON	_	_	_	_	_	gloss=pleaded	his * hers * by him or her.  See Pronouns - Appendix 1.	_	他 (她) 的；藉著他 (她) 。參閱附錄I代名詞
+30	ko	ko	PART	_	_	_	dobj	_	gloss=other|Degree=Pos	See Appendix 1 - Connective Grammatical Markers.	ADJ	參閱附錄I，連接詞
+31	ccay	ccay	NUM	_	_	_	pobj	_	gloss=one|NumType=Card	one	NUM	_
+32	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+33	Ano	ano	SCONJ	_	_	_	_	_	gloss=If	if * contingent particle	_	如果，若，假使 (偶然性或意外情境中的詞類)
+34	^	^	PUNCT	_	_	_	_	_	_	_	PUNCT
+35	ca	ca	PART	_	_	_	_	_	gloss=prophes	a negative particle	_	否定詞
+36	i	i	ADP	_	_	_	_	_	gloss=in	a grammatical particle indicating place or time past	_	地點，過去的時間
+37	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+38	kangodoen	kangodoen	VERB	_	_	_	_	_	gloss=Surely	Surely	VERB	_
+39	ningra	ningra	PRON	_	_	_	_	_	gloss=pleaded	his * hers * by him or her.  See Pronouns - Appendix 1.	_	他 (她) 的；藉著他 (她) 。參閱附錄I代名詞
+40	ko	ko	PART	_	_	_	dobj	_	gloss=other|Degree=Pos	See Appendix 1 - Connective Grammatical Markers.	ADJ	參閱附錄I，連接詞
+41	ccay	ccay	NUM	_	_	_	pobj	_	gloss=one|NumType=Card	one	NUM	_
+42	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+43	^	^	PUNCT	_	_	_	_	_	_	_	PUNCT
+44	pecen	pecen	unk	_	_	_	_	_	gloss=ise	ise	_	_
+45	ningra	ningra	PRON	_	_	_	_	_	gloss=pleaded	his * hers * by him or her.  See Pronouns - Appendix 1.	_	他 (她) 的；藉著他 (她) 。參閱附錄I代名詞
+46	ko	ko	PART	_	_	_	dobj	_	gloss=other|Degree=Pos	See Appendix 1 - Connective Grammatical Markers.	ADJ	參閱附錄I，連接詞
+47	ccay	ccay	NUM	_	_	_	pobj	_	gloss=one|NumType=Card	one	NUM	_
+48	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+49	Orasaka	orasaka	SCONJ	_	_	_	_	_	gloss=Therefore	a logical connective meaning so * therefore	_	所以(連接詞)
+50	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+51	ano	ano	SCONJ	_	_	_	_	_	gloss=un	if * contingent particle	_	如果，若，假使 (偶然性或意外情境中的詞類)
+52	palcaden	palcaden	unk	_	_	_	_	_	gloss=ise	ise	_	_
+53	namo	namo	PRON	_	_	_	_	_	gloss=your	yours (plural) * your.  See Pronouns - Appendix 1.	_	你們的；參閱附錄I代名詞
+54	ko	ko	PART	_	_	_	dobj	_	gloss=other|Degree=Pos	See Appendix 1 - Connective Grammatical Markers.	ADJ	參閱附錄I，連接詞
+55	harateng	harateng	NOUN	_	_	_	_	_	gloss=discipline	thoughts * thinking * point of view	_	想法，思想
+56	to	to	PART	_	_	_	_	_	gloss=also	also	_	_
+57	saki	saki	SCONJ	_	_	_	_	_	gloss=asks	for the sake of	_	為了，因……的緣故
+58	Kawas	kawas	PROPN	_	_	_	dobj	_	gloss=God|Number=Sing	Kawas - God	PROPN	上帝
+59	ato	ato	CCONJ	_	_	_	_	_	gloss=ounding	and	_	和，及，與
+60	saki	saki	SCONJ	_	_	_	_	_	gloss=asks	for the sake of	_	為了，因……的緣故
+61	dafong	dafong	NOUN	_	_	_	_	_	gloss=sad	possessions * things that you own	_	所有物，財產
+62	i	i	ADP	_	_	_	_	_	gloss=in	a grammatical particle indicating place or time past	_	地點，過去的時間
+63	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+64	caay	caay	PART	_	_	_	_	_	gloss=n	no * not * negative	_	不, 不是, 否定詞
+65	ka	ka	unk	_	_	_	_	_	gloss=t	prefix	_	前綴，行為本身
+66	nga'ay	nga'ay	AUX	_	_	_	_	_	_	okay * agreed * acceptable	_	好，同意，贊成，可接受
+67	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+68	>	>	PUNCT	_	_	_	_	_	_	_	PUNCT
+69	>	>	PUNCT	_	_	_	_	_	_	_	PUNCT
+70	han	han	VERB	_	_	_	_	_	gloss=ps	an untranslatable grammatical particle suffix, with a response agent type force	_	無法翻譯的文法尾詞
+71	ni	ni	unk	_	_	_	_	_	gloss=an	an	ADP	_
+72	Yis	yis	PROPN	_	_	_	_	_	gloss=Jesus	Jesus	_	_
+73	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+
+# sent_id = 42024018
+1	Paca'of	paca'of	VERB	_	_	_	_	_	respond	to give an answer	回答 * 回應 	給一回答
+2	sa	sa	unk	_	_	_	_	_	gloss=struck	struck	unk	_
+3	ci	ci	PART	_	_	_	_	_	gloss=out	out	PART	_
+4	Kliopas	kliopas	_	_	_	_	_	_   _	Cleopas	PROPN	_
+5	hananay	hananay	VERB	_	_	_	_	_	gloss=counted	so called * belonging to that class.  See Appendix 1.	VERB	所謂，所成…的人或事，參閱附錄I代名詞
+6	ci	ci	PART	_	_	_	_	_	gloss=out	out	_	_
+7	Yisan	yisan	PROPN	_	_	_	_	_	gloss=tried	tried	PROPN	_
+8	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+9	<	<	PUNCT	_	_	_	_	_	_	_	PUNCT
+10	<	<	PUNCT	_	_	_	_	_	_	_	PUNCT
+11	O	o	DET	_	_	_	_	_	gloss=To	To	AUX	_
+12	i	i	ADP	_	_	_	prep	_	gloss=in	a grammatical particle indicating place or time past	ADP	地點，過去的時間
+13	tiniay	tiniay	unk	_	_	_	_	_	gloss=cerer	cerer	unk	_
+14	kiso	kiso	PRON	_	_	_	nsubj	_	gloss=You|Case=Nom|Person=2|PronType=Prs	you (singular) See Appendix 1 - Pronouns.	PRON	你，參閱附錄I代名詞
+15	i	i	ADP	_	_	_	prep	_	gloss=in	a grammatical particle indicating place or time past	ADP	地點，過去的時間
+16	Yirusalim	yirusalim	PROPN	_	_	15	pobj	_	gloss=Jerusalem|Number=Sing	Jerusalem	PROPN	_
+17	i	i	ADP	_	_	_	prep	_	gloss=in	a grammatical particle indicating place or time past	ADP	地點，過去的時間
+18	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+19	nawiro	nawiro	ADV	_	_	_	_	_	gloss=ering	ering	ADV	為何 * 怎麼
+20	caay	caay	PART	_	_	_	_	_	gloss=n	no * not * negative	_	不, 不是, 否定詞
+21	ka	ka	unk	_	_	_	_	_	gloss=t	prefix	_	前綴，行為本身
+22	fana'	fana'	NOUN	_	_	_	_	_	_	generic term for knowledge * including understanding what is heard	NOUN	知識之一般用語，智慧，知道，包括聽聞而知的知識
+23	kiso	kiso	PRON	_	_	_	nsubj	_	gloss=You|Case=Nom|Person=2|PronType=Prs	you (singular) See Appendix 1 - Pronouns.	PRON	你，參閱附錄I代名詞
+24	to	to	PART	_	_	_	_	_	gloss=also	also	_	_
+25	nano	nano	ADP	_	_	_	_	_	gloss=forget	a grammatical marker indicating the source of something	ADP	文法上的字首助詞，指東西的根源
+26	dmak	dmak	NOUN	_	_	_	_	_	gloss=done	done	NOUN	_
+27	i	i	ADP	_	_	_	prep	_	gloss=in	a grammatical particle indicating place or time past	ADP	地點，過去的時間
+28	niyaro'	niyaro'	NOUN	_	_	_	_	_	gloss=town	town * village * city	NOUN	部落，村莊，城市
+29	ita	ita	PRON	_	_	_	_	_	gloss=our	us * we * including both the speaker and hearer * a pronoun	PRON	我們(包括說者與聽者)；代名詞
+30	anini	anini	ADV	_	_	_	_	_	gloss=Today	at the present time	ADV	現在
+31	saw	saw	INTJ	_	_	_	_	_	gloss=How	a question particle indicating that the speaker expects the answer to be obvious	_	疑問句，指說話者的期望能獲得更具體的回答
+32	?	?	PUNCT	_	_	_	_	_	_	_	PUNCT
+33	>	>	PUNCT	_	_	_	_	_	_	_	PUNCT
+34	>	>	PUNCT	_	_	_	_	_	_	_	PUNCT
+35	han	han	VERB	_	_	_	_	_	gloss=ps	an untranslatable grammatical particle suffix, with a response agent type force	_	無法翻譯的文法尾詞
+36	Ningra	ningra	PRON	_	_	_	_	_	gloss=real	his * hers * by him or her.  See Pronouns - Appendix 1.	_	他 (她) 的；藉著他 (她) 。參閱附錄I代名詞
+37	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+
+# sent_id = 43001039
+1	Pasowal	pasowal	NOUN	_	_	_	_	_	gloss=covenant	covenant	_	_
+2	sa	sa	unk	_	_	_	_	_	gloss=struck	struck	_	_
+3	ci	ci	PART	_	_	_	_	_	gloss=out	out	_	_
+4	Yis	yis	PROPN	_	_	_	_	_	gloss=Jesus	Jesus	_	_
+5	i	i	ADP	_	_	_	prep	_	gloss=in	a grammatical particle indicating place or time past	ADP	地點，過去的時間
+6	cangraan	cangraan	PRON	_	_	_	_	_	gloss=them	them	PRON	_
+7	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+8	<	<	PUNCT	_	_	_	_	_	_	_	PUNCT
+9	<	<	PUNCT	_	_	_	_	_	_	_	PUNCT
+10	Katayni	katayni	VERB	_	_	_	ccomp	_	gloss=Come|VerbForm=Inf	Come	VERB	_
+11	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+12	minengneng	minengneng	VERB	_	_	_	_	_	gloss=cl	cl	VERB	看 * 正在看
+13	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+14	>	>	PUNCT	_	_	_	_	_	_	_	PUNCT
+15	>	>	PUNCT	_	_	_	_	_	_	_	PUNCT
+16	han	han	VERB	_	_	_	_	_	gloss=ps	an untranslatable grammatical particle suffix, with a response agent type force	_	無法翻譯的文法尾詞
+17	Ningra	ningra	PRON	_	_	_	_	_	gloss=real	his * hers * by him or her.  See Pronouns - Appendix 1.	_	他 (她) 的；藉著他 (她) 。參閱附錄I代名詞
+18	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+19	Saka	saka	SCONJ	_	_	_	_	_	gloss=T	prefix on many words.  See Appendix 1 - Grammar.	_	加字首語，加在許多字詞之首。參閱附錄Ⅰ文法
+20	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+21	lahaklong	lahaklong	NOUN	_	_	_	_	_	gloss=man	man	_	_
+22	sato	sato	NOUN	_	_	_	_	_	gloss=ror	a dry measure for measuring grain	NOUN	稱量器，量杯，斗量
+23	cangra	cangra	PRON	_	_	_	_	_	gloss=They	they.  See Appendix 1 - Pronouns	PRON	他們。請參閱附錄Ⅰ代名詞
+24	aci	aci	CCONJ	_	_	_	_	_	gloss=Barnabas	and (a connective between two proper names)	CCONJ	…和…，…與…，…以及…
+25	Yis	yis	PROPN	_	_	_	_	_	gloss=Jesus	Jesus	_	_
+26	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+27	tayra	tayra	VERB	_	_	_	advcl	_	gloss=went|Tense=Past|VerbForm=Fin	to go	VERB	往，去
+28	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+29	minengneng	minengneng	VERB	_	_	_	_	_	gloss=cl	cl	_	_
+30	to	to	PART	_	_	_	_	_	gloss=also	also	_	_
+31	pilafinan	pilafinan	unk	_	_	_	_	_	gloss=ase	ase	unk	_
+32	ni	ni	unk	_	_	_	_	_	gloss=an	an	_	_
+33	Yis	yis	PROPN	_	_	_	_	_	gloss=Jesus	Jesus	_	_
+34	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+35	Ta	ta	CCONJ	_	_	_	_	_	gloss=Shepherd	a connective particle meaning and or then in quick time succession	_	文法連接詞或在短促的時間內迅速完成
+36	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+37	itira	itira	DET	_	_	_	_	_	gloss=there	there * place pronoun (also i tira)	_	在那兒；地方代名詞 (或寫作 i tira)
+38	sato	sato	NOUN	_	_	_	_	_	gloss=ror	a dry measure for measuring grain	_	稱量器，量杯，斗量
+39	cangra	cangra	PRON	_	_	_	_	_	gloss=They	they.  See Appendix 1 - Pronouns	_	他們。請參閱附錄Ⅰ代名詞
+40	toya	toya	unk	_	_	_	_	_	gloss=pro	pro	_	_
+41	romi'ad	romi'ad	NOUN	_	_	_	_	_	_	day	_	日
+42	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+43	mikapot	mikapot	ADJ	_	_	_	_	_	gloss=named	to associate with * be partner with * have fellowship with	ADJ	參與
+44	ci	ci	PART	_	_	_	_	_	gloss=out	out	_	_
+45	Yisan	yisan	PROPN	_	_	_	_	_	gloss=tried	tried	_	_
+46	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+47	(	(	PUNCT	_	_	_	_	_	_	_	PUNCT
+48	Itiya	itiya	ADP	_	_	_	_	_	gloss=breath	then * at that point in time (also i tiya)	_	當時，那時，彼時 (或寫作 i tiya)
+49	i	i	ADP	_	_	_	prep	_	gloss=in	a grammatical particle indicating place or time past	ADP	地點，過去的時間
+50	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+51	ma	ma	PART	_	_	_	_	_	gloss=scattered	active verbal particles / passive verbal particles	_	主動的動詞前置詞/被動的動詞前置詞
+52	^	^	PUNCT	_	_	_	_	_	_	_	PUNCT
+53	deng	deng	unk	_	_	_	_	_	gloss=appro	appro	_	_
+54	spat	spat	VERB	_	_	_	nummod	_	gloss=four|NumType=Card	tempted	NUM	_
+55	ko	ko	PART	_	_	_	_	_	gloss=other	See Appendix 1 - Connective Grammatical Markers.	_	參閱附錄I，連接詞
+56	toki	toki	NOUN	_	_	_	_	_	gloss=ock	a clock * a watch (from Japanese)	NOUN	鐘表 (引自日語)
+57	to	to	PART	_	_	_	_	_	gloss=also	also	_	_
+58	hrek	hrek	unk	_	_	_	_	_	gloss=ock	ock	unk	_
+59	no	no	ADP	_	_	_	prep	_	gloss=of	a grammatical particle * of * by.  See Grammar Appendix 2.	ADP	文法上的用詞有屬於或憑，依據，藉，經等用法。參閱附錄Ⅱ文法
+60	lahok	lahok	NOUN	_	_	_	_	_	gloss=o	the noon meal * lunch	NOUN	午餐
+61	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+62	)	)	PUNCT	_	_	_	_	_	_	_	PUNCT
+
+# sent_id = 43003016
+1	Tadamaolah	tadamaolah	VERB	_	_	_	_	_	_	_	VERB	疼愛
+2	ko	ko	PART	_	_	_	_	_	gloss=other	See Appendix 1 - Connective Grammatical Markers.	_	參閱附錄I，連接詞
+3	Kawas	kawas	PROPN	_	_	15	nsubj	_	gloss=God|Number=Sing	Kawas - God	PROPN	上帝
+4	to	to	PART	_	_	_	_	_	gloss=also	also	_	_
+5	tamdamdaw	tamdamdaw	NOUN	_	_	_	_	_	gloss=after	after	NOUN	群眾
+6	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+7	Saka	saka	SCONJ	_	_	_	_	_	gloss=T	prefix on many words.  See Appendix 1 - Grammar.	_	加字首語，加在許多字詞之首。參閱附錄Ⅰ文法
+8	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+9	padteng	padteng	ADV	_	_	_	_	_	_	padeteng= on purpose	ADV	故意
+10	sa	sa	unk	_	_	_	_	_	gloss=struck	struck	_	_
+11	Cingra	cingra	PRON	_	_	_	_	_	gloss=record	he * she.  See Appendix 1 - Pronouns.	_	他或她，參閱附錄Ⅰ - 代名詞
+12	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+13	pafli	pafli	VERB	_	_	_	_	_	gloss=tr	tr	VERB	給
+14	to	to	PART	_	_	_	_	_	gloss=also	also	_	_
+15	dengan	dengan	VERB	_	_	0	root	_	gloss=loved|Tense=Past|VerbForm=Fin	only	VERB	詳見 edengan
+16	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+17	Wawa	wawa	NOUN	_	_	_	appos	_	gloss=Son|Number=Sing	offspring	PROPN	子孫
+18	Ningra	ningra	PRON	_	_	_	_	_	gloss=real	his * hers * by him or her.  See Pronouns - Appendix 1.	_	他 (她) 的；藉著他 (她) 。參閱附錄I代名詞
+19	to	to	PART	_	_	_	_	_	gloss=also	also	_	_
+20	saka	saka	SCONJ	_	_	_	_	_	gloss=since	prefix on many words.  See Appendix 1 - Grammar.	_	加字首語，加在許多字詞之首。參閱附錄Ⅰ文法
+21	^	^	PUNCT	_	_	_	_	_	_	_	PUNCT
+22	caaw	caaw	unk	_	_	_	_	_	gloss=temptation	temptation	unk	_
+23	ka	ka	unk	_	_	_	_	_	gloss=t	prefix	_	前綴，行為本身
+24	tkop	tkop	VERB	_	_	_	advcl	_	gloss=perish|VerbForm=Inf	perish	VERB	_
+25	no	no	ADP	_	_	_	_	_	gloss=of	a grammatical particle * of * by.  See Grammar Appendix 2.	_	文法上的用詞有屬於或憑，依據，藉，經等用法。參閱附錄Ⅱ文法
+26	cimacima	cimacima	PRON	_	_	_	_	_	gloss=locked	whoever	PRON	那些，任何人，誰跟誰
+27	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+28	paso'linay	paso'linay	unk	_	_	_	_	_	_	so'ellin=genuine *  true	unk	_
+29	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+30	miti'er	miti'er	VERB	_	_	_	_	_	_	mi-=verb particle, ti'er=to have faith in	VERB	_
+31	i	i	ADP	_	_	_	prep	_	gloss=in	a grammatical particle indicating place or time past	ADP	地點，過去的時間
+32	Cingraan	cingraan	PRON	_	_	_	_	_	gloss=disag	ledge	_	_
+33	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+34	O	o	DET	_	_	_	_	_	gloss=To	To	_	_
+35	sakaci'orip	sakaci'orip	VERB	_	_	_	_	_	_	sakaci= cause, 'orip=life	VERB	_
+36	nangra	nangra	PRON	_	_	_	_	_	gloss=their	their * theirs * belonging to them * they.  See Pronouns - Appendix 1	_	他們的，參閱附錄I代名詞
+37	to	to	PART	_	_	_	_	_	gloss=also	also	_	_
+38	mida'ocay	mida'ocay	ADJ	_	_	_	_	_	_	eternal	ADJ	到永遠的
+39	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+
+# sent_id = 44002030
+1	O	o	DET	_	_	_	_	_	gloss=To	To	_	_
+2	pali'ayaway	pali'ayaway	unk	_	_	_	_	_	_	_	unk	_
+3	to	to	PART	_	_	_	_	_	gloss=also	also	_	_
+4	sowal	sowal	NOUN	_	_	_	_	_	gloss=word	words	_	文字
+5	no	no	ADP	_	_	31	prep	_	gloss=of	a grammatical particle * of * by.  See Grammar Appendix 2.	ADP	文法上的用詞有屬於或憑，依據，藉，經等用法。參閱附錄Ⅱ文法
+6	Kawas	kawas	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing	Kawas - God	PROPN	上帝
+7	cingra	cingra	PRON	_	_	_	_	_	gloss=she	he * she.  See Appendix 1 - Pronouns.	_	他或她，參閱附錄Ⅰ - 代名詞
+8	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+9	Saka	saka	SCONJ	_	_	_	_	_	gloss=T	prefix on many words.  See Appendix 1 - Grammar.	_	加字首語，加在許多字詞之首。參閱附錄Ⅰ文法
+10	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+11	mafana'	mafana'	VERB	_	_	_	_	_	_	know	_
+12	cingra	cingra	PRON	_	_	_	_	_	gloss=she	he * she.  See Appendix 1 - Pronouns.	_	他或她，參閱附錄Ⅰ - 代名詞
+13	to	to	PART	_	_	_	_	_	gloss=also	also	_	_
+14	niktonan	niktonan	ADJ	_	_	_	_	_	gloss=prisoners	prisoners	ADJ	所規定的（內容）
+15	no	no	ADP	_	_	31	prep	_	gloss=of	a grammatical particle * of * by.  See Grammar Appendix 2.	ADP	文法上的用詞有屬於或憑，依據，藉，經等用法。參閱附錄Ⅱ文法
+16	Kawas	kawas	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing	Kawas - God	PROPN	上帝
+17	i	i	ADP	_	_	_	_	_	gloss=in	a grammatical particle indicating place or time past	_	地點，過去的時間
+18	cingraan	cingraan	PRON	_	_	_	_	_	gloss=ledge	ledge	_	_
+19	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+20	sowal	sowal	NOUN	_	_	_	_	_	gloss=word	words	_	文字
+21	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+22	na	na	PROPN	_	_	_	poss	_	gloss=David|Number=Sing	David	PROPN	_
+23	miktonanto	miktonanto	NOUN	_	_	_	_	_	_	_	NOUN	_
+24	no	no	ADP	_	_	31	prep	_	gloss=of	a grammatical particle * of * by.  See Grammar Appendix 2.	ADP	文法上的用詞有屬於或憑，依據，藉，經等用法。參閱附錄Ⅱ文法
+25	Kawas	kawas	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing	Kawas - God	PROPN	上帝
+26	ko	ko	PART	_	_	_	_	_	gloss=other	See Appendix 1 - Connective Grammatical Markers.	_	參閱附錄I，連接詞
+27	sowal	sowal	NOUN	_	_	_	_	_	gloss=word	words	_	文字
+28	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+29	patireng	patireng	VERB	_	_	_	_	_	gloss=laid	to cause to stand * make stand	VERB	使之站立
+30	to	to	PART	_	_	_	_	_	gloss=also	also	_	_
+31	ccay	ccay	NUM	_	_	_	nsubj	_	gloss=one|NumType=Card	one	NUM	_
+32	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+33	hongti	hongti	NOUN	_	_	_	_	_	gloss=app	king * ruler (from Amoy dialect)	NOUN	國王，皇帝 (引自閩南語)
+34	nai	nai	ADP	_	_	_	_	_	gloss=from	from * generic form	ADP	從
+35	tloc	tloc	unk	_	_	_	_	_	gloss=liness	liness	unk	_
+36	ningra	ningra	PRON	_	_	_	_	_	gloss=pleaded	his * hers * by him or her.  See Pronouns - Appendix 1.	_	他 (她) 的；藉著他 (她) 。參閱附錄I代名詞
+37	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+38	pakamaro'	pakamaro'	VERB	_	_	_	_	_	_	cause to sit or stay	VERB	請別人坐下或停留
+39	i	i	ADP	_	_	_	_	_	gloss=in	a grammatical particle indicating place or time past	_	地點，過去的時間
+40	tadamaanay	tadamaanay	NOUN	_	_	_	pobj	_	gloss=throne|Number=Sing	throne	NOUN	_
+41	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+42	kamaro'an	kamaro'an	NOUN	_	_	_	_	_	_	chair * stool * seat	NOUN	椅子，凳，蓆子
+43	ningra	ningra	PRON	_	_	_	_	_	gloss=pleaded	his * hers * by him or her.  See Pronouns - Appendix 1.	_	他 (她) 的；藉著他 (她) 。參閱附錄I代名詞
+44	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+
+# sent_id = 44009038
+1	I	i	ADP	_	_	_	_	_	gloss=exactly	a grammatical particle indicating place or time past	_	地點，過去的時間
+2	ngataay	ngataay	ADV	_	_	_	advmod	_	gloss=nearby	nearby	ADV	_
+3	no	no	ADP	_	_	_	_	_	gloss=of	a grammatical particle * of * by.  See Grammar Appendix 2.	_	文法上的用詞有屬於或憑，依據，藉，經等用法。參閱附錄Ⅱ文法
+4	Yopa	yopa	PROPN	_	_	_	_	_	gloss=Joppa	Joppa	PROPN	_
+5	ko	ko	PART	_	_	_	_	_	gloss=other	See Appendix 1 - Connective Grammatical Markers.	_	參閱附錄I，連接詞
+6	Lita	lita	PROPN	_	_	_	_	_	gloss=Ly	Ly	PROPN	_
+7	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+8	Matngil	matngil	VERB	_	_	32	ccomp	_	gloss=heard|Aspect=Perf|Tense=Past|VerbForm=Part	heard	VERB	_
+9	no	no	ADP	_	_	_	_	_	gloss=of	a grammatical particle * of * by.  See Grammar Appendix 2.	_	文法上的用詞有屬於或憑，依據，藉，經等用法。參閱附錄Ⅱ文法
+10	nisawawaan	nisawawaan	NOUN	_	_	_	_	_	gloss=disciples	a disciple	_	門徒
+11	itira	itira	DET	_	_	_	_	_	gloss=there	there * place pronoun (also i tira)	_	在那兒；地方代名詞 (或寫作 i tira)
+12	i	i	ADP	_	_	_	_	_	gloss=in	a grammatical particle indicating place or time past	_	地點，過去的時間
+13	Yopa	yopa	PROPN	_	_	_	_	_	gloss=Joppa	Joppa	_	_
+14	ko	ko	PART	_	_	_	_	_	gloss=other	See Appendix 1 - Connective Grammatical Markers.	_	參閱附錄I，連接詞
+15	nika	nika	ADP	_	_	_	_	_	gloss=mill	a grammatical marker indicating the state of something	_	文法上的用語指某些事情的狀態
+16	ira	ira	VERB	_	_	_	_	_	gloss=year	there is * existing	_	存在
+17	ni	ni	unk	_	_	_	_	_	gloss=an	an	_	_
+18	Pitiro	pitiro	PROPN	_	_	_	nsubj	_	gloss=Peter|Number=Sing	Peter	PROPN	_
+19	itira	itira	DET	_	_	_	_	_	gloss=there	there * place pronoun (also i tira)	_	在那兒；地方代名詞 (或寫作 i tira)
+20	i	i	ADP	_	_	_	_	_	gloss=in	a grammatical particle indicating place or time past	_	地點，過去的時間
+21	Lita	lita	PROPN	_	_	_	_	_	gloss=Ly	Ly	_	_
+22	saka	saka	SCONJ	_	_	_	_	_	gloss=since	prefix on many words.  See Appendix 1 - Grammar.	_	加字首語，加在許多字詞之首。參閱附錄Ⅰ文法
+23	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+24	ocor	ocor	VERB	_	_	_	_	_	gloss=Samaria	to send	VERB	差遣
+25	han	han	VERB	_	_	_	_	_	gloss=ps	an untranslatable grammatical particle suffix, with a response agent type force	_	無法翻譯的文法尾詞
+26	nangra	nangra	PRON	_	_	_	_	_	gloss=their	their * theirs * belonging to them * they.  See Pronouns - Appendix 1	_	他們的，參閱附錄I代名詞
+27	ko	ko	PART	_	_	_	_	_	gloss=other	See Appendix 1 - Connective Grammatical Markers.	_	參閱附錄I，連接詞
+28	tatosa	tatosa	NUM	_	_	_	nummod	_	gloss=two|NumType=Card	two	NUM	_
+29	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+30	tamdaw	tamdaw	NOUN	_	_	_	_	_	gloss=ly	man * generic for	_	人的總稱
+31	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+32	patayra	patayra	VERB	_	_	0	root	_	gloss=sent|Tense=Past|VerbForm=Fin	sent	VERB	_
+33	ci	ci	PART	_	_	_	_	_	gloss=out	out	_	_
+34	Pitiroan	pitiroan	PROPN	_	_	_	_	_	gloss=d	d	_	_
+35	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+36	longocen	longocen	unk	_	_	_	_	_	_	_	unk	_
+37	cingra	cingra	PRON	_	_	_	_	_	gloss=she	he * she.  See Appendix 1 - Pronouns.	_	他或她，參閱附錄Ⅰ - 代名詞
+38	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+39	<	<	PUNCT	_	_	_	_	_	_	_	PUNCT
+40	<	<	PUNCT	_	_	_	_	_	_	_	PUNCT
+41	Kalamkamen	kalamkamen	VERB	_	_	_	_	_	gloss=ur	ur	VERB	趕快
+42	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+43	tayni	tayni	VERB	_	_	32	xcomp	_	gloss=come|VerbForm=Inf	to come	VERB	來
+44	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+45	Aka	aka	PART	_	_	_	_	_	gloss=on	don't * negative command	PART	不要…，不准 (否定命令)
+46	pisafraang	pisafraang	unk	_	_	_	_	_	_	_	unk	_
+47	han	han	VERB	_	_	_	_	_	gloss=ps	an untranslatable grammatical particle suffix, with a response agent type force	_	無法翻譯的文法尾詞
+48	ci	ci	PART	_	_	_	_	_	gloss=out	out	_	_
+49	Pitiro	pitiro	PROPN	_	_	_	nsubj	_	gloss=Peter|Number=Sing	Peter	PROPN	_
+50	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+51	somowal	somowal	VERB	_	_	_	_	_	gloss=owed	owed	VERB	說話 * 說
+52	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+53	>	>	PUNCT	_	_	_	_	_	_	_	PUNCT
+54	>	>	PUNCT	_	_	_	_	_	_	_	PUNCT
+55	han	han	VERB	_	_	_	_	_	gloss=ps	an untranslatable grammatical particle suffix, with a response agent type force	_	無法翻譯的文法尾詞
+56	nangra	nangra	PRON	_	_	_	_	_	gloss=their	their * theirs * belonging to them * they.  See Pronouns - Appendix 1	_	他們的，參閱附錄I代名詞
+57	koya	koya	SCONJ	_	_	_	_	_	gloss=remains	the * that * See Appendix 1 - Connective Crammatical Paricles	_	那個。參閱附錄I連接詞
+58	tatosaay	tatosaay	NUM	_	_	_	nummod	_	gloss=two|NumType=Card	two	NUM	_
+59	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+60	patolon	patolon	unk	_	_	_	_	_	_	tolon: prayer * encourage	unk	禱告 * 勉勵
+61	to	to	PART	_	_	_	_	_	gloss=also	also	_	_
+62	sowal	sowal	NOUN	_	_	_	_	_	gloss=word	words	_	文字
+63	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+
+# sent_id = 44011011
+1	Tatodong	tatodong	NOUN	_	_	_	_	_	gloss=feeding	the essence of something * the meaning	NOUN	東西的本質，意義
+2	sa	sa	unk	_	_	_	_	_	gloss=struck	struck	_	_
+3	toya	toya	unk	_	_	_	_	_	gloss=pro	pro	_	_
+4	tatokian	tatokian	NOUN	_	_	_	_	_	gloss=hour	hour	_	_
+5	i	i	ADP	_	_	_	_	_	gloss=in	a grammatical particle indicating place or time past	_	地點，過去的時間
+6	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+7	ira	ira	VERB	_	_	_	_	_	gloss=year	there is * existing	_	存在
+8	koya	koya	SCONJ	_	_	_	_	_	gloss=remains	the * that * See Appendix 1 - Connective Crammatical Paricles	_	那個。參閱附錄I連接詞
+9	tatoloay	tatoloay	AUX	_	_	_	_	_	gloss=Could	Could	_	_
+10	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+11	nai	nai	ADP	_	_	_	prep	_	gloss=from	from * generic form	ADP	從
+12	Kaysariyaay	kaysariyaay	PROPN	_	_	_	_	_	_	Caesarea	PROPN	_
+13	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+14	maocoray	maocoray	VERB	_	_	_	_	_	gloss=N	N	VERB	被差派
+15	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+16	tamdaw	tamdaw	NOUN	_	_	_	_	_	gloss=ly	man * generic for	_	人的總稱
+17	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+18	tahirato	tahirato	VERB	_	_	0	root	_	gloss=arrived|Tense=Past|VerbForm=Fin	arrived	VERB	_
+19	i	i	ADP	_	_	_	_	_	gloss=in	a grammatical particle indicating place or time past	_	地點，過去的時間
+20	fawahan	fawahan	NOUN	_	_	_	_	_	gloss=door	entrance way	NOUN	門，進出口
+21	no	no	ADP	_	_	_	_	_	gloss=of	a grammatical particle * of * by.  See Grammar Appendix 2.	_	文法上的用詞有屬於或憑，依據，藉，經等用法。參閱附錄Ⅱ文法
+22	kamaro'an	kamaro'an	NOUN	_	_	_	_	_	_	chair * stool * seat	_	椅子，凳，蓆子
+23	ako	ako	PRON	_	_	_	_	_	gloss=dear	my * mine * by me.  See Appendix 1 pronouns.	_	我的。請參閱附錄Ⅰ - 代名詞
+24	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+25	loma'	loma'	NOUN	_	_	_	_	_	_	a building	NOUN	建築
+26	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+
+# sent_id = 44021034
+1	Nikawrira	nikawrira	SCONJ	_	_	_	_	_	gloss=But	But	SCONJ	_
+2	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+3	alapatdotdo	alapatdotdo	unk	_	_	_	_	_	_	_	unk	_
+4	sa	sa	unk	_	_	_	_	_	gloss=struck	struck	_	_
+5	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+6	micli'	micli'	unk	_	_	_	_	_	_	_	unk	_
+7	ko	ko	PART	_	_	_	_	_	gloss=other	See Appendix 1 - Connective Grammatical Markers.	_	參閱附錄I，連接詞
+8	finawlan	finawlan	NOUN	_	_	_	_	_	gloss=stir	a community of people	NOUN	羣眾，民眾
+9	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+10	saka	saka	SCONJ	_	_	_	_	_	gloss=since	prefix on many words.  See Appendix 1 - Grammar.	_	加字首語，加在許多字詞之首。參閱附錄Ⅰ文法
+11	rarawraw	rarawraw	NOUN	_	_	_	_	_	gloss=ion	ion	NOUN	吵鬧
+12	sato	sato	NOUN	_	_	_	_	_	gloss=ror	a dry measure for measuring grain	_	稱量器，量杯，斗量
+13	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+14	awa	awa	PART	_	_	_	_	_	gloss=j	no * nothing * none	PART	沒有，無
+15	sato	sato	NOUN	_	_	_	_	_	gloss=ror	a dry measure for measuring grain	_	稱量器，量杯，斗量
+16	ko	ko	PART	_	_	_	_	_	gloss=other	See Appendix 1 - Connective Grammatical Markers.	_	參閱附錄I，連接詞
+17	pinang	pinang	NOUN	_	_	_	_	_	gloss=loss	sign * evidence * clue	NOUN	符號, 證據, 線索
+18	no	no	ADP	_	_	_	_	_	gloss=of	a grammatical particle * of * by.  See Grammar Appendix 2.	_	文法上的用詞有屬於或憑，依據，藉，經等用法。參閱附錄Ⅱ文法
+19	tapang	tapang	NOUN	_	_	_	_	_	gloss=commander	lord * master	_	主人
+20	no	no	ADP	_	_	_	_	_	gloss=of	a grammatical particle * of * by.  See Grammar Appendix 2.	_	文法上的用詞有屬於或憑，依據，藉，經等用法。參閱附錄Ⅱ文法
+21	sofitay	sofitay	NOUN	_	_	_	_	_	gloss=soldiers	soldiers * military	NOUN	士兵，軍人
+22	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+23	mihapinang	mihapinang	VERB	_	_	_	_	_	gloss=learned	learned	VERB	弄清楚
+24	tonini	tonini	DET	_	_	_	_	_	gloss=broken	this.  See Pronouns - Appendix 1.	_	這。參閱附錄Ⅰ代名詞
+25	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+26	dmak	dmak	NOUN	_	_	_	_	_	gloss=done	done	_	_
+27	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+28	saka	saka	SCONJ	_	_	_	_	_	gloss=since	prefix on many words.  See Appendix 1 - Grammar.	_	加字首語，加在許多字詞之首。參閱附錄Ⅰ文法
+29	,	,	PUNCT	_	_	_	_	_	_	_	PUNCT
+30	papikrid	papikrid	VERB	_	_	0	root	_	gloss=ordered|Tense=Past|VerbForm=Fin	ordered	VERB	_
+31	hanto	hanto	unk	_	_	_	_	_	gloss=young	has the same force as han with a punctiliar force.  See han and Appendix 1.	unk	與 han 有相同的意義，與原來相同不要改變。參閱 han 和附錄Ⅰ
+32	ningra	ningra	PRON	_	_	_	_	_	gloss=pleaded	his * hers * by him or her.  See Pronouns - Appendix 1.	_	他 (她) 的；藉著他 (她) 。參閱附錄I代名詞
+33	ko	ko	PART	_	_	_	_	_	gloss=other	See Appendix 1 - Connective Grammatical Markers.	_	參閱附錄I，連接詞
+34	sofitay	sofitay	NOUN	_	_	_	_	_	gloss=soldiers	soldiers * military	_	士兵，軍人
+35	ningra	ningra	PRON	_	_	_	_	_	gloss=pleaded	his * hers * by him or her.  See Pronouns - Appendix 1.	_	他 (她) 的；藉著他 (她) 。參閱附錄I代名詞
+36	ci	ci	PART	_	_	_	prt	_	gloss=out	out	ADP	_
+37	Pawloan	pawloan	unk	_	_	_	_	_	gloss=Dam	Dam	unk	_
+38	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+39	patayra	patayra	VERB	_	_	_	_	_	gloss=sent	sent	_	_
+40	i	i	ADP	_	_	_	prep	_	gloss=in	a grammatical particle indicating place or time past	ADP	地點，過去的時間
+41	loma'	loma'	NOUN	_	_	_	_	_	_	a building	_	建築
+42	no	no	ADP	_	_	_	_	_	gloss=of	a grammatical particle * of * by.  See Grammar Appendix 2.	_	文法上的用詞有屬於或憑，依據，藉，經等用法。參閱附錄Ⅱ文法
+43	sofitay	sofitay	NOUN	_	_	_	_	_	gloss=soldiers	soldiers * military	_	士兵，軍人
+44	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+
+# sent_id = 47012002
+1	Mafana'	mafana'	VERB	_	_	_	_	_	_   _	know	_
+2	kako	kako	AUX	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs	I * the first person personal pronoun (see Appendix 1 - Pronouns)	PRON	我，第一人稱代名詞，參閱附錄Ⅰ
+3	to	to	PART	_	_	_	_	_	gloss=also	also	_	_
+4	ccay	ccay	NUM	_	_	_	_	_	gloss=one	one	_	_
+5	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+6	mitooray	mitooray	unk	_	_	_	_	_	gloss=meetings	meetings	unk	_
+7	ci	ci	PART	_	_	25	conj	_	gloss=out	out	ADP	_
+8	Kristoan	kristoan	PROPN	_	_	_	_	_	gloss=Christ	Christ	PROPN	_
+9	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+10	tamdaw	tamdaw	NOUN	_	_	_	_	_	gloss=ly	man * generic for	_	人的總稱
+11	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+12	I	i	ADP	_	_	_	_	_	gloss=exactly	a grammatical particle indicating place or time past	_	地點，過去的時間
+13	'ayaw	'ayaw	ADJ	_	_	_	_	_	_	in front of ...	ADJ	之前
+14	no	no	ADP	_	_	7	prep	_	gloss=of	a grammatical particle * of * by.  See Grammar Appendix 2.	ADP	文法上的用詞有屬於或憑，依據，藉，經等用法。參閱附錄Ⅱ文法
+15	spat	spat	VERB	_	_	_	_	_	gloss=four	tempted	_	_
+16	ko	ko	PART	_	_	_	_	_	gloss=other	See Appendix 1 - Connective Grammatical Markers.	_	參閱附錄I，連接詞
+17	safaw	safaw	NUM	_	_	_	_	_	gloss=twelve	more than ten	_	十幾個，十來個
+18	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+19	mihcaan	mihcaan	NOUN	_	_	_	npadvmod	_	gloss=years|Number=Plur	years	NOUN	_
+20	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+21	makakoy	makakoy	VERB	_	_	_	_	_	gloss=hether	hether	VERB	_
+22	cingra	cingra	PRON	_	_	_	_	_	gloss=she	he * she.  See Appendix 1 - Pronouns.	_	他或她，參閱附錄Ⅰ - 代名詞
+23	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+24	mapatayra	mapatayra	unk	_	_	_	_	_	gloss=ose	ose	unk	_
+25	i	i	ADP	_	_	_	prep	_	gloss=in	a grammatical particle indicating place or time past	ADP	地點，過去的時間
+26	safafaeday	safafaeday	unk	_	_	_	_	_	_	fafaed=above	unk	_
+27	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+28	kakarayan	kakarayan	PROPN	_	_	_	pobj	_	gloss=heaven|Number=Sing	sky	PROPN	天空
+29	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+30	(	(	PUNCT	_	_	_	_	_	_	_	PUNCT
+31	Halotireng	halotireng	unk	_	_	_	_	_	_	halo=including, tireng=oneself	unk	_
+32	ningra	ningra	PRON	_	_	_	_	_	gloss=pleaded	his * hers * by him or her.  See Pronouns - Appendix 1.	_	他 (她) 的；藉著他 (她) 。參閱附錄I代名詞
+33	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+34	makakoy	makakoy	VERB	_	_	_	_	_	gloss=hether	hether	_	_
+35	hakiya	hakiya	INTJ	_	_	_	_	_	gloss=W	verbal question mark * meaning is less than obvious * provoking thought	_	口頭上的疑問句，意義不明顯，引發思想
+36	?	?	PUNCT	_	_	_	_	_	_	_	PUNCT
+37	Maliyas	maliyas	VERB	_	_	_	_	_	_	liyas=to leave * to go away	VERB	_
+38	ningra	ningra	PRON	_	_	_	_	_	gloss=pleaded	his * hers * by him or her.  See Pronouns - Appendix 1.	_	他 (她) 的；藉著他 (她) 。參閱附錄I代名詞
+39	ko	ko	PART	_	_	_	_	_	gloss=other	See Appendix 1 - Connective Grammatical Markers.	_	參閱附錄I，連接詞
+40	tireng	tireng	NOUN	_	_	14	pobj	_	gloss=body|Number=Sing	one's identity * self	NOUN	身體，自己
+41	ningra	ningra	PRON	_	_	_	_	_	gloss=pleaded	his * hers * by him or her.  See Pronouns - Appendix 1.	_	他 (她) 的；藉著他 (她) 。參閱附錄I代名詞
+42	hakiya	hakiya	INTJ	_	_	_	_	_	gloss=W	verbal question mark * meaning is less than obvious * provoking thought	_	口頭上的疑問句，意義不明顯，引發思想
+43	?	?	PUNCT	_	_	_	_	_	_	_	PUNCT
+44	Caay	caay	PART	_	_	_	_	_	gloss=und	no * not * negative	_	不, 不是, 否定詞
+45	ka	ka	unk	_	_	_	_	_	gloss=t	prefix	_	前綴，行為本身
+46	fana'	fana'	NOUN	_	_	_	_	_	_	generic term for knowledge * including understanding what is heard	_	知識之一般用語，智慧，知道，包括聽聞而知的知識
+47	kako	kako	AUX	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs	I * the first person personal pronoun (see Appendix 1 - Pronouns)	PRON	我，第一人稱代名詞，參閱附錄Ⅰ
+48	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+49	O	o	DET	_	_	_	_	_	gloss=To	To	_	_
+50	Kawas	kawas	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing	Kawas - God	PROPN	上帝
+51	ko	ko	PART	_	_	_	_	_	gloss=other	See Appendix 1 - Connective Grammatical Markers.	_	參閱附錄I，連接詞
+52	mafana'ay	mafana'ay	VERB	_	_	_	_	_	_	know (third person?)	VERB	會 * 知道 * 善於
+53	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+54	)	)	PUNCT	_	_	_	_	_	_	_	PUNCT
+
+# sent_id = 62004009
+1	Ocoren	ocoren	VERB	_	_	_	_	_	gloss=urther	urther	VERB	開溜
+2	no	no	ADP	_	_	_	_	_	gloss=of	a grammatical particle * of * by.  See Grammar Appendix 2.	_	文法上的用詞有屬於或憑，依據，藉，經等用法。參閱附錄Ⅱ文法
+3	Kawas	kawas	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing	Kawas - God	PROPN	上帝
+4	ko	ko	PART	_	_	_	_	_	gloss=other	See Appendix 1 - Connective Grammatical Markers.	_	參閱附錄I，連接詞
+5	dengan	dengan	VERB	_	_	_	ccomp	_	gloss=loved|Tense=Past|VerbForm=Fin	only	VERB	詳見 edengan
+6	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+7	Wawa	wawa	NOUN	_	_	_	conj	_	gloss=Son|Number=Sing	offspring	PROPN	子孫
+8	Ningra	ningra	PRON	_	_	_	_	_	gloss=real	his * hers * by him or her.  See Pronouns - Appendix 1.	_	他 (她) 的；藉著他 (她) 。參閱附錄I代名詞
+9	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+10	patayni	patayni	VERB	_	_	_	_	_	gloss=Unt	Unt	VERB	來這裡
+11	i	i	ADP	_	_	_	_	_	gloss=in	a grammatical particle indicating place or time past	_	地點，過去的時間
+12	tini	tini	DET	_	_	_	_	_	gloss=ote	ote	DET	這裡（受格或方位格）；這個（受格或方位格）
+13	i	i	ADP	_	_	_	_	_	gloss=in	a grammatical particle indicating place or time past	_	地點，過去的時間
+14	hkal	hkal	NOUN	_	_	_	_	_	gloss=earth	earth	NOUN	_
+15	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+16	Pakayni	pakayni	ADP	_	_	_	_	_	gloss=horses	through * by way of	ADP	經過，通過，經由，當作，作為，藉著
+17	i	i	ADP	_	_	_	_	_	gloss=in	a grammatical particle indicating place or time past	_	地點，過去的時間
+18	Cingraan	cingraan	PRON	_	_	_	_	_	gloss=disag	ledge	_	_
+19	ko	ko	PART	_	_	_	_	_	gloss=other	See Appendix 1 - Connective Grammatical Markers.	_	參閱附錄I，連接詞
+20	sakaci'orip	sakaci'orip	VERB	_	_	_	_	_	_	sakaci= cause, 'orip=life	VERB	_
+21	ita	ita	PRON	_	_	_	_	_	gloss=our	us * we * including both the speaker and hearer * a pronoun	_	我們(包括說者與聽者)；代名詞
+22	to	to	PART	_	_	_	_	_	gloss=also	also	_	_
+23	mida'ocay	mida'ocay	ADJ	_	_	_	_	_	_	eternal	ADJ	_
+24	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+25	'orip	'orip	NOUN	_	_	_	_	_	_	life	NOUN	生命，生涯
+26	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+27	I	i	ADP	_	_	_	_	_	gloss=exactly	a grammatical particle indicating place or time past	_	地點，過去的時間
+28	tini	tini	DET	_	_	_	_	_	gloss=ote	ote	_	_
+29	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+30	mahapinang	mahapinang	ADV	_	_	_	_	_	gloss=identified	identified	ADV	看得出
+31	ita	ita	PRON	_	_	_	_	_	gloss=our	us * we * including both the speaker and hearer * a pronoun	_	我們(包括說者與聽者)；代名詞
+32	ko	ko	PART	_	_	_	_	_	gloss=other	See Appendix 1 - Connective Grammatical Markers.	_	參閱附錄I，連接詞
+33	olah	olah	VERB	_	_	_	_	_	gloss=love	to like	VERB	喜歡
+34	no	no	ADP	_	_	_	_	_	gloss=of	a grammatical particle * of * by.  See Grammar Appendix 2.	_	文法上的用詞有屬於或憑，依據，藉，經等用法。參閱附錄Ⅱ文法
+35	Kawas	kawas	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing	Kawas - God	PROPN	上帝
+36	i	i	ADP	_	_	_	_	_	gloss=in	a grammatical particle indicating place or time past	_	地點，過去的時間
+37	titaanan	titaanan	PRON	_	_	5	dobj	_	gloss=us|Case=Acc|Number=Plur|Person=1|PronType=Prs	us (including the hearer).  See Pronouns - Appendix 1.	PRON	我們 (包含聽者) 。參閱附錄Ⅰ代名詞
+38	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+
+# sent_id = 63001005
+1	Milongoc	milongoc	PROPN	_	_	_	_	_	gloss=Jew	Jew	PROPN	_
+2	kako	kako	AUX	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs	I * the first person personal pronoun (see Appendix 1 - Pronouns)	PRON	我，第一人稱代名詞，參閱附錄Ⅰ
+3	i	i	ADP	_	_	_	_	_	gloss=in	a grammatical particle indicating place or time past	_	地點，過去的時間
+4	tisowanan	tisowanan	PRON	_	_	_	_	_	gloss=instantly	you (singular).  See Pronouns - Appendix 1.	PRON	你 (單數) 。參閱附錄Ⅰ代名詞
+5	o	o	DET	_	_	_	_	_	gloss=will	To	_	_
+6	tadamaanay	tadamaanay	NOUN	_	_	_	_	_	gloss=throne	throne	_	_
+7	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+8	fafahiyan	fafahiyan	NOUN	_	_	_	_	_	gloss=woman	female	NOUN	雌性
+9	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+10	Nanay	nanay	VERB	_	_	_	_	_	gloss=Amen	an expression of wish or desire	_	但願，希望
+11	masasiolaolah	masasiolaolah	unk	_	_	_	_	_	gloss=obeyed	obeyed	unk	相親相愛
+12	kita	kita	PRON	_	_	_	_	_	gloss=simply	we * us (including the hearer) See Appendix 1 - Pronouns.	PRON	我們(包括聽者)，參閱附錄I代名詞
+13	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+14	Caay	caay	PART	_	_	_	_	_	gloss=und	no * not * negative	_	不, 不是, 否定詞
+15	ko	ko	PART	_	_	_	_	_	gloss=other	See Appendix 1 - Connective Grammatical Markers.	_	參閱附錄I，連接詞
+16	nipipatilid	nipipatilid	unk	_	_	_	_	_	gloss=may	may	unk	_
+17	ako	ako	PRON	_	_	_	amod	_	gloss=dear|Degree=Pos	my * mine * by me.  See Appendix 1 pronouns.	ADJ	我的。請參閱附錄Ⅰ - 代名詞
+18	i	i	ADP	_	_	_	_	_	gloss=in	a grammatical particle indicating place or time past	_	地點，過去的時間
+19	tisowanan	tisowanan	PRON	_	_	_	_	_	gloss=instantly	you (singular).  See Pronouns - Appendix 1.	PRON	你 (單數) 。參閱附錄Ⅰ代名詞
+20	to	to	PART	_	_	_	_	_	gloss=also	also	_	_
+21	fa	fa	ADJ	_	_	_	amod	_	gloss=new|Degree=Pos	new	ADJ	_
+22	^	^	PUNCT	_	_	_	_	_	_	_	PUNCT
+23	lohay	lohay	ADJ	_	_	_	amod	_	gloss=new|Degree=Pos	new	ADJ	_
+24	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+25	limo'ot	limo'ot	NOUN	_	_	_	_	_	_	command * instruction * exhortation	NOUN	命令，教訓，訓誨，勸戒，訓話
+26	konini	konini	DET	_	_	_	_	_	gloss=countryside	this.  See Appendix 1 Pronouns	_	這個；參閱附錄I代名詞
+27	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+28	Kafana'anto	kafana'anto	NOUN	_	_	_	_	_	_	kafana'an=things you know + obj case	NOUN	所會的事物
+29	ita	ita	PRON	_	_	_	_	_	gloss=our	us * we * including both the speaker and hearer * a pronoun	_	我們(包括說者與聽者)；代名詞
+30	nai	nai	ADP	_	_	_	prep	_	gloss=from	from * generic form	ADP	從
+31	satapangan	satapangan	NOUN	_	_	_	_	_	gloss=creation	the beginning * starting point * Genesis * a book of the Bible	NOUN	源頭，起因；創世紀，聖經第一卷
+32	no	no	ADP	_	_	_	_	_	gloss=of	a grammatical particle * of * by.  See Grammar Appendix 2.	_	文法上的用詞有屬於或憑，依據，藉，經等用法。參閱附錄Ⅱ文法
+33	pitoor	pitoor	unk	_	_	_	_	_	gloss=astray	astray	unk	_
+34	ita	ita	PRON	_	_	_	_	_	gloss=our	us * we * including both the speaker and hearer * a pronoun	_	我們(包括說者與聽者)；代名詞
+35	a	a	CCONJ	_	_	_	_	_	_	"a connecting particle with some of the meaning of ""and"" * modifying particle"	_	連結詞 (為某種意義或修飾用)
+36	limo'ot	limo'ot	NOUN	_	_	_	_	_	_	command * instruction * exhortation	_	命令，教訓，訓誨，勸戒，訓話
+37	konini	konini	DET	_	_	_	_	_	gloss=countryside	this.  See Appendix 1 Pronouns	_	這個；參閱附錄I代名詞
+38	.	.	PUNCT	_	_	_	_	_	_	_	PUNCT
+

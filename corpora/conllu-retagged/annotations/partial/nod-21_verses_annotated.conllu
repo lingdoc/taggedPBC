@@ -1,0 +1,740 @@
+## The following text has been annotated for parts of speech by students at NTU Singapore as part of a class project in AY 2025.
+## Verses are extracted from the taggedPBC. Annotations have been developed with a combination of manual and automated approaches, with reference to existing literature and (where possible) native speakers.
+## ISO 639-3: nod, Language: Northern Thai, Number of verses: 21
+## References: Pittayaporn, Pittayawat (2014). 'Layers of Chinese Loanwords in Proto-Southwestern Tai as Evidence for the Dating of the Spread of Southwestern Tai.' MANUSYA: Journal of Humanities, Special Issue No 20: 47–64. ; PyThaiNLP. (2019). PyThaiNLP. PyThaiNLP. https://pythainlp.org/ ; Wikipedia contributors. (2025, July 20). Northern Thai language. Wikipedia. https://en.wikipedia.org/wiki/Northern_Thai_language
+
+# sent_id = 40006024
+# ref_id = Matthew 6:24
+# eng_text = " No one can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You can't serve both God and Mammon .
+# nod_text = “ bmii pai cha hab chai cheaanaay song kn prom kan dai ynwaa keaacha changnaay kn nueng laew ko haknaayhaem kn nueng kaawaa keaa ko cha sueesaty kab naay kn nueng tae cha duu tuuk duu kaewn naayhaem kn nueng chen deiiyw kantaan cha habchai pracheaa laew cha habchai ngeinkam prom kan b dai
+# nod_orth = “ บ่​มี​ ใผ​ จะ ​ ฮับ​ ใจ๊​ เจ้านาย​ สอง ​คน​ พร้อม ​ กั๋น ​ ได้   ย้อน​ว่า​ เขา​จะ​ จัง​นาย​ คน ​ นึ่ง   แล้ว ​ ก็​ ฮัก​นาย​แหม​ คน​ นึ่ง   กาว่า​ เขา​ ก็​ จะ ​ ซื่อสัตย์ ​ กับ ​ นาย​ คน ​ นึ่ง​ แต่​ จะ ​ ดู​ ถูก ​ ดู​ แควน​ นาย​แหม​ คน​ นึ่ง   เจ้น​ เดียว ​ กั๋น​ต้าน​ จะ ​ ฮับใจ๊ ​ พระเจ้า ​ แล้ว ​ จะ ​ ฮับใจ๊​ เงินคำ​ พร้อม​ กั๋น ​บ่​ ได้
+1	“	“	PUNCT	_	_	_	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+2	bmii	bmii	VERB	_	_	_	_	_	orth=บ่มี|gloss=Nothing
+3	pai	pai	PRON	_	_	_	_	_	orth=ใผ|gloss=away
+4	cha	cha	AUX	_	_	_	aux	_	orth=จะ|gloss=will|VerbForm=Fin
+5	hab	hab	VERB	_	_	_	_	_	orth=ฮับ|gloss=received
+6	chai	chai	NOUN	_	_	_	_	_	orth=ใจ๊|gloss=understand
+7	cheaanaay	cheaanaay	NOUN	_	_	_	dobj	_	orth=เจ้านาย|gloss=masters|Number=Plur
+8	song	song	NUM	_	_	27	nummod	_	orth=สอง|gloss=two|NumType=Card
+9	kn	kn	NOUN	_	_	_	_	_	orth=คน|gloss=people
+10	prom	prom	ADJ	_	_	_	_	_	orth=พร้อม|gloss=ready
+11	kan	kan	ADP	_	_	_	_	_	orth=กั๋น|gloss=pher
+12	dai	dai	AUX	_	_	_	_	_	orth=ได้|gloss=have
+13	ynwaa	ynwaa	SCONJ	_	_	_	_	_	orth=ย้อนว่า|gloss=date
+14	keaacha	keaacha	PRON	_	_	_	_	_	orth=เขาจะ|gloss=lay
+15	changnaay	changnaay	VERB	_	_	_	acomp	_	orth=จังนาย|gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+16	kn	kn	NOUN	_	_	_	_	_	orth=คน|gloss=people
+17	nueng	nueng	PRON	_	_	_	_	_	orth=นึ่ง|gloss=pun
+18	laew	laew	ADV	_	_	_	_	_	orth=แล้ว|gloss=He
+19	ko	ko	ADV	_	_	_	punct	_	orth=ก็|PunctType=Peri
+20	haknaayhaem	haknaayhaem	VERB	_	_	_	acomp	_	orth=ฮักนายแหม|gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+21	kn	kn	NOUN	_	_	_	_	_	orth=คน|gloss=people
+22	nueng	nueng	PRON	_	_	_	_	_	orth=นึ่ง|gloss=pun
+23	kaawaa	kaawaa	CCONJ	_	_	_	_	_	orth=กาว่า|gloss=or
+24	keaa	keaa	PRON	_	_	_	_	_	orth=เขา|gloss=enter
+25	ko	ko	ADV	_	_	_	punct	_	orth=ก็|PunctType=Peri
+26	cha	cha	AUX	_	_	_	aux	_	orth=จะ|gloss=will|VerbForm=Fin
+27	sueesaty	sueesaty	ADJ	_	_	_	dobj	_	orth=ซื่อสัตย์|gloss=masters|Number=Plur
+28	kab	kab	ADP	_	_	46	cc	_	orth=กับ|gloss=and|ConjType=Cmp
+29	naay	naay	NOUN	_	_	_	_	_	orth=นาย|gloss=captain
+30	kn	kn	NOUN	_	_	_	_	_	orth=คน|gloss=people
+31	nueng	nueng	PRON	_	_	_	_	_	orth=นึ่ง|gloss=pun
+32	tae	tae	CCONJ	_	_	_	_	_	orth=แต่|gloss=But
+33	cha	cha	AUX	_	_	_	aux	_	orth=จะ|gloss=will|VerbForm=Fin
+34	duu	duu	VERB	_	_	_	_	_	orth=ดู|gloss=consid
+35	tuuk	tuuk	AUX	_	_	_	_	_	orth=ถูก|gloss=ying
+36	duu	duu	VERB	_	_	_	_	_	orth=ดู|gloss=consid
+37	kaewn	kaewn	ADJ	_	_	_	_	_	orth=แควน|gloss=province
+38	naayhaem	naayhaem	VERB	_	_	_	acomp	_	orth=นายแหม|gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+39	kn	kn	NOUN	_	_	_	_	_	orth=คน|gloss=people
+40	nueng	nueng	PRON	_	_	_	_	_	orth=นึ่ง|gloss=pun
+41	chen	chen	VERB	_	_	_	acomp	_	orth=เจ้น|gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+42	deiiyw	deiiyw	ADJ	_	_	_	_	_	orth=เดียว|gloss=united
+43	kantaan	kantaan	VERB	_	_	_	acomp	_	orth=กั๋นต้าน|gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+44	cha	cha	AUX	_	_	_	aux	_	orth=จะ|gloss=will|VerbForm=Fin
+45	habchai	habchai	VERB	_	_	_	_	_	orth=ฮับใจ๊|gloss=servants
+46	pracheaa	pracheaa	PROPN	_	_	_	dobj	_	orth=พระเจ้า|gloss=God|Number=Sing
+47	laew	laew	ADV	_	_	_	_	_	orth=แล้ว|gloss=He
+48	cha	cha	AUX	_	_	_	aux	_	orth=จะ|gloss=will|VerbForm=Fin
+49	habchai	habchai	VERB	_	_	_	_	_	orth=ฮับใจ๊|gloss=servants
+50	ngeinkam	ngeinkam	NOUN	_	_	_	acomp	_	orth=เงินคำ|gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+51	prom	prom	ADJ	_	_	_	_	_	orth=พร้อม|gloss=ready
+52	kan	kan	ADP	_	_	_	_	_	orth=กั๋น|gloss=pher
+53	b	b	PART	_	_	_	_	_	orth=บ่|gloss=won’t
+54	dai	dai	AUX	_	_	_	_	_	orth=ได้|gloss=have
+
+# sent_id = 40018012
+# ref_id = Matthew 18:12
+# eng_text = " What do you think ? If a man has one hundred sheep , and one of them goes astray , doesn't he leave the ninety-nine , go to the mountains , and seek that which has gone astray ?
+# nod_text = “ hmuutaan cha kued chaa dai taa pochaay kn nueng mii kaea rytaw laew mii taw nueng haay pai keaa ko la kaea keaasib keaataw wai bndy laew paitwy seaaa haa kaea tawtiihaay
+# nod_orth = “ หมู่​ต้าน​ จะ ​ กึ๊ด ​ จา ใด   ถ้า ​ ป้อจาย​ คน ​ นึ่ง​ มี​ แกะ​ ร้อย​ตั๋ว ​ แล้ว ​มี ​ ตั๋ว ​ นึ่ง ​หาย​ ไป   เขา ​ ก็​ ละ​ แกะ​ เก้า​สิบ​ เก้า​ตั๋ว​ ไว้ ​บน​ดอย   แล้ว ​ ไป​ตวย ​ เซาะ ​หา​ แกะ​ ตั๋ว​ตี้​หาย
+1	“	“	PUNCT	_	_	_	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+2	hmuutaan	hmuutaan	NOUN	_	_	_	_	_	orth=หมู่ต้าน|gloss=recognize
+3	cha	cha	AUX	_	_	_	aux	_	orth=จะ|gloss=will|VerbForm=Fin
+4	kued	kued	VERB	_	_	_	_	_	orth=กึ๊ด|gloss=think
+5	chaa	chaa	PART	_	_	_	_	_	orth=จา|gloss=Why
+6	dai	dai	PRON	_	_	_	_	_	orth=ใด|gloss=have
+7	taa	taa	SCONJ	_	_	_	mark	_	orth=ถ้า|gloss=If
+8	pochaay	pochaay	NOUN	_	_	_	nsubj	_	orth=ป้อจาย|gloss=man|Number=Sing
+9	kn	kn	NOUN	_	_	_	_	_	orth=คน|gloss=people
+10	nueng	nueng	PRON	_	_	_	_	_	orth=นึ่ง|gloss=pun
+11	mii	mii	VERB	_	_	_	_	_	orth=มี|gloss=s
+12	kaea	kaea	NOUN	_	_	_	dobj	_	orth=แกะ|gloss=sheep|Number=Plur
+13	rytaw	rytaw	NUM	_	_	_	_	_	orth=ร้อยตั๋ว
+14	laew	laew	PRON	_	_	_	_	_	orth=แล้ว|gloss=He
+15	mii	mii	VERB	_	_	_	_	_	orth=มี|gloss=s
+16	taw	taw	NOUN	_	_	_	_	_	orth=ตั๋ว|gloss=scoff
+17	nueng	nueng	PRON	_	_	_	_	_	orth=นึ่ง|gloss=pun
+18	haay	haay	VERB	_	_	_	_	_	orth=หาย|gloss=evil
+19	pai	pai	ADV	_	_	_	advmod	_	orth=ไป|gloss=away
+20	keaa	keaa	PRON	_	_	_	_	_	orth=เขา|gloss=enter
+21	ko	ko	PUNCT	_	_	_	_	_	orth=ก็
+22	la	la	VERB	_	_	_	_	_	orth=ละ|gloss=Won’t
+23	kaea	kaea	NOUN	_	_	_	dobj	_	orth=แกะ|gloss=sheep|Number=Plur
+24	keaasib	keaasib	NUM	_	_	_	_	_	orth=เก้าสิบ|gloss=ninety-nine
+25	keaataw	keaataw	NUM	_	_	_	_	_	orth=เก้าตั๋ว|gloss=ninety-nine
+26	wai	wai	PART	_	_	_	_	_	orth=ไว้|gloss=sleep
+27	bndy	bndy	NOUN	_	_	_	_	_	orth=บนดอย|gloss=James
+28	laew	laew	PRON	_	_	_	_	_	orth=แล้ว|gloss=He
+29	paitwy	paitwy	VERB	_	_	_	_	_	orth=ไปตวย|gloss=praising
+30	seaaa	seaaa	VERB	_	_	_	_	_	orth=เซาะ|gloss=seeks
+31	haa	haa	VERB	_	_	_	advcl	_	orth=หา|gloss=search|VerbForm=Inf
+32	kaea	kaea	NOUN	_	_	_	dobj	_	orth=แกะ|gloss=sheep|Number=Plur
+33	tawtiihaay	tawtiihaay	NOUN	_	_	_	_	_	orth=ตั๋วตี้หาย
+
+# sent_id = 40020021
+# ref_id = Matthew 20:21
+# eng_text = He said to her , " What do you want ? " She said to him , " Command that these , my two sons , may sit , one on your right hand , and one on your left hand , in your kingdom . "
+# nod_text = prayesuu taam naangwaa “ mii reueeng ahyangkaa” naangtob waa “ meuee prangk kuen pen cheaangk nan laew k hueeluukbaawtueng song knkong kaa cheaa nangyuupeikkwaa kn nueng peik saay kn nuengtwyne”
+# nod_orth = พระเยซู​ ถาม ​ นาง​ว่า “ มี​ เรื่อง ​ อะหยัง​กา”   นาง​ตอบ​ ว่า   “ เมื่อ ​ พระองค์ ​ ขึ้น ​เป๋น​ เจ้า​องค์​ นั้น​ แล้ว   ขอ ​ หื้อ​ลูกบ่าว​ตึง ​ สอง ​คน​ของ ​ ข้า เจ้า ​นั่ง​อยู่​เผิก​ขวา​ คน​ นึ่ง   เผิก​ ซ้าย​ คน ​ นึ่ง​ตวย​เน่อ”
+1	prayesuu	prayesuu	PROPN	_	_	_	_	_	orth=พระเยซู|gloss=Jesus
+2	taam	taam	VERB	_	_	0	root	_	orth=ถาม|gloss=asked|Tense=Past|VerbForm=Fin
+3	naangwaa	naangwaa	NOUN	_	_	_	_	_	orth=นางว่า|gloss=Daughter
+4	“	“	PUNCT	_	_	_	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+5	mii	mii	VERB	_	_	_	_	_	orth=มี|gloss=s
+6	reueeng	reueeng	ADP	_	_	_	_	_	orth=เรื่อง|gloss=about
+7	ahyangkaa”	ahyangkaa”	NOUN	_	_	_	nsubj	_	orth=อะหยังกา”|gloss=request|Number=Sing
+8	naangtob	naangtob	PRON	_	_	_	_	_	orth=นางตอบ
+9	waa	waa	PUNCT	_	_	_	_	_	orth=ว่า
+10	“	“	PUNCT	_	_	_	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+11	meuee	meuee	SCONJ	_	_	_	_	_	orth=เมื่อ|gloss=When
+12	prangk	prangk	PRON	_	_	_	_	_	orth=พระองค์|gloss=him
+13	kuen	kuen	ADP	_	_	_	_	_	orth=ขึ้น|gloss=up
+14	pen	pen	AUX	_	_	_	_	_	orth=เป๋น|gloss=be
+15	cheaangk	cheaangk	NOUN	_	_	_	nsubj	_	orth=เจ้าองค์|gloss=request|Number=Sing
+16	nan	nan	SCONJ	_	_	_	_	_	orth=นั้น|gloss=that
+17	laew	laew	PRON	_	_	_	_	_	orth=แล้ว|gloss=He
+18	k	k	VERB	_	_	_	_	_	orth=ขอ|gloss=builders
+19	hueeluukbaawtueng	hueeluukbaawtueng	NOUN	_	_	_	_	_	orth=หื้อลูกบ่าวตึง
+20	song	song	NUM	_	_	_	nummod	_	orth=สอง|gloss=two|NumType=Card
+21	knkong	knkong	NOUN	_	_	_	_	_	orth=คนของ
+22	kaa	kaa	PRON	_	_	_	_	_	orth=ข้า|gloss=or
+23	cheaa	cheaa	VERB	_	_	_	_	_	orth=เจ้า|gloss=anger
+24	nangyuupeikkwaa	nangyuupeikkwaa	VERB	_	_	_	_	_	orth=นั่งอยู่เผิกขวา
+25	kn	kn	NOUN	_	_	_	_	_	orth=คน|gloss=people
+26	nueng	nueng	PRON	_	_	_	_	_	orth=นึ่ง|gloss=pun
+27	peik	peik	PRON	_	_	_	_	_	orth=เผิก|gloss=Jordan
+28	saay	saay	ADJ	_	_	_	_	_	orth=ซ้าย|gloss=raps
+29	kn	kn	NOUN	_	_	_	_	_	orth=คน|gloss=people
+30	nuengtwyne”	nuengtwyne”	VERB	_	_	_	_	_	orth=นึ่งตวยเน่อ”
+
+# sent_id = 40026002
+# ref_id = Matthew 26:2
+# eng_text = " You know that after two days the Passover is coming , and the Son of Man will be delivered up to be crucified . "
+# nod_text = “ hmuu taan ko huu laew waa haem song wan cha teingngaanpaskaaton nan butrmnusy cha tuukyab sng paihueesatruupeuee eaa paikeingbn mai kaangkenchntaay”
+# nod_orth = “ หมู่​ ต้าน ​ ก็​ ฮู้​ แล้ว ​ ว่า​ แหม​ สอง ​ วัน​ จะ ​ เถิง​งาน​ปัสกา​ต๋อน​ นั้น ​ บุตรมนุษย์​ จะ ​ ถูก​ยับ​ ส่ง​ ไป​หื้อ​ศัตรู๋​เปื้อ​ เอา ​ ไป​เขิง​บน​ ไม้ ​ก๋าง​เขน​จ๋น​ต๋าย”
+1	“	“	PUNCT	_	_	_	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+2	hmuu	hmuu	PRON	_	_	_	_	_	orth=หมู่|gloss=They
+3	taan	taan	PRON	_	_	5	nsubj	_	orth=ต้าน|gloss=you|Case=Nom|Person=2|PronType=Prs
+4	ko	ko	PUNCT	_	_	_	punct	_	orth=ก็|PunctType=Peri
+5	huu	huu	VERB	_	_	_	advcl	_	orth=ฮู้|gloss=know|Tense=Pres|VerbForm=Fin
+6	laew	laew	PRON	_	_	_	_	_	orth=แล้ว|gloss=He
+7	waa	waa	PUNCT	_	_	_	_	_	orth=ว่า
+8	haem	haem	DET	_	_	_	_	_	orth=แหม|gloss=another
+9	song	song	NUM	_	_	_	nummod	_	orth=สอง|gloss=two|NumType=Card
+10	wan	wan	NOUN	_	_	_	_	_	orth=วัน|gloss=day
+11	cha	cha	AUX	_	_	_	aux	_	orth=จะ|gloss=will|VerbForm=Fin
+12	teingngaanpaskaaton	teingngaanpaskaaton	VERB	_	_	_	_	_	orth=เถิงงานปัสกาต๋อน
+13	nan	nan	DET	_	_	_	_	_	orth=นั้น|gloss=that
+14	butrmnusy	butrmnusy	PROPN	_	_	_	pobj	_	orth=บุตรมนุษย์|gloss=Man|Number=Sing
+15	cha	cha	AUX	_	_	_	aux	_	orth=จะ|gloss=will|VerbForm=Fin
+16	tuukyab	tuukyab	VERB	_	_	_	_	_	orth=ถูกยับ
+17	sng	sng	VERB	_	_	_	_	_	orth=ส่ง|gloss=sending
+18	paihueesatruupeuee	paihueesatruupeuee	VERB	_	_	_	_	_	orth=ไปหื้อศัตรู๋เปื้อ
+19	eaa	eaa	VERB	_	_	_	_	_	orth=เอา|gloss=crimin
+20	paikeingbn	paikeingbn	VERB	_	_	_	_	_	orth=ไปเขิงบน|gloss=mocking
+21	mai	mai	NOUN	_	_	_	_	_	orth=ไม้|gloss=stick
+22	kaangkenchntaay”	kaangkenchntaay”	PROPN	_	_	_	_	_	orth=ก๋างเขนจ๋นต๋าย”
+
+# sent_id = 40026061
+# ref_id = Matthew 26:61
+# eng_text = and said , " This man said , ' I am able to destroy the temple of God , and to build it in three days . ' "
+# nod_text = “ yesuu knniikey uu waa ‘ heaa saamaart tub prawihaar kong pracheaakwaang dai laew paeng kuen maa haimpaay nai saamwan’ ”
+# nod_orth = “ เยซู​ คน​นี้​เกย​ อู้​ ว่า   ‘ เฮา​ สามารถ ​ตุ๊บ ​ พระวิหาร​ ของ ​ พระเจ้า​ขว้าง​ ได้   แล้ว ​ แป๋ง ​ ขึ้น ​มา​ ใหม่​ภาย​ ใน​ สาม​วัน’  ”
+1	“	“	PUNCT	_	_	_	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+2	yesuu	yesuu	PROPN	_	_	_	_	_	orth=เยซู|gloss=noticed
+3	knniikey	knniikey	ADV	_	_	_	_	_	orth=คนนี้เกย
+4	uu	uu	VERB	_	_	_	ccomp	_	orth=อู้|gloss=said|Tense=Past|VerbForm=Fin
+5	waa	waa	PUNCT	_	_	_	_	_	orth=ว่า
+6	‘	‘	PUNCT	_	_	4	punct	_	orth=‘|PunctSide=Ini|PunctType=Quot
+7	heaa	heaa	PRON	_	_	_	nsubj	_	orth=เฮา|gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+8	saamaart	saamaart	ADJ	_	_	_	acomp	_	orth=สามารถ|gloss=able|Degree=Pos
+9	tub	tub	NOUN	_	_	_	_	_	orth=ตุ๊บ|gloss=emple
+10	prawihaar	prawihaar	PROPN	_	_	_	dobj	_	orth=พระวิหาร|gloss=Temple|Number=Sing
+11	kong	kong	ADP	_	_	10	prep	_	orth=ของ|gloss=of
+12	pracheaakwaang	pracheaakwaang	NOUN	_	_	_	_	_	orth=พระเจ้าขว้าง|gloss=rebu
+13	dai	dai	AUX	_	_	_	_	_	orth=ได้|gloss=have
+14	laew	laew	PRON	_	_	_	_	_	orth=แล้ว|gloss=He
+15	paeng	paeng	VERB	_	_	_	_	_	orth=แป๋ง|gloss=dough
+16	kuen	kuen	ADP	_	_	_	_	_	orth=ขึ้น|gloss=up
+17	maa	maa	VERB	_	_	_	_	_	orth=มา|gloss=come
+18	haimpaay	haimpaay	ADJ	_	_	_	_	_	orth=ใหม่ภาย
+19	nai	nai	ADP	_	_	_	prep	_	orth=ใน|gloss=in
+20	saamwan’	saamwan’	NUM	_	_	_	_	_	orth=สามวัน’
+21	”	”	PUNCT	_	_	0	root	_	orth=”|PunctSide=Fin|PunctType=Quot
+
+# sent_id = 40028016
+# ref_id = Matthew 28:16
+# eng_text = But the eleven disciples went into Galilee , to the mountain where Jesus had sent them .
+# nod_text = hmuu saawktii helueesibeod knkopaa kanpai kaewnkaalilii laew kuen pai bndytii prayesuu bok
+# nod_orth = หมู่​ สาวก​ตี้​ เหลือ​สิบ​เอ็ด​ คน​ก็​ปา​ กั๋น​ไป ​ แคว้น​กาลิลี   แล้ว ​ ขึ้น​ ไป ​บน​ดอย​ตี้​ พระเยซู​ บอก
+1	hmuu	hmuu	PRON	_	_	_	_	_	orth=หมู่|gloss=They
+2	saawktii	saawktii	NOUN	_	_	_	_	_	orth=สาวกตี้|gloss=ele
+3	helueesibeod	helueesibeod	NUM	_	_	_	_	_	orth=เหลือสิบเอ็ด
+4	knkopaa	knkopaa	VERB	_	_	_	_	_	orth=คนก็ปา|gloss=ele
+5	kanpai	kanpai	PRON	_	_	_	_	_	orth=กั๋นไป|gloss=my
+6	kaewnkaalilii	kaewnkaalilii	PROPN	_	_	_	pobj	_	orth=แคว้นกาลิลี|gloss=Galilee|Number=Sing
+7	laew	laew	PRON	_	_	_	_	_	orth=แล้ว|gloss=He
+8	kuen	kuen	ADP	_	_	_	_	_	orth=ขึ้น|gloss=up
+9	pai	pai	ADV	_	_	_	_	_	orth=ไป|gloss=away
+10	bndytii	bndytii	PROPN	_	_	_	_	_	orth=บนดอยตี้|gloss=ele
+11	prayesuu	prayesuu	PROPN	_	_	_	nsubj	_	orth=พระเยซู|gloss=Jesus|Number=Sing
+12	bok	bok	VERB	_	_	_	_	_	orth=บอก|gloss=tell
+
+# sent_id = 41002023
+# ref_id = Mark 2:23
+# eng_text = It happened , that he was going on the Sabbath day through the grain fields , and his disciples began , as they went , to pluck the ears of grain .
+# nod_text = mii teueenuengpen wan sabaato prayesuu teiiywladkaang tong hlahwaangteiiywlad pai nan hmuu saawk kong prangk ko deod ngwngkaawmaa keod kin kan
+# nod_orth = มี​ เตื้อ​นึ่ง​เป๋น​ วัน​ สะบาโต  พระเยซู​ เตียว​ลัด​ก๋าง​ โต้ง   หละหว่าง​เตียว​ลัด​ ไป ​ นั้น   หมู่​ สาวก​ ของ ​ พระองค์​ ก็​ เด็ด ​งวงข้าว​มา​ เก็ด ​ กิ๋น​ กั๋น
+1	mii	mii	ADP	_	_	_	_	_	orth=มี|gloss=s
+2	teueenuengpen	teueenuengpen	PROPN	_	_	_	_	_	orth=เตื้อนึ่งเป๋น
+3	wan	wan	NOUN	_	_	_	npadvmod	_	orth=วัน|gloss=day|Number=Sing
+4	sabaato	sabaato	PROPN	_	_	3	compound	_	orth=สะบาโต|gloss=Sabbath|Number=Sing
+5	prayesuu	prayesuu	PROPN	_	_	_	nsubj	_	orth=พระเยซู|gloss=Jesus|Number=Sing
+6	teiiywladkaang	teiiywladkaang	NOUN	_	_	_	_	_	orth=เตียวลัดก๋าง
+7	tong	tong	NOUN	_	_	_	_	_	orth=โต้ง|gloss=laves
+8	hlahwaangteiiywlad	hlahwaangteiiywlad	NOUN	_	_	_	_	_	orth=หละหว่างเตียวลัด
+9	pai	pai	ADV	_	_	_	_	_	orth=ไป|gloss=away
+10	nan	nan	SCONJ	_	_	_	_	_	orth=นั้น|gloss=that
+11	hmuu	hmuu	PRON	_	_	_	_	_	orth=หมู่|gloss=They
+12	saawk	saawk	NOUN	_	_	_	nsubj	_	orth=สาวก|gloss=disciples|Number=Plur
+13	kong	kong	ADP	_	_	_	prep	_	orth=ของ|gloss=of
+14	prangk	prangk	PRON	_	_	_	_	_	orth=พระองค์|gloss=him
+15	ko	ko	PUNCT	_	_	_	punct	_	orth=ก็|PunctType=Peri
+16	deod	deod	ADJ	_	_	_	_	_	orth=เด็ด|gloss=ield
+17	ngwngkaawmaa	ngwngkaawmaa	VERB	_	_	_	_	_	orth=งวงข้าวมา
+18	keod	keod	VERB	_	_	_	_	_	orth=เก็ด
+19	kin	kin	VERB	_	_	_	_	_	orth=กิ๋น|gloss=food
+20	kan	kan	VERB	_	_	_	_	_	orth=กั๋น|gloss=pher
+
+# sent_id = 41012032
+# ref_id = Mark 12:32
+# eng_text = The scribe said to him , " Truly , teacher , you have said well that he is one , and there is none other but he ,
+# nod_text = laew trrmaa chaary kn nan uu waa “ dii laew aachaary taan uu tuuk tae ² waa pracheaamii tae ngk deiiyw nok chaak prangk laew bmii pracheaa ueen haem
+# nod_orth = แล้ว ​ ธรรมา จ๋ารย์​ คน​ นั้น ​ อู้ ​ ว่า   “ ดี​ แล้ว ​ อาจ๋ารย์   ต้าน​ อู้​ ถูก ​ แต๊​ ๆ ว่า​ พระเจ้า​มี​ แต่ ​ องค์ ​ เดียว   นอก จาก ​ พระองค์​ แล้ว ​ บ่​มี ​ พระเจ้า ​ อื่น​ แหม
+1	laew	laew	PRON	_	_	_	_	_	orth=แล้ว|gloss=He
+2	trrmaa	trrmaa	NOUN	_	_	_	nsubj	_	orth=ธรรมา|gloss=teacher|Number=Sing
+3	chaary	chaary	NOUN	_	_	_	_	_	orth=จ๋ารย์
+4	kn	kn	NOUN	_	_	_	_	_	orth=คน|gloss=people
+5	nan	nan	SCONJ	_	_	_	mark	_	orth=นั้น|gloss=that
+6	uu	uu	VERB	_	_	_	ccomp	_	orth=อู้|gloss=said|Tense=Past|VerbForm=Fin
+7	waa	waa	PUNCT	_	_	_	_	_	orth=ว่า
+8	“	“	PUNCT	_	_	_	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+9	dii	dii	ADJ	_	_	_	_	_	orth=ดี|gloss=mor
+10	laew	laew	PRON	_	_	_	_	_	orth=แล้ว|gloss=He
+11	aachaary	aachaary	NOUN	_	_	13	npadvmod	_	orth=อาจ๋ารย์|gloss=Teacher|Number=Sing
+12	taan	taan	PRON	_	_	_	_	_	orth=ต้าน|gloss=you
+13	uu	uu	VERB	_	_	_	ccomp	_	orth=อู้|gloss=said|Tense=Past|VerbForm=Fin
+14	tuuk	tuuk	ADJ	_	_	_	_	_	orth=ถูก|gloss=ying
+15	tae	tae	CCONJ	_	_	_	_	_	orth=แต๊|gloss=But
+16	²	²	CCONJ	_	_	_	_	_	orth=ๆ|gloss=arri
+17	waa	waa	PUNCT	_	_	_	_	_	orth=ว่า
+18	pracheaamii	pracheaamii	PROPN	_	_	_	_	_	orth=พระเจ้ามี|gloss=commandment
+19	tae	tae	CCONJ	_	_	_	_	_	orth=แต่|gloss=But
+20	ngk	ngk	ADV	_	_	_	_	_	orth=องค์|gloss=Lord’s
+21	deiiyw	deiiyw	ADV	_	_	_	_	_	orth=เดียว|gloss=united
+22	nok	nok	SCONJ	_	_	_	_	_	orth=นอก|gloss=except
+23	chaak	chaak	ADP	_	_	_	_	_	orth=จาก|gloss=from
+24	prangk	prangk	PROPN	_	_	_	_	_	orth=พระองค์|gloss=him
+25	laew	laew	PRON	_	_	_	_	_	orth=แล้ว|gloss=He
+26	bmii	bmii	VERB	_	_	_	_	_	orth=บ่มี|gloss=Nothing
+27	pracheaa	pracheaa	PROPN	_	_	_	attr	_	orth=พระเจ้า|gloss=God|Number=Sing
+28	ueen	ueen	NOUN	_	_	_	_	_	orth=อื่น|gloss=Others
+29	haem	haem	DET	_	_	_	_	_	orth=แหม|gloss=another
+
+# sent_id = 41014037
+# ref_id = Mark 14:37
+# eng_text = He came and found them sleeping , and said to Peter , " Simon , are you sleeping ? Couldn't you watch one hour ?
+# nod_text = laew prangk teiiywpikmaahaa saawk saamknnan tii nang taayuu han ko han hmuu keaakamlang nonhlab yuu ko taam petor waa “ siimon taan nonhlab heiiy kaa cha feaaheaasak chawmong b dai kaa
+# nod_orth = แล้ว ​ พระองค์​ เตียว​ปิ๊ก​มา​หา​ สาวก​ สาม​คน​นั้น​ ตี้​ นั่ง ​ถ้า​อยู่​ หั้น  ก็​ หัน ​หมู่​ เขา​ก่ำลัง ​นอน​หลับ ​ อยู่   ก็​ ถาม ​ เปโตร ​ ว่า   “ ซีโมน   ต้าน ​นอน​หลับ​ เหีย​ กา  จะ ​ เฝ้า​เฮา​สัก​ จั้วโมง ​ บ่​ ได้ ​ กา
+1	laew	laew	PRON	_	_	_	nsubj	_	orth=แล้ว|gloss=He|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+2	prangk	prangk	PRON	_	_	_	_	_	orth=พระองค์|gloss=him
+3	teiiywpikmaahaa	teiiywpikmaahaa	VERB	_	_	_	_	_	orth=เตียวปิ๊กมาหา|gloss=Couldn’t
+4	saawk	saawk	NOUN	_	_	5	nsubj	_	orth=สาวก|gloss=disciples|Number=Plur
+5	saamknnan	saamknnan	ADJ	_	_	_	acomp	_	orth=สามคนนั้น|gloss=asleep|Degree=Pos
+6	tii	tii	SCONJ	_	_	_	_	_	orth=ตี้|gloss=as
+7	nang	nang	VERB	_	_	_	_	_	orth=นั่ง|gloss=sitting
+8	taayuu	taayuu	VERB	_	_	_	_	_	orth=ถ้าอยู่|gloss=Couldn’t
+9	han	han	ADV	_	_	_	_	_	orth=หั้น|gloss=glorif
+10	ko	ko	PUNCT	_	_	_	punct	_	orth=ก็|PunctType=Peri
+11	han	han	VERB	_	_	_	_	_	orth=หัน|gloss=glorif
+12	hmuu	hmuu	PRON	_	_	_	_	_	orth=หมู่|gloss=They
+13	keaakamlang	keaakamlang	VERB	_	_	_	_	_	orth=เขาก่ำลัง|gloss=sed
+14	nonhlab	nonhlab	ADJ	_	_	_	_	_	orth=นอนหลับ|gloss=fierce
+15	yuu	yuu	ADV	_	_	_	_	_	orth=อยู่|gloss=shin
+16	ko	ko	PUNCT	_	_	_	punct	_	orth=ก็|PunctType=Peri
+17	taam	taam	VERB	_	_	_	_	_	orth=ถาม|gloss=asked
+18	petor	petor	PROPN	_	_	_	pobj	_	orth=เปโตร|gloss=Peter|Number=Sing
+19	waa	waa	PUNCT	_	_	_	_	_	orth=ว่า
+20	“	“	PUNCT	_	_	_	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+21	siimon	siimon	PROPN	_	_	_	npadvmod	_	orth=ซีโมน|gloss=Simon|Number=Sing
+22	taan	taan	PRON	_	_	_	nsubj	_	orth=ต้าน|gloss=you|Case=Nom|Person=2|PronType=Prs
+23	nonhlab	nonhlab	ADJ	_	_	_	_	_	orth=นอนหลับ|gloss=fierce
+24	heiiy	heiiy	NOUN	_	_	_	_	_	orth=เหีย|gloss=emple
+25	kaa	kaa	CCONJ	_	_	_	_	_	orth=กา|gloss=or
+26	cha	cha	AUX	_	_	_	_	_	orth=จะ|gloss=will
+27	feaaheaasak	feaaheaasak	VERB	_	_	_	_	_	orth=เฝ้าเฮาสัก
+28	chawmong	chawmong	NOUN	_	_	_	npadvmod	_	orth=จั้วโมง|gloss=hour|Number=Sing
+29	b	b	PART	_	_	_	_	_	orth=บ่|gloss=won’t
+30	dai	dai	VERB	_	_	_	_	_	orth=ได้|gloss=have
+31	kaa	kaa	CCONJ	_	_	_	_	_	orth=กา|gloss=or
+
+# sent_id = 42004002
+# ref_id = Luke 4:2
+# eng_text = for forty days , being tempted by the devil . He ate nothing in those days . Afterward , when they were completed , he was hungry .
+# nod_text = tii hanmaarko long chai prangkpenwelaasiisib wan tlod welaa nan prangk b dai kin ahyang ley laew hlang chaak nan prangk ko kai yaak kin kaaw
+# nod_orth = ตี้ ​ หั้น​มาร​ก็​ ลอง ใจ๋​ พระองค์​เป๋น​เวลา​สี่​สิบ​ วัน  ตลอด ​ เวลา​ นั้น ​ พระองค์ ​บ่​ ได้ ​ กิ๋น​ อะหยัง ​ เลย   แล้ว ​ หลัง จาก ​ นั้น​ พระองค์​ ก็​ ใค่​ อยาก ​กิ๋น​ ข้าว
+1	tii	tii	SCONJ	_	_	_	_	_	orth=ตี้|gloss=as
+2	hanmaarko	hanmaarko	NOUN	_	_	_	_	_	orth=หั้นมารก็
+3	long	long	VERB	_	_	_	_	_	orth=ลอง|gloss=See
+4	chai	chai	VERB	_	_	_	_	_	orth=ใจ๋|gloss=understand
+5	prangkpenwelaasiisib	prangkpenwelaasiisib	NUM	_	_	_	_	_	orth=พระองค์เป๋นเวลาสี่สิบ
+6	wan	wan	NOUN	_	_	_	_	_	orth=วัน|gloss=day
+7	tlod	tlod	ADV	_	_	_	_	_	orth=ตลอด|gloss=always
+8	welaa	welaa	NOUN	_	_	_	npadvmod	_	orth=เวลา|gloss=time|Number=Sing
+9	nan	nan	DET	_	_	8	det	_	orth=นั้น|gloss=that|Number=Sing|PronType=Dem
+10	prangk	prangk	PRON	_	_	_	_	_	orth=พระองค์|gloss=him
+11	b	b	PART	_	_	_	_	_	orth=บ่|gloss=won’t
+12	dai	dai	AUX	_	_	_	_	_	orth=ได้|gloss=have
+13	kin	kin	VERB	_	_	_	_	_	orth=กิ๋น|gloss=food
+14	ahyang	ahyang	ADJ	_	_	_	_	_	orth=อะหยัง|gloss=worthless
+15	ley	ley	ADJ	_	_	_	_	_	orth=เลย|gloss=Th
+16	laew	laew	PRON	_	_	_	_	_	orth=แล้ว|gloss=He
+17	hlang	hlang	ADP	_	_	_	_	_	orth=หลัง|gloss=wa
+18	chaak	chaak	ADP	_	_	_	_	_	orth=จาก|gloss=from
+19	nan	nan	DET	_	_	8	det	_	orth=นั้น|gloss=that|Number=Sing|PronType=Dem
+20	prangk	prangk	PRON	_	_	_	_	_	orth=พระองค์|gloss=him
+21	ko	ko	PUNCT	_	_	_	punct	_	orth=ก็|PunctType=Peri
+22	kai	kai	ADJ	_	_	_	_	_	orth=ใค่|gloss=near
+23	yaak	yaak	VERB	_	_	_	_	_	orth=อยาก|gloss=spare
+24	kin	kin	VERB	_	_	_	_	_	orth=กิ๋น|gloss=food
+25	kaaw	kaaw	NOUN	_	_	_	_	_	orth=ข้าว|gloss=news
+
+# sent_id = 42016013
+# ref_id = Luke 16:13
+# eng_text = No servant can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You aren't able to serve God and mammon . "
+# nod_text = bmii pai cha hab chai cheaanaay song kn prom kan dai ynwaa keaacha changnaay kn nueng laew ko haknaayhaem kn nueng kaawaa keaa ko cha sueesaty kab naay kn nueng tae cha duu tuuk duu kaewn naayhaem kn nueng chen deiiyw kantaan cha habchai pracheaa laew cha habchai ngeinkam prom kanb dai ”
+# nod_orth = บ่​มี​ ใผ​ จะ ​ ฮับ​ ใจ๊​ เจ้านาย​ สอง ​คน​ พร้อม ​ กั๋น ​ ได้   ย้อน​ว่า​ เขา​จะ​ จัง​นาย​ คน ​ นึ่ง   แล้ว ​ ก็​ ฮัก​นาย​แหม​ คน​ นึ่ง   กาว่า​ เขา​ ก็​ จะ ​ ซื่อสัตย์ ​ กับ ​ นาย​ คน ​ นึ่ง   แต่ ​ จะ ​ ดู​ ถูก ​ ดู​ แควน​ นาย​แหม​ คน​ นึ่ง   เจ้น​ เดียว ​ กั๋น​ต้าน​ จะ ​ ฮับใจ๊ ​ พระเจ้า ​ แล้ว ​ จะ ​ ฮับใจ๊​ เงินคำ​ พร้อม​ กั๋น​บ่​ ได้ ”
+1	bmii	bmii	VERB	_	_	_	_	_	orth=บ่มี|gloss=Nothing
+2	pai	pai	PRON	_	_	_	_	_	orth=ใผ|gloss=away
+3	cha	cha	AUX	_	_	_	aux	_	orth=จะ|gloss=will|VerbForm=Fin
+4	hab	hab	VERB	_	_	_	_	_	orth=ฮับ|gloss=received
+5	chai	chai	NOUN	_	_	_	_	_	orth=ใจ๊|gloss=understand
+6	cheaanaay	cheaanaay	NOUN	_	_	_	dobj	_	orth=เจ้านาย|gloss=masters|Number=Plur
+7	song	song	NUM	_	_	26	nummod	_	orth=สอง|gloss=two|NumType=Card
+8	kn	kn	NOUN	_	_	_	_	_	orth=คน|gloss=people
+9	prom	prom	ADJ	_	_	_	_	_	orth=พร้อม|gloss=ready
+10	kan	kan	ADP	_	_	_	_	_	orth=กั๋น|gloss=pher
+11	dai	dai	AUX	_	_	_	_	_	orth=ได้|gloss=have
+12	ynwaa	ynwaa	SCONJ	_	_	_	_	_	orth=ย้อนว่า|gloss=date
+13	keaacha	keaacha	PRON	_	_	_	_	_	orth=เขาจะ|gloss=lay
+14	changnaay	changnaay	VERB	_	_	_	acomp	_	orth=จังนาย|gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+15	kn	kn	NOUN	_	_	_	_	_	orth=คน|gloss=people
+16	nueng	nueng	PRON	_	_	_	_	_	orth=นึ่ง|gloss=pun
+17	laew	laew	ADV	_	_	_	_	_	orth=แล้ว|gloss=He
+18	ko	ko	ADV	_	_	_	punct	_	orth=ก็|PunctType=Peri
+19	haknaayhaem	haknaayhaem	VERB	_	_	_	acomp	_	orth=ฮักนายแหม|gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+20	kn	kn	NOUN	_	_	_	_	_	orth=คน|gloss=people
+21	nueng	nueng	PRON	_	_	_	_	_	orth=นึ่ง|gloss=pun
+22	kaawaa	kaawaa	CCONJ	_	_	_	_	_	orth=กาว่า|gloss=or
+23	keaa	keaa	PRON	_	_	_	_	_	orth=เขา|gloss=enter
+24	ko	ko	ADV	_	_	_	punct	_	orth=ก็|PunctType=Peri
+25	cha	cha	AUX	_	_	_	aux	_	orth=จะ|gloss=will|VerbForm=Fin
+26	sueesaty	sueesaty	ADJ	_	_	_	dobj	_	orth=ซื่อสัตย์|gloss=masters|Number=Plur
+27	kab	kab	ADP	_	_	45	cc	_	orth=กับ|gloss=and|ConjType=Cmp
+28	naay	naay	NOUN	_	_	_	_	_	orth=นาย|gloss=captain
+29	kn	kn	NOUN	_	_	_	_	_	orth=คน|gloss=people
+30	nueng	nueng	PRON	_	_	_	_	_	orth=นึ่ง|gloss=pun
+31	tae	tae	CCONJ	_	_	_	_	_	orth=แต่|gloss=But
+32	cha	cha	AUX	_	_	_	aux	_	orth=จะ|gloss=will|VerbForm=Fin
+33	duu	duu	VERB	_	_	_	_	_	orth=ดู|gloss=consid
+34	tuuk	tuuk	AUX	_	_	_	_	_	orth=ถูก|gloss=ying
+35	duu	duu	VERB	_	_	_	_	_	orth=ดู|gloss=consid
+36	kaewn	kaewn	VERB	_	_	_	_	_	orth=แควน|gloss=province
+37	naayhaem	naayhaem	VERB	_	_	_	acomp	_	orth=นายแหม|gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+38	kn	kn	NOUN	_	_	_	_	_	orth=คน|gloss=people
+39	nueng	nueng	PRON	_	_	_	_	_	orth=นึ่ง|gloss=pun
+40	chen	chen	VERB	_	_	_	acomp	_	orth=เจ้น|gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+41	deiiyw	deiiyw	ADJ	_	_	_	_	_	orth=เดียว|gloss=united
+42	kantaan	kantaan	VERB	_	_	_	acomp	_	orth=กั๋นต้าน|gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+43	cha	cha	AUX	_	_	_	aux	_	orth=จะ|gloss=will|VerbForm=Fin
+44	habchai	habchai	VERB	_	_	_	_	_	orth=ฮับใจ๊|gloss=servants
+45	pracheaa	pracheaa	PROPN	_	_	_	dobj	_	orth=พระเจ้า|gloss=God|Number=Sing
+46	laew	laew	ADV	_	_	_	_	_	orth=แล้ว|gloss=He
+47	cha	cha	AUX	_	_	_	aux	_	orth=จะ|gloss=will|VerbForm=Fin
+48	habchai	habchai	VERB	_	_	_	_	_	orth=ฮับใจ๊|gloss=servants
+49	ngeinkam	ngeinkam	NOUN	_	_	_	acomp	_	orth=เงินคำ|gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+50	prom	prom	ADJ	_	_	_	_	_	orth=พร้อม|gloss=ready
+51	kanb	kanb	VERB	_	_	_	_	_	orth=กั๋นบ่
+52	dai	dai	AUX	_	_	_	_	_	orth=ได้|gloss=have
+53	”	”	PUNCT	_	_	_	punct	_	orth=”|PunctSide=Fin|PunctType=Quot
+
+# sent_id = 42024018
+# ref_id = Luke 24:18
+# eng_text = One of them , named Cleopas , answered him , " Are you the only one travelling in Jerusalem who doesn't know the things which have happened there in these days ? "
+# nod_text = kn nueng chuee kelopasko taam prangk waa “ taan taa cha penkndeiiyw nai krung yeruusaaleom tiibhuureueeng hetu kaarn tanghlaay tii keid kuen nai song saamwan niiheiiy kaa ”
+# nod_orth = คน ​ นึ่ง​ จื้อ​ เคลโอปัส​ก็​ ถาม ​ พระองค์ ​ ว่า   “ ต้าน ​ท่า​ จะ ​เป๋น​คน​เดียว​ ใน ​ กรุง​ เยรูซาเล็ม ตี้​บ่​ฮู้​เรื่อง​ เหตุ ก๋ารณ์ ​ ตังหลาย ​ตี้ ​ เกิด​ ขึ้น​ ใน ​ สอง ​ สาม​วัน​ นี้​เหีย​ ก้า ”
+1	kn	kn	NOUN	_	_	_	_	_	orth=คน|gloss=people
+2	nueng	nueng	PRON	_	_	_	_	_	orth=นึ่ง|gloss=pun
+3	chuee	chuee	PROPN	_	_	_	_	_	orth=จื้อ|gloss=ames
+4	kelopasko	kelopasko	AUX	_	_	_	_	_	orth=เคลโอปัสก็
+5	taam	taam	VERB	_	_	_	_	_	orth=ถาม|gloss=asked
+6	prangk	prangk	PRON	_	_	_	_	_	orth=พระองค์|gloss=him
+7	waa	waa	PUNCT	_	_	_	_	_	orth=ว่า
+8	“	“	PUNCT	_	_	_	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+9	taan	taan	PRON	_	_	_	_	_	orth=ต้าน|gloss=you
+10	taa	taa	VERB	_	_	_	_	_	orth=ท่า|gloss=If
+11	cha	cha	AUX	_	_	_	_	_	orth=จะ|gloss=will
+12	penkndeiiyw	penkndeiiyw	ADV	_	_	_	_	_	orth=เป๋นคนเดียว
+13	nai	nai	ADP	_	_	_	prep	_	orth=ใน|gloss=in
+14	krung	krung	PROPN	_	_	13	pobj	_	orth=กรุง|gloss=Jerusalem|Number=Sing
+15	yeruusaaleom	yeruusaaleom	PROPN	_	_	13	pobj	_	orth=เยรูซาเล็ม|gloss=Jerusalem|Number=Sing
+16	tiibhuureueeng	tiibhuureueeng	VERB	_	_	_	_	_	orth=ตี้บ่ฮู้เรื่อง
+17	hetu	hetu	NOUN	_	_	_	_	_	orth=เหตุ|gloss=scene
+18	kaarn	kaarn	NOUN	_	_	_	_	_	orth=ก๋ารณ์|gloss=spreading
+19	tanghlaay	tanghlaay	ADJ	_	_	_	_	_	orth=ตังหลาย|gloss=qu
+20	tii	tii	SCONJ	_	_	_	_	_	orth=ตี้|gloss=as
+21	keid	keid	VERB	_	_	_	_	_	orth=เกิด|gloss=uel
+22	kuen	kuen	ADP	_	_	_	_	_	orth=ขึ้น|gloss=up
+23	nai	nai	ADP	_	_	_	prep	_	orth=ใน|gloss=in
+24	song	song	SCONJ	_	_	_	_	_	orth=สอง|gloss=two
+25	saamwan	saamwan	NUM	_	_	_	_	_	orth=สามวัน|gloss=three
+26	niiheiiy	niiheiiy	ADJ	_	_	_	_	_	orth=นี้เหีย
+27	kaa	kaa	CCONJ	_	_	_	_	_	orth=ก้า|gloss=or
+28	”	”	PUNCT	_	_	_	punct	_	orth=”|PunctSide=Fin|PunctType=Quot
+
+# sent_id = 43001039
+# ref_id = John 1:39
+# eng_text = He said to them , " Come , and see . " They came and saw where he was staying , and they stayed with him that day . It was about the tenth hour .
+# nod_text = prayesuu ko bok waa “twymaap lae” laew saawk kong yhn songknkotwy prayesuupaitiiyuu kong prangk ton nan penwelaasii mong laeng laew hmuu keaa ko ley yuu twy prayesuu chnseiiyng wan nan
+# nod_orth = พระเยซู​ ก็​ บอก ​ว่า  “ตวย​มา​ผ่อ​ แล่”   แล้ว ​ สาวก ​ ของ ​ ยอห์น​ สอง​คน​ก็​ตวย​ พระเยซู​ไป​ตี้​อยู่​ ของ ​พระองค์  ต๋อน​ นั้น ​เป๋น​เวลา​สี่​ โมง ​ แลง ​ แล้ว   หมู่​ เขา ​ ก็​ เลย ​ อยู่ ​ตวย​ พระเยซู​ จ๋น​เสี้ยง​ วัน ​ นั้น
+1	prayesuu	prayesuu	PROPN	_	_	_	_	_	orth=พระเยซู|gloss=Jesus
+2	ko	ko	PUNCT	_	_	_	punct	_	orth=ก็|PunctType=Peri
+3	bok	bok	VERB	_	_	_	_	_	orth=บอก|gloss=tell
+4	waa	waa	PUNCT	_	_	_	_	_	orth=ว่า
+5	“twymaap	“twymaap	VERB	_	_	_	_	_	orth=“ตวยมาผ่อ
+6	lae”	lae”	VERB	_	_	_	_	_	orth=แล่”|gloss=devil
+7	laew	laew	PRON	_	_	_	_	_	orth=แล้ว|gloss=He
+8	saawk	saawk	NOUN	_	_	_	_	_	orth=สาวก|gloss=disciples
+9	kong	kong	ADP	_	_	_	prep	_	orth=ของ|gloss=of
+10	yhn	yhn	PROPN	_	_	_	_	_	orth=ยอห์น|gloss=John
+11	songknkotwy	songknkotwy	VERB	_	_	_	_	_	orth=สองคนก็ตวย
+12	prayesuupaitiiyuu	prayesuupaitiiyuu	VERB	_	_	_	_	_	orth=พระเยซูไปตี้อยู่
+13	kong	kong	ADP	_	_	_	prep	_	orth=ของ|gloss=of
+14	prangk	prangk	PRON	_	_	_	pobj	_	orth=พระองค์|gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+15	ton	ton	NOUN	_	_	_	pobj	_	orth=ต๋อน|gloss=afternoon|Number=Sing
+16	nan	nan	DET	_	_	_	_	_	orth=นั้น|gloss=that
+17	penwelaasii	penwelaasii	NOUN	_	_	_	_	_	orth=เป๋นเวลาสี่
+18	mong	mong	NOUN	_	_	_	_	_	orth=โมง
+19	laeng	laeng	NOUN	_	_	_	_	_	orth=แลง|gloss=weather
+20	laew	laew	PRON	_	_	_	_	_	orth=แล้ว|gloss=He
+21	hmuu	hmuu	PRON	_	_	_	_	_	orth=หมู่|gloss=They
+22	keaa	keaa	PRON	_	_	_	_	_	orth=เขา|gloss=enter
+23	ko	ko	PUNCT	_	_	_	punct	_	orth=ก็|PunctType=Peri
+24	ley	ley	VERB	_	_	_	_	_	orth=เลย|gloss=Th
+25	yuu	yuu	VERB	_	_	_	_	_	orth=อยู่|gloss=shin
+26	twy	twy	VERB	_	_	_	_	_	orth=ตวย|gloss=ring
+27	prayesuu	prayesuu	PROPN	_	_	_	_	_	orth=พระเยซู|gloss=Jesus
+28	chnseiiyng	chnseiiyng	NOUN	_	_	_	_	_	orth=จ๋นเสี้ยง
+29	wan	wan	NOUN	_	_	13	pobj	_	orth=วัน|gloss=day|Number=Sing
+30	nan	nan	DET	_	_	_	_	_	orth=นั้น|gloss=that
+
+# sent_id = 43003016
+# ref_id = John 3:16
+# eng_text = For God so loved the world , that he gave his one and only Son , that whoever believes in him should not perish , but have eternal life .
+# nod_text = “ ynwaa pracheaa hak lok nii nak knaad chueng huee prabutr ngk deiiyw kong prangk peueekuukntiicheueewaangchai prabutr nan cha b chibhaay tae mii chiiwit nirandr
+# nod_orth = “ ย้อน​ว่า​ พระเจ้า​ ฮัก​ โลก​ นี้ ​ นัก​ ขนาด   จึง ​ หื้อ ​ พระบุตร ​องค์​ เดียว​ ของ ​พระองค์   เปื้อ​กู้​คน​ตี้​เจื้อ​วางใจ๋​ พระบุตร​ นั้น​ จะ ​ บ่​ ฉิบหาย   แต่ ​ มี​ จีวิต ​นิรันดร์
+1	“	“	PUNCT	_	_	_	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+2	ynwaa	ynwaa	NOUN	_	_	_	_	_	orth=ย้อนว่า|gloss=date
+3	pracheaa	pracheaa	PROPN	_	_	_	nsubj	_	orth=พระเจ้า|gloss=God|Number=Sing
+4	hak	hak	VERB	_	_	_	_	_	orth=ฮัก|gloss=love
+5	lok	lok	NOUN	_	_	_	_	_	orth=โลก|gloss=earth
+6	nii	nii	DET	_	_	_	_	_	orth=นี้|gloss=this
+7	nak	nak	NOUN	_	_	_	_	_	orth=นัก|gloss=prisoner
+8	knaad	knaad	VERB	_	_	_	_	_	orth=ขนาด|gloss=argued
+9	chueng	chueng	ADV	_	_	_	_	_	orth=จึง|gloss=Therefore
+10	huee	huee	VERB	_	_	_	_	_	orth=หื้อ|gloss=give
+11	prabutr	prabutr	PROPN	_	_	_	appos	_	orth=พระบุตร|gloss=Son|Number=Sing
+12	ngk	ngk	NOUN	_	_	_	_	_	orth=องค์|gloss=Lord’s
+13	deiiyw	deiiyw	VERB	_	_	_	_	_	orth=เดียว|gloss=united
+14	kong	kong	ADP	_	_	_	_	_	orth=ของ|gloss=of
+15	prangk	prangk	PRON	_	_	_	pobj	_	orth=พระองค์|gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+16	peueekuukntiicheueewaangchai	peueekuukntiicheueewaangchai	VERB	_	_	_	_	_	orth=เปื้อกู้คนตี้เจื้อวางใจ๋
+17	prabutr	prabutr	PROPN	_	_	_	appos	_	orth=พระบุตร|gloss=Son|Number=Sing
+18	nan	nan	SCONJ	_	_	_	mark	_	orth=นั้น|gloss=that
+19	cha	cha	AUX	_	_	_	aux	_	orth=จะ|gloss=will|VerbForm=Fin
+20	b	b	PART	_	_	_	_	_	orth=บ่|gloss=won’t
+21	chibhaay	chibhaay	VERB	_	_	_	_	_	orth=ฉิบหาย|gloss=by
+22	tae	tae	CCONJ	_	_	_	_	_	orth=แต่|gloss=But
+23	mii	mii	VERB	_	_	_	_	_	orth=มี|gloss=s
+24	chiiwit	chiiwit	NOUN	_	_	_	dobj	_	orth=จีวิต|gloss=life|Number=Sing
+25	nirandr	nirandr	ADJ	_	_	24	amod	_	orth=นิรันดร์|gloss=eternal|Degree=Pos
+
+# sent_id = 44002030
+# ref_id = Acts 2:30
+# eng_text = Therefore , being a prophet , and knowing that God had sworn with an oath to him that of the fruit of his body , according to the flesh , he would raise up the Christ to sit on his throne ,
+# nod_text = ksatriy daawidpen puu pen paak pen seiiyng taen pracheaa tiihuuwaa pracheaa huee kammansayyaa kaetaan waa luuk hlaan knnuengkongtaan cha sueeb taenballangk kong taan
+# nod_orth = กษัตริย์ ​ ดาวิด​เป๋น​ ผู้ ​ เป๋น​ ปาก​ เป๋น ​ เสียง ​ แตน ​ พระเจ้า ตี้​ฮู้​ว่า​ พระเจ้า ​ หื้อ ​ กำมั่นสัญญา​ แก่​ต้าน ​ ว่า   ลูก ​ หลาน ​คน​นึ่ง​ของ​ต้าน​ จะ ​ สืบ​ แตน​บัลลังก์​ ของ​ ต้าน
+1	ksatriy	ksatriy	PROPN	_	_	17	poss	_	orth=กษัตริย์|gloss=David|Number=Sing
+2	daawidpen	daawidpen	PROPN	_	_	_	_	_	orth=ดาวิดเป๋น
+3	puu	puu	SCONJ	_	_	_	mark	_	orth=ผู้|gloss=that
+4	pen	pen	AUX	_	_	_	_	_	orth=เป๋น|gloss=be
+5	paak	paak	NOUN	_	_	_	_	_	orth=ปาก|gloss=mouth
+6	pen	pen	AUX	_	_	_	_	_	orth=เป๋น|gloss=be
+7	seiiyng	seiiyng	NOUN	_	_	_	_	_	orth=เสียง|gloss=voice
+8	taen	taen	NOUN	_	_	_	_	_	orth=แตน|gloss=prophets
+9	pracheaa	pracheaa	PROPN	_	_	_	nsubj	_	orth=พระเจ้า|gloss=God|Number=Sing
+10	tiihuuwaa	tiihuuwaa	VERB	_	_	_	_	_	orth=ตี้ฮู้ว่า
+11	pracheaa	pracheaa	PROPN	_	_	_	nsubj	_	orth=พระเจ้า|gloss=God|Number=Sing
+12	huee	huee	VERB	_	_	_	_	_	orth=หื้อ|gloss=give
+13	kammansayyaa	kammansayyaa	NOUN	_	_	_	_	_	orth=กำมั่นสัญญา
+14	kaetaan	kaetaan	NOUN	_	_	_	_	_	orth=แก่ต้าน
+15	waa	waa	PUNCT	_	_	_	_	_	orth=ว่า
+16	luuk	luuk	NOUN	_	_	_	_	_	orth=ลูก|gloss=children
+17	hlaan	hlaan	NOUN	_	_	22	pobj	_	orth=หลาน|gloss=descendants|Number=Plur
+18	knnuengkongtaan	knnuengkongtaan	NOUN	_	_	_	_	_	orth=คนนึ่งของต้าน
+19	cha	cha	AUX	_	_	_	_	_	orth=จะ|gloss=will
+20	sueeb	sueeb	VERB	_	_	_	_	_	orth=สืบ
+21	taenballangk	taenballangk	NOUN	_	_	_	_	_	orth=แตนบัลลังก์
+22	kong	kong	ADP	_	_	_	prep	_	orth=ของ|gloss=of
+23	taan	taan	PRON	_	_	_	_	_	orth=ต้าน|gloss=you
+
+# sent_id = 44009038
+# ref_id = Acts 9:38
+# eng_text = As Lydda was near Joppa , the disciples , hearing that Peter was there , sent two men to him , imploring him not to delay in coming to them .
+# nod_text = meueeng liddaa kab meueeng yaffaa yuu bkai kan meuee hmuu puu cheuee daiyin waa petoryuu nai meueeng liddaa hmuu keaa ko chai pochaay song knpainwoncheiy petor waa “ kmaawey ² tea ”
+# nod_orth = เมือง ​ ลิดดา​ กับ ​ เมือง​ ยัฟฟา​ อยู่ ​ บ่​ไก๋​ กั๋น   เมื่อ ​หมู่​ ผู้ เจื้อ ​ ได้ยิน ​ ว่า​ เปโตร​อยู่​ ใน ​ เมือง​ ลิดดา หมู่​ เขา​ ก็​ ใจ๊ ​ ป้อจาย​ สอง ​คน​ไป​อ้อนวอน​เจิญ​ เปโตร ​ ว่า   “ ขอ​มา​เวย​ ๆ  เต๊อะ ”
+1	meueeng	meueeng	PROPN	_	_	_	_	_	orth=เมือง|gloss=Per
+2	liddaa	liddaa	PROPN	_	_	_	_	_	orth=ลิดดา|gloss=d
+3	kab	kab	CCONJ	_	_	_	_	_	orth=กับ|gloss=and
+4	meueeng	meueeng	PROPN	_	_	_	_	_	orth=เมือง|gloss=Per
+5	yaffaa	yaffaa	PROPN	_	_	_	_	_	orth=ยัฟฟา|gloss=Joppa
+6	yuu	yuu	VERB	_	_	_	_	_	orth=อยู่|gloss=shin
+7	bkai	bkai	VERB	_	_	_	_	_	orth=บ่ไก๋|gloss=d
+8	kan	kan	VERB	_	_	_	_	_	orth=กั๋น|gloss=pher
+9	meuee	meuee	SCONJ	_	_	_	_	_	orth=เมื่อ|gloss=When
+10	hmuu	hmuu	PRON	_	_	_	_	_	orth=หมู่|gloss=They
+11	puu	puu	SCONJ	_	_	_	mark	_	orth=ผู้|gloss=that
+12	cheuee	cheuee	VERB	_	_	_	_	_	orth=เจื้อ|gloss=faithless
+13	daiyin	daiyin	VERB	_	_	_	ccomp	_	orth=ได้ยิน|gloss=heard|Aspect=Perf|Tense=Past|VerbForm=Part
+14	waa	waa	PUNCT	_	_	_	_	_	orth=ว่า
+15	petoryuu	petoryuu	PROPN	_	_	_	_	_	orth=เปโตรอยู่|gloss=ner
+16	nai	nai	ADP	_	_	_	_	_	orth=ใน|gloss=in
+17	meueeng	meueeng	PROPN	_	_	_	_	_	orth=เมือง|gloss=Per
+18	liddaa	liddaa	PROPN	_	_	_	_	_	orth=ลิดดา|gloss=d
+19	hmuu	hmuu	PRON	_	_	_	_	_	orth=หมู่|gloss=They
+20	keaa	keaa	PRON	_	_	_	_	_	orth=เขา|gloss=enter
+21	ko	ko	PUNCT	_	_	_	_	_	orth=ก็
+22	chai	chai	NOUN	_	_	_	_	_	orth=ใจ๊|gloss=understand
+23	pochaay	pochaay	NOUN	_	_	_	_	_	orth=ป้อจาย|gloss=man
+24	song	song	NUM	_	_	_	nummod	_	orth=สอง|gloss=two|NumType=Card
+25	knpainwoncheiy	knpainwoncheiy	VERB	_	_	_	_	_	orth=คนไปอ้อนวอนเจิญ
+26	petor	petor	PROPN	_	_	_	nsubj	_	orth=เปโตร|gloss=Peter|Number=Sing
+27	waa	waa	PUNCT	_	_	_	_	_	orth=ว่า
+28	“	“	PUNCT	_	_	_	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+29	kmaawey	kmaawey	VERB	_	_	_	_	_	orth=ขอมาเวย
+30	²	²	PUNCT	_	_	_	_	_	orth=ๆ|gloss=arri
+31	tea	tea	PROPN	_	_	_	_	_	orth=เต๊อะ|gloss=being
+32	”	”	PUNCT	_	_	_	punct	_	orth=”|PunctSide=Fin|PunctType=Quot
+
+# sent_id = 44011011
+# ref_id = Acts 11:11
+# eng_text = Behold , immediately three men stood before the house where I was , having been sent from Caesarea to me .
+# nod_text = “ welaa deiiyw kan nan komii saamknmaa yueen tad hnaa baantii kaapcheaa yuu pochaay kn nueng chaihmuu keaamaa chaak meueeng siisaariiyaamaahaa kaapcheaa
+# nod_orth = “ เวลา ​ เดียว ​ กั๋น ​ นั้น ​ ก็​มี​ สาม​คน​มา​ ยืน ​ตั๊ด ​ หน้า ​ บ้าน​ตี้ ​ ข้าพเจ้า ​ อยู่   ป้อจาย​ คน ​ นึ่ง​ ใจ๊​หมู่​ เขา​มา​ จาก ​ เมือง​ ซีซารียา​มา​หา​ ข้าพเจ้า
+1	“	“	PUNCT	_	_	_	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+2	welaa	welaa	NOUN	_	_	_	_	_	orth=เวลา|gloss=time
+3	deiiyw	deiiyw	VERB	_	_	_	_	_	orth=เดียว|gloss=united
+4	kan	kan	VERB	_	_	_	_	_	orth=กั๋น|gloss=pher
+5	nan	nan	DET	_	_	_	_	_	orth=นั้น|gloss=that
+6	komii	komii	ADP	_	_	_	_	_	orth=ก็มี|gloss=along
+7	saamknmaa	saamknmaa	ADJ	_	_	_	_	_	orth=สามคนมา|gloss=uzz
+8	yueen	yueen	VERB	_	_	_	_	_	orth=ยืน|gloss=standing
+9	tad	tad	VERB	_	_	_	_	_	orth=ตั๊ด|gloss=seat
+10	hnaa	hnaa	VERB	_	_	_	_	_	orth=หน้า|gloss=forehead
+11	baantii	baantii	NOUN	_	_	_	_	_	orth=บ้านตี้
+12	kaapcheaa	kaapcheaa	PRON	_	_	_	_	_	orth=ข้าพเจ้า|gloss=pat
+13	yuu	yuu	VERB	_	_	_	_	_	orth=อยู่|gloss=shin
+14	pochaay	pochaay	NOUN	_	_	_	_	_	orth=ป้อจาย|gloss=man
+15	kn	kn	NOUN	_	_	_	_	_	orth=คน|gloss=people
+16	nueng	nueng	PRON	_	_	_	_	_	orth=นึ่ง|gloss=pun
+17	chaihmuu	chaihmuu	VERB	_	_	_	_	_	orth=ใจ๊หมู่|gloss=Macedonia
+18	keaamaa	keaamaa	VERB	_	_	_	_	_	orth=เขามา|gloss=begging
+19	chaak	chaak	ADP	_	_	_	prep	_	orth=จาก|gloss=from
+20	meueeng	meueeng	PROPN	_	_	_	_	_	orth=เมือง|gloss=Per
+21	siisaariiyaamaahaa	siisaariiyaamaahaa	VERB	_	_	_	_	_	orth=ซีซารียามาหา
+22	kaapcheaa	kaapcheaa	PRON	_	_	_	_	_	orth=ข้าพเจ้า|gloss=pat
+
+# sent_id = 44021034
+# ref_id = Acts 21:34
+# eng_text = Some shouted one thing , some another , among the crowd . When he couldn't find out the truth because of the noise , he commanded him to be brought into the barracks .
+# nod_text = baang kneinwaa chaaii haem knwaa chaa an naaypanbsaamaarthuutaeteingreueengtiikeid kuen yn wunwaay knaad ko ley sang hueepaataw peaalo keaa pai wai nai pom thaar
+# nod_orth = บาง ​คน​เอิ้น​ว่า​ จาอี้  แหม​ คน​ว่า​ จา อั้น   นายพัน​บ่​สามารถ​ฮู้​แต๊​เถิง​เรื่อง​ตี้​เกิด ​ ขึ้น ​ ย้อน​ วุ่นวาย​ ขนาด   ก็​ เลย​ สั่ง ​หื้อ​ปา​ตั๋ว​ เปาโล​ เข้า ​ ไป ​ ไว้ ​ ใน ​ ป้อม ​ ทหาร
+1	baang	baang	ADJ	_	_	_	_	_	orth=บาง|gloss=Other
+2	kneinwaa	kneinwaa	VERB	_	_	_	_	_	orth=คนเอิ้นว่า
+3	chaaii	chaaii	NOUN	_	_	_	_	_	orth=จาอี้|gloss=sinning
+4	haem	haem	PRON	_	_	_	conj	_	orth=แหม|gloss=another
+5	knwaa	knwaa	NOUN	_	_	_	_	_	orth=คนว่า
+6	chaa	chaa	SCONJ	_	_	_	_	_	orth=จา|gloss=Why
+7	an	an	ADV	_	_	_	_	_	orth=อั้น|gloss=fam
+8	naaypanbsaamaarthuutaeteingreueengtiikeid	naaypanbsaamaarthuutaeteingreueengtiikeid	VERB	_	_	_	_	_	orth=นายพันบ่สามารถฮู้แต๊เถิงเรื่องตี้เกิด
+9	kuen	kuen	ADP	_	_	_	_	_	orth=ขึ้น|gloss=up
+10	yn	yn	NOUN	_	_	_	_	_	orth=ย้อน|gloss=ght
+11	wunwaay	wunwaay	NOUN	_	_	21	pobj	_	orth=วุ่นวาย|gloss=uproar|Number=Sing
+12	knaad	knaad	NOUN	_	_	_	_	_	orth=ขนาด|gloss=argued
+13	ko	ko	PUNCT	_	_	16	punct	_	orth=ก็|PunctType=Peri
+14	ley	ley	ADV	_	_	_	_	_	orth=เลย|gloss=Th
+15	sang	sang	VERB	_	_	0	root	_	orth=สั่ง|gloss=ordered|Tense=Past|VerbForm=Fin
+16	hueepaataw	hueepaataw	VERB	_	_	0	root	_	orth=หื้อปาตั๋ว|gloss=ordered|Tense=Past|VerbForm=Fin
+17	peaalo	peaalo	PROPN	_	_	_	nsubjpass	_	orth=เปาโล|gloss=Paul|Number=Sing
+18	keaa	keaa	VERB	_	_	_	_	_	orth=เข้า|gloss=enter
+19	pai	pai	ADV	_	_	_	_	_	orth=ไป|gloss=away
+20	wai	wai	NOUN	_	_	_	_	_	orth=ไว้|gloss=sleep
+21	nai	nai	ADP	_	_	_	prep	_	orth=ใน|gloss=in
+22	pom	pom	NOUN	_	_	_	_	_	orth=ป้อม|gloss=conf
+23	thaar	thaar	NOUN	_	_	_	_	_	orth=ทหาร|gloss=soldiers
+
+# sent_id = 47012002
+# ref_id = 2 Corinthians 12:2
+# eng_text = I know a man in Christ , fourteen years ago ( whether in the body , I don't know , or whether out of the body , I don't know ; God knows ) , such a one caught up into the third heaven .
+# nod_text = kaapcheaa huuchak pochaay kn nuengtiicheuee nai pra krist sibsiipiitii laew pracheaa daihabkeaa kuen pai bn swrrk chantii saam ( kaapcheaa b huu waa keaa pai doy spaaptiimii taw kaa waa pai doy chitwiyyaan mii kaa pracheaa teaaantiihuu )
+# nod_orth = ข้าพเจ้า ​ ฮู้จัก​ ป้อจาย​ คน ​ นึ่ง​ตี้​เจื้อ​ ใน ​ พระ คริสต์ สิบ​สี่​ปี๋​ตี้ ​ แล้ว   พระเจ้า​ ได้ฮับ​เขา​ ขึ้น​ ไป ​บน​ สวรรค์​ จั๊น​ตี้ ​ สาม   ( ​ ข้าพเจ้า ​ บ่​ ฮู้ ​ ว่า   เขา ​ ไป ​ โดย ​สภาพ​ตี้​มี​ ตั๋ว   กา ว่า   ไป ​ โดย ​ จิตวิญญาณ   มี ​ ก้า​ พระเจ้า ​ เต้าอั้น​ตี้​ฮู้ ​ )
+1	kaapcheaa	kaapcheaa	PRON	_	_	_	_	_	orth=ข้าพเจ้า|gloss=pat
+2	huuchak	huuchak	VERB	_	_	_	_	_	orth=ฮู้จัก|gloss=know
+3	pochaay	pochaay	NOUN	_	_	_	_	_	orth=ป้อจาย|gloss=man
+4	kn	kn	NOUN	_	_	_	_	_	orth=คน|gloss=people
+5	nuengtiicheuee	nuengtiicheuee	ADJ	_	_	_	_	_	orth=นึ่งตี้เจื้อ
+6	nai	nai	ADP	_	_	_	prep	_	orth=ใน|gloss=in
+7	pra	pra	PROPN	_	_	_	_	_	orth=พระ|gloss=haven’t
+8	krist	krist	PROPN	_	_	_	_	_	orth=คริสต์|gloss=Christ
+9	sibsiipiitii	sibsiipiitii	NUM	_	_	_	_	_	orth=สิบสี่ปี๋ตี้
+10	laew	laew	PRON	_	_	_	_	_	orth=แล้ว|gloss=He
+11	pracheaa	pracheaa	PROPN	_	_	37	nsubj	_	orth=พระเจ้า|gloss=God|Number=Sing
+12	daihabkeaa	daihabkeaa	NOUN	_	_	_	_	_	orth=ได้ฮับเขา
+13	kuen	kuen	ADP	_	_	_	prt	_	orth=ขึ้น|gloss=up
+14	pai	pai	ADV	_	_	_	_	_	orth=ไป|gloss=away
+15	bn	bn	ADP	_	_	_	_	_	orth=บน|gloss=on
+16	swrrk	swrrk	PROPN	_	_	_	pobj	_	orth=สวรรค์|gloss=heaven|Number=Sing
+17	chantii	chantii	ADJ	_	_	_	_	_	orth=จั๊นตี้
+18	saam	saam	NUM	_	_	_	_	_	orth=สาม|gloss=three
+19	(	(	PUNCT	_	_	_	_	_	orth=(
+20	kaapcheaa	kaapcheaa	PRON	_	_	_	_	_	orth=ข้าพเจ้า|gloss=pat
+21	b	b	PART	_	_	_	_	_	orth=บ่|gloss=won’t
+22	huu	huu	VERB	_	_	_	_	_	orth=ฮู้|gloss=know
+23	waa	waa	PUNCT	_	_	_	_	_	orth=ว่า
+24	keaa	keaa	PRON	_	_	_	_	_	orth=เขา|gloss=enter
+25	pai	pai	ADV	_	_	_	_	_	orth=ไป|gloss=away
+26	doy	doy	ADP	_	_	_	_	_	orth=โดย|gloss=empt
+27	spaaptiimii	spaaptiimii	VERB	_	_	_	_	_	orth=สภาพตี้มี
+28	taw	taw	VERB	_	_	_	_	_	orth=ตั๋ว|gloss=scoff
+29	kaa	kaa	CCONJ	_	_	6	cc	_	orth=กา|gloss=or|ConjType=Cmp
+30	waa	waa	PUNCT	_	_	_	_	_	orth=ว่า
+31	pai	pai	ADV	_	_	_	_	_	orth=ไป|gloss=away
+32	doy	doy	ADP	_	_	_	_	_	orth=โดย|gloss=empt
+33	chitwiyyaan	chitwiyyaan	PROPN	_	_	_	_	_	orth=จิตวิญญาณ|gloss=ministry
+34	mii	mii	VERB	_	_	_	_	_	orth=มี|gloss=s
+35	kaa	kaa	CCONJ	_	_	6	cc	_	orth=ก้า|gloss=or|ConjType=Cmp
+36	pracheaa	pracheaa	PROPN	_	_	37	nsubj	_	orth=พระเจ้า|gloss=God|Number=Sing
+37	teaaantiihuu	teaaantiihuu	VERB	_	_	0	root	_	orth=เต้าอั้นตี้ฮู้|gloss=knows|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+38	)	)	PUNCT	_	_	_	_	_	orth=)
+
+# sent_id = 62004009
+# ref_id = 1 John 4:9
+# eng_text = By this was God's love revealed in us , that God has sent his only born Son into the world that we might live through him .
+# nod_text = nii kuee witiitii pracheaa saedng kwaam haktheaa kuee prangk sng prabutr ngk deiiyw kong prangk maayuu nai lok nii peueeheaa cha mii chiiwit nirandr doy paan taa ng prabutr kong prangk nan
+# nod_orth = นี่ ​ คือ ​วิธี​ตี้​ พระเจ้า ​ แสดง ​ ความ ​ ฮัก​ต่อ​เฮา   คือ ​ พระองค์​ ส่ง ​พระบุตร ​องค์​ เดียว​ ของ ​พระองค์ ​มา​อยู่​ ใน ​ โลก ​ นี้   เปื้อ​เฮา​ จะ ​มี ​ จีวิต ​นิรันดร์​ โดย ​ ผ่าน​ ตา ง​ พระบุตร​ ของ ​พระองค์ ​ นั้น
+1	nii	nii	NOUN	_	_	_	_	_	orth=นี่|gloss=this
+2	kuee	kuee	VERB	_	_	_	_	_	orth=คือ|gloss=represent
+3	witiitii	witiitii	NOUN	_	_	_	_	_	orth=วิธีตี้
+4	pracheaa	pracheaa	PROPN	_	_	_	nsubj	_	orth=พระเจ้า|gloss=God|Number=Sing
+5	saedng	saedng	VERB	_	_	_	_	_	orth=แสดง|gloss=accepts
+6	kwaam	kwaam	NOUN	_	_	_	_	_	orth=ความ|gloss=truth
+7	haktheaa	haktheaa	VERB	_	_	_	_	_	orth=ฮักต่อเฮา
+8	kuee	kuee	VERB	_	_	_	_	_	orth=คือ|gloss=represent
+9	prangk	prangk	PRON	_	_	_	pobj	_	orth=พระองค์|gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+10	sng	sng	VERB	_	_	_	pcomp	_	orth=ส่ง|gloss=sending|Aspect=Prog|Tense=Pres|VerbForm=Part
+11	prabutr	prabutr	PROPN	_	_	_	conj	_	orth=พระบุตร|gloss=Son|Number=Sing
+12	ngk	ngk	NOUN	_	_	_	_	_	orth=องค์|gloss=Lord’s
+13	deiiyw	deiiyw	VERB	_	_	_	_	_	orth=เดียว|gloss=united
+14	kong	kong	ADP	_	_	_	_	_	orth=ของ|gloss=of
+15	prangk	prangk	PRON	_	_	_	pobj	_	orth=พระองค์|gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+16	maayuu	maayuu	VERB	_	_	_	_	_	orth=มาอยู่|gloss=worse
+17	nai	nai	ADP	_	_	_	_	_	orth=ใน|gloss=in
+18	lok	lok	NOUN	_	_	_	_	_	orth=โลก|gloss=earth
+19	nii	nii	DET	_	_	_	_	_	orth=นี้|gloss=this
+20	peueeheaa	peueeheaa	AUX	_	_	_	aux	_	orth=เปื้อเฮา|gloss=might|VerbForm=Fin
+21	cha	cha	AUX	_	_	_	_	_	orth=จะ|gloss=will
+22	mii	mii	ADP	_	_	_	_	_	orth=มี|gloss=s
+23	chiiwit	chiiwit	NOUN	_	_	_	dobj	_	orth=จีวิต|gloss=life|Number=Sing
+24	nirandr	nirandr	ADJ	_	_	23	amod	_	orth=นิรันดร์|gloss=eternal|Degree=Pos
+25	doy	doy	SCONJ	_	_	_	_	_	orth=โดย|gloss=empt
+26	paan	paan	ADP	_	_	_	_	_	orth=ผ่าน|gloss=Jud
+27	taa	taa	NOUN	_	_	_	_	_	orth=ตา|gloss=If
+28	ng	ng	NOUN	_	_	_	_	_	orth=ง|gloss=ade
+29	prabutr	prabutr	PROPN	_	_	_	conj	_	orth=พระบุตร|gloss=Son|Number=Sing
+30	kong	kong	ADP	_	_	_	_	_	orth=ของ|gloss=of
+31	prangk	prangk	PRON	_	_	_	pobj	_	orth=พระองค์|gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+32	nan	nan	SCONJ	_	_	_	mark	_	orth=นั้น|gloss=that
+
+# sent_id = 63001005
+# ref_id = 2 John 1:5
+# eng_text = Now I beg you , dear lady , not as though I wrote to you a new commandment , but that which we had from the beginning , that we love one another .
+# nod_text = laew ton nii taan maeying hey kaapcheaa b dai keiiyn kam sang haim huee kab taan tae niipen kam sang tiihmuuheaamiimaa tangtae keaa laew kuee khueehakkan
+# nod_orth = แล้ว ​ ต๋อน ​ นี้  ต้าน​ แม่ญิง ​ เหย   ข้าพเจ้า ​ บ่​ ได้ ​ เขียน ​ กำ สั่ง ​ ใหม่​ หื้อ​ กับ ​ ต้าน   แต่ ​ นี่​เป๋น​ กำ สั่ง ​ตี้​หมู่​เฮา​มี​มา​ ตั้งแต่​ เก๊า​ แล้ว   คือ ​ ขอ​หื้อ​ฮัก​กั๋น
+1	laew	laew	PRON	_	_	_	_	_	orth=แล้ว|gloss=He
+2	ton	ton	ADV	_	_	_	_	_	orth=ต๋อน|gloss=afternoon
+3	nii	nii	PRON	_	_	_	_	_	orth=นี้|gloss=this
+4	taan	taan	PRON	_	_	_	dobj	_	orth=ต้าน|gloss=you|Case=Acc|Person=2|PronType=Prs
+5	maeying	maeying	NOUN	_	_	_	_	_	orth=แม่ญิง|gloss=woman
+6	hey	hey	NOUN	_	_	_	_	_	orth=เหย|gloss=gu
+7	kaapcheaa	kaapcheaa	PRON	_	_	_	_	_	orth=ข้าพเจ้า|gloss=pat
+8	b	b	PART	_	_	_	_	_	orth=บ่|gloss=won’t
+9	dai	dai	AUX	_	_	_	aux	_	orth=ได้|gloss=have|Mood=Ind|Tense=Pres|VerbForm=Fin
+10	keiiyn	keiiyn	NOUN	_	_	_	_	_	orth=เขียน|gloss=cornerstone
+11	kam	kam	CCONJ	_	_	_	_	_	orth=กำ|gloss=ote
+12	sang	sang	VERB	_	_	_	_	_	orth=สั่ง|gloss=ordered
+13	haim	haim	ADJ	_	_	_	amod	_	orth=ใหม่|gloss=new|Degree=Pos
+14	huee	huee	VERB	_	_	_	_	_	orth=หื้อ|gloss=give
+15	kab	kab	CCONJ	_	_	_	_	_	orth=กับ|gloss=and
+16	taan	taan	PRON	_	_	_	dobj	_	orth=ต้าน|gloss=you|Case=Acc|Person=2|PronType=Prs
+17	tae	tae	CCONJ	_	_	_	_	_	orth=แต่|gloss=But
+18	niipen	niipen	ADV	_	_	_	_	_	orth=นี่เป๋น|gloss=Even
+19	kam	kam	CCONJ	_	_	_	_	_	orth=กำ|gloss=ote
+20	sang	sang	VERB	_	_	_	_	_	orth=สั่ง|gloss=ordered
+21	tiihmuuheaamiimaa	tiihmuuheaamiimaa	VERB	_	_	_	_	_	orth=ตี้หมู่เฮามีมา
+22	tangtae	tangtae	NOUN	_	_	_	_	_	orth=ตั้งแต่|gloss=birth
+23	keaa	keaa	VERB	_	_	_	_	_	orth=เก๊า|gloss=enter
+24	laew	laew	PRON	_	_	_	_	_	orth=แล้ว|gloss=He
+25	kuee	kuee	VERB	_	_	_	_	_	orth=คือ|gloss=represent
+26	khueehakkan	khueehakkan	VERB	_	_	_	_	_	orth=ขอหื้อฮักกั๋น
+

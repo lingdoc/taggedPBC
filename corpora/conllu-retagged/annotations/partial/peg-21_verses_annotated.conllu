@@ -1,0 +1,650 @@
+## The following text has been annotated for parts of speech by students at NTU Singapore as part of a class project in AY 2025.
+## Verses are extracted from the taggedPBC. Annotations have been developed with a combination of manual and automated approaches, with reference to existing literature and (where possible) native speakers.
+## ISO 639-3: peg, Language: Pengo, Number of verses: 21
+## References: The book "The Pengo Language; Grammar, Texts, and Vocabulary" by Thomas Burrow ; https://en.wikipedia.org/wiki/Pengo_language
+
+# sent_id = 40006024
+# ref_id = Matthew 6:24
+# eng_text = " No one can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You can't serve both God and Mammon .
+# peg_text = rakaan haliaa ranyjemaadd rikaar maaliktingg hebaa kidengg aaddun. laagingg hewaan rakaaningg aakaar aanaan aare jekanikaaringg laadd kinaan, rakaaningg icaa aanaat aare jekanikaaringg ginn kinaan. epengg iishwara aare dan i rinnddekaangg hebaa kidengg aadduder.”
+# peg_orth = ରକାନ୍ ହଲିଆ ରଞ୍ଜେମାଡ୍ ରିକାର୍ ମାଲିକ୍‌ତିଙ୍ଗ୍ ହେବା କିଦେଙ୍ଗ୍ ଆଡୁନ୍। ଲାଗିଙ୍ଗ୍ ହେୱାନ୍ ରକାନିଙ୍ଗ୍ ଆକାର୍ ଆନାନ୍ ଆରେ ଜେକନିକାରିଙ୍ଗ୍ ଲାଡ୍ କିନାନ୍, ରକାନିଙ୍ଗ୍ ଇଚା ଆନାତ୍ ଆରେ ଜେକନିକାରିଙ୍ଗ୍ ଗିଣ୍ କିନାନ୍। ଏପେଙ୍ଗ୍ ଈଶ୍ୱର ଆରେ ଦନ୍ ଇ ରିଣ୍ଡେକାଙ୍ଗ୍ ହେବା କିଦେଙ୍ଗ୍ ଆଡୁଦେର୍।”
+1	rakaan	rakaan	NOUN	_	_	_	_	_	orth=ରକାନ୍|gloss=an
+2	haliaa	haliaa	NOUN	_	_	_	_	_	orth=ହଲିଆ|gloss=master
+3	ranyjemaadd	ranyjemaadd	unk	_	_	_	_	_	orth=ରଞ୍ଜେମାଡ୍
+4	rikaar	rikaar	NUM	_	_	28	nummod	_	orth=ରିକାର୍|gloss=two|NumType=Card
+5	maaliktingg	maaliktingg	NOUN	_	_	6	dobj	_	orth=ମାଲିକ୍‌ତିଙ୍ଗ୍|gloss=masters|Number=Plur
+6	hebaa	hebaa	AUX	_	_	0	root	_	orth=ହେବା|gloss=serve|VerbForm=Inf
+7	kidengg	kidengg	PRON	_	_	_	_	_	orth=କିଦେଙ୍ଗ୍|gloss=5
+8	aaddun.	aaddun.	VERB	_	_	_	acomp	_	orth=ଆଡୁନ୍।|gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+9	laagingg	laagingg	NOUN	_	_	_	_	_	orth=ଲାଗିଙ୍ଗ୍|gloss=So
+10	hewaan	hewaan	PRON	_	_	_	_	_	orth=ହେୱାନ୍|gloss=he
+11	rakaaningg	rakaaningg	NOUN	_	_	_	_	_	orth=ରକାନିଙ୍ଗ୍|gloss=n
+12	aakaar	aakaar	VERB	_	_	_	conj	_	orth=ଆକାର୍|gloss=despise|VerbForm=Inf
+13	aanaan	aanaan	VERB	_	Tense=Past	6	dobj	_	orth=ଆନାନ୍|gloss=masters|Number=Plur
+14	aare	aare	CCONJ	_	_	_	cc	_	orth=ଆରେ|gloss=and|ConjType=Cmp
+15	jekanikaaringg	jekanikaaringg	NOUN	_	_	_	_	_	orth=ଜେକନିକାରିଙ୍ଗ୍|gloss=y
+16	laadd	laadd	VERB	_	_	_	conj	_	orth=ଲାଡ୍|gloss=love|VerbForm=Inf
+17	kinaan,	kinaan,	VERB	_	_	_	_	_	orth=କିନାନ୍,|gloss=sister
+18	rakaaningg	rakaaningg	NOUN	_	_	_	_	_	orth=ରକାନିଙ୍ଗ୍|gloss=n
+19	icaa	icaa	NOUN	_	_	_	_	_	orth=ଇଚା|gloss=want
+20	aanaat	aanaat	VERB	_	_	_	conj	_	orth=ଆନାତ୍|gloss=despise|VerbForm=Inf
+21	aare	aare	CCONJ	_	_	_	cc	_	orth=ଆରେ|gloss=and|ConjType=Cmp
+22	jekanikaaringg	jekanikaaringg	NOUN	_	_	_	_	_	orth=ଜେକନିକାରିଙ୍ଗ୍|gloss=y
+23	ginn	ginn	unk	_	_	_	_	_	orth=ଗିଣ୍|gloss=hates
+24	kinaan.	kinaan.	VERB	_	_	_	_	_	orth=କିନାନ୍।|gloss=ct
+25	epengg	epengg	PRON	_	_	_	nsubj	_	orth=ଏପେଙ୍ଗ୍|gloss=you|Case=Nom|Person=2|PronType=Prs
+26	iishwara	iishwara	PROPN	_	_	_	_	_	orth=ଈଶ୍ୱର|gloss=God’s
+27	aare	aare	CCONJ	_	_	_	cc	_	orth=ଆରେ|gloss=and|ConjType=Cmp
+28	dan	dan	NOUN	_	_	31	dobj	_	orth=ଦନ୍|gloss=masters|Number=Plur
+29	i	i	NOUN	_	_	_	_	_	orth=ଇ|gloss=this
+30	rinnddekaangg	rinnddekaangg	VERB	_	_	_	conj	_	orth=ରିଣ୍ଡେକାଙ୍ଗ୍|gloss=despise|VerbForm=Inf
+31	hebaa	hebaa	AUX	_	_	0	root	_	orth=ହେବା|gloss=serve|VerbForm=Inf
+32	kidengg	kidengg	PRON	_	_	_	_	_	orth=କିଦେଙ୍ଗ୍|gloss=5
+33	aadduder.”	aadduder.”	VERB	_	_	_	acomp	_	orth=ଆଡୁଦେର୍।”|gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+
+# sent_id = 40018012
+# ref_id = Matthew 18:12
+# eng_text = " What do you think ? If a man has one hundred sheep , and one of them goes astray , doesn't he leave the ninety-nine , go to the mountains , and seek that which has gone astray ?
+# peg_text = epengg inaakaa baabikinaaderaa, rakaaningg shahegattaa mennddhaangg maanginik aare he bitretaangg ranyjaangg jaanggnaat, laagingg hewaan inaakaa kinaan? aneshatgattaa mennddhaakaangg haardaangg kaani maanaayaartaake pisti he jaanggti mennddhaatingg ddektengg haacaan.
+# peg_orth = ଏପେଙ୍ଗ୍ ଇନାକା ବାବିକିନାଦେରା, ରକାନିଙ୍ଗ୍ ଶହେଗଟା ମେଣ୍ଢାଙ୍ଗ୍ ମାନ୍‌ଗିନିକ୍ ଆରେ ହେ ବିତ୍ରେତାଙ୍ଗ୍ ରଞ୍ଜାଙ୍ଗ୍ ଜାଙ୍ଗ୍‌ନାତ୍, ଲାଗିଙ୍ଗ୍ ହେୱାନ୍ ଇନାକା କିନାନ୍? ଅନେଶତ୍‌ଗଟା ମେଣ୍ଢାକାଙ୍ଗ୍ ହାର୍‌ଦାଙ୍ଗ୍ କାନି ମାନାୟାର୍‌ତାକେ ପିସ୍ତି ହେ ଜାଙ୍ଗ୍‌ତି ମେଣ୍ଢାତିଙ୍ଗ୍ ଡେକ୍‌ତେଙ୍ଗ୍ ହାଚାନ୍।
+1	epengg	epengg	PRON	_	_	_	_	_	orth=ଏପେଙ୍ଗ୍|gloss=you
+2	inaakaa	inaakaa	NOUN	_	_	_	_	_	orth=ଇନାକା|gloss=account
+3	baabikinaaderaa,	baabikinaaderaa,	unk	_	_	_	_	_	orth=ବାବିକିନାଦେରା,
+4	rakaaningg	rakaaningg	NOUN	_	_	_	_	_	orth=ରକାନିଙ୍ଗ୍|gloss=n
+5	shahegattaa	shahegattaa	unk	_	_	_	_	_	orth=ଶହେଗଟା|gloss=Won’t
+6	mennddhaangg	mennddhaangg	NOUN	_	_	_	dobj	_	orth=ମେଣ୍ଢାଙ୍ଗ୍|gloss=sheep|Number=Plur
+7	maanginik	maanginik	unk	_	_	_	_	_	orth=ମାନ୍‌ଗିନିକ୍
+8	aare	aare	CCONJ	_	_	_	cc	_	orth=ଆରେ|gloss=and|ConjType=Cmp
+9	he	he	DET	_	_	_	det	_	orth=ହେ|gloss=the|Definite=Def|PronType=Art
+10	bitretaangg	bitretaangg	NOUN	_	_	_	_	_	orth=ବିତ୍ରେତାଙ୍ଗ୍|gloss=w
+11	ranyjaangg	ranyjaangg	unk	_	_	_	_	_	orth=ରଞ୍ଜାଙ୍ଗ୍|gloss=hip
+12	jaanggnaat,	jaanggnaat,	unk	_	_	_	_	_	orth=ଜାଙ୍ଗ୍‌ନାତ୍,
+13	laagingg	laagingg	NOUN	_	_	_	_	_	orth=ଲାଗିଙ୍ଗ୍|gloss=So
+14	hewaan	hewaan	PRON	_	_	_	nsubj	_	orth=ହେୱାନ୍|gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+15	inaakaa	inaakaa	NOUN	_	_	_	_	_	orth=ଇନାକା|gloss=account
+16	kinaan?	kinaan?	VERB	_	_	_	_	_	orth=କିନାନ୍?
+17	aneshatgattaa	aneshatgattaa	unk	_	_	_	_	_	orth=ଅନେଶତ୍‌ଗଟା
+18	mennddhaakaangg	mennddhaakaangg	NOUN	_	_	_	dobj	_	orth=ମେଣ୍ଢାକାଙ୍ଗ୍|gloss=sheep|Number=Plur
+19	haardaangg	haardaangg	unk	_	_	_	_	_	orth=ହାର୍‌ଦାଙ୍ଗ୍|gloss=carefully
+20	kaani	kaani	unk	_	_	_	_	_	orth=କାନି|gloss=hill
+21	maanaayaartaake	maanaayaartaake	unk	_	_	_	_	_	orth=ମାନାୟାର୍‌ତାକେ|gloss=ministry
+22	pisti	pisti	unk	_	_	_	_	_	orth=ପିସ୍ତି|gloss=repent
+23	he	he	DET	_	_	_	det	_	orth=ହେ|gloss=the|Definite=Def|PronType=Art
+24	jaanggti	jaanggti	VERB	_	_	_	relcl	_	orth=ଜାଙ୍ଗ୍‌ତି|gloss=lost|Aspect=Perf|Tense=Past|VerbForm=Part
+25	mennddhaatingg	mennddhaatingg	VERB	_	_	_	relcl	_	orth=ମେଣ୍ଢାତିଙ୍ଗ୍|gloss=lost|Aspect=Perf|Tense=Past|VerbForm=Part
+26	ddektengg	ddektengg	PRON	_	Case=Nom|Number=Sing|PronType=Prs	_	_	_	orth=ଡେକ୍‌ତେଙ୍ଗ୍|gloss=Won’t
+27	haacaan.	haacaan.	VERB	_	Tense=Past	_	_	_	orth=ହାଚାନ୍।|gloss=went
+
+# sent_id = 40020021
+# ref_id = Matthew 20:21
+# eng_text = He said to her , " What do you want ? " She said to him , " Command that these , my two sons , may sit , one on your right hand , and one on your left hand , in your kingdom . "
+# peg_text = hebe yiishu hewaaringg wenbaataan, “epengg inaakaa icaa kinaaderaa?” hewaar hewaaningg weccaar, “mi saasan kini raajitaake heleke naa i rikaar himnnaangg bitretaangg rakaaningg ni tini baagaay aare rakaaningg ddebaa baagaay kuccengg aadikaar maanggengg hidaa.”
+# peg_orth = ହେବେ ଯୀଶୁ ହେୱାରିଙ୍ଗ୍ ୱେନ୍‌ବାତାନ୍, “ଏପେଙ୍ଗ୍ ଇନାକା ଇଚା କିନାଦେରା?” ହେୱାର୍ ହେୱାନିଙ୍ଗ୍ ୱେଚ୍‌ଚାର୍, “ମି ସାସନ୍ କିନି ରାଜିତାକେ ହେଲେକେ ନା ଇ ରିକାର୍ ହିମ୍‌ଣାଙ୍ଗ୍ ବିତ୍ରେତାଙ୍ଗ୍ ରକାନିଙ୍ଗ୍ ନି ତିନି ବାଗାୟ୍ ଆରେ ରକାନିଙ୍ଗ୍ ଡେବା ବାଗାୟ୍ କୁଚ୍‌ଚେଙ୍ଗ୍ ଆଦିକାର୍ ମାଙ୍ଗେଙ୍ଗ୍ ହିଦା।”
+1	hebe	hebe	NOUN	_	_	_	_	_	orth=ହେବେ|gloss=there
+2	yiishu	yiishu	PROPN	_	_	_	_	_	orth=ଯୀଶୁ|gloss=Jesus
+3	hewaaringg	hewaaringg	unk	_	_	_	_	_	orth=ହେୱାରିଙ୍ଗ୍|gloss=them
+4	wenbaataan,	wenbaataan,	VERB	_	Tense=Past	0	root	_	orth=ୱେନ୍‌ବାତାନ୍,|gloss=asked|Tense=Past|VerbForm=Fin
+5	“epengg	“epengg	PRON	_	_	_	_	_	orth=“ଏପେଙ୍ଗ୍|gloss=Sit
+6	inaakaa	inaakaa	NOUN	_	_	_	_	_	orth=ଇନାକା|gloss=account
+7	icaa	icaa	NOUN	_	_	_	_	_	orth=ଇଚା|gloss=want
+8	kinaaderaa?”	kinaaderaa?”	PRON	_	_	_	attr	_	orth=କିନାଦେରା?”|gloss=What
+9	hewaar	hewaar	PRON	_	_	_	_	_	orth=ହେୱାର୍|gloss=They
+10	hewaaningg	hewaaningg	unk	_	_	_	_	_	orth=ହେୱାନିଙ୍ଗ୍|gloss=him
+11	weccaar,	weccaar,	unk	_	_	_	_	_	orth=ୱେଚ୍‌ଚାର୍,|gloss=ourselves
+12	“mi	“mi	PRON	_	Person=2|Poss=Yes|PronType=Prs	_	_	_	orth=“ମି|gloss=village
+13	saasan	saasan	VERB	_	Tense=Past	_	_	_	orth=ସାସନ୍|gloss=discipline
+14	kini	kini	unk	_	_	_	_	_	orth=କିନି|gloss=o
+15	raajitaake	raajitaake	unk	_	_	_	_	_	orth=ରାଜିତାକେ|gloss=enter
+16	heleke	heleke	unk	_	_	_	_	_	orth=ହେଲେକେ|gloss=responsibility
+17	naa	naa	PRON	_	_	_	poss	_	orth=ନା|gloss=my|Number=Sing|Person=1|Poss=Yes|PronType=Prs
+18	i	i	NOUN	_	_	_	_	_	orth=ଇ|gloss=this
+19	rikaar	rikaar	NUM	_	_	_	nummod	_	orth=ରିକାର୍|gloss=two|NumType=Card
+20	himnnaangg	himnnaangg	unk	_	_	_	_	_	orth=ହିମ୍‌ଣାଙ୍ଗ୍|gloss=dogs
+21	bitretaangg	bitretaangg	NOUN	_	_	_	_	_	orth=ବିତ୍ରେତାଙ୍ଗ୍|gloss=w
+22	rakaaningg	rakaaningg	NOUN	_	_	_	_	_	orth=ରକାନିଙ୍ଗ୍|gloss=n
+23	ni	ni	unk	_	_	_	_	_	orth=ନି|gloss=charges
+24	tini	tini	unk	_	_	_	_	_	orth=ତିନି|gloss=dogs
+25	baagaay	baagaay	NOUN	_	_	_	pobj	_	orth=ବାଗାୟ୍|gloss=places|Number=Plur
+26	aare	aare	CCONJ	_	_	_	cc	_	orth=ଆରେ|gloss=and|ConjType=Cmp
+27	rakaaningg	rakaaningg	NOUN	_	_	_	_	_	orth=ରକାନିଙ୍ଗ୍|gloss=n
+28	ddebaa	ddebaa	NOUN	_	_	_	pobj	_	orth=ଡେବା|gloss=left|Number=Sing
+29	baagaay	baagaay	NOUN	_	_	_	pobj	_	orth=ବାଗାୟ୍|gloss=places|Number=Plur
+30	kuccengg	kuccengg	PRON	_	Case=Nom|Number=Sing|PronType=Prs	_	pobj	_	orth=କୁଚ୍‌ଚେଙ୍ଗ୍|gloss=places|Number=Plur
+31	aadikaar	aadikaar	unk	_	_	_	_	_	orth=ଆଦିକାର୍|gloss=authority
+32	maanggengg	maanggengg	PRON	_	_	_	_	_	orth=ମାଙ୍ଗେଙ୍ଗ୍|gloss=us
+33	hidaa.”	hidaa.”	VERB	_	_	_	ccomp	_	orth=ହିଦା।”|gloss=let|VerbForm=Inf
+
+# sent_id = 40026002
+# ref_id = Matthew 26:2
+# eng_text = " You know that after two days the Passover is coming , and the Son of Man will be delivered up to be crucified . "
+# peg_text = ridin paace nistaar paarbu aanaat idaangg epengg punaatt. aare aanengg saragtaangg waajimaaci maanaay himnnaa krshakaatttaake haahni kaajingg aahiyaa aanaangg.
+# peg_orth = ରିଦିନ୍ ପାଚେ ନିସ୍ତାର୍ ପାର୍ବୁ ଆନାତ୍ ଇଦାଙ୍ଗ୍ ଏପେଙ୍ଗ୍ ପୁନାଟ୍। ଆରେ ଆନେଙ୍ଗ୍ ସରଗ୍‌ତାଙ୍ଗ୍ ୱାଜିମାଚି ମାନାୟ୍ ହିମ୍‌ଣା କୃଶକାଟ୍‌ତାକେ ହାଃନି କାଜିଙ୍ଗ୍ ଆହିୟା ଆନାଙ୍ଗ୍।
+1	ridin	ridin	VERB	_	Tense=Pres	_	_	_	orth=ରିଦିନ୍
+2	paace	paace	unk	_	_	_	_	_	orth=ପାଚେ|gloss=follow
+3	nistaar	nistaar	PROPN	_	_	_	nsubj	_	orth=ନିସ୍ତାର୍|gloss=Passover|Number=Sing
+4	paarbu	paarbu	PROPN	_	_	_	nsubj	_	orth=ପାର୍ବୁ|gloss=Passover|Number=Sing
+5	aanaat	aanaat	VERB	_	_	_	_	_	orth=ଆନାତ୍|gloss=despise
+6	idaangg	idaangg	unk	_	_	_	_	_	orth=ଇଦାଙ୍ଗ୍|gloss=Understand
+7	epengg	epengg	PRON	_	_	_	nsubj	_	orth=ଏପେଙ୍ଗ୍|gloss=you|Case=Nom|Person=2|PronType=Prs
+8	punaatt.	punaatt.	unk	_	_	_	_	_	orth=ପୁନାଟ୍।
+9	aare	aare	CCONJ	_	_	_	cc	_	orth=ଆରେ|gloss=and|ConjType=Cmp
+10	aanengg	aanengg	PRON	_	_	_	_	_	orth=ଆନେଙ୍ଗ୍|gloss=I
+11	saragtaangg	saragtaangg	PROPN	_	_	_	nsubjpass	_	orth=ସରଗ୍‌ତାଙ୍ଗ୍|gloss=Son|Number=Sing
+12	waajimaaci	waajimaaci	PROPN	_	_	_	pobj	_	orth=ୱାଜିମାଚି|gloss=Man|Number=Sing
+13	maanaay	maanaay	NOUN	_	_	_	_	_	orth=ମାନାୟ୍|gloss=crowd
+14	himnnaa	himnnaa	PRON	_	_	_	pobj	_	orth=ହିମ୍‌ଣା|gloss=Man|Number=Sing
+15	krshakaatttaake	krshakaatttaake	VERB	_	_	_	advcl	_	orth=କୃଶକାଟ୍‌ତାକେ|gloss=crucified|Aspect=Perf|Tense=Past|VerbForm=Part
+16	haahni	haahni	unk	_	_	_	_	_	orth=ହାଃନି|gloss=death
+17	kaajingg	kaajingg	NOUN	_	_	_	_	_	orth=କାଜିଙ୍ଗ୍|gloss=for
+18	aahiyaa	aahiyaa	unk	_	_	_	_	_	orth=ଆହିୟା|gloss=ill
+19	aanaangg.	aanaangg.	unk	_	_	_	_	_	orth=ଆନାଙ୍ଗ୍।
+
+# sent_id = 40026061
+# ref_id = Matthew 26:61
+# eng_text = and said , " This man said , ' I am able to destroy the temple of God , and to build it in three days . ' "
+# peg_text = iwaanta wecci maannycaan, “aanengg iishwara rasti mandirtingg ddrikci tindintaangg aanengg maanaayaar rahwiti mandirtingg rahnaangg.”
+# peg_orth = ଇୱାନ୍‌ତ ୱେଚ୍‌ଚି ମାନ୍‌ଞ୍ଚାନ୍, “ଆନେଙ୍ଗ୍ ଈଶ୍ୱର ରସ୍ତି ମନ୍ଦିର୍‌ତିଙ୍ଗ୍ ଡ୍ରିକ୍‌ଚି ତିନ୍‌ଦିନ୍‌ତାଙ୍ଗ୍ ଆନେଙ୍ଗ୍ ମାନାୟାର୍ ରହ୍‌ୱିତି ମନ୍ଦିର୍‌ତିଙ୍ଗ୍ ରହ୍‌ନାଙ୍ଗ୍।”
+1	iwaanta	iwaanta	unk	_	_	_	_	_	orth=ଇୱାନ୍‌ତ|gloss=ild
+2	wecci	wecci	NOUN	_	_	_	_	_	orth=ୱେଚ୍‌ଚି|gloss=wasn’t
+3	maannycaan,	maannycaan,	VERB	_	Tense=Past	_	_	_	orth=ମାନ୍‌ଞ୍ଚାନ୍,|gloss=rebu
+4	“aanengg	“aanengg	PRON	_	_	_	ccomp	_	orth=“ଆନେଙ୍ଗ୍|gloss=am|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin
+5	iishwara	iishwara	PROPN	_	_	_	_	_	orth=ଈଶ୍ୱର|gloss=God’s
+6	rasti	rasti	unk	_	_	_	_	_	orth=ରସ୍ତି|gloss=ices
+7	mandirtingg	mandirtingg	unk	_	_	_	_	_	orth=ମନ୍ଦିର୍‌ତିଙ୍ଗ୍|gloss=roy
+8	ddrikci	ddrikci	unk	_	_	_	_	_	orth=ଡ୍ରିକ୍‌ଚି|gloss=broke
+9	tindintaangg	tindintaangg	unk	_	_	_	_	_	orth=ତିନ୍‌ଦିନ୍‌ତାଙ୍ଗ୍|gloss=roy
+10	aanengg	aanengg	PRON	_	_	4	nsubj	_	orth=ଆନେଙ୍ଗ୍|gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+11	maanaayaar	maanaayaar	NOUN	_	_	_	_	_	orth=ମାନାୟାର୍|gloss=feed
+12	rahwiti	rahwiti	unk	_	_	_	_	_	orth=ରହ୍‌ୱିତି|gloss=rebu
+13	mandirtingg	mandirtingg	unk	_	_	_	_	_	orth=ମନ୍ଦିର୍‌ତିଙ୍ଗ୍|gloss=roy
+14	rahnaangg.”	rahnaangg.”	unk	_	_	_	_	_	orth=ରହ୍‌ନାଙ୍ଗ୍।”
+
+# sent_id = 40028016
+# ref_id = Matthew 28:16
+# eng_text = But the eleven disciples went into Galilee , to the mountain where Jesus had sent them .
+# peg_text = egaarjaann celaahir gaalilii jillaata haacaar. yiishu hewaaringg imnni maadditaake haanyjengg wecci maacaan, hewaar hebe haacaar.
+# peg_orth = ଏଗାର୍‌ଜାଣ୍ ଚେଲାହିର୍ ଗାଲିଲୀ ଜିଲ୍ଲାତ ହାଚାର୍। ଯୀଶୁ ହେୱାରିଙ୍ଗ୍ ଇମ୍‌ଣି ମାଡ଼ିତାକେ ହାଞ୍ଜେଙ୍ଗ୍ ୱେଚ୍‌ଚି ମାଚାନ୍, ହେୱାର୍ ହେବେ ହାଚାର୍।
+1	egaarjaann	egaarjaann	unk	_	_	_	_	_	orth=ଏଗାର୍‌ଜାଣ୍
+2	celaahir	celaahir	NOUN	_	_	_	nsubj	_	orth=ଚେଲାହିର୍|gloss=disciples|Number=Plur
+3	gaalilii	gaalilii	PROPN	_	_	_	pobj	_	orth=ଗାଲିଲୀ|gloss=Galilee|Number=Sing
+4	jillaata	jillaata	unk	_	_	_	_	_	orth=ଜିଲ୍ଲାତ|gloss=plotting
+5	haacaar.	haacaar.	unk	_	_	_	_	_	orth=ହାଚାର୍।|gloss=ew
+6	yiishu	yiishu	PROPN	_	_	_	nsubj	_	orth=ଯୀଶୁ|gloss=Jesus|Number=Sing
+7	hewaaringg	hewaaringg	PRON	_	_	_	dobj	_	orth=ହେୱାରିଙ୍ଗ୍|gloss=them|Case=Acc|Number=Plur|Person=3|PronType=Prs
+8	imnni	imnni	NOUN	_	_	_	_	_	orth=ଇମ୍‌ଣି|gloss=Anyone
+9	maadditaake	maadditaake	unk	_	_	_	_	_	orth=ମାଡ଼ିତାକେ|gloss=Mount
+10	haanyjengg	haanyjengg	PRON	_	Case=Nom|Number=Sing|PronType=Prs	_	_	_	orth=ହାଞ୍ଜେଙ୍ଗ୍|gloss=enter
+11	wecci	wecci	NOUN	_	_	_	_	_	orth=ୱେଚ୍‌ଚି|gloss=wasn’t
+12	maacaan,	maacaan,	VERB	_	_	_	_	_	orth=ମାଚାନ୍,|gloss=Cle
+13	hewaar	hewaar	PRON	_	_	_	_	_	orth=ହେୱାର୍|gloss=They
+14	hebe	hebe	NOUN	_	_	_	_	_	orth=ହେବେ|gloss=there
+15	haacaar.	haacaar.	unk	_	_	_	_	_	orth=ହାଚାର୍।|gloss=ew
+
+# sent_id = 41002023
+# ref_id = Mark 2:23
+# eng_text = It happened , that he was going on the Sabbath day through the grain fields , and his disciples began , as they went , to pluck the ears of grain .
+# peg_text = dinek yihudir jamnidin naanyjingg yiishu aare taa celaahir taas witti jami nipann haalji maacaar, aare haalu-haalu taa celaahir taasni keraangg cinyjengg naaddtengg laagaataar.
+# peg_orth = ଦିନେକ୍ ଯିହୁଦିର୍ ଜମ୍‌ନିଦିନ୍‌ ନାଞ୍ଜିଙ୍ଗ୍ ଯୀଶୁ ଆରେ ତା ଚେଲାହିର୍ ତାସ୍ ୱିତ୍‍ତି ଜମି ନିପଣ୍ ହାଲ୍‌ଜି ମାଚାର୍, ଆରେ ହାଲୁ-ହାଲୁ ତା ଚେଲାହିର୍ ତାସ୍‌ନି କେରାଙ୍ଗ୍ ଚିଞ୍ଜେଙ୍ଗ୍ ନାଡ଼୍‍ତେଙ୍ଗ୍ ଲାଗାତାର୍।
+1	dinek	dinek	unk	_	_	_	_	_	orth=ଦିନେକ୍|gloss=Once
+2	yihudir	yihudir	unk	_	_	_	_	_	orth=ଯିହୁଦିର୍|gloss=Jewish
+3	jamnidin	jamnidin	VERB	_	Tense=Pres	_	compound	_	orth=ଜମ୍‌ନିଦିନ୍‌|gloss=Sabbath|Number=Sing
+4	naanyjingg	naanyjingg	unk	_	_	_	_	_	orth=ନାଞ୍ଜିଙ୍ଗ୍|gloss=next
+5	yiishu	yiishu	PROPN	_	_	_	nsubj	_	orth=ଯୀଶୁ|gloss=Jesus|Number=Sing
+6	aare	aare	CCONJ	_	_	_	_	_	orth=ଆରେ|gloss=and
+7	taa	taa	PRON	_	_	8	poss	_	orth=ତା|gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+8	celaahir	celaahir	NOUN	_	_	_	nsubj	_	orth=ଚେଲାହିର୍|gloss=disciples|Number=Plur
+9	taas	taas	unk	_	_	_	_	_	orth=ତାସ୍|gloss=harvest
+10	witti	witti	unk	_	_	_	_	_	orth=ୱିତ୍‍ତି|gloss=wheat
+11	jami	jami	unk	_	_	_	_	_	orth=ଜମି|gloss=field
+12	nipann	nipann	unk	_	_	_	_	_	orth=ନିପଣ୍|gloss=onia
+13	haalji	haalji	VERB	_	_	_	_	_	orth=ହାଲ୍‌ଜି|gloss=fled
+14	maacaar,	maacaar,	unk	_	_	_	_	_	orth=ମାଚାର୍,|gloss=it
+15	aare	aare	CCONJ	_	_	_	_	_	orth=ଆରେ|gloss=and
+16	haalu-haalu	haalu-haalu	unk	_	_	_	_	_	orth=ହାଲୁ-ହାଲୁ
+17	taa	taa	PRON	_	_	18	poss	_	orth=ତା|gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+18	celaahir	celaahir	NOUN	_	_	_	nsubj	_	orth=ଚେଲାହିର୍|gloss=disciples|Number=Plur
+19	taasni	taasni	NOUN	_	_	_	pobj	_	orth=ତାସ୍‌ନି|gloss=grain|Number=Sing
+20	keraangg	keraangg	unk	_	_	_	_	_	orth=କେରାଙ୍ଗ୍
+21	cinyjengg	cinyjengg	PRON	_	Case=Nom|Number=Sing|PronType=Prs	_	_	_	orth=ଚିଞ୍ଜେଙ୍ଗ୍|gloss=eaten
+22	naaddtengg	naaddtengg	PRON	_	Case=Nom|Number=Sing|PronType=Prs	_	_	_	orth=ନାଡ଼୍‍ତେଙ୍ଗ୍|gloss=marry
+23	laagaataar.	laagaataar.	unk	_	_	_	_	_	orth=ଲାଗାତାର୍।|gloss=scolded
+
+# sent_id = 41012032
+# ref_id = Mark 12:32
+# eng_text = The scribe said to him , " Truly , teacher , you have said well that he is one , and there is none other but he ,
+# peg_text = hebetaangg he yihudi daramni pannddit hewaaningg weccaan, “e guru, hedaangg sat, maa maapr ne aapkaa ra iishwara taanggengg pisti iner paa maapr aakaay, idaangg enengg sat kaataa weccaataai.
+# peg_orth = ହେବେତାଙ୍ଗ୍ ହେ ଯିହୁଦି ଦରମ୍‌ନି ପଣ୍ଡିତ୍‌ ହେୱାନିଙ୍ଗ୍ ୱେଚ୍‌ଚାନ୍, “ଏ ଗୁରୁ, ହେଦାଙ୍ଗ୍ ସତ୍, ମା ମାପୃ ନେ ଆପ୍‌କା ର ଈଶ୍ୱର ତାଙ୍ଗେଙ୍ଗ୍ ପିସ୍ତି ଇନେର୍ ପା ମାପୃ ଆକାୟ୍, ଇଦାଙ୍ଗ୍ ଏନେଙ୍ଗ୍ ସତ୍ କାତା ୱେଚ୍‌ଚାତାଇ।
+1	hebetaangg	hebetaangg	unk	_	_	_	_	_	orth=ହେବେତାଙ୍ଗ୍|gloss=aren’t
+2	he	he	DET	_	_	26	det	_	orth=ହେ|gloss=the|Definite=Def|PronType=Art
+3	yihudi	yihudi	VERB	_	Tense=Past	_	amod	_	orth=ଯିହୁଦି|gloss=religious|Degree=Pos
+4	daramni	daramni	unk	_	_	_	_	_	orth=ଦରମ୍‌ନି|gloss=teachers
+5	pannddit	pannddit	unk	_	_	_	_	_	orth=ପଣ୍ଡିତ୍‌|gloss=expert
+6	hewaaningg	hewaaningg	unk	_	_	_	_	_	orth=ହେୱାନିଙ୍ଗ୍|gloss=him
+7	weccaan,	weccaan,	VERB	_	Tense=Past	_	punct	_	orth=ୱେଚ୍‌ଚାନ୍,|PunctSide=Ini|PunctType=Quot
+8	“e	“e	NOUN	_	_	_	npadvmod	_	orth=“ଏ|gloss=Teacher|Number=Sing
+9	guru,	guru,	NOUN	_	_	_	npadvmod	_	orth=ଗୁରୁ,|gloss=Teacher|Number=Sing
+10	hedaangg	hedaangg	NOUN	_	_	_	_	_	orth=ହେଦାଙ୍ଗ୍|gloss=hes
+11	sat,	sat,	NOUN	_	_	_	nsubj	_	orth=ସତ୍,|gloss=teacher|Number=Sing
+12	maa	maa	PRON	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	_	_	_	orth=ମା|gloss=our
+13	maapr	maapr	NOUN	_	_	_	_	_	orth=ମାପୃ|gloss=Lord
+14	ne	ne	ADV	_	_	_	advmod	_	orth=ନେ|gloss=only
+15	aapkaa	aapkaa	ADV	_	_	_	advmod	_	orth=ଆପ୍‌କା|gloss=only
+16	ra	ra	NOUN	_	_	_	_	_	orth=ର|gloss=a
+17	iishwara	iishwara	PROPN	_	_	_	_	_	orth=ଈଶ୍ୱର|gloss=God’s
+18	taanggengg	taanggengg	PRON	_	Case=Nom|Number=Sing|PronType=Prs	_	_	_	orth=ତାଙ୍ଗେଙ୍ଗ୍|gloss=book
+19	pisti	pisti	unk	_	_	_	_	_	orth=ପିସ୍ତି|gloss=repent
+20	iner	iner	unk	_	_	_	_	_	orth=ଇନେର୍|gloss=Who
+21	paa	paa	ADV	_	_	_	_	_	orth=ପା|gloss=even
+22	maapr	maapr	NOUN	_	_	_	_	_	orth=ମାପୃ|gloss=Lord
+23	aakaay,	aakaay,	NOUN	_	_	_	_	_	orth=ଆକାୟ୍,|gloss=ll
+24	idaangg	idaangg	unk	_	_	_	_	_	orth=ଇଦାଙ୍ଗ୍|gloss=Understand
+25	enengg	enengg	PRON	_	Case=Nom|Number=Sing|PronType=Prs	_	_	_	orth=ଏନେଙ୍ଗ୍|gloss=are
+26	sat	sat	NOUN	_	_	_	dobj	_	orth=ସତ୍|gloss=truth|Number=Sing
+27	kaataa	kaataa	NOUN	_	_	_	_	_	orth=କାତା|gloss=word
+28	weccaataai.	weccaataai.	unk	_	_	_	_	_	orth=ୱେଚ୍‌ଚାତାଇ।
+
+# sent_id = 41014037
+# ref_id = Mark 14:37
+# eng_text = He came and found them sleeping , and said to Peter , " Simon , are you sleeping ? Couldn't you watch one hour ?
+# peg_text = aare, yiishu waaji celaaringg hunycaakaaringg huddtaan, aare shimona pitaratingg weccaan, “epengg inaakaa huncaaderaa? ra ghannttaa paa kaasimaanyjengg aadddaawaataader?”
+# peg_orth = ଆରେ, ଯୀଶୁ ୱାଜି ଚେଲାରିଙ୍ଗ୍ ହୁଞ୍ଚାକାରିଙ୍ଗ୍ ହୁଡ଼୍‌ତାନ୍, ଆରେ ଶିମୋନ ପିତରତିଙ୍ଗ୍ ୱେଚ୍‌ଚାନ୍, “ଏପେଙ୍ଗ୍ ଇନାକା ହୁନ୍‍ଚାଦେରା? ର ଘଣ୍ଟା ପା କାସିମାଞ୍ଜେଙ୍ଗ୍ ଆଡ଼୍‌ଦାୱାତାଦେର୍?”
+1	aare,	aare,	CCONJ	_	_	_	_	_	orth=ଆରେ,|gloss=drank
+2	yiishu	yiishu	PROPN	_	_	_	_	_	orth=ଯୀଶୁ|gloss=Jesus
+3	waaji	waaji	VERB	_	Tense=Past	_	_	_	orth=ୱାଜି|gloss=came
+4	celaaringg	celaaringg	VERB	_	_	0	root	_	orth=ଚେଲାରିଙ୍ଗ୍|gloss=watch|VerbForm=Inf
+5	hunycaakaaringg	hunycaakaaringg	ADJ	_	_	_	acomp	_	orth=ହୁଞ୍ଚାକାରିଙ୍ଗ୍|gloss=asleep|Degree=Pos
+6	huddtaan,	huddtaan,	VERB	_	Tense=Past	_	_	_	orth=ହୁଡ଼୍‌ତାନ୍,|gloss=stepped
+7	aare	aare	CCONJ	_	_	_	cc	_	orth=ଆରେ|gloss=and|ConjType=Cmp
+8	shimona	shimona	PROPN	_	_	_	npadvmod	_	orth=ଶିମୋନ|gloss=Simon|Number=Sing
+9	pitaratingg	pitaratingg	unk	_	_	_	_	_	orth=ପିତରତିଙ୍ଗ୍|gloss=noticed
+10	weccaan,	weccaan,	VERB	_	Tense=Past	_	punct	_	orth=ୱେଚ୍‌ଚାନ୍,|PunctSide=Ini|PunctType=Quot
+11	“epengg	“epengg	PRON	_	_	_	_	_	orth=“ଏପେଙ୍ଗ୍|gloss=Sit
+12	inaakaa	inaakaa	NOUN	_	_	_	_	_	orth=ଇନାକା|gloss=account
+13	huncaaderaa?	huncaaderaa?	unk	_	_	_	_	_	orth=ହୁନ୍‍ଚାଦେରା?
+14	ra	ra	NOUN	_	_	_	_	_	orth=ର|gloss=a
+15	ghannttaa	ghannttaa	NOUN	_	_	4	npadvmod	_	orth=ଘଣ୍ଟା|gloss=hour|Number=Sing
+16	paa	paa	ADV	_	_	_	advmod	_	orth=ପା|gloss=even
+17	kaasimaanyjengg	kaasimaanyjengg	PRON	_	Case=Nom|Number=Sing|PronType=Prs	_	_	_	orth=କାସିମାଞ୍ଜେଙ୍ଗ୍|gloss=ected
+18	aadddaawaataader?”	aadddaawaataader?”	ADJ	_	_	_	acomp	_	orth=ଆଡ଼୍‌ଦାୱାତାଦେର୍?”|gloss=asleep|Degree=Pos
+
+# sent_id = 42004002
+# ref_id = Luke 4:2
+# eng_text = for forty days , being tempted by the devil . He ate nothing in those days . Afterward , when they were completed , he was hungry .
+# peg_text = hebe shayataana caalish din paatek yiishungg parikssaa kiji maacaat. hepaadnaa yiishu inaakaa tinwaadaangg unnwaadaangg upaas maacaan. aare hewaan haarihaaraa naanyj besi naaski aataan.
+# peg_orth = ହେବେ ଶୟତାନ ଚାଲିଶ୍ ଦିନ୍ ପାତେକ୍ ଯୀଶୁଙ୍ଗ୍ ପରିକ୍ଷା କିଜି ମାଚାତ୍। ହେପାଦ୍ନା ଯୀଶୁ ଇନାକା ତିନ୍‌ୱାଦାଙ୍ଗ୍ ଉଣ୍‌ୱାଦାଙ୍ଗ୍ ଉପାସ୍ ମାଚାନ୍। ଆରେ ହେୱାନ୍ ହାରିହାରା ନାଞ୍ଜ୍ ବେସି ନାସ୍‌କି ଆତାନ୍।
+1	hebe	hebe	NOUN	_	_	_	_	_	orth=ହେବେ|gloss=there
+2	shayataana	shayataana	NOUN	_	_	_	pobj	_	orth=ଶୟତାନ|gloss=devil|Number=Sing
+3	caalish	caalish	NUM	_	_	_	nummod	_	orth=ଚାଲିଶ୍|gloss=forty|NumType=Card
+4	din	din	VERB	_	Tense=Pres	_	_	_	orth=ଦିନ୍|gloss=day
+5	paatek	paatek	unk	_	_	_	_	_	orth=ପାତେକ୍|gloss=until
+6	yiishungg	yiishungg	unk	_	_	_	_	_	orth=ଯୀଶୁଙ୍ଗ୍|gloss=aren’t
+7	parikssaa	parikssaa	unk	_	_	_	_	_	orth=ପରିକ୍ଷା|gloss=motives
+8	kiji	kiji	VERB	_	Tense=Past	_	_	_	orth=କିଜି|gloss=did
+9	maacaat.	maacaat.	unk	_	_	_	_	_	orth=ମାଚାତ୍।|gloss=surrounded
+10	hepaadnaa	hepaadnaa	PRON	_	_	_	_	_	orth=ହେପାଦ୍ନା|gloss=selfish
+11	yiishu	yiishu	PROPN	_	_	_	nsubj	_	orth=ଯୀଶୁ|gloss=Jesus|Number=Sing
+12	inaakaa	inaakaa	NOUN	_	_	_	_	_	orth=ଇନାକା|gloss=account
+13	tinwaadaangg	tinwaadaangg	unk	_	_	_	_	_	orth=ତିନ୍‌ୱାଦାଙ୍ଗ୍|gloss=tempt
+14	unnwaadaangg	unnwaadaangg	unk	_	_	_	_	_	orth=ଉଣ୍‌ୱାଦାଙ୍ଗ୍|gloss=tempt
+15	upaas	upaas	unk	_	_	_	_	_	orth=ଉପାସ୍|gloss=tempt
+16	maacaan.	maacaan.	VERB	_	_	_	auxpass	_	orth=ମାଚାନ୍।|gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+17	aare	aare	CCONJ	_	_	_	cc	_	orth=ଆରେ|gloss=and|ConjType=Cmp
+18	hewaan	hewaan	PRON	_	_	_	nsubjpass	_	orth=ହେୱାନ୍|gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+19	haarihaaraa	haarihaaraa	unk	_	_	_	_	_	orth=ହାରିହାରା
+20	naanyj	naanyj	unk	_	_	_	_	_	orth=ନାଞ୍ଜ୍
+21	besi	besi	ADV	_	_	_	_	_	orth=ବେସି|gloss=erv
+22	naaski	naaski	ADJ	_	_	_	acomp	_	orth=ନାସ୍‌କି|gloss=hungry|Degree=Pos
+23	aataan.	aataan.	VERB	_	Tense=Past	_	_	_	orth=ଆତାନ୍।|gloss=ained
+
+# sent_id = 42016013
+# ref_id = Luke 16:13
+# eng_text = No servant can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You aren't able to serve God and mammon . "
+# peg_text = rakaan haliaa rikaar maaliktingg hebaa kidengg aaddun. laagingg hewaan rakaaningg aakaar aanaan aare rakaaningg laadd kinaan. elengg aawitis rakaaningg icaa aanaat aare rakaaningg ginn kinaan. epengg iishwara aare dan i rinnddekaangg hebaa kidengg aadduder.”
+# peg_orth = ରକାନ୍ ହଲିଆ ରିକାର୍ ମାଲିକ୍‌ତିଙ୍ଗ୍ ହେବା କିଦେଙ୍ଗ୍ ଆଡୁନ୍। ଲାଗିଙ୍ଗ୍ ହେୱାନ୍ ରକାନିଙ୍ଗ୍ ଆକାର୍ ଆନାନ୍ ଆରେ ରକାନିଙ୍ଗ୍ ଲାଡ୍ କିନାନ୍। ଏଲେଙ୍ଗ୍ ଆୱିତିସ୍‌ ରକାନିଙ୍ଗ୍ ଇଚା ଆନାତ୍ ଆରେ ରକାନିଙ୍ଗ୍ ଗିଣ୍ କିନାନ୍। ଏପେଙ୍ଗ୍ ଈଶ୍ୱର ଆରେ ଦନ୍ ଇ ରିଣ୍ଡେକାଙ୍ଗ୍ ହେବା କିଦେଙ୍ଗ୍ ଆଡୁଦେର୍।”
+1	rakaan	rakaan	NOUN	_	_	_	_	_	orth=ରକାନ୍|gloss=an
+2	haliaa	haliaa	NOUN	_	_	_	_	_	orth=ହଲିଆ|gloss=master
+3	rikaar	rikaar	NUM	_	_	29	nummod	_	orth=ରିକାର୍|gloss=two|NumType=Card
+4	maaliktingg	maaliktingg	NOUN	_	_	5	dobj	_	orth=ମାଲିକ୍‌ତିଙ୍ଗ୍|gloss=masters|Number=Plur
+5	hebaa	hebaa	AUX	_	_	0	root	_	orth=ହେବା|gloss=serve|VerbForm=Inf
+6	kidengg	kidengg	PRON	_	_	_	_	_	orth=କିଦେଙ୍ଗ୍|gloss=5
+7	aaddun.	aaddun.	VERB	_	_	_	acomp	_	orth=ଆଡୁନ୍।|gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+8	laagingg	laagingg	NOUN	_	_	_	_	_	orth=ଲାଗିଙ୍ଗ୍|gloss=So
+9	hewaan	hewaan	PRON	_	_	_	_	_	orth=ହେୱାନ୍|gloss=he
+10	rakaaningg	rakaaningg	NOUN	_	_	_	_	_	orth=ରକାନିଙ୍ଗ୍|gloss=n
+11	aakaar	aakaar	VERB	_	_	_	conj	_	orth=ଆକାର୍|gloss=despise|VerbForm=Inf
+12	aanaan	aanaan	VERB	_	Tense=Past	5	dobj	_	orth=ଆନାନ୍|gloss=masters|Number=Plur
+13	aare	aare	CCONJ	_	_	_	cc	_	orth=ଆରେ|gloss=and|ConjType=Cmp
+14	rakaaningg	rakaaningg	NOUN	_	_	_	_	_	orth=ରକାନିଙ୍ଗ୍|gloss=n
+15	laadd	laadd	VERB	_	_	_	conj	_	orth=ଲାଡ୍|gloss=love|VerbForm=Inf
+16	kinaan.	kinaan.	VERB	_	_	_	_	_	orth=କିନାନ୍।|gloss=ct
+17	elengg	elengg	PRON	_	Case=Nom|Number=Sing|PronType=Prs	_	_	_	orth=ଏଲେଙ୍ଗ୍|gloss=ircum
+18	aawitis	aawitis	unk	_	_	_	_	_	orth=ଆୱିତିସ୍‌|gloss=repay
+19	rakaaningg	rakaaningg	NOUN	_	_	_	_	_	orth=ରକାନିଙ୍ଗ୍|gloss=n
+20	icaa	icaa	NOUN	_	_	_	_	_	orth=ଇଚା|gloss=want
+21	aanaat	aanaat	VERB	_	_	_	conj	_	orth=ଆନାତ୍|gloss=despise|VerbForm=Inf
+22	aare	aare	CCONJ	_	_	_	cc	_	orth=ଆରେ|gloss=and|ConjType=Cmp
+23	rakaaningg	rakaaningg	NOUN	_	_	_	_	_	orth=ରକାନିଙ୍ଗ୍|gloss=n
+24	ginn	ginn	unk	_	_	_	_	_	orth=ଗିଣ୍|gloss=hates
+25	kinaan.	kinaan.	VERB	_	_	_	_	_	orth=କିନାନ୍।|gloss=ct
+26	epengg	epengg	PRON	_	_	_	nsubj	_	orth=ଏପେଙ୍ଗ୍|gloss=you|Case=Nom|Person=2|PronType=Prs
+27	iishwara	iishwara	PROPN	_	_	_	_	_	orth=ଈଶ୍ୱର|gloss=God’s
+28	aare	aare	CCONJ	_	_	_	cc	_	orth=ଆରେ|gloss=and|ConjType=Cmp
+29	dan	dan	NOUN	_	_	32	dobj	_	orth=ଦନ୍|gloss=masters|Number=Plur
+30	i	i	NOUN	_	_	_	_	_	orth=ଇ|gloss=this
+31	rinnddekaangg	rinnddekaangg	VERB	_	_	_	conj	_	orth=ରିଣ୍ଡେକାଙ୍ଗ୍|gloss=despise|VerbForm=Inf
+32	hebaa	hebaa	AUX	_	_	0	root	_	orth=ହେବା|gloss=serve|VerbForm=Inf
+33	kidengg	kidengg	PRON	_	_	_	_	_	orth=କିଦେଙ୍ଗ୍|gloss=5
+34	aadduder.”	aadduder.”	VERB	_	_	_	acomp	_	orth=ଆଡୁଦେର୍।”|gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+
+# sent_id = 42024018
+# ref_id = Luke 24:18
+# eng_text = One of them , named Cleopas , answered him , " Are you the only one travelling in Jerusalem who doesn't know the things which have happened there in these days ? "
+# peg_text = hewaar bitretaangg kleyapaa tardaakaan maacaan, hewaan yiishungg weccaan, “alapdin aage yirushaalaama sahartaake ketek bissaya gattaaaataatnaa. aare enengg ra gattaaaati i gattnaa bissayare punwaataainaa ki?”
+# peg_orth = ହେୱାର୍ ବିତ୍ରେତାଙ୍ଗ୍ କ୍ଲେୟପା ତର୍‍ଦାକାନ୍ ମାଚାନ୍, ହେୱାନ୍ ଯୀଶୁଙ୍ଗ୍ ୱେଚ୍‌ଚାନ୍, “ଅଲପ୍‌ଦିନ୍ ଆଗେ ଯିରୁଶାଲାମ ସହର୍‌ତାକେ କେତେକ୍ ବିଷୟ ଗଟାଆତାତ୍‌ନା। ଆରେ ଏନେଙ୍ଗ୍ ର ଗଟାଆତି ଇ ଗଟ୍‌ନା ବିଷୟରେ ପୁନ୍‌ୱାତାଇନା କି?”
+1	hewaar	hewaar	PRON	_	_	_	_	_	orth=ହେୱାର୍|gloss=They
+2	bitretaangg	bitretaangg	NOUN	_	_	_	_	_	orth=ବିତ୍ରେତାଙ୍ଗ୍|gloss=w
+3	kleyapaa	kleyapaa	unk	_	_	_	_	_	orth=କ୍ଲେୟପା
+4	tardaakaan	tardaakaan	VERB	_	Tense=Past	_	_	_	orth=ତର୍‍ଦାକାନ୍|gloss=named
+5	maacaan,	maacaan,	VERB	_	_	_	_	_	orth=ମାଚାନ୍,|gloss=Cle
+6	hewaan	hewaan	PRON	_	_	_	_	_	orth=ହେୱାନ୍|gloss=he
+7	yiishungg	yiishungg	unk	_	_	_	_	_	orth=ଯୀଶୁଙ୍ଗ୍|gloss=aren’t
+8	weccaan,	weccaan,	VERB	_	Tense=Past	_	punct	_	orth=ୱେଚ୍‌ଚାନ୍,|PunctSide=Ini|PunctType=Quot
+9	“alapdin	“alapdin	VERB	_	Tense=Pres	_	_	_	orth=“ଅଲପ୍‌ଦିନ୍
+10	aage	aage	NOUN	_	_	_	_	_	orth=ଆଗେ|gloss=edly
+11	yirushaalaama	yirushaalaama	PROPN	_	_	_	pobj	_	orth=ଯିରୁଶାଲାମ|gloss=Jerusalem|Number=Sing
+12	sahartaake	sahartaake	unk	_	_	_	_	_	orth=ସହର୍‌ତାକେ|gloss=city
+13	ketek	ketek	unk	_	_	_	_	_	orth=କେତେକ୍|gloss=Other
+14	bissaya	bissaya	NOUN	_	_	_	pobj	_	orth=ବିଷୟ|gloss=things|Number=Plur
+15	gattaaaataatnaa.	gattaaaataatnaa.	PRON	_	_	_	neg	_	orth=ଗଟାଆତାତ୍‌ନା।|gloss=n’t
+16	aare	aare	CCONJ	_	_	_	_	_	orth=ଆରେ|gloss=and
+17	enengg	enengg	PRON	_	Case=Nom|Number=Sing|PronType=Prs	_	_	_	orth=ଏନେଙ୍ଗ୍|gloss=are
+18	ra	ra	NOUN	_	_	_	_	_	orth=ର|gloss=a
+19	gattaaaati	gattaaaati	unk	_	_	_	_	_	orth=ଗଟାଆତି|gloss=baptism
+20	i	i	NOUN	_	_	_	_	_	orth=ଇ|gloss=this
+21	gattnaa	gattnaa	PRON	_	_	_	_	_	orth=ଗଟ୍‌ନା|gloss=exclaim
+22	bissayare	bissayare	CCONJ	_	_	_	_	_	orth=ବିଷୟରେ|gloss=mystery
+23	punwaataainaa	punwaataainaa	PRON	_	_	_	_	_	orth=ପୁନ୍‌ୱାତାଇନା
+24	ki?”	ki?”	unk	_	_	_	_	_	orth=କି?”|gloss=Should
+
+# sent_id = 43001039
+# ref_id = John 1:39
+# eng_text = He said to them , " Come , and see . " They came and saw where he was staying , and they stayed with him that day . It was about the tenth hour .
+# peg_text = yiishu hewaaringg weccaan, “naa hudaangg waadda, epengg huddnaader.” laagingg he riyaar yiishu hudaangg haacaar. aare taa maani baahaa huddtaar. hepaadnaa mikaahaares caarttaa aajimaacaat. henaanyj hewaar yiishu hudaangg maacaar.
+# peg_orth = ଯୀଶୁ ହେୱାରିଙ୍ଗ୍ ୱେଚ୍‌ଚାନ୍, “ନା ହୁଦାଙ୍ଗ୍ ୱାଡ, ଏପେଙ୍ଗ୍ ହୁଡ଼୍‌ନାଦେର୍।” ଲାଗିଙ୍ଗ୍ ହେ ରିୟାର୍ ଯୀଶୁ ହୁଦାଙ୍ଗ୍ ହାଚାର୍। ଆରେ ତା ମାନି ବାହା ହୁଡ଼୍‌ତାର୍। ହେପାଦ୍ନା ମିକାହାରେସ୍ ଚାର୍‌ଟା ଆଜିମାଚାତ୍। ହେନାଞ୍ଜ୍ ହେୱାର୍ ଯୀଶୁ ହୁଦାଙ୍ଗ୍ ମାଚାର୍।
+1	yiishu	yiishu	PROPN	_	_	_	_	_	orth=ଯୀଶୁ|gloss=Jesus
+2	hewaaringg	hewaaringg	unk	_	_	_	_	_	orth=ହେୱାରିଙ୍ଗ୍|gloss=them
+3	weccaan,	weccaan,	VERB	_	Tense=Past	4	punct	_	orth=ୱେଚ୍‌ଚାନ୍,|PunctSide=Ini|PunctType=Quot
+4	“naa	“naa	PRON	_	_	_	ccomp	_	orth=“ନା|gloss=Come|VerbForm=Inf
+5	hudaangg	hudaangg	ADP	_	_	_	prep	_	orth=ହୁଦାଙ୍ଗ୍|gloss=with
+6	waadda,	waadda,	NOUN	_	_	_	attr	_	orth=ୱାଡ,|gloss=o’clock|Number=Sing
+7	epengg	epengg	PRON	_	_	_	_	_	orth=ଏପେଙ୍ଗ୍|gloss=you
+8	huddnaader.”	huddnaader.”	unk	_	_	_	_	_	orth=ହୁଡ଼୍‌ନାଦେର୍।”|gloss=wrapped
+9	laagingg	laagingg	NOUN	_	_	_	_	_	orth=ଲାଗିଙ୍ଗ୍|gloss=So
+10	he	he	DET	_	_	_	det	_	orth=ହେ|gloss=the|Definite=Def|PronType=Art
+11	riyaar	riyaar	unk	_	_	_	_	_	orth=ରିୟାର୍|gloss=half
+12	yiishu	yiishu	PROPN	_	_	_	_	_	orth=ଯୀଶୁ|gloss=Jesus
+13	hudaangg	hudaangg	ADP	_	_	_	prep	_	orth=ହୁଦାଙ୍ଗ୍|gloss=with
+14	haacaar.	haacaar.	unk	_	_	_	_	_	orth=ହାଚାର୍।|gloss=ew
+15	aare	aare	CCONJ	_	_	_	cc	_	orth=ଆରେ|gloss=and|ConjType=Cmp
+16	taa	taa	PRON	_	_	_	_	_	orth=ତା|gloss=his
+17	maani	maani	unk	_	_	_	_	_	orth=ମାନି|gloss=protect
+18	baahaa	baahaa	unk	_	_	_	_	_	orth=ବାହା|gloss=lived
+19	huddtaar.	huddtaar.	unk	_	_	_	_	_	orth=ହୁଡ଼୍‌ତାର୍।|gloss=ition
+20	hepaadnaa	hepaadnaa	PRON	_	_	_	_	_	orth=ହେପାଦ୍ନା|gloss=selfish
+21	mikaahaares	mikaahaares	unk	_	_	_	_	_	orth=ମିକାହାରେସ୍|gloss=evening
+22	caarttaa	caarttaa	unk	_	_	_	_	_	orth=ଚାର୍‌ଟା
+23	aajimaacaat.	aajimaacaat.	unk	_	_	_	_	_	orth=ଆଜିମାଚାତ୍।|gloss=old
+24	henaanyj	henaanyj	unk	_	_	_	_	_	orth=ହେନାଞ୍ଜ୍|gloss=eagerly
+25	hewaar	hewaar	PRON	_	_	_	_	_	orth=ହେୱାର୍|gloss=They
+26	yiishu	yiishu	PROPN	_	_	_	_	_	orth=ଯୀଶୁ|gloss=Jesus
+27	hudaangg	hudaangg	ADP	_	_	_	prep	_	orth=ହୁଦାଙ୍ଗ୍|gloss=with
+28	maacaar.	maacaar.	unk	_	_	_	_	_	orth=ମାଚାର୍।|gloss=were
+
+# sent_id = 43003016
+# ref_id = John 3:16
+# eng_text = For God so loved the world , that he gave his one and only Son , that whoever believes in him should not perish , but have eternal life .
+# peg_text = ineski iishwara purtitingg ecek laadd kitaan ye, hewaan taa rakaan inyji mehingg hittaan. ines leke taa maajingg paartikinaar he maanaayaar, nasstta aawaadaangg wijwi jibun paayaaaanaar.
+# peg_orth = ଇନେସ୍‌କି ଈଶ୍ୱର ପୁର୍ତିତିଙ୍ଗ୍ ଏଚେକ୍ ଲାଡ୍ କିତାନ୍ ଯେ, ହେୱାନ୍ ତା ରକାନ୍ ଇଞ୍ଜି ମେହିଙ୍ଗ୍ ହିତ୍‌ତାନ୍। ଇନେସ୍ ଲେକେ ତା ମାଜିଙ୍ଗ୍ ପାର୍ତିକିନାର୍ ହେ ମାନାୟାର୍, ନଷ୍ଟ ଆୱାଦାଙ୍ଗ୍ ୱିଜ୍‌ୱି ଜିବୁନ୍ ପାୟାଆନାର୍‌।
+1	ineski	ineski	SCONJ	_	_	12	prep	_	orth=ଇନେସ୍‌କି|gloss=For
+2	iishwara	iishwara	PROPN	_	_	_	_	_	orth=ଈଶ୍ୱର|gloss=God’s
+3	purtitingg	purtitingg	unk	_	_	_	_	_	orth=ପୁର୍ତିତିଙ୍ଗ୍|gloss=heavens
+4	ecek	ecek	unk	_	_	_	_	_	orth=ଏଚେକ୍|gloss=long
+5	laadd	laadd	VERB	_	_	_	_	_	orth=ଲାଡ୍|gloss=love
+6	kitaan	kitaan	VERB	_	Tense=Past	_	_	_	orth=କିତାନ୍|gloss=ish
+7	ye,	ye,	unk	_	_	_	_	_	orth=ଯେ,|gloss=hung
+8	hewaan	hewaan	PRON	_	_	_	nsubj	_	orth=ହେୱାନ୍|gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+9	taa	taa	PRON	_	_	_	poss	_	orth=ତା|gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+10	rakaan	rakaan	NOUN	_	_	_	_	_	orth=ରକାନ୍|gloss=an
+11	inyji	inyji	VERB	_	_	_	_	_	orth=ଇଞ୍ଜି|gloss=proved
+12	mehingg	mehingg	VERB	_	_	0	root	_	orth=ମେହିଙ୍ଗ୍|gloss=loved|Tense=Past|VerbForm=Fin
+13	hittaan.	hittaan.	VERB	_	Tense=Past	_	_	_	orth=ହିତ୍‌ତାନ୍।
+14	ines	ines	SCONJ	_	_	_	_	_	orth=ଇନେସ୍|gloss=as
+15	leke	leke	unk	_	_	_	_	_	orth=ଲେକେ|gloss=crimin
+16	taa	taa	PRON	_	_	_	poss	_	orth=ତା|gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+17	maajingg	maajingg	unk	_	_	_	_	_	orth=ମାଜିଙ୍ଗ୍|gloss=her
+18	paartikinaar	paartikinaar	unk	_	_	_	_	_	orth=ପାର୍ତିକିନାର୍|gloss=persu
+19	he	he	DET	_	_	_	det	_	orth=ହେ|gloss=the|Definite=Def|PronType=Art
+20	maanaayaar,	maanaayaar,	NOUN	_	_	_	_	_	orth=ମାନାୟାର୍,|gloss=ish
+21	nasstta	nasstta	unk	_	_	_	_	_	orth=ନଷ୍ଟ|gloss=destroyed
+22	aawaadaangg	aawaadaangg	unk	_	_	_	_	_	orth=ଆୱାଦାଙ୍ଗ୍|gloss=married
+23	wijwi	wijwi	ADJ	_	_	24	amod	_	orth=ୱିଜ୍‌ୱି|gloss=eternal|Degree=Pos
+24	jibun	jibun	NOUN	_	_	_	dobj	_	orth=ଜିବୁନ୍|gloss=life|Number=Sing
+25	paayaaaanaar.	paayaaaanaar.	unk	_	_	_	_	_	orth=ପାୟାଆନାର୍‌।|gloss=listens
+
+# sent_id = 44002030
+# ref_id = Acts 2:30
+# eng_text = Therefore , being a prophet , and knowing that God had sworn with an oath to him that of the fruit of his body , according to the flesh , he would raise up the Christ to sit on his throne ,
+# peg_text = hewaan rakaan bhabissyatabaktaa maacaan. hedaangg kaajingg taa laatraataangg rakaaningg taa singgaasantaake kucikinaan, i kaataa iishwara paarmaann kiji daauda raajaangg hitaakaa hewaan punnyji maacaan.
+# peg_orth = ହେୱାନ୍ ରକାନ୍ ଭବିଷ୍ଯତବକ୍ତା ମାଚାନ୍। ହେଦାଙ୍ଗ୍ କାଜିଙ୍ଗ୍ ତା ଲାତ୍ରାତାଙ୍ଗ୍ ରକାନିଙ୍ଗ୍ ତା ସିଙ୍ଗାସନ୍‌ତାକେ କୁଚିକିନାନ୍, ଇ କାତା ଈଶ୍ୱର ପାର୍ମାଣ୍ କିଜି ଦାଉଦ ରାଜାଙ୍ଗ୍ ହିତାକା ହେୱାନ୍ ପୁନ୍‌ଞ୍ଜି ମାଚାନ୍।
+1	hewaan	hewaan	PRON	_	_	22	nsubj	_	orth=ହେୱାନ୍|gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+2	rakaan	rakaan	NOUN	_	_	16	det	_	orth=ରକାନ୍|gloss=an|Definite=Ind|PronType=Art
+3	bhabissyatabaktaa	bhabissyatabaktaa	NOUN	_	_	4	attr	_	orth=ଭବିଷ୍ଯତବକ୍ତା|gloss=prophet|Number=Sing
+4	maacaan.	maacaan.	VERB	_	_	0	root	_	orth=ମାଚାନ୍।|gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+5	hedaangg	hedaangg	NOUN	_	_	_	_	_	orth=ହେଦାଙ୍ଗ୍|gloss=hes
+6	kaajingg	kaajingg	NOUN	_	_	_	_	_	orth=କାଜିଙ୍ଗ୍|gloss=for
+7	taa	taa	PRON	_	_	11	poss	_	orth=ତା|gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+8	laatraataangg	laatraataangg	unk	_	_	_	_	_	orth=ଲାତ୍ରାତାଙ୍ଗ୍
+9	rakaaningg	rakaaningg	NOUN	_	_	_	_	_	orth=ରକାନିଙ୍ଗ୍|gloss=n
+10	taa	taa	PRON	_	_	11	poss	_	orth=ତା|gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+11	singgaasantaake	singgaasantaake	NOUN	_	_	_	pobj	_	orth=ସିଙ୍ଗାସନ୍‌ତାକେ|gloss=throne|Number=Sing
+12	kucikinaan,	kucikinaan,	VERB	_	Tense=Past	_	_	_	orth=କୁଚିକିନାନ୍,
+13	i	i	NOUN	_	_	_	_	_	orth=ଇ|gloss=this
+14	kaataa	kaataa	NOUN	_	_	_	_	_	orth=କାତା|gloss=word
+15	iishwara	iishwara	PROPN	_	_	_	_	_	orth=ଈଶ୍ୱର|gloss=God’s
+16	paarmaann	paarmaann	NOUN	_	_	_	pobj	_	orth=ପାର୍ମାଣ୍|gloss=oath|Number=Sing
+17	kiji	kiji	VERB	_	Tense=Past	_	_	_	orth=କିଜି|gloss=did
+18	daauda	daauda	PROPN	_	_	_	poss	_	orth=ଦାଉଦ|gloss=David|Number=Sing
+19	raajaangg	raajaangg	unk	_	_	_	_	_	orth=ରାଜାଙ୍ଗ୍|gloss=Festus
+20	hitaakaa	hitaakaa	unk	_	_	_	_	_	orth=ହିତାକା|gloss=y
+21	hewaan	hewaan	PRON	_	_	22	nsubj	_	orth=ହେୱାନ୍|gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+22	punnyji	punnyji	VERB	_	Tense=Past	23	conj	_	orth=ପୁନ୍‌ଞ୍ଜି|gloss=knew|Tense=Past|VerbForm=Fin
+23	maacaan.	maacaan.	VERB	_	_	0	root	_	orth=ମାଚାନ୍।|gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+
+# sent_id = 44009038
+# ref_id = Acts 9:38
+# eng_text = As Lydda was near Joppa , the disciples , hearing that Peter was there , sent two men to him , imploring him not to delay in coming to them .
+# peg_text = pitara luda sahartaake maanaan inyji celaahir pucaar, i kaataa wecci rikaaringg paktaar, “maa laagaay waadengg dderi kimaatt.” luda sahar yaapaa sahar laagaay maacaat.
+# peg_orth = ପିତର ଲୁଦ ସହର୍‌ତାକେ ମାନାନ୍ ଇଞ୍ଜି ଚେଲାହିର୍ ପୁଚାର୍, ଇ କାତା ୱେଚ୍‌ଚି ରିକାରିଙ୍ଗ୍ ପକ୍ତାର୍, “ମା ଲାଗାୟ୍ ୱାଦେଙ୍ଗ୍ ଡେରି କିମାଟ୍।” ଲୁଦ ସହର୍ ଯାପା ସହର୍ ଲାଗାୟ୍ ମାଚାତ୍।
+1	pitara	pitara	PROPN	_	_	_	nsubj	_	orth=ପିତର|gloss=Peter|Number=Sing
+2	luda	luda	unk	_	_	_	_	_	orth=ଲୁଦ|gloss=d
+3	sahartaake	sahartaake	unk	_	_	_	_	_	orth=ସହର୍‌ତାକେ|gloss=city
+4	maanaan	maanaan	VERB	_	Tense=Past	_	_	_	orth=ମାନାନ୍|gloss=div
+5	inyji	inyji	VERB	_	_	_	_	_	orth=ଇଞ୍ଜି|gloss=proved
+6	celaahir	celaahir	NOUN	_	_	_	_	_	orth=ଚେଲାହିର୍|gloss=disciples
+7	pucaar,	pucaar,	unk	_	_	_	_	_	orth=ପୁଚାର୍,
+8	i	i	NOUN	_	_	_	_	_	orth=ଇ|gloss=this
+9	kaataa	kaataa	NOUN	_	_	_	_	_	orth=କାତା|gloss=word
+10	wecci	wecci	NOUN	_	_	_	_	_	orth=ୱେଚ୍‌ଚି|gloss=wasn’t
+11	rikaaringg	rikaaringg	unk	_	_	_	_	_	orth=ରିକାରିଙ୍ଗ୍|gloss=wrote
+12	paktaar,	paktaar,	unk	_	_	_	_	_	orth=ପକ୍ତାର୍,
+13	“maa	“maa	PRON	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	_	_	_	orth=“ମା|gloss=bo
+14	laagaay	laagaay	NOUN	_	_	_	_	_	orth=ଲାଗାୟ୍|gloss=laws
+15	waadengg	waadengg	PRON	_	Case=Nom|Number=Sing|PronType=Prs	_	_	_	orth=ୱାଦେଙ୍ଗ୍|gloss=let
+16	dderi	dderi	unk	_	_	_	_	_	orth=ଡେରି|gloss=delay
+17	kimaatt.”	kimaatt.”	unk	_	_	_	_	_	orth=କିମାଟ୍।”|gloss=rebelled
+18	luda	luda	unk	_	_	_	_	_	orth=ଲୁଦ|gloss=d
+19	sahar	sahar	unk	_	_	_	_	_	orth=ସହର୍|gloss=Olives
+20	yaapaa	yaapaa	unk	_	_	_	_	_	orth=ଯାପା|gloss=Joppa
+21	sahar	sahar	unk	_	_	_	_	_	orth=ସହର୍|gloss=Olives
+22	laagaay	laagaay	NOUN	_	_	_	_	_	orth=ଲାଗାୟ୍|gloss=laws
+23	maacaat.	maacaat.	unk	_	_	_	_	_	orth=ମାଚାତ୍।|gloss=surrounded
+
+# sent_id = 44011011
+# ref_id = Acts 11:11
+# eng_text = Behold , immediately three men stood before the house where I was , having been sent from Caesarea to me .
+# peg_text = hedaapre karnniliya imnni tinjaann maanaaytingg kaaisariaa sahartaangg naa laagaay pakci maacaan, hewaar aapengg imnni inyja maacaap he duwer laagaay waataar.
+# peg_orth = ହେଦାପ୍ରେ କର୍ଣିଲିୟ ଇମ୍‌ଣି ତିନ୍‌ଜାଣ୍ ମାନାୟ୍‌ତିଙ୍ଗ୍ କାଇସରିଆ ସହର୍‌ତାଙ୍ଗ୍ ନା ଲାଗାୟ୍ ପକ୍‌ଚି ମାଚାନ୍, ହେୱାର୍ ଆପେଙ୍ଗ୍ ଇମ୍‌ଣି ଇଞ୍ଜ ମାଚାପ୍ ହେ ଦୁୱେର୍ ଲାଗାୟ୍ ୱାତାର୍।
+1	hedaapre	hedaapre	unk	_	_	_	_	_	orth=ହେଦାପ୍ରେ|gloss=immediately
+2	karnniliya	karnniliya	ADJ	_	_	_	_	_	orth=କର୍ଣିଲିୟ|gloss=Cornelius
+3	imnni	imnni	NOUN	_	_	_	_	_	orth=ଇମ୍‌ଣି|gloss=Anyone
+4	tinjaann	tinjaann	unk	_	_	_	_	_	orth=ତିନ୍‌ଜାଣ୍|gloss=of
+5	maanaaytingg	maanaaytingg	unk	_	_	_	_	_	orth=ମାନାୟ୍‌ତିଙ୍ଗ୍|gloss=e
+6	kaaisariaa	kaaisariaa	PROPN	_	_	_	pobj	_	orth=କାଇସରିଆ|gloss=Caesarea|Number=Sing
+7	sahartaangg	sahartaangg	unk	_	_	_	_	_	orth=ସହର୍‌ତାଙ୍ଗ୍|gloss=Tyre
+8	naa	naa	PRON	_	_	_	_	_	orth=ନା|gloss=my
+9	laagaay	laagaay	NOUN	_	_	_	_	_	orth=ଲାଗାୟ୍|gloss=laws
+10	pakci	pakci	unk	_	_	_	_	_	orth=ପକ୍‌ଚି|gloss=of
+11	maacaan,	maacaan,	VERB	_	_	_	_	_	orth=ମାଚାନ୍,|gloss=Cle
+12	hewaar	hewaar	PRON	_	_	_	_	_	orth=ହେୱାର୍|gloss=They
+13	aapengg	aapengg	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	_	_	_	orth=ଆପେଙ୍ଗ୍|gloss=We
+14	imnni	imnni	NOUN	_	_	_	_	_	orth=ଇମ୍‌ଣି|gloss=Anyone
+15	inyja	inyja	unk	_	_	_	_	_	orth=ଇଞ୍ଜ|gloss=home
+16	maacaap	maacaap	unk	_	_	_	_	_	orth=ମାଚାପ୍|gloss=lying
+17	he	he	DET	_	_	_	det	_	orth=ହେ|gloss=the|Definite=Def|PronType=Art
+18	duwer	duwer	unk	_	_	_	_	_	orth=ଦୁୱେର୍|gloss=opened
+19	laagaay	laagaay	NOUN	_	_	_	_	_	orth=ଲାଗାୟ୍|gloss=laws
+20	waataar.	waataar.	unk	_	_	_	_	_	orth=ୱାତାର୍।|gloss=region
+
+# sent_id = 44021034
+# ref_id = Acts 21:34
+# eng_text = Some shouted one thing , some another , among the crowd . When he couldn't find out the truth because of the noise , he commanded him to be brought into the barracks .
+# peg_text = hebetaangg maanaayaar bitretaangg iner-iner ibenn iner-iner he benn wecci raattu aataar. maanaayaar raattu aati kaajingg haajaar senaar mukyaa he gannddgal bissayare punyjengg aaddwaataan. hedaangg kaajingg hewaan paaulatingg wenbedengg senaar maani baahaataake asaahaacaan.
+# peg_orth = ହେବେତାଙ୍ଗ୍ ମାନାୟାର୍ ବିତ୍ରେତାଙ୍ଗ୍ ଇନେର୍-ଇନେର୍ ଇବେଣ୍ ଇନେର୍-ଇନେର୍ ହେ ବେଣ୍ ୱେଚ୍‌ଚି ରାଟୁ ଆତାର୍। ମାନାୟାର୍ ରାଟୁ ଆତି କାଜିଙ୍ଗ୍ ହାଜାର୍ ସେନାର୍ ମୁକ୍ଯା ହେ ଗଣ୍ଡ୍‍ଗଲ୍ ବିଷୟରେ ପୁଞ୍ଜେଙ୍ଗ୍ ଆଡ୍‌ୱାତାନ୍। ହେଦାଙ୍ଗ୍ କାଜିଙ୍ଗ୍ ହେୱାନ୍ ପାଉଲତିଙ୍ଗ୍ ୱେନ୍‌ବେଦେଙ୍ଗ୍ ସେନାର୍ ମାନି ବାହାତାକେ ଅସାହାଚାନ୍।
+1	hebetaangg	hebetaangg	unk	_	_	_	_	_	orth=ହେବେତାଙ୍ଗ୍|gloss=aren’t
+2	maanaayaar	maanaayaar	NOUN	_	_	_	_	_	orth=ମାନାୟାର୍|gloss=feed
+3	bitretaangg	bitretaangg	NOUN	_	_	_	_	_	orth=ବିତ୍ରେତାଙ୍ଗ୍|gloss=w
+4	iner-iner	iner-iner	unk	_	_	_	_	_	orth=ଇନେର୍-ଇନେର୍|gloss=conf
+5	ibenn	ibenn	unk	_	_	_	_	_	orth=ଇବେଣ୍|gloss=countryside
+6	iner-iner	iner-iner	unk	_	_	_	_	_	orth=ଇନେର୍-ଇନେର୍|gloss=conf
+7	he	he	DET	_	_	_	det	_	orth=ହେ|gloss=the|Definite=Def|PronType=Art
+8	benn	benn	unk	_	_	_	_	_	orth=ବେଣ୍|gloss=talking
+9	wecci	wecci	NOUN	_	_	_	_	_	orth=ୱେଚ୍‌ଚି|gloss=wasn’t
+10	raattu	raattu	unk	_	_	_	_	_	orth=ରାଟୁ|gloss=he’s
+11	aataar.	aataar.	unk	_	_	_	_	_	orth=ଆତାର୍।|gloss=terrified
+12	maanaayaar	maanaayaar	NOUN	_	_	_	_	_	orth=ମାନାୟାର୍|gloss=feed
+13	raattu	raattu	unk	_	_	_	_	_	orth=ରାଟୁ|gloss=he’s
+14	aati	aati	unk	_	_	_	_	_	orth=ଆତି|gloss=star
+15	kaajingg	kaajingg	NOUN	_	_	_	_	_	orth=କାଜିଙ୍ଗ୍|gloss=for
+16	haajaar	haajaar	unk	_	_	_	_	_	orth=ହାଜାର୍|gloss=commander
+17	senaar	senaar	unk	_	_	_	_	_	orth=ସେନାର୍|gloss=soldier
+18	mukyaa	mukyaa	unk	_	_	_	_	_	orth=ମୁକ୍ଯା|gloss=leader
+19	he	he	DET	_	_	_	det	_	orth=ହେ|gloss=the|Definite=Def|PronType=Art
+20	gannddgal	gannddgal	NOUN	_	_	_	pobj	_	orth=ଗଣ୍ଡ୍‍ଗଲ୍|gloss=uproar|Number=Sing
+21	bissayare	bissayare	CCONJ	_	_	_	_	_	orth=ବିଷୟରେ|gloss=mystery
+22	punyjengg	punyjengg	PRON	_	Case=Nom|Number=Sing|PronType=Prs	_	_	_	orth=ପୁଞ୍ଜେଙ୍ଗ୍|gloss=meeting
+23	aaddwaataan.	aaddwaataan.	VERB	_	Tense=Past	_	_	_	orth=ଆଡ୍‌ୱାତାନ୍।|gloss=conf
+24	hedaangg	hedaangg	NOUN	_	_	_	_	_	orth=ହେଦାଙ୍ଗ୍|gloss=hes
+25	kaajingg	kaajingg	NOUN	_	_	_	_	_	orth=କାଜିଙ୍ଗ୍|gloss=for
+26	hewaan	hewaan	PRON	_	_	_	nsubj	_	orth=ହେୱାନ୍|gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+27	paaulatingg	paaulatingg	unk	_	_	_	_	_	orth=ପାଉଲତିଙ୍ଗ୍|gloss=ss
+28	wenbedengg	wenbedengg	PRON	_	Case=Nom|Number=Sing|PronType=Prs	_	_	_	orth=ୱେନ୍‌ବେଦେଙ୍ଗ୍|gloss=ask
+29	senaar	senaar	unk	_	_	_	_	_	orth=ସେନାର୍|gloss=soldier
+30	maani	maani	unk	_	_	_	_	_	orth=ମାନି|gloss=protect
+31	baahaataake	baahaataake	unk	_	_	_	_	_	orth=ବାହାତାକେ|gloss=place
+32	asaahaacaan.	asaahaacaan.	VERB	_	Tense=Past	_	_	_	orth=ଅସାହାଚାନ୍।|gloss=x
+
+# sent_id = 47012002
+# ref_id = 2 Corinthians 12:2
+# eng_text = I know a man in Christ , fourteen years ago ( whether in the body , I don't know , or whether out of the body , I don't know ; God knows ) , such a one caught up into the third heaven .
+# peg_text = cauda baarhu aage maapr yiishu khriisstta naanggengg tin nambarni saragtaake aji maannycaan. he tin nambarni saragataake naa gaagaadd haalji maacaat ki naa aatmaa haalji maacaat aanengg punungg, maatar iishwara pucaannaa.
+# peg_orth = ଚଉଦ ବାର୍ହୁ ଆଗେ ମାପୃ ଯୀଶୁ ଖ୍ରୀଷ୍ଟ ନାଙ୍ଗେଙ୍ଗ୍ ତିନ୍ ନମ୍ବର୍‌ନି ସରଗ୍‌ତାକେ ଅଜି ମାନ୍‌ଞ୍ଚାନ୍। ହେ ତିନ୍ ନମ୍ବର୍‌ନି ସରଗତାକେ ନା ଗାଗାଡ଼୍ ହାଲ୍‌ଜି ମାଚାତ୍ କି ନା ଆତ୍ମା ହାଲ୍‌ଜି ମାଚାତ୍ ଆନେଙ୍ଗ୍ ପୁନୁଙ୍ଗ୍, ମାତର୍ ଈଶ୍ୱର ପୁଚାନ୍‌ନା।
+1	cauda	cauda	NUM	_	_	2	nummod	_	orth=ଚଉଦ|gloss=fourteen|NumType=Card
+2	baarhu	baarhu	NOUN	_	_	_	npadvmod	_	orth=ବାର୍ହୁ|gloss=years|Number=Plur
+3	aage	aage	NOUN	_	_	_	_	_	orth=ଆଗେ|gloss=edly
+4	maapr	maapr	NOUN	_	_	_	_	_	orth=ମାପୃ|gloss=Lord
+5	yiishu	yiishu	PROPN	_	_	_	_	_	orth=ଯୀଶୁ|gloss=Jesus
+6	khriisstta	khriisstta	unk	_	_	_	_	_	orth=ଖ୍ରୀଷ୍ଟ|gloss=Christ
+7	naanggengg	naanggengg	PRON	_	Case=Nom|Number=Sing|PronType=Prs	_	_	_	orth=ନାଙ୍ଗେଙ୍ଗ୍|gloss=me
+8	tin	tin	VERB	_	Tense=Pres	_	_	_	orth=ତିନ୍|gloss=three
+9	nambarni	nambarni	SCONJ	_	_	_	mark	_	orth=ନମ୍ବର୍‌ନି|gloss=Whether
+10	saragtaake	saragtaake	PROPN	_	_	_	pobj	_	orth=ସରଗ୍‌ତାକେ|gloss=heaven|Number=Sing
+11	aji	aji	VERB	_	Tense=Past	0	root	_	orth=ଅଜି|gloss=caught|Aspect=Perf|Tense=Past|VerbForm=Part
+12	maannycaan.	maannycaan.	VERB	_	Tense=Past	_	_	_	orth=ମାନ୍‌ଞ୍ଚାନ୍।|gloss=ray
+13	he	he	DET	_	_	10	det	_	orth=ହେ|gloss=the|Definite=Def|PronType=Art
+14	tin	tin	VERB	_	Tense=Pres	_	_	_	orth=ତିନ୍|gloss=three
+15	nambarni	nambarni	SCONJ	_	_	_	mark	_	orth=ନମ୍ବର୍‌ନି|gloss=Whether
+16	saragataake	saragataake	unk	_	_	_	_	_	orth=ସରଗତାକେ
+17	naa	naa	PRON	_	_	18	poss	_	orth=ନା|gloss=my|Number=Sing|Person=1|Poss=Yes|PronType=Prs
+18	gaagaadd	gaagaadd	NOUN	_	_	_	pobj	_	orth=ଗାଗାଡ଼୍|gloss=body|Number=Sing
+19	haalji	haalji	VERB	_	_	_	_	_	orth=ହାଲ୍‌ଜି|gloss=fled
+20	maacaat	maacaat	unk	_	_	_	_	_	orth=ମାଚାତ୍|gloss=swords
+21	ki	ki	CCONJ	_	_	_	cc	_	orth=କି|gloss=or|ConjType=Cmp
+22	naa	naa	PRON	_	_	18	poss	_	orth=ନା|gloss=my|Number=Sing|Person=1|Poss=Yes|PronType=Prs
+23	aatmaa	aatmaa	unk	_	_	_	_	_	orth=ଆତ୍ମା|gloss=Spirit
+24	haalji	haalji	VERB	_	_	_	_	_	orth=ହାଲ୍‌ଜି|gloss=fled
+25	maacaat	maacaat	unk	_	_	_	_	_	orth=ମାଚାତ୍|gloss=swords
+26	aanengg	aanengg	PRON	_	_	_	nsubj	_	orth=ଆନେଙ୍ଗ୍|gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+27	punungg,	punungg,	unk	_	_	_	_	_	orth=ପୁନୁଙ୍ଗ୍,|gloss=way
+28	maatar	maatar	CCONJ	_	ConjType=Cmp	_	_	_	orth=ମାତର୍|gloss=but
+29	iishwara	iishwara	PROPN	_	_	_	_	_	orth=ଈଶ୍ୱର|gloss=God’s
+30	pucaannaa.	pucaannaa.	PRON	_	_	_	_	_	orth=ପୁଚାନ୍‌ନା।|gloss=needs
+
+# sent_id = 62004009
+# ref_id = 1 John 4:9
+# eng_text = By this was God's love revealed in us , that God has sent his only born Son into the world that we might live through him .
+# peg_text = iishwara maanggengg ileke laadd kidnaanaa, hedaangg kaajingg hewaan taa rakaan inyji mehingg purtitaake paktaataan. ineski hewaan maanggengg wijwi jibun hidnaan.
+# peg_orth = ଈଶ୍ୱର ମାଙ୍ଗେଙ୍ଗ୍ ଇଲେକେ ଲାଡ୍ କିଦ୍‌ନାନା, ହେଦାଙ୍ଗ୍ କାଜିଙ୍ଗ୍ ହେୱାନ୍ ତା ରକାନ୍ ଇଞ୍ଜି ମେହିଙ୍ଗ୍ ପୁର୍ତିତାକେ ପକ୍ତାତାନ୍। ଇନେସ୍‌କି ହେୱାନ୍ ମାଙ୍ଗେଙ୍ଗ୍ ୱିଜ୍‌ୱି ଜିବୁନ୍ ହିଦ୍‌ନାନ୍।
+1	iishwara	iishwara	PROPN	_	_	_	_	_	orth=ଈଶ୍ୱର|gloss=God’s
+2	maanggengg	maanggengg	PRON	_	_	12	dobj	_	orth=ମାଙ୍ଗେଙ୍ଗ୍|gloss=us|Case=Acc|Number=Plur|Person=1|PronType=Prs
+3	ileke	ileke	unk	_	_	_	_	_	orth=ଇଲେକେ|gloss=appointed
+4	laadd	laadd	VERB	_	_	_	_	_	orth=ଲାଡ୍|gloss=love
+5	kidnaanaa,	kidnaanaa,	PRON	_	_	_	_	_	orth=କିଦ୍‌ନାନା,|gloss=Aeneas
+6	hedaangg	hedaangg	NOUN	_	_	_	_	_	orth=ହେଦାଙ୍ଗ୍|gloss=hes
+7	kaajingg	kaajingg	NOUN	_	_	_	_	_	orth=କାଜିଙ୍ଗ୍|gloss=for
+8	hewaan	hewaan	PRON	_	_	12	nsubj	_	orth=ହେୱାନ୍|gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+9	taa	taa	PRON	_	_	_	poss	_	orth=ତା|gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+10	rakaan	rakaan	NOUN	_	_	_	_	_	orth=ରକାନ୍|gloss=an
+11	inyji	inyji	VERB	_	_	_	_	_	orth=ଇଞ୍ଜି|gloss=proved
+12	mehingg	mehingg	VERB	_	_	_	ccomp	_	orth=ମେହିଙ୍ଗ୍|gloss=loved|Tense=Past|VerbForm=Fin
+13	purtitaake	purtitaake	unk	_	_	_	_	_	orth=ପୁର୍ତିତାକେ|gloss=earth
+14	paktaataan.	paktaataan.	VERB	_	Tense=Past	_	_	_	orth=ପକ୍ତାତାନ୍।
+15	ineski	ineski	SCONJ	_	_	_	_	_	orth=ଇନେସ୍‌କି|gloss=For
+16	hewaan	hewaan	PRON	_	_	12	nsubj	_	orth=ହେୱାନ୍|gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+17	maanggengg	maanggengg	PRON	_	_	12	dobj	_	orth=ମାଙ୍ଗେଙ୍ଗ୍|gloss=us|Case=Acc|Number=Plur|Person=1|PronType=Prs
+18	wijwi	wijwi	ADJ	_	_	19	amod	_	orth=ୱିଜ୍‌ୱି|gloss=eternal|Degree=Pos
+19	jibun	jibun	NOUN	_	_	_	dobj	_	orth=ଜିବୁନ୍|gloss=life|Number=Sing
+20	hidnaan.	hidnaan.	VERB	_	Tense=Past	_	_	_	orth=ହିଦ୍‌ନାନ୍।|gloss=private
+
+# sent_id = 63001005
+# ref_id = 2 John 1:5
+# eng_text = Now I beg you , dear lady , not as though I wrote to you a new commandment , but that which we had from the beginning , that we love one another .
+# peg_text = e naa laaddni tanndele, aanengg ni kaajingg inaa puni niyam lekikiunggaa. maatar aage imnni niyam aasengg gaattaa aaji maacaas, hedaangg mi kaajingg lekikinaanggaa aasengg jaar-jaarbitre laaddkini darkaar.
+# peg_orth = ଏ ନା ଲାଡ୍‌ନି ତଣ୍‌ଦେଲେ, ଆନେଙ୍ଗ୍ ନି କାଜିଙ୍ଗ୍ ଇନା ପୁନି ନିୟମ୍ ଲେକିକିଉଙ୍ଗା। ମାତର୍ ଆଗେ ଇମ୍‌ଣି ନିୟମ୍ ଆସେଙ୍ଗ୍ ଗାଟା ଆଜି ମାଚାସ୍, ହେଦାଙ୍ଗ୍ ମି କାଜିଙ୍ଗ୍ ଲେକିକିନାଙ୍ଗା ଆସେଙ୍ଗ୍ ଜାର୍-ଜାର୍‌ବିତ୍ରେ ଲାଡ୍‌କିନି ଦର୍‌କାର୍।
+1	e	e	ADJ	_	_	3	amod	_	orth=ଏ|gloss=dear|Degree=Pos
+2	naa	naa	PRON	_	_	_	_	_	orth=ନା|gloss=my
+3	laaddni	laaddni	NOUN	_	_	_	npadvmod	_	orth=ଲାଡ୍‌ନି|gloss=friends|Number=Plur
+4	tanndele,	tanndele,	unk	_	_	_	_	_	orth=ତଣ୍‌ଦେଲେ,
+5	aanengg	aanengg	PRON	_	_	23	nsubj	_	orth=ଆନେଙ୍ଗ୍|gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+6	ni	ni	unk	_	_	_	_	_	orth=ନି|gloss=charges
+7	kaajingg	kaajingg	NOUN	_	_	_	_	_	orth=କାଜିଙ୍ଗ୍|gloss=for
+8	inaa	inaa	PRON	_	_	_	_	_	orth=ଇନା|gloss=Why
+9	puni	puni	ADJ	_	_	_	amod	_	orth=ପୁନି|gloss=new|Degree=Pos
+10	niyam	niyam	unk	_	_	_	_	_	orth=ନିୟମ୍|gloss=law
+11	lekikiunggaa.	lekikiunggaa.	unk	_	_	_	_	_	orth=ଲେକିକିଉଙ୍ଗା।
+12	maatar	maatar	CCONJ	_	ConjType=Cmp	_	cc	_	orth=ମାତର୍|gloss=but|ConjType=Cmp
+13	aage	aage	NOUN	_	_	_	_	_	orth=ଆଗେ|gloss=edly
+14	imnni	imnni	NOUN	_	_	_	_	_	orth=ଇମ୍‌ଣି|gloss=Anyone
+15	niyam	niyam	unk	_	_	_	_	_	orth=ନିୟମ୍|gloss=law
+16	aasengg	aasengg	PRON	_	Case=Nom|Number=Sing|PronType=Prs	_	_	_	orth=ଆସେଙ୍ଗ୍|gloss=celebrate
+17	gaattaa	gaattaa	unk	_	_	_	_	_	orth=ଗାଟା|gloss=find
+18	aaji	aaji	VERB	_	Tense=Past	_	_	_	orth=ଆଜି|gloss=gods
+19	maacaas,	maacaas,	unk	_	_	_	_	_	orth=ମାଚାସ୍,|gloss=andered
+20	hedaangg	hedaangg	NOUN	_	_	_	_	_	orth=ହେଦାଙ୍ଗ୍|gloss=hes
+21	mi	mi	PRON	_	Person=2|Poss=Yes|PronType=Prs	_	_	_	orth=ମି|gloss=your
+22	kaajingg	kaajingg	NOUN	_	_	_	_	_	orth=କାଜିଙ୍ଗ୍|gloss=for
+23	lekikinaanggaa	lekikinaanggaa	VERB	_	_	0	root	_	orth=ଲେକିକିନାଙ୍ଗା|gloss=writing|Aspect=Prog|Tense=Pres|VerbForm=Part
+24	aasengg	aasengg	PRON	_	Case=Nom|Number=Sing|PronType=Prs	_	_	_	orth=ଆସେଙ୍ଗ୍|gloss=celebrate
+25	jaar-jaarbitre	jaar-jaarbitre	unk	_	_	_	_	_	orth=ଜାର୍-ଜାର୍‌ବିତ୍ରେ|gloss=each
+26	laaddkini	laaddkini	VERB	_	_	23	ccomp	_	orth=ଲାଡ୍‌କିନି|gloss=love|VerbForm=Inf
+27	darkaar.	darkaar.	unk	_	_	_	_	_	orth=ଦର୍‌କାର୍।|gloss=ears
+
