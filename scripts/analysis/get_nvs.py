@@ -264,8 +264,8 @@ def get_wordorders(iso, taggedbib, isodict, verses=False):
     # here we get the totals for all verses with 2 elements that contain a V (intransitive word orders)
     sums2 = sum([v for k, v in ordersdict.items() if len(k) < 3 if "V" in k])
     # now create proportions based on these values and add them to new dicts
-    vecdict = {k+"_prop": v/sums3 for k, v in ordersdict.items() if len(k) > 2 if "V" in k}
-    vecdict2 = {k+"_prop": v/sums2 for k, v in ordersdict.items() if len(k) < 3 if "V" in k}
+    vecdict = {k+"_prop": v/sums3 if sums3 > 0 else 0 for k, v in ordersdict.items() if len(k) > 2 if "V" in k}
+    vecdict2 = {k+"_prop": v/sums2 if sums2 > 0 else 0 for k, v in ordersdict.items() if len(k) < 3 if "V" in k}
     # and add these key: value pairs to our main dict
     for k, v in vecdict.items():
         ordersdict[k] = v
@@ -281,13 +281,13 @@ def get_wordorders(iso, taggedbib, isodict, verses=False):
     n1dict["N1ratio-ArgsPreds"] = n1dict["N1"]/n1dict["V1"]
     n1dict["N1ratio-NsVs"] = n1dict["N1_only"]/n1dict["V1_only"]
     # and add ratios for the 3 verb positions (verbpos/others)
-    n1dict["VI_ratio"] = n1dict["VI"]/sum([n1dict["VM"], n1dict["VF"]])
-    n1dict["VM_ratio"] = n1dict["VM"]/sum([n1dict["VI"], n1dict["VF"]])
-    n1dict["VF_ratio"] = n1dict["VF"]/sum([n1dict["VI"], n1dict["VM"]])
+    n1dict["VI_ratio"] = n1dict["VI"]/sum([n1dict["VM"], n1dict["VF"]]) if sum([n1dict["VM"], n1dict["VF"]]) > 0 else 0
+    n1dict["VM_ratio"] = n1dict["VM"]/sum([n1dict["VI"], n1dict["VF"]]) if sum([n1dict["VI"], n1dict["VF"]]) > 0 else 0
+    n1dict["VF_ratio"] = n1dict["VF"]/sum([n1dict["VI"], n1dict["VM"]]) if sum([n1dict["VI"], n1dict["VM"]]) > 0 else 0
     # and add proportions for the 3 verb positions
-    n1dict["VI_prop"] = n1dict["VI"]/sums3
-    n1dict["VM_prop"] = n1dict["VM"]/sums3
-    n1dict["VF_prop"] = n1dict["VF"]/sums3
+    n1dict["VI_prop"] = n1dict["VI"]/sums3 if sums3 > 0 else 0
+    n1dict["VM_prop"] = n1dict["VM"]/sums3 if sums3 > 0 else 0
+    n1dict["VF_prop"] = n1dict["VF"]/sums3 if sums3 > 0 else 0
 
     # now add all the counted items, ratios, and proportions to our main isodict
     for k, v in lengthsdict.items():
