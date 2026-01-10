@@ -2,6 +2,7 @@
 ## Verses are extracted from the taggedPBC. Annotations have been developed with a combination of manual and automated approaches, with reference to existing literature and (where possible) native speakers.
 ## ISO 639-3: tel, Language: Telugu, Number of verses: 1885
 ## References: Fiveable. (2024, August 1). Telugu – Intro to Linguistics. https://fiveable.me/key-terms/introduction-linguistics/telugu ; Gene, B. (2012) Clitics: Overview. Kashaya Grammar https://www.ling.upenn.edu/~gene/Kashaya/grammar/clitics-overview.html ; Rama, T., & Vajjala, S. (2024). Dravidian language family through Universal Dependencies lens (No. arXiv:2406.14680). arXiv. https://doi.org/10.48550/arXiv.2406.14680 ; Sangeetha, P., Krishnamurthy, P., & Kulkarni, A. (2021, December). Parsing Subordinate Clauses in Telugu using Rule-based Dependency Parser. In Proceedings of the First Workshop on Parsing and its Applications for Indian Languages (pp. 12-19). https://aclanthology.org/2021.pail-1.2.pdf ; Universal Dependencies. UD for Telugu-English. https://universaldependencies.org/qte/ ; Wikipedia. (2025). Telugu Language. https://en.wikipedia.org/w/index.php?title=Telugu_language&oldid=1321444563
+## Contributors: #S DHANUSHA: DHANUSHA002 AT e DOT ntu DOT edu DOT sg #; #N POOJAA: POOJAA003 AT e DOT ntu DOT edu DOT sg #; #KAVIPOOJA SELVAKUMAR: KAVIPOOJ001 AT e DOT ntu DOT edu DOT sg #
 
 # sent_id = 40001016
 # ref_id = Matthew 1:16
