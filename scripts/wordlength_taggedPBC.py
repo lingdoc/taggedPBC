@@ -266,5 +266,5 @@ for d in values:
 
 print(countdict) # this is the dictionary of results
 
-## Here we see that NVlengths is more significant that all other factors
-## over 50% of the time.
+## Here we see that NVlengths is more significant than all other factors
+## nearly 70% of the time.
