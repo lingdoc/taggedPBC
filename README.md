@@ -6,11 +6,13 @@
 
 If you use this data, please cite the following source or one (or all) of the papers listed further below:
 
-- Ring, Hiram. 2025. The *taggedPBC*: Annotating a massive parallel corpus for crosslinguistic investigations. https://doi.org/10.48550/arXiv.2505.12560 *[Submitted on 18 May 2025]*
+- Ring, Hiram. 2025. The *taggedPBC*: Annotating a massive parallel corpus for crosslinguistic investigations. https://doi.org/10.48550/arXiv.2505.12560 *[Resubmitted on 7 Nov 2025]*
 
 ## Updates
 
-**UPDATE** *19 Dec 2025*: Added re-tagged data for 108 existing languages, based on trained NLTK POS taggers from UD corpora. The re-tagged dataset is used if the POS-tagger achieved > 0.85 accuracy on a random held-out test set for a given corpus and was trained on 200+ sentences, resulting in 38 language corpora being updated. Results remain largely unchanged from revised findings.
+**UPDATE** *10 Jan 2026*: Added complete re-tagged data for 6 existing languages and partial re-tagged annotations for 15 existing languages (produced by student projects). Results remain largely unchanged.
+
+**UPDATE** *19 Dec 2025*: Added re-tagged data for 38 existing languages, based on trained NLTK POS taggers from UD corpora of 200+ sentences and for which the POS-tagger achieved > 0.85 accuracy on a random held-out test set for a given corpus. Results remain largely unchanged from revised findings.
 
 **UPDATE** *01 July 2025*: Added parallel data from 345 additional languages, bringing the count of corpora to 1,944 (from 1,599). Results remain largely unchanged from initial findings reported in first drafts of papers linked here. This README and associated files in the repository have been updated with revised findings.
 
@@ -28,7 +30,7 @@ The three folders in this repository contain corpus data and scripts to run vari
 
 Papers related to this dataset include the following:
 
-- Ring, Hiram. 2025. The *taggedPBC*: Annotating a massive parallel corpus for crosslinguistic investigations. https://doi.org/10.48550/arXiv.2505.12560 *[Submitted on 18 May 2025]* [Annotating README](scripts/annotating_readme.md)
+- Ring, Hiram. 2025. The *taggedPBC*: Annotating a massive parallel corpus for crosslinguistic investigations. https://doi.org/10.48550/arXiv.2505.12560 *[Resubmitted on 7 Nov 2025]* [Annotating README](scripts/annotating_readme.md)
 
 - Ring, Hiram. 2025. Word length predicts word order: "Min-max"-ing drives language evolution. https://doi.org/10.48550/arXiv.2505.13913 *[Submitted on 20 May 2025]* [Word length README](scripts/wordlength_readme.md)
 
