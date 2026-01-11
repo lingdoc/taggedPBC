@@ -73,13 +73,15 @@ def get_rm_plot(df, subj, betw, within, outfold, repl=False):
             f.write(freettest.to_string(header=True, index=False))
         print()
 
+        # Set the overall style and context for journal publication
+        sns.set_theme(style="ticks", context="paper", font_scale=1.5, palette="colorblind")
         # plot the data
-        ax = sns.pointplot(data=df, x='Word lengths', y='value', hue=betw, dodge=True, capsize=.05, errorbar='se', palette=sns.color_palette('bright'))
+        ax = sns.pointplot(data=df, x='Word lengths', y='value', hue=betw, dodge=True, capsize=.05, errorbar='se')
         _ = plt.title('Mean lengths by word class')
         # plt.style.use(plot_settings)
         sns.move_legend(ax, "upper left")#, bbox_to_anchor=(1, 1))
         plt.tight_layout()
-        plt.savefig(outfold+"means-"+"_".join(within)+"_plot.png")
+        plt.savefig(outfold+"means-"+"_".join(within)+"_plot.png", dpi=300, bbox_inches='tight')
         plt.clf()
 
 def get_anova_wordorder(df, subj, betw, within, outfold, ds, repl=False):
@@ -108,20 +110,24 @@ def get_anova_wordorder(df, subj, betw, within, outfold, ds, repl=False):
     print()
 
     
-
+    # Set the overall style and context for journal publication
+    sns.set_theme(style="ticks", context="paper", font_scale=1.5, palette="colorblind")
     # plot the data
-    ax = sns.pointplot(data=df, x=betw, y=within, hue=betw, dodge=True, capsize=.05, errorbar='se', order=orders, palette=sns.color_palette('bright'))
+    ax = sns.pointplot(data=df, x=betw, y=within, hue=betw, dodge=True, capsize=.05, errorbar='se', order=orders)
     # plt.ylim(3.5, 8)
     if ds == 'Trans_order':
         _ = plt.title('Transitive word order proportions'.format())
     else:
         _ = plt.title('N1 ratio and word order ({source})'.format(source=ds))
+    if betw == 'Noun_Verb_order':
+        ax.set_xlabel('Intransitive order')
+    ax.set_ylabel('N1 ratio')
     # plt.style.use(plot_settings)
     # sns.move_legend(ax, "upper left", bbox_to_anchor=(1, 1))
     plt.tight_layout()
     if repl:
         if len(orders) > 3:
-            plt.savefig(outfold+ds+"_"+within+".png")
+            plt.savefig(outfold+ds+"_"+within+".png", dpi=300, bbox_inches='tight')
         else:
-            plt.savefig(outfold+within+"_"+ds+".png")
+            plt.savefig(outfold+within+"_"+ds+".png", dpi=300, bbox_inches='tight')
     plt.clf()

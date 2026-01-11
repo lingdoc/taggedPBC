@@ -85,7 +85,8 @@ print(finalbins) # these are the counts of languages in each bin
 keys = list(finalbins.keys())
 # get values in the same order as keys
 vals = [finalbins[k] for k in list(finalbins.keys())]
-sns.barplot(x=keys, y=vals, palette=sns.color_palette('coolwarm'), hue=keys) # plot the bins
+sns.set_theme(style="ticks", context="paper", font_scale=1.5, palette="colorblind")
+sns.barplot(x=keys, y=vals, hue=keys) # plot the bins
 plt.savefig("data/output/plots_distr/hist-Verse_counts.png") # save the plot
 plt.clf()
 print("{}\t{}".format('N_verse','N_Langs'))
@@ -102,9 +103,9 @@ density = [['N1ratio-ArgsPreds', 'N1ratio-NsVs'], # N1 ratios
             ['Vlen_freq', 'Nlen_freq', 'Vlen', 'Nlen'], # only Noun/Verb lengths, with/without frequency info
             ['Arglen_freq', 'Predlen_freq', 'Arglen', 'Predlen'], # all argument/predicate lengths, with/without frequency info
             ]
-
+sns.set_theme(style="ticks", context="paper", font_scale=1.5, palette="colorblind")
 for cols in density:
-    sns.kdeplot(data=df[cols], fill=True, palette=sns.color_palette('bright'))#, palette='coolwarm')
+    sns.kdeplot(data=df[cols], fill=True)
     titledict = {'N1ratio-ArgsPreds': 'N1ratios', 'Args_count': 'Args_Preds_counts', 'Ns_count': 'Ns_Vs_counts', 'Vlen_freq': 'Vs_Ns_lens', 'Arglen_freq': 'Args_Preds_lens'}
     title = titledict[cols[0]]
     plt.savefig("data/output/plots_distr/density_plot-"+title+".png")
@@ -271,7 +272,7 @@ for data in datasets:
     if "auto" in data:
         rpldict = {"V=1": "VS", "V=3": "SV", "V=2": "SV"}
         df['Noun_Verb_order'] = df['PositionVBasicLex'].replace(rpldict)
-        df.to_excel("data/output/comparisons_Autotyp.xlsx")
+        df.to_excel("data/output/comparisons_AUTOTYP.xlsx")
     elif "wals" in data:
         rpldict = {"No dominant order": "free"}#, 'SV': 'N1', 'VS': 'V1'}
         df['Noun_Verb_order'] = df['Order of Subject and Verb'].replace(rpldict)
@@ -294,12 +295,12 @@ newdf = newdf.drop_duplicates(subset=['index'], keep='first') # remove duplicate
 newdf.to_excel("data/output/All_comparisons_intransitive.xlsx", index=False)
 
 ## the following code computes statistics for the N1 ratio and word order classifications in
-## three typological databases: Grambank, WALS, and Autotyp
+## three typological databases: Grambank, WALS, and AUTOTYP
 import analysis.anovas
 from analysis.anovas import *
 
 # check the comparisons between the N1 ratio and word order values in the three databases
-datasets = ['comparisons_Grambank.xlsx', 'comparisons_WALS.xlsx', 'comparisons_Autotyp.xlsx',]
+datasets = ['comparisons_Grambank.xlsx', 'comparisons_WALS.xlsx', 'comparisons_AUTOTYP.xlsx',]
 datasets = ['data/output/'+x for x in datasets]
 
 for nfile in datasets:
@@ -310,11 +311,11 @@ for nfile in datasets:
     df = pd.read_excel(nfile)
     df['index'] = df.index
     repldict = {'N1': 'SV', 'V1': 'VS'}
-    df['Noun_Verb_order'] = df['Noun_Verb_order'].replace(repldict)
+    df['Noun_Verb_order'] = df['Noun_Verb_order'].replace(repldict) # clean up column values
 
-    subj = 'index'
-    betw = 'Noun_Verb_order'
-    within = 'N1ratio-ArgsPreds'
+    subj = 'index' # our subjects are the individual languages
+    betw = 'Noun_Verb_order' # the between-subjects observations are the orders
+    within = 'N1ratio-ArgsPreds' # the repeated measures are the ratios
     get_anova_wordorder(df, subj, betw, within, outfold, ds, repl=True)
     print("")
 
