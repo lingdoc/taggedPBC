@@ -109,7 +109,9 @@ def get_anova_wordorder(df, subj, betw, within, outfold, ds, repl=False):
                 f.write(posthoc.to_string(header=True, index=False))
     print()
 
-    
+    # set the figure size: (width, height) in inches
+    fig, ax = plt.subplots(figsize=(4, 6))
+
     # Set the overall style and context for journal publication
     sns.set_theme(style="ticks", context="paper", font_scale=1.5, palette="colorblind")
     # plot the data
