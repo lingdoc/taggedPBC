@@ -73,12 +73,20 @@ def get_rm_plot(df, subj, betw, within, outfold, repl=False):
             f.write(freettest.to_string(header=True, index=False))
         print()
 
+        if len(df[betw].value_counts().keys()) > 3:
+            orders = ['VI', 'VM', 'VF', 'free']
+        else:
+            orders = ['SV', 'VS', 'free']
+
         # Set the overall style and context for journal publication
         sns.set_theme(style="ticks", context="paper", font_scale=1.5, palette="colorblind")
         # plot the data
-        ax = sns.pointplot(data=df, x='Word lengths', y='value', hue=betw, dodge=True, capsize=.05, errorbar='se')
+        ax = sns.pointplot(data=df, x='Word lengths', y='value', hue=betw, dodge=True, capsize=.05, errorbar='se', hue_order=orders)
         _ = plt.title('Mean lengths by word class')
         # plt.style.use(plot_settings)
+        if betw == 'Noun_Verb_order':
+            # Set the legend title
+            ax.legend().set_title('Intransitive order')
         sns.move_legend(ax, "upper left")#, bbox_to_anchor=(1, 1))
         plt.tight_layout()
         plt.savefig(outfold+"means-"+"_".join(within)+"_plot.png", dpi=300, bbox_inches='tight')
@@ -115,7 +123,7 @@ def get_anova_wordorder(df, subj, betw, within, outfold, ds, repl=False):
     # Set the overall style and context for journal publication
     sns.set_theme(style="ticks", context="paper", font_scale=1.5, palette="colorblind")
     # plot the data
-    ax = sns.pointplot(data=df, x=betw, y=within, hue=betw, dodge=True, capsize=.05, errorbar='se', order=orders)
+    ax = sns.pointplot(data=df, x=betw, y=within, hue=betw, dodge=True, capsize=.05, errorbar='se', order=orders, hue_order=orders)
     # plt.ylim(3.5, 8)
     if ds == 'Trans_order':
         _ = plt.title('Transitive word order proportions'.format())
