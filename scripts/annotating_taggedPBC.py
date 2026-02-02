@@ -8,34 +8,35 @@ import seaborn as sns
 from checks.hierlinreg import *
 
 datafold = "../corpora/conllu/" # the location of the tagged PBC
-fileslist = [x for x in glob.glob(datafold+"*.conllu")] # a list of the conllu files for each tagged language
+fileslist = [x for x in glob.glob(datafold+"*.conllu")] # a list of the JSON files for each tagged language
+outputfile = "data/output/stats_All.xlsx"
 
-# here we get the re-tagged files developed by compling student group projects
-clfold = "../corpora/conllu-retagged/annotations/complete/"
-clfiles = [x for x in glob.glob(clfold+"*.conllu")] # a list of the conllu files for each tagged language
-clisos = [x.split("/")[-1].split("-")[0] for x in clfiles] # isos present in the files
+accfile = f"../corpora/conllu-retagged/accuracies.json"
 
-# here we get the re-tagged files from the UD set (tagged automatically with NLTK taggers that achieve > 0.85 acc)
-datafold2 = "../corpora/conllu-retagged/autoUD/" # the location of tagged PBC files re-tagged via UD data
-dfiles2 = [x for x in glob.glob(datafold2+"*.conllu")]
-reisos = [x.split("/")[-1].split("-")[0] for x in dfiles2 if x.split("/")[-1].split("-")[0] not in clisos] # remove isos already in clfiles
-dfiles2 = [x for x in dfiles2 if x.split("/")[-1].split("-")[0] in reisos] # remove files not in the filtered list
-
-print(f"Files in the re-annotated set {len(clisos)}")
-print(f"Files in the UDT tagged set {len(reisos)}")
-
-reisos = clisos+reisos # combine the isolists
-print(f"Files in the re-taggedPBC {len(reisos)}")
-
+# this dict keeps track of the accuracies of our taggers
+# and whether they were trained on xpos (lang specific pos) or upos (universal)
+with open(accfile) as f:
+    accdict = json.load(f)
+# these ISOs are not processed correctly (do not have enough N/V tags)
+keep_out = [
+            'hin', 'sah', 'bre', 'jpn', 'kir', 'sin', 'slk', 'xnr',
+            'kor', 'tam', 'kaz', 'ell', 'ukr', 'lzh', 'amh', 'hyw',
+            'cat', 'rus', 'bxr', 'uig', 'tha', 'bul', 'hye', 'cop'
+            ]
+# here we get the isos for languages with high accuracy on POS-training via UD if
+# 1) they are not in the exclusion list and 2) were trained on 200+ sentences
+acclist = [k for k in accdict.keys() if accdict[k]['acc'] >= 0.85 if k not in keep_out if accdict[k]['sents'] >= 200]
 # here we get the files for languages in the taggedPBC that aren't in the re-tagged list
-dfiles = [x for x in fileslist if x.split("/")[-1].split("-")[0] not in reisos]
+dfiles = [x for x in fileslist if x.split("/")[-1].split("-")[0] not in acclist]
 print(f"Files in the taggedPBC {len(dfiles)}")
-
+# here we get the re-tagged files from the UD set
+datafold2 = "../corpora/conllu-retagged/" # the location of tagged PBC files re-tagged via UD data
+dfiles2 = [x for x in glob.glob(datafold2+"*.conllu") if x.split("/")[-1].split("-")[0] in acclist]
+print(f"Files in the re-taggedPBC {len(dfiles2)}")
 # now we combine the two
-fileslist = clfiles+dfiles2+dfiles
+fileslist = dfiles2+dfiles
 print(f"Total: {len(fileslist)}")
 
-outputfile = "data/output/stats_All.xlsx" # this is the spreadsheet for the analyses
 # if the spreadsheet doesn't exist, do the following (delete spreadsheet if you want to re-run the analyses)
 if not os.path.isfile(outputfile):
     # get the tagged data, run analyses, store it in this dataframe
@@ -85,8 +86,7 @@ print(finalbins) # these are the counts of languages in each bin
 keys = list(finalbins.keys())
 # get values in the same order as keys
 vals = [finalbins[k] for k in list(finalbins.keys())]
-sns.set_theme(style="ticks", context="paper", font_scale=1.5, palette="colorblind")
-sns.barplot(x=keys, y=vals, hue=keys) # plot the bins
+sns.barplot(x=keys, y=vals, palette=sns.color_palette('coolwarm'), hue=keys) # plot the bins
 plt.savefig("data/output/plots_distr/hist-Verse_counts.png") # save the plot
 plt.clf()
 print("{}\t{}".format('N_verse','N_Langs'))
@@ -103,9 +103,9 @@ density = [['N1ratio-ArgsPreds', 'N1ratio-NsVs'], # N1 ratios
             ['Vlen_freq', 'Nlen_freq', 'Vlen', 'Nlen'], # only Noun/Verb lengths, with/without frequency info
             ['Arglen_freq', 'Predlen_freq', 'Arglen', 'Predlen'], # all argument/predicate lengths, with/without frequency info
             ]
-sns.set_theme(style="ticks", context="paper", font_scale=1.5, palette="colorblind")
+
 for cols in density:
-    sns.kdeplot(data=df[cols], fill=True)
+    sns.kdeplot(data=df[cols], fill=True, palette=sns.color_palette('bright'))#, palette='coolwarm')
     titledict = {'N1ratio-ArgsPreds': 'N1ratios', 'Args_count': 'Args_Preds_counts', 'Ns_count': 'Ns_Vs_counts', 'Vlen_freq': 'Vs_Ns_lens', 'Arglen_freq': 'Args_Preds_lens'}
     title = titledict[cols[0]]
     plt.savefig("data/output/plots_distr/density_plot-"+title+".png")
@@ -272,7 +272,7 @@ for data in datasets:
     if "auto" in data:
         rpldict = {"V=1": "VS", "V=3": "SV", "V=2": "SV"}
         df['Noun_Verb_order'] = df['PositionVBasicLex'].replace(rpldict)
-        df.to_excel("data/output/comparisons_AUTOTYP.xlsx")
+        df.to_excel("data/output/comparisons_Autotyp.xlsx")
     elif "wals" in data:
         rpldict = {"No dominant order": "free"}#, 'SV': 'N1', 'VS': 'V1'}
         df['Noun_Verb_order'] = df['Order of Subject and Verb'].replace(rpldict)
@@ -291,16 +291,19 @@ for data in datasets:
 newdf = newdf.reset_index()
 newdf = newdf[newdf['Noun_Verb_order'] != 'UNK'] # remove languages with "UNK" word order
 newdf = newdf.drop_duplicates(subset=['index'], keep='first') # remove duplicated classifications
+# this is the list of columns that we want to retain, to unify the dataset
+finalcols = ['index', 'Name', 'Family_line', 'Family_branch', 'Family_subgroup', 'macroarea', 'latitude', 'longitude', 'Noun_Verb_order', 'Verse_counts', 'Ns_count', 'Vs_count', 'Prons_count', 'Propns_count', 'Auxs_count', 'Args_count', 'Preds_count', 'Nlen', 'Pronlen', 'Propnlen', 'Vlen', 'Auxlen', 'Arglen', 'Predlen', 'Nlen_freq', 'Pronlen_freq', 'Propnlen_freq', 'Vlen_freq', 'Auxlen_freq', 'Arglen_freq', 'Predlen_freq', 'SOV', 'SVO', 'OSV', 'OVS', 'VOS', 'VSO', 'SO', 'OS', 'VS', 'SV', 'VO', 'OV', 'errors', 'SOV_prop', 'SVO_prop', 'OSV_prop', 'OVS_prop', 'VOS_prop', 'VSO_prop', 'VS_prop', 'SV_prop', 'VO_prop', 'OV_prop', 'N1', 'V1', 'N1_only', 'V1_only', 'VI', 'VM', 'VF', 'N1_ratio', 'N1ratio-ArgsPreds', 'N1ratio-NsVs', 'VI_ratio', 'VM_ratio', 'VF_ratio', 'VI_prop', 'VM_prop', 'VF_prop']
+newdf = newdf[finalcols]
 
 newdf.to_excel("data/output/All_comparisons_intransitive.xlsx", index=False)
 
 ## the following code computes statistics for the N1 ratio and word order classifications in
-## three typological databases: Grambank, WALS, and AUTOTYP
+## three typological databases: Grambank, WALS, and Autotyp
 import analysis.anovas
 from analysis.anovas import *
 
 # check the comparisons between the N1 ratio and word order values in the three databases
-datasets = ['comparisons_Grambank.xlsx', 'comparisons_WALS.xlsx', 'comparisons_AUTOTYP.xlsx',]
+datasets = ['comparisons_Grambank.xlsx', 'comparisons_WALS.xlsx', 'comparisons_Autotyp.xlsx',]
 datasets = ['data/output/'+x for x in datasets]
 
 for nfile in datasets:
@@ -311,11 +314,11 @@ for nfile in datasets:
     df = pd.read_excel(nfile)
     df['index'] = df.index
     repldict = {'N1': 'SV', 'V1': 'VS'}
-    df['Noun_Verb_order'] = df['Noun_Verb_order'].replace(repldict) # clean up column values
+    df['Noun_Verb_order'] = df['Noun_Verb_order'].replace(repldict)
 
-    subj = 'index' # our subjects are the individual languages
-    betw = 'Noun_Verb_order' # the between-subjects observations are the orders
-    within = 'N1ratio-ArgsPreds' # the repeated measures are the ratios
+    subj = 'index'
+    betw = 'Noun_Verb_order'
+    within = 'N1ratio-ArgsPreds'
     get_anova_wordorder(df, subj, betw, within, outfold, ds, repl=True)
     print("")
 
@@ -339,5 +342,10 @@ filen = "data/output/All_comparisons_intransitive.xlsx" # path to isos in databa
 original = "data/output/stats_All.xlsx" # get isos from the tagged PBC stats
 
 result = test_classifier_on_df(filen, classifiers, original, 'Noun_Verb_order', ['N1ratio-ArgsPreds'])
+
+# print(list(result.columns)) # check the column names
+# this is the list of columns that we want to retain, to unify the dataset
+finalcols = ['index', 'Name', 'Family_line', 'Family_branch', 'Family_subgroup', 'macroarea', 'latitude', 'longitude', 'Noun_Verb_order', 'imputed', 'Verse_counts', 'Ns_count', 'Vs_count', 'Prons_count', 'Propns_count', 'Auxs_count', 'Args_count', 'Preds_count', 'Nlen', 'Pronlen', 'Propnlen', 'Vlen', 'Auxlen', 'Arglen', 'Predlen', 'Nlen_freq', 'Pronlen_freq', 'Propnlen_freq', 'Vlen_freq', 'Auxlen_freq', 'Arglen_freq', 'Predlen_freq', 'SOV', 'SVO', 'OSV', 'OVS', 'VOS', 'VSO', 'SO', 'OS', 'VS', 'SV', 'VO', 'OV', 'errors', 'SOV_prop', 'SVO_prop', 'OSV_prop', 'OVS_prop', 'VOS_prop', 'VSO_prop', 'VS_prop', 'SV_prop', 'VO_prop', 'OV_prop', 'N1', 'V1', 'N1_only', 'V1_only', 'VI', 'VM', 'VF', 'N1_ratio', 'N1ratio-ArgsPreds', 'N1ratio-NsVs', 'VI_ratio', 'VM_ratio', 'VF_ratio', 'VI_prop', 'VM_prop', 'VF_prop']
+result = result[finalcols]
 
 result.to_excel("data/output/All_comparisons_intransitive_imputed.xlsx", index=False)

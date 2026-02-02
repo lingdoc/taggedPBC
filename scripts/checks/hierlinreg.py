@@ -16,30 +16,33 @@ def get_families(complete, linfile):
 
      with open(linfile) as f:
          lineages = json.load(f) # load the json file with lineages and ISO codes from Glottolog, stored in json format
-     
+
      # create a dict with the lineages present in our dataset
      indict = {}
-     indict = {y: [k, v[y][1], v[y][2], v[y][3], v[y][5], v[y][6]] for k, v in lineages.items() for y in v.keys() if y not in indict.keys()}
+     # the lineages file is stored as lineages with subdicts for each language ISO
+     # here we re-index to get ISO, family line (Glottocode for node), lat, long, macroarea, branch, subgroup, name
+     indict = {y: [k, v[y][1], v[y][2], v[y][3], v[y][5], v[y][6], v[y][0]] for k, v in lineages.items() for y in v.keys() if y not in indict.keys()}
      print("Number of lineages in the Glottolog data:", len(indict))
      # print(len(complete))
      # print(complete.head())
      # create a new column with the family line for each ISO code
      complete["Family_line"] = [indict[x][0].split("\t")[1] for x in complete['index']]
-     # create new colums with latitude, longitude, macroarea for each ISO code
+     # create new colums with latitude, longitude, macroarea, name for each ISO code
      complete["latitude"] = [indict[x][1] for x in complete['index']]
      complete["longitude"] = [indict[x][2] for x in complete['index']]
      complete["macroarea"] = [indict[x][3] for x in complete['index']]
      complete["Family_branch"] = [indict[x][4].split("\t")[1] for x in complete['index']]
      complete["Family_subgroup"] = [indict[x][5].split("\t")[1] for x in complete['index']]
+     complete["Name"] = [indict[x][6] for x in complete['index']]
      # print(complete['Family_line'])
      complete.set_index('index', inplace=True) # set index
      compdict = complete.to_dict(orient='index') # convert to dict
      # dict below contains updated info missing from Glottolog
      newdictinfo = {
-               'uth': {"Family_line": "Atlantic-Congo", "latitude": 11.5, "longitude": 4, "macroarea": "Africa", "Family_branch": "Volta-Congo", "Family_subgroup": "Benue-Congo"}, 
-               'ukk': {"Family_line": "Austroasiatic", "latitude": 21.183333, "longitude": 100.366667, "macroarea": "Eurasia", "Family_branch": "Khasi-Palaung", "Family_subgroup": "Palaungic"}, 
-               'xis': {"Family_line": "Dravidian", "latitude": 24.46, "longitude": 86.47, "macroarea": "Eurasia", "Family_branch": "North Dravidian", "Family_subgroup": "Kurux-Malto"}, 
-               'fat': {"Family_line": "Atlantic-Congo", "latitude": 5.5, "longitude": -1, "macroarea": "Africa", "Family_branch": "Volta-Congo", "Family_subgroup": "Kwa Volta-Congo"}, 
+               'uth': {"Family_line": "Atlantic-Congo", "latitude": 11.5, "longitude": 4, "macroarea": "Africa", "Family_branch": "Volta-Congo", "Family_subgroup": "Benue-Congo"},
+               'ukk': {"Family_line": "Austroasiatic", "latitude": 21.183333, "longitude": 100.366667, "macroarea": "Eurasia", "Family_branch": "Khasi-Palaung", "Family_subgroup": "Palaungic"},
+               'xis': {"Family_line": "Dravidian", "latitude": 24.46, "longitude": 86.47, "macroarea": "Eurasia", "Family_branch": "North Dravidian", "Family_subgroup": "Kurux-Malto"},
+               'fat': {"Family_line": "Atlantic-Congo", "latitude": 5.5, "longitude": -1, "macroarea": "Africa", "Family_branch": "Volta-Congo", "Family_subgroup": "Kwa Volta-Congo"},
                'ltg': {"Family_line": "Indo-European", "latitude": 56.948889, "longitude": 24.106389, "macroarea": "Eurasia", "Family_branch": "Classical Indo-European", "Family_subgroup": "Balto-Slavic"},
                     }
      # loop through the dict and add info to the compdict if the keys exist
@@ -97,7 +100,7 @@ def run_HLR(df, X, y, name, folder, feedback=None, repl=False):
      # Initiate the HLR object (missing_data and ols_params are optional parameters)
      hreg = HierarchicalLinearRegression(df, X, y, ols_params=None)
 
-     
+
      # Generate a summarised report of HLR
      summ = hreg.summary()
      outfile = folder+"HLR_results_"+name+"_tPBC"

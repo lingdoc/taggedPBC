@@ -55,6 +55,7 @@ def test_classifier_on_df(filen, classifiers, original, target_col, num_feats=[]
 	print(list(le.classes_))
 	# make a new column which is the transformed classes
 	dataset['Class'] = list(le.transform(dataset[target_col]))
+	dataset['imputed'] = "No" # identify this set of languages as not imputed
 
 	# feature columns for our classifier can be numeric (continuous) or categorical (discrete)
 	# these are the numerical feature columns
@@ -76,7 +77,7 @@ def test_classifier_on_df(filen, classifiers, original, target_col, num_feats=[]
 				]
 			)
 
-	# build a pipeline to encode categorical features as binary 
+	# build a pipeline to encode categorical features as binary
 	categorical_transformer = Pipeline(
 	    steps=[
 	        ("encoder", OneHotEncoder(handle_unknown="ignore")),
@@ -134,6 +135,7 @@ def test_classifier_on_df(filen, classifiers, original, target_col, num_feats=[]
 
 	# get the final values from the predictions
 	unks[target_col] = list(le.inverse_transform(finalpreds))
+	unks['imputed'] = "Yes" # add a column that they're imputed
 
 	# combine the predicted values with the database values
 	dataset = pd.concat([dataset, unks])
@@ -141,6 +143,7 @@ def test_classifier_on_df(filen, classifiers, original, target_col, num_feats=[]
 	# print(dataset.columns)
 	# language with iso 'nan' gets removed because python thinks it's NaN, so restore it here
 	dataset['index'] = dataset['index'].fillna('nan')
+	dataset.loc[dataset['index'] == 'nan', 'imputed'] = "No"
 	print(len(dataset))
 	print(Counter(dataset[target_col]))
 	print(len(dataset))
