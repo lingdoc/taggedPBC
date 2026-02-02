@@ -8,35 +8,34 @@ import seaborn as sns
 from checks.hierlinreg import *
 
 datafold = "../corpora/conllu/" # the location of the tagged PBC
-fileslist = [x for x in glob.glob(datafold+"*.conllu")] # a list of the JSON files for each tagged language
-outputfile = "data/output/stats_All.xlsx"
+fileslist = [x for x in glob.glob(datafold+"*.conllu")] # a list of the conllu files for each tagged language
 
-accfile = f"../corpora/conllu-retagged/accuracies.json"
+# here we get the re-tagged files developed by compling student group projects
+clfold = "../corpora/conllu-retagged/annotations/complete/"
+clfiles = [x for x in glob.glob(clfold+"*.conllu")] # a list of the conllu files for each tagged language
+clisos = [x.split("/")[-1].split("-")[0] for x in clfiles] # isos present in the files
 
-# this dict keeps track of the accuracies of our taggers
-# and whether they were trained on xpos (lang specific pos) or upos (universal)
-with open(accfile) as f:
-    accdict = json.load(f)
-# these ISOs are not processed correctly (do not have enough N/V tags)
-keep_out = [
-            'hin', 'sah', 'bre', 'jpn', 'kir', 'sin', 'slk', 'xnr',
-            'kor', 'tam', 'kaz', 'ell', 'ukr', 'lzh', 'amh', 'hyw',
-            'cat', 'rus', 'bxr', 'uig', 'tha', 'bul', 'hye', 'cop'
-            ]
-# here we get the isos for languages with high accuracy on POS-training via UD if
-# 1) they are not in the exclusion list and 2) were trained on 200+ sentences
-acclist = [k for k in accdict.keys() if accdict[k]['acc'] >= 0.85 if k not in keep_out if accdict[k]['sents'] >= 200]
+# here we get the re-tagged files from the UD set (tagged automatically with NLTK taggers that achieve > 0.85 acc)
+datafold2 = "../corpora/conllu-retagged/autoUD/" # the location of tagged PBC files re-tagged via UD data
+dfiles2 = [x for x in glob.glob(datafold2+"*.conllu")]
+reisos = [x.split("/")[-1].split("-")[0] for x in dfiles2 if x.split("/")[-1].split("-")[0] not in clisos] # remove isos already in clfiles
+dfiles2 = [x for x in dfiles2 if x.split("/")[-1].split("-")[0] in reisos] # remove files not in the filtered list
+
+print(f"Files in the re-annotated set {len(clisos)}")
+print(f"Files in the UDT tagged set {len(reisos)}")
+
+reisos = clisos+reisos # combine the isolists
+print(f"Files in the re-taggedPBC {len(reisos)}")
+
 # here we get the files for languages in the taggedPBC that aren't in the re-tagged list
-dfiles = [x for x in fileslist if x.split("/")[-1].split("-")[0] not in acclist]
+dfiles = [x for x in fileslist if x.split("/")[-1].split("-")[0] not in reisos]
 print(f"Files in the taggedPBC {len(dfiles)}")
-# here we get the re-tagged files from the UD set
-datafold2 = "../corpora/conllu-retagged/" # the location of tagged PBC files re-tagged via UD data
-dfiles2 = [x for x in glob.glob(datafold2+"*.conllu") if x.split("/")[-1].split("-")[0] in acclist]
-print(f"Files in the re-taggedPBC {len(dfiles2)}")
+
 # now we combine the two
-fileslist = dfiles2+dfiles
+fileslist = clfiles+dfiles2+dfiles
 print(f"Total: {len(fileslist)}")
 
+outputfile = "data/output/stats_All.xlsx" # this is the spreadsheet for the analyses
 # if the spreadsheet doesn't exist, do the following (delete spreadsheet if you want to re-run the analyses)
 if not os.path.isfile(outputfile):
     # get the tagged data, run analyses, store it in this dataframe
@@ -86,6 +85,7 @@ print(finalbins) # these are the counts of languages in each bin
 keys = list(finalbins.keys())
 # get values in the same order as keys
 vals = [finalbins[k] for k in list(finalbins.keys())]
+sns.set_theme(style="ticks", context="paper", font_scale=1.5, palette="colorblind")
 sns.barplot(x=keys, y=vals, palette=sns.color_palette('coolwarm'), hue=keys) # plot the bins
 plt.savefig("data/output/plots_distr/hist-Verse_counts.png") # save the plot
 plt.clf()
@@ -103,7 +103,7 @@ density = [['N1ratio-ArgsPreds', 'N1ratio-NsVs'], # N1 ratios
             ['Vlen_freq', 'Nlen_freq', 'Vlen', 'Nlen'], # only Noun/Verb lengths, with/without frequency info
             ['Arglen_freq', 'Predlen_freq', 'Arglen', 'Predlen'], # all argument/predicate lengths, with/without frequency info
             ]
-
+sns.set_theme(style="ticks", context="paper", font_scale=1.5, palette="colorblind")
 for cols in density:
     sns.kdeplot(data=df[cols], fill=True, palette=sns.color_palette('bright'))#, palette='coolwarm')
     titledict = {'N1ratio-ArgsPreds': 'N1ratios', 'Args_count': 'Args_Preds_counts', 'Ns_count': 'Ns_Vs_counts', 'Vlen_freq': 'Vs_Ns_lens', 'Arglen_freq': 'Args_Preds_lens'}
