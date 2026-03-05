@@ -1,7 +1,7 @@
 import pandas as pd
 import os, json
 from HLR import HierarchicalLinearRegression
-from sklearn.preprocessing import LabelEncoder
+from sklearn.preprocessing import LabelEncoder, MinMaxScaler
 
 # filen = "glottolog/All_comparisons_imputed_families.xlsx"
 # complete = "../data/output/All_comparisons_imputed.xlsx"
@@ -103,15 +103,20 @@ def run_HLR(df, X, y, name, folder, feedback=None, repl=False):
 
      # Generate a summarised report of HLR
      summ = hreg.summary()
+
+
      outfile = folder+"HLR_results_"+name+"_tPBC"
      if repl:
           summ.to_excel(outfile+".xlsx") # these are the full statistical results
      cols = ['Model Level', 'N (observations)', 'F-value', 'P-value (F)', 'F-value change', 'P-value (F-value change)']#, 'Std Beta coefs'
      tsumm = summ[cols]
      tsumm.columns = ['Model', 'N (obs)', 'F-val', 'P-val (F)', 'F-val change', 'P-val (F-val change)']#, 'Std Betas'
+     csumm = tsumm.copy()
+     for col in csumm.columns:
+         csumm[col] = csumm[col].apply(lambda x: round(x, 2) if x >= 0.01 and not float(x).is_integer() else int(x) if x >= 0.01 and float(x).is_integer() else float("%.2e" % x))
      # print(tsumm.head())
      if repl:
-          tsumm.to_csv(outfile+".csv") # these are the main statistical results
+          csumm.to_csv(outfile+".csv") # these are the main statistical results
      if feedback:
           fdict = tsumm.set_index("Model").to_dict("index")
           return fdict

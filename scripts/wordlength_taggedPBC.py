@@ -17,6 +17,7 @@ except:
     exit()
 
 df['index'] = df.index
+df['index'] = df['index'].fillna('nan') # when pandas imports the spreadsheet it thinks this ISO code is NaN
 
 subj = 'index'
 betw = 'Noun_Verb_order'
@@ -29,10 +30,30 @@ comparisons = [
                 ['Pronlen_freq', 'Pronlen'],
                 ]
 
-# conduct the repeated measures anova for each pair of comparisons
+# conduct the repeated measures anova for each pair of comparisons and plot means
 for within in comparisons:
-    print(within)
+    # print(within)
     get_rm_plot(df, subj, betw, within, outfold, repl=True)
+
+## Now we want to make sure that our wordlength features are not biased by
+## language family or macroarea.
+
+# first we compute additional features (ratio and difference) for the
+# frequency-weighted lengths of nouns/verbs
+df['NVlensratio'] = df['Vlen_freq']/df['Nlen_freq']
+df['NVlensdiff'] = df['Vlen_freq']-df['Nlen_freq']
+
+# then we scale the continuous values using the MinMaxScaler
+ivslist = ['Nlen_freq', 'Vlen_freq', 'NVlensratio', 'NVlensdiff']
+df[ivslist] = mscaler.fit_transform(df[ivslist])
+# now let's examine different number of languages to see if
+# language family or macroarea affects the correlation of wordlength features
+ranges = [0, 1, 10] # a list of minimum family members
+gcounts = dict(df['Family_line'].value_counts()) # the grouping factor with minimum values
+groups = ['Family_line', 'macroarea'] # a list of grouping factors to use as random effects
+
+df3 = run_mixed(df, betw, ivslist, groups, ranges, gcounts) # run the models
+df3.to_excel("data/output/MixedLM_Model_results_"+"_".join(groups)+".xlsx") # save results
 
 
 ## Now let's see how well the measurements of noun and verb lengths can differentiate between
@@ -55,7 +76,7 @@ for clf in classifiers.keys():
 
 # import stats on nouns/verbs from POS-tagged corpora of Ancient and Modern Hebrew
 # (via UD 2.14) and tagged corpora of Classical and Egyptian Arabic (via the Quran
-# and BOLT). Also import data from the Wurzburg Irish Glosses.
+# and BOLT). Also import data from the Wurzburg Irish Glosses (a fifth dataset).
 # See `checks/test_hist/check_corpora.py` for more detail.
 udstats = "checks/test_hist/corpora_stats.xlsx"
 # get the data for prediction
@@ -121,12 +142,20 @@ fit_transform_cats(df, 'Noun_Verb_order', 'Class') # convert the SV/VS classes t
 fit_transform_cats(df, 'Family_line', 'Fam_class') # convert the language family to numeric
 fit_transform_cats(df, 'macroarea', 'Macro_class') # convert the Macroarea to numeric
 
+# compute ratio
+df['NVlenFreqRatio'] = df['Nlen_freq']/df['Vlen_freq']
+# compute difference
+df['NVlenFreqDiff'] = df['Nlen_freq']-df['Vlen_freq']
+scaled = ['N1ratio-ArgsPreds', 'Nlen_freq', 'Vlen_freq', 'NVlenFreqRatio', 'NVlenFreqDiff']
+mscaler = MinMaxScaler()
+df[scaled] = mscaler.fit_transform(df[scaled])
+
 # Define the models for hierarchical regression including predictors for each model
 X1 = {
      1: ['N1ratio-ArgsPreds'], # variable known to differentiate word order between languages (base model)
-     2: ['N1ratio-ArgsPreds', 'latitude', 'longitude', 'Macro_class'], # include lat/long coordinates and macroarea
-     3: ['N1ratio-ArgsPreds', 'latitude', 'longitude', 'Macro_class', 'Fam_class'], # include family
-     4: ['N1ratio-ArgsPreds', 'latitude', 'longitude', 'Macro_class', 'Fam_class', 'Nlen_freq', 'Vlen_freq'], # include Nlen/Vlen
+     2: ['N1ratio-ArgsPreds', 'Macro_class'], # include macroarea
+     3: ['N1ratio-ArgsPreds', 'Macro_class', 'Fam_class'], # include family
+     4: ['N1ratio-ArgsPreds', 'Macro_class', 'Fam_class', 'Nlen_freq', 'Vlen_freq'], # include Nlen/Vlen
      }
 
 # Define the outcome variable
@@ -144,7 +173,7 @@ checklists = [
 # go through each sample and run the HLR models
 for num, check in enumerate(checklists):
      temp = df[df['index'].isin(check[0])]
-     run_HLR(temp, X1, y, "{:02d}".format(num+1)+"_"+check[1], "checks/results/")
+     run_HLR(temp, X1, y, "{:02d}".format(num+1)+"_"+check[1], "checks/results/", feedback=None, repl=True)
 
 ## Based on this analysis, Noun/Verb lengths are a stronger predictor of word order
 ## than descent from a common ancestor (family membership).
@@ -161,7 +190,7 @@ X2 = {
 # go through each sample and run the HLR models
 for num, check in enumerate(checklists):
      temp = df[df['index'].isin(check[0])]
-     run_HLR(temp, X2, y, "{:02d}".format(num+6)+"_"+check[1]+"_noLgArea", "checks/results/")
+     run_HLR(temp, X2, y, "{:02d}".format(num+6)+"_"+check[1]+"_noLgArea", "checks/results/", feedback=None, repl=True)
 
 ## Based on these models, family membership is only significant with the sample
 ## of languages from the families in the Dunn et al paper, whereas Noun/Verb lengths
@@ -174,14 +203,14 @@ for num, check in enumerate(checklists):
 X3 = {
      1: ['N1ratio-ArgsPreds'], # variable known to differentiate word order between languages (base model)
      2: ['N1ratio-ArgsPreds', 'Fam_class'], # include family
-     3: ['N1ratio-ArgsPreds', 'Fam_class', 'latitude', 'longitude', 'Macro_class'], # include geographical features
-     4: ['N1ratio-ArgsPreds', 'Fam_class', 'latitude', 'longitude', 'Macro_class', 'Nlen_freq', 'Vlen_freq'], # include Nlen/Vlen
+     3: ['N1ratio-ArgsPreds', 'Fam_class', 'Macro_class'], # include geographical features
+     4: ['N1ratio-ArgsPreds', 'Fam_class', 'Macro_class', 'Nlen_freq', 'Vlen_freq'], # include Nlen/Vlen
      }
 
 # go through each sample and run the HLR models
 for num, check in enumerate(checklists):
      temp = df[df['index'].isin(check[0])]
-     run_HLR(temp, X3, y, "{:02d}".format(num+11)+"_"+check[1]+"_Famfirst", "checks/results/")
+     run_HLR(temp, X3, y, "{:02d}".format(num+11)+"_"+check[1]+"_Famfirst", "checks/results/", feedback=None, repl=True)
 
 ## Still, based on these models, family membership is only significant with the sample
 ## of languages from the families in the Dunn et al paper, and accounts for less variance
@@ -224,7 +253,7 @@ def sample_hlr(famdict, n=4, X1=X1, y=y):
             dlist += random.sample(v, int(len(v)/n))
         except:
             dlist.append(random.choice(v))
-    
+
     # go through the sample and run the HLR models
     temp = df[df['index'].isin(dlist)]
     # here we use the first set of models

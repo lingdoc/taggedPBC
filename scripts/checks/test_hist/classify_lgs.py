@@ -1,6 +1,6 @@
 # Import libraries and classes required for this example:
 from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import OneHotEncoder, StandardScaler, LabelEncoder
+from sklearn.preprocessing import OneHotEncoder, MinMaxScaler, LabelEncoder
 from sklearn.feature_selection import SelectPercentile, chi2
 from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
@@ -13,7 +13,7 @@ from collections import Counter
 numerical_features = ['Nlen_freq', 'Vlen_freq', 'NVlenFreqRatio', 'NVlenFreqDiff']
 # build a pipeline with a scaler for numeric values
 numeric_transformer = Pipeline(
-	steps=[("scaler", StandardScaler())]
+	steps=[("scaler", MinMaxScaler())]
 	)
 # these are the categorical feature columns
 categorical_features = ['Longer_Freq']
@@ -52,19 +52,19 @@ def get_train_data(data):
 	# add categorical columns
 	eval_len(dataset, 'Nlen_freq', 'Vlen_freq', 'Longer_Freq')
 
-	print(dataset.head()) # view the first 5 rows
-	print(len(dataset)) # view the length
-	remlangs = ['hbo', 'heb', 'cla', 'arz'] # lgs to remove from the dataset (Ancient Hebrew, Modern Hebrew, Arabic, Egyptian Arabic)
+	# print(dataset.head()) # view the first 5 rows
+	# print(len(dataset)) # view the length
+	remlangs = ['hbo', 'heb', 'cla', 'arz', 'sga'] # lgs to remove from the dataset (Ancient Hebrew, Modern Hebrew, Arabic, Egyptian Arabic, Old Irish)
 	for lg in remlangs:
 		dataset = dataset[dataset['index'] != lg] # remove them from the dataset, since we'll be predicting their word order later
 
 	# use the label encoder to convert our word orders to classes
 	le.fit(dataset['Noun_Verb_order'])
-	print(list(le.classes_))
+	# print(list(le.classes_))
 	dataset['Class'] = list(le.transform(dataset['Noun_Verb_order']))
-	print(dataset.columns)
+	# print(dataset.columns)
 	# Assign values to the X and y variables
-	print(numerical_features+categorical_features)
+	# print(numerical_features+categorical_features)
 	X = dataset[numerical_features+categorical_features]
 	y = dataset['Class']
 
@@ -85,7 +85,7 @@ def test_clf(X, y, preprocessor, clf, name):
 
 	clf.fit(X_train, y_train)
 	score = clf.score(X_test, y_test)
-	print("{name} model score: {score:.3f}".format(name=name, score=score))
+	print(f"{name} model score: {score:.3f}")
 
 # a function to train the classifier on all data
 def train_clf(X, y, preprocessor, clf, name):
@@ -116,7 +116,7 @@ def train_predict(df, classifiers, X, y):
 
 	# the code below averages the predictions (if using an ensemble method)
 	# or converts the array to a list (if using a single classifier)
-	print(predictions)
+	# print(predictions)
 	finalpreds = []
 	for cl in list(range(len(predictions[0]))):
 		avgs = []
@@ -124,7 +124,7 @@ def train_predict(df, classifiers, X, y):
 			avgs.append(predictions[z][cl])
 		avgs = round(sum(avgs)/len(avgs))
 		finalpreds.append(avgs)
-	print(len(finalpreds))
+	# print(len(finalpreds))
 
 	print(Counter(finalpreds))
 
@@ -132,4 +132,3 @@ def train_predict(df, classifiers, X, y):
 	print(df.head())
 
 	return df
-
