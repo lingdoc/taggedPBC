@@ -6,7 +6,19 @@
 
 If you use this data, please cite the following source or one (or all) of the papers listed further below:
 
-- Ring, Hiram. 2025. The *taggedPBC*: Annotating a massive parallel corpus for crosslinguistic investigations. https://doi.org/10.48550/arXiv.2505.12560 *[Resubmitted on 7 Nov 2025]*
+- Ring, Hiram. 2026. The *taggedPBC*: annotating a massive parallel corpus for crosslinguistic investigations. *Lang Resources & Evaluation (LREC)* 60, 1, 1-20. https://doi.org/10.1007/s10579-026-09902-2
+
+```
+@article{Ring:2026,
+	author = {Ring, Hiram},
+  doi = {10.1007/s10579-026-09902-2},
+	journal = {Language Resources and Evaluation},
+	number = {1},
+	pages = {20},
+	title = {The \emph{taggedPBC}: Annotating a massive parallel corpus for crosslinguistic investigations},
+	volume = {60},
+	year = {2026}}
+```
 
 ## Updates
 
@@ -16,7 +28,7 @@ If you use this data, please cite the following source or one (or all) of the pa
 
 **UPDATE** *01 July 2025*: Added parallel data from 345 additional languages, bringing the count of corpora to 1,944 (from 1,599). Results remain largely unchanged from initial findings reported in first drafts of papers linked here. This README and associated files in the repository have been updated with revised findings.
 
-**UPDATE** *29 June 2025*: Removed `json` formatted corpora and converted scripts to use only CoNLL-U formatted corpora. 
+**UPDATE** *29 June 2025*: Removed `json` formatted corpora and converted scripts to use only CoNLL-U formatted corpora.
 
 ## Aims and Description of the repository
 
