@@ -11,7 +11,7 @@ If you use this data, please cite the following source or one (or all) of the pa
 ```
 @article{Ring:2026,
 	author = {Ring, Hiram},
-  doi = {10.1007/s10579-026-09902-2},
+	doi = {10.1007/s10579-026-09902-2},
 	journal = {Language Resources and Evaluation},
 	number = {1},
 	pages = {20},
