@@ -6,7 +6,7 @@
 
 If you use this data, please cite the following source or one (or all) of the papers listed further below:
 
-- Ring, Hiram. 2026. The *taggedPBC*: annotating a massive parallel corpus for crosslinguistic investigations. *Lang Resources & Evaluation (LREC)* 60, 1, 1-20. https://doi.org/10.1007/s10579-026-09902-2
+- Ring, Hiram. 2026. The *taggedPBC*: annotating a massive parallel corpus for crosslinguistic investigations. *Lang Resources & Evaluation* 60, 1, 1-20. https://doi.org/10.1007/s10579-026-09902-2
 
 ```
 @article{Ring:2026,
