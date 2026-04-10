@@ -42,7 +42,7 @@ The three folders in this repository contain corpus data and scripts to run vari
 
 Papers related to this dataset include the following:
 
-- Ring, Hiram. 2025. The *taggedPBC*: Annotating a massive parallel corpus for crosslinguistic investigations. https://doi.org/10.48550/arXiv.2505.12560 *[Resubmitted on 7 Nov 2025]* [Annotating README](scripts/annotating_readme.md)
+- Ring, Hiram. 2026. The *taggedPBC*: annotating a massive parallel corpus for crosslinguistic investigations. *Lang Resources & Evaluation* 60, 1, 1-20. https://doi.org/10.1007/s10579-026-09902-2. arXiv version: https://doi.org/10.48550/arXiv.2505.12560 [Annotating README](scripts/annotating_readme.md)
 
 - Ring, Hiram. 2025. Word length predicts word order: "Min-max"-ing drives language evolution. https://doi.org/10.48550/arXiv.2505.13913 *[Submitted on 20 May 2025]* [Word length README](scripts/wordlength_readme.md)
 
