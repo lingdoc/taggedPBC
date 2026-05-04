@@ -1,0 +1,998 @@
+## The following text has been annotated for parts of speech by students at NTU Singapore as part of a class project in AY 2025-26.
+## Verses are extracted from the taggedPBC. Annotations have been developed with a combination of manual and automated approaches, with reference to existing literature and (where possible) native speakers.
+## ISO 639-3: fij, Language: Fijian, Number of verses: 21
+## References: Schütz, A. J. (1985). The Fijian language. University of Hawaii Press. ; https://en.wikipedia.org/wiki/Fijian_language 
+
+# sent_id = 40006024
+# ref_id = Matthew 6:24
+# eng_text = " No one can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You can't serve both God and Mammon .
+# fij_text = E sega ni dua me qarava rawa e rua na Turaga ; ni na lomani koya kadua ka cati koya kadua , se na dokai koya kadua ka dau vosa becitaki koya kadua . Ena sega ni rawa mo dou qarava na Kalou kei na i lavo .
+1	E	e	PART	_	_	_	_	_	gloss=cons
+2	sega	sega	AUX	_	_	_	_	_	gloss=ies
+3	ni	ni	SCONJ _	_	_	_	_	gloss=that
+4	dua	dua	NUM	_	_	_	pobj	_	gloss=one|NumType=Card
+5	me	me	PART	_	_	_	_	_	gloss=Nothing
+6	qarava	qarava	VERB	_	_	0	root	_	gloss=serve|VerbForm=Inf
+7	rawa	rawa	AUX	_	_	6	aux	_	gloss=can|VerbForm=Fin
+8	E	e	PART	_	_	_	_	_	gloss=l
+9	rua	rua	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+10	na	na	DET	_	_	_	_	_
+11	Turaga	turaga	NOUN	_	_	_	_	_	gloss=Lord
+12	;	;	PUNCT	_	_	_	ccomp	_	gloss=hate|VerbForm=Inf
+13	ni	ni	SCONJ _	_	_	_	_	gloss=that
+14	na	na	DET	_	_	_	_	_
+15	lomani	lomani	VERB	_	_	_	_	_	gloss=loved
+16	koya	koya	PRON	_	_	_	_	_	gloss=he
+17	kadua	kadua	VERB	_	_	_	acomp	_	gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+18	ka	ka	CCONJ	_	_	43	cc	_	gloss=and|ConjType=Cmp
+19	cati	cati	VERB	_	_	_	ccomp	_	gloss=hate|VerbForm=Inf
+20	koya	koya	PRON	_	_	_	_	_	gloss=he
+21	kadua	kadua	VERB	_	_	_	acomp	_	gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+22	,	,	PUNCT	_	_	_	_	_
+23	se	se	CCONJ	_	_	_	_	_	gloss=nor
+24	na	na	DET	_	_	_	_	_
+25	dokai	dokai	VERB	_	_	_	_	_	gloss=lef
+26	koya	koya	PRON	_	_	_	_	_	gloss=he
+27	kadua	kadua	VERB	_	_	_	acomp	_	gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+28	ka	ka	CCONJ	_	_	43	cc	_	gloss=and|ConjType=Cmp
+29	dau	dau	ADV	_	_	_	_	_	gloss=lazy
+30	vosa	vosa	NOUN	_	_	_	_	_	gloss=word
+31	becitaki	becitaki	VERB	_	_	_	_	_
+32	koya	koya	PRON	_	_	_	_	_	gloss=he
+33	kadua	kadua	VERB	_	_	_	acomp	_	gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+34	.	.	PUNCT	_	_	41	punct	_	PunctType=Peri
+35	Ena	ena	PART	_	_	_	_	_	gloss=oh
+36	sega	sega	AUX	_	_	_	_	_	gloss=ies
+37	ni	ni	SCONJ _	_	_	_	_	gloss=that
+38	rawa	rawa	AUX	_	_	41	aux	_	gloss=can|VerbForm=Fin
+39	mo	mo	PART	_	_	_	_	_	gloss=get
+40	dou	dou	PRON	_	_	_	_	_	gloss=dear
+41	qarava	qarava	VERB	_	_	0	root	_	gloss=serve|VerbForm=Inf
+42	na	na	DET	_	_	_	_	_
+43	Kalou	kalou	PROPN	_	_	41	dobj	_	gloss=God|Number=Sing
+44	kei	kei	CCONJ	_	_	_	_	_	gloss=ay
+45	na	na	DET	_	_	_	_	_
+46	i	i	PART	_	_	_	_	_	gloss=et
+47	lavo	lavo	NOUN	_	_	43	conj	_	gloss=money|Number=Sing
+48	.	.	PUNCT	_	_	41	punct	_	PunctType=Peri
+
+# sent_id = 40018012
+# ref_id = Matthew 18:12
+# eng_text = " What do you think ? If a man has one hundred sheep , and one of them goes astray , doesn't he leave the ninety-nine , go to the mountains , and seek that which has gone astray ?
+# fij_text = Na cava na nomudou nanuma ? Kevaka e dua na tamata sa dua na drau na nona sipi , ka qai dua vei ira e lako cala ka la'ki yali sara , ena sega li ni biuta tu o koya na ciwasagavulu ka ciwa , me lakova na veiulunivanua me vakasaqarai koya sa yali ?
+1	na	na	DET	_	_	_	_	_	gloss=qu
+2	cava	cava	PRON	_	_	_	_	_	gloss=Is
+3	na	na	DET	_	_	_	_	_
+4	nomudou	nomudou	DET	_	_	_	_	_	gloss=erness
+5	nanuma	nanuma	NOUN	_	_	_	_	_	gloss=remembered
+6	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+7	Kevaka	kevaka	SCONJ	_	_	_	mark	_	gloss=If
+8	E	e	PART	_	_	_	_	_	gloss=l
+9	dua	dua	NUM	_	_	_	pobj	_	gloss=one|Number=Sing
+10	na	na	DET	_	_	_	_	_
+11	tamata	tamata	NOUN	_	_	_	_	_	gloss=diso
+12	sa	sa	PART	_	_	_	_	_
+13	dua	dua	NUM	_	_	_	pobj	_	gloss=one|Number=Sing
+14	na	na	DET	_	_	_	_	_
+15	drau	drau	NUM	_	_	18	nummod	_	gloss=hundred|NumType=Card
+16	na	na	DET	_	_	_	_	_
+17	nona	nona	DET	_	_	_	_	_	gloss=his
+18	sipi	sipi	NOUN	_	_	_	dobj	_	gloss=sheep|Number=Plur
+19	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+20	ka	ka	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+21	qai	qai	ADV	_	_	_	_	_	gloss=empty
+22	dua	dua	NUM	_	_	_	pobj	_	gloss=one|Number=Sing
+23	vei	vei	ADP	_	_	_	_	_	gloss=ic
+24	ira	ira	PRON	_	_	_	_	_	gloss=those
+25	E	e	PART	_	_	_	_	_	gloss=l
+26	lako	lako	VERB	_	_	_	_	_	gloss=walk
+27	cala	cala	ADV	_	_	_	_	_	gloss=innocent
+28	ka	ka	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+29	la'ki	la'ki	VERB	_	_	_	_	_	gloss=ire
+30	yali	yali	VERB	_	_	22	relcl	_	gloss=lost|Aspect=Perf|Tense=Past|VerbForm=Part
+31	sara	sara	ADV	_	_	_	_	_	gloss=rode
+32	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+33	Ena	ena	PART	_	_	_	_	_	gloss=in
+34	sega	sega	AUX	_	_	_	_	_	gloss=ies
+35	li	li	PART	_	_	_	_	_	gloss=Should
+36	ni	ni	SCONJ	_	_	30	nsubjpass	_	gloss=that|PronType=Rel
+37	biuta	biuta	VERB	_	_	_	_	_	gloss=omes
+38	tu	tu	PART	_	_	_	_	_	gloss=ite
+39	o	o	PART	_	_	_	_	_	gloss=who
+40	koya	koya	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+41	na	na	DET	_	_	_	_	_
+42	ciwasagavulu	ciwasagavulu	NUM	_	_	_	_	_	gloss=ninety-nine
+43	ka	ka	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+44	ciwa	ciwa	NUM	_	_	_	_	_	gloss=Won’t
+45	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+46	me	me	PART	_	_	_	_	_	gloss=Nothing
+47	lakova	lakova	VERB	_	_	_	_	_	gloss=sy
+48	na	na	DET	_	_	_	_	_
+49	veiulunivanua	veiulunivanua	NOUN	_	_	_	_	_	gloss=F
+50	me	me	PART	_	_	_	_	_	gloss=Nothing
+51	vakasaqarai	vakasaqarai	VERB	_	_	_	advcl	_	gloss=search|VerbForm=Inf
+52	koya	koya	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+53	sa	sa	PART	_	_	_	_	_
+54	yali	yali	VERB	_	_	22	relcl	_	gloss=lost|Aspect=Perf|Tense=Past|VerbForm=Part
+55	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 40020021
+# ref_id = Matthew 20:21
+# eng_text = He said to her , " What do you want ? " She said to him , " Command that these , my two sons , may sit , one on your right hand , and one on your left hand , in your kingdom . "
+# fij_text = Sa tukuna vua , o Koya , Na cava o vinakata ? sa tukuna na yalewa oqo , " Mo vakayacori rau na luvequ me dua e dabe ena Yasamu i matau , ka dua me dabe ena Yasamu i mawi ena Nomuni matanitu . "
+1	sa	sa	PART	_	_	_	_	_	gloss=delighted
+2	tukuna	tukuna	VERB	_	_	_	_	_	gloss=said
+3	vua	vua	PRON	_	_	_	_	_	gloss=her
+4	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+5	o	o	PART	_	_	_	_	_	gloss=who
+6	koya	koya	PRON	_	_	_	_	_	gloss=unt
+7	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+8	na	na	DET	_	_	_	_	_	gloss=qu
+9	cava	cava	PRON	_	_	_	_	_	gloss=Is
+10	o	o	PART	_	_	_	_	_	gloss=who
+11	vinakata	vinakata	VERB	_	_	_	_	_	gloss=wanted
+12	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+13	sa	sa	PART	_	_	_	_	_
+14	tukuna	tukuna	VERB	_	_	_	_	_	gloss=said
+15	na	na	DET	_	_	_	_	_
+16	yalewa	yalewa	NOUN	_	_	_	_	_	gloss=woman
+17	oqo	oqo	DET	_	_	_	_	_	gloss=this
+18	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+19	"	"	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+20	mo	mo	PART	_	_	_	_	_	gloss=Get
+21	vakayacori	vakayacori	VERB	_	_	_	_	_	gloss=fulfill
+22	rau	rau	PRON	_	_	_	_	_	gloss=importantthe
+23	na	na	DET	_	_	_	_	_
+24	luvequ	luvequ	NOUN	_	_	_	_	_	gloss=fe
+25	me	me	PART	_	_	_	_	_	gloss=Nothing
+26	dua	dua	NUM	_	_	_	npadvmod	_	gloss=one|NumType=Card
+27	E	e	PART	_	_	_	_	_	gloss=l
+28	dabe	dabe	VERB	_	_	_	_	_	gloss=sat
+29	ena	ena	ADP	_	_	_	prep	_	gloss=in
+30	Yasamu	yasamu	NOUN	_	_	_	nsubj	_	gloss=request|Number=Sing
+31	i	i	PART	_	_	_	_	_	gloss=et
+32	matau	matau	NOUN	_	_	_	pobj	_	gloss=right|Number=Sing
+33	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+34	ka	ka	CCONJ	_	_	35	cc	_	gloss=and|ConjType=Cmp
+35	dua	dua	NUM	_	_	_	npadvmod	_	gloss=one|NumType=Card
+36	me	me	PART	_	_	_	_	_	gloss=Nothing
+37	dabe	dabe	VERB	_	_	_	_	_	gloss=sat
+38	ena	ena	ADP	_	_	_	prep	_	gloss=in
+39	Yasamu	yasamu	NOUN	_	_	_	nsubj	_	gloss=request|Number=Sing
+40	i	i	PART	_	_	_	_	_	gloss=et
+41	mawi	mawi	NOUN	_	_	42	pobj	_	gloss=places|Number=Plur
+42	ena	ena	ADP	_	_	_	prep	_	gloss=in
+43	Nomuni	nomuni	DET	_	_	_	_	_	gloss=cons
+44	matanitu	matanitu	PROPN	_	_	_	pobj	_	gloss=Kingdom|Number=Sing
+45	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+46	"	"	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 40026002
+# ref_id = Matthew 26:2
+# eng_text = " You know that after two days the Passover is coming , and the Son of Man will be delivered up to be crucified . "
+# fij_text = ' Dou kila ni oti ga yani oqo e rua na siga sa yaco sara na kana vata ni lako sivia , ena qai soli yani na Luve ni Tamata me vakamatei . '
+1	'	'	PUNCT	_	_	_	_	_	gloss=age
+2	dou	dou	PRON	_	_	_	_	_	gloss=yourselves
+3	kila	kila	VERB	_	_	_	advcl	_	gloss=know|Tense=Pres|VerbForm=Fin
+4	ni	ni	SCONJ _	_	_	_	_	gloss=that
+5	oti	oti	VERB	_	_	_	_	_	gloss=finished
+6	ga	ga	ADV	_	_	_	_	_	gloss=only
+7	yani	yani	ADV	_	_	_	_	_	gloss=side
+8	oqo	oqo	DET	_	_	_	_	_	gloss=this
+9	E	e	PART	_	_	_	_	_	gloss=l
+10	rua	rua	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+11	na	na	DET	_	_	_	_	_
+12	siga	siga	NOUN	_	_	_	_	_	gloss=day
+13	sa	sa	PART	_	_	_	_	_
+14	yaco	yaco	VERB	_	_	_	_	_	gloss=surrounding
+15	sara	sara	ADV	_	_	_	_	_	gloss=rode
+16	na	na	DET	_	_	_	_	_
+17	kana	kana	VERB	_	_	_	_	_	gloss=eating
+18	vata	vata	ADV	_	_	_	_	_	gloss=together
+19	ni	ni	SCONJ _	_	_	_	_	gloss=that
+20	lako	lako	VERB	_	_	_	_	_	gloss=walk
+21	sivia	sivia	ADV	_	_	_	_	_	gloss=River
+22	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+23	ena	ena	ADP	_	_	_	prep	_	gloss=in
+24	qai	qai	ADV	_	_	_	_	_	gloss=empty
+25	soli	soli	VERB	_	_	_	conj	_	gloss=handed|Aspect=Perf|Tense=Past|VerbForm=Part
+26	yani	yani	ADV	_	_	_	_	_	gloss=side
+27	na	na	DET	_	_	_	_	_
+28	Luve	luve	PROPN	_	_	25	nsubjpass	_	gloss=Son|Number=Sing
+29	ni	ni	SCONJ _	_	_	_	_	gloss=that
+30	tamata	tamata	NOUN	_	_	_	_	_	gloss=poss
+31	me	me	PART	_	_	_	_	_	gloss=Nothing
+32	vakamatei	vakamatei	VERB	_	_	_	_	_	gloss=killed
+33	.	.	PUNCT	_	_	25	punct	_	PunctType=Peri
+34	'	'	PUNCT	_	_	_	_	_	gloss=age
+
+# sent_id = 40026061
+# ref_id = Matthew 26:61
+# eng_text = and said , " This man said , ' I am able to destroy the temple of God , and to build it in three days . ' "
+# fij_text = E rau tukuna , ' na tamata oqo sa tukuna , Au rawa ni talaraka sobu na vale ni soro ni Kalou ka'u na tara tale ena loma ga ni tolu na siga .
+1	E	e	PART	_	_	_	_	_	gloss=cons
+2	rau	rau	PRON	_	_	_	_	_	gloss=importantthe
+3	tukuna	tukuna	VERB	_	_	_	ccomp	_	gloss=said|Tense=Past|VerbForm=Fin
+4	,	,	PUNCT	_	_	3	punct	_	PunctType=Comm
+5	'	'	PUNCT	_	_	_	_	_	gloss=age
+6	na	na	DET	_	_	_	_	_
+7	tamata	tamata	NOUN	_	_	_	_	_	gloss=diso
+8	oqo	oqo	DET	_	_	_	_	_	gloss=this
+9	sa	sa	PART	_	_	_	_	_
+10	tukuna	tukuna	VERB	_	_	_	ccomp	_	gloss=said|Tense=Past|VerbForm=Fin
+11	,	,	PUNCT	_	_	10	punct	_	PunctType=Comm
+12	Au	au	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+13	rawa	rawa	AUX	_	_	_	_	_	gloss=can
+14	ni	ni	SCONJ _	_	_	_	_	gloss=that
+15	talaraka	talaraka	VERB	_	_	_	_	_
+16	sobu	sobu	ADV	_	_	_	_	_	gloss=down
+17	na	na	DET	_	_	_	_	_
+18	vale	vale	NOUN	_	_	_	_	_	gloss=house
+19	ni	ni	SCONJ _	_	_	_	_	gloss=that
+20	soro	soro	PROPN	_	_	_	dobj	_	gloss=Temple|Number=Sing
+21	ni	ni	SCONJ _	_	_	_	_	gloss=that
+22	Kalou	kalou	PROPN	_	_	_	pobj	_	gloss=God|Number=Sing
+23	ka'u	ka'u	PRON	_	_	_	_	_	gloss=ri
+24	na	na	DET	_	_	_	_	_
+25	tara	tara	VERB	_	_	_	_	_	gloss=touched
+26	tale	tale	ADV	_	_	_	_	_	gloss=again
+27	ena	ena	ADP	_	_	_	prep	_	gloss=in
+28	loma	loma	NOUN	_	_	_	_	_	gloss=ort
+29	ga	ga	ADV	_	_	_	_	_	gloss=only
+30	ni	ni	SCONJ _	_	_	_	_	gloss=that
+31	tolu	tolu	NUM	_	_	_	_	_	gloss=Three
+32	na	na	DET	_	_	_	_	_
+33	siga	siga	NOUN	_	_	_	_	_	gloss=day
+34	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 40028016
+# ref_id = Matthew 28:16
+# eng_text = But the eleven disciples went into Galilee , to the mountain where Jesus had sent them .
+# fij_text = Era sa qai lako yani na tisaipeli e lewe tinikadua ki Kaleli , ki na ulunivanua sa tukuna o Jisu me ratou la'ki sota kina .
+1	Era	era	PRON	_	_	_	_	_	gloss=ign
+2	sa	sa	PART	_	_	_	_	_
+3	qai	qai	ADV	_	_	_	_	_	gloss=empty
+4	lako	lako	VERB	_	_	_	_	_	gloss=walk
+5	yani	yani	ADV	_	_	_	_	_	gloss=side
+6	na	na	DET	_	_	_	_	_
+7	tisaipeli	tisaipeli	NOUN	_	_	_	nsubj	_	gloss=disciples|Number=Plur
+8	E	e	PART	_	_	_	_	_	gloss=l
+9	lewe	lewe	NOUN	_	_	_	_	_	gloss=crowd
+10	tinikadua	tinikadua	NUM	_	_	_	_	_
+11	ki	ki	ADP	_	_	_	_	_	gloss=ss
+12	Kaleli	kaleli	PROPN	_	_	_	pobj	_	gloss=Galilee|Number=Sing
+13	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+14	ki	ki	ADP	_	_	_	_	_	gloss=ss
+15	na	na	DET	_	_	_	_	_
+16	ulunivanua	ulunivanua	NOUN	_	_	_	pobj	_	gloss=mountain|Number=Sing
+17	sa	sa	PART	_	_	_	_	_
+18	tukuna	tukuna	VERB	_	_	_	_	_	gloss=said
+19	o	o	PART	_	_	_	_	_	gloss=who
+20	Jisu	jisu	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+21	me	me	PART	_	_	_	_	_	gloss=Nothing
+22	ratou	ratou	PRON	_	_	_	_	_	gloss=ling
+23	la'ki	la'ki	VERB	_	_	_	_	_	gloss=ire
+24	sota	sota	VERB	_	_	_	_	_	gloss=meet
+25	kina	kina	ADV	_	_	_	_	_	gloss=which
+26	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41002023
+# ref_id = Mark 2:23
+# eng_text = It happened , that he was going on the Sabbath day through the grain fields , and his disciples began , as they went , to pluck the ears of grain .
+# fij_text = Ena dua na siga ni vakacecegu e a taubale kina o koya ena maliwa ni vei sila ; ni ratou sa lako voli , e ratou qai doloka na sila na nona tisaipeli
+1	Ena	ena	PART	_	_	_	_	_	gloss=oh
+2	dua	dua	NUM	_	_	_	_	_	gloss=one
+3	na	na	DET	_	_	_	_	_
+4	siga	siga	NOUN	_	_	_	npadvmod	_	gloss=day|Number=Sing
+5	ni	ni	SCONJ _	_	_	_	_	gloss=that
+6	vakacecegu	vakacecegu	PROPN	_	_	4	compound	_	gloss=Sabbath|Number=Sing
+7	E	e	PART	_	_	_	_	_	gloss=l
+8	a	a	AUX	_	_	_	_	_	gloss=condemned
+9	taubale	taubale	VERB	_	_	_	advcl	_	gloss=walking|Aspect=Prog|Tense=Pres|VerbForm=Part
+10	kina	kina	ADV	_	_	_	_	_	gloss=which
+11	o	o	PART	_	_	_	_	_	gloss=who
+12	koya	koya	PRON	_	_	_	_	_	gloss=he
+13	Ena	ena	PART	_	_	_	_	_	gloss=in
+14	maliwa	maliwa	NOUN	_	_	_	_	_	gloss=nursed
+15	ni	ni	SCONJ _	_	_	_	_	gloss=that
+16	vei	vei	ADP	_	_	_	_	_	gloss=ic
+17	sila	sila	NOUN	_	_	_	pobj	_	gloss=grain|Number=Sing
+18	;	;	PUNCT	_	_	_	_	_	gloss=hate
+19	ni	ni	SCONJ _	_	_	_	_	gloss=that
+20	ratou	ratou	PRON	_	_	_	_	_	gloss=ling
+21	sa	sa	PART	_	_	_	_	_
+22	lako	lako	VERB	_	_	_	_	_	gloss=walk
+23	voli	voli	AUX	_	_	_	_	_	gloss=run
+24	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+25	E	e	PART	_	_	_	_	_	gloss=l
+26	ratou	ratou	PRON	_	_	_	_	_	gloss=ling
+27	qai	qai	ADV	_	_	_	_	_	gloss=empty
+28	doloka	doloka	VERB	_	_	_	_	_
+29	na	na	DET	_	_	_	_	_
+30	sila	sila	NOUN	_	_	_	pobj	_	gloss=grain|Number=Sing
+31	na	na	DET	_	_	_	_	_
+32	nona	nona	PRON	_	_	33	poss	_	gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+33	tisaipeli	tisaipeli	NOUN	_	_	_	nsubj	_	gloss=disciples|Number=Plur
+
+# sent_id = 41012032
+# ref_id = Mark 12:32
+# eng_text = The scribe said to him , " Truly , teacher , you have said well that he is one , and there is none other but he ,
+# fij_text = Sa tukuna na daunivolatabu , " Totoka dina na nomu vosa , qasenivuli . Na ka dina koni tukuna tiko ni dua na Kalou , ka sega tale e dua , ia o koya ga .
+1	sa	sa	PART	_	_	_	_	_	gloss=delighted
+2	tukuna	tukuna	VERB	_	_	_	ccomp	_	gloss=said|Tense=Past|VerbForm=Fin
+3	na	na	DET	_	_	_	_	_
+4	daunivolatabu	daunivolatabu	ADJ	_	_	_	amod	_	gloss=religious|Degree=Pos
+5	,	,	PUNCT	_	_	2	punct	_	PunctType=Comm
+6	"	"	PUNCT	_	_	_	_	_
+7	Totoka	totoka	ADJ	_	_	_	_	_
+8	dina	dina	NOUN	_	_	_	dobj	_	gloss=truth|Number=Sing
+9	na	na	DET	_	_	_	_	_
+10	nomu	nomu	DET	_	_	_	_	_	gloss=amount
+11	vosa	vosa	NOUN	_	_	_	_	_	gloss=word
+12	,	,	PUNCT	_	_	19	punct	_	PunctType=Comm
+13	qasenivuli	qasenivuli	NOUN	_	_	19	npadvmod	_	gloss=Teacher|Number=Sing
+14	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+15	na	na	DET	_	_	_	_	_	gloss=qu
+16	ka	ka	CCONJ	_	_	24	cc	_	gloss=and|ConjType=Cmp
+17	dina	dina	NOUN	_	_	_	dobj	_	gloss=truth|Number=Sing
+18	koni	koni	PRON	_	_	_	_	_	gloss=crowed
+19	tukuna	tukuna	VERB	_	_	_	ccomp	_	gloss=said|Tense=Past|VerbForm=Fin
+20	tiko	tiko	AUX	_	_	_	_	_	gloss=keep
+21	ni	ni	SCONJ	_	_	_	mark	_	gloss=that
+22	dua	dua	NUM	_	_	24	nummod	_	gloss=one|NumType=Card
+23	na	na	DET	_	_	_	_	_
+24	Kalou	kalou	PROPN	_	_	_	attr	_	gloss=God|Number=Sing
+25	,	,	PUNCT	_	_	19	punct	_	PunctType=Comm
+26	ka	ka	CCONJ	_	_	24	cc	_	gloss=and|ConjType=Cmp
+27	sega	sega	AUX	_	_	_	_	_	gloss=ies
+28	tale	tale	ADV	_	_	_	_	_	gloss=again
+29	E	e	PART	_	_	_	_	_	gloss=l
+30	dua	dua	NUM	_	_	24	nummod	_	gloss=one|NumType=Card
+31	,	,	PUNCT	_	_	19	punct	_	PunctType=Comm
+32	ia	ia	CCONJ_	_	_	_	_	gloss=but
+33	o	o	PART	_	_	_	_	_	gloss=who
+34	koya	koya	PRON	_	_	_	_	_	gloss=he
+35	ga	ga	ADV	_	_	30	advmod	_	gloss=only
+36	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41014037
+# ref_id = Mark 14:37
+# eng_text = He came and found them sleeping , and said to Peter , " Simon , are you sleeping ? Couldn't you watch one hour ?
+# fij_text = Sa lako mai vei ratou ka raica ni ratou sa moce , a sa tukuna vei Pita , Saimone , o iko se moce ga ? Sa sega ni rawa li vei iko mo yadra tiko ena dua na auwa ?
+1	sa	sa	PART	_	_	_	_	_	gloss=delighted
+2	lako	lako	VERB	_	_	_	_	_	gloss=walk
+3	mai	mai	ADV	_	_	_	_	_	gloss=from
+4	vei	vei	ADP	_	_	_	_	_	gloss=ic
+5	ratou	ratou	PRON	_	_	_	_	_	gloss=ling
+6	ka	ka	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+7	raica	raica	VERB	_	_	_	_	_	gloss=saw
+8	ni	ni	SCONJ _	_	_	_	_	gloss=that
+9	ratou	ratou	PRON	_	_	_	_	_	gloss=ling
+10	sa	sa	PART	_	_	_	_	_
+11	moce	moce	VERB	_	_	_	_	_	gloss=sleeping
+12	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+13	a	a	AUX	_	_	_	_	_	gloss=condemned
+14	sa	sa	PART	_	_	_	_	_
+15	tukuna	tukuna	VERB	_	_	0	root	_	gloss=said|Tense=Past|VerbForm=Fin
+16	vei	vei	ADP	_	_	_	_	_	gloss=ic
+17	Pita	pita	PROPN	_	_	_	pobj	_	gloss=Peter|Number=Sing
+18	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+19	Saimone	saimone	PROPN	_	_	_	npadvmod	_	gloss=Simon|Number=Sing
+20	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+21	o	o	PART	_	_	_	_	_	gloss=who
+22	iko	iko	PRON	_	_	_	_	_	gloss=yourself
+23	se	se	CCONJ	_	_	_	_	_	gloss=nor
+24	moce	moce	VERB	_	_	_	_	_	gloss=sleeping
+25	ga	ga	ADV	_	_	_	_	_	gloss=only
+26	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+27	sa	sa	PART	_	_	_	_	_	gloss=delighted
+28	sega	sega	AUX	_	_	_	_	_	gloss=ies
+29	ni	ni	SCONJ _	_	_	_	_	gloss=that
+30	rawa	rawa	AUX	_	_	_	_	_	gloss=can
+31	li	li	PART	_	_	_	_	_	gloss=Should
+32	vei	vei	ADP	_	_	_	_	_	gloss=ic
+33	iko	iko	PRON	_	_	_	_	_	gloss=yourself
+34	mo	mo	PART	_	_	_	_	_	gloss=get
+35	yadra	yadra	VERB	_	_	_	_	_	gloss=ible
+36	tiko	tiko	AUX	_	_	_	_	_	gloss=keep
+37	Ena	ena	PART	_	_	_	_	_	gloss=in
+38	dua	dua	NUM	_	_	40	nummod	_	gloss=one|NumType=Card
+39	na	na	DET	_	_	_	_	_
+40	auwa	auwa	NOUN	_	_	_	npadvmod	_	gloss=hour|Number=Sing
+41	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 42004002
+# ref_id = Luke 4:2
+# eng_text = for forty days , being tempted by the devil . He ate nothing in those days . Afterward , when they were completed , he was hungry .
+# fij_text = E vasagavulu na siga na Nona temaki tiko mai vua na tevoro , ka sega ni bau kania ena veisiga o ya e dua na kakana , ni sa oti vinaka na veisiga oqori , a sa qai viakana .
+1	E	e	PART	_	_	_	_	_	gloss=cons
+2	vasagavulu	vasagavulu	NUM	_	_	_	nummod	_	gloss=forty|NumType=Card
+3	na	na	DET	_	_	_	_	_
+4	siga	siga	NOUN	_	_	_	_	_	gloss=day
+5	na	na	DET	_	_	_	_	_
+6	nona	nona	DET	_	_	_	_	_	gloss=rej
+7	temaki	temaki	VERB	_	_	_	_	_
+8	tiko	tiko	AUX	_	_	_	_	_	gloss=keep
+9	mai	mai	ADV	_	_	_	_	_	gloss=from
+10	vua	vua	PRON	_	_	_	_	_	gloss=her
+11	na	na	DET	_	_	_	_	_
+12	tevoro	tevoro	NOUN	_	_	_	pobj	_	gloss=devil|Number=Sing
+13	,	,	PUNCT	_	_	_	_	_
+14	ka	ka	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+15	sega	sega	AUX	_	_	_	_	_	gloss=ies
+16	ni	ni	DET	_	_	_	det	_	gloss=that|Number=Sing|PronType=Dem
+17	bau	bau	ADV	_	_	_	_	_	gloss=catch
+18	kania	kania	VERB	_	_	_	_	_	gloss=eat
+19	Ena	ena	ADP	_	_	_	_	_	gloss=in
+20	veisiga	veisiga	NOUN	_	_	_	_	_	gloss=da
+21	o	o	PART	_	_	_	_	_	gloss=who
+22	ya	ya	DET	_	_	_	_	_	gloss=less
+23	E	e	PART	_	_	_	_	_	gloss=l
+24	dua	dua	NUM	_	_	_	_	_	gloss=one
+25	na	na	DET	_	_	_	_	_
+26	kakana	kakana	NOUN	_	_	_	_	_	gloss=dogs
+27	,	,	PUNCT	_	_	_	_	_
+28	ni	ni	DET	_	_	_	det	_	gloss=that|Number=Sing|PronType=Dem
+29	sa	sa	PART	_	_	_	_	_
+30	oti	oti	VERB	_	_	_	_	_	gloss=finished
+31	vinaka	vinaka	ADV	_	_	_	_	_	gloss=good
+32	na	na	DET	_	_	_	_	_
+33	veisiga	veisiga	NOUN	_	_	_	_	_	gloss=da
+34	oqori	oqori	DET	_	_	_	_	_	gloss=I’
+35	,	,	PUNCT	_	_	_	_	_
+36	a	a	AUX	_	_	_	_	_	gloss=condemned
+37	sa	sa	PART	_	_	_	_	_
+38	qai	qai	ADV	_	_	_	_	_	gloss=empty
+39	viakana	viakana	ADJ	_	_	_	acomp	_	gloss=hungry|Degree=Pos
+40	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 42016013
+# ref_id = Luke 16:13
+# eng_text = No servant can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You aren't able to serve God and mammon . "
+# fij_text = " Sa sega ni dua na dauveiqaravi me qarava e lewe rua na turaga ; ni na sevaka e dua ka lomana e dua , se me dina vua e dua ka lawaki vua e dua . Na Kalou kei nai yau e sega ni rawa ni dou qaravi rau ruarua . "
+1	"	"	PUNCT	_	_	49	punct	_	PunctSide=Fin|PunctType=Quot
+2	sa	sa	PART	_	_	_	_	_	gloss=delighted
+3	sega	sega	AUX	_	_	_	_	_	gloss=ies
+4	ni	ni	SCONJ _	_	_	_	_	gloss=that
+5	dua	dua	NUM	_	_	_	pobj	_	gloss=one|NumType=Card
+6	na	na	DET	_	_	_	_	_
+7	dauveiqaravi	dauveiqaravi	NOUN	_	_	_	_	_	gloss=servant
+8	me	me	PART	_	_	_	_	_	gloss=Nothing
+9	qarava	qarava	VERB	_	_	0	root	_	gloss=serve|VerbForm=Inf
+10	E	e	PART	_	_	_	_	_	gloss=l
+11	lewe	lewe	NOUN	_	_	_	_	_	gloss=crowd
+12	rua	rua	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+13	na	na	DET	_	_	_	_	_
+14	Turaga	turaga	NOUN	_	_	_	_	_	gloss=master
+15	;	;	PUNCT	_	_	_	ccomp	_	gloss=hate|VerbForm=Inf
+16	ni	ni	SCONJ _	_	_	_	_	gloss=that
+17	na	na	DET	_	_	_	_	_
+18	sevaka	sevaka	VERB	_	_	_	_	_
+19	E	e	PART	_	_	_	_	_	gloss=l
+20	dua	dua	NUM	_	_	_	pobj	_	gloss=one|NumType=Card
+21	ka	ka	CCONJ	_	_	39	cc	_	gloss=and|ConjType=Cmp
+22	lomana	lomana	VERB	_	_	_	_	_	gloss=elder
+23	E	e	PART	_	_	_	_	_	gloss=l
+24	dua	dua	NUM	_	_	_	pobj	_	gloss=one|NumType=Card
+25	,	,	PUNCT	_	_	_	_	_
+26	se	se	CCONJ	_	_	_	_	_	gloss=nor
+27	me	me	PART	_	_	_	_	_	gloss=Nothing
+28	dina	dina	ADJ	_	_	_	_	_	gloss=truth
+29	vua	vua	PRON	_	_	_	_	_	gloss=her
+30	E	e	PART	_	_	_	_	_	gloss=l
+31	dua	dua	NUM	_	_	_	pobj	_	gloss=one|NumType=Card
+32	ka	ka	CCONJ	_	_	39	cc	_	gloss=and|ConjType=Cmp
+33	lawaki	lawaki	VERB	_	_	_	_	_
+34	vua	vua	PRON	_	_	_	_	_	gloss=her
+35	E	e	PART	_	_	_	_	_	gloss=l
+36	dua	dua	NUM	_	_	_	pobj	_	gloss=one|NumType=Card
+37	.	.	PUNCT	_	_	49	punct	_	PunctType=Peri
+38	na	na	DET	_	_	_	_	_	gloss=qu
+39	Kalou	kalou	PROPN	_	_	49	dobj	_	gloss=God|Number=Sing
+40	kei	kei	CCONJ	_	_	_	_	_	gloss=ay
+41	nai	nai	DET	_	_	_	_	_	gloss=iled
+42	yau	yau	NOUN	_	_	_	_	_	gloss=ering
+43	E	e	PART	_	_	_	_	_	gloss=l
+44	sega	sega	AUX	_	_	_	_	_	gloss=ies
+45	ni	ni	SCONJ _	_	_	_	_	gloss=that
+46	rawa	rawa	AUX	_	_	49	aux	_	gloss=can|VerbForm=Fin
+47	ni	ni	SCONJ _	_	_	_	_	gloss=that
+48	dou	dou	PRON	_	_	_	_	_	gloss=dear
+49	qaravi	qaravi	VERB	_	_	0	root	_	gloss=serve|VerbForm=Inf
+50	rau	rau	PRON	_	_	_	_	_	gloss=importantthe
+51	ruarua	ruarua	DET	_	_	_	_	_	gloss=mb
+52	.	.	PUNCT	_	_	49	punct	_	PunctType=Peri
+53	"	"	PUNCT	_	_	49	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 42024018
+# ref_id = Luke 24:18
+# eng_text = One of them , named Cleopas , answered him , " Are you the only one travelling in Jerusalem who doesn't know the things which have happened there in these days ? "
+# fij_text = E dua vei rau na yacana o Kaliovasa sa tukuna , ka vaka , o iko duadua beka ga o vulagi e Jerusalemi , ka ni o sega tu ni kila na ka e a yaco kina .
+1	E	e	PART	_	_	_	_	_	gloss=cons
+2	dua	dua	NUM	_	_	_	nsubj	_	gloss=one|NumType=Card
+3	vei	vei	ADP	_	_	_	_	_	gloss=ic
+4	rau	rau	PRON	_	_	_	_	_	gloss=importantthe
+5	na	na	DET	_	_	_	_	_
+6	yacana	yacana	NOUN	_	_	_	_	_	gloss=named
+7	o	o	PRON	_	_	_	nsubj	_	gloss=who
+8	Kaliovasa	kaliovasa	PROPN	_	_	_	_	_
+9	sa	sa	PART	_	_	_	_	_
+10	tukuna	tukuna	VERB	_	_	_	_	_	gloss=said
+11	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+12	ka	ka	CCONJ	_	_	_	_	_	gloss=and
+13	vaka	vaka	VERB	_	_	_	_	_	gloss=ect
+14	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+15	o	o	PRON	_	_	_	nsubj	_	gloss=who
+16	iko	iko	PRON	_	_	_	_	_	gloss=yourself
+17	duadua	duadua	APV	_	_	_	_	_	gloss=fattened
+18	beka	beka	PART	_	_	_	_	_	gloss=ib
+19	ga	ga	ADJ	_	_	_	amod	_	gloss=only|Degree=Pos
+20	o	o	PRON	_	_	_	nsubj	_	gloss=who
+21	vulagi	vulagi	NOUN	_	_	_	_	_	gloss=aked
+22	E	e	PART	_	_	_	_	_	gloss=l
+23	Jerusalemi	jerusalemi	PROPN	_	_	_	pobj	_	gloss=Jerusalem|Number=Sing
+24	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+25	ka	ka	SCONJ	_	_	_	_	_	gloss=and
+26	ni	ni	SCONJ	_	_	_	nsubj	_	gloss=that|PronType=Rel
+27	o	o	PRON	_	_	_	nsubj	_	gloss=who
+28	sega	sega	AUX	_	_	_	_	_	gloss=ies
+29	tu	tu	PART	_	_	_	_	_	gloss=ite
+30	ni	ni	SCONJ	_	_	_	nsubj	_	gloss=that|PronType=Rel
+31	kila	kila	VERB	_	_	_	_	_	gloss=know
+32	na	na	DET	_	_	_	_	_
+33	ka	ka	NOUN	_	_	_	_	_	gloss=and
+34	E	e	PART	_	_	_	_	_	gloss=l
+35	a	a	AUX	_	_	_	_	_	gloss=condemned
+36	yaco	yaco	VERB	_	_	_	_	_	gloss=surrounding
+37	kina	kina	ADV	_	_	_	_	_	gloss=which
+38	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 43001039
+# ref_id = John 1:39
+# eng_text = He said to them , " Come , and see . " They came and saw where he was staying , and they stayed with him that day . It was about the tenth hour .
+# fij_text = Sa sauma vei rau o Jisu , " Drau lako mai mo drau mai raica . " E rau sa lako mai me rau mai raica na vanua e sa tiko kina , rau sa tiko vata kei koya ena siga o ya ( oqo sai ka tini ni auwa ) .
+1	sa	sa	PART	_	_	_	_	_	gloss=delighted
+2	sauma	sauma	VERB	_	_	_	_	_	gloss=emple
+3	vei	vei	ADP	_	_	_	_	_	gloss=ic
+4	rau	rau	PRON	_	_	_	_	_	gloss=importantthe
+5	o	o	PART	_	_	_	_	_	gloss=who
+6	Jisu	jisu	PROPN	_	_	_	_	_	gloss=Jesus
+7	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+8	"	"	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+9	Drau	drau	PRON	_	_	_	_	_	gloss=Pray
+10	lako	lako	VERB	_	_	_	_	_	gloss=walk
+11	mai	mai	ADV	_	_	_	_	_	gloss=from
+12	mo	mo	PART	_	_	_	_	_	gloss=get
+13	drau	drau	PRON	_	_	_	_	_	gloss=hundred
+14	mai	mai	ADV	_	_	_	_	_	gloss=from
+15	raica	raica	VERB	_	_	_	_	_	gloss=saw
+16	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+17	"	"	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+18	E	e	PART	_	_	_	_	_	gloss=cons
+19	rau	rau	PRON	_	_	_	_	_	gloss=importantthe
+20	sa	sa	PART	_	_	_	_	_
+21	lako	lako	VERB	_	_	_	_	_	gloss=walk
+22	mai	mai	ADV	_	_	_	_	_	gloss=from
+23	me	me	PART	_	_	_	_	_	gloss=Nothing
+24	rau	rau	PRON	_	_	_	_	_	gloss=importantthe
+25	mai	mai	ADV	_	_	_	_	_	gloss=from
+26	raica	raica	VERB	_	_	_	_	_	gloss=saw
+27	na	na	DET	_	_	_	_	_
+28	vanua	vanua	NOUN	_	_	_	pobj	_	gloss=place|Number=Sing
+29	E	e	PART	_	_	_	_	_	gloss=l
+30	sa	sa	PART	_	_	_	_	_
+31	tiko	tiko	AUX	_	_	_	_	_	gloss=keep
+32	kina	kina	ADV	_	_	_	_	_	gloss=which
+33	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+34	rau	rau	PRON	_	_	_	_	_	gloss=importantthe
+35	sa	sa	PART	_	_	_	_	_
+36	tiko	tiko	AUX	_	_	_	_	_	gloss=keep
+37	vata	vata	ADV	_	_	_	_	_	gloss=together
+38	kei	kei	CCONJ	_	_	_	_	_	gloss=ay
+39	koya	koya	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+40	ena	ena	ADP	_	_	_	prep	_	gloss=in
+41	siga	siga	NOUN	_	_	_	pobj	_	gloss=day|Number=Sing
+42	o	o	PART	_	_	_	_	_	gloss=who
+43	ya	ya	DET	_	_	_	_	_	gloss=less
+44	(	(	PUNCT	_	_	_	_	_
+45	oqo	oqo	DET	_	_	_	_	_	gloss=this
+46	sai	sai	AUX	_	_	_	_	_	gloss=aeus
+47	ka	ka	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+48	tini	tini	NUM	_	_	_	_	_	gloss=ten
+49	ni	ni	SCONJ _	_	_	_	_	gloss=that
+50	auwa	auwa	NOUN	_	_	_	_	_	gloss=hour
+51	)	)	PUNCT	_	_	_	_	_
+52	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 43003016
+# ref_id = John 3:16
+# eng_text = For God so loved the world , that he gave his one and only Son , that whoever believes in him should not perish , but have eternal life .
+# fij_text = " Ni sa lomani vuravura na Kalou , sa solia kina na Luvena e dua ga , ni o koya vakayadua ga sa vakabauti Koya , ena sega ni rusa , sa na rawata ga na bula e sega ni mudu .
+1	"	"	PUNCT	_	_	_	_	_
+2	ni	ni	SCONJ _	_	_	_	_	gloss=When
+3	sa	sa	PART	_	_	_	_	_
+4	lomani	lomani	VERB	_	_	0	root	_	gloss=loved|Tense=Past|VerbForm=Fin
+5	vuravura	vuravura	NOUN	_	_	4	dobj	_	gloss=world|Number=Sing
+6	na	na	DET	_	_	_	_	_
+7	Kalou	kalou	PROPN	_	_	4	nsubj	_	gloss=God|Number=Sing
+8	,	,	PUNCT	_	_	10	punct	_	PunctType=Comm
+9	sa	sa	PART	_	_	_	_	_
+10	solia	solia	VERB	_	_	_	ccomp	_	gloss=gave|Tense=Past|VerbForm=Fin
+11	kina	kina	ADV	_	_	_	_	_	gloss=which
+12	na	na	DET	_	_	_	_	_
+13	Luvena	luvena	NOUN	_	_	_	_	_	gloss=turning
+14	E	e	PART	_	_	_	_	_	gloss=l
+15	dua	dua	NUM	_	_	10	dobj	_	gloss=one|NumType=Card
+16	ga	ga	ADV	_	_	15	conj	_	gloss=only
+17	,	,	PUNCT	_	_	10	punct	_	PunctType=Comm
+18	ni	ni	SCONJ	_	_	_	mark	_	gloss=that
+19	o	o	PRON	_	_	24	nsubj	_	gloss=who
+20	koya	koya	PRON	_	_	10	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+21	vakayadua	vakayadua	PRON	_	_	_	_	_	gloss=tong
+22	ga	ga	ADV	_	_	15	conj	_	gloss=only
+23	sa	sa	PART	_	_	_	_	_
+24	vakabauti	vakabauti	VERB	_	_	_	relcl	_	gloss=believes|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+25	koya	koya	PRON	_	_	_	_	_	gloss=unt
+26	,	,	PUNCT	_	_	10	punct	_	PunctType=Comm
+27	ena	ena	ADP	_	_	24	prep	_	gloss=in
+28	sega	sega	AUX	_	_	_	_	_	gloss=ies
+29	ni	ni	SCONJ	_	_	_	mark	_	gloss=that
+30	rusa	rusa	VERB	_	_	_	_	_	gloss=destroyed
+31	,	,	PUNCT	_	_	10	punct	_	PunctType=Comm
+32	sa	sa	PART	_	_	_	_	_
+33	na	na	DET	_	_	_	_	_
+34	rawata	rawata	VERB	_	_	_	_	_	gloss=account
+35	ga	ga	ADV	_	_	15	conj	_	gloss=only
+36	na	na	DET	_	_	_	_	_
+37	bula	bula	NOUN	_	_	_	_	_	gloss=kn
+38	E	e	PART	_	_	_	_	_	gloss=l
+39	sega	sega	AUX	_	_	_	_	_	gloss=ies
+40	ni	ni	SCONJ	_	_	_	mark	_	gloss=that
+41	mudu	mudu	ADJ	_	_	_	amod	_	gloss=eternal|Degree=Pos
+42	.	.	PUNCT	_	_	4	punct	_	PunctType=Peri
+
+# sent_id = 44002030
+# ref_id = Acts 2:30
+# eng_text = Therefore , being a prophet , and knowing that God had sworn with an oath to him that of the fruit of his body , according to the flesh , he would raise up the Christ to sit on his throne ,
+# fij_text = " Ni o koya e dua na parofita ka sa tukuna tiko mai na yalayala kei na vosa bubului ni Kalou vei koya , ni na tubu mai ena nona kawa na Karisito , o koya ena qai mai dabeca nai dabedabe vakaturaga ( nei Tevita ) . "
+1	"	"	PUNCT	_	_	_	_	_
+2	ni	ni	SCONJ _	_	_	_	_	gloss=When
+3	o	o	PART	_	_	_	_	_	gloss=who
+4	koya	koya	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+5	E	e	PART	_	_	_	_	_	gloss=l
+6	dua	dua	NUM	_	_	40	nsubj	_	gloss=one|NumType=Card
+7	na	na	DET	_	_	_	_	_
+8	parofita	parofita	NOUN	_	_	_	attr	_	gloss=prophet|Number=Sing
+9	ka	ka	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+10	sa	sa	PART	_	_	_	_	_
+11	tukuna	tukuna	VERB	_	_	_	_	_	gloss=said
+12	tiko	tiko	AUX	_	_	_	_	_	gloss=keep
+13	mai	mai	ADV	_	_	_	_	_	gloss=from
+14	na	na	DET	_	_	_	_	_
+15	yalayala	yalayala	NOUN	_	_	_	_	_	gloss=promise
+16	kei	kei	CCONJ	_	_	_	_	_	gloss=ay
+17	na	na	DET	_	_	_	_	_
+18	vosa	vosa	NOUN	_	_	_	_	_	gloss=word
+19	bubului	bubului	NOUN	_	_	_	pobj	_	gloss=oath|Number=Sing
+20	ni	ni	SCONJ	_	_	40	mark	_	gloss=that
+21	Kalou	kalou	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+22	vei	vei	ADP	_	_	_	_	_	gloss=ic
+23	koya	koya	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+24	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+25	ni	ni	SCONJ	_	_	40	mark	_	gloss=that
+26	na	na	DET	_	_	_	_	_
+27	tubu	tubu	VERB	_	_	_	_	_	gloss=grew
+28	mai	mai	ADV	_	_	_	_	_	gloss=from
+29	Ena	ena	PART	_	_	_	_	_	gloss=in
+30	nona	nona	PRON	_	_	43	poss	_	gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+31	kawa	kawa	NOUN	_	_	_	_	_	gloss=descend
+32	na	na	DET	_	_	_	_	_
+33	Karisito	karisito	PROPN	_	_	_	_	_	gloss=Christ
+34	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+35	o	o	PART	_	_	_	_	_	gloss=who
+36	koya	koya	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+37	Ena	ena	PART	_	_	_	_	_	gloss=in
+38	qai	qai	ADV	_	_	_	_	_	gloss=empty
+39	mai	mai	ADV	_	_	_	_	_	gloss=from
+40	dabeca	dabeca	VERB	_	_	19	acl	_	gloss=sit|VerbForm=Inf
+41	nai	nai	DET	_	_	_	_	_	gloss=iled
+42	dabedabe	dabedabe	NOUN	_	_	_	_	_	gloss=appoint
+43	vakaturaga	vakaturaga	NOUN	_	_	_	pobj	_	gloss=throne|Number=Sing
+44	(	(	PUNCT	_	_	_	_	_
+45	nei	nei	ADP	_	_	_	_	_	gloss=Ch
+46	Tevita	tevita	PROPN	_	_	_	poss	_	gloss=David|Number=Sing
+47	)	)	PUNCT	_	_	_	_	_
+48	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+49	"	"	PUNCT	_	_	_	_	_
+
+# sent_id = 44009038
+# ref_id = Acts 9:38
+# eng_text = As Lydda was near Joppa , the disciples , hearing that Peter was there , sent two men to him , imploring him not to delay in coming to them .
+# fij_text = E rau veivolekati toka ga na koro erua oqo o Lida kei Jopa , era rogoca na tisaipeli e keya ni tiko mai Lida to Pita , era sa mani tala kina e lewe rua na tagane , me rau la'ki kerei Pita vakabibi ke rawa ni lako mada mai ki Jopa .
+1	E	e	PART	_	_	_	_	_	gloss=cons
+2	rau	rau	PRON	_	_	_	_	_	gloss=importantthe
+3	veivolekati	veivolekati	ADJ	_	_	_	_	_	gloss=ner
+4	toka	toka	AUX	_	_	_	_	_	gloss=amb
+5	ga	ga	ADV	_	_	_	_	_	gloss=only
+6	na	na	DET	_	_	_	_	_
+7	koro	koro	NOUN	_	_	_	_	_	gloss=city
+8	erua	erua	NOUN	_	_	_	_	_	gloss=vineyard
+9	oqo	oqo	DET	_	_	_	_	_	gloss=this
+10	o	o	PART	_	_	_	_	_	gloss=who
+11	Lida	lida	PROPN	_	_	_	_	_	gloss=d
+12	kei	kei	CCONJ	_	_	_	_	_	gloss=ay
+13	Jopa	jopa	PROPN	_	_	_	_	_	gloss=Joppa
+14	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+15	Era	era	PRON	_	_	_	_	_	gloss=Some
+16	rogoca	rogoca	VERB	_	_	_	ccomp	_	gloss=heard|Aspect=Perf|Tense=Past|VerbForm=Part
+17	na	na	DET	_	_	_	_	_
+18	tisaipeli	tisaipeli	NOUN	_	_	_	_	_	gloss=disciples
+19	E	e	PART	_	_	_	_	_	gloss=l
+20	keya	keya	ADV	_	_	_	_	_	gloss=Gree
+21	ni	ni	SCONJ	_	_	_	mark	_	gloss=that
+22	tiko	tiko	AUX	_	_	_	_	_	gloss=keep
+23	mai	mai	ADV	_	_	_	_	_	gloss=from
+24	Lida	lida	PROPN	_	_	_	_	_	gloss=d
+25	to	to	ADJ	_	_	_	_	_	gloss=sour
+26	Pita	pita	PROPN	_	_	_	nsubj	_	gloss=Peter|Number=Sing
+27	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+28	Era	era	PRON	_	_	_	_	_	gloss=Some
+29	sa	sa	PART	_	_	_	_	_
+30	mani	mani	ADV	_	_	_	_	_	gloss=riot
+31	tala	tala	VERB	_	_	_	_	_	gloss=rebu
+32	kina	kina	ADV	_	_	_	_	_	gloss=which
+33	E	e	PART	_	_	_	_	_	gloss=l
+34	lewe	lewe	NOUN	_	_	_	_	_	gloss=crowd
+35	rua	rua	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+36	na	na	DET	_	_	_	_	_
+37	tagane	tagane	NOUN	_	_	_	_	_	gloss=num
+38	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+39	me	me	PART	_	_	_	_	_	gloss=Nothing
+40	rau	rau	PRON	_	_	_	_	_	gloss=importantthe
+41	la'ki	la'ki	VERB	_	_	_	_	_	gloss=ire
+42	kerei	kerei	VERB	_	_	_	_	_	gloss=urged
+43	Pita	pita	PROPN	_	_	_	nsubj	_	gloss=Peter|Number=Sing
+44	vakabibi	vakabibi	ADV	_	_	_	_	_	gloss=encour
+45	ke	ke	SCONJ	_	_	_	_	_	gloss=ful
+46	rawa	rawa	AUX	_	_	_	_	_	gloss=can
+47	ni	ni	SCONJ	_	_	_	mark	_	gloss=that
+48	lako	lako	VERB	_	_	_	_	_	gloss=walk
+49	mada	mada	PART	_	_	_	_	_	gloss=ev
+50	mai	mai	ADV	_	_	_	_	_	gloss=from
+51	ki	ki	ADP	_	_	_	_	_	gloss=ss
+52	Jopa	jopa	PROPN	_	_	_	_	_	gloss=Joppa
+53	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 44011011
+# ref_id = Acts 11:11
+# eng_text = Behold , immediately three men stood before the house where I was , having been sent from Caesarea to me .
+# fij_text = " Ena gauna vata o ya , ratou sa tucake tu kina ena matamata ni noqu vale , o iratou na talai mai Sisaria me ratou mai raici au .
+1	"	"	PUNCT	_	_	_	_	_
+2	Ena	ena	PART	_	_	_	_	_	gloss=oh
+3	gauna	gauna	NOUN	_	_	_	_	_	gloss=time
+4	vata	vata	ADV	_	_	_	_	_	gloss=together
+5	o	o	PRON	_	_	_	nsubjpass	_	gloss=who
+6	ya	ya	DET	_	_	_	_	_	gloss=less
+7	,	,	PUNCT	_	_	_	_	_
+8	ratou	ratou	PRON	_	_	_	_	_	gloss=ling
+9	sa	sa	PART	_	_	_	_	_
+10	tucake	tucake	VERB	_	_	_	_	_	gloss=rise
+11	tu	tu	PART	_	_	_	_	_	gloss=ite
+12	kina	kina	ADV	_	_	_	_	_	gloss=which
+13	Ena	ena	PART	_	_	_	_	_	gloss=in
+14	matamata	matamata	NOUN	_	_	_	_	_	gloss=knoc
+15	ni	ni	SCONJ _	_	_	_	_	gloss=that
+16	noqu	noqu	DET	_	_	_	_	_	gloss=imag
+17	vale	vale	NOUN	_	_	_	pobj	_	gloss=house|Number=Sing
+18	,	,	PUNCT	_	_	_	_	_
+19	o	o	PRON	_	_	_	nsubjpass	_	gloss=who
+20	iratou	iratou	PRON	_	_	_	_	_	gloss=selfish
+21	na	na	DET	_	_	_	_	_
+22	talai	talai	VERB	_	_	_	_	_	gloss=sending
+23	mai	mai	ADP	_	_	_	prep	_	gloss=from
+24	Sisaria	sisaria	PROPN	_	_	23	pobj	_	gloss=Caesarea|Number=Sing
+25	me	me	PART	_	_	_	_	_	gloss=Nothing
+26	ratou	ratou	PRON	_	_	_	_	_	gloss=ling
+27	mai	mai	ADP	_	_	_	prep	_	gloss=from
+28	raici	raici	VERB	_	_	_	_	_	gloss=east
+29	au	au	PRON	_	_	_	_	_	gloss=I’
+30	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 44021034
+# ref_id = Acts 21:34
+# eng_text = Some shouted one thing , some another , among the crowd . When he couldn't find out the truth because of the noise , he commanded him to be brought into the barracks .
+# fij_text = Sa duidui na veika era kacivaka mai me baleti koya na lewe vuqa . E sega sara ga ni taura rawa kina o koya e dua na dina , sa mani vakatauca kina o koya na nona lewa , me sa kau kina tikotiko ni mataivalu .
+1	sa	sa	PART	_	_	_	_	_	gloss=delighted
+2	duidui	duidui	ADJ	_	_	_	_	_	gloss=Ch
+3	na	na	DET	_	_	_	_	_
+4	veika	veika	NOUN	_	_	_	_	_	gloss=things
+5	era	era	PRON	_	_	_	nsubj	_	gloss=Some
+6	kacivaka	kacivaka	VERB	_	_	_	_	_	gloss=shouting
+7	mai	mai	ADV	_	_	_	_	_	gloss=from
+8	me	me	PART	_	_	_	_	_	gloss=Nothing
+9	baleti	baleti	ADP	_	_	_	_	_	gloss=part
+10	koya	koya	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+11	na	na	DET	_	_	_	_	_
+12	lewe	lewe	NOUN	_	_	_	_	_	gloss=crowd
+13	vuqa	vuqa	ADJ	_	_	_	_	_	gloss=crowd
+14	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+15	E	e	PART	_	_	_	_	_	gloss=cons
+16	sega	sega	AUX	_	_	_	_	_	gloss=ies
+17	sara	sara	ADV	_	_	_	_	_	gloss=rode
+18	ga	ga	ADV	_	_	_	_	_	gloss=only
+19	ni	ni	SCONJ	_	_	_	mark	_	gloss=that
+20	taura	taura	VERB	_	_	_	_	_	gloss=thanks
+21	rawa	rawa	AUX	_	_	_	_	_	gloss=can
+22	kina	kina	ADV	_	_	_	_	_	gloss=which
+23	o	o	PART	_	_	_	_	_	gloss=who
+24	koya	koya	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+25	E	e	PART	_	_	_	_	_	gloss=l
+26	dua	dua	NUM	_	_	_	nummod	_	gloss=one|NumType=Card
+27	na	na	DET	_	_	_	_	_
+28	dina	dina	NOUN	_	_	_	dobj	_	gloss=truth|Number=Sing
+29	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+30	sa	sa	PART	_	_	_	_	_
+31	mani	mani	ADV	_	_	_	_	_	gloss=riot
+32	vakatauca	vakatauca	VERB	_	_	_	_	_
+33	kina	kina	ADV	_	_	_	_	_	gloss=which
+34	o	o	PART	_	_	_	_	_	gloss=who
+35	koya	koya	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+36	na	na	DET	_	_	_	_	_
+37	nona	nona	DET	_	_	_	_	_	gloss=his
+38	lewa	lewa	NOUN	_	_	_	_	_	gloss=conv
+39	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+40	me	me	PART	_	_	_	_	_	gloss=Nothing
+41	sa	sa	PART	_	_	_	_	_
+42	kau	kau	VERB	_	_	_	_	_	gloss=branches
+43	kina	kina	ADV	_	_	_	_	_	gloss=which
+44	tikotiko	tikotiko	NOUN	_	_	_	_	_	gloss=throne
+45	ni	ni	SCONJ	_	_	_	mark	_	gloss=that
+46	mataivalu	mataivalu	NOUN	_	_	_	_	_	gloss=conf
+47	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 47012002
+# ref_id = 2 Corinthians 12:2
+# eng_text = I know a man in Christ , fourteen years ago ( whether in the body , I don't know , or whether out of the body , I don't know ; God knows ) , such a one caught up into the third heaven .
+# fij_text = Au sa kila e dua na tamata sa tuvata kei Karisito ena tini ka va na yabaki sa oti — ena yagona se sega , se vakayalo se sega , au sa sega ni kila , na Kalou duadua ga sa kila — o koya oqo sa kaucake ki nai katolu ni taba lomalagi .
+1	Au	au	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+2	sa	sa	PART	_	_	_	_	_
+3	kila	kila	VERB	_	_	_	_	_	gloss=know
+4	E	e	PART	_	_	_	_	_	gloss=l
+5	dua	dua	NUM	_	_	_	_	_	gloss=one
+6	na	na	DET	_	_	_	_	_
+7	tamata	tamata	NOUN	_	_	_	_	_	gloss=diso
+8	sa	sa	PART	_	_	_	_	_
+9	tuvata	tuvata	ADJ	_	_	_	_	_	gloss=completely
+10	kei	kei	CCONJ	_	_	_	_	_	gloss=ay
+11	Karisito	karisito	PROPN	_	_	_	_	_	gloss=Christ
+12	ena	ena	ADP	_	_	_	prep	_	gloss=in
+13	tini	tini	NUM	_	_	_	_	_	gloss=ten
+14	ka	ka	PART	_	_	_	_	_	gloss=and
+15	va	va	NUM	_	_	_	_	_	gloss=4
+16	na	na	DET	_	_	_	_	_
+17	yabaki	yabaki	NOUN	_	_	_	npadvmod	_	gloss=years|Number=Plur
+18	sa	sa	PART	_	_	_	_	_
+19	oti	oti	VERB	_	_	_	_	_	gloss=finished
+20	—	—	PUNCT	_	_	_	_	_	gloss=F
+21	ena	ena	ADP	_	_	_	prep	_	gloss=in
+22	yagona	yagona	VERB	_	_	_	_	_	gloss=placed
+23	se	se	CCONJ	_	_	_	_	_	gloss=nor
+24	sega	sega	AUX	_	_	_	_	_	gloss=ies
+25	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+26	se	se	CCONJ	_	_	_	_	_	gloss=nor
+27	vakayalo	vakayalo	ADJ	_	_	_	_	_	gloss=nderstand
+28	se	se	CCONJ	_	_	_	_	_	gloss=nor
+29	sega	sega	AUX	_	_	_	_	_	gloss=ies
+30	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+31	au	au	PRON	_	_	_	_	_	gloss=I’
+32	sa	sa	PART	_	_	_	_	_
+33	sega	sega	AUX	_	_	_	_	_	gloss=ies
+34	ni	ni	SCONJ _	_	_	_	_	gloss=that
+35	kila	kila	VERB	_	_	_	_	_	gloss=know
+36	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+37	na	na	DET	_	_	_	_	_
+38	Kalou	kalou	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+39	duadua	duadua	ADV	_	_	_	_	_	gloss=fattened
+40	ga	ga	ADV	_	_	_	_	_	gloss=only
+41	sa	sa	PART	_	_	_	_	_
+42	kila	kila	VERB	_	_	_	_	_	gloss=know
+43	—	—	PUNCT	_	_	_	_	_	gloss=F
+44	o	o	PART	_	_	_	_	_	gloss=who
+45	koya	koya	PRON	_	_	_	_	_	gloss=he
+46	oqo	oqo	DET	_	_	_	_	_	gloss=this
+47	sa	sa	PART	_	_	_	_	_
+48	kaucake	kaucake	VERB	_	_	_	_	_	gloss=ound
+49	ki	ki	ADP	_	_	_	_	_	gloss=ss
+50	nai	nai	DET	_	_	_	_	_	gloss=iled
+51	katolu	katolu	ADJ	_	_	54	amod	_	gloss=third|Degree=Pos
+52	ni	ni	SCONJ _	_	_	_	_	gloss=that
+53	taba	taba	NOUN	_	_	_	_	_	gloss=cut
+54	lomalagi	lomalagi	PROPN	_	_	_	pobj	_	gloss=heaven|Number=Sing
+55	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 62004009
+# ref_id = 1 John 4:9
+# eng_text = By this was God's love revealed in us , that God has sent his only born Son into the world that we might live through him .
+# fij_text = Ena ka oqo sa vakaraitaka mai kina vei keda na loloma ni Kalou , ni sa solia mai ki vuravura na luvena e dua bau ga , ka meda rawa ni bula ena vukuna .
+1	Ena	ena	PART	_	_	_	_	_	gloss=oh
+2	ka	ka	CCONJ	_	_	24	cc	_	gloss=and|ConjType=Cmp
+3	oqo	oqo	DET	_	_	_	_	_	gloss=this
+4	sa	sa	PART	_	_	_	_	_
+5	vakaraitaka	vakaraitaka	VERB	_	_	0	root	_	gloss=showed|Tense=Past|VerbForm=Fin
+6	mai	mai	ADV	_	_	_	_	_	gloss=from
+7	kina	kina	ADV	_	_	_	_	_	gloss=which
+8	vei	vei	ADP	_	_	_	_	_	gloss=ic
+9	keda	keda	PRON	_	_	_	_	_	gloss=rej
+10	na	na	DET	_	_	_	_	_
+11	loloma	loloma	NOUN	_	_	_	_	_	gloss=grace
+12	ni	ni	SCONJ	_	_	_	mark	_	gloss=that
+13	Kalou	kalou	PROPN	_	_	5	nsubj	_	gloss=God|Number=Sing
+14	,	,	PUNCT	_	_	_	_	_
+15	ni	ni	SCONJ	_	_	_	mark	_	gloss=that
+16	sa	sa	PART	_	_	_	_	_
+17	solia	solia	VERB	_	_	_	_	_	gloss=gave
+18	mai	mai	ADV	_	_	_	_	_	gloss=from
+19	ki	ki	ADP	_	_	_	_	_	gloss=ss
+20	vuravura	vuravura	NOUN	_	_	_	pobj	_	gloss=world|Number=Sing
+21	na	na	DET	_	_	_	_	_
+22	luvena	luvena	NOUN	_	_	_	_	_	gloss=elder
+23	E	e	PART	_	_	_	_	_	gloss=l
+24	dua	dua	NUM	_	_	_	dobj	_	gloss=one|NumType=Card
+25	bau	bau	ADV	_	_	_	_	_	gloss=catch
+26	ga	ga	ADV	_	_	_	advmod	_	gloss=only
+27	,	,	PUNCT	_	_	_	_	_
+28	ka	ka	CCONJ	_	_	24	cc	_	gloss=and|ConjType=Cmp
+29	meda	meda	PRON	_	_	_	_	_	gloss=god
+30	rawa	rawa	AUX	_	_	_	_	_	gloss=can
+31	ni	ni	SCONJ	_	_	_	mark	_	gloss=that
+32	bula	bula	VERB	_	_	_	_	_	gloss=kn
+33	Ena	ena	PART	_	_	_	_	_	gloss=in
+34	vukuna	vukuna	ADP	_	_	_	_	_	gloss=mur
+35	.	.	PUNCT	_	_	5	punct	_	PunctType=Peri
+
+# sent_id = 63001005
+# ref_id = 2 John 1:5
+# eng_text = Now I beg you , dear lady , not as though I wrote to you a new commandment , but that which we had from the beginning , that we love one another .
+# fij_text = Ena ka oqo au sa vakamasuti iko kina , vakamarama , ni sega tale ni dua nai vakaro vou au vola yani vei iko , ia o koya ga eda sa kila oti tu mai : meda veilomani vakalevu sara .
+1	Ena	ena	PART	_	_	_	_	_	gloss=oh
+2	ka	ka	NOUN	_	_	_	_	_	gloss=and
+3	oqo	oqo	DET	_	_	_	_	_	gloss=this
+4	au	au	PRON	_	_	_	_	_	gloss=I’
+5	sa	sa	PART	_	_	_	_	_
+6	vakamasuti	vakamasuti	VERB	_	_	_	_	_	gloss=bri
+7	iko	iko	PRON	_	_	_	_	_	gloss=yourself
+8	kina	kina	ADV	_	_	_	_	_	gloss=which
+9	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+10	vakamarama	vakamarama	NOUN	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+12	ni	ni	SCONJ	_	_	_	mark	_	gloss=that
+13	sega	sega	AUX	_	_	_	_	_	gloss=ies
+14	tale	tale	ADV	_	_	_	_	_	gloss=again
+15	ni	ni	SCONJ	_	_	_	mark	_	gloss=that
+16	dua	dua	NUM	_	_	_	conj	_	gloss=one|NumType=Card
+17	nai	nai	DET	_	_	_	_	_	gloss=iled
+18	vakaro	vakaro	NOUN	_	_	_	_	_	gloss=commands
+19	vou	vou	ADJ	_	_	_	amod	_	gloss=new|Degree=Pos
+20	au	au	PRON	_	_	_	_	_	gloss=I’
+21	vola	vola	VERB	_	_	_	_	_	gloss=written
+22	yani	yani	ADV	_	_	_	_	_	gloss=side
+23	vei	vei	ADP	_	_	_	_	_	gloss=ic
+24	iko	iko	PRON	_	_	_	_	_	gloss=yourself
+25	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+26	ia	ia	CCONJ	_	_	_	cc	_	gloss=but|ConjType=Cmp
+27	o	o	PART	_	_	_	_	_	gloss=who
+28	koya	koya	PRON	_	_	_	_	_	gloss=he
+29	ga	ga	ADV	_	_	_	_	_	gloss=only
+30	eda	eda	PRON	_	_	_	_	_	gloss=vious
+31	sa	sa	PART	_	_	_	_	_
+32	kila	kila	VERB	_	_	_	_	_	gloss=know
+33	oti	oti	VERB	_	_	_	_	_	gloss=finished
+34	tu	tu	PART	_	_	_	_	_	gloss=ite
+35	mai	mai	ADP	_	_	_	prep	_	gloss=from
+36	:	:	PUNCT	_	_	_	_	_	gloss=regarding
+37	meda	meda	PRON	_	_	_	_	_	gloss=god
+38	veilomani	veilomani	VERB	_	_	_	_	_	gloss=ression
+39	vakalevu	vakalevu	ADV	_	_	_	_	_	gloss=ited
+40	sara	sara	ADV	_	_	_	_	_	gloss=rode
+41	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+

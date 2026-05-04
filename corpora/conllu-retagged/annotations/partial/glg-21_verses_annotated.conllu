@@ -1,0 +1,685 @@
+## The following text has been annotated for parts of speech by students at NTU Singapore as part of a class project in AY 2025-26.
+## Verses are extracted from the taggedPBC. Annotations have been developed with a combination of manual and automated approaches, with reference to existing literature and (where possible) native speakers.
+## ISO 639-3: glg, Language: Galician, Number of verses: 21
+## References: Penny, R. (ed.). Galician and Portuguese. Oxford Academic. ; Martins, A. M., et al. (2024). Ibero-Romance I: Portuguese and Galician. Oxford Academic. ; Kastner, I. (2024). Mutation, allomorphy and Galician clitics. Journal of Linguistics, 60(3). ; Regueira, X. L. (1996). Galician. Journal of the International Phonetic Association.
+
+# sent_id = 40006024
+# ref_id = Matthew 6:24
+# eng_text = " No one can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You can't serve both God and Mammon .
+# glg_text = Ninguén pode servir a dous amos , porque ou lle ten lei a un e xenreira a outro , ou ben atende a un e menospreza ó outro . Non podedes servir a Deus e mais o diñeiro .
+1	Ninguén	ninguén	PRON	_	_	_	_	_	gloss=no_one
+2	pode	pode	VERB	_	_	_	_	_	gloss=can
+3	servir	servir	VERB	_	VerbForm=Inf	0	root	_	gloss=serve|VerbForm=Inf
+4	a	a	ADP	_	_	_	_	_	_
+5	dous	dous	NUM	_	NumType=Card	6	nummod	_	gloss=two|NumType=Card
+6	amos	amos	NOUN	_	Number=Plur	3	dobj	_	gloss=masters|Number=Plur
+7	,	,	PUNCT	_	_	_	_	_	_
+8	porque	porque	SCONJ	_	_	_	_	_	gloss=because
+9	ou	ou	CCONJ	_	_	_	_	_	gloss=or
+10	lle	lle	PRON	_	_	_	obl	_	gloss=to_him_her
+11	ten	ten	VERB	_	_	_	_	_	gloss=has
+12	lei	lei	NOUN	_	Number=Sing	_	_	_	gloss=law
+13	a	a	ADP	_	_	_	_	_	_
+14	un	un	NUM	_	NumType=Card	_	pobj	_	gloss=one|NumType=Card
+15	e	e	CCONJ	_	_	34	cc	_	gloss=and|ConjType=Cmp
+16	xenreira	xenreira	NOUN	_	Number=Sing	_	acomp	_	gloss=hatred|Aspect=Perf|Tense=Past|VerbForm=Part
+17	a	a	ADP	_	_	_	_	_	_
+18	outro	outro	PRON	_	_	_	_	_	gloss=other
+19	,	,	PUNCT	_	_	_	_	_	_
+20	ou	ou	CCONJ	_	_	_	_	_	gloss=or
+21	ben	ben	ADV	_	_	_	_	_	gloss=well
+22	atende	atende	VERB	_	_	_	acomp	_	gloss=attend|Aspect=Perf|Tense=Past|VerbForm=Part
+23	a	a	ADP	_	_	_	_	_	_
+24	un	un	NUM	_	NumType=Card	_	pobj	_	gloss=one|NumType=Card
+25	e	e	CCONJ	_	_	34	cc	_	gloss=and|ConjType=Cmp
+26	menospreza	menospreza	VERB	_	_	_	acomp	_	gloss=despise|Aspect=Perf|Tense=Past|VerbForm=Part
+27	ó	ó	ADP	_	_	_	case	_	gloss=to_the
+28	outro	outro	PRON	_	_	_	_	_	gloss=other
+29	.	.	PUNCT	_	_	_	_	_	_
+30	Non	non	PART	_	_	_	_	_	gloss=not
+31	podedes	podedes	VERB	_	_	_	_	_	gloss=can
+32	servir	servir	VERB	_	VerbForm=Inf	0	root	_	gloss=serve|VerbForm=Inf
+33	a	a	ADP	_	_	_	case	_	gloss=to
+34	Deus	deus	PROPN	_	_	32	dobj	_	gloss=God|Number=Sing
+35	e	e	CCONJ	_	_	34	cc	_	gloss=and|ConjType=Cmp
+36	mais	mais	CCONJ	_	_	_	_	_	gloss=and
+37	o	o	DET	_	Number=Sing	_	det	_	gloss=the
+38	diñeiro	diñeiro	NOUN	_	Number=Sing	_	_	_	gloss=money
+39	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = 40018012
+# ref_id = Matthew 18:12
+# eng_text = " What do you think ? If a man has one hundred sheep , and one of them goes astray , doesn't he leave the ninety-nine , go to the mountains , and seek that which has gone astray ?
+# glg_text = A ver : que vos parece ? Se un home ten cen ovellas e perde unha , non deixará as outras noventa e nove no monte , para ir buscar a descarreirada ?
+1	A	a	DET	_	Number=Sing	_	det	_	gloss=the
+2	ver	ver	VERB	_	VerbForm=Inf	_	_	_	_
+3	:	:	PUNCT	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	nsubjpass	_	gloss=that|PronType=Rel
+5	vos	vos	PRON	_	_	_	_	_	gloss=you
+6	parece	parece	VERB	_	_	_	_	_	gloss=seems
+7	?	?	PUNCT	_	_	_	_	_	_
+8	Se	se	SCONJ	_	_	_	_	_	gloss=if
+9	un	un	DET	_	Number=Sing	_	pobj	_	gloss=a|Number=Sing
+10	home	home	NOUN	_	Number=Sing	_	nsubj	_	gloss=man|Number=Sing
+11	ten	ten	VERB	_	_	_	_	_	gloss=has
+12	cen	cen	NUM	_	NumType=Card	13	nummod	_	gloss=hundred|NumType=Card
+13	ovellas	ovellas	NOUN	_	Number=Plur	_	dobj	_	gloss=sheep|Number=Plur
+14	e	e	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+15	perde	perde	VERB	_	_	_	_	_	gloss=loses
+16	unha	unha	NUM	_	NumType=Card	_	nummod	_	gloss=one
+17	,	,	PUNCT	_	_	_	_	_	_
+18	non	non	PART	_	_	_	_	_	gloss=not
+19	deixará	deixará	VERB	_	_	_	_	_	gloss=will_leave
+20	as	as	DET	_	_	_	_	_	gloss=s
+21	outras	outras	PRON	_	_	_	_	_	gloss=others
+22	noventa	noventa	NUM	_	NumType=Card	_	nummod	_	gloss=ninety
+23	e	e	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+24	nove	nove	NUM	_	NumType=Card	_	nummod	_	gloss=nine
+25	no	no	ADP	_	_	_	case	_	gloss=in_the
+26	monte	monte	NOUN	_	Number=Sing	_	_	_	gloss=mountain
+27	,	,	PUNCT	_	_	_	_	_	_
+28	para	para	ADP	_	_	_	case	_	gloss=for
+29	ir	ir	VERB	_	VerbForm=Inf	_	_	_	gloss=go
+30	buscar	buscar	VERB	_	_	_	advcl	_	gloss=search|VerbForm=Inf
+31	a	a	ADP	_	_	_	case	_	gloss=to
+32	descarreirada	descarreirada	NOUN	_	Number=Sing	_	_	_	gloss=stray_one
+33	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = 40020021
+# ref_id = Matthew 20:21
+# eng_text = He said to her , " What do you want ? " She said to him , " Command that these , my two sons , may sit , one on your right hand , and one on your left hand , in your kingdom . "
+# glg_text = El preguntoulle : Que queres ? Respondeulle : Manda que estes dous fillos meus senten un á túa dereita e outro á túa esquerda no teu Reino .
+1	El	el	PRON	_	_	_	_	_	gloss=he
+2	preguntoulle	preguntoulle	VERB	_	_	0	root	_	gloss=asked|Tense=Past|VerbForm=Fin
+3	:	:	PUNCT	_	_	_	_	_	_
+4	Que	que	PRON	_	_	_	attr	_	gloss=what
+5	queres	queres	VERB	_	_	_	nsubj	_	gloss=want|Number=Sing
+6	?	?	PUNCT	_	_	_	_	_	_
+7	Respondeulle	respondeulle	VERB	_	_	_	_	_	gloss=answered
+8	:	:	PUNCT	_	_	_	_	_	_
+9	Manda	manda	VERB	_	_	_	nsubj	_	gloss=command|Number=Sing
+10	que	que	SCONJ	_	_	_	_	_	gloss=that
+11	estes	estes	DET	_	Number=Plur	_	det	_	gloss=these
+12	dous	dous	NUM	_	NumType=Card	13	nummod	_	gloss=two|NumType=Card
+13	fillos	fillos	NOUN	_	Number=Plur	_	nsubj	_	gloss=sons|Number=Plur
+14	meus	meus	DET	_	Number=Plur	13	poss	_	gloss=my|Number=Sing|Person=1|Poss=Yes|PronType=Prs
+15	senten	senten	VERB	_	_	_	nsubj	_	gloss=sit|Number=Sing
+16	un	un	NUM	_	NumType=Card	_	npadvmod	_	gloss=one|NumType=Card
+17	á	á	ADP	_	_	_	case	_	gloss=to_the
+18	túa	túa	DET	_	Number=Sing	_	det	_	gloss=your
+19	dereita	dereita	NOUN	_	Number=Sing	_	pobj	_	gloss=right_side|Number=Sing
+20	e	e	CCONJ	_	_	16	cc	_	gloss=and|ConjType=Cmp
+21	outro	outro	PRON	_	_	_	advmod	_	gloss=other
+22	á	á	ADP	_	_	_	case	_	gloss=to_the
+23	túa	túa	DET	_	Number=Sing	_	det	_	gloss=your
+24	esquerda	esquerda	NOUN	_	Number=Sing	_	pobj	_	gloss=left_side|Number=Plur
+25	no	no	ADP	_	_	_	case	_	gloss=in_the
+26	teu	teu	DET	_	Number=Sing	_	poss	_	gloss=your|Person=2|Poss=Yes|PronType=Prs
+27	Reino	reino	NOUN	_	Number=Sing	_	pobj	_	gloss=kingdom|Number=Sing
+28	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = 40026002
+# ref_id = Matthew 26:2
+# eng_text = " You know that after two days the Passover is coming , and the Son of Man will be delivered up to be crucified . "
+# glg_text = Xa sabedes que pasado mañá é a Pascua e van entregar o Fillo do Home para que o crucifiquen .
+1	Xa	xa	ADV	_	_	_	_	_	gloss=already
+2	sabedes	sabedes	VERB	_	_	_	_	_	gloss=know
+3	que	que	SCONJ	_	_	_	_	_	gloss=that
+4	pasado	pasado	ADJ	_	_	0	root	_	gloss=past|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+5	mañá	mañá	ADV	_	_	_	_	_	gloss=tomorrow
+6	é	é	VERB	_	_	_	_	_	gloss=is
+7	a	a	ADP	_	_	_	case	_	gloss=to
+8	Pascua	pascua	PROPN	_	_	4	nsubj	_	gloss=Passover|Number=Sing
+9	e	e	CCONJ	_	_	4	cc	_	gloss=and|ConjType=Cmp
+10	van	van	VERB	_	_	_	_	_	gloss=go
+11	entregar	entregar	VERB	_	VerbForm=Inf	_	_	_	gloss=hand_over
+12	o	o	PRON	_	_	_	_	_	gloss=him_it
+13	Fillo	fillo	PROPN	_	_	_	nsubjpass	_	gloss=Son|Number=Sing
+14	do	do	ADP	_	_	_	case	_	gloss=of_the
+15	Home	home	NOUN	_	Number=Sing	_	pobj	_	gloss=man|Number=Sing
+16	para	para	ADP	_	_	_	case	_	gloss=for
+17	que	que	SCONJ	_	_	_	_	_	gloss=that
+18	o	o	PRON	_	_	_	_	_	gloss=it
+19	crucifiquen	crucifiquen	VERB	_	_	_	advcl	_	gloss=crucify|Aspect=Perf|Tense=Past|VerbForm=Part
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = 40026061
+# ref_id = Matthew 26:61
+# eng_text = and said , " This man said , ' I am able to destroy the temple of God , and to build it in three days . ' "
+# glg_text = que dicían : Este afirmou : podo destruír o templo de Deus e reconstruílo en tres días .
+1	que	que	SCONJ	_	_	_	_	_	gloss=that
+2	dicían	dicían	VERB	_	_	_	_	_	gloss=said
+3	:	:	PUNCT	_	_	_	_	_	_
+4	Este	este	PRON	_	_	_	_	_	gloss=this_one
+5	afirmou	afirmou	VERB	_	Tense=Past|Person=3|Number=Sing	_	_	_	gloss=stated
+6	:	:	PUNCT	_	_	_	_	_	_
+7	podo	podo	VERB	_	_	_	_	_	gloss=can
+8	destruír	destruír	VERB	_	_	_	_	_	gloss=destroy
+9	o	o	DET	_	Number=Sing	_	dobj	_	gloss=the|Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs
+10	templo	templo	NOUN	_	Number=Sing	_	dobj	_	gloss=temple|Number=Sing
+11	de	de	ADP	_	_	_	case	_	gloss=of
+12	Deus	deus	PROPN	_	_	_	pobj	_	gloss=God|Number=Sing
+13	e	e	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+14	reconstruílo	reconstruílo	VERB	_	_	_	_	_	gloss=rebuild_it
+15	en	en	ADP	_	_	_	case	_	gloss=in
+16	tres	tres	NUM	_	NumType=Card	_	nummod	_	gloss=three|NumType=Card
+17	días	días	NOUN	_	Number=Plur	_	_	_	gloss=days
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = 40028016
+# ref_id = Matthew 28:16
+# eng_text = But the eleven disciples went into Galilee , to the mountain where Jesus had sent them .
+# glg_text = Os once discípulos fóronse para Galilea ó monte onde Xesús os citara .
+1	Os	os	DET	_	Number=Plur	_	det	_	gloss=the
+2	once	once	NUM	_	NumType=Card	_	nummod	_	gloss=eleven
+3	discípulos	discípulos	NOUN	_	Number=Plur	_	_	_	gloss=disciples
+4	fóronse	fóronse	VERB	_	_	_	_	_	gloss=went_away
+5	para	para	ADP	_	_	_	case	_	gloss=for
+6	Galilea	galilea	PROPN	_	_	_	pobj	_	gloss=Galilee|Number=Sing
+7	ó	ó	ADP	_	_	_	case	_	gloss=to_the
+8	monte	monte	NOUN	_	Number=Sing	_	pobj	_	gloss=mountain|Number=Sing
+9	onde	onde	SCONJ	_	_	_	advmod	_	gloss=where
+10	Xesús	xesús	PROPN	_	_	_	_	_	gloss=Jesus
+11	os	os	PRON	_	_	_	_	_	gloss=mn
+12	citara	citara	VERB	_	_	_	_	_	gloss=had_summoned
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = 41002023
+# ref_id = Mark 2:23
+# eng_text = It happened , that he was going on the Sabbath day through the grain fields , and his disciples began , as they went , to pluck the ears of grain .
+# glg_text = Un sábado cadrou que pasaron por uns terreos sementados ; os seus discípulos , mentres ían de camiño , empezaron a arrincar espigas .
+1	Un	un	DET	_	Number=Sing	_	det	_	gloss=a
+2	sábado	sábado	NOUN	_	Number=Sing	_	_	_	gloss=sabbath
+3	cadrou	cadrou	VERB	_	Tense=Past|Person=3|Number=Sing	_	_	_	gloss=happened
+4	que	que	SCONJ	_	_	_	_	_	gloss=that
+5	pasaron	pasaron	VERB	_	Tense=Past|Person=3|Number=Plur	_	_	_	gloss=passed
+6	por	por	ADP	_	_	_	case	_	gloss=through
+7	uns	uns	DET	_	Number=Plur	_	det	_	gloss=some
+8	terreos	terreos	NOUN	_	Number=Plur	_	_	_	gloss=fields
+9	sementados	sementados	ADJ	_	_	_	_	_	gloss=sown
+10	;	;	PUNCT	_	_	_	_	_	_
+11	os	os	DET	_	_	_	_	_	gloss=mn
+12	seus	seus	DET	_	Number=Plur	_	det	_	gloss=their
+13	discípulos	discípulos	NOUN	_	Number=Plur	_	_	_	gloss=disciples
+14	,	,	PUNCT	_	_	_	_	_	_
+15	mentres	mentres	SCONJ	_	_	_	_	_	gloss=while
+16	ían	ían	VERB	_	_	_	_	_	gloss=were_going
+17	de	de	ADP	_	_	_	case	_	gloss=of
+18	camiño	camiño	NOUN	_	Number=Sing	_	_	_	gloss=road
+19	,	,	PUNCT	_	_	_	_	_	_
+20	empezaron	empezaron	VERB	_	Tense=Past|Person=3|Number=Plur	_	_	_	gloss=started
+21	a	a	ADP	_	_	_	case	_	gloss=to
+22	arrincar	arrincar	VERB	_	VerbForm=Inf	_	_	_	gloss=pluck
+23	espigas	espigas	NOUN	_	Number=Plur	_	_	_	gloss=ears_of_grain
+24	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = 41012032
+# ref_id = Mark 12:32
+# eng_text = The scribe said to him , " Truly , teacher , you have said well that he is one , and there is none other but he ,
+# glg_text = O letrado replicou : Moi ben , Mestre , estás no certo cando dis que El é único e non hai outro fóra del ;
+1	O	o	DET	_	Number=Sing	_	det	_	gloss=the
+2	letrado	letrado	NOUN	_	Number=Sing	_	_	_	gloss=scribe
+3	replicou	replicou	VERB	_	Tense=Past|Person=3|Number=Sing	_	_	_	gloss=replied
+4	:	:	PUNCT	_	_	_	_	_	_
+5	Moi	moi	ADV	_	_	_	_	_	gloss=very
+6	ben	ben	ADV	_	_	_	_	_	gloss=well
+7	,	,	PUNCT	_	_	_	_	_	_
+8	Mestre	mestre	NOUN	_	_	_	npadvmod	_	gloss=Teacher|Number=Sing
+9	,	,	PUNCT	_	_	_	_	_	_
+10	estás	estás	VERB	_	_	_	_	_	gloss=are
+11	no	no	ADP	_	_	_	case	_	gloss=in_the
+12	certo	certo	ADJ	_	_	_	_	_	gloss=right
+13	cando	cando	SCONJ	_	_	_	_	_	gloss=when
+14	dis	dis	VERB	_	_	_	_	_	gloss=say
+15	que	que	SCONJ	_	_	_	mark	_	gloss=that
+16	El	el	PRON	_	_	_	_	_	gloss=he
+17	é	é	VERB	_	_	_	_	_	gloss=is
+18	único	único	ADJ	_	_	_	_	_	gloss=only
+19	e	e	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+20	non	non	PART	_	_	_	_	_	gloss=not
+21	hai	hai	VERB	_	_	_	_	_	gloss=there_is
+22	outro	outro	PRON	_	_	_	_	_	gloss=other
+23	fóra	fóra	ADV	_	_	_	_	_	gloss=outside
+24	del	del	PRON	_	_	_	obl	_	gloss=of_him
+25	;	;	PUNCT	_	_	_	_	_	_
+
+# sent_id = 41014037
+# ref_id = Mark 14:37
+# eng_text = He came and found them sleeping , and said to Peter , " Simon , are you sleeping ? Couldn't you watch one hour ?
+# glg_text = E volvendo onda eles , atopounos durmindo . Díxolle a Pedro : Simón , dormes ? Seica non podes velar unha hora tan sequera ?
+1	E	e	CCONJ	_	_	_	_	_	gloss=and
+2	volvendo	volvendo	VERB	_	VerbForm=Ger	_	aux	_	gloss=returning|VerbForm=Fin
+3	onda	onda	ADP	_	_	0	root	_	gloss=toward|Tense=Past|VerbForm=Fin
+4	eles	eles	PRON	_	Number=Plur	_	obl	_	gloss=they
+5	,	,	PUNCT	_	_	_	_	_	_
+6	atopounos	atopounos	VERB	_	_	_	acomp	_	gloss=found_them|Degree=Pos
+7	durmindo	durmindo	VERB	_	VerbForm=Ger	_	acomp	_	gloss=sleeping|Degree=Pos
+8	.	.	PUNCT	_	_	_	_	_	_
+9	Díxolle	díxolle	VERB	_	_	_	_	_	gloss=said_to_him
+10	a	a	ADP	_	_	_	case	_	gloss=to
+11	Pedro	pedro	PROPN	_	_	_	pobj	_	gloss=Peter|Number=Sing
+12	:	:	PUNCT	_	_	_	_	_	_
+13	Simón	simón	PROPN	_	_	_	_	_	gloss=Simon
+14	,	,	PUNCT	_	_	_	_	_	_
+15	dormes	dormes	VERB	_	_	_	_	_	gloss=sleep
+16	?	?	PUNCT	_	_	_	_	_	_
+17	Seica	seica	ADV	_	_	_	_	_	gloss=perhaps
+18	non	non	PART	_	_	_	_	_	gloss=not
+19	podes	podes	VERB	_	_	_	acomp	_	gloss=can|Degree=Pos
+20	velar	velar	VERB	_	VerbForm=Inf	_	aux	_	gloss=watch|VerbForm=Fin
+21	unha	unha	DET	_	Number=Sing	_	det	_	gloss=a
+22	hora	hora	NOUN	_	Number=Sing	_	npadvmod	_	gloss=hour|Number=Sing
+23	tan	tan	ADV	_	_	_	aux	_	gloss=so|VerbForm=Fin
+24	sequera	sequera	ADV	_	_	_	_	_	gloss=even
+25	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = 42004002
+# ref_id = Luke 4:2
+# eng_text = for forty days , being tempted by the devil . He ate nothing in those days . Afterward , when they were completed , he was hungry .
+# glg_text = durante corenta días , onde o tentou o Satán . Naqueles días non probou bocado , pero ó cabo deles sentiu fame .
+1	durante	durante	ADP	_	_	_	case	_	gloss=during
+2	corenta	corenta	NUM	_	NumType=Card	_	nummod	_	gloss=forty|NumType=Card
+3	días	días	NOUN	_	Number=Plur	_	_	_	gloss=days
+4	,	,	PUNCT	_	_	_	_	_	_
+5	onde	onde	SCONJ	_	_	15	advmod	_	gloss=where
+6	o	o	PRON	_	_	_	_	_	gloss=it
+7	tentou	tentou	VERB	_	Tense=Past|Person=3|Number=Sing	_	_	_	gloss=tempt
+8	o	o	DET	_	Number=Sing	_	det	_	gloss=the
+9	Satán	satán	PROPN	_	_	_	_	_	gloss=Satan
+10	.	.	PUNCT	_	_	_	_	_	_
+11	Naqueles	naqueles	DET	_	Number=Sing	_	det	_	gloss=in_those
+12	días	días	NOUN	_	Number=Plur	_	_	_	gloss=days
+13	non	non	PART	_	_	_	_	_	gloss=not
+14	probou	probou	VERB	_	Tense=Past|Person=3|Number=Sing	_	_	_	gloss=eat
+15	bocado	bocado	NOUN	_	Number=Sing	0	root	_	gloss=bite|Aspect=Perf|Tense=Past|VerbForm=Part
+16	,	,	PUNCT	_	_	_	_	_	_
+17	pero	pero	CCONJ	_	_	_	_	_	gloss=but
+18	ó	ó	ADP	_	_	_	case	_	gloss=to_the
+19	cabo	cabo	NOUN	_	Number=Sing	_	_	_	gloss=end
+20	deles	deles	PRON	_	Number=Plur	_	obl	_	gloss=of_them
+21	sentiu	sentiu	VERB	_	Tense=Past|Person=3|Number=Sing	_	_	_	gloss=feel
+22	fame	fame	NOUN	_	Number=Sing	_	acomp	_	gloss=hunger|Degree=Pos
+23	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = 42016013
+# ref_id = Luke 16:13
+# eng_text = No servant can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You aren't able to serve God and mammon . "
+# glg_text = Ningún criado pode servir a dous amos , porque ou lle ten xenreira a un e ama o outro ; ou ben atende a un e menospreza o outro . Non podedes servir a Deus e mais o diñeiro .
+1	Ningún	ningún	DET	_	Number=Sing	_	det	_	gloss=no
+2	criado	criado	NOUN	_	Number=Sing	_	_	_	gloss=servant
+3	pode	pode	VERB	_	_	_	_	_	gloss=can
+4	servir	servir	VERB	_	VerbForm=Inf	0	root	_	gloss=serve|VerbForm=Inf
+5	a	a	ADP	_	_	_	_	_	_
+6	dous	dous	NUM	_	NumType=Card	7	nummod	_	gloss=two|NumType=Card
+7	amos	amos	NOUN	_	Number=Plur	4	dobj	_	gloss=masters|Number=Plur
+8	,	,	PUNCT	_	_	_	_	_	_
+9	porque	porque	SCONJ	_	_	_	_	_	gloss=because
+10	ou	ou	CCONJ	_	_	_	_	_	gloss=or
+11	lle	lle	PRON	_	_	_	obl	_	gloss=to_him_her
+12	ten	ten	VERB	_	_	_	_	_	gloss=has
+13	xenreira	xenreira	NOUN	_	Number=Sing	_	acomp	_	gloss=hatred|Aspect=Perf|Tense=Past|VerbForm=Part
+14	a	a	ADP	_	_	_	_	_	_
+15	un	un	NUM	_	NumType=Card	_	pobj	_	gloss=one|NumType=Card
+16	e	e	CCONJ	_	_	35	cc	_	gloss=and|ConjType=Cmp
+17	ama	ama	VERB	_	_	_	_	_	gloss=love
+18	o	o	PRON	_	_	_	_	_	gloss=him_it
+19	outro	outro	PRON	_	_	_	_	_	gloss=other
+20	;	;	PUNCT	_	_	_	_	_	_
+21	ou	ou	CCONJ	_	_	_	_	_	gloss=or
+22	ben	ben	ADV	_	_	_	_	_	gloss=well
+23	atende	atende	VERB	_	_	_	acomp	_	gloss=attend|Aspect=Perf|Tense=Past|VerbForm=Part
+24	a	a	ADP	_	_	_	_	_	_
+25	un	un	NUM	_	NumType=Card	_	pobj	_	gloss=one|NumType=Card
+26	e	e	CCONJ	_	_	35	cc	_	gloss=and|ConjType=Cmp
+27	menospreza	menospreza	VERB	_	_	_	acomp	_	gloss=despise|Aspect=Perf|Tense=Past|VerbForm=Part
+28	o	o	PRON	_	_	_	_	_	gloss=him_it
+29	outro	outro	PRON	_	_	_	_	_	gloss=other
+30	.	.	PUNCT	_	_	_	_	_	_
+31	Non	non	PART	_	_	_	_	_	gloss=not
+32	podedes	podedes	VERB	_	_	_	_	_	gloss=can
+33	servir	servir	VERB	_	VerbForm=Inf	0	root	_	gloss=serve|VerbForm=Inf
+34	a	a	ADP	_	_	_	case	_	gloss=to
+35	Deus	deus	PROPN	_	_	33	dobj	_	gloss=God|Number=Sing
+36	e	e	CCONJ	_	_	35	cc	_	gloss=and|ConjType=Cmp
+37	mais	mais	CCONJ	_	_	_	_	_	gloss=and
+38	o	o	DET	_	Number=Sing	_	det	_	gloss=the
+39	diñeiro	diñeiro	NOUN	_	Number=Sing	_	_	_	gloss=money
+40	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = 42024018
+# ref_id = Luke 24:18
+# eng_text = One of them , named Cleopas , answered him , " Are you the only one travelling in Jerusalem who doesn't know the things which have happened there in these days ? "
+# glg_text = e Cleofás , un deles , respondeulle : Seica es ti o único forasteiro en Xerusalén , que non sabe nada do que pasou alí durante estes días ?
+1	e	e	CCONJ	_	_	_	_	_	gloss=and
+2	Cleofás	cleofás	PROPN	_	_	_	_	_	gloss=Cleopas
+3	,	,	PUNCT	_	_	_	_	_	_
+4	un	un	NUM	_	NumType=Card	_	nsubj	_	gloss=one|NumType=Card
+5	deles	deles	PRON	_	Number=Plur	_	obl	_	gloss=of_them
+6	,	,	PUNCT	_	_	_	_	_	_
+7	respondeulle	respondeulle	VERB	_	_	_	_	_	gloss=answered
+8	:	:	PUNCT	_	_	_	_	_	_
+9	Seica	seica	ADV	_	_	_	_	_	gloss=perhaps
+10	es	es	VERB	_	_	_	_	_	gloss=are
+11	ti	ti	PRON	_	_	_	obl	_	gloss=you
+12	o	o	DET	_	_	_	_	_	gloss=it
+13	único	único	ADJ	_	_	_	_	_	gloss=only
+14	forasteiro	forasteiro	NOUN	_	Number=Sing	_	_	_	gloss=stranger
+15	en	en	ADP	_	_	_	case	_	gloss=in
+16	Xerusalén	xerusalén	PROPN	_	_	_	_	_	gloss=Jerusalem
+17	,	,	PUNCT	_	_	_	_	_	_
+18	que	que	SCONJ	_	_	_	nsubj	_	gloss=that|PronType=Rel
+19	non	non	PART	_	_	_	_	_	gloss=not
+20	sabe	sabe	VERB	_	_	_	_	_	gloss=knows
+21	nada	nada	PRON	_	_	_	_	_	gloss=nothing
+22	do	do	ADP	_	_	_	case	_	gloss=of_the
+23	que	que	SCONJ	_	_	_	nsubj	_	gloss=that|PronType=Rel
+24	pasou	pasou	VERB	_	Tense=Past|Person=3|Number=Sing	_	_	_	gloss=happened
+25	alí	alí	ADV	_	_	_	advmod	_	gloss=there|PronType=Dem
+26	durante	durante	ADP	_	_	_	case	_	gloss=during
+27	estes	estes	DET	_	Number=Plur	_	det	_	gloss=these
+28	días	días	NOUN	_	Number=Plur	_	_	_	gloss=days
+29	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = 43001039
+# ref_id = John 1:39
+# eng_text = He said to them , " Come , and see . " They came and saw where he was staying , and they stayed with him that day . It was about the tenth hour .
+# glg_text = El díxolles : Vide e veredes . E eles foron e viron onde paraba e quedaron con el aquel día . Era contra as catro da tarde .
+1	El	el	PRON	_	_	_	_	_	gloss=he
+2	díxolles	díxolles	VERB	_	_	_	_	_	_
+3	:	:	PUNCT	_	_	_	_	_	_
+4	Vide	vide	VERB	_	_	_	ccomp	_	gloss=Come|VerbForm=Inf
+5	e	e	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+6	veredes	veredes	VERB	_	_	4	conj	_	gloss=see|VerbForm=Inf
+7	.	.	PUNCT	_	_	_	_	_	_
+8	E	e	CCONJ	_	_	_	_	_	gloss=and
+9	eles	eles	PRON	_	Number=Plur	_	obl	_	gloss=they
+10	foron	foron	VERB	_	_	_	_	_	gloss=early
+11	e	e	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+12	viron	viron	VERB	_	Tense=Past|Person=3|Number=Plur	_	_	_	_
+13	onde	onde	SCONJ	_	_	_	advmod	_	gloss=where
+14	paraba	paraba	VERB	_	_	_	_	_	gloss=ock
+15	e	e	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+16	quedaron	quedaron	VERB	_	Tense=Past|Person=3|Number=Plur	_	_	_	_
+17	con	con	ADP	_	_	_	prep	_	gloss=with
+18	el	el	PRON	_	_	_	_	_	gloss=ib
+19	aquel	aquel	DET	_	_	_	_	_	gloss=b
+20	día	día	NOUN	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+22	Era	era	VERB	_	_	_	_	_	gloss=ave
+23	contra	contra	ADP	_	_	_	_	_	gloss=against
+24	as	as	DET	_	_	_	_	_	gloss=s
+25	catro	catro	NUM	_	_	_	nummod	_	gloss=four|NumType=Card
+26	da	da	ADP	_	_	_	case	_	gloss=of_the
+27	tarde	tarde	NOUN	_	_	_	pobj	_	gloss=afternoon|Number=Sing
+28	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = 43003016
+# ref_id = John 3:16
+# eng_text = For God so loved the world , that he gave his one and only Son , that whoever believes in him should not perish , but have eternal life .
+# glg_text = Pois de tal xeito amou Deus o mundo , que lle deu o seu Fillo Unixénito , para que todo o que cre nel non se perda , senón que teña vida eterna .
+1	Pois	pois	SCONJ	_	_	_	_	_	gloss=top
+2	de	de	ADP	_	_	_	case	_	gloss=of
+3	tal	tal	DET	_	_	_	_	_	gloss=prays
+4	xeito	xeito	NOUN	_	_	_	_	_	gloss=obvious
+5	amou	amou	VERB	_	_	0	root	_	gloss=loved|Tense=Past|VerbForm=Fin
+6	Deus	deus	PROPN	_	_	5	nsubj	_	gloss=God|Number=Sing
+7	o	o	DET	_	_	_	_	_	gloss=it
+8	mundo	mundo	NOUN	_	_	5	dobj	_	gloss=world|Number=Sing
+9	,	,	PUNCT	_	_	_	_	_	_
+10	que	que	SCONJ	_	_	_	mark	_	gloss=that
+11	lle	lle	PRON	_	_	_	obl	_	gloss=to_him_her
+12	deu	deu	VERB	_	_	_	ccomp	_	gloss=gave|Tense=Past|VerbForm=Fin
+13	o	o	DET	_	_	_	_	_	gloss=it
+14	seu	seu	VERB	_	Tense=Past|Person=3|Number=Sing	_	_	_	_
+15	Fillo	fillo	PROPN	_	_	_	appos	_	gloss=Son|Number=Sing
+16	Unixénito	unixénito	ADJ	_	_	_	_	_	_
+17	,	,	PUNCT	_	_	_	_	_	_
+18	para	para	ADP	_	_	_	mark	_	gloss=for
+19	que	que	SCONJ	_	_	_	mark	_	gloss=that
+20	todo	todo	PRON	_	_	_	_	_	gloss=everything
+21	o	o	PRON	_	_	_	_	_	gloss=it
+22	que	que	SCONJ	_	_	_	mark	_	gloss=that
+23	cre	cre	VERB	_	_	_	relcl	_	gloss=believes|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+24	nel	nel	PRON	_	_	_	_	_	gloss=aring
+25	non	non	PART	_	_	_	neg	_	gloss=not|Polarity=Neg
+26	se	se	PRON _	_	_	_	_	gloss=if
+27	perda	perda	VERB	_	_	_	_	_	_
+28	,	,	PUNCT	_	_	_	_	_	_
+29	senón	senón	CCONJ	_	_	_	_	_	gloss=but_rather
+30	que	que	SCONJ	_	_	_	mark	_	gloss=that
+31	teña	teña	VERB	_	_	_	_	_	_
+32	vida	vida	NOUN	_	_	_	dobj	_	gloss=life|Number=Sing
+33	eterna	eterna	ADJ	_	_	32	amod	_	gloss=eternal|Degree=Pos
+34	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = 44002030
+# ref_id = Acts 2:30
+# eng_text = Therefore , being a prophet , and knowing that God had sworn with an oath to him that of the fruit of his body , according to the flesh , he would raise up the Christ to sit on his throne ,
+# glg_text = Pero , como el era profeta e sabía que Deus lle asegurara con xuramento que un descendente do seu sangue había sentar no seu trono ,
+1	Pero	pero	CCONJ	_	_	_	cc	_	gloss=but|ConjType=Cmp
+2	,	,	PUNCT	_	_	_	_	_	_
+3	como	como	SCONJ	_	_	_	_	_	gloss=glor
+4	el	el	PRON	_	_	_	_	_	gloss=ib
+5	era	era	VERB	_	_	_	_	_	gloss=old
+6	profeta	profeta	NOUN	_	_	_	attr	_	gloss=prophet|Number=Sing
+7	e	e	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+8	sabía	sabía	VERB	_	_	_	_	_	_
+9	que	que	SCONJ	_	_	22	mark	_	gloss=that
+10	Deus	deus	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+11	lle	lle	PRON	_	_	_	obl	_	gloss=to_him_her
+12	asegurara	asegurara	VERB	_	_	_	_	_	_
+13	con	con	ADP	_	_	_	prep	_	gloss=with
+14	xuramento	xuramento	NOUN	_	_	13	pobj	_	gloss=oath|Number=Sing
+15	que	que	SCONJ	_	_	22	mark	_	gloss=that
+16	un	un	NUM	_	NumType=Card	22	nsubj	_	gloss=one|NumType=Card
+17	descendente	descendente	NOUN	_	_	_	_	_	_
+18	do	do	ADP	_	_	_	case	_	gloss=of_the
+19	seu	seu	VERB	_	Tense=Past|Person=3|Number=Sing	_	_	_	_
+20	sangue	sangue	NOUN	_	_	_	_	_	gloss=blood
+21	había	había	VERB	_	_	_	_	_	_
+22	sentar	sentar	VERB	_	_	14	acl	_	gloss=sit|VerbForm=Inf
+23	no	no	ADP	_	_	_	case	_	gloss=in_the
+24	seu	seu	VERB	_	Tense=Past|Person=3|Number=Sing	_	_	_	_
+25	trono	trono	NOUN	_	_	_	pobj	_	gloss=throne|Number=Sing
+26	,	,	PUNCT	_	_	_	_	_	_
+
+# sent_id = 44009038
+# ref_id = Acts 9:38
+# eng_text = As Lydda was near Joppa , the disciples , hearing that Peter was there , sent two men to him , imploring him not to delay in coming to them .
+# glg_text = Como Lida está cerca de Iope , sentindo dicir os discípulos que Pedro estaba alí , mandáronlle dous homes con este recado : " non tardes en achegarte aquí " .
+1	Como	como	SCONJ	_	_	_	_	_	gloss=respected
+2	Lida	lida	PROPN	_	_	_	_	_	_
+3	está	está	VERB	_	_	_	_	_	gloss=lives
+4	cerca	cerca	ADV	_	_	_	_	_	gloss=near
+5	de	de	ADP	_	_	_	case	_	gloss=of
+6	Iope	iope	PROPN	_	_	_	_	_	gloss=Joppa
+7	,	,	PUNCT	_	_	_	_	_	_
+8	sentindo	sentindo	VERB	_	VerbForm=Ger	_	_	_	_
+9	dicir	dicir	VERB	_	VerbForm=Inf	_	_	_	_
+10	os	os	DET	_	Number=Plur	_	det	_	gloss=the
+11	discípulos	discípulos	NOUN	_	Number=Plur	_	_	_	gloss=disciples
+12	que	que	SCONJ	_	_	_	mark	_	gloss=that
+13	Pedro	pedro	PROPN	_	_	_	nsubj	_	gloss=Peter|Number=Sing
+14	estaba	estaba	VERB	_	_	_	_	_	gloss=boats
+15	alí	alí	ADV	_	_	_	_	_	gloss=there
+16	,	,	PUNCT	_	_	_	_	_	_
+17	mandáronlle	mandáronlle	VERB	_	_	_	_	_	_
+18	dous	dous	NUM	_	NumType=Card	19	nummod	_	gloss=two|NumType=Card
+19	homes	homes	NOUN	_	_	_	dobj	_	gloss=men|Number=Plur
+20	con	con	ADP	_	_	_	case	_	gloss=with
+21	este	este	DET	_	_	_	_	_	gloss=ass
+22	recado	recado	NOUN	_	_	_	_	_	gloss=waiting
+23	:	:	PUNCT	_	_	_	_	_	_
+24	"	"	PUNCT	_	_	_	_	_	_
+25	non	non	PART	_	_	_	_	_	gloss=not
+26	tardes	tardes	VERB	_	_	_	_	_	_
+27	en	en	ADP	_	_	_	case	_	gloss=in
+28	achegarte	achegarte	VERB	_	_	_	_	_	_
+29	aquí	aquí	ADV	_	_	_	_	_	gloss=here
+30	"	"	PUNCT	_	_	_	_	_	_
+31	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = 44011011
+# ref_id = Acts 11:11
+# eng_text = Behold , immediately three men stood before the house where I was , having been sent from Caesarea to me .
+# glg_text = E , fixádevos , nisto preséntanse na casa onde estabamos tres homes que mandaran desde Cesarea en busca miña .
+1	E	e	CCONJ	_	_	_	_	_	gloss=and
+2	,	,	PUNCT	_	_	_	_	_	_
+3	fixádevos	fixádevos	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	nisto	nisto	PRON	_	_	_	_	_	gloss=lif
+6	preséntanse	preséntanse	VERB	_	_	_	_	_	_
+7	na	na	ADP	_	_	_	case	_	gloss=in_the
+8	casa	casa	NOUN	_	_	_	pobj	_	gloss=house|Number=Sing
+9	onde	onde	SCONJ	_	_	_	advmod	_	gloss=where
+10	estabamos	estabamos	VERB	_	_	_	_	_	gloss=utter
+11	tres	tres	NUM	_	NumType=Card	12	nummod	_	gloss=three|NumType=Card
+12	homes	homes	NOUN	_	_	_	nsubj	_	gloss=men|Number=Plur
+13	que	que	SCONJ	_	_	_	_	_	gloss=that
+14	mandaran	mandaran	VERB	_	_	_	_	_	_
+15	desde	desde	ADP	_	_	_	case	_	gloss=from
+16	Cesarea	cesarea	PROPN	_	_	_	pobj	_	gloss=Caesarea|Number=Sing
+17	en	en	ADP	_	_	_	case	_	gloss=in
+18	busca	busca	NOUN	_	_	_	_	_	gloss=knock
+19	miña	miña	DET	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = 44021034
+# ref_id = Acts 21:34
+# eng_text = Some shouted one thing , some another , among the crowd . When he couldn't find out the truth because of the noise , he commanded him to be brought into the barracks .
+# glg_text = Pero de entre a xente cada un berraba súa cousa . Non podendo saber nada seguro , debido ó balbordo , mandouno levar para o cuartel .
+1	Pero	pero	CCONJ	_	_	_	_	_	gloss=but
+2	de	de	ADP	_	_	_	case	_	gloss=of
+3	entre	entre	ADP	_	_	_	_	_	gloss=among
+4	a	a	DET	_	_	_	_	_	_
+5	xente	xente	NOUN	_	_	_	_	_	gloss=crowd
+6	cada	cada	DET	_	_	_	_	_	gloss=w
+7	un	un	NUM	_	NumType=Card	_	nummod	_	gloss=one|NumType=Card
+8	berraba	berraba	VERB	_	_	0	root	_	gloss=shouted|Tense=Past|VerbForm=Fin
+9	súa	súa	DET	_	_	_	_	_	_
+10	cousa	cousa	NOUN	_	_	_	_	_	gloss=int
+11	.	.	PUNCT	_	_	_	_	_	_
+12	Non	non	PART	_	_	_	_	_	gloss=not
+13	podendo	podendo	VERB	_	VerbForm=Ger	_	_	_	_
+14	saber	saber	VERB	_	VerbForm=Inf	_	_	_	_
+15	nada	nada	PRON	_	_	_	_	_	gloss=nothing
+16	seguro	seguro	ADJ	_	_	_	_	_	gloss=crows
+17	,	,	PUNCT	_	_	_	_	_	_
+18	debido	debido	ADJ	_	_	_	_	_	gloss=fort
+19	ó	ó	ADP	_	_	_	case	_	gloss=to_the
+20	balbordo	balbordo	NOUN	_	_	_	_	_	_
+21	,	,	PUNCT	_	_	_	_	_	_
+22	mandouno	mandouno	VERB	_	_	_	_	_	gloss=fort
+23	levar	levar	VERB	_	VerbForm=Inf	_	_	_	_
+24	para	para	ADP	_	_	_	case	_	gloss=for
+25	o	o	unk	_	_	_	_	_	gloss=it
+26	cuartel	cuartel	NOUN	_	_	_	_	_	_
+27	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = 47012002
+# ref_id = 2 Corinthians 12:2
+# eng_text = I know a man in Christ , fourteen years ago ( whether in the body , I don't know , or whether out of the body , I don't know ; God knows ) , such a one caught up into the third heaven .
+# glg_text = Sei dun cristián a quen hai catorce anos ( se foi no corpo ou fóra do corpo , non o sei , iso sábeo Deus ) o levaron ata o terceiro ceo .
+1	Sei	sei	VERB	_	_	_	_	_	gloss=hether
+2	dun	dun	ADP	_	_	_	_	_	gloss=o
+3	cristián	cristián	NOUN	_	_	_	_	_	_
+4	a	a	ADP	_	_	_	_	_	_
+5	quen	quen	PRON	_	_	_	_	_	gloss=whom
+6	hai	hai	VERB	_	_	_	_	_	gloss=there_is
+7	catorce	catorce	NUM	_	_	8	nummod	_	gloss=fourteen|NumType=Card
+8	anos	anos	NOUN	_	_	_	npadvmod	_	gloss=years|Number=Plur
+9	(	(	PUNCT	_	_	_	_	_	_
+10	se	se	SCONJ	_	_	_	_	_	gloss=if
+11	foi	foi	VERB	_	_	_	_	_	gloss=ran
+12	no	no	ADP	_	_	_	case	_	gloss=in_the
+13	corpo	corpo	NOUN	_	_	_	pobj	_	gloss=body|Number=Sing
+14	ou	ou	CCONJ	_	_	_	cc	_	gloss=or|ConjType=Cmp
+15	fóra	fóra	ADV	_	_	_	_	_	gloss=outside
+16	do	do	ADP	_	_	_	case	_	gloss=of_the
+17	corpo	corpo	NOUN	_	_	_	pobj	_	gloss=body|Number=Sing
+18	,	,	PUNCT	_	_	_	_	_	_
+19	non	non	PART	_	_	_	_	_	gloss=not
+20	o	o	PRON	_	_	_	_	_	gloss=it
+21	sei	sei	VERB	_	_	_	_	_	gloss=know
+22	,	,	PUNCT	_	_	_	_	_	_
+23	iso	iso	PRON	_	_	_	_	_	gloss=Therefore
+24	sábeo	sábeo	VERB	_	_	_	_	_	_
+25	Deus	deus	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+26	)	)	PUNCT	_	_	_	_	_	_
+27	o	o	PRON	_	_	_	_	_	gloss=it
+28	levaron	levaron	VERB	_	Tense=Past|Person=3|Number=Plur	_	_	_	_
+29	ata	ata	ADP	_	_	_	_	_	gloss=until
+30	o	o	DET	_	_	_	_	_	gloss=it
+31	terceiro	terceiro	ADJ	_	_	32	amod	_	gloss=third|Degree=Pos
+32	ceo	ceo	PROPN	_	_	_	pobj	_	gloss=heaven|Number=Sing
+33	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = 62004009
+# ref_id = 1 John 4:9
+# eng_text = By this was God's love revealed in us , that God has sent his only born Son into the world that we might live through him .
+# glg_text = O amor de Deus fíxose ver entre nós en que Deus mandou ó mundo o seu Fillo Unixénito , para que nos dese a súa vida .
+1	O	o	DET	_	Number=Sing	_	det	_	gloss=the
+2	amor	amor	NOUN	_	_	_	_	_	gloss=love
+3	de	de	ADP	_	_	_	case	_	gloss=of
+4	Deus	deus	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+5	fíxose	fíxose	VERB	_	_	_	_	_	_
+6	ver	ver	VERB	_	VerbForm=Inf	_	_	_	_
+7	entre	entre	ADP	_	_	_	_	_	gloss=among
+8	nós	nós	PRON	_	_	_	_	_	_
+9	en	en	ADP	_	_	_	case	_	gloss=in
+10	que	que	SCONJ	_	_	_	mark	_	gloss=that
+11	Deus	deus	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+12	mandou	mandou	VERB	_	Tense=Past|Person=3|Number=Sing	_	_	_	_
+13	ó	ó	ADP	_	_	_	case	_	gloss=to_the
+14	mundo	mundo	NOUN	_	_	_	pobj	_	gloss=world|Number=Sing
+15	o	o	DET	_	_	_	_	_	gloss=it
+16	seu	seu	VERB	_	Tense=Past|Person=3|Number=Sing	_	_	_	_
+17	Fillo	fillo	PROPN	_	_	_	conj	_	gloss=Son|Number=Sing
+18	Unixénito	unixénito	ADJ	_	_	_	_	_	_
+19	,	,	PUNCT	_	_	_	_	_	_
+20	para	para	ADP	_	_	_	mark	_	gloss=for
+21	que	que	SCONJ	_	_	_	mark	_	gloss=that
+22	nos	nos	PRON	_	_	_	dobj	_	gloss=us|Case=Acc|Number=Plur|Person=1|PronType=Prs
+23	dese	dese	VERB	_	_	_	_	_	gloss=stepped
+24	a	a	DET	_	_	_	_	_	_
+25	súa	súa	DET	_	_	_	_	_	_
+26	vida	vida	NOUN	_	_	_	dobj	_	gloss=life|Number=Sing
+27	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = 63001005
+# ref_id = 2 John 1:5
+# eng_text = Now I beg you , dear lady , not as though I wrote to you a new commandment , but that which we had from the beginning , that we love one another .
+# glg_text = Agora , pídoche , señora , que nos queiramos ben uns ós outros ; e con isto non che anuncio un mandamento novo senón o mandamento que recibimos desde un principio .
+1	Agora	agora	ADV	_	_	_	_	_	gloss=now
+2	,	,	PUNCT	_	_	_	_	_	_
+3	pídoche	pídoche	VERB	_	_	_	_	_	gloss=I_ask_you
+4	,	,	PUNCT	_	_	_	_	_	_
+5	señora	señora	NOUN	_	Number=Sing	_	_	_	gloss=lady
+6	,	,	PUNCT	_	_	_	_	_	_
+7	que	que	SCONJ	_	_	_	mark	_	gloss=that
+8	nos	nos	PRON	_	_	_	_	_	gloss=us
+9	queiramos	queiramos	VERB	_	_	_	_	_	_
+10	ben	ben	ADV	_	_	_	_	_	gloss=well
+11	uns	uns	NUM	_	NumType=Card	_	nummod	_	gloss=one
+12	ós	ós	ADP	_	_	_	_	_	gloss=at
+13	outros	outros	PRON	_	_	_	_	_	gloss=other
+14	;	;	PUNCT	_	_	_	_	_	_
+15	e	e	CCONJ	_	_	_	_	_	gloss=and
+16	con	con	ADP	_	_	_	case	_	gloss=with
+17	isto	isto	PRON	_	_	_	_	_	gloss=this
+18	non	non	PART	_	_	_	neg	_	gloss=not|Polarity=Neg
+19	che	che	PRON	_	_	_	obl	_	gloss=to_you
+20	anuncio	anuncio	VERB	_	_	_	_	_	gloss=acher
+21	un	un	DET	_	Number=Sing	_	conj	_	gloss=a|NumType=Card
+22	mandamento	mandamento	NOUN	_	Number=Sing	_	attr	_	gloss=commandment|Number=Sing
+23	novo	novo	ADJ	_	_	_	_	_	gloss=new
+24	senón	senón	CCONJ	_	_	_	_	_	gloss=but_rather
+25	o	o	DET	_	Number=Sing	_	det	_	gloss=the
+26	mandamento	mandamento	NOUN	_	Number=Sing	_	attr	_	gloss=commandment|Number=Sing
+27	que	que	SCONJ	_	_	_	mark	_	gloss=that
+28	recibimos	recibimos	VERB	_	_	_	_	_	gloss=iving
+29	desde	desde	ADP	_	_	_	pobj	_	gloss=from|Number=Sing
+30	un	un	DET	_	Number=Sing	_	conj	_	gloss=a|NumType=Card
+31	principio	principio	NOUN	_	Number=Sing	_	_	_	gloss=beginning
+32	.	.	PUNCT	_	_	_	_	_	_
+

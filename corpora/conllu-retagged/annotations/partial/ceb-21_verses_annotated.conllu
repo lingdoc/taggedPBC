@@ -1,0 +1,802 @@
+## The following text has been annotated for parts of speech by students at NTU Singapore as part of a class project in AY 2025-26.
+## Verses are extracted from the taggedPBC. Annotations have been developed with a combination of manual and automated approaches, with reference to existing literature and (where possible) native speakers.
+## ISO 639-3: ceb, Language: Cebuano, Number of verses: 21
+## References: https://cebuano.pinoydictionary.com ; https://en.wikipedia.org/wiki/Cebuano_grammar
+
+# sent_id = 40006024
+# ref_id = Matthew 6:24
+# eng_text = " No one can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You can't serve both God and Mammon .
+# ceb_text = “ Dili mahimo nga ang usa ka tawo magpaulipon sa duha ka agalon kay mahitabo gayod nga iyang dumtan ang usa ug ang usa iyang higugmaon o unongan niya ang usa ug ang usa iyang tamayon . Dili kamo makapaulipon sa Dios ug sa salapi .
+1	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+2	Dili	dili	PART	_	_	_	_	_	gloss=vation
+3	mahimo	mahimo	VERB	_	_	_	_	_	gloss=possible
+4	nga	nga	SCONJ	_	_	_	_	_	gloss=that
+5	ang	ang	DET	_	_	_	aux	_	gloss=will|VerbForm=Fin
+6	usa	usa	NUM	_	_	_	pobj	_	gloss=one|NumType=Card
+7	ka	ka	PART	_	_	_	_	_	gloss=tor
+8	tawo	tawo	NOUN	_	_	_	_	_	gloss=crowds
+9	magpaulipon	magpaulipon	VERB	_	_	_	acomp	_	gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+10	sa	sa	ADP	_	_	_	_	_
+11	duha	duha	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+12	ka	ka	PART	_	_	_	_	_	gloss=tor
+13	agalon	agalon	NOUN	_	_	_	_	_	gloss=master
+14	kay	kay	SCONJ	_	_	_	_	_	gloss=than
+15	mahitabo	mahitabo	VERB	_	_	_	_	_	gloss=scene
+16	gayod	gayod	ADV	_	_	_	_	_	gloss=glorif
+17	nga	nga	SCONJ	_	_	_	_	_	gloss=that
+18	iyang	iyang	PRON	_	_	_	_	_	gloss=ily
+19	dumtan	dumtan	VERB	_	_	_	_	_
+20	ang	ang	DET	_	_	_	aux	_	gloss=will|VerbForm=Fin
+21	usa	usa	NUM	_	_	_	pobj	_	gloss=one|NumType=Card
+22	ug	ug	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+23	ang	ang	DET	_	_	_	aux	_	gloss=will|VerbForm=Fin
+24	usa	usa	NUM	_	_	_	pobj	_	gloss=one|NumType=Card
+25	iyang	iyang	PRON	_	_	_	_	_	gloss=ily
+26	higugmaon	higugmaon	VERB	_	_	_	conj	_	gloss=love|VerbForm=Inf
+27	o	o	CCONJ	_	_	_	_	_	gloss=or
+28	unongan	unongan	VERB	_	_	_	_	_
+29	niya	niya	PRON	_	_	_	_	_	gloss=5
+30	ang	ang	DET	_	_	_	aux	_	gloss=will|VerbForm=Fin
+31	usa	usa	NUM	_	_	_	pobj	_	gloss=one|NumType=Card
+32	ug	ug	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+33	ang	ang	DET	_	_	_	aux	_	gloss=will|VerbForm=Fin
+34	usa	usa	NUM	_	_	_	pobj	_	gloss=one|NumType=Card
+35	iyang	iyang	PRON	_	_	_	_	_	gloss=ily
+36	tamayon	tamayon	VERB	_	_	_	_	_	gloss=ess
+37	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+38	Dili	dili	PART	_	_	_	_	_	gloss=vation
+39	kamo	kamo	PRON	_	_	_	nsubj	_	gloss=you|Case=Nom|Person=2|PronType=Prs
+40	makapaulipon	makapaulipon	VERB	_	_	_	_	_
+41	sa	sa	ADP	_	_	_	_	_
+42	Dios	dios	PROPN	_	_	_	_	_	gloss=Human
+43	ug	ug	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+44	sa	sa	ADP	_	_	_	_	_
+45	salapi	salapi	NOUN	_	_	_	_	_	gloss=coin
+46	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 40018012
+# ref_id = Matthew 18:12
+# eng_text = " What do you think ? If a man has one hundred sheep , and one of them goes astray , doesn't he leave the ninety-nine , go to the mountains , and seek that which has gone astray ?
+# ceb_text = Sa inyong hunahuna , unsa may buhaton sa usa ka tawo kon kawad-an siyag usa sa iyang usa ka gatos ka karnero ? Iya gayong biyaan ang 99 nga manibsib didto sa bungtod ug molakaw siya aron pagpangita sa nawala .
+1	Sa	sa	ADP	_	_	_	_	_	gloss=When
+2	inyong	inyong	PRON	_	_	_	_	_	gloss=your
+3	hunahuna	hunahuna	NOUN	_	_	_	_	_	gloss=mind
+4	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+5	unsa	unsa	PRON	_	_	_	_	_	gloss=unclean
+6	may	may	PART	_	_	22	nummod	_	gloss=hundred|NumType=Card
+7	buhaton	buhaton	VERB	_	_	_	_	_	gloss=ss
+8	sa	sa	ADP	_	_	_	_	_
+9	usa	usa	NUM	_	_	_	pobj	_	gloss=one|Number=Sing
+10	ka	ka	PART	_	_	_	_	_	gloss=tor
+11	tawo	tawo	NOUN	_	_	_	_	_	gloss=crowds
+12	kon	kon	SCONJ	_	_	_	_	_	gloss=if
+13	kawad-an	kawad-an	VERB	_	_	_	_	_	gloss=flavor
+14	siyag	siyag	PRON	_	_	_	_	_	gloss=conce
+15	usa	usa	NUM	_	_	_	pobj	_	gloss=one|Number=Sing
+16	sa	sa	ADP	_	_	_	_	_
+17	iyang	iyang	PRON	_	_	_	_	_	gloss=ily
+18	usa	usa	NUM	_	_	_	pobj	_	gloss=one|Number=Sing
+19	ka	ka	PART	_	_	_	_	_	gloss=tor
+20	gatos	gatos	NUM	_	_	_	ccomp	_	gloss=wanders|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+21	ka	ka	PART	_	_	_	_	_	gloss=tor
+22	karnero	karnero	NOUN	_	_	_	dobj	_	gloss=sheep|Number=Plur
+23	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+24	Iya	iya	PRON	_	_	_	ccomp	_	gloss=wanders|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+25	gayong	gayong	ADV	_	_	_	_	_	gloss=crowned
+26	biyaan	biyaan	VERB	_	_	_	_	_	gloss=Won’t
+27	ang	ang	DET	_	_	_	aux	_	gloss=will|VerbForm=Fin
+28	99	99	NUM	_	_	_	_	_
+29	nga	nga	SCONJ	_	_	40	nsubjpass	_	gloss=that|PronType=Rel
+30	manibsib	manibsib	VERB	_	_	_	_	_
+31	didto	didto	ADV	_	_	_	_	_	gloss=there
+32	sa	sa	ADP	_	_	_	_	_
+33	bungtod	bungtod	NOUN	_	_	_	_	_	gloss=mountain
+34	ug	ug	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+35	molakaw	molakaw	VERB	_	_	_	_	_
+36	siya	siya	PRON	_	_	_	_	_	gloss=she
+37	aron	aron	SCONJ	_	_	_	_	_	gloss=so
+38	pagpangita	pagpangita	VERB	_	_	_	_	_	gloss=neither
+39	sa	sa	ADP	_	_	_	_	_
+40	nawala	nawala	VERB	_	_	18	relcl	_	gloss=lost|Aspect=Perf|Tense=Past|VerbForm=Part
+41	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40020021
+# ref_id = Matthew 20:21
+# eng_text = He said to her , " What do you want ? " She said to him , " Command that these , my two sons , may sit , one on your right hand , and one on your left hand , in your kingdom . "
+# ceb_text = Nangutana si Jesus kaniya , Unsa may imong gusto ? Siya mitubag , Isaad kanako / nga kining duha ko ka anak / palingkoron mo / sa imong tuo / ug sa imong wala / kon maghari ka na . /
+1	Nangutana	nangutana	VERB	_	_	_	_	_	gloss=guest
+2	si	si	DET	_	_	_	_	_	gloss=went
+3	Jesus	jesus	PROPN	_	_	_	_	_	gloss=Jesus
+4	kaniya	kaniya	PRON	_	_	_	_	_	gloss=cised
+5	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+6	Unsa	unsa	PRON	_	_	_	attr	_	gloss=What
+7	may	may	PART	_	_	_	_	_	gloss=hundred
+8	imong	imong	PRON	_	_	_	poss	_	gloss=your|Person=2|Poss=Yes|PronType=Prs
+9	gusto	gusto	NOUN	_	_	_	_	_	gloss=resp
+10	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+11	Siya	siya	PRON	_	_	_	_	_	gloss=Could
+12	mitubag	mitubag	VERB	_	_	0	root	_	gloss=replied|Tense=Past|VerbForm=Fin
+13	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+14	Isaad	isaad	VERB	_	_	_	_	_
+15	kanako	kanako	PRON	_	_	_	_	_	gloss=cons
+16	/	/	PUNCT	_	_	_	_	_	gloss=wall
+17	nga	nga	SCONJ	_	_	_	_	_	gloss=that
+18	kining	kining	DET	_	_	_	_	_	gloss=ct
+19	duha	duha	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+20	ko	ko	PRON	_	_	_	_	_	gloss=I
+21	ka	ka	PART	_	_	_	_	_	gloss=tor
+22	anak	anak	NOUN	_	_	_	_	_	gloss=son
+23	/	/	PUNCT	_	_	_	_	_	gloss=wall
+24	palingkoron	palingkoron	VERB	_	_	_	_	_
+25	mo	mo	PRON	_	_	_	_	_	gloss=confess
+26	/	/	PUNCT	_	_	_	_	_	gloss=wall
+27	sa	sa	ADP	_	_	_	_	_
+28	imong	imong	PRON	_	_	_	poss	_	gloss=your|Person=2|Poss=Yes|PronType=Prs
+29	tuo	tuo	NOUN	_	_	_	pobj	_	gloss=honor|Number=Sing
+30	/	/	PUNCT	_	_	_	_	_	gloss=wall
+31	ug	ug	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+32	sa	sa	ADP	_	_	_	_	_
+33	imong	imong	PRON	_	_	_	poss	_	gloss=your|Person=2|Poss=Yes|PronType=Prs
+34	wala	wala	NOUN	_	_	_	_	_	gloss=didn’t
+35	/	/	PUNCT	_	_	_	_	_	gloss=wall
+36	kon	kon	SCONJ	_	_	_	_	_	gloss=if
+37	maghari	maghari	VERB	_	_	_	_	_	gloss=realms
+38	ka	ka	PRON	_	_	_	_	_	gloss=tor
+39	na	na	PART	_	_	_	_	_	gloss=already
+40	.	.	PUNCT	_	_	12	punct	_	PunctType=Peri
+41	/	/	PUNCT	_	_	_	_	_	gloss=wall
+
+# sent_id = 40026002
+# ref_id = Matthew 26:2
+# eng_text = " You know that after two days the Passover is coming , and the Son of Man will be delivered up to be crucified . "
+# ceb_text = Nasayod kamo nga duha na lang ka adlaw sa dili pa ang Kasaulogan sa Pagsaylo . Nianang higayona ang Anak sa Tawo itugyan na aron ilansang sa krus .
+1	Nasayod	nasayod	VERB	_	_	_	_	_	gloss=thoughts
+2	kamo	kamo	PRON	_	_	_	nsubj	_	gloss=you|Case=Nom|Person=2|PronType=Prs
+3	nga	nga	SCONJ	_	_	_	_	_	gloss=that
+4	duha	duha	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+5	na	na	PART	_	_	_	_	_	gloss=already
+6	lang	lang	PART	_	_	_	_	_	gloss=actually
+7	ka	ka	PART	_	_	_	_	_	gloss=tor
+8	adlaw	adlaw	NOUN	_	_	_	_	_	gloss=day
+9	sa	sa	ADP	_	_	_	_	_
+10	dili	dili	PART	_	_	_	_	_	gloss=not
+11	pa	pa	PART	_	_	_	_	_	gloss=before
+12	ang	ang	DET	_	_	_	aux	_	gloss=will|VerbForm=Fin
+13	Kasaulogan	kasaulogan	NOUN	_	_	_	nsubj	_	gloss=Passover|Number=Sing
+14	sa	sa	ADP	_	_	_	_	_
+15	Pagsaylo	pagsaylo	NOUN	_	_	_	nsubj	_	gloss=Passover|Number=Sing
+16	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+17	Nianang	nianang	DET	_	_	_	_	_	gloss=beg
+18	higayona	higayona	NOUN	_	_	_	_	_	gloss=beg
+19	ang	ang	DET	_	_	_	aux	_	gloss=will|VerbForm=Fin
+20	Anak	anak	NOUN	_	_	_	nsubjpass	_	gloss=Son|Number=Sing
+21	sa	sa	ADP	_	_	_	_	_
+22	Tawo	tawo	NOUN	_	_	_	pobj	_	gloss=Man|Number=Sing
+23	itugyan	itugyan	VERB	_	_	_	_	_	gloss=Romans
+24	na	na	PART	_	_	_	_	_	gloss=already
+25	aron	aron	SCONJ	_	_	_	_	_	gloss=so
+26	ilansang	ilansang	VERB	_	_	_	advcl	_	gloss=crucified|Aspect=Perf|Tense=Past|VerbForm=Part
+27	sa	sa	ADP	_	_	_	_	_
+28	krus	krus	NOUN	_	_	_	_	_	gloss=cross
+29	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 40026061
+# ref_id = Matthew 26:61
+# eng_text = and said , " This man said , ' I am able to destroy the temple of God , and to build it in three days . ' "
+# ceb_text = ug miingon , Kining tawhana nag-ingon , ' Makahimo ako pagguba sa Templo sa Dios ug pagpatindog niini sa tulo ka adlaw . '
+1	ug	ug	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+2	miingon	miingon	VERB	_	_	_	ccomp	_	gloss=said|Tense=Past|VerbForm=Fin
+3	,	,	PUNCT	_	_	2	punct	_	PunctType=Comm
+4	Kining	kining	DET	_	_	_	_	_	gloss=ci
+5	tawhana	tawhana	NOUN	_	_	_	_	_	gloss=worse
+6	nag-ingon	nag-ingon	VERB	_	_	_	_	_	gloss=erv
+7	,	,	PUNCT	_	_	2	punct	_	PunctType=Comm
+8	'	'	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+9	Makahimo	makahimo	VERB	_	_	_	_	_	gloss=ild
+10	ako	ako	PRON	_	_	2	ccomp	_	gloss=am|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin
+11	pagguba	pagguba	VERB	_	_	_	_	_
+12	sa	sa	ADP	_	_	_	_	_
+13	Templo	templo	PROPN	_	_	_	dobj	_	gloss=Temple|Number=Sing
+14	sa	sa	ADP	_	_	_	_	_
+15	Dios	dios	PROPN	_	_	_	_	_	gloss=Human
+16	ug	ug	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+17	pagpatindog	pagpatindog	VERB	_	_	_	_	_
+18	niini	niini	PRON	_	_	_	_	_	gloss=em
+19	sa	sa	ADP	_	_	_	_	_
+20	tulo	tulo	NUM	_	_	_	nummod	_	gloss=three|NumType=Card
+21	ka	ka	PART	_	_	_	_	_	gloss=tor
+22	adlaw	adlaw	NOUN	_	_	_	_	_	gloss=day
+23	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+24	'	'	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 40028016
+# ref_id = Matthew 28:16
+# eng_text = But the eleven disciples went into Galilee , to the mountain where Jesus had sent them .
+# ceb_text = Ang napulog-usa ka tinun-an miadto sa Galilea didto sa bungtod nga paadtoan kanila ni Jesus .
+1	Ang	ang	unk	_	_	_	_	_	gloss=The
+2	napulog-usa	napulog-usa	unk	_	_	_	_	_
+3	ka	ka	unk	_	_	_	_	_	gloss=tor
+4	tinun-an	tinun-an	NOUN	_	_	_	nsubj	_	gloss=disciples|Number=Plur
+5	miadto	miadto	unk	_	_	_	_	_	gloss=went
+6	sa	sa	unk	_	_	_	_	_
+7	Galilea	galilea	PROPN	_	_	_	pobj	_	gloss=Galilee|Number=Sing
+8	didto	didto	unk	_	_	_	_	_	gloss=there
+9	sa	sa	unk	_	_	_	_	_
+10	bungtod	bungtod	NOUN	_	_	_	pobj	_	gloss=mountain|Number=Sing
+11	nga	nga	unk	_	_	_	_	_	gloss=that
+12	paadtoan	paadtoan	unk	_	_	_	_	_
+13	kanila	kanila	unk	_	_	_	_	_	gloss=ys
+14	ni	ni	unk	_	_	_	_	_	gloss=what
+15	Jesus	jesus	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+16	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41002023
+# ref_id = Mark 2:23
+# eng_text = It happened , that he was going on the Sabbath day through the grain fields , and his disciples began , as they went , to pluck the ears of grain .
+# ceb_text = Usa niana ka Adlawng Igpapahulay , miagi si Jesus ug ang iyang mga tinun-an sa kaumahan sa trigo . Samtang naglakaw sila , ang iyang mga tinun-an nangutlo ug mga uhay sa trigo .
+1	Usa	usa	NUM	_	_	_	_	_	gloss=imate
+2	niana	niana	DET	_	_	_	_	_	gloss=question
+3	ka	ka	PART	_	_	_	_	_	gloss=tor
+4	Adlawng	adlawng	NOUN	_	_	_	compound	_	gloss=Sabbath|Number=Sing
+5	Igpapahulay	igpapahulay	NOUN	_	_	_	compound	_	gloss=Sabbath|Number=Sing
+6	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+7	miagi	miagi	VERB	_	_	_	_	_	gloss=Ph
+8	si	si	DET	_	_	_	_	_	gloss=went
+9	Jesus	jesus	PROPN	_	_	21	nsubj	_	gloss=Jesus|Number=Sing
+10	ug	ug	CCONJ	_	_	_	_	_	gloss=and
+11	ang	ang	DET	_	_	_	_	_	gloss=will
+12	iyang	iyang	PRON	_	_	_	_	_	gloss=ily
+13	mga	mga	PART	_	_	21	mark	_	gloss=as
+14	tinun-an	tinun-an	NOUN	_	_	_	nsubj	_	gloss=disciples|Number=Plur
+15	sa	sa	ADP	_	_	_	_	_
+16	kaumahan	kaumahan	NOUN	_	_	_	_	_	gloss=fy
+17	sa	sa	ADP	_	_	_	_	_
+18	trigo	trigo	NOUN	_	_	_	pobj	_	gloss=grain|Number=Sing
+19	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+20	Samtang	samtang	SCONJ	_	_	_	_	_	gloss=As
+21	naglakaw	naglakaw	VERB	_	_	_	advcl	_	gloss=walking|Aspect=Prog|Tense=Pres|VerbForm=Part
+22	sila	sila	PRON	_	_	_	_	_	gloss=They
+23	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+24	ang	ang	DET	_	_	_	_	_	gloss=will
+25	iyang	iyang	PRON	_	_	_	_	_	gloss=ily
+26	mga	mga	PART	_	_	21	mark	_	gloss=as
+27	tinun-an	tinun-an	NOUN	_	_	_	nsubj	_	gloss=disciples|Number=Plur
+28	nangutlo	nangutlo	VERB	_	_	_	_	_
+29	ug	ug	CCONJ	_	_	_	_	_	gloss=and
+30	mga	mga	PART	_	_	21	mark	_	gloss=as
+31	uhay	uhay	NOUN	_	_	_	_	_
+32	sa	sa	ADP	_	_	_	_	_
+33	trigo	trigo	NOUN	_	_	_	pobj	_	gloss=grain|Number=Sing
+34	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41012032
+# ref_id = Mark 12:32
+# eng_text = The scribe said to him , " Truly , teacher , you have said well that he is one , and there is none other but he ,
+# ceb_text = Ang magtutudlo sa Balaod miingon kang Jesus , “ Husto kana , Magtutudlo ! Tinuod ang imong gisulti nga ang Ginoo lamang maoy Dios ug wala nay laing Dios gawas kaniya .
+1	Ang	ang	DET	_	_	_	det	_	gloss=The|Definite=Def|PronType=Art
+2	magtutudlo	magtutudlo	NOUN	_	_	_	_	_	gloss=teachers
+3	sa	sa	ADP	_	_	_	_	_
+4	Balaod	balaod	NOUN	_	_	_	pobj	_	gloss=law|Number=Sing
+5	miingon	miingon	VERB	_	_	_	ccomp	_	gloss=said|Tense=Past|VerbForm=Fin
+6	kang	kang	ADP	_	_	_	_	_	gloss=ging
+7	Jesus	jesus	PROPN	_	_	_	_	_	gloss=Jesus
+8	,	,	PUNCT	_	_	5	punct	_	PunctType=Comm
+9	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+10	Husto	husto	ADJ	_	_	_	_	_	gloss=ear
+11	kana	kana	PRON	_	_	_	_	_	gloss=ene
+12	,	,	PUNCT	_	_	5	punct	_	PunctType=Comm
+13	Magtutudlo	magtutudlo	NOUN	_	_	5	npadvmod	_	gloss=Teacher|Number=Sing
+14	!	!	PUNCT	_	_	_	pcomp	_	gloss=saying|Aspect=Prog|Tense=Pres|VerbForm=Part
+15	Tinuod	tinuod	ADJ	_	_	_	_	_	gloss=ene
+16	ang	ang	DET	_	_	_	_	_	gloss=will
+17	imong	imong	PRON	_	_	_	_	_	gloss=your
+18	gisulti	gisulti	VERB	_	_	_	_	_	gloss=aven’t
+19	nga	nga	SCONJ	_	_	_	mark	_	gloss=that
+20	ang	ang	SCONJ	_	_	_	_	_	gloss=will
+21	Ginoo	ginoo	NOUN	_	_	_	_	_	gloss=Lord
+22	lamang	lamang	ADV	_	_	_	advmod	_	gloss=only
+23	maoy	maoy	PRON	_	_	_	_	_	gloss=mighty
+24	Dios	dios	PROPN	_	_	_	_	_	gloss=Human
+25	ug	ug	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+26	wala	wala	PART	_	_	_	_	_	gloss=didn’t
+27	nay	nay	VERB	_	_	_	_	_	gloss=y
+28	laing	laing	ADJ	_	_	_	_	_	gloss=another
+29	Dios	dios	PROPN	_	_	_	_	_	gloss=Human
+30	gawas	gawas	ADP	_	_	_	_	_	gloss=unless
+31	kaniya	kaniya	PRON	_	_	_	_	_	gloss=cised
+32	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41014037
+# ref_id = Mark 14:37
+# eng_text = He came and found them sleeping , and said to Peter , " Simon , are you sleeping ? Couldn't you watch one hour ?
+# ceb_text = Unya mibalik siya ngadto sa iyang mga tinun-an ug iyang naabtan nga nangatulog silang tulo . Si Jesus miingon kang Pedro , “ Simon , natulog ka diay ? Dili ka ba gayod makahimo pagtukaw bisag usa lamang ka oras ? ”
+1	Unya	unya	ADV	_	_	_	advmod	_	gloss=Then|PronType=Dem
+2	mibalik	mibalik	VERB	_	_	_	_	_	gloss=back
+3	siya	siya	PRON	_	_	_	_	_	gloss=she
+4	ngadto	ngadto	ADV	_	_	_	_	_	gloss=sour
+5	sa	sa	ADP	_	_	_	_	_
+6	iyang	iyang	PRON	_	_	_	_	_	gloss=ily
+7	mga	mga	PART	_	_	_	_	_	gloss=as
+8	tinun-an	tinun-an	NOUN	_	_	13	nsubj	_	gloss=disciples|Number=Plur
+9	ug	ug	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+10	iyang	iyang	PRON	_	_	_	_	_	gloss=ily
+11	naabtan	naabtan	VERB	_	_	_	_	_
+12	nga	nga	SCONJ	_	_	_	_	_	gloss=that
+13	nangatulog	nangatulog	VERB	_	_	_	acomp	_	gloss=asleep|Degree=Pos
+14	silang	silang	PRON	_	_	_	_	_	gloss=flaunt
+15	tulo	tulo	NUM	_	_	_	_	_	gloss=three
+16	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+17	Si	si	DET	_	_	_	_	_	gloss=ill
+18	Jesus	jesus	PROPN	_	_	_	_	_	gloss=Jesus
+19	miingon	miingon	VERB	_	_	0	root	_	gloss=said|Tense=Past|VerbForm=Fin
+20	kang	kang	ADP	_	_	_	_	_	gloss=ging
+21	Pedro	pedro	PROPN	_	_	_	pobj	_	gloss=Peter|Number=Sing
+22	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+23	“	“	PUNCT	_	_	19	punct	_	PunctSide=Ini|PunctType=Quot
+24	Simon	simon	PROPN	_	_	_	npadvmod	_	gloss=Simon|Number=Sing
+25	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+26	natulog	natulog	VERB	_	_	_	_	_	gloss=sleeping
+27	ka	ka	PRON	_	_	_	_	_	gloss=tor
+28	diay	diay	PART	_	_	_	_	_	gloss=h
+29	?	?	PUNCT	_	_	35	punct	_	PunctType=Peri
+30	Dili	dili	PART	_	_	_	_	_	gloss=vation
+31	ka	ka	PRON	_	_	_	_	_	gloss=tor
+32	ba	ba	PART	_	_	_	_	_	gloss=Are
+33	gayod	gayod	ADV	_	_	_	_	_	gloss=glorif
+34	makahimo	makahimo	VERB	_	_	_	_	_	gloss=ced
+35	pagtukaw	pagtukaw	VERB	_	_	0	root	_	gloss=watch|VerbForm=Inf
+36	bisag	bisag	SCONJ	_	_	_	_	_	gloss=using
+37	usa	usa	NUM	_	_	40	nummod	_	gloss=one|NumType=Card
+38	lamang	lamang	ADV	_	_	_	_	_	gloss=only
+39	ka	ka	PART	_	_	_	_	_	gloss=tor
+40	oras	oras	NOUN	_	_	35	npadvmod	_	gloss=hour|Number=Sing
+41	?	?	PUNCT	_	_	35	punct	_	PunctType=Peri
+42	”	”	PUNCT	_	_	_	_	_
+
+# sent_id = 42004002
+# ref_id = Luke 4:2
+# eng_text = for forty days , being tempted by the devil . He ate nothing in those days . Afterward , when they were completed , he was hungry .
+# ceb_text = ug didto gitintal siya sa Yawa . Niining panahona wala mokaon si Jesus busa sa pagkatapos niini gigutom siya .
+1	ug	ug	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+2	didto	didto	ADV	_	_	_	_	_	gloss=there
+3	gitintal	gitintal	VERB	_	_	_	_	_
+4	siya	siya	PRON	_	_	_	_	_	gloss=she
+5	sa	sa	ADP	_	_	_	_	_
+6	Yawa	yawa	NOUN	_	_	_	pobj	_	gloss=devil|Number=Sing
+7	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+8	Niining	niining	DET	_	_	_	_	_	gloss=tempt
+9	panahona	panahona	NOUN	_	_	_	_	_	gloss=generation
+10	wala	wala	PART	_	_	_	_	_	gloss=didn’t
+11	mokaon	mokaon	VERB	_	_	_	_	_	gloss=eats
+12	si	si	DET	_	_	_	_	_	gloss=went
+13	Jesus	jesus	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+14	busa	busa	SCONJ	_	_	_	_	_	gloss=trap
+15	sa	sa	ADP	_	_	_	_	_
+16	pagkatapos	pagkatapos	NOUN	_	_	_	_	_
+17	niini	niini	PRON	_	_	_	_	_	gloss=em
+18	gigutom	gigutom	VERB	_	_	_	acomp	_	gloss=hungry|Degree=Pos
+19	siya	siya	PRON	_	_	_	_	_	gloss=she
+20	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 42016013
+# ref_id = Luke 16:13
+# eng_text = No servant can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You aren't able to serve God and mammon . "
+# ceb_text = “ Walay tawo nga mahimong ulipon sa duha ka agalon kay iyang dumtan ang usa ug ang usa iyang higugmaon ; unongan niya ang usa ug ang usa iyang tamayon . Dili kamo mahimong magpaulipon sa Dios ug sa salapi . ”
+1	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+2	Walay	walay	PART	_	_	_	_	_	gloss=ri
+3	tawo	tawo	NOUN	_	_	_	_	_	gloss=crowds
+4	nga	nga	SCONJ	_	_	_	_	_	gloss=that
+5	mahimong	mahimong	VERB	_	_	_	_	_	gloss=become
+6	ulipon	ulipon	NOUN	_	_	_	_	_	gloss=slave
+7	sa	sa	ADP	_	_	_	_	_
+8	duha	duha	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+9	ka	ka	PART	_	_	_	_	_	gloss=tor
+10	agalon	agalon	NOUN	_	_	_	_	_	gloss=master
+11	kay	kay	SCONJ	_	_	_	_	_	gloss=than
+12	iyang	iyang	PRON	_	_	_	_	_	gloss=ily
+13	dumtan	dumtan	VERB	_	_	_	_	_
+14	ang	ang	DET	_	_	_	aux	_	gloss=will|VerbForm=Fin
+15	usa	usa	NUM	_	_	_	pobj	_	gloss=one|NumType=Card
+16	ug	ug	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+17	ang	ang	DET	_	_	_	aux	_	gloss=will|VerbForm=Fin
+18	usa	usa	NUM	_	_	_	pobj	_	gloss=one|NumType=Card
+19	iyang	iyang	PRON	_	_	_	_	_	gloss=ily
+20	higugmaon	higugmaon	VERB	_	_	_	conj	_	gloss=love|VerbForm=Inf
+21	;	;	PUNCT	_	_	_	_	_	gloss=remains
+22	unongan	unongan	VERB	_	_	_	_	_
+23	niya	niya	PRON	_	_	_	_	_	gloss=5
+24	ang	ang	DET	_	_	_	aux	_	gloss=will|VerbForm=Fin
+25	usa	usa	NUM	_	_	_	pobj	_	gloss=one|NumType=Card
+26	ug	ug	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+27	ang	ang	DET	_	_	_	aux	_	gloss=will|VerbForm=Fin
+28	usa	usa	NUM	_	_	_	pobj	_	gloss=one|NumType=Card
+29	iyang	iyang	PRON	_	_	_	_	_	gloss=ily
+30	tamayon	tamayon	VERB	_	_	_	_	_	gloss=ess
+31	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+32	Dili	dili	PART	_	_	_	_	_	gloss=vation
+33	kamo	kamo	PRON	_	_	_	nsubj	_	gloss=you|Case=Nom|Person=2|PronType=Prs
+34	mahimong	mahimong	VERB	_	_	_	_	_	gloss=become
+35	magpaulipon	magpaulipon	VERB	_	_	_	acomp	_	gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+36	sa	sa	ADP	_	_	_	_	_
+37	Dios	dios	PROPN	_	_	_	_	_	gloss=Human
+38	ug	ug	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+39	sa	sa	ADP	_	_	_	_	_
+40	salapi	salapi	NOUN	_	_	_	_	_	gloss=coin
+41	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+42	”	”	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 42024018
+# ref_id = Luke 24:18
+# eng_text = One of them , named Cleopas , answered him , " Are you the only one travelling in Jerusalem who doesn't know the things which have happened there in these days ? "
+# ceb_text = Ug ang usa kanila nga ginganlag Cleopas nangutana kaniya , “ Ikaw ra siguroy bisita sa Jerusalem nga wala mahibalo sa mga nahitabo didto niining pipila ka adlaw nga milabay . ”
+1	Ug	ug	CCONJ	_	_	_	_	_	gloss=And
+2	ang	ang	DET	_	_	_	_	_	gloss=will
+3	usa	usa	NUM	_	_	_	nsubj	_	gloss=one|NumType=Card
+4	kanila	kanila	PRON	_	_	_	_	_	gloss=ys
+5	nga	nga	SCONJ	_	_	23	nsubj	_	gloss=that|PronType=Rel
+6	ginganlag	ginganlag	VERB	_	_	_	_	_	gloss=named
+7	Cleopas	cleopas	PROPN	_	_	_	_	_
+8	nangutana	nangutana	VERB	_	_	_	_	_	gloss=asked
+9	kaniya	kaniya	PRON	_	_	_	_	_	gloss=cised
+10	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+11	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+12	Ikaw	ikaw	PRON	_	_	_	_	_	gloss=ized
+13	ra	ra	AUX	_	_	_	amod	_	gloss=only|Degree=Pos
+14	siguroy	siguroy	ADV	_	_	_	_	_
+15	bisita	bisita	NOUN	_	_	_	_	_	gloss=learned
+16	sa	sa	ADP	_	_	_	_	_
+17	Jerusalem	jerusalem	PROPN	_	_	_	pobj	_	gloss=Jerusalem|Number=Sing
+18	nga	nga	SCONJ	_	_	23	nsubj	_	gloss=that|PronType=Rel
+19	wala	wala	PART	_	_	_	_	_	gloss=didn’t
+20	mahibalo	mahibalo	VERB	_	_	_	_	_	gloss=asting
+21	sa	sa	ADP	_	_	_	_	_
+22	mga	mga	PART	_	_	_	_	_	gloss=as
+23	nahitabo	nahitabo	VERB	_	_	_	relcl	_	gloss=happened|Aspect=Perf|Tense=Past|VerbForm=Part
+24	didto	didto	ADV	_	_	23	advmod	_	gloss=there|PronType=Dem
+25	niining	niining	DET	_	_	_	_	_	gloss=these
+26	pipila	pipila	NUM	_	_	_	_	_	gloss=some
+27	ka	ka	PART	_	_	_	_	_	gloss=tor
+28	adlaw	adlaw	NOUN	_	_	_	_	_	gloss=day
+29	nga	nga	SCONJ	_	_	23	nsubj	_	gloss=that|PronType=Rel
+30	milabay	milabay	VERB	_	_	_	_	_	gloss=bel
+31	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+32	”	”	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 43001039
+# ref_id = John 1:39
+# eng_text = He said to them , " Come , and see . " They came and saw where he was staying , and they stayed with him that day . It was about the tenth hour .
+# ceb_text = “ Dali kamo ug tan-awa ninyo , ” mitubag siya . ( Mga alas kuwatro kadto sa hapon . ) Busa mikuyog sila kaniya ug nakita nila ang iyang gipuy-an ug nagpabilin sila uban kaniya niadtong adlawa .
+1	“	“	PUNCT	_	_	2	punct	_	PunctSide=Ini|PunctType=Quot
+2	Dali	dali	VERB	_	_	_	ccomp	_	gloss=Come|VerbForm=Inf
+3	kamo	kamo	PRON	_	_	_	_	_	gloss=you
+4	ug	ug	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+5	tan-awa	tan-awa	VERB	_	_	_	_	_	gloss=poss
+6	ninyo	ninyo	PRON	_	_	_	_	_	gloss=You
+7	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+8	”	”	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+9	mitubag	mitubag	VERB	_	_	_	_	_	gloss=replied
+10	siya	siya	PRON	_	_	_	_	_	gloss=she
+11	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+12	(	(	PUNCT	_	_	_	_	_
+13	Mga	mga	PART	_	_	_	_	_	gloss=Dear
+14	alas	alas	NOUN	_	_	_	attr	_	gloss=o’clock|Number=Sing
+15	kuwatro	kuwatro	NUM	_	_	_	_	_
+16	kadto	kadto	PRON	_	_	_	_	_	gloss=ach
+17	sa	sa	ADP	_	_	_	_	_
+18	hapon	hapon	NOUN	_	_	_	pobj	_	gloss=afternoon|Number=Sing
+19	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+20	)	)	PUNCT	_	_	_	_	_
+21	Busa	busa	SCONJ	_	_	_	_	_	gloss=So
+22	mikuyog	mikuyog	VERB	_	_	_	_	_	gloss=sed
+23	sila	sila	PRON	_	_	_	_	_	gloss=They
+24	kaniya	kaniya	PRON	_	_	_	_	_	gloss=cised
+25	ug	ug	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+26	nakita	nakita	VERB	_	_	_	_	_	gloss=saw
+27	nila	nila	PRON	_	_	_	_	_	gloss=garments
+28	ang	ang	DET	_	_	_	_	_	gloss=will
+29	iyang	iyang	PRON	_	_	_	_	_	gloss=ily
+30	gipuy-an	gipuy-an	VERB	_	_	_	_	_	gloss=hometown
+31	ug	ug	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+32	nagpabilin	nagpabilin	VERB	_	_	_	_	_	gloss=stayed
+33	sila	sila	PRON	_	_	_	_	_	gloss=They
+34	uban	uban	ADP	_	_	_	_	_	gloss=others
+35	kaniya	kaniya	PRON	_	_	_	_	_	gloss=cised
+36	niadtong	niadtong	DET	_	_	_	_	_	gloss=ularly
+37	adlawa	adlawa	NOUN	_	_	_	_	_	gloss=Today
+38	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 43003016
+# ref_id = John 3:16
+# eng_text = For God so loved the world , that he gave his one and only Son , that whoever believes in him should not perish , but have eternal life .
+# ceb_text = Kay gihigugma pag-ayo sa Dios ang kalibotan ug tungod niini gihatag niya ang iyang bugtong Anak , aron ang tanan nga motuo kaniya dili malaglag kondili makabaton hinuon sa kinabuhing dayon .
+1	Kay	kay	SCONJ	_	_	2	prep	_	gloss=For
+2	gihigugma	gihigugma	VERB	_	_	0	root	_	gloss=loved|Tense=Past|VerbForm=Fin
+3	pag-ayo	pag-ayo	ADV	_	_	_	_	_	gloss=per
+4	sa	sa	ADP	_	_	_	_	_
+5	Dios	dios	PROPN	_	_	_	_	_	gloss=Human
+6	ang	ang	DET	_	_	_	aux	_	gloss=will|VerbForm=Fin
+7	kalibotan	kalibotan	NOUN	_	_	2	dobj	_	gloss=world|Number=Sing
+8	ug	ug	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+9	tungod	tungod	ADP	_	_	_	_	_	gloss=deep
+10	niini	niini	PRON	_	_	_	_	_	gloss=em
+11	gihatag	gihatag	VERB	_	_	_	_	_	gloss=given
+12	niya	niya	PRON	_	_	_	_	_	gloss=5
+13	ang	ang	DET	_	_	_	aux	_	gloss=will|VerbForm=Fin
+14	iyang	iyang	PRON	_	_	_	_	_	gloss=ily
+15	bugtong	bugtong	ADJ	_	_	_	conj	_	gloss=only
+16	Anak	anak	NOUN	_	_	_	appos	_	gloss=Son|Number=Sing
+17	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+18	aron	aron	SCONJ	_	_	_	mark	_	gloss=so
+19	ang	ang	DET	_	_	_	aux	_	gloss=will|VerbForm=Fin
+20	tanan	tanan	PRON	_	_	_	nsubj	_	gloss=everyone|Number=Sing|PronType=Ind
+21	nga	nga	SCONJ	_	_	_	mark	_	gloss=that
+22	motuo	motuo	VERB	_	_	_	_	_	gloss=believe
+23	kaniya	kaniya	PRON	_	_	_	_	_	gloss=cised
+24	dili	dili	PART	_	_	_	neg	_	gloss=not|Polarity=Neg
+25	malaglag	malaglag	VERB	_	_	_	_	_
+26	kondili	kondili	CCONJ	_	_	_	_	_	gloss=ourselves
+27	makabaton	makabaton	VERB	_	_	_	_	_	gloss=w
+28	hinuon	hinuon	ADV	_	_	_	_	_	gloss=ose
+29	sa	sa	ADP	_	_	_	_	_
+30	kinabuhing	kinabuhing	ADJ	_	_	_	amod	_	gloss=eternal|Degree=Pos
+31	dayon	dayon	ADV	_	_	_	_	_	gloss=uth
+32	.	.	PUNCT	_	_	2	punct	_	PunctType=Peri
+
+# sent_id = 44002030
+# ref_id = Acts 2:30
+# eng_text = Therefore , being a prophet , and knowing that God had sworn with an oath to him that of the fruit of his body , according to the flesh , he would raise up the Christ to sit on his throne ,
+# ceb_text = Usa siya ka propeta ug nahibalo nga ang Dios nanumpa sa pagtuman sa iyang saad nga himoon niyang hari ang usa sa iyang mga kaliwat .
+1	Usa	usa	NUM	_	_	_	_	_	gloss=imate
+2	siya	siya	PRON	_	_	_	_	_	gloss=she
+3	ka	ka	PART	_	_	_	_	_	gloss=tor
+4	propeta	propeta	NOUN	_	_	_	_	_	gloss=prophets
+5	ug	ug	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+6	nahibalo	nahibalo	VERB	_	_	_	_	_	gloss=exactly
+7	nga	nga	SCONJ	_	_	_	mark	_	gloss=that
+8	ang	ang	DET	_	_	_	_	_	gloss=will
+9	Dios	dios	PROPN	_	_	_	_	_	gloss=Human
+10	nanumpa	nanumpa	VERB	_	_	_	_	_	gloss=swore
+11	sa	sa	ADP	_	_	_	_	_
+12	pagtuman	pagtuman	VERB	_	_	_	_	_	gloss=commands
+13	sa	sa	ADP	_	_	_	_	_
+14	iyang	iyang	PRON	_	_	_	_	_	gloss=ily
+15	saad	saad	NOUN	_	_	_	_	_	gloss=entering
+16	nga	nga	SCONJ	_	_	_	mark	_	gloss=that
+17	himoon	himoon	VERB	_	_	_	_	_	gloss=killing
+18	niyang	niyang	PRON	_	_	_	_	_	gloss=ified
+19	hari	hari	NOUN	_	_	_	_	_	gloss=king
+20	ang	ang	DET	_	_	_	_	_	gloss=will
+21	usa	usa	NUM	_	_	_	nsubj	_	gloss=one|NumType=Card
+22	sa	sa	ADP	_	_	_	_	_
+23	iyang	iyang	PRON	_	_	_	_	_	gloss=ily
+24	mga	mga	PART	_	_	_	_	_	gloss=as
+25	kaliwat	kaliwat	NOUN	_	_	_	pobj	_	gloss=descendants|Number=Plur
+26	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 44009038
+# ref_id = Acts 9:38
+# eng_text = As Lydda was near Joppa , the disciples , hearing that Peter was there , sent two men to him , imploring him not to delay in coming to them .
+# ceb_text = Ang Jopa dili kaayo layo sa Lida ug sa pagkadungog sa mga tinun-an didto sa Jopa nga si Pedro didto sa Lida , nagsugo silag duha ka tawo sa pagpahibalo kaniya nga paadtoon siya sa Jopa sa labing madali .
+1	Ang	ang	DET	_	_	_	_	_	gloss=The
+2	Jopa	jopa	PROPN	_	_	_	_	_	gloss=Joppa
+3	dili	dili	PART	_	_	_	_	_	gloss=not
+4	kaayo	kaayo	ADV	_	_	_	_	_	gloss=keep
+5	layo	layo	ADJ	_	_	_	_	_	gloss=distance
+6	sa	sa	ADP	_	_	_	_	_
+7	Lida	lida	PROPN	_	_	_	_	_
+8	ug	ug	CCONJ	_	_	_	_	_	gloss=and
+9	sa	sa	ADP	_	_	_	_	_
+10	pagkadungog	pagkadungog	VERB	_	_	_	ccomp	_	gloss=heard|Aspect=Perf|Tense=Past|VerbForm=Part
+11	sa	sa	ADP	_	_	_	_	_
+12	mga	mga	PART	_	_	_	prep	_	gloss=as
+13	tinun-an	tinun-an	NOUN	_	_	_	_	_	gloss=disciples
+14	didto	didto	ADV	_	_	_	_	_	gloss=there
+15	sa	sa	ADP	_	_	_	_	_
+16	Jopa	jopa	PROPN	_	_	_	_	_	gloss=Joppa
+17	nga	nga	SCONJ	_	_	_	mark	_	gloss=that
+18	si	si	DET	_	_	_	_	_	gloss=went
+19	Pedro	pedro	PROPN	_	_	_	nsubj	_	gloss=Peter|Number=Sing
+20	didto	didto	ADV	_	_	_	_	_	gloss=there
+21	sa	sa	ADP	_	_	_	_	_
+22	Lida	lida	PROPN	_	_	_	_	_
+23	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+24	nagsugo	nagsugo	VERB	_	_	_	_	_	gloss=Nor
+25	silag	silag	PRON	_	_	_	_	_	gloss=trump
+26	duha	duha	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+27	ka	ka	PART	_	_	_	_	_	gloss=tor
+28	tawo	tawo	NOUN	_	_	_	_	_	gloss=crowds
+29	sa	sa	ADP	_	_	_	_	_
+30	pagpahibalo	pagpahibalo	VERB	_	_	_	_	_
+31	kaniya	kaniya	PRON	_	_	_	_	_	gloss=cised
+32	nga	nga	SCONJ	_	_	_	mark	_	gloss=that
+33	paadtoon	paadtoon	VERB	_	_	_	_	_
+34	siya	siya	PRON	_	_	_	_	_	gloss=she
+35	sa	sa	ADP	_	_	_	_	_
+36	Jopa	jopa	PROPN	_	_	_	_	_	gloss=Joppa
+37	sa	sa	ADP	_	_	_	_	_
+38	labing	labing	ADV	_	_	_	_	_	gloss=seat
+39	madali	madali	ADJ	_	_	_	_	_	gloss=d
+40	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 44011011
+# ref_id = Acts 11:11
+# eng_text = Behold , immediately three men stood before the house where I was , having been sent from Caesarea to me .
+# ceb_text = Ug niadto gayong higayona tulo ka tawo gikan sa Cesarea nga gisugo sa pagkuha kanako miabot sa balay nga akong giabotan .
+1	Ug	ug	CCONJ	_	_	_	_	_	gloss=And
+2	niadto	niadto	ADV	_	_	_	_	_	gloss=Brother
+3	gayong	gayong	ADV	_	_	_	_	_	gloss=crowned
+4	higayona	higayona	NOUN	_	_	_	_	_	gloss=beg
+5	tulo	tulo	NUM	_	_	_	nummod	_	gloss=three|NumType=Card
+6	ka	ka	PART	_	_	_	_	_	gloss=tor
+7	tawo	tawo	NOUN	_	_	_	_	_	gloss=crowds
+8	gikan	gikan	ADP	_	_	_	prep	_	gloss=from
+9	sa	sa	ADP	_	_	_	_	_
+10	Cesarea	cesarea	PROPN	_	_	8	pobj	_	gloss=Caesarea|Number=Sing
+11	nga	nga	SCONJ	_	_	_	_	_	gloss=that
+12	gisugo	gisugo	VERB	_	_	_	_	_	gloss=commands
+13	sa	sa	ADP	_	_	_	_	_
+14	pagkuha	pagkuha	VERB	_	_	_	_	_	gloss=collect
+15	kanako	kanako	PRON	_	_	_	_	_	gloss=cons
+16	miabot	miabot	VERB	_	_	_	_	_	gloss=Golgotha
+17	sa	sa	ADP	_	_	_	_	_
+18	balay	balay	NOUN	_	_	_	pobj	_	gloss=house|Number=Sing
+19	nga	nga	SCONJ	_	_	_	_	_	gloss=that
+20	akong	akong	PRON	_	_	_	_	_	gloss=my
+21	giabotan	giabotan	VERB	_	_	_	_	_
+22	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 44021034
+# ref_id = Acts 21:34
+# eng_text = Some shouted one thing , some another , among the crowd . When he couldn't find out the truth because of the noise , he commanded him to be brought into the barracks .
+# ceb_text = Apan nagkalainlain ang tubag sa mga tawo . Tungod sa kaguliyang sa mga tawo wala makatino ang komandante kon unsa gayod ang nahitabo . Busa gisugo niya ang iyang mga sundalo sa pagdala kang Pablo ngadto sa kampo .
+1	Apan	apan	CCONJ	_	_	_	_	_	gloss=But
+2	nagkalainlain	nagkalainlain	VERB	_	_	_	_	_
+3	ang	ang	DET	_	_	_	_	_	gloss=will
+4	tubag	tubag	NOUN	_	_	_	dobj	_	gloss=thing|Number=Sing
+5	sa	sa	ADP	_	_	_	_	_
+6	mga	mga	PART	_	_	_	_	_	gloss=as
+7	tawo	tawo	NOUN	_	_	_	_	_	gloss=crowds
+8	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+9	Tungod	tungod	ADP	_	_	_	_	_	gloss=kn
+10	sa	sa	ADP	_	_	_	_	_
+11	kaguliyang	kaguliyang	NOUN	_	_	_	_	_
+12	sa	sa	ADP	_	_	_	_	_
+13	mga	mga	PART	_	_	_	_	_	gloss=as
+14	tawo	tawo	NOUN	_	_	_	_	_	gloss=crowds
+15	wala	wala	PART	_	_	_	_	_	gloss=didn’t
+16	makatino	makatino	VERB	_	_	_	_	_
+17	ang	ang	DET	_	_	_	_	_	gloss=will
+18	komandante	komandante	NOUN	_	_	_	_	_	gloss=commander
+19	kon	kon	SCONJ	_	_	_	_	_	gloss=if
+20	unsa	unsa	PRON	_	_	_	_	_	gloss=unclean
+21	gayod	gayod	ADV	_	_	_	_	_	gloss=glorif
+22	ang	ang	DET	_	_	_	_	_	gloss=will
+23	nahitabo	nahitabo	VERB	_	_	_	_	_	gloss=happened
+24	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+25	Busa	busa	SCONJ	_	_	_	_	_	gloss=So
+26	gisugo	gisugo	VERB	_	_	_	_	_	gloss=commands
+27	niya	niya	PRON	_	_	_	_	_	gloss=5
+28	ang	ang	DET	_	_	_	_	_	gloss=will
+29	iyang	iyang	PRON	_	_	_	_	_	gloss=ily
+30	mga	mga	PART	_	_	_	_	_	gloss=as
+31	sundalo	sundalo	NOUN	_	_	_	_	_	gloss=soldiers
+32	sa	sa	ADP	_	_	_	_	_
+33	pagdala	pagdala	VERB	_	_	_	_	_
+34	kang	kang	ADP	_	_	_	_	_	gloss=ging
+35	Pablo	pablo	PROPN	_	_	_	nsubjpass	_	gloss=Paul|Number=Sing
+36	ngadto	ngadto	ADV	_	_	_	_	_	gloss=sour
+37	sa	sa	ADP	_	_	_	_	_
+38	kampo	kampo	NOUN	_	_	_	_	_
+39	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 47012002
+# ref_id = 2 Corinthians 12:2
+# eng_text = I know a man in Christ , fourteen years ago ( whether in the body , I don't know , or whether out of the body , I don't know ; God knows ) , such a one caught up into the third heaven .
+# ceb_text = May nailhan ako nga usa ka Cristohanon , 14 na ka tuig karon sukad nga gibayaw siya ngadto sa ikatulong langit . Ambot kon gibayaw ba gayod siya o panan-awon ba lamang kadto ; ang Dios ray nasayod .
+1	May	may	PART	_	_	_	_	_	gloss=Still
+2	nailhan	nailhan	VERB	_	_	_	_	_	gloss=Through
+3	ako	ako	PRON	_	_	_	_	_	gloss=am
+4	nga	nga	SCONJ	_	_	_	_	_	gloss=that
+5	usa	usa	NUM	_	_	_	_	_	gloss=one
+6	ka	ka	PART	_	_	_	_	_	gloss=tor
+7	Cristohanon	cristohanon	NOUN	_	_	_	_	_	gloss=belong
+8	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+9	14	14	NUM	_	_	12	nummod	_	gloss=fourteen|NumType=Card
+10	na	na	PART	_	_	_	_	_	gloss=already
+11	ka	ka	PART	_	_	_	_	_	gloss=tor
+12	tuig	tuig	NOUN	_	_	_	npadvmod	_	gloss=years|Number=Plur
+13	karon	karon	ADV	_	_	_	_	_	gloss=now
+14	sukad	sukad	SCONJ	_	_	_	_	_	gloss=creation
+15	nga	nga	SCONJ	_	_	_	_	_	gloss=that
+16	gibayaw	gibayaw	VERB	_	_	_	_	_	gloss=further
+17	siya	siya	PRON	_	_	_	_	_	gloss=she
+18	ngadto	ngadto	ADV	_	_	_	_	_	gloss=sour
+19	sa	sa	ADP	_	_	_	_	_
+20	ikatulong	ikatulong	ADJ	_	_	21	amod	_	gloss=third|Degree=Pos
+21	langit	langit	NOUN	_	_	_	pobj	_	gloss=heaven|Number=Sing
+22	.	.	PUNCT	_	_	38	punct	_	PunctType=Peri
+23	Ambot	ambot	unk	_	_	_	_	_
+24	kon	kon	SCONJ	_	_	_	_	_	gloss=if
+25	gibayaw	gibayaw	VERB	_	_	_	_	_	gloss=further
+26	ba	ba	PART	_	_	_	_	_	gloss=Are
+27	gayod	gayod	ADV	_	_	_	_	_	gloss=glorif
+28	siya	siya	PRON	_	_	_	_	_	gloss=she
+29	o	o	CCONJ	_	_	_	cc	_	gloss=or|ConjType=Cmp
+30	panan-awon	panan-awon	NOUN	_	_	_	_	_	gloss=vision
+31	ba	ba	PART	_	_	_	_	_	gloss=Are
+32	lamang	lamang	ADV	_	_	_	_	_	gloss=only
+33	kadto	kadto	PRON	_	_	_	_	_	gloss=ach
+34	;	;	PUNCT	_	_	_	_	_	gloss=remains
+35	ang	ang	DET	_	_	_	_	_	gloss=will
+36	Dios	dios	PROPN	_	_	_	_	_	gloss=Human
+37	ray	ray	PART	_	_	_	_	_	gloss=im
+38	nasayod	nasayod	VERB	_	_	0	root	_	gloss=knows|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+39	.	.	PUNCT	_	_	38	punct	_	PunctType=Peri
+
+# sent_id = 62004009
+# ref_id = 1 John 4:9
+# eng_text = By this was God's love revealed in us , that God has sent his only born Son into the world that we might live through him .
+# ceb_text = Gipadayag sa Dios ang iyang gugma kanato pinaagi sa pagpadala sa iyang bugtong Anak nganhi sa kalibotan aron makabaton kita sa kinabuhing walay kataposan pinaagi kaniya .
+1	Gipadayag	gipadayag	VERB	_	_	_	aux	_	gloss=might|VerbForm=Fin
+2	sa	sa	ADP	_	_	_	_	_
+3	Dios	dios	PROPN	_	_	_	_	_	gloss=Human
+4	ang	ang	DET	_	_	_	_	_	gloss=will
+5	iyang	iyang	PRON	_	_	_	_	_	gloss=ily
+6	gugma	gugma	NOUN	_	_	_	_	_	gloss=love
+7	kanato	kanato	PRON	_	_	_	dobj	_	gloss=us|Case=Acc|Number=Plur|Person=1|PronType=Prs
+8	pinaagi	pinaagi	ADP	_	_	_	prep	_	gloss=through
+9	sa	sa	ADP	_	_	_	_	_
+10	pagpadala	pagpadala	VERB	_	_	_	_	_
+11	sa	sa	ADP	_	_	_	_	_
+12	iyang	iyang	PRON	_	_	_	_	_	gloss=ily
+13	bugtong	bugtong	ADJ	_	_	14	advmod	_	gloss=only
+14	Anak	anak	NOUN	_	_	_	conj	_	gloss=Son|Number=Sing
+15	nganhi	nganhi	ADV	_	_	_	_	_	gloss=bring
+16	sa	sa	ADP	_	_	_	_	_
+17	kalibotan	kalibotan	NOUN	_	_	_	pobj	_	gloss=world|Number=Sing
+18	aron	aron	SCONJ	_	_	_	mark	_	gloss=so
+19	makabaton	makabaton	VERB	_	_	_	_	_	gloss=w
+20	kita	kita	PRON	_	_	_	nsubj	_	gloss=we|Case=Nom|Number=Plur|Person=1|PronType=Prs
+21	sa	sa	ADP	_	_	_	_	_
+22	kinabuhing	kinabuhing	ADJ	_	_	_	amod	_	gloss=eternal|Degree=Pos
+23	walay	walay	PART	_	_	_	_	_	gloss=none
+24	kataposan	kataposan	NOUN	_	_	_	_	_	gloss=Last
+25	pinaagi	pinaagi	ADP	_	_	_	prep	_	gloss=through
+26	kaniya	kaniya	PRON	_	_	_	_	_	gloss=cised
+27	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 63001005
+# ref_id = 2 John 1:5
+# eng_text = Now I beg you , dear lady , not as though I wrote to you a new commandment , but that which we had from the beginning , that we love one another .
+# ceb_text = Busa hangyoon ko ikaw , minahal nga Ginang , nga maghigugmaay kitang tanan . Kining gisulat ko kanimo dili bag-ong sugo kondili dinhi na kanato sukad pa sa sinugdan .
+1	Busa	busa	SCONJ	_	_	_	_	_	gloss=So
+2	hangyoon	hangyoon	VERB	_	_	_	_	_	gloss=bri
+3	ko	ko	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+4	ikaw	ikaw	PRON	_	_	_	_	_	gloss=p
+5	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+6	minahal	minahal	ADJ	_	_	_	_	_	gloss=ref
+7	nga	nga	SCONJ	_	_	_	mark	_	gloss=that
+8	Ginang	ginang	NOUN	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+10	nga	nga	SCONJ	_	_	_	mark	_	gloss=that
+11	maghigugmaay	maghigugmaay	VERB	_	_	_	_	_	gloss=ression
+12	kitang	kitang	PRON	_	_	_	_	_	gloss=clud
+13	tanan	tanan	PRON	_	_	_	_	_	gloss=everyone
+14	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+15	Kining	kining	DET	_	_	_	_	_	gloss=ci
+16	gisulat	gisulat	VERB	_	_	_	_	_	gloss=wr
+17	ko	ko	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+18	kanimo	kanimo	PRON	_	_	_	_	_	gloss=something
+19	dili	dili	PART	_	_	_	neg	_	gloss=not|Polarity=Neg
+20	bag-ong	bag-ong	ADJ	_	_	_	amod	_	gloss=new|Degree=Pos
+21	sugo	sugo	NOUN	_	_	_	_	_	gloss=sion
+22	kondili	kondili	CCONJ	_	_	_	_	_	gloss=ourselves
+23	dinhi	dinhi	ADV	_	_	_	_	_	gloss=here
+24	na	na	PART	_	_	_	_	_	gloss=already
+25	kanato	kanato	PRON	_	_	_	_	_	gloss=us
+26	sukad	sukad	SCONJ	_	_	_	_	_	gloss=creation
+27	pa	pa	ADP	_	_	_	_	_	gloss=before
+28	sa	sa	ADP	_	_	_	_	_
+29	sinugdan	sinugdan	NOUN	_	_	_	pobj	_	gloss=beginning|Number=Sing
+30	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+

@@ -1,0 +1,760 @@
+## The following text has been annotated for parts of speech by students at NTU Singapore as part of a class project in AY 2025-26.
+## Verses are extracted from the taggedPBC. Annotations have been developed with a combination of manual and automated approaches, with reference to existing literature and (where possible) native speakers.
+## ISO 639-3: ilo, Language: Iloko, Number of verses: 21
+## References: Coloma, S. M., Nonato, M. G. M., Guzman, S. E. M., Ragudos, H. T., Leung, L. T., & Ramos, J. K. R. (2024). Simplifying Language Translation: Implementing Transliteration for Ilokano-English Declarative Sentences Using a Context-Free Grammar Approach. ; Reid, L. A. (2002). Review of Ilocano Dictionary and Grammar: Ilocano-English, English-Ilocano, by Carl Ralph Galvez Rubino. Oceanic Linguistics, 41(1). ; Rubino, C. R. G. (2000). Ilocano Dictionary and Grammar: Ilocano-English, English-Ilocano. University of Hawai'i Press.
+
+# sent_id = 40006024
+# ref_id = Matthew 6:24
+# eng_text = " No one can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You can't serve both God and Mammon .
+# ilo_text = Awan ti tao a macabalin nga agservi iti dua nga appo ; ta guraennanto ti maysa ket ayatennanto ti sabali , wenno sumurotto iti maysa ket umsienna ti sabali : dicay mabalin ti agservi iti Dios ken iti kinabacnang .
+1	Awan	awan	unk	_	_	_	_	_	gloss=ess
+2	ti	ti	ADP	_	_	_	_	_	gloss=of
+3	tao	tao	NOUN	_	_	_	_	_	gloss=man
+4	a	a	unk	_	_	_	_	_
+5	macabalin	macabalin	VERB	_	_	_	_	_	gloss=be.able
+6	nga	nga	unk	_	_	_	_	_	gloss=that
+7	agservi	agservi	VERB	_	_	0	root	_	gloss=serve|VerbForm=Inf
+8	iti	iti	ADP	_	_	_	_	_	gloss=in
+9	dua	dua	NUM	_	_	11	nummod	_	gloss=two|NumType=Card
+10	nga	nga	unk	_	_	_	_	_	gloss=that
+11	appo	appo	NOUN	_	_	7	dobj	_	gloss=masters|Number=Plur
+12	;	;	PUNCT	_	_	_	_	_	gloss=among
+13	ta	ta	SCONJ	_	_	_	_	_	gloss=for
+14	guraennanto	guraennanto	VERB	_	_	_	acomp	_	gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+15	ti	ti	ADP	_	_	_	_	_	gloss=of
+16	maysa	maysa	NUM	_	_	_	_	_	gloss=one
+17	ket	ket	CCONJ	_	_	_	_	_	gloss=and
+18	ayatennanto	ayatennanto	VERB	_	_	_	acomp	_	gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+19	ti	ti	ADP	_	_	_	_	_	gloss=of
+20	sabali	sabali	ADJ	_	_	_	_	_	gloss=another
+21	,	,	PUNCT	_	_	_	_	_
+22	wenno	wenno	CCONJ	_	_	_	_	_	gloss=or
+23	sumurotto	sumurotto	unk	_	_	_	_	_
+24	iti	iti	ADP	_	_	_	_	_	gloss=in
+25	maysa	maysa	NUM	_	_	_	_	_	gloss=one
+26	ket	ket	CCONJ	_	_	_	_	_	gloss=and
+27	umsienna	umsienna	unk	_	_	_	_	_
+28	ti	ti	ADP	_	_	_	_	_	gloss=of
+29	sabali	sabali	ADJ	_	_	_	_	_	gloss=another
+30	:	:	PUNCT	_	_	_	_	_	gloss=ged
+31	dicay	dicay	VERB	_	_	_	_	_	gloss=cannot
+32	mabalin	mabalin	VERB	_	_	_	_	_	gloss=be.able
+33	ti	ti	ADP	_	_	_	_	_	gloss=of
+34	agservi	agservi	VERB	_	_	0	root	_	gloss=serve|VerbForm=Inf
+35	iti	iti	ADP	_	_	_	_	_	gloss=in
+36	Dios	dios	NOUN	_	_	34	dobj	_	gloss=God|Number=Sing
+37	ken	ken	CCONJ	_	_	_	_	_	gloss=and
+38	iti	iti	ADP	_	_	_	_	_	gloss=in
+39	kinabacnang	kinabacnang	NOUN	_	_	_	_	_	gloss=wealth
+40	.	.	PUNCT	_	_	34	punct	_	PunctType=Peri
+
+# sent_id = 40018012
+# ref_id = Matthew 18:12
+# eng_text = " What do you think ? If a man has one hundred sheep , and one of them goes astray , doesn't he leave the ninety-nine , go to the mountains , and seek that which has gone astray ?
+# ilo_text = Ania ti panagcunayo ? No ti maysa a tao adda sangagasut a carnerona ket mayaoawan ti maysa cadacuada , dinto ngata mapan cadagiti banbantay , a panawanna dagiti siam a pulo ket siam , tapno sapulenna ti nayaoawan ?
+1	Ania	ania	PRON	_	_	_	_	_	gloss=What
+2	ti	ti	ADP	_	_	_	prep	_	gloss=of
+3	panagcunayo	panagcunayo	unk	_	_	_	_	_
+4	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+5	No	no	SCONJ	_	_	_	mark	_	gloss=If
+6	ti	ti	ADP	_	_	_	prep	_	gloss=of
+7	maysa	maysa	NUM	_	_	31	quantmod	_	gloss=a|Definite=Ind|PronType=Art
+8	a	a	unk	_	_	_	_	_
+9	tao	tao	NOUN	_	_	_	nsubj	_	gloss=man|Number=Sing
+10	adda	adda	VERB	_	_	_	_	_	gloss=have
+11	sangagasut	sangagasut	NUM	_	_	_	_	_	gloss=one.hundred
+12	a	a	unk	_	_	_	_	_
+13	carnerona	carnerona	NOUN	_	_	_	dobj	_	gloss=sheep|Number=Plur
+14	ket	ket	CCONJ	_	_	_	_	_	gloss=and
+15	mayaoawan	mayaoawan	unk	_	_	_	_	_
+16	ti	ti	ADP	_	_	_	prep	_	gloss=of
+17	maysa	maysa	NUM	_	_	31	quantmod	_	gloss=a|Definite=Ind|PronType=Art
+18	cadacuada	cadacuada	PRON	_	_	16	pobj	_	gloss=them|Case=Acc|Number=Plur|Person=3|PronType=Prs
+19	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+20	dinto	dinto	unk	_	_	_	_	_	gloss=scene
+21	ngata	ngata	unk	_	_	_	_	_	gloss=Could
+22	mapan	mapan	VERB	_	_	_	_	_	gloss=go
+23	cadagiti	cadagiti	ADP	_	_	_	_	_	gloss=to
+24	banbantay	banbantay	NOUN	_	_	_	_	_	gloss=mountains
+25	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+26	a	a	unk	_	_	_	_	_
+27	panawanna	panawanna	unk	_	_	_	_	_
+28	dagiti	dagiti	DET	_	_	_	_	_	gloss=the.PL
+29	siam	siam	unk	_	_	_	_	_	gloss=nine
+30	a	a	unk	_	_	_	_	_
+31	pulo	pulo	NUM	_	_	13	nummod	_	gloss=hundred|NumType=Card
+32	ket	ket	CCONJ	_	_	_	_	_	gloss=and
+33	siam	siam	unk	_	_	_	_	_	gloss=nine
+34	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+35	tapno	tapno	SCONJ	_	_	_	_	_	gloss=so.that
+36	sapulenna	sapulenna	unk	_	_	_	_	_
+37	ti	ti	ADP	_	_	_	prep	_	gloss=of
+38	nayaoawan	nayaoawan	unk	_	_	_	_	_
+39	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 40020021
+# ref_id = Matthew 20:21
+# eng_text = He said to her , " What do you want ? " She said to him , " Command that these , my two sons , may sit , one on your right hand , and one on your left hand , in your kingdom . "
+# ilo_text = Ket kinuna ni Jesus kencuana : Ania ti cayatmo ? Cuna di babai kencuana : Ibilinmo a dagitoy dua nga annacco agtugawda coma , ti maysa iti macanawanmo , ket ti maysa iti macatigidmo idiay pagariam .
+1	Ket	ket	CCONJ	_	_	_	_	_	gloss=And
+2	kinuna	kinuna	VERB	_	_	_	_	_	gloss=said
+3	ni	ni	unk	_	_	_	_	_	gloss=been
+4	Jesus	jesus	PROPN	_	_	_	_	_	gloss=Jesus
+5	kencuana	kencuana	PRON	_	_	_	_	_	gloss=him
+6	:	:	PUNCT	_	_	_	_	_	gloss=ged
+7	Ania	ania	PRON	_	_	_	attr	_	gloss=What
+8	ti	ti	ADP	_	_	34	prep	_	gloss=of
+9	cayatmo	cayatmo	VERB	_	_	_	_	_	gloss=want
+10	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+11	Cuna	cuna	VERB	_	_	_	_	_	gloss=said
+12	di	di	unk	_	_	_	_	_	gloss=heads
+13	babai	babai	NOUN	_	_	_	_	_	gloss=woman
+14	kencuana	kencuana	PRON	_	_	_	_	_	gloss=him
+15	:	:	PUNCT	_	_	_	_	_	gloss=ged
+16	Ibilinmo	ibilinmo	VERB	_	_	_	_	_ gloss=command
+17	a	a	unk	_	_	_	_	_
+18	dagitoy	dagitoy	DET	_	_	_	_	_	gloss=these
+19	dua	dua	NUM	_	_	21	nummod	_	gloss=two|NumType=Card
+20	nga	nga	unk	_	_	_	_	_	gloss=that
+21	annacco	annacco	NOUN	_	_	_	nsubj	_	gloss=sons|Number=Plur
+22	agtugawda	agtugawda	VERB	_	_	_	_	_  gloss=sit
+23	coma	coma	PART	_	_	_	_	_	gloss=may
+24	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+25	ti	ti	ADP	_	_	34	prep	_	gloss=of
+26	maysa	maysa	NUM	_	_	_	_	_	gloss=one
+27	iti	iti	ADP	_	_	_	prep	_	gloss=in
+28	macanawanmo	macanawanmo	NOUN	_	_	27	pobj	_	gloss=right.side
+29	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+30	ket	ket	CCONJ	_	_	_	_	_	gloss=and
+31	ti	ti	ADP	_	_	34	prep	_	gloss=of
+32	maysa	maysa	NUM	_	_	_	_	_	gloss=one
+33	iti	iti	ADP	_	_	_	prep	_	gloss=in
+34	macatigidmo	macatigidmo	NOUN	_	_	33	pobj	_	gloss=left.side
+35	idiay	idiay	ADV	_	_	_	_	_	gloss=there
+36	pagariam	pagariam	NOUN	_	_	_	nsubj	_	gloss=kingdom
+37	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 40026002
+# ref_id = Matthew 26:2
+# eng_text = " You know that after two days the Passover is coming , and the Son of Man will be delivered up to be crucified . "
+# ilo_text = Ammoyo nga iti calpasan ti dua nga aldaw umay ti Pascua , ket ti Anac ti tao mayawat tapno mailansa iti cruz .
+1	Ammoyo	ammoyo	VERB	_	_	_	_	_	gloss=know
+2	nga	nga	unk	_	_	_	_	_	gloss=that
+3	iti	iti	ADP	_	_	_	prep	_	gloss=in
+4	calpasan	calpasan	ADP	_	_	_	_	_	gloss=after
+5	ti	ti	ADP	_	_	15	prep	_	gloss=of
+6	dua	dua	NUM	_	_	8	nummod	_	gloss=two|NumType=Card
+7	nga	nga	unk	_	_	_	_	_	gloss=that
+8	aldaw	aldaw	NOUN	_	_	3	pobj	_	gloss=days|Number=Plur
+9	umay	umay	VERB	_	_	_	_	_	gloss=come
+10	ti	ti	ADP	_	_	15	prep	_	gloss=of
+11	Pascua	pascua	PROPN	_	_	_	nsubj	_	gloss=Passover|Number=Sing
+12	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+13	ket	ket	CCONJ	_	_	_	_	_	gloss=and
+14	ti	ti	ADP	_	_	15	prep	_	gloss=of
+15	Anac	anac	PROPN	_	_	20	nsubjpass	_	gloss=Son|Number=Sing
+16	ti	ti	ADP	_	_	15	prep	_	gloss=of
+17	tao	tao	NOUN	_	_	_	_	_	gloss=man
+18	mayawat	mayawat	VERB	_	_	_	_	_	gloss=be.delivered
+19	tapno	tapno	SCONJ	_	_	_	_	_	gloss=to
+20	mailansa	mailansa	VERB	_	_	_	conj	_	gloss=handed|Aspect=Perf|Tense=Past|VerbForm=Part
+21	iti	iti	ADP	_	_	_	prep	_	gloss=in
+22	cruz	cruz	NOUN	_	_	20	advcl	_	gloss=cross
+23	.	.	PUNCT	_	_	20	punct	_	PunctType=Peri
+
+# sent_id = 40026061
+# ref_id = Matthew 26:61
+# eng_text = and said , " This man said , ' I am able to destroy the temple of God , and to build it in three days . ' "
+# ilo_text = A nagcuna : Daytoy kinunana ; Adda pannacabalinco a mangrebba iti Templo ti Dios , ken mangbangon manen kencuana iti tal-lo nga aldaw .
+1	A	a	CCONJ	_	_	_	_	_	gloss=and
+2	nagcuna	nagcuna	VERB	_	_	_	_	_	gloss=said
+3	:	:	PUNCT	_	_	_	_	_	gloss=ged
+4	Daytoy	daytoy	DET	_	_	_	det	_	gloss=This|Number=Sing|PronType=Dem
+5	kinunana	kinunana	VERB	_	_	_	ccomp	_	gloss=said|Tense=Past|VerbForm=Fin
+6	;	;	PUNCT	_	_	_	_	_	gloss=among
+7	Adda	adda	VERB	_	_	_	_	_	gloss=there.is
+8	pannacabalinco	pannacabalinco	NOUN	_	_	_	_	_	gloss=ability
+9	a	a	unk	_	_	_	_	_
+10	mangrebba	mangrebba	VERB	_	_	_	_	_  gloss=destroy
+11	iti	iti	ADP	_	_	_	prep	_	gloss=in
+12	Templo	templo	PROPN	_	_	_	dobj	_	gloss=Temple|Number=Sing
+13	ti	ti	ADP	_	_	12	prep	_	gloss=of
+14	Dios	dios	NOUN	_	_	13	pobj	_	gloss=God|Number=Sing
+15	,	,	PUNCT	_	_	5	punct	_	PunctType=Comm
+16	ken	ken	CCONJ	_	_	_	_	_	gloss=and
+17	mangbangon	mangbangon	VERB	_	_	_	_	_  gloss= build
+18	manen	manen	unk	_	_	_	_	_	gloss=again
+19	kencuana	kencuana	PRON	_	_	_	_	_	gloss=it
+20	iti	iti	ADP	_	_	_	prep	_	gloss=in
+21	tal-lo	tal-lo	NUM	_	_	23	nummod	_	gloss=three|NumType=Card
+22	nga	nga	unk	_	_	_	_	_	gloss=that
+23	aldaw	aldaw	NOUN	_	_	20	pobj	_	gloss=days|Number=Plur
+24	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 40028016
+# ref_id = Matthew 28:16
+# eng_text = But the eleven disciples went into Galilee , to the mountain where Jesus had sent them .
+# ilo_text = Ngem dagiti sangapulo ket maysa nga adalan napanda idiay Galilea idiay bantay a tinudingan ni Jesus cadacuada .
+1	Ngem	ngem	CCONJ	_	_	_	_	_	gloss=but
+2	dagiti	dagiti	DET	_	_	_	_	_	gloss=the.PL
+3	sangapulo	sangapulo	NUM	_	_	_	_	_	gloss=ten
+4	ket	ket	CCONJ	_	_	_	_	_	gloss=and
+5	maysa	maysa	NUM	_	_	_	_	_	gloss=one
+6	nga	nga	unk	_	_	_	_	_	gloss=that
+7	adalan	adalan	NOUN	_	_	_	nsubj	_	gloss=disciples|Number=Plur
+8	napanda	napanda	VERB	_	_	_	_	_	gloss=went
+9	idiay	idiay	ADV	_	_	_	_	_	gloss=there
+10	Galilea	galilea	PROPN	_	_	_	pobj	_	gloss=Galilee|Number=Sing
+11	idiay	idiay	ADV	_	_	_	_	_	gloss=there
+12	bantay	bantay	NOUN	_	_	_	pobj	_	gloss=mountain|Number=Sing
+13	a	a	unk	_	_	_	_	_
+14	tinudingan	tinudingan	VERB	_	_	_	_	_ gloss=appointed
+15	ni	ni	unk	_	_	_	_	_	gloss=been
+16	Jesus	jesus	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+17	cadacuada	cadacuada	PRON	_	_	_	dobj	_	gloss=them|Case=Acc|Number=Plur|Person=3|PronType=Prs
+18	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41002023
+# ref_id = Mark 2:23
+# eng_text = It happened , that he was going on the Sabbath day through the grain fields , and his disciples began , as they went , to pluck the ears of grain .
+# ilo_text = Ket naaramid nga isu idi lumablabas iti minulmulaan iti aldaw a panaginana , dagiti adalanna , idi a magmagnada , rinugianda ti nagala cadagiti dawa .
+1	Ket	ket	CCONJ	_	_	_	_	_	gloss=and
+2	naaramid	naaramid	VERB	_	_	_	_	_	gloss=happened
+3	nga	nga	unk	_	_	_	_	_	gloss=that
+4	isu	isu	PRON	_	_	_	_	_	gloss=he
+5	idi	idi	AUX	_	_	_	aux	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+6	lumablabas	lumablabas	VERB	_	_	_	_	_gloss=go
+7	iti	iti	ADP	_	_	_	_	_	gloss=in
+8	minulmulaan	minulmulaan	NOUN	_	_	_	_	_gloss=grain.field
+9	iti	iti	ADP	_	_	_	_	_	gloss=in
+10	aldaw	aldaw	NOUN	_	_	_	_	_	gloss=day
+11	a	a	unk	_	_	_	_	_
+12	panaginana	panaginana	PROPN	_	_	_	compound	_	gloss=Sabbath|Number=Sing
+13	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+14	dagiti	dagiti	DET	_	_	_	_	_	gloss=the.PL
+15	adalanna	adalanna	NOUN	_	_	_	nsubj	_	gloss=disciples|Number=Plur
+16	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+17	idi	idi	AUX	_	_	_	aux	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+18	a	a	unk	_	_	_	_	_
+19	magmagnada	magmagnada	VERB	_	_	_	prep	_	gloss=walk
+20	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+21	rinugianda	rinugianda	VERB	_	_	_	_	_	gloss=began
+22	ti	ti	ADP	_	_	_	prep	_	gloss=of
+23	nagala	nagala	VERB	_	_	_	_	_	gloss=pluck
+24	cadagiti	cadagiti	ADP	_	_	_	_	_	gloss=from.the.PL
+25	dawa	dawa	NOUN	_	_	_	_	_gloss=grain
+26	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41012032
+# ref_id = Mark 12:32
+# eng_text = The scribe said to him , " Truly , teacher , you have said well that he is one , and there is none other but he ,
+# ilo_text = Ket kinunana di escriba kencuana : Agpayso , Mannursuro , naimbag ti pinagcunam a maymaysa laeng ti Dios ; ket awan ti sabali no saan nga isu :
+1	Ket	ket	CCONJ	_	_	_	_	_	gloss=and
+2	kinunana	kinunana	VERB	_	_	_	ccomp	_	gloss=said|Tense=Past|VerbForm=Fin
+3	di	di	unk	_	_	_	_	_	gloss=heads
+4	escriba	escriba	NOUN	_	_	_	_	_	gloss=scribe
+5	kencuana	kencuana	PRON	_	_	_	_	_	gloss=him
+6	:	:	PUNCT	_	_	_	_	_	gloss=ged
+7	Agpayso	agpayso	ADV	_	_	_	_	_gloss=truly
+8	,	,	PUNCT	_	_	2	punct	_	PunctType=Comm
+9	Mannursuro	mannursuro	NOUN	_	_	2	npadvmod	_	gloss=Teacher|Number=Sing
+10	,	,	PUNCT	_	_	2	punct	_	PunctType=Comm
+11	naimbag	naimbag	ADV	_	_	_	_	_	gloss=well
+12	ti	ti	ADP	_	_	_	prep	_	gloss=of
+13	pinagcunam	pinagcunam	unk	_	_	_	_	_
+14	a	a	unk	_	_	_	_	_
+15	maymaysa	maymaysa	NUM	_	_	_	_	_	gloss=one
+16	laeng	laeng	ADV	_	_	_	_	_	gloss=only
+17	ti	ti	ADP	_	_	_	prep	_	gloss=of
+18	Dios	dios	NOUN	_	_	_	attr	_	gloss=God|Number=Sing
+19	;	;	PUNCT	_	_	_	_	_	gloss=among
+20	ket	ket	CCONJ	_	_	_	_	_	gloss=and
+21	awan	awan	PRON	_	_	_	_	_	gloss=none
+22	ti	ti	ADP	_	_	_	prep	_	gloss=of
+23	sabali	sabali	ADJ	_	_	_	_	_	gloss=another
+24	no	no	SCONJ	_	_	_	_	_	gloss=if
+25	saan	saan	PART	_	_	_	_	_	gloss=not
+26	nga	nga	SCONJ	_	_	_	mark	_	gloss=that
+27	isu	isu	PRON	_	_	_	_	_	gloss=he
+28	:	:	PUNCT	_	_	_	_	_	gloss=ged
+
+# sent_id = 41014037
+# ref_id = Mark 14:37
+# eng_text = He came and found them sleeping , and said to Peter , " Simon , are you sleeping ? Couldn't you watch one hour ?
+# ilo_text = Ket immay , ket nasaracanna ida a matmaturog ; ket cunana ken Pedro : Simon , maturogca ? Dica nabalin ti agpuyat iti maymaysa nga horas ?
+1	Ket	ket	CCONJ	_	_	_	_	_	gloss=and
+2	immay	immay	VERB	_	_	_	_	_	gloss=came
+3	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+4	ket	ket	CCONJ	_	_	_	_	_	gloss=and
+5	nasaracanna	nasaracanna	VERB	_	_	_	_	_	gloss=found
+6	ida	ida	PRON	_	_	_	_	_	gloss=them
+7	a	a	unk	_	_	_	_	_
+8	matmaturog	matmaturog	unk	_	_	_	_	_	gloss=sleeping
+9	;	;	PUNCT	_	_	_	_	_	gloss=among
+10	ket	ket	CCONJ	_	_	_	_	_	gloss=and
+11	cunana	cunana	VERB	_	_	_	_	_	gloss=said
+12	ken	ken	ADP	_	_	_	_	_	gloss=to
+13	Pedro	pedro	PROPN	_	_	_	pobj	_	gloss=Peter|Number=Sing
+14	:	:	PUNCT	_	_	_	_	_	gloss=ged
+15	Simon	simon	PROPN	_	_	_	npadvmod	_	gloss=Simon|Number=Sing
+16	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+17	maturogca	maturogca	VERB	_	_	_	_	_ gloss=sleep
+18	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+19	Dica	dica	VERB	_	_	_	_	_	gloss=could.not
+20	nabalin	nabalin	VERB	_	_	_	_	_	gloss=be.able
+21	ti	ti	ADP	_	_	_	_	_	gloss=of
+22	agpuyat	agpuyat	VERB	_	_	_	_	_ gloss=watch
+23	iti	iti	ADP	_	_	_	_	_	gloss=in
+24	maymaysa	maymaysa	NUM	_	_	_	_	_	gloss=one
+25	nga	nga	unk	_	_	_	_	_	gloss=that
+26	horas	horas	NOUN	_	_	_	npadvmod	_	gloss=hour|Number=Sing
+27	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 42004002
+# ref_id = Luke 4:2
+# eng_text = for forty days , being tempted by the devil . He ate nothing in those days . Afterward , when they were completed , he was hungry .
+# ilo_text = Iti bayat ti uppat a pulo nga aldaw idinto a sinulisug ti diablo . Ket cadagidi nga aldaw awan ti kinnanna ket idi naturposdan , nagbisin .
+1	Iti	iti	ADP	_	_	_	_	_	gloss=for
+2	bayat	bayat	NOUN	_	_	_	_	_	gloss=space.time
+3	ti	ti	ADP	_	_	_	_	_	gloss=of
+4	uppat	uppat	NUM	_	_	_	_	_	gloss=four
+5	a	a	unk	_	_	_	_	_
+6	pulo	pulo	NUM	_	_	_	_	_	gloss=ten
+7	nga	nga	DET	_	_	_	det	_	gloss=that|Number=Sing|PronType=Dem
+8	aldaw	aldaw	NOUN	_	_	_	pobj	_	gloss=days|Number=Plur
+9	idinto	idinto	SCONJ	_	_	_	_	_	gloss=while
+10	a	a	unk	_	_	_	_	_
+11	sinulisug	sinulisug	VERB	_	_	_	_	_ gloss=tempted
+12	ti	ti	ADP	_	_	_	_	_	gloss=of
+13	diablo	diablo	NOUN	_	_	_	pobj	_	gloss=devil|Number=Sing
+14	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+15	Ket	ket	CCONJ	_	_	_	_	_	gloss=and
+16	cadagidi	cadagidi	ADP	_	_	_	_	_	gloss=in.those
+17	nga	nga	DET	_	_	_	det	_	gloss=that|Number=Sing|PronType=Dem
+18	aldaw	aldaw	NOUN	_	_	_	pobj	_	gloss=days|Number=Plur
+19	awan	awan	PRON	_	_	_	_	_	gloss=nothing
+20	ti	ti	ADP	_	_	_	_	_	gloss=of
+21	kinnanna	kinnanna	VERB	_	_	_	_	_ gloss=ate
+22	ket	ket	CCONJ	_	_	_	_	_	gloss=and
+23	idi	idi	AUX	_	_	_	auxpass	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+24	naturposdan	naturposdan	VERB	_	_	_	_	_ gloss=completed
+25	,	,	PUNCT	_	_	_	_	_
+26	nagbisin	nagbisin	ADJ	_	_	_	acomp	_	gloss=hungry|Degree=Pos
+27	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 42016013
+# ref_id = Luke 16:13
+# eng_text = No servant can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You aren't able to serve God and mammon . "
+# ilo_text = Awan ti adipen a macabalin nga agservi iti dua nga apo : ta wenno guraennanto ti maysa ket ayatennanto ti sabali , wenno makidecketto iti maysa ket laisennanto ti sabali . Dicay mabalin ti agservi iti Dios ken cadagiti kinabacnang .
+1	Awan	awan	unk	_	_	_	_	_	gloss=ess
+2	ti	ti	ADP	_	_	_	_	_	gloss=of
+3	adipen	adipen	NOUN	_	_	_	_	_	gloss=servant
+4	a	a	unk	_	_	_	_	_
+5	macabalin	macabalin	VERB	_	_	_	_	_	gloss=be.able
+6	nga	nga	unk	_	_	_	_	_	gloss=that
+7	agservi	agservi	VERB	_	_	0	root	_	gloss=serve|VerbForm=Inf
+8	iti	iti	ADP	_	_	_	_	_	gloss=in
+9	dua	dua	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+10	nga	nga	unk	_	_	_	_	_	gloss=that
+11	apo	apo	NOUN	_	_	_	_	_	gloss=master
+12	:	:	PUNCT	_	_	_	_	_	gloss=ged
+13	ta	ta	SCONJ	_	_	_	_	_	gloss=for
+14	wenno	wenno	CCONJ	_	_	_	_	_	gloss=or
+15	guraennanto	guraennanto	VERB	_	_	_	acomp	_	gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+16	ti	ti	ADP	_	_	_	_	_	gloss=of
+17	maysa	maysa	NUM	_	_	_	_	_	gloss=one
+18	ket	ket	CCONJ	_	_	_	_	_	gloss=and
+19	ayatennanto	ayatennanto	VERB	_	_	_	acomp	_	gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+20	ti	ti	ADP	_	_	_	_	_	gloss=of
+21	sabali	sabali	ADJ	_	_	_	_	_	gloss=another
+22	,	,	PUNCT	_	_	_	_	_
+23	wenno	wenno	CCONJ	_	_	_	_	_	gloss=or
+24	makidecketto	makidecketto	unk	_	_	_	_	_
+25	iti	iti	ADP	_	_	_	_	_	gloss=in
+26	maysa	maysa	NUM	_	_	_	_	_	gloss=a
+27	ket	ket	CCONJ	_	_	_	_	_	gloss=and
+28	laisennanto	laisennanto	unk	_	_	_	_	_
+29	ti	ti	ADP	_	_	_	_	_	gloss=of
+30	sabali	sabali	ADJ	_	_	_	_	_	gloss=another
+31	.	.	PUNCT	_	_	35	punct	_	PunctType=Peri
+32	Dicay	dicay	VERB	_	_	_	_	_	gloss=cannot
+33	mabalin	mabalin	VERB	_	_	_	_	_	gloss=be.able
+34	ti	ti	ADP	_	_	_	_	_	gloss=of
+35	agservi	agservi	VERB	_	_	0	root	_	gloss=serve|VerbForm=Inf
+36	iti	iti	ADP	_	_	_	_	_	gloss=in
+37	Dios	dios	NOUN	_	_	35	dobj	_	gloss=God|Number=Sing
+38	ken	ken	CCONJ	_	_	_	_	_	gloss=and
+39	cadagiti	cadagiti	ADP	_	_	_	_	_	gloss=to.the.PL
+40	kinabacnang	kinabacnang	NOUN	_	_	_	_	_	gloss=wealth
+41	.	.	PUNCT	_	_	35	punct	_	PunctType=Peri
+
+# sent_id = 42024018
+# ref_id = Luke 24:18
+# eng_text = One of them , named Cleopas , answered him , " Are you the only one travelling in Jerusalem who doesn't know the things which have happened there in these days ? "
+# ilo_text = Ket simmungbat ti maysa , a managan Cleofas , ket kinunana kencuana : Sicsica laeng ti sangsangaili sadi Jerusalem , a dica ammo dagiti banag a naaramid sadiay cadagitoy nga aldaw ?
+1	Ket	ket	CCONJ	_	_	_	_	_	gloss=and
+2	simmungbat	simmungbat	VERB	_	_	_	_	_	gloss=answered
+3	ti	ti	ADP	_	_	_	prep	_	gloss=of
+4	maysa	maysa	NUM	_	_	_	_	_	gloss=one
+5	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+6	a	a	unk	_	_	_	_	_
+7	managan	managan	VERB	_	_	_	_	_	gloss=named
+8	Cleofas	cleofas	PROPN	_	_	_	_	_ gloss=Cleopas
+9	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+10	ket	ket	CCONJ	_	_	_	_	_	gloss=and
+11	kinunana	kinunana	VERB	_	_	_	_	_	gloss=said
+12	kencuana	kencuana	PRON	_	_	_	_	_	gloss=him
+13	:	:	PUNCT	_	_	_	_	_	gloss=ged
+14	Sicsica	sicsica	PRON	_	_	_	_	_ gloss=you
+15	laeng	laeng	ADV	_	_	_	_	_	gloss=only
+16	ti	ti	ADP	_	_	_	prep	_	gloss=of
+17	sangsangaili	sangsangaili	NOUN	_	_	_	_	_ gloss=visitor
+18	sadi	sadi	ADV	_	_	_	_	_	gloss=there
+19	Jerusalem	jerusalem	PROPN	_	_	_	pobj	_	gloss=Jerusalem|Number=Sing
+20	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+21	a	a	unk	_	_	_	_	_
+22	dica	dica	VERB	_	_	_	_	_	gloss=do.not
+23	ammo	ammo	VERB	_	_	_	_	_	gloss=know
+24	dagiti	dagiti	DET	_	_	_	_	_	gloss=the.PL
+25	banag	banag	NOUN	_	_	_	pobj	_	gloss=things|Number=Plur
+26	a	a	unk	_	_	_	_	_
+27	naaramid	naaramid	VERB	_	_	_	_	_	gloss=happened
+28	sadiay	sadiay	ADV	_	_	_	_	_	gloss=there
+29	cadagitoy	cadagitoy	ADP	_	_	_	_	_	gloss=in.these
+30	nga	nga	PRON	_	_	_	nsubj	_	gloss=that|PronType=Rel
+31	aldaw	aldaw	NOUN	_	_	_	npadvmod	_	gloss=days|Number=Plur
+32	?	?	PUNCT	_	_	_	_	_
+
+# sent_id = 43001039
+# ref_id = John 1:39
+# eng_text = He said to them , " Come , and see . " They came and saw where he was staying , and they stayed with him that day . It was about the tenth hour .
+# ilo_text = Cunana cadacuada : Umaycayo ket kitaenyonto . Napanda ngarud ket nakitada ti pagtaenganna , ket nakipagtaengda kencuana ti daydi nga aldaw : ta nganngani horas a maicasangapulo .
+1	Cunana	cunana	VERB	_	_	_	_	_	gloss=said
+2	cadacuada	cadacuada	PRON	_	_	_	_	_	gloss=them
+3	:	:	PUNCT	_	_	_	_	_	gloss=ged
+4	Umaycayo	umaycayo	VERB	_	_	_	_	_	gloss=come
+5	ket	ket	CCONJ	_	_	_	_	_	gloss=and
+6	kitaenyonto	kitaenyonto	VERB	_	_	_	_	_ gloss=see
+7	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+8	Napanda	napanda	VERB	_	_	_	_	_	gloss=went
+9	ngarud	ngarud	ADV	_	_	_	_	_	gloss=then
+10	ket	ket	CCONJ	_	_	_	_	_	gloss=and
+11	nakitada	nakitada	VERB	_	_	_	_	_	gloss=saw
+12	ti	ti	ADP	_	_	_	prep	_	gloss=of
+13	pagtaenganna	pagtaenganna	NOUN	_	_	_	_	_ gloss=dwelling
+14	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+15	ket	ket	CCONJ	_	_	_	_	_	gloss=and
+16	nakipagtaengda	nakipagtaengda	VERB	_	_	_	_	_ gloss=stayed
+17	kencuana	kencuana	PRON	_	_	_	pobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+18	ti	ti	ADP	_	_	_	prep	_	gloss=of
+19	daydi	daydi	DET	_	_	_	_	_	gloss=that
+20	nga	nga	unk	_	_	_	_	_	gloss=that
+21	aldaw	aldaw	NOUN	_	_	_	_	_	gloss=day
+22	:	:	PUNCT	_	_	_	_	_	gloss=ged
+23	ta	ta	SCONJ	_	_	_	_	_	gloss=for
+24	nganngani	nganngani	ADV	_	_	_	prep	_	gloss=about
+25	horas	horas	NOUN	_	_	_	_	_	gloss=hour
+26	a	a	unk	_	_	_	_	_
+27	maicasangapulo	maicasangapulo	ADJ	_	_	_	_	_	gloss=tenth
+28	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 43003016
+# ref_id = John 3:16
+# eng_text = For God so loved the world , that he gave his one and only Son , that whoever believes in him should not perish , but have eternal life .
+# ilo_text = Ta casta la unay ti panagayat ti Dios iti lubong ; nga intedna ti Anacna a Bugbugtong , tapno amin a mamati kencuana , saan a mapucaw , no di ket adda biagna nga agnanayon .
+1	Ta	ta	SCONJ	_	_	_	prep	_	gloss=for
+2	casta	casta	ADV	_	_	_	_	_	gloss=so
+3	la	la	PART	_	_	_	_	_	gloss=indeed
+4	unay	unay	ADV	_	_	_	_	_	gloss=greatly
+5	ti	ti	ADP	_	_	_	_	_	gloss=of
+6	panagayat	panagayat	NOUN	_	_	_	_	_	gloss=love
+7	ti	ti	ADP	_	_	_	_	_	gloss=of
+8	Dios	dios	NOUN	_	_	_	nsubj	_	gloss=God|Number=Sing
+9	iti	iti	ADP	_	_	22	prep	_	gloss=in
+10	lubong	lubong	NOUN	_	_	_	dobj	_	gloss=world|Number=Sing
+11	;	;	PUNCT	_	_	_	_	_	gloss=among
+12	nga	nga	SCONJ	_	_	_	mark	_	gloss=that
+13	intedna	intedna	VERB	_	_	_	ccomp	_	gloss=gave|Tense=Past|VerbForm=Fin
+14	ti	ti	ADP	_	_	_	_	_	gloss=of
+15	Anacna	anacna	NOUN	_	_	_	_	_	gloss=Son
+16	a	a	unk	_	_	_	_	_
+17	Bugbugtong	bugbugtong	ADJ	_	_	_	_	_ gloss=only
+18	,	,	PUNCT	_	_	13	punct	_	PunctType=Comm
+19	tapno	tapno	SCONJ	_	_	_	_	_	gloss=that
+20	amin	amin	PRON	_	_	_	_	_	gloss=whoever
+21	a	a	unk	_	_	_	_	_
+22	mamati	mamati	VERB	_	_	_	relcl	_	gloss=believes|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+23	kencuana	kencuana	PRON	_	_	9	pobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+24	,	,	PUNCT	_	_	13	punct	_	PunctType=Comm
+25	saan	saan	PART	_	_	_	_	_	gloss=not
+26	a	a	unk	_	_	_	_	_
+27	mapucaw	mapucaw	VERB	_	_	_	_	_	gloss=perish
+28	,	,	PUNCT	_	_	13	punct	_	PunctType=Comm
+29	no	no	SCONJ	_	_	_	_	_	gloss=if
+30	di	di	CCONJ	_	_	_	_	_	gloss=but
+31	ket	ket	CCONJ	_	_	_	_	_	gloss=and
+32	adda	adda	VERB	_	_	_	_	_	gloss=have
+33	biagna	biagna	NOUN	_	_	_	_	_	gloss=life
+34	nga	nga	SCONJ	_	_	_	mark	_	gloss=that
+35	agnanayon	agnanayon	ADJ	_	_	_	amod	_	gloss=eternal|Degree=Pos
+36	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 44002030
+# ref_id = Acts 2:30
+# eng_text = Therefore , being a prophet , and knowing that God had sworn with an oath to him that of the fruit of his body , according to the flesh , he would raise up the Christ to sit on his throne ,
+# ilo_text = Idinto ngarud a mammadto , ket siaammo nga incari ti Dios kencuana agraman maysa a sapata , a cadagiti bunga ti tianna , addanto pagtugawenna iti tronona ;
+1	Idinto	idinto	SCONJ	_	_	_	_	_	gloss=therefore
+2	ngarud	ngarud	ADV	_	_	_	_	_	gloss=therefore
+3	a	a	unk	_	_	_	_	_
+4	mammadto	mammadto	NOUN	_	_	_	_	_	gloss=prophet
+5	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+6	ket	ket	CCONJ	_	_	_	_	_	gloss=and
+7	siaammo	siaammo	VERB	_	_	_	_	_	gloss=knowing
+8	nga	nga	SCONJ	_	_	_	mark	_	gloss=that
+9	incari	incari	VERB	_	_	_	_	_ gloss=promised
+10	ti	ti	ADP	_	_	_	prep	_	gloss=of
+11	Dios	dios	NOUN	_	_	_	nsubj	_	gloss=God|Number=Sing
+12	kencuana	kencuana	PRON	_	_	_	_	_	gloss=him
+13	agraman	agraman	ADP	_	_	_	_	_	gloss=with
+14	maysa	maysa	NUM	_	_	_	det	_	gloss=a|Definite=Ind|PronType=Art
+15	a	a	unk	_	_	_	_	_
+16	sapata	sapata	NOUN	_	_	_	pobj	_	gloss=oath|Number=Sing
+17	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+18	a	a	unk	_	_	_	_	_
+19	cadagiti	cadagiti	ADP	_	_	_	_	_	gloss=from.the.PL
+20	bunga	bunga	NOUN	_	_	_	_	_	gloss=fruit
+21	ti	ti	ADP	_	_	_	prep	_	gloss=of
+22	tianna	tianna	NOUN	_	_	_	_	_ gloss=body
+23	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+24	addanto	addanto	VERB	_	_	_	_	_	gloss=would.be
+25	pagtugawenna	pagtugawenna	VERB	_	_	_	_	_ gloss=sit
+26	iti	iti	ADP	_	_	_	_	_	gloss=in
+27	tronona	tronona	NOUN	_	_	_	_	_ gloss=throne
+28	;	;	PUNCT	_	_	_	_	_	gloss=among
+
+# sent_id = 44009038
+# ref_id = Acts 9:38
+# eng_text = As Lydda was near Joppa , the disciples , hearing that Peter was there , sent two men to him , imploring him not to delay in coming to them .
+# ilo_text = Ket agsipud ta ti Lidda asideg ti Joppe , dagidi adalan , idi nangngegda a ni Pedro adda sadiay , nangibaonda ti dua a tao , a nagdawat kencuana : Saanca nga agbayag nga umay cadacami .
+1	Ket	ket	CCONJ	_	_	_	_	_	gloss=and
+2	agsipud	agsipud	SCONJ	_	_	_	_	_	gloss=since
+3	ta	ta	SCONJ	_	_	_	_	_	gloss=that
+4	ti	ti	ADP	_	_	_	_	_	gloss=of
+5	Lidda	lidda	PROPN	_	_	_	_	_ gloss=Lydda
+6	asideg	asideg	ADJ	_	_	_	_	_	gloss=near
+7	ti	ti	ADP	_	_	_	_	_	gloss=of
+8	Joppe	joppe	PROPN	_	_	_	_	_	gloss=Joppa
+9	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+10	dagidi	dagidi	DET	_	_	_	_	_	gloss=the.PL
+11	adalan	adalan	NOUN	_	_	_	_	_	gloss=disciples
+12	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+13	idi	idi	AUX	_	_	_	ccomp	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+14	nangngegda	nangngegda	VERB	_	_	_	_	_	gloss=heard
+15	a	a	unk	_	_	_	_	_
+16	ni	ni	unk	_	_	_	_	_	gloss=been
+17	Pedro	pedro	PROPN	_	_	13	nsubj	_	gloss=Peter|Number=Sing
+18	adda	adda	VERB	_	_	_	_	_	gloss=was
+19	sadiay	sadiay	ADV	_	_	_	_	_	gloss=there
+20	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+21	nangibaonda	nangibaonda	VERB	_	_	_	_	_	gloss=sent
+22	ti	ti	ADP	_	_	_	_	_	gloss=of
+23	dua	dua	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+24	a	a	unk	_	_	_	_	_
+25	tao	tao	NOUN	_	_	_	_	_	gloss=man
+26	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+27	a	a	unk	_	_	_	_	_
+28	nagdawat	nagdawat	VERB	_	_	_	_	_	gloss=imploring
+29	kencuana	kencuana	PRON	_	_	_	dobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+30	:	:	PUNCT	_	_	_	_	_	gloss=ged
+31	Saanca	saanca	VERB	_	_	_	_	_	gloss=do.not
+32	nga	nga	SCONJ	_	_	13	mark	_	gloss=that
+33	agbayag	agbayag	VERB	_	_	_	_	_	gloss=delay
+34	nga	nga	SCONJ	_	_	13	mark	_	gloss=that
+35	umay	umay	VERB	_	_	_	xcomp	_	gloss=come|VerbForm=Inf
+36	cadacami	cadacami	PRON	_	_	_	_	_	gloss=us
+37	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 44011011
+# ref_id = Acts 11:11
+# eng_text = Behold , immediately three men stood before the house where I was , having been sent from Caesarea to me .
+# ilo_text = Ket adtoy , naigiddato nga iti sangoanan ti balay nga yanmi idi immay nagtacder dagiti tal-lo a tao a naibaon caniac nanipud Cesarea .
+1	Ket	ket	CCONJ	_	_	_	_	_	gloss=and
+2	adtoy	adtoy	ADV	_	_	_	_	_	gloss=behold
+3	,	,	PUNCT	_	_	_	_	_
+4	naigiddato	naigiddato	ADV	_	_	_	_	_	gloss=immediately
+5	nga	nga	unk	_	_	_	_	_	gloss=that
+6	iti	iti	ADP	_	_	_	_	_	gloss=in
+7	sangoanan	sangoanan	NOUN	_	_	_	_	_	gloss=front
+8	ti	ti	ADP	_	_	_	_	_	gloss=of
+9	balay	balay	NOUN	_	_	_	pobj	_	gloss=house|Number=Sing
+10	nga	nga	unk	_	_	_	_	_	gloss=that
+11	yanmi	yanmi	PRON	_	_	_	_	_ gloss=I.was
+12	idi	idi	AUX	_	_	_	_	_	gloss=was
+13	immay	immay	VERB	_	_	_	_	_	gloss=came
+14	nagtacder	nagtacder	VERB	_	_	_	_	_	gloss=stood
+15	dagiti	dagiti	DET	_	_	_	_	_	gloss=the.PL
+16	tal-lo	tal-lo	NUM	_	_	_	nummod	_	gloss=three|NumType=Card
+17	a	a	unk	_	_	_	_	_
+18	tao	tao	NOUN	_	_	_	_	_	gloss=man
+19	a	a	unk	_	_	_	_	_
+20	naibaon	naibaon	VERB	_	_	_	_	_	gloss=sent
+21	caniac	caniac	PRON	_	_	_	_	_	gloss=to.me
+22	nanipud	nanipud	ADP	_	_	_	_	_	gloss=from
+23	Cesarea	cesarea	PROPN	_	_	_	pobj	_	gloss=Caesarea|Number=Sing
+24	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 44021034
+# ref_id = Acts 21:34
+# eng_text = Some shouted one thing , some another , among the crowd . When he couldn't find out the truth because of the noise , he commanded him to be brought into the barracks .
+# ilo_text = Ket dagiti dadduma cadagiti adu a tao maysa a banag ti iyic-ickisda , ket dagidi dadduma sabali met ; ket idi dina maawatan ti pudno gapu iti ariwawa imbilinna nga isu ipanda iti castillo .
+1	Ket	ket	CCONJ	_	_	_	_	_	gloss=and
+2	dagiti	dagiti	DET	_	_	_	_	_	gloss=the.PL
+3	dadduma	dadduma	PRON	_	_	_	_	_	gloss=some
+4	cadagiti	cadagiti	ADP	_	_	_	_	_	gloss=among.the.PL
+5	adu	adu	ADJ	_	_	_	_	_	gloss=many
+6	a	a	unk	_	_	_	_	_
+7	tao	tao	NOUN	_	_	_	_	_	gloss=man
+8	maysa	maysa	NUM	_	_	_	_	_	gloss=one
+9	a	a	unk	_	_	_	_	_
+10	banag	banag	NOUN	_	_	_	_	_	gloss=thing
+11	ti	ti	ADP	_	_	_	_	_	gloss=of
+12	iyic-ickisda	iyic-ickisda	VERB	_	_	_	_	_ gloss=shouted
+13	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+14	ket	ket	CCONJ	_	_	_	_	_	gloss=and
+15	dagidi	dagidi	DET	_	_	_	_	_	gloss=the.PL
+16	dadduma	dadduma	PRON	_	_	_	_	_	gloss=others
+17	sabali	sabali	ADJ	_	_	_	conj	_	gloss=another
+18	met	met	ADV	_	_	_	_	_	gloss=also
+19	;	;	PUNCT	_	_	_	_	_	gloss=among
+20	ket	ket	CCONJ	_	_	_	_	_	gloss=and
+21	idi	idi	AUX	_	_	_	_	_	gloss=was
+22	dina	dina	VERB	_	_	_	_	_	gloss=could.not
+23	maawatan	maawatan	VERB	_	_	_	_	_	gloss=find.out
+24	ti	ti	ADP	_	_	_	_	_	gloss=of
+25	pudno	pudno	NOUN	_	_	_	dobj	_	gloss=truth|Number=Sing
+26	gapu	gapu	ADP	_	_	_	_	_	gloss=because.of
+27	iti	iti	ADP	_	_	25	prep	_	gloss=in
+28	ariwawa	ariwawa	NOUN	_	_	_	_	_	gloss=noise
+29	imbilinna	imbilinna	VERB	_	_	_	_	_	gloss=commanded
+30	nga	nga	SCONJ	_	_	_	mark	_	gloss=that
+31	isu	isu	PRON	_	_	_	_	_	gloss=him
+32	ipanda	ipanda	VERB	_	_	_	_	_	gloss=bring
+33	iti	iti	ADP	_	_	25	prep	_	gloss=in
+34	castillo	castillo	NOUN	_	_	_	_	_ gloss=barracks
+35	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 47012002
+# ref_id = 2 Corinthians 12:2
+# eng_text = I know a man in Christ , fourteen years ago ( whether in the body , I don't know , or whether out of the body , I don't know ; God knows ) , such a one caught up into the third heaven .
+# ilo_text = Am-ammoc ti maysa a tao ken Cristo , ket sangapulo ket uppat a tao-en itan ( diac ammo no sibabagi , diac met ammo no saan a sibabagi ; ti Dios ammona ) naipangato agingga iti maicatlo a langit .
+1	Am-ammoc	am-ammoc	VERB	_	_	_	_	_ gloss=know
+2	ti	ti	ADP	_	_	_	prep	_	gloss=of
+3	maysa	maysa	NUM	_	_	_	_	_	gloss=one
+4	a	a	unk	_	_	_	_	_
+5	tao	tao	NOUN	_	_	_	_	_	gloss=man
+6	ken	ken	ADP	_	_	_	_	_	gloss=in
+7	Cristo	cristo	PROPN	_	_	_	_	_	gloss=Christ
+8	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+9	ket	ket	CCONJ	_	_	_	prt	_	gloss=and
+10	sangapulo	sangapulo	NUM	_	_	_	_	_	gloss=ten
+11	ket	ket	CCONJ	_	_	_	prt	_	gloss=and
+12	uppat	uppat	NUM	_	_	_	nummod	_	gloss=fourteen|NumType=Card
+13	a	a	unk	_	_	_	_	_
+14	tao-en	tao-en	NOUN	_	_	_	_	_	gloss=years
+15	itan	itan	unk	_	_	_	_	_	gloss=vo
+16	(	(	PUNCT	_	_	_	_	_
+17	diac	diac	VERB	_	_	_	_	_	gloss=do.not
+18	ammo	ammo	VERB	_	_	_	_	_	gloss=know
+19	no	no	SCONJ	_	_	_	_	_	gloss=if
+20	sibabagi	sibabagi	NOUN	_	_	_	mark	_	gloss=body
+21	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+22	diac	diac	VERB	_	_	_	_	_	gloss=do.not
+23	met	met	ADV	_	_	_	_	_	gloss=also
+24	ammo	ammo	VERB	_	_	_	_	_	gloss=know
+25	no	no	SCONJ	_	_	_	_	_	gloss=if
+26	saan	saan	PART	_	_	_	_	_	gloss=not
+27	a	a	unk	_	_	_	_	_
+28	sibabagi	sibabagi	NOUN	_	_	_	mark	_	gloss=body
+29	;	;	PUNCT	_	_	_	_	_	gloss=among
+30	ti	ti	ADP	_	_	_	prep	_	gloss=of
+31	Dios	dios	NOUN	_	_	32	nsubj	_	gloss=God|Number=Sing
+32	ammona	ammona	VERB	_	_	0	root	_	gloss=knows|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+33	)	)	ADV	_	_	_	advmod	_	gloss=ago
+34	naipangato	naipangato	VERB	_	_	_	_	_ gloss=caught.up
+35	agingga	agingga	ADP	_	_	_	_	_	gloss=up.to
+36	iti	iti	ADP	_	_	_	prep	_	gloss=in
+37	maicatlo	maicatlo	ADJ	_	_	39	amod	_	gloss=third|Degree=Pos
+38	a	a	unk	_	_	_	_	_
+39	langit	langit	NOUN	_	_	_	pobj	_	gloss=heaven
+40	.	.	PUNCT	_	_	32	punct	_	PunctType=Peri
+
+# sent_id = 62004009
+# ref_id = 1 John 4:9
+# eng_text = By this was God's love revealed in us , that God has sent his only born Son into the world that we might live through him .
+# ilo_text = Daytoy ti nacaiparangarangan ti ayat ti Dios cadatayo , nga imbaon ti Dios ti Anacna a bugbugtong ditoy lubong , tapno agbiagtayo gapu kencuana .
+1	Daytoy	daytoy	PRON	_	_	_	_	_	gloss=this
+2	ti	ti	ADP	_	_	_	_	_	gloss=of
+3	nacaiparangarangan	nacaiparangarangan	VERB	_	_	_	_	_ gloss=revealed
+4	ti	ti	ADP	_	_	_	_	_	gloss=of
+5	ayat	ayat	NOUN	_	_	_	_	_	gloss=love
+6	ti	ti	ADP	_	_	_	_	_	gloss=of
+7	Dios	dios	NOUN	_	_	_	nsubj	_	gloss=God|Number=Sing
+8	cadatayo	cadatayo	PRON	_	_	_	dobj	_	gloss=us|Case=Acc|Number=Plur|Person=1|PronType=Prs
+9	,	,	PUNCT	_	_	_	_	_
+10	nga	nga	SCONJ	_	_	_	mark	_	gloss=that
+11	imbaon	imbaon	VERB	_	_	23	pcomp	_	gloss=sent
+12	ti	ti	ADP	_	_	_	_	_	gloss=of
+13	Dios	dios	NOUN	_	_	_	nsubj	_	gloss=God|Number=Sing
+14	ti	ti	ADP	_	_	_	_	_	gloss=of
+15	Anacna	anacna	NOUN	_	_	_	_	_	gloss=Son
+16	a	a	unk	_	_	_	_	_
+17	bugbugtong	bugbugtong	ADJ	_	_	_	_	_ gloss=only
+18	ditoy	ditoy	ADV	_	_	_	_	_	gloss=into
+19	lubong	lubong	NOUN	_	_	_	pobj	_	gloss=world|Number=Sing
+20	,	,	PUNCT	_	_	_	_	_
+21	tapno	tapno	SCONJ	_	_	_	_	_	gloss=that
+22	agbiagtayo	agbiagtayo	VERB	_	_	_	_	_	gloss=live
+23	gapu	gapu	ADP	_	_	_	prep	_	gloss=by
+24	kencuana	kencuana	PRON	_	_	_	pobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+25	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 63001005
+# ref_id = 2 John 1:5
+# eng_text = Now I beg you , dear lady , not as though I wrote to you a new commandment , but that which we had from the beginning , that we love one another .
+# ilo_text = Ket ita dawatec kenca , ina , saan a cas la isuratco kenca ti maysa a bilin a baro , no di daydi met laeng adda cadatayo nanipud idi damo , nga agayanayattayo coma .
+1	Ket	ket	CCONJ	_	_	_	_	_	gloss=and
+2	ita	ita	ADV	_	_	_	_	_	gloss=now
+3	dawatec	dawatec	VERB	_	_	_	_	_	gloss=beg
+4	kenca	kenca	PRON	_	_	_	_	_	gloss=you
+5	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+6	ina	ina	NOUN	_	_	_	_	_	gloss=lady
+7	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+8	saan	saan	PART	_	_	_	_	_	gloss=not
+9	a	a	unk	_	_	_	_	_
+10	cas	cas	SCONJ	_	_	_	_	_	gloss=as.if
+11	la	la	PART	_	_	_	_	_	gloss=just
+12	isuratco	isuratco	VERB	_	_	_	attr	_	gloss=write
+13	kenca	kenca	PRON	_	_	_	_	_	gloss=to.you
+14	ti	ti	ADP	_	_	_	_	_	gloss=of
+15	maysa	maysa	NUM	_	_	17	det	_	gloss=one
+16	a	a	unk	_	_	_	_	_
+17	bilin	bilin	NOUN	_	_	_	attr	_	gloss=commandment|Number=Sing
+18	a	a	unk	_	_	_	_	_
+19	baro	baro	ADJ	_	_	17	amod	_	gloss=new|Degree=Pos
+20	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+21	no	no	SCONJ	_	_	_	_	_	gloss=if
+22	di	di	CCONJ	_	_	_	_	_	gloss=but
+23	daydi	daydi	PRON	_	_	_	_	_	gloss=that
+24	met	met	ADV	_	_	_	_	_	gloss=also
+25	laeng	laeng	ADV	_	_	_	_	_	gloss=only
+26	adda	adda	VERB	_	_	_	_	_	gloss=exists
+27	cadatayo	cadatayo	PRON	_	_	_	_	_	gloss=us
+28	nanipud	nanipud	ADP	_	_	_	_	_	gloss=from
+29	idi	idi	AUX	_	_	_	_	_	gloss=was
+30	damo	damo	NOUN	_	_	_	_	_	gloss=beginning
+31	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+32	nga	nga	SCONJ	_	_	_	mark	_	gloss=that
+33	agayanayattayo	agayanayattayo	VERB	_	_	_	_	_	gloss=love.one.another
+34	coma	coma	PART	_	_	_	_	_	gloss=may
+35	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+

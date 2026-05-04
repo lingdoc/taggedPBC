@@ -1,0 +1,931 @@
+## The following text has been annotated for parts of speech by students at NTU Singapore as part of a class project in AY 2025-26.
+## Verses are extracted from the taggedPBC. Annotations have been developed with a combination of manual and automated approaches, with reference to existing literature and (where possible) native speakers.
+## ISO 639-3: cje, Language: Chru, Number of verses: 21
+
+# sent_id = 40006024
+# ref_id = Matthew 6:24
+# eng_text = " No one can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You can't serve both God and Mammon .
+# cje_text = “ 'Buh aràng sơi hũ rơgơi ngă hơlŭn dua aràng pô , kơyoa rơŭ mơbai mơnih ni bloh rơnăm mơnih dih , halài rơŭ c̆ơ prŏng-màng tơ mơnih ni bloh c̆ơ 'buh sơ̆p tơ mơnih dih . Buơl guhã 'buh rơgơi găm duh bruă Yàng Pô Lơngì bloh găm duh bruă jền-priă jiơ̆ng .
+1	“	“	PUNCT	_	_	43	punct	_	PunctSide=Ini|PunctType=Quot
+2	'Buh	'buh	VERB	_	_	_	_	_	gloss=Was|auto_upos=VERB|auto_note=corpus_evidence
+3	aràng	aràng	NUM	_	_	_	pobj	_	gloss=one|NumType=Card
+4	sơi	sơi	PRON	_	_	_	_	_	gloss=Who|auto_upos=PRON|auto_note=corpus_evidence
+5	hũ	hũ	AUX	_	_	_	_	_	gloss=had|auto_upos=AUX|auto_note=corpus_evidence
+6	rơgơi	rơgơi	ADJ	_	_	_	_	_	gloss=able|auto_upos=ADJ|auto_note=corpus_evidence
+7	ngă	ngă	VERB	_	_	_	_	_	gloss=make|auto_upos=VERB|auto_note=corpus_evidence
+8	hơlŭn	hơlŭn	VERB	_	_	_	acomp	_	gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+9	dua	dua	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+10	aràng	aràng	NUM	_	_	_	pobj	_	gloss=one|NumType=Card
+11	pô	pô	NOUN	_	_	_	_	_	gloss=master|auto_upos=NOUN|auto_note=corpus_evidence
+12	,	,	PUNCT	_	_	_	_	_
+13	kơyoa	kơyoa	ADP	_	_	_	_	_	gloss=ise|auto_upos=ADP|auto_note=corpus_evidence
+14	rơŭ	rơŭ	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+15	mơbai	mơbai	VERB	_	_	_	_	_	gloss=hates|auto_upos=VERB|auto_note=corpus_evidence
+16	mơnih	mơnih	NOUN	_	_	_	_	_	gloss=man|auto_upos=NOUN|auto_note=corpus_evidence
+17	ni	ni	DET	_	_	_	_	_	gloss=this|auto_upos=DET|auto_note=corpus_evidence
+18	bloh	bloh	CCONJ	_	_	_	_	_	gloss=ound|auto_upos=CCONJ|auto_note=manual_context_rule
+19	rơnăm	rơnăm	VERB	_	_	_	_	_	gloss=loved|auto_upos=VERB|auto_note=corpus_evidence
+20	mơnih	mơnih	NOUN	_	_	_	_	_	gloss=man|auto_upos=NOUN|auto_note=corpus_evidence
+21	dih	dih	ADJ	_	_	_	_	_	gloss=ared|auto_upos=ADJ|auto_note=manual_context_rule
+22	,	,	PUNCT	_	_	_	_	_
+23	halài	halài	CCONJ	_	_	_	_	_	gloss=or|auto_upos=CCONJ|auto_note=corpus_evidence
+24	rơŭ	rơŭ	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+25	c̆ơ	c̆ơ	VERB	_	_	_	_	_	gloss=looked|auto_upos=VERB|auto_note=corpus_evidence
+26	prŏng-màng	prŏng-màng	unk	_	_	_	_	_	gloss=ets
+27	tơ	tơ	ADP	_	_	_	_	_	gloss=g|auto_upos=ADP|auto_note=manual_context_rule
+28	mơnih	mơnih	NOUN	_	_	_	_	_	gloss=man|auto_upos=NOUN|auto_note=corpus_evidence
+29	ni	ni	DET	_	_	_	_	_	gloss=this|auto_upos=DET|auto_note=corpus_evidence
+30	bloh	bloh	CCONJ	_	_	_	_	_	gloss=ound|auto_upos=CCONJ|auto_note=manual_context_rule
+31	c̆ơ	c̆ơ	VERB	_	_	_	_	_	gloss=looked|auto_upos=VERB|auto_note=corpus_evidence
+32	'buh	'buh	VERB	_	_	_	_	_	gloss=saw|auto_upos=VERB|auto_note=corpus_evidence
+33	sơ̆p	sơ̆p	unk	_	_	_	_	_	gloss=desp
+34	tơ	tơ	ADP	_	_	_	_	_	gloss=g|auto_upos=ADP|auto_note=manual_context_rule
+35	mơnih	mơnih	NOUN	_	_	_	_	_	gloss=man|auto_upos=NOUN|auto_note=corpus_evidence
+36	dih	dih	ADJ	_	_	_	_	_	gloss=ared|auto_upos=ADJ|auto_note=manual_context_rule
+37	.	.	PUNCT	_	_	43	punct	_	PunctType=Peri
+38	Buơl	buơl	PRON	_	_	_	_	_	gloss=vation|auto_upos=PRON|auto_note=corpus_evidence
+39	guhã	guhã	NOUN	_	_	_	_	_	gloss=fate|auto_upos=NOUN|auto_note=corpus_evidence
+40	'buh	'buh	VERB	_	_	_	_	_	gloss=saw|auto_upos=VERB|auto_note=corpus_evidence
+41	rơgơi	rơgơi	ADJ	_	_	_	_	_	gloss=able|auto_upos=ADJ|auto_note=corpus_evidence
+42	găm	găm	ADJ	_	_	_	_	_	gloss=vast|auto_upos=ADJ|auto_note=corpus_evidence
+43	duh	duh	VERB	_	_	0	root	_	gloss=serve|VerbForm=Inf
+44	bruă	bruă	unk	_	_	_	_	_	gloss=works
+45	Yàng	yàng	NOUN	_	_	_	_	_	gloss=urther|auto_upos=NOUN|auto_note=corpus_evidence
+46	Pô	pô	PRON	_	_	_	_	_	gloss=him|auto_upos=PRON|auto_note=corpus_evidence
+47	Lơngì	lơngì	NOUN	_	_	_	_	_	gloss=Re|auto_upos=NOUN|auto_note=corpus_evidence
+48	bloh	bloh	CCONJ	_	_	_	_	_	gloss=ound|auto_upos=CCONJ|auto_note=manual_context_rule
+49	găm	găm	ADJ	_	_	_	_	_	gloss=vast|auto_upos=ADJ|auto_note=corpus_evidence
+50	duh	duh	VERB	_	_	0	root	_	gloss=serve|VerbForm=Inf
+51	bruă	bruă	unk	_	_	_	_	_	gloss=works
+52	jền-priă	jền-priă	VERB	_	_	_	acomp	_	gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+53	jiơ̆ng	jiơ̆ng	AUX	_	_	_	_	_	gloss=Can|auto_upos=AUX|auto_note=corpus_evidence
+54	.	.	PUNCT	_	_	50	punct	_	PunctType=Peri
+
+# sent_id = 40018012
+# ref_id = Matthew 18:12
+# eng_text = " What do you think ? If a man has one hundred sheep , and one of them goes astray , doesn't he leave the ninety-nine , go to the mountains , and seek that which has gone astray ?
+# cje_text = Buơl guhã sơnư̆ng hơyơu ? Yah sa aràng mơnih hũ sa rơtùh drơi abo , bloh sa drơi nau asŭ lơhiă , nư̆n mơnih nư̆n 'buh luơi sơlpăn pluh sơlpăn drơi abo dih tơ ngŏ c̆ơ̆ , bloh nau duah anà abo kơđòng asŭ lơhiă ơu ?
+1	Buơl	buơl	PRON	_	_	_	_	_	gloss=vation|auto_upos=PRON|auto_note=corpus_evidence
+2	guhã	guhã	NOUN	_	_	_	_	_	gloss=fate|auto_upos=NOUN|auto_note=corpus_evidence
+3	sơnư̆ng	sơnư̆ng	unk	_	_	_	_	_	gloss=im
+4	hơyơu	hơyơu	unk	_	_	_	_	_	gloss=events
+5	?	?	PUNCT	_	_	_	_	_	gloss=pent
+6	Yah	yah	SCONJ	_	_	_	mark	_	gloss=If
+7	sa	sa	SCONJ	_	_	_	_	_	gloss=o|auto_upos=SCONJ|auto_note=corpus_evidence
+8	aràng	aràng	NOUN	_	_	_	pobj	_	gloss=one|Number=Sing
+9	mơnih	mơnih	NOUN	_	_	_	nsubj	_	gloss=man|Number=Sing
+10	hũ	hũ	AUX	_	_	_	_	_	gloss=had|auto_upos=AUX|auto_note=corpus_evidence
+11	sa	sa	SCONJ	_	_	_	_	_	gloss=o|auto_upos=SCONJ|auto_note=corpus_evidence
+12	rơtùh	rơtùh	NUM	_	_	14	nummod	_	gloss=hundred|NumType=Card
+13	drơi	drơi	unk	_	_	_	_	_	gloss=n
+14	abo	abo	NOUN	_	_	_	dobj	_	gloss=sheep|Number=Plur
+15	,	,	PUNCT	_	_	_	_	_
+16	bloh	bloh	CCONJ	_	_	_	_	_	gloss=ound|auto_upos=CCONJ|auto_note=manual_context_rule
+17	sa	sa	SCONJ	_	_	_	_	_	gloss=o|auto_upos=SCONJ|auto_note=corpus_evidence
+18	drơi	drơi	unk	_	_	_	_	_	gloss=n
+19	nau	nau	VERB	_	_	_	_	_	gloss=airs|auto_upos=VERB|auto_note=corpus_evidence
+20	asŭ	asŭ	unk	_	_	_	_	_	gloss=wand
+21	lơhiă	lơhiă	VERB	_	_	8	relcl	_	gloss=lost|Aspect=Perf|Tense=Past|VerbForm=Part
+22	,	,	PUNCT	_	_	_	_	_
+23	nư̆n	nư̆n	DET	_	_	_	_	_	gloss=ed|auto_upos=DET|auto_note=manual_context_rule
+24	mơnih	mơnih	NOUN	_	_	_	nsubj	_	gloss=man|Number=Sing
+25	nư̆n	nư̆n	DET	_	_	_	_	_	gloss=ed|auto_upos=DET|auto_note=manual_context_rule
+26	'buh	'buh	VERB	_	_	_	_	_	gloss=saw|auto_upos=VERB|auto_note=corpus_evidence
+27	luơi	luơi	NOUN	_	_	_	_	_	gloss=mill|auto_upos=NOUN|auto_note=corpus_evidence
+28	sơlpăn	sơlpăn	unk	_	_	_	_	_	gloss=ety
+29	pluh	pluh	NUM	_	_	_	_	_	gloss=forty|auto_upos=NUM|auto_note=corpus_evidence
+30	sơlpăn	sơlpăn	unk	_	_	_	_	_	gloss=ety
+31	drơi	drơi	unk	_	_	_	_	_	gloss=n
+32	abo	abo	NOUN	_	_	_	dobj	_	gloss=sheep|Number=Plur
+33	dih	dih	ADJ	_	_	_	_	_	gloss=ared|auto_upos=ADJ|auto_note=manual_context_rule
+34	tơ	tơ	ADP	_	_	_	_	_	gloss=g|auto_upos=ADP|auto_note=manual_context_rule
+35	ngŏ	ngŏ	PROPN	_	_	_	_	_	gloss=heaven|auto_upos=PROPN|auto_note=corpus_evidence
+36	c̆ơ̆	c̆ơ̆	NOUN	_	_	_	_	_	gloss=mountain|auto_upos=NOUN|auto_note=corpus_evidence
+37	,	,	PUNCT	_	_	_	_	_
+38	bloh	bloh	CCONJ	_	_	_	_	_	gloss=ound|auto_upos=CCONJ|auto_note=manual_context_rule
+39	nau	nau	VERB	_	_	_	_	_	gloss=airs|auto_upos=VERB|auto_note=corpus_evidence
+40	duah	duah	VERB	_	_	_	advcl	_	gloss=search|VerbForm=Inf
+41	anà	anà	NOUN	_	_	_	_	_	gloss=children|auto_upos=NOUN|auto_note=corpus_evidence
+42	abo	abo	NOUN	_	_	_	dobj	_	gloss=sheep|Number=Plur
+43	kơđòng	kơđòng	VERB	_	_	_	_	_	gloss=possessed|auto_upos=VERB|auto_note=corpus_evidence
+44	asŭ	asŭ	unk	_	_	_	_	_	gloss=wand
+45	lơhiă	lơhiă	VERB	_	_	8	relcl	_	gloss=lost|Aspect=Perf|Tense=Past|VerbForm=Part
+46	ơu	ơu	unk	_	_	_	_	_	gloss=fail
+47	?	?	PUNCT	_	_	_	_	_	gloss=pent
+
+# sent_id = 40020021
+# ref_id = Matthew 20:21
+# eng_text = He said to her , " What do you want ? " She said to him , " Command that these , my two sons , may sit , one on your right hand , and one on your left hand , in your kingdom . "
+# cje_text = Pô tơnia : “ Hã khiăng yòng hơgĕ ? ” Ñu đờm lài : “ Yòng brơi tơ dua aràng anà lơkơi dơlhă , sa aràng dò guh gah hơnuă , sa aràng dò guh gah ơñiau Pô , lăm Lơgăr Pô . ”
+1	Pô	pô	PRON	_	_	_	_	_	gloss=him|auto_upos=PRON|auto_note=corpus_evidence
+2	tơnia	tơnia	NOUN	_	_	_	_	_	gloss=question|auto_upos=NOUN|auto_note=corpus_evidence
+3	:	:	PUNCT	_	_	_	_	_
+4	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+5	Hã	hã	unk	_	_	_	_	_	gloss=eal
+6	khiăng	khiăng	ADJ	_	_	_	_	_	gloss=willing|auto_upos=ADJ|auto_note=corpus_evidence
+7	yòng	yòng	NOUN	_	_	_	_	_	gloss=prayers|auto_upos=NOUN|auto_note=corpus_evidence
+8	hơgĕ	hơgĕ	PRON	_	_	_	_	_	gloss=Nothing|auto_upos=PRON|auto_note=corpus_evidence
+9	?	?	PUNCT	_	_	_	_	_	gloss=pent
+10	”	”	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+11	Ñu	ñu	unk	_	_	_	_	_	gloss=approval
+12	đờm	đờm	VERB	_	_	_	_	_	gloss=ast|auto_upos=VERB|auto_note=manual_context_rule
+13	lài	lài	unk	_	_	_	_	_	gloss=lo
+14	:	:	PUNCT	_	_	_	_	_
+15	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+16	Yòng	yòng	VERB	_	_	_	_	_	gloss=Give|auto_upos=VERB|auto_note=corpus_evidence
+17	brơi	brơi	unk	_	_	_	_	_	gloss=sed
+18	tơ	tơ	ADP	_	_	_	_	_	gloss=g|auto_upos=ADP|auto_note=manual_context_rule
+19	dua	dua	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+20	aràng	aràng	NUM	_	_	_	npadvmod	_	gloss=one|NumType=Card
+21	anà	anà	NOUN	_	_	_	_	_	gloss=children|auto_upos=NOUN|auto_note=corpus_evidence
+22	lơkơi	lơkơi	unk	_	_	_	_	_	gloss=co
+23	dơlhă	dơlhă	PROPN	_	_	_	_	_	gloss=Good|auto_upos=PROPN|auto_note=corpus_evidence
+24	,	,	PUNCT	_	_	_	_	_
+25	sa	sa	SCONJ	_	_	_	_	_	gloss=o|auto_upos=SCONJ|auto_note=corpus_evidence
+26	aràng	aràng	NUM	_	_	_	npadvmod	_	gloss=one|NumType=Card
+27	dò	dò	VERB	_	_	_	_	_	gloss=remains|auto_upos=VERB|auto_note=corpus_evidence
+28	guh	guh	VERB	_	_	_	_	_	gloss=seated|auto_upos=VERB|auto_note=corpus_evidence
+29	gah	gah	PROPN	_	_	_	_	_	gloss=east|auto_upos=PROPN|auto_note=corpus_evidence
+30	hơnuă	hơnuă	NOUN	_	_	_	pobj	_	gloss=right|Number=Sing
+31	,	,	PUNCT	_	_	_	_	_
+32	sa	sa	SCONJ	_	_	_	_	_	gloss=o|auto_upos=SCONJ|auto_note=corpus_evidence
+33	aràng	aràng	NUM	_	_	_	npadvmod	_	gloss=one|NumType=Card
+34	dò	dò	VERB	_	_	_	_	_	gloss=remains|auto_upos=VERB|auto_note=corpus_evidence
+35	guh	guh	VERB	_	_	_	_	_	gloss=seated|auto_upos=VERB|auto_note=corpus_evidence
+36	gah	gah	PROPN	_	_	_	_	_	gloss=east|auto_upos=PROPN|auto_note=corpus_evidence
+37	ơñiau	ơñiau	NOUN	_	_	40	pobj	_	gloss=places|Number=Plur
+38	Pô	pô	PRON	_	_	_	_	_	gloss=him|auto_upos=PRON|auto_note=corpus_evidence
+39	,	,	PUNCT	_	_	_	_	_
+40	lăm	lăm	ADP	_	_	_	prep	_	gloss=in
+41	Lơgăr	lơgăr	PROPN	_	_	_	_	_	gloss=Heaven|auto_upos=PROPN|auto_note=corpus_evidence
+42	Pô	pô	PRON	_	_	_	_	_	gloss=him|auto_upos=PRON|auto_note=corpus_evidence
+43	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+44	”	”	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 40026002
+# ref_id = Matthew 26:2
+# eng_text = " You know that after two days the Passover is coming , and the Son of Man will be delivered up to be crucified . "
+# cje_text = “ Buơl guhã thơu dò dua hơrơi tra la truh pơnuaĭ pơjŭm 'bơ̆ng Nau-Găn , sơ̆ng Anà Mơnih rơŭ kơđòng jào tô kŏng pơ̆ng tơ kơyơu pơkăl . ”
+1	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+2	Buơl	buơl	PRON	_	_	_	_	_	gloss=vation|auto_upos=PRON|auto_note=corpus_evidence
+3	guhã	guhã	NOUN	_	_	_	_	_	gloss=fate|auto_upos=NOUN|auto_note=corpus_evidence
+4	thơu	thơu	VERB	_	_	_	_	_	gloss=knew|auto_upos=VERB|auto_note=corpus_evidence
+5	dò	dò	VERB	_	_	_	_	_	gloss=remains|auto_upos=VERB|auto_note=corpus_evidence
+6	dua	dua	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+7	hơrơi	hơrơi	unk	_	_	_	_	_	gloss=ody
+8	tra	tra	ADV	_	_	_	_	_	gloss=longer|auto_upos=ADV|auto_note=corpus_evidence
+9	la	la	AUX	_	_	_	_	_	gloss=am|auto_upos=AUX|auto_note=corpus_evidence
+10	truh	truh	NOUN	_	_	_	_	_	gloss=G|auto_upos=NOUN|auto_note=corpus_evidence
+11	pơnuaĭ	pơnuaĭ	VERB	_	_	_	_	_	gloss=disobey|auto_upos=VERB|auto_note=manual_context_rule
+12	pơjŭm	pơjŭm	PROPN	_	_	_	nsubj	_	gloss=Passover|Number=Sing
+13	'bơ̆ng	'bơ̆ng	VERB	_	_	_	_	_	gloss=eat|auto_upos=VERB|auto_note=corpus_evidence
+14	Nau-Găn	nau-găn	PROPN	_	_	_	nsubj	_	gloss=Passover|Number=Sing
+15	,	,	PUNCT	_	_	_	_	_
+16	sơ̆ng	sơ̆ng	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+17	Anà	anà	PROPN	_	_	_	nsubjpass	_	gloss=Son|Number=Sing
+18	Mơnih	mơnih	PROPN	_	_	_	pobj	_	gloss=Man|Number=Sing
+19	rơŭ	rơŭ	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+20	kơđòng	kơđòng	VERB	_	_	_	_	_	gloss=possessed|auto_upos=VERB|auto_note=corpus_evidence
+21	jào	jào	unk	_	_	_	_	_	gloss=ar
+22	tô	tô	NOUN	_	_	_	_	_	gloss=ering|auto_upos=NOUN|auto_note=corpus_evidence
+23	kŏng	kŏng	VERB	_	_	_	_	_	gloss=endure|auto_upos=VERB|auto_note=corpus_evidence
+24	pơ̆ng	pơ̆ng	VERB	_	_	_	advcl	_	gloss=crucified|Aspect=Perf|Tense=Past|VerbForm=Part
+25	tơ	tơ	ADP	_	_	_	_	_	gloss=g|auto_upos=ADP|auto_note=manual_context_rule
+26	kơyơu	kơyơu	NOUN	_	_	_	_	_	gloss=tree|auto_upos=NOUN|auto_note=corpus_evidence
+27	pơkăl	pơkăl	NOUN	_	_	_	_	_	gloss=cross|auto_upos=NOUN|auto_note=corpus_evidence
+28	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+29	”	”	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 40026061
+# ref_id = Matthew 26:61
+# eng_text = and said , " This man said , ' I am able to destroy the temple of God , and to build it in three days . ' "
+# cje_text = đờm yă lài : “ Mơnih ni hũ đờm : ‘ Kơu hũ rơgơi ngă pơjơrlơh sàng duh-dơlbăt Yàng Pô Lơngì , bloh nư̆n bơ̆ pơdơ̆ng wơ̆ lăm klơu hơrơi . ’ ”
+1	đờm	đờm	VERB	_	_	_	_	_	gloss=ast|auto_upos=VERB|auto_note=manual_context_rule
+2	yă	yă	unk	_	_	_	_	_	gloss=contr
+3	lài	lài	unk	_	_	_	_	_	gloss=lo
+4	:	:	PUNCT	_	_	_	_	_
+5	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+6	Mơnih	mơnih	PROPN	_	_	_	_	_	gloss=Man|auto_upos=PROPN|auto_note=corpus_evidence
+7	ni	ni	DET	_	_	_	_	_	gloss=this|auto_upos=DET|auto_note=corpus_evidence
+8	hũ	hũ	AUX	_	_	_	_	_	gloss=had|auto_upos=AUX|auto_note=corpus_evidence
+9	đờm	đờm	VERB	_	_	_	_	_	gloss=ast|auto_upos=VERB|auto_note=manual_context_rule
+10	:	:	PUNCT	_	_	_	_	_
+11	‘	‘	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+12	Kơu	kơu	PRON	_	_	_	_	_	gloss=my|auto_upos=PRON|auto_note=corpus_evidence
+13	hũ	hũ	AUX	_	_	_	_	_	gloss=had|auto_upos=AUX|auto_note=corpus_evidence
+14	rơgơi	rơgơi	ADJ	_	_	_	acomp	_	gloss=able|Degree=Pos
+15	ngă	ngă	VERB	_	_	_	_	_	gloss=make|auto_upos=VERB|auto_note=corpus_evidence
+16	pơjơrlơh	pơjơrlơh	unk	_	_	_	_	_	gloss=roy
+17	sàng	sàng	NOUN	_	_	_	_	_	gloss=house|auto_upos=NOUN|auto_note=corpus_evidence
+18	duh-dơlbăt	duh-dơlbăt	unk	_	_	_	_	_	gloss=viol
+19	Yàng	yàng	NOUN	_	_	_	_	_	gloss=urther|auto_upos=NOUN|auto_note=corpus_evidence
+20	Pô	pô	PRON	_	_	_	_	_	gloss=him|auto_upos=PRON|auto_note=corpus_evidence
+21	Lơngì	lơngì	NOUN	_	_	_	_	_	gloss=Re|auto_upos=NOUN|auto_note=corpus_evidence
+22	,	,	PUNCT	_	_	_	_	_
+23	bloh	bloh	CCONJ	_	_	_	_	_	gloss=ound|auto_upos=CCONJ|auto_note=manual_context_rule
+24	nư̆n	nư̆n	DET	_	_	_	_	_	gloss=ed|auto_upos=DET|auto_note=manual_context_rule
+25	bơ̆	bơ̆	unk	_	_	_	_	_	gloss=mon
+26	pơdơ̆ng	pơdơ̆ng	unk	_	_	_	_	_	gloss=aked
+27	wơ̆	wơ̆	unk	_	_	_	_	_	gloss=ind
+28	lăm	lăm	ADP	_	_	_	prep	_	gloss=in
+29	klơu	klơu	NUM	_	_	_	nummod	_	gloss=three|NumType=Card
+30	hơrơi	hơrơi	unk	_	_	_	_	_	gloss=ody
+31	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+32	’	’	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+33	”	”	PUNCT	_	_	0	root	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 40028016
+# ref_id = Matthew 28:16
+# eng_text = But the eleven disciples went into Galilee , to the mountain where Jesus had sent them .
+# cje_text = Sa-pluh sa aràng mơnih tui-mơgru nau truh tơ Galile , đì tơ ngŏ c̆ơ̆ bloh Yàng Jêsu hũ pơto tơ buơl guñu .
+1	Sa-pluh	sa-pluh	NUM	_	_	_	_	_	auto_upos=NUM|auto_note=corpus_evidence
+2	sa	sa	SCONJ	_	_	_	_	_	gloss=o|auto_upos=SCONJ|auto_note=corpus_evidence
+3	aràng	aràng	unk	_	_	_	_	_	gloss=one
+4	mơnih	mơnih	NOUN	_	_	_	_	_	gloss=man|auto_upos=NOUN|auto_note=corpus_evidence
+5	tui-mơgru	tui-mơgru	NOUN	_	_	_	nsubj	_	gloss=disciples|Number=Plur
+6	nau	nau	VERB	_	_	_	_	_	gloss=airs|auto_upos=VERB|auto_note=corpus_evidence
+7	truh	truh	NOUN	_	_	_	_	_	gloss=G|auto_upos=NOUN|auto_note=corpus_evidence
+8	tơ	tơ	ADP	_	_	_	_	_	gloss=g|auto_upos=ADP|auto_note=manual_context_rule
+9	Galile	galile	PROPN	_	_	_	pobj	_	gloss=Galilee|Number=Sing
+10	,	,	PUNCT	_	_	_	_	_
+11	đì	đì	unk	_	_	_	_	_	gloss=gathering
+12	tơ	tơ	ADP	_	_	_	_	_	gloss=g|auto_upos=ADP|auto_note=manual_context_rule
+13	ngŏ	ngŏ	PROPN	_	_	_	_	_	gloss=heaven|auto_upos=PROPN|auto_note=corpus_evidence
+14	c̆ơ̆	c̆ơ̆	NOUN	_	_	_	pobj	_	gloss=mountain|Number=Sing
+15	bloh	bloh	CCONJ	_	_	_	_	_	gloss=ound|auto_upos=CCONJ|auto_note=manual_context_rule
+16	Yàng	yàng	NOUN	_	_	_	_	_	gloss=urther|auto_upos=NOUN|auto_note=corpus_evidence
+17	Jêsu	jêsu	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+18	hũ	hũ	AUX	_	_	_	aux	_	gloss=had|Tense=Past|VerbForm=Fin
+19	pơto	pơto	unk	_	_	_	_	_	gloss=cloth
+20	tơ	tơ	ADP	_	_	_	_	_	gloss=g|auto_upos=ADP|auto_note=manual_context_rule
+21	buơl	buơl	PRON	_	_	_	_	_	gloss=you|auto_upos=PRON|auto_note=corpus_evidence
+22	guñu	guñu	unk	_	_	_	_	_	gloss=ver
+23	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41002023
+# ref_id = Mark 2:23
+# eng_text = It happened , that he was going on the Sabbath day through the grain fields , and his disciples began , as they went , to pluck the ears of grain .
+# cje_text = Lăm hơrơi sa'bat , Yàng Jêsu nau găn 'blàng hơma bơdai . Lăm jơlàn nau , du mơnih tui-mơgru Pô rơhòt amùng bơdai .
+1	Lăm	lăm	ADP	_	_	_	_	_	gloss=ong|auto_upos=ADP|auto_note=corpus_evidence
+2	hơrơi	hơrơi	unk	_	_	_	_	_	gloss=ody
+3	sa'bat	sa'bat	PROPN	_	_	_	compound	_	gloss=Sabbath|Number=Sing
+4	,	,	PUNCT	_	_	_	_	_
+5	Yàng	yàng	NOUN	_	_	_	_	_	gloss=urther|auto_upos=NOUN|auto_note=corpus_evidence
+6	Jêsu	jêsu	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+7	nau	nau	VERB	_	_	_	_	_	gloss=airs|auto_upos=VERB|auto_note=corpus_evidence
+8	găn	găn	unk	_	_	_	_	_	gloss=aeus
+9	'blàng	'blàng	NOUN	_	_	_	_	_	gloss=courtyard|auto_upos=NOUN|auto_note=corpus_evidence
+10	hơma	hơma	NOUN	_	_	_	_	_	gloss=field|auto_upos=NOUN|auto_note=corpus_evidence
+11	bơdai	bơdai	NOUN	_	_	_	pobj	_	gloss=grain|Number=Sing
+12	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+13	Lăm	lăm	ADP	_	_	_	_	_	gloss=ong|auto_upos=ADP|auto_note=corpus_evidence
+14	jơlàn	jơlàn	NOUN	_	_	_	_	_	gloss=road|auto_upos=NOUN|auto_note=corpus_evidence
+15	nau	nau	VERB	_	_	_	_	_	gloss=airs|auto_upos=VERB|auto_note=corpus_evidence
+16	,	,	PUNCT	_	_	_	_	_
+17	du	du	ADJ	_	_	_	_	_	gloss=w|auto_upos=ADJ|auto_note=corpus_evidence
+18	mơnih	mơnih	NOUN	_	_	_	_	_	gloss=man|auto_upos=NOUN|auto_note=corpus_evidence
+19	tui-mơgru	tui-mơgru	NOUN	_	_	_	nsubj	_	gloss=disciples|Number=Plur
+20	Pô	pô	PRON	_	_	_	_	_	gloss=him|auto_upos=PRON|auto_note=corpus_evidence
+21	rơhòt	rơhòt	unk	_	_	_	_	_
+22	amùng	amùng	unk	_	_	_	_	_
+23	bơdai	bơdai	NOUN	_	_	_	pobj	_	gloss=grain|Number=Sing
+24	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41012032
+# ref_id = Mark 12:32
+# eng_text = The scribe said to him , " Truly , teacher , you have said well that he is one , and there is none other but he ,
+# cje_text = Mơnih gơnuăr-pơto pơnuaĭ adăt-adia đờm : “ Ơ Pô-Pơto , biă iơŭ yơu Pô-Pơto đờm , Yàng Pô Lơngì mĭn hũ sa , rơlau tơ Pô 'buh hũ Yàng lơi pơkơ̆n .
+1	Mơnih	mơnih	PROPN	_	_	_	_	_	gloss=Man|auto_upos=PROPN|auto_note=corpus_evidence
+2	gơnuăr-pơto	gơnuăr-pơto	ADJ	_	_	4	amod	_	gloss=religious|Degree=Pos
+3	pơnuaĭ	pơnuaĭ	VERB	_	_	_	_	_	gloss=disobey|auto_upos=VERB|auto_note=manual_context_rule
+4	adăt-adia	adăt-adia	NOUN	_	_	_	pobj	_	gloss=law|Number=Sing
+5	đờm	đờm	VERB	_	_	_	_	_	gloss=ast|auto_upos=VERB|auto_note=manual_context_rule
+6	:	:	PUNCT	_	_	_	_	_
+7	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+8	Ơ	ơ	ADJ	_	_	_	_	_	gloss=Dear|auto_upos=ADJ|auto_note=corpus_evidence
+9	Pô-Pơto	pô-pơto	NOUN	_	_	_	npadvmod	_	gloss=Teacher|Number=Sing
+10	,	,	PUNCT	_	_	_	_	_
+11	biă	biă	INTJ	_	_	_	_	_	gloss=icul|auto_upos=INTJ|auto_note=corpus_evidence
+12	iơŭ	iơŭ	SCONJ	_	_	_	_	_	gloss=if|auto_upos=SCONJ|auto_note=corpus_evidence
+13	yơu	yơu	ADP	_	_	_	_	_	gloss=like|auto_upos=ADP|auto_note=corpus_evidence
+14	Pô-Pơto	pô-pơto	NOUN	_	_	_	npadvmod	_	gloss=Teacher|Number=Sing
+15	đờm	đờm	VERB	_	_	_	_	_	gloss=ast|auto_upos=VERB|auto_note=manual_context_rule
+16	,	,	PUNCT	_	_	_	_	_
+17	Yàng	yàng	NOUN	_	_	_	_	_	gloss=urther|auto_upos=NOUN|auto_note=corpus_evidence
+18	Pô	pô	PRON	_	_	_	_	_	gloss=him|auto_upos=PRON|auto_note=corpus_evidence
+19	Lơngì	lơngì	NOUN	_	_	_	_	_	gloss=Re|auto_upos=NOUN|auto_note=corpus_evidence
+20	mĭn	mĭn	ADV	_	_	_	advmod	_	gloss=only
+21	hũ	hũ	AUX	_	_	_	_	_	gloss=had|auto_upos=AUX|auto_note=corpus_evidence
+22	sa	sa	SCONJ	_	_	_	_	_	gloss=o|auto_upos=SCONJ|auto_note=corpus_evidence
+23	,	,	PUNCT	_	_	_	_	_
+24	rơlau	rơlau	unk	_	_	_	_	_	gloss=than
+25	tơ	tơ	ADP	_	_	_	_	_	gloss=g|auto_upos=ADP|auto_note=manual_context_rule
+26	Pô	pô	PRON	_	_	_	_	_	gloss=him|auto_upos=PRON|auto_note=corpus_evidence
+27	'buh	'buh	VERB	_	_	_	_	_	gloss=saw|auto_upos=VERB|auto_note=corpus_evidence
+28	hũ	hũ	AUX	_	_	_	_	_	gloss=had|auto_upos=AUX|auto_note=corpus_evidence
+29	Yàng	yàng	NOUN	_	_	_	_	_	gloss=urther|auto_upos=NOUN|auto_note=corpus_evidence
+30	lơi	lơi	ADV	_	_	_	_	_	gloss=ever|auto_upos=ADV|auto_note=corpus_evidence
+31	pơkơ̆n	pơkơ̆n	unk	_	_	_	_	_	gloss=Tw
+32	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41014037
+# ref_id = Mark 14:37
+# eng_text = He came and found them sleeping , and said to Peter , " Simon , are you sleeping ? Couldn't you watch one hour ?
+# cje_text = Bloh nư̆n Pô gài mơrai , 'buh klơu aràng buơl guñu dò đih ; Pô đờm sơ̆ng Pier : “ Simôn , hã dò đih nư̆n ? Hã 'buh rơgơi dò mơdơh guah jiơ̆ng sa jơ ơu ?
+1	Bloh	bloh	CCONJ	_	_	_	_	_	gloss=gin|auto_upos=CCONJ|auto_note=manual_context_rule
+2	nư̆n	nư̆n	DET	_	_	_	_	_	gloss=ed|auto_upos=DET|auto_note=manual_context_rule
+3	Pô	pô	PRON	_	_	_	_	_	gloss=him|auto_upos=PRON|auto_note=corpus_evidence
+4	gài	gài	unk	_	_	_	_	_	gloss=ned
+5	mơrai	mơrai	unk	_	_	_	_	_	gloss=ie
+6	,	,	PUNCT	_	_	_	_	_
+7	'buh	'buh	VERB	_	_	_	_	_	gloss=saw|auto_upos=VERB|auto_note=corpus_evidence
+8	klơu	klơu	NUM	_	_	_	_	_	gloss=three|auto_upos=NUM|auto_note=corpus_evidence
+9	aràng	aràng	NUM	_	_	_	nummod	_	gloss=one|NumType=Card
+10	buơl	buơl	PRON	_	_	_	nsubj	_	gloss=you|Case=Nom|Person=2|PronType=Prs
+11	guñu	guñu	unk	_	_	_	_	_	gloss=ver
+12	dò	dò	VERB	_	_	_	_	_	gloss=remains|auto_upos=VERB|auto_note=corpus_evidence
+13	đih	đih	VERB	_	_	_	_	_	gloss=sleeping|auto_upos=VERB|auto_note=corpus_evidence
+14	;	;	PUNCT	_	_	_	_	_	gloss=ct
+15	Pô	pô	PRON	_	_	_	_	_	gloss=him|auto_upos=PRON|auto_note=corpus_evidence
+16	đờm	đờm	VERB	_	_	_	_	_	gloss=ast|auto_upos=VERB|auto_note=manual_context_rule
+17	sơ̆ng	sơ̆ng	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+18	Pier	pier	PROPN	_	_	_	pobj	_	gloss=Peter|Number=Sing
+19	:	:	PUNCT	_	_	_	_	_
+20	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+21	Simôn	simôn	PROPN	_	_	_	npadvmod	_	gloss=Simon|Number=Sing
+22	,	,	PUNCT	_	_	_	_	_
+23	hã	hã	unk	_	_	_	_	_	gloss=pl
+24	dò	dò	VERB	_	_	_	_	_	gloss=remains|auto_upos=VERB|auto_note=corpus_evidence
+25	đih	đih	VERB	_	_	_	_	_	gloss=sleeping|auto_upos=VERB|auto_note=corpus_evidence
+26	nư̆n	nư̆n	DET	_	_	_	_	_	gloss=ed|auto_upos=DET|auto_note=manual_context_rule
+27	?	?	PUNCT	_	_	_	_	_	gloss=pent
+28	Hã	hã	unk	_	_	_	_	_	gloss=eal
+29	'buh	'buh	VERB	_	_	_	_	_	gloss=saw|auto_upos=VERB|auto_note=corpus_evidence
+30	rơgơi	rơgơi	ADJ	_	_	_	_	_	gloss=able|auto_upos=ADJ|auto_note=corpus_evidence
+31	dò	dò	VERB	_	_	_	_	_	gloss=remains|auto_upos=VERB|auto_note=corpus_evidence
+32	mơdơh	mơdơh	unk	_	_	_	_	_	gloss=occ
+33	guah	guah	unk	_	_	_	_	_	gloss=afterward
+34	jiơ̆ng	jiơ̆ng	AUX	_	_	_	_	_	gloss=Can|auto_upos=AUX|auto_note=corpus_evidence
+35	sa	sa	SCONJ	_	_	_	_	_	gloss=o|auto_upos=SCONJ|auto_note=corpus_evidence
+36	jơ	jơ	unk	_	_	_	_	_	gloss=ethe
+37	ơu	ơu	unk	_	_	_	_	_	gloss=fail
+38	?	?	PUNCT	_	_	_	_	_	gloss=pent
+
+# sent_id = 42004002
+# ref_id = Luke 4:2
+# eng_text = for forty days , being tempted by the devil . He ate nothing in those days . Afterward , when they were completed , he was hungry .
+# cje_text = Pô dò tơ anih nư̆n pà pluh hơrơi sơ̆ng kŏng kơmlài pơluơ-ơñiai . Lăm du hơrơi nư̆n , Pô 'buh 'bơ̆ng phơ̆n hơgĕ . Hơdơi du hơrơi nư̆n , Pô lơpa .
+1	Pô	pô	PRON	_	_	_	_	_	gloss=him|auto_upos=PRON|auto_note=corpus_evidence
+2	dò	dò	VERB	_	_	_	_	_	gloss=remains|auto_upos=VERB|auto_note=corpus_evidence
+3	tơ	tơ	ADP	_	_	_	_	_	gloss=g|auto_upos=ADP|auto_note=manual_context_rule
+4	anih	anih	NOUN	_	_	_	_	_	gloss=place|auto_upos=NOUN|auto_note=corpus_evidence
+5	nư̆n	nư̆n	DET	_	_	_	_	_	gloss=ed|auto_upos=DET|auto_note=manual_context_rule
+6	pà	pà	NUM	_	_	_	_	_	gloss=fourteen|auto_upos=NUM|auto_note=corpus_evidence
+7	pluh	pluh	NUM	_	_	_	nummod	_	gloss=forty|NumType=Card
+8	hơrơi	hơrơi	unk	_	_	_	_	_	gloss=ody
+9	sơ̆ng	sơ̆ng	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+10	kŏng	kŏng	VERB	_	_	_	_	_	gloss=endure|auto_upos=VERB|auto_note=corpus_evidence
+11	kơmlài	kơmlài	NOUN	_	_	_	_	_	gloss=demons|auto_upos=NOUN|auto_note=corpus_evidence
+12	pơluơ-ơñiai	pơluơ-ơñiai	unk	_	_	_	_	_	gloss=During
+13	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+14	Lăm	lăm	ADP	_	_	_	_	_	gloss=ong|auto_upos=ADP|auto_note=corpus_evidence
+15	du	du	ADJ	_	_	_	_	_	gloss=w|auto_upos=ADJ|auto_note=corpus_evidence
+16	hơrơi	hơrơi	unk	_	_	_	_	_	gloss=ody
+17	nư̆n	nư̆n	DET	_	_	_	_	_	gloss=ed|auto_upos=DET|auto_note=manual_context_rule
+18	,	,	PUNCT	_	_	_	_	_
+19	Pô	pô	PRON	_	_	_	_	_	gloss=him|auto_upos=PRON|auto_note=corpus_evidence
+20	'buh	'buh	VERB	_	_	_	_	_	gloss=saw|auto_upos=VERB|auto_note=corpus_evidence
+21	'bơ̆ng	'bơ̆ng	VERB	_	_	_	_	_	gloss=eat|auto_upos=VERB|auto_note=corpus_evidence
+22	phơ̆n	phơ̆n	unk	_	_	_	_	_	gloss=Bl
+23	hơgĕ	hơgĕ	PRON	_	_	_	_	_	gloss=Nothing|auto_upos=PRON|auto_note=corpus_evidence
+24	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+25	Hơdơi	hơdơi	ADP	_	_	_	_	_	gloss=After|auto_upos=ADP|auto_note=corpus_evidence
+26	du	du	ADJ	_	_	_	_	_	gloss=w|auto_upos=ADJ|auto_note=corpus_evidence
+27	hơrơi	hơrơi	unk	_	_	_	_	_	gloss=ody
+28	nư̆n	nư̆n	DET	_	_	_	_	_	gloss=ed|auto_upos=DET|auto_note=manual_context_rule
+29	,	,	PUNCT	_	_	_	_	_
+30	Pô	pô	PRON	_	_	_	_	_	gloss=him|auto_upos=PRON|auto_note=corpus_evidence
+31	lơpa	lơpa	ADJ	_	_	_	acomp	_	gloss=hungry|Degree=Pos
+32	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 42016013
+# ref_id = Luke 16:13
+# eng_text = No servant can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You aren't able to serve God and mammon . "
+# cje_text = 'Buh mơnih hơlŭn-hơlă lơi hũ rơgơi ngă hơlŭn dua aràng mơnih pô , kơyoa rơŭ mơbai pô ni bloh rơnăm pô dih , halài c̆ơ prŏng-màng tơ pô ni bloh c̆ơ 'buh sơ̆p tơ pô dih . Buơl guhã 'buh rơgơi găm duh bruă Yàng Pô Lơngì , găm duh bruă phơ̆n-priă jiơ̆ng . ”
+1	'Buh	'buh	VERB	_	_	_	_	_	gloss=Was|auto_upos=VERB|auto_note=corpus_evidence
+2	mơnih	mơnih	NOUN	_	_	_	_	_	gloss=man|auto_upos=NOUN|auto_note=corpus_evidence
+3	hơlŭn-hơlă	hơlŭn-hơlă	NOUN	_	_	_	_	_	gloss=servants|auto_upos=NOUN|auto_note=corpus_evidence
+4	lơi	lơi	ADV	_	_	_	_	_	gloss=ever|auto_upos=ADV|auto_note=corpus_evidence
+5	hũ	hũ	AUX	_	_	_	_	_	gloss=had|auto_upos=AUX|auto_note=corpus_evidence
+6	rơgơi	rơgơi	ADJ	_	_	_	_	_	gloss=able|auto_upos=ADJ|auto_note=corpus_evidence
+7	ngă	ngă	VERB	_	_	_	_	_	gloss=make|auto_upos=VERB|auto_note=corpus_evidence
+8	hơlŭn	hơlŭn	VERB	_	_	_	acomp	_	gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+9	dua	dua	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+10	aràng	aràng	NUM	_	_	_	pobj	_	gloss=one|NumType=Card
+11	mơnih	mơnih	NOUN	_	_	_	_	_	gloss=man|auto_upos=NOUN|auto_note=corpus_evidence
+12	pô	pô	NOUN	_	_	_	_	_	gloss=master|auto_upos=NOUN|auto_note=corpus_evidence
+13	,	,	PUNCT	_	_	_	_	_
+14	kơyoa	kơyoa	ADP	_	_	_	_	_	gloss=ise|auto_upos=ADP|auto_note=corpus_evidence
+15	rơŭ	rơŭ	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+16	mơbai	mơbai	VERB	_	_	_	_	_	gloss=hates|auto_upos=VERB|auto_note=corpus_evidence
+17	pô	pô	NOUN	_	_	_	_	_	gloss=master|auto_upos=NOUN|auto_note=corpus_evidence
+18	ni	ni	DET	_	_	_	_	_	gloss=this|auto_upos=DET|auto_note=corpus_evidence
+19	bloh	bloh	CCONJ	_	_	_	_	_	gloss=ound|auto_upos=CCONJ|auto_note=manual_context_rule
+20	rơnăm	rơnăm	VERB	_	_	_	_	_	gloss=loved|auto_upos=VERB|auto_note=corpus_evidence
+21	pô	pô	NOUN	_	_	_	_	_	gloss=master|auto_upos=NOUN|auto_note=corpus_evidence
+22	dih	dih	ADJ	_	_	_	_	_	gloss=ared|auto_upos=ADJ|auto_note=manual_context_rule
+23	,	,	PUNCT	_	_	_	_	_
+24	halài	halài	CCONJ	_	_	_	_	_	gloss=or|auto_upos=CCONJ|auto_note=corpus_evidence
+25	c̆ơ	c̆ơ	VERB	_	_	_	_	_	gloss=looked|auto_upos=VERB|auto_note=corpus_evidence
+26	prŏng-màng	prŏng-màng	unk	_	_	_	_	_	gloss=ets
+27	tơ	tơ	ADP	_	_	_	_	_	gloss=g|auto_upos=ADP|auto_note=manual_context_rule
+28	pô	pô	NOUN	_	_	_	_	_	gloss=master|auto_upos=NOUN|auto_note=corpus_evidence
+29	ni	ni	DET	_	_	_	_	_	gloss=this|auto_upos=DET|auto_note=corpus_evidence
+30	bloh	bloh	CCONJ	_	_	_	_	_	gloss=ound|auto_upos=CCONJ|auto_note=manual_context_rule
+31	c̆ơ	c̆ơ	VERB	_	_	_	_	_	gloss=looked|auto_upos=VERB|auto_note=corpus_evidence
+32	'buh	'buh	VERB	_	_	_	_	_	gloss=saw|auto_upos=VERB|auto_note=corpus_evidence
+33	sơ̆p	sơ̆p	unk	_	_	_	_	_	gloss=desp
+34	tơ	tơ	ADP	_	_	_	_	_	gloss=g|auto_upos=ADP|auto_note=manual_context_rule
+35	pô	pô	NOUN	_	_	_	_	_	gloss=master|auto_upos=NOUN|auto_note=corpus_evidence
+36	dih	dih	ADJ	_	_	_	_	_	gloss=ared|auto_upos=ADJ|auto_note=manual_context_rule
+37	.	.	PUNCT	_	_	43	punct	_	PunctType=Peri
+38	Buơl	buơl	PRON	_	_	_	_	_	gloss=vation|auto_upos=PRON|auto_note=corpus_evidence
+39	guhã	guhã	NOUN	_	_	_	_	_	gloss=fate|auto_upos=NOUN|auto_note=corpus_evidence
+40	'buh	'buh	VERB	_	_	_	_	_	gloss=saw|auto_upos=VERB|auto_note=corpus_evidence
+41	rơgơi	rơgơi	ADJ	_	_	_	_	_	gloss=able|auto_upos=ADJ|auto_note=corpus_evidence
+42	găm	găm	ADJ	_	_	_	_	_	gloss=vast|auto_upos=ADJ|auto_note=corpus_evidence
+43	duh	duh	VERB	_	_	0	root	_	gloss=serve|VerbForm=Inf
+44	bruă	bruă	unk	_	_	_	_	_	gloss=works
+45	Yàng	yàng	NOUN	_	_	_	_	_	gloss=urther|auto_upos=NOUN|auto_note=corpus_evidence
+46	Pô	pô	PRON	_	_	_	_	_	gloss=him|auto_upos=PRON|auto_note=corpus_evidence
+47	Lơngì	lơngì	NOUN	_	_	_	_	_	gloss=Re|auto_upos=NOUN|auto_note=corpus_evidence
+48	,	,	PUNCT	_	_	_	_	_
+49	găm	găm	ADJ	_	_	_	_	_	gloss=vast|auto_upos=ADJ|auto_note=corpus_evidence
+50	duh	duh	VERB	_	_	0	root	_	gloss=serve|VerbForm=Inf
+51	bruă	bruă	unk	_	_	_	_	_	gloss=works
+52	phơ̆n-priă	phơ̆n-priă	unk	_	_	_	_	_	gloss=treasury
+53	jiơ̆ng	jiơ̆ng	AUX	_	_	_	_	_	gloss=Can|auto_upos=AUX|auto_note=corpus_evidence
+54	.	.	PUNCT	_	_	50	punct	_	PunctType=Peri
+55	”	”	PUNCT	_	_	50	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 42024018
+# ref_id = Luke 24:18
+# eng_text = One of them , named Cleopas , answered him , " Are you the only one travelling in Jerusalem who doesn't know the things which have happened there in these days ? "
+# cje_text = Bloh nư̆n lăm dua aràng buơl guñu , sa aràng angăn la Kleôpa , đờm sơđồ : “ Hũ iơŭ mĭn sa aràng kơi la mơnih thuai-c̆rih lăm Jerusalem , 'buh mơhư̆ thơu mư̆ng tơgrơ̆ bruă hũ tơbiă truh tơ anih nư̆n lăm du hơrơi ni ơu ? ”
+1	Bloh	bloh	CCONJ	_	_	_	_	_	gloss=gin|auto_upos=CCONJ|auto_note=manual_context_rule
+2	nư̆n	nư̆n	DET	_	_	_	_	_	gloss=ed|auto_upos=DET|auto_note=manual_context_rule
+3	lăm	lăm	ADP	_	_	_	prep	_	gloss=in
+4	dua	dua	NUM	_	_	_	_	_	gloss=two|auto_upos=NUM|auto_note=corpus_evidence
+5	aràng	aràng	NUM	_	_	_	nsubj	_	gloss=one|NumType=Card
+6	buơl	buơl	PRON	_	_	_	_	_	gloss=you|auto_upos=PRON|auto_note=corpus_evidence
+7	guñu	guñu	unk	_	_	_	_	_	gloss=ver
+8	,	,	PUNCT	_	_	_	_	_
+9	sa	sa	SCONJ	_	_	_	_	_	gloss=o|auto_upos=SCONJ|auto_note=corpus_evidence
+10	aràng	aràng	NUM	_	_	_	nsubj	_	gloss=one|NumType=Card
+11	angăn	angăn	VERB	_	_	_	_	_	gloss=named|auto_upos=VERB|auto_note=corpus_evidence
+12	la	la	AUX	_	_	_	_	_	gloss=am|auto_upos=AUX|auto_note=corpus_evidence
+13	Kleôpa	kleôpa	unk	_	_	_	_	_
+14	,	,	PUNCT	_	_	_	_	_
+15	đờm	đờm	VERB	_	_	_	_	_	gloss=ast|auto_upos=VERB|auto_note=manual_context_rule
+16	sơđồ	sơđồ	VERB	_	_	_	_	_	gloss=answer|auto_upos=VERB|auto_note=corpus_evidence
+17	:	:	PUNCT	_	_	_	_	_
+18	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+19	Hũ	hũ	AUX	_	_	_	_	_	gloss=ists|auto_upos=AUX|auto_note=corpus_evidence
+20	iơŭ	iơŭ	SCONJ	_	_	_	_	_	gloss=if|auto_upos=SCONJ|auto_note=corpus_evidence
+21	mĭn	mĭn	ADJ	_	_	_	amod	_	gloss=only|Degree=Pos
+22	sa	sa	SCONJ	_	_	_	_	_	gloss=o|auto_upos=SCONJ|auto_note=corpus_evidence
+23	aràng	aràng	NUM	_	_	_	nsubj	_	gloss=one|NumType=Card
+24	kơi	kơi	unk	_	_	_	_	_	gloss=start
+25	la	la	AUX	_	_	_	_	_	gloss=am|auto_upos=AUX|auto_note=corpus_evidence
+26	mơnih	mơnih	NOUN	_	_	_	_	_	gloss=man|auto_upos=NOUN|auto_note=corpus_evidence
+27	thuai-c̆rih	thuai-c̆rih	unk	_	_	_	_	_
+28	lăm	lăm	ADP	_	_	_	prep	_	gloss=in
+29	Jerusalem	jerusalem	PROPN	_	_	28	pobj	_	gloss=Jerusalem|Number=Sing
+30	,	,	PUNCT	_	_	_	_	_
+31	'buh	'buh	VERB	_	_	_	_	_	gloss=saw|auto_upos=VERB|auto_note=corpus_evidence
+32	mơhư̆	mơhư̆	VERB	_	_	_	relcl	_	gloss=heard|Aspect=Perf|Tense=Past|VerbForm=Part
+33	thơu	thơu	VERB	_	_	_	_	_	gloss=knew|auto_upos=VERB|auto_note=corpus_evidence
+34	mư̆ng	mư̆ng	VERB	_	_	_	_	_	gloss=regarding|auto_upos=VERB|auto_note=corpus_evidence
+35	tơgrơ̆	tơgrơ̆	unk	_	_	_	_	_	gloss=ced
+36	bruă	bruă	unk	_	_	_	_	_	gloss=works
+37	hũ	hũ	AUX	_	_	_	_	_	gloss=had|auto_upos=AUX|auto_note=corpus_evidence
+38	tơbiă	tơbiă	ADP	_	_	_	_	_	gloss=out|auto_upos=ADP|auto_note=corpus_evidence
+39	truh	truh	NOUN	_	_	_	_	_	gloss=G|auto_upos=NOUN|auto_note=corpus_evidence
+40	tơ	tơ	ADP	_	_	_	_	_	gloss=g|auto_upos=ADP|auto_note=manual_context_rule
+41	anih	anih	NOUN	_	_	_	_	_	gloss=place|auto_upos=NOUN|auto_note=corpus_evidence
+42	nư̆n	nư̆n	DET	_	_	_	_	_	gloss=ed|auto_upos=DET|auto_note=manual_context_rule
+43	lăm	lăm	ADP	_	_	_	prep	_	gloss=in
+44	du	du	ADJ	_	_	_	_	_	gloss=w|auto_upos=ADJ|auto_note=corpus_evidence
+45	hơrơi	hơrơi	unk	_	_	_	_	_	gloss=ody
+46	ni	ni	DET	_	_	_	_	_	gloss=this|auto_upos=DET|auto_note=corpus_evidence
+47	ơu	ơu	unk	_	_	_	_	_	gloss=fail
+48	?	?	PUNCT	_	_	_	_	_	gloss=pent
+49	”	”	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 43001039
+# ref_id = John 1:39
+# eng_text = He said to them , " Come , and see . " They came and saw where he was staying , and they stayed with him that day . It was about the tenth hour .
+# cje_text = Pô đờm : “ Truh c̆ơ bĕ ! ” Buơl guñu truh c̆ơ anih Pô dò , sơ̆ng dò wơ̆ sơ̆ng Pô hơrơi nư̆n . Tŭ nư̆n pơgăp pà jơ diơŭ .
+1	Pô	pô	PRON	_	_	_	pobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+2	đờm	đờm	VERB	_	_	_	_	_	gloss=ast|auto_upos=VERB|auto_note=manual_context_rule
+3	:	:	PUNCT	_	_	_	_	_
+4	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+5	Truh	truh	NOUN	_	_	_	_	_	gloss=evening|auto_upos=NOUN|auto_note=corpus_evidence
+6	c̆ơ	c̆ơ	VERB	_	_	_	_	_	gloss=looked|auto_upos=VERB|auto_note=corpus_evidence
+7	bĕ	bĕ	VERB	_	_	_	_	_	gloss=Take|auto_upos=VERB|auto_note=corpus_evidence
+8	!	!	PUNCT	_	_	_	_	_
+9	”	”	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+10	Buơl	buơl	PRON	_	_	_	_	_	gloss=vation|auto_upos=PRON|auto_note=corpus_evidence
+11	guñu	guñu	unk	_	_	_	_	_	gloss=ver
+12	truh	truh	NOUN	_	_	_	_	_	gloss=G|auto_upos=NOUN|auto_note=corpus_evidence
+13	c̆ơ	c̆ơ	VERB	_	_	_	_	_	gloss=looked|auto_upos=VERB|auto_note=corpus_evidence
+14	anih	anih	NOUN	_	_	_	pobj	_	gloss=place|Number=Sing
+15	Pô	pô	PRON	_	_	_	pobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+16	dò	dò	VERB	_	_	_	_	_	gloss=remains|auto_upos=VERB|auto_note=corpus_evidence
+17	,	,	PUNCT	_	_	_	_	_
+18	sơ̆ng	sơ̆ng	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+19	dò	dò	VERB	_	_	_	_	_	gloss=remains|auto_upos=VERB|auto_note=corpus_evidence
+20	wơ̆	wơ̆	unk	_	_	_	_	_	gloss=ind
+21	sơ̆ng	sơ̆ng	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+22	Pô	pô	PRON	_	_	_	pobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+23	hơrơi	hơrơi	unk	_	_	_	_	_	gloss=ody
+24	nư̆n	nư̆n	DET	_	_	_	_	_	gloss=ed|auto_upos=DET|auto_note=manual_context_rule
+25	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+26	Tŭ	tŭ	SCONJ	_	_	_	_	_	gloss=When|auto_upos=SCONJ|auto_note=corpus_evidence
+27	nư̆n	nư̆n	DET	_	_	_	_	_	gloss=ed|auto_upos=DET|auto_note=manual_context_rule
+28	pơgăp	pơgăp	unk	_	_	_	_	_	gloss=bered
+29	pà	pà	NUM	_	_	_	_	_	gloss=fourteen|auto_upos=NUM|auto_note=corpus_evidence
+30	jơ	jơ	unk	_	_	_	_	_	gloss=ethe
+31	diơŭ	diơŭ	NOUN	_	_	_	_	_	gloss=evening|auto_upos=NOUN|auto_note=corpus_evidence
+32	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 43003016
+# ref_id = John 3:16
+# eng_text = For God so loved the world , that he gave his one and only Son , that whoever believes in him should not perish , but have eternal life .
+# cje_text = Kơyoa Yàng Pô Lơngì anĭt-rơnăm dun-ya , tơ̆l truh hũ brơi Anà Sa Pô , tô aràng sơi păng-tui Anà nư̆n 'buh kơđòng roh-rui mơtai lơhiă , bloh hũ pơnuaĭ hơdiŭ rài pơdò rài .
+1	Kơyoa	kơyoa	ADP	_	_	_	prep	_	gloss=For
+2	Yàng	yàng	NOUN	_	_	_	_	_	gloss=urther|auto_upos=NOUN|auto_note=corpus_evidence
+3	Pô	pô	PRON	_	_	_	pobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+4	Lơngì	lơngì	NOUN	_	_	_	_	_	gloss=Re|auto_upos=NOUN|auto_note=corpus_evidence
+5	anĭt-rơnăm	anĭt-rơnăm	unk	_	_	_	_	_	gloss=overfl
+6	dun-ya	dun-ya	NOUN	_	_	_	dobj	_	gloss=world|Number=Sing
+7	,	,	PUNCT	_	_	_	_	_
+8	tơ̆l	tơ̆l	NOUN	_	_	_	_	_	gloss=storm|auto_upos=NOUN|auto_note=corpus_evidence
+9	truh	truh	NOUN	_	_	_	_	_	gloss=G|auto_upos=NOUN|auto_note=corpus_evidence
+10	hũ	hũ	AUX	_	_	_	_	_	gloss=had|auto_upos=AUX|auto_note=corpus_evidence
+11	brơi	brơi	unk	_	_	_	_	_	gloss=sed
+12	Anà	anà	PROPN	_	_	17	appos	_	gloss=Son|Number=Sing
+13	Sa	sa	SCONJ	_	_	_	_	_	gloss=wherever|auto_upos=SCONJ|auto_note=corpus_evidence
+14	Pô	pô	PRON	_	_	_	pobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+15	,	,	PUNCT	_	_	_	_	_
+16	tô	tô	NOUN	_	_	_	_	_	gloss=ering|auto_upos=NOUN|auto_note=corpus_evidence
+17	aràng	aràng	NUM	_	_	_	dobj	_	gloss=one|NumType=Card
+18	sơi	sơi	PRON	_	_	_	_	_	gloss=Who|auto_upos=PRON|auto_note=corpus_evidence
+19	păng-tui	păng-tui	VERB	_	_	_	_	_	gloss=believe|auto_upos=VERB|auto_note=corpus_evidence
+20	Anà	anà	PROPN	_	_	17	appos	_	gloss=Son|Number=Sing
+21	nư̆n	nư̆n	DET	_	_	_	_	_	gloss=ed|auto_upos=DET|auto_note=manual_context_rule
+22	'buh	'buh	VERB	_	_	_	_	_	gloss=saw|auto_upos=VERB|auto_note=corpus_evidence
+23	kơđòng	kơđòng	VERB	_	_	_	_	_	gloss=possessed|auto_upos=VERB|auto_note=corpus_evidence
+24	roh-rui	roh-rui	unk	_	_	_	_	_
+25	mơtai	mơtai	VERB	_	_	_	_	_	gloss=died|auto_upos=VERB|auto_note=corpus_evidence
+26	lơhiă	lơhiă	VERB	_	_	_	_	_	gloss=lost|auto_upos=VERB|auto_note=corpus_evidence
+27	,	,	PUNCT	_	_	_	_	_
+28	bloh	bloh	CCONJ	_	_	_	_	_	gloss=ound|auto_upos=CCONJ|auto_note=manual_context_rule
+29	hũ	hũ	AUX	_	_	_	_	_	gloss=had|auto_upos=AUX|auto_note=corpus_evidence
+30	pơnuaĭ	pơnuaĭ	VERB	_	_	_	_	_	gloss=disobey|auto_upos=VERB|auto_note=manual_context_rule
+31	hơdiŭ	hơdiŭ	NOUN	_	_	_	dobj	_	gloss=life|Number=Sing
+32	rài	rài	unk	_	_	_	_	_	gloss=wealth
+33	pơdò	pơdò	ADJ	_	_	31	amod	_	gloss=eternal|Degree=Pos
+34	rài	rài	unk	_	_	_	_	_	gloss=wealth
+35	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 44002030
+# ref_id = Acts 2:30
+# eng_text = Therefore , being a prophet , and knowing that God had sworn with an oath to him that of the fruit of his body , according to the flesh , he would raise up the Christ to sit on his throne ,
+# cje_text = Bloh kơyoa pơtau Đabit la sa aràng mơnih gơnuăr-hwơ̆r , sơ̆ng thơu Yàng Pô Lơngì hũ mă pơnuaĭ tơpah-sri bloh đờm pơguăn sơ̆ng pơtau lài Pô rơŭ daŭ sa aràng mơnih mư̆ng lăm jơi-pơtiàn pơtau dò guh tơ ngŏ sơbàn pơtau .
+1	Bloh	bloh	CCONJ	_	_	_	_	_	gloss=gin|auto_upos=CCONJ|auto_note=manual_context_rule
+2	kơyoa	kơyoa	ADP	_	_	_	_	_	gloss=ise|auto_upos=ADP|auto_note=corpus_evidence
+3	pơtau	pơtau	NOUN	_	_	_	_	_	gloss=kings|auto_upos=NOUN|auto_note=corpus_evidence
+4	Đabit	đabit	PROPN	_	_	_	poss	_	gloss=David|Number=Sing
+5	la	la	AUX	_	_	_	_	_	gloss=am|auto_upos=AUX|auto_note=corpus_evidence
+6	sa	sa	SCONJ	_	_	_	_	_	gloss=o|auto_upos=SCONJ|auto_note=corpus_evidence
+7	aràng	aràng	NUM	_	_	_	nsubj	_	gloss=one|NumType=Card
+8	mơnih	mơnih	NOUN	_	_	_	_	_	gloss=man|auto_upos=NOUN|auto_note=corpus_evidence
+9	gơnuăr-hwơ̆r	gơnuăr-hwơ̆r	NOUN	_	_	_	attr	_	gloss=prophet|Number=Sing
+10	,	,	PUNCT	_	_	_	_	_
+11	sơ̆ng	sơ̆ng	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+12	thơu	thơu	VERB	_	_	_	conj	_	gloss=knew|Tense=Past|VerbForm=Fin
+13	Yàng	yàng	NOUN	_	_	_	_	_	gloss=urther|auto_upos=NOUN|auto_note=corpus_evidence
+14	Pô	pô	PRON	_	_	_	_	_	gloss=him|auto_upos=PRON|auto_note=corpus_evidence
+15	Lơngì	lơngì	NOUN	_	_	_	_	_	gloss=Re|auto_upos=NOUN|auto_note=corpus_evidence
+16	hũ	hũ	AUX	_	_	_	aux	_	gloss=had|Tense=Past|VerbForm=Fin
+17	mă	mă	VERB	_	_	_	_	_	gloss=caught|auto_upos=VERB|auto_note=corpus_evidence
+18	pơnuaĭ	pơnuaĭ	VERB	_	_	_	_	_	gloss=disobey|auto_upos=VERB|auto_note=manual_context_rule
+19	tơpah-sri	tơpah-sri	unk	_	_	_	_	_	gloss=kn
+20	bloh	bloh	CCONJ	_	_	_	_	_	gloss=ound|auto_upos=CCONJ|auto_note=manual_context_rule
+21	đờm	đờm	VERB	_	_	_	_	_	gloss=ast|auto_upos=VERB|auto_note=manual_context_rule
+22	pơguăn	pơguăn	NOUN	_	_	_	_	_	gloss=promise|auto_upos=NOUN|auto_note=corpus_evidence
+23	sơ̆ng	sơ̆ng	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+24	pơtau	pơtau	NOUN	_	_	_	_	_	gloss=kings|auto_upos=NOUN|auto_note=corpus_evidence
+25	lài	lài	unk	_	_	_	_	_	gloss=lo
+26	Pô	pô	PRON	_	_	_	_	_	gloss=him|auto_upos=PRON|auto_note=corpus_evidence
+27	rơŭ	rơŭ	AUX	_	_	_	_	_	gloss=will|auto_upos=AUX|auto_note=corpus_evidence
+28	daŭ	daŭ	VERB	_	_	_	_	_	gloss=laid|auto_upos=VERB|auto_note=corpus_evidence
+29	sa	sa	SCONJ	_	_	_	_	_	gloss=o|auto_upos=SCONJ|auto_note=corpus_evidence
+30	aràng	aràng	NUM	_	_	_	nsubj	_	gloss=one|NumType=Card
+31	mơnih	mơnih	NOUN	_	_	_	_	_	gloss=man|auto_upos=NOUN|auto_note=corpus_evidence
+32	mư̆ng	mư̆ng	VERB	_	_	_	_	_	gloss=regarding|auto_upos=VERB|auto_note=corpus_evidence
+33	lăm	lăm	ADP	_	_	_	_	_	gloss=in|auto_upos=ADP|auto_note=corpus_evidence
+34	jơi-pơtiàn	jơi-pơtiàn	NOUN	_	_	_	_	_	gloss=tribes|auto_upos=NOUN|auto_note=corpus_evidence
+35	pơtau	pơtau	NOUN	_	_	_	_	_	gloss=kings|auto_upos=NOUN|auto_note=corpus_evidence
+36	dò	dò	VERB	_	_	_	_	_	gloss=remains|auto_upos=VERB|auto_note=corpus_evidence
+37	guh	guh	VERB	_	_	_	_	_	gloss=seated|auto_upos=VERB|auto_note=corpus_evidence
+38	tơ	tơ	ADP	_	_	_	_	_	gloss=g|auto_upos=ADP|auto_note=manual_context_rule
+39	ngŏ	ngŏ	PROPN	_	_	_	_	_	gloss=heaven|auto_upos=PROPN|auto_note=corpus_evidence
+40	sơbàn	sơbàn	NOUN	_	_	_	pobj	_	gloss=throne|Number=Sing
+41	pơtau	pơtau	NOUN	_	_	_	_	_	gloss=kings|auto_upos=NOUN|auto_note=corpus_evidence
+42	.	.	PUNCT	_	_	12	punct	_	PunctType=Peri
+
+# sent_id = 44009038
+# ref_id = Acts 9:38
+# eng_text = As Lydda was near Joppa , the disciples , hearing that Peter was there , sent two men to him , imploring him not to delay in coming to them .
+# cje_text = Kơyoa Liđa dò jĕ Jôppe , nư̆n tŭ du mơnih tui-mơgru mơhư̆ thơu hũ Pier dò tơ anih nư̆n , buơl guñu pơđăr mư dua aràng mơnih truh tòm Pier sơ̆ng đờm : “ Yòng jà kơi truh mư sơ̆ng buơl dơlhă . ”
+1	Kơyoa	kơyoa	ADP	_	_	_	_	_	gloss=For|auto_upos=ADP|auto_note=corpus_evidence
+2	Liđa	liđa	unk	_	_	_	_	_
+3	dò	dò	VERB	_	_	_	_	_	gloss=remains|auto_upos=VERB|auto_note=corpus_evidence
+4	jĕ	jĕ	unk	_	_	_	_	_	gloss=near
+5	Jôppe	jôppe	PROPN	_	_	_	_	_	gloss=Joppa|auto_upos=PROPN|auto_note=corpus_evidence
+6	,	,	PUNCT	_	_	_	_	_
+7	nư̆n	nư̆n	DET	_	_	_	_	_	gloss=ed|auto_upos=DET|auto_note=manual_context_rule
+8	tŭ	tŭ	SCONJ	_	_	_	_	_	gloss=when|auto_upos=SCONJ|auto_note=corpus_evidence
+9	du	du	ADJ	_	_	_	_	_	gloss=w|auto_upos=ADJ|auto_note=corpus_evidence
+10	mơnih	mơnih	NOUN	_	_	_	_	_	gloss=man|auto_upos=NOUN|auto_note=corpus_evidence
+11	tui-mơgru	tui-mơgru	NOUN	_	_	_	_	_	gloss=disciples|auto_upos=NOUN|auto_note=corpus_evidence
+12	mơhư̆	mơhư̆	VERB	_	_	23	ccomp	_	gloss=heard|Aspect=Perf|Tense=Past|VerbForm=Part
+13	thơu	thơu	VERB	_	_	_	_	_	gloss=knew|auto_upos=VERB|auto_note=corpus_evidence
+14	hũ	hũ	AUX	_	_	12	aux	_	gloss=had|Tense=Past|VerbForm=Fin
+15	Pier	pier	PROPN	_	_	_	nsubj	_	gloss=Peter|Number=Sing
+16	dò	dò	VERB	_	_	_	_	_	gloss=remains|auto_upos=VERB|auto_note=corpus_evidence
+17	tơ	tơ	ADP	_	_	_	_	_	gloss=g|auto_upos=ADP|auto_note=manual_context_rule
+18	anih	anih	NOUN	_	_	_	_	_	gloss=place|auto_upos=NOUN|auto_note=corpus_evidence
+19	nư̆n	nư̆n	DET	_	_	_	_	_	gloss=ed|auto_upos=DET|auto_note=manual_context_rule
+20	,	,	PUNCT	_	_	_	_	_
+21	buơl	buơl	PRON	_	_	_	_	_	gloss=you|auto_upos=PRON|auto_note=corpus_evidence
+22	guñu	guñu	unk	_	_	_	_	_	gloss=ver
+23	pơđăr	pơđăr	VERB	_	_	0	root	_	gloss=sent|Tense=Past|VerbForm=Fin
+24	mư	mư	ADV	_	_	_	_	_	gloss=immediately|auto_upos=ADV|auto_note=corpus_evidence
+25	dua	dua	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+26	aràng	aràng	unk	_	_	_	_	_	gloss=one
+27	mơnih	mơnih	NOUN	_	_	_	_	_	gloss=man|auto_upos=NOUN|auto_note=corpus_evidence
+28	truh	truh	NOUN	_	_	_	_	_	gloss=G|auto_upos=NOUN|auto_note=corpus_evidence
+29	tòm	tòm	NOUN	_	_	_	_	_	gloss=receives|auto_upos=NOUN|auto_note=corpus_evidence
+30	Pier	pier	PROPN	_	_	_	nsubj	_	gloss=Peter|Number=Sing
+31	sơ̆ng	sơ̆ng	CCONJ	_	_	_	_	_	gloss=and|auto_upos=CCONJ|auto_note=corpus_evidence
+32	đờm	đờm	VERB	_	_	_	_	_	gloss=ast|auto_upos=VERB|auto_note=manual_context_rule
+33	:	:	PUNCT	_	_	_	_	_
+34	“	“	PUNCT	_	_	23	punct	_	PunctSide=Ini|PunctType=Quot
+35	Yòng	yòng	VERB	_	_	_	_	_	gloss=Give|auto_upos=VERB|auto_note=corpus_evidence
+36	jà	jà	VERB	_	_	_	_	_	gloss=invited|auto_upos=VERB|auto_note=corpus_evidence
+37	kơi	kơi	unk	_	_	_	_	_	gloss=start
+38	truh	truh	NOUN	_	_	_	_	_	gloss=G|auto_upos=NOUN|auto_note=corpus_evidence
+39	mư	mư	ADV	_	_	_	_	_	gloss=immediately|auto_upos=ADV|auto_note=corpus_evidence
+40	sơ̆ng	sơ̆ng	CCONJ	_	_	_	_	_	gloss=and|auto_upos=CCONJ|auto_note=corpus_evidence
+41	buơl	buơl	PRON	_	_	_	_	_	gloss=you|auto_upos=PRON|auto_note=corpus_evidence
+42	dơlhă	dơlhă	PROPN	_	_	_	_	_	gloss=Good|auto_upos=PROPN|auto_note=corpus_evidence
+43	.	.	PUNCT	_	_	_	_	_
+44	”	”	PUNCT	_	_	23	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 44011011
+# ref_id = Acts 11:11
+# eng_text = Behold , immediately three men stood before the house where I was , having been sent from Caesarea to me .
+# cje_text = Kŭng iơŭ lăm tŭ nư̆n , klơu aràng mơnih mư̆ng Sesare hũ aràng pơđăr truh sơ̆ng dơlhă , kŭng hũ truh dò dơ̆ng tơ anaŭ bơh 'băng anih sàng dơlhă dò .
+1	Kŭng	kŭng	unk	_	_	_	_	_	gloss=ris
+2	iơŭ	iơŭ	SCONJ	_	_	_	_	_	gloss=if|auto_upos=SCONJ|auto_note=corpus_evidence
+3	lăm	lăm	ADP	_	_	_	_	_	gloss=in|auto_upos=ADP|auto_note=corpus_evidence
+4	tŭ	tŭ	SCONJ	_	_	_	_	_	gloss=when|auto_upos=SCONJ|auto_note=corpus_evidence
+5	nư̆n	nư̆n	DET	_	_	_	_	_	gloss=ed|auto_upos=DET|auto_note=manual_context_rule
+6	,	,	PUNCT	_	_	_	_	_
+7	klơu	klơu	NUM	_	_	_	nummod	_	gloss=three|NumType=Card
+8	aràng	aràng	unk	_	_	_	_	_	gloss=one
+9	mơnih	mơnih	NOUN	_	_	_	_	_	gloss=man|auto_upos=NOUN|auto_note=corpus_evidence
+10	mư̆ng	mư̆ng	VERB	_	_	_	_	_	gloss=regarding|auto_upos=VERB|auto_note=corpus_evidence
+11	Sesare	sesare	PROPN	_	_	_	pobj	_	gloss=Caesarea|Number=Sing
+12	hũ	hũ	AUX	_	_	14	aux	_	gloss=had|Tense=Past|VerbForm=Fin
+13	aràng	aràng	unk	_	_	_	_	_	gloss=one
+14	pơđăr	pơđăr	VERB	_	_	_	relcl	_	gloss=sent|Aspect=Perf|Tense=Past|VerbForm=Part
+15	truh	truh	NOUN	_	_	_	_	_	gloss=G|auto_upos=NOUN|auto_note=corpus_evidence
+16	sơ̆ng	sơ̆ng	CCONJ	_	_	_	_	_	gloss=and|auto_upos=CCONJ|auto_note=corpus_evidence
+17	dơlhă	dơlhă	PROPN	_	_	_	_	_	gloss=Good|auto_upos=PROPN|auto_note=corpus_evidence
+18	,	,	PUNCT	_	_	_	_	_
+19	kŭng	kŭng	unk	_	_	_	_	_	gloss=par
+20	hũ	hũ	AUX	_	_	14	aux	_	gloss=had|Tense=Past|VerbForm=Fin
+21	truh	truh	NOUN	_	_	_	_	_	gloss=G|auto_upos=NOUN|auto_note=corpus_evidence
+22	dò	dò	VERB	_	_	_	_	_	gloss=remains|auto_upos=VERB|auto_note=corpus_evidence
+23	dơ̆ng	dơ̆ng	VERB	_	_	_	_	_	gloss=stood|auto_upos=VERB|auto_note=corpus_evidence
+24	tơ	tơ	ADP	_	_	_	_	_	gloss=g|auto_upos=ADP|auto_note=manual_context_rule
+25	anaŭ	anaŭ	unk	_	_	_	_	_	gloss=recorded
+26	bơh	bơh	NOUN	_	_	_	_	_	gloss=door|auto_upos=NOUN|auto_note=corpus_evidence
+27	'băng	'băng	NOUN	_	_	_	_	_	gloss=door|auto_upos=NOUN|auto_note=corpus_evidence
+28	anih	anih	NOUN	_	_	_	_	_	gloss=place|auto_upos=NOUN|auto_note=corpus_evidence
+29	sàng	sàng	NOUN	_	_	_	pobj	_	gloss=house|Number=Sing
+30	dơlhă	dơlhă	PROPN	_	_	_	_	_	gloss=Good|auto_upos=PROPN|auto_note=corpus_evidence
+31	dò	dò	VERB	_	_	_	_	_	gloss=remains|auto_upos=VERB|auto_note=corpus_evidence
+32	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 44021034
+# ref_id = Acts 21:34
+# eng_text = Some shouted one thing , some another , among the crowd . When he couldn't find out the truth because of the noise , he commanded him to be brought into the barracks .
+# cje_text = Lăm tơrpuơl buơl làng , mơnih kơmrào driau yơu ni , mơnih kơmrào driau yơu dih , sơ̆ng kơyoa sơlŭng-sơlăng klùk-klờk biă , ngă tơ mơnih kwăng apăn-akŏ buơl lĭng 'buh rơgơi wờng thơu loh-làng bruă-kơnuă hơyơu lơi , nư̆n ñu pơđăr mă Pôl ba mơrai wơ̆ tơ đồn-lĭng
+1	Lăm	lăm	ADP	_	_	_	_	_	gloss=ong|auto_upos=ADP|auto_note=corpus_evidence
+2	tơrpuơl	tơrpuơl	NOUN	_	_	_	_	_	gloss=crowd|auto_upos=NOUN|auto_note=corpus_evidence
+3	buơl	buơl	PRON	_	_	_	_	_	gloss=you|auto_upos=PRON|auto_note=corpus_evidence
+4	làng	làng	unk	_	_	_	_	_	gloss=ress
+5	,	,	PUNCT	_	_	_	_	_
+6	mơnih	mơnih	NOUN	_	_	_	_	_	gloss=man|auto_upos=NOUN|auto_note=corpus_evidence
+7	kơmrào	kơmrào	unk	_	_	_	_	_	gloss=ream
+8	driau	driau	unk	_	_	_	_	_	gloss=interf
+9	yơu	yơu	ADP	_	_	_	_	_	gloss=like|auto_upos=ADP|auto_note=corpus_evidence
+10	ni	ni	DET	_	_	_	_	_	gloss=this|auto_upos=DET|auto_note=corpus_evidence
+11	,	,	PUNCT	_	_	_	_	_
+12	mơnih	mơnih	NOUN	_	_	_	_	_	gloss=man|auto_upos=NOUN|auto_note=corpus_evidence
+13	kơmrào	kơmrào	unk	_	_	_	_	_	gloss=ream
+14	driau	driau	unk	_	_	_	_	_	gloss=interf
+15	yơu	yơu	ADP	_	_	_	_	_	gloss=like|auto_upos=ADP|auto_note=corpus_evidence
+16	dih	dih	ADJ	_	_	_	_	_	gloss=ared|auto_upos=ADJ|auto_note=manual_context_rule
+17	,	,	PUNCT	_	_	_	_	_
+18	sơ̆ng	sơ̆ng	CCONJ	_	_	20	cc	_	gloss=and|ConjType=Cmp
+19	kơyoa	kơyoa	ADP	_	_	_	_	_	gloss=ise|auto_upos=ADP|auto_note=corpus_evidence
+20	sơlŭng-sơlăng	sơlŭng-sơlăng	NOUN	_	_	_	pobj	_	gloss=uproar|Number=Sing
+21	klùk-klờk	klùk-klờk	unk	_	_	_	_	_	gloss=stir
+22	biă	biă	INTJ	_	_	_	_	_	gloss=icul|auto_upos=INTJ|auto_note=corpus_evidence
+23	,	,	PUNCT	_	_	_	_	_
+24	ngă	ngă	VERB	_	_	_	_	_	gloss=make|auto_upos=VERB|auto_note=corpus_evidence
+25	tơ	tơ	ADP	_	_	_	_	_	gloss=g|auto_upos=ADP|auto_note=manual_context_rule
+26	mơnih	mơnih	NOUN	_	_	_	_	_	gloss=man|auto_upos=NOUN|auto_note=corpus_evidence
+27	kwăng	kwăng	unk	_	_	_	_	_	gloss=fe
+28	apăn-akŏ	apăn-akŏ	NOUN	_	_	_	_	_	gloss=rulers|auto_upos=NOUN|auto_note=corpus_evidence
+29	buơl	buơl	PRON	_	_	_	_	_	gloss=you|auto_upos=PRON|auto_note=corpus_evidence
+30	lĭng	lĭng	unk	_	_	_	_	_	gloss=sthe
+31	'buh	'buh	VERB	_	_	_	_	_	gloss=saw|auto_upos=VERB|auto_note=corpus_evidence
+32	rơgơi	rơgơi	ADJ	_	_	_	_	_	gloss=able|auto_upos=ADJ|auto_note=corpus_evidence
+33	wờng	wờng	VERB	_	_	_	_	_	gloss=understand|auto_upos=VERB|auto_note=corpus_evidence
+34	thơu	thơu	VERB	_	_	_	_	_	gloss=knew|auto_upos=VERB|auto_note=corpus_evidence
+35	loh-làng	loh-làng	unk	_	_	_	_	_	gloss=quite
+36	bruă-kơnuă	bruă-kơnuă	unk	_	_	_	_	_
+37	hơyơu	hơyơu	unk	_	_	_	_	_	gloss=events
+38	lơi	lơi	ADV	_	_	_	_	_	gloss=ever|auto_upos=ADV|auto_note=corpus_evidence
+39	,	,	PUNCT	_	_	_	_	_
+40	nư̆n	nư̆n	DET	_	_	_	_	_	gloss=ed|auto_upos=DET|auto_note=manual_context_rule
+41	ñu	ñu	unk	_	_	_	_	_	gloss=ledge
+42	pơđăr	pơđăr	VERB	_	_	_	_	_	gloss=sent|auto_upos=VERB|auto_note=corpus_evidence
+43	mă	mă	VERB	_	_	_	_	_	gloss=caught|auto_upos=VERB|auto_note=corpus_evidence
+44	Pôl	pôl	PROPN	_	_	_	nsubjpass	_	gloss=Paul|Number=Sing
+45	ba	ba	unk	_	_	_	_	_	gloss=pe
+46	mơrai	mơrai	unk	_	_	_	_	_	gloss=ie
+47	wơ̆	wơ̆	unk	_	_	_	_	_	gloss=ind
+48	tơ	tơ	ADP	_	_	_	_	_	gloss=g|auto_upos=ADP|auto_note=manual_context_rule
+49	đồn-lĭng	đồn-lĭng	unk	_	_	_	_	_
+
+# sent_id = 47012002
+# ref_id = 2 Corinthians 12:2
+# eng_text = I know a man in Christ , fourteen years ago ( whether in the body , I don't know , or whether out of the body , I don't know ; God knows ) , such a one caught up into the third heaven .
+# cje_text = Dơlhă thơu sa aràng mơnih lăm Pô Krist , sa-pluh pà thŭn dơlhơu , hũ ba đì truh tơ tăl lơngì klơu . Bruă ni tơbiă truh lăm rùp-phàp drah-rơlo mơnih nư̆n halài agàh rùp-phàp drah-rơlo mơnih nư̆n , dơlhă 'buh thơu , hũ Yàng Pô Lơngì thơu .
+1	Dơlhă	dơlhă	PROPN	_	_	_	_	_	gloss=talk|auto_upos=PROPN|auto_note=corpus_evidence
+2	thơu	thơu	VERB	_	_	_	_	_	gloss=knew|auto_upos=VERB|auto_note=corpus_evidence
+3	sa	sa	SCONJ	_	_	_	_	_	gloss=o|auto_upos=SCONJ|auto_note=corpus_evidence
+4	aràng	aràng	unk	_	_	_	_	_	gloss=one
+5	mơnih	mơnih	NOUN	_	_	_	_	_	gloss=man|auto_upos=NOUN|auto_note=corpus_evidence
+6	lăm	lăm	ADP	_	_	_	prep	_	gloss=in
+7	Pô	pô	PRON	_	_	_	_	_	gloss=him|auto_upos=PRON|auto_note=corpus_evidence
+8	Krist	krist	PROPN	_	_	_	_	_	gloss=Christ|auto_upos=PROPN|auto_note=corpus_evidence
+9	,	,	PUNCT	_	_	_	_	_
+10	sa-pluh	sa-pluh	NUM	_	_	_	_	_	gloss=ten|auto_upos=NUM|auto_note=corpus_evidence
+11	pà	pà	NUM	_	_	12	nummod	_	gloss=fourteen|NumType=Card
+12	thŭn	thŭn	NOUN	_	_	_	npadvmod	_	gloss=years|Number=Plur
+13	dơlhơu	dơlhơu	ADV	_	_	_	_	_	gloss=ahead|auto_upos=ADV|auto_note=corpus_evidence
+14	,	,	PUNCT	_	_	_	_	_
+15	hũ	hũ	AUX	_	_	_	_	_	gloss=had|auto_upos=AUX|auto_note=corpus_evidence
+16	ba	ba	unk	_	_	_	_	_	gloss=pe
+17	đì	đì	unk	_	_	_	_	_	gloss=gathering
+18	truh	truh	NOUN	_	_	_	_	_	gloss=G|auto_upos=NOUN|auto_note=corpus_evidence
+19	tơ	tơ	ADP	_	_	_	_	_	gloss=g|auto_upos=ADP|auto_note=manual_context_rule
+20	tăl	tăl	NOUN	_	_	_	_	_	gloss=heavens|auto_upos=NOUN|auto_note=corpus_evidence
+21	lơngì	lơngì	NOUN	_	_	_	_	_	gloss=sky|auto_upos=NOUN|auto_note=corpus_evidence
+22	klơu	klơu	NUM	_	_	_	_	_	gloss=three|auto_upos=NUM|auto_note=corpus_evidence
+23	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+24	Bruă	bruă	unk	_	_	_	_	_	gloss=Belie
+25	ni	ni	DET	_	_	_	_	_	gloss=this|auto_upos=DET|auto_note=corpus_evidence
+26	tơbiă	tơbiă	ADP	_	_	28	conj	_	gloss=out
+27	truh	truh	NOUN	_	_	_	_	_	gloss=G|auto_upos=NOUN|auto_note=corpus_evidence
+28	lăm	lăm	ADP	_	_	_	prep	_	gloss=in
+29	rùp-phàp	rùp-phàp	NOUN	_	_	_	pobj	_	gloss=body|Number=Sing
+30	drah-rơlo	drah-rơlo	ADJ	_	_	_	_	_	gloss=earthly|auto_upos=ADJ|auto_note=corpus_evidence
+31	mơnih	mơnih	NOUN	_	_	_	_	_	gloss=man|auto_upos=NOUN|auto_note=corpus_evidence
+32	nư̆n	nư̆n	DET	_	_	_	_	_	gloss=ed|auto_upos=DET|auto_note=manual_context_rule
+33	halài	halài	CCONJ	_	_	28	cc	_	gloss=or|ConjType=Cmp
+34	agàh	agàh	ADV	_	_	_	_	_	gloss=outside|auto_upos=ADV|auto_note=corpus_evidence
+35	rùp-phàp	rùp-phàp	NOUN	_	_	_	pobj	_	gloss=body|Number=Sing
+36	drah-rơlo	drah-rơlo	ADJ	_	_	_	_	_	gloss=earthly|auto_upos=ADJ|auto_note=corpus_evidence
+37	mơnih	mơnih	NOUN	_	_	_	_	_	gloss=man|auto_upos=NOUN|auto_note=corpus_evidence
+38	nư̆n	nư̆n	DET	_	_	_	_	_	gloss=ed|auto_upos=DET|auto_note=manual_context_rule
+39	,	,	PUNCT	_	_	_	_	_
+40	dơlhă	dơlhă	PROPN	_	_	_	_	_	gloss=Good|auto_upos=PROPN|auto_note=corpus_evidence
+41	'buh	'buh	VERB	_	_	_	_	_	gloss=saw|auto_upos=VERB|auto_note=corpus_evidence
+42	thơu	thơu	VERB	_	_	_	_	_	gloss=knew|auto_upos=VERB|auto_note=corpus_evidence
+43	,	,	PUNCT	_	_	_	_	_
+44	hũ	hũ	AUX	_	_	_	_	_	gloss=had|auto_upos=AUX|auto_note=corpus_evidence
+45	Yàng	yàng	NOUN	_	_	_	_	_	gloss=urther|auto_upos=NOUN|auto_note=corpus_evidence
+46	Pô	pô	PRON	_	_	_	_	_	gloss=him|auto_upos=PRON|auto_note=corpus_evidence
+47	Lơngì	lơngì	NOUN	_	_	_	_	_	gloss=Re|auto_upos=NOUN|auto_note=corpus_evidence
+48	thơu	thơu	VERB	_	_	_	_	_	gloss=knew|auto_upos=VERB|auto_note=corpus_evidence
+49	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 62004009
+# ref_id = 1 John 4:9
+# eng_text = By this was God's love revealed in us , that God has sent his only born Son into the world that we might live through him .
+# cje_text = Hơtai-hơtiàn Yàng Pô Lơngì uơ̆n-rơnăm buơl gudrơi hũ ràng-tơbiă lăm pơnuaĭ ni : Yàng Pô Lơngì hũ pơđăr Anà Sa Pô truh lăm dun-ya , tô buơl gudrơi gơnừm tơ Anà nư̆n bloh hũ hơdiŭ .
+1	Hơtai-hơtiàn	hơtai-hơtiàn	NOUN	_	_	_	_	_	gloss=troubled|auto_upos=NOUN|auto_note=corpus_evidence
+2	Yàng	yàng	NOUN	_	_	_	_	_	gloss=urther|auto_upos=NOUN|auto_note=corpus_evidence
+3	Pô	pô	PRON	_	_	_	pobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+4	Lơngì	lơngì	NOUN	_	_	_	_	_	gloss=Re|auto_upos=NOUN|auto_note=corpus_evidence
+5	uơ̆n-rơnăm	uơ̆n-rơnăm	unk	_	_	_	_	_	gloss=love
+6	buơl	buơl	PRON	_	_	_	_	_	gloss=you|auto_upos=PRON|auto_note=corpus_evidence
+7	gudrơi	gudrơi	PRON	_	_	_	_	_	gloss=our|auto_upos=PRON|auto_note=corpus_evidence
+8	hũ	hũ	AUX	_	_	_	_	_	gloss=had|auto_upos=AUX|auto_note=corpus_evidence
+9	ràng-tơbiă	ràng-tơbiă	VERB	_	_	_	_	_	gloss=revealed|auto_upos=VERB|auto_note=corpus_evidence
+10	lăm	lăm	ADP	_	_	_	_	_	gloss=in|auto_upos=ADP|auto_note=corpus_evidence
+11	pơnuaĭ	pơnuaĭ	VERB	_	_	_	_	_	gloss=disobey|auto_upos=VERB|auto_note=manual_context_rule
+12	ni	ni	DET	_	_	_	_	_	gloss=this|auto_upos=DET|auto_note=corpus_evidence
+13	:	:	PUNCT	_	_	_	_	_
+14	Yàng	yàng	NOUN	_	_	_	_	_	gloss=urther|auto_upos=NOUN|auto_note=corpus_evidence
+15	Pô	pô	PRON	_	_	_	pobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+16	Lơngì	lơngì	NOUN	_	_	_	_	_	gloss=Re|auto_upos=NOUN|auto_note=corpus_evidence
+17	hũ	hũ	AUX	_	_	_	_	_	gloss=had|auto_upos=AUX|auto_note=corpus_evidence
+18	pơđăr	pơđăr	VERB	_	_	_	_	_	gloss=sent|auto_upos=VERB|auto_note=corpus_evidence
+19	Anà	anà	PROPN	_	_	_	conj	_	gloss=Son|Number=Sing
+20	Sa	sa	SCONJ	_	_	_	_	_	gloss=wherever|auto_upos=SCONJ|auto_note=corpus_evidence
+21	Pô	pô	PRON	_	_	_	pobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+22	truh	truh	NOUN	_	_	_	_	_	gloss=G|auto_upos=NOUN|auto_note=corpus_evidence
+23	lăm	lăm	ADP	_	_	_	_	_	gloss=in|auto_upos=ADP|auto_note=corpus_evidence
+24	dun-ya	dun-ya	NOUN	_	_	_	pobj	_	gloss=world|Number=Sing
+25	,	,	PUNCT	_	_	_	_	_
+26	tô	tô	NOUN	_	_	_	_	_	gloss=ering|auto_upos=NOUN|auto_note=corpus_evidence
+27	buơl	buơl	PRON	_	_	_	_	_	gloss=you|auto_upos=PRON|auto_note=corpus_evidence
+28	gudrơi	gudrơi	PRON	_	_	_	_	_	gloss=our|auto_upos=PRON|auto_note=corpus_evidence
+29	gơnừm	gơnừm	NOUN	_	_	_	_	_	gloss=prince|auto_upos=NOUN|auto_note=corpus_evidence
+30	tơ	tơ	ADP	_	_	_	_	_	gloss=g|auto_upos=ADP|auto_note=manual_context_rule
+31	Anà	anà	PROPN	_	_	_	conj	_	gloss=Son|Number=Sing
+32	nư̆n	nư̆n	DET	_	_	_	_	_	gloss=ed|auto_upos=DET|auto_note=manual_context_rule
+33	bloh	bloh	CCONJ	_	_	_	_	_	gloss=ound|auto_upos=CCONJ|auto_note=manual_context_rule
+34	hũ	hũ	AUX	_	_	_	_	_	gloss=had|auto_upos=AUX|auto_note=corpus_evidence
+35	hơdiŭ	hơdiŭ	NOUN	_	_	_	dobj	_	gloss=life|Number=Sing
+36	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 63001005
+# ref_id = 2 John 1:5
+# eng_text = Now I beg you , dear lady , not as though I wrote to you a new commandment , but that which we had from the beginning , that we love one another .
+# cje_text = Ơ mò , tŭ ni dơlhă yòng-lơkơu mò pơnuaĭ ni , 'buh iơŭ dơlhă wă tơ mò sa pơnuaĭ adăt-pơđăr bơrhơu , bloh la pơnuaĭ adăt-pơđăr buơl gudrơi hũ đồ-mă mư̆ng tŭ c̆ơmrừp bơjơ , nư̆n la buơl gudrơi păl uơ̆n-rơnăm gơŭ .
+1	Ơ	ơ	ADJ	_	_	_	_	_	gloss=Dear|auto_upos=ADJ|auto_note=corpus_evidence
+2	mò	mò	VERB	_	_	0	root	_	gloss=writing|Aspect=Prog|Tense=Pres|VerbForm=Part
+3	,	,	PUNCT	_	_	_	_	_
+4	tŭ	tŭ	SCONJ	_	_	_	_	_	gloss=when|auto_upos=SCONJ|auto_note=corpus_evidence
+5	ni	ni	DET	_	_	_	_	_	gloss=this|auto_upos=DET|auto_note=corpus_evidence
+6	dơlhă	dơlhă	PROPN	_	_	_	_	_	gloss=Good|auto_upos=PROPN|auto_note=corpus_evidence
+7	yòng-lơkơu	yòng-lơkơu	unk	_	_	_	_	_	gloss=amb
+8	mò	mò	VERB	_	_	0	root	_	gloss=writing|Aspect=Prog|Tense=Pres|VerbForm=Part
+9	pơnuaĭ	pơnuaĭ	VERB	_	_	_	_	_	gloss=disobey|auto_upos=VERB|auto_note=manual_context_rule
+10	ni	ni	DET	_	_	_	_	_	gloss=this|auto_upos=DET|auto_note=corpus_evidence
+11	,	,	PUNCT	_	_	_	_	_
+12	'buh	'buh	VERB	_	_	_	_	_	gloss=saw|auto_upos=VERB|auto_note=corpus_evidence
+13	iơŭ	iơŭ	SCONJ	_	_	_	_	_	gloss=if|auto_upos=SCONJ|auto_note=corpus_evidence
+14	dơlhă	dơlhă	PROPN	_	_	_	_	_	gloss=Good|auto_upos=PROPN|auto_note=corpus_evidence
+15	wă	wă	VERB	_	_	_	_	_	gloss=written|auto_upos=VERB|auto_note=corpus_evidence
+16	tơ	tơ	ADP	_	_	_	_	_	gloss=g|auto_upos=ADP|auto_note=manual_context_rule
+17	mò	mò	VERB	_	_	0	root	_	gloss=writing|Aspect=Prog|Tense=Pres|VerbForm=Part
+18	sa	sa	SCONJ	_	_	_	_	_	gloss=o|auto_upos=SCONJ|auto_note=corpus_evidence
+19	pơnuaĭ	pơnuaĭ	VERB	_	_	_	_	_	gloss=disobey|auto_upos=VERB|auto_note=manual_context_rule
+20	adăt-pơđăr	adăt-pơđăr	NOUN	_	_	_	attr	_	gloss=commandment|Number=Sing
+21	bơrhơu	bơrhơu	ADJ	_	_	20	amod	_	gloss=new|Degree=Pos
+22	,	,	PUNCT	_	_	_	_	_
+23	bloh	bloh	CCONJ	_	_	_	_	_	gloss=ound|auto_upos=CCONJ|auto_note=manual_context_rule
+24	la	la	AUX	_	_	17	aux	_	gloss=am|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin
+25	pơnuaĭ	pơnuaĭ	VERB	_	_	_	_	_	gloss=disobey|auto_upos=VERB|auto_note=manual_context_rule
+26	adăt-pơđăr	adăt-pơđăr	NOUN	_	_	_	attr	_	gloss=commandment|Number=Sing
+27	buơl	buơl	PRON	_	_	_	dobj	_	gloss=you|Case=Acc|Person=2|PronType=Prs
+28	gudrơi	gudrơi	PRON	_	_	_	_	_	gloss=our|auto_upos=PRON|auto_note=corpus_evidence
+29	hũ	hũ	VERB	_	_	_	relcl	_	gloss=had|Aspect=Perf|Tense=Past|VerbForm=Part
+30	đồ-mă	đồ-mă	VERB	_	_	_	_	_	gloss=receive|auto_upos=VERB|auto_note=corpus_evidence
+31	mư̆ng	mư̆ng	VERB	_	_	_	_	_	gloss=regarding|auto_upos=VERB|auto_note=corpus_evidence
+32	tŭ	tŭ	SCONJ	_	_	_	_	_	gloss=when|auto_upos=SCONJ|auto_note=corpus_evidence
+33	c̆ơmrừp	c̆ơmrừp	NOUN	_	_	_	pobj	_	gloss=beginning|Number=Sing
+34	bơjơ	bơjơ	unk	_	_	_	_	_	gloss=v
+35	,	,	PUNCT	_	_	_	_	_
+36	nư̆n	nư̆n	DET	_	_	_	_	_	gloss=ed|auto_upos=DET|auto_note=manual_context_rule
+37	la	la	AUX	_	_	17	aux	_	gloss=am|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin
+38	buơl	buơl	PRON	_	_	_	dobj	_	gloss=you|Case=Acc|Person=2|PronType=Prs
+39	gudrơi	gudrơi	PRON	_	_	_	_	_	gloss=our|auto_upos=PRON|auto_note=corpus_evidence
+40	păl	păl	VERB	_	_	_	_	_	gloss=struggle|auto_upos=VERB|auto_note=corpus_evidence
+41	uơ̆n-rơnăm	uơ̆n-rơnăm	VERB	_	_	17	ccomp	_	gloss=love|VerbForm=Inf
+42	gơŭ	gơŭ	unk	_	_	_	_	_	gloss=ense
+43	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+

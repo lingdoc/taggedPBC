@@ -1,0 +1,840 @@
+## The following text has been annotated for parts of speech by students at NTU Singapore as part of a class project in AY 2025-26.
+## Verses are extracted from the taggedPBC. Annotations have been developed with a combination of manual and automated approaches, with reference to existing literature and (where possible) native speakers.
+## ISO 639-3: dis, Language: Dimasa, Number of verses: 21
+## References: Burling, R. (2003). NORTHEASTERN INDIA¹. The Sino-Tibetan Languages, 3, 169. ; Evans, J. P., & Langthasa, D. (2024). Dimasa language: structure and texts. Institute of Linguistics, Academia Sinica. ; Jacquesson, F. (2008). Discovering Boro-Garo History of an analytical and descriptive linguistic category. European bulletin of Himalayan research, 32, 14-49.
+
+# sent_id = 40006024
+# ref_id = Matthew 6:24
+# eng_text = " No one can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You can't serve both God and Mammon .
+# dis_text = Saosi bo hoja gini ni khusi dangpha lai phuya ; bede thikhala saosi hamjao khade saosi hamjaoya ja ma se ; niya khala , saosi hamjao khade , saosi naisle ma se ; Madai jang rang masi khusi dangpha laiba jaya .
+1	Saosi	saosi	PRON	_	_	_	_	_	gloss=one/no_one
+2	bo	bo	PRON	_	_	_	_	_	gloss=he/it/they
+3	hoja	hoja	NOUN	_	_	_	_	_	gloss=master
+4	gini	gini	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+5	ni	ni	ADP	_	_	_	_	_	gloss=of
+6	khusi	khusi	NOUN	_	_	_	_	_	gloss=service
+7	dangpha	dangpha	VERB	_	_	_	_	_	gloss=serve
+8	lai	lai	PART	_	_	_	_	_	gloss=like/together
+9	phuya	phuya	VERB	_	_	_	_	_	gloss=ody
+10	;	;	PUNCT	_	_	_	_	_	gloss=ised
+11	bede	bede	SCONJ	_	_	_	_	_	gloss=because
+12	thikhala	thikhala	NOUN	_	_	_	_	_	gloss=ib
+13	saosi	saosi	NUM	_	_	_	pobj	_	gloss=one|NumType=Card
+14	hamjao	hamjao	VERB	_	_	_	_	_	gloss=love
+15	khade	khade	NOUN	_	_	_	_	_	gloss=if
+16	saosi	saosi	NUM	_	_	_	pobj	_	gloss=one|NumType=Card
+17	hamjaoya	hamjaoya	VERB	_	_	_	_	_	gloss=offers
+18	ja	ja	NOUN	_	_	_	_	_	gloss=become
+19	ma	ma	AUX	_	_	_	_	_	gloss=will
+20	se	se	PART	_	_	_	_	_	gloss=EMPH
+21	;	;	PUNCT	_	_	_	_	_	gloss=ised
+22	niya	niya	VERB	_	_	_	_	_	gloss=never
+23	khala	khala	NOUN	_	_	_	_	_	gloss=An
+24	,	,	PUNCT	_	_	_	_	_
+25	saosi	saosi	NUM	_	_	_	pobj	_	gloss=one|NumType=Card
+26	hamjao	hamjao	VERB	_	_	_	_	_	gloss=love
+27	khade	khade	NOUN	_	_	_	_	_	gloss=if
+28	,	,	PUNCT	_	_	_	_	_
+29	saosi	saosi	NUM	_	_	_	pobj	_	gloss=one|NumType=Card
+30	naisle	naisle	VERB	_	_	_	acomp	_	gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+31	ma	ma	AUX	_	_	_	_	_	gloss=will
+32	se	se	PART	_	_	_	_	_	gloss=EMPH
+33	;	;	PUNCT	_	_	_	_	_	gloss=ised
+34	Madai	madai	PROPN	_	_	_	dobj	_	gloss=God|Number=Sing
+35	jang	jang	ADP	_	_	_	_	_	gloss=with/and
+36	rang	rang	NOUN	_	_	34	conj	_	gloss=money|Number=Sing
+37	masi	masi	NOUN	_	_	_	_	_	gloss=fact
+38	khusi	khusi	NOUN	_	_	_	_	_	gloss=service
+39	dangpha	dangpha	VERB	_	_	_	_	_	gloss=serve
+40	laiba	laiba	NOUN	_	_	_	_	_	gloss=pressing
+41	jaya	jaya	VERB	_	_	_	_	_	gloss=ins
+42	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 40018012
+# ref_id = Matthew 18:12
+# eng_text = " What do you think ? If a man has one hundred sheep , and one of them goes astray , doesn't he leave the ninety-nine , go to the mountains , and seek that which has gone astray ?
+# dis_text = “ Nisi bede bao du ? Subung saosi niha melma rjasi dong . Ode , boni bising ha masi gma lang kha la , bo bisabri majhisgu khe dangkhlai lang hi , bo hading buthu ha gmayaba khe smai nang niya ?
+1	“	“	PUNCT	_	_	_	_	_	gloss=presence
+2	Nisi	nisi	PRON	_	_	_	_	_	gloss=you(pl)
+3	bede	bede	SCONJ	_	_	_	_	_	gloss=because
+4	bao	bao	NOUN	_	_	_	_	_	gloss=ans
+5	du	du	AUX	_	_	_	_	_	gloss=PRES
+6	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+7	Subung	subung	NOUN	_	_	_	_	_	gloss=man/people
+8	saosi	saosi	NOUN	_	_	_	pobj	_	gloss=one|Number=Sing
+9	niha	niha	NOUN	_	_	_	_	_	gloss=ili
+10	melma	melma	NOUN	_	_	_	dobj	_	gloss=sheep|Number=Plur
+11	rjasi	rjasi	NUM	_	_	10	nummod	_	gloss=hundred|NumType=Card
+12	dong	dong	VERB	_	_	_	_	_	gloss=exist/be
+13	.	.	PUNCT	_	_	_	_	_
+14	Ode	ode	CCONJ	_	_	_	_	_	gloss=and
+15	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+16	boni	boni	PRON	_	_	_	_	_	gloss=his/their
+17	bising	bising	ADP	_	_	_	_	_	gloss=inside/among
+18	ha	ha	ADP	_	_	_	_	_	gloss=in/at/to
+19	masi	masi	NOUN	_	_	_	_	_	gloss=fact
+20	gma	gma	NOUN	_	_	_	_	_	gloss=loses
+21	lang	lang	NOUN	_	_	_	_	_	gloss=took
+22	kha	kha	AUX	_	_	_	_	_	gloss=PAST
+23	la	la	NOUN	_	_	_	_	_	gloss=fl
+24	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+25	bo	bo	PRON	_	_	_	_	_	gloss=he/it/they
+26	bisabri	bisabri	NOUN	_	_	_	_	_	gloss=Won’t
+27	majhisgu	majhisgu	unk	_	_	_	_	_
+28	khe	khe	unk	_	_	_	_	_
+29	dangkhlai	dangkhlai	NOUN	_	_	_	_	_	gloss=leaving
+30	lang	lang	NOUN	_	_	_	_	_	gloss=took
+31	hi	hi	VERB	_	_	_	_	_	gloss=been
+32	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+33	bo	bo	PRON	_	_	_	_	_	gloss=he/it/they
+34	hading	hading	NOUN	_	_	_	_	_	gloss=Olives
+35	buthu	buthu	NOUN	_	_	_	_	_	gloss=s
+36	ha	ha	ADP	_	_	_	_	_	gloss=in/at/to
+37	gmayaba	gmayaba	NOUN	_	_	_	_	_	gloss=Rejoice
+38	khe	khe	unk	_	_	_	_	_
+39	smai	smai	VERB	_	_	_	advcl	_	gloss=search|VerbForm=Inf
+40	nang	nang	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+41	niya	niya	VERB	_	_	_	_	_	gloss=never
+42	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 40020021
+# ref_id = Matthew 20:21
+# eng_text = He said to her , " What do you want ? " She said to him , " Command that these , my two sons , may sit , one on your right hand , and one on your left hand , in your kingdom . "
+# dis_text = Jisu boniha singba , Ning snadi nangjao ba ? Boha boniha thiphin ba , Ebo ani basathu gini khe nini rajiha nini yaoda gede saosi , nini yaosi gede saosi bonsi khamphu mani khlaihi grao ri lah .
+1	Jisu	jisu	PROPN	_	_	_	_	_	gloss=Jesus
+2	boniha	boniha	NOUN	_	_	_	_	_	gloss=offic
+3	singba	singba	VERB	_	_	_	_	_	gloss=ask
+4	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+5	Ning	ning	PRON	_	_	_	_	_	gloss=you
+6	snadi	snadi	PRON	_	_	_	attr	_	gloss=What
+7	nangjao	nangjao	NOUN	_	_	_	_	_	gloss=want
+8	ba	ba	AUX	_	_	_	_	_	gloss=PAST
+9	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+10	Boha	boha	PROPN	_	_	_	_	_	gloss=instantly
+11	boniha	boniha	NOUN	_	_	_	_	_	gloss=offic
+12	thiphin	thiphin	VERB	_	_	0	root	_	gloss=replied|Tense=Past|VerbForm=Fin
+13	ba	ba	AUX	_	_	_	_	_	gloss=PAST
+14	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+15	Ebo	ebo	PROPN	_	_	_	_	_	gloss=ves
+16	ani	ani	PRON	_	_	_	poss	_	gloss=my|Number=Sing|Person=1|Poss=Yes|PronType=Prs
+17	basathu	basathu	NOUN	_	_	_	_	_	gloss=children
+18	gini	gini	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+19	khe	khe	unk	_	_	_	_	_
+20	nini	nini	NOUN	_	_	_	_	_	gloss=yours
+21	rajiha	rajiha	NOUN	_	_	_	_	_	gloss=uth
+22	nini	nini	NOUN	_	_	_	_	_	gloss=yours
+23	yaoda	yaoda	NOUN	_	_	_	pobj	_	gloss=right|Number=Sing
+24	gede	gede	NOUN	_	_	_	_	_	gloss=require
+25	saosi	saosi	NUM	_	_	_	npadvmod	_	gloss=one|NumType=Card
+26	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+27	nini	nini	NOUN	_	_	_	_	_	gloss=yours
+28	yaosi	yaosi	NOUN	_	_	_	pobj	_	gloss=places|Number=Plur
+29	gede	gede	NOUN	_	_	_	_	_	gloss=require
+30	saosi	saosi	NUM	_	_	_	npadvmod	_	gloss=one|NumType=Card
+31	bonsi	bonsi	PRON	_	_	_	_	_	gloss=them
+32	khamphu	khamphu	NOUN	_	_	_	_	_	gloss=tribes
+33	mani	mani	NOUN	_	_	_	_	_	gloss=instead
+34	khlaihi	khlaihi	VERB	_	_	_	_	_	gloss=prostit
+35	grao	grao	NOUN	_	_	_	_	_	gloss=word
+36	ri	ri	NOUN	_	_	_	_	_	gloss=give
+37	lah	lah	NOUN	_	_	_	_	_	gloss=dis
+38	.	.	PUNCT	_	_	12	punct	_	PunctType=Peri
+
+# sent_id = 40026002
+# ref_id = Matthew 26:2
+# eng_text = " You know that after two days the Passover is coming , and the Son of Man will be delivered up to be crucified . "
+# dis_text = Nokha sain gini ni yaohon ha baiglai busu sophai ma ja kha thihi nisi tharmai du . Odehe Marsi ni Basa khe dikthai mane khlai hi bonsi rem rima se .
+1	Nokha	nokha	NOUN	_	_	_	_	_	gloss=haven’t
+2	sain	sain	NOUN	_	_	_	_	_	gloss=sun
+3	gini	gini	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+4	ni	ni	ADP	_	_	21	prep	_	gloss=of
+5	yaohon	yaohon	NOUN	_	_	_	_	_	gloss=After
+6	ha	ha	ADP	_	_	_	prep	_	gloss=in
+7	baiglai	baiglai	unk	_	_	_	_	_
+8	busu	busu	NOUN	_	_	_	_	_	gloss=ins
+9	sophai	sophai	NOUN	_	_	_	_	_	gloss=pleased
+10	ma	ma	AUX	_	_	_	_	_	gloss=will
+11	ja	ja	NOUN	_	_	_	_	_	gloss=become
+12	kha	kha	AUX	_	_	_	_	_	gloss=PAST
+13	thihi	thihi	VERB	_	_	_	_	_	gloss=that
+14	nisi	nisi	PRON	_	_	_	nsubj	_	gloss=you|Case=Nom|Person=2|PronType=Prs
+15	tharmai	tharmai	NOUN	_	_	_	_	_	gloss=knew
+16	du	du	AUX	_	_	_	_	_	gloss=PRES
+17	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+18	Odehe	odehe	PROPN	_	_	_	_	_	gloss=Then
+19	Marsi	marsi	PROPN	_	_	20	pobj	_	gloss=Man|Number=Sing
+20	ni	ni	ADP	_	_	21	prep	_	gloss=of
+21	Basa	basa	PROPN	_	_	_	nsubjpass	_	gloss=Son|Number=Sing
+22	khe	khe	unk	_	_	_	_	_
+23	dikthai	dikthai	NOUN	_	_	_	_	_	gloss=crimin
+24	mane	mane	NOUN	_	_	_	_	_	gloss=predicted
+25	khlai	khlai	NOUN	_	_	_	_	_	gloss=ced
+26	hi	hi	VERB	_	_	_	_	_	gloss=been
+27	bonsi	bonsi	PRON	_	_	_	_	_	gloss=them
+28	rem	rem	NOUN	_	_	_	_	_	gloss=arrest
+29	rima	rima	NOUN	_	_	_	_	_	gloss=betray
+30	se	se	PART	_	_	_	_	_	gloss=EMPH
+31	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 40026061
+# ref_id = Matthew 26:61
+# eng_text = and said , " This man said , ' I am able to destroy the temple of God , and to build it in three days . ' "
+# dis_text = ede thiba , “ Ebo subung de Madai ni bikhoh khe ruhi , nokha saintham ni bising ha ang dangphu du thidu ” , thihi bonsi thiba .
+1	ede	ede	NOUN	_	_	_	_	_	gloss=plac
+2	thiba	thiba	VERB	_	_	_	_	_	gloss=said
+3	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+4	“	“	PUNCT	_	_	_	_	_	gloss=presence
+5	Ebo	ebo	PROPN	_	_	_	_	_	gloss=ves
+6	subung	subung	NOUN	_	_	_	nsubj	_	gloss=man|Number=Sing
+7	de	de	NOUN	_	_	_	_	_	gloss=wouldn’t
+8	Madai	madai	PROPN	_	_	9	pobj	_	gloss=God|Number=Sing
+9	ni	ni	ADP	_	_	10	prep	_	gloss=of
+10	bikhoh	bikhoh	PROPN	_	_	_	dobj	_	gloss=Temple|Number=Sing
+11	khe	khe	unk	_	_	_	_	_
+12	ruhi	ruhi	unk	_	_	_	_	_
+13	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+14	nokha	nokha	NOUN	_	_	_	_	_	gloss=0
+15	saintham	saintham	NUM	_	_	_	nummod	_	gloss=three|NumType=Card
+16	ni	ni	ADP	_	_	10	prep	_	gloss=of
+17	bising	bising	ADP	_	_	_	_	_	gloss=inside/among
+18	ha	ha	ADP	_	_	_	prep	_	gloss=in
+19	ang	ang	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+20	dangphu	dangphu	NOUN	_	_	_	_	_	gloss=rebu
+21	du	du	AUX	_	_	_	_	_	gloss=PRES
+22	thidu	thidu	NOUN	_	_	_	_	_	gloss=tong
+23	”	”	PUNCT	_	_	_	_	_	gloss=ild
+24	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+25	thihi	thihi	VERB	_	_	_	_	_	gloss=that
+26	bonsi	bonsi	PRON	_	_	_	_	_	gloss=them
+27	thiba	thiba	VERB	_	_	_	_	_	gloss=said
+28	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 40028016
+# ref_id = Matthew 28:16
+# eng_text = But the eleven disciples went into Galilee , to the mountain where Jesus had sent them .
+# dis_text = Thikhabo , yaohon rikphayarao jhiseh buthu Galili raji ni hading ha Jisu thangma saniyaba ha bonsi thang kha .
+1	Thikhabo	thikhabo	CCONJ	_	_	_	_	_	gloss=but
+2	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+3	yaohon	yaohon	NOUN	_	_	_	_	_	gloss=After
+4	rikphayarao	rikphayarao	NOUN	_	_	_	nsubj	_	gloss=disciples|Number=Plur
+5	jhiseh	jhiseh	unk	_	_	_	_	_
+6	buthu	buthu	NOUN	_	_	_	_	_	gloss=s
+7	Galili	galili	PROPN	_	_	_	pobj	_	gloss=Galilee|Number=Sing
+8	raji	raji	NOUN	_	_	_	_	_	gloss=kingdom
+9	ni	ni	ADP	_	_	_	_	_	gloss=of
+10	hading	hading	NOUN	_	_	_	_	_	gloss=Olives
+11	ha	ha	ADP	_	_	_	_	_	gloss=in/at/to
+12	Jisu	jisu	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+13	thangma	thangma	NOUN	_	_	_	_	_	gloss=id
+14	saniyaba	saniyaba	unk	_	_	_	_	_
+15	ha	ha	ADP	_	_	_	_	_	gloss=in/at/to
+16	bonsi	bonsi	PRON	_	_	_	dobj	_	gloss=them|Case=Acc|Number=Plur|Person=3|PronType=Prs
+17	thang	thang	VERB	_	_	_	_	_	gloss=go
+18	kha	kha	AUX	_	_	_	_	_	gloss=PAST
+19	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41002023
+# ref_id = Mark 2:23
+# eng_text = It happened , that he was going on the Sabbath day through the grain fields , and his disciples began , as they went , to pluck the ears of grain .
+# dis_text = Jisu Lenggo basain ha mailing khe baiso lang ba . Bonsi thangpha langba ha boni yaohon rikphayarao maiding khe sbai ba .
+1	Jisu	jisu	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+2	Lenggo	lenggo	PROPN	_	_	3	compound	_	gloss=Sabbath|Number=Sing
+3	basain	basain	NOUN	_	_	_	npadvmod	_	gloss=day|Number=Sing
+4	ha	ha	ADP	_	_	_	_	_	gloss=in/at/to
+5	mailing	mailing	unk	_	_	_	_	_
+6	khe	khe	unk	_	_	_	_	_
+7	baiso	baiso	unk	_	_	_	_	_
+8	lang	lang	NOUN	_	_	_	_	_	gloss=took
+9	ba	ba	AUX	_	_	_	aux	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+10	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+11	Bonsi	bonsi	PRON	_	_	_	_	_	gloss=them
+12	thangpha	thangpha	NOUN	_	_	_	dobj	_	gloss=heads|Number=Plur
+13	langba	langba	NOUN	_	_	_	_	_	gloss=ach
+14	ha	ha	ADP	_	_	_	_	_	gloss=in/at/to
+15	boni	boni	PRON	_	_	17	poss	_	gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+16	yaohon	yaohon	NOUN	_	_	_	_	_	gloss=After
+17	rikphayarao	rikphayarao	NOUN	_	_	_	nsubj	_	gloss=disciples|Number=Plur
+18	maiding	maiding	unk	_	_	_	_	_
+19	khe	khe	unk	_	_	_	_	_
+20	sbai	sbai	NOUN	_	_	_	_	_	gloss=broke
+21	ba	ba	AUX	_	_	_	aux	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+22	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41012032
+# ref_id = Mark 12:32
+# eng_text = The scribe said to him , " Truly , teacher , you have said well that he is one , and there is none other but he ,
+# dis_text = Dara khe slingriyah Jisukhe thi ba , Slingriyah , ning gibi ning thi kha ! Ning thiba lai ning Gabra khe ning Madai se , bokhe garhide ar gibin Madai giri .
+1	Dara	dara	NOUN	_	_	_	pobj	_	gloss=law|Number=Sing
+2	khe	khe	unk	_	_	_	_	_
+3	slingriyah	slingriyah	NOUN	_	_	_	nsubj	_	gloss=teacher|Number=Sing
+4	Jisukhe	jisukhe	PROPN	_	_	_	_	_	gloss=z
+5	thi	thi	VERB	_	_	_	ccomp	_	gloss=said|Tense=Past|VerbForm=Fin
+6	ba	ba	AUX	_	_	_	_	_	gloss=PAST
+7	,	,	PUNCT	_	_	5	punct	_	PunctType=Comm
+8	Slingriyah	slingriyah	NOUN	_	_	5	npadvmod	_	gloss=Teacher|Number=Sing
+9	,	,	PUNCT	_	_	5	punct	_	PunctType=Comm
+10	ning	ning	ADV	_	_	_	advmod	_	gloss=only
+11	gibi	gibi	NOUN	_	_	_	dobj	_	gloss=truth|Number=Sing
+12	ning	ning	ADV	_	_	_	advmod	_	gloss=only
+13	thi	thi	VERB	_	_	_	ccomp	_	gloss=said|Tense=Past|VerbForm=Fin
+14	kha	kha	AUX	_	_	_	_	_	gloss=PAST
+15	!	!	PUNCT	_	_	_	_	_	gloss=Chosen
+16	Ning	ning	PRON	_	_	_	_	_	gloss=you
+17	thiba	thiba	VERB	_	_	_	_	_	gloss=said
+18	lai	lai	PART	_	_	_	_	_	gloss=like/together
+19	ning	ning	ADV	_	_	_	advmod	_	gloss=only
+20	Gabra	gabra	PROPN	_	_	_	_	_	gloss=Lord
+21	khe	khe	unk	_	_	_	_	_
+22	ning	ning	ADV	_	_	_	advmod	_	gloss=only
+23	Madai	madai	PROPN	_	_	_	attr	_	gloss=God|Number=Sing
+24	se	se	PART	_	_	_	_	_	gloss=EMPH
+25	,	,	PUNCT	_	_	13	punct	_	PunctType=Comm
+26	bokhe	bokhe	PRON	_	_	_	_	_	gloss=him
+27	garhide	garhide	NOUN	_	_	_	nsubj	_	gloss=teacher|Number=Sing
+28	ar	ar	NOUN	_	_	_	_	_	gloss=Among
+29	gibin	gibin	NOUN	_	_	_	_	_	gloss=ias
+30	Madai	madai	PROPN	_	_	_	attr	_	gloss=God|Number=Sing
+31	giri	giri	DET	_	_	_	det	_	gloss=no
+32	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41014037
+# ref_id = Mark 14:37
+# eng_text = He came and found them sleeping , and said to Peter , " Simon , are you sleeping ? Couldn't you watch one hour ?
+# dis_text = Bo phaiphin baha boni yaohon rikphaya gatham thuhi dongba khe nu ba , odebani bo Peter khe thi ba , Simon , nisi thuba se na ? Gonta masi mang mangbo nisi smao hi dong phuya ?
+1	Bo	bo	PRON	_	_	_	_	_	gloss=he/it/they
+2	phaiphin	phaiphin	VERB	_	_	0	root	_	gloss=returned|Tense=Past|VerbForm=Fin
+3	baha	baha	NOUN	_	_	_	_	_	gloss=-in-law
+4	boni	boni	PRON	_	_	_	_	_	gloss=his/their
+5	yaohon	yaohon	NOUN	_	_	_	_	_	gloss=After
+6	rikphaya	rikphaya	VERB	_	_	_	_	_	gloss=wasn’t
+7	gatham	gatham	NUM	_	_	_	_	_	gloss=three
+8	thuhi	thuhi	VERB	_	_	_	_	_	gloss=fierce
+9	dongba	dongba	NOUN	_	_	_	_	_	gloss=tong
+10	khe	khe	unk	_	_	_	_	_
+11	nu	nu	VERB	_	_	_	_	_	gloss=see
+12	ba	ba	AUX	_	_	_	_	_	gloss=PAST
+13	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+14	odebani	odebani	NOUN	_	_	_	_	_	gloss=other
+15	bo	bo	PRON	_	_	_	_	_	gloss=he/it/they
+16	Peter	peter	PROPN	_	_	_	pobj	_	gloss=Peter|Number=Sing
+17	khe	khe	unk	_	_	_	_	_
+18	thi	thi	VERB	_	_	0	root	_	gloss=said|Tense=Past|VerbForm=Fin
+19	ba	ba	AUX	_	_	_	_	_	gloss=PAST
+20	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+21	Simon	simon	PROPN	_	_	_	npadvmod	_	gloss=Simon|Number=Sing
+22	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+23	nisi	nisi	PRON	_	_	_	nsubj	_	gloss=you|Case=Nom|Person=2|PronType=Prs
+24	thuba	thuba	NOUN	_	_	_	_	_	gloss=mother-in-law
+25	se	se	PART	_	_	_	_	_	gloss=EMPH
+26	na	na	NOUN	_	_	_	_	_	gloss=anger
+27	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+28	Gonta	gonta	unk	_	_	_	_	_
+29	masi	masi	NOUN	_	_	_	_	_	gloss=fact
+30	mang	mang	NOUN	_	_	_	_	_	gloss=top
+31	mangbo	mangbo	unk	_	_	_	_	_
+32	nisi	nisi	PRON	_	_	_	nsubj	_	gloss=you|Case=Nom|Person=2|PronType=Prs
+33	smao	smao	NOUN	_	_	_	_	_	gloss=ak
+34	hi	hi	VERB	_	_	_	_	_	gloss=been
+35	dong	dong	VERB	_	_	_	_	_	gloss=exist/be
+36	phuya	phuya	VERB	_	_	_	_	_	gloss=ody
+37	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 42004002
+# ref_id = Luke 4:2
+# eng_text = for forty days , being tempted by the devil . He ate nothing in those days . Afterward , when they were completed , he was hungry .
+# dis_text = Oraha basain jang bisagin ni bising ha bokhe Diabol naigrik ba . Ode , bo basain buthu ha musibo jiya . Yaohonthao ha bo hukhri jao kha .
+1	Oraha	oraha	NOUN	_	_	_	_	_	gloss=jar
+2	basain	basain	NOUN	_	_	_	_	_	gloss=day
+3	jang	jang	ADP	_	_	_	_	_	gloss=with/and
+4	bisagin	bisagin	NUM	_	_	_	nummod	_	gloss=forty|NumType=Card
+5	ni	ni	ADP	_	_	_	_	_	gloss=of
+6	bising	bising	ADP	_	_	_	_	_	gloss=inside/among
+7	ha	ha	ADP	_	_	_	_	_	gloss=in/at/to
+8	bokhe	bokhe	PRON	_	_	_	_	_	gloss=him
+9	Diabol	diabol	NOUN	_	_	_	pobj	_	gloss=devil|Number=Sing
+10	naigrik	naigrik	unk	_	_	_	_	_
+11	ba	ba	AUX	_	_	_	auxpass	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+12	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+13	Ode	ode	CCONJ	_	_	_	_	_	gloss=and
+14	,	,	PUNCT	_	_	_	_	_
+15	bo	bo	PRON	_	_	_	_	_	gloss=he/it/they
+16	basain	basain	NOUN	_	_	_	_	_	gloss=day
+17	buthu	buthu	NOUN	_	_	_	_	_	gloss=s
+18	ha	ha	ADP	_	_	_	_	_	gloss=in/at/to
+19	musibo	musibo	PRON	_	_	_	dobj	_	gloss=nothing|Number=Sing|PronType=Ind
+20	jiya	jiya	VERB	_	_	_	_	_	gloss=pped
+21	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+22	Yaohonthao	yaohonthao	PROPN	_	_	_	_	_	gloss=tempt
+23	ha	ha	ADP	_	_	_	_	_	gloss=in/at/to
+24	bo	bo	PRON	_	_	_	_	_	gloss=he/it/they
+25	hukhri	hukhri	ADJ	_	_	_	acomp	_	gloss=hungry|Degree=Pos
+26	jao	jao	NOUN	_	_	_	_	_	gloss=thrown
+27	kha	kha	AUX	_	_	_	_	_	gloss=PAST
+28	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 42016013
+# ref_id = Luke 16:13
+# eng_text = No servant can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You aren't able to serve God and mammon . "
+# dis_text = Dangyasa saosi bo bubra gini ni khusi khe dangpha laiphu nang niya ; saosi khe naisle hi , gibin saosi khe khasao dao nang ; ar saosi ni basao ha hamjaodao nang , gibin saosi khe hamjaoyadao nang . Nisi Madai jang rang ni khusi khe dangpha laiphuya .
+1	Dangyasa	dangyasa	unk	_	_	_	_	_
+2	saosi	saosi	NUM	_	_	_	pobj	_	gloss=one|NumType=Card
+3	bo	bo	PRON	_	_	_	_	_	gloss=he/it/they
+4	bubra	bubra	NOUN	_	_	_	dobj	_	gloss=masters|Number=Plur
+5	gini	gini	NUM	_	_	4	nummod	_	gloss=two|NumType=Card
+6	ni	ni	ADP	_	_	_	_	_	gloss=of
+7	khusi	khusi	NOUN	_	_	_	_	_	gloss=service
+8	khe	khe	unk	_	_	_	_	_
+9	dangpha	dangpha	VERB	_	_	_	_	_	gloss=serve
+10	laiphu	laiphu	NOUN	_	_	_	_	_	gloss=cannot
+11	nang	nang	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+12	niya	niya	VERB	_	_	_	_	_	gloss=never
+13	;	;	PUNCT	_	_	_	_	_	gloss=ised
+14	saosi	saosi	NUM	_	_	_	pobj	_	gloss=one|NumType=Card
+15	khe	khe	unk	_	_	_	_	_
+16	naisle	naisle	VERB	_	_	_	acomp	_	gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+17	hi	hi	VERB	_	_	_	_	_	gloss=been
+18	,	,	PUNCT	_	_	_	_	_
+19	gibin	gibin	NOUN	_	_	_	_	_	gloss=ias
+20	saosi	saosi	NUM	_	_	_	pobj	_	gloss=one|NumType=Card
+21	khe	khe	unk	_	_	_	_	_
+22	khasao	khasao	NOUN	_	_	_	_	_	gloss=mercy
+23	dao	dao	NOUN	_	_	_	_	_	gloss=birds
+24	nang	nang	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+25	;	;	PUNCT	_	_	_	_	_	gloss=ised
+26	ar	ar	NOUN	_	_	_	_	_	gloss=Among
+27	saosi	saosi	NUM	_	_	_	pobj	_	gloss=one|NumType=Card
+28	ni	ni	ADP	_	_	_	_	_	gloss=of
+29	basao	basao	NOUN	_	_	_	_	_	gloss=div
+30	ha	ha	ADP	_	_	_	_	_	gloss=in/at/to
+31	hamjaodao	hamjaodao	unk	_	_	_	_	_
+32	nang	nang	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+33	,	,	PUNCT	_	_	_	_	_
+34	gibin	gibin	NOUN	_	_	_	_	_	gloss=ias
+35	saosi	saosi	NUM	_	_	_	pobj	_	gloss=one|NumType=Card
+36	khe	khe	unk	_	_	_	_	_
+37	hamjaoyadao	hamjaoyadao	unk	_	_	_	_	_
+38	nang	nang	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+39	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+40	Nisi	nisi	PRON	_	_	_	_	_	gloss=you(pl)
+41	Madai	madai	PROPN	_	_	_	dobj	_	gloss=God|Number=Sing
+42	jang	jang	ADP	_	_	_	_	_	gloss=with/and
+43	rang	rang	NOUN	_	_	41	conj	_	gloss=money|Number=Sing
+44	ni	ni	ADP	_	_	_	_	_	gloss=of
+45	khusi	khusi	NOUN	_	_	_	_	_	gloss=service
+46	khe	khe	unk	_	_	_	_	_
+47	dangpha	dangpha	VERB	_	_	_	_	_	gloss=serve
+48	laiphuya	laiphuya	unk	_	_	_	_	_
+49	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 42024018
+# ref_id = Luke 24:18
+# eng_text = One of them , named Cleopas , answered him , " Are you the only one travelling in Jerusalem who doesn't know the things which have happened there in these days ? "
+# dis_text = Bumu Kleopa thiyaba bokhe sing ba , Jerusalem ha donghi , dini dakhna ni grao baigoyaba jathai khe ning sao jang se ning mithiya hi dong ba ?
+1	Bumu	bumu	unk	_	_	_	_	_
+2	Kleopa	kleopa	unk	_	_	_	_	_
+3	thiyaba	thiyaba	NOUN	_	_	_	_	_	gloss=man
+4	bokhe	bokhe	PRON	_	_	_	_	_	gloss=him
+5	sing	sing	NOUN	_	_	_	_	_	gloss=asked
+6	ba	ba	AUX	_	_	_	_	_	gloss=PAST
+7	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+8	Jerusalem	jerusalem	PROPN	_	_	9	pobj	_	gloss=Jerusalem|Number=Sing
+9	ha	ha	ADP	_	_	_	prep	_	gloss=in
+10	donghi	donghi	VERB	_	_	_	_	_	gloss=ian
+11	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+12	dini	dini	NOUN	_	_	_	_	_	gloss=today
+13	dakhna	dakhna	NOUN	_	_	_	_	_	gloss=el
+14	ni	ni	ADP	_	_	_	prep	_	gloss=of
+15	grao	grao	ADP	_	_	_	prep	_	gloss=about
+16	baigoyaba	baigoyaba	NOUN	_	_	_	_	_	gloss=credit
+17	jathai	jathai	NOUN	_	_	_	_	_	gloss=worse
+18	khe	khe	unk	_	_	_	_	_
+19	ning	ning	ADJ	_	_	_	amod	_	gloss=only|Degree=Pos
+20	sao	sao	NOUN	_	_	_	_	_	gloss=sickness
+21	jang	jang	ADP	_	_	_	_	_	gloss=with/and
+22	se	se	PART	_	_	_	_	_	gloss=EMPH
+23	ning	ning	ADJ	_	_	_	amod	_	gloss=only|Degree=Pos
+24	mithiya	mithiya	VERB	_	_	_	_	_	gloss=don’t
+25	hi	hi	VERB	_	_	_	_	_	gloss=been
+26	dong	dong	VERB	_	_	_	_	_	gloss=exist/be
+27	ba	ba	AUX	_	_	_	_	_	gloss=PAST
+28	?	?	PUNCT	_	_	_	_	_
+
+# sent_id = 43001039
+# ref_id = John 1:39
+# eng_text = He said to them , " Come , and see . " They came and saw where he was staying , and they stayed with him that day . It was about the tenth hour .
+# dis_text = Bo thiphin ba , Phai , ode nisi nu nang . Bonsi phaipha hi boni dongthan khe nu ba , ode okhali ha sainblini gontha bri jabani bonsi bo jang dongpha ba .
+1	Bo	bo	PRON	_	_	_	_	_	gloss=he/it/they
+2	thiphin	thiphin	NOUN	_	_	_	_	_	gloss=replied
+3	ba	ba	AUX	_	_	16	aux	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+4	,	,	PUNCT	_	_	3	punct	_	PunctType=Comm
+5	Phai	phai	VERB	_	_	_	ccomp	_	gloss=Come|VerbForm=Inf
+6	,	,	PUNCT	_	_	3	punct	_	PunctType=Comm
+7	ode	ode	CCONJ	_	_	_	_	_	gloss=and
+8	nisi	nisi	PRON	_	_	_	_	_	gloss=you(pl)
+9	nu	nu	VERB	_	_	5	conj	_	gloss=see|VerbForm=Inf
+10	nang	nang	NOUN	_	_	_	_	_	gloss=will
+11	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+12	Bonsi	bonsi	PRON	_	_	_	_	_	gloss=them
+13	phaipha	phaipha	unk	_	_	_	_	_
+14	hi	hi	VERB	_	_	_	_	_	gloss=been
+15	boni	boni	PRON	_	_	_	_	_	gloss=his/their
+16	dongthan	dongthan	VERB	_	_	_	relcl	_	gloss=staying|Aspect=Prog|Tense=Pres|VerbForm=Part
+17	khe	khe	unk	_	_	_	_	_
+18	nu	nu	VERB	_	_	5	conj	_	gloss=see|VerbForm=Inf
+19	ba	ba	AUX	_	_	16	aux	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+20	,	,	PUNCT	_	_	19	punct	_	PunctType=Comm
+21	ode	ode	CCONJ	_	_	_	_	_	gloss=and
+22	okhali	okhali	unk	_	_	_	_	_
+23	ha	ha	ADP	_	_	_	prep	_	gloss=in
+24	sainblini	sainblini	unk	_	_	_	_	_
+25	gontha	gontha	NOUN	_	_	_	_	_	gloss=hour
+26	bri	bri	NUM	_	_	_	nummod	_	gloss=four|NumType=Card
+27	jabani	jabani	NOUN	_	_	_	_	_	gloss=Why
+28	bonsi	bonsi	PRON	_	_	_	_	_	gloss=them
+29	bo	bo	PRON	_	_	_	_	_	gloss=he/it/they
+30	jang	jang	ADP	_	_	_	prep	_	gloss=with
+31	dongpha	dongpha	NOUN	_	_	_	_	_	gloss=Tea
+32	ba	ba	AUX	_	_	16	aux	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+33	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 43003016
+# ref_id = John 3:16
+# eng_text = For God so loved the world , that he gave his one and only Son , that whoever believes in him should not perish , but have eternal life .
+# dis_text = Bede thikhade , Madai phirthi khe hamsi ning hamjaoba , bo jarni basa saosi mang mang dongyaba khe ri ri ba , sere bokhe lon re , bo de gma thaoya , thikhabo thaoglao ni hayu se mai ma .
+1	Bede	bede	SCONJ	_	_	_	_	_	gloss=because
+2	thikhade	thikhade	NOUN	_	_	_	_	_	gloss=If
+3	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+4	Madai	madai	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+5	phirthi	phirthi	VERB	_	_	_	_	_	gloss=earth
+6	khe	khe	unk	_	_	_	_	_
+7	hamsi	hamsi	NOUN	_	_	_	_	_	gloss=compassion
+8	ning	ning	ADV	_	_	14	conj	_	gloss=only
+9	hamjaoba	hamjaoba	NOUN	_	_	_	_	_	gloss=per
+10	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+11	bo	bo	PRON	_	_	_	_	_	gloss=he/it/they
+12	jarni	jarni	NOUN	_	_	_	_	_	gloss=C
+13	basa	basa	NOUN	_	_	_	_	_	gloss=son
+14	saosi	saosi	NUM	_	_	_	dobj	_	gloss=one|NumType=Card
+15	mang	mang	NOUN	_	_	_	_	_	gloss=top
+16	mang	mang	NOUN	_	_	_	_	_	gloss=top
+17	dongyaba	dongyaba	NOUN	_	_	_	_	_	gloss=oth
+18	khe	khe	unk	_	_	_	_	_
+19	ri	ri	NOUN	_	_	_	_	_	gloss=give
+20	ri	ri	NOUN	_	_	_	_	_	gloss=give
+21	ba	ba	AUX	_	_	_	_	_	gloss=PAST
+22	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+23	sere	sere	PRON	_	_	_	_	_	gloss=whoever
+24	bokhe	bokhe	PRON	_	_	_	pobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+25	lon	lon	NOUN	_	_	_	_	_	gloss=unc
+26	re	re	NOUN	_	_	_	_	_	gloss=becomes
+27	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+28	bo	bo	PRON	_	_	_	_	_	gloss=he/it/they
+29	de	de	NOUN	_	_	_	_	_	gloss=wouldn’t
+30	gma	gma	NOUN	_	_	_	_	_	gloss=loses
+31	thaoya	thaoya	VERB	_	_	_	_	_	gloss=per
+32	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+33	thikhabo	thikhabo	CCONJ	_	_	_	_	_	gloss=but
+34	thaoglao	thaoglao	ADJ	_	_	36	amod	_	gloss=eternal|Degree=Pos
+35	ni	ni	ADP	_	_	_	_	_	gloss=of
+36	hayu	hayu	NOUN	_	_	_	dobj	_	gloss=life|Number=Sing
+37	se	se	PART	_	_	_	_	_	gloss=EMPH
+38	mai	mai	NOUN	_	_	_	_	_	gloss=age
+39	ma	ma	AUX	_	_	_	_	_	gloss=will
+40	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 44002030
+# ref_id = Acts 2:30
+# eng_text = Therefore , being a prophet , and knowing that God had sworn with an oath to him that of the fruit of his body , according to the flesh , he would raise up the Christ to sit on his throne ,
+# dis_text = Bo de gorasali se bani , boni greng ni phrang asaba subung saosi khe boni khamthan basao ha kham ri mane Madai ning smai dang kha thihi bo tharmai kha .
+1	Bo	bo	PRON	_	_	_	_	_	gloss=he/it/they
+2	de	de	NOUN	_	_	_	_	_	gloss=wouldn’t
+3	gorasali	gorasali	NOUN	_	_	_	attr	_	gloss=prophet|Number=Sing
+4	se	se	PART	_	_	_	_	_	gloss=EMPH
+5	bani	bani	NOUN	_	_	_	_	_	gloss=dire
+6	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+7	boni	boni	PRON	_	_	_	poss	_	gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+8	greng	greng	NOUN	_	_	_	_	_	gloss=ancestors
+9	ni	ni	ADP	_	_	13	prep	_	gloss=of
+10	phrang	phrang	ADP	_	_	_	_	_	gloss=from
+11	asaba	asaba	NOUN	_	_	_	_	_	gloss=stir
+12	subung	subung	NOUN	_	_	_	_	_	gloss=man/people
+13	saosi	saosi	NUM	_	_	_	nsubj	_	gloss=one|NumType=Card
+14	khe	khe	unk	_	_	_	_	_
+15	boni	boni	PRON	_	_	_	poss	_	gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+16	khamthan	khamthan	NOUN	_	_	_	_	_	gloss=seat
+17	basao	basao	NOUN	_	_	_	_	_	gloss=div
+18	ha	ha	ADP	_	_	_	_	_	gloss=in/at/to
+19	kham	kham	NOUN	_	_	_	_	_	gloss=sat
+20	ri	ri	NOUN	_	_	_	_	_	gloss=give
+21	mane	mane	NOUN	_	_	_	_	_	gloss=predicted
+22	Madai	madai	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+23	ning	ning	PRON	_	_	_	_	_	gloss=you
+24	smai	smai	NOUN	_	_	_	_	_	gloss=search
+25	dang	dang	NOUN	_	_	_	_	_	gloss=als
+26	kha	kha	AUX	_	_	_	_	_	gloss=PAST
+27	thihi	thihi	SCONJ	_	_	_	mark	_	gloss=that
+28	bo	bo	PRON	_	_	_	_	_	gloss=he/it/they
+29	tharmai	tharmai	VERB	_	_	_	conj	_	gloss=knew|Tense=Past|VerbForm=Fin
+30	kha	kha	AUX	_	_	_	_	_	gloss=PAST
+31	.	.	PUNCT	_	_	29	punct	_	PunctType=Peri
+
+# sent_id = 44009038
+# ref_id = Acts 9:38
+# eng_text = As Lydda was near Joppa , the disciples , hearing that Peter was there , sent two men to him , imploring him not to delay in coming to them .
+# dis_text = Ludda nolei de Joppa nolei ni rogong ha se bani , ode yaohon rikphayarao Peter khe oraha dong thihi bonsi khna hi , Phongsi phai thihi khainsu mane khlai hi boniha subung gini haiha ba .
+1	Ludda	ludda	unk	_	_	_	_	_
+2	nolei	nolei	NOUN	_	_	_	_	_	gloss=ici
+3	de	de	NOUN	_	_	_	_	_	gloss=wouldn’t
+4	Joppa	joppa	PROPN	_	_	_	_	_	gloss=Joppa
+5	nolei	nolei	NOUN	_	_	_	_	_	gloss=ici
+6	ni	ni	ADP	_	_	_	_	_	gloss=of
+7	rogong	rogong	ADV	_	_	35	advmod	_	gloss=nearby
+8	ha	ha	ADP	_	_	_	_	_	gloss=in/at/to
+9	se	se	PART	_	_	_	_	_	gloss=EMPH
+10	bani	bani	NOUN	_	_	_	_	_	gloss=dire
+11	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+12	ode	ode	CCONJ	_	_	_	_	_	gloss=and
+13	yaohon	yaohon	NOUN	_	_	_	_	_	gloss=After
+14	rikphayarao	rikphayarao	NOUN	_	_	_	_	_	gloss=disciples
+15	Peter	peter	PROPN	_	_	35	nsubj	_	gloss=Peter|Number=Sing
+16	khe	khe	unk	_	_	_	_	_
+17	oraha	oraha	NOUN	_	_	_	_	_	gloss=there
+18	dong	dong	VERB	_	_	_	_	_	gloss=exist/be
+19	thihi	thihi	SCONJ	_	_	35	mark	_	gloss=that
+20	bonsi	bonsi	PRON	_	_	_	_	_	gloss=them
+21	khna	khna	VERB	_	_	_	ccomp	_	gloss=heard|Aspect=Perf|Tense=Past|VerbForm=Part
+22	hi	hi	VERB	_	_	_	_	_	gloss=been
+23	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+24	Phongsi	phongsi	unk	_	_	_	_	_
+25	phai	phai	VERB	_	_	_	_	_	gloss=come
+26	thihi	thihi	SCONJ	_	_	35	mark	_	gloss=that
+27	khainsu	khainsu	NOUN	_	_	_	_	_	gloss=urge
+28	mane	mane	NOUN	_	_	_	_	_	gloss=predicted
+29	khlai	khlai	NOUN	_	_	_	_	_	gloss=ced
+30	hi	hi	VERB	_	_	_	_	_	gloss=been
+31	boniha	boniha	NOUN	_	_	_	_	_	gloss=offic
+32	subung	subung	NOUN	_	_	_	_	_	gloss=man/people
+33	gini	gini	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+34	haiha	haiha	NOUN	_	_	_	_	_	gloss=send
+35	ba	ba	AUX	_	_	21	ccomp	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+36	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 44011011
+# ref_id = Acts 11:11
+# eng_text = Behold , immediately three men stood before the house where I was , having been sent from Caesarea to me .
+# dis_text = Okhali ha , subung gatham , Kaisari nolei ni phrang ani ha bonsi haiha hi , ani dongthan hakhli ha bonsi song ba .
+1	Okhali	okhali	NOUN	_	_	_	_	_	gloss=our
+2	ha	ha	ADP	_	_	_	_	_	gloss=in/at/to
+3	,	,	PUNCT	_	_	_	_	_
+4	subung	subung	NOUN	_	_	_	_	_	gloss=man/people
+5	gatham	gatham	PROPN	_	_	10	pobj	_	gloss=Caesarea|Number=Sing
+6	,	,	PUNCT	_	_	_	_	_
+7	Kaisari	kaisari	PROPN	_	_	10	pobj	_	gloss=Caesarea|Number=Sing
+8	nolei	nolei	NOUN	_	_	_	_	_	gloss=ici
+9	ni	ni	ADP	_	_	_	_	_	gloss=of
+10	phrang	phrang	ADP	_	_	_	prep	_	gloss=from
+11	ani	ani	PRON	_	_	_	_	_	gloss=my
+12	ha	ha	ADP	_	_	_	_	_	gloss=in/at/to
+13	bonsi	bonsi	PRON	_	_	_	_	_	gloss=them
+14	haiha	haiha	NOUN	_	_	_	_	_	gloss=send
+15	hi	hi	AUX	_	_	_	auxpass	_	gloss=been|Tense=Past|VerbForm=Part
+16	,	,	PUNCT	_	_	_	_	_
+17	ani	ani	PRON	_	_	_	_	_	gloss=my
+18	dongthan	dongthan	VERB	_	_	_	relcl	_	gloss=staying|Aspect=Prog|Tense=Pres|VerbForm=Part
+19	hakhli	hakhli	NOUN	_	_	_	_	_	gloss=courtyard
+20	ha	ha	ADP	_	_	_	_	_	gloss=in/at/to
+21	bonsi	bonsi	PRON	_	_	_	_	_	gloss=them
+22	song	song	NOUN	_	_	_	_	_	gloss=highest
+23	ba	ba	AUX	_	_	_	_	_	gloss=PAST
+24	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 44021034
+# ref_id = Acts 21:34
+# eng_text = Some shouted one thing , some another , among the crowd . When he couldn't find out the truth because of the noise , he commanded him to be brought into the barracks .
+# dis_text = Subung bojom jayarao ni bising ha gejesi grao masi khe bonsi jirik khao ba , gejesi jakha de gibin grao khe jirik khao ba , yao bani bo gibi grao khe musibo haphrang mai phuya kha . Odebani noh bising ha lang mani bo hukhum ri ba .
+1	Subung	subung	NOUN	_	_	_	_	_	gloss=man/people
+2	bojom	bojom	NOUN	_	_	_	_	_	gloss=meets
+3	jayarao	jayarao	NOUN	_	_	_	_	_	gloss=meets
+4	ni	ni	ADP	_	_	_	_	_	gloss=of
+5	bising	bising	ADP	_	_	_	_	_	gloss=inside/among
+6	ha	ha	ADP	_	_	29	prep	_	gloss=in
+7	gejesi	gejesi	DET	_	_	_	predet	_	gloss=some
+8	grao	grao	NOUN	_	_	_	_	_	gloss=word
+9	masi	masi	NOUN	_	_	_	_	_	gloss=fact
+10	khe	khe	unk	_	_	_	_	_
+11	bonsi	bonsi	PRON	_	_	_	_	_	gloss=them
+12	jirik	jirik	VERB	_	_	0	root	_	gloss=shouted|Tense=Past|VerbForm=Fin
+13	khao	khao	VERB	_	_	0	root	_	gloss=shouted|Tense=Past|VerbForm=Fin
+14	ba	ba	AUX	_	_	_	_	_	gloss=PAST
+15	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+16	gejesi	gejesi	DET	_	_	_	predet	_	gloss=some
+17	jakha	jakha	NOUN	_	_	_	_	_	gloss=less
+18	de	de	NOUN	_	_	_	_	_	gloss=wouldn’t
+19	gibin	gibin	NOUN	_	_	_	_	_	gloss=ias
+20	grao	grao	NOUN	_	_	_	_	_	gloss=word
+21	khe	khe	unk	_	_	_	_	_
+22	jirik	jirik	VERB	_	_	0	root	_	gloss=shouted|Tense=Past|VerbForm=Fin
+23	khao	khao	VERB	_	_	0	root	_	gloss=shouted|Tense=Past|VerbForm=Fin
+24	ba	ba	AUX	_	_	_	_	_	gloss=PAST
+25	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+26	yao	yao	NOUN	_	_	_	_	_	gloss=hands
+27	bani	bani	NOUN	_	_	_	_	_	gloss=dire
+28	bo	bo	PRON	_	_	_	_	_	gloss=he/it/they
+29	gibi	gibi	NOUN	_	_	_	dobj	_	gloss=truth|Number=Sing
+30	grao	grao	NOUN	_	_	_	_	_	gloss=word
+31	khe	khe	unk	_	_	_	_	_
+32	musibo	musibo	NOUN	_	_	_	_	_	gloss=nothing
+33	haphrang	haphrang	unk	_	_	_	_	_
+34	mai	mai	NOUN	_	_	_	_	_	gloss=age
+35	phuya	phuya	VERB	_	_	_	_	_	gloss=ody
+36	kha	kha	AUX	_	_	_	_	_	gloss=PAST
+37	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+38	Odebani	odebani	PROPN	_	_	_	_	_	gloss=Therefore
+39	noh	noh	NOUN	_	_	_	_	_	gloss=house
+40	bising	bising	ADP	_	_	_	_	_	gloss=inside/among
+41	ha	ha	ADP	_	_	29	prep	_	gloss=in
+42	lang	lang	NOUN	_	_	_	_	_	gloss=took
+43	mani	mani	NOUN	_	_	_	_	_	gloss=instead
+44	bo	bo	PRON	_	_	_	_	_	gloss=he/it/they
+45	hukhum	hukhum	NOUN	_	_	_	_	_	gloss=authority
+46	ri	ri	NOUN	_	_	_	_	_	gloss=give
+47	ba	ba	AUX	_	_	_	_	_	gloss=PAST
+48	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 47012002
+# ref_id = 2 Corinthians 12:2
+# eng_text = I know a man in Christ , fourteen years ago ( whether in the body , I don't know , or whether out of the body , I don't know ; God knows ) , such a one caught up into the third heaven .
+# dis_text = Krista ha dongyaba subung saosi khe ang tharmai du , bo de nokha maithai jhi bri lailang hi sorgo thak tham ha sugu lang jao hi dong ba , saomang ha bo dongba na saomang ni phrang langjao hi dong ba ang tharmaiya , Madai se tharmai ba .
+1	Krista	krista	NOUN	_	_	_	_	_	gloss=Christ
+2	ha	ha	ADP	_	_	28	prep	_	gloss=in
+3	dongyaba	dongyaba	NOUN	_	_	_	_	_	gloss=oth
+4	subung	subung	NOUN	_	_	_	_	_	gloss=man/people
+5	saosi	saosi	PRON	_	_	_	_	_	gloss=one/no_one
+6	khe	khe	unk	_	_	_	_	_
+7	ang	ang	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+8	tharmai	tharmai	NOUN	_	_	_	_	_	gloss=knew
+9	du	du	AUX	_	_	_	_	_	gloss=PRES
+10	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+11	bo	bo	PRON	_	_	_	_	_	gloss=he/it/they
+12	de	de	NOUN	_	_	_	_	_	gloss=wouldn’t
+13	nokha	nokha	NOUN	_	_	_	_	_	gloss=0
+14	maithai	maithai	NOUN	_	_	_	npadvmod	_	gloss=years|Number=Plur
+15	jhi	jhi	VERB	_	_	_	_	_	gloss=ten
+16	bri	bri	NUM	_	_	_	_	_	gloss=four
+17	lailang	lailang	NOUN	_	_	_	_	_	gloss=hip
+18	hi	hi	VERB	_	_	_	_	_	gloss=been
+19	sorgo	sorgo	PROPN	_	_	_	pobj	_	gloss=heaven|Number=Sing
+20	thak	thak	unk	_	_	_	_	_
+21	tham	tham	NUM	_	_	_	_	_	gloss=three
+22	ha	ha	ADP	_	_	28	prep	_	gloss=in
+23	sugu	sugu	NOUN	_	_	_	_	_	gloss=mat
+24	lang	lang	NOUN	_	_	_	_	_	gloss=took
+25	jao	jao	NOUN	_	_	_	_	_	gloss=thrown
+26	hi	hi	VERB	_	_	_	_	_	gloss=been
+27	dong	dong	VERB	_	_	_	_	_	gloss=exist/be
+28	ba	ba	AUX	_	_	_	advcl	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+29	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+30	saomang	saomang	NOUN	_	_	_	_	_	gloss=nature
+31	ha	ha	ADP	_	_	28	prep	_	gloss=in
+32	bo	bo	PRON	_	_	_	_	_	gloss=he/it/they
+33	dongba	dongba	NOUN	_	_	_	_	_	gloss=tong
+34	na	na	NOUN	_	_	_	_	_	gloss=anger
+35	saomang	saomang	NOUN	_	_	_	_	_	gloss=nature
+36	ni	ni	ADP	_	_	_	prep	_	gloss=of
+37	phrang	phrang	ADP	_	_	_	_	_	gloss=from
+38	langjao	langjao	NOUN	_	_	_	_	_	gloss=further
+39	hi	hi	VERB	_	_	_	_	_	gloss=been
+40	dong	dong	VERB	_	_	_	_	_	gloss=exist/be
+41	ba	ba	AUX	_	_	_	advcl	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+42	ang	ang	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+43	tharmaiya	tharmaiya	VERB	_	_	_	_	_	gloss=speechless
+44	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+45	Madai	madai	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+46	se	se	PART	_	_	_	_	_	gloss=EMPH
+47	tharmai	tharmai	NOUN	_	_	_	_	_	gloss=knew
+48	ba	ba	AUX	_	_	_	advcl	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+49	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 62004009
+# ref_id = 1 John 4:9
+# eng_text = By this was God's love revealed in us , that God has sent his only born Son into the world that we might live through him .
+# dis_text = Madai ni hamjaoma-mayama jini bising ha nujao phai kha ; boni khlai hi jing thang hi dongphu mani Madai ning jar ni basa saosi mang mangyaba khe habsao ha haiha ba .
+1	Madai	madai	PROPN	_	_	3	nsubj	_	gloss=God|Number=Sing
+2	ni	ni	ADP	_	_	_	_	_	gloss=of
+3	hamjaoma-mayama	hamjaoma-mayama	VERB	_	_	0	root	_	gloss=showed|Tense=Past|VerbForm=Fin
+4	jini	jini	NOUN	_	_	_	_	_	gloss=our
+5	bising	bising	ADP	_	_	_	_	_	gloss=inside/among
+6	ha	ha	ADP	_	_	_	_	_	gloss=in/at/to
+7	nujao	nujao	NOUN	_	_	_	_	_	gloss=appeared
+8	phai	phai	VERB	_	_	_	_	_	gloss=come
+9	kha	kha	AUX	_	_	_	_	_	gloss=PAST
+10	;	;	PUNCT	_	_	_	_	_	gloss=ised
+11	boni	boni	PRON	_	_	24	poss	_	gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+12	khlai	khlai	NOUN	_	_	_	_	_	gloss=ced
+13	hi	hi	VERB	_	_	_	_	_	gloss=been
+14	jing	jing	PRON	_	_	_	nsubj	_	gloss=we|Case=Nom|Number=Plur|Person=1|PronType=Prs
+15	thang	thang	VERB	_	_	_	_	_	gloss=go
+16	hi	hi	VERB	_	_	_	_	_	gloss=been
+17	dongphu	dongphu	NOUN	_	_	_	_	_	gloss=matters
+18	mani	mani	NOUN	_	_	_	_	_	gloss=instead
+19	Madai	madai	PROPN	_	_	3	nsubj	_	gloss=God|Number=Sing
+20	ning	ning	ADV	_	_	_	advmod	_	gloss=only
+21	jar	jar	NOUN	_	_	_	_	_	gloss=own
+22	ni	ni	ADP	_	_	_	_	_	gloss=of
+23	basa	basa	NOUN	_	_	_	_	_	gloss=son
+24	saosi	saosi	NUM	_	_	_	dobj	_	gloss=one|NumType=Card
+25	mang	mang	NOUN	_	_	_	_	_	gloss=top
+26	mangyaba	mangyaba	unk	_	_	_	_	_
+27	khe	khe	unk	_	_	_	_	_
+28	habsao	habsao	NOUN	_	_	_	_	_	gloss=world’s
+29	ha	ha	ADP	_	_	_	_	_	gloss=in/at/to
+30	haiha	haiha	NOUN	_	_	_	_	_	gloss=send
+31	ba	ba	AUX	_	_	_	_	_	gloss=PAST
+32	.	.	PUNCT	_	_	3	punct	_	PunctType=Peri
+
+# sent_id = 63001005
+# ref_id = 2 John 1:5
+# eng_text = Now I beg you , dear lady , not as though I wrote to you a new commandment , but that which we had from the beginning , that we love one another .
+# dis_text = Thikhabo , duha de hamba masainjik , grao gadain riba lai niya hi , bokhe jenba ni phrang jing maiyaba khe nisi ne sainthi mani ang reb du . Jing hamjao lai nang thi hi ang nisi khe khainsu du .
+1	Thikhabo	thikhabo	CCONJ	_	_	_	_	_	gloss=but
+2	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+3	duha	duha	NOUN	_	_	_	_	_	gloss=now
+4	de	de	NOUN	_	_	_	_	_	gloss=wouldn’t
+5	hamba	hamba	NOUN	_	_	_	_	_	gloss=Good
+6	masainjik	masainjik	NOUN	_	_	_	_	_	gloss=woman
+7	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+8	grao	grao	NOUN	_	_	_	_	_	gloss=word
+9	gadain	gadain	ADJ	_	_	_	amod	_	gloss=new|Degree=Pos
+10	riba	riba	SCONJ	_	_	_	mark	_	gloss=that
+11	lai	lai	PART	_	_	_	_	_	gloss=like/together
+12	niya	niya	VERB	_	_	_	_	_	gloss=never
+13	hi	hi	VERB	_	_	_	_	_	gloss=been
+14	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+15	bokhe	bokhe	PRON	_	_	_	_	_	gloss=him
+16	jenba	jenba	NOUN	_	_	18	pobj	_	gloss=beginning|Number=Sing
+17	ni	ni	ADP	_	_	_	_	_	gloss=of
+18	phrang	phrang	ADP	_	_	_	prep	_	gloss=from
+19	jing	jing	PRON	_	_	_	nsubj	_	gloss=we|Case=Nom|Number=Plur|Person=1|PronType=Prs
+20	maiyaba	maiyaba	NOUN	_	_	_	_	_	gloss=reve
+21	khe	khe	unk	_	_	_	_	_
+22	nisi	nisi	PRON	_	_	_	dobj	_	gloss=you|Case=Acc|Person=2|PronType=Prs
+23	ne	ne	NOUN	_	_	_	_	_	gloss=accompan
+24	sainthi	sainthi	VERB	_	_	_	_	_	gloss=proclaim
+25	mani	mani	NOUN	_	_	_	_	_	gloss=instead
+26	ang	ang	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+27	reb	reb	NOUN	_	_	_	_	_	gloss=ef
+28	du	du	AUX	_	_	_	_	_	gloss=PRES
+29	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+30	Jing	jing	PRON	_	_	_	_	_	gloss=we
+31	hamjao	hamjao	VERB	_	_	_	_	_	gloss=love
+32	lai	lai	PART	_	_	_	_	_	gloss=like/together
+33	nang	nang	NOUN	_	_	_	_	_	gloss=will
+34	thi	thi	VERB	_	_	_	_	_	gloss=say
+35	hi	hi	VERB	_	_	_	_	_	gloss=been
+36	ang	ang	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+37	nisi	nisi	PRON	_	_	_	dobj	_	gloss=you|Case=Acc|Person=2|PronType=Prs
+38	khe	khe	unk	_	_	_	_	_
+39	khainsu	khainsu	NOUN	_	_	_	_	_	gloss=urge
+40	du	du	AUX	_	_	_	_	_	gloss=PRES
+41	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+

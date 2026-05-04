@@ -1,0 +1,1020 @@
+## The following text has been annotated for parts of speech by students at NTU Singapore as part of a class project in AY 2025-26.
+## Verses are extracted from the taggedPBC. Annotations have been developed with a combination of manual and automated approaches, with reference to existing literature and (where possible) native speakers.
+## ISO 639-3: blt, Language: Tai Dam, Number of verses: 21
+## References: Baccam, D., & Brase, J. L. (1980). English - Thai Dam language lessons (2nd ed). Summer Institute of Linguistics. ; Burusphat, S. (2016). A discourse analysis of the Tai Dam chronicle. Journal of the Southeast Asian Linguistics Society, 9, 30-47. ; Gedney, W. J. (1994). William J. Gedney’s Southwestern Tai dialects: Glossaries, texts, and translations (T. J. Hudak, Ed.). The University of Michigan, Center for South and Southeast Asian Studies. ; Fippinger, J., & Fippinger, D. (1970). Black Tai phonemes, with reference to White Tai. Anthropological Linguistics, 12(3), 83-97. https://www.jstor.org/stable/30029082 ; Fippinger, J. W. (1975a). Black Tai sentence types: A generative semantic approach. In J. G. Harris & J. R. Chamberlain (Eds.), Studies in Tai linguistics in honor of William J. Gedney, pp. 130-169. Central Institute of English language. ; Fippinger, J. W. (1975b). Vietnam word list. Retrieved March 10, 2026, from: https://www.sil.org/system/files/reapdata/14/45/21/144521033713771538387773416256730862181/Vietnam_Word_List_Tai_Dam.pdf ; Hudak, T. J. (2008). William J. Gedney’s comparative Tai source book. University of Hawai‘i Press. https://www.jstor.org/stable/20532978 ; Li, F.-K. (1959). Classification by vocabulary: Tai dialects. Anthropological Linguistics, 1(2), 15-21. https://www.jstor.org/stable/30022180 ; Pittayaporn, P. (2021). Typological profile of Kra-Dai languages. In P. Sidwell & M. Jenny (Eds.), The languages and linguistics of Mainland Southeast Asia: A comprehensive guide (pp. 433-468). De Gruyter Mouton. https://doi.org/10.1515/9783110558142-021 ; Smyth, D. (2025). Thai: An essential grammar (3rd ed.). Routledge. https://doi.org/10.4324/9781003585848 ; Sriwirote, P., Leong, W. Q., Polpanumas, C., Thanyawong, S., Tjhi, W. C., Aroonmanakun, W., & Rutherford, A. T. (2025). The Thai Universal Dependency Treebank. Transactions of the Association for Computational Linguistics, 13, 376-391. https://doi.org/10.1162/tacl_a_00745 ; Vitrano-Wilson, S. (2018). Tai Dam orthographies: Multigraphia, mismatching tones, and mutual borrowing of tone marking devices among three scripts. Written Language & Literacy, 21(2). https://doi.org/10.1075/wll.00015.vit
+## Contributors: # CLARICE LAU XIU LING: clau020 AT e DOT ntu DOT edu DOT sg #
+
+# sent_id = 40006024
+# ref_id = Matthew 6:24
+# eng_text = " No one can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You can't serve both God and Mammon .
+# blt_text = Báu hón 'mí phủ đaư 'khớng nả 'viạk hảư song phủ pên chảu, 'pưa 'va 'chí 'chắng chảu phủ 'nị pay 'hặc chảu phủ 'nặn, 'hứ 'va 'chí 'sư tó chảu phủ 'nị 'lẹo 'cọ đu 'ngai chảu phủ 'nặn. 'Néo 'nặn lo, 'pứng 'nọng 'chí 'khớng 'viạk Chảu Pua 'Phạ 'tếng cá 'viạk 'hăng 'mí 'pọm căn báu đảy.
+1	Báu	báu	PART	_	Polarity=Neg	_	neg	_	gloss=not
+2	hón	hón	unk	_	_	_	_	_	_
+3	'mí	'mí	VERB	_	_	0	root	_	gloss=has/there-is
+4	phủ	phủ	NOUN	_	_	3	obj	_	gloss=person
+5	đaư	đaư	DET	_	PronType=Ind	4	det	_	gloss=any
+6	'khớng	'khớng	VERB	_	_	4	acl	_	gloss=serve/engage-in
+7	nả	nả	ADP	_	_	_	_	_	gloss=in-front
+8	'viạk	'viạk	NOUN	_	_	_	_	_	gloss=work
+9	hảư	hảư	VERB	_	_	6	compound:svc	_	gloss=give/CAUS
+10	song	song	NUM	_	_	11	nummod	_	gloss=two
+11	phủ	phủ	NOUN	_	_	_	_	_	gloss=person
+12	pên	pên	AUX	_	_	_	cop	_	gloss=be
+13	chảu	chảu	NOUN	_	_	_	_	_	gloss=master/owner/lord
+14	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+15	'pưa	'pưa	SCONJ	_	_	_	mark	_	gloss=because
+16	'va	'va	SCONJ	_	_	_	_	_	gloss=that
+17	'chí	'chí	AUX	_	_	18	aux	_	gloss=will
+18	'chắng	'chắng	VERB	_	_	_	_	_	gloss=hate
+19	chảu	chảu	NOUN	_	_	18	obj	_	gloss=master/owner/lord
+20	phủ	phủ	NOUN	_	_	21	clf	_	gloss=person
+21	'nị	'nị	DET	_	PronType=Dem	19	det	_	gloss=this
+22	pay	pay	VERB	_	_	18	conj	_	gloss=go
+23	'hặc	'hặc	VERB	_	_	_	_	_	gloss=love
+24	chảu	chảu	NOUN	_	_	23	obj	_	gloss=master/owner/lord
+25	phủ	phủ	NOUN	_	_	26	clf	_	gloss=person
+26	'nặn	'nặn	DET	_	PronType=Dem	24	det	_	gloss=that
+27	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+28	'hứ	'hứ	CCONJ	_	_	31	cc	_	gloss=or
+29	'va	'va	SCONJ	_	_	_	_	_	gloss=that
+30	'chí	'chí	AUX	_	_	30	aux	_	gloss=will
+31	'sư	'sư	VERB	_	_	_	_	_	_
+32	tó	tó	ADP	_	_	_	_	_	gloss=toward
+33	chảu	chảu	NOUN	_	_	_	_	_	gloss=master/owner/lord
+34	phủ	phủ	NOUN	_	_	35	clf	_	gloss=person
+35	'nị	'nị	DET	_	PronType=Dem	33	det	_	gloss=this
+36	'lẹo	'lẹo	CCONJ	_	_	_	cc	_	gloss=and/then
+37	'cọ	'cọ	ADV	_	_	_	_	_	gloss=also
+38	đu	đu	VERB	_	_	31	conj	_	gloss=look|MWE=despise
+39	'ngai	'ngai	VERB	_	_	38	compound:svc	_	gloss=easy
+40	chảu	chảu	NOUN	_	_	39	obj	_	gloss=master/owner/lord
+41	phủ	phủ	NOUN	_	_	42	clf	_	gloss=person
+42	'nặn	'nặn	DET	_	PronType=Dem	40	det	_	gloss=that
+43	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+44	'Néo	'néo	NOUN	_	_	_	_	_	gloss=kind/type
+45	'nặn	'nặn	DET	_	PronType=Dem	44	det	_	gloss=that
+46	lo	lo	PART	_	_	_	discourse	_	gloss=AFF
+47	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+48	'pứng	'pứng	DET	_	PronType=Ind|Number=Plur	49	det	_	gloss=some
+49	'nọng	'nọng	PRON	_	PronType=Prs|Person=2	_	_	_	gloss=you
+50	'chí	'chí	AUX	_	_	50	aux	_	gloss=will
+51	'khớng	'khớng	VERB	_	_	0	root	_	gloss=serve/engage-in
+52	'viạk	'viạk	NOUN	_	_	_	_	_	gloss=work
+53	Chảu	Chảu	NOUN	_	_	54	flat:name	_	gloss=Lord|MWE=God
+54	Pua	Pua	NOUN	_	ExtPos=PROPN	_	_	_	gloss=king
+55	'Phạ	'Phạ	NOUN	_	_	54	nmod	_	gloss=sky
+56	'tếng	'tếng	ADP	_	_	_	_	_	gloss=above
+57	cá	cá	ADP	_	_	_	_	_	gloss=as-far-as
+58	'viạk	'viạk	NOUN	_	_	_	_	_	gloss=work
+59	'hăng	'hăng	VERB	_	_	_	_	_	MWE=rich
+60	'mí	'mí	VERB	_	_	59	compound:svc	_	gloss=has/there-is
+61	'pọm	'pọm	VERB	_	ExtPos=ADV	_	_	_	MWE=at-the-same-time
+62	căn	căn	ADV	_	_	61	advmod	_	gloss=together/each-other
+63	báu	báu	PART	_	Polarity=Neg	64	neg	_	gloss=not
+64	đảy	đảy	AUX	_	_	51	aux	_	gloss=can
+65	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 40018012
+# ref_id = Matthew 18:12
+# eng_text = " What do you think ? If a man has one hundred sheep , and one of them goes astray , doesn't he leave the ninety-nine , go to the mountains , and seek that which has gone astray ?
+# blt_text = 'Pứng 'nọng ngắm bớng đu, sủ 'sướng phủ 'nưng 'mí 100 tô 'do. Lon tô 'nưng lông 'pứng pay, phủ 'nặn 'cọ 'chí đảy 'váng 99 tô 'nặn 'vạy dú nẳng 'pú, 'lẹo 'cọ pay sáo ha tô 'do lông 'pứng pay 'nặn.
+1	'Pứng	'pứng	DET	_	PronType=Ind|Number=Plur	2	det	_	gloss=some
+2	'nọng	'nọng	PRON	_	PronType=Prs|Person=2	_	_	_	gloss=you
+3	ngắm	ngắm	VERB	_	_	_	_	_	gloss=think
+4	bớng	bớng	VERB	_	_	3	compound:svc	_	gloss=look
+5	đu	đu	VERB	_	_	4	compound:svc	_	gloss=look
+6	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+7	sủ	sủ	unk	_	_	_	_	_	gloss=var
+8	'sướng	'sướng	NOUN	_	_	_	_	_	gloss=manner
+9	phủ	phủ	NOUN	_	_	_	clf	_	gloss=person
+10	'nưng	'nưng	NUM	_	_	9	nummod	_	gloss=one
+11	'mí	'mí	VERB	_	_	_	_	_	gloss=has/there-is
+12	100	100	NUM	_	NumType=Card	14	nummod	_	gloss=hundred
+13	tô	tô	NOUN	_	_	12	clf	_	gloss=CLF-animal
+14	'do	'do	NOUN	_	_	11	obj	_	gloss=sheep
+15	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+16	Lon	Lon	CCONJ	_	_	_	cc	_	_
+17	tô	tô	NOUN	_	_	_	clf	_	gloss=CLF-animal
+18	'nưng	'nưng	NUM	_	_	17	nummod	_	gloss=one
+19	lông	lông	VERB	_	_	17	acl	_	gloss=lose
+20	'pứng	'pứng	NOUN	_	_	19	obj	_	gloss=herd
+21	pay	pay	VERB	_	_	19	compound:dir	_	gloss=go
+22	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+23	phủ	phủ	NOUN	_	_	_	_	_	gloss=person
+24	'nặn	'nặn	DET	_	PronType=Dem	23	det	_	gloss=that
+25	'cọ	'cọ	ADV	_	_	_	_	_	gloss=also
+26	'chí	'chí	AUX	_	_	_	aux	_	gloss=will
+27	đảy	đảy	VERB	_	_	_	_	_	gloss=get
+28	'váng	'váng	VERB	_	_	_	_	_	gloss=set-aside
+29	99	99	NUM	_	NumType=Card	30	nummod	_	gloss=ninety-nine
+30	tô	tô	NOUN	_	_	_	clf	_	gloss=CLF-animal
+31	'nặn	'nặn	DET	_	PronType=Dem	30	det	_	gloss=that
+32	'vạy	'vạy	VERB	_	_	_	_	_	gloss=for-future-use-or-reference
+33	dú	dú	VERB	_	_	_	_	_	gloss=be-at
+34	nẳng	nẳng	ADP	_	_	_	_	_	gloss=at/on/in
+35	'pú	'pú	NOUN	_	_	_	_	_	gloss=mountain
+36	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+37	'lẹo	'lẹo	CCONJ	_	_	_	cc	_	gloss=and/then
+38	'cọ	'cọ	ADV	_	_	_	_	_	gloss=also
+39	pay	pay	VERB	_	_	_	_	_	gloss=go
+40	sáo	sáo	VERB	_	_	_	_	_	gloss=look-for|MWE=seek
+41	ha	ha	VERB	_	_	40	compound:svc	_	gloss=look-for
+42	tô	tô	NOUN	_	_	43	clf	_	gloss=CLF-animal
+43	'do	'do	NOUN	_	_	40	obj	_	gloss=sheep
+44	lông	lông	VERB	_	_	43	acl	_	gloss=lose
+45	'pứng	'pứng	NOUN	_	_	44	obj	_	gloss=herd
+46	pay	pay	VERB	_	_	44	compound:dir	_	gloss=go
+47	'nặn	'nặn	DET	_	PronType=Dem	40	det	_	gloss=that
+48	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 40020021
+# ref_id = Matthew 20:21
+# eng_text = He said to her , " What do you want ? " She said to him , " Command that these , my two sons , may sit , one on your right hand , and one on your left hand , in your kingdom . "
+# blt_text = Chảu 'Giê‑'su chắng tham 'va, “Chảu é đảy săng?” 'Mía 'tan 'Sê‑bê‑đai tóp 'va, “'Chớ đaư 'Tan chảu đảy khửn 'năng 'tến téng đa phén 'hôm 'ngáu, so 'Tan hảư song 'lụk 'chái khong khỏi 'mí phép 'quiến 'năng 'hiếng song sảng 'Tan chảu đé 'ná.”
+1	Chảu	Chảu	NOUN	_	_	2	flat:name	_	gloss=Lord
+2	'Giê‑'su	'Giê‑'su	PROPN	_	_	4	nsubj	_	gloss=Jesus
+3	chắng	chắng	ADV	_	_	4	advmod	_	gloss=then
+4	tham	tham	VERB	_	_	0	root	_	gloss=ask
+5	'va	'va	SCONJ	_	_	9	mark	_	gloss=that
+6	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+7	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+8	Chảu	chảu	NOUN	_	_	9	nsubj	_	gloss=master/owner/lord
+9	é	é	VERB	_	_	_	_	_	gloss=want
+10	đảy	đảy	VERB	_	_	_	_	_	gloss=get
+11	săng	săng	PRON	_	PronType=Int	10	obj	_	gloss=what
+12	?	?	PUNCT	_	_	_	punct	_	PunctType=Qmark
+13	”	”	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+14	'Mía	'mía	NOUN	_	_	17	nsubj	_	gloss=wife
+15	'tan	'tan	NOUN	_	_	16	flat:name	_	gloss=HON
+16	'Sê‑bê‑đai	'Sê‑bê‑đai	PROPN	_	_	14	nmod	_	gloss=Zebedee
+17	tóp	tóp	VERB	_	_	0	root	_	gloss=answer
+18	'va	'va	SCONJ	_	_	_	mark	_	gloss=that
+19	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+20	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+21	'Chớ	'chớ	NOUN	_	_	_	_	_	gloss=time/hour
+22	đaư	đaư	DET	_	PronType=Ind	21	det	_	gloss=any
+23	'Tan	'tan	NOUN	_	_	24	flat	_	gloss=HON
+24	chảu	chảu	PRON	_	PronType=Prs|Person=2	_	_	_	gloss=you
+25	đảy	đảy	VERB	_	_	_	_	_	gloss=get
+26	khửn	khửn	VERB	_	_	_	_	_	gloss=ascend
+27	'năng	'năng	VERB	_	_	_	_	_	gloss=sit
+28	'tến	'tến	NOUN	_	_	_	_	_	gloss=raised-platform/throne
+29	téng	téng	VERB	_	_	_	_	_	MWE=rule-over
+30	đa	đa	ADP	_	_	_	_	_	_
+31	phén	phén	NOUN	_	_	_	_	_	gloss=floor
+32	'hôm	'hôm	NOUN	_	_	31	nmod	_	MWE=heaven
+33	'ngáu	'ngáu	NOUN	_	_	32	compound	_	gloss=reflection|SpaceAfter=No
+34	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+35	so	so	VERB	_	_	_	_	_	gloss=beg/ask-for
+36	'Tan	'tan	PRON	_	PronType=Prs|Person=2	_	_	_	gloss=HON-you
+37	hảư	hảư	VERB	_	_	_	_	_	gloss=give/CAUS
+38	song	song	NUM	_	_	39	nummod	_	gloss=two
+39	'lụk	'lụk	NOUN	_	_	_	_	_	gloss=child|MWE=son
+40	'chái	'chái	NOUN	_	_	39	compound	_	gloss=male
+41	khong	khong	PART	_	_	_	case	_	gloss=poss
+42	khỏi	khỏi	PRON	_	PronType=Prs|Person=1	_	_	_	gloss=I
+43	'mí	'mí	VERB	_	_	_	_	_	gloss=has/there-is
+44	phép	phép	NOUN	_	_	_	_	_	gloss=power
+45	'quiến	'quiến	NOUN	_	_	_	_	_	gloss=authority
+46	'năng	'năng	VERB	_	_	_	_	_	gloss=sit
+47	'hiếng	'hiếng	NOUN	_	_	_	_	_	gloss=place
+48	song	song	NUM	_	_	49	nummod	_	gloss=two
+49	sảng	sảng	NOUN	_	_	_	_	_	gloss=side
+50	'Tan	'tan	NOUN	_	_	51	flat	_	gloss=HON
+51	chảu	chảu	PRON	_	PronType=Prs|Person=2	_	_	_	gloss=you
+52	đé	đé	PART	_	_	_	discourse	_	gloss=Q
+53	'ná	'ná	PART	_	_	_	discourse	_	SpaceAfter=No
+54	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+55	”	”	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 40026002
+# ref_id = Matthew 26:2
+# eng_text = " You know that after two days the Passover is coming , and the Son of Man will be delivered up to be crucified . "
+# blt_text = “'Pứng 'nọng 'cọ 'hụ 'lẹo, 'nhắng song 'mự 'chí 'họt khuốp 'mự kin 'tiệc 'Vện cai. 'Lẹo 'háu pên 'lụk phủ 'cốn 'nị 'cọ 'chí 'mí 'cốn phản dao hảư sáu tók 'neng lếc sáư 'tếng 'mạy tháng khen.”
+1	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+2	'Pứng	'pứng	DET	_	PronType=Ind|Number=Plur	3	det	_	gloss=some
+3	'nọng	'nọng	PRON	_	PronType=Prs|Person=2	_	_	_	gloss=you
+4	'cọ	'cọ	ADV	_	_	_	_	_	gloss=also
+5	'hụ	'hụ	VERB	_	_	_	_	_	gloss=know
+6	'lẹo	'lẹo	ADV	_	_	_	advmod	_	gloss=already
+7	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+8	'nhắng	'nhắng	ADV	_	_	_	_	_	gloss=still
+9	song	song	NUM	_	_	10	nummod	_	gloss=two
+10	'mự	'mự	NOUN	_	_	_	_	_	gloss=day
+11	'chí	'chí	AUX	_	_	12	aux	_	gloss=will
+12	'họt	'họt	VERB	_	_	_	_	_	gloss=reach
+13	khuốp	khuốp	ADP	_	_	_	_	_	_
+14	'mự	'mự	NOUN	_	_	_	_	_	gloss=day
+15	kin	kin	VERB	_	_	14	acl	_	gloss=eat
+16	'tiệc	'tiệc	NOUN	_	_	15	obj	_	_
+17	'Vện	'vện	VERB	_	_	_	_	_	gloss=skip
+18	cai	cai	VERB	_	_	_	_	_	gloss=go/pass
+19	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+20	'Lẹo	'lẹo	CCONJ	_	_	_	cc	_	gloss=and/then
+21	'háu	'háu	PRON	_	PronType=PRS|Person=1	_	_	_	gloss=I
+22	pên	pên	AUX	_	_	_	cop	_	gloss=be
+23	'lụk	'lụk	NOUN	_	_	_	_	_	gloss=child
+24	phủ	phủ	NOUN	_	_	_	_	_	gloss=person
+25	'cốn	'cốn	NOUN	_	_	24	flat	_	gloss=person/human
+26	'nị	'nị	DET	_	PronType=Dem	_	det	_	gloss=this
+27	'cọ	'cọ	ADV	_	_	_	_	_	gloss=also
+28	'chí	'chí	AUX	_	_	29	aux	_	gloss=will
+29	'mí	'mí	VERB	_	_	0	root	_	gloss=has/there-is
+30	'cốn	'cốn	NOUN	_	_	_	_	_	gloss=person/human
+31	phản	phản	VERB	_	_	_	_	_	gloss=pass
+32	dao	dao	VERB	_	_	31	flat	_	gloss=deliver
+33	hảư	hảư	VERB	_	_	31	compound:svc	_	gloss=give/CAUS
+34	sáu	sáu	unk	_	_	_	_	_	gloss=chose
+35	tók	tók	VERB	_	_	_	advcl	_	MWE=crucify
+36	'neng	'neng	ADP	_	_	_	_	_	_
+37	lếc	lếc	NOUN	_	_	_	_	_	gloss=iron
+38	sáư	sáư	ADP	_	_	_	_	_	gloss=to
+39	'tếng	'tếng	ADP	_	_	_	_	_	gloss=above
+40	'mạy	'mạy	NOUN	_	_	_	_	_	gloss=wood
+41	tháng	tháng	VERB	_	_	_	_	_	gloss=spread-out
+42	khen	khen	NOUN	_	_	_	_	_	gloss=arm
+43	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+44	”	”	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 40026061
+# ref_id = Matthew 26:61
+# eng_text = and said , " This man said , ' I am able to destroy the temple of God , and to build it in three days . ' "
+# blt_text = “Phủ 'nị lo, đảy 'vạu 'va 'chí pé 'hướn vảy 'sớ Chảu Pua 'Phạ 'lống, 'lẹo cuông sam 'mự 'chí tẳng khửn máư đảy.”
+1	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+2	Phủ	phủ	NOUN	_	_	_	nsubj	_	gloss=person
+3	'nị	'nị	DET	_	PronType=Dem	2	det	_	gloss=this
+4	lo	lo	PART	_	_	_	discourse	_	gloss=AFF
+5	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+6	đảy	đảy	VERB	_	_	_	_	_	gloss=get-to-do-something
+7	'vạu	'vạu	VERB	_	_	_	_	_	gloss=speak
+8	'va	'va	SCONJ	_	_	10	mark	_	gloss=that
+9	'chí	'chí	AUX	_	_	10	aux	_	gloss=will
+10	pé	pé	VERB	_	_	_	_	_	gloss=demolish
+11	'hướn	'hướn	NOUN	_	_	10	obj	_	gloss=house
+12	vảy	vảy	unk	_	_	_	_	_	gloss=oy
+13	'sớ	'sớ	unk	_	_	_	_	_	gloss=required
+14	Chảu	Chảu	NOUN	_	_	15	flat:name	_	gloss=Lord|MWE=God
+15	Pua	Pua	NOUN	_	ExtPos=PROPN	_	_	_	gloss=king
+16	'Phạ	'Phạ	NOUN	_	_	15	nmod	_	gloss=sky
+17	'lống	'lống	VERB	_	_	10	compound:dir	_	gloss=descend
+18	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+19	'lẹo	'lẹo	CCONJ	_	_	_	cc	_	gloss=and/then
+20	cuông	cuông	ADP	_	_	22	case	_	gloss=in/inside
+21	sam	sam	NUM	_	_	22	nummod	_	gloss=three
+22	'mự	'mự	NOUN	_	_	_	_	_	gloss=day
+23	'chí	'chí	AUX	_	_	24	aux	_	gloss=will
+24	tẳng	tẳng	VERB	_	_	_	_	_	gloss=build/set-up
+25	khửn	khửn	VERB	_	_	24	compound:dir	_	gloss=ascend
+26	máư	máư	ADV	_	_	24	advmod	_	gloss=anew/again
+27	đảy	đảy	AUX	_	_	24	aux	_	gloss=can
+28	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+29	”	”	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 40028016
+# ref_id = Matthew 28:16
+# eng_text = But the eleven disciples went into Galilee , to the mountain where Jesus had sent them .
+# blt_text = Mốt síp ết 'cốn 'toi 'táng Chảu 'Giê‑'su 'nặn au căn pay cá phén đin 'Kha‑'li‑'lê 'họt 'pú bón 'Tan chảu bók hảư pay 'pọ 'nặn.
+1	Mốt	mốt	NOUN	_	_	_	_	_	gloss=group
+2	síp	síp	NUM	_	_	3	flat:number	_	gloss=ten|MWE=eleven
+3	ết	ết	NUM	_	_	4	nummod	_	gloss=one
+4	'cốn	'cốn	NOUN	_	_	1	nmod	_	gloss=person/human
+5	'toi	'toi	VERB	_	_	4	acl	_	gloss=follow
+6	'táng	'táng	NOUN	_	_	5	obj	_	gloss=direction/road/way
+7	Chảu	Chảu	NOUN	_	_	8	flat:name	_	gloss=Lord
+8	'Giê‑'su	'Giê‑'su	PROPN	_	_	6	nmod	_	gloss=Jesus
+9	'nặn	'nặn	DET	_	PronType=Dem	1	det	_	gloss=that
+10	au	au	VERB	_	_	_	_	_	gloss=take/bring/want
+11	căn	căn	ADV	_	_	_	advmod	_	gloss=together/each-other
+12	pay	pay	VERB	_	_	_	_	_	gloss=go
+13	cá	cá	ADP	_	_	_	_	_	gloss=as-far-as
+14	phén	phén	NOUN	_	_	_	_	_	gloss=floor|MWE=ground/land
+15	đin	đin	NOUN	_	_	14	flat	_	gloss=earth
+16	'Kha‑'li‑'lê	'Kha‑'li‑'lê	PROPN	_	_	14	nmod	_	gloss=Galilee
+17	'họt	'họt	VERB	_	_	_	_	_	gloss=reach
+18	'pú	'pú	NOUN	_	_	_	_	_	gloss=mountain
+19	bón	bón	NOUN	_	_	_	_	_	gloss=place
+20	'Tan	'tan	NOUN	_	_	21	flat	_	gloss=HON
+21	chảu	chảu	NOUN	_	_	_	_	_	gloss=master/owner/lord
+22	bók	bók	VERB	_	_	_	_	_	gloss=tell/teach/command
+23	hảư	hảư	VERB	_	_	22	compound:svc	_	gloss=give/CAUS
+24	pay	pay	VERB	_	_	_	_	_	gloss=go
+25	'pọ	'pọ	VERB	_	_	_	_	_	gloss=meet/encounter
+26	'nặn	'nặn	DET	_	PronType=Dem	19	det	_	gloss=that
+27	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41002023
+# ref_id = Mark 2:23
+# eng_text = It happened , that he was going on the Sabbath day through the grain fields , and his disciples began , as they went , to pluck the ears of grain .
+# blt_text = 'Mí 'mự 'nưng 'men 'mự 'dặng 'cắm, Chảu 'Giê‑'su 'nhang phá cang 'hay pay. 'Chớ đang 'nhang pay 'nặn, mốt 'cốn 'toi 'táng 'Tan chảu 'cọ đảy đết au 'huống khảu 'má kin.
+1	'Mí	'mí	VERB	_	_	_	_	_	gloss=has/there-is
+2	'mự	'mự	NOUN	_	_	_	_	_	gloss=day
+3	'nưng	'nưng	NUM	_	_	2	nummod	_	gloss=one
+4	'men	'men	VERB	_	_	_	_	_	gloss=it-is/that-is-right
+5	'mự	'mự	NOUN	_	_	_	_	_	gloss=day|MWE=Sabbath
+6	'dặng	'dặng	VERB	_	_	5	acl	_	gloss=rest
+7	'cắm	'cắm	NOUN	_	_	6	obj	_	gloss=gold
+8	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+9	Chảu	Chảu	NOUN	_	_	10	flat:name	_	gloss=Lord
+10	'Giê‑'su	'Giê‑'su	PROPN	_	_	_	_	_	gloss=Jesus
+11	'nhang	'nhang	VERB	_	_	_	_	_	gloss=walk
+12	phá	phá	unk	_	_	_	_	_	gloss=ield
+13	cang	cang	ADP	_	_	_	_	_	gloss=in-the-middle-of/at/by
+14	'hay	'hay	NOUN	_	_	_	_	_	gloss=field
+15	pay	pay	VERB	_	_	_	_	_	gloss=go
+16	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+17	'Chớ	'chớ	NOUN	_	_	_	_	_	gloss=time/hour
+18	đang	đang	ADV	_	_	_	_	_	gloss=present-progressive
+19	'nhang	'nhang	VERB	_	_	_	_	_	gloss=walk
+20	pay	pay	VERB	_	_	19	compound:dir	_	gloss=go
+21	'nặn	'nặn	DET	_	PronType=Dem	17	det	_	gloss=that
+22	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+23	mốt	mốt	NOUN	_	_	_	nsubj	_	gloss=group
+24	'cốn	'cốn	NOUN	_	_	23	nmod	_	gloss=person/human
+25	'toi	'toi	VERB	_	_	24	acl	_	gloss=follow
+26	'táng	'táng	NOUN	_	_	25	obj	_	gloss=direction/road/way
+27	'Tan	'tan	NOUN	_	_	28	flat	_	gloss=HON
+28	chảu	chảu	NOUN	_	_	26	nmod	_	gloss=master/owner/lord
+29	'cọ	'cọ	ADV	_	_	_	_	_	gloss=also
+30	đảy	đảy	VERB	_	_	_	_	_	gloss=get-to-do-something
+31	đết	đết	VERB	_	_	_	_	_	gloss=pluck
+32	au	au	VERB	_	_	_	_	_	gloss=take/bring/want
+33	'huống	'huống	NOUN	_	_	_	_	_	gloss=ear-of-grain
+34	khảu	khảu	NOUN	_	_	33	nmod	_	gloss=rice
+35	'má	'má	VERB	_	_	32	compound:dir	_	gloss=come
+36	kin	kin	VERB	_	_	_	_	_	gloss=eat
+37	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41012032
+# ref_id = Mark 12:32
+# eng_text = The scribe said to him , " Truly , teacher , you have said well that he is one , and there is none other but he ,
+# blt_text = 'Sướng 'nặn 'sáy bók 'luột 'láng phủ 'nặn 'diến sưng Chảu 'Giê‑'su 'va, “'Sáy 'po 'chang 'vạu đi lai, 'sáy 'po 'vạu 'va 'mí 'to Chảu Pua 'Phạ phủ điêu, cai Chảu Pua 'Phạ 'lẹo báu 'mí Chảu Chom ứn, 'sướng 'nặn 'cọ 'men 'tẹ lo.
+1	'Sướng	'sướng	NOUN	_	_	_	_	_	gloss=manner
+2	'nặn	'nặn	DET	_	PronType=Dem	1	det	_	gloss=that
+3	'sáy	'sáy	NOUN	_	_	_	_	_	gloss=teacher
+4	bók	bók	VERB	_	_	3	acl	_	gloss=tell/teach/command
+5	'luột	'luột	NOUN	_	_	_	pobj	_	gloss=law
+6	'láng	'láng	NOUN	_	_	_	pobj	_	gloss=law
+7	phủ	phủ	NOUN	_	_	8	clf	_	gloss=person
+8	'nặn	'nặn	DET	_	PronType=Dem	3	det	_	gloss=that
+9	'diến	'diến	unk	_	_	_	_	_	gloss=immediately
+10	sưng	sưng	VERB	_	_	_	_	_	_
+11	Chảu	Chảu	NOUN	_	_	12	flat:name	_	gloss=Lord
+12	'Giê‑'su	'Giê‑'su	PROPN	_	_	_	_	_	gloss=Jesus
+13	'va	'va	SCONJ	_	_	_	_	_	gloss=that
+14	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+15	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+16	'Sáy	'sáy	NOUN	_	_	_	_	_	gloss=teacher
+17	'po	'po	unk	_	_	_	_	_	gloss=fattened
+18	'chang	'chang	unk	_	_	_	_	_	gloss=builders
+19	'vạu	'vạu	VERB	_	_	_	_	_	gloss=speak
+20	đi	đi	VERB	_	_	_	_	_	gloss=good
+21	lai	lai	ADV	_	_	20	advmod	_	gloss=very
+22	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+23	'sáy	'sáy	NOUN	_	_	_	_	_	gloss=teacher
+24	'po	'po	unk	_	_	_	_	_	gloss=fattened
+25	'vạu	'vạu	VERB	_	_	_	_	_	gloss=speak
+26	'va	'va	SCONJ	_	_	_	_	_	gloss=that
+27	'mí	'mí	VERB	_	_	_	_	_	gloss=has/there-is
+28	'to	'to	ADV	_	_	_	_	_	gloss=equal-to/only
+29	Chảu	Chảu	NOUN	_	_	30	flat:name	_	gloss=Lord|MWE=God
+30	Pua	Pua	NOUN	_	ExtPos=PROPN	_	_	_	gloss=king
+31	'Phạ	'Phạ	NOUN	_	_	30	nmod	_	gloss=sky
+32	phủ	phủ	NOUN	_	_	_	_	_	gloss=person
+33	điêu	điêu	ADJ	_	_	32	amod	_	gloss=alone
+34	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+35	cai	cai	VERB	_	_	_	_	_	gloss=go/pass
+36	Chảu	Chảu	NOUN	_	_	37	flat:name	_	gloss=Lord|MWE=God
+37	Pua	Pua	NOUN	_	ExtPos=PROPN	_	_	_	gloss=king
+38	'Phạ	'Phạ	NOUN	_	_	37	nmod	_	gloss=sky
+39	'lẹo	'lẹo	ADV	_	_	_	advmod	_	gloss=already
+40	báu	báu	PART	_	Polarity=Neg	41	neg	_	gloss=not
+41	'mí	'mí	VERB	_	_	_	_	_	gloss=has/there-is
+42	Chảu	chảu	NOUN	_	_	_	_	_	gloss=master/owner/lord
+43	Chom	Chom	NOUN	_	_	_	_	_	_
+44	ứn	ứn	ADJ	_	_	_	_	_	gloss=other/another
+45	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+46	'sướng	'sướng	NOUN	_	_	_	_	_	gloss=manner
+47	'nặn	'nặn	DET	_	PronType=Dem	46	det	_	gloss=that
+48	'cọ	'cọ	ADV	_	_	_	_	_	gloss=also
+49	'men	'men	VERB	_	_	_	_	_	gloss=it-is/that-is-right
+50	'tẹ	'tẹ	NOUN	_	_	_	_	_	_
+51	lo	lo	PART	_	_	_	discourse	_	gloss=AFF
+52	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41014037
+# ref_id = Mark 14:37
+# eng_text = He came and found them sleeping , and said to Peter , " Simon , are you sleeping ? Couldn't you watch one hour ?
+# blt_text = 'Lẹo Chảu 'Giê‑'su đảy 'cứn 'má ha mốt 'cốn 'toi 'táng 'Tan chảu, hên sam 'cốn sau 'nón lắp dú, chắng 'vạu sáư Pê‑tô 'va, “'Si‑'môn 'hới, 'nọng 'nón lắp a, ứt 'nón 'to 'chớ 'lống 'hố điêu 'cọ báu đảy a?
+1	'Lẹo	'lẹo	CCONJ	_	_	_	cc	_	gloss=and/then
+2	Chảu	Chảu	NOUN	_	_	3	flat:name	_	gloss=Lord
+3	'Giê‑'su	'Giê‑'su	PROPN	_	_	_	_	_	gloss=Jesus
+4	đảy	đảy	VERB	_	_	_	_	_	gloss=get-to-do-something
+5	'cứn	'cứn	VERB	_	_	_	_	_	gloss=return
+6	'má	'má	VERB	_	_	5	compound:dir	_	gloss=come
+7	ha	ha	VERB	_	_	_	_	_	gloss=look-for
+8	mốt	mốt	NOUN	_	_	_	_	_	gloss=group
+9	'cốn	'cốn	NOUN	_	_	8	nmod	_	gloss=person/human
+10	'toi	'toi	VERB	_	_	9	acl	_	gloss=follow
+11	'táng	'táng	NOUN	_	_	10	obj	_	gloss=direction/road/way
+12	'Tan	'tan	NOUN	_	_	13	flat	_	gloss=HON
+13	chảu	chảu	NOUN	_	_	11	nmod	_	gloss=master/owner/lord
+14	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+15	hên	hên	VERB	_	_	_	_	_	gloss=see
+16	sam	sam	NUM	_	_	17	nummod	_	gloss=three
+17	'cốn	'cốn	NOUN	_	_	15	obj	_	gloss=person/human
+18	sau	sau	PRON	_	PronType=Prs|Person=3|Number=Plur	_	_	_	gloss=they
+19	'nón	'nón	VERB	_	_	_	_	_	gloss=sleep/lie-down
+20	lắp	lắp	VERB	_	_	19	compound:svc	_	gloss=sleep
+21	dú	dú	AUX	_	_	19	aux	_	gloss=PROG
+22	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+23	chắng	chắng	ADV	_	_	_	_	_	gloss=then
+24	'vạu	'vạu	VERB	_	_	_	_	_	gloss=speak
+25	sáư	sáư	ADP	_	_	_	_	_	gloss=to
+26	Pê‑tô	Pê‑tô	PROPN	_	_	_	_	_	gloss=Peter
+27	'va	'va	SCONJ	_	_	_	_	_	gloss=that
+28	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+29	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+30	'Si‑'môn	'Si‑'môn	PROPN	_	_	_	_	_	gloss=Simon
+31	'hới	'hới	INTJ	_	_	_	_	_	gloss=EXCL-to-call
+32	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+33	'nọng	'nọng	PRON	_	PronType=Prs|Person=2	_	_	_	gloss=you
+34	'nón	'nón	VERB	_	_	_	_	_	gloss=sleep/lie-down
+35	lắp	lắp	VERB	_	_	34	compound:svc	_	gloss=sleep
+36	a	a	PART	_	_	_	discourse	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+38	ứt	ứt	VERB	_	_	_	_	_	gloss=resist/bear-with
+39	'nón	'nón	VERB	_	_	_	_	_	gloss=lie-down
+40	'to	'to	ADV	_	_	_	_	_	gloss=equal-to/only
+41	'chớ	'chớ	NOUN	_	_	_	_	_	gloss=time/hour
+42	'lống	'lống	VERB	_	_	_	_	_	gloss=descend
+43	'hố	'hố	unk	_	_	_	_	_	_
+44	điêu	điêu	ADJ	_	_	_	amod	_	gloss=alone
+45	'cọ	'cọ	ADV	_	_	_	_	_	gloss=also
+46	báu	báu	PART	_	Polarity=Neg	47	neg	_	gloss=not
+47	đảy	đảy	AUX	_	_	_	aux	_	gloss=can
+
+# sent_id = 42004002
+# ref_id = Luke 4:2
+# eng_text = for forty days , being tempted by the devil . He ate nothing in those days . Afterward , when they were completed , he was hungry .
+# blt_text = Cuông sí síp 'mự 'Tan chảu chuốp tô cốc phi 'hại 'má 'lứa 'dệt phít. Cuông 'dan 'nặn 'Tan chảu báu đảy kin săng, 'diến sép khảu.
+1	Cuông	cuông	ADP	_	_	_	_	_	gloss=in/inside
+2	sí	sí	NUM	_	_	3	flat:number	_	gloss=four|MWE=forty
+3	síp	síp	NUM	_	_	4	nummod	_	gloss=ten
+4	'mự	'mự	NOUN	_	_	_	_	_	gloss=day
+5	'Tan	'tan	NOUN	_	_	6	flat	_	gloss=HON
+6	chảu	chảu	NOUN	_	_	_	_	_	gloss=master/owner/lord
+7	chuốp	chuốp	unk	_	_	_	_	_	gloss=gu
+8	tô	tô	NOUN	_	_	9	clf	_	gloss=CLF-animal
+9	cốc	cốc	NOUN	_	_	_	_	_	gloss=boss/eldest-child
+10	phi	phi	NOUN	_	_	9	nmod	_	gloss=demon
+11	'hại	'hại	VERB	_	_	_	_	_	gloss=bad
+12	'má	'má	VERB	_	_	_	_	_	gloss=come
+13	'lứa	'lứa	VERB	_	_	_	_	_	gloss=tempt/deceive
+14	'dệt	'dệt	VERB	_	_	_	_	_	gloss=do/make
+15	phít	phít	VERB	_	_	_	_	_	gloss=wrong
+16	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+17	Cuông	cuông	ADP	_	_	_	_	_	gloss=in/inside
+18	'dan	'dan	NOUN	_	_	19	clf	_	_
+19	'nặn	'nặn	DET	_	PronType=Dem	17	det	_	gloss=that
+20	'Tan	'tan	NOUN	_	_	21	flat	_	gloss=HON
+21	chảu	chảu	NOUN	_	_	_	_	_	gloss=master/owner/lord
+22	báu	báu	PART	_	Polarity=Neg	_	neg	_	gloss=not
+23	đảy	đảy	VERB	_	_	_	_	_	gloss=get-to-do-something
+24	kin	kin	VERB	_	_	_	_	_	gloss=eat
+25	săng	săng	PRON	_	PronType=Ind	_	_	_	gloss=anything
+26	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+27	'diến	'diến	unk	_	_	_	_	_	gloss=immediately
+28	sép	sép	VERB	_	_	_	_	_	gloss=hungry
+29	khảu	khảu	NOUN	_	_	_	_	_	gloss=rice
+30	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 42016013
+# ref_id = Luke 16:13
+# eng_text = No servant can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You aren't able to serve God and mammon . "
+# blt_text = Báu hón 'mí phủ đaư 'khớng nả 'viạk hảư song phủ pên chảu, 'pưa 'va 'chí 'chắng chảu phủ 'nị pay 'hặc chảu phủ 'nặn, 'hứ 'va mẳn chaư tó chảu phủ 'nị lỏ đu 'ngai chảu phủ 'nặn. 'Néo 'nặn lo, 'pứng 'nọng 'chí 'khớng 'viạk Chảu Pua 'Phạ 'tếng cá 'viạk 'hăng 'mí 'pọm căn báu đảy.”
+1	Báu	báu	PART	_	Polarity=Neg	_	neg	_	gloss=not
+2	hón	hón	unk	_	_	_	_	_	_
+3	'mí	'mí	VERB	_	_	0	root	_	gloss=has/there-is
+4	phủ	phủ	NOUN	_	_	3	obj	_	gloss=person
+5	đaư	đaư	DET	_	PronType=Ind	4	det	_	gloss=any
+6	'khớng	'khớng	VERB	_	_	4	acl	_	gloss=serve/engage-in
+7	nả	nả	ADP	_	_	_	_	_	gloss=in-front
+8	'viạk	'viạk	NOUN	_	_	_	_	_	gloss=work
+9	hảư	hảư	VERB	_	_	6	compound:svc	_	gloss=give/CAUS
+10	song	song	NUM	_	_	11	nummod	_	gloss=two
+11	phủ	phủ	NOUN	_	_	_	_	_	gloss=person
+12	pên	pên	AUX	_	_	_	cop	_	gloss=be
+13	chảu	chảu	NOUN	_	_	_	_	_	gloss=master/owner/lord
+14	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+15	'pưa	'pưa	SCONJ	_	_	_	mark	_	gloss=because
+16	'va	'va	SCONJ	_	_	_	_	_	gloss=that
+17	'chí	'chí	AUX	_	_	18	aux	_	gloss=will
+18	'chắng	'chắng	VERB	_	_	_	_	_	gloss=hate
+19	chảu	chảu	NOUN	_	_	18	obj	_	gloss=master/owner/lord
+20	phủ	phủ	NOUN	_	_	21	clf	_	gloss=person
+21	'nị	'nị	DET	_	PronType=Dem	19	det	_	gloss=this
+22	pay	pay	VERB	_	_	18	conj	_	gloss=go
+23	'hặc	'hặc	VERB	_	_	_	_	_	gloss=love
+24	chảu	chảu	NOUN	_	_	23	obj	_	gloss=master/owner/lord
+25	phủ	phủ	NOUN	_	_	26	clf	_	gloss=person
+26	'nặn	'nặn	DET	_	PronType=Dem	24	det	_	gloss=that
+27	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+28	'hứ	'hứ	CCONJ	_	_	_	cc	_	gloss=or
+29	'va	'va	SCONJ	_	_	_	_	_	gloss=that
+30	mẳn	mẳn	VERB	_	_	_	_	_	gloss=firm/certain
+31	chaư	chaư	NOUN	_	_	_	_	_	gloss=heart/breath/mind/feeling
+32	tó	tó	ADP	_	_	_	_	_	gloss=toward
+33	chảu	chảu	NOUN	_	_	_	_	_	gloss=master/owner/lord
+34	phủ	phủ	NOUN	_	_	35	clf	_	gloss=person
+35	'nị	'nị	DET	_	PronType=Dem	33	det	_	gloss=this
+36	lỏ	lỏ	CCONJ	_	_	_	cc	_	gloss=then
+37	đu	đu	VERB	_	_	_	_	_	gloss=look|MWE=despise
+38	'ngai	'ngai	VERB	_	_	37	compound:svc	_	gloss=easy
+39	chảu	chảu	NOUN	_	_	37	obj	_	gloss=master/owner/lord
+40	phủ	phủ	NOUN	_	_	41	clf	_	gloss=person
+41	'nặn	'nặn	DET	_	PronType=Dem	39	det	_	gloss=that
+42	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+43	'Néo	'néo	NOUN	_	_	_	_	_	gloss=kind/type
+44	'nặn	'nặn	DET	_	PronType=Dem	43	det	_	gloss=that
+45	lo	lo	PART	_	_	_	discourse	_	gloss=AFF
+46	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+47	'pứng	'pứng	DET	_	PronType=Ind|Number=Plur	48	det	_	gloss=some
+48	'nọng	'nọng	PRON	_	PronType=Prs|Person=2	_	_	_	gloss=you
+49	'chí	'chí	AUX	_	_	50	aux	_	gloss=will
+50	'khớng	'khớng	VERB	_	_	0	root	_	gloss=serve/engage-in
+51	'viạk	'viạk	NOUN	_	_	_	_	_	gloss=work
+52	Chảu	Chảu	NOUN	_	_	53	flat:name	_	gloss=Lord|MWE=God
+53	Pua	Pua	NOUN	_	ExtPos=PROPN	_	_	_	gloss=king
+54	'Phạ	'Phạ	NOUN	_	_	53	nmod	_	gloss=sky
+55	'tếng	'tếng	ADP	_	_	_	_	_	gloss=above
+56	cá	cá	ADP	_	_	_	_	_	gloss=as-far-as
+57	'viạk	'viạk	NOUN	_	_	_	_	_	gloss=work
+58	'hăng	'hăng	VERB	_	_	_	_	_	MWE=rich
+59	'mí	'mí	VERB	_	_	58	compound:svc	_	gloss=has/there-is
+60	'pọm	'pọm	VERB	_	ExtPos=ADV	_	_	_	MWE=at-the-same-time
+61	căn	căn	ADV	_	_	60	advmod	_	gloss=together/each-other
+62	báu	báu	PART	_	Polarity=Neg	63	neg	_	gloss=not
+63	đảy	đảy	AUX	_	_	_	aux	_	gloss=can
+64	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+65	”	”	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 42024018
+# ref_id = Luke 24:18
+# eng_text = One of them , named Cleopas , answered him , " Are you the only one travelling in Jerusalem who doesn't know the things which have happened there in these days ? "
+# blt_text = Phủ 'nưng 'chư Ca‑'lô‑pa chắng 'vạu sú 'Tan chảu 'va, “Mết 'tếng cá 'cốn nẳng 'mướng 'Giê‑'lu‑'sa‑'lêm, dản 'men phủ điêu chảu 'nị 'nhắng báu 'hế 'hụ 'pứng 'viạk pên ók dú hẳn kỉ 'mự cón 'nị.”
+1	Phủ	phủ	NOUN	_	_	_	_	_	gloss=person
+2	'nưng	'nưng	NUM	_	_	1	nummod	_	gloss=one
+3	'chư	'chư	VERB	_	_	1	acl	_	gloss=be-named
+4	Ca‑'lô‑pa	Ca‑'lô‑pa	PROPN	_	_	3	obj	_	gloss=Cleopas
+5	chắng	chắng	ADV	_	_	_	_	_	gloss=then
+6	'vạu	'vạu	VERB	_	_	0	root	_	gloss=speak
+7	sú	sú	ADP	_	_	_	_	_	gloss=to
+8	'Tan	'tan	NOUN	_	_	_	flat:name	_	gloss=HON
+9	chảu	chảu	NOUN	_	_	_	_	_	gloss=master/owner/lord
+10	'va	'va	SCONJ	_	_	_	_	_	gloss=that
+11	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+12	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+13	Mết	mết	ADV	_	_	_	_	_	gloss=all
+14	'tếng	'tếng	ADP	_	_	_	_	_	gloss=above
+15	cá	cá	ADP	_	_	_	_	_	gloss=as-far-as
+16	'cốn	'cốn	NOUN	_	_	_	_	_	gloss=person/human
+17	nẳng	nẳng	ADP	_	_	_	_	_	gloss=at/on/in
+18	'mướng	'mướng	NOUN	_	_	_	_	_	gloss=city/country/kingdom
+19	'Giê‑'lu‑'sa‑'lêm	'Giê‑'lu‑'sa‑'lêm	PROPN	_	_	18	nmod	_	gloss=Jerusalem
+20	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+21	dản	dản	VERB	_	_	_	_	_	gloss=fear
+22	'men	'men	VERB	_	_	_	_	_	gloss=it-is/that-is-right
+23	phủ	phủ	NOUN	_	_	_	_	_	gloss=person
+24	điêu	điêu	ADJ	_	_	23	amod	_	gloss=alone
+25	chảu	chảu	PRON	_	PronType=Prs|Person=2	_	_	_	gloss=you
+26	'nị	'nị	DET	_	PronType=Dem	23	det	_	gloss=this
+27	'nhắng	'nhắng	ADV	_	_	_	_	_	gloss=still
+28	báu	báu	PART	_	Polarity=Neg|ExtPos=ADV	30	neg	_	gloss=not|MWE=not-yet
+29	'hế	'hế	ADV	_	_	28	fixed	_	gloss=yet
+30	'hụ	'hụ	VERB	_	_	_	_	_	gloss=know
+31	'pứng	'pứng	DET	_	PronType=Ind|Number=Plur	_	det	_	gloss=some
+32	'viạk	'viạk	NOUN	_	_	_	_	_	gloss=work
+33	pên	pên	AUX	_	_	_	cop	_	gloss=be
+34	ók	ók	VERB	_	_	_	_	_	gloss=go-out
+35	dú	dú	VERB	_	_	_	_	_	gloss=be-at
+36	hẳn	hẳn	ADJ	_	_	_	amod	_	gloss=few|Degree=Pos
+37	kỉ	kỉ	DET	_	PronType=Int	38	det	_	gloss=how-many
+38	'mự	'mự	NOUN	_	_	_	_	_	gloss=day
+39	cón	cón	ADP	_	_	_	_	_	gloss=before
+40	'nị	'nị	DET	_	PronType=Dem	_	det	_	gloss=this
+41	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+42	”	”	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 43001039
+# ref_id = John 1:39
+# eng_text = He said to them , " Come , and see . " They came and saw where he was staying , and they stayed with him that day . It was about the tenth hour .
+# blt_text = Chảu 'Giê‑'su tóp sau 'va, “Pay 'toi 'háu bớng cón 'í.” Sau pay 'toi 'lẹo chắng hên bón 'Tan chảu 'dặng 'tô, 'chớ 'nặn dáo sí 'chớ 'tếng 'căm 'lẹo sau 'diến 'dặng dam 'Tan chảu cuông 'mự 'nặn.
+1	Chảu	Chảu	NOUN	_	_	2	flat:name	_	gloss=Lord
+2	'Giê‑'su	'Giê‑'su	PROPN	_	_	3	nsubj	_	gloss=Jesus
+3	tóp	tóp	VERB	_	_	0	root	_	gloss=answer
+4	sau	sau	PRON	_	PronType=Prs|Person=3|Number=Plur	_	_	_	gloss=they
+5	'va	'va	SCONJ	_	_	_	_	_	gloss=that
+6	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+7	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+8	Pay	pay	VERB	_	_	_	_	_	gloss=go
+9	'toi	'toi	ADV	_	_	8	advmod	_	gloss=with/together
+10	'háu	'háu	PRON	_	PronType=PRS|Person=1	_	_	_	gloss=I
+11	bớng	bớng	VERB	_	_	_	_	_	gloss=look
+12	cón	cón	ADV	_	_	_	_	_	gloss=before
+13	'í	'í	PART	_	_	_	discourse	_	gloss=IMP
+14	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+15	”	”	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+16	Sau	sau	PRON	_	PronType=Prs|Person=3|Number=Plur	_	_	_	gloss=they
+17	pay	pay	VERB	_	_	_	_	_	gloss=go
+18	'toi	'toi	ADV	_	_	17	advmod	_	gloss=with/together
+19	'lẹo	'lẹo	CCONJ	_	_	_	cc	_	gloss=and/then
+20	chắng	chắng	ADV	_	_	_	_	_	gloss=then
+21	hên	hên	VERB	_	_	_	_	_	gloss=see
+22	bón	bón	NOUN	_	_	21	obj	_	gloss=place
+23	'Tan	'tan	NOUN	_	_	24	flat	_	gloss=HON
+24	chảu	chảu	NOUN	_	_	25	nsubj	_	gloss=master/owner/lord
+25	'dặng	'dặng	VERB	_	_	22	acl:rel	_	gloss=rest
+26	'tô	'tô	NOUN	_	_	25	obj	_	gloss=body
+27	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+28	'chớ	'chớ	NOUN	_	_	_	_	_	gloss=time/hour
+29	'nặn	'nặn	DET	_	PronType=Dem	28	det	_	gloss=that
+30	dáo	dáo	VERB	_	_	_	_	_	gloss=noon
+31	sí	sí	NUM	_	_	32	nummod	_	gloss=four
+32	'chớ	'chớ	NOUN	_	_	_	_	_	gloss=time/hour
+33	'tếng	'tếng	ADP	_	_	_	_	_	gloss=above
+34	'căm	'căm	NOUN	_	_	_	_	_	gloss=afternoon/evening
+35	'lẹo	'lẹo	CCONJ	_	_	_	cc	_	gloss=and/then
+36	sau	sau	PRON	_	PronType=Prs|Person=3|Number=Plur	_	_	_	gloss=they
+37	'diến	'diến	unk	_	_	_	_	_	gloss=immediately
+38	'dặng	'dặng	VERB	_	_	_	_	_	gloss=rest
+39	dam	dam	VERB	_	_	_	_	_	gloss=visit
+40	'Tan	'tan	NOUN	_	_	41	flat	_	gloss=HON
+41	chảu	chảu	NOUN	_	_	_	_	_	gloss=master/owner/lord
+42	cuông	cuông	ADP	_	_	_	_	_	gloss=in/inside
+43	'mự	'mự	NOUN	_	_	_	_	_	gloss=day
+44	'nặn	'nặn	DET	_	PronType=Dem	_	det	_	gloss=that
+45	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 43003016
+# ref_id = John 3:16
+# eng_text = For God so loved the world , that he gave his one and only Son , that whoever believes in him should not perish , but have eternal life .
+# blt_text = Chảu Pua 'Phạ 'hặc 'cốn 'mướng 'lum lai, chao đảy sống 'Lụk 'chái điêu 'má 'choi. Phủ đaư pông chaư 'chưa 'Lụk 'chái 'Tan chảu chắng đảy 'chua 'lới 'lới, 'chí báu đắp siêu sắc 'tưa.
+1	Chảu	Chảu	NOUN	_	_	2	flat:name	_	gloss=Lord|MWE=God
+2	Pua	Pua	NOUN	_	ExtPos=PROPN	4	nsubj	_	gloss=king
+3	'Phạ	'Phạ	NOUN	_	_	2	nmod	_	gloss=sky
+4	'hặc	'hặc	VERB	_	_	0	root	_	gloss=love
+5	'cốn	'cốn	NOUN	_	_	4	obj	_	gloss=person/human
+6	'mướng	'mướng	NOUN	_	_	5	nmod	_	gloss=city/country/kingdom|MWE=world
+7	'lum	'lum	NOUN	_	_	6	compound	_	gloss=downstairs
+8	lai	lai	ADV	_	_	4	advmod	_	gloss=very
+9	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+10	chao	chao	unk	_	_	_	_	_	gloss=spare
+11	đảy	đảy	VERB	_	_	_	_	_	gloss=get-to-do-something
+12	sống	sống	VERB	_	_	_	_	_	gloss=send
+13	'Lụk	'lụk	NOUN	_	_	_	obj	_	gloss=child|MWE=son
+14	'chái	'chái	NOUN	_	_	13	compound	_	gloss=male
+15	điêu	điêu	ADJ	_	_	13	amod	_	gloss=alone
+16	'má	'má	VERB	_	_	_	_	_	gloss=come
+17	'choi	'choi	VERB	_	_	_	_	_	gloss=help
+18	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+19	Phủ	phủ	NOUN	_	_	_	_	_	gloss=person
+20	đaư	đaư	DET	_	PronType=Ind	19	det	_	gloss=any
+21	pông	pông	VERB	_	_	_	_	_	gloss=put-down-(nearby)/take-off-(fire)
+22	chaư	chaư	NOUN	_	_	_	_	_	gloss=heart/breath/mind/feeling
+23	'chưa	'chưa	VERB	_	_	_	_	_	gloss=believe
+24	'Lụk	'lụk	NOUN	_	_	_	_	_	gloss=child|MWE=son
+25	'chái	'chái	NOUN	_	_	24	compound	_	gloss=male
+26	'Tan	'tan	NOUN	_	_	27	flat	_	gloss=HON
+27	chảu	chảu	NOUN	_	_	_	_	_	gloss=master/owner/lord
+28	chắng	chắng	ADV	_	_	_	_	_	gloss=then
+29	đảy	đảy	VERB	_	_	_	_	_	gloss=get
+30	'chua	'chua	NOUN	_	_	_	_	_	gloss=life
+31	'lới	'lới	VERB	_	_	_	_	_	gloss=continuing/eternal
+32	'lới	'lới	VERB	_	_	31	compound:redup	_	gloss=continuing/eternal
+33	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+34	'chí	'chí	AUX	_	_	_	aux	_	gloss=will
+35	báu	báu	PART	_	Polarity=Neg	_	neg	_	gloss=not
+36	đắp	đắp	VERB	_	_	_	_	_	gloss=extinguish
+37	siêu	siêu	unk	_	_	_	_	_	gloss=destruction
+38	sắc	sắc	unk	_	_	_	_	_	gloss=becomes
+39	'tưa	'tưa	unk	_	_	_	_	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 44002030
+# ref_id = Acts 2:30
+# eng_text = Therefore , being a prophet , and knowing that God had sworn with an oath to him that of the fruit of his body , according to the flesh , he would raise up the Christ to sit on his throne ,
+# blt_text = Pua Đa‑'vịt pên 'lam páo 'quám Chảu Pua 'Phạ, ['vái 'chiến 'nặn pua báu đảy 'vạu 'họt chảu 'mo pua cá đaư]. Pua 'hụ 'va Chảu Pua 'Phạ đảy chao 'hẹn nẻn 'quám 'tẹ, 'chí hảư phủ 'nưng pên 'chựa 'néo pua 'má 'năng 'tến piến.
+1	Pua	Pua	PROPN	_	_	2	flat:name	_	gloss=King
+2	Đa‑'vịt	Đa‑'vịt	PROPN	_	_	_	_	_	gloss=David
+3	pên	pên	AUX	_	_	_	cop	_	gloss=be
+4	'lam	'lam	NOUN	_	_	_	_	_	gloss=go-between/interpreter
+5	páo	páo	VERB	_	_	_	_	_	gloss=announce
+6	'quám	'quám	NOUN	_	_	_	_	_	gloss=word
+7	Chảu	Chảu	NOUN	_	_	8	flat:name	_	gloss=Lord|MWE=God
+8	Pua	Pua	NOUN	_	ExtPos=PROPN	_	_	_	gloss=king
+9	'Phạ	'Phạ	NOUN	_	_	8	nmod	_	gloss=sky
+10	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+11	[	[	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Brck
+12	'vái	'vái	NOUN	_	_	_	_	_	_
+13	'chiến	'chiến	VERB	_	_	_	_	_	gloss=pass-down
+14	'nặn	'nặn	DET	_	PronType=Dem	12	det	_	gloss=that
+15	pua	pua	NOUN	_	_	_	_	_	gloss=king
+16	báu	báu	PART	_	Polarity=Neg	17	neg	_	gloss=not
+17	đảy	đảy	VERB	_	_	_	_	_	gloss=get-to-do-something
+18	'vạu	'vạu	VERB	_	_	_	_	_	gloss=speak
+19	'họt	'họt	VERB	_	_	_	_	_	gloss=reach
+20	chảu	chảu	NOUN	_	_	_	_	_	gloss=master/owner/lord
+21	'mo	'mo	NOUN	_	_	_	_	_	gloss=body
+22	pua	pua	NOUN	_	_	_	_	_	gloss=king
+23	cá	cá	ADP	_	_	_	_	_	gloss=as-far-as
+24	đaư	đaư	DET	_	PronType=Ind	_	det	_	gloss=any
+25	]	]	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Brck
+26	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+27	Pua	pua	NOUN	_	_	28	nsubj	_	gloss=king
+28	'hụ	'hụ	VERB	_	_	0	root	_	gloss=know
+29	'va	'va	SCONJ	_	_	_	_	_	gloss=that
+30	Chảu	Chảu	NOUN	_	_	31	flat:name	_	gloss=Lord|MWE=God
+31	Pua	Pua	NOUN	_	ExtPos=PROPN	_	_	_	gloss=king
+32	'Phạ	'Phạ	NOUN	_	_	31	nmod	_	gloss=sky
+33	đảy	đảy	VERB	_	_	_	_	_	gloss=get-to-do-something
+34	chao	chao	unk	_	_	_	_	_	gloss=spare
+35	'hẹn	'hẹn	unk	_	_	_	_	_	gloss=ream
+36	nẻn	nẻn	unk	_	_	_	_	_	gloss=loc
+37	'quám	'quám	NOUN	_	_	_	_	_	gloss=word
+38	'tẹ	'tẹ	unk	_	_	_	_	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+40	'chí	'chí	AUX	_	_	41	aux	_	gloss=will
+41	hảư	hảư	VERB	_	_	_	_	_	gloss=give/CAUS
+42	phủ	phủ	NOUN	_	_	_	_	_	gloss=person
+43	'nưng	'nưng	NUM	_	_	42	nummod	_	gloss=one
+44	pên	pên	AUX	_	_	_	cop	_	gloss=be
+45	'chựa	'chựa	unk	_	_	_	_	_	gloss=resc
+46	'néo	'néo	NOUN	_	_	_	_	_	gloss=kind/type
+47	pua	pua	NOUN	_	_	_	_	_	gloss=king
+48	'má	'má	VERB	_	_	_	_	_	gloss=come
+49	'năng	'năng	VERB	_	_	_	_	_	gloss=sit
+50	'tến	'tến	NOUN	_	_	_	_	_	gloss=raised-platform/throne
+51	piến	piến	VERB	_	_	_	_	_	gloss=change
+52	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 44009038
+# ref_id = Acts 9:38
+# eng_text = As Lydda was near Joppa , the disciples , hearing that Peter was there , sent two men to him , imploring him not to delay in coming to them .
+# blt_text = 'Pứng 'cốn 'toi 'táng Chảu 'Giê‑'su dú nẳng 'mướng Dốp‑pê đảy 'nghín kháo 'va 'tan Pê‑tô 'má nẳng 'mướng 'Lịt‑đa chăm 'mướng Dốp‑pê, sau 'diến 'chạư song 'cốn pay so hảư 'tan 'má ha sau 'vắn.
+1	'Pứng	'pứng	DET	_	PronType=Ind|Number=Plur	2	det	_	gloss=some
+2	'cốn	'cốn	NOUN	_	_	_	nsubj	_	gloss=person/human
+3	'toi	'toi	VERB	_	_	2	acl	_	gloss=follow
+4	'táng	'táng	NOUN	_	_	3	obj	_	gloss=direction/road/way
+5	Chảu	Chảu	NOUN	_	_	6	flat:name	_	gloss=Lord
+6	'Giê‑'su	'Giê‑'su	PROPN	_	_	4	nmod	_	gloss=Jesus
+7	dú	dú	VERB	_	_	_	_	_	gloss=be-at
+8	nẳng	nẳng	ADP	_	_	_	_	_	gloss=at/on/in
+9	'mướng	'mướng	NOUN	_	_	_	_	_	gloss=city/country/kingdom
+10	Dốp‑pê	Dốp‑pê	PROPN	_	_	9	nmod	_	gloss=Joppa
+11	đảy	đảy	VERB	_	_	_	_	_	gloss=get-to-do-something
+12	'nghín	'nghín	VERB	_	_	_	_	_	gloss=hear
+13	kháo	kháo	NOUN	_	_	12	obj	_	gloss=news
+14	'va	'va	SCONJ	_	_	_	_	_	gloss=that
+15	'tan	'tan	NOUN	_	_	16	flat:name	_	gloss=HON
+16	Pê‑tô	Pê‑tô	PROPN	_	_	_	_	_	gloss=Peter
+17	'má	'má	VERB	_	_	_	_	_	gloss=come
+18	nẳng	nẳng	ADP	_	_	_	_	_	gloss=at/on/in
+19	'mướng	'mướng	NOUN	_	_	_	_	_	gloss=city/country/kingdom
+20	'Lịt‑đa	'Lịt‑đa	PROPN	_	_	19	nmod	_	gloss=Lydda
+21	chăm	chăm	ADP	_	_	_	_	_	gloss=near
+22	'mướng	'mướng	NOUN	_	_	_	_	_	gloss=city/country/kingdom
+23	Dốp‑pê	Dốp‑pê	PROPN	_	_	22	nmod	_	gloss=Joppa
+24	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+25	sau	sau	PRON	_	PronType=Prs|Person=3|Number=Plur	_	_	_	gloss=they
+26	'diến	'diến	unk	_	_	_	_	_	gloss=immediately
+27	'chạư	'chạư	VERB	_	_	_	_	_	gloss=serve/use
+28	song	song	NUM	_	_	29	nummod	_	gloss=two
+29	'cốn	'cốn	NOUN	_	_	_	_	_	gloss=person/human
+30	pay	pay	VERB	_	_	_	_	_	gloss=go
+31	so	so	VERB	_	_	_	_	_	gloss=beg/ask-for
+32	hảư	hảư	VERB	_	_	31	compound:svc	_	gloss=give/CAUS
+33	'tan	'tan	PRON	_	PronType=Prs|Person=3	_	_	_	gloss=HON-3SG
+34	'má	'má	VERB	_	_	_	_	_	gloss=come
+35	ha	ha	VERB	_	_	_	_	_	gloss=look-for
+36	sau	sau	PRON	_	PronType=Prs|Person=3|Number=Plur	_	_	_	gloss=they
+37	'vắn	'vắn	ADV	_	_	_	_	_	gloss=fast
+38	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 44011011
+# ref_id = Acts 11:11
+# eng_text = Behold , immediately three men stood before the house where I was , having been sent from Caesarea to me .
+# blt_text = Cuông 'chớ 'nặn 'diến 'mí sam 'cốn 'chạư đảy sống té 'mướng Cai‑'sa‑'lia 'má ha khỏi, sau 'má dưn dú 'táng nả 'hướn khỏi 'dặng 'tô 'nặn.
+1	Cuông	cuông	ADP	_	_	_	_	_	gloss=in/inside
+2	'chớ	'chớ	NOUN	_	_	_	_	_	gloss=time/hour
+3	'nặn	'nặn	DET	_	PronType=Dem	2	det	_	gloss=that
+4	'diến	'diến	unk	_	_	_	_	_	gloss=immediately
+5	'mí	'mí	VERB	_	_	_	_	_	gloss=has/there-is
+6	sam	sam	NUM	_	_	7	nummod	_	gloss=three
+7	'cốn	'cốn	NOUN	_	_	_	_	_	gloss=person/human
+8	'chạư	'chạư	VERB	_	_	_	_	_	gloss=serve/use
+9	đảy	đảy	VERB	_	_	_	_	_	gloss=get-to-do-something
+10	sống	sống	VERB	_	_	_	_	_	gloss=send
+11	té	té	ADP	_	_	_	_	_	gloss=from/since
+12	'mướng	'mướng	NOUN	_	_	_	_	_	gloss=city/country/kingdom
+13	Cai‑'sa‑'lia	Cai‑'sa‑'lia	PROPN	_	_	12	nmod	_	gloss=Caesarea
+14	'má	'má	VERB	_	_	_	_	_	gloss=come
+15	ha	ha	VERB	_	_	_	_	_	gloss=look-for
+16	khỏi	khỏi	PRON	_	PronType=Prs|Person=1	_	_	_	gloss=I
+17	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+18	sau	sau	PRON	_	PronType=Prs|Person=3|Number=Plur	_	_	_	gloss=they
+19	'má	'má	VERB	_	_	_	_	_	gloss=come
+20	dưn	dưn	VERB	_	_	_	_	_	gloss=stand
+21	dú	dú	VERB	_	_	_	_	_	gloss=be-at
+22	'táng	'táng	NOUN	_	_	_	_	_	gloss=direction/road/way
+23	nả	nả	ADP	_	_	22	amod	_	gloss=in-front
+24	'hướn	'hướn	NOUN	_	_	_	_	_	gloss=house
+25	khỏi	khỏi	PRON	_	PronType=Prs|Person=1	25	nsubj	_	gloss=I
+26	'dặng	'dặng	VERB	_	_	24	acl:rel	_	gloss=rest
+27	'tô	'tô	NOUN	_	_	26	obj	_	gloss=body
+28	'nặn	'nặn	DET	_	PronType=Dem	24	det	_	gloss=that
+29	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 44021034
+# ref_id = Acts 21:34
+# eng_text = Some shouted one thing , some another , among the crowd . When he couldn't find out the truth because of the noise , he commanded him to be brought into the barracks .
+# blt_text = 'Pứng 'cốn 'nặn 'diến khék khửn, phủ 'va 'néo đaư 'cọ 'mí, 'nắn 'nướng lai, báu 'hụ cốc 'hụ pai săng. Quan chắng bók hảư 'nẹp 'tan Pôn khảu pay cuông 'đốn.
+1	'Pứng	'pứng	DET	_	PronType=Ind|Number=Plur	2	det	_	gloss=some
+2	'cốn	'cốn	NOUN	_	_	_	_	_	gloss=person/human
+3	'nặn	'nặn	DET	_	PronType=Dem	3	det	_	gloss=that
+4	'diến	'diến	unk	_	_	_	_	_	gloss=immediately
+5	khék	khék	VERB	_	_	_	_	_	gloss=call/summon
+6	khửn	khửn	VERB	_	_	5	compound:dir	_	gloss=ascend
+7	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+8	phủ	phủ	NOUN	_	_	13	obj	_	gloss=person
+9	'va	'va	VERB	_	_	8	acl	_	gloss=say
+10	'néo	'néo	NOUN	_	_	_	_	_	gloss=kind/type
+11	đaư	đaư	DET	_	PronType=Ind	10	det	_	gloss=any
+12	'cọ	'cọ	ADV	_	_	_	_	_	gloss=also
+13	'mí	'mí	VERB	_	_	_	_	_	gloss=has/there-is
+14	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+15	'nắn	'nắn	unk	_	_	_	_	_	gloss=comm
+16	'nướng	'nướng	unk	_	_	_	_	_
+17	lai	lai	ADV	_	_	_	_	_	gloss=very
+18	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+19	báu	báu	PART	_	Polarity=Neg	20	neg	_	gloss=not
+20	'hụ	'hụ	VERB	_	_	_	_	_	gloss=know
+21	cốc	cốc	NOUN	_	_	_	_	_	gloss=boss/eldest-child
+22	'hụ	'hụ	VERB	_	_	_	_	_	gloss=know
+23	pai	pai	unk	_	_	_	_	_
+24	săng	săng	PRON	_	PronType=Ind	_	_	_	gloss=anything
+25	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+26	Quan	quan	NOUN	_	_	28	nsubj	_	gloss=noble/official
+27	chắng	chắng	ADV	_	_	_	_	_	gloss=then
+28	bók	bók	VERB	_	_	0	root	_	gloss=tell/teach/command
+29	hảư	hảư	VERB	_	_	28	compound:svc	_	gloss=give/CAUS
+30	'nẹp	'nẹp	VERB	_	_	_	_	_	_
+31	'tan	'tan	NOUN	_	_	32	flat:name	_	gloss=HON
+32	Pôn	Pôn	PROPN	_	_	30	obj	_	gloss=Paul
+33	khảu	khảu	VERB	_	_	_	_	_	gloss=enter
+34	pay	pay	VERB	_	_	_	compound:dir	_	gloss=go
+35	cuông	cuông	ADP	_	_	_	_	_	gloss=in/inside
+36	'đốn	'đốn	NOUN	_	_	_	_	_	gloss=military-camp
+37	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 47012002
+# ref_id = 2 Corinthians 12:2
+# eng_text = I know a man in Christ , fourteen years ago ( whether in the body , I don't know , or whether out of the body , I don't know ; God knows ) , such a one caught up into the third heaven .
+# blt_text = Khỏi 'hụ phủ 'nưng dú cuông 'hôm 'ngáu Chảu 'Kha‑'lịt. Síp sí pi 'lẹo, 'Tan chảu đảy 'hặp au phủ 'nặn khửn 'mứa cá 'phạ sung sút. 'Mứa 'tếng cá 'mo 'kính 'hứ 'va 'minh khuôn thôi khỏi 'cọ báu 'hụ, 'mí 'to Chảu Pua 'Phạ 'hụ.
+1	Khỏi	khỏi	PRON	_	PronType=Prs|Person=1	2	nsubj	_	gloss=I
+2	'hụ	'hụ	VERB	_	_	0	root	_	gloss=know
+3	phủ	phủ	NOUN	_	_	_	_	_	gloss=person
+4	'nưng	'nưng	NUM	_	_	3	nummod	_	gloss=one
+5	dú	dú	VERB	_	_	_	_	_	gloss=be-at
+6	cuông	cuông	ADP	_	_	_	_	_	gloss=in/inside
+7	'hôm	'hôm	NOUN	_	_	_	_	_	MWE=heaven
+8	'ngáu	'ngáu	NOUN	_	_	7	compound	_	gloss=reflection
+9	Chảu	Chảu	PROPN	_	_	10	flat:name	_	gloss=Lord
+10	'Kha‑'lịt	'Kha‑'lịt	PROPN	_	_	7	nmod	_	gloss=Christ
+11	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+12	Síp	síp	NUM	_	_	13	flat:number	_	gloss=ten|MWE=fourteen
+13	sí	sí	NUM	_	_	14	nummod	_	gloss=four
+14	pi	pi	NOUN	_	_	_	_	_	gloss=year
+15	'lẹo	'lẹo	ADV	_	_	_	advmod	_	gloss=already
+16	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+17	'Tan	'tan	NOUN	_	_	18	flat	_	gloss=HON
+18	chảu	chảu	NOUN	_	_	_	_	_	gloss=master/owner/lord
+19	đảy	đảy	VERB	_	_	_	_	_	gloss=get-to-do-something
+20	'hặp	'hặp	VERB	_	_	_	_	_	gloss=receive
+21	au	au	VERB	_	_	_	_	_	gloss=take/bring/want
+22	phủ	phủ	NOUN	_	_	_	_	_	gloss=person
+23	'nặn	'nặn	DET	_	PronType=Dem	22	det	_	gloss=that
+24	khửn	khửn	VERB	_	_	_	_	_	gloss=ascend
+25	'mứa	'mứa	VERB	_	_	_	_	_	gloss=go/go-up
+26	cá	cá	ADP	_	_	_	_	_	gloss=as-far-as
+27	'phạ	'phạ	NOUN	_	_	_	_	_	gloss=sky
+28	sung	sung	VERB	_	_	_	_	_	gloss=tall/high
+29	sút	sút	ADV	_	Degree=Sup	28	advmod	_	gloss=most
+30	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+31	'Mứa	'mứa	VERB	_	_	_	_	_	gloss=go/go-up
+32	'tếng	'tếng	ADP	_	_	_	_	_	gloss=above
+33	cá	cá	ADP	_	_	_	_	_	gloss=as-far-as
+34	'mo	'mo	NOUN	_	_	_	_	_	gloss=body
+35	'kính	'kính	NOUN	_	_	_	_	_	gloss=body
+36	'hứ	'hứ	CCONJ	_	_	_	cc	_	gloss=or
+37	'va	'va	SCONJ	_	_	_	_	_	gloss=that
+38	'minh	'minh	NOUN	_	_	_	_	_	gloss=spirit
+39	khuôn	khuôn	NOUN	_	_	38	flat	_	gloss=spirit
+40	thôi	thôi	ADV	_	_	_	_	_	gloss=only
+41	khỏi	khỏi	PRON	_	PronType=Prs|Person=1	_	_	_	gloss=I
+42	'cọ	'cọ	ADV	_	_	_	_	_	gloss=also
+43	báu	báu	PART	_	Polarity=Neg	44	neg	_	gloss=not
+44	'hụ	'hụ	VERB	_	_	_	_	_	gloss=know
+45	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+46	'mí	'mí	VERB	_	_	_	_	_	gloss=has/there-is
+47	'to	'to	ADV	_	_	_	_	_	gloss=equal-to/only
+48	Chảu	Chảu	NOUN	_	_	49	flat:name	_	gloss=Lord|MWE=God
+49	Pua	Pua	NOUN	_	ExtPos=PROPN	_	_	_	gloss=king
+50	'Phạ	'Phạ	NOUN	_	_	49	nmod	_	gloss=sky
+51	'hụ	'hụ	VERB	_	_	_	_	_	gloss=know
+52	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 62004009
+# ref_id = 1 John 4:9
+# eng_text = By this was God's love revealed in us , that God has sent his only born Son into the world that we might live through him .
+# blt_text = Chảu Pua 'Phạ 'dệt hảư 'súm 'háu hên 'va, 'Tan chảu 'mí chaư 'hặc, chắng đảy sống 'Lụk 'chái điêu 'lống 'má 'mướng 'lum, 'pưa hảư 'háu 'mí 'chua 'lới 'lới 'dọn 'Lụk 'Tan chảu.
+1	Chảu	Chảu	NOUN	_	_	2	flat:name	_	gloss=Lord|MWE=God
+2	Pua	Pua	NOUN	_	ExtPos=PROPN	0	nsubj	_	gloss=king
+3	'Phạ	'Phạ	NOUN	_	_	2	nmod	_	gloss=sky
+4	'dệt	'dệt	VERB	_	_	0	root	_	gloss=do/make
+5	hảư	hảư	VERB	_	_	4	compound:svc	_	gloss=give/CAUS
+6	'súm	'súm	NOUN	_	PronType=PRS|ExtPos=PRON	_	_	_	gloss=set|MWE=we-(exclusive)
+7	'háu	'háu	PRON	_	PronType=PRS	6	fixed	_	gloss=we
+8	hên	hên	VERB	_	_	_	_	_	gloss=see
+9	'va	'va	SCONJ	_	_	_	_	_	gloss=that
+10	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+11	'Tan	'tan	NOUN	_	_	12	flat	_	gloss=HON
+12	chảu	chảu	NOUN	_	_	_	_	_	gloss=master/owner/lord
+13	'mí	'mí	VERB	_	_	_	_	_	gloss=has/there-is
+14	chaư	chaư	NOUN	_	_	_	_	_	gloss=heart/breath/mind/feeling
+15	'hặc	'hặc	VERB	_	_	_	_	_	gloss=love
+16	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+17	chắng	chắng	ADV	_	_	_	_	_	gloss=then
+18	đảy	đảy	VERB	_	_	_	_	_	gloss=get-to-do-something
+19	sống	sống	VERB	_	_	_	_	_	gloss=send
+20	'Lụk	'lụk	NOUN	_	_	_	_	_	gloss=child|MWE=son
+21	'chái	'chái	NOUN	_	_	20	compound	_	gloss=male
+22	điêu	điêu	ADJ	_	_	20	amod	_	gloss=alone
+23	'lống	'lống	VERB	_	_	_	_	_	gloss=descend
+24	'má	'má	VERB	_	_	_	_	_	gloss=come
+25	'mướng	'mướng	NOUN	_	_	_	_	_	gloss=city/country/kingdom|MWE=world
+26	'lum	'lum	NOUN	_	_	25	compound	_	gloss=downstairs
+27	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+28	'pưa	'pưa	SCONJ	_	_	_	mark	_	gloss=because
+29	hảư	hảư	VERB	_	_	_	_	_	gloss=give/CAUS
+30	'háu	'háu	PRON	_	PronType=PRS	_	_	_	gloss=we
+31	'mí	'mí	VERB	_	_	_	_	_	gloss=has/there-is
+32	'chua	'chua	NOUN	_	_	_	_	_	gloss=life
+33	'lới	'lới	VERB	_	_	_	_	_	gloss=continuing/eternal
+34	'lới	'lới	VERB	_	_	_	_	_	gloss=continuing/eternal
+35	'dọn	'dọn	VERB	_	_	_	_	_	gloss=borrow
+36	'Lụk	'lụk	NOUN	_	_	_	_	_	gloss=child
+37	'Tan	'tan	NOUN	_	_	38	flat	_	gloss=HON
+38	chảu	chảu	NOUN	_	_	_	_	_	gloss=master/owner/lord
+39	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 63001005
+# ref_id = 2 John 1:5
+# eng_text = Now I beg you , dear lady , not as though I wrote to you a new commandment , but that which we had from the beginning , that we love one another .
+# blt_text = 'Ếm pả 'hặc 'péng, 'khạy khỏi tẻm sư 'má 'nị, báu 'men 'quám bók máư, 'men 'quám bók 'lớng đảy 'nghín té cón 'má 'lẹo, so hảư 'súm 'háu 'hặc căn.
+1	'Ếm	'Ếm	NOUN	_	PronType=Prs	_	vocative	_	MWE=middle-aged-lady
+2	pả	pả	NOUN	_	PronType=Prs	1	fixed	_	_
+3	'hặc	'hặc	VERB	_	_	_	_	_	gloss=love
+4	'péng	'péng	VERB	_	_	_	_	_	gloss=love
+5	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+6	'khạy	'khạy	NOUN	_	_	_	_	_	gloss=moment
+7	khỏi	khỏi	PRON	_	PronType=Prs|Person=1	8	nsubj	_	gloss=I
+8	tẻm	tẻm	VERB	_	_	6	acl	_	gloss=write
+9	sư	sư	NOUN	_	_	8	obj	_	gloss=script/letter
+10	'má	'má	VERB	_	_	8	compound:dir	_	gloss=come
+11	'nị	'nị	DET	_	PronType=Dem	6	det	_	gloss=this
+12	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+13	báu	báu	PART	_	Polarity=Neg	14	neg	_	gloss=not
+14	'men	'men	VERB	_	_	_	_	_	gloss=it-is/that-is-right
+15	'quám	'quám	NOUN	_	_	_	_	_	gloss=word
+16	bók	bók	VERB	_	_	15	acl	_	gloss=tell/teach/command
+17	máư	máư	ADV	_	_	16	advmod	_	gloss=anew/again
+18	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+19	'men	'men	VERB	_	_	_	_	_	gloss=it-is/that-is-right
+20	'quám	'quám	NOUN	_	_	_	_	_	gloss=word
+21	bók	bók	VERB	_	_	_	_	_	gloss=tell/teach/command
+22	'lớng	'lớng	ADV	_	_	_	_	_	gloss=custom
+23	đảy	đảy	VERB	_	_	_	_	_	gloss=get-to-do-something
+24	'nghín	'nghín	VERB	_	_	_	_	_	gloss=hear
+25	té	té	ADP	_	_	_	_	_	gloss=from/since
+26	cón	cón	ADV	_	_	_	_	_	gloss=before
+27	'má	'má	VERB	_	_	_	_	_	gloss=come
+28	'lẹo	'lẹo	ADV	_	_	_	advmod	_	gloss=already
+29	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+30	so	so	VERB	_	_	_	_	_	gloss=beg/ask-for
+31	hảư	hảư	VERB	_	_	30	compound:svc	_	gloss=give/CAUS
+32	'súm	'súm	NOUN	_	PronType=PRS|ExtPos=PRON	_	_	_	gloss=set|MWE=we-(exclusive)
+33	'háu	'háu	PRON	_	PronType=PRS	32	fixed	_	gloss=we
+34	'hặc	'hặc	VERB	_	_	_	_	_	gloss=love
+35	căn	căn	ADV	_	_	34	advmod	_	gloss=together/each-other
+36	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+

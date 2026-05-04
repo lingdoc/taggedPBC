@@ -1,0 +1,922 @@
+## The following text has been annotated for parts of speech by students at NTU Singapore as part of a class project in AY 2025-26.
+## Verses are extracted from the taggedPBC. Annotations have been developed with a combination of manual and automated approaches, with reference to existing literature and (where possible) native speakers.
+## ISO 639-3: hat, Language: Haitian Creole, Number of verses: 21
+## References: Bakker, P., Daval-Markussen, A., Parkvall, M., & Plag, I. (2011). Creoles are typologically distinct from non-creoles. Journal of Pidgin and Creole Languages, 26(1), 5–42. ; Encyclopaedia Britannica. (2026). Haitian Creole. Encyclopaedia Britannica.
+## Contributors: # AN QING: an0026ng AT e DOT ntu DOT edu DOT sg #
+
+# sent_id = 40006024
+# ref_id = Matthew 6:24
+# eng_text = " No one can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You can't serve both God and Mammon .
+# hat_text = — Pèsonn pa ka sèvi byen ak de mèt anmenmtan . Li gen pou l rayi yonn si l renmen lòt la . L'ap sèvi byen ak yonn , men l'ap meprize lòt la . Nou pa kapab sèvi Bondye ak lajan anmenmtan .
+1	—	—	PUNCT	_	_	5	punct	_	PunctSide=Ini|PunctType=Quot
+2	Pèsonn	pèsonn	PRON	_	_	_	_	_	gloss=no_one
+3	pa	pa	PART	_	Polarity=Neg	_	_	_	gloss=not
+4	ka	ka	AUX	_	_	5	aux	_	gloss=can|VerbForm=Fin
+5	sèvi	sèvi	VERB	_	_	0	root	_	gloss=serve|VerbForm=Inf
+6	byen	byen	ADV	_	_	_	_	_	gloss=well
+7	ak	ak	ADP	_	_	_	_	_	gloss=with
+8	de	de	NUM	_	NumType=Card	9	nummod	_	gloss=two|NumType=Card
+9	mèt	mèt	NOUN	_	_	5	dobj	_	gloss=masters|Number=Plur
+10	anmenmtan	anmenmtan	ADV	_	_	_	_	_	gloss=at_the_same_time
+11	.	.	PUNCT	_	_	5	punct	_	PunctType=Peri
+12	Li	li	PRON	_	_	_	_	_	gloss=he
+13	gen	gen	VERB	_	_	_	_	_	gloss=have
+14	pou	pou	PART	_	_	_	prep	_	gloss=to
+15	l	l	PRON	_	_	_	_	_	gloss=he
+16	rayi	rayi	VERB	_	_	_	_	_	gloss=hate
+17	yonn	yonn	PRON	_	_	_	_	_	gloss=one
+18	si	si	SCONJ	_	_	_	_	_	gloss=if
+19	l	l	PRON	_	_	_	_	_	gloss=he
+20	renmen	renmen	VERB	_	_	_	conj	_	gloss=love|VerbForm=Inf
+21	lòt	lòt	PRON	_	_	_	dobj	_	gloss=the_other|Degree=Pos
+22	la	la	DET	_	Definite=Def|PronType=Art	_	_	_	gloss=the
+23	.	.	PUNCT	_	_	25	punct	_	PunctType=Peri
+24	L'ap	l'ap	AUX	_	Aspect=Prog	_	_	_	gloss=is
+25	sèvi	sèvi	VERB	_	_	0	root	_	gloss=serve|VerbForm=Inf
+26	byen	byen	ADV	_	_	_	_	_	gloss=well
+27	ak	ak	ADP	_	_	_	_	_	gloss=with
+28	yonn	yonn	PRON	_	_	_	_	_	gloss=one
+29	,	,	PUNCT	_	_	_	_	_
+30	men	men	CCONJ	_	_	_	_	_	gloss=but
+31	l'ap	l'ap	AUX	_	Aspect=Prog	_	_	_	gloss=is
+32	meprize	meprize	VERB	_	_	_	_	_	gloss=despise
+33	lòt	lòt	PRON	_	_	_	dobj	_	gloss=the_other|Degree=Pos
+34	la	la	DET	_	Definite=Def|PronType=Art	_	_	_	gloss=the
+35	.	.	PUNCT	_	_	39	punct	_	PunctType=Peri
+36	Nou	nou	PRON	_	_	_	_	_	gloss=we
+37	pa	pa	PART	_	Polarity=Neg	_	_	_	gloss=not
+38	kapab	kapab	AUX	_	_	_	_	_	gloss=be_able
+39	sèvi	sèvi	VERB	_	_	0	root	_	gloss=serve|VerbForm=Inf
+40	Bondye	bondye	PROPN	_	_	39	dobj	_	gloss=God|Number=Sing
+41	ak	ak	ADP	_	_	_	_	_	gloss=with
+42	lajan	lajan	NOUN	_	_	40	conj	_	gloss=money|Number=Sing
+43	anmenmtan	anmenmtan	ADV	_	_	_	_	_	gloss=at_the_same_time
+44	.	.	PUNCT	_	_	39	punct	_	PunctType=Peri
+
+# sent_id = 40018012
+# ref_id = Matthew 18:12
+# eng_text = " What do you think ? If a man has one hundred sheep , and one of them goes astray , doesn't he leave the ninety-nine , go to the mountains , and seek that which has gone astray ?
+# hat_text = — Sa nou konprann nan sa ? Si yon nonm gen san mouton , epi li rete konsa li pa wè yonn ladan yo , eske li p'ap kite katrevendiznèf lòt yo sou mòn lan , pou l'ale chache mouton ki pèdi a ?
+1	—	—	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+2	Sa	sa	PRON	_	_	_	_	_	gloss=what
+3	nou	nou	PRON	_	_	_	_	_	gloss=we
+4	konprann	konprann	VERB	_	_	_	_	_	gloss=understand
+5	nan	nan	ADP	_	_	_	_	_	gloss=about
+6	sa	sa	PRON	_	_	_	_	_	gloss=this
+7	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+8	Si	si	SCONJ	_	_	_	_	_	gloss=if
+9	yon	yon	DET	_	PronType=Art	_	_	_	gloss=a
+10	nonm	nonm	NOUN	_	_	_	nsubj	_	gloss=man|Number=Sing
+11	gen	gen	VERB	_	_	_	_	_	gloss=have
+12	san	san	NUM	_	NumType=Card	_	_	_	gloss=hundred
+13	mouton	mouton	NOUN	_	_	_	dobj	_	gloss=sheep|Number=Plur
+14	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+15	epi	epi	CCONJ	_	_	_	_	_	gloss=and
+16	li	li	PRON	_	_	_	_	_	gloss=he
+17	rete	rete	VERB	_	_	_	_	_	gloss=remain
+18	konsa	konsa	ADV	_	_	_	_	_	gloss=thus
+19	li	li	PRON	_	_	_	_	_	gloss=he
+20	pa	pa	PART	_	Polarity=Neg	_	_	_	gloss=not
+21	wè	wè	VERB	_	_	_	_	_	gloss=see
+22	yonn	yonn	PRON	_	_	_	_	_	gloss=one
+23	ladan	ladan	ADP	_	_	_	_	_	gloss=among
+24	yo	yo	PRON	_	Number=Plur	_	_	_	gloss=them
+25	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+26	eske	eske	PART	_	_	_	_	_	gloss=Q
+27	li	li	PRON	_	_	_	_	_	gloss=he
+28	p'ap	p'ap	AUX	_	Polarity=Neg|Aspect=Prog	_	_	_	gloss=will_not
+29	kite	kite	VERB	_	_	_	_	_	gloss=leave
+30	katrevendiznèf	katrevendiznèf	NUM	_	NumType=Card	_	_	_	gloss=ninety_nine
+31	lòt	lòt	PRON	_	_	_	_	_	gloss=the_other
+32	yo	yo	PRON	_	Number=Plur	_	_	_	gloss=them
+33	sou	sou	ADP	_	_	_	prep	_	gloss=on
+34	mòn	mòn	NOUN	_	Number=Sing	_	_	_	gloss=mountain
+35	lan	lan	DET	_	Definite=Def|PronType=Art	_	_	_	gloss=the
+36	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+37	pou	pou	PART	_	_	_	aux	_	gloss=to
+38	l'ale	l'ale	VERB	_	_	_	_	_	gloss=go
+39	chache	chache	VERB	_	_	_	_	_	gloss=seek
+40	mouton	mouton	NOUN	_	_	_	dobj	_	gloss=sheep|Number=Plur
+41	ki	ki	PRON	_	PronType=Rel	_	_	_	gloss=that
+42	pèdi	pèdi	VERB	_	_	_	_	_	gloss=be_lost
+43	a	a	DET	_	Definite=Def|PronType=Art	_	_	_	gloss=the
+44	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 40020021
+# ref_id = Matthew 20:21
+# eng_text = He said to her , " What do you want ? " She said to him , " Command that these , my two sons , may sit , one on your right hand , and one on your left hand , in your kingdom . "
+# hat_text = Jezi di li : — Kisa ou vle ? Madanm lan reponn : — Men de pitit mwen yo . Bay lòd pou yo chita , yonn sou bò dwat ou , lòt la sou bò gòch ou , lè ou va wa .
+1	Jezi	jezi	PROPN	_	_	_	_	_	gloss=Jesus
+2	di	di	VERB	_	_	_	_	_	gloss=say
+3	li	li	PRON	_	_	_	_	_	gloss=he
+4	:	:	PUNCT	_	_	_	_	_
+5	—	—	PUNCT	_	_	12	punct	_	PunctSide=Ini|PunctType=Quot
+6	Kisa	kisa	PRON	_	_	_	attr	_	gloss=What
+7	ou	ou	PRON	_	Person=2|PronType=Prs	_	poss	_	gloss=you|Person=2|Poss=Yes|PronType=Prs
+8	vle	vle	VERB	_	_	_	_	_	gloss=want
+9	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+10	Madanm	madanm	NOUN	_	_	_	nsubj	_	gloss=request|Number=Sing
+11	lan	lan	DET	_	Definite=Def|PronType=Art	_	_	_	gloss=the
+12	reponn	reponn	VERB	_	_	0	root	_	gloss=reply|Tense=Past|VerbForm=Fin
+13	:	:	PUNCT	_	_	_	_	_
+14	—	—	PUNCT	_	_	12	punct	_	PunctSide=Ini|PunctType=Quot
+15	Men	men	CCONJ	_	_	_	_	_	gloss=but
+16	de	de	NUM	_	NumType=Card	_	nummod	_	gloss=two|NumType=Card
+17	pitit	pitit	NOUN	_	_	_	_	_	gloss=child
+18	mwen	mwen	PRON	_	_	_	_	_	gloss=me
+19	yo	yo	PRON	_	Number=Plur	_	_	_	gloss=them
+20	.	.	PUNCT	_	_	12	punct	_	PunctType=Peri
+21	Bay	bay	VERB	_	_	_	nsubj	_	gloss=give|Number=Sing
+22	lòd	lòd	NOUN	_	_	_	_	_	gloss=order
+23	pou	pou	PART	_	_	_	prep	_	gloss=to
+24	yo	yo	PRON	_	Number=Plur	_	_	_	gloss=them
+25	chita	chita	VERB	_	_	_	_	_	gloss=sit
+26	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+27	yonn	yonn	PRON	_	_	_	_	_	gloss=one
+28	sou	sou	ADP	_	_	33	prep	_	gloss=on
+29	bò	bò	NOUN	_	_	_	_	_	gloss=side
+30	dwat	dwat	NOUN	_	_	28	pobj	_	gloss=right|Number=Sing
+31	ou	ou	PRON	_	Person=2|PronType=Prs	_	poss	_	gloss=you|Person=2|Poss=Yes|PronType=Prs
+32	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+33	lòt	lòt	PRON	_	_	_	conj	_	gloss=the_other|Degree=Pos
+34	la	la	DET	_	Definite=Def|PronType=Art	_	_	_	gloss=the
+35	sou	sou	ADP	_	_	33	prep	_	gloss=on
+36	bò	bò	NOUN	_	_	_	_	_	gloss=side
+37	gòch	gòch	NOUN	_	_	_	pobj	_	gloss=left|Number=Plur
+38	ou	ou	PRON	_	Person=2|PronType=Prs	_	poss	_	gloss=you|Person=2|Poss=Yes|PronType=Prs
+39	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+40	lè	lè	SCONJ	_	_	_	_	_	gloss=when
+41	ou	ou	PRON	_	Person=2|PronType=Prs	_	poss	_	gloss=you|Person=2|Poss=Yes|PronType=Prs
+42	va	va	AUX	_	Tense=Fut	_	_	_	gloss=will
+43	wa	wa	NOUN	_	_	_	_	_	gloss=king
+44	.	.	PUNCT	_	_	12	punct	_	PunctType=Peri
+
+# sent_id = 40026002
+# ref_id = Matthew 26:2
+# eng_text = " You know that after two days the Passover is coming , and the Son of Man will be delivered up to be crucified . "
+# hat_text = — Nou konnen , nan de jou jwif yo pral fete fèt Delivrans lan . Yo pral lage Moun Bondye voye nan lachè a nan men moun ki pou kloure l sou kwa a .
+1	—	—	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+2	Nou	nou	PRON	_	_	_	_	_	gloss=we
+3	konnen	konnen	VERB	_	_	_	_	_	gloss=know
+4	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+5	nan	nan	ADP	_	_	_	_	_	gloss=about
+6	de	de	NUM	_	NumType=Card	7	nummod	_	gloss=two|NumType=Card
+7	jou	jou	NOUN	_	_	_	pobj	_	gloss=day|Number=Plur
+8	jwif	jwif	ADJ	_	_	_	_	_	gloss=Jewish
+9	yo	yo	PRON	_	Number=Plur	_	_	_	gloss=them
+10	pral	pral	AUX	_	Tense=Fut	_	_	_	gloss=will
+11	fete	fete	VERB	_	_	_	_	_	gloss=celebrate
+12	fèt	fèt	NOUN	_	_	_	_	_	gloss=festival
+13	Delivrans	delivrans	PROPN	_	_	_	nsubj	_	gloss=Passover|Number=Sing
+14	lan	lan	DET	_	Definite=Def|PronType=Art	_	_	_	gloss=the
+15	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+16	Yo	yo	PRON	_	Number=Plur	_	_	_	gloss=they
+17	pral	pral	AUX	_	Tense=Fut	_	_	_	gloss=will
+18	lage	lage	VERB	_	_	_	_	_	gloss=hand_over
+19	Moun	moun	NOUN	_	_	_	_	_	gloss=man
+20	Bondye	bondye	PROPN	_	_	_	_	_	gloss=God
+21	voye	voye	VERB	_	_	_	_	_	gloss=send
+22	nan	nan	ADP	_	_	_	_	_	gloss=about
+23	lachè	lachè	PROPN	_	_	_	pobj	_	gloss=Man|Number=Sing
+24	a	a	DET	_	Definite=Def|PronType=Art	_	_	_	gloss=the
+25	nan	nan	ADP	_	_	_	_	_	gloss=about
+26	men	men	CCONJ	_	_	_	_	_	gloss=but
+27	moun	moun	NOUN	_	_	_	_	_	gloss=person
+28	ki	ki	PRON	_	PronType=Rel	_	_	_	gloss=that
+29	pou	pou	PART	_	_	30	aux	_	gloss=to
+30	kloure	kloure	VERB	_	_	_	advcl	_	gloss=crucify|Aspect=Perf|Tense=Past|VerbForm=Part
+31	l	l	PRON	_	_	_	_	_	gloss=he
+32	sou	sou	ADP	_	_	_	_	_	gloss=on
+33	kwa	kwa	NOUN	_	_	_	_	_	gloss=cross
+34	a	a	DET	_	Definite=Def|PronType=Art	_	_	_	gloss=the
+35	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 40026061
+# ref_id = Matthew 26:61
+# eng_text = and said , " This man said , ' I am able to destroy the temple of God , and to build it in three days . ' "
+# hat_text = Bout pou bout , de moun parèt . Yo di : — Nonm sa a di : Mwen kapab kraze tanp Bondye a , epi nan twa jou m'a rebati l ban nou .
+1	Bout	bout	ADV	_	_	_	_	_	gloss=finally
+2	pou	pou	PART	_	_	_	aux	_	gloss=to
+3	bout	bout	ADV	_	_	_	_	_	gloss=finally
+4	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+5	de	de	NUM	_	NumType=Card	_	_	_	gloss=two
+6	moun	moun	NOUN	_	_	_	_	_	gloss=person
+7	parèt	parèt	VERB	_	_	_	_	_	gloss=appear
+8	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+9	Yo	yo	PRON	_	Number=Plur	_	_	_	gloss=they
+10	di	di	VERB	_	_	_	_	_	gloss=say
+11	:	:	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+12	—	—	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+13	Nonm	nonm	NOUN	_	_	_	_	_	gloss=man
+14	sa	sa	PRON	_	_	_	_	_	gloss=this
+15	a	a	DET	_	Definite=Def|PronType=Art	_	_	_	gloss=the
+16	di	di	VERB	_	_	_	_	_	gloss=say
+17	:	:	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+18	Mwen	mwen	PRON	_	_	_	_	_	gloss=I
+19	kapab	kapab	AUX	_	_	_	acomp	_	gloss=be_able|Degree=Pos
+20	kraze	kraze	VERB	_	_	_	_	_	gloss=destroy
+21	tanp	tanp	NOUN	_	_	_	dobj	_	gloss=temple|Number=Sing
+22	Bondye	bondye	PROPN	_	_	_	pobj	_	gloss=God|Number=Sing
+23	a	a	DET	_	Definite=Def|PronType=Art	_	_	_	gloss=the
+24	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+25	epi	epi	CCONJ	_	_	_	_	_	gloss=and
+26	nan	nan	ADP	_	_	_	_	_	gloss=about
+27	twa	twa	NUM	_	NumType=Card	28	nummod	_	gloss=three|NumType=Card
+28	jou	jou	NOUN	_	_	_	pobj	_	gloss=day|Number=Plur
+29	m'a	m'a	AUX	_	Person=1|Tense=Fut	_	_	_	gloss=I_will
+30	rebati	rebati	VERB	_	_	_	_	_	gloss=rebuild
+31	l	l	PRON	_	_	_	_	_	gloss=he
+32	ban	ban	ADP	_	_	_	_	_	gloss=for
+33	nou	nou	PRON	_	_	_	_	_	gloss=we
+34	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 40028016
+# ref_id = Matthew 28:16
+# eng_text = But the eleven disciples went into Galilee , to the mountain where Jesus had sent them .
+# hat_text = Onz disip yo ale sou ti mòn nan peyi Galile a , kote Jezi te di yo ale a .
+1	Onz	onz	NUM	_	NumType=Card	_	_	_	gloss=eleven
+2	disip	disip	NOUN	_	Number=Plur	_	nsubj	_	gloss=disciples|Number=Plur
+3	yo	yo	PRON	_	Number=Plur	_	_	_	gloss=them
+4	ale	ale	VERB	_	_	_	_	_	gloss=go
+5	sou	sou	ADP	_	_	_	_	_	gloss=on
+6	ti	ti	ADJ	_	_	_	_	_	gloss=small
+7	mòn	mòn	NOUN	_	Number=Sing	_	_	_	gloss=mountain
+8	nan	nan	ADP	_	_	_	_	_	gloss=about
+9	peyi	peyi	NOUN	_	_	_	_	_	gloss=region
+10	Galile	galile	PROPN	_	_	_	_	_	gloss=Galilee
+11	a	a	DET	_	Definite=Def|PronType=Art	_	_	_	gloss=the
+12	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+13	kote	kote	NOUN	_	_	_	_	_	gloss=place
+14	Jezi	jezi	PROPN	_	_	16	nsubj	_	gloss=Jesus|Number=Sing
+15	te	te	AUX	_	Tense=Past	_	_	_	gloss=past
+16	di	di	VERB	_	_	_	relcl	_	gloss=say|Aspect=Perf|Tense=Past|VerbForm=Part
+17	yo	yo	PRON	_	Number=Plur	_	_	_	gloss=them
+18	ale	ale	VERB	_	_	_	_	_	gloss=go
+19	a	a	DET	_	Definite=Def|PronType=Art	_	_	_	gloss=the
+20	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41002023
+# ref_id = Mark 2:23
+# eng_text = It happened , that he was going on the Sabbath day through the grain fields , and his disciples began , as they went , to pluck the ears of grain .
+# hat_text = Yon jou samdi , Jezi t'ap pase yon kote ki gen jaden ble . Antan disip yo t'ap mache arebò wout la , yo t'ap rale kèk grap ble .
+1	Yon	yon	DET	_	PronType=Art	_	_	_	gloss=a
+2	jou	jou	NOUN	_	_	_	_	_	gloss=day
+3	samdi	samdi	NOUN	_	_	_	_	_	gloss=Sabbath
+4	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+5	Jezi	jezi	PROPN	_	_	19	nsubj	_	gloss=Jesus|Number=Sing
+6	t'ap	t'ap	AUX	_	Aspect=Prog|Tense=Past	_	_	_	gloss=was
+7	pase	pase	VERB	_	_	_	_	_	gloss=pass
+8	yon	yon	DET	_	PronType=Art	_	_	_	gloss=a
+9	kote	kote	NOUN	_	_	_	_	_	gloss=place
+10	ki	ki	PRON	_	PronType=Rel	_	_	_	gloss=that
+11	gen	gen	VERB	_	_	_	_	_	gloss=have
+12	jaden	jaden	NOUN	_	_	_	_	_	gloss=field
+13	ble	ble	NOUN	_	_	_	_	_	gloss=grain
+14	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+15	Antan	antan	SCONJ	_	_	_	xcomp	_	gloss=while|Aspect=Prog|Tense=Pres|VerbForm=Part
+16	disip	disip	NOUN	_	Number=Plur	_	nsubj	_	gloss=disciples|Number=Plur
+17	yo	yo	PRON	_	Number=Plur	_	_	_	gloss=them
+18	t'ap	t'ap	AUX	_	Aspect=Prog|Tense=Past	_	_	_	gloss=was
+19	mache	mache	VERB	_	_	_	advcl	_	gloss=walking|Aspect=Prog|Tense=Pres|VerbForm=Part
+20	arebò	arebò	ADP	_	_	_	_	_	gloss=alongside
+21	wout	wout	NOUN	_	_	_	_	_	gloss=road
+22	la	la	DET	_	Definite=Def|PronType=Art	_	_	_	gloss=the
+23	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+24	yo	yo	PRON	_	Number=Plur	_	_	_	gloss=them
+25	t'ap	t'ap	AUX	_	Aspect=Prog|Tense=Past	_	_	_	gloss=was
+26	rale	rale	VERB	_	_	_	_	_	gloss=pluck
+27	kèk	kèk	DET	_	_	_	det	_	gloss=some
+28	grap	grap	NOUN	_	_	_	_	_	gloss=ear
+29	ble	ble	NOUN	_	_	_	_	_	gloss=grain
+30	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41012032
+# ref_id = Mark 12:32
+# eng_text = The scribe said to him , " Truly , teacher , you have said well that he is one , and there is none other but he ,
+# hat_text = Lè sa a , dirèktè lalwa a di li : — Se sa menm , Mèt . Sa ou di a se vre . Mèt nou an se sèl Bondye ki genyen . Pa gen lòt pase li .
+1	Lè	lè	SCONJ	_	_	_	_	_	gloss=when
+2	sa	sa	PRON	_	_	_	_	_	gloss=this
+3	a	a	DET	_	Definite=Def|PronType=Art	_	_	_	gloss=the
+4	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+5	dirèktè	dirèktè	NOUN	_	_	6	amod	_	gloss=scribe|Degree=Pos
+6	lalwa	lalwa	NOUN	_	_	_	pobj	_	gloss=law|Number=Sing
+7	a	a	DET	_	Definite=Def|PronType=Art	_	_	_	gloss=the
+8	di	di	VERB	_	_	_	_	_	gloss=say
+9	li	li	PRON	_	_	_	_	_	gloss=he
+10	:	:	PUNCT	_	_	_	_	_
+11	—	—	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+12	Se	se	AUX	_	_	_	_	_	gloss=be
+13	sa	sa	PRON	_	_	_	_	_	gloss=this
+14	menm	menm	ADV	_	_	_	_	_	gloss=indeed
+15	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+16	Mèt	mèt	NOUN	_	_	_	npadvmod	_	gloss=Teacher|Number=Sing
+17	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+18	Sa	sa	PRON	_	_	_	_	_	gloss=what
+19	ou	ou	PRON	_	Person=2|PronType=Prs	_	_	_	gloss=you
+20	di	di	VERB	_	_	_	_	_	gloss=say
+21	a	a	DET	_	Definite=Def|PronType=Art	_	_	_	gloss=the
+22	se	se	AUX	_	_	_	_	_	gloss=be
+23	vre	vre	ADJ	_	_	_	_	_	gloss=true
+24	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+25	Mèt	mèt	NOUN	_	_	_	npadvmod	_	gloss=Teacher|Number=Sing
+26	nou	nou	PRON	_	_	_	_	_	gloss=we
+27	an	an	DET	_	Definite=Def|PronType=Art	_	_	_	gloss=the
+28	se	se	AUX	_	_	_	_	_	gloss=be
+29	sèl	sèl	ADJ	_	_	_	_	_	gloss=only
+30	Bondye	bondye	PROPN	_	_	_	attr	_	gloss=God|Number=Sing
+31	ki	ki	PRON	_	PronType=Rel	_	_	_	gloss=that
+32	genyen	genyen	VERB	_	_	_	_	_	gloss=exist
+33	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+34	Pa	pa	PART	_	Polarity=Neg	_	_	_	gloss=not
+35	gen	gen	VERB	_	_	_	_	_	gloss=have
+36	lòt	lòt	PRON	_	_	30	conj	_	gloss=the_other|Degree=Pos
+37	pase	pase	VERB	_	_	_	_	_	gloss=pass
+38	li	li	PRON	_	_	_	_	_	gloss=he
+39	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41014037
+# ref_id = Mark 14:37
+# eng_text = He came and found them sleeping , and said to Peter , " Simon , are you sleeping ? Couldn't you watch one hour ?
+# hat_text = Li tounen bò kote disip li yo , li jwenn yo tou twa ap dòmi . Li di Pyè konsa : — Simon ! W'ap dòmi ? Ou pat kapab rete je klè menm yon ti moman ?
+1	Li	li	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+2	tounen	tounen	VERB	_	_	_	_	_	gloss=return
+3	bò	bò	NOUN	_	_	_	_	_	gloss=side
+4	kote	kote	NOUN	_	_	_	_	_	gloss=place
+5	disip	disip	NOUN	_	Number=Plur	_	nsubj	_	gloss=disciples|Number=Plur
+6	li	li	PRON	_	_	_	_	_	gloss=he
+7	yo	yo	PRON	_	Number=Plur	_	_	_	gloss=them
+8	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+9	li	li	PRON	_	_	_	_	_	gloss=he
+10	jwenn	jwenn	VERB	_	_	_	conj	_	gloss=find|Tense=Past|VerbForm=Fin
+11	yo	yo	PRON	_	Number=Plur	_	_	_	gloss=them
+12	tou	tou	ADV	_	_	_	_	_	gloss=all
+13	twa	twa	NUM	_	NumType=Card	_	_	_	gloss=three
+14	ap	ap	AUX	_	Aspect=Prog	15	npadvmod	_	gloss=be|Number=Sing
+15	dòmi	dòmi	VERB	_	_	0	root	_	gloss=sleep|VerbForm=Inf
+16	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+17	Li	li	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+18	di	di	VERB	_	_	_	_	_	gloss=say
+19	Pyè	pyè	PROPN	_	_	_	pobj	_	gloss=Peter|Number=Sing
+20	konsa	konsa	ADV	_	_	_	_	_	gloss=thus
+21	:	:	PUNCT	_	_	_	_	_
+22	—	—	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+23	Simon	simon	PROPN	_	_	_	npadvmod	_	gloss=Simon|Number=Sing
+24	!	!	PUNCT	_	_	_	_	_
+25	W'ap	w'ap	AUX	_	Aspect=Prog|Person=2	_	_	_	gloss=are
+26	dòmi	dòmi	VERB	_	_	0	root	_	gloss=sleep|VerbForm=Inf
+27	?	?	PUNCT	_	_	26	punct	_	PunctType=Peri
+28	Ou	ou	PRON	_	Person=2|PronType=Prs	_	_	_	gloss=you
+29	pat	pat	AUX	_	Polarity=Neg|Tense=Past	_	_	_	gloss=did_not
+30	kapab	kapab	AUX	_	_	_	_	_	gloss=be_able
+31	rete	rete	VERB	_	_	_	_	_	gloss=remain
+32	je	je	NOUN	_	_	_	_	_	gloss=eye
+33	klè	klè	ADJ	_	_	_	_	_	gloss=open
+34	menm	menm	ADV	_	_	_	_	_	gloss=indeed
+35	yon	yon	DET	_	PronType=Art	_	_	_	gloss=a
+36	ti	ti	ADJ	_	_	_	_	_	gloss=small
+37	moman	moman	NOUN	_	_	_	_	_	gloss=moment
+38	?	?	PUNCT	_	_	26	punct	_	PunctType=Peri
+
+# sent_id = 42004002
+# ref_id = Luke 4:2
+# eng_text = for forty days , being tempted by the devil . He ate nothing in those days . Afterward , when they were completed , he was hungry .
+# hat_text = Se la Satan vin tante l pandan karant jou . Tout jou sa yo li pat manje anyen menm . Apre jou sa yo fin pase , li te grangou .
+1	Se	se	AUX	_	_	_	_	_	gloss=be
+2	la	la	DET	_	Definite=Def|PronType=Art	_	_	_	gloss=the
+3	Satan	satan	PROPN	_	_	_	_	_	gloss=Satan
+4	vin	vin	VERB	_	_	_	_	_	gloss=come
+5	tante	tante	VERB	_	_	_	_	_	gloss=tempt
+6	l	l	PRON	_	_	_	_	_	gloss=he
+7	pandan	pandan	ADP	_	_	9	nummod	_	gloss=for|NumType=Card
+8	karant	karant	NUM	_	NumType=Card	_	_	_	gloss=forty
+9	jou	jou	NOUN	_	_	_	pobj	_	gloss=day|Number=Plur
+10	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+11	Tout	tout	DET	_	_	_	_	_	gloss=all
+12	jou	jou	NOUN	_	_	_	pobj	_	gloss=day|Number=Plur
+13	sa	sa	PRON	_	_	_	_	_	gloss=this
+14	yo	yo	PRON	_	Number=Plur	_	_	_	gloss=them
+15	li	li	PRON	_	_	_	_	_	gloss=he
+16	pat	pat	AUX	_	Polarity=Neg|Tense=Past	_	_	_	gloss=did_not
+17	manje	manje	VERB	_	_	_	_	_	gloss=eat
+18	anyen	anyen	PRON	_	_	_	_	_	gloss=anything
+19	menm	menm	ADV	_	_	_	_	_	gloss=indeed
+20	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+21	Apre	apre	ADP	_	_	_	_	_	gloss=after
+22	jou	jou	NOUN	_	_	_	pobj	_	gloss=day|Number=Plur
+23	sa	sa	PRON	_	_	_	_	_	gloss=this
+24	yo	yo	PRON	_	Number=Plur	_	_	_	gloss=them
+25	fin	fin	AUX	_	Aspect=Perf	_	_	_	gloss=finish
+26	pase	pase	VERB	_	_	_	_	_	gloss=pass
+27	,	,	PUNCT	_	_	_	_	_
+28	li	li	PRON	_	_	_	_	_	gloss=he
+29	te	te	AUX	_	Tense=Past	_	_	_	gloss=past
+30	grangou	grangou	ADJ	_	_	_	acomp	_	gloss=hungry|Degree=Pos
+31	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 42016013
+# ref_id = Luke 16:13
+# eng_text = No servant can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You aren't able to serve God and mammon . "
+# hat_text = — Pèsonn pa ka sèvi de mèt byen anmenmtan . Li gen pou li rayi yonn si li renmen lòt la . L'ap sèvi yonn byen , epi l'ap meprize lòt la . Nou pa ka ap sèvi Bondye epi lajan anmemmtan .
+1	—	—	PUNCT	_	_	5	punct	_	PunctSide=Ini|PunctType=Quot
+2	Pèsonn	pèsonn	PRON	_	_	_	_	_	gloss=no_one
+3	pa	pa	PART	_	Polarity=Neg	_	_	_	gloss=not
+4	ka	ka	AUX	_	_	5	aux	_	gloss=can|VerbForm=Fin
+5	sèvi	sèvi	VERB	_	_	0	root	_	gloss=serve|VerbForm=Inf
+6	de	de	NUM	_	NumType=Card	7	nummod	_	gloss=two|NumType=Card
+7	mèt	mèt	NOUN	_	_	5	dobj	_	gloss=masters|Number=Plur
+8	byen	byen	ADV	_	_	_	_	_	gloss=well
+9	anmenmtan	anmenmtan	ADV	_	_	_	_	_	gloss=at_the_same_time
+10	.	.	PUNCT	_	_	5	punct	_	PunctType=Peri
+11	Li	li	PRON	_	_	_	_	_	gloss=he
+12	gen	gen	VERB	_	_	_	_	_	gloss=have
+13	pou	pou	PART	_	_	_	prep	_	gloss=to
+14	li	li	PRON	_	_	_	_	_	gloss=he
+15	rayi	rayi	VERB	_	_	_	_	_	gloss=hate
+16	yonn	yonn	PRON	_	_	_	_	_	gloss=one
+17	si	si	SCONJ	_	_	_	_	_	gloss=if
+18	li	li	PRON	_	_	_	_	_	gloss=he
+19	renmen	renmen	VERB	_	_	_	conj	_	gloss=love|VerbForm=Inf
+20	lòt	lòt	PRON	_	_	_	dobj	_	gloss=the_other|Degree=Pos
+21	la	la	DET	_	Definite=Def|PronType=Art	_	_	_	gloss=the
+22	.	.	PUNCT	_	_	24	punct	_	PunctType=Peri
+23	L'ap	l'ap	AUX	_	Aspect=Prog	_	_	_	gloss=is
+24	sèvi	sèvi	VERB	_	_	0	root	_	gloss=serve|VerbForm=Inf
+25	yonn	yonn	PRON	_	_	_	_	_	gloss=one
+26	byen	byen	ADV	_	_	_	_	_	gloss=well
+27	,	,	PUNCT	_	_	_	_	_
+28	epi	epi	CCONJ	_	_	_	_	_	gloss=and
+29	l'ap	l'ap	AUX	_	Aspect=Prog	_	_	_	gloss=is
+30	meprize	meprize	VERB	_	_	_	_	_	gloss=despise
+31	lòt	lòt	PRON	_	_	_	dobj	_	gloss=the_other|Degree=Pos
+32	la	la	DET	_	Definite=Def|PronType=Art	_	_	_	gloss=the
+33	.	.	PUNCT	_	_	38	punct	_	PunctType=Peri
+34	Nou	nou	PRON	_	_	_	_	_	gloss=we
+35	pa	pa	PART	_	Polarity=Neg	_	_	_	gloss=not
+36	ka	ka	AUX	_	_	38	aux	_	gloss=can|VerbForm=Fin
+37	ap	ap	AUX	_	Aspect=Prog	_	_	_	gloss=be
+38	sèvi	sèvi	VERB	_	_	0	root	_	gloss=serve|VerbForm=Inf
+39	Bondye	bondye	PROPN	_	_	38	dobj	_	gloss=God|Number=Sing
+40	epi	epi	CCONJ	_	_	_	_	_	gloss=and
+41	lajan	lajan	NOUN	_	_	39	conj	_	gloss=money|Number=Sing
+42	anmemmtan	anmemmtan	ADV	_	_	_	_	_	gloss=at_the_same_time
+43	.	.	PUNCT	_	_	38	punct	_	PunctType=Peri
+
+# sent_id = 42024018
+# ref_id = Luke 24:18
+# eng_text = One of them , named Cleopas , answered him , " Are you the only one travelling in Jerusalem who doesn't know the things which have happened there in these days ? "
+# hat_text = Yonn ladan yo ki te rele Kleopas reponn li : — Gen lè ou se sèl moun k'ap viv lavil Jerizalèm ki pa konn sa k te rive nan senmenn ki sot pase a ?
+1	Yonn	yonn	PRON	_	_	_	_	_	gloss=one
+2	ladan	ladan	ADP	_	_	_	_	_	gloss=among
+3	yo	yo	PRON	_	Number=Plur	_	_	_	gloss=them
+4	ki	ki	PRON	_	PronType=Rel	_	nsubj	_	gloss=that
+5	te	te	AUX	_	Tense=Past	_	_	_	gloss=past
+6	rele	rele	VERB	_	_	_	_	_	gloss=call
+7	Kleopas	kleopas	PROPN	_	_	_	_	_	gloss=Cleopas
+8	reponn	reponn	VERB	_	_	0	root	_	gloss=reply|Tense=Past|VerbForm=Fin
+9	li	li	PRON	_	_	_	_	_	gloss=he
+10	:	:	PUNCT	_	_	_	_	_
+11	—	—	PUNCT	_	_	8	punct	_	PunctSide=Ini|PunctType=Quot
+12	Gen	gen	VERB	_	_	_	_	_	gloss=there_is
+13	lè	lè	SCONJ	_	_	_	_	_	gloss=when
+14	ou	ou	PRON	_	Person=2|PronType=Prs	_	_	_	gloss=you
+15	se	se	AUX	_	_	_	_	_	gloss=be
+16	sèl	sèl	ADJ	_	_	_	_	_	gloss=only
+17	moun	moun	NOUN	_	_	_	_	_	gloss=person
+18	k'ap	k'ap	AUX	_	Aspect=Prog	_	_	_	gloss=is
+19	viv	viv	VERB	_	_	_	_	_	gloss=live
+20	lavil	lavil	NOUN	_	_	_	_	_	gloss=city
+21	Jerizalèm	jerizalèm	PROPN	_	_	_	pobj	_	gloss=Jerusalem|Number=Sing
+22	ki	ki	PRON	_	PronType=Rel	_	nsubj	_	gloss=that
+23	pa	pa	PART	_	Polarity=Neg	_	_	_	gloss=not
+24	konn	konn	VERB	_	_	_	_	_	gloss=know
+25	sa	sa	PRON	_	_	_	_	_	gloss=this
+26	k	k	PRON	_	_	_	_	_	gloss=that
+27	te	te	AUX	_	Tense=Past	_	_	_	gloss=past
+28	rive	rive	VERB	_	_	_	_	_	gloss=arrive
+29	nan	nan	ADP	_	_	_	_	_	gloss=about
+30	senmenn	senmenn	NOUN	_	_	_	_	_	gloss=week
+31	ki	ki	PRON	_	PronType=Rel	_	nsubj	_	gloss=that
+32	sot	sot	VERB	_	_	_	_	_	gloss=just
+33	pase	pase	VERB	_	_	_	_	_	gloss=pass
+34	a	a	DET	_	Definite=Def|PronType=Art	_	_	_	gloss=the
+35	?	?	PUNCT	_	_	_	_	_
+
+# sent_id = 43001039
+# ref_id = John 1:39
+# eng_text = He said to them , " Come , and see . " They came and saw where he was staying , and they stayed with him that day . It was about the tenth hour .
+# hat_text = Li reponn yo : — Vini non , n'a wè . Y'ale vre . Yo wè kote l te rete a . Yo pase rès jounen an avè li . ( Li te vè katrè konsa nan apremidi . )
+1	Li	li	PRON	_	_	_	_	_	gloss=he
+2	reponn	reponn	VERB	_	_	_	_	_	gloss=reply
+3	yo	yo	PRON	_	Number=Plur	_	_	_	gloss=them
+4	:	:	PUNCT	_	_	_	_	_
+5	—	—	PUNCT	_	_	6	punct	_	PunctSide=Ini|PunctType=Quot
+6	Vini	vini	VERB	_	_	_	ccomp	_	gloss=come|VerbForm=Inf
+7	non	non	PART	_	_	_	_	_	gloss=please
+8	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+9	n'a	n'a	AUX	_	Person=1|Number=Plur|Tense=Fut	_	_	_	gloss=we_will
+10	wè	wè	VERB	_	_	_	_	_	gloss=see
+11	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+12	Y'ale	y'ale	VERB	_	_	_	_	_	gloss=go
+13	vre	vre	ADJ	_	_	_	_	_	gloss=true
+14	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+15	Yo	yo	PRON	_	Number=Plur	_	_	_	gloss=they
+16	wè	wè	VERB	_	_	_	_	_	gloss=see
+17	kote	kote	NOUN	_	_	_	pobj	_	gloss=place|Number=Sing
+18	l	l	PRON	_	_	_	_	_	gloss=he
+19	te	te	AUX	_	Tense=Past	_	_	_	gloss=past
+20	rete	rete	VERB	_	_	_	_	_	gloss=remain
+21	a	a	DET	_	Definite=Def|PronType=Art	_	_	_	gloss=the
+22	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+23	Yo	yo	PRON	_	Number=Plur	_	_	_	gloss=they
+24	pase	pase	VERB	_	_	_	_	_	gloss=pass
+25	rès	rès	NOUN	_	_	_	_	_	gloss=rest
+26	jounen	jounen	NOUN	_	_	_	_	_	gloss=day
+27	an	an	DET	_	Definite=Def|PronType=Art	_	_	_	gloss=the
+28	avè	avè	ADP	_	_	_	_	_	gloss=with
+29	li	li	PRON	_	_	_	_	_	gloss=he
+30	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+31	(	(	PUNCT	_	_	_	_	_
+32	Li	li	PRON	_	_	_	_	_	gloss=he
+33	te	te	AUX	_	Tense=Past	_	_	_	gloss=past
+34	vè	vè	ADP	_	_	_	_	_	gloss=about
+35	katrè	katrè	NUM	_	_	_	_	_	gloss=four_oclock
+36	konsa	konsa	ADV	_	_	_	_	_	gloss=thus
+37	nan	nan	ADP	_	_	_	_	_	gloss=about
+38	apremidi	apremidi	NOUN	_	_	_	attr	_	gloss=afternoon|Number=Sing
+39	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+40	)	)	PUNCT	_	_	_	_	_
+
+# sent_id = 43003016
+# ref_id = John 3:16
+# eng_text = For God so loved the world , that he gave his one and only Son , that whoever believes in him should not perish , but have eternal life .
+# hat_text = Bondye sitèlman renmen lèzòm , li bay sèl pitit li a pou yo . Konsa , moun ki mete konfyans yo nan li , yo p'ap peri . Okontrè , y'a gen lavi ki p'ap janm fini an .
+1	Bondye	bondye	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+2	sitèlman	sitèlman	ADV	_	_	_	_	_	gloss=so_much
+3	renmen	renmen	VERB	_	_	_	_	_	gloss=love
+4	lèzòm	lèzòm	NOUN	_	_	_	_	_	gloss=world
+5	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+6	li	li	PRON	_	_	_	poss	_	gloss=he|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+7	bay	bay	VERB	_	_	_	_	_	gloss=give
+8	sèl	sèl	ADJ	_	_	_	_	_	gloss=only
+9	pitit	pitit	NOUN	_	_	_	_	_	gloss=child
+10	li	li	PRON	_	_	_	poss	_	gloss=he|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+11	a	a	DET	_	Definite=Def|PronType=Art	_	_	_	gloss=the
+12	pou	pou	PART	_	_	_	_	_	gloss=to
+13	yo	yo	PRON	_	Number=Plur	_	_	_	gloss=them
+14	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+15	Konsa	konsa	ADV	_	_	_	_	_	gloss=thus
+16	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+17	moun	moun	NOUN	_	_	_	_	_	gloss=person
+18	ki	ki	PRON	_	PronType=Rel	_	nsubj	_	gloss=that
+19	mete	mete	VERB	_	_	_	_	_	gloss=put
+20	konfyans	konfyans	NOUN	_	_	_	_	_	gloss=trust
+21	yo	yo	PRON	_	Number=Plur	_	_	_	gloss=them
+22	nan	nan	ADP	_	_	_	_	_	gloss=about
+23	li	li	PRON	_	_	_	poss	_	gloss=he|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+24	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+25	yo	yo	PRON	_	Number=Plur	_	_	_	gloss=them
+26	p'ap	p'ap	AUX	_	Polarity=Neg|Aspect=Prog	_	_	_	gloss=will_not
+27	peri	peri	VERB	_	_	_	_	_	gloss=perish
+28	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+29	Okontrè	okontrè	ADV	_	_	_	_	_	gloss=instead
+30	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+31	y'a	y'a	AUX	_	Tense=Fut|Person=3|Number=Plur	_	_	_	gloss=they_will
+32	gen	gen	VERB	_	_	_	_	_	gloss=have
+33	lavi	lavi	NOUN	_	_	_	dobj	_	gloss=life|Number=Sing
+34	ki	ki	PRON	_	PronType=Rel	_	nsubj	_	gloss=that
+35	p'ap	p'ap	AUX	_	Polarity=Neg|Aspect=Prog	_	_	_	gloss=will_not
+36	janm	janm	ADV	_	_	_	_	_	gloss=never
+37	fini	fini	VERB	_	_	_	_	_	gloss=end
+38	an	an	DET	_	Definite=Def|PronType=Art	_	_	_	gloss=the
+39	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 44002030
+# ref_id = Acts 2:30
+# eng_text = Therefore , being a prophet , and knowing that God had sworn with an oath to him that of the fruit of his body , according to the flesh , he would raise up the Christ to sit on his throne ,
+# hat_text = Men , David te yon pwofèt , li te konnen sa Bondye te pwomèt la . Bondye te sèmante li t'ap fè yonn nan pitit li yo wa tankou li .
+1	Men	men	CCONJ	_	_	_	cc	_	gloss=but|ConjType=Cmp
+2	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+3	David	david	PROPN	_	_	_	poss	_	gloss=David|Number=Sing
+4	te	te	AUX	_	Tense=Past	_	_	_	gloss=past
+5	yon	yon	DET	_	PronType=Art	_	_	_	gloss=a
+6	pwofèt	pwofèt	NOUN	_	_	_	attr	_	gloss=prophet|Number=Sing
+7	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+8	li	li	PRON	_	_	_	poss	_	gloss=he|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+9	te	te	AUX	_	Tense=Past	_	_	_	gloss=past
+10	konnen	konnen	VERB	_	_	_	conj	_	gloss=know|Tense=Past|VerbForm=Fin
+11	sa	sa	PRON	_	_	_	_	_	gloss=this
+12	Bondye	bondye	PROPN	_	_	14	nsubj	_	gloss=God|Number=Sing
+13	te	te	AUX	_	Tense=Past	_	_	_	gloss=past
+14	pwomèt	pwomèt	VERB	_	_	10	ccomp	_	gloss=promise|Aspect=Perf|Tense=Past|VerbForm=Part
+15	la	la	DET	_	Definite=Def|PronType=Art	_	_	_	gloss=the
+16	.	.	PUNCT	_	_	10	punct	_	PunctType=Peri
+17	Bondye	bondye	PROPN	_	_	14	nsubj	_	gloss=God|Number=Sing
+18	te	te	AUX	_	Tense=Past	_	_	_	gloss=past
+19	sèmante	sèmante	VERB	_	_	_	pobj	_	gloss=swear|Number=Sing
+20	li	li	PRON	_	_	_	poss	_	gloss=he|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+21	t'ap	t'ap	AUX	_	Aspect=Prog|Tense=Past	_	_	_	gloss=was
+22	fè	fè	VERB	_	_	_	_	_	gloss=make
+23	yonn	yonn	PRON	_	_	_	_	_	gloss=one
+24	nan	nan	ADP	_	_	_	_	_	gloss=about
+25	pitit	pitit	NOUN	_	_	_	_	_	gloss=child
+26	li	li	PRON	_	_	_	poss	_	gloss=he|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+27	yo	yo	PRON	_	Number=Plur	_	_	_	gloss=them
+28	wa	wa	NOUN	_	_	_	_	_	gloss=king
+29	tankou	tankou	ADP	_	_	_	_	_	gloss=like
+30	li	li	PRON	_	_	_	poss	_	gloss=he|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+31	.	.	PUNCT	_	_	10	punct	_	PunctType=Peri
+
+# sent_id = 44009038
+# ref_id = Acts 9:38
+# eng_text = As Lydda was near Joppa , the disciples , hearing that Peter was there , sent two men to him , imploring him not to delay in coming to them .
+# hat_text = Lavil Jope pat twò lwen ak lavil Lida . Lè disip ki te Jope yo vin konnen Pyè te Lida , yo voye de moun bò kote l avèk mesay sa a : — Tanpri , pa mize vin lakay nou .
+1	Lavil	lavil	NOUN	_	_	_	_	_	gloss=city
+2	Jope	jope	PROPN	_	_	_	_	_	gloss=Joppa
+3	pat	pat	AUX	_	Polarity=Neg|Tense=Past	_	_	_	gloss=did_not
+4	twò	twò	ADV	_	_	_	_	_	gloss=too
+5	lwen	lwen	ADV	_	_	_	_	_	gloss=far
+6	ak	ak	ADP	_	_	_	_	_	gloss=with
+7	lavil	lavil	NOUN	_	_	_	_	_	gloss=city
+8	Lida	lida	PROPN	_	_	_	_	_	gloss=Lydda
+9	.	.	PUNCT	_	_	_	_	_
+10	Lè	lè	SCONJ	_	_	_	_	_	gloss=when
+11	disip	disip	NOUN	_	Number=Plur	_	_	_	gloss=disciples
+12	ki	ki	PRON	_	PronType=Rel	_	_	_	gloss=that
+13	te	te	AUX	_	Tense=Past	_	_	_	gloss=past
+14	Jope	jope	PROPN	_	_	_	_	_	gloss=Joppa
+15	yo	yo	PRON	_	Number=Plur	_	_	_	gloss=them
+16	vin	vin	VERB	_	_	23	xcomp	_	gloss=come|VerbForm=Inf
+17	konnen	konnen	VERB	_	_	_	_	_	gloss=know
+18	Pyè	pyè	PROPN	_	_	_	nsubj	_	gloss=Peter|Number=Sing
+19	te	te	AUX	_	Tense=Past	_	_	_	gloss=past
+20	Lida	lida	PROPN	_	_	_	_	_	gloss=Lydda
+21	,	,	PUNCT	_	_	23	punct	_	PunctType=Comm
+22	yo	yo	PRON	_	Number=Plur	_	_	_	gloss=them
+23	voye	voye	VERB	_	_	0	root	_	gloss=send|Tense=Past|VerbForm=Fin
+24	de	de	NUM	_	NumType=Card	_	nummod	_	gloss=two|NumType=Card
+25	moun	moun	NOUN	_	_	_	_	_	gloss=person
+26	bò	bò	NOUN	_	_	_	_	_	gloss=side
+27	kote	kote	NOUN	_	_	_	_	_	gloss=place
+28	l	l	PRON	_	_	_	_	_	gloss=he
+29	avèk	avèk	ADP	_	_	_	_	_	gloss=with
+30	mesay	mesay	NOUN	_	_	_	_	_	gloss=message
+31	sa	sa	PRON	_	_	_	_	_	gloss=this
+32	a	a	DET	_	Definite=Def|PronType=Art	_	_	_	gloss=the
+33	:	:	PUNCT	_	_	_	_	_
+34	—	—	PUNCT	_	_	23	punct	_	PunctSide=Ini|PunctType=Quot
+35	Tanpri	tanpri	INTJ	_	_	39	intj	_	gloss=please
+36	,	,	PUNCT	_	_	23	punct	_	PunctType=Comm
+37	pa	pa	PART	_	Polarity=Neg	_	_	_	gloss=not
+38	mize	mize	VERB	_	_	_	_	_	gloss=delay
+39	vin	vin	VERB	_	_	23	xcomp	_	gloss=come|VerbForm=Inf
+40	lakay	lakay	ADP	_	_	_	_	_	gloss=to_the_house_of
+41	nou	nou	PRON	_	_	_	_	_	gloss=we
+42	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 44011011
+# ref_id = Acts 11:11
+# eng_text = Behold , immediately three men stood before the house where I was , having been sent from Caesarea to me .
+# hat_text = Menm lè a , twa moun ki te sòti Sezare vin rive nan kay kote m te ye a . Yo te voye yo chache mwen .
+1	Menm	menm	ADV	_	_	_	_	_	gloss=immediately
+2	lè	lè	SCONJ	_	_	_	_	_	gloss=when
+3	a	a	DET	_	Definite=Def|PronType=Art	_	_	_	gloss=the
+4	,	,	PUNCT	_	_	_	_	_
+5	twa	twa	NUM	_	NumType=Card	_	nummod	_	gloss=three|NumType=Card
+6	moun	moun	NOUN	_	_	_	_	_	gloss=person
+7	ki	ki	PRON	_	PronType=Rel	23	nsubjpass	_	gloss=that
+8	te	te	AUX	_	Tense=Past	_	_	_	gloss=past
+9	sòti	sòti	VERB	_	_	_	_	_	gloss=come_from
+10	Sezare	sezare	PROPN	_	_	_	pobj	_	gloss=Caesarea|Number=Sing
+11	vin	vin	VERB	_	_	_	_	_	gloss=come
+12	rive	rive	VERB	_	_	0	root	_	gloss=arrive|Tense=Past|VerbForm=Fin
+13	nan	nan	ADP	_	_	_	_	_	gloss=about
+14	kay	kay	NOUN	_	_	_	pobj	_	gloss=house|Number=Sing
+15	kote	kote	NOUN	_	_	_	_	_	gloss=place
+16	m	m	PRON	_	_	_	_	_	gloss=me
+17	te	te	AUX	_	Tense=Past	_	_	_	gloss=past
+18	ye	ye	AUX	_	_	_	_	_	gloss=be
+19	a	a	DET	_	Definite=Def|PronType=Art	_	_	_	gloss=the
+20	.	.	PUNCT	_	_	12	punct	_	PunctType=Peri
+21	Yo	yo	PRON	_	Number=Plur	_	_	_	gloss=they
+22	te	te	AUX	_	Tense=Past	_	_	_	gloss=past
+23	voye	voye	VERB	_	_	_	relcl	_	gloss=send|Aspect=Perf|Tense=Past|VerbForm=Part
+24	yo	yo	PRON	_	Number=Plur	_	_	_	gloss=them
+25	chache	chache	VERB	_	_	_	_	_	gloss=seek
+26	mwen	mwen	PRON	_	_	_	_	_	gloss=me
+27	.	.	PUNCT	_	_	12	punct	_	PunctType=Peri
+
+# sent_id = 44021034
+# ref_id = Acts 21:34
+# eng_text = Some shouted one thing , some another , among the crowd . When he couldn't find out the truth because of the noise , he commanded him to be brought into the barracks .
+# hat_text = Men , nan foul moun yo , yon pati t'ap rele yon bagay , yon lòt pati t'ap rele yon lòt bagay . Sitèlman yo t'ap fè dezòd , kòmandan an pat kapab fin konprann sa yo t'ap di a . Lè l wè sa , li bay lòd pou yo mennen Pòl nan kazèn lan .
+1	Men	men	CCONJ	_	_	_	_	_	gloss=but
+2	,	,	PUNCT	_	_	49	punct	_	PunctType=Comm
+3	nan	nan	ADP	_	_	_	_	_	gloss=about
+4	foul	foul	NOUN	_	_	_	_	_	gloss=crowd
+5	moun	moun	NOUN	_	_	_	_	_	gloss=person
+6	yo	yo	PRON	_	Number=Plur	_	_	_	gloss=them
+7	,	,	PUNCT	_	_	49	punct	_	PunctType=Comm
+8	yon	yon	DET	_	PronType=Art	_	_	_	gloss=a
+9	pati	pati	NOUN	_	_	_	_	_	gloss=part
+10	t'ap	t'ap	AUX	_	Aspect=Prog|Tense=Past	_	_	_	gloss=was
+11	rele	rele	VERB	_	_	_	_	_	gloss=call
+12	yon	yon	DET	_	PronType=Art	_	_	_	gloss=a
+13	bagay	bagay	NOUN	_	_	_	_	_	gloss=thing
+14	,	,	PUNCT	_	_	49	punct	_	PunctType=Comm
+15	yon	yon	DET	_	PronType=Art	_	_	_	gloss=a
+16	lòt	lòt	PRON	_	_	_	_	_	gloss=the_other
+17	pati	pati	NOUN	_	_	_	_	_	gloss=part
+18	t'ap	t'ap	AUX	_	Aspect=Prog|Tense=Past	_	_	_	gloss=was
+19	rele	rele	VERB	_	_	_	_	_	gloss=call
+20	yon	yon	DET	_	PronType=Art	_	_	_	gloss=a
+21	lòt	lòt	PRON	_	_	_	_	_	gloss=the_other
+22	bagay	bagay	NOUN	_	_	_	_	_	gloss=thing
+23	.	.	PUNCT	_	_	49	punct	_	PunctType=Peri
+24	Sitèlman	sitèlman	ADV	_	_	_	_	_	gloss=so_much
+25	yo	yo	PRON	_	Number=Plur	_	_	_	gloss=them
+26	t'ap	t'ap	AUX	_	Aspect=Prog|Tense=Past	_	_	_	gloss=was
+27	fè	fè	VERB	_	_	_	_	_	gloss=make
+28	dezòd	dezòd	NOUN	_	_	_	pobj	_	gloss=uproar|Number=Sing
+29	,	,	PUNCT	_	_	49	punct	_	PunctType=Comm
+30	kòmandan	kòmandan	NOUN	_	_	_	_	_	gloss=commander
+31	an	an	DET	_	Definite=Def|PronType=Art	_	_	_	gloss=the
+32	pat	pat	AUX	_	Polarity=Neg|Tense=Past	_	_	_	gloss=did_not
+33	kapab	kapab	AUX	_	_	_	_	_	gloss=be_able
+34	fin	fin	AUX	_	Aspect=Perf	_	_	_	gloss=finish
+35	konprann	konprann	VERB	_	_	_	_	_	gloss=understand
+36	sa	sa	PRON	_	_	_	_	_	gloss=this
+37	yo	yo	PRON	_	Number=Plur	_	_	_	gloss=them
+38	t'ap	t'ap	AUX	_	Aspect=Prog|Tense=Past	_	_	_	gloss=was
+39	di	di	VERB	_	_	_	_	_	gloss=say
+40	a	a	DET	_	Definite=Def|PronType=Art	_	_	_	gloss=the
+41	.	.	PUNCT	_	_	49	punct	_	PunctType=Peri
+42	Lè	lè	SCONJ	_	_	_	_	_	gloss=when
+43	l	l	PRON	_	_	_	_	_	gloss=he
+44	wè	wè	VERB	_	_	_	_	_	gloss=see
+45	sa	sa	PRON	_	_	_	_	_	gloss=this
+46	,	,	PUNCT	_	_	49	punct	_	PunctType=Comm
+47	li	li	PRON	_	_	_	_	_	gloss=he
+48	bay	bay	VERB	_	_	_	_	_	gloss=give
+49	lòd	lòd	NOUN	_	_	0	root	_	gloss=order|Tense=Past|VerbForm=Fin
+50	pou	pou	PART	_	_	_	prep	_	gloss=to
+51	yo	yo	PRON	_	Number=Plur	_	_	_	gloss=them
+52	mennen	mennen	VERB	_	_	_	_	_	gloss=bring
+53	Pòl	pòl	PROPN	_	_	_	nsubjpass	_	gloss=Paul|Number=Sing
+54	nan	nan	ADP	_	_	_	_	_	gloss=about
+55	kazèn	kazèn	NOUN	_	_	_	_	_	gloss=barracks
+56	lan	lan	DET	_	Definite=Def|PronType=Art	_	_	_	gloss=the
+57	.	.	PUNCT	_	_	49	punct	_	PunctType=Peri
+
+# sent_id = 47012002
+# ref_id = 2 Corinthians 12:2
+# eng_text = I know a man in Christ , fourteen years ago ( whether in the body , I don't know , or whether out of the body , I don't know ; God knows ) , such a one caught up into the third heaven .
+# hat_text = Mwen konnen yon moun k'ap viv nan Kris la , ki te transpòte jouk anwo nèt nan syèl la . Sa gen katòzan depase . ( Mwen pa konn ki jan sa te fè fèt , mwen pa ka di si l te moute tout bon nan kò l , osinon si se te yon vizyon li te fè . Se Bondye sèl ki konnen . )
+1	Mwen	mwen	PRON	_	_	_	_	_	gloss=I
+2	konnen	konnen	VERB	_	_	_	_	_	gloss=know
+3	yon	yon	DET	_	PronType=Art	_	_	_	gloss=a
+4	moun	moun	NOUN	_	_	_	_	_	gloss=person
+5	k'ap	k'ap	AUX	_	Aspect=Prog	_	_	_	gloss=is
+6	viv	viv	VERB	_	_	_	_	_	gloss=live
+7	nan	nan	ADP	_	_	_	_	_	gloss=about
+8	Kris	kris	PROPN	_	_	_	_	_	gloss=Christ
+9	la	la	DET	_	Definite=Def|PronType=Art	_	_	_	gloss=the
+10	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+11	ki	ki	PRON	_	PronType=Rel	_	_	_	gloss=that
+12	te	te	AUX	_	Tense=Past	_	_	_	gloss=past
+13	transpòte	transpòte	VERB	_	_	_	_	_	gloss=carry_away
+14	jouk	jouk	ADP	_	_	_	_	_	gloss=up_to
+15	anwo	anwo	ADV	_	_	_	_	_	gloss=up
+16	nèt	nèt	ADV	_	_	_	_	_	gloss=completely
+17	nan	nan	ADP	_	_	_	_	_	gloss=about
+18	syèl	syèl	NOUN	_	_	_	pobj	_	gloss=heaven|Number=Sing
+19	la	la	DET	_	Definite=Def|PronType=Art	_	_	_	gloss=the
+20	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+21	Sa	sa	PRON	_	_	_	_	_	gloss=what
+22	gen	gen	VERB	_	_	_	_	_	gloss=have
+23	katòzan	katòzan	NUM	_	_	_	_	_	gloss=fourteen_years
+24	depase	depase	VERB	_	_	_	_	_	gloss=pass
+25	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+26	(	(	PUNCT	_	_	_	_	_
+27	Mwen	mwen	PRON	_	_	_	_	_	gloss=I
+28	pa	pa	PART	_	Polarity=Neg	_	_	_	gloss=not
+29	konn	konn	VERB	_	_	_	_	_	gloss=know
+30	ki	ki	PRON	_	PronType=Rel	_	_	_	gloss=that
+31	jan	jan	NOUN	_	_	_	_	_	gloss=way
+32	sa	sa	PRON	_	_	_	_	_	gloss=this
+33	te	te	AUX	_	Tense=Past	_	_	_	gloss=past
+34	fè	fè	VERB	_	_	_	_	_	gloss=make
+35	fèt	fèt	NOUN	_	_	_	_	_	gloss=festival
+36	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+37	mwen	mwen	PRON	_	_	_	_	_	gloss=me
+38	pa	pa	PART	_	Polarity=Neg	_	_	_	gloss=not
+39	ka	ka	AUX	_	_	_	_	_	gloss=can
+40	di	di	VERB	_	_	_	_	_	gloss=say
+41	si	si	SCONJ	_	_	_	_	_	gloss=if
+42	l	l	PRON	_	_	_	_	_	gloss=he
+43	te	te	AUX	_	Tense=Past	_	_	_	gloss=past
+44	moute	moute	VERB	_	_	_	_	_	gloss=go_up
+45	tout	tout	ADV	_	_	_	_	_	gloss=completely
+46	bon	bon	ADV	_	_	_	mark	_	gloss=really
+47	nan	nan	ADP	_	_	_	_	_	gloss=about
+48	kò	kò	NOUN	_	_	_	pobj	_	gloss=body|Number=Sing
+49	l	l	PRON	_	_	_	_	_	gloss=he
+50	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+51	osinon	osinon	CCONJ	_	_	_	cc	_	gloss=or|ConjType=Cmp
+52	si	si	SCONJ	_	_	_	_	_	gloss=if
+53	se	se	AUX	_	_	_	_	_	gloss=be
+54	te	te	AUX	_	Tense=Past	_	_	_	gloss=past
+55	yon	yon	DET	_	PronType=Art	_	_	_	gloss=a
+56	vizyon	vizyon	NOUN	_	_	_	_	_	gloss=vision
+57	li	li	PRON	_	_	_	_	_	gloss=he
+58	te	te	AUX	_	Tense=Past	_	_	_	gloss=past
+59	fè	fè	VERB	_	_	_	_	_	gloss=make
+60	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+61	Se	se	AUX	_	_	_	_	_	gloss=be
+62	Bondye	bondye	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+63	sèl	sèl	ADJ	_	_	_	_	_	gloss=only
+64	ki	ki	PRON	_	PronType=Rel	_	_	_	gloss=that
+65	konnen	konnen	VERB	_	_	_	_	_	gloss=know
+66	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+67	)	)	PUNCT	_	_	_	_	_
+
+# sent_id = 62004009
+# ref_id = 1 John 4:9
+# eng_text = By this was God's love revealed in us , that God has sent his only born Son into the world that we might live through him .
+# hat_text = Men ki jan Bondye fè nou wè jan li renmen nou . Li te voye sèl pitit li a sou latè pou l te ka ban nou lavi .
+1	Men	men	CCONJ	_	_	_	_	_	gloss=but
+2	ki	ki	PRON	_	PronType=Rel	_	_	_	gloss=that
+3	jan	jan	NOUN	_	_	_	_	_	gloss=way
+4	Bondye	bondye	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+5	fè	fè	VERB	_	_	_	_	_	gloss=make
+6	nou	nou	PRON	_	_	_	nsubj	_	gloss=we|Case=Nom|Number=Plur|Person=1|PronType=Prs
+7	wè	wè	VERB	_	_	_	_	_	gloss=see
+8	jan	jan	NOUN	_	_	_	_	_	gloss=way
+9	li	li	PRON	_	_	_	poss	_	gloss=he|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+10	renmen	renmen	VERB	_	_	_	_	_	gloss=love
+11	nou	nou	PRON	_	_	_	nsubj	_	gloss=we|Case=Nom|Number=Plur|Person=1|PronType=Prs
+12	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+13	Li	li	PRON	_	_	_	_	_	gloss=he
+14	te	te	AUX	_	Tense=Past	_	_	_	gloss=past
+15	voye	voye	VERB	_	_	_	_	_	gloss=send
+16	sèl	sèl	ADJ	_	_	_	_	_	gloss=only
+17	pitit	pitit	NOUN	_	_	_	_	_	gloss=child
+18	li	li	PRON	_	_	_	poss	_	gloss=he|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+19	a	a	DET	_	Definite=Def|PronType=Art	_	_	_	gloss=the
+20	sou	sou	ADP	_	_	_	_	_	gloss=on
+21	latè	latè	NOUN	_	_	_	_	_	gloss=earth
+22	pou	pou	PART	_	_	_	_	_	gloss=to
+23	l	l	PRON	_	_	_	_	_	gloss=he
+24	te	te	AUX	_	Tense=Past	_	_	_	gloss=past
+25	ka	ka	AUX	_	_	_	_	_	gloss=can
+26	ban	ban	ADP	_	_	_	_	_	gloss=for
+27	nou	nou	PRON	_	_	_	nsubj	_	gloss=we|Case=Nom|Number=Plur|Person=1|PronType=Prs
+28	lavi	lavi	NOUN	_	_	_	dobj	_	gloss=life|Number=Sing
+29	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 63001005
+# ref_id = 2 John 1:5
+# eng_text = Now I beg you , dear lady , not as though I wrote to you a new commandment , but that which we had from the beginning , that we love one another .
+# hat_text = Kounyeya , men sa m'ap mande ou , Kiriya : se pou nou yonn renmen lòt . Se pa yon lòt kòmandman tou nèf m'ap ekri la a ban nou . Se menm kòmandman nou te genyen depi nan konmansman an .
+1	Kounyeya	kounyeya	ADV	_	_	_	_	_	gloss=now
+2	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+3	men	men	CCONJ	_	_	_	_	_	gloss=but
+4	sa	sa	PRON	_	_	_	_	_	gloss=this
+5	m'ap	m'ap	AUX	_	Aspect=Prog|Person=1	_	_	_	gloss=I_am
+6	mande	mande	VERB	_	_	_	_	_	gloss=ask
+7	ou	ou	PRON	_	Person=2|PronType=Prs	_	_	_	gloss=you
+8	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+9	Kiriya	kiriya	PROPN	_	_	0	root	_	gloss=Kyria
+10	:	:	PUNCT	_	_	_	_	_
+11	se	se	AUX	_	_	_	_	_	gloss=be
+12	pou	pou	PART	_	_	_	aux	_	gloss=to
+13	nou	nou	PRON	_	_	_	nsubj	_	gloss=we|Case=Nom|Number=Plur|Person=1|PronType=Prs
+14	yonn	yonn	PRON	_	_	_	_	_	gloss=one
+15	renmen	renmen	VERB	_	_	9	ccomp	_	gloss=love|VerbForm=Inf
+16	lòt	lòt	PRON	_	_	_	_	_	gloss=the_other
+17	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+18	Se	se	AUX	_	_	_	_	_	gloss=be
+19	pa	pa	PART	_	Polarity=Neg	_	_	_	gloss=not
+20	yon	yon	DET	_	PronType=Art	_	_	_	gloss=a
+21	lòt	lòt	PRON	_	_	_	_	_	gloss=the_other
+22	kòmandman	kòmandman	NOUN	_	_	_	attr	_	gloss=commandment|Number=Sing
+23	tou	tou	ADV	_	_	_	_	_	gloss=all
+24	nèf	nèf	ADJ	_	_	22	amod	_	gloss=new|Degree=Pos
+25	m'ap	m'ap	AUX	_	Aspect=Prog|Person=1	_	_	_	gloss=I_am
+26	ekri	ekri	VERB	_	_	_	_	_	gloss=write
+27	la	la	DET	_	Definite=Def|PronType=Art	_	_	_	gloss=the
+28	a	a	DET	_	Definite=Def|PronType=Art	_	_	_	gloss=the
+29	ban	ban	ADP	_	_	_	_	_	gloss=for
+30	nou	nou	PRON	_	_	_	nsubj	_	gloss=we|Case=Nom|Number=Plur|Person=1|PronType=Prs
+31	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+32	Se	se	AUX	_	_	_	_	_	gloss=be
+33	menm	menm	ADV	_	_	_	_	_	gloss=indeed
+34	kòmandman	kòmandman	NOUN	_	_	_	attr	_	gloss=commandment|Number=Sing
+35	nou	nou	PRON	_	_	_	nsubj	_	gloss=we|Case=Nom|Number=Plur|Person=1|PronType=Prs
+36	te	te	AUX	_	Tense=Past	_	_	_	gloss=past
+37	genyen	genyen	VERB	_	_	_	_	_	gloss=exist
+38	depi	depi	ADP	_	_	_	_	_	gloss=from
+39	nan	nan	ADP	_	_	_	_	_	gloss=about
+40	konmansman	konmansman	NOUN	_	_	_	pobj	_	gloss=beginning|Number=Sing
+41	an	an	DET	_	Definite=Def|PronType=Art	_	_	_	gloss=the
+42	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+

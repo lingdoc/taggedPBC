@@ -1,0 +1,1023 @@
+## The following text has been annotated for parts of speech by students at NTU Singapore as part of a class project in AY 2025-26.
+## Verses are extracted from the taggedPBC. Annotations have been developed with a combination of manual and automated approaches, with reference to existing literature and (where possible) native speakers.
+## ISO 639-3: cbk, Language: Chavacano, Number of verses: 21
+
+# sent_id = 40006024
+# ref_id = Matthew 6:24
+# eng_text = " No one can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You can't serve both God and Mammon .
+# cbk_text = “ Nuay ningunos puede trabaja con dos amo , cay ay odia le con el uno y ay ama con el otro , o ay obedece enbuenamente con el uno y hende le hace caso con el otro , poreso no puede ustedes adora con Dios y adora tamen con el riqueza de este mundo .
+1	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+2	Nuay	nuay	PART	_	_	_	_	_	gloss=ty
+3	ningunos	ningunos	PRON	_	_	_	_	_	gloss=ring
+4	puede	puede	AUX	_	_	_	_	_	gloss=could
+5	trabaja	trabaja	VERB	_	_	_	_	_	gloss=burden
+6	con	con	ADP	_	_	40	prep	_	gloss=to
+7	dos	dos	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+8	amo	amo	NOUN	_	_	_	_	_	gloss=andered
+9	,	,	PUNCT	_	_	_	_	_
+10	cay	cay	SCONJ	_	_	_	_	_	gloss=because
+11	ay	ay	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+12	odia	odia	VERB	_	_	_	ccomp	_	gloss=hate|VerbForm=Inf
+13	le	le	PRON	_	_	_	_	_	gloss=he
+14	con	con	ADP	_	_	40	prep	_	gloss=to
+15	el	el	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+16	uno	uno	PRON	_	_	_	_	_	gloss=each
+17	y	y	CCONJ	_	_	46	cc	_	gloss=and|ConjType=Cmp
+18	ay	ay	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+19	ama	ama	VERB	_	_	12	conj	_	gloss=love|VerbForm=Inf
+20	con	con	ADP	_	_	40	prep	_	gloss=to
+21	el	el	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+22	otro	otro	PRON	_	_	_	_	_	gloss=another
+23	,	,	PUNCT	_	_	_	_	_
+24	o	o	CCONJ	_	_	_	_	_	gloss=or
+25	ay	ay	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+26	obedece	obedece	VERB	_	_	_	_	_	gloss=obey
+27	enbuenamente	enbuenamente	ADV	_	_	_	_	_	gloss=orious
+28	con	con	ADP	_	_	40	prep	_	gloss=to
+29	el	el	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+30	uno	uno	PRON	_	_	_	_	_	gloss=each
+31	y	y	CCONJ	_	_	46	cc	_	gloss=and|ConjType=Cmp
+32	hende	hende	PART	_	_	_	neg	_	gloss=not|Polarity=Neg
+33	le	le	PRON	_	_	_	_	_	gloss=he
+34	hace	hace	VERB	_	_	_	_	_	gloss=done
+35	caso	caso	NOUN	_	_	_	_	_	gloss=ign
+36	con	con	ADP	_	_	40	prep	_	gloss=to
+37	el	el	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+38	otro	otro	PRON	_	_	_	_	_	gloss=another
+39	,	,	PUNCT	_	_	_	_	_
+40	poreso	poreso	VERB	_	_	_	acomp	_	gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+41	no	no	PART	_	_	_	_	_	gloss=don’t
+42	puede	puede	AUX	_	_	_	_	_	gloss=could
+43	ustedes	ustedes	PRON	_	_	_	nsubj	_	gloss=you|Case=Nom|Person=2|PronType=Prs
+44	adora	adora	VERB	_	_	_	_	_	gloss=worship
+45	con	con	ADP	_	_	40	prep	_	gloss=to
+46	Dios	dios	PROPN	_	_	_	dobj	_	gloss=God|Number=Sing
+47	y	y	CCONJ	_	_	46	cc	_	gloss=and|ConjType=Cmp
+48	adora	adora	VERB	_	_	_	_	_	gloss=worship
+49	tamen	tamen	ADV	_	_	_	_	_	gloss=amount
+50	con	con	ADP	_	_	40	prep	_	gloss=to
+51	el	el	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+52	riqueza	riqueza	NOUN	_	_	_	_	_	gloss=treasures
+53	de	de	ADP	_	_	_	_	_	gloss=val
+54	este	este	DET	_	_	_	_	_	gloss=this
+55	mundo	mundo	NOUN	_	_	_	_	_	gloss=world
+56	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 40018012
+# ref_id = Matthew 18:12
+# eng_text = " What do you think ? If a man has one hundred sheep , and one of them goes astray , doesn't he leave the ninety-nine , go to the mountains , and seek that which has gone astray ?
+# cbk_text = “ Cosa man el di ustedes opinion acerca de este historia que ay habla yo ? Si un gente tiene cien cabeza de carnero y uno de esos ya estrabia de camino , ay deja le dayun el noventa y nueve carnero na savana y ay anda anay busca con el carnero estrabiao hende ba ?
+1	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+2	Cosa	cosa	PRON	_	_	_	_	_	gloss=What
+3	man	man	PART	_	_	_	_	_	gloss=bling
+4	el	el	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+5	di	di	ADP	_	_	_	_	_	gloss=your
+6	ustedes	ustedes	PRON	_	_	_	_	_	gloss=you
+7	opinion	opinion	NOUN	_	_	_	_	_	gloss=tax
+8	acerca	acerca	ADP	_	_	_	_	_	gloss=about
+9	de	de	ADP	_	_	_	_	_	gloss=val
+10	este	este	DET	_	_	_	_	_	gloss=this
+11	historia	historia	NOUN	_	_	_	_	_
+12	que	que	PRON	_	_	_	_	_	gloss=pl
+13	ay	ay	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+14	habla	habla	VERB	_	_	_	_	_	gloss=said
+15	yo	yo	PRON	_	_	_	_	_	gloss=I
+16	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+17	Si	si	SCONJ	_	_	_	mark	_	gloss=If
+18	un	un	DET	_	_	21	quantmod	_	gloss=a|Definite=Ind|PronType=Art
+19	gente	gente	NOUN	_	_	_	nsubj	_	gloss=man|Number=Sing
+20	tiene	tiene	VERB	_	_	_	_	_	gloss=assion
+21	cien	cien	NUM	_	_	53	nummod	_	gloss=hundred|NumType=Card
+22	cabeza	cabeza	NOUN	_	_	_	_	_	gloss=head
+23	de	de	ADP	_	_	_	_	_	gloss=val
+24	carnero	carnero	NOUN	_	_	_	dobj	_	gloss=sheep|Number=Plur
+25	y	y	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+26	uno	uno	PRON	_	_	_	_	_	gloss=each
+27	de	de	ADP	_	_	_	_	_	gloss=val
+28	esos	esos	PRON	_	_	_	_	_	gloss=ys
+29	ya	ya	AUX	_	_	_	_	_	gloss=was
+30	estrabia	estrabia	VERB	_	_	_	_	_	gloss=Won’t
+31	de	de	ADP	_	_	_	_	_	gloss=val
+32	camino	camino	NOUN	_	_	_	_	_	gloss=road
+33	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+34	ay	ay	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+35	deja	deja	VERB	_	_	_	_	_	gloss=leaving
+36	le	le	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+37	dayun	dayun	ADV	_	_	_	_	_	gloss=immediately
+38	el	el	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+39	noventa	noventa	NUM	_	_	_	_	_	gloss=Won’t
+40	y	y	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+41	nueve	nueve	NUM	_	_	_	_	_	gloss=Won’t
+42	carnero	carnero	NOUN	_	_	_	dobj	_	gloss=sheep|Number=Plur
+43	na	na	ADP	_	_	_	prep	_	gloss=on
+44	savana	savana	NOUN	_	_	_	_	_
+45	y	y	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+46	ay	ay	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+47	anda	anda	VERB	_	_	_	_	_	gloss=went
+48	anay	anay	ADV	_	_	_	_	_	gloss=Tyre
+49	busca	busca	VERB	_	_	_	advcl	_	gloss=search|VerbForm=Inf
+50	con	con	PART	_	_	49	aux	_	gloss=to
+51	el	el	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+52	carnero	carnero	NOUN	_	_	_	dobj	_	gloss=sheep|Number=Plur
+53	estrabiao	estrabiao	NOUN	_	_	_	dobj	_	gloss=sheep|Number=Plur
+54	hende	hende	PART	_	_	_	_	_	gloss=not
+55	ba	ba	PART	_	_	_	_	_	gloss=Are
+56	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 40020021
+# ref_id = Matthew 20:21
+# eng_text = He said to her , " What do you want ? " She said to him , " Command that these , my two sons , may sit , one on your right hand , and one on your left hand , in your kingdom . "
+# cbk_text = Ya pregunta si Jesus con ele , “ Cosa man uste quiere ? ” Ya contesta el mujer , “ Señor , permiti lang uste con el di mio dos anak senta uno na di uste lao derecha y uno na di uste lao isquierda alla donde uste ay reina . ”
+1	Ya	ya	AUX	_	_	_	_	_	gloss=Ph
+2	pregunta	pregunta	VERB	_	_	0	root	_	gloss=asked|Tense=Past|VerbForm=Fin
+3	si	si	ADP	_	_	_	_	_	gloss=a
+4	Jesus	jesus	PROPN	_	_	_	_	_	gloss=ea
+5	con	con	ADP	_	_	_	prep	_	gloss=to
+6	ele	ele	PRON	_	_	_	_	_	gloss=him
+7	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+8	“	“	PUNCT	_	_	16	punct	_	PunctSide=Ini|PunctType=Quot
+9	Cosa	cosa	PRON	_	_	_	attr	_	gloss=What
+10	man	man	PART	_	_	_	_	_	gloss=bling
+11	uste	uste	PRON	_	_	_	_	_	gloss=fellow
+12	quiere	quiere	VERB	_	_	_	_	_	gloss=willing
+13	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+14	”	”	PUNCT	_	_	16	punct	_	PunctSide=Fin|PunctType=Quot
+15	Ya	ya	AUX	_	_	_	_	_	gloss=Ph
+16	contesta	contesta	VERB	_	_	0	root	_	gloss=replied|Tense=Past|VerbForm=Fin
+17	el	el	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+18	mujer	mujer	NOUN	_	_	_	_	_	gloss=meetings
+19	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+20	“	“	PUNCT	_	_	16	punct	_	PunctSide=Ini|PunctType=Quot
+21	Señor	señor	PROPN	_	_	_	_	_	gloss=Lord
+22	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+23	permiti	permiti	VERB	_	_	_	_	_	gloss=short
+24	lang	lang	ADV	_	_	_	_	_	gloss=only
+25	uste	uste	PRON	_	_	_	_	_	gloss=fellow
+26	con	con	ADP	_	_	_	prep	_	gloss=to
+27	el	el	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+28	di	di	PRON	_	_	_	poss	_	gloss=your|Person=2|Poss=Yes|PronType=Prs
+29	mio	mio	PRON	_	_	_	poss	_	gloss=my|Number=Sing|Person=1|Poss=Yes|PronType=Prs
+30	dos	dos	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+31	anak	anak	NOUN	_	_	_	_	_	gloss=children
+32	senta	senta	VERB	_	_	_	_	_	gloss=sat
+33	uno	uno	PRON	_	_	_	_	_	gloss=each
+34	na	na	ADP	_	_	_	prep	_	gloss=on
+35	di	di	PRON	_	_	_	poss	_	gloss=your|Person=2|Poss=Yes|PronType=Prs
+36	uste	uste	PRON	_	_	_	_	_	gloss=fellow
+37	lao	lao	NOUN	_	_	_	_	_	gloss=lake
+38	derecha	derecha	NOUN	_	_	41	pobj	_	gloss=right|Number=Sing
+39	y	y	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+40	uno	uno	PRON	_	_	_	_	_	gloss=each
+41	na	na	ADP	_	_	_	prep	_	gloss=on
+42	di	di	PRON	_	_	_	poss	_	gloss=your|Person=2|Poss=Yes|PronType=Prs
+43	uste	uste	PRON	_	_	_	_	_	gloss=fellow
+44	lao	lao	NOUN	_	_	_	_	_	gloss=lake
+45	isquierda	isquierda	NOUN	_	_	_	pobj	_	gloss=places|Number=Plur
+46	alla	alla	ADV	_	_	_	_	_	gloss=ss
+47	donde	donde	PRON	_	_	_	_	_	gloss=where
+48	uste	uste	PRON	_	_	_	_	_	gloss=fellow
+49	ay	ay	AUX	_	_	_	_	_	gloss=will
+50	reina	reina	PROPN	_	_	_	pobj	_	gloss=Kingdom|Number=Sing
+51	.	.	PUNCT	_	_	16	punct	_	PunctType=Peri
+52	”	”	PUNCT	_	_	16	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 40026002
+# ref_id = Matthew 26:2
+# eng_text = " You know that after two days the Passover is coming , and the Son of Man will be delivered up to be crucified . "
+# cbk_text = “ Sabe ustedes que pasao mañana ay celebra kita el Passover , y durante ese celebracion el Hijo del Hombre ay queda entregao na mano del di suyo enemigo para ay crucifica sila con ele . ”
+1	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+2	Sabe	sabe	VERB	_	_	_	_	_	gloss=loses
+3	ustedes	ustedes	PRON	_	_	_	nsubj	_	gloss=you|Case=Nom|Person=2|PronType=Prs
+4	que	que	PRON	_	_	_	_	_	gloss=pl
+5	pasao	pasao	ADV	_	_	_	_	_	gloss=flavor
+6	mañana	mañana	ADV	_	_	_	_	_	gloss=next
+7	ay	ay	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+8	celebra	celebra	VERB	_	_	_	_	_	gloss=fatt
+9	kita	kita	PRON	_	_	_	_	_	gloss=date
+10	el	el	DET	_	_	18	det	_	gloss=the|Definite=Def|PronType=Art
+11	Passover	passover	PROPN	_	_	_	nsubj	_	gloss=Passover|Number=Sing
+12	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+13	y	y	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+14	durante	durante	ADP	_	_	_	_	_	gloss=forty
+15	ese	ese	DET	_	_	_	_	_	gloss=crimin
+16	celebracion	celebracion	NOUN	_	_	_	_	_	gloss=feast
+17	el	el	DET	_	_	18	det	_	gloss=the|Definite=Def|PronType=Art
+18	Hijo	hijo	PROPN	_	_	_	nsubjpass	_	gloss=Son|Number=Sing
+19	del	del	ADP	_	_	_	prep	_	gloss=in
+20	Hombre	hombre	PROPN	_	_	_	pobj	_	gloss=Man|Number=Sing
+21	ay	ay	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+22	queda	queda	VERB	_	_	_	_	_	gloss=became
+23	entregao	entregao	VERB	_	_	_	_	_	gloss=betrayed
+24	na	na	ADP	_	_	_	_	_	gloss=on
+25	mano	mano	NOUN	_	_	_	_	_	gloss=hand
+26	del	del	ADP	_	_	_	prep	_	gloss=in
+27	di	di	ADP	_	_	_	_	_	gloss=your
+28	suyo	suyo	PRON	_	_	_	_	_	gloss=gam
+29	enemigo	enemigo	NOUN	_	_	_	_	_	gloss=enemy
+30	para	para	ADP	_	_	_	_	_	gloss=so
+31	ay	ay	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+32	crucifica	crucifica	VERB	_	_	_	advcl	_	gloss=crucified|Aspect=Perf|Tense=Past|VerbForm=Part
+33	sila	sila	PRON	_	_	_	_	_	gloss=they
+34	con	con	PART	_	_	32	aux	_	gloss=to
+35	ele	ele	PRON	_	_	_	_	_	gloss=him
+36	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+37	”	”	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 40026061
+# ref_id = Matthew 26:61
+# eng_text = and said , " This man said , ' I am able to destroy the temple of God , and to build it in three days . ' "
+# cbk_text = Na ultimo ya llega dos testigo quien ya habla , “ Antes pa , ya oi came con este gente ta habla , ‘ Puede yo destrosa el templo de Dios , y despues de tres dias puede yo planta ole ! ’ ”
+1	Na	na	ADP	_	_	_	_	_	gloss=responded
+2	ultimo	ultimo	ADJ	_	_	_	_	_	gloss=ream
+3	ya	ya	AUX	_	_	_	_	_	gloss=was
+4	llega	llega	VERB	_	_	_	_	_	gloss=arrived
+5	dos	dos	NUM	_	_	_	_	_	gloss=two
+6	testigo	testigo	NOUN	_	_	_	_	_	gloss=witnesses
+7	quien	quien	PRON	_	_	_	_	_	gloss=ily
+8	ya	ya	AUX	_	_	_	_	_	gloss=was
+9	habla	habla	VERB	_	_	_	ccomp	_	gloss=said|Tense=Past|VerbForm=Fin
+10	,	,	PUNCT	_	_	9	punct	_	PunctType=Comm
+11	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+12	Antes	antes	ADV	_	_	_	_	_	gloss=sw
+13	pa	pa	PART	_	_	_	_	_	gloss=al
+14	,	,	PUNCT	_	_	9	punct	_	PunctType=Comm
+15	ya	ya	AUX	_	_	_	_	_	gloss=was
+16	oi	oi	VERB	_	_	_	_	_	gloss=heard
+17	came	came	PRON	_	_	_	_	_	gloss=We
+18	con	con	PART	_	_	27	aux	_	gloss=to
+19	este	este	DET	_	_	_	_	_	gloss=this
+20	gente	gente	NOUN	_	_	22	nsubj	_	gloss=man|Number=Sing
+21	ta	ta	AUX	_	_	_	_	_	gloss=is
+22	habla	habla	VERB	_	_	_	ccomp	_	gloss=said|Tense=Past|VerbForm=Fin
+23	,	,	PUNCT	_	_	22	punct	_	PunctType=Comm
+24	‘	‘	PUNCT	_	_	22	punct	_	PunctSide=Ini|PunctType=Quot
+25	Puede	puede	AUX	_	_	_	_	_	gloss=ild
+26	yo	yo	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+27	destrosa	destrosa	VERB	_	_	_	xcomp	_	gloss=destroy|VerbForm=Inf
+28	el	el	DET	_	_	29	det	_	gloss=the|Definite=Def|PronType=Art
+29	templo	templo	PROPN	_	_	27	dobj	_	gloss=Temple|Number=Sing
+30	de	de	ADP	_	_	_	_	_	gloss=val
+31	Dios	dios	PROPN	_	_	_	pobj	_	gloss=God|Number=Sing
+32	,	,	PUNCT	_	_	22	punct	_	PunctType=Comm
+33	y	y	CCONJ	_	_	27	cc	_	gloss=and|ConjType=Cmp
+34	despues	despues	ADV	_	_	_	_	_	gloss=brings
+35	de	de	ADP	_	_	_	_	_	gloss=val
+36	tres	tres	NUM	_	_	37	nummod	_	gloss=three|NumType=Card
+37	dias	dias	NOUN	_	_	_	pobj	_	gloss=days|Number=Plur
+38	puede	puede	AUX	_	_	_	_	_	gloss=could
+39	yo	yo	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+40	planta	planta	VERB	_	_	_	_	_	gloss=des
+41	ole	ole	ADV	_	_	_	_	_	gloss=again
+42	!	!	PUNCT	_	_	_	_	_
+43	’	’	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+44	”	”	PUNCT	_	_	0	root	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 40028016
+# ref_id = Matthew 28:16
+# eng_text = But the eleven disciples went into Galilee , to the mountain where Jesus had sent them .
+# cbk_text = Ahora , el once dicipulo ya anda na un monte alla na Galilea , donde si Jesus ya manda canila anda .
+1	Ahora	ahora	ADV	_	_	_	_	_	gloss=aven’t
+2	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+3	el	el	DET	_	_	10	det	_	gloss=the|Definite=Def|PronType=Art
+4	once	once	NUM	_	_	_	_	_
+5	dicipulo	dicipulo	NOUN	_	_	_	nsubj	_	gloss=disciples|Number=Plur
+6	ya	ya	AUX	_	_	_	_	_	gloss=was
+7	anda	anda	VERB	_	_	_	_	_	gloss=went
+8	na	na	ADP	_	_	_	_	_	gloss=on
+9	un	un	DET	_	_	_	_	_	gloss=a
+10	monte	monte	NOUN	_	_	_	pobj	_	gloss=mountain|Number=Sing
+11	alla	alla	ADV	_	_	_	_	_	gloss=ss
+12	na	na	ADP	_	_	_	_	_	gloss=on
+13	Galilea	galilea	PROPN	_	_	_	pobj	_	gloss=Galilee|Number=Sing
+14	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+15	donde	donde	SCONJ	_	_	_	advmod	_	gloss=where
+16	si	si	ADP	_	_	_	_	_	gloss=a
+17	Jesus	jesus	PROPN	_	_	_	_	_	gloss=ea
+18	ya	ya	AUX	_	_	_	_	_	gloss=was
+19	manda	manda	VERB	_	_	_	_	_	gloss=instruct
+20	canila	canila	PRON	_	_	_	dobj	_	gloss=them|Case=Acc|Number=Plur|Person=3|PronType=Prs
+21	anda	anda	VERB	_	_	_	_	_	gloss=went
+22	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41002023
+# ref_id = Mark 2:23
+# eng_text = It happened , that he was going on the Sabbath day through the grain fields , and his disciples began , as they went , to pluck the ears of grain .
+# cbk_text = Un Sabado , el dia de descanso del maga Judio , si Jesus y su maga dicipulo ta camina na tablon de trigo . Y mientras ta camina sila , el maga dicipulo ta corta cuanto bilug del maga espigas de trigo .
+1	Un	un	NUM	_	_	5	nummod	_	gloss=One|NumType=Card
+2	Sabado	sabado	PROPN	_	_	5	compound	_	gloss=Sabbath|Number=Sing
+3	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+4	el	el	DET	_	_	_	_	_	gloss=the
+5	dia	dia	NOUN	_	_	_	npadvmod	_	gloss=day|Number=Sing
+6	de	de	ADP	_	_	_	_	_	gloss=val
+7	descanso	descanso	NOUN	_	_	_	_	_	gloss=rest
+8	del	del	ADP	_	_	_	_	_	gloss=in
+9	maga	maga	PART	_	_	_	_	_	gloss=ent
+10	Judio	judio	PROPN	_	_	_	_	_	gloss=Jews
+11	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+12	si	si	ADP	_	_	_	_	_	gloss=a
+13	Jesus	jesus	PROPN	_	_	_	_	_	gloss=ea
+14	y	y	CCONJ	_	_	_	_	_	gloss=and
+15	su	su	DET	_	_	_	_	_	gloss=ered
+16	maga	maga	PART	_	_	_	_	_	gloss=ent
+17	dicipulo	dicipulo	NOUN	_	_	_	nsubj	_	gloss=disciples|Number=Plur
+18	ta	ta	AUX	_	_	_	_	_	gloss=is
+19	camina	camina	VERB	_	_	_	advcl	_	gloss=walking|Aspect=Prog|Tense=Pres|VerbForm=Part
+20	na	na	ADP	_	_	_	_	_	gloss=on
+21	tablon	tablon	NOUN	_	_	_	_	_	gloss=field
+22	de	de	ADP	_	_	_	_	_	gloss=val
+23	trigo	trigo	NOUN	_	_	_	_	_	gloss=wheat
+24	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+25	Y	y	CCONJ	_	_	_	_	_	gloss=Crucify
+26	mientras	mientras	SCONJ	_	_	_	_	_	gloss=ene
+27	ta	ta	AUX	_	_	_	_	_	gloss=is
+28	camina	camina	VERB	_	_	_	advcl	_	gloss=walking|Aspect=Prog|Tense=Pres|VerbForm=Part
+29	sila	sila	PRON	_	_	_	_	_	gloss=they
+30	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+31	el	el	DET	_	_	_	_	_	gloss=the
+32	maga	maga	PART	_	_	_	_	_	gloss=ent
+33	dicipulo	dicipulo	NOUN	_	_	_	nsubj	_	gloss=disciples|Number=Plur
+34	ta	ta	AUX	_	_	_	_	_	gloss=is
+35	corta	corta	VERB	_	_	_	_	_	gloss=priest’s
+36	cuanto	cuanto	DET	_	_	_	_	_	gloss=few
+37	bilug	bilug	NOUN	_	_	_	_	_	gloss=loaves
+38	del	del	ADP	_	_	_	_	_	gloss=in
+39	maga	maga	PART	_	_	_	_	_	gloss=ent
+40	espigas	espigas	NOUN	_	_	_	_	_
+41	de	de	ADP	_	_	_	_	_	gloss=val
+42	trigo	trigo	NOUN	_	_	_	_	_	gloss=wheat
+43	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41012032
+# ref_id = Mark 12:32
+# eng_text = The scribe said to him , " Truly , teacher , you have said well that he is one , and there is none other but he ,
+# cbk_text = Despues el maga maestro Judio ya habla con Jesus , “ Maestro , deverasan gayot todo el ta habla uste , que tiene kita un Dios lang gayot y nuay mas otro ,
+1	Despues	despues	ADV	_	_	_	_	_	gloss=sor
+2	el	el	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+3	maga	maga	PART	_	_	_	_	_	gloss=ent
+4	maestro	maestro	NOUN	_	_	_	_	_	gloss=teachers
+5	Judio	judio	PROPN	_	_	_	_	_	gloss=Jews
+6	ya	ya	AUX	_	_	_	_	_	gloss=was
+7	habla	habla	VERB	_	_	_	ccomp	_	gloss=said|Tense=Past|VerbForm=Fin
+8	con	con	ADP	_	_	_	_	_	gloss=to
+9	Jesus	jesus	PROPN	_	_	_	_	_	gloss=ea
+10	,	,	PUNCT	_	_	7	punct	_	PunctType=Comm
+11	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+12	Maestro	maestro	NOUN	_	_	7	npadvmod	_	gloss=Teacher|Number=Sing
+13	,	,	PUNCT	_	_	7	punct	_	PunctType=Comm
+14	deverasan	deverasan	ADV	_	_	_	_	_	gloss=motives
+15	gayot	gayot	ADV	_	_	_	_	_	gloss=struck
+16	todo	todo	PRON	_	_	_	_	_	gloss=everything
+17	el	el	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+18	ta	ta	VERB	_	_	_	ccomp	_	gloss=is|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+19	habla	habla	VERB	_	_	_	ccomp	_	gloss=said|Tense=Past|VerbForm=Fin
+20	uste	uste	PRON	_	_	_	_	_	gloss=fellow
+21	,	,	PUNCT	_	_	19	punct	_	PunctType=Comm
+22	que	que	PRON	_	_	_	_	_	gloss=pl
+23	tiene	tiene	VERB	_	_	_	_	_	gloss=assion
+24	kita	kita	PRON	_	_	_	_	_	gloss=date
+25	un	un	DET	_	_	_	_	_	gloss=a
+26	Dios	dios	PROPN	_	_	18	attr	_	gloss=God|Number=Sing
+27	lang	lang	ADV	_	_	_	advmod	_	gloss=only
+28	gayot	gayot	ADV	_	_	_	_	_	gloss=struck
+29	y	y	CCONJ	_	_	26	cc	_	gloss=and|ConjType=Cmp
+30	nuay	nuay	PART	_	_	_	_	_	gloss=didn’t
+31	mas	mas	ADV	_	_	_	_	_	gloss=more
+32	otro	otro	PRON	_	_	_	_	_	gloss=another
+33	,	,	PUNCT	_	_	19	punct	_	PunctType=Comm
+
+# sent_id = 41014037
+# ref_id = Mark 14:37
+# eng_text = He came and found them sleeping , and said to Peter , " Simon , are you sleeping ? Couldn't you watch one hour ?
+# cbk_text = Cuando ya acaba le reza , ya bira le con el tres dicipulo , y ya mira le que bien durmido sila . Y ya habla le con Pedro , “ Simon , durmido ba tu ? No puede ba tu esta dispierto masquin por un hora lang ?
+1	Cuando	cuando	SCONJ	_	_	_	_	_	gloss=ast
+2	ya	ya	AUX	_	_	_	_	_	gloss=was
+3	acaba	acaba	VERB	_	_	_	_	_	gloss=finished
+4	le	le	PRON	_	_	8	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+5	reza	reza	VERB	_	_	_	_	_	gloss=pray
+6	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+7	ya	ya	AUX	_	_	_	_	_	gloss=was
+8	bira	bira	VERB	_	_	0	root	_	gloss=returned|Tense=Past|VerbForm=Fin
+9	le	le	PRON	_	_	8	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+10	con	con	ADP	_	_	26	prep	_	gloss=to
+11	el	el	DET	_	_	13	det	_	gloss=the|Definite=Def|PronType=Art
+12	tres	tres	NUM	_	_	_	_	_	gloss=three
+13	dicipulo	dicipulo	NOUN	_	_	_	nsubj	_	gloss=disciples|Number=Plur
+14	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+15	y	y	CCONJ	_	_	8	cc	_	gloss=and|ConjType=Cmp
+16	ya	ya	AUX	_	_	_	_	_	gloss=was
+17	mira	mira	VERB	_	_	_	_	_	gloss=saw
+18	le	le	PRON	_	_	8	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+19	que	que	PRON	_	_	_	_	_	gloss=pl
+20	bien	bien	ADV	_	_	_	_	_	gloss=imate
+21	durmido	durmido	ADJ	_	_	_	_	_	gloss=exh
+22	sila	sila	PRON	_	_	_	_	_	gloss=they
+23	.	.	PUNCT	_	_	8	punct	_	PunctType=Peri
+24	Y	y	CCONJ	_	_	_	_	_	gloss=Crucify
+25	ya	ya	AUX	_	_	_	_	_	gloss=was
+26	habla	habla	VERB	_	_	0	root	_	gloss=said|Tense=Past|VerbForm=Fin
+27	le	le	PRON	_	_	8	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+28	con	con	ADP	_	_	26	prep	_	gloss=to
+29	Pedro	pedro	PROPN	_	_	28	pobj	_	gloss=Peter|Number=Sing
+30	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+31	“	“	PUNCT	_	_	26	punct	_	PunctSide=Ini|PunctType=Quot
+32	Simon	simon	PROPN	_	_	_	npadvmod	_	gloss=Simon|Number=Sing
+33	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+34	durmido	durmido	ADJ	_	_	_	_	_	gloss=exh
+35	ba	ba	PART	_	_	_	_	_	gloss=Are
+36	tu	tu	PRON	_	_	_	_	_	gloss=Write
+37	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+38	No	no	PART	_	_	_	_	_	gloss=Don’t
+39	puede	puede	AUX	_	_	_	_	_	gloss=could
+40	ba	ba	PART	_	_	_	_	_	gloss=Are
+41	tu	tu	PRON	_	_	_	_	_	gloss=Write
+42	esta	esta	VERB	_	_	_	_	_	gloss=remain
+43	dispierto	dispierto	ADJ	_	_	_	_	_	gloss=burglar
+44	masquin	masquin	ADV	_	_	_	_	_	gloss=largest
+45	por	por	ADP	_	_	_	_	_	gloss=use
+46	un	un	DET	_	_	_	_	_	gloss=a
+47	hora	hora	NOUN	_	_	_	npadvmod	_	gloss=hour|Number=Sing
+48	lang	lang	ADV	_	_	_	_	_	gloss=only
+49	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 42004002
+# ref_id = Luke 4:2
+# eng_text = for forty days , being tempted by the devil . He ate nothing in those days . Afterward , when they were completed , he was hungry .
+# cbk_text = Durante el cuarenta dias na desierto si Satanas ta tenta con ele , y durante ese tiempo si Jesus nuay come nada , poreso cuando ya acaba aquel cuarenta dias , bien con hambre le .
+1	Durante	durante	ADP	_	_	_	_	_	gloss=ean
+2	el	el	DET	_	_	8	det	_	gloss=the|Definite=Def|PronType=Art
+3	cuarenta	cuarenta	NUM	_	_	4	nummod	_	gloss=forty|NumType=Card
+4	dias	dias	NOUN	_	_	_	pobj	_	gloss=days|Number=Plur
+5	na	na	ADP	_	_	_	_	_	gloss=on
+6	desierto	desierto	NOUN	_	_	_	_	_	gloss=wilderness
+7	si	si	ADP	_	_	_	_	_	gloss=a
+8	Satanas	satanas	NOUN	_	_	_	pobj	_	gloss=devil|Number=Sing
+9	ta	ta	AUX	_	_	_	_	_	gloss=is
+10	tenta	tenta	VERB	_	_	_	_	_	gloss=tempt
+11	con	con	ADP	_	_	_	_	_	gloss=to
+12	ele	ele	PRON	_	_	_	_	_	gloss=him
+13	,	,	PUNCT	_	_	_	_	_
+14	y	y	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+15	durante	durante	NUM	_	_	4	nummod	_	gloss=forty|NumType=Card
+16	ese	ese	DET	_	_	_	_	_	gloss=crimin
+17	tiempo	tiempo	NOUN	_	_	_	_	_	gloss=ean
+18	si	si	ADP	_	_	_	_	_	gloss=a
+19	Jesus	jesus	PROPN	_	_	_	_	_	gloss=ea
+20	nuay	nuay	PART	_	_	_	_	_	gloss=didn’t
+21	come	come	VERB	_	_	_	_	_	gloss=eat
+22	nada	nada	PRON	_	_	_	_	_	gloss=fade
+23	,	,	PUNCT	_	_	_	_	_
+24	poreso	poreso	ADV	_	_	_	_	_	gloss=devoted
+25	cuando	cuando	SCONJ	_	_	_	_	_	gloss=ened
+26	ya	ya	AUX	_	_	_	auxpass	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+27	acaba	acaba	VERB	_	_	_	_	_	gloss=finished
+28	aquel	aquel	DET	_	_	_	_	_	gloss=calf
+29	cuarenta	cuarenta	NUM	_	_	30	nummod	_	gloss=forty|NumType=Card
+30	dias	dias	NOUN	_	_	_	pobj	_	gloss=days|Number=Plur
+31	,	,	PUNCT	_	_	_	_	_
+32	bien	bien	ADV	_	_	_	_	_	gloss=imate
+33	con	con	ADP	_	_	_	_	_	gloss=to
+34	hambre	hambre	ADJ	_	_	_	acomp	_	gloss=hungry|Degree=Pos
+35	le	le	PRON	_	_	_	nsubjpass	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+36	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 42016013
+# ref_id = Luke 16:13
+# eng_text = No servant can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You aren't able to serve God and mammon . "
+# cbk_text = “ Nuay ayudante ay puede trabaja con dos amo , cay ay odia le con el uno y ay ama con el otro , o ay obedece enbuenamente con el uno y hende le hace caso con el otro , poreso no puede ustedes adora con Dios y adora tamen con el riqueza de este mundo . ”
+1	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+2	Nuay	nuay	PART	_	_	_	_	_	gloss=ty
+3	ayudante	ayudante	NOUN	_	_	_	_	_	gloss=servant
+4	ay	ay	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+5	puede	puede	AUX	_	_	_	_	_	gloss=could
+6	trabaja	trabaja	VERB	_	_	_	_	_	gloss=burden
+7	con	con	ADP	_	_	41	prep	_	gloss=to
+8	dos	dos	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+9	amo	amo	NOUN	_	_	_	_	_	gloss=andered
+10	,	,	PUNCT	_	_	_	_	_
+11	cay	cay	SCONJ	_	_	_	_	_	gloss=because
+12	ay	ay	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+13	odia	odia	VERB	_	_	_	ccomp	_	gloss=hate|VerbForm=Inf
+14	le	le	PRON	_	_	_	_	_	gloss=he
+15	con	con	ADP	_	_	41	prep	_	gloss=to
+16	el	el	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+17	uno	uno	PRON	_	_	_	_	_	gloss=each
+18	y	y	CCONJ	_	_	47	cc	_	gloss=and|ConjType=Cmp
+19	ay	ay	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+20	ama	ama	VERB	_	_	13	conj	_	gloss=love|VerbForm=Inf
+21	con	con	ADP	_	_	41	prep	_	gloss=to
+22	el	el	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+23	otro	otro	PRON	_	_	_	_	_	gloss=another
+24	,	,	PUNCT	_	_	_	_	_
+25	o	o	CCONJ	_	_	_	_	_	gloss=or
+26	ay	ay	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+27	obedece	obedece	VERB	_	_	_	_	_	gloss=obey
+28	enbuenamente	enbuenamente	ADV	_	_	_	_	_	gloss=orious
+29	con	con	ADP	_	_	41	prep	_	gloss=to
+30	el	el	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+31	uno	uno	PRON	_	_	_	_	_	gloss=each
+32	y	y	CCONJ	_	_	47	cc	_	gloss=and|ConjType=Cmp
+33	hende	hende	PART	_	_	_	neg	_	gloss=not|Polarity=Neg
+34	le	le	PRON	_	_	_	_	_	gloss=he
+35	hace	hace	VERB	_	_	_	_	_	gloss=done
+36	caso	caso	NOUN	_	_	_	_	_	gloss=ign
+37	con	con	ADP	_	_	41	prep	_	gloss=to
+38	el	el	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+39	otro	otro	PRON	_	_	_	_	_	gloss=another
+40	,	,	PUNCT	_	_	_	_	_
+41	poreso	poreso	VERB	_	_	_	acomp	_	gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+42	no	no	PART	_	_	_	_	_	gloss=don’t
+43	puede	puede	AUX	_	_	_	_	_	gloss=could
+44	ustedes	ustedes	PRON	_	_	_	nsubj	_	gloss=you|Case=Nom|Person=2|PronType=Prs
+45	adora	adora	VERB	_	_	_	_	_	gloss=worship
+46	con	con	ADP	_	_	41	prep	_	gloss=to
+47	Dios	dios	PROPN	_	_	_	dobj	_	gloss=God|Number=Sing
+48	y	y	CCONJ	_	_	47	cc	_	gloss=and|ConjType=Cmp
+49	adora	adora	VERB	_	_	_	_	_	gloss=worship
+50	tamen	tamen	ADV	_	_	_	_	_	gloss=amount
+51	con	con	ADP	_	_	41	prep	_	gloss=to
+52	el	el	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+53	riqueza	riqueza	NOUN	_	_	_	_	_	gloss=treasures
+54	de	de	ADP	_	_	_	_	_	gloss=val
+55	este	este	DET	_	_	_	_	_	gloss=this
+56	mundo	mundo	NOUN	_	_	_	_	_	gloss=world
+57	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+58	”	”	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 42024018
+# ref_id = Luke 24:18
+# eng_text = One of them , named Cleopas , answered him , " Are you the only one travelling in Jerusalem who doesn't know the things which have happened there in these days ? "
+# cbk_text = Despues uno di ila el nombre si Cleofas ya contesta con ele , “ Uste lang gayot seguro el visita aqui na Jerusalem quien no sabe si cosa ya sucede durante lang este maga dias . ”
+1	Despues	despues	ADV	_	_	_	_	_	gloss=sor
+2	uno	uno	PRON	_	_	_	_	_	gloss=each
+3	di	di	ADP	_	_	_	_	_	gloss=your
+4	ila	ila	PRON	_	_	_	_	_	gloss=outer
+5	el	el	DET	_	_	35	det	_	gloss=the|Definite=Def|PronType=Art
+6	nombre	nombre	NOUN	_	_	_	_	_	gloss=name
+7	si	si	ADP	_	_	_	_	_	gloss=a
+8	Cleofas	cleofas	PROPN	_	_	_	_	_
+9	ya	ya	AUX	_	_	_	_	_	gloss=was
+10	contesta	contesta	VERB	_	_	0	root	_	gloss=replied|Tense=Past|VerbForm=Fin
+11	con	con	ADP	_	_	_	_	_	gloss=to
+12	ele	ele	PRON	_	_	_	_	_	gloss=him
+13	,	,	PUNCT	_	_	10	punct	_	PunctType=Comm
+14	“	“	PUNCT	_	_	10	punct	_	PunctSide=Ini|PunctType=Quot
+15	Uste	uste	PRON	_	_	_	_	_	gloss=warming
+16	lang	lang	ADJ	_	_	_	amod	_	gloss=only|Degree=Pos
+17	gayot	gayot	ADV	_	_	_	_	_	gloss=struck
+18	seguro	seguro	ADV	_	_	_	_	_
+19	el	el	DET	_	_	35	det	_	gloss=the|Definite=Def|PronType=Art
+20	visita	visita	VERB	_	_	_	_	_	gloss=day
+21	aqui	aqui	ADV	_	_	_	_	_	gloss=here
+22	na	na	ADP	_	_	_	_	_	gloss=on
+23	Jerusalem	jerusalem	PROPN	_	_	_	pobj	_	gloss=Jerusalem|Number=Sing
+24	quien	quien	PRON	_	_	_	_	_	gloss=ily
+25	no	no	PART	_	_	_	_	_	gloss=don’t
+26	sabe	sabe	VERB	_	_	_	_	_	gloss=ressed
+27	si	si	ADP	_	_	_	_	_	gloss=a
+28	cosa	cosa	PRON	_	_	_	_	_	gloss=ume
+29	ya	ya	AUX	_	_	_	_	_	gloss=was
+30	sucede	sucede	VERB	_	_	_	_	_	gloss=oon
+31	durante	durante	ADP	_	_	_	_	_	gloss=forty
+32	lang	lang	ADJ	_	_	_	amod	_	gloss=only|Degree=Pos
+33	este	este	DET	_	_	_	_	_	gloss=this
+34	maga	maga	PART	_	_	_	_	_	gloss=ent
+35	dias	dias	NOUN	_	_	_	npadvmod	_	gloss=days|Number=Plur
+36	.	.	PUNCT	_	_	10	punct	_	PunctType=Peri
+37	”	”	PUNCT	_	_	10	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 43001039
+# ref_id = John 1:39
+# eng_text = He said to them , " Come , and see . " They came and saw where he was staying , and they stayed with him that day . It was about the tenth hour .
+# cbk_text = Ya contesta si Jesus , “ Sigui lang mira . ” Poreso ya sigui sila con ele hasta donde le ta queda . Y ya gasta sila el resto del dia junto con ele , cay tiene ya gale aquel maga alas cuatro del tarde .
+1	Ya	ya	AUX	_	_	_	_	_	gloss=Ph
+2	contesta	contesta	VERB	_	_	_	_	_	gloss=replied
+3	si	si	ADP	_	_	_	_	_	gloss=a
+4	Jesus	jesus	PROPN	_	_	_	_	_	gloss=ea
+5	,	,	PUNCT	_	_	13	punct	_	PunctType=Comm
+6	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+7	Sigui	sigui	VERB	_	_	_	_	_	gloss=ently
+8	lang	lang	ADV	_	_	_	_	_	gloss=only
+9	mira	mira	VERB	_	_	_	_	_	gloss=saw
+10	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+11	”	”	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+12	Poreso	poreso	ADV	_	_	_	_	_	gloss=wa
+13	ya	ya	AUX	_	_	_	aux	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+14	sigui	sigui	VERB	_	_	_	_	_	gloss=followed
+15	sila	sila	PRON	_	_	_	nsubj	_	gloss=they|Case=Nom|Number=Plur|Person=3|PronType=Prs
+16	con	con	ADP	_	_	_	prep	_	gloss=to
+17	ele	ele	PRON	_	_	_	pobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+18	hasta	hasta	ADP	_	_	_	_	_	gloss=until
+19	donde	donde	SCONJ	_	_	_	advmod	_	gloss=where
+20	le	le	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+21	ta	ta	AUX	_	_	_	_	_	gloss=is
+22	queda	queda	VERB	_	_	_	_	_	gloss=became
+23	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+24	Y	y	CCONJ	_	_	_	_	_	gloss=Crucify
+25	ya	ya	AUX	_	_	_	aux	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+26	gasta	gasta	VERB	_	_	_	_	_
+27	sila	sila	PRON	_	_	_	nsubj	_	gloss=they|Case=Nom|Number=Plur|Person=3|PronType=Prs
+28	el	el	DET	_	_	31	det	_	gloss=the|Definite=Def|PronType=Art
+29	resto	resto	NOUN	_	_	_	_	_	gloss=thousand
+30	del	del	ADP	_	_	42	prep	_	gloss=in
+31	dia	dia	NOUN	_	_	_	pobj	_	gloss=day|Number=Sing
+32	junto	junto	ADV	_	_	_	_	_	gloss=imus
+33	con	con	ADP	_	_	_	prep	_	gloss=to
+34	ele	ele	PRON	_	_	_	pobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+35	,	,	PUNCT	_	_	38	punct	_	PunctType=Comm
+36	cay	cay	SCONJ	_	_	_	_	_	gloss=because
+37	tiene	tiene	VERB	_	_	_	_	_	gloss=assion
+38	ya	ya	AUX	_	_	_	aux	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+39	gale	gale	PART	_	_	_	_	_	gloss=y
+40	aquel	aquel	DET	_	_	_	_	_	gloss=calf
+41	maga	maga	PART	_	_	_	_	_	gloss=ent
+42	alas	alas	NOUN	_	_	38	attr	_	gloss=o’clock|Number=Sing
+43	cuatro	cuatro	NUM	_	_	42	nummod	_	gloss=four|NumType=Card
+44	del	del	ADP	_	_	42	prep	_	gloss=in
+45	tarde	tarde	NOUN	_	_	44	pobj	_	gloss=afternoon|Number=Sing
+46	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 43003016
+# ref_id = John 3:16
+# eng_text = For God so loved the world , that he gave his one and only Son , that whoever believes in him should not perish , but have eternal life .
+# cbk_text = Por causa del grande amor de Dios con el maga gente , ya manda le con el di suyo unico Hijo aqui na mundo , para aquellos quien ay tene fe con ele hende ay perde el di ila alma , sino ay tene vida eterna .
+1	Por	por	ADP	_	_	_	_	_	gloss=explains
+2	causa	causa	NOUN	_	_	_	_	_	gloss=claim
+3	del	del	ADP	_	_	_	prep	_	gloss=in
+4	grande	grande	ADJ	_	_	_	_	_	gloss=bes
+5	amor	amor	NOUN	_	_	_	_	_	gloss=love
+6	de	de	ADP	_	_	_	_	_	gloss=val
+7	Dios	dios	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+8	con	con	ADP	_	_	_	_	_	gloss=to
+9	el	el	DET	_	_	24	det	_	gloss=the|Definite=Def|PronType=Art
+10	maga	maga	PART	_	_	_	_	_	gloss=ent
+11	gente	gente	NOUN	_	_	_	_	_	gloss=man
+12	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+13	ya	ya	AUX	_	_	_	_	_	gloss=was
+14	manda	manda	VERB	_	_	_	_	_	gloss=instruct
+15	le	le	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+16	con	con	ADP	_	_	_	_	_	gloss=to
+17	el	el	DET	_	_	24	det	_	gloss=the|Definite=Def|PronType=Art
+18	di	di	ADP	_	_	_	_	_	gloss=your
+19	suyo	suyo	PRON	_	_	_	_	_	gloss=gam
+20	unico	unico	ADV	_	_	_	conj	_	gloss=only
+21	Hijo	hijo	PROPN	_	_	_	appos	_	gloss=Son|Number=Sing
+22	aqui	aqui	ADV	_	_	_	_	_	gloss=here
+23	na	na	ADP	_	_	_	_	_	gloss=on
+24	mundo	mundo	NOUN	_	_	_	dobj	_	gloss=world|Number=Sing
+25	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+26	para	para	SCONJ	_	_	_	mark	_	gloss=so
+27	aquellos	aquellos	PRON	_	_	_	_	_	gloss=eag
+28	quien	quien	PRON	_	_	_	_	_	gloss=ily
+29	ay	ay	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+30	tene	tene	VERB	_	_	_	_	_	gloss=mercy
+31	fe	fe	NOUN	_	_	_	_	_	gloss=faith
+32	con	con	ADP	_	_	_	_	_	gloss=to
+33	ele	ele	PRON	_	_	3	pobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+34	hende	hende	PART	_	_	_	neg	_	gloss=not|Polarity=Neg
+35	ay	ay	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+36	perde	perde	VERB	_	_	_	_	_	gloss=speechless
+37	el	el	DET	_	_	24	det	_	gloss=the|Definite=Def|PronType=Art
+38	di	di	ADP	_	_	_	_	_	gloss=your
+39	ila	ila	PRON	_	_	_	_	_	gloss=outer
+40	alma	alma	NOUN	_	_	_	_	_	gloss=soul
+41	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+42	sino	sino	CCONJ	_	_	_	_	_	gloss=Instead
+43	ay	ay	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+44	tene	tene	VERB	_	_	_	_	_	gloss=mercy
+45	vida	vida	NOUN	_	_	_	dobj	_	gloss=life|Number=Sing
+46	eterna	eterna	ADJ	_	_	45	amod	_	gloss=eternal|Degree=Pos
+47	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 44002030
+# ref_id = Acts 2:30
+# eng_text = Therefore , being a prophet , and knowing that God had sworn with an oath to him that of the fruit of his body , according to the flesh , he would raise up the Christ to sit on his throne ,
+# cbk_text = Si David estaba un profeta y ya sabe ya ele que Dios ya promete con juramento que ele ay hace rey con uno del maga decendiente di David .
+1	Si	si	SCONJ	_	_	_	_	_	gloss=If
+2	David	david	PROPN	_	_	26	poss	_	gloss=David|Number=Sing
+3	estaba	estaba	VERB	_	_	_	_	_	gloss=Galilean
+4	un	un	DET	_	_	_	det	_	gloss=a|Definite=Ind|PronType=Art
+5	profeta	profeta	NOUN	_	_	_	_	_	gloss=prophets
+6	y	y	CCONJ	_	_	7	cc	_	gloss=and|ConjType=Cmp
+7	ya	ya	AUX	_	_	0	root	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+8	sabe	sabe	VERB	_	_	_	_	_	gloss=ressed
+9	ya	ya	AUX	_	_	0	root	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+10	ele	ele	PRON	_	_	_	_	_	gloss=him
+11	que	que	PRON	_	_	_	_	_	gloss=pl
+12	Dios	dios	PROPN	_	_	14	nsubj	_	gloss=God|Number=Sing
+13	ya	ya	AUX	_	_	0	root	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+14	promete	promete	VERB	_	_	_	ccomp	_	gloss=promised|Aspect=Perf|Tense=Past|VerbForm=Part
+15	con	con	ADP	_	_	_	_	_	gloss=to
+16	juramento	juramento	NOUN	_	_	_	pobj	_	gloss=oath|Number=Sing
+17	que	que	PRON	_	_	_	_	_	gloss=pl
+18	ele	ele	PRON	_	_	_	_	_	gloss=him
+19	ay	ay	AUX	_	_	_	_	_	gloss=will
+20	hace	hace	VERB	_	_	_	_	_	gloss=done
+21	rey	rey	NOUN	_	_	_	_	_	gloss=kings
+22	con	con	ADP	_	_	_	_	_	gloss=to
+23	uno	uno	PRON	_	_	_	_	_	gloss=each
+24	del	del	ADP	_	_	_	_	_	gloss=in
+25	maga	maga	PART	_	_	_	_	_	gloss=ent
+26	decendiente	decendiente	NOUN	_	_	_	pobj	_	gloss=descendants|Number=Plur
+27	di	di	ADP	_	_	_	_	_	gloss=your
+28	David	david	PROPN	_	_	26	poss	_	gloss=David|Number=Sing
+29	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 44009038
+# ref_id = Acts 9:38
+# eng_text = As Lydda was near Joppa , the disciples , hearing that Peter was there , sent two men to him , imploring him not to delay in coming to them .
+# cbk_text = El pueblo de Lida cerca lang na Jope , poreso cuando ya sabe el maga siguidores del Señor que talla ya si Pedro na Lida , ya manda sila anda dos gente para habla con Pedro , “ Ñor , favor vene gayot de pronto na Jope . ”
+1	El	el	DET	_	_	_	_	_	gloss=An
+2	pueblo	pueblo	NOUN	_	_	_	_	_	gloss=town
+3	de	de	ADP	_	_	_	_	_	gloss=val
+4	Lida	lida	PROPN	_	_	_	_	_	gloss=d
+5	cerca	cerca	ADV	_	_	_	_	_	gloss=near
+6	lang	lang	ADV	_	_	_	_	_	gloss=only
+7	na	na	ADP	_	_	_	_	_	gloss=on
+8	Jope	jope	PROPN	_	_	_	_	_	gloss=Joppa
+9	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+10	poreso	poreso	ADV	_	_	_	_	_	gloss=devoted
+11	cuando	cuando	SCONJ	_	_	_	_	_	gloss=ened
+12	ya	ya	AUX	_	_	_	ccomp	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+13	sabe	sabe	VERB	_	_	_	_	_	gloss=ressed
+14	el	el	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+15	maga	maga	PART	_	_	_	_	_	gloss=ent
+16	siguidores	siguidores	NOUN	_	_	_	_	_	gloss=followers
+17	del	del	ADP	_	_	_	_	_	gloss=in
+18	Señor	señor	PROPN	_	_	_	_	_	gloss=Lord
+19	que	que	PRON	_	_	_	_	_	gloss=pl
+20	talla	talla	ADV	_	_	_	_	_	gloss=aeus
+21	ya	ya	AUX	_	_	_	ccomp	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+22	si	si	ADP	_	_	_	_	_	gloss=a
+23	Pedro	pedro	PROPN	_	_	21	nsubj	_	gloss=Peter|Number=Sing
+24	na	na	ADP	_	_	_	_	_	gloss=on
+25	Lida	lida	PROPN	_	_	_	_	_	gloss=d
+26	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+27	ya	ya	AUX	_	_	_	ccomp	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+28	manda	manda	VERB	_	_	_	_	_	gloss=instruct
+29	sila	sila	PRON	_	_	_	nsubj	_	gloss=they|Case=Nom|Number=Plur|Person=3|PronType=Prs
+30	anda	anda	VERB	_	_	_	_	_	gloss=went
+31	dos	dos	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+32	gente	gente	NOUN	_	_	_	_	_	gloss=man
+33	para	para	ADV	_	_	_	advmod	_	gloss=so
+34	habla	habla	VERB	_	_	_	_	_	gloss=said
+35	con	con	PART	_	_	_	aux	_	gloss=to
+36	Pedro	pedro	PROPN	_	_	27	nsubj	_	gloss=Peter|Number=Sing
+37	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+38	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+39	Ñor	ñor	NOUN	_	_	_	_	_	gloss=lord
+40	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+41	favor	favor	NOUN	_	_	_	_	_	gloss=grace
+42	vene	vene	VERB	_	_	_	xcomp	_	gloss=come|VerbForm=Inf
+43	gayot	gayot	ADV	_	_	_	_	_	gloss=struck
+44	de	de	ADP	_	_	_	_	_	gloss=val
+45	pronto	pronto	ADV	_	_	_	_	_	gloss=flashes
+46	na	na	ADP	_	_	_	_	_	gloss=on
+47	Jope	jope	PROPN	_	_	_	_	_	gloss=Joppa
+48	.	.	PUNCT	_	_	_	_	_
+49	”	”	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 44011011
+# ref_id = Acts 11:11
+# eng_text = Behold , immediately three men stood before the house where I was , having been sent from Caesarea to me .
+# cbk_text = Aquel mismo hora ya llega tamen tres hombre hende-Judio quien ya sale na Cesarea , y ya manda con estos anda na casa donde came ta esta .
+1	Aquel	aquel	DET	_	_	_	_	_	gloss=num
+2	mismo	mismo	ADJ	_	_	_	_	_	gloss=himself
+3	hora	hora	NOUN	_	_	_	_	_	gloss=hour
+4	ya	ya	AUX	_	_	_	_	_	gloss=was
+5	llega	llega	VERB	_	_	0	root	_	gloss=arrived|Tense=Past|VerbForm=Fin
+6	tamen	tamen	ADV	_	_	_	_	_	gloss=amount
+7	tres	tres	NUM	_	_	_	nummod	_	gloss=three|NumType=Card
+8	hombre	hombre	NOUN	_	_	_	_	_	gloss=male
+9	hende-Judio	hende-judio	NOUN	_	_	_	_	_	gloss=Gentiles
+10	quien	quien	PRON	_	_	_	_	_	gloss=ily
+11	ya	ya	AUX	_	_	_	_	_	gloss=was
+12	sale	sale	VERB	_	_	_	_	_	gloss=left
+13	na	na	ADP	_	_	_	_	_	gloss=on
+14	Cesarea	cesarea	PROPN	_	_	_	pobj	_	gloss=Caesarea|Number=Sing
+15	,	,	PUNCT	_	_	_	_	_
+16	y	y	CCONJ	_	_	_	_	_	gloss=and
+17	ya	ya	AUX	_	_	_	_	_	gloss=was
+18	manda	manda	VERB	_	_	_	_	_	gloss=instruct
+19	con	con	ADP	_	_	_	_	_	gloss=to
+20	estos	estos	PRON	_	_	_	_	_	gloss=rem
+21	anda	anda	VERB	_	_	_	_	_	gloss=went
+22	na	na	ADP	_	_	_	_	_	gloss=on
+23	casa	casa	NOUN	_	_	_	pobj	_	gloss=house|Number=Sing
+24	donde	donde	SCONJ	_	_	_	advmod	_	gloss=where
+25	came	came	PRON	_	_	_	_	_	gloss=We
+26	ta	ta	AUX	_	_	_	_	_	gloss=is
+27	esta	esta	VERB	_	_	_	_	_	gloss=remain
+28	.	.	PUNCT	_	_	5	punct	_	PunctType=Peri
+
+# sent_id = 44021034
+# ref_id = Acts 21:34
+# eng_text = Some shouted one thing , some another , among the crowd . When he couldn't find out the truth because of the noise , he commanded him to be brought into the barracks .
+# cbk_text = Tiene di ila ta grita de una cosa y tiene ta habla de otro cosa . Cosa ya ! Que bien alboroto gayot y hasta el comandante no puede mas entende si cosa ta pasa . Poreso ya ordena le lleva con Pablo na cuartel donde ta esta el maga soldao .
+1	Tiene	tiene	VERB	_	_	_	_	_	gloss=Other
+2	di	di	ADP	_	_	_	_	_	gloss=your
+3	ila	ila	PRON	_	_	_	_	_	gloss=outer
+4	ta	ta	AUX	_	_	_	_	_	gloss=is
+5	grita	grita	VERB	_	_	_	_	_	gloss=ter
+6	de	de	ADP	_	_	_	_	_	gloss=val
+7	una	una	DET	_	_	_	_	_	gloss=ahead
+8	cosa	cosa	PRON	_	_	_	_	_	gloss=ume
+9	y	y	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+10	tiene	tiene	VERB	_	_	_	_	_	gloss=assion
+11	ta	ta	AUX	_	_	_	_	_	gloss=is
+12	habla	habla	VERB	_	_	_	_	_	gloss=said
+13	de	de	ADP	_	_	_	_	_	gloss=val
+14	otro	otro	PRON	_	_	_	conj	_	gloss=another
+15	cosa	cosa	PRON	_	_	_	_	_	gloss=ume
+16	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+17	Cosa	cosa	PRON	_	_	_	_	_	gloss=What
+18	ya	ya	AUX	_	_	_	_	_	gloss=was
+19	!	!	PUNCT	_	_	_	_	_
+20	Que	que	PRON	_	_	_	_	_	gloss=Oh
+21	bien	bien	ADV	_	_	_	_	_	gloss=imate
+22	alboroto	alboroto	NOUN	_	_	_	_	_	gloss=conf
+23	gayot	gayot	ADV	_	_	_	_	_	gloss=struck
+24	y	y	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+25	hasta	hasta	ADP	_	_	_	_	_	gloss=until
+26	el	el	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+27	comandante	comandante	NOUN	_	_	_	_	_	gloss=commander
+28	no	no	PART	_	_	_	_	_	gloss=don’t
+29	puede	puede	AUX	_	_	_	aux	_	gloss=could|VerbForm=Fin
+30	mas	mas	ADV	_	_	_	_	_	gloss=more
+31	entende	entende	VERB	_	_	_	_	_	gloss=understand
+32	si	si	ADP	_	_	_	_	_	gloss=a
+33	cosa	cosa	PRON	_	_	_	_	_	gloss=ume
+34	ta	ta	AUX	_	_	_	_	_	gloss=is
+35	pasa	pasa	VERB	_	_	_	_	_	gloss=awaits
+36	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+37	Poreso	poreso	ADV	_	_	_	_	_	gloss=wa
+38	ya	ya	AUX	_	_	_	_	_	gloss=was
+39	ordena	ordena	VERB	_	_	_	_	_	gloss=oked
+40	le	le	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+41	lleva	lleva	VERB	_	_	_	_	_	gloss=brought
+42	con	con	ADP	_	_	_	prep	_	gloss=to
+43	Pablo	pablo	PROPN	_	_	_	nsubjpass	_	gloss=Paul|Number=Sing
+44	na	na	ADP	_	_	_	_	_	gloss=on
+45	cuartel	cuartel	NOUN	_	_	_	_	_
+46	donde	donde	PRON	_	_	_	_	_	gloss=where
+47	ta	ta	AUX	_	_	_	_	_	gloss=is
+48	esta	esta	VERB	_	_	_	_	_	gloss=remain
+49	el	el	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+50	maga	maga	PART	_	_	_	_	_	gloss=ent
+51	soldao	soldao	NOUN	_	_	_	_	_	gloss=soldiers
+52	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 47012002
+# ref_id = 2 Corinthians 12:2
+# eng_text = I know a man in Christ , fourteen years ago ( whether in the body , I don't know , or whether out of the body , I don't know ; God knows ) , such a one caught up into the third heaven .
+# cbk_text = Ta conoce yo con un creyente , y catorce años pasao ya lleva con ele para arriba na tercer cielo , el cielo mas alto de todo . No sabe yo si el di suyo cuerpo ba gayot amo ya subi , o el di suyo alma lang . Dios lang sabe ese .
+1	Ta	ta	AUX	_	_	_	_	_	gloss=k
+2	conoce	conoce	VERB	_	_	_	_	_	gloss=recognize
+3	yo	yo	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+4	con	con	ADP	_	_	_	prep	_	gloss=to
+5	un	un	DET	_	_	_	_	_	gloss=a
+6	creyente	creyente	NOUN	_	_	_	_	_	gloss=church
+7	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+8	y	y	CCONJ	_	_	_	_	_	gloss=and
+9	catorce	catorce	NUM	_	_	10	nummod	_	gloss=fourteen|NumType=Card
+10	años	años	NOUN	_	_	_	npadvmod	_	gloss=years|Number=Plur
+11	pasao	pasao	ADV	_	_	_	_	_	gloss=flavor
+12	ya	ya	AUX	_	_	_	advcl	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+13	lleva	lleva	VERB	_	_	_	_	_	gloss=brought
+14	con	con	ADP	_	_	_	prep	_	gloss=to
+15	ele	ele	PRON	_	_	_	_	_	gloss=him
+16	para	para	ADP	_	_	_	_	_	gloss=so
+17	arriba	arriba	ADV	_	_	_	_	_	gloss=xt
+18	na	na	ADP	_	_	_	_	_	gloss=on
+19	tercer	tercer	ADJ	_	_	_	_	_	gloss=-third
+20	cielo	cielo	PROPN	_	_	14	pobj	_	gloss=heaven|Number=Sing
+21	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+22	el	el	DET	_	_	23	det	_	gloss=the|Definite=Def|PronType=Art
+23	cielo	cielo	PROPN	_	_	14	pobj	_	gloss=heaven|Number=Sing
+24	mas	mas	ADV	_	_	_	_	_	gloss=more
+25	alto	alto	ADJ	_	_	_	_	_	gloss=prom
+26	de	de	ADP	_	_	_	_	_	gloss=val
+27	todo	todo	PRON	_	_	_	_	_	gloss=everything
+28	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+29	No	no	PART	_	_	_	_	_	gloss=Don’t
+30	sabe	sabe	VERB	_	_	_	_	_	gloss=ressed
+31	yo	yo	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+32	si	si	ADP	_	_	_	_	_	gloss=a
+33	el	el	DET	_	_	23	det	_	gloss=the|Definite=Def|PronType=Art
+34	di	di	ADP	_	_	_	_	_	gloss=your
+35	suyo	suyo	PRON	_	_	_	_	_	gloss=gam
+36	cuerpo	cuerpo	NOUN	_	_	_	pobj	_	gloss=body|Number=Sing
+37	ba	ba	PART	_	_	_	_	_	gloss=Are
+38	gayot	gayot	ADV	_	_	_	_	_	gloss=struck
+39	amo	amo	NOUN	_	_	_	_	_	gloss=andered
+40	ya	ya	AUX	_	_	_	advcl	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+41	subi	subi	VERB	_	_	_	_	_	gloss=sy
+42	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+43	o	o	CCONJ	_	_	_	cc	_	gloss=or|ConjType=Cmp
+44	el	el	DET	_	_	23	det	_	gloss=the|Definite=Def|PronType=Art
+45	di	di	ADP	_	_	_	_	_	gloss=your
+46	suyo	suyo	PRON	_	_	_	_	_	gloss=gam
+47	alma	alma	NOUN	_	_	_	_	_	gloss=soul
+48	lang	lang	ADV	_	_	_	_	_	gloss=only
+49	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+50	Dios	dios	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+51	lang	lang	ADV	_	_	_	_	_	gloss=only
+52	sabe	sabe	VERB	_	_	_	_	_	gloss=ressed
+53	ese	ese	DET	_	_	_	_	_	gloss=crimin
+54	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 62004009
+# ref_id = 1 John 4:9
+# eng_text = By this was God's love revealed in us , that God has sent his only born Son into the world that we might live through him .
+# cbk_text = Dios ya dale mira canaton el di suyo amor cuando ya manda le con su unico Hijo aqui na mundo , para puede kita tene vida eterna por medio del di suyo muerte .
+1	Dios	dios	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+2	ya	ya	AUX	_	_	_	_	_	gloss=was
+3	dale	dale	VERB	_	_	_	_	_	gloss=given
+4	mira	mira	VERB	_	_	_	_	_	gloss=saw
+5	canaton	canaton	PRON	_	_	_	_	_	gloss=aven’t
+6	el	el	DET	_	_	20	det	_	gloss=the|Definite=Def|PronType=Art
+7	di	di	ADP	_	_	_	_	_	gloss=your
+8	suyo	suyo	PRON	_	_	_	_	_	gloss=gam
+9	amor	amor	NOUN	_	_	_	_	_	gloss=love
+10	cuando	cuando	SCONJ	_	_	_	_	_	gloss=ened
+11	ya	ya	AUX	_	_	_	_	_	gloss=was
+12	manda	manda	VERB	_	_	_	_	_	gloss=instruct
+13	le	le	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+14	con	con	ADP	_	_	_	_	_	gloss=to
+15	su	su	DET	_	_	_	_	_	gloss=ered
+16	unico	unico	ADV	_	_	17	advmod	_	gloss=only
+17	Hijo	hijo	PROPN	_	_	_	conj	_	gloss=Son|Number=Sing
+18	aqui	aqui	ADV	_	_	_	_	_	gloss=here
+19	na	na	ADP	_	_	_	_	_	gloss=on
+20	mundo	mundo	NOUN	_	_	_	pobj	_	gloss=world|Number=Sing
+21	,	,	PUNCT	_	_	_	_	_
+22	para	para	SCONJ	_	_	_	mark	_	gloss=so
+23	puede	puede	AUX	_	_	_	_	_	gloss=could
+24	kita	kita	PRON	_	_	_	_	_	gloss=date
+25	tene	tene	VERB	_	_	_	_	_	gloss=mercy
+26	vida	vida	NOUN	_	_	_	dobj	_	gloss=life|Number=Sing
+27	eterna	eterna	ADJ	_	_	26	amod	_	gloss=eternal|Degree=Pos
+28	por	por	ADP	_	_	_	_	_	gloss=use
+29	medio	medio	NOUN	_	_	_	_	_	gloss=noon
+30	del	del	ADP	_	_	_	_	_	gloss=in
+31	di	di	ADP	_	_	_	_	_	gloss=your
+32	suyo	suyo	PRON	_	_	_	_	_	gloss=gam
+33	muerte	muerte	NOUN	_	_	_	_	_	gloss=death
+34	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 63001005
+# ref_id = 2 John 1:5
+# eng_text = Now I beg you , dear lady , not as though I wrote to you a new commandment , but that which we had from the beginning , that we love one another .
+# cbk_text = Poreso ahora , mi hermana , ta roga yo que todo kita ay ama con uno y otro . Este cosa ta escribi yo con uste hende na un nuevo mandamiento , cay amo man ese siempre el mismo que ya oi kita cuando ya principia kita tene fe con Jesucristo .
+1	Poreso	poreso	ADV	_	_	_	_	_	gloss=wa
+2	ahora	ahora	ADV	_	_	_	_	_	gloss=now
+3	,	,	PUNCT	_	_	7	punct	_	PunctType=Comm
+4	mi	mi	DET	_	_	_	_	_	gloss=safe
+5	hermana	hermana	NOUN	_	_	_	_	_	gloss=meets
+6	,	,	PUNCT	_	_	7	punct	_	PunctType=Comm
+7	ta	ta	AUX	_	_	0	root	_	gloss=is|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+8	roga	roga	VERB	_	_	_	_	_	gloss=Indeed
+9	yo	yo	PRON	_	_	23	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+10	que	que	PRON	_	_	_	_	_	gloss=pl
+11	todo	todo	PRON	_	_	_	_	_	gloss=everything
+12	kita	kita	PRON	_	_	_	_	_	gloss=date
+13	ay	ay	AUX	_	_	_	_	_	gloss=will
+14	ama	ama	VERB	_	_	23	ccomp	_	gloss=love|VerbForm=Inf
+15	con	con	PART	_	_	_	aux	_	gloss=to
+16	uno	uno	PRON	_	_	_	_	_	gloss=each
+17	y	y	CCONJ	_	_	_	_	_	gloss=and
+18	otro	otro	DET	_	_	_	det	_	gloss=another
+19	.	.	PUNCT	_	_	22	punct	_	PunctType=Peri
+20	Este	este	DET	_	_	_	_	_	gloss=spare
+21	cosa	cosa	PRON	_	_	_	_	_	gloss=ume
+22	ta	ta	AUX	_	_	0	root	_	gloss=is|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+23	escribi	escribi	VERB	_	_	0	root	_	gloss=writing|Aspect=Prog|Tense=Pres|VerbForm=Part
+24	yo	yo	PRON	_	_	23	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+25	con	con	PART	_	_	_	aux	_	gloss=to
+26	uste	uste	PRON	_	_	_	_	_	gloss=fellow
+27	hende	hende	PART	_	_	22	neg	_	gloss=not|Polarity=Neg
+28	na	na	ADP	_	_	_	_	_	gloss=on
+29	un	un	DET	_	_	_	det	_	gloss=a|Definite=Ind|PronType=Art
+30	nuevo	nuevo	ADJ	_	_	_	amod	_	gloss=new|Degree=Pos
+31	mandamiento	mandamiento	NOUN	_	_	_	_	_	gloss=commandments
+32	,	,	PUNCT	_	_	22	punct	_	PunctType=Comm
+33	cay	cay	SCONJ	_	_	_	_	_	gloss=because
+34	amo	amo	NOUN	_	_	_	_	_	gloss=andered
+35	man	man	PART	_	_	_	_	_	gloss=bling
+36	ese	ese	DET	_	_	_	_	_	gloss=crimin
+37	siempre	siempre	ADV	_	_	_	_	_	gloss=bre
+38	el	el	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+39	mismo	mismo	ADJ	_	_	_	_	_	gloss=himself
+40	que	que	PRON	_	_	_	_	_	gloss=pl
+41	ya	ya	AUX	_	_	_	_	_	gloss=was
+42	oi	oi	VERB	_	_	_	_	_	gloss=heard
+43	kita	kita	PRON	_	_	_	_	_	gloss=date
+44	cuando	cuando	SCONJ	_	_	_	_	_	gloss=ened
+45	ya	ya	AUX	_	_	_	_	_	gloss=was
+46	principia	principia	VERB	_	_	_	_	_	gloss=rebellion
+47	kita	kita	PRON	_	_	_	_	_	gloss=date
+48	tene	tene	VERB	_	_	_	_	_	gloss=mercy
+49	fe	fe	NOUN	_	_	_	_	_	gloss=faith
+50	con	con	PART	_	_	_	aux	_	gloss=to
+51	Jesucristo	jesucristo	PROPN	_	_	_	_	_	gloss=Christ
+52	.	.	PUNCT	_	_	22	punct	_	PunctType=Peri
+

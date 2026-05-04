@@ -1,0 +1,960 @@
+## The following text has been annotated for parts of speech by students at NTU Singapore as part of a class project in AY 2025-26.
+## Verses are extracted from the taggedPBC. Annotations have been developed with a combination of manual and automated approaches, with reference to existing literature and (where possible) native speakers.
+## ISO 639-3: lao, Language: Lao, Number of verses: 21
+## References: Library of Congress. (2012). Lao Romanization Table. https://www.loc.gov/catdir/cpso/lao.pdf ; Enfield, N. J. (2004). Verbs and multi-verb constructions in Lao. In The Tai-Kadai Languages (pp. 83-183). Routledge. ; Enfield, N. J. (2008). A grammar of Lao (Vol. 38). Walter de Gruyter. ; Wikipedia contributors. (2026, April 5). Lao Language. Wikipedia. https://en.wikipedia.org/wiki/Lao_language
+
+# sent_id = 40006024
+# ref_id = Matthew 6:24
+# eng_text = " No one can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You can't serve both God and Mammon .
+# lao_text = “ boo hon mii phuuayd epan khaa song ecoaa baaw song naanyo aid khyy : ekhoaa ca sang naanyo phuu nii eila aip hak naanyo phuu nan ekhoaa ca sadsyy too naanyo phuu nii eila min pamaad naanyo phuu nan phwk ecoaa habays phlaecoaa eila engin kham phom kan koo booaid . ”
+# lao_orth = “ ບໍ່ ​ ຫ່ອນ ​ ມີ ​ ຜູ້ໃດ ​ ເປັນ ​ ຂ້າ ​ ສອງ ​ ເຈົ້າ ບ່າວ ​ ສອງ ​ ນາຍ ​ ໄດ້ ​ ຄື : ເຂົາ ​ ຈະ ​ ຊັງ ​ ນາຍ ​ ຜູ້ ​ ນີ້ ແລະ ​ ໄປ ​ ຮັກ ​ ນາຍ ​ ຜູ້ ​ ນັ້ນ ເຂົາ ​ ຈະ ​ ສັດຊື່ ​ ຕໍ່ ​ ນາຍ ​ ຜູ້ ​ ນີ້ ແລະ ​ ໝິ່ນ ປະໝາດ ​ ນາຍ ​ ຜູ້ ​ ນັ້ນ ພວກ ເຈົ້າ ​ ຮັບໃຊ້ ​ ພຣະເຈົ້າ ແລະ ​ ເງິນ ຄຳ ​ ພ້ອມ ​ ກັນ ​ ກໍ ​ ບໍ່ໄດ້ . ”
+1	“	“	PUNCT	_	_	_	_	_	Orth=“|Gloss=_|Translit=“|Chinese_Gloss=_
+2	boo	boo	ADV	_	_	_	_	_	Orth=ບໍ່|Gloss=not|Translit=borr|Chinese_Gloss=不
+3	hon	hon	AUX	_	_	_	_	_	Orth=ຫ່ອນ|Gloss=likely|Translit=horn|Chinese_Gloss=会
+4	mii	mii	VERB	_	_	_	_	_	Orth=ມີ|Gloss=have|Translit=mii|Chinese_Gloss=有
+5	phuuayd	phuuayd	PRON	_	_	_	_	_	Orth=ຜູ້ໃດ|Gloss=anyone|Translit=phuu-dai|Chinese_Gloss=谁|PronType=Ind,Int
+6	epan	epan	VERB	_	_	_	_	_	Orth=ເປັນ|Gloss=be|Translit=pen|Chinese_Gloss=是
+7	khaa	khaa	NOUN	_	_	_	_	_	Orth=ຂ້າ|Gloss=slave|Translit=khaa|Chinese_Gloss=_
+8	song	song	NUM	_	_	_	nummod	_	Orth=ສອງ|Gloss=two|Translit=sorng|Chinese_Gloss=_|NumType=Card
+9	ecoaa	ecoaa	NOUN	_	_	43	nsubj	_	Orth=ເຈົ້າ|Gloss=master|Translit=chao|Chinese_Gloss=君|Number=Sing|Person=2|PronType=Prs|Polite=Form
+10	baaw	baaw	NOUN	_	_	_	_	_	Orth=ບ່າວ|Gloss=servant|Translit=baao|Chinese_Gloss=_
+11	song	song	NUM	_	_	_	nummod	_	Orth=ສອງ|Gloss=two|Translit=sorng|Chinese_Gloss=_|NumType=Card
+12	naanyo	naanyo	NOUN	_	_	_	_	_	Orth=ນາຍ|Gloss=slave_owner|Translit=naai|Chinese_Gloss=_
+13	aid	aid	AUX	_	_	_	_	_	Orth=ໄດ້|Gloss=can|Translit=dai|Chinese_Gloss=得
+14	khyy	khyy	VERB	_	_	_	_	_	Orth=ຄື|Gloss=be|Translit=khuee|Chinese_Gloss=即
+15	:	:	PUNCT	_	_	_	_	_	Orth=:|Gloss=_|Translit=:|Chinese_Gloss=_
+16	ekhoaa	ekhoaa	PRON	_	_	_	_	_	Orth=ເຂົາ|Gloss=they|Translit=khao|Chinese_Gloss=他们|Number=Sing|Person=3|PronType=Prs|Polite=Form
+17	ca	ca	AUX	_	_	_	aux	_	Orth=ຈະ|Gloss=will|Translit=cha|Chinese_Gloss=将
+18	sang	sang	VERB	_	_	_	acomp	_	Orth=ຊັງ|Gloss=hate|Translit=sang|Chinese_Gloss=_
+19	naanyo	naanyo	NOUN	_	_	_	_	_	Orth=ນາຍ|Gloss=slave_owner|Translit=naai|Chinese_Gloss=_
+20	phuu	phuu	PRON	_	_	_	_	_	Orth=ຜູ້|Gloss=person|Translit=phuu|Chinese_Gloss=者
+21	nii	nii	DET	_	_	_	_	_	Orth=ນີ້|Gloss=this|Translit=nii|Chinese_Gloss=这
+22	eila	eila	CCONJ	_	_	44	cc	_	Orth=ແລະ|Gloss=and|Translit=lae|Chinese_Gloss=和
+23	aip	aip	VERB	_	_	_	_	_	Orth=ໄປ|Gloss=go|Translit=pai|Chinese_Gloss=去
+24	hak	hak	VERB	_	_	_	_	_	Orth=ຮັກ|Gloss=love|Translit=hak|Chinese_Gloss=_
+25	naanyo	naanyo	NOUN	_	_	_	_	_	Orth=ນາຍ|Gloss=slave_owner|Translit=naai|Chinese_Gloss=_
+26	phuu	phuu	PRON	_	_	_	_	_	Orth=ຜູ້|Gloss=person|Translit=phuu|Chinese_Gloss=者
+27	nan	nan	DET	_	_	_	_	_	Orth=ນັ້ນ|Gloss=that|Translit=nan|Chinese_Gloss=那
+28	ekhoaa	ekhoaa	PRON	_	_	_	_	_	Orth=ເຂົາ|Gloss=they|Translit=khao|Chinese_Gloss=他们|Number=Sing|Person=3|PronType=Prs|Polite=Form
+29	ca	ca	AUX	_	_	_	aux	_	Orth=ຈະ|Gloss=will|Translit=cha|Chinese_Gloss=将
+30	sadsyy	sadsyy	ADJ	_	_	_	_	_	Orth=ສັດຊື່|Gloss=faithful|Translit=sat-suee|Chinese_Gloss=_
+31	too	too	ADP	_	_	_	_	_	Orth=ຕໍ່|Gloss=to|Translit=torr|Chinese_Gloss=_
+32	naanyo	naanyo	NOUN	_	_	_	_	_	Orth=ນາຍ|Gloss=slave_owner|Translit=naai|Chinese_Gloss=_
+33	phuu	phuu	PRON	_	_	_	_	_	Orth=ຜູ້|Gloss=person|Translit=phuu|Chinese_Gloss=者
+34	nii	nii	DET	_	_	_	_	_	Orth=ນີ້|Gloss=this|Translit=nii|Chinese_Gloss=这
+35	eila	eila	CCONJ	_	_	44	cc	_	Orth=ແລະ|Gloss=and|Translit=lae|Chinese_Gloss=和
+36	min	min	VERB	_	_	_	_	_	Orth=ໝິ່ນ|Gloss=insult|Translit=min|Chinese_Gloss=_
+37	pamaad	pamaad	VERB	_	_	_	_	_	Orth=ປະໝາດ|Gloss=despise|Translit=pa-maat|Chinese_Gloss=_
+38	naanyo	naanyo	NOUN	_	_	_	_	_	Orth=ນາຍ|Gloss=slave_owner|Translit=naai|Chinese_Gloss=_
+39	phuu	phuu	PRON	_	_	_	_	_	Orth=ຜູ້|Gloss=person|Translit=phuu|Chinese_Gloss=者
+40	nan	nan	DET	_	_	_	_	_	Orth=ນັ້ນ|Gloss=that|Translit=nan|Chinese_Gloss=那
+41	phwk	phwk	NOUN	_	_	_	_	_	Orth=ພວກ|Gloss=PLUR|Translit=phuak|Chinese_Gloss=群
+42	ecoaa	ecoaa	PRON	_	_	43	nsubj	_	Orth=ເຈົ້າ|Gloss=you|Translit=chao|Chinese_Gloss=你（君）|Number=Sing|Person=2|PronType=Prs|Polite=Form
+43	habays	habays	VERB	_	_	0	root	_	Orth=ຮັບໃຊ້|Gloss=serve|Translit=hap-sai|Chinese_Gloss=_
+44	phlaecoaa	phlaecoaa	PROPN	_	_	43	dobj	_	Orth=ພຣະເຈົ້າ|Gloss=God|Translit=phra-chao|Chinese_Gloss=_
+45	eila	eila	CCONJ	_	_	44	cc	_	Orth=ແລະ|Gloss=and|Translit=lae|Chinese_Gloss=和
+46	engin	engin	NOUN	_	_	44	conj	_	Orth=ເງິນ|Gloss=money|Translit=ngoen|Chinese_Gloss=_
+47	kham	kham	NOUN	_	_	_	_	_	Orth=ຄຳ|Gloss=gold|Translit=kham|Chinese_Gloss=_
+48	phom	phom	ADV	_	_	_	_	_	Orth=ພ້ອມ|Gloss=at_the_same_time|Translit=phorm|Chinese_Gloss=_
+49	kan	kan	ADJ	_	_	_	_	_	Orth=ກັນ|Gloss=mutual|Translit=kan|Chinese_Gloss=一起
+50	koo	koo	ADV	_	_	_	_	_	Orth=ກໍ|Gloss=also|Translit=kor|Chinese_Gloss=便
+51	booaid	booaid	AUX	_	_	_	_	_	Orth=ບໍ່ໄດ້|Gloss=cannot|Translit=borr-dai|Chinese_Gloss=_
+52	.	.	PUNCT	_	_	_	_	_	Orth=.|Gloss=_|Translit=.|Chinese_Gloss=_
+53	”	”	PUNCT	_	_	_	_	_	Orth=”|Gloss=_|Translit=”|Chinese_Gloss=_
+
+# sent_id = 40018012
+# ref_id = Matthew 18:12
+# eng_text = " What do you think ? If a man has one hundred sheep , and one of them goes astray , doesn't he leave the ninety-nine , go to the mountains , and seek that which has gone astray ?
+# lao_text = phwk ecoaa khid yaang ayd ? thaa khon phuunyng mii eika yuu honyo ot eila ot nyng hlong esnyo aip caak fuung ? laaw ca boo pa eika ekoaasib ekoaa ot aiw yuu han eilw aip sok haa ot thii hlong esnyo aip nan boo ?
+# lao_orth = ພວກ ເຈົ້າ ​ ຄິດ ​ ຢ່າງ ​ ໃດ ? ຖ້າ ​ ຄົນ ​ ຜູ້ໜຶ່ງ ​ ມີ ​ ແກະ ​ ຢູ່ ​ ຮ້ອຍ ​ ໂຕ ແລະ ​ ໂຕ ໜຶ່ງ ​ ຫລົງ ​ ເສຍ ​ ໄປ ​ ຈາກ ​ ຝູງ ? ລາວ ​ ຈະ ​ ບໍ່ ​ ປະ ​ ແກະ ​ ເກົ້າສິບ ​ ເກົ້າ ​ ໂຕ ​ ໄວ້ ​ ຢູ່ ​ ຫັ້ນ ແລ້ວ ​ ໄປ ​ ຊອກ ​ ຫາ ​ ໂຕ ​ ທີ່ ​ ຫລົງ ​ ເສຍ ​ ໄປ ​ ນັ້ນ ​ ບໍ ?
+1	phwk	phwk	NOUN	_	_	_	_	_	Orth=ພວກ|Gloss=PLUR|Translit=phuak|Chinese_Gloss=群
+2	ecoaa	ecoaa	PRON	_	_	_	_	_	Orth=ເຈົ້າ|Gloss=you|Translit=chao|Chinese_Gloss=你（君）|Number=Sing|Person=2|PronType=Prs|Polite=Form
+3	khid	khid	VERB	_	_	_	_	_	Orth=ຄິດ|Gloss=think|Translit=khit|Chinese_Gloss=_
+4	yaang	yaang	NOUN	_	_	_	_	_	Orth=ຢ່າງ|Gloss=way|Translit=yaang|Chinese_Gloss=_
+5	ayd	ayd	DET	_	_	_	_	_	Orth=ໃດ|Gloss=which|Translit=dai|Chinese_Gloss=_
+6	?	?	PUNCT	_	_	_	_	_	Orth=?|Gloss=_|Translit=?|Chinese_Gloss=_
+7	thaa	thaa	SCONJ	_	_	_	mark	_	Orth=ຖ້າ|Gloss=If|Translit=thaa|Chinese_Gloss=_
+8	khon	khon	NOUN	_	_	_	_	_	Orth=ຄົນ|Gloss=person|Translit=khon|Chinese_Gloss=_
+9	phuunyng	phuunyng	PRON	_	_	_	pobj	_	Orth=ຜູ້ໜຶ່ງ|Gloss=someone|Translit=phuu-nueng|Chinese_Gloss=_
+10	mii	mii	VERB	_	_	_	_	_	Orth=ມີ|Gloss=have|Translit=mii|Chinese_Gloss=有
+11	eika	eika	NOUN	_	_	_	dobj	_	Orth=ແກະ|Gloss=sheep|Translit=kae|Chinese_Gloss=_
+12	yuu	yuu	VERB	_	_	_	_	_	Orth=ຢູ່|Gloss=be_present|Translit=yuu|Chinese_Gloss=在
+13	honyo	honyo	NUM	_	_	11	nummod	_	Orth=ຮ້ອຍ|Gloss=hundred|Translit=hooi|Chinese_Gloss=_|NumType=Card
+14	ot	ot	NOUN	CLF	_	_	_	_	Orth=ໂຕ|Gloss=classifier_for_animal|Translit=too|Chinese_Gloss=头
+15	eila	eila	CCONJ	_	_	44	cc	_	Orth=ແລະ|Gloss=and|Translit=lae|Chinese_Gloss=和
+16	ot	ot	NOUN	CLF	_	_	_	_	Orth=ໂຕ|Gloss=classifier_for_animal|Translit=too|Chinese_Gloss=头
+17	nyng	nyng	NUM	_	_	_	_	_	Orth=ໜຶ່ງ|Gloss=one|Translit=nueng|Chinese_Gloss=_
+18	hlong	hlong	VERB	_	_	_	_	_	Orth=ຫລົງ|Gloss=forget|Translit=long|Chinese_Gloss=_
+19	esnyo	esnyo	VERB	_	_	_	relcl	_	Orth=ເສຍ|Gloss=lost|Translit=siia|Chinese_Gloss=_
+20	aip	aip	VERB	_	_	_	_	_	Orth=ໄປ|Gloss=go|Translit=pai|Chinese_Gloss=去
+21	caak	caak	ADP	_	_	_	_	_	Orth=ຈາກ|Gloss=from|Translit=chaak|Chinese_Gloss=从
+22	fuung	fuung	NOUN	_	_	_	_	_	Orth=ຝູງ|Gloss=group|Translit=fuung|Chinese_Gloss=_
+23	?	?	PUNCT	_	_	_	_	_	Orth=?|Gloss=_|Translit=?|Chinese_Gloss=_
+24	laaw	laaw	PRON	_	_	_	_	_	Orth=ລາວ|Gloss=he|Translit=laao|Chinese_Gloss=他|Number=Sing|Person=3|PronType=Prs|Polite=Form
+25	ca	ca	AUX	_	_	_	aux	_	Orth=ຈະ|Gloss=will|Translit=cha|Chinese_Gloss=将
+26	boo	boo	ADV	_	_	_	_	_	Orth=ບໍ່|Gloss=not|Translit=borr|Chinese_Gloss=不
+27	pa	pa	VERB	_	_	_	_	_	Orth=ປະ|Gloss=leave|Translit=pa|Chinese_Gloss=_
+28	eika	eika	NOUN	_	_	_	dobj	_	Orth=ແກະ|Gloss=sheep|Translit=kae|Chinese_Gloss=_
+29	ekoaasib	ekoaasib	NUM	_	_	_	_	_	Orth=ເກົ້າສິບ|Gloss=ninety|Translit=kao-sip|Chinese_Gloss=_
+30	ekoaa	ekoaa	NUM	_	_	_	_	_	Orth=ເກົ້າ|Gloss=nine|Translit=kao|Chinese_Gloss=_
+31	ot	ot	NOUN	CLF	_	_	_	_	Orth=ໂຕ|Gloss=classifier_for_animal|Translit=too|Chinese_Gloss=头
+32	aiw	aiw	VERB	_	_	_	_	_	Orth=ໄວ້|Gloss=keep|Translit=vai|Chinese_Gloss=着
+33	yuu	yuu	VERB	_	_	_	_	_	Orth=ຢູ່|Gloss=be_present|Translit=yuu|Chinese_Gloss=在
+34	han	han	ADV	_	_	_	pobj	_	Orth=ຫັ້ນ|Gloss=there|Translit=han|Chinese_Gloss=_
+35	eilw	eilw	ADV	_	_	_	_	_	Orth=ແລ້ວ|Gloss=already|Translit=laeoo|Chinese_Gloss=了
+36	aip	aip	VERB	_	_	_	_	_	Orth=ໄປ|Gloss=go|Translit=pai|Chinese_Gloss=去
+37	sok	sok	VERB	_	_	_	advcl	_	Orth=ຊອກ|Gloss=search|Translit=shork|Chinese_Gloss=_
+38	haa	haa	VERB	_	_	_	_	_	Orth=ຫາ|Gloss=seek|Translit=haa|Chinese_Gloss=找
+39	ot	ot	NOUN	CLF	_	_	_	_	Orth=ໂຕ|Gloss=classifier_for_animal|Translit=too|Chinese_Gloss=头
+40	thii	thii	SCONJ	_	_	_	_	_	Orth=ທີ່|Gloss=which|Translit=thii|Chinese_Gloss=_
+41	hlong	hlong	VERB	_	_	_	_	_	Orth=ຫລົງ|Gloss=forget|Translit=long|Chinese_Gloss=_
+42	esnyo	esnyo	VERB	_	_	_	relcl	_	Orth=ເສຍ|Gloss=lost|Translit=siia|Chinese_Gloss=_
+43	aip	aip	VERB	_	_	_	_	_	Orth=ໄປ|Gloss=go|Translit=pai|Chinese_Gloss=去
+44	nan	nan	DET	_	_	_	_	_	Orth=ນັ້ນ|Gloss=that|Translit=nan|Chinese_Gloss=那
+45	boo	boo	ADV	_	_	_	_	_	Orth=ບໍ|Gloss=not|Translit=borr|Chinese_Gloss=不
+46	?	?	PUNCT	_	_	_	_	_	Orth=?|Gloss=_|Translit=?|Chinese_Gloss=_
+
+# sent_id = 40020021
+# ref_id = Matthew 20:21
+# eng_text = He said to her , " What do you want ? " She said to him , " Command that these , my two sons , may sit , one on your right hand , and one on your left hand , in your kingdom . "
+# lao_text = phlaoong thaam naang waa , “ ecoaa tongkaan hnyoang ? ” naang tob waa , “ khoo thaan hab sang ayh luuksaanyo khong khaanonyo song khon nii nang ayn oaanaacak khong thaan khyy ebyyong khwaa phuunyng eila ebyyong saanyo oiik phuunyng . ”
+# lao_orth = ພຣະອົງ ​ ຖາມ ​ ນາງ ​ ວ່າ , “ ເຈົ້າ ​ ຕ້ອງການ ​ ຫຍັງ ? ” ນາງ ​ ຕອບ ​ ວ່າ , “ ຂໍ ​ ທ່ານ ​ ຮັບ ​ ສັ່ງ ​ ໃຫ້ ​ ລູກຊາຍ ​ ຂອງ ​ ຂ້ານ້ອຍ ​ ສອງ ​ ຄົນ ​ ນີ້ ນັ່ງ ​ ໃນ ​ ອານາຈັກ ​ ຂອງ ທ່ານ ຄື ​ ເບື້ອງ ຂວາ ​ ຜູ້ໜຶ່ງ ແລະ ​ ເບື້ອງ ຊ້າຍ ​ ອີກ ​ ຜູ້ໜຶ່ງ . ”
+1	phlaoong	phlaoong	PRON	_	_	_	_	_	Orth=ພຣະອົງ|Gloss=him|Translit=phra-ong|Chinese_Gloss=祂|Number=Sing|Person=3|PronType=Prs|Polite=Elev
+2	thaam	thaam	VERB	_	_	0	root	_	Orth=ຖາມ|Gloss=ask|Translit=thaam|Chinese_Gloss=_
+3	naang	naang	PRON	_	_	_	_	_	Orth=ນາງ|Gloss=she|Translit=naang|Chinese_Gloss=她
+4	waa	waa	SCONJ	_	_	_	_	_	Orth=ວ່າ|Gloss=that|Translit=vaa|Chinese_Gloss=曰
+5	,	,	PUNCT	_	_	_	_	_	Orth=,|Gloss=_|Translit=,|Chinese_Gloss=_
+6	“	“	PUNCT	_	_	_	_	_	Orth=“|Gloss=_|Translit=“|Chinese_Gloss=_
+7	ecoaa	ecoaa	PRON	_	_	_	_	_	Orth=ເຈົ້າ|Gloss=you|Translit=chao|Chinese_Gloss=你（君）|Number=Sing|Person=2|PronType=Prs|Polite=Form
+8	tongkaan	tongkaan	VERB	_	_	_	nsubj	_	Orth=ຕ້ອງການ|Gloss=request|Translit=tong-kaan|Chinese_Gloss=_
+9	hnyoang	hnyoang	PRON	_	_	_	attr	_	Orth=ຫຍັງ|Gloss=What|Translit=nyang|Chinese_Gloss=什么
+10	?	?	PUNCT	_	_	_	_	_	Orth=?|Gloss=_|Translit=?|Chinese_Gloss=_
+11	”	”	PUNCT	_	_	_	_	_	Orth=”|Gloss=_|Translit=”|Chinese_Gloss=_
+12	naang	naang	PRON	_	_	_	_	_	Orth=ນາງ|Gloss=she|Translit=naang|Chinese_Gloss=她
+13	tob	tob	VERB	_	_	0	root	_	Orth=ຕອບ|Gloss=reply|Translit=torp|Chinese_Gloss=_
+14	waa	waa	SCONJ	_	_	_	_	_	Orth=ວ່າ|Gloss=that|Translit=vaa|Chinese_Gloss=曰
+15	,	,	PUNCT	_	_	_	_	_	Orth=,|Gloss=_|Translit=,|Chinese_Gloss=_
+16	“	“	PUNCT	_	_	_	_	_	Orth=“|Gloss=_|Translit=“|Chinese_Gloss=_
+17	khoo	khoo	VERB	_	_	_	_	_	Orth=ຂໍ|Gloss=Please|Translit=khorr|Chinese_Gloss=_
+18	thaan	thaan	PRON	_	_	_	_	_	Orth=ທ່ານ|Gloss=you|Translit=thaan|Chinese_Gloss=您|Number=Sing|Person=2|PronType=Prs|Polite=Elev
+19	hab	hab	VERB	_	_	_	_	_	Orth=ຮັບ|Gloss=agree|Translit=hap|Chinese_Gloss=_
+20	sang	sang	VERB	_	_	_	_	_	Orth=ສັ່ງ|Gloss=command|Translit=sang|Chinese_Gloss=_
+21	ayh	ayh	VERB	_	_	_	_	_	Orth=ໃຫ້|Gloss=give|Translit=hai|Chinese_Gloss=给
+22	luuksaanyo	luuksaanyo	NOUN	_	_	28	nsubj	_	Orth=ລູກຊາຍ|Gloss=sons|Translit=luuk-saai|Chinese_Gloss=_
+23	khong	khong	ADP	_	_	_	_	_	Orth=ຂອງ|Gloss=of|Translit=khorng|Chinese_Gloss=属于
+24	khaanonyo	khaanonyo	PRON	_	_	_	_	_	Orth=ຂ້ານ້ອຍ|Gloss=I|Translit=khaa-nooi|Chinese_Gloss=卑|Number=Sing|Person=1|PronType=Prs|Polite=Humb
+25	song	song	NUM	_	_	22	nummod	_	Orth=ສອງ|Gloss=two|Translit=sorng|Chinese_Gloss=_|NumType=Card
+26	khon	khon	NOUN	_	_	_	_	_	Orth=ຄົນ|Gloss=person|Translit=khon|Chinese_Gloss=_
+27	nii	nii	DET	_	_	_	_	_	Orth=ນີ້|Gloss=this|Translit=nii|Chinese_Gloss=这
+28	nang	nang	VERB	_	_	_	ccomp	_	Orth=ນັ່ງ|Gloss=sit|Translit=nang|Chinese_Gloss=_
+29	ayn	ayn	ADV	_	_	_	_	_	Orth=ໃນ|Gloss=in|Translit=nai|Chinese_Gloss=内
+30	oaanaacak	oaanaacak	PROPN	_	_	_	pobj	_	Orth=ອານາຈັກ|Gloss=Kingdom|Translit=aa-naa-chak|Chinese_Gloss=_
+31	khong	khong	ADP	_	_	_	_	_	Orth=ຂອງ|Gloss=of|Translit=khorng|Chinese_Gloss=属于
+32	thaan	thaan	PRON	_	_	_	_	_	Orth=ທ່ານ|Gloss=you|Translit=thaan|Chinese_Gloss=您|Number=Sing|Person=2|PronType=Prs|Polite=Elev
+33	khyy	khyy	VERB	_	_	_	_	_	Orth=ຄື|Gloss=be|Translit=khuee|Chinese_Gloss=即
+34	ebyyong	ebyyong	NOUN	_	_	_	_	_	Orth=ເບື້ອງ|Gloss=side|Translit=beeuang|Chinese_Gloss=边
+35	khwaa	khwaa	ADJ	_	_	_	pobj	_	Orth=ຂວາ|Gloss=right|Translit=khwaa|Chinese_Gloss=_
+36	phuunyng	phuunyng	PRON	_	_	_	_	_	Orth=ຜູ້ໜຶ່ງ|Gloss=someone|Translit=phuu-nueng|Chinese_Gloss=_
+37	eila	eila	CCONJ	_	_	44	cc	_	Orth=ແລະ|Gloss=and|Translit=lae|Chinese_Gloss=和
+38	ebyyong	ebyyong	NOUN	_	_	_	_	_	Orth=ເບື້ອງ|Gloss=side|Translit=beeuang|Chinese_Gloss=边
+39	saanyo	saanyo	ADJ	_	_	_	_	_	Orth=ຊ້າຍ|Gloss=left|Translit=saai|Chinese_Gloss=_
+40	oiik	oiik	ADV	_	_	_	_	_	Orth=ອີກ|Gloss=again|Translit=iik|Chinese_Gloss=再
+41	phuunyng	phuunyng	PRON	_	_	_	_	_	Orth=ຜູ້ໜຶ່ງ|Gloss=someone|Translit=phuu-nueng|Chinese_Gloss=_
+42	.	.	PUNCT	_	_	_	_	_	Orth=.|Gloss=_|Translit=.|Chinese_Gloss=_
+43	”	”	PUNCT	_	_	_	_	_	Orth=”|Gloss=_|Translit=”|Chinese_Gloss=_
+
+# sent_id = 40026002
+# ref_id = Matthew 26:2
+# eng_text = " You know that after two days the Passover is coming , and the Son of Man will be delivered up to be crucified . "
+# lao_text = “ phwk ecoaa huu yuu eilw nyoang oiik song wan ca eimn ethdsakaan padsakhaa eila bud manud ca thyyk mob ayh phwkekhoaa khyng aiw thii aim kaangeikhn . ”
+# lao_orth = “ ພວກ ເຈົ້າ ​ ຮູ້ ​ ຢູ່ ​ ແລ້ວ ຍັງ ​ ອີກ ​ ສອງ ​ ວັນ ​ ຈະ ​ ແມ່ນ ​ ເທດສະການ ​ ປັດສະຄາ ແລະ ​ ບຸດ ​ ມະນຸດ ​ ຈະ ​ ຖືກ ​ ມອບ ​ ໃຫ້ ​ ພວກເຂົາ ​ ຄຶງ ​ ໄວ້ ​ ທີ່ ​ ໄມ້ ກາງແຂນ . ”
+1	“	“	PUNCT	_	_	_	_	_	Orth=“|Gloss=_|Translit=“|Chinese_Gloss=_
+2	phwk	phwk	NOUN	_	_	_	_	_	Orth=ພວກ|Gloss=PLUR|Translit=phuak|Chinese_Gloss=群
+3	ecoaa	ecoaa	PRON	_	_	_	_	_	Orth=ເຈົ້າ|Gloss=you|Translit=chao|Chinese_Gloss=你（君）|Number=Sing|Person=2|PronType=Prs|Polite=Form
+4	huu	huu	VERB	_	_	_	_	_	Orth=ຮູ້|Gloss=know|Translit=huu|Chinese_Gloss=_
+5	yuu	yuu	VERB	_	_	_	_	_	Orth=ຢູ່|Gloss=be|Translit=yuu|Chinese_Gloss=在
+6	eilw	eilw	ADV	_	_	_	_	_	Orth=ແລ້ວ|Gloss=already|Translit=laeoo|Chinese_Gloss=了
+7	nyoang	nyoang	AUX	_	_	_	_	_	Orth=ຍັງ|Gloss=yet|Translit=nyang|Chinese_Gloss=还hai
+8	oiik	oiik	ADV	_	_	_	_	_	Orth=ອີກ|Gloss=again|Translit=iik|Chinese_Gloss=再
+9	song	song	NUM	_	_	10	nummod	_	Orth=ສອງ|Gloss=two|Translit=sorng|Chinese_Gloss=_|NumType=Card
+10	wan	wan	NOUN	_	_	_	pobj	_	Orth=ວັນ|Gloss=day|Translit=van|Chinese_Gloss=_
+11	ca	ca	AUX	_	_	_	aux	_	Orth=ຈະ|Gloss=will|Translit=cha|Chinese_Gloss=将
+12	eimn	eimn	VERB	_	_	_	_	_	Orth=ແມ່ນ|Gloss=be|Translit=maen|Chinese_Gloss=正是
+13	ethdsakaan	ethdsakaan	NOUN	_	_	_	_	_	Orth=ເທດສະການ|Gloss=festival|Translit=theet-sa-kaan|Chinese_Gloss=_
+14	padsakhaa	padsakhaa	PROPN	_	_	_	nsubj	_	Orth=ປັດສະຄາ|Gloss=Passover|Translit=pat-sa-khaa|Chinese_Gloss=_
+15	eila	eila	CCONJ	_	_	44	cc	_	Orth=ແລະ|Gloss=and|Translit=lae|Chinese_Gloss=和
+16	bud	bud	PROPN	_	_	_	nsubjpass	_	Orth=ບຸດ|Gloss=Son|Translit=but|Chinese_Gloss=_
+17	manud	manud	PROPN	_	_	_	pobj	_	Orth=ມະນຸດ|Gloss=Man|Translit=ma-nut|Chinese_Gloss=_
+18	ca	ca	AUX	_	_	_	aux	_	Orth=ຈະ|Gloss=will|Translit=cha|Chinese_Gloss=将
+19	thyyk	thyyk	AUX	_	_	_	_	_	Orth=ຖືກ|Gloss=undergo|Translit=thueek|Chinese_Gloss=中（被）
+20	mob	mob	VERB	_	_	_	_	_	Orth=ມອບ|Gloss=give|Translit=morp|Chinese_Gloss=_
+21	ayh	ayh	VERB	_	_	_	_	_	Orth=ໃຫ້|Gloss=give|Translit=hai|Chinese_Gloss=给
+22	phwkekhoaa	phwkekhoaa	PRON	_	_	_	_	_	Orth=ພວກເຂົາ|Gloss=they|Translit=phuak-khao|Chinese_Gloss=他们|Number=Plur|Person=3|PronType=Prs|Polite=Form
+23	khyng	khyng	VERB	_	_	_	advcl	_	Orth=ຄຶງ|Gloss=stretch|Translit=khueng|Chinese_Gloss=_
+24	aiw	aiw	AUX	_	_	_	_	_	Orth=ໄວ້|Gloss=keep|Translit=vai|Chinese_Gloss=着
+25	thii	thii	ADP	_	_	_	_	_	Orth=ທີ່|Gloss=at|Translit=thii|Chinese_Gloss=_
+26	aim	aim	ADJ	_	_	_	_	_	Orth=ໄມ້|Gloss=wooden|Translit=mai|Chinese_Gloss=_
+27	kaangeikhn	kaangeikhn	NOUN	_	_	_	_	_	Orth=ກາງແຂນ|Gloss=cross|Translit=kaang-khaen|Chinese_Gloss=_
+28	.	.	PUNCT	_	_	_	_	_	Orth=.|Gloss=_|Translit=.|Chinese_Gloss=_
+29	”	”	PUNCT	_	_	_	_	_	Orth=”|Gloss=_|Translit=”|Chinese_Gloss=_
+
+# sent_id = 40026061
+# ref_id = Matthew 26:61
+# eng_text = and said , " This man said , ' I am able to destroy the temple of God , and to build it in three days . ' "
+# lao_text = eila kaawhaa waa , “ khon nii eihla aid ewoaa waa , ‘ ehoaa saamaad maang wihaan khong phlaecoaa long eila saang khyn aym aid phaanyo ayn saam wan . ” ’
+# lao_orth = ແລະ ​ ກ່າວຫາ ​ ວ່າ , “ ຄົນ ​ ນີ້ ​ ແຫຼະ ໄດ້ ​ ເວົ້າ ​ ວ່າ , ‘ ເຮົາ ​ ສາມາດ ​ ມ້າງ ​ ວິຫານ ​ ຂອງ ​ ພຣະເຈົ້າ ​ ລົງ ແລະ ​ ສ້າງ ​ ຂຶ້ນ ​ ໃໝ່ ​ ໄດ້ ​ ພາຍ ​ ໃນ ​ ສາມ ​ ວັນ . ” ’
+1	eila	eila	CCONJ	_	_	_	cc	_	Orth=ແລະ|Gloss=and|Translit=lae|Chinese_Gloss=和
+2	kaawhaa	kaawhaa	VERB	_	_	_	_	_	Orth=ກ່າວຫາ|Gloss=accuse|Translit=kaao-haa|Chinese_Gloss=_
+3	waa	waa	SCONJ	_	_	_	_	_	Orth=ວ່າ|Gloss=that|Translit=vaa|Chinese_Gloss=曰
+4	,	,	PUNCT	_	_	_	_	_	Orth=,|Gloss=_|Translit=,|Chinese_Gloss=_
+5	“	“	PUNCT	_	_	_	_	_	Orth=“|Gloss=_|Translit=“|Chinese_Gloss=_
+6	khon	khon	NOUN	_	_	_	_	_	Orth=ຄົນ|Gloss=person|Translit=khon|Chinese_Gloss=_
+7	nii	nii	DET	_	_	_	_	_	Orth=ນີ້|Gloss=this|Translit=nii|Chinese_Gloss=这
+8	eihla	eihla	ADV	_	_	_	_	_	Orth=ແຫຼະ|Gloss=(emphasis)|Translit=looei|Chinese_Gloss=_
+9	aid	aid	AUX	_	_	_	_	_	Orth=ໄດ້|Gloss=PAST|Translit=dai|Chinese_Gloss=得
+10	ewoaa	ewoaa	VERB	_	_	_	_	_	Orth=ເວົ້າ|Gloss=speak|Translit=vaao|Chinese_Gloss=_
+11	waa	waa	SCONJ	_	_	_	_	_	Orth=ວ່າ|Gloss=that|Translit=vaa|Chinese_Gloss=曰
+12	,	,	PUNCT	_	_	_	_	_	Orth=,|Gloss=_|Translit=,|Chinese_Gloss=_
+13	‘	‘	PUNCT	_	_	_	_	_	Orth=‘|Gloss=_|Translit=‘|Chinese_Gloss=_
+14	ehoaa	ehoaa	PRON	_	_	_	nsubj	_	Orth=ເຮົາ|Gloss=I|Translit=hao|Chinese_Gloss=我|Number=Sing|Person=1|PronType=Prs|Polite=Elev
+15	saamaad	saamaad	AUX	_	_	_	_	_	Orth=ສາມາດ|Gloss=can|Translit=saa-maat|Chinese_Gloss=_
+16	maang	maang	VERB	_	_	_	_	_	Orth=ມ້າງ|Gloss=ruin|Translit=maang|Chinese_Gloss=_
+17	wihaan	wihaan	PROPN	_	_	_	dobj	_	Orth=ວິຫານ|Gloss=Temple|Translit=vi-haan|Chinese_Gloss=_
+18	khong	khong	ADP	_	_	_	_	_	Orth=ຂອງ|Gloss=of|Translit=khorng|Chinese_Gloss=属于
+19	phlaecoaa	phlaecoaa	PROPN	_	_	_	pobj	_	Orth=ພຣະເຈົ້າ|Gloss=God|Translit=phra-chao|Chinese_Gloss=_
+20	long	long	ADV	_	_	_	_	_	Orth=ລົງ|Gloss=down|Translit=long|Chinese_Gloss=_
+21	eila	eila	CCONJ	_	_	_	cc	_	Orth=ແລະ|Gloss=and|Translit=lae|Chinese_Gloss=和
+22	saang	saang	VERB	_	_	_	_	_	Orth=ສ້າງ|Gloss=build|Translit=saang|Chinese_Gloss=_
+23	khyn	khyn	ADV	_	_	_	_	_	Orth=ຂຶ້ນ|Gloss=up|Translit=khuen|Chinese_Gloss=_
+24	aym	aym	ADJ	_	_	_	_	_	Orth=ໃໝ່|Gloss=new|Translit=mai|Chinese_Gloss=_
+25	aid	aid	AUX	_	_	_	_	_	Orth=ໄດ້|Gloss=can|Translit=dai|Chinese_Gloss=得
+26	phaanyo	phaanyo	ADV	_	_	_	_	_	Orth=ພາຍ|Gloss=within|Translit=phaai|Chinese_Gloss=在（方位）
+27	ayn	ayn	ADV	_	_	_	_	_	Orth=ໃນ|Gloss=in|Translit=nai|Chinese_Gloss=内
+28	saam	saam	NUM	_	_	29	nummod	_	Orth=ສາມ|Gloss=three|Translit=saam|Chinese_Gloss=_|NumType=Card
+29	wan	wan	NOUN	_	_	27	pobj	_	Orth=ວັນ|Gloss=day|Translit=van|Chinese_Gloss=_
+30	.	.	PUNCT	_	_	_	_	_	Orth=.|Gloss=_|Translit=.|Chinese_Gloss=_
+31	”	”	PUNCT	_	_	_	_	_	Orth=”|Gloss=_|Translit=”|Chinese_Gloss=_
+32	’	’	PUNCT	_	_	_	_	_	Orth=’|Gloss=_|Translit=’|Chinese_Gloss=_
+
+# sent_id = 40028016
+# ref_id = Matthew 28:16
+# eng_text = But the eleven disciples went into Galilee , to the mountain where Jesus had sent them .
+# lao_text = eilw phwk saawok sibeoad khon koo aid aip thii onn phuu ayn eikhwng khaaliiel bon thii phlaeysuuecoaa aid bok ayh eik phwk ephin nan .
+# lao_orth = ແລ້ວ ​ ພວກ ​ ສາວົກ ​ ສິບເອັດ ​ ຄົນ ກໍ ໄດ້ ​ ໄປ ​ ທີ່ ​ ໂນນ ​ ພູ ​ ໃນ ​ ແຂວງ ​ ຄາລີເລ ບ່ອນ ​ ທີ່ ​ ພຣະເຢຊູເຈົ້າ ​ ໄດ້ ​ ບອກ ​ ໃຫ້ ​ ແກ່ ​ ພວກ ເພິ່ນ ​ ນັ້ນ .
+1	eilw	eilw	ADV	_	_	_	_	_	Orth=ແລ້ວ|Gloss=already|Translit=laeoo|Chinese_Gloss=了
+2	phwk	phwk	NOUN	_	_	_	_	_	Orth=ພວກ|Gloss=PLUR|Translit=phuak|Chinese_Gloss=群
+3	saawok	saawok	NOUN	_	_	_	nsubj	_	Orth=ສາວົກ|Gloss=disciples|Translit=saao-vok|Chinese_Gloss=_
+4	sibeoad	sibeoad	NUM	_	_	_	_	_	Orth=ສິບເອັດ|Gloss=eleven|Translit=sip-et|Chinese_Gloss=_|NumType=Card
+5	khon	khon	NOUN	_	_	_	_	_	Orth=ຄົນ|Gloss=classifier_for_person|Translit=khon|Chinese_Gloss=_
+6	koo	koo	ADV	_	_	_	_	_	Orth=ກໍ|Gloss=then|Translit=kor|Chinese_Gloss=便
+7	aid	aid	AUX	_	_	_	_	_	Orth=ໄດ້|Gloss=PAST|Translit=dai|Chinese_Gloss=得
+8	aip	aip	VERB	_	_	_	_	_	Orth=ໄປ|Gloss=go|Translit=pai|Chinese_Gloss=去
+9	thii	thii	ADP	_	_	_	_	_	Orth=ທີ່|Gloss=at|Translit=thii|Chinese_Gloss=_
+10	onn	onn	NOUN	_	_	_	_	_	Orth=ໂນນ|Gloss=hill|Translit=noon|Chinese_Gloss=_
+11	phuu	phuu	NOUN	_	_	_	_	_	Orth=ພູ|Gloss=mountain|Translit=phuu|Chinese_Gloss=_
+12	ayn	ayn	ADV	_	_	_	_	_	Orth=ໃນ|Gloss=in|Translit=nai|Chinese_Gloss=内
+13	eikhwng	eikhwng	PROPN	_	_	_	pobj	_	Orth=ແຂວງ|Gloss=area|Translit=khwaeng|Chinese_Gloss=_
+14	khaaliiel	khaaliiel	PROPN	_	_	_	pobj	_	Orth=ຄາລີເລ|Gloss=Galilee|Translit=khaa-li-lee|Chinese_Gloss=_
+15	bon	bon	NOUN	_	_	_	_	_	Orth=ບ່ອນ|Gloss=place|Translit=born|Chinese_Gloss=_
+16	thii	thii	SCONJ	_	_	_	_	_	Orth=ທີ່|Gloss=that|Translit=thii|Chinese_Gloss=_
+17	phlaeysuuecoaa	phlaeysuuecoaa	PROPN	_	_	_	nsubj	_	Orth=ພຣະເຢຊູເຈົ້າ|Gloss=Jesus|Translit=phra-yee-suu-chao|Chinese_Gloss=_
+18	aid	aid	AUX	_	_	_	_	_	Orth=ໄດ້|Gloss=PAST|Translit=dai|Chinese_Gloss=得
+19	bok	bok	VERB	_	_	_	_	_	Orth=ບອກ|Gloss=tell|Translit=bork|Chinese_Gloss=_
+20	ayh	ayh	VERB	_	_	_	_	_	Orth=ໃຫ້|Gloss=give|Translit=hai|Chinese_Gloss=给
+21	eik	eik	ADP	_	_	_	_	_	Orth=ແກ່|Gloss=to|Translit=kae|Chinese_Gloss=至
+22	phwk	phwk	NOUN	_	_	_	_	_	Orth=ພວກ|Gloss=PLUR|Translit=phuak|Chinese_Gloss=群
+23	ephin	ephin	PRON	_	_	_	_	_	Orth=ເພິ່ນ|Gloss=they|Translit=phoen|Chinese_Gloss=尊（他）|Number=Sing|Person=3|PronType=Prs|Polite=Elev
+24	nan	nan	DET	_	_	_	_	_	Orth=ນັ້ນ|Gloss=that|Translit=nan|Chinese_Gloss=那
+25	.	.	PUNCT	_	_	_	_	_	Orth=.|Gloss=_|Translit=.|Chinese_Gloss=_
+
+# sent_id = 41002023
+# ref_id = Mark 2:23
+# eng_text = It happened , that he was going on the Sabbath day through the grain fields , and his disciples began , as they went , to pluck the ears of grain .
+# lao_text = ayn wan sabaaot wan nyng phlaeysuuecoaa eila saawok aid nyoaang phaan thongnaa emyyo nyoaang aip taam thaang nan phwk saawok aid edad eooaa hwngekhoaa .
+# lao_orth = ໃນ ​ ວັນ ​ ຊະບາໂຕ ​ ວັນ ​ ໜຶ່ງ ພຣະເຢຊູເຈົ້າ ແລະ ​ ສາວົກ ​ ໄດ້ ​ ຍ່າງ ​ ຜ່ານ ​ ທົ່ງນາ ເມື່ອ ​ ຍ່າງ ​ ໄປ ​ ຕາມ ​ ທາງ ​ ນັ້ນ ພວກ ​ ສາວົກ ​ ໄດ້ ​ ເດັດ ​ ເອົາ ​ ຮວງເຂົ້າ .
+1	ayn	ayn	ADV	_	_	_	_	_	Orth=ໃນ|Gloss=in|Translit=nai|Chinese_Gloss=内
+2	wan	wan	NOUN	_	_	_	_	_	Orth=ວັນ|Gloss=day|Translit=van|Chinese_Gloss=_
+3	sabaaot	sabaaot	PROPN	_	_	_	compound	_	Orth=ຊະບາໂຕ|Gloss=Sabbath|Translit=sa-baa-too|Chinese_Gloss=_
+4	wan	wan	NOUN	_	_	_	_	_	Orth=ວັນ|Gloss=day|Translit=van|Chinese_Gloss=_
+5	nyng	nyng	NUM	_	_	_	_	_	Orth=ໜຶ່ງ|Gloss=one|Translit=nueng|Chinese_Gloss=_
+6	phlaeysuuecoaa	phlaeysuuecoaa	PROPN	_	_	_	nsubj	_	Orth=ພຣະເຢຊູເຈົ້າ|Gloss=Jesus|Translit=phra-yee-suu-chao|Chinese_Gloss=_
+7	eila	eila	CCONJ	_	_	44	cc	_	Orth=ແລະ|Gloss=and|Translit=lae|Chinese_Gloss=和
+8	saawok	saawok	NOUN	_	_	_	nsubj	_	Orth=ສາວົກ|Gloss=disciples|Translit=saao-vok|Chinese_Gloss=_
+9	aid	aid	AUX	_	_	_	_	_	Orth=ໄດ້|Gloss=PAST|Translit=dai|Chinese_Gloss=得
+10	nyoaang	nyoaang	VERB	_	_	_	_	_	Orth=ຍ່າງ|Gloss=walk|Translit=yaang|Chinese_Gloss=_
+11	phaan	phaan	ADP	_	_	_	_	_	Orth=ຜ່ານ|Gloss=through|Translit=phaan|Chinese_Gloss=_
+12	thongnaa	thongnaa	NOUN	_	_	_	_	_	Orth=ທົ່ງນາ|Gloss=field|Translit=thong-naa|Chinese_Gloss=_
+13	emyyo	emyyo	SCONJ	_	_	_	_	_	Orth=ເມື່ອ|Gloss=when|Translit=mueea|Chinese_Gloss=_
+14	nyoaang	nyoaang	VERB	_	_	_	_	_	Orth=ຍ່າງ|Gloss=walk|Translit=yaang|Chinese_Gloss=_
+15	aip	aip	VERB	_	_	_	_	_	Orth=ໄປ|Gloss=go|Translit=pai|Chinese_Gloss=去
+16	taam	taam	ADP	_	_	_	_	_	Orth=ຕາມ|Gloss=along|Translit=taam|Chinese_Gloss=_
+17	thaang	thaang	NOUN	_	_	_	_	_	Orth=ທາງ|Gloss=road|Translit=thaang|Chinese_Gloss=_
+18	nan	nan	DET	_	_	_	_	_	Orth=ນັ້ນ|Gloss=that|Translit=nan|Chinese_Gloss=那
+19	phwk	phwk	NOUN	_	_	_	_	_	Orth=ພວກ|Gloss=PLUR|Translit=phuak|Chinese_Gloss=群
+20	saawok	saawok	NOUN	_	_	_	nsubj	_	Orth=ສາວົກ|Gloss=disciples|Translit=saao-vok|Chinese_Gloss=_
+21	aid	aid	AUX	_	_	_	_	_	Orth=ໄດ້|Gloss=PAST|Translit=dai|Chinese_Gloss=得
+22	edad	edad	VERB	_	_	_	_	_	Orth=ເດັດ|Gloss=pick|Translit=det|Chinese_Gloss=_
+23	eooaa	eooaa	VERB	_	_	_	_	_	Orth=ເອົາ|Gloss=take|Translit=ao|Chinese_Gloss=要
+24	hwngekhoaa	hwngekhoaa	NOUN	_	_	_	_	_	Orth=ຮວງເຂົ້າ|Gloss=heads_of_grain|Translit=huang-khao|Chinese_Gloss=_
+25	.	.	PUNCT	_	_	_	_	_	Orth=.|Gloss=_|Translit=.|Chinese_Gloss=_
+
+# sent_id = 41012032
+# ref_id = Mark 12:32
+# eng_text = The scribe said to him , " Truly , teacher , you have said well that he is one , and there is none other but he ,
+# lao_text = thamma caan khon nii cyng ewoaa too phlaeysuuecoaa waa , “ dii eilw oaacaan eoiinyo thii thaan aid kaaw nan thyyk eilw thii waa , eimn phlaecoaa eit oong dyw eila nokcaak phlaoong eilw boomii phlaecoaa oong oyyn oiik .
+# lao_orth = ທຳມະ ຈານ ​ ຄົນ ​ ນີ້ ​ ຈຶ່ງ ​ ເວົ້າ ​ ຕໍ່ ​ ພຣະເຢຊູເຈົ້າ ​ ວ່າ , “ ດີ ​ ແລ້ວ ​ ອາຈານ ​ ເອີຍ ທີ່ ​ ທ່ານ ​ ໄດ້ ​ ກ່າວ ​ ນັ້ນ ​ ຖືກ ​ ແລ້ວ ​ ທີ່ ​ ວ່າ , ແມ່ນ ​ ພຣະເຈົ້າ ​ ແຕ່ ​ ອົງ ​ ດຽວ ແລະ ​ ນອກຈາກ ​ ພຣະອົງ ​ ແລ້ວ ​ ບໍ່ມີ ​ ພຣະເຈົ້າ ​ ອົງ ​ ອື່ນ ​ ອີກ .
+1	thamma	thamma	ADJ	_	_	_	amod	_	Orth=ທຳມະ|Gloss=religious|Translit=tham-ma|Chinese_Gloss=_
+2	caan	caan	NOUN	_	_	_	_	_	Orth=ຈານ|Gloss=teachers|Translit=chaan|Chinese_Gloss=_
+3	khon	khon	NOUN	_	_	_	_	_	Orth=ຄົນ|Gloss=person|Translit=khon|Chinese_Gloss=_
+4	nii	nii	DET	_	_	_	_	_	Orth=ນີ້|Gloss=this|Translit=nii|Chinese_Gloss=这
+5	cyng	cyng	ADV	_	_	_	_	_	Orth=ຈຶ່ງ|Gloss=then|Translit=chueng|Chinese_Gloss=_
+6	ewoaa	ewoaa	VERB	_	_	_	_	_	Orth=ເວົ້າ|Gloss=speak|Translit=vaao|Chinese_Gloss=_
+7	too	too	ADP	_	_	_	_	_	Orth=ຕໍ່|Gloss=to|Translit=torr|Chinese_Gloss=_
+8	phlaeysuuecoaa	phlaeysuuecoaa	PROPN	_	_	_	_	_	Orth=ພຣະເຢຊູເຈົ້າ|Gloss=Jesus|Translit=phra-yee-suu-chao|Chinese_Gloss=_
+9	waa	waa	SCONJ	_	_	_	mark	_	Orth=ວ່າ|Gloss=that|Translit=vaa|Chinese_Gloss=曰
+10	,	,	PUNCT	_	_	_	_	_	Orth=,|Gloss=_|Translit=,|Chinese_Gloss=_
+11	“	“	PUNCT	_	_	_	_	_	Orth=“|Gloss=_|Translit=“|Chinese_Gloss=_
+12	dii	dii	ADJ	_	_	_	_	_	Orth=ດີ|Gloss=good|Translit=dii|Chinese_Gloss=_
+13	eilw	eilw	ADV	_	_	_	_	_	Orth=ແລ້ວ|Gloss=already|Translit=laeoo|Chinese_Gloss=了
+14	oaacaan	oaacaan	NOUN	_	_	_	npadvmod	_	Orth=ອາຈານ|Gloss=Teacher|Translit=aa-chaan|Chinese_Gloss=_
+15	eoiinyo	eoiinyo	INTJ	_	_	_	_	_	Orth=ເອີຍ|Gloss=[vocative]|Translit=ooei|Chinese_Gloss=_
+16	thii	thii	SCONJ	_	_	_	_	_	Orth=ທີ່|Gloss=that|Translit=thii|Chinese_Gloss=_
+17	thaan	thaan	PRON	_	_	_	_	_	Orth=ທ່ານ|Gloss=you|Translit=thaan|Chinese_Gloss=您|Number=Sing|Person=2|PronType=Prs|Polite=Elev
+18	aid	aid	AUX	_	_	_	_	_	Orth=ໄດ້|Gloss=PAST|Translit=dai|Chinese_Gloss=得
+19	kaaw	kaaw	VERB	_	_	_	_	_	Orth=ກ່າວ|Gloss=spoke|Translit=kaao|Chinese_Gloss=_
+20	nan	nan	DET	_	_	_	_	_	Orth=ນັ້ນ|Gloss=that|Translit=nan|Chinese_Gloss=那
+21	thyyk	thyyk	ADJ	_	_	_	_	_	Orth=ຖືກ|Gloss=correct|Translit=thueek|Chinese_Gloss=中（对）
+22	eilw	eilw	ADV	_	_	_	_	_	Orth=ແລ້ວ|Gloss=already|Translit=laeoo|Chinese_Gloss=了
+23	thii	thii	SCONJ	_	_	_	_	_	Orth=ທີ່|Gloss=who|Translit=thii|Chinese_Gloss=_
+24	waa	waa	SCONJ	_	_	_	mark	_	Orth=ວ່າ|Gloss=that|Translit=vaa|Chinese_Gloss=曰
+25	,	,	PUNCT	_	_	_	_	_	Orth=,|Gloss=_|Translit=,|Chinese_Gloss=_
+26	eimn	eimn	VERB	_	_	_	_	_	Orth=ແມ່ນ|Gloss=be|Translit=maen|Chinese_Gloss=正是
+27	phlaecoaa	phlaecoaa	PROPN	_	_	_	attr	_	Orth=ພຣະເຈົ້າ|Gloss=God|Translit=phra-chao|Chinese_Gloss=_
+28	eit	eit	ADV	_	_	_	_	_	Orth=ແຕ່|Gloss=only|Translit=tae|Chinese_Gloss=自
+29	oong	oong	NOUN	CLF	_	_	_	_	Orth=ອົງ|Gloss=classifier_for_deity|Translit=ong|Chinese_Gloss=尊
+30	dyw	dyw	ADJ	_	_	_	_	_	Orth=ດຽວ|Gloss=only|Translit=diiao|Chinese_Gloss=单
+31	eila	eila	CCONJ	_	_	27	cc	_	Orth=ແລະ|Gloss=and|Translit=lae|Chinese_Gloss=和
+32	nokcaak	nokcaak	ADP	_	_	_	_	_	Orth=ນອກຈາກ|Gloss=except|Translit=nork-chaak|Chinese_Gloss=_
+33	phlaoong	phlaoong	PRON	_	_	_	_	_	Orth=ພຣະອົງ|Gloss=him|Translit=phra-ong|Chinese_Gloss=祂|Number=Sing|Person=3|PronType=Prs|Polite=Elev
+34	eilw	eilw	ADV	_	_	_	_	_	Orth=ແລ້ວ|Gloss=already|Translit=laeoo|Chinese_Gloss=了
+35	boomii	boomii	VERB	_	_	_	_	_	Orth=ບໍ່ມີ|Gloss=not_have|Translit=borr-mii|Chinese_Gloss=_
+36	phlaecoaa	phlaecoaa	PROPN	_	_	_	attr	_	Orth=ພຣະເຈົ້າ|Gloss=God|Translit=phra-chao|Chinese_Gloss=_
+37	oong	oong	NOUN	CLF	_	_	_	_	Orth=ອົງ|Gloss=classifier_for_deity|Translit=ong|Chinese_Gloss=尊
+38	oyyn	oyyn	ADJ	_	_	_	_	_	Orth=ອື່ນ|Gloss=other|Translit=ueen|Chinese_Gloss=另
+39	oiik	oiik	ADV	_	_	_	_	_	Orth=ອີກ|Gloss=again|Translit=iik|Chinese_Gloss=再
+40	.	.	PUNCT	_	_	_	_	_	Orth=.|Gloss=_|Translit=.|Chinese_Gloss=_
+
+# sent_id = 41014037
+# ref_id = Mark 14:37
+# eng_text = He came and found them sleeping , and said to Peter , " Simon , are you sleeping ? Couldn't you watch one hour ?
+# lao_text = eilw phlaoong koo kabkhyyn maa eila ehan phwk saawok non hlab yuu , phlaoong kaaw eik epot waa , “ siiomn eoiinyo ecoaa nyoang non hlab yuu boo ? ecoaa boo saamaad efoaa yuu cak sowomng dyw boo ? ”
+# lao_orth = ແລ້ວ ​ ພຣະອົງ ​ ກໍ ​ ກັບຄືນ ​ ມາ ແລະ ​ ເຫັນ ​ ພວກ ​ ສາວົກ ​ ນອນ ​ ຫລັບ ​ ຢູ່ , ພຣະອົງ ​ ກ່າວ ​ ແກ່ ​ ເປໂຕ ​ ວ່າ , “ ຊີໂມນ ​ ເອີຍ ເຈົ້າ ​ ຍັງ ​ ນອນ ​ ຫລັບ ​ ຢູ່ ​ ບໍ ? ເຈົ້າ ​ ບໍ່ ​ ສາມາດ ​ ເຝົ້າ ​ ຢູ່ ​ ຈັກ ​ ຊົ່ວໂມງ ​ ດຽວ​ ບໍ ? ”
+1	eilw	eilw	ADV	_	_	_	_	_	Orth=ແລ້ວ|Gloss=already|Translit=laeoo|Chinese_Gloss=了
+2	phlaoong	phlaoong	PRON	_	_	_	_	_	Orth=ພຣະອົງ|Gloss=him|Translit=phra-ong|Chinese_Gloss=祂|Number=Sing|Person=3|PronType=Prs|Polite=Elev
+3	koo	koo	ADV	_	_	_	_	_	Orth=ກໍ|Gloss=then|Translit=kor|Chinese_Gloss=便
+4	kabkhyyn	kabkhyyn	VERB	_	_	0	root	_	Orth=ກັບຄືນ|Gloss=returne|Translit=kap-khueen|Chinese_Gloss=_
+5	maa	maa	VERB	_	_	_	_	_	Orth=ມາ|Gloss=come|Translit=maa|Chinese_Gloss=来
+6	eila	eila	CCONJ	_	_	44	cc	_	Orth=ແລະ|Gloss=and|Translit=lae|Chinese_Gloss=和
+7	ehan	ehan	VERB	_	_	_	_	_	Orth=ເຫັນ|Gloss=saw|Translit=hen|Chinese_Gloss=_
+8	phwk	phwk	NOUN	_	_	_	_	_	Orth=ພວກ|Gloss=PLUR|Translit=phuak|Chinese_Gloss=群
+9	saawok	saawok	NOUN	_	_	11	nsubj	_	Orth=ສາວົກ|Gloss=disciples|Translit=saao-vok|Chinese_Gloss=_
+10	non	non	VERB	_	_	_	acomp	_	Orth=ນອນ|Gloss=sleep|Translit=noorn|Chinese_Gloss=睡觉
+11	hlab	hlab	ADJ	_	_	_	acomp	_	Orth=ຫລັບ|Gloss=asleep|Translit=lap|Chinese_Gloss=（睡）着zhao
+12	yuu	yuu	AUX	_	_	_	_	_	Orth=ຢູ່|Gloss=ing|Translit=yuu|Chinese_Gloss=在
+13	,	,	PUNCT	_	_	_	_	_	Orth=,|Gloss=_|Translit=,|Chinese_Gloss=_
+14	phlaoong	phlaoong	PRON	_	_	_	_	_	Orth=ພຣະອົງ|Gloss=him|Translit=phra-ong|Chinese_Gloss=祂|Number=Sing|Person=3|PronType=Prs|Polite=Elev
+15	kaaw	kaaw	VERB	_	_	_	_	_	Orth=ກ່າວ|Gloss=spoke|Translit=kaao|Chinese_Gloss=_
+16	eik	eik	ADP	_	_	_	_	_	Orth=ແກ່|Gloss=to|Translit=kae|Chinese_Gloss=至
+17	epot	epot	PROPN	_	_	_	pobj	_	Orth=ເປໂຕ|Gloss=Peter|Translit=pee-too|Chinese_Gloss=_
+18	waa	waa	SCONJ	_	_	_	_	_	Orth=ວ່າ|Gloss=that|Translit=vaa|Chinese_Gloss=曰
+19	,	,	PUNCT	_	_	_	_	_	Orth=,|Gloss=_|Translit=,|Chinese_Gloss=_
+20	“	“	PUNCT	_	_	_	_	_	Orth=“|Gloss=_|Translit=“|Chinese_Gloss=_
+21	siiomn	siiomn	PROPN	_	_	_	npadvmod	_	Orth=ຊີໂມນ|Gloss=Simon|Translit=sii-moon|Chinese_Gloss=_
+22	eoiinyo	eoiinyo	INTJ	_	_	_	_	_	Orth=ເອີຍ|Gloss=[vocative]|Translit=ooei|Chinese_Gloss=_
+23	ecoaa	ecoaa	PRON	_	_	_	_	_	Orth=ເຈົ້າ|Gloss=you|Translit=chao|Chinese_Gloss=你（君）|Number=Sing|Person=2|PronType=Prs|Polite=Form
+24	nyoang	nyoang	ADV	_	_	_	_	_	Orth=ຍັງ|Gloss=still|Translit=nyang|Chinese_Gloss=还hai
+25	non	non	VERB	_	_	_	acomp	_	Orth=ນອນ|Gloss=sleep|Translit=noorn|Chinese_Gloss=睡觉
+26	hlab	hlab	ADJ	_	_	_	acomp	_	Orth=ຫລັບ|Gloss=asleep|Translit=lap|Chinese_Gloss=（睡）着zhao
+27	yuu	yuu	AUX	_	_	_	_	_	Orth=ຢູ່|Gloss=ing|Translit=yuu|Chinese_Gloss=在
+28	boo	boo	ADV	_	_	_	_	_	Orth=ບໍ|Gloss=not|Translit=borr|Chinese_Gloss=不
+29	?	?	PUNCT	_	_	_	_	_	Orth=?|Gloss=_|Translit=?|Chinese_Gloss=_
+30	ecoaa	ecoaa	PRON	_	_	_	_	_	Orth=ເຈົ້າ|Gloss=you|Translit=chao|Chinese_Gloss=你（君）|Number=Sing|Person=2|PronType=Prs|Polite=Form
+31	boo	boo	ADV	_	_	_	_	_	Orth=ບໍ່|Gloss=not|Translit=borr|Chinese_Gloss=不
+32	saamaad	saamaad	AUX	_	_	_	_	_	Orth=ສາມາດ|Gloss=can|Translit=saa-maat|Chinese_Gloss=_
+33	efoaa	efoaa	VERB	_	_	0	root	_	Orth=ເຝົ້າ|Gloss=keep|Translit=faao|Chinese_Gloss=_
+34	yuu	yuu	AUX	_	_	_	_	_	Orth=ຢູ່|Gloss=ing|Translit=yuu|Chinese_Gloss=在
+35	cak	cak	NUM	_	_	_	_	_	Orth=ຈັກ|Gloss=some|Translit=chak|Chinese_Gloss=_
+36	sowomng	sowomng	NOUN	_	_	33	npadvmod	_	Orth=ຊົ່ວໂມງ|Gloss=hour|Translit=suua-moong|Chinese_Gloss=_
+37	dyw	dyw	ADJ	_	_	_	_	_	Orth=ດຽວ|Gloss=only|Translit=diiao|Chinese_Gloss=单
+38	boo	boo	ADV	_	_	_	_	_	Orth=ບໍ|Gloss=not|Translit=borr|Chinese_Gloss=不
+39	?	?	PUNCT	_	_	_	_	_	Orth=?|Gloss=_|Translit=?|Chinese_Gloss=_
+40	”	”	PUNCT	_	_	_	_	_	Orth=”|Gloss=_|Translit=”|Chinese_Gloss=_
+
+# sent_id = 42004002
+# ref_id = Luke 4:2
+# eng_text = for forty days , being tempted by the devil . He ate nothing in those days . Afterward , when they were completed , he was hungry .
+# lao_text = ayn thii nan phlaoong aid thyyk maanhaanyo thodlong epan ewlaa sii sib wan ayn wan ehloaa nan phlaoong booaid kin hnyoang eliinyo emyyo wan ehloaa nan phaan phon aip eilw phlaoong koo yaak oaahaan .
+# lao_orth = ໃນ ​ ທີ່ ນັ້ນ ພຣະອົງ ​ ໄດ້ ​ ຖືກ ​ ມານຮ້າຍ ​ ທົດລອງ ​ ເປັນ ​ ເວລາ ​ ສີ່ ສິບ ​ ວັນ ໃນ ​ ວັນ ​ ເຫຼົ່າ ນັ້ນ ພຣະອົງ ​ ບໍ່ໄດ້ ​ ກິນ ​ ຫຍັງ ​ ເລີຍ ເມື່ອ ​ ວັນ ​ ເຫຼົ່າ ນັ້ນ ​ ຜ່ານ ​ ພົ້ນ ​ ໄປ ​ ແລ້ວ ພຣະອົງ ​ ກໍ ​ ຢາກ ​ ອາຫານ .
+1	ayn	ayn	ADV	_	_	_	_	_	Orth=ໃນ|Gloss=in|Translit=nai|Chinese_Gloss=内
+2	thii	thii	ADP	_	_	_	_	_	Orth=ທີ່|Gloss=at|Translit=thii|Chinese_Gloss=_
+3	nan	nan	DET	_	_	_	_	_	Orth=ນັ້ນ|Gloss=that|Translit=nan|Chinese_Gloss=那
+4	phlaoong	phlaoong	PRON	_	_	_	_	_	Orth=ພຣະອົງ|Gloss=him|Translit=phra-ong|Chinese_Gloss=祂|Number=Sing|Person=3|PronType=Prs|Polite=Elev
+5	aid	aid	AUX	_	_	_	_	_	Orth=ໄດ້|Gloss=PAST|Translit=dai|Chinese_Gloss=得
+6	thyyk	thyyk	AUX	_	_	_	_	_	Orth=ຖືກ|Gloss=undergo|Translit=thueek|Chinese_Gloss=中（被）
+7	maanhaanyo	maanhaanyo	NOUN	_	_	_	pobj	_	Orth=ມານຮ້າຍ|Gloss=devil|Translit=maan-haai|Chinese_Gloss=_
+8	thodlong	thodlong	VERB	_	_	_	_	_	Orth=ທົດລອງ|Gloss=test|Translit=thot-lorng|Chinese_Gloss=_
+9	epan	epan	VERB	_	_	_	_	_	Orth=ເປັນ|Gloss=be|Translit=pen|Chinese_Gloss=是
+10	ewlaa	ewlaa	NOUN	_	_	_	npadvmod	_	Orth=ເວລາ|Gloss=time|Translit=vee-laa|Chinese_Gloss=_
+11	sii	sii	NUM	_	_	_	_	_	Orth=ສີ່|Gloss=four|Translit=sii|Chinese_Gloss=_|NumType=Card
+12	sib	sib	NUM	_	_	13	nummod	_	Orth=ສິບ|Gloss=ten|Translit=sip|Chinese_Gloss=_|NumType=Card
+13	wan	wan	NOUN	_	_	_	pobj	_	Orth=ວັນ|Gloss=day|Translit=van|Chinese_Gloss=_
+14	ayn	ayn	ADV	_	_	_	_	_	Orth=ໃນ|Gloss=in|Translit=nai|Chinese_Gloss=内
+15	wan	wan	NOUN	_	_	_	pobj	_	Orth=ວັນ|Gloss=day|Translit=van|Chinese_Gloss=_
+16	ehloaa	ehloaa	DET	_	_	_	_	_	Orth=ເຫຼົ່າ|Gloss=those|Translit=lao|Chinese_Gloss=些
+17	nan	nan	DET	_	_	_	_	_	Orth=ນັ້ນ|Gloss=that|Translit=nan|Chinese_Gloss=那
+18	phlaoong	phlaoong	PRON	_	_	_	_	_	Orth=ພຣະອົງ|Gloss=him|Translit=phra-ong|Chinese_Gloss=祂|Number=Sing|Person=3|PronType=Prs|Polite=Elev
+19	booaid	booaid	AUX	_	_	_	_	_	Orth=ບໍ່ໄດ້|Gloss=cannot|Translit=borr-dai|Chinese_Gloss=_
+20	kin	kin	VERB	_	_	_	_	_	Orth=ກິນ|Gloss=eat|Translit=kin|Chinese_Gloss=_
+21	hnyoang	hnyoang	PRON	_	_	_	_	_	Orth=ຫຍັງ|Gloss=anything|Translit=nyang|Chinese_Gloss=什么
+22	eliinyo	eliinyo	ADV	_	_	_	_	_	Orth=ເລີຍ|Gloss=at_all|Translit=looei|Chinese_Gloss=_
+23	emyyo	emyyo	SCONJ	_	_	_	_	_	Orth=ເມື່ອ|Gloss=when|Translit=mueea|Chinese_Gloss=_
+24	wan	wan	NOUN	_	_	_	pobj	_	Orth=ວັນ|Gloss=day|Translit=van|Chinese_Gloss=_
+25	ehloaa	ehloaa	DET	_	_	_	_	_	Orth=ເຫຼົ່າ|Gloss=those|Translit=lao|Chinese_Gloss=些
+26	nan	nan	DET	_	_	_	_	_	Orth=ນັ້ນ|Gloss=that|Translit=nan|Chinese_Gloss=那
+27	phaan	phaan	ADP	_	_	_	_	_	Orth=ຜ່ານ|Gloss=through|Translit=phaan|Chinese_Gloss=_
+28	phon	phon	VERB	_	_	_	_	_	Orth=ພົ້ນ|Gloss=pass|Translit=phon|Chinese_Gloss=_
+29	aip	aip	VERB	_	_	_	_	_	Orth=ໄປ|Gloss=go|Translit=pai|Chinese_Gloss=去
+30	eilw	eilw	ADV	_	_	_	_	_	Orth=ແລ້ວ|Gloss=already|Translit=laeoo|Chinese_Gloss=了
+31	phlaoong	phlaoong	PRON	_	_	_	_	_	Orth=ພຣະອົງ|Gloss=him|Translit=phra-ong|Chinese_Gloss=祂|Number=Sing|Person=3|PronType=Prs|Polite=Elev
+32	koo	koo	ADV	_	_	_	_	_	Orth=ກໍ|Gloss=then|Translit=kor|Chinese_Gloss=便
+33	yaak	yaak	VERB	_	_	_	_	_	Orth=ຢາກ|Gloss=want|Translit=yaak|Chinese_Gloss=_
+34	oaahaan	oaahaan	NOUN	_	_	_	_	_	Orth=ອາຫານ|Gloss=food|Translit=aa-haan|Chinese_Gloss=_
+35	.	.	PUNCT	_	_	_	_	_	Orth=.|Gloss=_|Translit=.|Chinese_Gloss=_
+
+# sent_id = 42016013
+# ref_id = Luke 16:13
+# eng_text = No servant can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You aren't able to serve God and mammon . "
+# lao_text = “ boo hon mii phuuayd epan khaa song ecoaabaaw song naanyo aid ephaaa ca hak naanyo phuu nii eila ca sang naanyo phuu nan hlyy ca tidphan kab naanyo phuu nii eila ca min pamaad naanyo phuu nan phwk ecoaa ca habays phlaecoaa eila habays engin kham phom kan booaid . ”
+# lao_orth = “ ບໍ່ ​ ຫ່ອນ ​ ມີ ​ ຜູ້ໃດ ​ ເປັນ ​ ຂ້າ ​ ສອງ ​ ເຈົ້າບ່າວ ​ ສອງ ​ ນາຍ ​ ໄດ້ ເພາະ ​ ຈະ ​ ຮັກ ​ ນາຍ ​ ຜູ້ ​ ນີ້ ແລະ ​ ຈະ ​ ຊັງ ​ ນາຍ ​ ຜູ້ ​ ນັ້ນ ຫລື ​ ຈະ ​ ຕິດພັນ ​ ກັບ ​ ນາຍ ​ ຜູ້ ​ ນີ້ ແລະ ​ ຈະ ​ ໝິ່ນ ປະໝາດ ​ ນາຍ ​ ຜູ້ ​ ນັ້ນ ພວກ ເຈົ້າ ​ ຈະ ​ ຮັບໃຊ້ ​ ພຣະເຈົ້າ ແລະ ​ ຮັບໃຊ້ ​ ເງິນ ຄຳ ​ ພ້ອມ ​ ກັນ ​ ບໍ່ໄດ້ . ”
+1	“	“	PUNCT	_	_	_	_	_	Orth=“|Gloss=_|Translit=“|Chinese_Gloss=_
+2	boo	boo	ADV	_	_	_	_	_	Orth=ບໍ່|Gloss=not|Translit=borr|Chinese_Gloss=不
+3	hon	hon	AUX	_	_	_	_	_	Orth=ຫ່ອນ|Gloss=likely|Translit=horn|Chinese_Gloss=会
+4	mii	mii	VERB	_	_	_	_	_	Orth=ມີ|Gloss=have|Translit=mii|Chinese_Gloss=有
+5	phuuayd	phuuayd	PRON	_	_	_	_	_	Orth=ຜູ້ໃດ|Gloss=anyone|Translit=phuu-dai|Chinese_Gloss=谁|PronType=Ind,Int
+6	epan	epan	VERB	_	_	_	_	_	Orth=ເປັນ|Gloss=be|Translit=pen|Chinese_Gloss=是
+7	khaa	khaa	NOUN	_	_	_	_	_	Orth=ຂ້າ|Gloss=slave|Translit=khaa|Chinese_Gloss=_
+8	song	song	NUM	_	_	_	nummod	_	Orth=ສອງ|Gloss=two|Translit=sorng|Chinese_Gloss=_|NumType=Card
+9	ecoaabaaw	ecoaabaaw	NOUN	_	_	_	_	_	Orth=ເຈົ້າບ່າວ|Gloss=master|Translit=chao-baao|Chinese_Gloss=_
+10	song	song	NUM	_	_	_	nummod	_	Orth=ສອງ|Gloss=two|Translit=sorng|Chinese_Gloss=_|NumType=Card
+11	naanyo	naanyo	NOUN	_	_	_	_	_	Orth=ນາຍ|Gloss=slave_owner|Translit=naai|Chinese_Gloss=_
+12	aid	aid	AUX	_	_	_	_	_	Orth=ໄດ້|Gloss=can|Translit=dai|Chinese_Gloss=得
+13	ephaaa	ephaaa	SCONJ	_	_	_	_	_	Orth=ເພາະ|Gloss=because|Translit=phor|Chinese_Gloss=_
+14	ca	ca	AUX	_	_	_	aux	_	Orth=ຈະ|Gloss=will|Translit=cha|Chinese_Gloss=将
+15	hak	hak	VERB	_	_	_	_	_	Orth=ຮັກ|Gloss=love|Translit=hak|Chinese_Gloss=_
+16	naanyo	naanyo	NOUN	_	_	_	_	_	Orth=ນາຍ|Gloss=slave_owner|Translit=naai|Chinese_Gloss=_
+17	phuu	phuu	PRON	_	_	_	_	_	Orth=ຜູ້|Gloss=person|Translit=phuu|Chinese_Gloss=者
+18	nii	nii	DET	_	_	_	_	_	Orth=ນີ້|Gloss=this|Translit=nii|Chinese_Gloss=这
+19	eila	eila	CCONJ	_	_	43	cc	_	Orth=ແລະ|Gloss=and|Translit=lae|Chinese_Gloss=和
+20	ca	ca	AUX	_	_	_	aux	_	Orth=ຈະ|Gloss=will|Translit=cha|Chinese_Gloss=将
+21	sang	sang	VERB	_	_	_	acomp	_	Orth=ຊັງ|Gloss=hate|Translit=sang|Chinese_Gloss=_
+22	naanyo	naanyo	NOUN	_	_	_	_	_	Orth=ນາຍ|Gloss=slave_owner|Translit=naai|Chinese_Gloss=_
+23	phuu	phuu	PRON	_	_	_	_	_	Orth=ຜູ້|Gloss=person|Translit=phuu|Chinese_Gloss=者
+24	nan	nan	DET	_	_	_	_	_	Orth=ນັ້ນ|Gloss=that|Translit=nan|Chinese_Gloss=那
+25	hlyy	hlyy	CCONJ	_	_	_	_	_	Orth=ຫລື|Gloss=or|Translit=luee|Chinese_Gloss=_
+26	ca	ca	AUX	_	_	_	aux	_	Orth=ຈະ|Gloss=will|Translit=cha|Chinese_Gloss=将
+27	tidphan	tidphan	VERB	_	_	_	acomp	_	Orth=ຕິດພັນ|Gloss=devoted|Translit=tit-phan|Chinese_Gloss=_
+28	kab	kab	CCONJ	_	_	_	_	_	Orth=ກັບ|Gloss=with|Translit=kap|Chinese_Gloss=与
+29	naanyo	naanyo	NOUN	_	_	_	_	_	Orth=ນາຍ|Gloss=slave_owner|Translit=naai|Chinese_Gloss=_
+30	phuu	phuu	PRON	_	_	_	_	_	Orth=ຜູ້|Gloss=person|Translit=phuu|Chinese_Gloss=者
+31	nii	nii	DET	_	_	_	_	_	Orth=ນີ້|Gloss=this|Translit=nii|Chinese_Gloss=这
+32	eila	eila	CCONJ	_	_	44	cc	_	Orth=ແລະ|Gloss=and|Translit=lae|Chinese_Gloss=和
+33	ca	ca	AUX	_	_	_	aux	_	Orth=ຈະ|Gloss=will|Translit=cha|Chinese_Gloss=将
+34	min	min	VERB	_	_	_	_	_	Orth=ໝິ່ນ|Gloss=insult|Translit=min|Chinese_Gloss=_
+35	pamaad	pamaad	VERB	_	_	_	_	_	Orth=ປະໝາດ|Gloss=despise|Translit=pa-maat|Chinese_Gloss=_
+36	naanyo	naanyo	NOUN	_	_	_	_	_	Orth=ນາຍ|Gloss=slave_owner|Translit=naai|Chinese_Gloss=_
+37	phuu	phuu	PRON	_	_	_	_	_	Orth=ຜູ້|Gloss=person|Translit=phuu|Chinese_Gloss=者
+38	nan	nan	DET	_	_	_	_	_	Orth=ນັ້ນ|Gloss=that|Translit=nan|Chinese_Gloss=那
+39	phwk	phwk	NOUN	_	_	_	_	_	Orth=ພວກ|Gloss=PLUR|Translit=phuak|Chinese_Gloss=群
+40	ecoaa	ecoaa	PRON	_	_	43	nsubj	_	Orth=ເຈົ້າ|Gloss=you|Translit=chao|Chinese_Gloss=你（君）|Number=Sing|Person=2|PronType=Prs|Polite=Form
+41	ca	ca	AUX	_	_	_	aux	_	Orth=ຈະ|Gloss=will|Translit=cha|Chinese_Gloss=将
+42	habays	habays	VERB	_	_	0	root	_	Orth=ຮັບໃຊ້|Gloss=serve|Translit=hap-sai|Chinese_Gloss=_
+43	phlaecoaa	phlaecoaa	PROPN	_	_	43	dobj	_	Orth=ພຣະເຈົ້າ|Gloss=God|Translit=phra-chao|Chinese_Gloss=_
+44	eila	eila	CCONJ	_	_	44	cc	_	Orth=ແລະ|Gloss=and|Translit=lae|Chinese_Gloss=和
+45	habays	habays	NOUN	_	_	44	conj	_	Orth=ເງິນ|Gloss=money|Translit=ngoen|Chinese_Gloss=_
+46	engin	engin	NOUN	_	_	_	_	_	Orth=ຄຳ|Gloss=gold|Translit=kham|Chinese_Gloss=_
+47	kham	kham	ADV	_	_	_	_	_	Orth=ພ້ອມ|Gloss=at_the_same_time|Translit=phorm|Chinese_Gloss=_
+48	phom	phom	ADJ	_	_	_	_	_	Orth=ກັນ|Gloss=mutual|Translit=kan|Chinese_Gloss=一起
+49	koo	koo	ADV	_	_	_	_	_	Orth=ກໍ|Gloss=also|Translit=kor|Chinese_Gloss=便
+50	booaid	booaid	AUX	_	_	_	_	_	Orth=ບໍ່ໄດ້|Gloss=cannot|Translit=borr-dai|Chinese_Gloss=_
+51	.	.	PUNCT	_	_	_	_	_	Orth=.|Gloss=_|Translit=.|Chinese_Gloss=_
+52	”	”	PUNCT	_	_	_	_	_	Orth=”|Gloss=_|Translit=”|Chinese_Gloss=_
+
+# sent_id = 42024018
+# ref_id = Luke 24:18
+# eng_text = One of them , named Cleopas , answered him , " Are you the only one travelling in Jerusalem who doesn't know the things which have happened there in these days ? "
+# lao_text = eilw khon nyng syy kaolpaa aid thaam phlaoong waa , “ ayn bandaa eikhk emyyong thii maa oaaais yuu ayn nakhon eyluusaaelam mii eit thaan phuu dyw boo thii boo huu ehdkaan syng ekiidkhyn thii nan lahwaang wan ehloaa nii . ”
+# lao_orth = ແລ້ວ ​ ຄົນ ​ ໜຶ່ງ ​ ຊື່ ​ ກະໂລປາ ​ ໄດ້ ​ ຖາມ ​ ພຣະອົງ ​ ວ່າ , “ ໃນ ​ ບັນດາ ​ ແຂກ ​ ເມືອງ ​ ທີ່ ​ ມາ ​ ອາໄສ ​ ຢູ່ ​ ໃນ ​ ນະຄອນ ​ ເຢຣູຊາເລັມ ມີ ​ ແຕ່ ​ ທ່ານ ​ ຜູ້ ​ ດຽວ​ ບໍ ທີ່ ​ ບໍ່ ​ ຮູ້ ​ ເຫດການ ຊຶ່ງ ​ ເກີດຂຶ້ນ ​ ທີ່ ​ ນັ້ນ ​ ລະຫວ່າງ ​ ວັນ ​ ເຫຼົ່າ ນີ້ . ”
+1	eilw	eilw	ADV	_	_	_	_	_	Orth=ແລ້ວ|Gloss=already|Translit=laeoo|Chinese_Gloss=了
+2	khon	khon	NOUN	_	_	_	_	_	Orth=ຄົນ|Gloss=person|Translit=khon|Chinese_Gloss=_
+3	nyng	nyng	NUM	_	_	_	_	_	Orth=ໜຶ່ງ|Gloss=one|Translit=nueng|Chinese_Gloss=_
+4	syy	syy	VERB	_	_	_	_	_	Orth=ຊື່|Gloss=named|Translit=suee|Chinese_Gloss=_
+5	kaolpaa	kaolpaa	PROPN	_	_	_	_	_	Orth=ກະໂລປາ|Gloss=Cleopas|Translit=ka-loo-paa|Chinese_Gloss=_
+6	aid	aid	AUX	_	_	_	_	_	Orth=ໄດ້|Gloss=PAST|Translit=dai|Chinese_Gloss=得
+7	thaam	thaam	VERB	_	_	_	_	_	Orth=ຖາມ|Gloss=asked|Translit=thaam|Chinese_Gloss=_
+8	phlaoong	phlaoong	PRON	_	_	_	_	_	Orth=ພຣະອົງ|Gloss=him|Translit=phra-ong|Chinese_Gloss=祂|Number=Sing|Person=3|PronType=Prs|Polite=Elev
+9	waa	waa	SCONJ	_	_	_	nsubj	_	Orth=ວ່າ|Gloss=that|Translit=vaa|Chinese_Gloss=曰
+10	,	,	PUNCT	_	_	_	_	_	Orth=,|Gloss=_|Translit=,|Chinese_Gloss=_
+11	“	“	PUNCT	_	_	_	_	_	Orth=“|Gloss=_|Translit=“|Chinese_Gloss=_
+12	ayn	ayn	ADV	_	_	_	_	_	Orth=ໃນ|Gloss=in|Translit=nai|Chinese_Gloss=内
+13	bandaa	bandaa	DET	_	_	_	_	_	Orth=ບັນດາ|Gloss=all|Translit=ban-daa|Chinese_Gloss=诸
+14	eikhk	eikhk	NOUN	_	_	_	_	_	Orth=ແຂກ|Gloss=visitor|Translit=khaek|Chinese_Gloss=_
+15	emyyong	emyyong	NOUN	_	_	_	_	_	Orth=ເມືອງ|Gloss=country|Translit=mueea-ng|Chinese_Gloss=_
+16	thii	thii	SCONJ	_	_	_	nsubj	_	Orth=ທີ່|Gloss=that|Translit=thii|Chinese_Gloss=_
+17	maa	maa	VERB	_	_	_	_	_	Orth=ມາ|Gloss=come|Translit=maa|Chinese_Gloss=来
+18	oaaais	oaaais	VERB	_	_	_	_	_	Orth=ອາໄສ|Gloss=stay|Translit=aa-sai|Chinese_Gloss=_
+19	yuu	yuu	VERB	_	_	_	_	_	Orth=ຢູ່|Gloss=be_present|Translit=yuu|Chinese_Gloss=在
+20	ayn	ayn	ADV	_	_	_	_	_	Orth=ໃນ|Gloss=in|Translit=nai|Chinese_Gloss=内
+21	nakhon	nakhon	PROPN	_	_	20	pobj	_	Orth=ນະຄອນ|Gloss=city|Translit=na-khoorn|Chinese_Gloss=_
+22	eyluusaaelam	eyluusaaelam	PROPN	_	_	20	pobj	_	Orth=ເຢຣູຊາເລັມ|Gloss=Jerusalem|Translit=yee-ruu-saa-lem|Chinese_Gloss=_
+23	mii	mii	VERB	_	_	_	_	_	Orth=ມີ|Gloss=have|Translit=mii|Chinese_Gloss=有
+24	eit	eit	ADV	_	_	_	_	_	Orth=ແຕ່|Gloss=only|Translit=tae|Chinese_Gloss=自
+25	thaan	thaan	PRON	_	_	_	_	_	Orth=ທ່ານ|Gloss=you|Translit=thaan|Chinese_Gloss=您|Number=Sing|Person=2|PronType=Prs|Polite=Elev
+26	phuu	phuu	PRON	_	_	_	_	_	Orth=ຜູ້|Gloss=person|Translit=phuu|Chinese_Gloss=者
+27	dyw	dyw	ADJ	_	_	_	_	_	Orth=ດຽວ|Gloss=only|Translit=diiao|Chinese_Gloss=单
+28	boo	boo	ADV	_	_	_	_	_	Orth=ບໍ|Gloss=not|Translit=borr|Chinese_Gloss=不
+29	thii	thii	SCONJ	_	_	_	nsubj	_	Orth=ທີ່|Gloss=that|Translit=thii|Chinese_Gloss=_
+30	boo	boo	ADV	_	_	_	_	_	Orth=ບໍ່|Gloss=not|Translit=borr|Chinese_Gloss=不
+31	huu	huu	VERB	_	_	_	_	_	Orth=ຮູ້|Gloss=know|Translit=huu|Chinese_Gloss=_
+32	ehdkaan	ehdkaan	NOUN	_	_	_	_	_	Orth=ເຫດການ|Gloss=event|Translit=heet-kaan|Chinese_Gloss=_
+33	syng	syng	SCONJ	_	_	_	_	_	Orth=ຊຶ່ງ|Gloss=which|Translit=sueng|Chinese_Gloss=_
+34	ekiidkhyn	ekiidkhyn	VERB	_	_	_	_	_	Orth=ເກີດຂຶ້ນ|Gloss=happened|Translit=kooet-khuen|Chinese_Gloss=_
+35	thii	thii	SCONJ	_	_	_	nsubj	_	Orth=ທີ່|Gloss=that|Translit=thii|Chinese_Gloss=_
+36	nan	nan	DET	_	_	_	_	_	Orth=ນັ້ນ|Gloss=that|Translit=nan|Chinese_Gloss=那
+37	lahwaang	lahwaang	ADP	_	_	_	_	_	Orth=ລະຫວ່າງ|Gloss=during|Translit=la-vaang|Chinese_Gloss=_
+38	wan	wan	NOUN	_	_	_	npadvmod	_	Orth=ວັນ|Gloss=day|Translit=van|Chinese_Gloss=_
+39	ehloaa	ehloaa	DET	_	_	_	_	_	Orth=ເຫຼົ່າ|Gloss=those|Translit=lao|Chinese_Gloss=些
+40	nii	nii	DET	_	_	_	_	_	Orth=ນີ້|Gloss=this|Translit=nii|Chinese_Gloss=这
+41	.	.	PUNCT	_	_	_	_	_	Orth=.|Gloss=_|Translit=.|Chinese_Gloss=_
+42	”	”	PUNCT	_	_	_	_	_	Orth=”|Gloss=_|Translit=”|Chinese_Gloss=_
+
+# sent_id = 43001039
+# ref_id = John 1:39
+# eng_text = He said to them , " Come , and see . " They came and saw where he was staying , and they stayed with him that day . It was about the tenth hour .
+# lao_text = phlaoong cyng tob phwk ephin waa , “ esiin maa eila ebing eooaa . ” phwk ephin koo aip kab phlaoong eila ehan bon thii phlaoong phak ayn wan nan phwk ephin koo aid phak yuu kab phlaoong ( ephaaa ayn khana nan epan ewlaa sii omng eilng eilw ) .
+# lao_orth = ພຣະອົງ ​ ຈຶ່ງ ​ ຕອບ ​ ພວກ ເພິ່ນ ​ ວ່າ , “ ເຊີນ ມາ ແລະ ​ ເບິ່ງ ເອົາ . ” ພວກ ເພິ່ນ ​ ກໍ ​ ໄປ ​ ກັບ ​ ພຣະອົງ ແລະ ​ ເຫັນ ​ ບ່ອນ ​ ທີ່ ​ ພຣະອົງ ​ ພັກ ​ ໃນ ​ ວັນ ​ ນັ້ນ ພວກ ເພິ່ນ ​ ກໍ ໄດ້ ​ ພັກ ​ ຢູ່ ​ ກັບ ​ ພຣະອົງ ( ເພາະ ​ ໃນ ​ ຂະນະ ​ ນັ້ນ ​ ເປັນ ​ ເວລາ ​ ສີ່ ​ ໂມງ ​ ແລງ ​ ແລ້ວ ) .
+1	phlaoong	phlaoong	PRON	_	_	_	pobj	_	Orth=ພຣະອົງ|Gloss=him|Translit=phra-ong|Chinese_Gloss=祂|Number=Sing|Person=3|PronType=Prs|Polite=Elev
+2	cyng	cyng	ADV	_	_	_	_	_	Orth=ຈຶ່ງ|Gloss=then|Translit=chueng|Chinese_Gloss=_
+3	tob	tob	VERB	_	_	_	_	_	Orth=ຕອບ|Gloss=replied|Translit=torp|Chinese_Gloss=_
+4	phwk	phwk	NOUN	_	_	_	_	_	Orth=ພວກ|Gloss=PLUR|Translit=phuak|Chinese_Gloss=群
+5	ephin	ephin	PRON	_	_	_	_	_	Orth=ເພິ່ນ|Gloss=they|Translit=phoen|Chinese_Gloss=尊（他）|Number=Sing|Person=3|PronType=Prs|Polite=Elev
+6	waa	waa	SCONJ	_	_	_	_	_	Orth=ວ່າ|Gloss=that|Translit=vaa|Chinese_Gloss=曰
+7	,	,	PUNCT	_	_	_	_	_	Orth=,|Gloss=_|Translit=,|Chinese_Gloss=_
+8	“	“	PUNCT	_	_	_	_	_	Orth=“|Gloss=_|Translit=“|Chinese_Gloss=_
+9	esiin	esiin	VERB	_	_	_	_	_	Orth=ເຊີນ|Gloss=please|Translit=sooen|Chinese_Gloss=_
+10	maa	maa	VERB	_	_	_	_	_	Orth=ມາ|Gloss=come|Translit=maa|Chinese_Gloss=来
+11	eila	eila	CCONJ	_	_	44	cc	_	Orth=ແລະ|Gloss=and|Translit=lae|Chinese_Gloss=和
+12	ebing	ebing	VERB	_	_	_	_	_	Orth=ເບິ່ງ|Gloss=see|Translit=beung|Chinese_Gloss=_
+13	eooaa	eooaa	VERB	_	_	_	_	_	Orth=ເອົາ|Gloss=take|Translit=ao|Chinese_Gloss=要
+14	.	.	PUNCT	_	_	_	_	_	Orth=.|Gloss=_|Translit=.|Chinese_Gloss=_
+15	”	”	PUNCT	_	_	_	_	_	Orth=”|Gloss=_|Translit=”|Chinese_Gloss=_
+16	phwk	phwk	NOUN	_	_	_	_	_	Orth=ພວກ|Gloss=PLUR|Translit=phuak|Chinese_Gloss=群
+17	ephin	ephin	PRON	_	_	_	_	_	Orth=ເພິ່ນ|Gloss=they|Translit=phoen|Chinese_Gloss=尊（他）|Number=Sing|Person=3|PronType=Prs|Polite=Elev
+18	koo	koo	ADV	_	_	_	_	_	Orth=ກໍ|Gloss=then|Translit=kor|Chinese_Gloss=便
+19	aip	aip	VERB	_	_	_	_	_	Orth=ໄປ|Gloss=go|Translit=pai|Chinese_Gloss=去
+20	kab	kab	CCONJ	_	_	_	_	_	Orth=ກັບ|Gloss=with|Translit=kap|Chinese_Gloss=与
+21	phlaoong	phlaoong	PRON	_	_	_	pobj	_	Orth=ພຣະອົງ|Gloss=him|Translit=phra-ong|Chinese_Gloss=祂|Number=Sing|Person=3|PronType=Prs|Polite=Elev
+22	eila	eila	CCONJ	_	_	44	cc	_	Orth=ແລະ|Gloss=and|Translit=lae|Chinese_Gloss=和
+23	ehan	ehan	VERB	_	_	_	_	_	Orth=ເຫັນ|Gloss=saw|Translit=hen|Chinese_Gloss=_
+24	bon	bon	NOUN	_	_	_	pobj	_	Orth=ບ່ອນ|Gloss=place|Translit=born|Chinese_Gloss=_
+25	thii	thii	SCONJ	_	_	_	_	_	Orth=ທີ່|Gloss=that|Translit=thii|Chinese_Gloss=_
+26	phlaoong	phlaoong	PRON	_	_	_	pobj	_	Orth=ພຣະອົງ|Gloss=him|Translit=phra-ong|Chinese_Gloss=祂|Number=Sing|Person=3|PronType=Prs|Polite=Elev
+27	phak	phak	VERB	_	_	_	_	_	Orth=ພັກ|Gloss=rest|Translit=phak|Chinese_Gloss=_
+28	ayn	ayn	ADV	_	_	_	_	_	Orth=ໃນ|Gloss=in|Translit=nai|Chinese_Gloss=内
+29	wan	wan	NOUN	_	_	_	_	_	Orth=ວັນ|Gloss=day|Translit=van|Chinese_Gloss=_
+30	nan	nan	DET	_	_	_	_	_	Orth=ນັ້ນ|Gloss=that|Translit=nan|Chinese_Gloss=那
+31	phwk	phwk	NOUN	_	_	_	_	_	Orth=ພວກ|Gloss=PLUR|Translit=phuak|Chinese_Gloss=群
+32	ephin	ephin	PRON	_	_	_	_	_	Orth=ເພິ່ນ|Gloss=they|Translit=phoen|Chinese_Gloss=尊（他）|Number=Sing|Person=3|PronType=Prs|Polite=Elev
+33	koo	koo	ADV	_	_	_	_	_	Orth=ກໍ|Gloss=then|Translit=kor|Chinese_Gloss=便
+34	aid	aid	AUX	_	_	_	_	_	Orth=ໄດ້|Gloss=PAST|Translit=dai|Chinese_Gloss=得
+35	phak	phak	VERB	_	_	_	_	_	Orth=ພັກ|Gloss=rest|Translit=phak|Chinese_Gloss=_
+36	yuu	yuu	VERB	_	_	_	_	_	Orth=ຢູ່|Gloss=be_present|Translit=yuu|Chinese_Gloss=在
+37	kab	kab	CCONJ	_	_	_	_	_	Orth=ກັບ|Gloss=with|Translit=kap|Chinese_Gloss=与
+38	phlaoong	phlaoong	PRON	_	_	_	pobj	_	Orth=ພຣະອົງ|Gloss=him|Translit=phra-ong|Chinese_Gloss=祂|Number=Sing|Person=3|PronType=Prs|Polite=Elev
+39	(	(	PUNCT	_	_	_	_	_	Orth=(|Gloss=_|Translit=(|Chinese_Gloss=_
+40	ephaaa	ephaaa	SCONJ	_	_	_	_	_	Orth=ເພາະ|Gloss=because|Translit=phor|Chinese_Gloss=_
+41	ayn	ayn	ADV	_	_	_	_	_	Orth=ໃນ|Gloss=in|Translit=nai|Chinese_Gloss=内
+42	khana	khana	NOUN	_	_	_	_	_	Orth=ຂະນະ|Gloss=moment|Translit=kha-na|Chinese_Gloss=_
+43	nan	nan	DET	_	_	_	_	_	Orth=ນັ້ນ|Gloss=that|Translit=nan|Chinese_Gloss=那
+44	epan	epan	VERB	_	_	_	_	_	Orth=ເປັນ|Gloss=be|Translit=pen|Chinese_Gloss=是
+45	ewlaa	ewlaa	NOUN	_	_	_	_	_	Orth=ເວລາ|Gloss=time|Translit=vee-laa|Chinese_Gloss=_
+46	sii	sii	NUM	_	_	_	_	_	Orth=ສີ່|Gloss=four|Translit=sii|Chinese_Gloss=_|NumType=Card
+47	omng	omng	NOUN	_	_	_	_	_	Orth=ໂມງ|Gloss=o'_clock|Translit=moong|Chinese_Gloss=_
+48	eilng	eilng	NOUN	_	_	_	_	_	Orth=ແລງ|Gloss=afternoon|Translit=laeng|Chinese_Gloss=_
+49	eilw	eilw	ADV	_	_	_	_	_	Orth=ແລ້ວ|Gloss=already|Translit=laeoo|Chinese_Gloss=了
+50	)	)	PUNCT	_	_	_	_	_	Orth=)|Gloss=_|Translit=)|Chinese_Gloss=_
+51	.	.	PUNCT	_	_	_	_	_	Orth=.|Gloss=_|Translit=.|Chinese_Gloss=_
+
+# sent_id = 43003016
+# ref_id = John 3:16
+# eng_text = For God so loved the world , that he gave his one and only Son , that whoever believes in him should not perish , but have eternal life .
+# lao_text = ephaaawaa phlaecoaa song hak olk hlaanyo thiisud con aid pathaan phlabud oong dyw khong phlaoong ephyyo thuk khon thii waangayc esyyo ayn phlabud nan ca boo cibhaanyo eit mii siiwid oan tahlod aip epannid .
+# lao_orth = ເພາະວ່າ ພຣະເຈົ້າ ​ ຊົງ ​ ຮັກ ​ ໂລກ ​ ຫລາຍ ​ ທີ່ສຸດ ຈົນ ​ ໄດ້ ​ ປະທານ ​ ພຣະບຸດ ​ ອົງ ​ ດຽວ​ ຂອງ ​ ພຣະອົງ ເພື່ອ ​ ທຸກ ຄົນ ​ ທີ່ ​ ວາງໃຈ ເຊື່ອ ​ ໃນ ​ ພຣະບຸດ ​ ນັ້ນ ​ ຈະ ​ ບໍ່ ​ ຈິບຫາຍ ແຕ່ ​ ມີ ​ ຊີວິດ ​ ອັນ ​ ຕະຫລອດ ​ ໄປ ​ ເປັນນິດ .
+1	ephaaawaa	ephaaawaa	SCONJ	_	_	_	_	_	Orth=ເພາະວ່າ|Gloss=because|Translit=phor-vaa|Chinese_Gloss=_
+2	phlaecoaa	phlaecoaa	PROPN	_	_	4	nsubj	_	Orth=ພຣະເຈົ້າ|Gloss=God|Translit=phra-chao|Chinese_Gloss=_
+3	song	song	AUX	_	_	_	_	_	Orth=ຊົງ|Gloss=ROYAL|Translit=song|Chinese_Gloss=_
+4	hak	hak	VERB	_	_	0	root	_	Orth=ຮັກ|Gloss=love|Translit=hak|Chinese_Gloss=_
+5	olk	olk	NOUN	_	_	4	dobj	_	Orth=ໂລກ|Gloss=world|Translit=look|Chinese_Gloss=_
+6	hlaanyo	hlaanyo	ADV	_	_	_	_	_	Orth=ຫລາຍ|Gloss=many|Translit=laai|Chinese_Gloss=_
+7	thiisud	thiisud	ADV	_	_	_	_	_	Orth=ທີ່ສຸດ|Gloss=most|Translit=thii-sut|Chinese_Gloss=最
+8	con	con	SCONJ	_	_	_	_	_	Orth=ຈົນ|Gloss=until|Translit=chon|Chinese_Gloss=_
+9	aid	aid	AUX	_	_	_	_	_	Orth=ໄດ້|Gloss=PAST|Translit=dai|Chinese_Gloss=得
+10	pathaan	pathaan	VERB	_	_	_	_	_	Orth=ປະທານ|Gloss=give|Translit=pa-thaan|Chinese_Gloss=_
+11	phlabud	phlabud	NOUN	_	_	_	_	_	Orth=ພຣະບຸດ|Gloss=son|Translit=phra-but|Chinese_Gloss=_
+12	oong	oong	NOUN	CLF	_	_	_	_	Orth=ອົງ|Gloss=classifier_for_deity|Translit=ong|Chinese_Gloss=尊
+13	dyw	dyw	ADJ	_	_	_	_	_	Orth=ດຽວ|Gloss=only|Translit=diiao|Chinese_Gloss=单
+14	khong	khong	ADP	_	_	_	_	_	Orth=ຂອງ|Gloss=of|Translit=khorng|Chinese_Gloss=属于
+15	phlaoong	phlaoong	PRON	_	_	22	pobj	_	Orth=ພຣະອົງ|Gloss=him|Translit=phra-ong|Chinese_Gloss=祂|Number=Sing|Person=3|PronType=Prs|Polite=Elev
+16	ephyyo	ephyyo	SCONJ	_	_	_	_	_	Orth=ເພື່ອ|Gloss=so_that|Translit=phueea|Chinese_Gloss=为
+17	thuk	thuk	DET	_	_	_	_	_	Orth=ທຸກ|Gloss=every|Translit=thuk|Chinese_Gloss=每
+18	khon	khon	NOUN	_	_	_	_	_	Orth=ຄົນ|Gloss=person|Translit=khon|Chinese_Gloss=_
+19	thii	thii	SCONJ	_	_	20	nsubj	_	Orth=ທີ່|Gloss=that|Translit=thii|Chinese_Gloss=_
+20	waangayc	waangayc	VERB	_	_	_	relcl	_	Orth=ວາງໃຈ|Gloss=trust|Translit=vaang-chai|Chinese_Gloss=_
+21	esyyo	esyyo	VERB	_	_	_	_	_	Orth=ເຊື່ອ|Gloss=believe|Translit=sueea|Chinese_Gloss=_
+22	ayn	ayn	ADP	_	_	_	_	_	Orth=ໃນ|Gloss=in|Translit=nai|Chinese_Gloss=内
+23	phlabud	phlabud	NOUN	_	_	_	_	_	Orth=ພຣະບຸດ|Gloss=son|Translit=phra-but|Chinese_Gloss=_
+24	nan	nan	DET	_	_	_	_	_	Orth=ນັ້ນ|Gloss=that|Translit=nan|Chinese_Gloss=那
+25	ca	ca	AUX	_	_	_	aux	_	Orth=ຈະ|Gloss=will|Translit=cha|Chinese_Gloss=将
+26	boo	boo	ADV	_	_	_	_	_	Orth=ບໍ່|Gloss=not|Translit=borr|Chinese_Gloss=不
+27	cibhaanyo	cibhaanyo	VERB	_	_	_	_	_	Orth=ຈິບຫາຍ|Gloss=perish|Translit=chip-haai|Chinese_Gloss=_
+28	eit	eit	CCONJ	_	_	_	_	_	Orth=ແຕ່|Gloss=but|Translit=tae|Chinese_Gloss=自（此）
+29	mii	mii	VERB	_	_	_	_	_	Orth=ມີ|Gloss=have|Translit=mii|Chinese_Gloss=有
+30	siiwid	siiwid	NOUN	_	_	_	dobj	_	Orth=ຊີວິດ|Gloss=life|Translit=sii-vit|Chinese_Gloss=_
+31	oan	oan	NOUN	_	_	_	_	_	Orth=ອັນ|Gloss=thing|Translit=an|Chinese_Gloss=物
+32	tahlod	tahlod	ADJ	_	_	_	_	_	Orth=ຕະຫລອດ|Gloss=throughout|Translit=ta-loot|Chinese_Gloss=_
+33	aip	aip	ADV	_	_	_	_	_	Orth=ໄປ|Gloss=go|Translit=pai|Chinese_Gloss=去
+34	epannid	epannid	ADV	_	_	_	_	_	Orth=ເປັນນິດ|Gloss=eternally|Translit=pen-nit|Chinese_Gloss=_
+35	.	.	PUNCT	_	_	_	_	_	Orth=.|Gloss=_|Translit=.|Chinese_Gloss=_
+
+# sent_id = 44002030
+# ref_id = Acts 2:30
+# eng_text = Therefore , being a prophet , and knowing that God had sworn with an oath to him that of the fruit of his body , according to the flesh , he would raise up the Christ to sit on his throne ,
+# lao_text = ephaaa ephin epan phuu thamnwaanyo eila aid huu phlasannyoaa khong phlaecoaa thii mii aiw kab ephin eong khyy : phlaecoaa aid sannyoaa aiw waa phlaoong ca ayh phuunyng ayn esyyosaanyo khong ephin khyn epan kasad ething phla thii nang khong ephin .
+# lao_orth = ເພາະ ​ ເພິ່ນ ​ ເປັນ ​ ຜູ້ ທຳນວາຍ ແລະ ​ ໄດ້ ​ ຮູ້ ​ ພຣະສັນຍາ ​ ຂອງ ​ ພຣະເຈົ້າ ​ ທີ່ ​ ມີ ​ ໄວ້ ​ ກັບ ​ ເພິ່ນ ​ ເອງ ​ ຄື : ພຣະເຈົ້າ ​ ໄດ້ ​ ສັນຍາ ​ ໄວ້ ​ ວ່າ ພຣະອົງ ​ ຈະ ​ ໃຫ້ ​ ຜູ້ໜຶ່ງ ​ ໃນ ​ ເຊື້ອສາຍ ​ ຂອງ ​ ເພິ່ນ ຂຶ້ນ ​ ເປັນ ​ ກະສັດ ​ ເທິງ ​ ພຣະ ​ ທີ່ ​ ນັ່ງ ​ ຂອງ ​ ເພິ່ນ .
+1	ephaaa	ephaaa	SCONJ	_	_	_	_	_	Orth=ເພາະ|Gloss=because|Translit=phor|Chinese_Gloss=_
+2	ephin	ephin	PRON	_	_	_	_	_	Orth=ເພິ່ນ|Gloss=they|Translit=phoen|Chinese_Gloss=尊（他）|Number=Sing|Person=3|PronType=Prs|Polite=Elev
+3	epan	epan	AUX	_	_	_	_	_	Orth=ເປັນ|Gloss=be|Translit=pen|Chinese_Gloss=是
+4	phuu	phuu	NOUN	_	_	_	_	_	Orth=ຜູ້|Gloss=person|Translit=phuu|Chinese_Gloss=_
+5	thamnwaanyo	thamnwaanyo	VERB	_	_	_	attr	_	Orth=ທຳນວາຍ|Gloss=prophesy|Translit=tham-naai|Chinese_Gloss=_
+6	eila	eila	CCONJ	_	_	44	cc	_	Orth=ແລະ|Gloss=and|Translit=lae|Chinese_Gloss=和
+7	aid	aid	AUX	_	_	_	_	_	Orth=ໄດ້|Gloss=PAST|Translit=dai|Chinese_Gloss=得
+8	huu	huu	VERB	_	_	_	conj	_	Orth=ຮູ້|Gloss=knew|Translit=huu|Chinese_Gloss=_
+9	phlasannyoaa	phlasannyoaa	NOUN	_	_	_	_	_	Orth=ພຣະສັນຍາ|Gloss=promise|Translit=phra-san-nyaa|Chinese_Gloss=_
+10	khong	khong	ADP	_	_	_	_	_	Orth=ຂອງ|Gloss=of|Translit=khorng|Chinese_Gloss=属于
+11	phlaecoaa	phlaecoaa	PROPN	_	_	_	nsubj	_	Orth=ພຣະເຈົ້າ|Gloss=God|Translit=phra-chao|Chinese_Gloss=_
+12	thii	thii	SCONJ	_	_	_	_	_	Orth=ທີ່|Gloss=that|Translit=thii|Chinese_Gloss=_
+13	mii	mii	VERB	_	_	_	_	_	Orth=ມີ|Gloss=have|Translit=mii|Chinese_Gloss=有
+14	aiw	aiw	VERB	_	_	_	_	_	Orth=ໄວ້|Gloss=remain|Translit=vai|Chinese_Gloss=着
+15	kab	kab	ADP	_	_	_	_	_	Orth=ກັບ|Gloss=with|Translit=kap|Chinese_Gloss=与
+16	ephin	ephin	PRON	_	_	_	_	_	Orth=ເພິ່ນ|Gloss=they|Translit=phoen|Chinese_Gloss=尊（他）|Number=Sing|Person=3|PronType=Prs|Polite=Elev
+17	eong	eong	ADV	_	_	_	amod	_	Orth=ເອງ|Gloss=own|Translit=eeng|Chinese_Gloss=_
+18	khyy	khyy	SCONJ	_	_	_	_	_	Orth=ຄື|Gloss=be|Translit=khuee|Chinese_Gloss=即
+19	:	:	PUNCT	_	_	_	_	_	Orth=:|Gloss=_|Translit=:|Chinese_Gloss=_
+20	phlaecoaa	phlaecoaa	PROPN	_	_	_	nsubj	_	Orth=ພຣະເຈົ້າ|Gloss=God|Translit=phra-chao|Chinese_Gloss=_
+21	aid	aid	AUX	_	_	_	_	_	Orth=ໄດ້|Gloss=PAST|Translit=dai|Chinese_Gloss=得
+22	sannyoaa	sannyoaa	VERB	_	_	_	_	_	Orth=ສັນຍາ|Gloss=covenant|Translit=san-nyaa|Chinese_Gloss=_
+23	aiw	aiw	VERB	_	_	_	_	_	Orth=ໄວ້|Gloss=remain|Translit=vai|Chinese_Gloss=着
+24	waa	waa	SCONJ	_	_	39	mark	_	Orth=ວ່າ|Gloss=that|Translit=vaa|Chinese_Gloss=曰
+25	phlaoong	phlaoong	PRON	_	_	_	_	_	Orth=ພຣະອົງ|Gloss=him|Translit=phra-ong|Chinese_Gloss=祂|Number=Sing|Person=3|PronType=Prs|Polite=Elev
+26	ca	ca	AUX	_	_	_	_	_	Orth=ຈະ|Gloss=will|Translit=cha|Chinese_Gloss=将
+27	ayh	ayh	VERB	_	_	_	_	_	Orth=ໃຫ້|Gloss=give|Translit=hai|Chinese_Gloss=给
+28	phuunyng	phuunyng	PRON	_	_	_	_	_	Orth=ຜູ້ໜຶ່ງ|Gloss=someone|Translit=phuu-nueng|Chinese_Gloss=_
+29	ayn	ayn	ADP	_	_	_	_	_	Orth=ໃນ|Gloss=in|Translit=nai|Chinese_Gloss=内
+30	esyyosaanyo	esyyosaanyo	NOUN	_	_	_	_	_	Orth=ເຊື້ອສາຍ|Gloss=lineage|Translit=sueea-saai|Chinese_Gloss=_
+31	khong	khong	ADP	_	_	_	_	_	Orth=ຂອງ|Gloss=of|Translit=khorng|Chinese_Gloss=属于
+32	ephin	ephin	PRON	_	_	_	_	_	Orth=ເພິ່ນ|Gloss=they|Translit=phoen|Chinese_Gloss=尊（他）|Number=Sing|Person=3|PronType=Prs|Polite=Elev
+33	khyn	khyn	VERB	_	_	_	_	_	Orth=ຂຶ້ນ|Gloss=ascend|Translit=khuen|Chinese_Gloss=_
+34	epan	epan	AUX	_	_	_	_	_	Orth=ເປັນ|Gloss=be|Translit=pen|Chinese_Gloss=是
+35	kasad	kasad	NOUN	_	_	_	_	_	Orth=ກະສັດ|Gloss=King|Translit=ka-sat|Chinese_Gloss=_
+36	ething	ething	ADP	_	_	_	_	_	Orth=ເທິງ|Gloss=upon|Translit=thoeng|Chinese_Gloss=_
+37	phla	phla	NOUN	_	_	_	_	_	Orth=ພຣະ|Gloss=benefit|Translit=phra|Chinese_Gloss=_
+38	thii	thii	NOUN	_	_	_	_	_	Orth=ທີ່|Gloss=that|Translit=thii|Chinese_Gloss=_
+39	nang	nang	VERB	_	_	_	acl	_	Orth=ນັ່ງ|Gloss=sit|Translit=nang|Chinese_Gloss=_
+40	khong	khong	ADP	_	_	_	_	_	Orth=ຂອງ|Gloss=of|Translit=khorng|Chinese_Gloss=属于
+41	ephin	ephin	PRON	_	_	_	_	_	Orth=ເພິ່ນ|Gloss=they|Translit=phoen|Chinese_Gloss=尊（他）|Number=Sing|Person=3|PronType=Prs|Polite=Elev
+42	.	.	PUNCT	_	_	_	_	_	Orth=.|Gloss=_|Translit=.|Chinese_Gloss=_
+
+# sent_id = 44009038
+# ref_id = Acts 9:38
+# eng_text = As Lydda was near Joppa , the disciples , hearing that Peter was there , sent two men to him , imploring him not to delay in coming to them .
+# lao_text = emyyong yobpaa yuu ayk emyyong liddaa eila emyyo khon thii esyyo aidnyoin waa epot yuu thii emyyong liddaa phwkekhoaa cyng ays song khon nam kham hong khoo aip haa ephin waa , “ khoo khwaam kalunaa faaw maa haa phwkehoaa dwnyo yaa aid saksaa . ”
+# lao_orth = ເມືອງ ​ ຢົບປາ ​ ຢູ່ ​ ໃກ້ ​ ເມືອງ ​ ລິດດາ ແລະ ​ ເມື່ອ ​ ຄົນ ​ ທີ່ ​ ເຊື່ອ ​ ໄດ້ຍິນ ​ ວ່າ ເປໂຕ ​ ຢູ່ ​ ທີ່ ​ ເມືອງ ​ ລິດດາ ພວກເຂົາ ​ ຈຶ່ງ ​ ໃຊ້ ​ ສອງ ​ ຄົນ ​ ນຳ ​ ຄຳ ​ ຮ້ອງ ​ ຂໍ ​ ໄປ ​ ຫາ ​ ເພິ່ນ ​ ວ່າ , “ ຂໍ ​ ຄວາມ ​ ກະລຸນາ ຟ້າວ ​ ມາ ​ ຫາ ​ ພວກເຮົາ ​ ດ້ວຍ ຢ່າ ​ ໄດ້ ​ ຊັກຊ້າ . ”
+1	emyyong	emyyong	NOUN	_	_	_	_	_	Orth=ເມືອງ|Gloss=country|Translit=mueeang|Chinese_Gloss=_
+2	yobpaa	yobpaa	PROPN	_	_	_	_	_	Orth=ຢົບປາ|Gloss=Joppa|Translit=yop-paa|Chinese_Gloss=_
+3	yuu	yuu	VERB	_	_	_	_	_	Orth=ຢູ່|Gloss=be_present|Translit=yuu|Chinese_Gloss=在
+4	ayk	ayk	ADJ	_	_	_	_	_	Orth=ໃກ້|Gloss=near|Translit=kai|Chinese_Gloss=_
+5	emyyong	emyyong	NOUN	_	_	_	_	_	Orth=ເມືອງ|Gloss=country|Translit=mueeang|Chinese_Gloss=_
+6	liddaa	liddaa	PROPN	_	_	_	_	_	Orth=ລິດດາ|Gloss=Lydda|Translit=lit-daa|Chinese_Gloss=_
+7	eila	eila	CCONJ	_	_	44	cc	_	Orth=ແລະ|Gloss=and|Translit=lae|Chinese_Gloss=和
+8	emyyo	emyyo	SCONJ	_	_	_	_	_	Orth=ເມື່ອ|Gloss=when|Translit=mueea|Chinese_Gloss=_
+9	khon	khon	NOUN	_	_	_	_	_	Orth=ຄົນ|Gloss=person|Translit=khon|Chinese_Gloss=_
+10	thii	thii	SCONJ	_	_	_	_	_	Orth=ທີ່|Gloss=that|Translit=thii|Chinese_Gloss=_
+11	esyyo	esyyo	VERB	_	_	_	_	_	Orth=ເຊື່ອ|Gloss=believe|Translit=sueea|Chinese_Gloss=_
+12	aidnyoin	aidnyoin	VERB	_	_	_	ccomp	_	Orth=ໄດ້ຍິນ|Gloss=heard|Translit=dai-nyin|Chinese_Gloss=听到
+13	waa	waa	SCONJ	_	_	_	mark	_	Orth=ວ່າ|Gloss=that|Translit=vaa|Chinese_Gloss=曰
+14	epot	epot	PROPN	_	_	_	nsubj	_	Orth=ເປໂຕ|Gloss=Peter|Translit=pee-too|Chinese_Gloss=_
+15	yuu	yuu	VERB	_	_	_	_	_	Orth=ຢູ່|Gloss=be_present|Translit=yuu|Chinese_Gloss=在
+16	thii	thii	ADP	_	_	_	_	_	Orth=ທີ່|Gloss=at|Translit=thii|Chinese_Gloss=_
+17	emyyong	emyyong	NOUN	_	_	_	_	_	Orth=ເມືອງ|Gloss=country|Translit=mueeang|Chinese_Gloss=_
+18	liddaa	liddaa	PROPN	_	_	_	_	_	Orth=ລິດດາ|Gloss=Lydda|Translit=lit-daa|Chinese_Gloss=_
+19	phwkekhoaa	phwkekhoaa	PRON	_	_	_	nsubj	_	Orth=ພວກເຂົາ|Gloss=they|Translit=phuak-khao|Chinese_Gloss=他们|Number=Plur|Person=3|PronType=Prs|Polite=Form
+20	cyng	cyng	ADV	_	_	_	_	_	Orth=ຈຶ່ງ|Gloss=then|Translit=chueng|Chinese_Gloss=_
+21	ays	ays	VERB	_	_	_	_	_	Orth=ໃຊ້|Gloss=send|Translit=sai|Chinese_Gloss=用
+22	song	song	NUM	_	_	_	nummod	_	Orth=ສອງ|Gloss=two|Translit=sorng|Chinese_Gloss=_|NumType=Card
+23	khon	khon	NOUN	CLF	_	_	_	_	Orth=ຄົນ|Gloss=classifier_of_person|Translit=khon|Chinese_Gloss=个（人）
+24	nam	nam	VERB	_	_	_	_	_	Orth=ນຳ|Gloss=bring|Translit=nam|Chinese_Gloss=_
+25	kham	kham	NOUN	_	_	_	_	_	Orth=ຄຳ|Gloss=words|Translit=kham|Chinese_Gloss=_
+26	hong	hong	VERB	_	_	_	_	_	Orth=ຮ້ອງ|Gloss=call|Translit=horng|Chinese_Gloss=_
+27	khoo	khoo	NOUN	_	_	38	intj	_	Orth=ຂໍ|Gloss=request|Translit=khorr|Chinese_Gloss=_
+28	aip	aip	VERB	_	_	_	_	_	Orth=ໄປ|Gloss=go|Translit=pai|Chinese_Gloss=去
+29	haa	haa	VERB	_	_	_	_	_	Orth=ຫາ|Gloss=seek|Translit=haa|Chinese_Gloss=找
+30	ephin	ephin	PRON	_	_	_	_	_	Orth=ເພິ່ນ|Gloss=they|Translit=phoen|Chinese_Gloss=尊（他）|Number=Sing|Person=3|PronType=Prs|Polite=Elev
+31	waa	waa	SCONJ	_	_	_	mark	_	Orth=ວ່າ|Gloss=that|Translit=vaa|Chinese_Gloss=曰
+32	,	,	PUNCT	_	_	_	_	_	Orth=,|Gloss=_|Translit=,|Chinese_Gloss=_
+33	“	“	PUNCT	_	_	_	_	_	Orth=“|Gloss=_|Translit=“|Chinese_Gloss=_
+34	khoo	khoo	VERB	_	_	38	intj	_	Orth=ຂໍ|Gloss=Please|Translit=khorr|Chinese_Gloss=_
+35	khwaam	khwaam	NOUN	_	_	_	_	_	Orth=ຄວາມ|Gloss=[abstract]|Translit=khwaam|Chinese_Gloss=名词化前缀
+36	kalunaa	kalunaa	ADJ	_	_	_	_	_	Orth=ກະລຸນາ|Gloss=kind|Translit=ka-lu-naa|Chinese_Gloss=_
+37	faaw	faaw	ADJ	_	_	_	_	_	Orth=ຟ້າວ|Gloss=quick|Translit=faao|Chinese_Gloss=_
+38	maa	maa	VERB	_	_	_	xcomp	_	Orth=ມາ|Gloss=come|Translit=maa|Chinese_Gloss=来
+39	haa	haa	VERB	_	_	_	_	_	Orth=ຫາ|Gloss=seek|Translit=haa|Chinese_Gloss=找
+40	phwkehoaa	phwkehoaa	PRON	_	_	_	_	_	Orth=ພວກເຮົາ|Gloss=we|Translit=phuak-hao|Chinese_Gloss=我们|Number=Plur|Person=1|PronType=Prs|Polite=Form
+41	dwnyo	dwnyo	PART	_	_	_	_	_	Orth=ດ້ວຍ|Gloss=[soften]|Translit=duuai|Chinese_Gloss=随
+42	yaa	yaa	ADV	_	_	_	_	_	Orth=ຢ່າ|Gloss=do_not|Translit=yaa|Chinese_Gloss=_
+43	aid	aid	AUX	_	_	_	_	_	Orth=ໄດ້|Gloss=can|Translit=dai|Chinese_Gloss=得
+44	saksaa	saksaa	VERB	_	_	_	_	_	Orth=ຊັກຊ້າ|Gloss=delay|Translit=sak-saa|Chinese_Gloss=_
+45	.	.	PUNCT	_	_	_	_	_	Orth=.|Gloss=_|Translit=.|Chinese_Gloss=_
+46	”	”	PUNCT	_	_	_	_	_	Orth=”|Gloss=_|Translit=”|Chinese_Gloss=_
+
+# sent_id = 44011011
+# ref_id = Acts 11:11
+# eng_text = Behold , immediately three men stood before the house where I was , having been sent from Caesarea to me .
+# lao_text = ayn khana nan eong mii saanyo saam khon thii thyyk ays ayh maa haa khaaphaecoaa caak kaanyosaaelnyo koo maa hod ehyyon thii khaaphaecoaa oaaais yuu
+# lao_orth = ໃນ ​ ຂະນະ ​ ນັ້ນ ​ ເອງ ມີ ​ ຊາຍ ​ ສາມ ​ ຄົນ ທີ່ ​ ຖືກ ​ ໃຊ້ ​ ໃຫ້ ​ ມາ ​ ຫາ ​ ຂ້າພະເຈົ້າ ​ ຈາກ ​ ກາຍຊາເຣຍ ກໍ ​ ມາ ​ ຮອດ ​ ເຮືອນ ​ ທີ່ ​ ຂ້າພະເຈົ້າ ​ ອາໄສ ​ ຢູ່
+1	ayn	ayn	ADV	_	_	_	_	_	Orth=ໃນ|Gloss=in|Translit=nai|Chinese_Gloss=内
+2	khana	khana	NOUN	_	_	_	_	_	Orth=ຂະນະ|Gloss=moment|Translit=kha-na|Chinese_Gloss=_
+3	nan	nan	DET	_	_	_	_	_	Orth=ນັ້ນ|Gloss=that|Translit=nan|Chinese_Gloss=那
+4	eong	eong	ADV	_	_	_	_	_	Orth=ເອງ|Gloss=[emphasis]|Translit=eeng|Chinese_Gloss=_
+5	mii	mii	VERB	_	_	_	_	_	Orth=ມີ|Gloss=have|Translit=mii|Chinese_Gloss=有
+6	saanyo	saanyo	NOUN	_	_	_	_	_	Orth=ຊາຍ|Gloss=man|Translit=saai|Chinese_Gloss=_
+7	saam	saam	NUM	_	_	_	nummod	_	Orth=ສາມ|Gloss=three|Translit=saam|Chinese_Gloss=_|NumType=Card
+8	khon	khon	NOUN	CLF	_	_	_	_	Orth=ຄົນ|Gloss=classifier_of_person|Translit=khon|Chinese_Gloss=个（人）
+9	thii	thii	SCONJ	_	_	_	nsubjpass	_	Orth=ທີ່|Gloss=that|Translit=thii|Chinese_Gloss=_
+10	thyyk	thyyk	AUX	_	_	_	_	_	Orth=ຖືກ|Gloss=[passive]|Translit=thueek|Chinese_Gloss=中（被）
+11	ays	ays	VERB	_	_	_	_	_	Orth=ໃຊ້|Gloss=send|Translit=sai|Chinese_Gloss=用
+12	ayh	ayh	SCONJ	_	_	_	_	_	Orth=ໃຫ້|Gloss=let|Translit=hai|Chinese_Gloss=让
+13	maa	maa	VERB	_	_	_	_	_	Orth=ມາ|Gloss=come|Translit=maa|Chinese_Gloss=来
+14	haa	haa	VERB	_	_	_	_	_	Orth=ຫາ|Gloss=seek|Translit=haa|Chinese_Gloss=找
+15	khaaphaecoaa	khaaphaecoaa	PRON	_	_	_	_	_	Orth=ຂ້າພະເຈົ້າ|Gloss=I|Translit=khaa-pha-chao|Chinese_Gloss=本人|Number=Sing|Person=1|PronType=Prs|Polite=Form
+16	caak	caak	ADP	_	_	_	prep	_	Orth=ຈາກ|Gloss=from|Translit=chaak|Chinese_Gloss=从
+17	kaanyosaaelnyo	kaanyosaaelnyo	PROPN	_	_	16	pobj	_	Orth=ກາຍຊາເຣຍ|Gloss=Caesarea|Translit=kaai-saa-riia|Chinese_Gloss=_
+18	koo	koo	ADV	_	_	_	_	_	Orth=ກໍ|Gloss=then|Translit=kor|Chinese_Gloss=便
+19	maa	maa	VERB	_	_	_	_	_	Orth=ມາ|Gloss=come|Translit=maa|Chinese_Gloss=来
+20	hod	hod	VERB	_	_	_	_	_	Orth=ຮອດ|Gloss=arrive|Translit=hoot|Chinese_Gloss=到
+21	ehyyon	ehyyon	NOUN	_	_	_	pobj	_	Orth=ເຮືອນ|Gloss=house|Translit=hueean|Chinese_Gloss=_
+22	thii	thii	SCONJ	_	_	_	nsubjpass	_	Orth=ທີ່|Gloss=that|Translit=thii|Chinese_Gloss=_
+23	khaaphaecoaa	khaaphaecoaa	PRON	_	_	_	_	_	Orth=ຂ້າພະເຈົ້າ|Gloss=I|Translit=khaa-pha-chao|Chinese_Gloss=本人|Number=Sing|Person=1|PronType=Prs|Polite=Form
+24	oaaais	oaaais	VERB	_	_	_	_	_	Orth=ອາໄສ|Gloss=lived|Translit=aa-sai|Chinese_Gloss=_
+25	yuu	yuu	VERB	_	_	_	_	_	Orth=ຢູ່|Gloss=be_present|Translit=yuu|Chinese_Gloss=在
+
+# sent_id = 44021034
+# ref_id = Acts 21:34
+# eng_text = Some shouted one thing , some another , among the crowd . When he couldn't find out the truth because of the noise , he commanded him to be brought into the barracks .
+# lao_text = khon ayn pasaason nan taang kum taang koo hong khyn khon layaang khon laeinw , emyyo naanyophan eooaa khwaam einnon oan ayd booaid ayn thaamkaang khwaam sabson wunwaanyo esan nii . dangnan ephin cyng sang ayh khum tow opol ekhoaa aip ayn khaanyo thahaan .
+# lao_orth = ຄົນ ​ ໃນ ​ ປະຊາຊົນ ​ ນັ້ນ ຕ່າງ ​ ກຸ່ມ ​ ຕ່າງ ​ ກໍ ​ ຮ້ອງ ​ ຂຶ້ນ ​ ຄົນ ​ ລະຢ່າງ ​ ຄົນ ​ ລະແນວ , ເມື່ອ ​ ນາຍພັນ ​ ເອົາ ​ ຄວາມ ​ ແນ່ນອນ ​ ອັນ ​ ໃດ ​ ບໍ່ໄດ້ ໃນ ​ ທ່າມກາງ ​ ຄວາມ ​ ສັບສົນ ​ ວຸ້ນວາຍ ​ ເຊັ່ນ ນີ້ . ດັ່ງນັ້ນ ເພິ່ນ ​ ຈຶ່ງ ​ ສັ່ງ ​ ໃຫ້ ​ ຄຸມ ​ ຕົວ ​ ໂປໂລ ​ ເຂົ້າ ​ ໄປ ​ ໃນ ​ ຄ້າຍ ​ ທະຫານ .
+1	khon	khon	NOUN	_	_	_	_	_	Orth=ຄົນ|Gloss=person|Translit=khon|Chinese_Gloss=_
+2	ayn	ayn	ADV	_	_	_	_	_	Orth=ໃນ|Gloss=in|Translit=nai|Chinese_Gloss=内
+3	pasaason	pasaason	NOUN	_	_	_	_	_	Orth=ປະຊາຊົນ|Gloss=crowd|Translit=pa-saa-son|Chinese_Gloss=_
+4	nan	nan	DET	_	_	_	_	_	Orth=ນັ້ນ|Gloss=that|Translit=nan|Chinese_Gloss=那
+5	taang	taang	ADV	_	_	_	_	_	Orth=ຕ່າງ|Gloss=differently|Translit=taang|Chinese_Gloss=_
+6	kum	kum	NOUN	_	_	_	_	_	Orth=ກຸ່ມ|Gloss=group|Translit=kum|Chinese_Gloss=_
+7	taang	taang	ADV	_	_	_	_	_	Orth=ຕ່າງ|Gloss=differently|Translit=taang|Chinese_Gloss=_
+8	koo	koo	ADV	_	_	_	_	_	Orth=ກໍ|Gloss=then|Translit=kor|Chinese_Gloss=便
+9	hong	hong	VERB	_	_	0	root	_	Orth=ຮ້ອງ|Gloss=shouted|Translit=horng|Chinese_Gloss=_
+10	khyn	khyn	VERB	_	_	_	_	_	Orth=ຂຶ້ນ|Gloss=up|Translit=khuen|Chinese_Gloss=起来
+11	khon	khon	NOUN	_	_	_	_	_	Orth=ຄົນ|Gloss=person|Translit=khon|Chinese_Gloss=_
+12	layaang	layaang	ADV	_	_	_	_	_	Orth=ລະຢ່າງ|Gloss=each_kind|Translit=la-yaang|Chinese_Gloss=_
+13	khon	khon	NOUN	_	_	_	_	_	Orth=ຄົນ|Gloss=person|Translit=khon|Chinese_Gloss=_
+14	laeinw	laeinw	ADV	_	_	_	_	_	Orth=ລະແນວ|Gloss=each_way|Translit=la-naeo|Chinese_Gloss=_
+15	,	,	PUNCT	_	_	_	_	_	Orth=,|Gloss=_|Translit=,|Chinese_Gloss=_
+16	emyyo	emyyo	SCONJ	_	_	_	_	_	Orth=ເມື່ອ|Gloss=when|Translit=mueea|Chinese_Gloss=_
+17	naanyophan	naanyophan	NOUN	_	_	_	_	_	Orth=ນາຍພັນ|Gloss=commander|Translit=naai-phan|Chinese_Gloss=_
+18	eooaa	eooaa	VERB	_	_	_	_	_	Orth=ເອົາ|Gloss=get|Translit=ao|Chinese_Gloss=要
+19	khwaam	khwaam	NOUN	_	_	_	_	_	Orth=ຄວາມ|Gloss=[abstract]|Translit=khwaam|Chinese_Gloss=名词化前缀
+20	einnon	einnon	ADJ	_	_	_	_	_	Orth=ແນ່ນອນ|Gloss=true__|Translit=nae-noorn|Chinese_Gloss=_
+21	oan	oan	NOUN	_	_	_	_	_	Orth=ອັນ|Gloss=thing|Translit=an|Chinese_Gloss=物
+22	ayd	ayd	DET	_	_	_	_	_	Orth=ໃດ|Gloss=which|Translit=dai|Chinese_Gloss=_
+23	booaid	booaid	AUX	_	_	_	_	_	Orth=ບໍ່ໄດ້|Gloss=cannot|Translit=borr-dai|Chinese_Gloss=_
+24	ayn	ayn	ADV	_	_	_	_	_	Orth=ໃນ|Gloss=in|Translit=nai|Chinese_Gloss=内
+25	thaamkaang	thaamkaang	ADP	_	_	_	_	_	Orth=ທ່າມກາງ|Gloss=among|Translit=thaam-kaang|Chinese_Gloss=_
+26	khwaam	khwaam	NOUN	_	_	_	_	_	Orth=ຄວາມ|Gloss=[abstract]|Translit=khwaam|Chinese_Gloss=名词化前缀
+27	sabson	sabson	ADJ	_	_	_	_	_	Orth=ສັບສົນ|Gloss=confused|Translit=sap-son|Chinese_Gloss=_
+28	wunwaanyo	wunwaanyo	ADJ	_	_	_	_	_	Orth=ວຸ້ນວາຍ|Gloss=chaotic|Translit=vun-vaai|Chinese_Gloss=_
+29	esan	esan	ADP	_	_	_	_	_	Orth=ເຊັ່ນ|Gloss=such_as|Translit=sen|Chinese_Gloss=_
+30	nii	nii	DET	_	_	_	_	_	Orth=ນີ້|Gloss=this|Translit=nii|Chinese_Gloss=这
+31	.	.	PUNCT	_	_	_	_	_	Orth=.|Gloss=_|Translit=.|Chinese_Gloss=_
+32	dangnan	dangnan	ADV	_	_	_	_	_	Orth=ດັ່ງນັ້ນ|Gloss=so|Translit=dang-nan|Chinese_Gloss=_
+33	ephin	ephin	PRON	_	_	_	_	_	Orth=ເພິ່ນ|Gloss=they|Translit=phoen|Chinese_Gloss=尊（他）|Number=Sing|Person=3|PronType=Prs|Polite=Elev
+34	cyng	cyng	ADV	_	_	_	_	_	Orth=ຈຶ່ງ|Gloss=consequently|Translit=chueng|Chinese_Gloss=_
+35	sang	sang	VERB	_	_	_	_	_	Orth=ສັ່ງ|Gloss=order|Translit=sang|Chinese_Gloss=_
+36	ayh	ayh	SCONJ	_	_	_	_	_	Orth=ໃຫ້|Gloss=let|Translit=hai|Chinese_Gloss=让
+37	khum	khum	VERB	_	_	_	_	_	Orth=ຄຸມ|Gloss=control|Translit=khum|Chinese_Gloss=_
+38	tow	tow	NOUN	_	_	_	_	_	Orth=ຕົວ|Gloss=body|Translit=tua|Chinese_Gloss=_
+39	opol	opol	PROPN	_	_	_	nsubjpass	_	Orth=ໂປໂລ|Gloss=Paul|Translit=poo-loo|Chinese_Gloss=_
+40	ekhoaa	ekhoaa	VERB	_	_	_	_	_	Orth=ເຂົ້າ|Gloss=enter|Translit=khao|Chinese_Gloss=进
+41	aip	aip	VERB	_	_	_	_	_	Orth=ໄປ|Gloss=go|Translit=pai|Chinese_Gloss=去
+42	ayn	ayn	ADP	_	_	_	_	_	Orth=ໃນ|Gloss=in|Translit=nai|Chinese_Gloss=内
+43	khaanyo	khaanyo	NOUN	_	_	_	_	_	Orth=ຄ້າຍ|Gloss=camp|Translit=khaai|Chinese_Gloss=_
+44	thahaan	thahaan	NOUN	_	_	_	_	_	Orth=ທະຫານ|Gloss=soldier|Translit=tha-haan|Chinese_Gloss=_
+45	.	.	PUNCT	_	_	_	_	_	Orth=.|Gloss=_|Translit=.|Chinese_Gloss=_
+
+# sent_id = 47012002
+# ref_id = 2 Corinthians 12:2
+# eng_text = I know a man in Christ , fourteen years ago ( whether in the body , I don't know , or whether out of the body , I don't know ; God knows ) , such a one caught up into the third heaven .
+# lao_text = eit sib sii pii maa eilw ehoaa huucak khlistyn phuunyng phuunan aid thyyk hab khyn aip ething sahwan san thii saam ( eit ca aip thang kaanyo hlyy nok kaanyo ehoaa koo boo huu phlaecoaa ethoaanan epan phuu song huu )
+# lao_orth = ແຕ່ ​ ສິບ ສີ່ ​ ປີ ​ ມາ ​ ແລ້ວ ເຮົາ ​ ຮູ້ຈັກ ​ ຄຣິສຕຽນ ​ ຜູ້ໜຶ່ງ ຜູ້ນັ້ນ ​ ໄດ້ ​ ຖືກ ​ ຮັບ ​ ຂຶ້ນ ​ ໄປ ​ ເຖິງ ​ ສະຫວັນ ​ ຊັ້ນ ​ ທີ ​ ສາມ ( ແຕ່ ​ ຈະ ​ ໄປ ​ ທັງ ​ ກາຍ ​ ຫລື ​ ນອກ ​ ກາຍ ​ ເຮົາ ​ ກໍ ​ ບໍ່ ​ ຮູ້ ພຣະເຈົ້າ ​ ເທົ່ານັ້ນ ​ ເປັນ ​ ຜູ້ ​ ຊົງ ​ ຮູ້ )
+1	eit	eit	ADP	_	_	_	_	_	Orth=ແຕ່|Gloss=since|Translit=tae|Chinese_Gloss=自
+2	sib	sib	NUM	_	_	_	_	_	Orth=ສິບ|Gloss=ten|Translit=sip|Chinese_Gloss=_|NumType=Card
+3	sii	sii	NUM	_	_	_	_	_	Orth=ສີ່|Gloss=four|Translit=sii|Chinese_Gloss=_|NumType=Card
+4	pii	pii	NOUN	_	_	_	npadvmod	_	Orth=ປີ|Gloss=year|Translit=pii|Chinese_Gloss=_
+5	maa	maa	VERB	_	_	_	_	_	Orth=ມາ|Gloss=come|Translit=maa|Chinese_Gloss=来
+6	eilw	eilw	ADV	_	_	_	_	_	Orth=ແລ້ວ|Gloss=already|Translit=laeoo|Chinese_Gloss=了
+7	ehoaa	ehoaa	PRON	_	_	_	nsubj	_	Orth=ເຮົາ|Gloss=I|Translit=hao|Chinese_Gloss=我|Number=Sing|Person=1|PronType=Prs|Polite=Elev
+8	huucak	huucak	VERB	_	_	_	_	_	Orth=ຮູ້ຈັກ|Gloss=know_about|Translit=huu-chak|Chinese_Gloss=_
+9	khlistyn	khlistyn	NOUN	_	_	_	_	_	Orth=ຄຣິສຕຽນ|Gloss=Christian|Translit=khri-sit-tiian|Chinese_Gloss=_
+10	phuunyng	phuunyng	PRON	_	_	_	_	_	Orth=ຜູ້ໜຶ່ງ|Gloss=someone|Translit=phuu-nueng|Chinese_Gloss=_
+11	phuunan	phuunan	PRON	_	_	_	_	_	Orth=ຜູ້ນັ້ນ|Gloss=that_person|Translit=phuu-nan|Chinese_Gloss=那人
+12	aid	aid	AUX	_	_	_	_	_	Orth=ໄດ້|Gloss=PAST|Translit=dai|Chinese_Gloss=得
+13	thyyk	thyyk	AUX	_	_	_	_	_	Orth=ຖືກ|Gloss=[passive]|Translit=thueek|Chinese_Gloss=中（被）
+14	hab	hab	VERB	_	_	_	_	_	Orth=ຮັບ|Gloss=receive|Translit=hap|Chinese_Gloss=_
+15	khyn	khyn	VERB	_	_	_	_	_	Orth=ຂຶ້ນ|Gloss=up|Translit=khuen|Chinese_Gloss=_
+16	aip	aip	VERB	_	_	_	_	_	Orth=ໄປ|Gloss=go|Translit=pai|Chinese_Gloss=去
+17	ething	ething	ADP	_	_	_	_	_	Orth=ເຖິງ|Gloss=reach|Translit=thoeng|Chinese_Gloss=到
+18	sahwan	sahwan	NOUN	_	_	_	pobj	_	Orth=ສະຫວັນ|Gloss=heaven|Translit=sa-van|Chinese_Gloss=_
+19	san	san	NOUN	_	_	_	_	_	Orth=ຊັ້ນ|Gloss=floor|Translit=san|Chinese_Gloss=_
+20	thii	thii	ADJ	_	_	_	_	_	Orth=ທີ|Gloss=[ordinal]|Translit=thii|Chinese_Gloss=_
+21	saam	saam	NUM	_	_	_	_	_	Orth=ສາມ|Gloss=three|Translit=saam|Chinese_Gloss=_
+22	(	(	PUNCT	_	_	_	_	_	Orth=(|Gloss=_|Translit=(|Chinese_Gloss=_
+23	eit	eit	CCONJ	_	_	_	_	_	Orth=ແຕ່|Gloss=but|Translit=tae|Chinese_Gloss=自（此）
+24	ca	ca	AUX	_	_	_	_	_	Orth=ຈະ|Gloss=will|Translit=cha|Chinese_Gloss=将
+25	aip	aip	VERB	_	_	_	_	_	Orth=ໄປ|Gloss=go|Translit=pai|Chinese_Gloss=去
+26	thang	thang	ADP	_	_	_	_	_	Orth=ທັງ|Gloss=with|Translit=thang|Chinese_Gloss=_
+27	kaanyo	kaanyo	NOUN	_	_	_	_	_	Orth=ກາຍ|Gloss=body|Translit=kaai|Chinese_Gloss=_
+28	hlyy	hlyy	CCONJ	_	_	_	cc	_	Orth=ຫລື|Gloss=or|Translit=luee|Chinese_Gloss=_
+29	nok	nok	ADP	_	_	_	_	_	Orth=ນອກ|Gloss=outside|Translit=nork|Chinese_Gloss=_
+30	kaanyo	kaanyo	NOUN	_	_	_	_	_	Orth=ກາຍ|Gloss=body|Translit=kaai|Chinese_Gloss=_
+31	ehoaa	ehoaa	PRON	_	_	_	nsubj	_	Orth=ເຮົາ|Gloss=I|Translit=hao|Chinese_Gloss=我|Number=Sing|Person=1|PronType=Prs|Polite=Elev
+32	koo	koo	ADV	_	_	_	_	_	Orth=ກໍ|Gloss=[emphasis]|Translit=kor|Chinese_Gloss=便
+33	boo	boo	ADV	_	_	_	_	_	Orth=ບໍ່|Gloss=not|Translit=borr|Chinese_Gloss=不
+34	huu	huu	VERB	_	_	_	_	_	Orth=ຮູ້|Gloss=know|Translit=huu|Chinese_Gloss=_
+35	phlaecoaa	phlaecoaa	PROPN	_	_	_	nsubj	_	Orth=ພຣະເຈົ້າ|Gloss=God|Translit=phra-chao|Chinese_Gloss=_
+36	ethoaanan	ethoaanan	ADV	_	_	_	_	_	Orth=ເທົ່ານັ້ນ|Gloss=only|Translit=thao-nan|Chinese_Gloss=_
+37	epan	epan	AUX	_	_	_	_	_	Orth=ເປັນ|Gloss=be|Translit=pen|Chinese_Gloss=是
+38	phuu	phuu	NOUN	_	_	_	_	_	Orth=ຜູ້|Gloss=person|Translit=phuu|Chinese_Gloss=_
+39	song	song	AUX	_	_	_	_	_	Orth=ຊົງ|Gloss=ROYAL|Translit=song|Chinese_Gloss=_
+40	huu	huu	VERB	_	_	_	_	_	Orth=ຮູ້|Gloss=know|Translit=huu|Chinese_Gloss=_
+41	)	)	PUNCT	_	_	_	_	_	Orth=)|Gloss=_|Translit=)|Chinese_Gloss=_
+
+# sent_id = 62004009
+# ref_id = 1 John 4:9
+# eng_text = By this was God's love revealed in us , that God has sent his only born Son into the world that we might live through him .
+# lao_text = faanyo phlaecoaa aid song sameidng khwaamhak khong phlaoong samlab phwkehoaa odnyo aid ays phlabud oong dyw khong phlaoong ekhoaa maa ayn olk , ephyyo waa phwkehoaa ca mii siiwid dwnyo phlabud nan .
+# lao_orth = ຝ່າຍ ​ ພຣະເຈົ້າ ​ ໄດ້ ​ ຊົງ ​ ສຳແດງ ​ ຄວາມຮັກ ​ ຂອງ ​ ພຣະອົງ ​ ສຳລັບ ​ ພວກເຮົາ ໂດຍ ​ ໄດ້ ​ ໃຊ້ ​ ພຣະບຸດ ​ ອົງ ​ ດຽວ​ ຂອງ ​ ພຣະອົງ ​ ເຂົ້າ ​ ມາ ​ ໃນ ​ ໂລກ , ເພື່ອ ​ ວ່າ ​ ພວກເຮົາ ​ ຈະ ​ ມີ ​ ຊີວິດ ​ ດ້ວຍ ​ ພຣະບຸດ ​ ນັ້ນ .
+1	faanyo	faanyo	ADP	_	_	_	_	_	Orth=ຝ່າຍ|Gloss=as_for|Translit=faai|Chinese_Gloss=_
+2	phlaecoaa	phlaecoaa	PROPN	_	_	_	nsubj	_	Orth=ພຣະເຈົ້າ|Gloss=God|Translit=phra-chao|Chinese_Gloss=_
+3	aid	aid	AUX	_	_	_	_	_	Orth=ໄດ້|Gloss=PAST|Translit=dai|Chinese_Gloss=得
+4	song	song	AUX	_	_	_	_	_	Orth=ຊົງ|Gloss=ROYAL|Translit=song|Chinese_Gloss=_
+5	sameidng	sameidng	VERB	_	_	_	_	_	Orth=ສຳແດງ|Gloss=manifest/show|Translit=sam-daeng|Chinese_Gloss=_
+6	khwaamhak	khwaamhak	NOUN	_	_	_	_	_	Orth=ຄວາມຮັກ|Gloss=love|Translit=khwaam-hak|Chinese_Gloss=_
+7	khong	khong	ADP	_	_	_	_	_	Orth=ຂອງ|Gloss=of|Translit=khorng|Chinese_Gloss=属于
+8	phlaoong	phlaoong	PRON	_	_	_	pobj	_	Orth=ພຣະອົງ|Gloss=him|Translit=phra-ong|Chinese_Gloss=祂|Number=Sing|Person=3|PronType=Prs|Polite=Elev
+9	samlab	samlab	ADP	_	_	_	_	_	Orth=ສຳລັບ|Gloss=for|Translit=sam-lap|Chinese_Gloss=_
+10	phwkehoaa	phwkehoaa	PRON	_	_	_	_	_	Orth=ພວກເຮົາ|Gloss=we|Translit=phuak-hao|Chinese_Gloss=我们|Number=Plur|Person=1|PronType=Prs|Polite=Form
+11	odnyo	odnyo	ADP	_	_	_	_	_	Orth=ໂດຍ|Gloss=by|Translit=dooi|Chinese_Gloss=_
+12	aid	aid	AUX	_	_	_	_	_	Orth=ໄດ້|Gloss=PAST|Translit=dai|Chinese_Gloss=得
+13	ays	ays	VERB	_	_	_	_	_	Orth=ໃຊ້|Gloss=send|Translit=sai|Chinese_Gloss=用
+14	phlabud	phlabud	NOUN	_	_	_	_	_	Orth=ພຣະບຸດ|Gloss=Son|Translit=phra-but|Chinese_Gloss=_
+15	oong	oong	NOUN	CLF	_	_	_	_	Orth=ອົງ|Gloss=ROYAL|Translit=ong|Chinese_Gloss=尊
+16	dyw	dyw	ADJ	_	_	_	_	_	Orth=ດຽວ|Gloss=only/single|Translit=diiao|Chinese_Gloss=单
+17	khong	khong	ADP	_	_	_	_	_	Orth=ຂອງ|Gloss=of|Translit=khorng|Chinese_Gloss=属于
+18	phlaoong	phlaoong	PRON	_	_	_	pobj	_	Orth=ພຣະອົງ|Gloss=him|Translit=phra-ong|Chinese_Gloss=祂|Number=Sing|Person=3|PronType=Prs|Polite=Elev
+19	ekhoaa	ekhoaa	VERB	_	_	_	_	_	Orth=ເຂົ້າ|Gloss=enter|Translit=khao|Chinese_Gloss=进
+20	maa	maa	VERB	_	_	_	_	_	Orth=ມາ|Gloss=come|Translit=maa|Chinese_Gloss=来
+21	ayn	ayn	ADP	_	_	_	_	_	Orth=ໃນ|Gloss=in|Translit=nai|Chinese_Gloss=内
+22	olk	olk	NOUN	_	_	_	pobj	_	Orth=ໂລກ|Gloss=world|Translit=look|Chinese_Gloss=_
+23	,	,	PUNCT	_	_	_	_	_	Orth=,|Gloss=_|Translit=,|Chinese_Gloss=_
+24	ephyyo	ephyyo	SCONJ	_	_	_	_	_	Orth=ເພື່ອ|Gloss=for|Translit=phueea|Chinese_Gloss=为
+25	waa	waa	SCONJ	_	_	_	mark	_	Orth=ວ່າ|Gloss=that|Translit=vaa|Chinese_Gloss=曰
+26	phwkehoaa	phwkehoaa	PRON	_	_	_	_	_	Orth=ພວກເຮົາ|Gloss=we|Translit=phuak-hao|Chinese_Gloss=我们|Number=Plur|Person=1|PronType=Prs|Polite=Form
+27	ca	ca	AUX	_	_	_	_	_	Orth=ຈະ|Gloss=will|Translit=cha|Chinese_Gloss=将
+28	mii	mii	VERB	_	_	_	_	_	Orth=ມີ|Gloss=have|Translit=mii|Chinese_Gloss=有
+29	siiwid	siiwid	NOUN	_	_	_	dobj	_	Orth=ຊີວິດ|Gloss=life|Translit=sii-vit|Chinese_Gloss=_
+30	dwnyo	dwnyo	ADP	_	_	_	_	_	Orth=ດ້ວຍ|Gloss=through/with|Translit=duuai|Chinese_Gloss=随
+31	phlabud	phlabud	NOUN	_	_	_	_	_	Orth=ພຣະບຸດ|Gloss=Son|Translit=phra-but|Chinese_Gloss=_
+32	nan	nan	DET	_	_	_	_	_	Orth=ນັ້ນ|Gloss=that|Translit=nan|Chinese_Gloss=那
+33	.	.	PUNCT	_	_	_	_	_	Orth=.|Gloss=_|Translit=.|Chinese_Gloss=_
+
+# sent_id = 63001005
+# ref_id = 2 John 1:5
+# eng_text = Now I beg you , dear lady , not as though I wrote to you a new commandment , but that which we had from the beginning , that we love one another .
+# lao_text = eit badnii thaan suphaab sa tlii thiihak eoiinyo , ehoaa khoohong ecoaa thanghlaanyo ayh phwkehoaa hak syngkan eila kan nii boo eimn kod bannyoad khoo aym thii ehoaa aid khyn maa ething phwk ecoaa , eit epan kod bannyoad thii phwkehoaa ekhiinyo mii maa eilw tangeit ton ediim .
+# lao_orth = ແຕ່ ​ ບັດນີ້ ທ່ານ ​ ສຸພາບ ​ ສະ ຕຼີ​ ທີ່ຮັກ ​ ເອີຍ , ເຮົາ ​ ຂໍຮ້ອງ ​ ເຈົ້າ ​ ທັງຫຼາຍ ໃຫ້ ​ ພວກເຮົາ ​ ຮັກ ​ ຊຶ່ງກັນ ແລະ ກັນ ນີ້ ​ ບໍ່ ແມ່ນ ​ ກົດ ບັນຍັດ ​ ຂໍ້ ​ ໃໝ່ ​ ທີ່ ​ ເຮົາ ​ ໄດ້ ​ ຂຽນ ​ ມາ ​ ເຖິງ ​ ພວກ ເຈົ້າ , ແຕ່ ​ ເປັນ ​ ກົດ ບັນຍັດ ​ ທີ່ ​ ພວກເຮົາ ​ ເຄີຍ ​ ມີ ​ ມາ ​ ແລ້ວ ​ ຕັ້ງແຕ່ ​ ຕົ້ນ ເດີມ .
+1	eit	eit	CCONJ	_	_	_	_	_	Orth=ແຕ່|Gloss=but|Translit=tae|Chinese_Gloss=自（此）
+2	badnii	badnii	ADV	_	_	_	_	_	Orth=ບັດນີ້|Gloss=now|Translit=bat-nii|Chinese_Gloss=_
+3	thaan	thaan	PRON	_	_	_	_	_	Orth=ທ່ານ|Gloss=you|Translit=thaan|Chinese_Gloss=您|Number=Sing|Person=2|PronType=Prs|Polite=Elev
+4	suphaab	suphaab	ADJ	_	_	0	root	_	Orth=ສຸພາບ|Gloss=polite/gentle|Translit=su-phaap|Chinese_Gloss=_
+5	sa	sa	NOUN	_	_	_	_	_	Orth=ສະ|Gloss=[prefix]|Translit=sa|Chinese_Gloss=_
+6	tlii	tlii	NOUN	_	_	0	root	_	Orth=ຕຼີ|Gloss=lady|Translit=trii|Chinese_Gloss=_
+7	thiihak	thiihak	ADJ	_	_	_	npadvmod	_	Orth=ທີ່ຮັກ|Gloss=beloved|Translit=thii-hak|Chinese_Gloss=_
+8	eoiinyo	eoiinyo	PART	_	_	_	_	_	Orth=ເອີຍ|Gloss=[vocative]|Translit=ooei|Chinese_Gloss=_
+9	,	,	PUNCT	_	_	_	_	_	Orth=,|Gloss=_|Translit=,|Chinese_Gloss=_
+10	ehoaa	ehoaa	PRON	_	_	6	nsubj	_	Orth=ເຮົາ|Gloss=I|Translit=hao|Chinese_Gloss=我|Number=Sing|Person=1|PronType=Prs|Polite=Elev
+11	khoohong	khoohong	VERB	_	_	_	_	_	Orth=ຂໍຮ້ອງ|Gloss=request|Translit=khorr-horng|Chinese_Gloss=_
+12	ecoaa	ecoaa	PRON	_	_	_	_	_	Orth=ເຈົ້າ|Gloss=you|Translit=chao|Chinese_Gloss=你（君）|Number=Sing|Person=2|PronType=Prs|Polite=Form
+13	thanghlaanyo	thanghlaanyo	DET	_	_	_	_	_	Orth=ທັງຫຼາຍ|Gloss=all|Translit=thang-laai|Chinese_Gloss=_
+14	ayh	ayh	SCONJ	_	_	_	_	_	Orth=ໃຫ້|Gloss=let|Translit=hai|Chinese_Gloss=让
+15	phwkehoaa	phwkehoaa	PRON	_	_	_	_	_	Orth=ພວກເຮົາ|Gloss=we|Translit=phuak-hao|Chinese_Gloss=我们|Number=Plur|Person=1|PronType=Prs|Polite=Form
+16	hak	hak	VERB	_	_	_	_	_	Orth=ຮັກ|Gloss=love|Translit=hak|Chinese_Gloss=_
+17	syngkan	syngkan	PRON	_	_	_	_	_	Orth=ຊຶ່ງກັນ|Gloss=each_other|Translit=sueng-kan|Chinese_Gloss=_
+18	eila	eila	CCONJ	_	_	44	cc	_	Orth=ແລະ|Gloss=and|Translit=lae|Chinese_Gloss=和
+19	kan	kan	ADJ	_	_	_	_	_	Orth=ກັນ|Gloss=mutual|Translit=kan|Chinese_Gloss=一起
+20	nii	nii	DET	_	_	_	_	_	Orth=ນີ້|Gloss=this|Translit=nii|Chinese_Gloss=这
+21	boo	boo	ADV	_	_	_	_	_	Orth=ບໍ່|Gloss=not|Translit=borr|Chinese_Gloss=不
+22	eimn	eimn	AUX	_	_	_	_	_	Orth=ແມ່ນ|Gloss=be|Translit=maen|Chinese_Gloss=正是
+23	kod	kod	NOUN	_	_	_	_	_	Orth=ກົດ|Gloss=rule|Translit=kot|Chinese_Gloss=_
+24	bannyoad	bannyoad	NOUN	_	_	_	_	_	Orth=ບັນຍັດ|Gloss=commandment|Translit=ban-nyat|Chinese_Gloss=_
+25	khoo	khoo	NOUN	_	_	_	_	_	Orth=ຂໍ້|Gloss=item|Translit=khorr|Chinese_Gloss=_
+26	aym	aym	ADJ	_	_	_	amod	_	Orth=ໃໝ່|Gloss=new|Translit=mai|Chinese_Gloss=_
+27	thii	thii	SCONJ	_	_	_	_	_	Orth=ທີ່|Gloss=that/which|Translit=thii|Chinese_Gloss=_
+28	ehoaa	ehoaa	PRON	_	_	6	nsubj	_	Orth=ເຮົາ|Gloss=I|Translit=hao|Chinese_Gloss=我|Number=Sing|Person=1|PronType=Prs|Polite=Elev
+29	aid	aid	AUX	_	_	_	_	_	Orth=ໄດ້|Gloss=PAST|Translit=dai|Chinese_Gloss=得
+30	khyn	khyn	VERB	_	_	_	_	_	Orth=ຂຽນ|Gloss=write|Translit=khiian|Chinese_Gloss=_
+31	maa	maa	VERB	_	_	_	_	_	Orth=ມາ|Gloss=come|Translit=maa|Chinese_Gloss=来
+32	ething	ething	ADP	_	_	_	_	_	Orth=ເຖິງ|Gloss=to|Translit=thoeng|Chinese_Gloss=到
+33	phwk	phwk	NOUN	_	_	_	_	_	Orth=ພວກ|Gloss=group|Translit=phuak|Chinese_Gloss=_
+34	ecoaa	ecoaa	PRON	_	_	_	_	_	Orth=ເຈົ້າ|Gloss=you|Translit=chao|Chinese_Gloss=你（君）|Number=Sing|Person=2|PronType=Prs|Polite=Form
+35	,	,	PUNCT	_	_	_	_	_	Orth=,|Gloss=_|Translit=,|Chinese_Gloss=_
+36	eit	eit	CCONJ	_	_	_	_	_	Orth=ແຕ່|Gloss=but|Translit=tae|Chinese_Gloss=自（此）
+37	epan	epan	AUX	_	_	_	_	_	Orth=ເປັນ|Gloss=be|Translit=pen|Chinese_Gloss=是
+38	kod	kod	NOUN	_	_	_	_	_	Orth=ກົດ|Gloss=rule|Translit=kot|Chinese_Gloss=_
+39	bannyoad	bannyoad	NOUN	_	_	_	_	_	Orth=ບັນຍັດ|Gloss=commandment|Translit=ban-nyat|Chinese_Gloss=_
+40	thii	thii	SCONJ	_	_	_	_	_	Orth=ທີ່|Gloss=that|Translit=thii|Chinese_Gloss=_
+41	phwkehoaa	phwkehoaa	PRON	_	_	_	_	_	Orth=ພວກເຮົາ|Gloss=we|Translit=phuak-hao|Chinese_Gloss=我们|Number=Plur|Person=1|PronType=Prs|Polite=Form
+42	ekhiinyo	ekhiinyo	AUX	_	_	_	_	_	Orth=ເຄີຍ|Gloss=used_to|Translit=khooei|Chinese_Gloss=曾
+43	mii	mii	VERB	_	_	_	_	_	Orth=ມີ|Gloss=have|Translit=mii|Chinese_Gloss=有
+44	maa	maa	VERB	_	_	_	_	_	Orth=ມາ|Gloss=come|Translit=maa|Chinese_Gloss=来
+45	eilw	eilw	ADV	_	_	_	_	_	Orth=ແລ້ວ|Gloss=already|Translit=laeoo|Chinese_Gloss=了
+46	tangeit	tangeit	ADP	_	_	_	_	_	Orth=ຕັ້ງແຕ່|Gloss=since|Translit=tang-tae|Chinese_Gloss=_
+47	ton	ton	NOUN	_	_	_	_	_	Orth=ຕົ້ນ|Gloss=beginning|Translit=ton|Chinese_Gloss=_
+48	ediim	ediim	ADJ	_	_	_	_	_	Orth=ເດີມ|Gloss=original|Translit=doeerm|Chinese_Gloss=_
+49	.	.	PUNCT	_	_	_	_	_	Orth=.|Gloss=_|Translit=.|Chinese_Gloss=_
+

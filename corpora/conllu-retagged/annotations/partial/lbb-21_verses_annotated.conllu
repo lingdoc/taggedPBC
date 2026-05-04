@@ -1,0 +1,852 @@
+## The following text has been annotated for parts of speech by students at NTU Singapore as part of a class project in AY 2025-26.
+## Verses are extracted from the taggedPBC. Annotations have been developed with a combination of manual and automated approaches, with reference to existing literature and (where possible) native speakers.
+## ISO 639-3: lbb, Language: Label, Number of verses: 21
+## References: Beaumont, C. H. (1972). New Ireland languages: A review. Papers in Linguistics of Melanesia, 3, 1–41. Pacific Linguistics A-35.
+
+# sent_id = 40006024
+# ref_id = Matthew 6:24
+# eng_text = " No one can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You can't serve both God and Mammon .
+# lbb_text = “Bel tik ir titol lar pas tetek ir naur a ningnigo. Ir nget ning a halindiau, pa ir mang sur ning a halindiau, ir katnan ning, pa takai ir saran a kaba hina kusuni. Bel mulor titol lar pas tetek e God pa tetek a mani otleng.
+1	“Bel	“bel	unk	_	_	_	_	_	gloss=you’re
+2	tik	tik	PRON	_	_	_	_	_	gloss=anyone
+3	ir	ir	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+4	titol	titol	VERB	_	_	_	_	_	gloss=work
+5	lar	lar	ADJ	_	_	_	_	_	gloss=gre
+6	pas	pas	VERB	_	_	_	_	_	gloss=took
+7	tetek	tetek	VERB	_	_	_	_	_	gloss=laves
+8	ir	ir	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+9	naur	naur	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+10	a	a	unk	_	_	_	_	_
+11	ningnigo.	ningnigo.	VERB	_	_	_	acomp	_	gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+12	Ir	ir	NOUN	_	_	_	_	_	gloss=follower
+13	nget	nget	VERB	_	_	_	_	_	gloss=hates
+14	ning	ning	PRON	_	_	_	_	_	gloss=who
+15	a	a	unk	_	_	_	_	_
+16	halindiau,	halindiau,	VERB	_	_	_	_	_	gloss=grinding
+17	pa	pa	CCONJ	_	_	42	cc	_	gloss=and|ConjType=Cmp
+18	ir	ir	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+19	mang	mang	unk	_	_	_	_	_	gloss=ss
+20	sur	sur	ADP	_	_	33	prep	_	gloss=to
+21	ning	ning	PRON	_	_	_	_	_	gloss=who
+22	a	a	unk	_	_	_	_	_
+23	halindiau,	halindiau,	VERB	_	_	_	_	_	gloss=grinding
+24	ir	ir	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+25	katnan	katnan	unk	_	_	_	_	_	gloss=sh
+26	ning,	ning,	unk	_	_	_	_	_	gloss=oon
+27	pa	pa	CCONJ	_	_	42	cc	_	gloss=and|ConjType=Cmp
+28	takai	takai	NUM	_	_	_	_	_	gloss=hundred
+29	ir	ir	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+30	saran	saran	VERB	_	_	_	_	_	gloss=given
+31	a	a	unk	_	_	_	_	_
+32	kaba	kaba	unk	_	_	_	_	_	gloss=liness
+33	hina	hina	VERB	_	_	_	acomp	_	gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+34	kusuni.	kusuni.	VERB	_	_	_	_	_	gloss=disappeared
+35	Bel	bel	VERB	_	_	_	_	_	gloss=disobey
+36	mulor	mulor	NOUN	_	_	_	_	_	gloss=fate
+37	titol	titol	VERB	_	_	_	_	_	gloss=work
+38	lar	lar	ADJ	_	_	_	_	_	gloss=gre
+39	pas	pas	VERB	_	_	_	_	_	gloss=took
+40	tetek	tetek	VERB	_	_	_	_	_	gloss=laves
+41	e	e	AUX	_	_	_	_	_	gloss=was
+42	God	god	PROPN	_	_	_	dobj	_	gloss=God|Number=Sing
+43	pa	pa	CCONJ	_	_	42	cc	_	gloss=and|ConjType=Cmp
+44	tetek	tetek	VERB	_	_	_	_	_	gloss=laves
+45	a	a	unk	_	_	_	_	_
+46	mani	mani	NOUN	_	_	42	conj	_	gloss=money|Number=Sing
+47	otleng.	otleng.	CCONJ	_	_	42	det	_	gloss=both|ConjType=Cmp
+
+# sent_id = 40018012
+# ref_id = Matthew 18:12
+# eng_text = " What do you think ? If a man has one hundred sheep , and one of them goes astray , doesn't he leave the ninety-nine , go to the mountains , and seek that which has gone astray ?
+# lbb_text = “Asa a nuknukimulo? Ning ta barsan anuna ta mar a sipsip, pa ta halinla i rongo. I mangasa, bel ir han pas kusun a siuk a bonot pa siuk tingia na mangirla, pa ir tai sur takai ning i rongo?
+1	“Asa	“asa	PRON	_	_	_	_	_	gloss=What
+2	a	a	unk	_	_	_	_	_
+3	nuknukimulo?	nuknukimulo?	unk	_	_	_	_	_
+4	Ning	ning	SCONJ	_	_	_	_	_	gloss=When
+5	ta	ta	VERB	_	_	_	_	_	gloss=cause
+6	barsan	barsan	NOUN	_	_	_	nsubj	_	gloss=man|Number=Sing
+7	anuna	anuna	PRON	_	_	_	_	_	gloss=his
+8	ta	ta	VERB	_	_	_	_	_	gloss=cause
+9	mar	mar	NUM	_	_	_	nummod	_	gloss=hundred|NumType=Card
+10	a	a	unk	_	_	_	_	_
+11	sipsip,	sipsip,	unk	_	_	_	_	_	gloss=Won’t
+12	pa	pa	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+13	ta	ta	VERB	_	_	_	_	_	gloss=cause
+14	halinla	halinla	VERB	_	_	_	_	_	gloss=slashing
+15	i	i	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+16	rongo.	rongo.	unk	_	_	_	_	_	gloss=meaning
+17	I	i	PRON	_	_	_	_	_	gloss=He
+18	mangasa,	mangasa,	AUX	_	_	_	_	_	gloss=Can
+19	bel	bel	ADV	_	_	_	_	_	gloss=never
+20	ir	ir	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+21	han	han	VERB	_	_	_	_	_	gloss=went
+22	pas	pas	VERB	_	_	_	_	_	gloss=took
+23	kusun	kusun	ADP	_	_	_	_	_	gloss=from
+24	a	a	unk	_	_	_	_	_
+25	siuk	siuk	unk	_	_	_	_	_	gloss=Won’t
+26	a	a	unk	_	_	_	_	_
+27	bonot	bonot	NUM	_	_	_	_	_	gloss=ten
+28	pa	pa	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+29	siuk	siuk	unk	_	_	_	_	_	gloss=Won’t
+30	tingia	tingia	unk	_	_	_	_	_	gloss=Won’t
+31	na	na	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+32	mangirla,	mangirla,	unk	_	_	_	_	_
+33	pa	pa	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+34	ir	ir	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+35	tai	tai	VERB	_	_	_	_	_	gloss=fled
+36	sur	sur	PART	_	_	_	aux	_	gloss=to
+37	takai	takai	NUM	_	_	_	nummod	_	gloss=hundred|NumType=Card
+38	ning	ning	PRON	_	_	_	_	_	gloss=who
+39	i	i	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+40	rongo?	rongo?	unk	_	_	_	_	_
+
+# sent_id = 40020021
+# ref_id = Matthew 20:21
+# eng_text = He said to her , " What do you want ? " She said to him , " Command that these , my two sons , may sit , one on your right hand , and one on your left hand , in your kingdom . "
+# lbb_text = Pa e Iesu i dekeni mang, “Asa ning u mang suri?” Pa i kelesi mang, “Ur malmaling sur naur a natuklik ne, diar kes taum hom ting na num a matanitu, takai ana sot a kum, pa takai a halindiau ana kair.”
+1	Pa	pa	CCONJ	_	_	_	_	_	gloss=And
+2	e	e	AUX	_	_	_	_	_	gloss=was
+3	Iesu	iesu	PROPN	_	_	_	_	_	gloss=Jesus
+4	i	i	PRON	_	_	5	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+5	dekeni	dekeni	VERB	_	_	0	root	_	gloss=asked|Tense=Past|VerbForm=Fin
+6	mang,	mang,	ADJ	_	_	_	_	_	gloss=former
+7	“Asa	“asa	PRON	_	_	_	attr	_	gloss=What
+8	ning	ning	PRON	_	_	_	_	_	gloss=who
+9	u	u	NOUN	_	_	_	_	_	gloss=prostit
+10	mang	mang	unk	_	_	_	_	_	gloss=ss
+11	suri?”	suri?”	unk	_	_	_	_	_	gloss=id
+12	Pa	pa	CCONJ	_	_	_	_	_	gloss=And
+13	i	i	PRON	_	_	5	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+14	kelesi	kelesi	VERB	_	_	0	root	_	gloss=replied|Tense=Past|VerbForm=Fin
+15	mang,	mang,	ADJ	_	_	_	_	_	gloss=former
+16	“Ur	“ur	VERB	_	_	_	_	_	gloss=Write
+17	malmaling	malmaling	unk	_	_	_	_	_	gloss=emp
+18	sur	sur	ADP	_	_	_	prep	_	gloss=to
+19	naur	naur	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+20	a	a	unk	_	_	_	_	_
+21	natuklik	“natuklik,	NOUN	_	_	_	_	_	gloss=party
+22	ne,	ne,	unk	_	_	_	_	_	gloss=itha
+23	diar	diar	NOUN	_	_	_	_	_	gloss=rust
+24	kes	kes	VERB	_	_	_	_	_	gloss=sat
+25	taum	taum	ADV	_	_	_	_	_	gloss=together
+26	hom	hom	unk	_	_	_	_	_	gloss=spiritual
+27	ting	ting	unk	_	_	_	_	_	gloss=str
+28	na	na	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+29	num	num	VERB	_	_	_	_	_	gloss=realize
+30	a	a	unk	_	_	_	_	_
+31	matanitu,	matanitu	PROPN	_	_	_	_	_	gloss=ose
+32	takai	takai	NUM	_	_	_	_	_	gloss=hundred
+33	ana	ana	ADP	_	_	_	prep	_	gloss=in
+34	sot	sot	NOUN	_	_	_	pobj	_	gloss=right|Number=Sing
+35	a	a	unk	_	_	_	_	_
+36	kum,	kum,	unk	_	_	_	_	_
+37	pa	pa	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+38	takai	takai	NUM	_	_	_	_	_	gloss=hundred
+39	a	a	unk	_	_	_	_	_
+40	halindiau	halindiau	NUM	_	_	_	_	_	gloss=Two
+41	ana	ana	ADP	_	_	_	prep	_	gloss=in
+42	kair.”	kair.”	NOUN	_	_	41	pobj	_	gloss=places|Number=Plur
+
+# sent_id = 40026002
+# ref_id = Matthew 26:2
+# eng_text = " You know that after two days the Passover is coming , and the Son of Man will be delivered up to be crucified . "
+# lbb_text = “Mulo ka tasmani ning naur a pukakiar ir rop, dir turpas a tnan pukakiar a lotu na Hanlakai, pa dir saran tar a Nat a Barsan sur dir sai ahati saot na rakai kutus.”
+1	“Mulo	mulo	PRON	_	_	_	_	_	gloss=Could
+2	ka	ka	AUX	_	_	_	_	_	gloss=has
+3	tasmani	tasmani	VERB	_	_	_	_	_	gloss=realize
+4	ning	ning	PRON	_	_	_	_	_	gloss=who
+5	naur	naur	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+6	a	a	unk	_	_	_	_	_
+7	pukakiar	pukakiar	NOUN	_	_	_	_	_	gloss=day
+8	ir	ir	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+9	rop,	rop,	unk	_	_	_	_	_	gloss=people’s
+10	dir	dir	AUX	_	_	29	auxpass	_	gloss=be|VerbForm=Inf
+11	turpas	turpas	VERB	_	_	_	_	_	gloss=began
+12	a	a	unk	_	_	_	_	_
+13	tnan	tnan	ADJ	_	_	_	_	_	gloss=large
+14	pukakiar	pukakiar	NOUN	_	_	_	_	_	gloss=day
+15	a	a	unk	_	_	_	_	_
+16	lotu	lotu	VERB	_	_	_	_	_	gloss=worship
+17	na	na	DET	_	_	24	det	_	gloss=the|Definite=Def|PronType=Art
+18	Hanlakai,	hanlakai,	unk	_	_	_	_	_	gloss=during
+19	pa	pa	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+20	dir	dir	AUX	_	_	29	auxpass	_	gloss=be|VerbForm=Inf
+21	saran	saran	VERB	_	_	_	_	_	gloss=given
+22	tar	tar	ADP	_	_	_	_	_	gloss=between
+23	a	a	unk	_	_	_	_	_
+24	Nat	nat	PROPN	_	_	_	nsubjpass	_	gloss=Son|Number=Sing
+25	a	a	unk	_	_	_	_	_
+26	Barsan	barsan	PROPN	_	_	_	pobj	_	gloss=Man|Number=Sing
+27	sur	sur	PART	_	_	29	aux	_	gloss=to
+28	dir	dir	AUX	_	_	29	auxpass	_	gloss=be|VerbForm=Inf
+29	sai	sai	VERB	_	_	_	advcl	_	gloss=crucified|Aspect=Perf|Tense=Past|VerbForm=Part
+30	ahati	ahati	VERB	_	_	_	_	_	gloss=roared
+31	saot	saot	ADJ	_	_	_	_	_	gloss=heavenly
+32	na	na	DET	_	_	24	det	_	gloss=the|Definite=Def|PronType=Art
+33	rakai	rakai	NOUN	_	_	_	_	_	gloss=tree
+34	kutus.”	kutus.”	unk	_	_	_	_	_
+
+# sent_id = 40026061
+# ref_id = Matthew 26:61
+# eng_text = and said , " This man said , ' I am able to destroy the temple of God , and to build it in three days . ' "
+# lbb_text = dia atongi mang, “A barsan ne i atongi mang, ‘Ar regen sen a rumai a artabar ane God, par tol ulak pasi ana natol a pukakiar ka.’”
+1	dia	dia	PROPN	_	_	_	_	_	gloss=Barnabas
+2	atongi	atongi	VERB	_	_	_	_	_	gloss=saying
+3	mang,	mang,	ADJ	_	_	_	_	_	gloss=former
+4	“A	“a	ADJ	_	_	_	_	_	gloss=little
+5	barsan	barsan	NOUN	_	_	_	nsubj	_	gloss=man|Number=Sing
+6	ne	ne	DET	_	_	_	_	_	gloss=this
+7	i	i	PRON	_	_	_	_	_	gloss=he
+8	atongi	atongi	VERB	_	_	_	_	_	gloss=saying
+9	mang,	mang,	ADJ	_	_	_	_	_	gloss=former
+10	‘Ar	ar	PRON	_	_	_	_	_	gloss=empty
+11	regen	regen	unk	_	_	_	_	_	gloss=emple
+12	sen	sen	NOUN	_	_	_	_	_	gloss=pit
+13	a	a	unk	_	_	_	_	_
+14	rumai	rumai	PROPN	_	_	_	dobj	_	gloss=Temple|Number=Sing
+15	a	a	unk	_	_	_	_	_
+16	artabar	artabar	PROPN	_	_	_	_	_	gloss=Priest
+17	ane	ane	VERB	_	_	_	_	_	gloss=listened
+18	God,	god,	NOUN	_	_	_	_	_	gloss=guard
+19	par	par	unk	_	_	_	_	_	gloss=ick
+20	tol	tol	VERB	_	_	_	_	_	gloss=committed
+21	ulak	ulak	ADV	_	_	_	_	_	gloss=again
+22	pasi	pasi	unk	_	_	_	_	_	gloss=oph
+23	ana	ana	ADP	_	_	_	prep	_	gloss=in
+24	natol	natol	NUM	_	_	_	nummod	_	gloss=three|NumType=Card
+25	a	a	unk	_	_	_	_	_
+26	pukakiar	pukakiar	NOUN	_	_	_	_	_	gloss=day
+27	ka.’”	ka.’”	unk	_	_	_	_	_
+
+# sent_id = 40028016
+# ref_id = Matthew 28:16
+# eng_text = But the eleven disciples went into Galilee , to the mountain where Jesus had sent them .
+# lbb_text = Ning a bonot pa pisir takai a kakak a asaer ane Iesu la han utumo e Galili ting na mangir ning e Iesu ka atai tar la sur lar han tingia.
+1	Ning	ning	SCONJ	_	_	_	_	_	gloss=When
+2	a	a	unk	_	_	_	_	_
+3	bonot	bonot	NUM	_	_	_	_	_	gloss=ten
+4	pa	pa	CCONJ	_	_	_	_	_	gloss=and
+5	pisir	pisir	NUM	_	_	_	_	_	gloss=twelve
+6	takai	takai	NUM	_	_	_	_	_	gloss=hundred
+7	a	a	unk	_	_	_	_	_
+8	kakak	kakak	NOUN	_	_	_	nsubj	_	gloss=disciples|Number=Plur
+9	a	a	unk	_	_	_	_	_
+10	asaer	asaer,	NOUN	_	_	_	_	_	gloss=cons
+11	ane	ane	VERB	_	_	_	_	_	gloss=listened
+12	Iesu	iesu	PROPN	_	_	25	nsubj	_	gloss=Jesus|Number=Sing
+13	la	la	PRON	_	_	_	_	_	gloss=they
+14	han	han	VERB	_	_	_	_	_	gloss=went
+15	utumo	utumo	VERB	_	_	_	_	_	gloss=crossed
+16	e	e	AUX	_	_	_	_	_	gloss=was
+17	Galili	galili	PROPN	_	_	_	pobj	_	gloss=Galilee|Number=Sing
+18	ting	ting	unk	_	_	_	_	_	gloss=str
+19	na	na	DET	_	_	20	det	_	gloss=the|Definite=Def|PronType=Art
+20	mangir	mangir	NOUN	_	_	28	pobj	_	gloss=mountain|Number=Sing
+21	ning	ning	PRON	_	_	_	_	_	gloss=who
+22	e	e	AUX	_	_	_	_	_	gloss=was
+23	Iesu	iesu	PROPN	_	_	25	nsubj	_	gloss=Jesus|Number=Sing
+24	ka	ka	AUX	_	_	_	_	_	gloss=has
+25	atai	atai	VERB	_	_	20	relcl	_	gloss=told|Aspect=Perf|Tense=Past|VerbForm=Part
+26	tar	tar	ADP	_	_	_	_	_	gloss=between
+27	la	la	PRON	_	_	_	_	_	gloss=they
+28	sur	sur	PART	_	_	_	aux	_	gloss=to
+29	lar	lar	ADJ	_	_	_	_	_	gloss=gre
+30	han	han	VERB	_	_	_	_	_	gloss=went
+31	tingia.	tingia.	unk	_	_	_	_	_	gloss=num
+
+# sent_id = 41002023
+# ref_id = Mark 2:23
+# eng_text = It happened , that he was going on the Sabbath day through the grain fields , and his disciples began , as they went , to pluck the ears of grain .
+# lbb_text = Ana ning a Pukakiar Sabat, e Iesu i han potor ting na barim a wit. Ning la han amon, anuna kakak a asaerla la turpas a kumut kutus a witla.
+1	Ana	ana	ADP	_	_	_	_	_	gloss=Through
+2	ning	ning	PRON	_	_	_	_	_	gloss=who
+3	a	a	unk	_	_	_	_	_
+4	Pukakiar	pukakiar	PROPN	_	_	_	compound	_	gloss=Sabbath|Number=Sing
+5	Sabat,	sabat,	unk	_	_	_	_	_	gloss=ield
+6	e	e	AUX	_	_	_	aux	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+7	Iesu	iesu	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+8	i	i	PRON	_	_	_	_	_	gloss=he
+9	han	han	VERB	_	_	_	_	_	gloss=went
+10	potor	potor	unk	_	_	_	_	_	gloss=add
+11	ting	ting	unk	_	_	_	_	_	gloss=str
+12	na	na	DET	_	_	_	_	_	gloss=the
+13	barim	barim	NOUN	_	_	_	_	_	gloss=vineyard
+14	a	a	unk	_	_	_	_	_
+15	wit.	wit.	unk	_	_	_	_	_
+16	Ning	ning	SCONJ	_	_	_	_	_	gloss=When
+17	la	la	PRON	_	_	_	_	_	gloss=they
+18	han	han	VERB	_	_	_	_	_	gloss=went
+19	amon,	amon,	unk	_	_	_	_	_	gloss=ministry
+20	anuna	anuna	PRON	_	_	21	poss	_	gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+21	kakak	kakak	NOUN	_	_	25	nsubj	_	gloss=disciples|Number=Plur
+22	a	a	unk	_	_	_	_	_
+23	asaerla	asaerla	NOUN	_	_	_	_	_	gloss=teachers
+24	la	la	PRON	_	_	_	_	_	gloss=they
+25	turpas	turpas	VERB	_	_	0	root	_	gloss=began|Tense=Past|VerbForm=Fin
+26	a	a	unk	_	_	_	_	_
+27	kumut	kumut	unk	_	_	_	_	_
+28	kutus	kutus	NOUN	_	_	_	_	_	gloss=cross
+29	a	a	unk	_	_	_	_	_
+30	witla.	witla.	VERB	_	_	_	_	_	gloss=plant
+
+# sent_id = 41012032
+# ref_id = Mark 12:32
+# eng_text = The scribe said to him , " Truly , teacher , you have said well that he is one , and there is none other but he ,
+# lbb_text = A tena asaer tagun a warkurai i atai e Iesu mange, “I momol ot, Tena Asaer. I tostos anuma warwara, mang e God i takai sot ka, pa bel tik ulak ma.
+1	A	a	CCONJ	_	_	_	_	_	gloss=nd
+2	tena	tena	NOUN	_	_	_	_	_	gloss=thieves
+3	asaer	asaer,	NOUN	_	_	_	_	_	gloss=cons
+4	tagun	tagun	ADJ	_	_	_	_	_	gloss=old
+5	a	a	unk	_	_	_	_	_
+6	warkurai	warkurai	NOUN	_	_	_	pobj	_	gloss=law|Number=Sing
+7	i	i	PRON	_	_	_	_	_	gloss=he
+8	atai	atai	VERB	_	_	_	_	_	gloss=told
+9	e	e	AUX	_	_	_	_	_	gloss=was
+10	Iesu	iesu	PROPN	_	_	_	_	_	gloss=Jesus
+11	mange,	mange,	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+12	“I	“i	AUX	_	_	_	_	_	gloss=Should
+13	momol	momol	ADJ	_	_	_	_	_	gloss=faithful
+14	ot,	ot,	ADV	_	_	_	_	_	gloss=Surely
+15	Tena	tena	PROPN	_	_	_	_	_	gloss=Baptist
+16	Asaer.	asaer,	NOUN	_	_	_	_	_
+17	I	i	PRON	_	_	_	_	_	gloss=He
+18	tostos	tostos	ADJ	_	_	_	_	_	gloss=right
+19	anuma	anuma	PRON	_	_	_	_	_	gloss=your
+20	warwara,	warwara,	unk	_	_	_	_	_	gloss=speechless
+21	mang	mang	unk	_	_	_	_	_	gloss=ss
+22	e	e	AUX	_	_	_	_	_	gloss=was
+23	God	god	PROPN	_	_	_	attr	_	gloss=God|Number=Sing
+24	i	i	PRON	_	_	_	_	_	gloss=he
+25	takai	takai	NUM	_	_	_	_	_	gloss=hundred
+26	sot	sot	ADJ	_	_	_	_	_	gloss=right
+27	ka,	ka,	ADV	_	_	_	advmod	_	gloss=only
+28	pa	pa	CCONJ	_	_	23	cc	_	gloss=and|ConjType=Cmp
+29	bel	bel	ADV	_	_	_	_	_	gloss=never
+30	tik	tik	PRON	_	_	_	_	_	gloss=anyone
+31	ulak	ulak	ADV	_	_	_	_	_	gloss=again
+32	ma.	ma.	unk	_	_	_	_	_	gloss=Our
+
+# sent_id = 41014037
+# ref_id = Mark 14:37
+# eng_text = He came and found them sleeping , and said to Peter , " Simon , are you sleeping ? Couldn't you watch one hour ?
+# lbb_text = Ning i ulak, i oroi ditol ka borbor duman. I deken e Pita mange, “Saimon, kaning ot u borbor duman? Bel ur tolsot sur ur tai alar ana tik ta mais a pukakiar ka?
+1	Ning	ning	SCONJ	_	_	_	_	_	gloss=When
+2	i	i	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+3	ulak,	ulak,	unk	_	_	_	_	_	gloss=oc
+4	i	i	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+5	oroi	oroi	VERB	_	_	_	_	_	gloss=saw
+6	ditol	ditol	VERB	_	_	_	_	_	gloss=Stay
+7	ka	ka	AUX	_	_	_	_	_	gloss=has
+8	borbor	borbor	NOUN	_	_	_	_	_	gloss=bed
+9	duman.	duman.	ADJ	_	_	_	acomp	_	gloss=asleep|Degree=Pos
+10	I	i	PRON	_	_	_	nsubj	_	gloss=He|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+11	deken	deken	VERB	_	_	_	_	_	gloss=asked
+12	e	e	AUX	_	_	_	_	_	gloss=was
+13	Pita	pita	PROPN	_	_	24	pobj	_	gloss=Peter|Number=Sing
+14	mange,	mange,	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+15	“Saimon,	saimon	PROPN	_	_	_	_	_
+16	kaning	kaning	unk	_	_	_	_	_	gloss=nursed
+17	ot	ot	unk	_	_	_	_	_	gloss=uzz
+18	u	u	NOUN	_	_	_	_	_	gloss=prostit
+19	borbor	borbor	NOUN	_	_	_	_	_	gloss=bed
+20	duman?	duman?	unk	_	_	_	_	_
+21	Bel	bel	VERB	_	_	_	_	_	gloss=disobey
+22	ur	ur	NOUN	_	_	_	_	_	gloss=leprosy
+23	tolsot	tolsot	unk	_	_	_	_	_	gloss=ld
+24	sur	sur	ADP	_	_	_	prep	_	gloss=to
+25	ur	ur	NOUN	_	_	_	_	_	gloss=leprosy
+26	tai	tai	VERB	_	_	_	_	_	gloss=fled
+27	alar	alar	NOUN	_	_	_	_	_	gloss=tender
+28	ana	ana	ADP	_	_	_	_	_	gloss=in
+29	tik	tik	PRON	_	_	_	_	_	gloss=anyone
+30	ta	ta	VERB	_	_	_	_	_	gloss=cause
+31	mais	mais	NUM	_	_	_	_	_	gloss=seven
+32	a	a	unk	_	_	_	_	_
+33	pukakiar	pukakiar	NOUN	_	_	_	_	_	gloss=day
+34	ka?	ka?	unk	_	_	_	_	_	gloss=Couldn’t
+
+# sent_id = 42004002
+# ref_id = Luke 4:2
+# eng_text = for forty days , being tempted by the devil . He ate nothing in those days . Afterward , when they were completed , he was hungry .
+# lbb_text = I kes tingia diat a bonot a pukakiar pa bel i hangan, pa e Satan i lari. Ning ka rop a pukakiarla ning, i murak.
+1	I	i	PRON	_	_	_	_	_	gloss=He
+2	kes	kes	VERB	_	_	_	_	_	gloss=sat
+3	tingia	tingia	unk	_	_	_	_	_	gloss=Won’t
+4	diat	diat	NUM	_	_	_	nummod	_	gloss=forty|NumType=Card
+5	a	a	unk	_	_	_	_	_
+6	bonot	bonot	NUM	_	_	_	_	_	gloss=ten
+7	a	a	unk	_	_	_	_	_
+8	pukakiar	pukakiar	NOUN	_	_	_	_	_	gloss=day
+9	pa	pa	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+10	bel	bel	ADV	_	_	_	_	_	gloss=never
+11	i	i	PRON	_	_	_	nsubjpass	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+12	hangan,	hangan	VERB	_	_	_	_	_	gloss=ried
+13	pa	pa	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+14	e	e	AUX	_	_	_	auxpass	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+15	Satan	satan	NOUN	_	_	_	pobj	_	gloss=devil|Number=Sing
+16	i	i	PRON	_	_	_	nsubjpass	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+17	lari.	lari.	unk	_	_	_	_	_
+18	Ning	ning	SCONJ	_	_	_	_	_	gloss=When
+19	ka	ka	AUX	_	_	_	_	_	gloss=has
+20	rop	rop	ADJ	_	_	_	_	_	gloss=whole
+21	a	a	unk	_	_	_	_	_
+22	pukakiarla	pukakiarla	unk	_	_	_	_	_	gloss=da
+23	ning,	ning,	unk	_	_	_	_	_	gloss=oon
+24	i	i	PRON	_	_	_	nsubjpass	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+25	murak.	murak.	unk	_	_	_	_	_
+
+# sent_id = 42016013
+# ref_id = Luke 16:13
+# eng_text = No servant can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You aren't able to serve God and mammon . "
+# lbb_text = Bel ta tena titol ir titol lar pas tetek ir naur a ningnigo. Ir nget ning a halindiau, pa ir mang sur ning a halindiau, ir katnan ning pa takai ir saran a kaba hina kusuni. Bel mulor titol lar pas tetek e God pa tetek a mani otleng.”
+1	Bel	bel	VERB	_	_	_	_	_	gloss=disobey
+2	ta	ta	VERB	_	_	_	_	_	gloss=cause
+3	tena	tena	NOUN	_	_	_	_	_	gloss=thieves
+4	titol	titol	VERB	_	_	_	_	_	gloss=work
+5	ir	ir	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+6	titol	titol	VERB	_	_	_	_	_	gloss=work
+7	lar	lar	ADJ	_	_	_	_	_	gloss=gre
+8	pas	pas	VERB	_	_	_	_	_	gloss=took
+9	tetek	tetek	VERB	_	_	_	_	_	gloss=laves
+10	ir	ir	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+11	naur	naur	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+12	a	a	unk	_	_	_	_	_
+13	ningnigo.	ningnigo.	VERB	_	_	_	acomp	_	gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+14	Ir	ir	NOUN	_	_	_	_	_	gloss=follower
+15	nget	nget	VERB	_	_	_	_	_	gloss=hates
+16	ning	ning	PRON	_	_	_	_	_	gloss=who
+17	a	a	unk	_	_	_	_	_
+18	halindiau,	halindiau,	VERB	_	_	_	_	_	gloss=grinding
+19	pa	pa	CCONJ	_	_	44	cc	_	gloss=and|ConjType=Cmp
+20	ir	ir	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+21	mang	mang	unk	_	_	_	_	_	gloss=ss
+22	sur	sur	ADP	_	_	35	prep	_	gloss=to
+23	ning	ning	PRON	_	_	_	_	_	gloss=who
+24	a	a	unk	_	_	_	_	_
+25	halindiau,	halindiau,	VERB	_	_	_	_	_	gloss=grinding
+26	ir	ir	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+27	katnan	katnan	unk	_	_	_	_	_	gloss=sh
+28	ning	ning	PRON	_	_	_	_	_	gloss=who
+29	pa	pa	CCONJ	_	_	44	cc	_	gloss=and|ConjType=Cmp
+30	takai	takai	NUM	_	_	_	_	_	gloss=hundred
+31	ir	ir	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+32	saran	saran	VERB	_	_	_	_	_	gloss=given
+33	a	a	unk	_	_	_	_	_
+34	kaba	kaba	unk	_	_	_	_	_	gloss=liness
+35	hina	hina	VERB	_	_	_	acomp	_	gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+36	kusuni.	kusuni.	VERB	_	_	_	_	_	gloss=disappeared
+37	Bel	bel	VERB	_	_	_	_	_	gloss=disobey
+38	mulor	mulor	NOUN	_	_	_	_	_	gloss=fate
+39	titol	titol	VERB	_	_	_	_	_	gloss=work
+40	lar	lar	ADJ	_	_	_	_	_	gloss=gre
+41	pas	pas	VERB	_	_	_	_	_	gloss=took
+42	tetek	tetek	VERB	_	_	_	_	_	gloss=laves
+43	e	e	AUX	_	_	_	_	_	gloss=was
+44	God	god	PROPN	_	_	_	dobj	_	gloss=God|Number=Sing
+45	pa	pa	CCONJ	_	_	44	cc	_	gloss=and|ConjType=Cmp
+46	tetek	tetek	VERB	_	_	_	_	_	gloss=laves
+47	a	a	unk	_	_	_	_	_
+48	mani	mani	NOUN	_	_	44	conj	_	gloss=money|Number=Sing
+49	otleng.”	otleng.”	unk	_	_	_	_	_	gloss=alike
+
+# sent_id = 42024018
+# ref_id = Luke 24:18
+# eng_text = One of them , named Cleopas , answered him , " Are you the only one travelling in Jerusalem who doesn't know the things which have happened there in these days ? "
+# lbb_text = Pa ning a halindiau a risana e Kliopas, i dekeni mang, “Ngandek u ka esaning u kes saot e Jerusalem, pa bel u tasman a ututnala di toli saot ana pukakiarla ne?”
+1	Pa	pa	CCONJ	_	_	_	_	_	gloss=And
+2	ning	ning	PRON	_	_	_	nsubj	_	gloss=who
+3	a	a	unk	_	_	_	_	_
+4	halindiau	halindiau	NUM	_	_	_	_	_	gloss=Two
+5	a	a	unk	_	_	_	_	_
+6	risana	risana	VERB	_	_	_	_	_	gloss=named
+7	e	e	AUX	_	_	_	_	_	gloss=was
+8	Kliopas,	kliopas,	unk	_	_	_	_	_
+9	i	i	PRON	_	_	_	_	_	gloss=he
+10	dekeni	dekeni	VERB	_	_	_	_	_	gloss=asked
+11	mang,	mang,	ADJ	_	_	_	_	_	gloss=former
+12	“Ngandek	“ngandek	PART	_	_	_	neg	_	gloss=n’t
+13	u	u	NOUN	_	_	_	_	_	gloss=prostit
+14	ka	ka	AUX	_	_	_	aux	_	gloss=has|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+15	esaning	esaning	unk	_	_	_	_	_	gloss=qu
+16	u	u	NOUN	_	_	_	_	_	gloss=prostit
+17	kes	kes	VERB	_	_	_	_	_	gloss=sat
+18	saot	saot	ADJ	_	_	_	_	_	gloss=heavenly
+19	e	e	AUX	_	_	_	_	_	gloss=was
+20	Jerusalem,	jerusalem,	PROPN	_	_	30	pobj	_	gloss=Jerusalem|Number=Sing
+21	pa	pa	CCONJ	_	_	_	_	_	gloss=and
+22	bel	bel	ADV	_	_	_	_	_	gloss=never
+23	u	u	NOUN	_	_	_	_	_	gloss=prostit
+24	tasman	tasman	VERB	_	_	_	_	_	gloss=know
+25	a	a	unk	_	_	_	_	_
+26	ututnala	ututnala	NOUN	_	_	_	pobj	_	gloss=things|Number=Plur
+27	di	di	ADJ	_	_	_	_	_	gloss=Young
+28	toli	toli	unk	_	_	_	_	_	gloss=impr
+29	saot	saot	ADJ	_	_	_	_	_	gloss=heavenly
+30	ana	ana	ADP	_	_	_	prep	_	gloss=in
+31	pukakiarla	pukakiarla	unk	_	_	_	_	_	gloss=da
+32	ne?”	ne?”	unk	_	_	_	_	_	gloss=Stephen
+
+# sent_id = 43001039
+# ref_id = John 1:39
+# eng_text = He said to them , " Come , and see . " They came and saw where he was staying , and they stayed with him that day . It was about the tenth hour .
+# lbb_text = E Iesu i keles diau mange, “Mur han ute sur mur oroi.” Pa dia muri, pa dia oroi a pukna ning e Iesu i kes ano. Ning ditol hanot, ka diat a mais a kamis pas, pa ditol kes a rah kidol ning tingia.
+1	E	e	ADP	_	_	_	_	_	gloss=Among
+2	Iesu	iesu	PROPN	_	_	_	_	_	gloss=Jesus
+3	i	i	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+4	keles	keles	VERB	_	_	_	_	_	gloss=answer
+5	diau	diau	unk	_	_	_	_	_	gloss=th
+6	mange,	mange,	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+7	“Mur	mur	VERB	_	_	_	_	_	gloss=Pray
+8	han	han	VERB	_	_	22	advcl	_	gloss=went|Tense=Past|VerbForm=Fin
+9	ute	ute	INTJ	_	_	_	_	_	gloss=Yes
+10	sur	sur	ADP	_	_	8	prep	_	gloss=to
+11	mur	mur	VERB	_	_	_	_	_	gloss=follow
+12	oroi.”	oroi	VERB	_	_	_	_	_	gloss=hypocr
+13	Pa	pa	CCONJ	_	_	_	_	_	gloss=And
+14	dia	dia	PROPN	_	_	_	_	_	gloss=Barnabas
+15	muri,	muri,	unk	_	_	_	_	_	gloss=fe
+16	pa	pa	CCONJ	_	_	22	cc	_	gloss=and|ConjType=Cmp
+17	dia	dia	PROPN	_	_	_	_	_	gloss=Barnabas
+18	oroi	oroi	VERB	_	_	_	_	_	gloss=saw
+19	a	a	unk	_	_	_	_	_
+20	pukna	pukna	NOUN	_	_	10	pobj	_	gloss=place|Number=Sing
+21	ning	ning	PRON	_	_	_	_	_	gloss=who
+22	e	e	AUX	_	_	_	aux	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+23	Iesu	iesu	PROPN	_	_	_	_	_	gloss=Jesus
+24	i	i	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+25	kes	kes	VERB	_	_	_	_	_	gloss=sat
+26	ano.	ano.	unk	_	_	_	_	_	gloss=ias
+27	Ning	ning	SCONJ	_	_	_	_	_	gloss=When
+28	ditol	ditol	VERB	_	_	_	_	_	gloss=Stay
+29	hanot,	hanot,	NOUN	_	_	_	_	_	gloss=door
+30	ka	ka	AUX	_	_	_	_	_	gloss=has
+31	diat	diat	NUM	_	_	_	_	_	gloss=forty
+32	a	a	unk	_	_	_	_	_
+33	mais	mais	NUM	_	_	_	_	_	gloss=seven
+34	a	a	unk	_	_	_	_	_
+35	kamis	kamis	NOUN	_	_	22	attr	_	gloss=o’clock|Number=Sing
+36	pas,	pas	VERB	_	_	_	_	_	gloss=Lo
+37	pa	pa	CCONJ	_	_	22	cc	_	gloss=and|ConjType=Cmp
+38	ditol	ditol	VERB	_	_	_	_	_	gloss=Stay
+39	kes	kes	VERB	_	_	_	_	_	gloss=sat
+40	a	a	unk	_	_	_	_	_
+41	rah	rah	NOUN	_	_	_	pobj	_	gloss=afternoon|Number=Sing
+42	kidol	kidol	unk	_	_	_	_	_	gloss=nets
+43	ning	ning	PRON	_	_	_	_	_	gloss=who
+44	tingia.	tingia.	unk	_	_	_	_	_	gloss=num
+
+# sent_id = 43003016
+# ref_id = John 3:16
+# eng_text = For God so loved the world , that he gave his one and only Son , that whoever believes in him should not perish , but have eternal life .
+# lbb_text = “E God i maris a rakrakan hanua, pa i saran tar e Natnalik takai sot ka, sur esining ir tortorot onoi, ir laun tikin, pa bel ir hirua.
+1	“E	e	AUX	_	_	_	_	_	gloss=ish
+2	God	god	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+3	i	i	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+4	maris	maris	NOUN	_	_	_	_	_	gloss=compassion
+5	a	a	unk	_	_	_	_	_
+6	rakrakan	rakrakan	NOUN	_	_	_	dobj	_	gloss=world|Number=Sing
+7	hanua,	hanua,	NOUN	_	_	_	_	_	gloss=plan
+8	pa	pa	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+9	i	i	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+10	saran	saran	VERB	_	_	_	_	_	gloss=given
+11	tar	tar	ADP	_	_	_	_	_	gloss=between
+12	e	e	AUX	_	_	_	_	_	gloss=was
+13	Natnalik	natnalik	PROPN	_	_	_	appos	_	gloss=Son|Number=Sing
+14	takai	takai	NUM	_	_	_	_	_	gloss=hundred
+15	sot	sot	ADJ	_	_	_	_	_	gloss=right
+16	ka,	ka,	ADV	_	_	_	conj	_	gloss=only
+17	sur	sur	unk	_	_	_	_	_	gloss=to
+18	esining	esining	VERB	_	_	_	_	_	gloss=knocks
+19	ir	ir	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+20	tortorot	tortorot	VERB	_	_	_	_	_	gloss=believe
+21	onoi,	onoi,	NOUN	_	_	_	_	_	gloss=mystery
+22	ir	ir	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+23	laun	laun	VERB	_	_	_	_	_	gloss=remains
+24	tikin,	tikin,	ADJ	_	_	_	amod	_	gloss=eternal|Degree=Pos
+25	pa	pa	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+26	bel	bel	ADV	_	_	_	_	_	gloss=never
+27	ir	ir	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+28	hirua.	hirua.	NOUN	_	_	_	_	_	gloss=destruction
+
+# sent_id = 44002030
+# ref_id = Acts 2:30
+# eng_text = Therefore , being a prophet , and knowing that God had sworn with an oath to him that of the fruit of his body , according to the flesh , he would raise up the Christ to sit on his throne ,
+# lbb_text = Ika e Dewit i a propet, pa i tasmani mang e God ka lele tar teteki mang i ot ir akes tar tik miting na mangis a tarai anunai, sur ir kelesi ana nuna keskes a king.
+1	Ika	ika	CCONJ	_	_	2	cc	_	gloss=But|ConjType=Cmp
+2	e	e	AUX	_	_	0	root	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+3	Dewit	dewit	PROPN	_	_	_	poss	_	gloss=David|Number=Sing
+4	i	i	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+5	a	a	unk	_	_	_	_	_
+6	propet,	propet,	VERB	_	_	_	_	_	gloss=prophesying
+7	pa	pa	CCONJ	_	_	11	cc	_	gloss=and|ConjType=Cmp
+8	i	i	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+9	tasmani	tasmani	VERB	_	_	_	_	_	gloss=realize
+10	mang	mang	unk	_	_	_	_	_	gloss=ss
+11	e	e	AUX	_	_	0	root	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+12	God	god	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+13	ka	ka	AUX	_	_	_	_	_	gloss=has
+14	lele	lele	NOUN	_	_	_	pobj	_	gloss=oath|Number=Sing
+15	tar	tar	ADP	_	_	_	_	_	gloss=between
+16	teteki	teteki	unk	_	_	_	_	_	gloss=b
+17	mang	mang	unk	_	_	_	_	_	gloss=ss
+18	i	i	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+19	ot	ot	unk	_	_	_	_	_	gloss=uzz
+20	ir	ir	AUX	_	_	_	_	_	gloss=will
+21	akes	akes	VERB	_	_	_	_	_	gloss=tied
+22	tar	tar	ADP	_	_	_	_	_	gloss=between
+23	tik	tik	PRON	_	_	_	_	_	gloss=anyone
+24	miting	miting	unk	_	_	_	_	_	gloss=-third
+25	na	na	DET	_	_	_	_	_	gloss=the
+26	mangis	mangis	NOUN	_	_	_	_	_	gloss=tribes
+27	a	a	unk	_	_	_	_	_
+28	tarai	tarai	NOUN	_	_	_	_	_	gloss=people
+29	anunai,	anunai,	unk	_	_	_	_	_	gloss=owned
+30	sur	sur	unk	_	_	_	_	_	gloss=to
+31	ir	ir	AUX	_	_	_	_	_	gloss=will
+32	kelesi	kelesi	VERB	_	_	_	_	_	gloss=replied
+33	ana	ana	ADP	_	_	_	_	_	gloss=in
+34	nuna	nuna	unk	_	_	_	_	_	gloss=eg
+35	keskes	keskes	NOUN	_	_	_	_	_	gloss=seat
+36	a	a	unk	_	_	_	_	_
+37	king.	king.	unk	_	_	_	_	_	gloss=stepped
+
+# sent_id = 44009038
+# ref_id = Acts 9:38
+# eng_text = As Lydda was near Joppa , the disciples , hearing that Peter was there , sent two men to him , imploring him not to delay in coming to them .
+# lbb_text = E Lida i kes milau e Jopa, pa ning a tarai a asasaer miting e Jopa la longori mang e Pita kanumo e Lida, la sune naur a barsan teteki pa dia angongosi mang, “Maris mila, ur lamut kapit tetek mila.”
+1	E	e	ADP	_	_	_	_	_	gloss=Among
+2	Lida	lida	unk	_	_	_	_	_
+3	i	i	PRON	_	_	_	_	_	gloss=he
+4	kes	kes	VERB	_	_	_	_	_	gloss=sat
+5	milau	milau	VERB	_	_	26	advcl	_	gloss=beg|VerbForm=Inf
+6	e	e	AUX	_	_	_	ccomp	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+7	Jopa,	jopa,	unk	_	_	_	_	_	gloss=mon
+8	pa	pa	CCONJ	_	_	_	_	_	gloss=and
+9	ning	ning	PRON	_	_	_	_	_	gloss=who
+10	a	a	unk	_	_	_	_	_
+11	tarai	tarai	NOUN	_	_	_	_	_	gloss=people
+12	a	a	unk	_	_	_	_	_
+13	asasaer	asasaer	unk	_	_	_	_	_	gloss=diso
+14	miting	miting	unk	_	_	_	_	_	gloss=-third
+15	e	e	AUX	_	_	_	ccomp	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+16	Jopa	jopa	PROPN	_	_	_	_	_	gloss=Joppa
+17	la	la	PRON	_	_	26	nsubj	_	gloss=they|Case=Nom|Number=Plur|Person=3|PronType=Prs
+18	longori	longori	unk	_	_	_	_	_	gloss=vo
+19	mang	mang	unk	_	_	_	_	_	gloss=ss
+20	e	e	AUX	_	_	_	ccomp	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+21	Pita	pita	PROPN	_	_	20	nsubj	_	gloss=Peter|Number=Sing
+22	kanumo	kanumo	PRON	_	_	_	_	_	gloss=Someone
+23	e	e	AUX	_	_	_	ccomp	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+24	Lida,	lida,	unk	_	_	_	_	_
+25	la	la	PRON	_	_	26	nsubj	_	gloss=they|Case=Nom|Number=Plur|Person=3|PronType=Prs
+26	sune	sune	VERB	_	_	0	root	_	gloss=sent|Tense=Past|VerbForm=Fin
+27	naur	naur	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+28	a	a	unk	_	_	_	_	_
+29	barsan	barsan	NOUN	_	_	_	_	_	gloss=man
+30	teteki	teteki	unk	_	_	_	_	_	gloss=b
+31	pa	pa	CCONJ	_	_	_	_	_	gloss=and
+32	dia	dia	PROPN	_	_	_	_	_	gloss=Barnabas
+33	angongosi	angongosi	unk	_	_	_	_	_	gloss=ong
+34	mang,	mang,	ADJ	_	_	_	_	_	gloss=former
+35	“Maris	“maris	unk	_	_	_	_	_
+36	mila,	mila,	unk	_	_	_	_	_	gloss=F
+37	ur	ur	NOUN	_	_	_	_	_	gloss=leprosy
+38	lamut	lamut	unk	_	_	_	_	_	gloss=landed
+39	kapit	kapit	ADV	_	_	_	_	_	gloss=quickly
+40	tetek	tetek	VERB	_	_	_	_	_	gloss=laves
+41	mila.”	mila.”	unk	_	_	_	_	_	gloss=lain
+
+# sent_id = 44011011
+# ref_id = Acts 11:11
+# eng_text = Behold , immediately three men stood before the house where I was , having been sent from Caesarea to me .
+# lbb_text = “Ono otning, natola barsan ning di sune ditol mitimo e Sisaria tetek iau, ditol hanot ting na rumai ning a kes ono.
+1	“Ono	“ono	unk	_	_	_	_	_	gloss=Salvation
+2	otning,	otning,	ADV	_	_	_	_	_	gloss=immediately
+3	natola	natola	NUM	_	_	_	nummod	_	gloss=three|NumType=Card
+4	barsan	barsan	NOUN	_	_	_	_	_	gloss=man
+5	ning	ning	PRON	_	_	7	nsubjpass	_	gloss=who
+6	di	di	ADJ	_	_	_	_	_	gloss=Young
+7	sune	sune	VERB	_	_	_	relcl	_	gloss=sent|Aspect=Perf|Tense=Past|VerbForm=Part
+8	ditol	ditol	VERB	_	_	_	_	_	gloss=Stay
+9	mitimo	mitimo	unk	_	_	_	_	_	gloss=ber
+10	e	e	AUX	_	_	_	_	_	gloss=was
+11	Sisaria	sisaria	PROPN	_	_	_	pobj	_	gloss=Caesarea|Number=Sing
+12	tetek	tetek	VERB	_	_	_	_	_	gloss=laves
+13	iau,	iau,	VERB	_	_	_	_	_	gloss=weep
+14	ditol	ditol	VERB	_	_	_	_	_	gloss=Stay
+15	hanot	hanot	NOUN	_	_	_	_	_	gloss=olive
+16	ting	ting	unk	_	_	_	_	_	gloss=str
+17	na	na	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+18	rumai	rumai	PROPN	_	_	_	_	_	gloss=Temple
+19	ning	ning	PRON	_	_	7	nsubjpass	_	gloss=who
+20	a	a	unk	_	_	_	_	_
+21	kes	kes	VERB	_	_	_	_	_	gloss=sat
+22	ono.	ono.	NOUN	_	_	_	_	_	gloss=question
+
+# sent_id = 44021034
+# ref_id = Acts 21:34
+# eng_text = Some shouted one thing , some another , among the crowd . When he couldn't find out the truth because of the noise , he commanded him to be brought into the barracks .
+# lbb_text = Dingla na tarai tagun a kunum, la atong ning a warwara, pa dingla otleng la atong ning a warwara masik. A tnan ningnigo bel i kibas lar pas a momolna, kamna ana tnan arlak, pa i arsune sur dir ben e Pol uting na rumai anuna tarai a harum.
+1	Dingla	dingla	PRON	_	_	_	nsubj	_	gloss=Some
+2	na	na	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+3	tarai	tarai	NOUN	_	_	_	_	_	gloss=people
+4	tagun	tagun	ADJ	_	_	_	_	_	gloss=old
+5	a	a	unk	_	_	_	_	_
+6	kunum,	kunum	NOUN	_	_	_	_	_
+7	la	la	PRON	_	_	_	_	_	gloss=they
+8	atong	atong	NOUN	_	_	_	dobj	_	gloss=truth|Number=Sing
+9	ning	ning	PRON	_	_	_	_	_	gloss=who
+10	a	a	unk	_	_	_	_	_
+11	warwara,	warwara,	unk	_	_	_	_	_	gloss=speechless
+12	pa	pa	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+13	dingla	dingla	unk	_	_	_	_	_	gloss=antly
+14	otleng	otleng	ADV	_	_	_	_	_	gloss=too
+15	la	la	PRON	_	_	_	_	_	gloss=they
+16	atong	atong	NOUN	_	_	_	dobj	_	gloss=truth|Number=Sing
+17	ning	ning	PRON	_	_	_	_	_	gloss=who
+18	a	a	unk	_	_	_	_	_
+19	warwara	warwara	NOUN	_	_	_	_	_	gloss=word
+20	masik.	masik.	unk	_	_	_	_	_	gloss=fle
+21	A	a	CCONJ	_	_	_	_	_	gloss=nd
+22	tnan	tnan	ADJ	_	_	_	_	_	gloss=large
+23	ningnigo	ningnigo	ADJ	_	_	_	_	_	gloss=high
+24	bel	bel	ADV	_	_	_	_	_	gloss=never
+25	i	i	PRON	_	_	37	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+26	kibas	kibas	VERB	_	_	_	_	_	gloss=receive
+27	lar	lar	ADJ	_	_	_	_	_	gloss=gre
+28	pas	pas	VERB	_	_	_	_	_	gloss=took
+29	a	a	unk	_	_	_	_	_
+30	momolna,	momolna,	unk	_	_	_	_	_	gloss=accuse
+31	kamna	kamna	unk	_	_	_	_	_	gloss=gen
+32	ana	ana	ADP	_	_	16	prep	_	gloss=in
+33	tnan	tnan	ADJ	_	_	_	_	_	gloss=large
+34	arlak,	arlak,	unk	_	_	_	_	_
+35	pa	pa	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+36	i	i	PRON	_	_	37	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+37	arsune	arsune	VERB	_	_	0	root	_	gloss=ordered|Tense=Past|VerbForm=Fin
+38	sur	sur	ADP	_	_	_	prep	_	gloss=to
+39	dir	dir	AUX	_	_	_	auxpass	_	gloss=be|VerbForm=Inf
+40	ben	ben	VERB	_	_	_	_	_	gloss=brought
+41	e	e	AUX	_	_	_	_	_	gloss=was
+42	Pol	pol	PROPN	_	_	_	nsubjpass	_	gloss=Paul|Number=Sing
+43	uting	uting	ADP	_	_	_	_	_	gloss=into
+44	na	na	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+45	rumai	rumai	PROPN	_	_	_	_	_	gloss=Temple
+46	anuna	anuna	PRON	_	_	_	_	_	gloss=his
+47	tarai	tarai	NOUN	_	_	_	_	_	gloss=people
+48	a	a	unk	_	_	_	_	_
+49	harum.	harum	NOUN	_	_	_	_	_	gloss=att
+
+# sent_id = 47012002
+# ref_id = 2 Corinthians 12:2
+# eng_text = I know a man in Christ , fourteen years ago ( whether in the body , I don't know , or whether out of the body , I don't know ; God knows ) , such a one caught up into the third heaven .
+# lbb_text = A tasman a barsan, a te Karisito, ning a bonot pa pisir diat a rau i rop di kibas pasi usaot ana munatol a langit. Bel a tasmani ning di los kas pasi taum ana palaona o a inguna ka. E God ka i tasmani.
+1	A	a	CCONJ	_	_	_	_	_	gloss=nd
+2	tasman	tasman	VERB	_	_	_	_	_	gloss=know
+3	a	a	unk	_	_	_	_	_
+4	barsan,	barsan,	SCONJ	_	_	_	mark	_	gloss=Whether
+5	a	a	unk	_	_	_	_	_
+6	te	te	PROPN	_	_	_	_	_	gloss=Galilean
+7	Karisito,	karisito,	PROPN	_	_	_	_	_	gloss=Messiah
+8	ning	ning	PRON	_	_	_	_	_	gloss=who
+9	a	a	unk	_	_	_	_	_
+10	bonot	bonot	NUM	_	_	_	_	_	gloss=ten
+11	pa	pa	CCONJ	_	_	_	_	_	gloss=and
+12	pisir	pisir	NUM	_	_	_	_	_	gloss=twelve
+13	diat	diat	NUM	_	_	_	_	_	gloss=forty
+14	a	a	unk	_	_	_	_	_
+15	rau	rau	NOUN	_	_	_	_	_	gloss=tender
+16	i	i	PRON	_	_	_	_	_	gloss=he
+17	rop	rop	ADJ	_	_	_	_	_	gloss=whole
+18	di	di	ADJ	_	_	_	_	_	gloss=Young
+19	kibas	kibas	VERB	_	_	_	_	_	gloss=receive
+20	pasi	pasi	unk	_	_	_	_	_	gloss=oph
+21	usaot	usaot	PROPN	_	_	_	_	_	gloss=Olives
+22	ana	ana	ADP	_	_	_	prep	_	gloss=in
+23	munatol	munatol	ADJ	_	_	_	amod	_	gloss=third|Degree=Pos
+24	a	a	unk	_	_	_	_	_
+25	langit.	langit.	ADP	_	_	_	_	_	gloss=In
+26	Bel	bel	VERB	_	_	_	_	_	gloss=disobey
+27	a	a	unk	_	_	_	_	_
+28	tasmani	tasmani	VERB	_	_	_	_	_	gloss=realize
+29	ning	ning	PRON	_	_	_	_	_	gloss=who
+30	di	di	ADJ	_	_	_	_	_	gloss=Young
+31	los	los	VERB	_	_	_	_	_	gloss=carrying
+32	kas	kas	VERB	_	_	_	_	_	gloss=entering
+33	pasi	pasi	unk	_	_	_	_	_	gloss=oph
+34	taum	taum	ADV	_	_	_	_	_	gloss=together
+35	ana	ana	ADP	_	_	_	prep	_	gloss=in
+36	palaona	palaona	unk	_	_	_	_	_	gloss=ishes
+37	o	o	unk	_	_	_	_	_	gloss=ch
+38	a	a	unk	_	_	_	_	_
+39	inguna	inguna	unk	_	_	_	_	_	gloss=deeply
+40	ka.	ka.	unk	_	_	_	_	_	gloss=anded
+41	E	e	ADP	_	_	_	_	_	gloss=Among
+42	God	god	PROPN	_	_	45	nsubj	_	gloss=God|Number=Sing
+43	ka	ka	AUX	_	_	_	_	_	gloss=has
+44	i	i	PRON	_	_	_	_	_	gloss=he
+45	tasmani.	tasmani.	VERB	_	_	0	root	_	gloss=knows|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+
+# sent_id = 62004009
+# ref_id = 1 John 4:9
+# eng_text = By this was God's love revealed in us , that God has sent his only born Son into the world that we might live through him .
+# lbb_text = E God i asangan anuna marmaris tetek dala manglarne: I sune e Natnalik, takai sot ka, ute na rakrakan hanua sur dalar laun onoi.
+1	E	e	ADP	_	_	_	_	_	gloss=Among
+2	God	god	PROPN	_	_	4	nsubj	_	gloss=God|Number=Sing
+3	i	i	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+4	asangan	asangan	VERB	_	_	0	root	_	gloss=showed|Tense=Past|VerbForm=Fin
+5	anuna	anuna	PRON	_	_	_	poss	_	gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+6	marmaris	marmaris	NOUN	_	_	_	_	_	gloss=grace
+7	tetek	tetek	VERB	_	_	_	_	_	gloss=laves
+8	dala	dala	PRON	_	_	_	dobj	_	gloss=us|Case=Acc|Number=Plur|Person=1|PronType=Prs
+9	manglarne:	manglarne:	unk	_	_	_	_	_	gloss=lifet
+10	I	i	PRON	_	_	_	_	_	gloss=He
+11	sune	sune	VERB	_	_	_	_	_	gloss=sent
+12	e	e	AUX	_	_	_	_	_	gloss=was
+13	Natnalik,	natnalik,	unk	_	_	_	_	_	gloss=raises
+14	takai	takai	NUM	_	_	_	_	_	gloss=hundred
+15	sot	sot	ADJ	_	_	_	_	_	gloss=right
+16	ka,	ka,	ADV	_	_	_	advmod	_	gloss=only
+17	ute	ute	INTJ	_	_	_	_	_	gloss=Yes
+18	na	na	DET	_	_	19	det	_	gloss=the|Definite=Def|PronType=Art
+19	rakrakan	rakrakan	NOUN	_	_	_	pobj	_	gloss=world|Number=Sing
+20	hanua	hanua	NOUN	_	_	_	_	_	gloss=town
+21	sur	sur	unk	_	_	_	_	_	gloss=to
+22	dalar	dalar	unk	_	_	_	_	_	gloss=Let’s
+23	laun	laun	VERB	_	_	_	_	_	gloss=remains
+24	onoi.	onoi.	ADJ	_	_	_	_	_	gloss=special
+
+# sent_id = 63001005
+# ref_id = 2 John 1:5
+# eng_text = Now I beg you , dear lady , not as though I wrote to you a new commandment , but that which we had from the beginning , that we love one another .
+# lbb_text = Pa onone a nunung u, wan, sur dalar mang artalai sur dala. Bel a tumus ta tona warkurai tetek u. A warkurai ka ning dala longor tari nating ot.
+1	Pa	pa	CCONJ	_	_	_	_	_	gloss=And
+2	onone	onone	unk	_	_	_	_	_	gloss=ab
+3	a	a	unk	_	_	_	_	_
+4	nunung	nunung	NOUN	_	_	_	_	_	gloss=prayers
+5	u,	u,	VERB	_	_	0	root	_	gloss=writing|Aspect=Prog|Tense=Pres|VerbForm=Part
+6	wan,	wan,	unk	_	_	_	_	_
+7	sur	sur	PART	_	_	_	aux	_	gloss=to
+8	dalar	dalar	unk	_	_	_	_	_	gloss=Let’s
+9	mang	mang	unk	_	_	_	_	_	gloss=ss
+10	artalai	artalai	DET	_	_	_	_	_	gloss=each
+11	sur	sur	PART	_	_	_	aux	_	gloss=to
+12	dala.	dala	PRON	_	_	_	_	_	gloss=condem
+13	Bel	bel	VERB	_	_	_	_	_	gloss=disobey
+14	a	a	unk	_	_	_	_	_
+15	tumus	tumus	VERB	_	_	_	_	_	gloss=written
+16	ta	ta	VERB	_	_	_	_	_	gloss=cause
+17	tona	tona	ADJ	_	_	_	amod	_	gloss=new|Degree=Pos
+18	warkurai	warkurai	NOUN	_	_	_	_	_	gloss=law
+19	tetek	tetek	VERB	_	_	_	_	_	gloss=laves
+20	u.	u.	unk	_	_	_	_	_	gloss=E
+21	A	a	CCONJ	_	_	_	_	_	gloss=nd
+22	warkurai	warkurai	NOUN	_	_	_	_	_	gloss=law
+23	ka	ka	AUX	_	_	_	_	_	gloss=has
+24	ning	ning	PRON	_	_	_	_	_	gloss=who
+25	dala	dala	PRON	_	_	_	_	_	gloss=us
+26	longor	longor	VERB	_	_	_	_	_	gloss=hear
+27	tari	tari	unk	_	_	_	_	_	gloss=lear
+28	nating	nating	NOUN	_	_	_	_	_	gloss=ancestors
+29	ot.	ot.	unk	_	_	_	_	_	gloss=very
+

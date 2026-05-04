@@ -1,0 +1,1043 @@
+## The following text has been annotated for parts of speech by students at NTU Singapore as part of a class project in AY 2025-26.
+## Verses are extracted from the taggedPBC. Annotations have been developed with a combination of manual and automated approaches, with reference to existing literature and (where possible) native speakers.
+## ISO 639-3: pis, Language: Pijin, Number of verses: 21
+## References: Gordon, Raymond G. Jr, ed. (2005). "Pijin, a Language of Solomon Islands". Ethnologue. Retrieved 12 October 2008. ; Lee, Ernest W. (1996). "Solomon Islands Pijin in Education". In Mugler, France; Lynch, John (eds.). Pacific Languages in Education. Suva, Fiji: Bluebird Printery. pp. 191–205. ; Pijin Dictionary: https://www.webonary.org/pijin/
+
+# sent_id = 40006024
+# ref_id = Matthew 6:24
+# eng_text = " No one can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You can't serve both God and Mammon .
+# pis_text = An Jisas hemi sei moa ,  No eniwan hemi save waka fo tufala deferen masta . Bae hemi laekem wanfala , an bae hemi no laekem narawan ya . An bae hemi tinghae long wanfala , an bae hemi no tinghae long narawan ya nao . So yu no save tinghae long God an long risis blong wol tu , olsem tufala masta blong yu .
+1	An	an	CCONJ	_	_	_	_	_	gloss=and
+2	Jisas	jisas	PROPN	_	_	_	_	_	gloss=Jesus
+3	hemi	hemi	PRON	_	_	_	_	_	gloss=he/it
+4	sei	sei	VERB	_	_	_	_	_	gloss=say
+5	moa	moa	ADV	_	_	_	_	_	gloss=more
+6	,	,	PUNCT	_	_	_	_	_
+7			PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+8	No	no	DET	_	_	_	_	_	gloss=no
+9	eniwan	eniwan	PRON	_	_	_	_	_	gloss=anyone
+10	hemi	hemi	PRON	_	_	_	_	_	gloss=he/it
+11	save	save	AUX	_	_	_	aux	_	gloss=can
+12	waka	waka	VERB	_	_	_	_	_	gloss=work
+13	fo	fo	ADP	_	_	_	_	_	gloss=for/to
+14	tufala	tufala	NUM	_	_	34	nummod	_	gloss=two
+15	deferen	deferen	ADJ	_	_	_	_	_	gloss=different
+16	masta	masta	NOUN	_	_	_	_	_	gloss=master
+17	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+18	Bae	bae	AUX	_	_	_	_	_	gloss=future
+19	hemi	hemi	PRON	_	_	_	_	_	gloss=he/it
+20	laekem	laekem	VERB	_	_	_	_	_	gloss=like
+21	wanfala	wanfala	NUM	_	_	_	_	_	gloss=one
+22	,	,	PUNCT	_	_	_	_	_
+23	an	an	CCONJ	_	_	54	cc	_	gloss=and
+24	bae	bae	AUX	_	_	_	aux	_	gloss=future
+25	hemi	hemi	PRON	_	_	_	_	_	gloss=he/it
+26	no	no	DET	_	_	_	neg	_	gloss=no
+27	laekem	laekem	VERB	_	_	_	_	_	gloss=like
+28	narawan	narawan	PRON	_	_	_	_	_	gloss=other-one
+29	ya	ya	DET	_	_	_	_	_	gloss=the/this
+30	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+31	An	an	CCONJ	_	_	_	_	_	gloss=and
+32	bae	bae	AUX	_	_	_	aux	_	gloss=future
+33	hemi	hemi	PRON	_	_	_	_	_	gloss=he/it
+34	tinghae	tinghae	VERB	_	_	_	dobj	_	gloss=honor
+35	long	long	ADP	_	_	_	_	_	gloss=of/at
+36	wanfala	wanfala	NUM	_	_	_	_	_	gloss=one
+37	,	,	PUNCT	_	_	_	_	_
+38	an	an	CCONJ	_	_	54	cc	_	gloss=and
+39	bae	bae	AUX	_	_	_	aux	_	gloss=future
+40	hemi	hemi	PRON	_	_	_	_	_	gloss=he/it
+41	no	no	DET	_	_	_	neg	_	gloss=no
+42	tinghae	tinghae	VERB	_	_	_	dobj	_	gloss=honor
+43	long	long	ADP	_	_	_	_	_	gloss=of/at
+44	narawan	narawan	PRON	_	_	_	_	_	gloss=other-one
+45	ya	ya	DET	_	_	_	_	_	gloss=the/this
+46	nao	nao	PART	_	_	_	_	_	gloss=emphasis/focus/now
+47	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+48	So	so	CCONJ	_	_	_	_	_	gloss=so
+49	yu	yu	PRON	_	_	_	_	_	gloss=you
+50	no	no	DET	_	_	_	neg	_	gloss=no
+51	save	save	AUX	_	_	_	aux	_	gloss=can
+52	tinghae	tinghae	VERB	_	_	_	dobj	_	gloss=honor
+53	long	long	ADP	_	_	_	_	_	gloss=of/at
+54	God	god	PROPN	_	_	_	dobj	_	gloss=God|Number=Sing
+55	an	an	CCONJ	_	_	54	cc	_	gloss=and
+56	long	long	ADP	_	_	_	_	_	gloss=of/at
+57	risis	risis	NOUN	_	_	_	acomp	_	gloss=riches
+58	blong	blong	ADP	_	_	_	_	_	gloss=of
+59	wol	wol	NOUN	_	_	_	_	_	gloss=world
+60	tu	tu	ADV	_	_	_	_	_	gloss=too
+61	,	,	PUNCT	_	_	_	_	_
+62	olsem	olsem	ADP	_	_	_	_	_	gloss=like
+63	tufala	tufala	NUM	_	_	52	nummod	_	gloss=two
+64	masta	masta	NOUN	_	_	_	_	_	gloss=master
+65	blong	blong	ADP	_	_	_	_	_	gloss=of
+66	yu	yu	PRON	_	_	_	_	_	gloss=you
+67	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 40018012
+# ref_id = Matthew 18:12
+# eng_text = " What do you think ? If a man has one hundred sheep , and one of them goes astray , doesn't he leave the ninety-nine , go to the mountains , and seek that which has gone astray ?
+# pis_text = ? Sapos wanfala man hemi garem 100 sipsip bat wanfala long olketa hemi go lus , waswe , yufala tingse wanem nao bae man ya hemi duim ? Bae hemi lusim olketa nara 99 sipsip ya long hil wea olketa kaikai long hem nomoa , an bae hemi go fo lukaotem sipsip wea hemi lus ya .
+1			PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+2	?	?	PUNCT	_	_	_	_	_	gloss=managing
+3	Sapos	sapos	SCONJ	_	_	_	mark	_	gloss=if
+4	wanfala	wanfala	NUM	_	_	_	quantmod	_	gloss=one
+5	man	man	NOUN	_	_	_	nsubj	_	gloss=man
+6	hemi	hemi	PRON	_	_	_	nsubj	_	gloss=he/it
+7	garem	garem	VERB	_	_	_	_	_	gloss=have
+8	100	100	NUM	_	_	_	_	_	gloss=hundred
+9	sipsip	sipsip	NOUN	_	_	_	_	_	gloss=sheep
+10	bat	bat	CCONJ	_	_	_	_	_	gloss=but/and
+11	wanfala	wanfala	NUM	_	_	_	quantmod	_	gloss=one
+12	long	long	ADP	_	_	_	prep	_	gloss=of/at
+13	olketa	olketa	PRON	_	_	_	_	_	gloss=them/plural
+14	hemi	hemi	PRON	_	_	_	nsubj	_	gloss=he/it
+15	go	go	VERB	_	_	_	_	_	gloss=go
+16	lus	lus	ADJ	_	_	_	relcl	_	gloss=lost
+17	,	,	PUNCT	_	_	_	_	_
+18	waswe	waswe	ADV	_	_	_	_	_	gloss=why/how
+19	,	,	PUNCT	_	_	_	_	_
+20	yufala	yufala	PRON	_	_	_	_	_	gloss=you(pl)
+21	tingse	tingse	VERB	_	_	_	_	_	gloss=think
+22	wanem	wanem	PRON	_	_	_	dobj	_	gloss=what
+23	nao	nao	PART	_	_	_	_	_	gloss=emphasis/focus/now
+24	bae	bae	AUX	_	_	_	aux	_	gloss=future
+25	man	man	NOUN	_	_	_	nsubj	_	gloss=man
+26	ya	ya	DET	_	_	_	_	_	gloss=the/this
+27	hemi	hemi	PRON	_	_	_	nsubj	_	gloss=he/it
+28	duim	duim	VERB	_	_	_	_	_	gloss=do
+29	?	?	PUNCT	_	_	_	_	_	gloss=managing
+30	Bae	bae	AUX	_	_	_	_	_	gloss=future
+31	hemi	hemi	PRON	_	_	_	nsubj	_	gloss=he/it
+32	lusim	lusim	VERB	_	_	_	_	_	gloss=leave
+33	olketa	olketa	PRON	_	_	_	_	_	gloss=them/plural
+34	nara	nara	ADJ	_	_	_	_	_	gloss=other
+35	99	99	NUM	_	_	_	_	_	gloss=ninety-nine
+36	sipsip	sipsip	NOUN	_	_	_	_	_	gloss=sheep
+37	ya	ya	DET	_	_	_	_	_	gloss=the/this
+38	long	long	ADP	_	_	_	prep	_	gloss=of/at
+39	hil	hil	NOUN	_	_	_	_	_	gloss=hill/mountain
+40	wea	wea	SCONJ	_	_	56	nsubjpass	_	gloss=where
+41	olketa	olketa	PRON	_	_	_	_	_	gloss=them/plural
+42	kaikai	kaikai	VERB	_	_	_	_	_	gloss=eat
+43	long	long	ADP	_	_	_	prep	_	gloss=of/at
+44	hem	hem	PRON	_	_	_	_	_	gloss=him/it
+45	nomoa	nomoa	ADV	_	_	_	_	_	gloss=only/just
+46	,	,	PUNCT	_	_	_	_	_
+47	an	an	CCONJ	_	_	_	cc	_	gloss=and
+48	bae	bae	AUX	_	_	_	aux	_	gloss=future
+49	hemi	hemi	PRON	_	_	_	nsubj	_	gloss=he/it
+50	go	go	VERB	_	_	_	_	_	gloss=go
+51	fo	fo	ADP	_	_	_	_	_	gloss=for/to
+52	lukaotem	lukaotem	VERB	_	_	_	advcl	_	gloss=seek/look-for
+53	sipsip	sipsip	NOUN	_	_	_	_	_	gloss=sheep
+54	wea	wea	SCONJ	_	_	56	nsubjpass	_	gloss=where
+55	hemi	hemi	PRON	_	_	_	nsubj	_	gloss=he/it
+56	lus	lus	ADJ	_	_	_	relcl	_	gloss=lost
+57	ya	ya	DET	_	_	_	_	_	gloss=the/this
+58	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40020021
+# ref_id = Matthew 20:21
+# eng_text = He said to her , " What do you want ? " She said to him , " Command that these , my two sons , may sit , one on your right hand , and one on your left hand , in your kingdom . "
+# pis_text = So Jisas hemi askem hem olsem ,  ? Wanem samting nao yu laekem ?  Nao hemi sei ,  Taem wea bae yu kamap King , mi laekem yu fo mekem tufala san blong mi fo sidaon wetem yu , wanfala long raetsaet blong yu , an narawan long lefsaet blong yu .
+1	So	so	CCONJ	_	_	_	_	_	gloss=so
+2	Jisas	jisas	PROPN	_	_	_	_	_	gloss=Jesus
+3	hemi	hemi	PRON	_	_	_	nsubj	_	gloss=he/it
+4	askem	askem	unk	_	_	_	_	_	gloss=ask
+5	hem	hem	PRON	_	_	_	_	_	gloss=him/it
+6	olsem	olsem	ADP	_	_	_	_	_	gloss=like
+7	,	,	PUNCT	_	_	_	_	_
+8			PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+9	?	?	PUNCT	_	_	_	_	_	gloss=managing
+10	Wanem	wanem	PRON	_	_	_	attr	_	gloss=what
+11	samting	samting	NOUN	_	_	_	_	_	gloss=something
+12	nao	nao	PART	_	_	_	_	_	gloss=emphasis/focus/now
+13	yu	yu	PRON	_	_	_	_	_	gloss=you
+14	laekem	laekem	VERB	_	_	_	_	_	gloss=like
+15	?	?	PUNCT	_	_	_	_	_	gloss=managing
+16			PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+17	Nao	nao	PART	_	_	_	_	_	gloss=emphasis/focus/now
+18	hemi	hemi	PRON	_	_	_	nsubj	_	gloss=he/it
+19	sei	sei	VERB	_	_	_	_	_	gloss=say
+20	,	,	PUNCT	_	_	_	_	_
+21			PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+22	Taem	taem	VERB	_	_	_	_	_	gloss=when
+23	wea	wea	SCONJ	_	_	_	_	_	gloss=where
+24	bae	bae	AUX	_	_	_	_	_	gloss=future
+25	yu	yu	PRON	_	_	_	_	_	gloss=you
+26	kamap	kamap	VERB	_	_	_	_	_	gloss=become
+27	King	king	NOUN	_	_	_	_	_	gloss=king
+28	,	,	PUNCT	_	_	_	_	_
+29	mi	mi	PRON	_	_	_	_	_	gloss=I/me
+30	laekem	laekem	VERB	_	_	_	_	_	gloss=like
+31	yu	yu	PRON	_	_	_	_	_	gloss=you
+32	fo	fo	ADP	_	_	_	_	_	gloss=for/to
+33	mekem	mekem	VERB	_	_	_	_	_	gloss=make/cause
+34	tufala	tufala	NUM	_	_	_	nummod	_	gloss=two
+35	san	san	NOUN	_	_	_	_	_	gloss=son
+36	blong	blong	ADP	_	_	52	prep	_	gloss=of
+37	mi	mi	PRON	_	_	_	_	_	gloss=I/me
+38	fo	fo	ADP	_	_	_	_	_	gloss=for/to
+39	sidaon	sidaon	VERB	_	_	_	_	_	gloss=sit
+40	wetem	wetem	ADP	_	_	_	_	_	gloss=with
+41	yu	yu	PRON	_	_	_	_	_	gloss=you
+42	,	,	PUNCT	_	_	_	_	_
+43	wanfala	wanfala	NUM	_	_	_	_	_	gloss=one
+44	long	long	ADP	_	_	_	prep	_	gloss=of/at
+45	raetsaet	raetsaet	NOUN	_	_	_	_	_	gloss=right-side
+46	blong	blong	ADP	_	_	52	prep	_	gloss=of
+47	yu	yu	PRON	_	_	_	_	_	gloss=you
+48	,	,	PUNCT	_	_	_	_	_
+49	an	an	CCONJ	_	_	_	cc	_	gloss=and
+50	narawan	narawan	PRON	_	_	_	_	_	gloss=other-one
+51	long	long	ADP	_	_	_	prep	_	gloss=of/at
+52	lefsaet	lefsaet	NOUN	_	_	_	pobj	_	gloss=left-side
+53	blong	blong	ADP	_	_	52	prep	_	gloss=of
+54	yu	yu	PRON	_	_	_	_	_	gloss=you
+55	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+56			PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 40026002
+# ref_id = Matthew 26:2
+# eng_text = " You know that after two days the Passover is coming , and the Son of Man will be delivered up to be crucified . "
+# pis_text = Yufala save finis , neks tumoro hemi Fist blong Pasova ya . Long taem ya , bae olketa givim mi San Blong Man , go long han blong olketa pipol fo olketa nilam mi dae long kros ya .
+1			PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+2	Yufala	yufala	PRON	_	_	_	_	_	gloss=you(pl)
+3	save	save	AUX	_	_	_	_	_	gloss=can
+4	finis	finis	ADV	_	_	_	_	_	gloss=already
+5	,	,	PUNCT	_	_	_	_	_
+6	neks	neks	ADJ	_	_	_	_	_	gloss=next
+7	tumoro	tumoro	NOUN	_	_	_	_	_	gloss=tomorrow
+8	hemi	hemi	PRON	_	_	_	_	_	gloss=he/it
+9	Fist	fist	PROPN	_	_	_	nsubj	_	gloss=Passover|Number=Sing
+10	blong	blong	ADP	_	_	23	prep	_	gloss=of
+11	Pasova	pasova	PROPN	_	_	_	nsubj	_	gloss=Passover|Number=Sing
+12	ya	ya	DET	_	_	_	_	_	gloss=the/this
+13	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+14	Long	long	ADP	_	_	_	_	_	gloss=of/at
+15	taem	taem	VERB	_	_	_	_	_	gloss=when
+16	ya	ya	DET	_	_	_	_	_	gloss=the/this
+17	,	,	PUNCT	_	_	_	_	_
+18	bae	bae	AUX	_	_	_	aux	_	gloss=future
+19	olketa	olketa	PRON	_	_	_	_	_	gloss=them/plural
+20	givim	givim	VERB	_	_	_	_	_	gloss=give/deliver
+21	mi	mi	PRON	_	_	_	_	_	gloss=I/me
+22	San	san	NOUN	_	_	_	nsubjpass	_	gloss=son
+23	Blong	blong	ADP	_	_	_	nsubjpass	_	gloss=of
+24	Man	man	NOUN	_	_	29	pobj	_	gloss=man
+25	,	,	PUNCT	_	_	_	_	_
+26	go	go	VERB	_	_	_	_	_	gloss=go
+27	long	long	ADP	_	_	_	_	_	gloss=of/at
+28	han	han	NOUN	_	_	_	_	_	gloss=hand
+29	blong	blong	ADP	_	_	23	prep	_	gloss=of
+30	olketa	olketa	PRON	_	_	_	_	_	gloss=them/plural
+31	pipol	pipol	NOUN	_	_	_	_	_	gloss=people
+32	fo	fo	ADP	_	_	_	_	_	gloss=for/to
+33	olketa	olketa	PRON	_	_	_	_	_	gloss=them/plural
+34	nilam	nilam	VERB	_	_	_	advcl	_	gloss=crucified|Aspect=Perf|Tense=Past|VerbForm=Part
+35	mi	mi	PRON	_	_	_	_	_	gloss=I/me
+36	dae	dae	VERB	_	_	_	_	_	gloss=die
+37	long	long	ADP	_	_	_	_	_	gloss=of/at
+38	kros	kros	NOUN	_	_	_	_	_	gloss=cross
+39	ya	ya	DET	_	_	_	_	_	gloss=the/this
+40	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+41			PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 40026061
+# ref_id = Matthew 26:61
+# eng_text = and said , " This man said , ' I am able to destroy the temple of God , and to build it in three days . ' "
+# pis_text = an sei ,  Disfala man ya hemi bin sei ,  Mi ya , mi save brekemdaon disfala Tambuhaos blong God ya , an mi save wakembaek moa insaet trifala de nomoa .
+1	an	an	CCONJ	_	_	_	cc	_	gloss=and
+2	sei	sei	VERB	_	_	_	_	_	gloss=say
+3	,	,	PUNCT	_	_	_	_	_
+4			PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+5	Disfala	disfala	DET	_	_	_	_	_	gloss=this
+6	man	man	NOUN	_	_	_	nsubj	_	gloss=man
+7	ya	ya	DET	_	_	_	dobj	_	gloss=the/this
+8	hemi	hemi	PRON	_	_	_	_	_	gloss=he/it
+9	bin	bin	AUX	_	_	_	_	_	gloss=past-tense
+10	sei	sei	VERB	_	_	_	_	_	gloss=say
+11	,	,	PUNCT	_	_	_	_	_
+12			PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+13	Mi	mi	PRON	_	_	_	nsubj	_	gloss=I/me
+14	ya	ya	DET	_	_	_	dobj	_	gloss=the/this
+15	,	,	PUNCT	_	_	_	_	_
+16	mi	mi	PRON	_	_	_	_	_	gloss=I/me
+17	save	save	AUX	_	_	_	_	_	gloss=can
+18	brekemdaon	brekemdaon	VERB	_	_	_	_	_	gloss=destroy/break-down
+19	disfala	disfala	DET	_	_	_	_	_	gloss=this
+20	Tambuhaos	tambuhaos	NOUN	_	_	_	dobj	_	gloss=temple/holy-house
+21	blong	blong	ADP	_	_	20	prep	_	gloss=of
+22	God	god	PROPN	_	_	21	pobj	_	gloss=God|Number=Sing
+23	ya	ya	DET	_	_	_	dobj	_	gloss=the/this
+24	,	,	PUNCT	_	_	_	_	_
+25	an	an	CCONJ	_	_	_	cc	_	gloss=and
+26	mi	mi	PRON	_	_	_	_	_	gloss=I/me
+27	save	save	AUX	_	_	_	_	_	gloss=can
+28	wakembaek	wakembaek	VERB	_	_	_	_	_	gloss=rebuild/make-back
+29	moa	moa	ADV	_	_	_	_	_	gloss=more
+30	insaet	insaet	ADP	_	_	_	_	_	gloss=within/inside
+31	trifala	trifala	NUM	_	_	_	nummod	_	gloss=three
+32	de	de	NOUN	_	_	_	_	_	gloss=day
+33	nomoa	nomoa	ADV	_	_	_	_	_	gloss=only/just
+34	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+35			PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+36			PUNCT	_	_	0	root	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 40028016
+# ref_id = Matthew 28:16
+# eng_text = But the eleven disciples went into Galilee , to the mountain where Jesus had sent them .
+# pis_text = Olketa levenfala disaepol ya olketa go long disfala hil long Galili nao , wea Jisas hemi bin talem olketa fo go long hem .
+1	Olketa	olketa	PRON	_	_	_	_	_	gloss=them/plural
+2	levenfala	levenfala	NUM	_	_	_	_	_	gloss=eleven
+3	disaepol	disaepol	NOUN	_	_	_	nsubj	_	gloss=disciples
+4	ya	ya	DET	_	_	_	_	_	gloss=the/this
+5	olketa	olketa	PRON	_	_	_	_	_	gloss=them/plural
+6	go	go	VERB	_	_	_	_	_	gloss=go
+7	long	long	ADP	_	_	_	_	_	gloss=of/at
+8	disfala	disfala	DET	_	_	_	_	_	gloss=this
+9	hil	hil	NOUN	_	_	_	_	_	gloss=hill/mountain
+10	long	long	ADP	_	_	_	_	_	gloss=of/at
+11	Galili	galili	PROPN	_	_	_	pobj	_	gloss=Galilee
+12	nao	nao	PART	_	_	_	_	_	gloss=emphasis/focus/now
+13	,	,	PUNCT	_	_	_	_	_
+14	wea	wea	SCONJ	_	_	_	_	_	gloss=where
+15	Jisas	jisas	PROPN	_	_	_	nsubj	_	gloss=Jesus
+16	hemi	hemi	PRON	_	_	_	_	_	gloss=he/it
+17	bin	bin	AUX	_	_	_	_	_	gloss=past-tense
+18	talem	talem	VERB	_	_	_	_	_	gloss=tell/command
+19	olketa	olketa	PRON	_	_	_	_	_	gloss=them/plural
+20	fo	fo	ADP	_	_	_	_	_	gloss=for/to
+21	go	go	VERB	_	_	_	_	_	gloss=go
+22	long	long	ADP	_	_	_	_	_	gloss=of/at
+23	hem	hem	PRON	_	_	_	_	_	gloss=him/it
+24	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41002023
+# ref_id = Mark 2:23
+# eng_text = It happened , that he was going on the Sabbath day through the grain fields , and his disciples began , as they went , to pluck the ears of grain .
+# pis_text = Long wanfala Sabat de , Jisas hemi wakabaot long samfala gaden blong wit , an semtaem ya , olketa disaepol blong hem olketa gohed nao fo tekem samfala wit .
+1	Long	long	ADP	_	_	_	_	_	gloss=of/at
+2	wanfala	wanfala	NUM	_	_	_	_	_	gloss=one
+3	Sabat	sabat	PROPN	_	_	4	compound	_	gloss=Sabbath
+4	de	de	NOUN	_	_	_	npadvmod	_	gloss=day
+5	,	,	PUNCT	_	_	_	_	_
+6	Jisas	jisas	PROPN	_	_	8	nsubj	_	gloss=Jesus
+7	hemi	hemi	PRON	_	_	_	_	_	gloss=he/it
+8	wakabaot	wakabaot	VERB	_	_	_	advcl	_	gloss=walk/go
+9	long	long	ADP	_	_	_	_	_	gloss=of/at
+10	samfala	samfala	DET	_	_	_	det	_	gloss=some
+11	gaden	gaden	NOUN	_	_	_	_	_	gloss=garden/field
+12	blong	blong	ADP	_	_	_	prep	_	gloss=of
+13	wit	wit	NOUN	_	_	12	pobj	_	gloss=wheat/grain
+14	,	,	PUNCT	_	_	_	_	_
+15	an	an	CCONJ	_	_	_	_	_	gloss=and
+16	semtaem	semtaem	ADV	_	_	_	_	_	gloss=meanwhile/same-time
+17	ya	ya	DET	_	_	_	_	_	gloss=the/this
+18	,	,	PUNCT	_	_	_	_	_
+19	olketa	olketa	PRON	_	_	_	_	_	gloss=them/plural
+20	disaepol	disaepol	NOUN	_	_	_	nsubj	_	gloss=disciples
+21	blong	blong	ADP	_	_	_	prep	_	gloss=of
+22	hem	hem	PRON	_	_	_	_	_	gloss=him/it
+23	olketa	olketa	PRON	_	_	_	_	_	gloss=them/plural
+24	gohed	gohed	VERB	_	_	_	_	_	gloss=go-ahead/begin
+25	nao	nao	PART	_	_	_	_	_	gloss=emphasis/focus/now
+26	fo	fo	ADP	_	_	_	_	_	gloss=for/to
+27	tekem	tekem	VERB	_	_	_	_	_	gloss=take/pluck
+28	samfala	samfala	DET	_	_	_	det	_	gloss=some
+29	wit	wit	NOUN	_	_	21	pobj	_	gloss=wheat/grain
+30	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41012032
+# ref_id = Mark 12:32
+# eng_text = The scribe said to him , " Truly , teacher , you have said well that he is one , and there is none other but he ,
+# pis_text = Nao tisa blong Lo ya hemi talem long Jisas olsem ,  ! Tru tumas ya Tisa ! Samting yu talem hemi barava tru ya , wea yu sei wanfala God nomoa hemi stap , an no eni narawan moa .
+1	Nao	nao	PART	_	_	_	_	_	gloss=emphasis/focus/now
+2	tisa	tisa	NOUN	_	_	_	_	_	gloss=teacher
+3	blong	blong	ADP	_	_	_	prep	_	gloss=of
+4	Lo	lo	NOUN	_	_	3	pobj	_	gloss=law
+5	ya	ya	DET	_	_	_	_	_	gloss=the/this
+6	hemi	hemi	PRON	_	_	_	_	_	gloss=he/it
+7	talem	talem	VERB	_	_	_	_	_	gloss=tell/command
+8	long	long	ADP	_	_	_	_	_	gloss=of/at
+9	Jisas	jisas	PROPN	_	_	_	_	_	gloss=Jesus
+10	olsem	olsem	ADP	_	_	_	_	_	gloss=like
+11	,	,	PUNCT	_	_	_	_	_
+12			PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+13	!	!	PUNCT	_	_	_	_	_	gloss=ign
+14	Tru	tru	ADJ	_	_	_	_	_	gloss=true
+15	tumas	tumas	ADV	_	_	_	_	_	gloss=very/much
+16	ya	ya	DET	_	_	_	_	_	gloss=the/this
+17	Tisa	tisa	NOUN	_	_	_	npadvmod	_	gloss=teacher
+18	!	!	PUNCT	_	_	_	_	_	gloss=ign
+19	Samting	samting	NOUN	_	_	_	_	_	gloss=something
+20	yu	yu	PRON	_	_	_	_	_	gloss=you
+21	talem	talem	VERB	_	_	_	_	_	gloss=tell/command
+22	hemi	hemi	PRON	_	_	_	_	_	gloss=he/it
+23	barava	barava	ADV	_	_	_	_	_	gloss=really/thoroughly
+24	tru	tru	ADJ	_	_	_	dobj	_	gloss=true
+25	ya	ya	DET	_	_	_	_	_	gloss=the/this
+26	,	,	PUNCT	_	_	_	_	_
+27	wea	wea	SCONJ	_	_	_	mark	_	gloss=where
+28	yu	yu	PRON	_	_	_	_	_	gloss=you
+29	sei	sei	VERB	_	_	_	_	_	gloss=say
+30	wanfala	wanfala	NUM	_	_	_	_	_	gloss=one
+31	God	god	PROPN	_	_	_	attr	_	gloss=God|Number=Sing
+32	nomoa	nomoa	ADV	_	_	_	_	_	gloss=only/just
+33	hemi	hemi	PRON	_	_	_	_	_	gloss=he/it
+34	stap	stap	VERB	_	_	_	_	_	gloss=exist/be-present
+35	,	,	PUNCT	_	_	_	_	_
+36	an	an	CCONJ	_	_	31	cc	_	gloss=and
+37	no	no	DET	_	_	_	_	_	gloss=no
+38	eni	eni	DET	_	_	_	intj	_	gloss=any
+39	narawan	narawan	PRON	_	_	_	_	_	gloss=other-one
+40	moa	moa	ADV	_	_	_	_	_	gloss=more
+41	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41014037
+# ref_id = Mark 14:37
+# eng_text = He came and found them sleeping , and said to Peter , " Simon , are you sleeping ? Couldn't you watch one hour ?
+# pis_text = Jisas hemi gobaek long trifala disaepol ya an hemi lukim olketa si-slip nomoa . So hemi tok long Pita olsem ,  ? Waswe Saemon , yu slip nomoa ? ? Hao nao yu no save lukaot wetem mi , nomata fo wan aoa nomoa ?
+1	Jisas	jisas	PROPN	_	_	_	_	_	gloss=Jesus
+2	hemi	hemi	PRON	_	_	_	nsubj	_	gloss=he/it
+3	gobaek	gobaek	VERB	_	_	_	_	_	gloss=go-back/return
+4	long	long	ADP	_	_	_	_	_	gloss=of/at
+5	trifala	trifala	NUM	_	_	_	_	_	gloss=three
+6	disaepol	disaepol	NOUN	_	_	28	nsubj	_	gloss=disciples
+7	ya	ya	DET	_	_	_	_	_	gloss=the/this
+8	an	an	CCONJ	_	_	_	cc	_	gloss=and
+9	hemi	hemi	PRON	_	_	_	nsubj	_	gloss=he/it
+10	lukim	lukim	VERB	_	_	_	_	_	gloss=see/find
+11	olketa	olketa	PRON	_	_	_	_	_	gloss=them/plural
+12	si-slip	si-slip	VERB	_	_	_	_	_	gloss=sleeping
+13	nomoa	nomoa	ADV	_	_	_	_	_	gloss=only/just
+14	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+15	So	so	CCONJ	_	_	_	_	_	gloss=so
+16	hemi	hemi	PRON	_	_	_	nsubj	_	gloss=he/it
+17	tok	tok	VERB	_	_	_	_	_	gloss=talk/say
+18	long	long	ADP	_	_	_	_	_	gloss=of/at
+19	Pita	pita	PROPN	_	_	_	pobj	_	gloss=Peter
+20	olsem	olsem	ADP	_	_	_	_	_	gloss=like
+21	,	,	PUNCT	_	_	_	_	_
+22			PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+23	?	?	PUNCT	_	_	_	_	_	gloss=managing
+24	Waswe	waswe	ADV	_	_	_	_	_	gloss=why/how
+25	Saemon	saemon	PROPN	_	_	33	npadvmod	_	gloss=Simon
+26	,	,	PUNCT	_	_	_	_	_
+27	yu	yu	PRON	_	_	_	_	_	gloss=you
+28	slip	slip	VERB	_	_	33	acomp	_	gloss=sleep
+29	nomoa	nomoa	ADV	_	_	_	_	_	gloss=only/just
+30	?	?	PUNCT	_	_	_	_	_	gloss=managing
+31	?	?	PUNCT	_	_	_	_	_	gloss=managing
+32	Hao	hao	ADV	_	_	_	_	_	gloss=how
+33	nao	nao	PART	_	_	_	ccomp	_	gloss=emphasis/focus/now
+34	yu	yu	PRON	_	_	_	_	_	gloss=you
+35	no	no	DET	_	_	_	_	_	gloss=no
+36	save	save	AUX	_	_	_	_	_	gloss=can
+37	lukaot	lukaot	VERB	_	_	0	root	_	gloss=watch|VerbForm=Inf
+38	wetem	wetem	ADP	_	_	37	prep	_	gloss=with
+39	mi	mi	PRON	_	_	38	pobj	_	gloss=I/me
+40	,	,	PUNCT	_	_	_	_	_
+41	nomata	nomata	ADV	_	_	_	advmod	_	gloss=even/no-matter
+42	fo	fo	ADP	_	_	_	_	_	gloss=for/to
+43	wan	wan	unk	_	_	_	_	_	gloss=sixty
+44	aoa	aoa	NOUN	_	_	37	npadvmod	_	gloss=hour
+45	nomoa	nomoa	ADV	_	_	_	_	_	gloss=only/just
+46	?	?	PUNCT	_	_	_	_	_	gloss=managing
+
+# sent_id = 42004002
+# ref_id = Luke 4:2
+# eng_text = for forty days , being tempted by the devil . He ate nothing in those days . Afterward , when they were completed , he was hungry .
+# pis_text = Hemi stap long ples ya fo foti de , an oltaem nomoa Seitan hemi gohed fo traem hem . An long taem ya tu hemi nating kaikai , so kasem en blong taem ya hemi hanggre fogud nao .
+1	Hemi	hemi	PRON	_	_	_	_	_	gloss=he/it
+2	stap	stap	VERB	_	_	_	_	_	gloss=exist/be-present
+3	long	long	ADP	_	_	_	_	_	gloss=of/at
+4	ples	ples	NOUN	_	_	_	_	_	gloss=place/wilderness
+5	ya	ya	DET	_	_	_	_	_	gloss=the/this
+6	fo	fo	ADP	_	_	_	_	_	gloss=for/to
+7	foti	foti	NUM	_	_	_	nummod	_	gloss=forty
+8	de	de	NOUN	_	_	_	_	_	gloss=day
+9	,	,	PUNCT	_	_	_	_	_
+10	an	an	CCONJ	_	_	_	cc	_	gloss=and
+11	oltaem	oltaem	ADV	_	_	_	_	_	gloss=always/all-the-time
+12	nomoa	nomoa	ADV	_	_	_	_	_	gloss=only/just
+13	Seitan	seitan	PROPN	_	_	_	pobj	_	gloss=Satan/Devil
+14	hemi	hemi	PRON	_	_	_	nsubjpass	_	gloss=he/it
+15	gohed	gohed	VERB	_	_	_	_	_	gloss=go-ahead/begin
+16	fo	fo	ADP	_	_	_	_	_	gloss=for/to
+17	traem	traem	VERB	_	_	_	_	_	gloss=tempt/try
+18	hem	hem	PRON	_	_	_	_	_	gloss=him/it
+19	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+20	An	an	CCONJ	_	_	_	_	_	gloss=and
+21	long	long	ADP	_	_	_	_	_	gloss=of/at
+22	taem	taem	VERB	_	_	_	_	_	gloss=when
+23	ya	ya	DET	_	_	_	_	_	gloss=the/this
+24	tu	tu	ADV	_	_	_	_	_	gloss=too
+25	hemi	hemi	PRON	_	_	_	nsubjpass	_	gloss=he/it
+26	nating	nating	ADV	_	_	_	_	_	gloss=not/nothing
+27	kaikai	kaikai	VERB	_	_	_	_	_	gloss=eat
+28	,	,	PUNCT	_	_	_	_	_
+29	so	so	CCONJ	_	_	_	_	_	gloss=so
+30	kasem	kasem	ADP	_	_	_	_	_	gloss=until/reach
+31	en	en	NOUN	_	_	_	_	_	gloss=end
+32	blong	blong	ADP	_	_	_	_	_	gloss=of
+33	taem	taem	VERB	_	_	_	_	_	gloss=when
+34	ya	ya	DET	_	_	_	_	_	gloss=the/this
+35	hemi	hemi	PRON	_	_	_	nsubjpass	_	gloss=he/it
+36	hanggre	hanggre	ADJ	_	_	_	_	_	gloss=hungry
+37	fogud	fogud	ADV	_	_	_	_	_	gloss=very/much
+38	nao	nao	PART	_	_	_	_	_	gloss=emphasis/focus/now
+39	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 42016013
+# ref_id = Luke 16:13
+# eng_text = No servant can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You aren't able to serve God and mammon . "
+# pis_text = No eni wakaman hemi save waka fo tufala deferen masta ya . Bae hemi laekem wanfala an bae hemi no laekem narawan . An bae hemi tinghae long wanfala an bae hemi no tinghae long narawan . So yu no save tinghae long God an long risis blong wol ya olsem tufala masta blong yu .
+1			PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+2	No	no	DET	_	_	_	_	_	gloss=no
+3	eni	eni	DET	_	_	_	_	_	gloss=any
+4	wakaman	wakaman	NOUN	_	_	_	_	_	gloss=servant
+5	hemi	hemi	PRON	_	_	_	_	_	gloss=he/it
+6	save	save	AUX	_	_	_	aux	_	gloss=can
+7	waka	waka	VERB	_	_	_	_	_	gloss=work
+8	fo	fo	ADP	_	_	_	_	_	gloss=for/to
+9	tufala	tufala	NUM	_	_	28	nummod	_	gloss=two
+10	deferen	deferen	ADJ	_	_	_	_	_	gloss=different
+11	masta	masta	NOUN	_	_	_	_	_	gloss=master
+12	ya	ya	DET	_	_	_	_	_	gloss=the/this
+13	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+14	Bae	bae	AUX	_	_	_	_	_	gloss=future
+15	hemi	hemi	PRON	_	_	_	_	_	gloss=he/it
+16	laekem	laekem	VERB	_	_	_	_	_	gloss=like
+17	wanfala	wanfala	NUM	_	_	_	_	_	gloss=one
+18	an	an	CCONJ	_	_	45	cc	_	gloss=and
+19	bae	bae	AUX	_	_	_	aux	_	gloss=future
+20	hemi	hemi	PRON	_	_	_	_	_	gloss=he/it
+21	no	no	DET	_	_	_	neg	_	gloss=no
+22	laekem	laekem	VERB	_	_	_	_	_	gloss=like
+23	narawan	narawan	PRON	_	_	_	_	_	gloss=other-one
+24	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+25	An	an	CCONJ	_	_	_	_	_	gloss=and
+26	bae	bae	AUX	_	_	_	aux	_	gloss=future
+27	hemi	hemi	PRON	_	_	_	_	_	gloss=he/it
+28	tinghae	tinghae	VERB	_	_	_	dobj	_	gloss=honor
+29	long	long	ADP	_	_	_	_	_	gloss=of/at
+30	wanfala	wanfala	NUM	_	_	_	_	_	gloss=one
+31	an	an	CCONJ	_	_	45	cc	_	gloss=and
+32	bae	bae	AUX	_	_	_	aux	_	gloss=future
+33	hemi	hemi	PRON	_	_	_	_	_	gloss=he/it
+34	no	no	DET	_	_	_	neg	_	gloss=no
+35	tinghae	tinghae	VERB	_	_	_	dobj	_	gloss=honor
+36	long	long	ADP	_	_	_	_	_	gloss=of/at
+37	narawan	narawan	PRON	_	_	_	_	_	gloss=other-one
+38	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+39	So	so	CCONJ	_	_	_	_	_	gloss=so
+40	yu	yu	PRON	_	_	_	_	_	gloss=you
+41	no	no	DET	_	_	_	neg	_	gloss=no
+42	save	save	AUX	_	_	_	aux	_	gloss=can
+43	tinghae	tinghae	VERB	_	_	_	dobj	_	gloss=honor
+44	long	long	ADP	_	_	_	_	_	gloss=of/at
+45	God	god	PROPN	_	_	_	dobj	_	gloss=God|Number=Sing
+46	an	an	CCONJ	_	_	45	cc	_	gloss=and
+47	long	long	ADP	_	_	_	_	_	gloss=of/at
+48	risis	risis	NOUN	_	_	_	acomp	_	gloss=riches
+49	blong	blong	ADP	_	_	_	_	_	gloss=of
+50	wol	wol	NOUN	_	_	_	_	_	gloss=world
+51	ya	ya	DET	_	_	_	_	_	gloss=the/this
+52	olsem	olsem	ADP	_	_	_	_	_	gloss=like
+53	tufala	tufala	NUM	_	_	43	nummod	_	gloss=two
+54	masta	masta	NOUN	_	_	_	_	_	gloss=master
+55	blong	blong	ADP	_	_	_	_	_	gloss=of
+56	yu	yu	PRON	_	_	_	_	_	gloss=you
+57	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+58			PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 42024018
+# ref_id = Luke 24:18
+# eng_text = One of them , named Cleopas , answered him , " Are you the only one travelling in Jerusalem who doesn't know the things which have happened there in these days ? "
+# pis_text = An wanfala long tufala wea nem blong hem Kleopas , hemi talem Jisas olsem ,  Maewat , plande man olketa bin kam long Jerusalem long disfala taem ya . Bat ating yu wanfala nomoa yu nating save long olketa samting wea hemi hapen long olketa de wea hemi go finis ya .
+1	An	an	CCONJ	_	_	_	_	_	gloss=and
+2	wanfala	wanfala	NUM	_	_	_	_	_	gloss=one
+3	long	long	ADP	_	_	_	_	_	gloss=of/at
+4	tufala	tufala	NUM	_	_	_	_	_	gloss=two
+5	wea	wea	SCONJ	_	_	_	nsubj	_	gloss=where
+6	nem	nem	NOUN	_	_	_	_	_	gloss=name
+7	blong	blong	ADP	_	_	_	prep	_	gloss=of
+8	hem	hem	PRON	_	_	_	_	_	gloss=him/it
+9	Kleopas	kleopas	PROPN	_	_	_	_	_	gloss=Cleopas
+10	,	,	PUNCT	_	_	_	_	_
+11	hemi	hemi	PRON	_	_	_	_	_	gloss=he/it
+12	talem	talem	VERB	_	_	_	_	_	gloss=tell/command
+13	Jisas	jisas	PROPN	_	_	_	_	_	gloss=Jesus
+14	olsem	olsem	ADP	_	_	_	_	_	gloss=like
+15	,	,	PUNCT	_	_	_	_	_
+16			PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+17	Maewat	maewat	INTJ	_	_	_	_	_	gloss=exclamation/my-word
+18	,	,	PUNCT	_	_	_	_	_
+19	plande	plande	ADJ	_	_	_	_	_	gloss=many/plenty
+20	man	man	NOUN	_	_	_	_	_	gloss=man
+21	olketa	olketa	PRON	_	_	_	_	_	gloss=them/plural
+22	bin	bin	AUX	_	_	_	_	_	gloss=past-tense
+23	kam	kam	VERB	_	_	_	_	_	gloss=come
+24	long	long	ADP	_	_	_	_	_	gloss=of/at
+25	Jerusalem	jerusalem	PROPN	_	_	_	pobj	_	gloss=Jerusalem
+26	long	long	ADP	_	_	_	_	_	gloss=of/at
+27	disfala	disfala	DET	_	_	_	_	_	gloss=this
+28	taem	taem	VERB	_	_	_	_	_	gloss=when
+29	ya	ya	DET	_	_	_	_	_	gloss=the/this
+30	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+31	Bat	bat	CCONJ	_	_	_	_	_	gloss=but/and
+32	ating	ating	ADV	_	_	_	_	_	gloss=perhaps/maybe
+33	yu	yu	PRON	_	_	_	_	_	gloss=you
+34	wanfala	wanfala	NUM	_	_	_	_	_	gloss=one
+35	nomoa	nomoa	ADV	_	_	_	_	_	gloss=only/just
+36	yu	yu	PRON	_	_	_	_	_	gloss=you
+37	nating	nating	ADV	_	_	_	_	_	gloss=not/nothing
+38	save	save	AUX	_	_	_	_	_	gloss=can
+39	long	long	ADP	_	_	_	_	_	gloss=of/at
+40	olketa	olketa	PRON	_	_	_	_	_	gloss=them/plural
+41	samting	samting	NOUN	_	_	_	pobj	_	gloss=something
+42	wea	wea	SCONJ	_	_	_	nsubj	_	gloss=where
+43	hemi	hemi	PRON	_	_	_	_	_	gloss=he/it
+44	hapen	hapen	VERB	_	_	_	_	_	gloss=happen
+45	long	long	ADP	_	_	_	_	_	gloss=of/at
+46	olketa	olketa	PRON	_	_	_	_	_	gloss=them/plural
+47	de	de	NOUN	_	_	_	_	_	gloss=day
+48	wea	wea	SCONJ	_	_	_	nsubj	_	gloss=where
+49	hemi	hemi	PRON	_	_	_	_	_	gloss=he/it
+50	go	go	VERB	_	_	_	_	_	gloss=go
+51	finis	finis	ADV	_	_	_	_	_	gloss=already
+52	ya	ya	DET	_	_	_	_	_	gloss=the/this
+53	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+54			PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 43001039
+# ref_id = John 1:39
+# eng_text = He said to them , " Come , and see . " They came and saw where he was staying , and they stayed with him that day . It was about the tenth hour .
+# pis_text = Jisas hemi sei long tufala nao ,  Yutufala kam , mekem yutufala lukim seleva .  Taem ya , hemi kasem samting olsem foaklok long aftanun nao ya . Nao tufala disaepol ya i go an lukim ples wea Jisas hemi save stap long hem . An tufala stap kam wetem hem go-go hemi naet nao .
+1	Jisas	jisas	PROPN	_	_	_	_	_	gloss=Jesus
+2	hemi	hemi	PRON	_	_	_	nsubj	_	gloss=he/it
+3	sei	sei	VERB	_	_	_	_	_	gloss=say
+4	long	long	ADP	_	_	_	_	_	gloss=of/at
+5	tufala	tufala	NUM	_	_	_	_	_	gloss=two
+6	nao	nao	PART	_	_	_	_	_	gloss=emphasis/focus/now
+7	,	,	PUNCT	_	_	_	_	_
+8			PUNCT	_	_	9	punct	_	PunctSide=Ini|PunctType=Quot
+9	Yutufala	yutufala	PRON	_	_	_	ccomp	_	gloss=you-two
+10	kam	kam	VERB	_	_	_	_	_	gloss=come
+11	,	,	PUNCT	_	_	_	_	_
+12	mekem	mekem	VERB	_	_	_	_	_	gloss=make/cause
+13	yutufala	yutufala	PRON	_	_	_	_	_	gloss=you-two
+14	lukim	lukim	VERB	_	_	_	_	_	gloss=see/find
+15	seleva	seleva	PRON	_	_	_	_	_	gloss=self/yourselves
+16	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+17			PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+18	Taem	taem	VERB	_	_	_	_	_	gloss=when
+19	ya	ya	DET	_	_	_	_	_	gloss=the/this
+20	,	,	PUNCT	_	_	_	_	_
+21	hemi	hemi	PRON	_	_	_	nsubj	_	gloss=he/it
+22	kasem	kasem	ADP	_	_	_	_	_	gloss=until/reach
+23	samting	samting	NOUN	_	_	_	_	_	gloss=something
+24	olsem	olsem	ADP	_	_	_	_	_	gloss=like
+25	foaklok	foaklok	NOUN	_	_	_	_	_	gloss=four-o'clock
+26	long	long	ADP	_	_	_	_	_	gloss=of/at
+27	aftanun	aftanun	NOUN	_	_	_	attr	_	gloss=afternoon
+28	nao	nao	PART	_	_	_	_	_	gloss=emphasis/focus/now
+29	ya	ya	DET	_	_	_	_	_	gloss=the/this
+30	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+31	Nao	nao	PART	_	_	_	_	_	gloss=emphasis/focus/now
+32	tufala	tufala	NUM	_	_	_	_	_	gloss=two
+33	disaepol	disaepol	NOUN	_	_	_	_	_	gloss=disciples
+34	ya	ya	DET	_	_	_	_	_	gloss=the/this
+35	i	i	PART	_	_	_	_	_	gloss=predicate-marker
+36	go	go	VERB	_	_	_	advcl	_	gloss=go
+37	an	an	CCONJ	_	_	_	cc	_	gloss=and
+38	lukim	lukim	VERB	_	_	_	_	_	gloss=see/find
+39	ples	ples	NOUN	_	_	_	pobj	_	gloss=place/wilderness
+40	wea	wea	SCONJ	_	_	_	_	_	gloss=where
+41	Jisas	jisas	PROPN	_	_	_	_	_	gloss=Jesus
+42	hemi	hemi	PRON	_	_	_	nsubj	_	gloss=he/it
+43	save	save	AUX	_	_	_	_	_	gloss=can
+44	stap	stap	VERB	_	_	_	_	_	gloss=exist/be-present
+45	long	long	ADP	_	_	_	_	_	gloss=of/at
+46	hem	hem	PRON	_	_	52	pobj	_	gloss=him/it
+47	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+48	An	an	CCONJ	_	_	_	_	_	gloss=and
+49	tufala	tufala	NUM	_	_	_	_	_	gloss=two
+50	stap	stap	VERB	_	_	_	_	_	gloss=exist/be-present
+51	kam	kam	VERB	_	_	_	_	_	gloss=come
+52	wetem	wetem	ADP	_	_	_	prep	_	gloss=with
+53	hem	hem	PRON	_	_	52	pobj	_	gloss=him/it
+54	go-go	go-go	ADV	_	_	_	_	_	gloss=until/continuously
+55	hemi	hemi	PRON	_	_	_	nsubj	_	gloss=he/it
+56	naet	naet	NOUN	_	_	_	_	_	gloss=night
+57	nao	nao	PART	_	_	_	_	_	gloss=emphasis/focus/now
+58	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 43003016
+# ref_id = John 3:16
+# eng_text = For God so loved the world , that he gave his one and only Son , that whoever believes in him should not perish , but have eternal life .
+# pis_text = God hemi lavem olketa pipol long disfala wol tumas , dastawe nao hemi givim kam San blong hem wea hemi wanfala nomoa , mekem eniwan hu hemi biliv long hem bae hemi no save dae bat bae hemi garem tru laef wea hemi no save finis .
+1	God	god	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+2	hemi	hemi	PRON	_	_	_	nsubj	_	gloss=he/it
+3	lavem	lavem	VERB	_	_	_	_	_	gloss=love
+4	olketa	olketa	PRON	_	_	_	_	_	gloss=them/plural
+5	pipol	pipol	NOUN	_	_	_	_	_	gloss=people
+6	long	long	ADP	_	_	_	_	_	gloss=of/at
+7	disfala	disfala	DET	_	_	_	_	_	gloss=this
+8	wol	wol	NOUN	_	_	_	dobj	_	gloss=world
+9	tumas	tumas	ADV	_	_	_	_	_	gloss=very/much
+10	,	,	PUNCT	_	_	_	_	_
+11	dastawe	dastawe	SCONJ	_	_	_	_	_	gloss=therefore/so
+12	nao	nao	PART	_	_	_	_	_	gloss=emphasis/focus/now
+13	hemi	hemi	PRON	_	_	_	nsubj	_	gloss=he/it
+14	givim	givim	VERB	_	_	_	_	_	gloss=give/deliver
+15	kam	kam	VERB	_	_	_	_	_	gloss=come
+16	San	san	NOUN	_	_	_	appos	_	gloss=son
+17	blong	blong	ADP	_	_	_	_	_	gloss=of
+18	hem	hem	PRON	_	_	_	pobj	_	gloss=him/it
+19	wea	wea	SCONJ	_	_	_	mark	_	gloss=where
+20	hemi	hemi	PRON	_	_	_	nsubj	_	gloss=he/it
+21	wanfala	wanfala	NUM	_	_	_	_	_	gloss=one
+22	nomoa	nomoa	ADV	_	_	_	_	_	gloss=only/just
+23	,	,	PUNCT	_	_	_	_	_
+24	mekem	mekem	VERB	_	_	_	_	_	gloss=make/cause
+25	eniwan	eniwan	PRON	_	_	_	_	_	gloss=anyone
+26	hu	hu	PRON	_	_	_	nsubj	_	gloss=who
+27	hemi	hemi	PRON	_	_	_	nsubj	_	gloss=he/it
+28	biliv	biliv	VERB	_	_	_	_	_	gloss=believe
+29	long	long	ADP	_	_	_	_	_	gloss=of/at
+30	hem	hem	PRON	_	_	_	pobj	_	gloss=him/it
+31	bae	bae	AUX	_	_	_	aux	_	gloss=future
+32	hemi	hemi	PRON	_	_	_	nsubj	_	gloss=he/it
+33	no	no	DET	_	_	_	neg	_	gloss=no
+34	save	save	AUX	_	_	_	_	_	gloss=can
+35	dae	dae	VERB	_	_	_	_	_	gloss=die
+36	bat	bat	CCONJ	_	_	_	_	_	gloss=but/and
+37	bae	bae	AUX	_	_	_	aux	_	gloss=future
+38	hemi	hemi	PRON	_	_	_	nsubj	_	gloss=he/it
+39	garem	garem	VERB	_	_	_	_	_	gloss=have
+40	tru	tru	ADJ	_	_	_	_	_	gloss=true
+41	laef	laef	NOUN	_	_	_	dobj	_	gloss=life
+42	wea	wea	SCONJ	_	_	_	mark	_	gloss=where
+43	hemi	hemi	PRON	_	_	_	nsubj	_	gloss=he/it
+44	no	no	DET	_	_	_	neg	_	gloss=no
+45	save	save	AUX	_	_	_	_	_	gloss=can
+46	finis	finis	ADV	_	_	_	_	_	gloss=already
+47	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 44002030
+# ref_id = Acts 2:30
+# eng_text = Therefore , being a prophet , and knowing that God had sworn with an oath to him that of the fruit of his body , according to the flesh , he would raise up the Christ to sit on his throne ,
+# pis_text = Deved hemi wanfala profet ya , an hemi save dat God hemi bin promisim hem bae hemi mekem wanfala long laen blong Deved fo kamap king olsem Deved seleva .
+1	Deved	deved	PROPN	_	_	_	poss	_	gloss=David
+2	hemi	hemi	PRON	_	_	_	nsubj	_	gloss=he/it
+3	wanfala	wanfala	NUM	_	_	4	det	_	gloss=one
+4	profet	profet	NOUN	_	_	_	attr	_	gloss=prophet
+5	ya	ya	DET	_	_	_	_	_	gloss=the/this
+6	,	,	PUNCT	_	_	_	_	_
+7	an	an	CCONJ	_	_	_	cc	_	gloss=and
+8	hemi	hemi	PRON	_	_	_	nsubj	_	gloss=he/it
+9	save	save	AUX	_	_	_	_	_	gloss=can
+10	dat	dat	SCONJ	_	_	_	_	_	gloss=that
+11	God	god	PROPN	_	_	14	nsubj	_	gloss=God|Number=Sing
+12	hemi	hemi	PRON	_	_	_	nsubj	_	gloss=he/it
+13	bin	bin	AUX	_	_	_	_	_	gloss=past-tense
+14	promisim	promisim	VERB	_	_	_	ccomp	_	gloss=promise
+15	hem	hem	PRON	_	_	_	_	_	gloss=him/it
+16	bae	bae	AUX	_	_	_	_	_	gloss=future
+17	hemi	hemi	PRON	_	_	_	nsubj	_	gloss=he/it
+18	mekem	mekem	VERB	_	_	_	_	_	gloss=make/cause
+19	wanfala	wanfala	NUM	_	_	4	det	_	gloss=one
+20	long	long	ADP	_	_	_	prep	_	gloss=of/at
+21	laen	laen	NOUN	_	_	_	_	_	gloss=line/lineage
+22	blong	blong	ADP	_	_	_	prep	_	gloss=of
+23	Deved	deved	PROPN	_	_	_	poss	_	gloss=David
+24	fo	fo	ADP	_	_	_	_	_	gloss=for/to
+25	kamap	kamap	VERB	_	_	_	_	_	gloss=become
+26	king	king	NOUN	_	_	_	_	_	gloss=king
+27	olsem	olsem	ADP	_	_	_	_	_	gloss=like
+28	Deved	deved	PROPN	_	_	_	poss	_	gloss=David
+29	seleva	seleva	PRON	_	_	_	amod	_	gloss=self/yourselves
+30	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 44009038
+# ref_id = Acts 9:38
+# eng_text = As Lydda was near Joppa , the disciples , hearing that Peter was there , sent two men to him , imploring him not to delay in coming to them .
+# pis_text = Disfala taon long Jopa hemi stap kolsap long vilij long Lida nomoa ya . So taem olketa disaepol i herem dat Pita hemi stap long Lida , olketa sendem go tufala man fo hem , an tufala talem hem olsem ,  Plis , yu kam kuiktaem long ples blong mifala .
+1	Disfala	disfala	DET	_	_	_	_	_	gloss=this
+2	taon	taon	NOUN	_	_	_	_	_	gloss=town
+3	long	long	ADP	_	_	_	_	_	gloss=of/at
+4	Jopa	jopa	PROPN	_	_	_	_	_	gloss=Joppa
+5	hemi	hemi	PRON	_	_	_	_	_	gloss=he/it
+6	stap	stap	VERB	_	_	_	_	_	gloss=exist/be-present
+7	kolsap	kolsap	ADP	_	_	_	_	_	gloss=near
+8	long	long	ADP	_	_	_	_	_	gloss=of/at
+9	vilij	vilij	NOUN	_	_	_	_	_	gloss=village
+10	long	long	ADP	_	_	_	_	_	gloss=of/at
+11	Lida	lida	PROPN	_	_	_	_	_	gloss=Lydda
+12	nomoa	nomoa	ADV	_	_	_	_	_	gloss=only/just
+13	ya	ya	DET	_	_	_	_	_	gloss=the/this
+14	.	.	PUNCT	_	_	_	_	_
+15	So	so	CCONJ	_	_	_	_	_	gloss=so
+16	taem	taem	VERB	_	_	_	_	_	gloss=when
+17	olketa	olketa	PRON	_	_	_	nsubj	_	gloss=them/plural
+18	disaepol	disaepol	NOUN	_	_	_	_	_	gloss=disciples
+19	i	i	PART	_	_	_	_	_	gloss=predicate-marker
+20	herem	herem	VERB	_	_	_	ccomp	_	gloss=hear
+21	dat	dat	SCONJ	_	_	_	_	_	gloss=that
+22	Pita	pita	PROPN	_	_	_	nsubj	_	gloss=Peter
+23	hemi	hemi	PRON	_	_	_	_	_	gloss=he/it
+24	stap	stap	VERB	_	_	_	_	_	gloss=exist/be-present
+25	long	long	ADP	_	_	_	_	_	gloss=of/at
+26	Lida	lida	PROPN	_	_	_	_	_	gloss=Lydda
+27	,	,	PUNCT	_	_	_	_	_
+28	olketa	olketa	PRON	_	_	_	nsubj	_	gloss=them/plural
+29	sendem	sendem	VERB	_	_	_	_	_	gloss=send
+30	go	go	VERB	_	_	_	_	_	gloss=go
+31	tufala	tufala	NUM	_	_	_	nummod	_	gloss=two
+32	man	man	NOUN	_	_	_	_	_	gloss=man
+33	fo	fo	ADP	_	_	_	prep	_	gloss=for/to
+34	hem	hem	PRON	_	_	_	dobj	_	gloss=him/it
+35	,	,	PUNCT	_	_	_	_	_
+36	an	an	CCONJ	_	_	_	_	_	gloss=and
+37	tufala	tufala	NUM	_	_	_	nummod	_	gloss=two
+38	talem	talem	VERB	_	_	_	_	_	gloss=tell/command
+39	hem	hem	PRON	_	_	_	dobj	_	gloss=him/it
+40	olsem	olsem	ADP	_	_	_	_	_	gloss=like
+41	,	,	PUNCT	_	_	_	_	_
+42			PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+43	Plis	plis	INTJ	_	_	_	intj	_	gloss=please
+44	,	,	PUNCT	_	_	_	_	_
+45	yu	yu	PRON	_	_	_	_	_	gloss=you
+46	kam	kam	VERB	_	_	_	_	_	gloss=come
+47	kuiktaem	kuiktaem	ADV	_	_	_	_	_	gloss=quickly
+48	long	long	ADP	_	_	_	_	_	gloss=of/at
+49	ples	ples	NOUN	_	_	_	_	_	gloss=place/wilderness
+50	blong	blong	ADP	_	_	_	_	_	gloss=of
+51	mifala	mifala	PRON	_	_	_	_	_	gloss=us(excl)
+52	.	.	PUNCT	_	_	_	_	_
+53			PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 44011011
+# ref_id = Acts 11:11
+# eng_text = Behold , immediately three men stood before the house where I was , having been sent from Caesarea to me .
+# pis_text = Long semtaem nomoa , trifala man olketa kam stanap long haos wea mi stap long hem . Wanfala man long Sisaria nao hemi bin sendem olketa fo kam long mi .
+1	Long	long	ADP	_	_	_	_	_	gloss=of/at
+2	semtaem	semtaem	ADV	_	_	_	_	_	gloss=meanwhile/same-time
+3	nomoa	nomoa	ADV	_	_	_	_	_	gloss=only/just
+4	,	,	PUNCT	_	_	_	_	_
+5	trifala	trifala	NUM	_	_	_	nummod	_	gloss=three
+6	man	man	NOUN	_	_	_	_	_	gloss=man
+7	olketa	olketa	PRON	_	_	_	_	_	gloss=them/plural
+8	kam	kam	VERB	_	_	_	_	_	gloss=come
+9	stanap	stanap	VERB	_	_	_	_	_	gloss=stand/stood
+10	long	long	ADP	_	_	_	_	_	gloss=of/at
+11	haos	haos	NOUN	_	_	27	pobj	_	gloss=house
+12	wea	wea	SCONJ	_	_	_	_	_	gloss=where
+13	mi	mi	PRON	_	_	_	_	_	gloss=I/me
+14	stap	stap	VERB	_	_	_	_	_	gloss=exist/be-present
+15	long	long	ADP	_	_	_	_	_	gloss=of/at
+16	hem	hem	PRON	_	_	_	_	_	gloss=him/it
+17	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+18	Wanfala	wanfala	NUM	_	_	_	_	_	gloss=one
+19	man	man	NOUN	_	_	_	_	_	gloss=man
+20	long	long	ADP	_	_	_	_	_	gloss=of/at
+21	Sisaria	sisaria	PROPN	_	_	_	pobj	_	gloss=Caesarea
+22	nao	nao	PART	_	_	_	_	_	gloss=emphasis/focus/now
+23	hemi	hemi	PRON	_	_	_	_	_	gloss=he/it
+24	bin	bin	AUX	_	_	_	auxpass	_	gloss=past-tense
+25	sendem	sendem	VERB	_	_	_	_	_	gloss=send
+26	olketa	olketa	PRON	_	_	_	_	_	gloss=them/plural
+27	fo	fo	ADP	_	_	_	prep	_	gloss=for/to
+28	kam	kam	VERB	_	_	_	_	_	gloss=come
+29	long	long	ADP	_	_	_	_	_	gloss=of/at
+30	mi	mi	PRON	_	_	_	_	_	gloss=I/me
+31	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 44021034
+# ref_id = Acts 21:34
+# eng_text = Some shouted one thing , some another , among the crowd . When he couldn't find out the truth because of the noise , he commanded him to be brought into the barracks .
+# pis_text = Bat olketa pipol hu i hipap ya olketa singaotem plande deferen samting nao . An kapten hemi no save herem enisamting gudfala bikos olketa singaot olobaot nomoa . So hemi talem olketa soldia fo olketa mas tekem Pol go long strongfala haos blong ami nao .
+1	Bat	bat	CCONJ	_	_	_	_	_	gloss=but/and
+2	olketa	olketa	PRON	_	_	_	_	_	gloss=them/plural
+3	pipol	pipol	NOUN	_	_	_	_	_	gloss=people
+4	hu	hu	PRON	_	_	_	_	_	gloss=who
+5	i	i	PART	_	_	_	_	_	gloss=predicate-marker
+6	hipap	hipap	VERB	_	_	_	_	_	gloss=gather/crowd-together
+7	ya	ya	DET	_	_	_	_	_	gloss=the/this
+8	olketa	olketa	PRON	_	_	_	_	_	gloss=them/plural
+9	singaotem	singaotem	VERB	_	_	_	_	_	gloss=shout-at/shout-something
+10	plande	plande	ADJ	_	_	_	_	_	gloss=many/plenty
+11	deferen	deferen	ADJ	_	_	_	_	_	gloss=different
+12	samting	samting	NOUN	_	_	_	_	_	gloss=something
+13	nao	nao	PART	_	_	_	_	_	gloss=emphasis/focus/now
+14	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+15	An	an	CCONJ	_	_	_	_	_	gloss=and
+16	kapten	kapten	NOUN	_	_	_	_	_	gloss=captain/officer
+17	hemi	hemi	PRON	_	_	_	nsubj	_	gloss=he/it
+18	no	no	DET	_	_	_	_	_	gloss=no
+19	save	save	AUX	_	_	_	_	_	gloss=can
+20	herem	herem	VERB	_	_	_	_	_	gloss=hear
+21	enisamting	enisamting	PRON	_	_	_	_	_	gloss=anything
+22	gudfala	gudfala	ADJ	_	_	_	_	_	gloss=good/clear
+23	bikos	bikos	SCONJ	_	_	_	_	_	gloss=because
+24	olketa	olketa	PRON	_	_	_	_	_	gloss=them/plural
+25	singaot	singaot	VERB	_	_	0	root	_	gloss=shout
+26	olobaot	olobaot	ADV	_	_	_	_	_	gloss=everywhere/confusedly
+27	nomoa	nomoa	ADV	_	_	_	_	_	gloss=only/just
+28	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+29	So	so	CCONJ	_	_	_	_	_	gloss=so
+30	hemi	hemi	PRON	_	_	_	nsubj	_	gloss=he/it
+31	talem	talem	VERB	_	_	_	_	_	gloss=tell/command
+32	olketa	olketa	PRON	_	_	_	_	_	gloss=them/plural
+33	soldia	soldia	NOUN	_	_	_	_	_	gloss=soldiers
+34	fo	fo	ADP	_	_	_	_	_	gloss=for/to
+35	olketa	olketa	PRON	_	_	_	_	_	gloss=them/plural
+36	mas	mas	AUX	_	_	_	_	_	gloss=must
+37	tekem	tekem	VERB	_	_	_	ccomp	_	gloss=take/pluck
+38	Pol	pol	PROPN	_	_	37	nsubjpass	_	gloss=Paul
+39	go	go	VERB	_	_	_	_	_	gloss=go
+40	long	long	ADP	_	_	_	_	_	gloss=of/at
+41	strongfala	strongfala	ADJ	_	_	_	_	_	gloss=strong
+42	haos	haos	NOUN	_	_	_	_	_	gloss=house
+43	blong	blong	ADP	_	_	_	_	_	gloss=of
+44	ami	ami	NOUN	_	_	_	_	_	gloss=army
+45	nao	nao	PART	_	_	_	_	_	gloss=emphasis/focus/now
+46	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 47012002
+# ref_id = 2 Corinthians 12:2
+# eng_text = I know a man in Christ , fourteen years ago ( whether in the body , I don't know , or whether out of the body , I don't know ; God knows ) , such a one caught up into the third heaven .
+# pis_text = Mi save long wanfala man blong Kraes , wea God hemi tekem hem goap long heven wea hemi antap tumas . An distaem hemi mekfotin yia nao bihaen long diswan . Mi no barava save sapos diswan hemi barava hapen o hemi drim nomoa , God nomoa hemi save .
+1	Mi	mi	PRON	_	_	_	nsubj	_	gloss=I/me
+2	save	save	AUX	_	_	_	_	_	gloss=can
+3	long	long	ADP	_	_	_	_	_	gloss=of/at
+4	wanfala	wanfala	NUM	_	_	_	_	_	gloss=one
+5	man	man	NOUN	_	_	_	_	_	gloss=man
+6	blong	blong	ADP	_	_	_	prep	_	gloss=of
+7	Kraes	kraes	PROPN	_	_	_	_	_	gloss=Christ
+8	,	,	PUNCT	_	_	_	_	_
+9	wea	wea	SCONJ	_	_	_	_	_	gloss=where
+10	God	god	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+11	hemi	hemi	PRON	_	_	_	_	_	gloss=he/it
+12	tekem	tekem	VERB	_	_	_	_	_	gloss=take/pluck
+13	hem	hem	PRON	_	_	_	_	_	gloss=him/it
+14	goap	goap	VERB	_	_	_	_	_	gloss=go-up/caught-up
+15	long	long	ADP	_	_	_	_	_	gloss=of/at
+16	heven	heven	NOUN	_	_	_	pobj	_	gloss=heaven
+17	wea	wea	SCONJ	_	_	_	_	_	gloss=where
+18	hemi	hemi	PRON	_	_	_	_	_	gloss=he/it
+19	antap	antap	ADV	_	_	_	_	_	gloss=above/high
+20	tumas	tumas	ADV	_	_	_	_	_	gloss=very/much
+21	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+22	An	an	CCONJ	_	_	_	_	_	gloss=and
+23	distaem	distaem	ADV	_	_	_	_	_	gloss=now/at-this-time
+24	hemi	hemi	PRON	_	_	_	_	_	gloss=he/it
+25	mekfotin	mekfotin	NUM	_	_	_	_	_	gloss=fourteen
+26	yia	yia	NOUN	_	_	_	npadvmod	_	gloss=year
+27	nao	nao	PART	_	_	_	_	_	gloss=emphasis/focus/now
+28	bihaen	bihaen	ADP	_	_	_	_	_	gloss=after
+29	long	long	ADP	_	_	_	_	_	gloss=of/at
+30	diswan	diswan	PRON	_	_	_	_	_	gloss=this-one
+31	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+32	Mi	mi	PRON	_	_	_	nsubj	_	gloss=I/me
+33	no	no	DET	_	_	_	_	_	gloss=no
+34	barava	barava	ADV	_	_	_	_	_	gloss=really/thoroughly
+35	save	save	AUX	_	_	_	_	_	gloss=can
+36	sapos	sapos	SCONJ	_	_	_	_	_	gloss=if
+37	diswan	diswan	PRON	_	_	_	_	_	gloss=this-one
+38	hemi	hemi	PRON	_	_	_	_	_	gloss=he/it
+39	barava	barava	ADV	_	_	_	_	_	gloss=really/thoroughly
+40	hapen	hapen	VERB	_	_	_	_	_	gloss=happen
+41	o	o	CCONJ	_	_	_	cc	_	gloss=or
+42	hemi	hemi	PRON	_	_	_	_	_	gloss=he/it
+43	drim	drim	NOUN	_	_	_	_	_	gloss=dream
+44	nomoa	nomoa	ADV	_	_	_	_	_	gloss=only/just
+45	,	,	PUNCT	_	_	_	_	_
+46	God	god	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+47	nomoa	nomoa	ADV	_	_	_	_	_	gloss=only/just
+48	hemi	hemi	PRON	_	_	_	_	_	gloss=he/it
+49	save	save	AUX	_	_	_	_	_	gloss=can
+50	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 62004009
+# ref_id = 1 John 4:9
+# eng_text = By this was God's love revealed in us , that God has sent his only born Son into the world that we might live through him .
+# pis_text = God hemi somaot lav blong hem long wei olsem . Hemi sendem kam disfala wanfala barava San blong hem long wol mekem yumi save garem tru laef long hem .
+1	God	god	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+2	hemi	hemi	PRON	_	_	_	nsubj	_	gloss=he/it
+3	somaot	somaot	VERB	_	_	_	_	_	gloss=reveal/show-out
+4	lav	lav	NOUN	_	_	_	_	_	gloss=love
+5	blong	blong	ADP	_	_	_	_	_	gloss=of
+6	hem	hem	PRON	_	_	_	pobj	_	gloss=him/it
+7	long	long	ADP	_	_	_	_	_	gloss=of/at
+8	wei	wei	NOUN	_	_	_	_	_	gloss=way
+9	olsem	olsem	ADP	_	_	_	_	_	gloss=like
+10	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+11	Hemi	hemi	PRON	_	_	_	_	_	gloss=he/it
+12	sendem	sendem	VERB	_	_	_	pcomp	_	gloss=send
+13	kam	kam	VERB	_	_	_	_	_	gloss=come
+14	disfala	disfala	DET	_	_	_	_	_	gloss=this
+15	wanfala	wanfala	NUM	_	_	_	_	_	gloss=one
+16	barava	barava	ADV	_	_	_	_	_	gloss=really/thoroughly
+17	San	san	NOUN	_	_	_	conj	_	gloss=son
+18	blong	blong	ADP	_	_	_	_	_	gloss=of
+19	hem	hem	PRON	_	_	_	pobj	_	gloss=him/it
+20	long	long	ADP	_	_	_	_	_	gloss=of/at
+21	wol	wol	NOUN	_	_	_	pobj	_	gloss=world
+22	mekem	mekem	VERB	_	_	_	_	_	gloss=make/cause
+23	yumi	yumi	PRON	_	_	_	_	_	gloss=we(incl)
+24	save	save	AUX	_	_	_	_	_	gloss=can
+25	garem	garem	VERB	_	_	_	_	_	gloss=have
+26	tru	tru	ADJ	_	_	_	_	_	gloss=true
+27	laef	laef	NOUN	_	_	_	dobj	_	gloss=life
+28	long	long	ADP	_	_	_	_	_	gloss=of/at
+29	hem	hem	PRON	_	_	_	pobj	_	gloss=him/it
+30	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 63001005
+# ref_id = 2 John 1:5
+# eng_text = Now I beg you , dear lady , not as though I wrote to you a new commandment , but that which we had from the beginning , that we love one another .
+# pis_text = Gudfala woman , mi wande talem yu dat yumi mas lavem yumi evriwan . Disfala lo hemi no niufala lo wea mi raetem fo yufala . Nomoa . Stat kam bifoa , yumi save finis long diswan .
+1	Gudfala	gudfala	ADJ	_	_	_	_	_	gloss=good/clear
+2	woman	woman	NOUN	_	_	_	_	_	gloss=woman/lady
+3	,	,	PUNCT	_	_	_	_	_
+4	mi	mi	PRON	_	_	_	_	_	gloss=I/me
+5	wande	wande	VERB	_	_	_	_	_	gloss=want/beg
+6	talem	talem	VERB	_	_	_	_	_	gloss=tell/command
+7	yu	yu	PRON	_	_	_	_	_	gloss=you
+8	dat	dat	SCONJ	_	_	_	_	_	gloss=that
+9	yumi	yumi	PRON	_	_	_	_	_	gloss=we(incl)
+10	mas	mas	AUX	_	_	_	_	_	gloss=must
+11	lavem	lavem	VERB	_	_	_	ccomp	_	gloss=love
+12	yumi	yumi	PRON	_	_	_	_	_	gloss=we(incl)
+13	evriwan	evriwan	PRON	_	_	_	_	_	gloss=everyone/one-another
+14	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+15	Disfala	disfala	DET	_	_	_	_	_	gloss=this
+16	lo	lo	NOUN	_	_	_	_	_	gloss=law
+17	hemi	hemi	PRON	_	_	_	_	_	gloss=he/it
+18	no	no	DET	_	_	_	neg	_	gloss=no
+19	niufala	niufala	ADJ	_	_	29	amod	_	gloss=new
+20	lo	lo	NOUN	_	_	_	_	_	gloss=law
+21	wea	wea	SCONJ	_	_	11	mark	_	gloss=where
+22	mi	mi	PRON	_	_	_	_	_	gloss=I/me
+23	raetem	raetem	VERB	_	_	_	_	_	gloss=write
+24	fo	fo	ADP	_	_	_	_	_	gloss=for/to
+25	yufala	yufala	PRON	_	_	_	_	_	gloss=you(pl)
+26	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+27	Nomoa	nomoa	ADV	_	_	_	_	_	gloss=only/just
+28	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+29	Stat	stat	VERB	_	_	_	attr	_	gloss=start/beginning
+30	kam	kam	VERB	_	_	_	_	_	gloss=come
+31	bifoa	bifoa	ADV	_	_	_	_	_	gloss=before
+32	,	,	PUNCT	_	_	_	_	_
+33	yumi	yumi	PRON	_	_	_	_	_	gloss=we(incl)
+34	save	save	AUX	_	_	_	_	_	gloss=can
+35	finis	finis	ADV	_	_	_	_	_	gloss=already
+36	long	long	ADP	_	_	_	_	_	gloss=of/at
+37	diswan	diswan	PRON	_	_	_	_	_	gloss=this-one
+38	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+

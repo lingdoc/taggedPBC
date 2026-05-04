@@ -1,0 +1,615 @@
+## The following text has been annotated for parts of speech by students at NTU Singapore as part of a class project in AY 2025-26.
+## Verses are extracted from the taggedPBC. Annotations have been developed with a combination of manual and automated approaches, with reference to existing literature and (where possible) native speakers.
+## ISO 639-3: kle, Language: Kulung (Nepal), Number of verses: 21
+## References: Ebert, K. H. (1997). A grammar of Kulung. Leiden: Brill.
+
+# sent_id = 40006024
+# ref_id = Matthew 6:24
+# eng_text = " No one can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You can't serve both God and Mammon .					_
+# kle_text = “aasaaso niippo maalikamii suuso maduurano. uudoiipiikyaalo muungkasaa iilpok samtuumaa miiya, naa aarko ka jera. khoronaang muungkasaa iilpok saayocongmaa miiya, naa aarko ka saayocongmaa miiyano. khansaa aannaa niinaammaam lo daacaammiilo niippom suuso maduurnuumno.					_
+# kle_orth = “आसासो नीप्पो मालिकमी सूसो मदूरनो। ऊदोईपीक्यालो मूङ्‌कसा ईल्‍पोक सम्‍तूमा मीय, ना आर्को क जेर। खोरोनाङ् मूङ्‌कसा ईल्‍पोक सायोचोङ्मा मीय, ना आर्को क सायोचोङ्मा मीयनो। खन्‍सा आन्‍ना नीनाम्माम् लो दाचाम्मीलो नीप्पोम् सूसो मदूर्‌नूम्नो।					_
+1	“aasaaso	“aasaaso	DET	_	_	_	_	_	orth=“आसासो|gloss=no
+2	niippo	niippo	NUM	_	_	8	nummod	_	orth=नीप्पो|gloss=two|NumType=Card
+3	maalikamii	maalikamii	NOUN	_	_	_	_	_	orth=मालिकमी|gloss=heir
+4	suuso	suuso	VERB	_	_	0	root	_	orth=सूसो|gloss=serve|VerbForm=Inf
+5	maduurano.	maduurano.	unk	_	_	_	_	_	orth=मदूरनो।
+6	uudoiipiikyaalo	uudoiipiikyaalo	ADP	_	_	_	prep	_	orth=ऊदोईपीक्यालो|gloss=For
+7	muungkasaa	muungkasaa	PRON	_	_	_	_	_	orth=मूङ्‌कसा|gloss=her
+8	iilpok	iilpok	NOUN	_	_	4	dobj	_	orth=ईल्‍पोक|gloss=masters|Number=Plur
+9	samtuumaa	samtuumaa	VERB	_	_	_	conj	_	orth=सम्‍तूमा|gloss=love|VerbForm=Inf
+10	miiya,	miiya,	unk	_	_	_	_	_	orth=मीय,|gloss=Such
+11	naa	naa	CCONJ	_	_	_	cc	_	orth=ना|gloss=and|ConjType=Cmp
+12	aarko	aarko	VERB	_	_	_	_	_	orth=आर्को|gloss=ail
+13	ka	ka	NUM	_	_	_	pobj	_	orth=क|gloss=one|NumType=Card
+14	jera.	jera.	unk	_	_	_	_	_	orth=जेर।
+15	khoronaang	khoronaang	unk	_	_	_	_	_	orth=खोरोनाङ्|gloss=Other
+16	muungkasaa	muungkasaa	PRON	_	_	_	_	_	orth=मूङ्‌कसा|gloss=her
+17	iilpok	iilpok	NOUN	_	_	4	dobj	_	orth=ईल्‍पोक|gloss=masters|Number=Plur
+18	saayocongmaa	saayocongmaa	unk	_	_	_	_	_	orth=सायोचोङ्मा|gloss=tong
+19	miiya,	miiya,	unk	_	_	_	_	_	orth=मीय,|gloss=Such
+20	naa	naa	CCONJ	_	_	_	cc	_	orth=ना|gloss=and|ConjType=Cmp
+21	aarko	aarko	unk	_	_	_	_	_	orth=आर्को|gloss=ail
+22	ka	ka	NUM	_	_	_	pobj	_	orth=क|gloss=one|NumType=Card
+23	saayocongmaa	saayocongmaa	unk	_	_	_	_	_	orth=सायोचोङ्मा|gloss=tong
+24	miiyano.	miiyano.	unk	_	_	_	_	_	orth=मीयनो।|gloss=weal
+25	khansaa	khansaa	ADV	_	_	_	_	_	orth=खन्‍सा|gloss=So
+26	aannaa	aannaa	PRON	_	_	31	nsubj	_	orth=आन्‍ना|gloss=You|Case=Nom|Person=2|PronType=Prs
+27	niinaammaam	niinaammaam	PROPN	_	_	_	_	_	orth=नीनाम्माम्|gloss=God’s
+28	lo	lo	PROPN	_	_	_	_	_	orth=लो|gloss=Barnabas
+29	daacaammiilo	daacaammiilo	unk	_	_	_	_	_	orth=दाचाम्मीलो
+30	niippom	niippom	VERB	_	_	_	acomp	_	orth=नीप्पोम्|gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+31	suuso	suuso	VERB	_	_	0	root	_	orth=सूसो|gloss=serve|VerbForm=Inf
+32	maduurnuumno.	maduurnuumno.	unk	_	_	_	_	_	orth=मदूर्‌नूम्नो।
+
+# sent_id = 40018012
+# ref_id = Matthew 18:12
+# eng_text = " What do you think ? If a man has one hundred sheep , and one of them goes astray , doesn't he leave the ninety-nine , go to the mountains , and seek that which has gone astray ?					_
+# kle_text = “aannaa uuii miinnii? iilpo miismii iik cuunduuluum mluus tuuye khuungkapii iibuum mluus maaskhaatdok, uuii khasaa bokpong bocii mluus sogopaang hoksiiyanaa muungka maasaak iibuum mluus laams khaatnoyo?					_
+# kle_orth = “आन्‍ना ऊई मीन्‍नी? ईल्पो मीस्मी ईक् चून्दूलूम् म्‍लूस् तूये खूङ्‌कपी ईबूम् म्‍लूस् मास्खात्दोक, ऊई खसा बोक्पोङ् बोची म्‍लूस् सोगोपाङ् होक्‍सीयना मूङ्‌क मासाक ईबूम् म्‍लूस् लाम्‍स् खात्‍नोयो?					_
+1	“aannaa	“aannaa	PRON	_	_	_	_	_	orth=“आन्‍ना|gloss=You |Case=Nom|Person=2|PronType=Prs
+2	uuii	uuii	PRON	_	_	_	_	_	orth=ऊई|gloss=What
+3	miinnii?	miinnii?	NOUN	_	_	_	_	_	orth=मीन्‍नी?|gloss=hill
+4	iilpo	iilpo	DET	_	_	_	_	_	orth=ईल्पो|gloss=an|Definite=Ind|PronType=Art
+5	miismii	miismii	NOUN	_	_	_	_	_	orth=मीस्मी|gloss=Man
+6	iik	iik	NUM	_	_	_	nummod	_	orth=ईक्|gloss=hundred|NumType=Card
+7	cuunduuluum	cuunduuluum	NUM	_	_	_	nummod	_	orth=चून्दूलूम्|gloss=hundred|NumType=Card
+8	mluus	mluus	unk	_	_	_	_	_	orth=म्‍लूस्|gloss=ens
+9	tuuye	tuuye	AUX	_	_	_	_	_	orth=तूये|gloss=Have
+10	khuungkapii	khuungkapii	unk	_	_	_	_	_	orth=खूङ्‌कपी|gloss=ief
+11	iibuum	iibuum	DET	_	_	7	quantmod	_	orth=ईबूम्|gloss=a|Definite=Ind|PronType=Art
+12	mluus	mluus	unk	_	_	_	_	_	orth=म्‍लूस्|gloss=ens
+13	maaskhaatdok,	maaskhaatdok,	unk	_	_	_	_	_	orth=मास्खात्दोक,
+14	uuii	uuii	PRON	_	_	_	_	_	orth=ऊई|gloss=What
+15	khasaa	khasaa	PRON	_	_	_	_	_	orth=खसा|gloss=He
+16	bokpong	bokpong	unk	_	_	_	_	_	orth=बोक्पोङ्
+17	bocii	bocii	NUM	_	_	_	_	_	orth=बोची|gloss=ninety-nine
+18	mluus	mluus	unk	_	_	_	_	_	orth=म्‍लूस्|gloss=ens
+19	sogopaang	sogopaang	unk	_	_	_	_	_	orth=सोगोपाङ्
+20	hoksiiyanaa	hoksiiyanaa	VERB	_	_	_	_	_	orth=होक्‍सीयना|gloss=leaves
+21	muungka	muungka	unk	_	_	_	_	_	orth=मूङ्‌क
+22	maasaak	maasaak	VERB	_	_	_	relcl	_	orth=मासाक|gloss=lost|Aspect=Perf|Tense=Past|VerbForm=Part
+23	iibuum	iibuum	DET	_	_	7	quantmod	_	orth=ईबूम्|gloss=a|Definite=Ind|PronType=Art
+24	mluus	mluus	unk	_	_	_	_	_	orth=म्‍लूस्|gloss=ens
+25	laams	laams	NOUN	_	_	_	_	_	orth=लाम्‍स्|gloss=hill
+26	khaatnoyo?	khaatnoyo?	unk	_	_	_	_	_	orth=खात्‍नोयो?
+
+# sent_id = 40020021
+# ref_id = Matthew 20:21
+# eng_text = He said to her , " What do you want ? " She said to him , " Command that these , my two sons , may sit , one on your right hand , and one on your left hand , in your kingdom . "					_
+# kle_text = khodolo yeshuuaa muungka oropiikaanaa tattuu, “aanaa uuii miine?” khodolo khasaa yeshuu oro laa, “aanaa kong aajnyaa piiyote, khiikkaa aam caarakhampii ngka niippo o chaacii iilpo aam cuuplaampaa, naa iilpo aam paanglaa tuum taciinuute.”					_
+# kle_orth = खोदोलो येशूआ मूङ्‌क ओरोपीकाना तत्‍तू, “आना ऊई मीने?” खोदोलो खसा येशू ओरो लअ, “आना कोङ् आज्ञा पीयोते, खीक्‍का आम् चारखम्‍पी ङ्‌क नीप्पो ओ छाची ईल्पो आम् चूप्‍लाम्‍पा, ना ईल्पो आम् पाङ्ला तूम् तचीनूते।”					_
+1	khodolo	khodolo	PUNCT	_	_	_	punct	_	orth=खोदोलो|PunctSide=Fin|PunctType=Quot
+2	yeshuuaa	yeshuuaa	PROPN	_	_	_	_	_	orth=येशूआ|gloss=Jesus
+3	muungka	muungka	unk	_	_	_	_	_	orth=मूङ्‌क
+4	oropiikaanaa	oropiikaanaa	NOUN	_	_	_	nsubj	_	orth=ओरोपीकाना|gloss=request|Number=Sing
+5	tattuu,	tattuu,	VERB	_	_	_	_	_	orth=तत्‍तू,|gloss=id
+6	“aanaa	“aanaa	PRON	_	_	_	_	_	orth=“आना|gloss=you’re
+7	uuii	uuii	PRON	_	_	_	attr	_	orth=ऊई|gloss=What
+8	miine?”	miine?”	unk	_	_	_	_	_	orth=मीने?”
+9	khodolo	khodolo	PUNCT	_	_	_	punct	_	orth=खोदोलो|PunctSide=Fin|PunctType=Quot
+10	khasaa	khasaa	PRON	_	_	_	_	_	orth=खसा|gloss=He
+11	yeshuu	yeshuu	PROPN	_	_	_	_	_	orth=येशू|gloss=Jesus
+12	oro	oro	PUNCT	_	_	_	punct	_	orth=ओरो|PunctSide=Ini|PunctType=Quot
+13	laa,	laa,	VERB	_	_	_	_	_	orth=लअ,|gloss=said
+14	“aanaa	“aanaa	PRON	_	_	_	_	_	orth=“आना|gloss=you’re
+15	kong	kong	PRON	_	_	_	_	_	orth=कोङ्|gloss=me
+16	aajnyaa	aajnyaa	VERB	_	_	_	_	_	orth=आज्ञा|gloss=commands
+17	piiyote,	piiyote,	NOUN	_	_	_	nsubj	_	orth=पीयोते,|gloss=request|Number=Sing
+18	khiikkaa	khiikkaa	PUNCT	_	_	_	punct	_	orth=खीक्‍का|PunctType=Peri
+19	aam	aam	PRON	_	_	_	poss	_	orth=आम्|gloss=your|Person=2|Poss=Yes|PronType=Prs
+20	caarakhampii	caarakhampii	PROPN	_	_	_	pobj	_	orth=चारखम्‍पी|gloss=Kingdom|Number=Sing
+21	ngka	ngka	ADJ	_	_	_	_	_	orth=ङ्‌क|gloss=this
+22	niippo	niippo	NUM	_	_	_	nummod	_	orth=नीप्पो|gloss=two|NumType=Card
+23	o	o	PRON	_	_	_	poss	_	orth=ओ|gloss=my|Number=Sing|Person=1|Poss=Yes|PronType=Prs
+24	chaacii	chaacii	unk	_	_	_	_	_	orth=छाची
+25	iilpo	iilpo	DET	_	_	_	_	_	orth=ईल्पो|gloss=an|Definite=Ind|PronType=Art
+26	aam	aam	PRON	_	_	_	poss	_	orth=आम्|gloss=your|Person=2|Poss=Yes|PronType=Prs
+27	cuuplaampaa,	cuuplaampaa,	NOUN	_	_	_	pobj	_	orth=चूप्‍लाम्‍पा|gloss=right|Number=Sing
+28	naa	naa	CCONJ	_	_	_	cc	_	orth=ना|gloss=and|ConjType=Cmp
+29	iilpo	iilpo	DET	_	_	_	_	_	orth=ईल्पो|gloss=an|Definite=Ind|PronType=Art
+30	aam	aam	PRON	_	_	_	poss	_	orth=आम्|gloss=your|Person=2|Poss=Yes|PronType=Prs
+31	paanglaa	paanglaa	NOUN	_	_	_	pobj	_	orth=पाङ्ला|gloss=places|Number=Plur
+32	tuum	tuum	NOUN	_	_	_	_	_	orth=तूम्|gloss=immorality
+33	taciinuute.”	taciinuute.”	unk	_	_	_	_	_	orth=तचीनूते।”
+
+# sent_id = 40026002
+# ref_id = Matthew 26:2
+# eng_text = " You know that after two days the Passover is coming , and the Son of Man will be delivered up to be crucified . "					_
+# kle_text = “aannaa checcaaiinuum hannaakam niisleii dospii nistaar-caadd chuuye, khodolo miismii chaa kruusapii kaam laagii laapacii.”					_
+# kle_orth = “आन्‍ना छेच्‍चाईनूम्‌ हन्‍नाकम्‌ नीस्लेई दोस्पी निस्‍तार-चाड छूये, खोदोलो मीस्मी छा क्रूसपी काम् लागी लापची।”					_
+1	“aannaa	“aannaa	PRON	_	_	_	_	_	orth=“आन्‍ना|gloss=You |Case=Nom|Person=2|PronType=Prs
+2	checcaaiinuum	checcaaiinuum	unk	_	_	_	_	_	orth=छेच्‍चाईनूम्‌
+3	hannaakam	hannaakam	unk	_	_	_	_	_	orth=हन्‍नाकम्‌
+4	niisleii	niisleii	unk	_	_	_	_	_	orth=नीस्लेई
+5	dospii	dospii	ADJ	_	_	_	_	_	orth=दोस्पी|gloss=Last
+6	nistaar-caadd	nistaar-caadd	PROPN	_	_	_	nsubj	_	orth=निस्‍तार-चाड|gloss=Passover|Number=Sing
+7	chuuye,	chuuye,	NOUN	_	_	_	_	_	orth=छूये,|gloss=claim
+8	khodolo	khodolo	PUNCT	_	_	_	punct	_	orth=खोदोलो|PunctSide=Fin|PunctType=Quot
+9	miismii	miismii	PROPN	_	_	_	pobj	_	orth=मीस्मी|gloss=Man|Number=Sing
+10	chaa	chaa	PROPN	_	_	_	nsubjpass	_	orth=छा|gloss=Son|Number=Sing
+11	kruusapii	kruusapii	VERB	_	_	_	advcl	_	orth=क्रूसपी|gloss=crucified|Aspect=Perf|Tense=Past|VerbForm=Part
+12	kaam	kaam	unk	_	_	_	_	_	orth=काम्|gloss=le
+13	laagii	laagii	ADP	_	_	_	_	_	orth=लागी|gloss=for
+14	laapacii.”	laapacii.”	unk	_	_	_	_	_	orth=लापची।”
+
+# sent_id = 40026061
+# ref_id = Matthew 26:61
+# eng_text = and said , " This man said , ' I am able to destroy the temple of God , and to build it in three days . ' "					_
+# kle_text = khiikkaa oropiikaa, “ngka miicaa kongaa niinaammaa dapsko khiim hatonaa suukleiipii thuuto piikaak tuuye.”					_
+# kle_orth = खीक्‍का ओरोपीका, “ङ्‌क मीचा कोङा नीनाम्मा दप्स्को खीम् हतोना सूक्‍लेईपी थूतो पीकाक तूये।”					_
+1	khiikkaa	khiikkaa	PUNCT	_	_	_	punct	_	orth=खीक्‍का|PunctType=Peri
+2	oropiikaa,	oropiikaa,	unk	_	_	_	_	_	orth=ओरोपीका,|gloss=’ve
+3	“ngka	“ngka	DET	_	_	_	det	_	orth=“ङ्‌क|gloss=This|Number=Sing|PronType=Dem
+4	miicaa	miicaa	unk	_	_	_	_	_	orth=मीचा|gloss=ation
+5	kongaa	kongaa	PRON	_	_	_	nsubj	_	orth=कोङा|gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+6	niinaammaa	niinaammaa	NOUN	_	_	_	_	_	orth=नीनाम्मा|gloss=sacrifices
+7	dapsko	dapsko	PROPN	_	_	_	dobj	_	orth=दप्स्को|gloss=Temple|Number=Sing
+8	khiim	khiim	NOUN	_	_	_	_	_	orth=खीम्|gloss=house
+9	hatonaa	hatonaa	unk	_	_	_	_	_	orth=हतोना
+10	suukleiipii	suukleiipii	NUM	_	_	_	_	_	orth=सूक्‍लेईपी|gloss=third
+11	thuuto	thuuto	unk	_	_	_	_	_	orth=थूतो
+12	piikaak	piikaak	VERB	_	_	_	_	_	orth=पीकाक|gloss=appoint
+13	tuuye.”	tuuye.”	PUNCT	_	_	0	root	_	orth=तूये।”|PunctSide=Fin|PunctType=Quot
+
+# sent_id = 40028016
+# ref_id = Matthew 28:16
+# eng_text = But the eleven disciples went into Galilee , to the mountain where Jesus had sent them .					_
+# kle_text = muungka pong iilpo msiicces gaaliilamii kom themto khaataa, khapii yeshuuaa khas khaatniiv laciik tuuvaa.					_
+# kle_orth = मूङ्‌क पोङ् ईल्पो म्सीच्‍चेस् गालीलमी कोम् थेम्तो खाता, खपी येशूआ खस् खात्‍नीव लचीक तूवा।					_
+1	muungka	muungka	unk	_	_	_	_	_	orth=मूङ्‌क
+2	pong	pong	NUM	_	_	_	_	_	orth=पोङ्|gloss=twelve
+3	iilpo	iilpo	DET	_	_	_	_	_	orth=ईल्पो|gloss=an|Definite=Ind|PronType=Art
+4	msiicces	msiicces	NOUN	_	_	_	nsubj	_	orth=म्सीच्‍चेस्|gloss=disciples|Number=Plur
+5	gaaliilamii	gaaliilamii	PROPN	_	_	_	pobj	_	orth=गालीलमी|gloss=Galilee|Number=Sing
+6	kom	kom	NOUN	_	_	_	pobj	_	orth=कोम्|gloss=mountain|Number=Sing
+7	themto	themto	NOUN	_	_	_	pobj	_	orth=थेम्तो|gloss=mountain|Number=Sing
+8	khaataa,	khaataa,	VERB	_	_	_	_	_	orth=खाता,|gloss=went
+9	khapii	khapii	unk	_	_	_	_	_	orth=खपी|gloss=hip
+10	yeshuuaa	yeshuuaa	PROPN	_	_	_	nsubj	_	orth=येशूआ|gloss=Jesus|Number=Sing
+11	khas	khas	PRON	_	_	_	dobj	_	orth=खस्|gloss=them|Case=Acc|Number=Plur|Person=3|PronType=Prs
+12	khaatniiv	khaatniiv	VERB	_	_	_	_	_	orth=खात्‍नीव|gloss=urge
+13	laciik	laciik	NUM	_	_	_	_	_	orth=लचीक|gloss=eleven
+14	tuuvaa.	tuuvaa.	AUX	_	_	_	aux	_	orth=तूवा।|gloss=had|Tense=Past|VerbForm=Fin
+
+# sent_id = 41002023
+# ref_id = Mark 2:23
+# eng_text = It happened , that he was going on the Sabbath day through the grain fields , and his disciples began , as they went , to pluck the ears of grain .					_
+# kle_text = yeshuu nomciim leiipii msiicceskaa chiirmkhaalaampaa khaatcaalo, msiiccecaa laamduumto chiirmmii siikhaavaa thaaiiciinaa caam thaaleii macii.					_
+# kle_orth = येशू नोम्चीम् लेईपी म्सीच्‍चेस्का छीर्म्‌खालाम्पा खात्‍चालो, म्सीच्‍चेचा लाम्‍दूम्‍तो छीर्म्‌मी सीखावा थाईचीना चाम् थालेई मची।					_
+1	yeshuu	yeshuu	PROPN	_	_	8	nsubj	_	orth=येशू|gloss=Jesus|Number=Sing
+2	nomciim	nomciim	PROPN	_	_	_	compound	_	orth=नोम्चीम्|gloss=Sabbath|Number=Sing
+3	leiipii	leiipii	VERB	_	_	_	_	_	orth=लेईपी|gloss=appoint
+4	msiicceskaa	msiicceskaa	NOUN	_	_	_	_	_	orth=म्सीच्‍चेस्का|gloss=ield
+5	chiirmkhaalaampaa	chiirmkhaalaampaa	unk	_	_	_	_	_	orth=छीर्म्‌खालाम्पा
+6	khaatcaalo,	khaatcaalo,	unk	_	_	_	_	_	orth=खात्‍चालो,
+7	msiiccecaa	msiiccecaa	NOUN	_	_	_	nsubj	_	orth=म्सीच्‍चेचा|gloss=disciples|Number=Plur
+8	laamduumto	laamduumto	VERB	_	_	_	advcl	_	orth=लाम्‍दूम्‍तो|gloss=walking|Aspect=Prog|Tense=Pres|VerbForm=Part
+9	chiirmmii	chiirmmii	unk	_	_	_	_	_	orth=छीर्म्‌मी
+10	siikhaavaa	siikhaavaa	unk	_	_	_	_	_	orth=सीखावा
+11	thaaiiciinaa	thaaiiciinaa	unk	_	_	_	_	_	orth=थाईचीना
+12	caam	caam	VERB	_	_	_	advcl	_	orth=चाम्|gloss=eat|VerbForm=Inf
+13	thaaleii	thaaleii	ADV	_	_	_	_	_	orth=थालेई|gloss=overboard
+14	macii.	macii.	VERB	_	_	_	_	_	orth=मची।|gloss=believed
+
+# sent_id = 41012032
+# ref_id = Mark 12:32
+# eng_text = The scribe said to him , " Truly , teacher , you have said well that he is one , and there is none other but he ,					_
+# kle_text = muungka shaastriiaa kha oro laa, “seciipo, aanaa aachiiyaang piikaa, niinaammaa iibuumngaang tuuye, kha piikaa biinniipaa niinaammaa aasso maantuu.					_
+# kle_orth = मूङ्‌क शास्‍त्रीआ ख ओरो लअ, “सेचीपो, आना आछीयाङ् पीका, नीनाम्मा ईबूम्ङाङ् तूये, ख पीका बीन्‍नीपा नीनाम्मा आस्‍सो मान्तू।					_
+1	muungka	muungka	unk	_	_	_	_	_	orth=मूङ्‌क
+2	shaastriiaa	shaastriiaa	ADV	_	_	_	_	_	orth=शास्‍त्रीआ|gloss=wherever
+3	kha	kha	PRON	_	_	_	_	_	orth=ख|gloss=him
+4	oro	oro	PUNCT	_	_	_	punct	_	orth=ओरो|PunctSide=Ini|PunctType=Quot
+5	laa,	laa,	VERB	_	_	_	ccomp	_	orth=लअ,|gloss=said|Tense=Past|VerbForm=Fin
+6	“seciipo,	“seciipo,	NOUN	_	_	_	_	_	orth=“सेचीपो,|gloss=Master
+7	aanaa	aanaa	VERB	_	_	_	_	_	orth=आना|gloss=are
+8	aachiiyaang	aachiiyaang	NOUN	_	_	_	dobj	_	orth=आछीयाङ्|gloss=truth|Number=Sing
+9	piikaa,	piikaa,	unk	_	_	_	_	_	orth=पीका,|gloss=ant
+10	niinaammaa	niinaammaa	NOUN	_	_	_	_	_	orth=नीनाम्मा|gloss=sacrifices
+11	iibuumngaang	iibuumngaang	ADV	_	_	_	advmod	_	orth=ईबूम्ङाङ्|gloss=only
+12	tuuye,	tuuye,	AUX	_	_	_	_	_	orth=तूये,|gloss=has
+13	kha	kha	PRON	_	_	_	_	_	orth=ख|gloss=him
+14	piikaa	piikaa	VERB	_	_	_	_	_	orth=पीका|gloss=Tell
+15	biinniipaa	biinniipaa	ADJ	_	_	_	conj	_	orth=बीन्‍नीपा|gloss=other|Degree=Pos
+16	niinaammaa	niinaammaa	NOUN	_	_	_	_	_	orth=नीनाम्मा|gloss=sacrifices
+17	aasso	aasso	DET	_	_	15	det	_	orth=आस्‍सो|gloss=no
+18	maantuu.	maantuu.	INTJ	_	_	5	intj	_	orth=मान्तू।|gloss=Well
+
+# sent_id = 41014037
+# ref_id = Mark 14:37
+# eng_text = He came and found them sleeping , and said to Peter , " Simon , are you sleeping ? Couldn't you watch one hour ?					_
+# kle_text = yeshuu hosong khacii dokpii baanaalo msiicces iimscaak chiipcii. khiikkaa khasaa patrus kaachanaa oro laa, “simon, uuii aan iimscaaiingaayo? uuii aan uukchiinsoyo jaag tuuduurano?					_
+# kle_orth = येशू होसोङ् खची दोक्पी बानालो म्सीच्‍चेस् ईम्स्‍चाक छीप्‍ची। खीक्‍का खसा पत्रुस काछना ओरो लअ, “सिमोन, ऊई आन् ईम्‍स्‍चाईङायो? ऊई आन् ऊक्‍छीन्सोयो जाग तूदूरनो?					_
+1	yeshuu	yeshuu	PROPN	_	_	_	_	_	orth=येशू|gloss=Jesus
+2	hosong	hosong	ADV	_	_	_	_	_	orth=होसोङ्|gloss=again
+3	khacii	khacii	ADJ	_	_	_	_	_	orth=खची|gloss=their
+4	dokpii	dokpii	ADV	_	_	_	_	_	orth=दोक्पी|gloss=near
+5	baanaalo	baanaalo	ADJ	_	_	_	acomp	_	orth=बानालो|gloss=asleep|Degree=Pos
+6	msiicces	msiicces	NOUN	_	_	7	nsubj	_	orth=म्सीच्‍चेस्|gloss=disciples|Number=Plur
+7	iimscaak	iimscaak	ADJ	_	_	_	acomp	_	orth=ईम्स्‍चाक|gloss=asleep|Degree=Pos
+8	chiipcii.	chiipcii.	unk	_	_	_	_	_	orth=छीप्‍ची।|gloss=exh
+9	khiikkaa	khiikkaa	PUNCT	_	_	_	punct	_	orth=खीक्‍का|PunctType=Peri
+10	khasaa	khasaa	PRON	_	_	14	nsubj	_	orth=खसा|gloss=He|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+11	patrus	patrus	PROPN	_	_	_	pobj	_	orth=पत्रुस|gloss=Peter|Number=Sing
+12	kaachanaa	kaachanaa	VERB	_	_	_	_	_	orth=काछना|gloss=called
+13	oro	oro	PUNCT	_	_	14	punct	_	orth=ओरो|PunctSide=Ini|PunctType=Quot
+14	laa,	laa,	VERB	_	_	0	root	_	orth=लअ,|gloss=said|Tense=Past|VerbForm=Fin
+15	“simon,	“simon,	PROPN	_	_	_	_	_	orth=सिमोन|gloss=Simon|Number=Sing
+16	uuii	uuii	PRON	_	_	_	_	_	orth=ऊई|gloss=What
+17	aan	aan	unk	_	_	_	_	_	orth=आन्|gloss=uzz
+18	iimscaaiingaayo?	iimscaaiingaayo?	unk	_	_	_	_	_	orth=ईम्‍स्‍चाईङायो?
+19	uuii	uuii	PRON	_	_	_	_	_	orth=ऊई|gloss=What
+20	aan	aan	unk	_	_	_	_	_	orth=आन्|gloss=uzz
+21	uukchiinsoyo	uukchiinsoyo	unk	_	_	_	_	_	orth=ऊक्‍छीन्सोयो
+22	jaag	jaag	VERB	_	_	0	root	_	orth=जाग|gloss=watch|VerbForm=Inf
+23	tuuduurano?	tuuduurano?	unk	_	_	_	_	_	orth=तूदूरनो?
+
+# sent_id = 42004002
+# ref_id = Luke 4:2
+# eng_text = for forty days , being tempted by the devil . He ate nothing in those days . Afterward , when they were completed , he was hungry .					_
+# kle_text = naa liikpong leii sammo yeshuu gongruutkhaap thaampuupii shaitaanapiikaa caamcii chuuvaa. khuungka leii sammo khasaa uuso maancaa, naa liikpong leii yaataakapkaa kha saakaa siiyaa.					_
+# kle_orth = ना लीक्‍पोङ् लेई सम्मो येशू गोङ्‍रूत्खाप् थाम्‍पूपी शैतानपीका चाम्ची छूवा। खूङ्‌क लेई सम्मो खसा ऊसो मान्चा, ना लीक्‍पोङ् लेई याताकप्का ख साका सीया।					_
+1	naa	naa	CCONJ	_	_	_	cc	_	orth=ना|gloss=and|ConjType=Cmp
+2	liikpong	liikpong	NUM	_	_	_	nummod	_	orth=लीक्‍पोङ्|gloss=forty|NumType=Card
+3	leii	leii	NOUN	_	_	_	_	_	orth=लेई|gloss=day
+4	sammo	sammo	ADP	_	_	_	_	_	orth=सम्मो|gloss=until
+5	yeshuu	yeshuu	PROPN	_	_	_	nsubj	_	orth=येशू|gloss=Jesus|Number=Sing
+6	gongruutkhaap	gongruutkhaap	NOUN	_	_	_	_	_	orth=गोङ्‍रूत्खाप्|gloss=wilderness
+7	thaampuupii	thaampuupii	NOUN	_	_	_	_	_	orth=थाम्‍पूपी|gloss=wilderness
+8	shaitaanapiikaa	shaitaanapiikaa	unk	_	_	_	_	_	orth=शैतानपीका
+9	caamcii	caamcii	VERB	_	_	_	_	_	orth=चाम्ची|gloss=trap
+10	chuuvaa.	chuuvaa.	ADJ	_	_	_	_	_	orth=छूवा।|gloss=amazed
+11	khuungka	khuungka	SCONJ	_	_	_	advmod	_	orth=खूङ्‌क|gloss=where
+12	leii	leii	NOUN	_	_	_	_	_	orth=लेई|gloss=day
+13	sammo	sammo	ADP	_	_	_	_	_	orth=सम्मो|gloss=until
+14	khasaa	khasaa	PRON	_	_	_	_	_	orth=खसा|gloss=He
+15	uuso	uuso	NOUN	_	_	_	_	_	orth=ऊसो|gloss=plants
+16	maancaa,	maancaa,	VERB	_	_	_	_	_	orth=मान्चा|gloss=declared
+17	naa	naa	CCONJ	_	_	_	cc	_	orth=ना|gloss=and|ConjType=Cmp
+18	liikpong	liikpong	NUM	_	_	_	nummod	_	orth=लीक्‍पोङ्|gloss=forty|NumType=Card
+19	leii	leii	NOUN	_	_	_	_	_	orth=लेई|gloss=day
+20	yaataakapkaa	yaataakapkaa	ADJ	_	_	_	_	_	orth=याताकप्का|gloss=finished
+21	kha	kha	PRON	_	_	_	_	_	orth=ख|gloss=him
+22	saakaa	saakaa	ADJ	_	_	_	acomp	_	orth=साका|gloss=hungry|Degree=Pos
+23	siiyaa.	siiyaa.	VERB	_	_	_	_	_	orth=सीया।|gloss=died
+
+# sent_id = 42016013
+# ref_id = Luke 16:13
+# eng_text = No servant can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You aren't able to serve God and mammon . "					_
+# kle_text = “iilpo rohaa niippo maalikamii suuso maduurano, uudoiipiikyaalo khasaa iilpo helaa maya naa aarko samkhe miiya, khiikkaa muungkasaa iilpoaa piikka reppa naa aarkoaa piikka reppano. khoronaang aannaaso niinaammaam lo daacaammiilo niippom suuso maduurnuumno.”					_
+# kle_orth = “ईल्पो रोःआ नीप्पो मालिकमी सूसो मदूरनो, ऊदोईपीक्यालो खसा ईल्पो हेला मय ना आर्को सम्‍खे मीय, खीक्‍का मूङ्‌कसा ईल्पोआ पीक्‍क रेप्‍प ना आर्कोआ पीक्‍क रेप्‍पनो। खोरोनाङ् आन्‍नासो नीनाम्माम् लो दाचाम्मीलो नीप्पोम् सूसो मदूर्‌नूम्नो।”					_
+1	“iilpo	“iilpo	DET	_	_	_	_	_	orth=“ईल्पो|gloss=A
+2	rohaa	rohaa	unk	_	_	_	_	_	orth=रोःआ
+3	niippo	niippo	NUM	_	_	_	nummod	_	orth=नीप्पो|gloss=two|NumType=Card
+4	maalikamii	maalikamii	NOUN	_	_	_	_	_	orth=मालिकमी|gloss=heir
+5	suuso	suuso	VERB	_	_	0	root	_	orth=सूसो|gloss=serve|VerbForm=Inf
+6	maduurano,	maduurano,	unk	_	_	_	_	_	orth=मदूरनो,
+7	uudoiipiikyaalo	uudoiipiikyaalo	ADP	_	_	_	prep	_	orth=ऊदोईपीक्यालो|gloss=For
+8	khasaa	khasaa	PRON	_	_	_	_	_	orth=खसा|gloss=He
+9	iilpo	iilpo	DET	_	_	_	_	_	orth=ईल्पो|gloss=an|Definite=Ind|PronType=Art
+10	helaa	helaa	unk	_	_	_	_	_	orth=हेला
+11	maya	maya	VERB	_	_	_	_	_	orth=मय|gloss=confess
+12	naa	naa	CCONJ	_	_	_	cc	_	orth=ना|gloss=and|ConjType=Cmp
+13	aarko	aarko	unk	_	_	_	_	_	orth=आर्को|gloss=ail
+14	samkhe	samkhe	VERB	_	_	_	_	_	orth=सम्‍खे|gloss=Love
+15	miiya,	miiya,	unk	_	_	_	_	_	orth=मीय,|gloss=Such
+16	khiikkaa	khiikkaa	PUNCT	_	_	5	punct	_	orth=खीक्‍का|PunctType=Peri
+17	muungkasaa	muungkasaa	PRON	_	_	_	_	_	orth=मूङ्‌कसा|gloss=her
+18	iilpoaa	iilpoaa	ADJ	_	_	_	_	_	orth=ईल्पोआ|gloss=each
+19	piikka	piikka	VERB	_	_	_	_	_	orth=पीक्‍क|gloss=obey
+20	reppa	reppa	VERB	_	_	_	_	_	orth=रेप्‍प|gloss=obey
+21	naa	naa	CCONJ	_	_	_	cc	_	orth=ना|gloss=and|ConjType=Cmp
+22	aarkoaa	aarkoaa	unk	_	_	_	_	_	orth=आर्कोआ
+23	piikka	piikka	VERB	_	_	_	_	_	orth=पीक्‍क|gloss=obey
+24	reppano.	reppano.	unk	_	_	_	_	_	orth=रेप्‍पनो।
+25	khoronaang	khoronaang	ADJ	_	_	_	_	_	orth=खोरोनाङ्|gloss=Other
+26	aannaaso	aannaaso	unk	_	_	_	_	_	orth=आन्‍नासो|gloss=im
+27	niinaammaam	niinaammaam	PROPN	_	_	_	_	_	orth=नीनाम्माम्|gloss=God’s
+28	lo	lo	PROPN	_	_	_	_	_	orth=लो|gloss=Barnabas
+29	daacaammiilo	daacaammiilo	unk	_	_	_	_	_	orth=दाचाम्मीलो
+30	niippom	niippom	VERB	_	_	_	acomp	_	orth=नीप्पोम्|gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+31	suuso	suuso	VERB	_	_	0	root	_	orth=सूसो|gloss=serve|VerbForm=Inf
+32	maduurnuumno.”	maduurnuumno.”	unk	_	_	_	_	_	orth=मदूर्‌नूम्नो।”
+
+# sent_id = 42024018
+# ref_id = Luke 24:18
+# eng_text = One of them , named Cleopas , answered him , " Are you the only one travelling in Jerusalem who doesn't know the things which have happened there in these days ? "					_
+# kle_text = khas tuuvaakapka kleopaas miiciik iilpo miicaa kha oro piikaanaa ngarii aannuu, “yaruushalem phalnaa aatcaaiikanaaso muungkapii ese-desaa uuii chuucaaii piim aanaa chettanoyo?”					_
+# kle_orth = खस् तूवाकप्‍क क्लेओपास मीचीक ईल्पो मीचा ख ओरो पीकाना ङरी आन्‍नू, “यरूशलेम फल्‍ना आत्चाईकनासो मूङ्‌कपी एसे-देसा ऊई छूचाई पीम् आना छेत्‍तनोयो?”					_
+1	khas	khas	PRON	_	_	_	pobj	_	orth=खस्|gloss=them|Case=Acc|Number=Plur|Person=3|PronType=Prs
+2	tuuvaakapka	tuuvaakapka	VERB	_	_	_	_	_	orth=तूवाकप्‍क|gloss=rebuke
+3	kleopaas	kleopaas	unk	_	_	_	_	_	orth=क्लेओपास
+4	miiciik	miiciik	VERB	_	_	_	_	_	orth=मीचीक|gloss=named
+5	iilpo	iilpo	DET	_	_	_	_	_	orth=ईल्पो|gloss=an|Definite=Ind|PronType=Art
+6	miicaa	miicaa	unk	_	_	_	_	_	orth=मीचा|gloss=ation
+7	kha	kha	PRON	_	_	_	_	_	orth=ख|gloss=him
+8	oro	oro	PUNCT	_	_	11	punct	_	orth=ओरो|PunctSide=Ini|PunctType=Quot
+9	piikaanaa	piikaanaa	VERB	_	_	_	_	_	orth=पीकाना|gloss=asked
+10	ngarii	ngarii	VERB	_	_	0	root	_	orth=ङरी|gloss=replied|Tense=Past|VerbForm=Fin
+11	aannuu,	aannuu,	VERB	_	_	0	root	_	orth=आन्‍नू,|gloss=replied|Tense=Past|VerbForm=Fin
+12	“yaruushalem	“yaruushalem	PROPN	_	_	_	_	_	orth=यरूशलेम|gloss=Jerusalem|Number=Sing
+13	phalnaa	phalnaa	unk	_	_	_	_	_	orth=फल्‍ना
+14	aatcaaiikanaaso	aatcaaiikanaaso	unk	_	_	_	_	_	orth=आत्चाईकनासो
+15	muungkapii	muungkapii	ADV	_	_	_	advmod	_	orth=मूङ्‌कपी|gloss=there|PronType=Dem
+16	ese-desaa	ese-desaa	unk	_	_	_	_	_	orth=एसे-देसा
+17	uuii	uuii	PRON	_	_	_	_	_	orth=ऊई|gloss=What
+18	chuucaaii	chuucaaii	unk	_	_	_	_	_	orth=छूचाई|gloss=ple
+19	piim	piim	NOUN	_	_	_	_	_	orth=पीम्|gloss=threat
+20	aanaa	aanaa	VERB	_	_	_	_	_	orth=आना|gloss=are
+21	chettanoyo?”	chettanoyo?”	unk	_	_	_	_	_	orth=छेत्‍तनोयो?”
+
+# sent_id = 43001039
+# ref_id = John 1:39
+# eng_text = He said to them , " Come , and see . " They came and saw where he was staying , and they stayed with him that day . It was about the tenth hour .					_
+# kle_text = khiikkaa yeshuuaa khas orolacii, “baanciinaa khongcuute.” khiikkaanaa khas khaataanaa yeshuum tuusko tacii. khuungka leii khas yeshuuskaang baas tuuvaa, uudoiipiikyaalo khontolo yuupaak liicii bajeii chuuvaakhaatka tuuvaa.					_
+# kle_orth = खीक्‍का येशूआ खस् ओरोलची, “बान्चीना खोङ्चूते।” खीक्‍काना खस् खाताना येशूम् तूस्को तची। खूङ्‌क लेई खस् येशूस्‍काङ् बास् तूवा, ऊदोईपीक्यालो खोन्तोलो यूपाक लीची बजेई छूवाखात्क तूवा।					_
+1	khiikkaa	khiikkaa	PUNCT	_	_	_	punct	_	orth=खीक्‍का|PunctType=Peri
+2	yeshuuaa	yeshuuaa	PROPN	_	_	_	_	_	orth=येशूआ|gloss=Jesus
+3	khas	khas	PRON	_	_	_	_	_	orth=खस्|gloss=them
+4	orolacii,	orolacii,	VERB	_	_	0	root	_	orth=ओरोलची,|gloss=said|Tense=Past|VerbForm=Fin
+5	“baanciinaa	“baanciinaa	unk	_	_	_	_	_	orth=“बान्चीना
+6	khongcuute.”	khongcuute.”	unk	_	_	_	_	_	orth=खोङ्चूते।”
+7	khiikkaanaa	khiikkaanaa	ADP	_	_	_	_	_	orth=खीक्‍काना|gloss=Then
+8	khas	khas	PRON	_	_	_	_	_	orth=खस्|gloss=them
+9	khaataanaa	khaataanaa	VERB	_	_	_	advcl	_	orth=खाताना|gloss=went|Tense=Past|VerbForm=Fin
+10	yeshuum	yeshuum	unk	_	_	_	_	_	orth=येशूम्|gloss=linen
+11	tuusko	tuusko	NUM	_	_	_	_	_	orth=तूस्को|gloss=2
+12	tacii.	tacii.	VERB	_	_	_	_	_	orth=तची।|gloss=discovered
+13	khuungka	khuungka	SCONJ	_	_	_	advmod	_	orth=खूङ्‌क|gloss=where
+14	leii	leii	NOUN	_	_	_	pobj	_	orth=लेई|gloss=day|Number=Sing
+15	khas	khas	PRON	_	_	_	_	_	orth=खस्|gloss=them
+16	yeshuuskaang	yeshuuskaang	unk	_	_	_	_	_	orth=येशूस्‍काङ्
+17	baas	baas	VERB	_	_	_	_	_	orth=बास्|gloss=shows
+18	tuuvaa,	tuuvaa,	unk	_	_	_	_	_	orth=तूवा,|gloss=ys
+19	uudoiipiikyaalo	uudoiipiikyaalo	ADP	_	_	_	_	_	orth=ऊदोईपीक्यालो|gloss=For
+20	khontolo	khontolo	VERB	_	_	_	_	_	orth=खोन्तोलो|gloss=owed
+21	yuupaak	yuupaak	unk	_	_	_	_	_	orth=यूपाक|gloss=inv
+22	liicii	liicii	NUM	_	_	_	_	_	orth=लीची|gloss=fourteen
+23	bajeii	bajeii	unk	_	_	_	_	_	orth=बजेई
+24	chuuvaakhaatka	chuuvaakhaatka	VERB	_	_	_	_	_	orth=छूवाखात्क|gloss=fallen
+25	tuuvaa.	tuuvaa.	AUX	_	_	_	_	_	orth=तूवा।|gloss=had
+
+# sent_id = 43003016
+# ref_id = John 3:16
+# eng_text = For God so loved the world , that he gave his one and only Son , that whoever believes in him should not perish , but have eternal life .					_
+# kle_text = “uudoiipiikyaalo niinaammaaaa caar haayaam lokto samtuumaa miik tuuye, naa khasaa iibuumngaang mchaa tuuvaakaso piidiitka tuuye, khansaa niinaammaam chaapii vishvaas map aasso naas chuuno, khodoloii khacaa haalloso maanyaaiip riiraam tayacii.					_
+# kle_orth = “ऊदोईपीक्यालो नीनाम्माआ चार हायाम् लोक्‍तो सम्‍तूमा मीक तूये, ना खसा ईबूम्ङाङ् म्छा तूवाकसो पीदीत्‍क तूये, खन्‍सा नीनाम्माम् छापी विश्‍वास मप् आस्‍सो नास् छूनो, खोदोलोई खचा हाल्‍लोसो मान्याईप् रीराम तयची।					_
+1	“uudoiipiikyaalo	“uudoiipiikyaalo	ADP	_	_	_	prep	_	orth=ऊदोईपीक्यालो|gloss=For
+2	niinaammaaaa	niinaammaaaa	PROPN	_	_	_	nsubj	_	orth=नीनाम्माआ|gloss=God|Number=Sing
+3	caar	caar	NOUN	_	_	_	_	_	orth=चार|gloss=rulers
+4	haayaam	haayaam	ADJ	_	_	_	_	_	orth=हायाम्|gloss=great
+5	lokto	lokto	unk	_	_	_	_	_	orth=लोक्‍तो|gloss=ish
+6	samtuumaa	samtuumaa	VERB	_	_	_	_	_	orth=सम्‍तूमा|gloss=love
+7	miik	miik	NOUN	_	_	_	_	_	orth=मीक|gloss=ears
+8	tuuye,	tuuye,	AUX	_	_	_	_	_	orth=तूये,|gloss=has
+9	naa	naa	CCONJ	_	_	_	cc	_	orth=ना|gloss=and|ConjType=Cmp
+10	khasaa	khasaa	PRON	_	_	_	_	_	orth=खसा|gloss=He
+11	iibuumngaang	iibuumngaang	ADV	_	_	_	conj	_	orth=ईबूम्ङाङ्|gloss=only
+12	mchaa	mchaa	NOUN	_	_	_	_	_	orth=म्छा|gloss=colt
+13	tuuvaakaso	tuuvaakaso	unk	_	_	_	_	_	orth=तूवाकसो|gloss=ven
+14	piidiitka	piidiitka	unk	_	_	_	_	_	orth=पीदीत्‍क
+15	tuuye,	tuuye,	AUX	_	_	_	_	_	orth=तूये,|gloss=has
+16	khansaa	khansaa	ADV	_	_	_	_	_	orth=खन्‍सा|gloss=So
+17	niinaammaam	niinaammaam	PROPN	_	_	_	_	_	orth=नीनाम्माम्|gloss=God’s
+18	chaapii	chaapii	unk	_	_	_	_	_	orth=छापी|gloss=ish
+19	vishvaas	vishvaas	VERB	_	_	_	_	_	orth=विश्‍वास|gloss=believe
+20	map	map	ADJ	_	_	_	_	_	orth=मप्|gloss=mighty
+21	aasso	aasso	DET	_	_	_	det	_	orth=आस्‍सो|gloss=no
+22	naas	naas	PRON	_	_	_	_	_	orth=नास्|gloss=Our
+23	chuuno,	chuuno,	NOUN	_	_	_	_	_	orth=छूनो,|gloss=Healthy
+24	khodoloii	khodoloii	CCONJ	_	_	_	cc	_	orth=खोदोलोई|gloss=but|ConjType=Cmp
+25	khacaa	khacaa	PRON	_	_	_	_	_	orth=खचा|gloss=They
+26	haalloso	haalloso	ADV	_	_	_	_	_	orth=हाल्‍लोसो|gloss=never
+27	maanyaaiip	maanyaaiip	ADJ	_	_	28	amod	_	orth=मान्याईप्|gloss=eternal|Degree=Pos
+28	riiraam	riiraam	NOUN	_	_	_	dobj	_	orth=रीराम|gloss=life|Number=Sing
+29	tayacii.	tayacii.	NOUN	_	_	_	_	_	orth=तयची।|gloss=clouds
+
+# sent_id = 44002030
+# ref_id = Acts 2:30
+# eng_text = Therefore , being a prophet , and knowing that God had sworn with an oath to him that of the fruit of his body , according to the flesh , he would raise up the Christ to sit on his throne ,					_
+# kle_text = daauud iilpo khaariibopo tuuvaa, khiikkaa khasaa niinaammaaaa yaade mak namlo chetka tuuvaa. niinaammaaaa daauudamii caas chaapkaa iilpo hongaabuu baaneii muuyonaa kham tuuskopii yuukso piikaanaa yaade mak tuuvaa.					_
+# kle_orth = दाऊद ईल्पो खारीबोपो तूवा, खीक्‍का खसा नीनाम्माआ यादे मक् नम्‍लो छेत्‍क तूवा। नीनाम्माआ दाऊदमी चास् छाप्‍का ईल्पो होङाबू बानेई मूयोना खम् तूस्कोपी यूक्सो पीकाना यादे मक तूवा।					_
+1	daauud	daauud	PROPN	_	_	15	poss	_	orth=दाऊद|gloss=David|Number=Sing
+2	iilpo	iilpo	DET	_	_	_	det	_	orth=ईल्पो|gloss=an|Definite=Ind|PronType=Art
+3	khaariibopo	khaariibopo	NOUN	_	_	_	attr	_	orth=खारीबोपो|gloss=prophet|Number=Sing
+4	tuuvaa,	tuuvaa,	unk	_	_	_	_	_	orth=तूवा,|gloss=ys
+5	khiikkaa	khiikkaa	PUNCT	_	_	11	punct	_	orth=खीक्‍का|PunctType=Peri
+6	khasaa	khasaa	PRON	_	_	_	_	_	orth=खसा|gloss=He
+7	niinaammaaaa	niinaammaaaa	PROPN	_	_	_	nsubj	_	orth=नीनाम्माआ|gloss=God|Number=Sing
+8	yaade	yaade	VERB	_	_	_	_	_	orth=यादे|gloss=promise
+9	mak	mak	VERB	_	_	_	_	_	orth=मक्|gloss=committed
+10	namlo	namlo	NOUN	_	_	_	_	_	orth=नम्‍लो|gloss=inside
+11	chetka	chetka	VERB	_	_	_	conj	_	orth=छेत्‍क|gloss=knew|Tense=Past|VerbForm=Fin
+12	tuuvaa.	tuuvaa.	AUX	_	_	_	aux	_	orth=तूवा।|gloss=had|Tense=Past|VerbForm=Fin
+13	niinaammaaaa	niinaammaaaa	PROPN	_	_	_	nsubj	_	orth=नीनाम्माआ|gloss=God|Number=Sing
+14	daauudamii	daauudamii	PROPN	_	_	15	poss	_	orth=दाऊदमी|gloss=David|Number=Sing
+15	caas	caas	NOUN	_	_	_	pobj	_	orth=चास्|gloss=descendants|Number=Plur
+16	chaapkaa	chaapkaa	unk	_	_	_	_	_	orth=छाप्‍का
+17	iilpo	iilpo	DET	_	_	_	det	_	orth=ईल्पो|gloss=an|Definite=Ind|PronType=Art
+18	hongaabuu	hongaabuu	NOUN	_	_	_	_	_	orth=होङाबू|gloss=King
+19	baaneii	baaneii	NOUN	_	_	_	_	_	orth=बानेई|gloss=monuments
+20	muuyonaa	muuyonaa	unk	_	_	_	_	_	orth=मूयोना
+21	kham	kham	PRON	_	_	_	poss	_	orth=खम्|gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+22	tuuskopii	tuuskopii	NOUN	_	_	_	_	_	orth=तूस्कोपी|gloss=realms
+23	yuukso	yuukso	VERB	_	_	_	_	_	orth=यूक्सो|gloss=Please
+24	piikaanaa	piikaanaa	VERB	_	_	_	_	_	orth=पीकाना|gloss=asked
+25	yaade	yaade	VERB	_	_	_	_	_	orth=यादे|gloss=promise
+26	mak	mak	VERB	_	_	_	_	_	orth=मक|gloss=committed
+27	tuuvaa.	tuuvaa.	AUX	_	_	_	aux	_	orth=तूवा।|gloss=had|Tense=Past|VerbForm=Fin
+
+# sent_id = 44009038
+# ref_id = Acts 9:38
+# eng_text = As Lydda was near Joppa , the disciples , hearing that Peter was there , sent two men to him , imploring him not to delay in coming to them .					_
+# kle_text = luddddaa yoppaapkaa miikhiing tuuvaakasaa, patrus luddddaapii tuuye piim robuum siiccecaa yenciinaa khacaa niippo miis patrus tuuvaakapii oro laciinaa biintii miiks pokscii, “samtuumaa miiyiikaanaa daavaang baaniipiikaate.”					_
+# kle_orth = लुड्डा योप्‍पाप्‍का मीखीङ् तूवाकसा, पत्रुस लुड्डापी तूये पीम् रोबूम् सीच्‍चेचा येन्‍चीना खचा नीप्पो मीस् पत्रुस तूवाकपी ओरो लचीना बीन्ती मीक्स् पोक्स्ची, “सम्‍तूमा मीयीकाना दावाङ् बानीपीकाते।”					_
+1	luddddaa	luddddaa	unk	_	_	_	_	_	orth=लुड्डा
+2	yoppaapkaa	yoppaapkaa	unk	_	_	_	_	_	orth=योप्‍पाप्‍का
+3	miikhiing	miikhiing	unk	_	_	_	_	_	orth=मीखीङ्
+4	tuuvaakasaa,	tuuvaakasaa,	ADJ	_	_	_	_	_	orth=तूवाकसा,|gloss=close
+5	patrus	patrus	PROPN	_	_	_	nsubj	_	orth=पत्रुस|gloss=Peter|Number=Sing
+6	luddddaapii	luddddaapii	unk	_	_	_	_	_	orth=लुड्डापी
+7	tuuye	tuuye	AUX	_	_	_	_	_	orth=तूये|gloss=Have
+8	piim	piim	VERB	_	_	_	_	_	orth=पीम्|gloss=threat
+9	robuum	robuum	NOUN	_	_	_	_	_	orth=रोबूम्|gloss=Lord’s
+10	siiccecaa	siiccecaa	unk	_	_	_	_	_	orth=सीच्‍चेचा|gloss=hing
+11	yenciinaa	yenciinaa	VERB	_	_	21	ccomp	_	orth=येन्‍चीना|gloss=heard|Aspect=Perf|Tense=Past|VerbForm=Part
+12	khacaa	khacaa	PRON	_	_	_	_	_	orth=खचा|gloss=They
+13	niippo	niippo	NUM	_	_	_	nummod	_	orth=नीप्पो|gloss=two|NumType=Card
+14	miis	miis	NOUN	_	_	_	_	_	orth=मीस्|gloss=person
+15	patrus	patrus	PROPN	_	_	_	nsubj	_	orth=पत्रुस|gloss=Peter|Number=Sing
+16	tuuvaakapii	tuuvaakapii	VERB	_	_	_	_	_	orth=तूवाकपी|gloss=sued
+17	oro	oro	PUNCT	_	_	21	punct	_	orth=ओरो|PunctSide=Ini|PunctType=Quot
+18	laciinaa	laciinaa	SCONJ	_	_	_	_	_	orth=लचीना|gloss=Since
+19	biintii	biintii	VERB	_	_	_	_	_	orth=बीन्ती|gloss=begged
+20	miiks	miiks	ADJ	_	_	_	_	_	orth=मीक्स्|gloss=respected
+21	pokscii,	pokscii,	VERB	_	_	0	root	_	orth=पोक्स्ची,|gloss=sent|Tense=Past|VerbForm=Fin
+22	“samtuumaa	“samtuumaa	VERB	_	_	_	_	_	orth=सम्‍तूमा|gloss=love|Tense=Pres|VerbForm=Fin
+23	miiyiikaanaa	miiyiikaanaa	unk	_	_	_	_	_	orth=मीयीकाना
+24	daavaang	daavaang	ADV	_	_	_	advmod	_	orth=दावाङ्|gloss=soon
+25	baaniipiikaate.”	baaniipiikaate.”	unk	_	_	_	_	_	orth=बानीपीकाते।”
+
+# sent_id = 44011011
+# ref_id = Acts 11:11
+# eng_text = Behold , immediately three men stood before the house where I was , having been sent from Caesarea to me .					_
+# kle_text = “khontongnaa chuuvaacaalo kaisariyaapiikaa opii poksciik suuppo miis keiikaa tuuyiikaak khiimpii taabaanaa.					_
+# kle_orth = “खोन्‍तोङ्ना छूवाचालो कैसरियापीका ओपी पोक्‍स्‍चीक सूप्‍पो मीस् केईका तूयीकाक खीम्पी ताबाना।					_
+1	“khontongnaa	“khontongnaa	unk	_	_	_	_	_	orth=“खोन्‍तोङ्ना
+2	chuuvaacaalo	chuuvaacaalo	unk	_	_	_	_	_	orth=छूवाचालो
+3	kaisariyaapiikaa	kaisariyaapiikaa	unk	_	_	_	_	_	orth=कैसरियापीका
+4	opii	opii	PRON	_	_	_	_	_	orth=ओपी|gloss=me
+5	poksciik	poksciik	VERB	_	_	_	_	_	orth=पोक्‍स्‍चीक|gloss=slipped
+6	suuppo	suuppo	NUM	_	_	_	_	_	orth=सूप्‍पो|gloss=Three
+7	miis	miis	NOUN	_	_	_	_	_	orth=मीस्|gloss=person
+8	keiikaa	keiikaa	PRON	_	_	_	_	_	orth=केईका|gloss=We
+9	tuuyiikaak	tuuyiikaak	unk	_	_	_	_	_	orth=तूयीकाक
+10	khiimpii	khiimpii	NOUN	_	_	_	_	_	orth=खीम्पी|gloss=synagogue
+11	taabaanaa.	taabaanaa.	unk	_	_	_	_	_	orth=ताबाना।
+
+# sent_id = 44021034
+# ref_id = Acts 21:34
+# eng_text = Some shouted one thing , some another , among the crowd . When he couldn't find out the truth because of the noise , he commanded him to be brought into the barracks .					_
+# kle_text = khodolo muungka orosarp miicaa heppaa iibuum riing macii heppaa aarko khaalakang riing mato caauupo pakcii, khoronaa caauupo pakciikasaa aachiiyaak riing ka uuye haaii piim thiimeiimanlaa maanduurkasaa khasaa paaval dorcii tuusko thaauupii khaayaanuumte laciinaa aajnyaa piicii.					_
+# kle_orth = खोदोलो मूङ्‌क ओरोसर्प् मीचा हेप्पा ईबूम् रीङ्‌ मची हेप्पा आर्को खालकङ्‌ रीङ्‌ मतो चाऊपो पक्ची, खोरोना चाऊपो पक्चीकसा आछीयाक रीङ्‌ क ऊये हाई पीम् थीमेईमन्ला मान्दूर्‌कसा खसा पावल दोर्‌ची तूस्को थाऊपी खायानूम्‍ते लचीना आज्ञा पीची।					_
+1	khodolo	khodolo	PUNCT	_	_	_	_	_	orth=खोदोलो|PunctSide=Fin|PunctType=Quot
+2	muungka	muungka	unk	_	_	_	_	_	orth=मूङ्‌क
+3	orosarp	orosarp	NOUN	_	_	_	_	_	orth=ओरोसर्प्|gloss=crowd
+4	miicaa	miicaa	unk	_	_	_	_	_	orth=मीचा|gloss=ation
+5	heppaa	heppaa	unk	_	_	_	_	_	orth=हेप्पा|gloss=iet
+6	iibuum	iibuum	DET	_	_	_	_	_	orth=ईबूम्|gloss=a|Definite=Ind|PronType=Art
+7	riing	riing	unk	_	_	_	_	_	orth=रीङ्‌|gloss=what
+8	macii	macii	unk	_	_	_	_	_	orth=मची|gloss=circum
+9	heppaa	heppaa	unk	_	_	_	_	_	orth=हेप्पा|gloss=iet
+10	aarko	aarko	unk	_	_	_	_	_	orth=आर्को|gloss=ail
+11	khaalakang	khaalakang	unk	_	_	_	_	_	orth=खालकङ्‌
+12	riing	riing	unk	_	_	_	_	_	orth=रीङ्‌|gloss=what
+13	mato	mato	ADJ	_	_	_	_	_	orth=मतो|gloss=eager
+14	caauupo	caauupo	NOUN	_	_	_	pobj	_	orth=चाऊपो|gloss=uproar|Number=Sing
+15	pakcii,	pakcii,	unk	_	_	_	_	_	orth=पक्ची,
+16	khoronaa	khoronaa	VERB	_	_	_	ccomp	_	orth=खोरोना|gloss=taken|Aspect=Perf|Tense=Past|VerbForm=Part
+17	caauupo	caauupo	NOUN	_	_	_	pobj	_	orth=चाऊपो|gloss=uproar|Number=Sing
+18	pakciikasaa	pakciikasaa	unk	_	_	_	_	_	orth=पक्चीकसा
+19	aachiiyaak	aachiiyaak	unk	_	_	_	_	_	orth=आछीयाक|gloss=fri
+20	riing	riing	unk	_	_	_	_	_	orth=रीङ्‌|gloss=what
+21	ka	ka	NUM	_	_	_	nummod	_	orth=क|gloss=one|NumType=Card
+22	uuye	uuye	ADJ	_	_	_	_	_	orth=ऊये|gloss=mean
+23	haaii	haaii	VERB	_	_	_	_	_	orth=हाई|gloss=commander
+24	piim	piim	NOUN	_	_	_	_	_	orth=पीम्|gloss=threat
+25	thiimeiimanlaa	thiimeiimanlaa	unk	_	_	_	_	_	orth=थीमेईमन्ला
+26	maanduurkasaa	maanduurkasaa	unk	_	_	_	_	_	orth=मान्दूर्‌कसा
+27	khasaa	khasaa	PRON	_	_	_	_	_	orth=खसा|gloss=He
+28	paaval	paaval	PROPN	_	_	16	nsubjpass	_	orth=पावल|gloss=Paul|Number=Sing
+29	dorcii	dorcii	NOUN	_	_	_	_	_	orth=दोर्‌ची|gloss=soldiers
+30	tuusko	tuusko	NUM	_	_	_	_	_	orth=तूस्को|gloss=2
+31	thaauupii	thaauupii	VERB	_	_	_	_	_	orth=थाऊपी|gloss=baptizing
+32	khaayaanuumte	khaayaanuumte	unk	_	_	_	_	_	orth=खायानूम्‍ते
+33	laciinaa	laciinaa	SCONJ	_	_	_	mark	_	orth=लचीना|gloss=Since
+34	aajnyaa	aajnyaa	VERB	_	_	_	_	_	orth=आज्ञा|gloss=commands
+35	piicii.	piicii.	VERB	_	_	_	_	_	orth=पीची।|gloss=gave
+
+# sent_id = 47012002
+# ref_id = 2 Corinthians 12:2
+# eng_text = I know a man in Christ , fourteen years ago ( whether in the body , I don't know , or whether out of the body , I don't know ; God knows ) , such a one caught up into the third heaven .					_
+# kle_text = khriissttapii kongaa iilpo miis cheto, khuungka iikpong liicii dong laaiispii tesro saaraanggaa sammo thetkhiicii. kha gaampiiyo khaaiicii gaammaandiiyo khaaiicii khuungka kongaa chetono, niinaammaaaa chetta.					_
+# kle_orth = ख्रीष्‍टपी कोङा ईल्पो मीस् छेतो, खूङ्‍क ईक्पोङ् लीची दोङ् लाईस्पी तेस्रो साराङ्‍गा सम्मो थेत्खीची। ख गाम्पीयो खाईची गाम्मान्दीयो खाईची खूङ्‍क कोङा छेतोनो, नीनाम्माआ छेत्‍त।					_
+1	khriissttapii	khriissttapii	ADJ	_	_	_	_	_	orth=ख्रीष्‍टपी|gloss=Christian
+2	kongaa	kongaa	PRON	_	_	_	nsubj	_	orth=कोङा|gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+3	iilpo	iilpo	DET	_	_	_	_	_	orth=ईल्पो|gloss=an|Definite=Ind|PronType=Art
+4	miis	miis	NOUN	_	_	_	_	_	orth=मीस्|gloss=person
+5	cheto,	cheto,	VERB	_	_	_	_	_	orth=छेतो,|gloss=know
+6	khuungka	khuungka	SCONJ	_	_	_	_	_	orth=खूङ्‍क|gloss=where
+7	iikpong	iikpong	NUM	_	_	_	_	_	orth=ईक्पोङ्|gloss=ten
+8	liicii	liicii	NUM	_	_	9	nummod	_	orth=लीची|gloss=fourteen|NumType=Card
+9	dong	dong	NOUN	_	_	_	npadvmod	_	orth=दोङ्|gloss=years|Number=Plur
+10	laaiispii	laaiispii	ADP	_	_	_	_	_	orth=लाईस्पी|gloss=before
+11	tesro	tesro	ADJ	_	_	_	amod	_	orth=तेस्रो|gloss=third|Degree=Pos
+12	saaraanggaa	saaraanggaa	NOUN	_	_	_	_	_	orth=साराङ्‍गा|gloss=heavens
+13	sammo	sammo	ADP	_	_	_	_	_	orth=सम्मो|gloss=until
+14	thetkhiicii.	thetkhiicii.	unk	_	_	_	_	_	orth=थेत्खीची।
+15	kha	kha	PRON	_	_	_	_	_	orth=ख|gloss=him
+16	gaampiiyo	gaampiiyo	unk	_	_	_	_	_	orth=गाम्पीयो
+17	khaaiicii	khaaiicii	ADV	_	_	_	_	_	orth=खाईची|gloss=greatly
+18	gaammaandiiyo	gaammaandiiyo	unk	_	_	_	_	_	orth=गाम्मान्दीयो
+19	khaaiicii	khaaiicii	ADV	_	_	_	_	_	orth=खाईची|gloss=greatly
+20	khuungka	khuungka	SCONJ	_	_	_	_	_	orth=खूङ्‍क|gloss=where
+21	kongaa	kongaa	PRON	_	_	_	nsubj	_	orth=कोङा|gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+22	chetono,	chetono,	unk	_	_	_	_	_	orth=छेतोनो,
+23	niinaammaaaa	niinaammaaaa	PROPN	_	_	24	nsubj	_	orth=नीनाम्माआ|gloss=God|Number=Sing
+24	chetta.	chetta.	VERB	_	_	0	root	_	orth=छेत्‍त।|gloss=knows|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+
+# sent_id = 62004009
+# ref_id = 1 John 4:9
+# eng_text = By this was God's love revealed in us , that God has sent his only born Son into the world that we might live through him .					_
+# kle_text = niinaammaaaa iibuumngaang mchaa tuuvaakaso ngka caarapii poksdaatnaa msamtuumaa keii khomiiyiik tuuye khansaa keii khalo leiimcaam chuuye.					_
+# kle_orth = नीनाम्माआ ईबूम्ङाङ् म्छा तूवाकसो ङ्‌क चारपी पोक्स्दात्ना म्सम्तूमा केई खोमीयीक तूये खन्‍सा केई खलो लेईम्‍चाम्‌ छूये।					_
+1	niinaammaaaa	niinaammaaaa	PROPN	_	_	_	nsubj	_	orth=नीनाम्माआ|gloss=God|Number=Sing
+2	iibuumngaang	iibuumngaang	ADV	_	_	_	advmod	_	orth=ईबूम्ङाङ्|gloss=only
+3	mchaa	mchaa	NOUN	_	_	_	_	_	orth=म्छा|gloss=colt
+4	tuuvaakaso	tuuvaakaso	unk	_	_	_	_	_	orth=तूवाकसो|gloss=ven
+5	ngka	ngka	PRON	_	_	_	_	_	orth=ङ्‌क|gloss=this
+6	caarapii	caarapii	NOUN	_	_	_	_	_	orth=चारपी|gloss=earth
+7	poksdaatnaa	poksdaatnaa	unk	_	_	_	_	_	orth=पोक्स्दात्ना
+8	msamtuumaa	msamtuumaa	unk	_	_	_	_	_	orth=म्सम्तूमा
+9	keii	keii	unk	_	_	_	_	_	orth=केई|gloss=let’s
+10	khomiiyiik	khomiiyiik	unk	_	_	_	_	_	orth=खोमीयीक
+11	tuuye	tuuye	AUX	_	_	_	_	_	orth=तूये|gloss=Have
+12	khansaa	khansaa	ADP	_	_	_	_	_	orth=खन्‍सा|gloss=So
+13	keii	keii	unk	_	_	_	_	_	orth=केई|gloss=let’s
+14	khalo	khalo	VERB	_	_	_	_	_	orth=खलो|gloss=gone
+15	leiimcaam	leiimcaam	VERB	_	_	_	_	_	orth=लेईम्‍चाम्‌|gloss=live
+16	chuuye.	chuuye.	unk	_	_	_	_	_	orth=छूये।|gloss=ily
+
+# sent_id = 63001005
+# ref_id = 2 John 1:5
+# eng_text = Now I beg you , dear lady , not as though I wrote to you a new commandment , but that which we had from the beginning , that we love one another .					_
+# kle_text = e necho, kongaa aam laagii iibuum nayaam aajnyaa chaapuucoyok maake, khodoloii kongaa kecheyiikaang iipii tuuvaak riingngaa chaapuucoyok tuuye. khansaa keii ii hop-hoppii samtuumaa miilaiiyaake piikonaa kongaa aannii biintii miiyaannii.					_
+# kle_orth = ए नेछो, कोङा आम् लागी ईबूम् नयाँ आज्ञा छापूचोयोक माके, खोदोलोई कोङा केछेयीकाङ् ईपी तूवाक रीङ्‌ङा छापूचोयोक तूये। खन्‍सा केई ई होप्-होप्‍पी सम्‍तूमा मीलईयाके पीकोना कोङा आन्‍नी बीन्ती मीयान्‍नी।					_
+1	e	e	unk	_	_	_	_	_	orth=ए|gloss=importantthe
+2	necho,	necho,	unk	_	_	_	_	_	orth=नेछो,
+3	kongaa	kongaa	PRON	_	_	9	nsubj	_	orth=कोङा|gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+4	aam	aam	PRON	_	_	_	_	_	orth=आम्|gloss=your|Person=2|Poss=Yes|PronType=Prs
+5	laagii	laagii	ADP	_	_	_	_	_	orth=लागी|gloss=for
+6	iibuum	iibuum	DET	_	_	_	det	_	orth=ईबूम्|gloss=a|Definite=Ind|PronType=Art
+7	nayaam	nayaam	ADJ	_	_	_	amod	_	orth=नयाँ|gloss=new|Degree=Pos
+8	aajnyaa	aajnyaa	VERB	_	_	_	_	_	orth=आज्ञा|gloss=commands
+9	chaapuucoyok	chaapuucoyok	VERB	_	_	0	root	_	orth=छापूचोयोक|gloss=writing|Aspect=Prog|Tense=Pres|VerbForm=Part
+10	maake,	maake,	NOUN	_	_	_	_	_	orth=माके,|gloss=peace
+11	khodoloii	khodoloii	CCONJ	_	_	_	cc	_	orth=खोदोलोई|gloss=but|ConjType=Cmp
+12	kongaa	kongaa	PRON	_	_	9	nsubj	_	orth=कोङा|gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+13	kecheyiikaang	kecheyiikaang	NOUN	_	_	_	_	_	orth=केछेयीकाङ्|gloss=generations
+14	iipii	iipii	NOUN	_	_	_	_	_	orth=ईपी|gloss=claim
+15	tuuvaak	tuuvaak	unk	_	_	_	_	_	orth=तूवाक|gloss=c
+16	riingngaa	riingngaa	unk	_	_	_	_	_	orth=रीङ्‌ङा|gloss=ned
+17	chaapuucoyok	chaapuucoyok	VERB	_	_	0	root	_	orth=छापूचोयोक|gloss=writing|Aspect=Prog|Tense=Pres|VerbForm=Part
+18	tuuye.	tuuye.	AUX	_	_	_	aux	_	orth=तूये।|gloss=have|Mood=Ind|Tense=Pres|VerbForm=Fin
+19	khansaa	khansaa	ADV	_	_	_	_	_	orth=खन्‍सा|gloss=So
+20	keii	keii	unk	_	_	_	_	_	orth=केई|gloss=let’s
+21	ii	ii	PRON	_	_	_	_	_	orth=ई|gloss=our
+22	hop-hoppii	hop-hoppii	ADJ	_	_	_	_	_	orth=होप्-होप्‍पी|gloss=each
+23	samtuumaa	samtuumaa	VERB	_	_	17	ccomp	_	orth=सम्‍तूमा|gloss=love|VerbForm=Inf
+24	miilaiiyaake	miilaiiyaake	unk	_	_	_	_	_	orth=मीलईयाके
+25	piikonaa	piikonaa	PRON	_	_	17	nsubj	_	orth=पीकोना|gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+26	kongaa	kongaa	PRON	_	_	17	nsubj	_	orth=कोङा|gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+27	aannii	aannii	PRON	_	_	_	dobj	_	orth=आन्‍नी|gloss=you|Case=Acc|Person=2|PronType=Prs
+28	biintii	biintii	VERB	_	_	_	_	_	orth=बीन्ती|gloss=begged
+29	miiyaannii.	miiyaannii.	unk	_	_	_	_	_	orth=मीयान्‍नी।
+

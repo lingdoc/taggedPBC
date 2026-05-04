@@ -1,0 +1,979 @@
+## The following text has been annotated for parts of speech by students at NTU Singapore as part of a class project in AY 2025-26.
+## Verses are extracted from the taggedPBC. Annotations have been developed with a combination of manual and automated approaches, with reference to existing literature and (where possible) native speakers.
+## ISO 639-3: zyb, Language: Yongbei Zhuang, Number of verses: 21
+
+# sent_id = 40006024
+# ref_id = Matthew 6:24
+# eng_text = " No one can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You can't serve both God and Mammon .
+# zyb_text = De caiq naeuz : ü Bouxhoiq he mbouj ndaej swqhaeuh song bouxcawj ; mbouj nex , de gaengjdingq haenj boux he , yiem boux he , cixnaeuz naek boux he , mbaeu boux he . Sojhij faenhsou mbouj ndaej gingqbaiq Cangqdiq caiq baiqfug ngaenz .
+1	De	de	PRON	_	_	_	_	_	Gloss=He
+2	caiq	caiq	ADV	_	_	_	_	_	Gloss=again
+3	naeuz	naeuz	VERB	_	_	_	_	_	Gloss=say
+4	:	:	PUNCT	_	_	_	_	_	_
+5	"	"	PUNCT	_	_	10	punct	_	PunctSide=Ini|PunctType=Quot
+6	Bouxhoiq	bouxhoiq	NOUN	_	_	_	conj	_	Gloss=despise|VerbForm=Inf
+7	he	he	PART	_	_	_	_	_	Gloss=g
+8	mbouj	mbouj	ADV	_	_	10	neg	_	Gloss=not|Polarity=Neg
+9	ndaej	ndaej	VERB	_	_	10	aux	_	Gloss=can|VerbForm=Fin
+10	swqhaeuh	swqhaeuh	VERB	_	_	0	root	_	Gloss=serve|VerbForm=Inf
+11	song	song	NUM	_	_	43	nummod	_	Gloss=two|NumType=Card
+12	bouxcawj	bouxcawj	NOUN	_	_	_	_	_	Gloss=master
+13	;	;	PUNCT	_	_	_	_	_	_
+14	mbouj	mbouj	ADV	_	_	10	neg	_	Gloss=or else
+15	nex	nex	ADV	_	_	_	_	_	Gloss=then
+16	,	,	PUNCT	_	_	_	_	_	_
+17	de	de	PRON	_	_	_	_	_	Gloss=him
+18	gaengjdingq	gaengjdingq	ADV	_	_	_	AUX	_	Gloss=will
+19	haenj	haenj	VERB	_	_	_	_	_	Gloss=love
+20	boux	boux	NOUN	_	_	_	_	_	Gloss=one
+21	he	he	PART	_	_	_	_	_	Gloss=DET
+22	,	,	PUNCT	_	_	_	_	_	_
+23	yiem	yiem	VERB	_	_	_	_	_	Gloss=hate
+24	boux	boux	NOUN	_	_	_	_	_	Gloss=other
+25	he	he	PART	_	_	_	_	_	Gloss=DET
+26	,	,	PUNCT	_	_	_	_	_	_
+27	cixnaeuz	cixnaeuz	CCONJ	_	_	_	_	_	Gloss=or
+28	naek	naek	VERB	_	_	_	_	_	Gloss=hold to / be devoted to
+29	boux	boux	NOUN	_	_	_	_	_	Gloss=one
+30	he	he	PART	_	_	_	_	_	Gloss=DET
+31	,	,	PUNCT	_	_	_	_	_	_
+32	mbaeu	mbaeu	ADV	_	_	_	_	_	Gloss=and
+33	boux	boux	NOUN	_	_	_	_	_	Gloss=other
+34	he	he	PART	_	_	_	_	_	Gloss=DET
+35	.	.	PUNCT	_	_	_	_	_	_
+36	Sojhij	sojhij	ADV	_	_	_	_	_	Gloss=therefore
+37	faenhsou	faenhsou	PRON	_	_	_	_	_	Gloss=you
+38	mbouj	mbouj	ADV	_	_	_	_	_	Gloss=not
+39	ndaej	ndaej	AUX	_	_	_	_	_	Gloss=can
+40	gingqbaiq	gingqbaiq	VERB	_	_	_	_	_	Gloss=serve/worship
+41	Cangqdiq	cangqdiq	PROPN	_	_	_	_	_	Gloss=God
+42	caiq	caiq	CONJ	_	_	_	_	_	Gloss=and
+44	ngaenz	ngaenz	NOUN	_	_	_	_	_	Gloss=money/Mammon
+45	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = 40018012
+# ref_id = Matthew 18:12
+# eng_text = " What do you think ? If a man has one hundred sheep , and one of them goes astray , doesn't he leave the ninety-nine , go to the mountains , and seek that which has gone astray ?
+# zyb_text = Yehsuh gangj daengz dineix le , vanzlij yungh beijgangj ma naeuz : ü Gou cam faenhsou , beijgangj naeuz miz boux he , de miz bak duz yiengz , hoeng , miz duz he ngaiz mbouj raen lo . Yiengq boux de ij mbouj ij camqciz mbouj leix goujcib gouj duz mwnq hwj bae cimh duz ngaiz mbouj raen mwnq nej ?
+1	Yehsuh	yehsuh	PROPN	_	_	_	_	_	Gloss=Jesus
+2	gangj	gangj	VERB	_	_	_	_	_	Gloss=speak
+3	daengz	daengz	ADP	_	_	_	_	_	Gloss=about
+4	dineix	dineix	PRON	_	_	_	_	_	Gloss=this
+5	le	le	PART	_	_	_	_	_	Gloss=PFV
+6	,	,	PUNCT	_	_	_	_	_	_
+7	vanzlij	vanzlij	ADV	_	_	_	_	_	Gloss=again
+8	yungh	yungh	VERB	_	_	_	_	_	Gloss=use
+9	beijgangj	beijgangj	NOUN	_	_	_	_	_	Gloss=parable
+10	ma	ma	PART	_	_	_	_	_	Gloss=MOD
+11	naeuz	naeuz	VERB	_	_	_	_	_	Gloss=say
+12	:	:	PUNCT	_	_	_	_	_	_
+13	"	"	PUNCT	_	_	_	_	_	PunctSide=Ini|PunctType=Quot
+14	Gou	gou	PRON	_	_	_	_	_	Gloss=I
+15	cam	cam	VERB	_	_	_	_	_	Gloss=ask
+16	faenhsou	faenhsou	PRON	_	_	_	_	_	Gloss=you
+17	,	,	PUNCT	_	_	_	_	_	_
+18	beijgangj	beijgangj	NOUN	_	_	_	_	_	Gloss=parable
+19	naeuz	naeuz	VERB	_	_	_	_	_	Gloss=say
+20	miz	miz	VERB	_	_	_	_	_	Gloss=have
+21	boux	boux	NOUN	_	_	_	_	_	Gloss=man
+22	he	he	PART	_	_	_	_	_	Gloss=DET
+23	,	,	PUNCT	_	_	_	_	_	_
+24	de	de	PRON	_	_	_	_	_	Gloss=he
+25	miz	miz	VERB	_	_	_	_	_	Gloss=have
+26	bak	bak	NUM	_	_	_	_	_	Gloss=hundred
+27	duz	duz	NOUN	_	_	_	_	_	Gloss=CLF
+28	yiengz	yiengz	NOUN	_	_	_	_	_	Gloss=sheep
+29	,	,	PUNCT	_	_	_	_	_	_
+30	hoeng	hoeng	SCONJ	_	_	_	_	_	Gloss=if
+31	,	,	PUNCT	_	_	_	_	_	_
+32	miz	miz	VERB	_	_	_	_	_	Gloss=have
+33	duz	duz	NOUN	_	_	_	_	_	Gloss=one
+34	he	he	PART	_	_	_	_	_	Gloss=DET
+35	ngaiz	ngaiz	VERB	_	_	_	_	_	Gloss=go_astray
+36	mbouj	mbouj	ADV	_	_	_	_	_	Gloss=not
+37	raen	raen	VERB	_	_	_	_	_	Gloss=see
+38	lo	lo	PART	_	_	_	_	_	Gloss=PFV
+39	.	.	PUNCT	_	_	_	_	_	_
+40	Yiengq	yiengq	ADV	_	_	_	_	_	Gloss=then
+41	boux	boux	NOUN	_	_	_	_	_	Gloss=man
+42	de	de	PRON	_	_	_	_	_	Gloss=he
+43	ij	ij	AUX	_	_	_	_	_	Gloss=will
+44	mbouj	mbouj	ADV	_	_	_	_	_	Gloss=not
+45	ij	ij	AUX	_	_	_	_	_	Gloss=will
+46	camqciz	camqciz	VERB	_	_	_	_	_	Gloss=leave
+47	mbouj	mbouj	ADV	_	_	_	_	_	Gloss=not
+48	leix	leix	VERB	_	_	_	_	_	Gloss=care
+49	goujcib	goujcib	NUM	_	_	_	_	_	Gloss=ninety
+50	gouj	gouj	NUM	_	_	_	_	_	Gloss=nine
+51	duz	duz	NOUN	_	_	_	_	_	Gloss=CLF
+52	mwnq	mwnq	PRON	_	_	_	_	_	Gloss=them
+53	hwj	hwj	ADP	_	_	_	_	_	Gloss=to
+54	bae	bae	VERB	_	_	_	_	_	Gloss=go
+55	cimh	cimh	VERB	_	_	_	_	_	Gloss=seek
+56	duz	duz	NOUN	_	_	_	_	_	Gloss=one
+57	ngaiz	ngaiz	VERB	_	_	_	_	_	Gloss=go_astray
+58	mbouj	mbouj	ADV	_	_	_	_	_	Gloss=not
+59	raen	raen	VERB	_	_	_	_	_	Gloss=see
+60	mwnq	mwnq	PRON	_	_	_	_	_	Gloss=that
+61	nej	nej	PART	_	_	_	_	_	Gloss=Q
+62	?	?	PUNCT	_	_	_	_	_	PunctType=Peri
+
+# sent_id = 40020021
+# ref_id = Matthew 20:21
+# eng_text = He said to her , " What do you want ? " She said to him , " Command that these , my two sons , may sit , one on your right hand , and one on your left hand , in your kingdom . "
+# zyb_text = Yehsuh raen le , couh cam de naeuz : ü Mwngz miz maz saeh hax ? ü Meh de han naeuz : ü Gouz mwngz hawj song daeglwg gou youq ndaw guek mwngz , boux he naengh youq baixgvaz mwngz , boux he naengh youq baihswix mwngz bax . ü
+1	Yehsuh	yehsuh	PROPN	_	_	_	_	_	Gloss=Jesus
+2	raen	raen	VERB	_	_	_	_	_	Gloss=see
+3	le	le	PART	_	_	_	_	_	Gloss=PFV
+4	,	,	PUNCT	_	_	_	_	_	_
+5	couh	couh	ADV	_	_	_	_	_	Gloss=then
+6	cam	cam	VERB	_	_	0	root	_	Gloss=ask
+7	de	de	PRON	_	_	_	_	_	Gloss=her
+8	naeuz	naeuz	VERB	_	_	_	_	_	Gloss=say
+9	:	:	PUNCT	_	_	_	_	_	_
+10	"	"	PUNCT	_	_	_	_	_	PunctSide=Ini|PunctType=Quot
+11	Mwngz	mwngz	PRON	_	_	_	_	_	Gloss=you
+12	miz	miz	VERB	_	_	_	_	_	Gloss=have
+13	maz	maz	PRON	_	_	_	_	_	Gloss=what
+14	saeh	saeh	NOUN	_	_	_	_	_	Gloss=matter
+15	hax	hax	PART	_	_	_	_	_	Gloss=Q
+16	?	?	PUNCT	_	_	_	_	_	_
+17	"	"	PUNCT	_	_	_	_	_	PunctSide=Fin|PunctType=Quot
+18	Meh	meh	PRON	_	_	_	_	_	Gloss=she
+19	de	de	PRON	_	_	_	_	_	Gloss=him
+20	han	han	VERB	_	_	0	root	_	Gloss=reply
+21	naeuz	naeuz	VERB	_	_	_	_	_	Gloss=say
+22	:	:	PUNCT	_	_	_	_	_	_
+23	"	"	PUNCT	_	_	_	_	_	PunctSide=Ini|PunctType=Quot
+24	Gouz	gouz	VERB	_	_	_	_	_	Gloss=ask
+25	mwngz	mwngz	PRON	_	_	_	_	_	Gloss=you
+26	hawj	hawj	VERB	_	_	_	_	_	Gloss=let
+27	song	song	NUM	_	_	_	_	_	Gloss=two
+28	daeglwg	daeglwg	NOUN	_	_	_	_	_	Gloss=son
+29	gou	gou	PRON	_	_	_	_	_	Gloss=my
+30	youq	youq	ADP	_	_	_	_	_	Gloss=in
+31	ndaw	ndaw	NOUN	_	_	_	_	_	Gloss=inside
+32	guek	guek	NOUN	_	_	_	_	_	Gloss=kingdom
+33	mwngz	mwngz	PRON	_	_	_	_	_	Gloss=your
+34	,	,	PUNCT	_	_	_	_	_	_
+35	boux	boux	PRON	_	_	_	_	_	Gloss=one
+36	he	he	PART	_	_	_	_	_	Gloss=DET
+37	naengh	naengh	VERB	_	_	_	_	_	Gloss=sit
+38	youq	youq	ADP	_	_	_	_	_	Gloss=at
+39	baixgvaz	baixgvaz	NOUN	_	_	_	_	_	Gloss=right
+40	mwngz	mwngz	PRON	_	_	_	_	_	Gloss=your
+41	,	,	PUNCT	_	_	_	_	_	_
+42	boux	boux	PRON	_	_	_	_	_	Gloss=one
+43	he	he	PART	_	_	_	_	_	Gloss=DET
+44	naengh	naengh	VERB	_	_	_	_	_	Gloss=sit
+45	youq	youq	ADP	_	_	_	_	_	Gloss=at
+46	baihswix	baihswix	NOUN	_	_	_	_	_	Gloss=left
+47	mwngz	mwngz	PRON	_	_	_	_	_	Gloss=your
+48	bax	bax	PART	_	_	_	_	_	Gloss=REQ
+49	.	.	PUNCT	_	_	_	_	_	_
+50	"	"	PUNCT	_	_	_	_	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 40026002
+# ref_id = Matthew 26:2
+# eng_text = " You know that after two days the Passover is coming , and the Son of Man will be delivered up to be crucified . "
+# zyb_text = ü Faenhsou caemh rox , goq song ngoenz haem couh daengz aen ciet Bienqgoqbae lo . Daengz mwhde , gou , Vunz dih Daiqbiuj , ij ngaiz vunz cuzmaiq , ngaiz vunz dawz bae ding hwnj gwnz gyaq cixcib bae rai . ü
+1	"	"	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+2	Faenhsou	faenhsou	PRON	_	_	_	_	_	Gloss=you
+3	caemh	caemh	SCONJ	_	_	_	_	_	Gloss=that
+4	rox	rox	VERB	_	_	_	_	_	Gloss=know
+5	,	,	PUNCT	_	_	_	_	_	_
+6	goq	goq	ADV	_	_	_	_	_	Gloss=after
+7	song	song	NUM	_	_	_	_	_	Gloss=two
+8	ngoenz	ngoenz	NOUN	_	_	_	_	_	Gloss=day
+9	haem	haem	ADV	_	_	_	_	_	Gloss=then
+10	couh	couh	ADV	_	_	_	_	_	Gloss=then
+11	daengz	daengz	VERB	_	_	_	_	_	Gloss=arrive/come
+12	aen	aen	DET	_	_	_	_	_	Gloss=CLF
+13	ciet	ciet	NOUN	_	_	_	_	_	Gloss=festival
+14	Bienqgoqbae	bienqgoqbae	PROPN	_	_	_	_	_	Gloss=Passover
+15	lo	lo	PART	_	_	_	_	_	Gloss=PFV
+16	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+17	Daengz	daengz	SCONJ	_	_	_	_	_	Gloss=when
+18	mwhde	mwhde	NOUN	_	_	_	_	_	Gloss=time
+19	,	,	PUNCT	_	_	_	_	_	_
+20	gou	gou	PRON	_	_	_	_	_	Gloss=I
+21	,	,	PUNCT	_	_	_	_	_	_
+22	Vunz	vunz	NOUN	_	_	_	_	_	Gloss=man
+23	dih	dih	PART	_	_	_	_	_	Gloss=GEN
+24	Daiqbiuj	daiqbiuj	PROPN	_	_	_	_	_	Gloss=representative
+25	,	,	PUNCT	_	_	_	_	_	_
+26	ij	ij	AUX	_	_	_	_	_	Gloss=will
+27	ngaiz	ngaiz	VERB	_	_	_	_	_	Gloss=let/allow
+28	vunz	vunz	NOUN	_	_	_	_	_	Gloss=people
+29	cuzmaiq	cuzmaiq	VERB	_	_	_	_	_	Gloss=hand_over
+30	,	,	PUNCT	_	_	_	_	_	_
+31	ngaiz	ngaiz	VERB	_	_	_	_	_	Gloss=let
+32	vunz	vunz	NOUN	_	_	_	_	_	Gloss=people
+33	dawz	dawz	VERB	_	_	_	_	_	Gloss=take
+34	bae	bae	VERB	_	_	_	_	_	Gloss=go
+35	ding	ding	VERB	_	_	_	_	_	Gloss=nail
+36	hwnj	hwnj	ADV	_	_	_	_	_	Gloss=up
+37	gwnz	gwnz	ADP	_	_	_	_	_	Gloss=on
+38	gyaq	gyaq	NOUN	_	_	_	_	_	Gloss=frame
+39	cixcib	cixcib	NOUN	_	_	_	_	_	Gloss=cross
+40	bae	bae	VERB	_	_	_	_	_	Gloss=go
+41	rai	rai	VERB	_	_	_	_	_	Gloss=die
+42	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+43	"	"	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 40026061
+# ref_id = Matthew 26:61
+# eng_text = and said , " This man said , ' I am able to destroy the temple of God , and to build it in three days . ' "
+# zyb_text = ü Boux vunz neix de naeuz goq naeuz : ü Gou ndaej cek aen gunghdenq Cangqdiq , sam ngoenz ndaw de caiq ndaej doiqyungz caep hwnjdaeuj boiz . ü ü
+1	"	"	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+2	Boux	boux	NOUN	_	_	_	_	_	Gloss=man
+3	vunz	vunz	NOUN	_	_	_	_	_	Gloss=person
+4	neix	neix	DET	_	_	_	_	_	Gloss=this
+5	de	de	PRON	_	_	_	_	_	Gloss=he
+6	naeuz	naeuz	VERB	_	_	_	_	_	Gloss=say
+7	goq	goq	ADV	_	_	_	_	_	Gloss=again
+8	naeuz	naeuz	VERB	_	_	_	_	_	Gloss=say
+9	:	:	PUNCT	_	_	_	_	_	_
+10	"	"	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+11	Gou	gou	PRON	_	_	_	_	_	Gloss=I
+12	ndaej	ndaej	AUX	_	_	_	_	_	Gloss=can
+13	cek	cek	VERB	_	_	_	_	_	Gloss=destroy
+14	aen	aen	DET	_	_	_	_	_	Gloss=CLF
+15	gunghdenq	gunghdenq	NOUN	_	_	_	_	_	Gloss=temple
+16	Cangqdiq	cangqdiq	PROPN	_	_	_	_	_	Gloss=God
+17	,	,	PUNCT	_	_	_	_	_	_
+18	sam	sam	NUM	_	_	_	_	_	Gloss=three
+19	ngoenz	ngoenz	NOUN	_	_	_	_	_	Gloss=day
+20	ndaw	ndaw	ADP	_	_	_	_	_	Gloss=in
+21	de	de	PRON	_	_	_	_	_	Gloss=it
+22	caiq	caiq	ADV	_	_	_	_	_	Gloss=again
+23	ndaej	ndaej	AUX	_	_	_	_	_	Gloss=can
+24	doiqyungz	doiqyungz	VERB	_	_	_	_	_	Gloss=build
+25	caep	caep	VERB	_	_	_	_	_	Gloss=make
+26	hwnjdaeuj	hwnjdaeuj	VERB	_	_	_	_	_	Gloss=rise
+27	boiz	boiz	PART	_	_	_	_	_	Gloss=up
+28	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+29	"	"	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+30	"	"	PUNCT	_	_	0	root	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 40028016
+# ref_id = Matthew 28:16
+# eng_text = But the eleven disciples went into Galilee , to the mountain where Jesus had sent them .
+# zyb_text = Yiengq , caiq gangj daengz cib'it boux lwgsae Yehsuh mwnq , song boux vunzbaz bae naeuz gyoengqde ni le , gyoengqde caemh bae daengz Gyahliqliq mwnq , bae daengz aen bya Yehsuh raengq hawj gyoengqde bae he .
+1	Yiengq	yiengq	ADV	_	_	_	_	_	Gloss=but
+2	,	,	PUNCT	_	_	_	_	_	_
+3	caiq	caiq	ADV	_	_	_	_	_	Gloss=again
+4	gangj	gangj	VERB	_	_	_	_	_	Gloss=say
+5	daengz	daengz	ADP	_	_	_	_	_	Gloss=about
+6	cib'it	cib'it	NUM	_	_	_	_	_	Gloss=eleven
+7	boux	boux	NOUN	_	_	_	_	_	Gloss=CLF
+8	lwgsae	lwgsae	NOUN	_	_	_	_	_	Gloss=disciple
+9	Yehsuh	yehsuh	PROPN	_	_	_	_	_	Gloss=Jesus
+10	mwnq	mwnq	PRON	_	_	_	_	_	Gloss=they
+11	,	,	PUNCT	_	_	_	_	_	_
+12	song	song	NUM	_	_	_	_	_	Gloss=two
+13	boux	boux	NOUN	_	_	_	_	_	Gloss=CLF
+14	vunzbaz	vunzbaz	NOUN	_	_	_	_	_	Gloss=person
+15	bae	bae	VERB	_	_	_	_	_	Gloss=go
+16	naeuz	naeuz	VERB	_	_	_	_	_	Gloss=say
+17	gyoengqde	gyoengqde	PRON	_	_	_	_	_	Gloss=them
+18	ni	ni	VERB	_	_	_	_	_	Gloss=tell
+19	le	le	PART	_	_	_	_	_	Gloss=PFV
+20	,	,	PUNCT	_	_	_	_	_	_
+21	gyoengqde	gyoengqde	PRON	_	_	_	_	_	Gloss=they
+22	caemh	caemh	ADV	_	_	_	_	_	Gloss=also
+23	bae	bae	VERB	_	_	_	_	_	Gloss=go
+24	daengz	daengz	VERB	_	_	_	_	_	Gloss=arrive
+25	Gyahliqliq	gyahliqliq	PROPN	_	_	_	_	_	Gloss=Galilee
+26	mwnq	mwnq	PART	_	_	_	_	_	Gloss=LOC
+27	,	,	PUNCT	_	_	_	_	_	_
+28	bae	bae	VERB	_	_	_	_	_	Gloss=go
+29	daengz	daengz	VERB	_	_	_	_	_	Gloss=arrive
+30	aen	aen	DET	_	_	_	_	_	Gloss=CLF
+31	bya	bya	NOUN	_	_	_	_	_	Gloss=mountain
+32	Yehsuh	yehsuh	PROPN	_	_	_	_	_	Gloss=Jesus
+33	raengq	raengq	VERB	_	_	_	_	_	Gloss=order
+34	hawj	hawj	VERB	_	_	_	_	_	Gloss=let
+35	gyoengqde	gyoengqde	PRON	_	_	_	_	_	Gloss=them
+36	bae	bae	VERB	_	_	_	_	_	Gloss=go
+37	he	he	PART	_	_	_	_	_	Gloss=COMP
+38	.	.	PUNCT	_	_	_	_	_	PunctType=Peri
+
+# sent_id = 41002023
+# ref_id = Mark 2:23
+# eng_text = It happened , that he was going on the Sabbath day through the grain fields , and his disciples began , as they went , to pluck the ears of grain .
+# zyb_text = Miz ngoenz ngoenzyietbaeg he , Yehsuh caeuq gij lwgsae de byaij goq reih mienh he bae . Boux lwgsae de iek le , couh yot aeu riengz mienh ma nu hwj gw .
+1	Miz	miz	VERB	_	_	_	_	_	Gloss=have
+2	ngoenz	ngoenz	NOUN	_	_	_	_	_	Gloss=day
+3	ngoenzyietbaeg	ngoenzyietbaeg	NOUN	_	_	_	_	_	Gloss=Sabbath
+4	he	he	PART	_	_	_	_	_	Gloss=GEN
+5	,	,	PUNCT	_	_	_	_	_	_
+6	Yehsuh	yehsuh	PROPN	_	_	_	_	_	Gloss=Jesus
+7	caeuq	caeuq	ADP	_	_	_	_	_	Gloss=with
+8	gij	gij	DET	_	_	_	_	_	Gloss=PL
+9	lwgsae	lwgsae	NOUN	_	_	_	_	_	Gloss=disciple
+10	de	de	PRON	_	_	_	_	_	Gloss=his
+11	byaij	byaij	VERB	_	_	_	_	_	Gloss=walk
+12	goq	goq	ADV	_	_	_	_	_	Gloss=through
+13	reih	reih	NOUN	_	_	_	_	_	Gloss=field
+14	mienh	mienh	NOUN	_	_	_	_	_	Gloss=grain
+15	he	he	PART	_	_	_	_	_	Gloss=LOC
+16	bae	bae	VERB	_	_	_	_	_	Gloss=go
+17	.	.	PUNCT	_	_	_	_	_	_
+18	Boux	boux	NOUN	_	_	_	_	_	Gloss=CLF
+19	lwgsae	lwgsae	NOUN	_	_	_	_	_	Gloss=disciple
+20	de	de	PRON	_	_	_	_	_	Gloss=his
+21	iek	iek	VERB	_	_	_	_	_	Gloss=be_hungry
+22	le	le	PART	_	_	_	_	_	Gloss=PFV
+23	,	,	PUNCT	_	_	_	_	_	_
+24	couh	couh	ADV	_	_	_	_	_	Gloss=then
+25	yot	yot	VERB	_	_	_	_	_	Gloss=pluck
+26	aeu	aeu	VERB	_	_	_	_	_	Gloss=take
+27	riengz	riengz	NOUN	_	_	_	_	_	Gloss=ear
+28	mienh	mienh	NOUN	_	_	_	_	_	Gloss=grain
+29	ma	ma	PART	_	_	_	_	_	Gloss=MOD
+30	nu	nu	NOUN	_	_	_	_	_	Gloss=grain
+31	hwj	hwj	ADP	_	_	_	_	_	Gloss=for
+32	gw	gw	VERB	_	_	_	_	_	Gloss=eat
+33	.	.	PUNCT	_	_	_	_	_	PunctType=Peri
+
+# sent_id = 41012032
+# ref_id = Mark 12:32
+# eng_text = The scribe said to him , " Truly , teacher , you have said well that he is one , and there is none other but he ,
+# zyb_text = Boux fazliz cenhgyah mwnq dingq Yehsuh yienghneix naeuz le , couh naeuz : ü Lauxsae , mwngz naeuz ndaej deng raixcaix . Cangqdiq cijngamq miz boux dog ; cawz de ok caiq mij saek boux haem lo .
+1	Boux	boux	NOUN	_	_	_	_	_	Gloss=man
+2	fazliz	fazliz	NOUN	_	_	_	_	_	Gloss=scribe
+3	cenhgyah	cenhgyah	ADJ	_	_	_	_	_	Gloss=religious
+4	mwnq	mwnq	PRON	_	_	_	_	_	Gloss=he
+5	dingq	dingq	VERB	_	_	_	_	_	Gloss=hear
+6	Yehsuh	yehsuh	PROPN	_	_	_	_	_	Gloss=Jesus
+7	yienghneix	yienghneix	ADV	_	_	_	_	_	Gloss=thus
+8	naeuz	naeuz	VERB	_	_	_	_	_	Gloss=say
+9	le	le	PART	_	_	_	_	_	Gloss=PFV
+10	,	,	PUNCT	_	_	_	_	_	_
+11	couh	couh	ADV	_	_	_	_	_	Gloss=then
+12	naeuz	naeuz	VERB	_	_	_	_	_	Gloss=say
+13	:	:	PUNCT	_	_	_	_	_	_
+14	"	"	PUNCT	_	_	_	_	_	PunctSide=Ini|PunctType=Quot
+15	Lauxsae	lauxsae	NOUN	_	_	_	_	_	Gloss=teacher
+16	,	,	PUNCT	_	_	_	_	_	_
+17	mwngz	mwngz	PRON	_	_	_	_	_	Gloss=you
+18	naeuz	naeuz	VERB	_	_	_	_	_	Gloss=say
+19	ndaej	ndaej	AUX	_	_	_	_	_	Gloss=can
+20	deng	deng	ADV	_	_	_	_	_	Gloss=truly
+21	raixcaix	raixcaix	ADV	_	_	_	_	_	Gloss=well
+22	.	.	PUNCT	_	_	_	_	_	_
+23	Cangqdiq	cangqdiq	PROPN	_	_	_	_	_	Gloss=God
+24	cijngamq	cijngamq	ADV	_	_	_	_	_	Gloss=only
+25	miz	miz	VERB	_	_	_	_	_	Gloss=have
+26	boux	boux	NOUN	_	_	_	_	_	Gloss=one
+27	dog	dog	NUM	_	_	_	_	_	Gloss=one
+28	;	;	PUNCT	_	_	_	_	_	_
+29	cawz	cawz	SCONJ	_	_	_	_	_	Gloss=except
+30	de	de	PRON	_	_	_	_	_	Gloss=him
+31	ok	ok	ADV	_	_	_	_	_	Gloss=other
+32	caiq	caiq	ADV	_	_	_	_	_	Gloss=again
+33	mij	mij	ADV	_	_	_	_	_	Gloss=not
+34	saek	saek	DET	_	_	_	_	_	Gloss=any
+35	boux	boux	NOUN	_	_	_	_	_	Gloss=one
+36	haem	haem	ADV	_	_	_	_	_	Gloss=else
+37	lo	lo	PART	_	_	_	_	_	Gloss=PFV
+38	.	.	PUNCT	_	_	_	_	_	PunctType=Peri
+
+# sent_id = 41014037
+# ref_id = Mark 14:37
+# eng_text = He came and found them sleeping , and said to Peter , " Simon , are you sleeping ? Couldn't you watch one hour ?
+# zyb_text = De gouz sat le , couh dauq maj daengz sam boux lwgsae de mwnq . Ma le , engq raen sam boux de ralaep lo . De raen yienghneix le , couh heuh Bijdwz doiq de naeuz : ü Sihmaenz , mwngz ralaep haj ? Mwngz ndaej mbouj ndaej singjsangj yaep he hax ?
+1	De	de	PRON	_	_	_	nsubj	_	Gloss=he
+2	gouz	gouz	VERB	_	_	_	_	_	Gloss=come
+3	sat	sat	VERB	_	_	_	_	_	Gloss=arrive
+4	le	le	PART	_	_	_	_	_	Gloss=PFV
+5	,	,	PUNCT	_	_	_	_	_	_
+6	couh	couh	ADV	_	_	_	_	_	Gloss=then
+7	dauq	dauq	VERB	_	_	_	_	_	Gloss=return
+8	maj	maj	VERB	_	_	_	_	_	Gloss=come
+9	daengz	daengz	VERB	_	_	_	_	_	Gloss=reach
+10	sam	sam	NUM	_	_	_	_	_	Gloss=three
+11	boux	boux	NOUN	_	_	_	_	_	Gloss=CLF
+12	lwgsae	lwgsae	NOUN	_	_	24	nsubj	_	Gloss=disciples
+13	de	de	PRON	_	_	_	_	_	Gloss=his
+14	mwnq	mwnq	PART	_	_	_	_	_	Gloss=PL
+15	.	.	PUNCT	_	_	_	punct	_	_
+16	Ma	ma	ADV	_	_	_	_	_	Gloss=and
+17	le	le	PART	_	_	_	_	_	Gloss=PFV
+18	,	,	PUNCT	_	_	_	_	_	_
+19	engq	engq	ADV	_	_	_	_	_	Gloss=indeed
+20	raen	raen	VERB	_	_	_	_	_	Gloss=find
+21	sam	sam	NUM	_	_	_	_	_	Gloss=three
+22	boux	boux	NOUN	_	_	_	_	_	Gloss=CLF
+23	de	de	PRON	_	_	_	_	_	Gloss=them
+24	ralaep	ralaep	ADJ	_	_	_	acomp	_	Gloss=sleeping
+25	lo	lo	PART	_	_	_	_	_	Gloss=PFV
+26	.	.	PUNCT	_	_	_	punct	_	_
+27	De	de	PRON	_	_	_	nsubj	_	Gloss=he
+28	raen	raen	VERB	_	_	_	_	_	Gloss=see
+29	yienghneix	yienghneix	PRON	_	_	_	_	_	Gloss=this
+30	le	le	PART	_	_	_	_	_	Gloss=PFV
+31	,	,	PUNCT	_	_	_	_	_	_
+32	couh	couh	ADV	_	_	_	_	_	Gloss=then
+33	heuh	heuh	VERB	_	_	_	_	_	Gloss=call
+34	Bijdwz	bijdwz	PROPN	_	_	_	pobj	_	Gloss=Peter
+35	doiq	doiq	ADP	_	_	_	_	_	Gloss=to
+36	de	de	PRON	_	_	_	_	_	Gloss=him
+37	naeuz	naeuz	VERB	_	_	_	_	_	Gloss=say
+38	:	:	PUNCT	_	_	_	_	_	_
+39	"	"	PUNCT	_	_	_	punct	_	_
+40	Sihmaenz	sihmaenz	PROPN	_	_	_	_	_	Gloss=Simon
+41	,	,	PUNCT	_	_	_	_	_	_
+42	mwngz	mwngz	PRON	_	_	_	_	_	Gloss=you
+43	ralaep	ralaep	ADJ	_	_	_	acomp	_	Gloss=sleeping
+44	haj	haj	PART	_	_	_	_	_	Gloss=Q
+45	?	?	PUNCT	_	_	_	punct	_	_
+46	Mwngz	mwngz	PRON	_	_	_	_	_	Gloss=you
+47	ndaej	ndaej	AUX	_	_	_	_	_	Gloss=can
+48	mbouj	mbouj	ADV	_	_	_	neg	_	Gloss=not
+49	ndaej	ndaej	AUX	_	_	_	_	_	Gloss=can
+50	singjsangj	singjsangj	VERB	_	_	_	_	_	Gloss=stay.awake
+51	yaep	yaep	NUM	_	_	_	_	_	Gloss=one.hour
+52	he	he	PART	_	_	_	_	_	Gloss=CLF
+53	hax	hax	PART	_	_	_	_	_	Gloss=Q
+54	?	?	PUNCT	_	_	_	punct	_	_
+
+# sent_id = 42004002
+# ref_id = Luke 4:2
+# eng_text = for forty days , being tempted by the devil . He ate nothing in those days . Afterward , when they were completed , he was hungry .
+# zyb_text = Youq rogndoi , de gijmaz cungj mbouj gw , dungxiek seiqcib ngwnzngoenz , caemh ngaiz fangzvuengz , couh dwg fangz yak dih vuengz , yaeuh de . Yiengq de lek seiqcib ngwnzngoenz le , roxnginh dungxiek ij rai bae .
+1	Youq	youq	ADP	_	_	_	prep	_	Gloss=in
+2	rogndoi	rogndoi	NOUN	_	_	_	_	_	Gloss=wilderness
+3	,	,	PUNCT	_	_	_	_	_	_
+4	de	de	PRON	_	_	_	_	_	Gloss=he
+5	gijmaz	gijmaz	PRON	_	_	_	_	_	Gloss=anything
+6	cungj	cungj	ADV	_	_	_	_	_	Gloss=at.all
+7	mbouj	mbouj	ADV	_	_	_	neg	_	Gloss=not
+8	gw	gw	VERB	_	_	_	_	_	Gloss=eat
+9	,	,	PUNCT	_	_	_	_	_	_
+10	dungxiek	dungxiek	ADJ	_	_	_	acomp	_	Gloss=hungry
+11	seiqcib	seiqcib	NUM	_	_	_	nummod	_	Gloss=forty
+12	ngwnzngoenz	ngwnzngoenz	NOUN	_	_	_	_	_	Gloss=days
+13	,	,	PUNCT	_	_	_	_	_	_
+14	caemh	caemh	ADV	_	_	_	_	_	Gloss=also
+15	ngaiz	ngaiz	VERB	_	_	_	_	_	Gloss=be.tempted
+16	fangzvuengz	fangzvuengz	NOUN	_	_	_	_	_	Gloss=devil
+17	,	,	PUNCT	_	_	_	_	_	_
+18	couh	couh	ADV	_	_	_	_	_	Gloss=then
+19	dwg	dwg	AUX	_	_	_	_	_	Gloss=be
+20	fangz	fangz	NOUN	_	_	_	_	_	Gloss=evil.spirit
+21	yak	yak	PART	_	_	_	_	_	Gloss=GEN
+22	dih	dih	PART	_	_	_	_	_	Gloss=ATTR
+23	vuengz	vuengz	NOUN	_	_	_	_	_	Gloss=king
+24	,	,	PUNCT	_	_	_	_	_	_
+25	yaeuh	yaeuh	VERB	_	_	_	_	_	Gloss=tempt
+26	de	de	PRON	_	_	_	_	_	Gloss=him
+27	.	.	PUNCT	_	_	_	punct	_	_
+28	Yiengq	yiengq	ADV	_	_	_	_	_	Gloss=after
+29	de	de	PRON	_	_	_	_	_	Gloss=he
+30	lek	lek	VERB	_	_	_	_	_	Gloss=finish
+31	seiqcib	seiqcib	NUM	_	_	_	nummod	_	Gloss=forty
+32	ngwnzngoenz	ngwnzngoenz	NOUN	_	_	_	_	_	Gloss=days
+33	le	le	PART	_	_	_	_	_	Gloss=PFV
+34	,	,	PUNCT	_	_	_	_	_	_
+35	roxnginh	roxnginh	ADV	_	_	_	_	_	Gloss=afterward
+36	dungxiek	dungxiek	ADJ	_	_	_	acomp	_	Gloss=hungry
+37	ij	ij	AUX	_	_	_	_	_	Gloss=were
+38	rai	rai	VERB	_	_	_	_	_	Gloss=be
+39	bae	bae	PART	_	_	_	_	_	Gloss=COMPL
+40	.	.	PUNCT	_	_	_	punct	_	_
+
+# sent_id = 42016013
+# ref_id = Luke 16:13
+# eng_text = No servant can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You aren't able to serve God and mammon . "
+# zyb_text = ü Bouxhoiq he mbouj ndaej swqhaeuh song bouxcawj ; mbouj nex , de gaengjdingq haenj boux he yiem boux he , cixnaeuz naek boux he mbaeu boux he . Sojhij faenhsou mbouj ndaej gingqbaiq Cangqdiq caiq baiqfug ngaenz . ü
+1	"	"	PUNCT	_	_	_	punct	_	_
+2	Bouxhoiq	bouxhoiq	NOUN	_	_	_	_	_	Gloss=servant
+3	he	he	PART	_	_	_	_	_	Gloss=GEN
+4	mbouj	mbouj	ADV	_	_	_	neg	_	Gloss=not
+5	ndaej	ndaej	AUX	_	_	_	aux	_	Gloss=can
+6	swqhaeuh	swqhaeuh	VERB	_	_	_	root	_	Gloss=serve
+7	song	song	NUM	_	_	_	nummod	_	Gloss=two
+8	bouxcawj	bouxcawj	NOUN	_	_	_	_	_	Gloss=masters
+9	;	;	PUNCT	_	_	_	_	_	_
+10	mbouj	mbouj	ADV	_	_	_	neg	_	Gloss=not
+11	nex	nex	ADV	_	_	_	_	_	Gloss=otherwise
+12	,	,	PUNCT	_	_	_	_	_	_
+13	de	de	PRON	_	_	_	_	_	Gloss=he
+14	gaengjdingq	gaengjdingq	ADV	_	_	_	_	_	Gloss=will
+15	haenj	haenj	VERB	_	_	_	_	_	Gloss=hate
+16	boux	boux	NOUN	_	_	_	_	_	Gloss=one
+17	he	he	PART	_	_	_	_	_	Gloss=CLF
+18	yiem	yiem	VERB	_	_	_	_	_	Gloss=love
+19	boux	boux	NOUN	_	_	_	_	_	Gloss=other
+20	he	he	PART	_	_	_	_	_	Gloss=CLF
+21	,	,	PUNCT	_	_	_	_	_	_
+22	cixnaeuz	cixnaeuz	CCONJ	_	_	_	_	_	Gloss=or.else
+23	naek	naek	VERB	_	_	_	_	_	Gloss=hold.to
+24	boux	boux	NOUN	_	_	_	_	_	Gloss=one
+25	he	he	PART	_	_	_	_	_	Gloss=CLF
+26	mbaeu	mbaeu	VERB	_	_	_	_	_	Gloss=despise
+27	boux	boux	NOUN	_	_	_	_	_	Gloss=other
+28	he	he	PART	_	_	_	_	_	Gloss=CLF
+29	.	.	PUNCT	_	_	_	punct	_	_
+30	Sojhij	sojhij	ADV	_	_	_	_	_	Gloss=therefore
+31	faenhsou	faenhsou	PRON	_	_	_	_	_	Gloss=you
+32	mbouj	mbouj	ADV	_	_	_	neg	_	Gloss=not
+33	ndaej	ndaej	AUX	_	_	_	aux	_	Gloss=can
+34	gingqbaiq	gingqbaiq	VERB	_	_	_	_	_	Gloss=serve
+35	Cangqdiq	cangqdiq	PROPN	_	_	_	_	_	Gloss=God
+36	caiq	caiq	CONJ	_	_	_	_	_	Gloss=and
+37	baiqfug	baiqfug	VERB	_	_	_	_	_	Gloss=serve
+38	ngaenz	ngaenz	NOUN	_	_	_	_	_	Gloss=money
+39	.	.	PUNCT	_	_	_	punct	_	_
+40	"	"	PUNCT	_	_	_	punct	_	_
+
+# sent_id = 42024018
+# ref_id = Luke 24:18
+# eng_text = One of them , named Cleopas , answered him , " Are you the only one travelling in Jerusalem who doesn't know the things which have happened there in these days ? "
+# zyb_text = Yiengq song boux ndaw de miz boux he , gij coh de heuh Gwzliuzbah , han de naeuz : ü Ox , youq Yehluqsajlaengj guh hek hih gij vunz ndaw de , caenhgag mwngz mij rox mwnq geij ngoenz neix fatseng gijmaz saeh lo bax ? ü
+1	Yiengq	yiengq	ADP	_	_	_	prep	_	Gloss=among
+2	song	song	NUM	_	_	_	_	_	Gloss=two
+3	boux	boux	NOUN	_	_	_	_	_	Gloss=persons
+4	ndaw	ndaw	ADP	_	_	_	_	_	Gloss=of
+5	de	de	PRON	_	_	_	_	_	Gloss=them
+6	miz	miz	VERB	_	_	_	_	_	Gloss=is
+7	boux	boux	NOUN	_	_	_	_	_	Gloss=one
+8	he	he	PART	_	_	_	_	_	Gloss=CLF
+9	,	,	PUNCT	_	_	_	_	_	_
+10	gij	gij	DET	_	_	_	_	_	Gloss=REL
+11	coh	coh	NOUN	_	_	_	_	_	Gloss=name
+12	de	de	PRON	_	_	_	_	_	Gloss=his
+13	heuh	heuh	VERB	_	_	_	_	_	Gloss=call
+14	Gwzliuzbah	gwzliuzbah	PROPN	_	_	_	_	_	Gloss=Cleopas
+15	,	,	PUNCT	_	_	_	_	_	_
+16	han	han	VERB	_	_	_	root	_	Gloss=answer
+17	de	de	PRON	_	_	_	_	_	Gloss=him
+18	naeuz	naeuz	VERB	_	_	_	_	_	Gloss=say
+19	:	:	PUNCT	_	_	_	_	_	_
+20	"	"	PUNCT	_	_	_	punct	_	_
+21	Ox	ox	INTJ	_	_	_	_	_	Gloss=oh
+22	,	,	PUNCT	_	_	_	_	_	_
+23	youq	youq	ADP	_	_	_	_	_	Gloss=in
+24	Yehluqsajlaengj	yehluqsajlaengj	PROPN	_	_	_	_	_	Gloss=Jerusalem
+25	guh	guh	VERB	_	_	_	_	_	Gloss=stay
+26	hek	hek	VERB	_	_	_	_	_	Gloss=travel
+27	hih	hih	PART	_	_	_	_	_	Gloss=REL
+28	gij	gij	DET	_	_	_	_	_	Gloss=REL
+29	vunz	vunz	NOUN	_	_	_	_	_	Gloss=person
+30	ndaw	ndaw	ADP	_	_	_	_	_	Gloss=in
+31	de	de	PRON	_	_	_	_	_	Gloss=it
+32	,	,	PUNCT	_	_	_	_	_	_
+33	caenhgag	caenhgag	ADV	_	_	_	_	_	Gloss=only
+34	mwngz	mwngz	PRON	_	_	_	_	_	Gloss=you
+35	mij	mij	ADV	_	_	_	neg	_	Gloss=not
+36	rox	rox	VERB	_	_	_	_	_	Gloss=know
+37	mwnq	mwnq	ADV	_	_	_	_	_	Gloss=there
+38	geij	geij	DET	_	_	_	_	_	Gloss=these
+39	ngoenz	ngoenz	NOUN	_	_	_	_	_	Gloss=days
+40	neix	neix	DET	_	_	_	_	_	Gloss=this
+41	fatseng	fatseng	VERB	_	_	_	_	_	Gloss=happen
+42	gijmaz	gijmaz	PRON	_	_	_	_	_	Gloss=what
+43	saeh	saeh	NOUN	_	_	_	_	_	Gloss=things
+44	lo	lo	PART	_	_	_	_	_	Gloss=PFV
+45	bax	bax	PART	_	_	_	_	_	Gloss=Q
+46	?	?	PUNCT	_	_	_	punct	_	_
+47	"	"	PUNCT	_	_	_	punct	_	_
+
+# sent_id = 43001039
+# ref_id = John 1:39
+# eng_text = He said to them , " Come , and see . " They came and saw where he was staying , and they stayed with him that day . It was about the tenth hour .
+# zyb_text = Yehsuh han naeuz : ü Faenhsou gaen gou bae yawj bax . ü Song boux de dingq le , couh gaen de bae , siengj yawj de youq mwnqlaw youq . Mwhde daihgaiq dwg yaquj seiq diemjcung yienghneix ; ngoenz mwnq song boux de cungj dwg gaen de youq baenxngoenz .
+1	Yehsuh	yehsuh	PROPN	_	_	_	_	_	Gloss=Jesus
+2	han	han	VERB	_	_	_	_	_	Gloss=replied
+3	naeuz	naeuz	VERB	_	_	_	_	_	Gloss=say
+4	:	:	PUNCT	_	_	_	_	_	Gloss=former
+5	"	"	PUNCT	_	_	_	_	_	PunctSide=Ini|PunctType=Quot
+6	Faenhsou	faenhsou	PRON	_	_	_	_	_	Gloss=you
+7	gaen	gaen	VERB	_	_	_	_	_	Gloss=followed
+8	gou	gou	PRON	_	_	_	_	_	Gloss=me
+9	bae	bae	VERB	_	_	_	_	_	Gloss=went|Tense=Past|VerbForm=Fin
+10	yawj	yawj	VERB	_	_	_	_	_	Gloss=see
+11	bax	bax	PART	_	_	_	_	_	Gloss=faithless
+12	.	.	PUNCT	_	_	_	_	_	PunctType=Peri
+13	"	"	PUNCT	_	_	_	_	_	PunctSide=Fin|PunctType=Quot
+14	Song	song	NUM	_	_	_	_	_	Gloss=Two
+15	boux	boux	NOUN	_	_	_	_	_	Gloss=man
+16	de	de	PRON	_	_	_	_	_	Gloss=him
+17	dingq	dingq	VERB	_	_	_	_	_	Gloss=listen
+18	le	le	PART	_	_	_	_	_	Gloss=When
+19	,	,	PUNCT	_	_	_	_	_	_
+20	couh	couh	ADV	_	_	_	_	_	Gloss=then
+21	gaen	gaen	VERB	_	_	_	_	_	Gloss=followed
+22	de	de	PRON	_	_	_	_	_	Gloss=him
+23	bae	bae	VERB	_	_	_	_	_	Gloss=went
+24	,	,	PUNCT	_	_	_	_	_	_
+25	siengj	siengj	VERB	_	_	_	_	_	Gloss=want
+26	yawj	yawj	VERB	_	_	_	_	_	Gloss=see
+27	de	de	PRON	_	_	_	_	_	Gloss=him
+28	youq	youq	ADP	_	_	_	_	_	Gloss=on
+29	mwnqlaw	mwnqlaw	SCONJ	_	_	_	_	_	Gloss=where
+30	youq	youq	VERB	_	_	_	_	_	Gloss=stay
+31	.	.	PUNCT	_	_	_	_	_	PunctType=Peri
+32	Mwhde	mwhde	ADV	_	_	_	_	_	Gloss=num
+33	daihgaiq	daihgaiq	ADV	_	_	_	_	_	Gloss=about
+34	dwg	dwg	AUX	_	_	_	_	_	Gloss=be
+35	yaquj	yaquj	NOUN	_	_	_	_	_	Gloss=afternoon
+36	seiq	seiq	NUM	_	_	_	_	_	Gloss=four
+37	diemjcung	diemjcung	NOUN	_	_	_	_	_	Gloss=hour
+38	yienghneix	yienghneix	ADV	_	_	_	_	_	Gloss=so
+39	;	;	PUNCT	_	_	_	_	_	_
+40	ngoenz	ngoenz	NOUN	_	_	_	_	_	Gloss=day
+41	mwnq	mwnq	DET	_	_	_	_	_	Gloss=that
+42	song	song	NUM	_	_	_	_	_	Gloss=two
+43	boux	boux	NOUN	_	_	_	_	_	Gloss=man
+44	de	de	PRON	_	_	_	_	_	Gloss=him
+45	cungj	cungj	ADV	_	_	_	_	_	Gloss=all
+46	dwg	dwg	AUX	_	_	_	_	_	Gloss=be
+47	gaen	gaen	VERB	_	_	_	_	_	Gloss=follow
+48	de	de	PRON	_	_	_	_	_	Gloss=him
+49	youq	youq	ADP	_	_	_	_	_	Gloss=on
+50	baenxngoenz	baenxngoenz	VERB	_	_	_	_	_	Gloss=remained
+51	.	.	PUNCT	_	_	_	_	_	PunctType=Peri
+
+# sent_id = 43003016
+# ref_id = John 3:16
+# eng_text = For God so loved the world , that he gave his one and only Son , that whoever believes in him should not perish , but have eternal life .
+# zyb_text = Cangqdiq gig ndiep vunz lajmbwn , simqciq daiqlienz daeglwg dog de cungj nyok hawj vunz , hawj gij vunz sinq de he mbouj ngaiz raicied , dauq ndaej seiqseiz lix ,
+1	Cangqdiq	cangqdiq	PROPN	_	_	_	nsubj	_	Gloss=God|Number=Sing
+2	gig	gig	ADV	_	_	_	_	_	Gloss=so
+3	ndiep	ndiep	VERB	_	_	_	_	_	Gloss=love
+4	vunz	vunz	NOUN	_	_	_	_	_	Gloss=people
+5	lajmbwn	lajmbwn	NOUN	_	_	_	_	_	Gloss=world
+6	,	,	PUNCT	_	_	_	_	_	_
+7	simqciq	simqciq	ADV	_	_	_	_	_	Gloss=even
+8	daiqlienz	daiqlienz	ADV	_	_	_	_	_	Gloss=so_much
+9	daeglwg	daeglwg	NOUN	_	_	_	_	_	Gloss=son
+10	dog	dog	ADJ	_	_	_	_	_	Gloss=only
+11	de	de	PRON	_	_	_	pobj	_	Gloss=his|Poss=Yes
+12	cungj	cungj	ADV	_	_	_	_	_	Gloss=all
+13	nyok	nyok	VERB	_	_	_	_	_	Gloss=give
+14	hawj	hawj	ADP	_	_	_	_	_	Gloss=to
+15	vunz	vunz	NOUN	_	_	_	_	_	Gloss=people
+16	,	,	PUNCT	_	_	_	_	_	_
+17	hawj	hawj	SCONJ	_	_	_	_	_	Gloss=so_that
+18	gij	gij	DET	_	_	_	_	_	Gloss=REL
+19	vunz	vunz	NOUN	_	_	_	_	_	Gloss=person
+20	sinq	sinq	VERB	_	_	_	_	_	Gloss=believe
+21	de	de	PRON	_	_	_	pobj	_	Gloss=him
+22	he	he	PART	_	_	_	_	_	Gloss=REL
+23	mbouj	mbouj	ADV	_	_	_	neg	_	Gloss=not
+24	ngaiz	ngaiz	VERB	_	_	_	_	_	Gloss=perish
+25	raicied	raicied	ADV	_	_	_	_	_	Gloss=eternally
+26	,	,	PUNCT	_	_	_	_	_	_
+27	dauq	dauq	ADV	_	_	_	_	_	Gloss=but
+28	ndaej	ndaej	AUX	_	_	_	_	_	Gloss=can
+29	seiqseiz	seiqseiz	ADJ	_	_	30	amod	_	Gloss=eternal|Degree=Pos
+30	lix	lix	NOUN	_	_	_	dobj	_	Gloss=life|Number=Sing
+31	,	,	PUNCT	_	_	_	_	_	_
+
+# sent_id = 44002030
+# ref_id = Acts 2:30
+# eng_text = Therefore , being a prophet , and knowing that God had sworn with an oath to him that of the fruit of his body , according to the flesh , he would raise up the Christ to sit on his throne ,
+# zyb_text = Hoeng , de dwg boux cenz gij vah Cangqdiq he ; de caemh rox Cangqdiq yiengq de baujcingq goq , baujcingq ij daj doengh daih gajlaeng de dingh boux he daeuj swnj de guh vuengz .
+1	Hoeng	hoeng	ADV	_	_	_	_	_	Gloss=therefore
+2	,	,	PUNCT	_	_	_	_	_	_
+3	de	de	PRON	_	_	_	_	_	Gloss=he
+4	dwg	dwg	AUX	_	_	_	_	_	Gloss=be
+5	boux	boux	NOUN	_	_	_	_	_	Gloss=person
+6	cenz	cenz	VERB	_	_	_	_	_	Gloss=prophesy
+7	gij	gij	DET	_	_	_	_	_	Gloss=REL
+8	vah	vah	NOUN	_	_	_	_	_	Gloss=word
+9	Cangqdiq	cangqdiq	PROPN	_	_	_	nsubj	_	Gloss=God|Number=Sing
+10	he	he	PART	_	_	_	_	_	Gloss=REL
+11	;	;	PUNCT	_	_	_	_	_	Gloss=am
+12	de	de	PRON	_	_	_	_	_	Gloss=he
+13	caemh	caemh	ADV	_	_	_	_	_	Gloss=also
+14	rox	rox	VERB	_	_	_	_	_	Gloss=know
+15	Cangqdiq	cangqdiq	PROPN	_	_	_	nsubj	_	Gloss=God|Number=Sing
+16	yiengq	yiengq	ADP	_	_	_	prep	_	Gloss=to
+17	de	de	PRON	_	_	_	_	_	Gloss=him
+18	baujcingq	baujcingq	VERB	_	_	_	_	_	Gloss=swear
+19	goq	goq	PART	_	_	_	_	_	Gloss=ASP
+20	,	,	PUNCT	_	_	_	_	_	_
+21	baujcingq	baujcingq	VERB	_	_	_	_	_	Gloss=promise
+22	ij	ij	AUX	_	_	_	_	_	Gloss=will
+23	daj	daj	ADP	_	_	_	_	_	Gloss=from
+24	doengh	doengh	NOUN	_	_	_	_	_	Gloss=body
+25	daih	daih	NOUN	_	_	_	_	_	Gloss=generation
+26	gajlaeng	gajlaeng	ADV	_	_	_	_	_	Gloss=after
+27	de	de	PRON	_	_	_	_	_	Gloss=him
+28	dingh	dingh	VERB	_	_	_	_	_	Gloss=appoint
+29	boux	boux	NOUN	_	_	_	_	_	Gloss=person
+30	he	he	PART	_	_	_	_	_	Gloss=REL
+31	daeuj	daeuj	VERB	_	_	_	_	_	Gloss=come
+32	swnj	swnj	VERB	_	_	_	_	_	Gloss=raise
+33	de	de	PRON	_	_	_	_	_	Gloss=him
+34	guh	guh	VERB	_	_	_	_	_	Gloss=become
+35	vuengz	vuengz	NOUN	_	_	_	_	_	Gloss=king
+36	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 44009038
+# ref_id = Acts 9:38
+# eng_text = As Lydda was near Joppa , the disciples , hearing that Peter was there , sent two men to him , imploring him not to delay in coming to them .
+# zyb_text = Aenvih Yozbaq Singz liz Mbanj Lijdaq mbouj geijlwh gyae , yiengq youq Yozbaq dih doenghheij lwgsae mwnq dingq naeuz Bijdwz youq Lijdaq le , couh baij song boux bae cimh de , gouz de naeuz : ü Cingj mwngz vaiqdi bae gyoengqraeuz mwnq bax . ü
+1	Aenvih	aenvih	SCONJ	_	_	_	_	_	Gloss=because
+2	Yozbaq	yozbaq	PROPN	_	_	_	_	_	Gloss=Joppa
+3	Singz	singz	PROPN	_	_	_	_	_	Gloss=Lydda
+4	liz	liz	VERB	_	_	_	_	_	Gloss=be_near
+5	Mbanj	mbanj	PROPN	_	_	_	_	_	Gloss=region
+6	Lijdaq	lijdaq	PROPN	_	_	_	_	_	Gloss=Lydda
+7	mbouj	mbouj	ADV	_	_	_	neg	_	Gloss=not
+8	geijlwh	geijlwh	ADV	_	_	_	_	_	Gloss=far
+9	gyae	gyae	PART	_	_	_	_	_	Gloss=ASP
+10	,	,	PUNCT	_	_	_	_	_	_
+11	yiengq	yiengq	ADP	_	_	_	prep	_	Gloss=at
+12	youq	youq	VERB	_	_	_	prep	_	Gloss=be
+13	Yozbaq	yozbaq	PROPN	_	_	_	_	_	Gloss=Joppa
+14	dih	dih	SCONJ	_	_	_	_	_	Gloss=that
+15	doenghheij	doenghheij	VERB	_	_	_	_	_	Gloss=hear
+16	lwgsae	lwgsae	NOUN	_	_	_	_	_	Gloss=disciples|Number=Plur
+17	mwnq	mwnq	PART	_	_	_	_	_	Gloss=PL
+18	dingq	dingq	VERB	_	_	_	_	_	Gloss=hear
+19	naeuz	naeuz	VERB	_	_	26	_	_	Gloss=say
+20	Bijdwz	bijdwz	PROPN	_	_	_	nsubj	_	Gloss=Peter|Number=Sing
+21	youq	youq	VERB	_	_	_	prep	_	Gloss=be
+22	Lijdaq	lijdaq	PROPN	_	_	_	_	_	Gloss=Lydda
+23	le	le	PART	_	_	_	_	_	Gloss=ASP
+24	,	,	PUNCT	_	_	_	_	_	_
+25	couh	couh	ADV	_	_	_	_	_	Gloss=then
+26	baij	baij	VERB	_	_	0	root	_	Gloss=send|Tense=Past
+27	song	song	NUM	_	_	_	nummod	_	Gloss=two|NumType=Card
+28	boux	boux	NOUN	_	_	_	_	_	Gloss=person
+29	bae	bae	VERB	_	_	_	_	_	Gloss=go
+30	cimh	cimh	VERB	_	_	_	_	_	Gloss=seek
+31	de	de	PRON	_	_	_	dobj	_	Gloss=him
+32	,	,	PUNCT	_	_	_	_	_	_
+33	gouz	gouz	VERB	_	_	_	_	_	Gloss=beg
+34	de	de	PRON	_	_	_	dobj	_	Gloss=him
+35	naeuz	naeuz	VERB	_	_	26	_	_	Gloss=say
+36	:	:	PUNCT	_	_	_	_	_	Gloss=colon
+37	"	"	PUNCT	_	_	26	punct	_	PunctSide=Ini|PunctType=Quot
+38	Cingj	cingj	VERB	_	_	_	_	_	Gloss=please
+39	mwngz	mwngz	PRON	_	_	_	_	_	Gloss=you
+40	vaiqdi	vaiqdi	ADV	_	_	_	_	_	Gloss=quickly
+41	bae	bae	VERB	_	_	_	_	_	Gloss=come
+42	gyoengqraeuz	gyoengqraeuz	PRON	_	_	_	_	_	Gloss=us
+43	mwnq	mwnq	PART	_	_	_	_	_	Gloss=PL
+44	bax	bax	PART	_	_	_	_	_	Gloss=IMP
+45	.	.	PUNCT	_	_	_	_	_	_
+46	"	"	PUNCT	_	_	26	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 44011011
+# ref_id = Acts 11:11
+# eng_text = Behold , immediately three men stood before the house where I was , having been sent from Caesarea to me .
+# zyb_text = ü Ngamqluj youq mwhneix , miz sam boux vunz daj Gaijsajliqyaq baij daeuj cimh gou hih , couh ndwn youq bakdou aen ranz gou youq hih mwnq lo .
+1	"	"	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+2	Ngamqluj	ngamqluj	ADV	_	_	_	_	_	Gloss=immediately
+3	youq	youq	ADP	_	_	_	prep	_	Gloss=at
+4	mwhneix	mwhneix	NOUN	_	_	_	_	_	Gloss=time
+5	,	,	PUNCT	_	_	_	_	_	_
+6	miz	miz	VERB	_	_	_	_	_	Gloss=is
+7	sam	sam	NUM	_	_	_	nummod	_	Gloss=three|NumType=Card
+8	boux	boux	NOUN	_	_	_	_	_	Gloss=CLF.person
+9	vunz	vunz	NOUN	_	_	_	_	_	Gloss=man
+10	daj	daj	ADP	_	_	12	prep	_	Gloss=from
+11	Gaijsajliqyaq	gaijsajliqyaq	PROPN	_	_	10	pobj	_	Gloss=Caesarea|Number=Sing
+12	baij	baij	VERB	_	_	_	relcl	_	Gloss=send|Aspect=Perf|Tense=Past|VerbForm=Part
+13	daeuj	daeuj	VERB	_	_	_	_	_	Gloss=come
+14	cimh	cimh	VERB	_	_	_	_	_	Gloss=seek
+15	gou	gou	PRON	_	_	_	_	_	Gloss=me|Person=1
+16	hih	hih	PART	_	_	_	_	_	Gloss=ASP
+17	,	,	PUNCT	_	_	_	_	_	_
+18	couh	couh	ADV	_	_	_	_	_	Gloss=then
+19	ndwn	ndwn	VERB	_	_	_	_	_	Gloss=stand
+20	youq	youq	ADP	_	_	_	prep	_	Gloss=at
+21	bakdou	bakdou	NOUN	_	_	_	_	_	Gloss=door
+22	aen	aen	DET	_	_	_	_	_	Gloss=CLF
+23	ranz	ranz	NOUN	_	_	_	pobj	_	Gloss=house|Number=Sing
+24	gou	gou	PRON	_	_	_	_	_	Gloss=I|Person=1
+25	youq	youq	AUX	_	_	_	_	_	Gloss=be
+26	hih	hih	PART	_	_	_	_	_	Gloss=ASP
+27	mwnq	mwnq	ADV	_	_	_	_	_	Gloss=there
+28	lo	lo	PART	_	_	_	_	_	Gloss=PFV
+29	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 44021034
+# ref_id = Acts 21:34
+# eng_text = Some shouted one thing , some another , among the crowd . When he couldn't find out the truth because of the noise , he commanded him to be brought into the barracks .
+# zyb_text = Hoeng , gyoengq vunz hemq luenh yobyob , hemq hwj goeng cijveihguenh gaenhbaenj mij banqfaz caz ok gijmaz . Gajlaeng ganhseiq hawj vunz daiq Baujloz haeuj ndaw binghyingz bae .
+1	Hoeng	hoeng	ADV	_	_	_	_	_	Gloss=then
+2	,	,	PUNCT	_	_	_	_	_	_
+3	gyoengq	gyoengq	NOUN	_	_	_	_	_	Gloss=crowd
+4	vunz	vunz	NOUN	_	_	_	_	_	Gloss=people
+5	hemq	hemq	VERB	_	_	0	root	_	Gloss=shout|Tense=Past|VerbForm=Fin
+6	luenh	luenh	NOUN	_	_	_	pobj	_	Gloss=confusion|Number=Sing
+7	yobyob	yobyob	ADV	_	_	_	_	_	Gloss=variously
+8	,	,	PUNCT	_	_	_	_	_	_
+9	hemq	hemq	VERB	_	_	0	root	_	Gloss=shout|Tense=Past|VerbForm=Fin
+10	hwj	hwj	ADV	_	_	_	_	_	Gloss=also
+11	goeng	goeng	ADV	_	_	_	_	_	Gloss=even
+12	cijveihguenh	cijveihguenh	NOUN	_	_	_	_	_	Gloss=commander
+13	gaenhbaenj	gaenhbaenj	ADV	_	_	_	_	_	Gloss=at.all
+14	mij	mij	ADV	_	_	_	neg	_	Gloss=not
+15	banqfaz	banqfaz	NOUN	_	_	_	_	_	Gloss=way
+16	caz	caz	VERB	_	_	_	_	_	Gloss=investigate
+17	ok	ok	VERB	_	_	_	_	_	Gloss=out
+18	gijmaz	gijmaz	PRON	_	_	_	_	_	Gloss=what
+19	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+20	Gajlaeng	gajlaeng	ADV	_	_	_	_	_	Gloss=afterwards
+21	ganhseiq	ganhseiq	VERB	_	_	_	_	_	Gloss=command
+22	hawj	hawj	VERB	_	_	_	_	_	Gloss=let
+23	vunz	vunz	NOUN	_	_	_	_	_	Gloss=people
+24	daiq	daiq	VERB	_	_	_	_	_	Gloss=bring
+25	Baujloz	baujloz	PROPN	_	_	_	nsubjpass	_	Gloss=Paul|Number=Sing
+26	haeuj	haeuj	VERB	_	_	_	_	_	Gloss=enter
+27	ndaw	ndaw	ADP	_	_	_	prep	_	Gloss=into
+28	binghyingz	binghyingz	NOUN	_	_	_	_	_	Gloss=barracks
+29	bae	bae	VERB	_	_	_	_	_	Gloss=go
+30	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 47012002
+# ref_id = 2 Corinthians 12:2
+# eng_text = I know a man in Christ , fourteen years ago ( whether in the body , I don't know , or whether out of the body , I don't know ; God knows ) , such a one caught up into the third heaven .
+# zyb_text = Gou rox miz boux haeuj gij vunz Gihduz he , de youq cibseiq bi gaxgonq luj fangxngwnzloq yienghmwnq ndaej ciep hwnj daixsam caengz mbwn bae . Hoeng , gou mbouj rox dauqdaej dwg aen ndangdaej de caeuq hoenzsaenz de hwnj bae haj cixnaeuz caenhgag dwg hoenzsaenz de hwnj bae . Gou mbouj rox ; caenhgag Cangqdiq cij rox .
+1	Gou	gou	PRON	_	_	_	_	_	Gloss=I|Person=1
+2	rox	rox	VERB	_	_	_	_	_	Gloss=know
+3	miz	miz	VERB	_	_	_	_	_	Gloss=is
+4	boux	boux	NOUN	_	_	_	_	_	Gloss=man
+5	haeuj	haeuj	VERB	_	_	_	_	_	Gloss=enter
+6	gij	gij	DET	_	_	_	_	_	Gloss=REL
+7	vunz	vunz	NOUN	_	_	_	_	_	Gloss=person
+8	Gihduz	gihduz	PROPN	_	_	_	_	_	Gloss=Christ
+9	he	he	PRON	_	_	_	_	_	Gloss=him
+10	,	,	PUNCT	_	_	_	_	_	_
+11	de	de	PRON	_	_	_	_	_	Gloss=he
+12	youq	youq	ADP	_	_	_	prep	_	Gloss=at
+13	cibseiq	cibseiq	NUM	_	_	14	nummod	_	Gloss=fourteen|NumType=Card
+14	bi	bi	NOUN	_	_	_	npadvmod	_	Gloss=years|Number=Plur
+15	gaxgonq	gaxgonq	ADV	_	_	_	_	_	Gloss=ago
+16	luj	luj	SCONJ	_	_	_	_	_	Gloss=as.if
+17	fangxngwnzloq	fangxngwnzloq	NOUN	_	_	_	_	_	Gloss=vision
+18	yienghmwnq	yienghmwnq	ADV	_	_	_	_	_	Gloss=thus
+19	ndaej	ndaej	AUX	_	_	_	_	_	Gloss=can
+20	ciep	ciep	VERB	_	_	_	_	_	Gloss=catch
+21	hwnj	hwnj	ADV	_	_	_	_	_	Gloss=up
+22	daixsam	daixsam	ADJ	_	_	_	amod	_	Gloss=third
+23	caengz	caengz	NOUN	_	_	_	_	_	Gloss=layer
+24	mbwn	mbwn	NOUN	_	_	_	_	_	Gloss=heaven
+25	bae	bae	VERB	_	_	_	_	_	Gloss=go
+26	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+27	Hoeng	hoeng	ADV	_	_	_	_	_	Gloss=however
+28	,	,	PUNCT	_	_	_	_	_	_
+29	gou	gou	PRON	_	_	_	_	_	Gloss=I|Person=1
+30	mbouj	mbouj	ADV	_	_	_	neg	_	Gloss=not
+31	rox	rox	VERB	_	_	_	_	_	Gloss=know
+32	dauqdaej	dauqdaej	ADV	_	_	_	_	_	Gloss=whether
+33	dwg	dwg	AUX	_	_	_	_	_	Gloss=be
+34	aen	aen	DET	_	_	_	_	_	Gloss=CLF
+35	ndangdaej	ndangdaej	NOUN	_	_	_	_	_	Gloss=body
+36	de	de	PRON	_	_	_	_	_	Gloss=him
+37	caeuq	caeuq	ADP	_	_	_	_	_	Gloss=with
+38	hoenzsaenz	hoenzsaenz	NOUN	_	_	_	_	_	Gloss=spirit
+39	de	de	PRON	_	_	_	_	_	Gloss=him
+40	hwnj	hwnj	ADV	_	_	_	_	_	Gloss=up
+41	bae	bae	VERB	_	_	_	_	_	Gloss=go
+42	haj	haj	PART	_	_	_	_	_	Gloss=Q
+43	cixnaeuz	cixnaeuz	CCONJ	_	_	_	_	_	Gloss=or
+44	caenhgag	caenhgag	ADV	_	_	_	_	_	Gloss=indeed
+45	dwg	dwg	AUX	_	_	_	_	_	Gloss=be
+46	hoenzsaenz	hoenzsaenz	NOUN	_	_	_	_	_	Gloss=spirit
+47	de	de	PRON	_	_	_	_	_	Gloss=him
+48	hwnj	hwnj	ADV	_	_	_	_	_	Gloss=up
+49	bae	bae	VERB	_	_	_	_	_	Gloss=go
+50	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+51	Gou	gou	PRON	_	_	_	_	_	Gloss=I|Person=1
+52	mbouj	mbouj	ADV	_	_	_	neg	_	Gloss=not
+53	rox	rox	VERB	_	_	_	_	_	Gloss=know
+54	;	;	PUNCT	_	_	_	_	_	_
+55	caenhgag	caenhgag	ADV	_	_	_	_	_	Gloss=only
+56	Cangqdiq	cangqdiq	PROPN	_	_	_	nsubj	_	Gloss=God|Number=Sing
+57	cij	cij	ADV	_	_	_	_	_	Gloss=only
+58	rox	rox	VERB	_	_	_	_	_	Gloss=know
+59	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 62004009
+# ref_id = 1 John 4:9
+# eng_text = By this was God's love revealed in us , that God has sent his only born Son into the world that we might live through him .
+# zyb_text = Cangqdiq baij daeglwg dog de daeuj lajmbwn , hawj gyoengqraeuz baengh de ndaej miz mingh ; Cangqdiq yienghneix guh dwg hawj gyoengqraeuz rox de baenxlai aiq gyoengqraeuz .
+1	Cangqdiq	cangqdiq	PROPN	_	_	_	nsubj	_	Gloss=God
+2	baij	baij	VERB	_	_	_	_	_	Gloss=send|Tense=Past|VerbForm=Fin
+3	daeglwg	daeglwg	NOUN	_	_	_	_	_	Gloss=son
+4	dog	dog	ADJ	_	_	_	_	_	Gloss=only
+5	de	de	PRON	_	_	_	pobj	_	Gloss=his|Case=Acc|Number=Sing|Person=3|PronType=Prs
+6	daeuj	daeuj	VERB	_	_	_	_	_	Gloss=come
+7	lajmbwn	lajmbwn	NOUN	_	_	_	_	_	Gloss=world
+8	,	,	PUNCT	_	_	_	_	_	_
+9	hawj	hawj	SCONJ	_	_	_	_	_	Gloss=so_that
+10	gyoengqraeuz	gyoengqraeuz	PRON	_	_	_	nsubj	_	Gloss=we|Case=Nom|Number=Plur|Person=1|PronType=Prs
+11	baengh	baengh	ADP	_	_	_	_	_	Gloss=through
+12	de	de	PRON	_	_	_	pobj	_	Gloss=him|Case=Acc|Number=Sing|Person=3|PronType=Prs
+13	ndaej	ndaej	AUX	_	_	_	_	_	Gloss=can
+14	miz	miz	VERB	_	_	_	_	_	Gloss=have
+15	mingh	mingh	NOUN	_	_	_	dobj	_	Gloss=life|Number=Sing
+16	;	;	PUNCT	_	_	_	_	_	_
+17	Cangqdiq	cangqdiq	PROPN	_	_	_	nsubj	_	Gloss=God
+18	yienghneix	yienghneix	ADV	_	_	_	_	_	Gloss=in_this_way
+19	guh	guh	VERB	_	_	_	_	_	Gloss=do
+20	dwg	dwg	AUX	_	_	_	_	_	Gloss=be
+21	hawj	hawj	SCONJ	_	_	_	_	_	Gloss=so_that
+22	gyoengqraeuz	gyoengqraeuz	PRON	_	_	_	nsubj	_	Gloss=we|Case=Nom|Number=Plur|Person=1|PronType=Prs
+23	rox	rox	VERB	_	_	_	_	_	Gloss=know
+24	de	de	PRON	_	_	_	pobj	_	Gloss=his|Case=Acc|Number=Sing|Person=3|PronType=Prs
+25	baenxlai	baenxlai	ADV	_	_	_	_	_	Gloss=truly
+26	aiq	aiq	VERB	_	_	_	_	_	Gloss=love
+27	gyoengqraeuz	gyoengqraeuz	PRON	_	_	_	nsubj	_	Gloss=us|Case=Nom|Number=Plur|Person=1|PronType=Prs
+28	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 63001005
+# ref_id = 2 John 1:5
+# eng_text = Now I beg you , dear lady , not as though I wrote to you a new commandment , but that which we had from the beginning , that we love one another .
+# zyb_text = Sojhij , cinhngaiq dih gyauqveiq hax , gou seizneix doiq mwngz naeuz , gyoengqraeuz daixgya ij doxndei doxaiq . Gij neix mbouj dwg gou linghvaih saen dingh dih mingqlingq , dauq dwg gyoengqraeuz daj gaihcij cix dingq hih diuz mingqlingq mwnq lah .
+1	Sojhij	sojhij	ADV	_	_	_	_	_	Gloss=therefore
+2	,	,	PUNCT	_	_	_	_	_	_
+3	cinhngaiq	cinhngaiq	VERB	_	_	0	root	_	Gloss=beg|Tense=Pres|VerbForm=Fin
+4	dih	dih	DET	_	_	_	_	_	Gloss=DET
+5	gyauqveiq	gyauqveiq	NOUN	_	_	_	_	_	Gloss=lady|Number=Sing
+6	hax	hax	ADJ	_	_	_	amod	_	Gloss=dear|Degree=Pos
+7	,	,	PUNCT	_	_	_	_	_	_
+8	gou	gou	PRON	_	_	_	_	_	Gloss=I|Case=Nom|Person=1|PronType=Prs
+9	seizneix	seizneix	ADV	_	_	_	_	_	Gloss=now
+10	doiq	doiq	ADP	_	_	_	prep	_	Gloss=to
+11	mwngz	mwngz	PRON	_	_	_	_	_	Gloss=you|Case=Acc|Person=2|PronType=Prs
+12	naeuz	naeuz	VERB	_	_	_	_	_	Gloss=say|VerbForm=Fin
+13	,	,	PUNCT	_	_	_	_	_	_
+14	gyoengqraeuz	gyoengqraeuz	PRON	_	_	_	nsubj	_	Gloss=we|Case=Nom|Number=Plur|Person=1|PronType=Prs
+15	daixgya	daixgya	ADV	_	_	_	_	_	Gloss=all
+16	ij	ij	AUX	_	_	_	_	_	Gloss=should
+17	doxndei	doxndei	ADV	_	_	_	_	_	Gloss=each.other
+18	doxaiq	doxaiq	VERB	_	_	3	xcomp	_	Gloss=love|VerbForm=Inf
+19	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+20	Gij	gij	DET	_	_	_	_	_	Gloss=REL
+21	neix	neix	PRON	_	_	_	_	_	Gloss=this
+22	mbouj	mbouj	ADV	_	_	_	neg	_	Gloss=not|Polarity=Neg
+23	dwg	dwg	AUX	_	_	_	_	_	Gloss=be
+24	gou	gou	PRON	_	_	_	_	_	Gloss=I|Case=Nom|Person=1|PronType=Prs
+25	linghvaih	linghvaih	ADJ	_	_	_	_	_	Gloss=new
+26	saen	saen	ADV	_	_	_	_	_	Gloss=newly
+27	dingh	dingh	VERB	_	_	_	_	_	Gloss=write
+28	dih	dih	SCONJ	_	_	_	_	_	Gloss=that
+29	mingqlingq	mingqlingq	NOUN	_	_	_	_	_	Gloss=commandment|Number=Sing
+30	,	,	PUNCT	_	_	_	_	_	_
+31	dauq	dauq	ADV	_	_	_	_	_	Gloss=but
+32	dwg	dwg	AUX	_	_	_	_	_	Gloss=be
+33	gyoengqraeuz	gyoengqraeuz	PRON	_	_	_	nsubj	_	Gloss=we|Case=Nom|Number=Plur|Person=1|PronType=Prs
+34	daj	daj	ADP	_	_	_	prep	_	Gloss=from
+35	gaihcij	gaihcij	NOUN	_	_	34	pobj	_	Gloss=beginning|Number=Sing
+36	cix	cix	ADV	_	_	_	_	_	Gloss=already
+37	dingq	dingq	VERB	_	_	_	_	_	Gloss=have
+38	hih	hih	PART	_	_	_	_	_	Gloss=PART
+39	diuz	diuz	DET	_	_	_	_	_	Gloss=CL
+40	mingqlingq	mingqlingq	NOUN	_	_	_	_	_	Gloss=commandment|Number=Sing
+41	mwnq	mwnq	PART	_	_	_	_	_	Gloss=PART
+

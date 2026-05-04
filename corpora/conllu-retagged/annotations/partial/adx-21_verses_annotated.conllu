@@ -1,0 +1,933 @@
+## The following text has been annotated for parts of speech by students at NTU Singapore as part of a class project in AY 2025-26.
+## Verses are extracted from the taggedPBC. Annotations have been developed with a combination of manual and automated approaches, with reference to existing literature and (where possible) native speakers.
+## ISO 639-3: adx, Language: Amdo Tibetan, Number of verses: 21
+## References: Fang, S., Zhao, Y., Chao, Z., & Kang, X. (2022). Spatial distribution characteristics and influencing factors of Tibetan Buddhist monasteries in Amdo Tibetan inhabited regions, China. Journal of Geovisualization and Spatial Analysis, 6(2), 29. ; Gong, X. (2016). A phonological history of Amdo Tibetan rhymes. Bulletin of the School of Oriental and African Studies, 79(2), 347-374. ; Liu, X. (2003). A study of inter-ethnic relationship and regional culture in Amdo Tibetan inhabited regions. National Publishing House, China.
+
+# sent_id = 40006024
+# ref_id = Matthew 6:24
+# eng_text = " No one can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You can't serve both God and Mammon .
+# adx_text = suzhig gis kyang bdagpo gnyis la zhabsphyi sgrub mi nus te , khos gcig la sdang zhing gcig la gcespam , yangna gcig la bkur zhing gcig la smadpar byed do , , de'i phyir , khyod rnams kyis dkonmchog dang 'jigrten gyi rgyunor gnyis la zhabsphyi sgrub mi nus zhes gsungs so ,,
+# adx_orth = སུ་ཞིག་ གིས་ ཀྱང་ བདག་པོ་ གཉིས་ ལ་ ཞབས་ཕྱི་ སྒྲུབ་ མི་ ནུས༌ ཏེ །  ཁོས་ གཅིག་ ལ་ སྡང་ ཞིང་ གཅིག་ ལ་ གཅེས༌པའམ །  ཡང་ན་ གཅིག་ ལ་ བཀུར་ ཞིང་ གཅིག་ ལ་ སྨད་པར་ བྱེད༌ དོ ། ། དེའི༌ ཕྱིར །  ཁྱོད་ རྣམས་ ཀྱིས་ དཀོན་མཆོག་ དང་ འཇིག་རྟེན་ གྱི་ རྒྱུ་ནོར་ གཉིས་ ལ་ ཞབས་ཕྱི་ སྒྲུབ་ མི་ ནུས་ ཞེས་ གསུངས༌ སོ །།
+1	suzhig	suzhig	PRON	_	_	_	_	_	orth=སུ་ཞིག་|gloss=who/anyone
+2	gis	gis	ADP	_	_	_	_	_	orth=གིས་|gloss=ERG/INST
+3	kyang	kyang	ADV	_	_	_	_	_	orth=ཀྱང་|gloss=also/even
+4	bdagpo	bdagpo	NOUN	_	_	7	dobj	_	orth=བདག་པོ་|gloss=masters|Number=Plur
+5	gnyis	gnyis	NUM	_	_	4	nummod	_	orth=གཉིས་|gloss=two|NumType=Card
+6	la	la	ADP	_	_	29	prep	_	orth=ལ་|gloss=DAT/LOC
+7	zhabsphyi	zhabsphyi	VERB	_	_	0	root	_	orth=ཞབས་ཕྱི་|gloss=serve|VerbForm=Inf
+8	sgrub	sgrub	VERB	_	_	_	_	_	orth=སྒྲུབ་|gloss=accomplish/serve
+9	mi	mi	PART	_	_	_	_	_	orth=མི་|gloss=NEG
+10	nus	nus	AUX	_	_	_	_	_	orth=ནུས༌|gloss=can
+11	te	te	SCONJ	_	_	_	_	_	orth=ཏེ|gloss=so
+12	,	,	PUNCT	_	_	_	_	_	orth=།
+13	khos	khos	PRON	_	_	_	acomp	_	orth=ཁོས་|gloss=he.ERG|Aspect=Perf|Tense=Past|VerbForm=Part
+14	gcig	gcig	NUM	_	_	15	pobj	_	orth=གཅིག་|gloss=one|NumType=Card
+15	la	la	ADP	_	_	29	prep	_	orth=ལ་|gloss=DAT/LOC
+16	sdang	sdang	VERB	_	_	_	_	_	orth=སྡང་|gloss=hate
+17	zhing	zhing	CCONJ	_	_	_	_	_	orth=ཞིང་|gloss=and
+18	gcig	gcig	NUM	_	_	19	pobj	_	orth=གཅིག་|gloss=one|NumType=Card
+19	la	la	ADP	_	_	29	prep	_	orth=ལ་|gloss=DAT/LOC
+20	gcespam	gcespam	VERB	_	_	_	conj	_	orth=གཅེས༌པའམ|gloss=love/cherish|VerbForm=Inf
+21	,	,	PUNCT	_	_	_	_	_	orth=།
+22	yangna	yangna	CCONJ	_	_	_	_	_	orth=ཡང་ན་|gloss=or
+23	gcig	gcig	NUM	_	_	24	pobj	_	orth=གཅིག་|gloss=one|NumType=Card
+24	la	la	ADP	_	_	29	prep	_	orth=ལ་|gloss=DAT/LOC
+25	bkur	bkur	VERB	_	_	_	_	_	orth=བཀུར་|gloss=respect/hold
+26	zhing	zhing	CCONJ	_	_	_	_	_	orth=ཞིང་|gloss=and
+27	gcig	gcig	NUM	_	_	28	pobj	_	orth=གཅིག་|gloss=one|NumType=Card
+28	la	la	ADP	_	_	29	prep	_	orth=ལ་|gloss=DAT/LOC
+29	smadpar	smadpar	VERB	_	_	_	acomp	_	orth=སྨད་པར་|gloss=despise|Aspect=Perf|Tense=Past|VerbForm=Part
+30	byed	byed	VERB	_	_	_	_	_	orth=བྱེད༌|gloss=do
+31	do	do	PART	_	_	_	_	_	orth=དོ|gloss=FIN
+32	,	,	PUNCT	_	_	_	_	_	orth=།
+33	,	,	PUNCT	_	_	_	_	_	orth=།
+34	de'i	de'i	PRON	_	_	_	_	_	orth=དེའི༌|gloss=that.GEN
+35	phyir	phyir	ADP	_	_	_	_	_	orth=ཕྱིར|gloss=for
+36	,	,	PUNCT	_	_	_	_	_	orth=།
+37	khyod	khyod	PRON	_	_	_	nsubj	_	orth=ཁྱོད་|gloss=you|Case=Nom|Person=2|PronType=Prs
+38	rnams	rnams	PART	_	_	_	_	_	orth=རྣམས་|gloss=PL
+39	kyis	kyis	ADP	_	_	_	_	_	orth=ཀྱིས་|gloss=ERG/INST
+40	dkonmchog	dkonmchog	PROPN	_	_	47	dobj	_	orth=དཀོན་མཆོག་|gloss=God|Number=Sing
+41	dang	dang	CCONJ	_	_	40	cc	_	orth=དང་|gloss=and/with|ConjType=Cmp
+42	'jigrten	'jigrten	NOUN	_	_	_	_	_	orth=འཇིག་རྟེན་|gloss=world
+43	gyi	gyi	ADP	_	_	_	_	_	orth=གྱི་|gloss=GEN
+44	rgyunor	rgyunor	NOUN	_	_	40	conj	_	orth=རྒྱུ་ནོར་|gloss=wealth/Mammon|Number=Sing
+45	gnyis	gnyis	NUM	_	_	4	nummod	_	orth=གཉིས་|gloss=two|NumType=Card
+46	la	la	ADP	_	_	29	prep	_	orth=ལ་|gloss=DAT/LOC
+47	zhabsphyi	zhabsphyi	VERB	_	_	0	root	_	orth=ཞབས་ཕྱི་|gloss=serve|VerbForm=Inf
+48	sgrub	sgrub	VERB	_	_	_	_	_	orth=སྒྲུབ་|gloss=accomplish/serve
+49	mi	mi	PART	_	_	_	_	_	orth=མི་|gloss=NEG
+50	nus	nus	AUX	_	_	_	_	_	orth=ནུས་|gloss=can
+51	zhes	zhes	PART	_	_	_	_	_	orth=ཞེས་|gloss=QUOT
+52	gsungs	gsungs	VERB	_	_	_	_	_	orth=གསུངས༌|gloss=say.HON
+53	so	so	PART	_	_	_	_	_	orth=སོ|gloss=FIN
+54	,,	,,	PUNCT	_	_	47	punct	_	orth=།།|PunctType=Peri
+
+# sent_id = 40018012
+# ref_id = Matthew 18:12
+# eng_text = " What do you think ? If a man has one hundred sheep , and one of them goes astray , doesn't he leave the ninety-nine , go to the mountains , and seek that which has gone astray ?
+# adx_text = mi zhig la lug bargya yod kyang delas lug gcig bor na , khyod rnams kyis ci ltar bsam mam , khos lug dgu bcu go dgu yodpa ri la bskyur te , lug bor songba de 'tsholba ma yin nam ,
+# adx_orth = མི་ ཞིག་ ལ་ ལུག་ བརྒྱ་ ཡོད་ ཀྱང་ དེ་ལས་ ལུག་ གཅིག་ བོར༌ ན །  ཁྱོད་ རྣམས་ ཀྱིས་ ཅི་ ལྟར་ བསམ༌ མམ །  ཁོས་ ལུག་ དགུ་ བཅུ་ གོ་ དགུ་ ཡོད་པ་ རི་ ལ་ བསྐྱུར༌ ཏེ །  ལུག་ བོར་ སོང་བ་ དེ་ འཚོལ་བ་ མ་ ཡིན༌ ནམ །
+1	mi	mi	NOUN	_	_	_	_	_	orth=མི་|gloss=man/person
+2	zhig	zhig	DET	_	_	5	quantmod	_	orth=ཞིག་|gloss=a/an (indefinite)|Definite=Ind|PronType=Art
+3	la	la	ADP	_	_	38	aux	_	orth=ལ་|gloss=DAT/LOC
+4	lug	lug	NOUN	_	_	_	dobj	_	orth=ལུག་|gloss=sheep|Number=Plur
+5	bargya	bargya	NUM	_	_	4	nummod	_	orth=བརྒྱ་|gloss=hundred|NumType=Card
+6	yod	yod	AUX	_	_	_	_	_	orth=ཡོད་|gloss=to have/exist
+7	kyang	kyang	ADV	_	_	_	_	_	orth=ཀྱང་|gloss=also/even
+8	delas	delas	ADP	_	_	_	_	_	orth=དེ་ལས་|gloss=from them
+9	lug	lug	NOUN	_	_	_	dobj	_	orth=ལུག་|gloss=sheep|Number=Plur
+10	gcig	gcig	NUM	_	_	_	pobj	_	orth=གཅིག་|gloss=one|Number=Sing
+11	bor	bor	VERB	_	_	10	relcl	_	orth=བོར༌|gloss=lose/astray|Aspect=Perf|Tense=Past|VerbForm=Part
+12	na	na	SCONJ	_	_	_	_	_	orth=ན|gloss=if
+13	,	,	PUNCT	_	_	_	_	_	orth=།
+14	khyod	khyod	PRON	_	_	_	_	_	orth=ཁྱོད་|gloss=you
+15	rnams	rnams	PART	_	_	_	_	_	orth=རྣམས་|gloss=PL
+16	kyis	kyis	ADP	_	_	_	_	_	orth=ཀྱིས་|gloss=ERG/INST
+17	ci	ci	PRON	_	_	_	_	_	orth=ཅི་|gloss=what
+18	ltar	ltar	ADV	_	_	_	_	_	orth=ལྟར་|gloss=how
+19	bsam	bsam	VERB	_	_	_	_	_	orth=བསམ༌|gloss=think
+20	mam	mam	PART	_	_	_	_	_	orth=མམ|gloss=Q
+21	,	,	PUNCT	_	_	_	_	_	orth=།
+22	khos	khos	PRON	_	_	_	_	_	orth=ཁོས་|gloss=he.ERG
+23	lug	lug	NOUN	_	_	_	dobj	_	orth=ལུག་|gloss=sheep|Number=Plur
+24	dgu	dgu	NUM	_	_	_	_	_	orth=དགུ་|gloss=nine
+25	bcu	bcu	NUM	_	_	_	_	_	orth=བཅུ་|gloss=ten
+26	go	go	NUM	_	_	_	_	_	orth=གོ་|gloss=and
+27	dgu	dgu	NUM	_	_	_	_	_	orth=དགུ་|gloss=nine
+28	yodpa	yodpa	VERB	_	_	_	_	_	orth=ཡོད་པ་|gloss=exist
+29	ri	ri	NOUN	_	_	_	_	_	orth=རི་|gloss=mountain
+30	la	la	ADP	_	_	38	aux	_	orth=ལ་|gloss=DAT/LOC
+31	bskyur	bskyur	VERB	_	_	_	_	_	orth=བསྐྱུར༌|gloss=leave
+32	te	te	SCONJ	_	_	_	_	_	orth=ཏེ|gloss=so
+33	,	,	PUNCT	_	_	_	_	_	orth=།
+34	lug	lug	NOUN	_	_	_	dobj	_	orth=ལུག་|gloss=sheep|Number=Plur
+35	bor	bor	VERB	_	_	10	relcl	_	orth=བོར་|gloss=lose/astray|Aspect=Perf|Tense=Past|VerbForm=Part
+36	songba	songba	VERB	_	_	_	_	_	orth=སོང་བ་|gloss=go
+37	de	de	PRON	_	_	_	_	_	orth=དེ་|gloss=that
+38	'tsholba	'tsholba	VERB	_	_	_	advcl	_	orth=འཚོལ་བ་|gloss=seek|VerbForm=Inf
+39	ma	ma	PART	_	_	_	_	_	orth=མ་|gloss=NEG
+40	yin	yin	AUX	_	_	_	_	_	orth=ཡིན༌|gloss=to be
+41	nam	nam	PART	_	_	_	punct	_	orth=ནམ|PunctType=Peri
+42	,	,	PUNCT	_	_	_	_	_	orth=།
+
+# sent_id = 40020021
+# ref_id = Matthew 20:21
+# eng_text = He said to her , " What do you want ? " She said to him , " Command that these , my two sons , may sit , one on your right hand , and one on your left hand , in your kingdom . "
+# adx_text = skyabsmgon ye shus 'diskad du , khyod la ci dgos sam zhes gsungspa na , budmed nare , khyed kyi rgyalsrid nang du nga'i bu 'di gnyis las gcig ni khyed kyi gyasphyogs dang , gcig ni khyed kyi gyonphyogs su sdod du 'jugpar mdzod ces zhuspa la ,
+# adx_orth = སྐྱབས་མགོན་ ཡེ་ ཤུས་ འདི་སྐད༌ དུ །  ཁྱོད་ ལ་ ཅི་ དགོས་ སམ་ ཞེས་ གསུངས་པ༌ ན །  བུད་མེད་ ན༌རེ །  ཁྱེད་ ཀྱི་ རྒྱལ་སྲིད་ ནང་ དུ་ ངའི་ བུ་ འདི་ གཉིས་ ལས་ གཅིག་ ནི་ ཁྱེད་ ཀྱི་ གཡས་ཕྱོགས༌ དང༌ །  གཅིག་ ནི་ ཁྱེད་ ཀྱི་ གཡོན་ཕྱོགས་ སུ་ སྡོད་ དུ་ འཇུག་པར་ མཛོད་ ཅེས་ ཞུས་པ༌ ལ །
+1	skyabsmgon	skyabsmgon	NOUN	_	_	_	_	_	orth=སྐྱབས་མགོན་|gloss=Savior/Lord
+2	ye	ye	PROPN	_	_	_	_	_	orth=ཡེ་|gloss=Jesus
+3	shus	shus	PROPN	_	_	_	_	_	orth=ཤུས་|gloss=Jesus.ERG
+4	'diskad	'diskad	PUNCT	_	_	_	punct	_	orth=འདི་སྐད༌|PunctSide=Ini|PunctType=Quot
+5	du	du	PUNCT	_	_	_	punct	_	orth=དུ|PunctType=Comm
+6	,	,	PUNCT	_	_	_	_	_	orth=།
+7	khyod	khyod	PRON	_	_	8	pobj	_	orth=ཁྱོད་|gloss=you|Case=Acc|Person=2|PronType=Prs
+8	la	la	ADP	_	_	_	prep	_	orth=ལ་|gloss=DAT/LOC
+9	ci	ci	PRON	_	_	30	attr	_	orth=ཅི་|gloss=what
+10	dgos	dgos	VERB	_	_	_	_	_	orth=དགོས་|gloss=want/need
+11	sam	sam	PUNCT	_	_	30	punct	_	orth=སམ་|PunctType=Peri
+12	zhes	zhes	PART	_	_	_	_	_	orth=ཞེས་|gloss=QUOT
+13	gsungspa	gsungspa	VERB	_	_	_	_	_	orth=གསུངས་པ༌|gloss=say.HON
+14	na	na	SCONJ	_	_	_	_	_	orth=ན|gloss=when/if
+15	,	,	PUNCT	_	_	_	_	_	orth=།
+16	budmed	budmed	NOUN	_	_	_	_	_	orth=བུད་མེད་|gloss=woman
+17	nare	nare	VERB	_	_	_	_	_	orth=ན༌རེ|gloss=said
+18	,	,	PUNCT	_	_	_	_	_	orth=།
+19	khyed	khyed	PRON	_	_	_	_	_	orth=ཁྱེད་|gloss=your(hon)
+20	kyi	kyi	ADP	_	_	_	_	_	orth=ཀྱི་|gloss=GEN
+21	rgyalsrid	rgyalsrid	PROPN	_	_	_	pobj	_	orth=རྒྱལ་སྲིད་|gloss=kingdom|Number=Sing
+22	nang	nang	ADP	_	_	_	_	_	orth=ནང་|gloss=in/into
+23	du	du	PUNCT	_	_	_	punct	_	orth=དུ་|PunctType=Comm
+24	nga'i	nga'i	PRON	_	_	_	_	_	orth=ངའི་|gloss=my
+25	bu	bu	NOUN	_	_	_	_	_	orth=བུ་|gloss=son
+26	'di	'di	PRON	_	_	_	_	_	orth=འདི་|gloss=this
+27	gnyis	gnyis	NUM	_	_	_	nummod	_	orth=གཉིས་|gloss=two|NumType=Card
+28	las	las	ADP	_	_	_	_	_	orth=ལས་|gloss=ABL
+29	gcig	gcig	NUM	_	_	_	npadvmod	_	orth=གཅིག་|gloss=one|NumType=Card
+30	ni	ni	AUX	_	_	0	root	_	orth=ནི་|gloss=is|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+31	khyed	khyed	PRON	_	_	_	_	_	orth=ཁྱེད་|gloss=your(hon)
+32	kyi	kyi	ADP	_	_	_	_	_	orth=ཀྱི་|gloss=GEN
+33	gyasphyogs	gyasphyogs	NOUN	_	_	_	_	_	orth=གཡས་ཕྱོགས༌|gloss=right
+34	dang	dang	CCONJ	_	_	36	cc	_	orth=དང༌|gloss=and/with|ConjType=Cmp
+35	,	,	PUNCT	_	_	_	_	_	orth=།
+36	gcig	gcig	NUM	_	_	_	npadvmod	_	orth=གཅིག་|gloss=one|NumType=Card
+37	ni	ni	AUX	_	_	0	root	_	orth=ནི་|gloss=is|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+38	khyed	khyed	PRON	_	_	_	_	_	orth=ཁྱེད་|gloss=your(hon)
+39	kyi	kyi	ADP	_	_	_	_	_	orth=ཀྱི་|gloss=GEN
+40	gyonphyogs	gyonphyogs	NOUN	_	_	_	pobj	_	orth=གཡོན་ཕྱོགས་|gloss=left|Number=Plur
+41	su	su	ADP	_	_	_	_	_	orth=སུ་|gloss=LOC/ALL
+42	sdod	sdod	VERB	_	_	_	_	_	orth=སྡོད་|gloss=sit
+43	du	du	PUNCT	_	_	_	punct	_	orth=དུ་|PunctType=Comm
+44	'jugpar	'jugpar	VERB	_	_	_	_	_	orth=འཇུག་པར་|gloss=make/allow
+45	mdzod	mdzod	VERB	_	_	_	_	_	orth=མཛོད་|gloss=command/do.IMP
+46	ces	ces	PART	_	_	_	_	_	orth=ཅེས་|gloss=QUOT
+47	zhuspa	zhuspa	VERB	_	_	_	_	_	orth=ཞུས་པ༌|gloss=request
+48	la	la	ADP	_	_	_	prep	_	orth=ལ|gloss=DAT/LOC
+49	,	,	PUNCT	_	_	_	_	_	orth=།
+
+# sent_id = 40026002
+# ref_id = Matthew 26:2
+# eng_text = " You know that after two days the Passover is coming , and the Son of Man will be delivered up to be crucified . "
+# adx_text = nyin gnyis kyi rjessu pe sag gi duschen yinpa khyod cag gis shespa dang , dus der mi'i bu gzhan lag tu sprod cing shing rgyagram gyi steng du brdabs nas gsodpar 'gyur zhes gsungs so ,,
+# adx_orth = ཉིན་ གཉིས་ ཀྱི་ རྗེས་སུ་ པེ་ སག་ གི་ དུས་ཆེན་ ཡིན་པ་ ཁྱོད་ ཅག་ གིས་ ཤེས་པ༌ དང༌ །  དུས་ དེར་ མིའི་ བུ་ གཞན་ ལག་ ཏུ་ སྤྲོད་ ཅིང་ ཤིང་ རྒྱ་གྲམ་ གྱི་ སྟེང་ དུ་ བརྡབས་ ནས་ གསོད་པར་ འགྱུར་ ཞེས་ གསུངས༌ སོ །།
+1	nyin	nyin	NOUN	_	_	_	pobj	_	orth=ཉིན་|gloss=days|Number=Plur
+2	gnyis	gnyis	NUM	_	_	1	nummod	_	orth=གཉིས་|gloss=two|NumType=Card
+3	kyi	kyi	ADP	_	_	_	_	_	orth=ཀྱི་|gloss=GEN
+4	rjessu	rjessu	ADP	_	_	_	_	_	orth=རྗེས་སུ་|gloss=after
+5	pe	pe	PROPN	_	_	_	_	_	orth=པེ་|gloss=Passover(part)
+6	sag	sag	PROPN	_	_	_	nsubj	_	orth=སག་|gloss=Passover(part)|Number=Sing
+7	gi	gi	ADP	_	_	_	prep	_	orth=གི་|gloss=of
+8	duschen	duschen	NOUN	_	_	_	_	_	orth=དུས་ཆེན་|gloss=festival
+9	yinpa	yinpa	VERB	_	_	_	_	_	orth=ཡིན་པ་|gloss=is
+10	khyod	khyod	PRON	_	_	_	nsubj	_	orth=ཁྱོད་|gloss=you|Case=Nom|Person=2|PronType=Prs
+11	cag	cag	PART	_	_	_	_	_	orth=ཅག་|gloss=PL
+12	gis	gis	ADP	_	_	_	_	_	orth=གིས་|gloss=ERG/INST
+13	shespa	shespa	VERB	_	_	_	_	_	orth=ཤེས་པ༌|gloss=know
+14	dang	dang	CCONJ	_	_	_	cc	_	orth=དང༌|gloss=and/with|ConjType=Cmp
+15	,	,	PUNCT	_	_	_	_	_	orth=།
+16	dus	dus	NOUN	_	_	_	_	_	orth=དུས་|gloss=time
+17	der	der	PRON	_	_	_	_	_	orth=དེར་|gloss=that
+18	mi'i	mi'i	NOUN	_	_	7	pobj	_	orth=མིའི་|gloss=Man.GEN|Number=Sing
+19	bu	bu	NOUN	_	_	_	_	_	orth=བུ་|gloss=son
+20	gzhan	gzhan	PRON	_	_	_	_	_	orth=གཞན་|gloss=other
+21	lag	lag	NOUN	_	_	_	_	_	orth=ལག་|gloss=hand
+22	tu	tu	ADP	_	_	_	_	_	orth=ཏུ་|gloss=LOC/ALL
+23	sprod	sprod	VERB	_	_	_	_	_	orth=སྤྲོད་|gloss=deliver
+24	cing	cing	CCONJ	_	_	_	_	_	orth=ཅིང་|gloss=and
+25	shing	shing	NOUN	_	_	_	_	_	orth=ཤིང་|gloss=wood
+26	rgyagram	rgyagram	NOUN	_	_	_	_	_	orth=རྒྱ་གྲམ་|gloss=cross
+27	gyi	gyi	ADP	_	_	_	_	_	orth=གྱི་|gloss=GEN
+28	steng	steng	ADP	_	_	_	_	_	orth=སྟེང་|gloss=on
+29	du	du	PUNCT	_	_	_	punct	_	orth=དུ་|PunctType=Comm
+30	brdabs	brdabs	VERB	_	_	_	advcl	_	orth=བརྡབས་|gloss=crucify|Aspect=Perf|Tense=Past|VerbForm=Part
+31	nas	nas	ADP	_	_	_	_	_	orth=ནས་|gloss=ABL
+32	gsodpar	gsodpar	VERB	_	_	_	_	_	orth=གསོད་པར་|gloss=kill
+33	'gyur	'gyur	AUX	_	_	_	aux	_	orth=འགྱུར་|gloss=will|VerbForm=Fin
+34	zhes	zhes	PART	_	_	_	_	_	orth=ཞེས་|gloss=QUOT
+35	gsungs	gsungs	VERB	_	_	_	_	_	orth=གསུངས༌|gloss=say.HON
+36	so	so	PART	_	_	_	_	_	orth=སོ|gloss=FIN
+37	,,	,,	PUNCT	_	_	_	punct	_	orth=།།|PunctType=Peri
+
+# sent_id = 40026061
+# ref_id = Matthew 26:61
+# eng_text = and said , " This man said , ' I am able to destroy the temple of God , and to build it in three days . ' "
+# adx_text = mi 'dis dkonmchog gi mchodkhang bshig ste nyin gsum la slaryang bzheng nus zhes smras myong zhespa la ,
+# adx_orth = མི་ འདིས་ དཀོན་མཆོག་ གི་ མཆོད་ཁང་ བཤིག་ སྟེ་ ཉིན་ གསུམ་ ལ་ སླར་ཡང་ བཞེང་ ནུས་ ཞེས་ སྨྲས་ མྱོང་ ཞེས་པ༌ ལ །
+1	mi	mi	NOUN	_	_	_	_	_	orth=མི་|gloss=man
+2	'dis	'dis	PRON	_	_	_	_	_	orth=འདིས་|gloss=this.ERG
+3	dkonmchog	dkonmchog	PROPN	_	_	4	pobj	_	orth=དཀོན་མཆོག་|gloss=God|Number=Sing
+4	gi	gi	ADP	_	_	5	prep	_	orth=གི་|gloss=of
+5	mchodkhang	mchodkhang	NOUN	_	_	_	dobj	_	orth=མཆོད་ཁང་|gloss=temple|Number=Sing
+6	bshig	bshig	VERB	_	_	_	_	_	orth=བཤིག་|gloss=destroy
+7	ste	ste	SCONJ	_	_	_	_	_	orth=སྟེ་|gloss=and
+8	nyin	nyin	NOUN	_	_	_	pobj	_	orth=ཉིན་|gloss=days|Number=Plur
+9	gsum	gsum	NUM	_	_	8	nummod	_	orth=གསུམ་|gloss=three|NumType=Card
+10	la	la	ADP	_	_	_	aux	_	orth=ལ་|gloss=DAT/LOC
+11	slaryang	slaryang	ADV	_	_	_	_	_	orth=སླར་ཡང་|gloss=again
+12	bzheng	bzheng	VERB	_	_	_	_	_	orth=བཞེང་|gloss=build
+13	nus	nus	AUX	_	_	_	_	_	orth=ནུས་|gloss=able
+14	zhes	zhes	PUNCT	_	_	_	punct	_	orth=ཞེས་|PunctSide=Fin|PunctType=Quot
+15	smras	smras	VERB	_	_	_	_	_	orth=སྨྲས་|gloss=said
+16	myong	myong	AUX	_	_	_	_	_	orth=མྱོང་|gloss=experienced
+17	zhespa	zhespa	VERB	_	_	_	_	_	orth=ཞེས་པ༌|gloss=saying
+18	la	la	ADP	_	_	_	aux	_	orth=ལ|gloss=DAT/LOC
+19	,	,	PUNCT	_	_	_	_	_	orth=།
+
+# sent_id = 40028016
+# ref_id = Matthew 28:16
+# eng_text = But the eleven disciples went into Galilee , to the mountain where Jesus had sent them .
+# adx_text = thugssras bcugcigpo skyabsmgon ye shu'i bka bzhin du ga lil yul gyi ri 'gor chaspa dang ,
+# adx_orth = ཐུགས་སྲས་ བཅུ་གཅིག་པོ་ སྐྱབས་མགོན་ ཡེ་ ཤུའི་ བཀའ་ བཞིན་ དུ་ ག་ ལིལ་ ཡུལ་ གྱི་ རི་ འགོར་ ཆས་པ༌ དང༌ །
+1	thugssras	thugssras	NOUN	_	_	_	nsubj	_	orth=ཐུགས་སྲས་|gloss=disciples|Number=Plur
+2	bcugcigpo	bcugcigpo	NUM	_	_	_	_	_	orth=བཅུ་གཅིག་པོ་|gloss=eleven
+3	skyabsmgon	skyabsmgon	NOUN	_	_	_	nsubj	_	orth=སྐྱབས་མགོན་|gloss=Lord
+4	ye	ye	PROPN	_	_	_	nsubj	_	orth=ཡེ་|gloss=Jesus|Number=Sing
+5	shu'i	shu'i	PROPN	_	_	_	_	_	orth=ཤུའི་|gloss=Jesus.GEN
+6	bka	bka	NOUN	_	_	_	_	_	orth=བཀའ་|gloss=word/command
+7	bzhin	bzhin	ADP	_	_	_	_	_	orth=བཞིན་|gloss=according.to
+8	du	du	ADP	_	_	_	punct	_	orth=དུ་|PunctType=Comm
+9	ga	ga	PROPN	_	_	_	pobj	_	orth=ག་|gloss=Galilee(part)|Number=Sing
+10	lil	lil	PROPN	_	_	_	pobj	_	orth=ལིལ་|gloss=Galilee(part)|Number=Sing
+11	yul	yul	NOUN	_	_	_	_	_	orth=ཡུལ་|gloss=region
+12	gyi	gyi	ADP	_	_	_	_	_	orth=གྱི་|gloss=GEN
+13	ri	ri	NOUN	_	_	_	_	_	orth=རི་|gloss=mountain
+14	'gor	'gor	ADP	_	_	_	_	_	orth=འགོར་|gloss=to
+15	chaspa	chaspa	VERB	_	_	_	_	_	orth=ཆས་པ༌|gloss=went
+16	dang	dang	CCONJ	_	_	_	_	_	orth=དང༌|gloss=and/with
+17	,	,	PUNCT	_	_	_	_	_	orth=།
+
+# sent_id = 41002023
+# ref_id = Mark 2:23
+# eng_text = It happened , that he was going on the Sabbath day through the grain fields , and his disciples began , as they went , to pluck the ears of grain .
+# adx_text = ngalgso ba'i nyin la , skyabsmgon ye shu zhing bar brgyud nas phebspa dang , khong gi thugssras rnams kyis 'bru yi snyema 'thog bzhin song zhing ,
+# adx_orth = ངལ་གསོ་ བའི་ ཉིན༌ ལ །  སྐྱབས་མགོན་ ཡེ་ ཤུ་ ཞིང་ བར་ བརྒྱུད་ ནས་ ཕེབས་པ༌ དང༌ །  ཁོང་ གི་ ཐུགས་སྲས་ རྣམས་ ཀྱིས་ འབྲུ་ ཡི་ སྙེ་མ་ འཐོག་ བཞིན་ སོང༌ ཞིང༌ །
+1	ngalgso	ngalgso	NOUN	_	_	_	compound	_	orth=ངལ་གསོ་|gloss=Sabbath|Number=Sing
+2	ba'i	ba'i	PART	_	_	_	_	_	orth=བའི་|gloss=GEN
+3	nyin	nyin	NOUN	_	_	_	_	_	orth=ཉིན༌|gloss=day
+4	la	la	ADP	_	_	_	aux	_	orth=ལ|gloss=DAT/LOC
+5	,	,	PUNCT	_	_	_	_	_	orth=།
+6	skyabsmgon	skyabsmgon	NOUN	_	_	13	nsubj	_	orth=སྐྱབས་མགོན་|gloss=Lord|Number=Sing
+7	ye	ye	PROPN	_	_	13	nsubj	_	orth=ཡེ་|gloss=Jesus|Number=Sing
+8	shu	shu	PROPN	_	_	_	_	_	orth=ཤུ་|gloss=Jesus
+9	zhing	zhing	NOUN	_	_	_	_	_	orth=ཞིང་|gloss=field
+10	bar	bar	ADP	_	_	_	_	_	orth=བར་|gloss=between
+11	brgyud	brgyud	ADP	_	_	13	prep	_	orth=བརྒྱུད་|gloss=through
+12	nas	nas	ADP	_	_	_	_	_	orth=ནས་|gloss=ABL
+13	phebspa	phebspa	VERB	_	_	_	advcl	_	orth=ཕེབས་པ༌|gloss=went|Aspect=Prog|Tense=Pres|VerbForm=Part
+14	dang	dang	CCONJ	_	_	_	_	_	orth=དང༌|gloss=and/with
+15	,	,	PUNCT	_	_	_	_	_	orth=།
+16	khong	khong	PRON	_	_	_	_	_	orth=ཁོང་|gloss=he/she/they(hon)
+17	gi	gi	ADP	_	_	_	prep	_	orth=གི་|gloss=of
+18	thugssras	thugssras	NOUN	_	_	_	nsubj	_	orth=ཐུགས་སྲས་|gloss=disciples|Number=Plur
+19	rnams	rnams	PART	_	_	_	_	_	orth=རྣམས་|gloss=PL
+20	kyis	kyis	ADP	_	_	_	_	_	orth=ཀྱིས་|gloss=ERG/INST
+21	'bru	'bru	NOUN	_	_	17	pobj	_	orth=འབྲུ་|gloss=grain|Number=Sing
+22	yi	yi	ADP	_	_	_	_	_	orth=ཡི་|gloss=GEN
+23	snyema	snyema	NOUN	_	_	_	_	_	orth=སྙེ་མ་|gloss=ears
+24	'thog	'thog	VERB	_	_	_	_	_	orth=འཐོག་|gloss=pluck
+25	bzhin	bzhin	ADP	_	_	_	_	_	orth=བཞིན་|gloss=PROG
+26	song	song	VERB	_	_	_	_	_	orth=སོང༌|gloss=went
+27	zhing	zhing	CCONJ	_	_	_	_	_	orth=ཞིང༌|gloss=and
+28	,	,	PUNCT	_	_	_	_	_	orth=།
+
+# sent_id = 41012032
+# ref_id = Mark 12:32
+# eng_text = The scribe said to him , " Truly , teacher , you have said well that he is one , and there is none other but he ,
+# adx_text = yang mkhanpo nare , slobdpon lags , de ni legs so , , dkonmchog ni gcig rang lags te khong las gzhan dkonmchog yodpa min zhes khyed kyis bdenpar gsungs so ,,
+# adx_orth = ཡང་ མཁན་པོ་ ན༌རེ །  སློབ་དཔོན༌ ལགས །  དེ་ ནི་ ལེགས༌ སོ ། ། དཀོན་མཆོག་ ནི་ གཅིག་ རང་ ལགས་ ཏེ་ ཁོང་ ལས་ གཞན་ དཀོན་མཆོག་ ཡོད་པ་ མིན་ ཞེས་ ཁྱེད་ ཀྱིས་ བདེན་པར་ གསུངས༌ སོ །།
+1	yang	yang	ADV	_	_	_	_	_	orth=ཡང་|gloss=also/again
+2	mkhanpo	mkhanpo	NOUN	_	_	_	_	_	orth=མཁན་པོ་|gloss=scribe/scholar
+3	nare	nare	VERB	_	_	_	_	_	orth=ན༌རེ|gloss=said
+4	,	,	PUNCT	_	_	_	_	_	orth=།
+5	slobdpon	slobdpon	NOUN	_	_	_	npadvmod	_	orth=སློབ་དཔོན༌|gloss=Teacher|Number=Sing
+6	lags	lags	PART	_	_	_	_	_	orth=ལགས|gloss=HON
+7	,	,	PUNCT	_	_	_	_	_	orth=།
+8	de	de	PRON	_	_	_	_	_	orth=དེ་|gloss=that
+9	ni	ni	PART	_	_	_	ccomp	_	orth=ནི་|gloss=is|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+10	legs	legs	ADJ	_	_	_	_	_	orth=ལེགས༌|gloss=well/good
+11	so	so	PART	_	_	_	_	_	orth=སོ|gloss=FIN
+12	,	,	PUNCT	_	_	_	_	_	orth=།
+13	,	,	PUNCT	_	_	_	_	_	orth=།
+14	dkonmchog	dkonmchog	PROPN	_	_	15	attr	_	orth=དཀོན་མཆོག་|gloss=God|Number=Sing
+15	ni	ni	PART	_	_	_	ccomp	_	orth=ནི་|gloss=is|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+16	gcig	gcig	NUM	_	_	14	nummod	_	orth=གཅིག་|gloss=one|NumType=Card
+17	rang	rang	PRON	_	_	_	_	_	orth=རང་|gloss=only
+18	lags	lags	VERB	_	_	_	_	_	orth=ལགས་|gloss=is.HON
+19	te	te	SCONJ	_	_	_	_	_	orth=ཏེ་|gloss=and
+20	khong	khong	PRON	_	_	_	_	_	orth=ཁོང་|gloss=he/she/they(hon)
+21	las	las	ADP	_	_	_	_	_	orth=ལས་|gloss=ABL
+22	gzhan	gzhan	PRON	_	_	_	_	_	orth=གཞན་|gloss=other
+23	dkonmchog	dkonmchog	PROPN	_	_	15	attr	_	orth=དཀོན་མཆོག་|gloss=God|Number=Sing
+24	yodpa	yodpa	VERB	_	_	_	_	_	orth=ཡོད་པ་|gloss=exist
+25	min	min	AUX	_	_	_	_	_	orth=མིན་|gloss=not to be
+26	zhes	zhes	PART	_	_	_	_	_	orth=ཞེས་|gloss=QUOT
+27	khyed	khyed	PRON	_	_	_	_	_	orth=ཁྱེད་|gloss=you(hon)
+28	kyis	kyis	ADP	_	_	_	_	_	orth=ཀྱིས་|gloss=ERG/INST
+29	bdenpar	bdenpar	ADV	_	_	_	dobj	_	orth=བདེན་པར་|gloss=truly|Number=Sing
+30	gsungs	gsungs	VERB	_	_	_	_	_	orth=གསུངས༌|gloss=say.HON
+31	so	so	PART	_	_	_	_	_	orth=སོ|gloss=FIN
+32	,,	,,	PUNCT	_	_	_	punct	_	orth=།།|PunctType=Peri
+
+# sent_id = 41014037
+# ref_id = Mark 14:37
+# eng_text = He came and found them sleeping , and said to Peter , " Simon , are you sleeping ? Couldn't you watch one hour ?
+# adx_text = denas khong nyid phyirphebspa na kho rnams gnyid du yurba gzigs te pe tro la 'diskad du , si mon , khyod rang gnyid la yurba yin nam , chutshod gcig tsam lang dogszon bya mi nus sam ,
+# adx_orth = དེ་ནས་ ཁོང་ ཉིད་ ཕྱིར་ཕེབས་པ་ ན་ ཁོ་ རྣམས་ གཉིད་ དུ་ ཡུར་བ་ གཟིགས་ ཏེ་ པེ་ ཏྲོ་ ལ་ འདི་སྐད༌ དུ །  སི༌ མོན །  ཁྱོད་ རང་ གཉིད་ ལ་ ཡུར་བ་ ཡིན༌ ནམ །  ཆུ་ཚོད་ གཅིག་ ཙམ་ ལའང་ དོགས་ཟོན་ བྱ་ མི་ ནུས༌ སམ །
+1	denas	denas	ADV	_	_	_	advmod	_	orth=དེ་ནས་|gloss=Then|PronType=Dem
+2	khong	khong	PRON	_	_	_	_	_	orth=ཁོང་|gloss=he/she/they(hon)
+3	nyid	nyid	PRON	_	_	_	_	_	orth=ཉིད་|gloss=himself
+4	phyirphebspa	phyirphebspa	VERB	_	_	_	_	_	orth=ཕྱིར་ཕེབས་པ་|gloss=came.back
+5	na	na	SCONJ	_	_	_	_	_	orth=ན་|gloss=when
+6	kho	kho	PRON	_	_	_	_	_	orth=ཁོ་|gloss=he/him
+7	rnams	rnams	PART	_	_	_	_	_	orth=རྣམས་|gloss=PL
+8	gnyid	gnyid	NOUN	_	_	_	acomp	_	orth=གཉིད་|gloss=sleep|Degree=Pos
+9	du	du	ADP	_	_	_	punct	_	orth=དུ་|PunctType=Comm
+10	yurba	yurba	VERB	_	_	_	acomp	_	orth=ཡུར་བ་|gloss=fall.asleep|Degree=Pos
+11	gzigs	gzigs	VERB	_	_	_	_	_	orth=གཟིགས་|gloss=saw.HON
+12	te	te	SCONJ	_	_	_	_	_	orth=ཏེ་|gloss=and
+13	pe	pe	PROPN	_	_	15	pobj	_	orth=པེ་|gloss=Peter|Number=Sing
+14	tro	tro	PROPN	_	_	15	pobj	_	orth=ཏྲོ་|gloss=Peter|Number=Sing
+15	la	la	ADP	_	_	_	prep	_	orth=ལ་|gloss=DAT/LOC
+16	'diskad	'diskad	ADV	_	_	_	punct	_	orth=འདི་སྐད༌|PunctSide=Ini|PunctType=Quot
+17	du	du	ADP	_	_	_	punct	_	orth=དུ|PunctType=Comm
+18	,	,	PUNCT	_	_	_	_	_	orth=།
+19	si	si	PROPN	_	_	_	npadvmod	_	orth=སི༌|gloss=Simon|Number=Sing
+20	mon	mon	PROPN	_	_	_	npadvmod	_	orth=མོན|gloss=Simon|Number=Sing
+21	,	,	PUNCT	_	_	_	_	_	orth=།
+22	khyod	khyod	PRON	_	_	34	nsubj	_	orth=ཁྱོད་|gloss=you|Case=Nom|Person=2|PronType=Prs
+23	rang	rang	PRON	_	_	_	_	_	orth=རང་|gloss=yourself
+24	gnyid	gnyid	NOUN	_	_	_	acomp	_	orth=གཉིད་|gloss=sleep|Degree=Pos
+25	la	la	ADP	_	_	_	prep	_	orth=ལ་|gloss=DAT/LOC
+26	yurba	yurba	VERB	_	_	_	acomp	_	orth=ཡུར་བ་|gloss=fall.asleep|Degree=Pos
+27	yin	yin	AUX	_	_	_	_	_	orth=ཡིན༌|gloss=to be
+28	nam	nam	PART	_	_	34	punct	_	orth=ནམ|PunctType=Peri
+29	,	,	PUNCT	_	_	_	_	_	orth=།
+30	chutshod	chutshod	NOUN	_	_	34	npadvmod	_	orth=ཆུ་ཚོད་|gloss=hour|Number=Sing
+31	gcig	gcig	NUM	_	_	30	nummod	_	orth=གཅིག་|gloss=one|NumType=Card
+32	tsam	tsam	ADV	_	_	_	_	_	orth=ཙམ་|gloss=about
+33	lang	lang	PART	_	_	_	_	_	orth=ལའང་|gloss=even
+34	dogszon	dogszon	VERB	_	_	0	root	_	orth=དོགས་ཟོན་|gloss=watch|VerbForm=Inf
+35	bya	bya	VERB	_	_	_	_	_	orth=བྱ་|gloss=do
+36	mi	mi	PART	_	_	_	_	_	orth=མི་|gloss=NEG
+37	nus	nus	AUX	_	_	_	_	_	orth=ནུས༌|gloss=can
+38	sam	sam	PART	_	_	34	punct	_	orth=སམ|PunctType=Peri
+39	,	,	PUNCT	_	_	_	_	_	orth=།
+
+# sent_id = 42004002
+# ref_id = Luke 4:2
+# eng_text = for forty days , being tempted by the devil . He ate nothing in those days . Afterward , when they were completed , he was hungry .
+# adx_text = nyin bzhi bcu'i ring la bdud kyis khong la nyamstshod blangs so ,, nyin dedag gi ring la khong gis zhalzas ciyang ma bzhespas , nyin dedag mjug rdzogs skabs khong ni bkres shing ltogspar gyur to ,,
+# adx_orth = ཉིན་ བཞི་ བཅུའི་ རིང་ ལ་ བདུད་ ཀྱིས་ ཁོང་ ལ་ ཉམས་ཚོད་ བླངས་ སོ །།  ཉིན་ དེ་དག་ གི་ རིང་ ལ་ ཁོང་ གིས་ ཞལ་ཟས་ ཅི་ཡང་ མ་ བཞེས༌པས །  ཉིན་ དེ་དག་ མཇུག་ རྫོགས་ སྐབས་ ཁོང་ ནི་ བཀྲེས་ ཤིང་ ལྟོགས་པར་ གྱུར་ ཏོ །།
+1	nyin	nyin	NOUN	_	_	_	pobj	_	orth=ཉིན་|gloss=days|Number=Plur
+2	bzhi	bzhi	NUM	_	_	_	_	_	orth=བཞི་|gloss=four
+3	bcu'i	bcu'i	NUM	_	_	1	nummod	_	orth=བཅུའི་|gloss=forty|NumType=Card
+4	ring	ring	ADP	_	_	_	_	_	orth=རིང་|gloss=during
+5	la	la	ADP	_	_	_	_	_	orth=ལ་|gloss=DAT/LOC
+6	bdud	bdud	NOUN	_	_	_	pobj	_	orth=བདུད་|gloss=devil|Number=Sing
+7	kyis	kyis	ADP	_	_	_	_	_	orth=ཀྱིས་|gloss=ERG/INST
+8	khong	khong	PRON	_	_	_	_	_	orth=ཁོང་|gloss=he/she/they(hon)
+9	la	la	ADP	_	_	_	_	_	orth=ལ་|gloss=DAT/LOC
+10	nyamstshod	nyamstshod	NOUN	_	_	_	_	_	orth=ཉམས་ཚོད་|gloss=temptation
+11	blangs	blangs	VERB	_	_	_	_	_	orth=བླངས་|gloss=receive/take
+12	so	so	PART	_	_	_	_	_	orth=སོ|gloss=FIN
+13	,,	,,	PUNCT	_	_	_	punct	_	orth=།།|PunctType=Peri
+14	nyin	nyin	NOUN	_	_	_	pobj	_	orth=ཉིན་|gloss=days|Number=Plur
+15	dedag	dedag	PRON	_	_	_	_	_	orth=དེ་དག་|gloss=those
+16	gi	gi	ADP	_	_	_	_	_	orth=གི་|gloss=of
+17	ring	ring	ADP	_	_	_	_	_	orth=རིང་|gloss=during
+18	la	la	ADP	_	_	_	_	_	orth=ལ་|gloss=DAT/LOC
+19	khong	khong	PRON	_	_	_	_	_	orth=ཁོང་|gloss=he/she/they(hon)
+20	gis	gis	ADP	_	_	_	_	_	orth=གིས་|gloss=ERG/INST
+21	zhalzas	zhalzas	NOUN	_	_	_	_	_	orth=ཞལ་ཟས་|gloss=food
+22	ciyang	ciyang	PRON	_	_	_	dobj	_	orth=ཅི་ཡང་|gloss=nothing|Number=Sing|PronType=Ind
+23	ma	ma	PART	_	_	_	_	_	orth=མ་|gloss=NEG
+24	bzhespas	bzhespas	VERB	_	_	_	_	_	orth=བཞེས༌པས|gloss=ate
+25	,	,	PUNCT	_	_	_	_	_	orth=།
+26	nyin	nyin	NOUN	_	_	_	pobj	_	orth=ཉིན་|gloss=days|Number=Plur
+27	dedag	dedag	PRON	_	_	_	_	_	orth=དེ་དག་|gloss=those
+28	mjug	mjug	NOUN	_	_	_	_	_	orth=མཇུག་|gloss=end
+29	rdzogs	rdzogs	VERB	_	_	_	_	_	orth=རྫོགས་|gloss=completed
+30	skabs	skabs	ADP	_	_	_	_	_	orth=སྐབས་|gloss=when
+31	khong	khong	PRON	_	_	_	_	_	orth=ཁོང་|gloss=he/she/they(hon)
+32	ni	ni	PART	_	_	_	_	_	orth=ནི་|gloss=is
+33	bkres	bkres	VERB	_	_	_	acomp	_	orth=བཀྲེས་|gloss=hungry|Degree=Pos
+34	shing	shing	CCONJ	_	_	_	_	_	orth=ཤིང་|gloss=and
+35	ltogspar	ltogspar	VERB	_	_	_	_	_	orth=ལྟོགས་པར་|gloss=hungry
+36	gyur	gyur	VERB	_	_	_	_	_	orth=གྱུར་|gloss=became
+37	to	to	PART	_	_	_	_	_	orth=ཏོ|gloss=FIN
+38	,,	,,	PUNCT	_	_	_	punct	_	orth=།།|PunctType=Peri
+
+# sent_id = 42016013
+# ref_id = Luke 16:13
+# eng_text = No servant can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You aren't able to serve God and mammon . "
+# adx_text = yanggyogpo gcig gis bdagpo gnyis la zhabsphyi bsgrub mi nus te , khos gcig la sdang zhing gcig la gcespam , yangna gcig la bkur zhing gcig la smadpar byed do ,, de'i phyir , khyod rnams kyis dkonmchog dang 'jigrten gyi rgyunor gnyis la zhabsphyi bsgrub mi nus zhes gsungs so ,,
+# adx_orth = ཡང་གཡོག་པོ་ གཅིག་ གིས་ བདག་པོ་ གཉིས་ ལ་ ཞབས་ཕྱི་ བསྒྲུབ་ མི་ ནུས༌ ཏེ །  ཁོས་ གཅིག་ ལ་ སྡང་ ཞིང་ གཅིག་ ལ་ གཅེས༌པའམ །  ཡང་ན་ གཅིག་ ལ་ བཀུར་ ཞིང་ གཅིག་ ལ་ སྨད་པར་ བྱེད་ དོ །།  དེའི༌ ཕྱིར །  ཁྱོད་ རྣམས་ ཀྱིས་ དཀོན་མཆོག་ དང་ འཇིག་རྟེན་ གྱི་ རྒྱུ་ནོར་ གཉིས་ ལ་ ཞབས་ཕྱི་ བསྒྲུབ་ མི་ ནུས་ ཞེས་ གསུངས༌ སོ །།
+1	yanggyogpo	yanggyogpo	NOUN	_	_	_	_	_	orth=ཡང་གཡོག་པོ་|gloss=servant
+2	gcig	gcig	NUM	_	_	6	pobj	_	orth=གཅིག་|gloss=one|NumType=Card
+3	gis	gis	ADP	_	_	_	_	_	orth=གིས་|gloss=ERG/INST
+4	bdagpo	bdagpo	NOUN	_	_	7	dobj	_	orth=བདག་པོ་|gloss=masters|Number=Plur
+5	gnyis	gnyis	NUM	_	_	4	nummod	_	orth=གཉིས་|gloss=two|NumType=Card
+6	la	la	ADP	_	_	29	prep	_	orth=ལ་|gloss=DAT/LOC
+7	zhabsphyi	zhabsphyi	VERB	_	_	0	root	_	orth=ཞབས་ཕྱི་|gloss=serve|VerbForm=Inf
+8	bsgrub	bsgrub	VERB	_	_	_	_	_	orth=བསྒྲུབ་|gloss=accomplish/serve
+9	mi	mi	PART	_	_	_	_	_	orth=མི་|gloss=NEG
+10	nus	nus	AUX	_	_	_	_	_	orth=ནུས༌|gloss=can
+11	te	te	SCONJ	_	_	_	_	_	orth=ཏེ|gloss=so
+12	,	,	PUNCT	_	_	_	_	_	orth=།
+13	khos	khos	PRON	_	_	_	acomp	_	orth=ཁོས་|gloss=he.ERG|Aspect=Perf|Tense=Past|VerbForm=Part
+14	gcig	gcig	NUM	_	_	15	pobj	_	orth=གཅིག་|gloss=one|NumType=Card
+15	la	la	ADP	_	_	29	prep	_	orth=ལ་|gloss=DAT/LOC
+16	sdang	sdang	VERB	_	_	_	_	_	orth=སྡང་|gloss=hate
+17	zhing	zhing	CCONJ	_	_	_	_	_	orth=ཞིང་|gloss=and
+18	gcig	gcig	NUM	_	_	19	pobj	_	orth=གཅིག་|gloss=one|NumType=Card
+19	la	la	ADP	_	_	29	prep	_	orth=ལ་|gloss=DAT/LOC
+20	gcespam	gcespam	VERB	_	_	_	conj	_	orth=གཅེས༌པའམ|gloss=love/cherish|VerbForm=Inf
+21	,	,	PUNCT	_	_	_	_	_	orth=།
+22	yangna	yangna	CCONJ	_	_	_	_	_	orth=ཡང་ན་|gloss=or
+23	gcig	gcig	NUM	_	_	24	pobj	_	orth=གཅིག་|gloss=one|NumType=Card
+24	la	la	ADP	_	_	29	prep	_	orth=ལ་|gloss=DAT/LOC
+25	bkur	bkur	VERB	_	_	_	_	_	orth=བཀུར་|gloss=respect/hold
+26	zhing	zhing	CCONJ	_	_	_	_	_	orth=ཞིང་|gloss=and
+27	gcig	gcig	NUM	_	_	28	pobj	_	orth=གཅིག་|gloss=one|NumType=Card
+28	la	la	ADP	_	_	29	prep	_	orth=ལ་|gloss=DAT/LOC
+29	smadpar	smadpar	VERB	_	_	_	acomp	_	orth=སྨད་པར་|gloss=despise|Aspect=Perf|Tense=Past|VerbForm=Part
+30	byed	byed	VERB	_	_	_	_	_	orth=བྱེད་|gloss=do
+31	do	do	PART	_	_	_	_	_	orth=དོ|gloss=FIN
+32	,,	,,	PUNCT	_	_	46	punct	_	orth=།།|PunctType=Peri
+33	de'i	de'i	PRON	_	_	_	_	_	orth=དེའི༌|gloss=that.GEN
+34	phyir	phyir	ADP	_	_	_	_	_	orth=ཕྱིར|gloss=for
+35	,	,	PUNCT	_	_	_	_	_	orth=།
+36	khyod	khyod	PRON	_	_	_	nsubj	_	orth=ཁྱོད་|gloss=you|Case=Nom|Person=2|PronType=Prs
+37	rnams	rnams	PART	_	_	_	_	_	orth=རྣམས་|gloss=PL
+38	kyis	kyis	ADP	_	_	_	_	_	orth=ཀྱིས་|gloss=ERG/INST
+39	dkonmchog	dkonmchog	PROPN	_	_	46	dobj	_	orth=དཀོན་མཆོག་|gloss=God|Number=Sing
+40	dang	dang	CCONJ	_	_	39	cc	_	orth=དང་|gloss=and/with|ConjType=Cmp
+41	'jigrten	'jigrten	NOUN	_	_	_	_	_	orth=འཇིག་རྟེན་|gloss=world
+42	gyi	gyi	ADP	_	_	_	_	_	orth=གྱི་|gloss=GEN
+43	rgyunor	rgyunor	NOUN	_	_	39	conj	_	orth=རྒྱུ་ནོར་|gloss=wealth/Mammon|Number=Sing
+44	gnyis	gnyis	NUM	_	_	4	nummod	_	orth=གཉིས་|gloss=two|NumType=Card
+45	la	la	ADP	_	_	29	prep	_	orth=ལ་|gloss=DAT/LOC
+46	zhabsphyi	zhabsphyi	VERB	_	_	0	root	_	orth=ཞབས་ཕྱི་|gloss=serve|VerbForm=Inf
+47	bsgrub	bsgrub	VERB	_	_	_	_	_	orth=བསྒྲུབ་|gloss=accomplish/serve
+48	mi	mi	PART	_	_	_	_	_	orth=མི་|gloss=NEG
+49	nus	nus	AUX	_	_	_	_	_	orth=ནུས་|gloss=can
+50	zhes	zhes	PART	_	_	_	_	_	orth=ཞེས་|gloss=QUOT
+51	gsungs	gsungs	VERB	_	_	_	_	_	orth=གསུངས༌|gloss=say.HON
+52	so	so	PART	_	_	_	_	_	orth=སོ|gloss=FIN
+53	,,	,,	PUNCT	_	_	46	punct	_	orth=།།|PunctType=Peri
+
+# sent_id = 42024018
+# ref_id = Luke 24:18
+# eng_text = One of them , named Cleopas , answered him , " Are you the only one travelling in Jerusalem who doesn't know the things which have happened there in these days ? "
+# adx_text = mi de gnyis las ming la kaa lo phu zerba nare , ye ru saa lem gyi mjalpa rnams las gans der nyechar don ci byungbang mi shespa khyod rang khona yin nam zhes smraspa dang ,
+# adx_orth = མི་ དེ་ གཉིས་ ལས་ མིང་ ལ་ ཀཱ་ ལོ་ ཕུ་ ཟེར་བ་ ན༌རེ །  ཡེ་ རུ་ སཱ་ ལེམ་ གྱི་ མཇལ་པ་ རྣམས་ ལས་ གནས་ དེར་ ཉེ་ཆར་ དོན་ ཅི་ བྱུང་བའང་ མི་ ཤེས་པ་ ཁྱོད་ རང་ ཁོ་ན་ ཡིན་ ནམ་ ཞེས་ སྨྲས་པ༌ དང༌ །
+1	mi	mi	NOUN	_	_	_	_	_	orth=མི་|gloss=person
+2	de	de	PRON	_	_	_	_	_	orth=དེ་|gloss=that
+3	gnyis	gnyis	NUM	_	_	_	_	_	orth=གཉིས་|gloss=two
+4	las	las	ADP	_	_	_	_	_	orth=ལས་|gloss=ABL
+5	ming	ming	NOUN	_	_	_	_	_	orth=མིང་|gloss=name
+6	la	la	ADP	_	_	_	_	_	orth=ལ་|gloss=DAT/LOC
+7	kaa	kaa	PROPN	_	_	_	_	_	orth=ཀཱ་|gloss=Cleopas(part)
+8	lo	lo	PROPN	_	_	_	_	_	orth=ལོ་|gloss=Cleopas(part)
+9	phu	phu	PROPN	_	_	_	_	_	orth=ཕུ་|gloss=Cleopas(part)
+10	zerba	zerba	VERB	_	_	_	_	_	orth=ཟེར་བ་|gloss=called
+11	nare	nare	VERB	_	_	_	_	_	orth=ན༌རེ|gloss=said
+12	,	,	PUNCT	_	_	_	_	_	orth=།
+13	ye	ye	PROPN	_	_	_	_	_	orth=ཡེ་|gloss=Jerusalem(part)
+14	ru	ru	PROPN	_	_	_	_	_	orth=རུ་|gloss=Jerusalem(part)
+15	saa	saa	PROPN	_	_	_	_	_	orth=སཱ་|gloss=Jerusalem(part)
+16	lem	lem	PROPN	_	_	_	pobj	_	orth=ལེམ་|gloss=Jerusalem(part)|Number=Sing
+17	gyi	gyi	ADP	_	_	_	_	_	orth=གྱི་|gloss=GEN
+18	mjalpa	mjalpa	NOUN	_	_	_	_	_	orth=མཇལ་པ་|gloss=traveller
+19	rnams	rnams	PART	_	_	_	_	_	orth=རྣམས་|gloss=PL
+20	las	las	ADP	_	_	_	_	_	orth=ལས་|gloss=ABL
+21	gans	gans	NOUN	_	_	_	_	_	orth=གནས་|gloss=place
+22	der	der	PRON	_	_	_	_	_	orth=དེར་|gloss=there
+23	nyechar	nyechar	ADV	_	_	_	_	_	orth=ཉེ་ཆར་|gloss=recently
+24	don	don	NOUN	_	_	_	_	_	orth=དོན་|gloss=things
+25	ci	ci	PRON	_	_	_	_	_	orth=ཅི་|gloss=what
+26	byungbang	byungbang	VERB	_	_	_	_	_	orth=བྱུང་བའང་|gloss=happened
+27	mi	mi	PART	_	_	_	_	_	orth=མི་|gloss=NEG
+28	shespa	shespa	VERB	_	_	_	_	_	orth=ཤེས་པ་|gloss=know
+29	khyod	khyod	PRON	_	_	_	_	_	orth=ཁྱོད་|gloss=you
+30	rang	rang	PRON	_	_	_	_	_	orth=རང་|gloss=yourself
+31	khona	khona	ADV	_	_	_	_	_	orth=ཁོ་ན་|gloss=only
+32	yin	yin	AUX	_	_	_	aux	_	orth=ཡིན་|gloss=to be|Mood=Ind|Tense=Pres|VerbForm=Fin
+33	nam	nam	PART	_	_	_	_	_	orth=ནམ་|gloss=Q
+34	zhes	zhes	PART	_	_	_	_	_	orth=ཞེས་|gloss=QUOT
+35	smraspa	smraspa	VERB	_	_	_	_	_	orth=སྨྲས་པ༌|gloss=answered
+36	dang	dang	CCONJ	_	_	_	_	_	orth=དང༌|gloss=and/with
+37	,	,	PUNCT	_	_	_	_	_	orth=།
+
+# sent_id = 43001039
+# ref_id = John 1:39
+# eng_text = He said to them , " Come , and see . " They came and saw where he was staying , and they stayed with him that day . It was about the tenth hour .
+# adx_text = yang khong gis 'dir shog dang ltos shig ces gsungspa dang , mi de gnyis khong dang mnyam du khong nyid bzhugspa'i gans su song zhing , gans de mthongba dang nyin der khong dang lhan du bsdad do ,, skabs de ni phyidro'i chutshod bzhi tsam yinpa red ,
+# adx_orth = ཡང་ ཁོང་ གིས་ འདིར་ ཤོག་ དང་ ལྟོས་ ཤིག་ ཅེས་ གསུངས་པ༌ དང༌ །  མི་ དེ་ གཉིས་ ཁོང་ དང་ མཉམ་ དུ་ ཁོང་ ཉིད་ བཞུགས་པའི་ གནས་ སུ་ སོང༌ ཞིང༌ །  གནས་ དེ་ མཐོང་བ་ དང་ ཉིན་ དེར་ ཁོང་ དང་ ལྷན་ དུ་ བསྡད་ དོ །།  སྐབས་ དེ་ ནི་ ཕྱི་དྲོའི་ ཆུ་ཚོད་ བཞི་ ཙམ་ ཡིན༌པ་ རེད །
+1	yang	yang	ADV	_	_	_	_	_	orth=ཡང་|gloss=also/again
+2	khong	khong	PRON	_	_	18	pobj	_	orth=ཁོང་|gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+3	gis	gis	ADP	_	_	_	_	_	orth=གིས་|gloss=ERG/INST
+4	'dir	'dir	PRON	_	_	_	_	_	orth=འདིར་|gloss=here
+5	shog	shog	VERB	_	_	_	_	_	orth=ཤོག་|gloss=come
+6	dang	dang	CCONJ	_	_	_	cc	_	orth=དང་|gloss=and/with|ConjType=Cmp
+7	ltos	ltos	VERB	_	_	_	_	_	orth=ལྟོས་|gloss=see
+8	shig	shig	PART	_	_	_	_	_	orth=ཤིག་|gloss=IMP
+9	ces	ces	PART	_	_	_	_	_	orth=ཅེས་|gloss=QUOT
+10	gsungspa	gsungspa	VERB	_	_	_	_	_	orth=གསུངས་པ༌|gloss=said
+11	dang	dang	CCONJ	_	_	_	cc	_	orth=དང༌|gloss=and/with|ConjType=Cmp
+12	,	,	PUNCT	_	_	_	_	_	orth=།
+13	mi	mi	NOUN	_	_	_	_	_	orth=མི་|gloss=men
+14	de	de	PRON	_	_	_	_	_	orth=དེ་|gloss=that
+15	gnyis	gnyis	NUM	_	_	_	_	_	orth=གཉིས་|gloss=two
+16	khong	khong	PRON	_	_	18	pobj	_	orth=ཁོང་|gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+17	dang	dang	CCONJ	_	_	_	cc	_	orth=དང་|gloss=and/with|ConjType=Cmp
+18	mnyam	mnyam	ADP	_	_	_	prep	_	orth=མཉམ་|gloss=with
+19	du	du	PUNCT	_	_	_	punct	_	orth=དུ་|PunctType=Comm
+20	khong	khong	PRON	_	_	18	pobj	_	orth=ཁོང་|gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+21	nyid	nyid	PRON	_	_	_	_	_	orth=ཉིད་|gloss=himself
+22	bzhugspa'i	bzhugspa'i	VERB	_	_	_	_	_	orth=བཞུགས་པའི་|gloss=staying
+23	gans	gans	NOUN	_	_	_	pobj	_	orth=གནས་|gloss=place|Number=Sing
+24	su	su	ADP	_	_	_	_	_	orth=སུ་|gloss=LOC/ALL
+25	song	song	VERB	_	_	_	_	_	orth=སོང༌|gloss=went
+26	zhing	zhing	CCONJ	_	_	_	_	_	orth=ཞིང༌|gloss=and
+27	,	,	PUNCT	_	_	_	_	_	orth=།
+28	gans	gans	NOUN	_	_	_	pobj	_	orth=གནས་|gloss=place|Number=Sing
+29	de	de	PRON	_	_	_	_	_	orth=དེ་|gloss=that
+30	mthongba	mthongba	VERB	_	_	_	_	_	orth=མཐོང་བ་|gloss=saw
+31	dang	dang	CCONJ	_	_	_	cc	_	orth=དང་|gloss=and/with|ConjType=Cmp
+32	nyin	nyin	NOUN	_	_	_	_	_	orth=ཉིན་|gloss=day
+33	der	der	PRON	_	_	_	_	_	orth=དེར་|gloss=that
+34	khong	khong	PRON	_	_	18	pobj	_	orth=ཁོང་|gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+35	dang	dang	CCONJ	_	_	_	cc	_	orth=དང་|gloss=and/with|ConjType=Cmp
+36	lhan	lhan	ADP	_	_	_	_	_	orth=ལྷན་|gloss=with
+37	du	du	PUNCT	_	_	_	punct	_	orth=དུ་|PunctType=Comm
+38	bsdad	bsdad	VERB	_	_	_	_	_	orth=བསྡད་|gloss=stayed
+39	do	do	PART	_	_	_	_	_	orth=དོ|gloss=FIN
+40	,,	,,	PUNCT	_	_	_	punct	_	orth=།།|PunctType=Peri
+41	skabs	skabs	NOUN	_	_	_	_	_	orth=སྐབས་|gloss=time
+42	de	de	PRON	_	_	_	_	_	orth=དེ་|gloss=that
+43	ni	ni	PART	_	_	_	_	_	orth=ནི་|gloss=is
+44	phyidro'i	phyidro'i	NOUN	_	_	_	pobj	_	orth=ཕྱི་དྲོའི་|gloss=afternoon|Number=Sing
+45	chutshod	chutshod	NOUN	_	_	_	_	_	orth=ཆུ་ཚོད་|gloss=hour
+46	bzhi	bzhi	NUM	_	_	_	nummod	_	orth=བཞི་|gloss=four|NumType=Card
+47	tsam	tsam	ADP	_	_	_	_	_	orth=ཙམ་|gloss=about
+48	yinpa	yinpa	VERB	_	_	_	_	_	orth=ཡིན༌པ་|gloss=is
+49	red	red	AUX	_	_	_	_	_	orth=རེད|gloss=to be
+50	,	,	PUNCT	_	_	_	_	_	orth=།
+
+# sent_id = 43003016
+# ref_id = John 3:16
+# eng_text = For God so loved the world , that he gave his one and only Son , that whoever believes in him should not perish , but have eternal life .
+# adx_text = dkonmchog gis 'jigrten gyi mi kun la gces shing byams te , khong gi sras la dadpa byed mkhan thamscad la namyang 'jigpa med cing mthamed pa'i tshesrog 'thobpa'i phyir , khong gis rangnyid kyi sras gcig poang mi kun la gnang ba'o ,,
+# adx_orth = དཀོན་མཆོག་ གིས་ འཇིག་རྟེན་ གྱི་ མི་ ཀུན་ ལ་ གཅེས་ ཤིང་ བྱམས༌ ཏེ །  ཁོང་ གི་ སྲས་ ལ་ དད་པ་ བྱེད་ མཁན་ ཐམས་ཅད་ ལ་ ནམ་ཡང་ འཇིག་པ་ མེད་ ཅིང་ མཐའ་མེད་ པའི་ ཚེ་སྲོག་ འཐོབ་པའི་ ཕྱིར །  ཁོང་ གིས་ རང་ཉིད་ ཀྱི་ སྲས་ གཅིག་ པོའང་ མི་ ཀུན་ ལ་ གནང༌ བའོ །།
+1	dkonmchog	dkonmchog	PROPN	_	_	_	nsubj	_	orth=དཀོན་མཆོག་|gloss=God|Number=Sing
+2	gis	gis	ADP	_	_	_	_	_	orth=གིས་|gloss=ERG/INST
+3	'jigrten	'jigrten	NOUN	_	_	_	dobj	_	orth=འཇིག་རྟེན་|gloss=world|Number=Sing
+4	gyi	gyi	ADP	_	_	_	_	_	orth=གྱི་|gloss=GEN
+5	mi	mi	NOUN	_	_	_	_	_	orth=མི་|gloss=people
+6	kun	kun	PRON	_	_	_	_	_	orth=ཀུན་|gloss=all
+7	la	la	ADP	_	_	_	_	_	orth=ལ་|gloss=DAT/LOC
+8	gces	gces	VERB	_	_	_	_	_	orth=གཅེས་|gloss=loved
+9	shing	shing	CCONJ	_	_	_	_	_	orth=ཤིང་|gloss=and
+10	byams	byams	VERB	_	_	_	_	_	orth=བྱམས༌|gloss=loved
+11	te	te	SCONJ	_	_	_	_	_	orth=ཏེ|gloss=so
+12	,	,	PUNCT	_	_	_	_	_	orth=།
+13	khong	khong	PRON	_	_	_	pobj	_	orth=ཁོང་|gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+14	gi	gi	ADP	_	_	_	_	_	orth=གི་|gloss=of
+15	sras	sras	PROPN	_	_	37	appos	_	orth=སྲས་|gloss=Son|Number=Sing
+16	la	la	ADP	_	_	_	_	_	orth=ལ་|gloss=DAT/LOC
+17	dadpa	dadpa	NOUN	_	_	_	_	_	orth=དད་པ་|gloss=faith/believe
+18	byed	byed	VERB	_	_	_	_	_	orth=བྱེད་|gloss=do
+19	mkhan	mkhan	PRON	_	_	_	nsubj	_	orth=མཁན་|gloss=who
+20	thamscad	thamscad	PRON	_	_	_	_	_	orth=ཐམས་ཅད་|gloss=all/whoever
+21	la	la	ADP	_	_	_	_	_	orth=ལ་|gloss=DAT/LOC
+22	namyang	namyang	ADV	_	_	_	_	_	orth=ནམ་ཡང་|gloss=never
+23	'jigpa	'jigpa	VERB	_	_	_	_	_	orth=འཇིག་པ་|gloss=perish
+24	med	med	AUX	_	_	_	_	_	orth=མེད་|gloss=not to have
+25	cing	cing	CCONJ	_	_	_	_	_	orth=ཅིང་|gloss=and
+26	mthamed	mthamed	ADJ	_	_	28	amod	_	orth=མཐའ་མེད་|gloss=eternal|Degree=Pos
+27	pa'i	pa'i	PART	_	_	_	_	_	orth=པའི་|gloss=GEN
+28	tshesrog	tshesrog	NOUN	_	_	_	dobj	_	orth=ཚེ་སྲོག་|gloss=life|Number=Sing
+29	'thobpa'i	'thobpa'i	VERB	_	_	_	_	_	orth=འཐོབ་པའི་|gloss=obtain
+30	phyir	phyir	ADP	_	_	_	_	_	orth=ཕྱིར|gloss=for
+31	,	,	PUNCT	_	_	_	_	_	orth=།
+32	khong	khong	PRON	_	_	_	pobj	_	orth=ཁོང་|gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+33	gis	gis	ADP	_	_	_	_	_	orth=གིས་|gloss=ERG/INST
+34	rangnyid	rangnyid	PRON	_	_	_	_	_	orth=རང་ཉིད་|gloss=own
+35	kyi	kyi	ADP	_	_	_	_	_	orth=ཀྱི་|gloss=GEN
+36	sras	sras	PROPN	_	_	37	appos	_	orth=སྲས་|gloss=Son|Number=Sing
+37	gcig	gcig	NUM	_	_	42	dobj	_	orth=གཅིག་|gloss=one|NumType=Card
+38	poang	poang	PART	_	_	_	_	_	orth=པོའང་|gloss=only
+39	mi	mi	NOUN	_	_	_	_	_	orth=མི་|gloss=people
+40	kun	kun	PRON	_	_	_	_	_	orth=ཀུན་|gloss=all
+41	la	la	ADP	_	_	_	_	_	orth=ལ་|gloss=DAT/LOC
+42	gnang	gnang	VERB	_	_	_	ccomp	_	orth=གནང༌|gloss=gave|Tense=Past|VerbForm=Fin
+43	ba'o	ba'o	PART	_	_	_	_	_	orth=བའོ|gloss=FIN
+44	,,	,,	PUNCT	_	_	_	punct	_	orth=།།|PunctType=Peri
+
+# sent_id = 44002030
+# ref_id = Acts 2:30
+# eng_text = Therefore , being a prophet , and knowing that God had sworn with an oath to him that of the fruit of his body , according to the flesh , he would raise up the Christ to sit on his throne ,
+# adx_text = de'i phyir daa bid ni lungstonpa zhig yin zhing dkonmchog gis de sngar kho la dambacspa dang , daa bid kyi rigsrgyud las bu gcig kho yi rgyalkhri'i steng du bsko ngespa shespas ,
+# adx_orth = དེའི་ ཕྱིར་ དཱ་ བིད་ ནི་ ལུང་སྟོན་པ་ ཞིག་ ཡིན་ ཞིང་ དཀོན་མཆོག་ གིས་ དེ་ སྔར་ ཁོ་ ལ་ དམ་བཅས་པ༌ དང༌ །  དཱ་ བིད་ ཀྱི་ རིགས་རྒྱུད་ ལས་ བུ་ གཅིག་ ཁོ་ ཡི་ རྒྱལ་ཁྲིའི་ སྟེང་ དུ་ བསྐོ་ ངེས་པ་ ཤེས༌པས །
+1	de'i	de'i	PRON	_	_	_	_	_	orth=དེའི་|gloss=that.GEN
+2	phyir	phyir	ADP	_	_	_	_	_	orth=ཕྱིར་|gloss=therefore
+3	daa	daa	PROPN	_	_	22	poss	_	orth=དཱ་|gloss=David(part)|Number=Sing
+4	bid	bid	PROPN	_	_	22	poss	_	orth=བིད་|gloss=David(part)|Number=Sing
+5	ni	ni	PART	_	_	_	_	_	orth=ནི་|gloss=is
+6	lungstonpa	lungstonpa	NOUN	_	_	_	attr	_	orth=ལུང་སྟོན་པ་|gloss=prophet|Number=Sing
+7	zhig	zhig	DET	_	_	6	det	_	orth=ཞིག་|gloss=a|Definite=Ind|PronType=Art
+8	yin	yin	AUX	_	_	_	_	_	orth=ཡིན་|gloss=to be
+9	zhing	zhing	CCONJ	_	_	_	_	_	orth=ཞིང་|gloss=and
+10	dkonmchog	dkonmchog	PROPN	_	_	_	nsubj	_	orth=དཀོན་མཆོག་|gloss=God|Number=Sing
+11	gis	gis	ADP	_	_	_	_	_	orth=གིས་|gloss=ERG/INST
+12	de	de	PRON	_	_	_	_	_	orth=དེ་|gloss=that
+13	sngar	sngar	ADV	_	_	_	_	_	orth=སྔར་|gloss=before
+14	kho	kho	PRON	_	_	_	_	_	orth=ཁོ་|gloss=he/him
+15	la	la	ADP	_	_	_	_	_	orth=ལ་|gloss=DAT/LOC
+16	dambacspa	dambacspa	VERB	_	_	_	pobj	_	orth=དམ་བཅས་པ༌|gloss=sworn/oath|Number=Sing
+17	dang	dang	CCONJ	_	_	_	cc	_	orth=དང༌|gloss=and/with|ConjType=Cmp
+18	,	,	PUNCT	_	_	_	_	_	orth=།
+19	daa	daa	PROPN	_	_	22	poss	_	orth=དཱ་|gloss=David(part)|Number=Sing
+20	bid	bid	PROPN	_	_	22	poss	_	orth=བིད་|gloss=David(part)|Number=Sing
+21	kyi	kyi	ADP	_	_	_	_	_	orth=ཀྱི་|gloss=GEN
+22	rigsrgyud	rigsrgyud	NOUN	_	_	_	pobj	_	orth=རིགས་རྒྱུད་|gloss=descendants/fruit|Number=Plur
+23	las	las	ADP	_	_	_	_	_	orth=ལས་|gloss=ABL
+24	bu	bu	NOUN	_	_	_	_	_	orth=བུ་|gloss=son
+25	gcig	gcig	NUM	_	_	_	nsubj	_	orth=གཅིག་|gloss=one|NumType=Card
+26	kho	kho	PRON	_	_	_	_	_	orth=ཁོ་|gloss=he/him
+27	yi	yi	ADP	_	_	_	_	_	orth=ཡི་|gloss=GEN
+28	rgyalkhri'i	rgyalkhri'i	NOUN	_	_	_	_	_	orth=རྒྱལ་ཁྲིའི་|gloss=throne
+29	steng	steng	ADP	_	_	_	prep	_	orth=སྟེང་|gloss=on
+30	du	du	PUNCT	_	_	_	punct	_	orth=དུ་|PunctType=Comm
+31	bsko	bsko	VERB	_	_	_	pobj	_	orth=བསྐོ་|gloss=raise/sit|Number=Sing
+32	ngespa	ngespa	VERB	_	_	_	_	_	orth=ངེས་པ་|gloss=certain
+33	shespas	shespas	VERB	_	_	_	_	_	orth=ཤེས༌པས|gloss=knowing
+34	,	,	PUNCT	_	_	_	_	_	orth=།
+
+# sent_id = 44009038
+# ref_id = Acts 9:38
+# eng_text = As Lydda was near Joppa , the disciples , hearing that Peter was there , sent two men to him , imploring him not to delay in coming to them .
+# adx_text = yo phaa ni lad rda dangbar thag nyebas rjes 'brangpa rnams kyis pe tro khong nyid lad rda ru yodpa thos nas mi gnyis khong gi drung du mngags te , dus mi 'gyangspar nged cag gi gam du phebsrogs zhes nan gyis zhus so ,,
+# adx_orth = ཡོ་ ཕཱ་ ནི་ ལད་ རྡ་ དང་བར་ ཐག་ ཉེ་བས་ རྗེས་ འབྲང་པ་ རྣམས་ ཀྱིས་ པེ་ ཏྲོ་ ཁོང་ ཉིད་ ལད་ རྡ་ རུ་ ཡོད་པ་ ཐོས་ ནས་ མི་ གཉིས་ ཁོང་ གི་ དྲུང་ དུ་ མངགས༌ ཏེ །  དུས་ མི་ འགྱངས་པར་ ངེད་ ཅག་ གི་ གམ་ དུ་ ཕེབས་རོགས་ ཞེས་ ནན་ གྱིས་ ཞུས་ སོ །།
+1	yo	yo	PROPN	_	_	_	_	_	orth=ཡོ་|gloss=Joppa(part)
+2	phaa	phaa	PROPN	_	_	_	_	_	orth=ཕཱ་|gloss=Joppa(part)
+3	ni	ni	PART	_	_	_	_	_	orth=ནི་|gloss=is
+4	lad	lad	PROPN	_	_	_	_	_	orth=ལད་|gloss=Lydda(part)
+5	rda	rda	PROPN	_	_	_	_	_	orth=རྡ་|gloss=Lydda(part)
+6	dangbar	dangbar	ADP	_	_	_	_	_	orth=དང་བར་|gloss=between
+7	thag	thag	NOUN	_	_	_	_	_	orth=ཐག་|gloss=distance
+8	nyebas	nyebas	ADJ	_	_	_	_	_	orth=ཉེ་བས་|gloss=near
+9	rjes	rjes	ADP	_	_	_	_	_	orth=རྗེས་|gloss=after
+10	'brangpa	'brangpa	NOUN	_	_	_	_	_	orth=འབྲང་པ་|gloss=followers/disciples
+11	rnams	rnams	PART	_	_	_	_	_	orth=རྣམས་|gloss=PL
+12	kyis	kyis	ADP	_	_	_	_	_	orth=ཀྱིས་|gloss=ERG/INST
+13	pe	pe	PROPN	_	_	_	nsubj	_	orth=པེ་|gloss=Peter(part)|Number=Sing
+14	tro	tro	PROPN	_	_	_	nsubj	_	orth=ཏྲོ་|gloss=Peter(part)|Number=Sing
+15	khong	khong	PRON	_	_	_	dobj	_	orth=ཁོང་|gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+16	nyid	nyid	PRON	_	_	_	_	_	orth=ཉིད་|gloss=himself
+17	lad	lad	PROPN	_	_	_	_	_	orth=ལད་|gloss=Lydda(part)
+18	rda	rda	PROPN	_	_	_	_	_	orth=རྡ་|gloss=Lydda(part)
+19	ru	ru	ADP	_	_	_	_	_	orth=རུ་|gloss=LOC
+20	yodpa	yodpa	VERB	_	_	_	_	_	orth=ཡོད་པ་|gloss=there
+21	thos	thos	VERB	_	_	29	ccomp	_	orth=ཐོས་|gloss=hearing|Aspect=Perf|Tense=Past|VerbForm=Part
+22	nas	nas	ADP	_	_	_	_	_	orth=ནས་|gloss=ABL
+23	mi	mi	NOUN	_	_	_	_	_	orth=མི་|gloss=men
+24	gnyis	gnyis	NUM	_	_	_	nummod	_	orth=གཉིས་|gloss=two|NumType=Card
+25	khong	khong	PRON	_	_	_	dobj	_	orth=ཁོང་|gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+26	gi	gi	ADP	_	_	_	_	_	orth=གི་|gloss=of
+27	drung	drung	ADP	_	_	_	_	_	orth=དྲུང་|gloss=to
+28	du	du	PUNCT	_	_	29	punct	_	orth=དུ་|PunctType=Comm
+29	mngags	mngags	VERB	_	_	0	root	_	orth=མངགས༌|gloss=sent|Tense=Past|VerbForm=Fin
+30	te	te	SCONJ	_	_	_	_	_	orth=ཏེ|gloss=and
+31	,	,	PUNCT	_	_	_	_	_	orth=།
+32	dus	dus	NOUN	_	_	_	_	_	orth=དུས་|gloss=time
+33	mi	mi	PART	_	_	_	_	_	orth=མི་|gloss=NEG
+34	'gyangspar	'gyangspar	VERB	_	_	_	_	_	orth=འགྱངས་པར་|gloss=delay
+35	nged	nged	PRON	_	_	_	_	_	orth=ངེད་|gloss=us
+36	cag	cag	PART	_	_	_	_	_	orth=ཅག་|gloss=PL
+37	gi	gi	ADP	_	_	_	_	_	orth=གི་|gloss=of
+38	gam	gam	ADP	_	_	_	_	_	orth=གམ་|gloss=to
+39	du	du	PUNCT	_	_	29	punct	_	orth=དུ་|PunctType=Comm
+40	phebsrogs	phebsrogs	VERB	_	_	_	_	_	orth=ཕེབས་རོགས་|gloss=coming/imploring
+41	zhes	zhes	PART	_	_	_	_	_	orth=ཞེས་|gloss=QUOT
+42	nan	nan	ADV	_	_	_	_	_	orth=ནན་|gloss=earnestly
+43	gyis	gyis	ADP	_	_	_	_	_	orth=གྱིས་|gloss=ERG/INST
+44	zhus	zhus	VERB	_	_	_	_	_	orth=ཞུས་|gloss=requested
+45	so	so	PUNCT	_	_	29	punct	_	orth=སོ|PunctType=Peri
+46	,,	,,	PUNCT	_	_	_	punct	_	orth=།།|PunctType=Peri
+
+# sent_id = 44011011
+# ref_id = Acts 11:11
+# eng_text = Behold , immediately three men stood before the house where I was , having been sent from Caesarea to me .
+# adx_text = dus denyid la , ke sar yaa nas bdag gi gam du mngagspa'i mi gsumpoang nged cag sdodsa'i khangpa'i sgo mdun du slebs shing ,
+# adx_orth = དུས་ དེ་ཉིད་ ལ །  ཀེ་ སར་ ཡཱ་ ནས་ བདག་ གི་ གམ་ དུ་ མངགས་པའི་ མི་ གསུམ་པོའང་ ངེད་ ཅག་ སྡོད་སའི་ ཁང་པའི་ སྒོ་ མདུན་ དུ་ སླེབས་ ཤིང༌ །
+1	dus	dus	NOUN	_	_	_	_	_	orth=དུས་|gloss=time
+2	denyid	denyid	PRON	_	_	_	_	_	orth=དེ་ཉིད་|gloss=itself/immediately
+3	la	la	ADP	_	_	_	_	_	orth=ལ|gloss=DAT/LOC
+4	,	,	PUNCT	_	_	_	_	_	orth=།
+5	ke	ke	PROPN	_	_	_	_	_	orth=ཀེ་|gloss=Caesarea(part)
+6	sar	sar	PROPN	_	_	_	_	_	orth=སར་|gloss=Caesarea(part)
+7	yaa	yaa	PROPN	_	_	_	_	_	orth=ཡཱ་|gloss=Caesarea(part)
+8	nas	nas	ADP	_	_	_	_	_	orth=ནས་|gloss=ABL
+9	bdag	bdag	PRON	_	_	_	_	_	orth=བདག་|gloss=I/me
+10	gi	gi	ADP	_	_	_	_	_	orth=གི་|gloss=of
+11	gam	gam	ADP	_	_	_	_	_	orth=གམ་|gloss=to
+12	du	du	ADP	_	_	_	_	_	orth=དུ་|gloss=LOC/ALL
+13	mngagspa'i	mngagspa'i	VERB	_	_	_	_	_	orth=མངགས་པའི་|gloss=sent
+14	mi	mi	NOUN	_	_	_	_	_	orth=མི་|gloss=men
+15	gsumpoang	gsumpoang	NUM	_	_	_	_	_	orth=གསུམ་པོའང་|gloss=three
+16	nged	nged	PRON	_	_	_	_	_	orth=ངེད་|gloss=us
+17	cag	cag	PART	_	_	_	_	_	orth=ཅག་|gloss=PL
+18	sdodsa'i	sdodsa'i	VERB	_	_	_	_	_	orth=སྡོད་སའི་|gloss=staying
+19	khangpa'i	khangpa'i	NOUN	_	_	_	pobj	_	orth=ཁང་པའི་|gloss=house|Number=Sing
+20	sgo	sgo	NOUN	_	_	_	_	_	orth=སྒོ་|gloss=door
+21	mdun	mdun	ADP	_	_	_	_	_	orth=མདུན་|gloss=before
+22	du	du	ADP	_	_	_	_	_	orth=དུ་|gloss=LOC/ALL
+23	slebs	slebs	VERB	_	_	0	root	_	orth=སླེབས་|gloss=stood/arrived|Tense=Past|VerbForm=Fin
+24	shing	shing	CCONJ	_	_	_	_	_	orth=ཤིང༌|gloss=and
+25	,	,	PUNCT	_	_	_	_	_	orth=།
+
+# sent_id = 44021034
+# ref_id = Acts 21:34
+# eng_text = Some shouted one thing , some another , among the crowd . When he couldn't find out the truth because of the noise , he commanded him to be brought into the barracks .
+# adx_text = mitshogs kyi khrod nas ci bshad 'di bshad medpar skad cor brgyabpa la , stongdpon gyis 'ursgra'i khrod nas ganstshul dngos de shes ma thubpas , phol lol dmagsgar du khridpa'i bka babs so ,,
+# adx_orth = མི་ཚོགས་ ཀྱི་ ཁྲོད་ ནས་ ཅི་ བཤད་ འདི་ བཤད་ མེད་པར་ སྐད་ ཅོར་ བརྒྱབ་པ༌ ལ །  སྟོང་དཔོན་ གྱིས་ འུར་སྒྲའི་ ཁྲོད་ ནས་ གནས་ཚུལ་ དངོས་ དེ་ ཤེས་ མ་ ཐུབ༌པས །  ཕོལ་ ལོལ་ དམག་སྒར་ དུ་ ཁྲིད་པའི་ བཀའ་ བབས་ སོ །།
+1	mitshogs	mitshogs	NOUN	_	_	_	_	_	orth=མི་ཚོགས་|gloss=crowd
+2	kyi	kyi	ADP	_	_	_	_	_	orth=ཀྱི་|gloss=GEN
+3	khrod	khrod	ADP	_	_	_	_	_	orth=ཁྲོད་|gloss=among
+4	nas	nas	ADP	_	_	_	_	_	orth=ནས་|gloss=ABL
+5	ci	ci	PRON	_	_	_	_	_	orth=ཅི་|gloss=what
+6	bshad	bshad	VERB	_	_	_	_	_	orth=བཤད་|gloss=saying
+7	'di	'di	PRON	_	_	_	_	_	orth=འདི་|gloss=this
+8	bshad	bshad	VERB	_	_	_	_	_	orth=བཤད་|gloss=saying
+9	medpar	medpar	VERB	_	_	_	_	_	orth=མེད་པར་|gloss=without
+10	skad	skad	NOUN	_	_	_	_	_	orth=སྐད་|gloss=voice
+11	cor	cor	NOUN	_	_	_	_	_	orth=ཅོར་|gloss=noise
+12	brgyabpa	brgyabpa	VERB	_	_	_	_	_	orth=བརྒྱབ་པ༌|gloss=shouted
+13	la	la	ADP	_	_	_	prep	_	orth=ལ|gloss=to
+14	,	,	PUNCT	_	_	_	_	_	orth=།
+15	stongdpon	stongdpon	NOUN	_	_	_	_	_	orth=སྟོང་དཔོན་|gloss=commander
+16	gyis	gyis	ADP	_	_	_	_	_	orth=གྱིས་|gloss=ERG/INST
+17	'ursgra'i	'ursgra'i	NOUN	_	_	_	_	_	orth=འུར་སྒྲའི་|gloss=noise.GEN
+18	khrod	khrod	ADP	_	_	_	_	_	orth=ཁྲོད་|gloss=among
+19	nas	nas	ADP	_	_	_	_	_	orth=ནས་|gloss=ABL
+20	ganstshul	ganstshul	NOUN	_	_	_	_	_	orth=གནས་ཚུལ་|gloss=situation
+21	dngos	dngos	ADJ	_	_	_	_	_	orth=དངོས་|gloss=truth/real
+22	de	de	PRON	_	_	_	_	_	orth=དེ་|gloss=that
+23	shes	shes	VERB	_	_	_	_	_	orth=ཤེས་|gloss=know
+24	ma	ma	PART	_	_	_	_	_	orth=མ་|gloss=NEG
+25	thubpas	thubpas	VERB	_	_	_	_	_	orth=ཐུབ༌པས|gloss=could.not
+26	,	,	PUNCT	_	_	_	_	_	orth=།
+27	phol	phol	PROPN	_	_	_	nsubjpass	_	orth=ཕོལ་|gloss=Paul|Number=Sing
+28	lol	lol	PROPN	_	_	_	nsubjpass	_	orth=ལོལ་|gloss=Paul|Number=Sing
+29	dmagsgar	dmagsgar	NOUN	_	_	_	_	_	orth=དམག་སྒར་|gloss=barracks
+30	du	du	PUNCT	_	_	_	punct	_	orth=དུ་|PunctType=Comm
+31	khridpa'i	khridpa'i	VERB	_	_	_	_	_	orth=ཁྲིད་པའི་|gloss=brought
+32	bka	bka	NOUN	_	_	_	_	_	orth=བཀའ་|gloss=command
+33	babs	babs	VERB	_	_	_	_	_	orth=བབས་|gloss=gave
+34	so	so	PART	_	_	_	_	_	orth=སོ|gloss=FIN
+35	,,	,,	PUNCT	_	_	_	punct	_	orth=།།|PunctType=Peri
+
+# sent_id = 47012002
+# ref_id = 2 Corinthians 12:2
+# eng_text = I know a man in Christ , fourteen years ago ( whether in the body , I don't know , or whether out of the body , I don't know ; God knows ) , such a one caught up into the third heaven .
+# adx_text = bdag gis skyabsmgon maa shi ka'i nang du ganspa'i mi zhig ngo shes te , khorang ni lo bcubzhi'i sngon la nammkha'i zhingkhams kyi rimpa gsum par drangs , khorang ni lus phyi nang gang duyodpa bdag gis mi shes kyang dkonmchog gis mkhyen to ,,
+# adx_orth = བདག་ གིས་ སྐྱབས་མགོན་ མཱ་ ཤི་ ཀའི་ ནང་ དུ་ གནས་པའི་ མི་ ཞིག་ ངོ་ ཤེས༌ ཏེ །  ཁོ་རང་ ནི་ ལོ་ བཅུ་བཞིའི་ སྔོན་ ལ་ ནམ་མཁའི་ ཞིང་ཁམས་ ཀྱི་ རིམ་པ་ གསུམ་ པར་ དྲངས །  ཁོ་རང་ ནི་ ལུས་ ཕྱི་ ནང་ གང་ དུ་ཡོད་པ་ བདག་ གིས་ མི་ ཤེས་ ཀྱང་ དཀོན་མཆོག་ གིས་ མཁྱེན༌ ཏོ །།
+1	bdag	bdag	PRON	_	_	_	_	_	orth=བདག་|gloss=I/me
+2	gis	gis	ADP	_	_	_	_	_	orth=གིས་|gloss=ERG/INST
+3	skyabsmgon	skyabsmgon	NOUN	_	_	_	_	_	orth=སྐྱབས་མགོན་|gloss=Lord
+4	maa	maa	PROPN	_	_	_	_	_	orth=མཱ་|gloss=Christ(part)
+5	shi	shi	PROPN	_	_	_	_	_	orth=ཤི་|gloss=Christ(part)
+6	ka'i	ka'i	PROPN	_	_	_	_	_	orth=ཀའི་|gloss=Christ(part).GEN
+7	nang	nang	ADP	_	_	_	_	_	orth=ནང་|gloss=in/into
+8	du	du	PUNCT	_	_	_	punct	_	orth=དུ་|PunctType=Comm
+9	ganspa'i	ganspa'i	VERB	_	_	_	_	_	orth=གནས་པའི་|gloss=being
+10	mi	mi	NOUN	_	_	_	_	_	orth=མི་|gloss=man
+11	zhig	zhig	DET	_	_	_	_	_	orth=ཞིག་|gloss=a/an (indefinite)
+12	ngo	ngo	NOUN	_	_	_	_	_	orth=ངོ་|gloss=face
+13	shes	shes	VERB	_	_	_	_	_	orth=ཤེས༌|gloss=know
+14	te	te	SCONJ	_	_	_	_	_	orth=ཏེ|gloss=and
+15	,	,	PUNCT	_	_	_	_	_	orth=།
+16	khorang	khorang	PRON	_	_	_	_	_	orth=ཁོ་རང་|gloss=he
+17	ni	ni	PART	_	_	_	_	_	orth=ནི་|gloss=is
+18	lo	lo	NOUN	_	_	_	npadvmod	_	orth=ལོ་|gloss=years|Number=Plur
+19	bcubzhi'i	bcubzhi'i	NUM	_	_	_	_	_	orth=བཅུ་བཞིའི་|gloss=fourteen
+20	sngon	sngon	ADP	_	_	_	_	_	orth=སྔོན་|gloss=ago/before
+21	la	la	ADP	_	_	_	prep	_	orth=ལ་|gloss=DAT/LOC
+22	nammkha'i	nammkha'i	NOUN	_	_	_	_	_	orth=ནམ་མཁའི་|gloss=heaven.GEN
+23	zhingkhams	zhingkhams	PROPN	_	_	21	pobj	_	orth=ཞིང་ཁམས་|gloss=heaven/realm|Number=Sing
+24	kyi	kyi	ADP	_	_	_	_	_	orth=ཀྱི་|gloss=GEN
+25	rimpa	rimpa	NOUN	_	_	_	_	_	orth=རིམ་པ་|gloss=level
+26	gsum	gsum	NUM	_	_	_	_	_	orth=གསུམ་|gloss=third
+27	par	par	ADP	_	_	_	_	_	orth=པར་|gloss=to
+28	drangs	drangs	VERB	_	_	_	_	_	orth=དྲངས|gloss=caught.up
+29	,	,	PUNCT	_	_	_	_	_	orth=།
+30	khorang	khorang	PRON	_	_	_	_	_	orth=ཁོ་རང་|gloss=he
+31	ni	ni	PART	_	_	_	_	_	orth=ནི་|gloss=is
+32	lus	lus	NOUN	_	_	_	_	_	orth=ལུས་|gloss=body
+33	phyi	phyi	ADP	_	_	_	_	_	orth=ཕྱི་|gloss=out
+34	nang	nang	ADP	_	_	_	_	_	orth=ནང་|gloss=in
+35	gang	gang	PRON	_	_	_	_	_	orth=གང་|gloss=whether
+36	duyodpa	duyodpa	VERB	_	_	_	_	_	orth=དུ་ཡོད་པ་|gloss=was
+37	bdag	bdag	PRON	_	_	_	_	_	orth=བདག་|gloss=I/me
+38	gis	gis	ADP	_	_	_	_	_	orth=གིས་|gloss=ERG/INST
+39	mi	mi	PART	_	_	_	_	_	orth=མི་|gloss=NEG
+40	shes	shes	VERB	_	_	_	_	_	orth=ཤེས་|gloss=know
+41	kyang	kyang	CCONJ	_	_	_	cc	_	orth=ཀྱང་|gloss=but
+42	dkonmchog	dkonmchog	PROPN	_	_	_	nsubj	_	orth=དཀོན་མཆོག་|gloss=God|Number=Sing
+43	gis	gis	ADP	_	_	_	_	_	orth=གིས་|gloss=ERG/INST
+44	mkhyen	mkhyen	VERB	_	_	_	_	_	orth=མཁྱེན༌|gloss=knows
+45	to	to	PART	_	_	_	_	_	orth=ཏོ|gloss=FIN
+46	,,	,,	PUNCT	_	_	_	punct	_	orth=།།|PunctType=Peri
+
+# sent_id = 62004009
+# ref_id = 1 John 4:9
+# eng_text = By this was God's love revealed in us , that God has sent his only born Son into the world that we might live through him .
+# adx_text = dkonmchog gis rangnyid kyi sras gcigpu 'jigrten du mngags shing , de ni bdagcag khong la brten nas gsonpor ganspa'i phyir yin la , delas dkonmchog gi byamspa bdagcag la mngonpa yin ,
+# adx_orth = དཀོན་མཆོག་ གིས་ རང་ཉིད་ ཀྱི་ སྲས་ གཅིག་པུ་ འཇིག་རྟེན་ དུ་ མངགས་ ཤིང་ །  དེ་ ནི་ བདག་ཅག་ ཁོང་ ལ་ བརྟེན་ ནས་ གསོན་པོར་ གནས་པའི་ ཕྱིར་ ཡིན་ ལ །  དེ་ལས་ དཀོན་མཆོག་ གི་ བྱམས་པ་ བདག་ཅག་ ལ་ མངོན༌པ་ ཡིན །
+1	dkonmchog	dkonmchog	PROPN	_	_	_	nsubj	_	orth=དཀོན་མཆོག་|gloss=God|Number=Sing
+2	gis	gis	ADP	_	_	_	_	_	orth=གིས་|gloss=ERG/INST
+3	rangnyid	rangnyid	PRON	_	_	_	_	_	orth=རང་ཉིད་|gloss=own
+4	kyi	kyi	ADP	_	_	_	_	_	orth=ཀྱི་|gloss=GEN
+5	sras	sras	PROPN	_	_	_	conj	_	orth=སྲས་|gloss=Son|Number=Sing
+6	gcigpu	gcigpu	ADJ	_	_	_	_	_	orth=གཅིག་པུ་|gloss=only
+7	'jigrten	'jigrten	NOUN	_	_	_	pobj	_	orth=འཇིག་རྟེན་|gloss=world|Number=Sing
+8	du	du	ADP	_	_	_	_	_	orth=དུ་|gloss=LOC/ALL
+9	mngags	mngags	VERB	_	_	_	_	_	orth=མངགས་|gloss=sent
+10	shing	shing	CCONJ	_	_	_	_	_	orth=ཤིང་|gloss=and
+11	,	,	PUNCT	_	_	_	_	_	orth=།
+12	de	de	PRON	_	_	_	_	_	orth=དེ་|gloss=that
+13	ni	ni	PART	_	_	_	_	_	orth=ནི་|gloss=is
+14	bdagcag	bdagcag	PRON	_	_	_	_	_	orth=བདག་ཅག་|gloss=we/us
+15	khong	khong	PRON	_	_	_	pobj	_	orth=ཁོང་|gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+16	la	la	ADP	_	_	_	_	_	orth=ལ་|gloss=DAT/LOC
+17	brten	brten	VERB	_	_	_	_	_	orth=བརྟེན་|gloss=through/rely
+18	nas	nas	ADP	_	_	_	_	_	orth=ནས་|gloss=ABL
+19	gsonpor	gsonpor	ADJ	_	_	_	_	_	orth=གསོན་པོར་|gloss=live/alive
+20	ganspa'i	ganspa'i	VERB	_	_	_	_	_	orth=གནས་པའི་|gloss=live
+21	phyir	phyir	ADP	_	_	_	_	_	orth=ཕྱིར|gloss=for
+22	yin	yin	VERB	_	_	_	advcl	_	orth=ཡིན་|gloss=is|VerbForm=Inf
+23	la	la	ADP	_	_	_	_	_	orth=ལ|gloss=DAT/LOC
+24	,	,	PUNCT	_	_	_	_	_	orth=།
+25	delas	delas	ADV	_	_	_	_	_	orth=དེ་ལས་|gloss=by.this
+26	dkonmchog	dkonmchog	PROPN	_	_	_	nsubj	_	orth=དཀོན་མཆོག་|gloss=God|Number=Sing
+27	gi	gi	ADP	_	_	_	_	_	orth=གི་|gloss=of
+28	byamspa	byamspa	NOUN	_	_	_	_	_	orth=བྱམས་པ་|gloss=love
+29	bdagcag	bdagcag	PRON	_	_	_	_	_	orth=བདག་ཅག་|gloss=us
+30	la	la	ADP	_	_	_	_	_	orth=ལ་|gloss=DAT/LOC
+31	mngonpa	mngonpa	VERB	_	_	_	_	_	orth=མངོན༌པ་|gloss=revealed
+32	yin	yin	VERB	_	_	_	advcl	_	orth=ཡིན|gloss=is|VerbForm=Inf
+33	,	,	PUNCT	_	_	_	_	_	orth=།
+
+# sent_id = 63001005
+# ref_id = 2 John 1:5
+# eng_text = Now I beg you , dear lady , not as though I wrote to you a new commandment , but that which we had from the beginning , that we love one another .
+# adx_text = budmed kye , bdag gis dalta khyod la bskulbar bya ste , bdagcag gis phantshun la byams shing gces su 'dzin os so ,, 'di ni bdag gis khyod la bka gsarpa zhig 'briba mayinpar , thogma nas bdagcag la thobpa'i bka yin ,
+# adx_orth = བུད་མེད༌ ཀྱེ །  བདག་ གིས་ ད་ལྟ་ ཁྱོད་ ལ་ བསྐུལ་བར་ བྱ༌ སྟེ །  བདག་ཅག་ གིས་ ཕན་ཚུན་ ལ་ བྱམས་ ཤིང་ གཅེས་ སུ་ འཛིན་ འོས་ སོ །།  འདི་ ནི་ བདག་ གིས་ ཁྱོད་ ལ་ བཀའ་ གསར་པ་ ཞིག་ འབྲི་བ་ མ་ཡིན་པར །  ཐོག་མ་ ནས་ བདག་ཅག་ ལ་ ཐོབ་པའི་ བཀའ་ ཡིན །
+1	budmed	budmed	NOUN	_	_	_	_	_	orth=བུད་མེད༌|gloss=lady
+2	kye	kye	PART	_	_	_	_	_	orth=ཀྱེ|gloss=dear
+3	,	,	PUNCT	_	_	_	_	_	orth=།
+4	bdag	bdag	PRON	_	_	_	_	_	orth=བདག་|gloss=I/me
+5	gis	gis	ADP	_	_	_	_	_	orth=གིས་|gloss=ERG/INST
+6	dalta	dalta	ADV	_	_	_	_	_	orth=ད་ལྟ་|gloss=now
+7	khyod	khyod	PRON	_	_	_	dobj	_	orth=ཁྱོད་|gloss=you|Case=Acc|Person=2|PronType=Prs
+8	la	la	PART	_	_	_	aux	_	orth=ལ་|gloss=to
+9	bskulbar	bskulbar	VERB	_	_	_	_	_	orth=བསྐུལ་བར་|gloss=beg
+10	bya	bya	VERB	_	_	_	_	_	orth=བྱ༌|gloss=do
+11	ste	ste	SCONJ	_	_	_	_	_	orth=སྟེ|gloss=and
+12	,	,	PUNCT	_	_	_	_	_	orth=།
+13	bdagcag	bdagcag	PRON	_	_	_	_	_	orth=བདག་ཅག་|gloss=we/us
+14	gis	gis	ADP	_	_	_	_	_	orth=གིས་|gloss=ERG/INST
+15	phantshun	phantshun	PRON	_	_	_	_	_	orth=ཕན་ཚུན་|gloss=one another
+16	la	la	PART	_	_	_	aux	_	orth=ལ་|gloss=to
+17	byams	byams	VERB	_	_	_	ccomp	_	orth=བྱམས་|gloss=love|VerbForm=Inf
+18	shing	shing	CCONJ	_	_	_	det	_	orth=ཤིང་|gloss=and|Definite=Ind|PronType=Art
+19	gces	gces	VERB	_	_	_	ccomp	_	orth=གཅེས་|gloss=love|VerbForm=Inf
+20	su	su	ADP	_	_	_	_	_	orth=སུ་|gloss=LOC/ALL
+21	'dzin	'dzin	VERB	_	_	_	_	_	orth=འཛིན་|gloss=hold
+22	os	os	VERB	_	_	_	_	_	orth=འོས་|gloss=worthy
+23	so	so	PART	_	_	_	_	_	orth=སོ|gloss=FIN
+24	,,	,,	PUNCT	_	_	26	punct	_	orth=།།|PunctType=Peri
+25	'di	'di	PRON	_	_	26	nsubj	_	orth=འདི་|gloss=this|Number=Sing|PronType=Dem
+26	ni	ni	AUX	_	_	0	root	_	orth=ནི་|gloss=is|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+27	bdag	bdag	PRON	_	_	_	_	_	orth=བདག་|gloss=I/me
+28	gis	gis	ADP	_	_	_	_	_	orth=གིས་|gloss=ERG/INST
+29	khyod	khyod	PRON	_	_	_	dobj	_	orth=ཁྱོད་|gloss=you|Case=Acc|Person=2|PronType=Prs
+30	la	la	PART	_	_	_	aux	_	orth=ལ་|gloss=to
+31	bka	bka	NOUN	_	_	_	_	_	orth=བཀའ་|gloss=commandment
+32	gsarpa	gsarpa	ADJ	_	_	_	amod	_	orth=གསར་པ་|gloss=new|Degree=Pos
+33	zhig	zhig	DET	_	_	_	det	_	orth=ཞིག་|gloss=a|Definite=Ind|PronType=Art
+34	'briba	'briba	VERB	_	_	_	_	_	orth=འབྲི་བ་|gloss=wrote
+35	mayinpar	mayinpar	VERB	_	_	_	_	_	orth=མ་ཡིན་པར|gloss=not.being
+36	,	,	PUNCT	_	_	_	_	_	orth=།
+37	thogma	thogma	NOUN	_	_	_	_	_	orth=ཐོག་མ་|gloss=beginning
+38	nas	nas	ADP	_	_	_	_	_	orth=ནས་|gloss=ABL
+39	bdagcag	bdagcag	PRON	_	_	_	_	_	orth=བདག་ཅག་|gloss=we/us
+40	la	la	PART	_	_	_	aux	_	orth=ལ་|gloss=to
+41	thobpa'i	thobpa'i	VERB	_	_	_	_	_	orth=ཐོབ་པའི་|gloss=had
+42	bka	bka	NOUN	_	_	_	_	_	orth=བཀའ་|gloss=commandment
+43	yin	yin	AUX	_	_	_	aux	_	orth=ཡིན|gloss=is|Mood=Ind|Tense=Pres|VerbForm=Fin
+44	,	,	PUNCT	_	_	_	_	_	orth=།
+

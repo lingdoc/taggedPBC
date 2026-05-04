@@ -1,0 +1,705 @@
+## The following text has been annotated for parts of speech by students at NTU Singapore as part of a class project in AY 2025-26.
+## Verses are extracted from the taggedPBC. Annotations have been developed with a combination of manual and automated approaches, with reference to existing literature and (where possible) native speakers.
+## ISO 639-3: dhi, Language: Dhimal, Number of verses: 21
+## References: Caughley, R. C. (1982). The syntax and morphology of the verb in Chepang. Pacific Linguistics, The Australian National University. ; Caughley, R. C. (2000). Dictionary of Chepang: A Tibeto-Burman language of Nepal. Pacific Linguistics, The Australian National University.
+
+# sent_id = 40006024
+# ref_id = Matthew 6:24
+# eng_text = " No one can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You can't serve both God and Mammon .
+# dhi_text = haasu bung enong dong somoitaa nhemi gihriko sevaa paali maadaavaa. haaipaalipaanu vaa dong emiheng prem paavaa kaalaau bhenengaheng khaangali maakitaavaa. ki ta vaa emiko doakaa kitaavaa kaalaau bhenengahengako doakaa caahi haai dong vaastaa maapaavaa. odong bhaaasing, nelaai bung paramesvar kaalaau dhan nhemiko sevaa enong dong somoitaa paali maadosvaanaa.
+# dhi_orth = हासु बुङ एनोङ दोङ सोमोइता न्हेमि गिह्रिको सेवा पालि मादावा। हाइपालिपानु वा दोङ एमिहेङ प्रेम पावा कालाउ भेनेङहेङ खाङलि माकितावा। कि त वा एमिको दोअ्का कितावा कालाउ भेनेङहेङको दोअ्का चाहि हाइ दोङ वास्ता मापावा। ओदोङ भाअ्सिङ, नेलाइ बुङ परमेस्वर कालाउ धन न्हेमिको सेवा एनोङ दोङ सोमोइता पालि मादोस्वाना।
+1	haasu	haasu	PRON	_	_	_	_	_	orth=हासु|gloss=Who
+2	bung	bung	ADP	_	_	_	_	_	orth=बुङ|gloss=also
+3	enong	enong	NUM	_	_	_	_	_	orth=एनोङ|gloss=united
+4	dong	dong	ADP	_	_	_	_	_	orth=दोङ|gloss=oss
+5	somoitaa	somoitaa	NOUN	_	_	_	_	_	orth=सोमोइता|gloss=managing
+6	nhemi	nhemi	NUM	_	_	_	_	_	orth=न्हेमि|gloss=als
+7	gihriko	gihriko	PRON	_	_	_	_	_	orth=गिह्रिको|gloss=tenant
+8	sevaa	sevaa	VERB	_	_	0	root	_	orth=सेवा|gloss=serve|VerbForm=Inf
+9	paali	paali	VERB	_	_	_	_	_	orth=पालि|gloss=batch
+10	maadaavaa.	maadaavaa.	VERB	_	_	_	_	_	orth=मादावा।|gloss=cannot
+11	haaipaalipaanu	haaipaalipaanu	ADP	_	_	_	prep	_	orth=हाइपालिपानु|gloss=For
+12	vaa	vaa	PRON	_	_	_	_	_	orth=वा|gloss=he
+13	dong	dong	ADP	_	_	_	_	_	orth=दोङ|gloss=oss
+14	emiheng	emiheng	NUM	_	_	_	_	_	orth=एमिहेङ|gloss=mill
+15	prem	prem	VERB	_	_	_	conj	_	orth=प्रेम|gloss=love|VerbForm=Inf
+16	paavaa	paavaa	VERB	_	_	39	det	_	orth=पावा|gloss=both|ConjType=Cmp
+17	kaalaau	kaalaau	CCONJ	_	_	_	_	_	orth=कालाउ
+18	bhenengaheng	bhenengaheng	ADJ	_	_	_	dobj	_	orth=भेनेङहेङ|gloss=other|Degree=Pos
+19	khaangali	khaangali	VERB	_	_	_	_	_	orth=खाङलि|gloss=see
+20	maakitaavaa.	maakitaavaa.	VERB	_	_	_	acomp	_	orth=माकितावा।|gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+21	ki	ki	CCONJ	_	_	_	_	_	orth=कि|gloss=that
+22	ta	ta	PART	_	_	_	_	_	orth=त|gloss=cas
+23	vaa	vaa	PRON	_	_	_	_	_	orth=वा|gloss=he
+24	emiko	emiko	NUM	_	_	_	_	_	orth=एमिको|gloss=legs
+25	doakaa	doakaa	VERB	_	_	_	_	_	orth=दोअ्का|gloss=told
+26	kitaavaa	kitaavaa	VERB	_	_	_	acomp	_	orth=कितावा|gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+27	kaalaau	kaalaau	CCONJ	_	_	_	_	_	orth=कालाउ
+28	bhenengahengako	bhenengahengako	VERB	_	_	_	acomp	_	orth=भेनेङहेङको|gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+29	doakaa	doakaa	VERB	_	_	_	_	_	orth=दोअ्का|gloss=told
+30	caahi	caahi	CCONJ	_	_	_	_	_	orth=चाहि|gloss=but
+31	haai	haai	PART	_	_	_	_	_	orth=हाइ
+32	dong	dong	ADP	_	_	_	_	_	orth=दोङ|gloss=oss
+33	vaastaa	vaastaa	NOUN	_	_	_	_	_	orth=वास्ता|gloss=ign
+34	maapaavaa.	maapaavaa.	VERB	_	_	_	_	_	orth=मापावा।|gloss=ris
+35	odong	odong	CCONJ	_	_	_	_	_	orth=ओदोङ|gloss=So
+36	bhaaasing,	bhaaasing,	VERB	_	_	_	_	_	orth=भाअ्सिङ,|gloss=cor
+37	nelaai	nelaai	PRON	_	_	_	nsubj	_	orth=नेलाइ|gloss=you|Case=Nom|Person=2|PronType=Prs
+38	bung	bung	ADP	_	_	_	_	_	orth=बुङ|gloss=also
+39	paramesvar	paramesvar	PROPN	_	_	43	dobj	_	orth=परमेस्वर|gloss=God|Number=Sing
+40	kaalaau	kaalaau	CCONJ	_	_	_	_	_	orth=कालाउ
+41	dhan	dhan	NOUN	_	_	_	_	_	orth=धन|gloss=treasures
+42	nhemiko	nhemiko	VERB	_	_	_	acomp	_	orth=न्हेमिको|gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+43	sevaa	sevaa	VERB	_	_	0	root	_	orth=सेवा|gloss=serve|VerbForm=Inf
+44	enong	enong	NUM	_	_	_	_	_	orth=एनोङ|gloss=united
+45	dong	dong	ADP	_	_	_	_	_	orth=दोङ|gloss=oss
+46	somoitaa	somoitaa	NOUN	_	_	_	_	_	orth=सोमोइता|gloss=managing
+47	paali	paali	VERB	_	_	_	_	_	orth=पालि|gloss=batch
+48	maadosvaanaa.	maadosvaanaa.	VERB	_	_	_	_	_	orth=मादोस्वाना।|gloss=vine
+
+# sent_id = 40018012
+# ref_id = Matthew 18:12
+# eng_text = " What do you think ? If a man has one hundred sheep , and one of them goes astray , doesn't he leave the ninety-nine , go to the mountains , and seek that which has gone astray ?
+# dhi_text = “nelaai haai bicaar paasukhenaa?” esaai bheddaa hikaa dyaangako enong bheddaa raamhe paanu vaa haai paavaa? vaa dong aaru unaansaai bheddaaheng intaang tikaarataa laaateng, raamkaaheng bhoali maanhaavaa ro?
+# dhi_orth = “नेलाइ हाइ बिचार पासुखेना?” एसाइ भेडा हिका द्‍याङको एनोङ भेडा राम्हे पानु वा हाइ पावा? वा दोङ आरु उनान्साइ भेडाहेङ इन्ताङ तिकारता लाअ्तेङ, राम्काहेङ भोअ्लि मान्हावा रो?
+1	“nelaai	“nelaai	PRON	_	_	6	nummod	_	orth=“नेलाइ|gloss=hundred|NumType=Card
+2	haai	haai	PART	_	_	_	punct	_	orth=हाइ|PunctType=Peri
+3	bicaar	bicaar	NOUN	_	_	_	_	_	orth=बिचार|gloss=thoughts
+4	paasukhenaa?”	paasukhenaa?”	unk	_	_	_	_	_	orth=पासुखेना?”
+5	esaai	esaai	NUM	_	_	6	nummod	_	orth=एसाइ|gloss=hundred|NumType=Card
+6	bheddaa	bheddaa	NOUN	_	_	_	dobj	_	orth=भेडा|gloss=sheep|Number=Plur
+7	hikaa	hikaa	ADV	_	_	_	_	_	orth=हिका|gloss=age
+8	dyaangako	dyaangako	NOUN	_	_	_	_	_	orth=द्‍याङको|gloss=Man
+9	enong	enong	NUM	_	_	_	_	_	orth=एनोङ|gloss=united
+10	bheddaa	bheddaa	NOUN	_	_	_	dobj	_	orth=भेडा|gloss=sheep|Number=Plur
+11	raamhe	raamhe	unk	_	_	_	_	_	orth=राम्हे|gloss=hill
+12	paanu	paanu	SCONJ	_	_	_	mark	_	orth=पानु|gloss=If
+13	vaa	vaa	PRON	_	_	_	nsubj	_	orth=वा|gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+14	haai	haai	PART	_	_	_	punct	_	orth=हाइ|PunctType=Peri
+15	paavaa?	paavaa?	VERB	_	_	_	_	_	orth=पावा?
+16	vaa	vaa	PRON	_	_	_	nsubj	_	orth=वा|gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+17	dong	dong	ADP	_	_	_	_	_	orth=दोङ|gloss=oss
+18	aaru	aaru	unk	_	_	_	_	_	orth=आरु|gloss=master
+19	unaansaai	unaansaai	NUM	_	_	10	nummod	_	orth=उनान्साइ|gloss=hundred|NumType=Card
+20	bheddaaheng	bheddaaheng	NOUN	_	_	_	_	_	orth=भेडाहेङ|gloss=Won’t
+21	intaang	intaang	unk	_	_	_	_	_	orth=इन्ताङ|gloss=few
+22	tikaarataa	tikaarataa	unk	_	_	_	_	_	orth=तिकारता|gloss=mountain
+23	laaateng,	laaateng,	unk	_	_	_	_	_	orth=लाअ्तेङ,
+24	raamkaaheng	raamkaaheng	unk	_	_	_	_	_	orth=राम्काहेङ
+25	bhoali	bhoali	unk	_	_	_	_	_	orth=भोअ्लि
+26	maanhaavaa	maanhaavaa	unk	_	_	_	_	_	orth=मान्हावा
+27	ro?	ro?	unk	_	_	_	_	_	orth=रो?|gloss=ames
+
+# sent_id = 40020021
+# ref_id = Matthew 20:21
+# eng_text = He said to her , " What do you want ? " She said to him , " Command that these , my two sons , may sit , one on your right hand , and one on your left hand , in your kingdom . "
+# dhi_text = yesu vaaseheng hiahi, “naaa haai bhokhenaa? vaa yesuheng doahi, aagyaa pi kaalaau naangako saasanataa, kaangako idoi nhenong caanagelaai emi naangako daam paahaa khur bhaari, kaalaau bheneng caahi naangako kepaahaa khur bhaari yomli ninaako.”
+# dhi_orth = येसु वासेहेङ हिअ्हि, “नाअ् हाइ भोखेना? वा येसुहेङ दोअ्हि, आग्या पि कालाउ नाङको सासनता, काङको इदोइ न्हेनोङ चानगेलाइ एमि नाङको दाम पाहा खुर भारि, कालाउ भेनेङ चाहि नाङको केपाहा खुर भारि योम्लि निनाको।”
+1	yesu	yesu	PROPN	_	_	_	_	_	orth=येसु|gloss=Jesus
+2	vaaseheng	vaaseheng	PRON	_	_	_	_	_	orth=वासेहेङ|gloss=him
+3	hiahi,	hiahi,	VERB	_	_	0	root	_	orth=हिअ्हि,|gloss=asked|Tense=Past|VerbForm=Fin
+4	“naaa	“naaa	PART	_	_	_	_	_	orth=“नाअ्|gloss=use
+5	haai	haai	PART	_	_	_	punct	_	orth=हाइ|PunctType=Peri
+6	bhokhenaa?	bhokhenaa?	unk	_	_	_	_	_	orth=भोखेना?|gloss=vest
+7	vaa	vaa	PRON	_	_	3	nsubj	_	orth=वा|gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+8	yesuheng	yesuheng	PROPN	_	_	_	_	_	orth=येसुहेङ|gloss=ea
+9	doahi,	doahi,	VERB	_	_	_	_	_	orth=दोअ्हि,|gloss=said
+10	aagyaa	aagyaa	NOUN	_	_	_	_	_	orth=आग्या|gloss=instance
+11	pi	pi	ADP	_	_	_	_	_	orth=पि|gloss=Th
+12	kaalaau	kaalaau	CCONJ	_	_	_	_	_	orth=कालाउ
+13	naangako	naangako	PRON	_	_	_	_	_	orth=नाङको|gloss=Your
+14	saasanataa,	saasanataa,	unk	_	_	_	_	_	orth=सासनता,
+15	kaangako	kaangako	PRON	_	_	_	poss	_	orth=काङको|gloss=my|Number=Sing|Person=1|Poss=Yes|PronType=Prs
+16	idoi	idoi	DET	_	_	_	_	_	orth=इदोइ|gloss=these
+17	nhenong	nhenong	NUM	_	_	_	_	_	orth=न्हेनोङ|gloss=five
+18	caanagelaai	caanagelaai	unk	_	_	_	_	_	orth=चानगेलाइ
+19	emi	emi	NUM	_	_	_	npadvmod	_	orth=एमि|gloss=one|NumType=Card
+20	naangako	naangako	PRON	_	_	_	_	_	orth=नाङको|gloss=Your
+21	daam	daam	NOUN	_	_	_	pobj	_	orth=दाम|gloss=honor|Number=Sing
+22	paahaa	paahaa	unk	_	_	_	_	_	orth=पाहा|gloss=behind
+23	khur	khur	NOUN	_	_	_	_	_	orth=खुर|gloss=hands
+24	bhaari,	bhaari,	NOUN	_	_	_	nsubj	_	orth=भारि,|gloss=request|Number=Sing
+25	kaalaau	kaalaau	CCONJ	_	_	_	_	_	orth=कालाउ
+26	bheneng	bheneng	ADJ	_	_	_	_	_	orth=भेनेङ|gloss=another
+27	caahi	caahi	CCONJ	_	_	_	_	_	orth=चाहि|gloss=but
+28	naangako	naangako	PRON	_	_	_	_	_	orth=नाङको|gloss=Your
+29	kepaahaa	kepaahaa	NOUN	_	_	_	pobj	_	orth=केपाहा|gloss=left|Number=Sing
+30	khur	khur	NOUN	_	_	_	_	_	orth=खुर|gloss=hands
+31	bhaari	bhaari	unk	_	_	_	_	_	orth=भारि|gloss=truth
+32	yomli	yomli	unk	_	_	_	_	_	orth=योम्लि|gloss=seat
+33	ninaako.”	ninaako.”	PRON	_	_	_	_	_	orth=निनाको।”
+
+# sent_id = 40026002
+# ref_id = Matthew 26:2
+# eng_text = " You know that after two days the Passover is coming , and the Son of Man will be delivered up to be crucified . "
+# dhi_text = “nelaaiheng thaahaa dong hi, nhe dinaa nhuso nistaar paarbaa suru jenaanga. kokong dinaa kaa dyaangako caanaheng krusttaa toili saturugelaaikotaa pipuvaavaa.”
+# dhi_orth = “नेलाइहेङ थाहा दोङ हि, न्हे दिना न्हुसो निस्तार पार्बा सुरु जेनाङ। कोकोङ दिना का द्‍याङको चानहेङ क्रुस्टा तोइलि सतुरुगेलाइकोता पिपुवावा।”
+1	“nelaaiheng	“nelaaiheng	PRON	_	_	_	_	_	orth=“नेलाइहेङ|gloss=ut
+2	thaahaa	thaahaa	VERB	_	_	_	_	_	orth=थाहा|gloss=realize
+3	dong	dong	ADP	_	_	_	_	_	orth=दोङ|gloss=oss
+4	hi,	hi,	PRON	_	_	_	_	_	orth=हि,|gloss=The
+5	nhe	nhe	NUM	_	_	_	_	_	orth=न्हे|gloss=fif
+6	dinaa	dinaa	NOUN	_	_	_	_	_	orth=दिना|gloss=day
+7	nhuso	nhuso	unk	_	_	_	_	_	orth=न्हुसो|gloss=follows
+8	nistaar	nistaar	PROPN	_	_	_	nsubj	_	orth=निस्तार|gloss=Passover|Number=Sing
+9	paarbaa	paarbaa	PROPN	_	_	_	nsubj	_	orth=पार्बा|gloss=Passover|Number=Sing
+10	suru	suru	unk	_	_	_	_	_	orth=सुरु|gloss=beginning
+11	jenaanga.	jenaanga.	unk	_	_	_	_	_	orth=जेनाङ।|gloss=Sodom
+12	kokong	kokong	unk	_	_	_	_	_	orth=कोकोङ|gloss=staying
+13	dinaa	dinaa	NOUN	_	_	_	_	_	orth=दिना|gloss=day
+14	kaa	kaa	PRON	_	_	_	_	_	orth=का|gloss=pat
+15	dyaangako	dyaangako	NOUN	_	_	_	pobj	_	orth=द्‍याङको|gloss=Man|Number=Sing
+16	caanaheng	caanaheng	PROPN	_	_	_	nsubjpass	_	orth=चानहेङ|gloss=Son|Number=Sing
+17	krusttaa	krusttaa	VERB	_	_	_	advcl	_	orth=क्रुस्टा|gloss=crucified|Aspect=Perf|Tense=Past|VerbForm=Part
+18	toili	toili	unk	_	_	_	_	_	orth=तोइलि|gloss=tired
+19	saturugelaaikotaa	saturugelaaikotaa	unk	_	_	_	_	_	orth=सतुरुगेलाइकोता
+20	pipuvaavaa.”	pipuvaavaa.”	unk	_	_	_	_	_	orth=पिपुवावा।”
+
+# sent_id = 40026061
+# ref_id = Matthew 26:61
+# eng_text = and said , " This man said , ' I am able to destroy the temple of God , and to build it in three days . ' "
+# dhi_text = “idoi dyaang doahi, ‘kaa paramesvarako mundir hraali dvaangakaa kaalaau sum dinaataa aarong kaa idoiheng dhaamli dvaangakaa’ doakaa hi.”
+# dhi_orth = “इदोइ द्‍याङ दोअ्हि, ‘का परमेस्वरको मुन्दिर ह्रालि द्वाङका कालाउ सुम दिनाता आरोङ का इदोइहेङ धाम्लि द्वाङका’ दोअ्का हि।”
+1	“idoi	“idoi	DET	_	_	_	_	_	orth=“इदोइ|gloss=offic
+2	dyaang	dyaang	NOUN	_	_	3	nsubj	_	orth=द्‍याङ|gloss=man|Number=Sing
+3	doahi,	doahi,	VERB	_	_	_	ccomp	_	orth=दोअ्हि,|gloss=said|Tense=Past|VerbForm=Fin
+4	‘kaa	‘kaa	PRON	_	_	_	_	_	orth=‘का
+5	paramesvarako	paramesvarako	PROPN	_	_	_	_	_	orth=परमेस्वरको|gloss=God’s
+6	mundir	mundir	NOUN	_	_	_	xcomp	_	orth=मुन्दिर|gloss=destroy|VerbForm=Inf
+7	hraali	hraali	VERB	_	_	_	_	_	orth=ह्रालि
+8	dvaangakaa	dvaangakaa	VERB	_	_	_	_	_	orth=द्वाङका|gloss=swore
+9	kaalaau	kaalaau	CCONJ	_	_	_	_	_	orth=कालाउ
+10	sum	sum	NUM	_	_	_	nummod	_	orth=सुम|gloss=three|NumType=Card
+11	dinaataa	dinaataa	NOUN	_	_	_	_	_	orth=दिनाता|gloss=day
+12	aarong	aarong	ADV	_	_	_	_	_	orth=आरोङ|gloss=again
+13	kaa	kaa	PRON	_	_	_	_	_	orth=का|gloss=pat
+14	idoiheng	idoiheng	unk	_	_	_	_	_	orth=इदोइहेङ|gloss=rebu
+15	dhaamli	dhaamli	VERB	_	_	_	_	_	orth=धाम्लि|gloss=ild
+16	dvaangakaa’	dvaangakaa’	VERB	_	_	_	_	_	orth=द्वाङका’
+17	doakaa	doakaa	VERB	_	_	_	_	_	orth=दोअ्का|gloss=told
+18	hi.”	hi.”	PRON	_	_	_	_	_	orth=हि।”|gloss=est
+
+# sent_id = 40028016
+# ref_id = Matthew 28:16
+# eng_text = But the eleven disciples went into Galilee , to the mountain where Jesus had sent them .
+# dhi_text = ungako tee jhanaa caatyaagelaai gaalil jillaako odoipaarako tikaarataa haanihi, ingakong thaametaa haanesu doateng yesu imbaalaaiheng aagyaa pikaa highaahi.
+# dhi_orth = उङको तेए झना चात्यागेलाइ गालिल जिल्लाको ओदोइपारको तिकारता हानिहि, इङकोङ थामेता हानेसु दोअ्तेङ येसु इम्बालाइहेङ आग्या पिका हिघाहि।
+1	ungako	ungako	unk	_	_	_	_	_	orth=उङको
+2	tee	tee	unk	_	_	_	_	_	orth=तेए
+3	jhanaa	jhanaa	unk	_	_	_	_	_	orth=झना|gloss=twelve
+4	caatyaagelaai	caatyaagelaai	NOUN	_	_	_	nsubj	_	orth=चात्यागेलाइ|gloss=disciples|Number=Plur
+5	gaalil	gaalil	PROPN	_	_	_	pobj	_	orth=गालिल|gloss=Galilee|Number=Sing
+6	jillaako	jillaako	unk	_	_	_	_	_	orth=जिल्लाको|gloss=ean
+7	odoipaarako	odoipaarako	unk	_	_	_	_	_	orth=ओदोइपारको
+8	tikaarataa	tikaarataa	NOUN	_	_	_	pobj	_	orth=तिकारता|gloss=mountain|Number=Sing
+9	haanihi,	haanihi,	unk	_	_	_	_	_	orth=हानिहि,|gloss=ond
+10	ingakong	ingakong	unk	_	_	_	_	_	orth=इङकोङ|gloss=granted
+11	thaametaa	thaametaa	NOUN	_	_	_	_	_	orth=थामेता|gloss=place
+12	haanesu	haanesu	unk	_	_	_	_	_	orth=हानेसु|gloss=d
+13	doateng	doateng	VERB	_	_	_	_	_	orth=दोअ्तेङ|gloss=ants
+14	yesu	yesu	PROPN	_	_	_	nsubj	_	orth=येसु|gloss=Jesus|Number=Sing
+15	imbaalaaiheng	imbaalaaiheng	PRON	_	_	_	dobj	_	orth=इम्बालाइहेङ|gloss=them|Case=Acc|Number=Plur|Person=3|PronType=Prs
+16	aagyaa	aagyaa	NOUN	_	_	_	_	_	orth=आग्या|gloss=instance
+17	pikaa	pikaa	VERB	_	_	_	_	_	orth=पिका|gloss=given
+18	highaahi.	highaahi.	VERB	_	_	_	_	_	orth=हिघाहि।|gloss=was
+
+# sent_id = 41002023
+# ref_id = Mark 2:23
+# eng_text = It happened , that he was going on the Sabbath day through the grain fields , and his disciples began , as they went , to pluck the ears of grain .
+# dhi_text = paramesvarako pabittaro dinaataa jelaau yesu kaalaau vaako caatyaagelaai miling bhaariso haanighaahi. kaalaau vaako caatyaagelaai ingako paahaaso haanikaataang paalaau se umako sisaa peteng caaali tengahi.
+# dhi_orth = परमेस्वरको पबित्तरो दिनाता जेलाउ येसु कालाउ वाको चात्यागेलाइ मिलिङ भारिसो हानिघाहि। कालाउ वाको चात्यागेलाइ इङको पाहासो हानिकाताङ पालाउ से उमको सिसा पेतेङ चाअ्लि तेङहि।
+1	paramesvarako	paramesvarako	PROPN	_	_	_	_	_	orth=परमेस्वरको|gloss=God’s
+2	pabittaro	pabittaro	unk	_	_	_	_	_	orth=पबित्तरो|gloss=accepts
+3	dinaataa	dinaataa	NOUN	_	_	_	npadvmod	_	orth=दिनाता|gloss=day|Number=Sing
+4	jelaau	jelaau	unk	_	_	_	_	_	orth=जेलाउ|gloss=When
+5	yesu	yesu	PROPN	_	_	_	nsubj	_	orth=येसु|gloss=Jesus|Number=Sing
+6	kaalaau	kaalaau	CCONJ	_	_	_	_	_	orth=कालाउ
+7	vaako	vaako	PRON	_	_	8	poss	_	orth=वाको|gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+8	caatyaagelaai	caatyaagelaai	NOUN	_	_	_	nsubj	_	orth=चात्यागेलाइ|gloss=disciples|Number=Plur
+9	miling	miling	unk	_	_	_	_	_	orth=मिलिङ|gloss=fields
+10	bhaariso	bhaariso	unk	_	_	_	_	_	orth=भारिसो|gloss=climbed
+11	haanighaahi.	haanighaahi.	unk	_	_	_	_	_	orth=हानिघाहि।|gloss=ield
+12	kaalaau	kaalaau	CCONJ	_	_	_	_	_	orth=कालाउ
+13	vaako	vaako	PRON	_	_	14	poss	_	orth=वाको|gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+14	caatyaagelaai	caatyaagelaai	NOUN	_	_	_	nsubj	_	orth=चात्यागेलाइ|gloss=disciples|Number=Plur
+15	ingako	ingako	PRON	_	_	_	_	_	orth=इङको|gloss=it
+16	paahaaso	paahaaso	unk	_	_	_	_	_	orth=पाहासो|gloss=ures
+17	haanikaataang	haanikaataang	unk	_	_	_	_	_	orth=हानिकाताङ|gloss=ately
+18	paalaau	paalaau	unk	_	_	_	_	_	orth=पालाउ|gloss=As
+19	se	se	unk	_	_	_	_	_	orth=से|gloss=fruit
+20	umako	umako	unk	_	_	_	_	_	orth=उमको
+21	sisaa	sisaa	unk	_	_	_	_	_	orth=सिसा|gloss=j
+22	peteng	peteng	unk	_	_	_	_	_	orth=पेतेङ
+23	caaali	caaali	unk	_	_	_	_	_	orth=चाअ्लि|gloss=baskets
+24	tengahi.	tengahi.	unk	_	_	_	_	_	orth=तेङहि।|gloss=argued
+
+# sent_id = 41012032
+# ref_id = Mark 12:32
+# eng_text = The scribe said to him , " Truly , teacher , you have said well that he is one , and there is none other but he ,
+# dhi_text = vyavasthaa dhirapaakaa dyaang yesuheng doahi, “prabhu, jaatingako naaa tthik doanaa! naaa satye doanaa ki paramesvar emi khining hi kaalaau aarong hidoi bung nheteng paramesvar maanthu.”
+# dhi_orth = व्यवस्था धिरपाका द्‍याङ येसुहेङ दोअ्हि, “प्रभु, जातिङको नाअ् ठिक दोअ्ना! नाअ् सत्ये दोअ्ना कि परमेस्वर एमि खिनिङ हि कालाउ आरोङ हिदोइ बुङ न्हेतेङ परमेस्वर मान्थु।”
+1	vyavasthaa	vyavasthaa	NOUN	_	_	_	pobj	_	orth=व्यवस्था|gloss=law|Number=Sing
+2	dhirapaakaa	dhirapaakaa	unk	_	_	_	_	_	orth=धिरपाका|gloss=teachers
+3	dyaang	dyaang	NOUN	_	_	_	_	_	orth=द्‍याङ|gloss=man
+4	yesuheng	yesuheng	PROPN	_	_	_	_	_	orth=येसुहेङ|gloss=ea
+5	doahi,	doahi,	VERB	_	_	_	ccomp	_	orth=दोअ्हि,|gloss=said|Tense=Past|VerbForm=Fin
+6	“prabhu,	“prabhu,	unk	_	_	_	_	_	orth=“प्रभु,|gloss=kingdom
+7	jaatingako	jaatingako	unk	_	_	_	_	_	orth=जातिङको|gloss=truly
+8	naaa	naaa	PART	_	_	_	_	_	orth=नाअ्
+9	tthik	tthik	unk	_	_	_	_	_	orth=ठिक|gloss=und
+10	doanaa!	doanaa!	VERB	_	_	_	_	_	orth=दोअ्ना!
+11	naaa	naaa	PART	_	_	_	_	_	orth=नाअ्
+12	satye	satye	unk	_	_	_	_	_	orth=सत्ये|gloss=true
+13	doanaa	doanaa	VERB	_	_	_	_	_	orth=दोअ्ना|gloss=Brother
+14	ki	ki	CCONJ	_	_	_	mark	_	orth=कि|gloss=that
+15	paramesvar	paramesvar	PROPN	_	_	_	attr	_	orth=परमेस्वर|gloss=God|Number=Sing
+16	emi	emi	NUM	_	_	15	nummod	_	orth=एमि|gloss=one|NumType=Card
+17	khining	khining	ADV	_	_	16	advmod	_	orth=खिनिङ|gloss=only
+18	hi	hi	PRON	_	_	_	_	_	orth=हि|gloss=committed
+19	kaalaau	kaalaau	CCONJ	_	_	_	_	_	orth=कालाउ
+20	aarong	aarong	ADV	_	_	_	_	_	orth=आरोङ|gloss=again
+21	hidoi	hidoi	DET	_	_	_	_	_	orth=हिदोइ|gloss=won’t
+22	bung	bung	ADP	_	_	_	_	_	orth=बुङ|gloss=also
+23	nheteng	nheteng	unk	_	_	_	_	_	orth=न्हेतेङ|gloss=second
+24	paramesvar	paramesvar	PROPN	_	_	_	attr	_	orth=परमेस्वर|gloss=God|Number=Sing
+25	maanthu.”	maanthu.”	unk	_	_	_	_	_	orth=मान्थु।”|gloss=finally
+
+# sent_id = 41014037
+# ref_id = Mark 14:37
+# eng_text = He came and found them sleeping , and said to Peter , " Simon , are you sleeping ? Couldn't you watch one hour ?
+# dhi_text = yesu aarong dhuriteng lolaau sumi caatyaagelaaiheng jimteng hikaa tingahi. kaalaau vaa patarusaheng doahi, “simon naaa nindhaa dhulaaiteng hinaa? haai e ghaanttaa bung jaagiteng hili maadosunaa?
+# dhi_orth = येसु आरोङ धुरितेङ लोलाउ सुमि चात्यागेलाइहेङ जिम्तेङ हिका तिङहि। कालाउ वा पतरुसहेङ दोअ्हि, “सिमोन नाअ् निन्धा धुलाइतेङ हिना? हाइ ए घान्टा बुङ जागितेङ हिलि मादोसुना?
+1	yesu	yesu	PROPN	_	_	_	_	_	orth=येसु|gloss=Jesus
+2	aarong	aarong	ADV	_	_	_	_	_	orth=आरोङ|gloss=again
+3	dhuriteng	dhuriteng	unk	_	_	_	_	_	orth=धुरितेङ|gloss=seve
+4	lolaau	lolaau	unk	_	_	_	_	_	orth=लोलाउ|gloss=tled
+5	sumi	sumi	NUM	_	_	_	_	_	orth=सुमि|gloss=mountain
+6	caatyaagelaaiheng	caatyaagelaaiheng	unk	_	_	_	_	_	orth=चात्यागेलाइहेङ|gloss=vis
+7	jimteng	jimteng	unk	_	_	_	_	_	orth=जिम्तेङ|gloss=manger
+8	hikaa	hikaa	ADV	_	_	_	_	_	orth=हिका|gloss=age
+9	tingahi.	tingahi.	VERB	_	_	_	_	_	orth=तिङहि।|gloss=un
+10	kaalaau	kaalaau	CCONJ	_	_	_	_	_	orth=कालाउ
+11	vaa	vaa	PRON	_	_	_	nsubj	_	orth=वा|gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+12	patarusaheng	patarusaheng	PROPN	_	_	_	pobj	_	orth=पतरुसहेङ|gloss=Peter|Number=Sing
+13	doahi,	doahi,	VERB	_	_	0	root	_	orth=दोअ्हि,|gloss=said|Tense=Past|VerbForm=Fin
+14	“simon	“simon	unk	_	_	_	_	_	orth=“सिमोन
+15	naaa	naaa	PART	_	_	_	_	_	orth=नाअ्
+16	nindhaa	nindhaa	unk	_	_	_	_	_	orth=निन्धा|gloss=exh
+17	dhulaaiteng	dhulaaiteng	unk	_	_	_	_	_	orth=धुलाइतेङ|gloss=exh
+18	hinaa?	hinaa?	unk	_	_	_	_	_	orth=हिना?|gloss=bes
+19	haai	haai	PART	_	_	23	punct	_	orth=हाइ|PunctType=Peri
+20	e	e	unk	_	_	_	_	_	orth=ए|gloss=ons
+21	ghaanttaa	ghaanttaa	NOUN	_	_	23	npadvmod	_	orth=घान्टा|gloss=hour|Number=Sing
+22	bung	bung	ADP	_	_	_	_	_	orth=बुङ|gloss=also
+23	jaagiteng	jaagiteng	VERB	_	_	0	root	_	orth=जागितेङ|gloss=watch|VerbForm=Inf
+24	hili	hili	unk	_	_	_	_	_	orth=हिलि|gloss=desert
+25	maadosunaa?	maadosunaa?	unk	_	_	_	_	_	orth=मादोसुना?|gloss=Couldn’t
+
+# sent_id = 42004002
+# ref_id = Luke 4:2
+# eng_text = for forty days , being tempted by the devil . He ate nothing in those days . Afterward , when they were completed , he was hungry .
+# dhi_text = intaa nhe kuri nhisin nhe kuri nitim thekaapaa yesu haai bung caakaa-aamkaa maanthughaahi, saaitaan yesuheng nhe kuri dinaa thekaapaa jaacihi, odong bhaaasing yesu osaaraapaang mhituhi.
+# dhi_orth = इन्ता न्हे कुरि न्हिसिन न्हे कुरि नितिम थेकापा येसु हाइ बुङ चाका-आम्का मान्थुघाहि, साइतान येसुहेङ न्हे कुरि दिना थेकापा जाचिहि, ओदोङ भाअ्सिङ येसु ओसारापाङ म्हितुहि।
+1	intaa	intaa	unk	_	_	_	_	_	orth=इन्ता|gloss=there
+2	nhe	nhe	NUM	_	_	_	_	_	orth=न्हे|gloss=fif
+3	kuri	kuri	NUM	_	_	_	nummod	_	orth=कुरि|gloss=forty|NumType=Card
+4	nhisin	nhisin	unk	_	_	_	_	_	orth=न्हिसिन|gloss=g
+5	nhe	nhe	NUM	_	_	_	_	_	orth=न्हे|gloss=fif
+6	kuri	kuri	NUM	_	_	_	nummod	_	orth=कुरि|gloss=forty|NumType=Card
+7	nitim	nitim	unk	_	_	_	_	_	orth=नितिम|gloss=g
+8	thekaapaa	thekaapaa	NOUN	_	_	_	_	_	orth=थेकापा|gloss=still
+9	yesu	yesu	PROPN	_	_	13	nsubj	_	orth=येसु|gloss=Jesus|Number=Sing
+10	haai	haai	PART	_	_	_	_	_	orth=हाइ
+11	bung	bung	ADP	_	_	_	_	_	orth=बुङ|gloss=also
+12	caakaa-aamkaa	caakaa-aamkaa	unk	_	_	_	_	_	orth=चाका-आम्का|gloss=buy
+13	maanthughaahi,	maanthughaahi,	VERB	_	_	0	root	_	orth=मान्थुघाहि,|gloss=ate|Tense=Past|VerbForm=Fin
+14	saaitaan	saaitaan	NOUN	_	_	_	pobj	_	orth=साइतान|gloss=devil|Number=Sing
+15	yesuheng	yesuheng	PROPN	_	_	_	_	_	orth=येसुहेङ|gloss=ea
+16	nhe	nhe	NUM	_	_	_	_	_	orth=न्हे|gloss=fif
+17	kuri	kuri	NUM	_	_	_	nummod	_	orth=कुरि|gloss=forty|NumType=Card
+18	dinaa	dinaa	NOUN	_	_	_	_	_	orth=दिना|gloss=day
+19	thekaapaa	thekaapaa	NOUN	_	_	_	_	_	orth=थेकापा|gloss=still
+20	jaacihi,	jaacihi,	unk	_	_	_	_	_	orth=जाचिहि,
+21	odong	odong	CCONJ	_	_	_	_	_	orth=ओदोङ|gloss=So
+22	bhaaasing	bhaaasing	VERB	_	_	_	prep	_	orth=भाअ्सिङ|gloss=for
+23	yesu	yesu	PROPN	_	_	13	nsubj	_	orth=येसु|gloss=Jesus|Number=Sing
+24	osaaraapaang	osaaraapaang	unk	_	_	_	_	_	orth=ओसारापाङ|gloss=Seeing
+25	mhituhi.	mhituhi.	unk	_	_	_	_	_	orth=म्हितुहि।
+
+# sent_id = 42016013
+# ref_id = Luke 16:13
+# eng_text = No servant can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You aren't able to serve God and mammon . "
+# dhi_text = “hidoi bung caakaariyaa enong dong somoitaa nhemi gihriko sevaa paali maadaavaa. haaipaalipaanu vaa dong emiheng prem paavaa, kaalaau bhenengaheng khaangali maakitaavaa. ki ta vaa emiko doakaa kitaavaa kaalaau bhenengahengako doakaa caahi haai dong vaastaa maapaavaa. odong bhaaasing, nelaai bung paramesvar kaalaau dhan nhemiko sevaa paali enong dong somoitaa paali maadosvaanaa.”
+# dhi_orth = “हिदोइ बुङ चाकारिया एनोङ दोङ सोमोइता न्हेमि गिह्रिको सेवा पालि मादावा। हाइपालिपानु वा दोङ एमिहेङ प्रेम पावा, कालाउ भेनेङहेङ खाङलि माकितावा। कि त वा एमिको दोअ्का कितावा कालाउ भेनेङहेङको दोअ्का चाहि हाइ दोङ वास्ता मापावा। ओदोङ भाअ्सिङ, नेलाइ बुङ परमेस्वर कालाउ धन न्हेमिको सेवा पालि एनोङ दोङ सोमोइता पालि मादोस्वाना।”
+1	“hidoi	“hidoi	DET	_	_	_	_	_	orth=“हिदोइ|gloss=ined
+2	bung	bung	ADP	_	_	_	_	_	orth=बुङ|gloss=also
+3	caakaariyaa	caakaariyaa	unk	_	_	_	_	_	orth=चाकारिया|gloss=servant
+4	enong	enong	NUM	_	_	_	_	_	orth=एनोङ|gloss=united
+5	dong	dong	ADP	_	_	_	_	_	orth=दोङ|gloss=oss
+6	somoitaa	somoitaa	NOUN	_	_	_	_	_	orth=सोमोइता|gloss=managing
+7	nhemi	nhemi	NUM	_	_	_	_	_	orth=न्हेमि|gloss=als
+8	gihriko	gihriko	PRON	_	_	_	_	_	orth=गिह्रिको|gloss=tenant
+9	sevaa	sevaa	VERB	_	_	0	root	_	orth=सेवा|gloss=serve|VerbForm=Inf
+10	paali	paali	VERB	_	_	_	_	_	orth=पालि|gloss=batch
+11	maadaavaa.	maadaavaa.	VERB	_	_	_	_	_	orth=मादावा।|gloss=cannot
+12	haaipaalipaanu	haaipaalipaanu	ADP	_	_	_	prep	_	orth=हाइपालिपानु|gloss=For
+13	vaa	vaa	PRON	_	_	_	_	_	orth=वा|gloss=he
+14	dong	dong	ADP	_	_	_	_	_	orth=दोङ|gloss=oss
+15	emiheng	emiheng	NUM	_	_	_	_	_	orth=एमिहेङ|gloss=mill
+16	prem	prem	VERB	_	_	_	conj	_	orth=प्रेम|gloss=love|VerbForm=Inf
+17	paavaa,	paavaa,	VERB	_	_	_	_	_	orth=पावा,|gloss=neither
+18	kaalaau	kaalaau	CCONJ	_	_	_	_	_	orth=कालाउ
+19	bhenengaheng	bhenengaheng	ADJ	_	_	_	dobj	_	orth=भेनेङहेङ|gloss=other|Degree=Pos
+20	khaangali	khaangali	VERB	_	_	_	_	_	orth=खाङलि|gloss=see
+21	maakitaavaa.	maakitaavaa.	VERB	_	_	_	acomp	_	orth=माकितावा।|gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+22	ki	ki	CCONJ	_	_	_	_	_	orth=कि|gloss=that
+23	ta	ta	PART	_	_	_	_	_	orth=त|gloss=cas
+24	vaa	vaa	PRON	_	_	_	_	_	orth=वा|gloss=he
+25	emiko	emiko	NUM	_	_	_	_	_	orth=एमिको|gloss=legs
+26	doakaa	doakaa	VERB	_	_	_	_	_	orth=दोअ्का|gloss=told
+27	kitaavaa	kitaavaa	VERB	_	_	_	acomp	_	orth=कितावा|gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+28	kaalaau	kaalaau	CCONJ	_	_	_	_	_	orth=कालाउ
+29	bhenengahengako	bhenengahengako	VERB	_	_	_	acomp	_	orth=भेनेङहेङको|gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+30	doakaa	doakaa	VERB	_	_	_	_	_	orth=दोअ्का|gloss=told
+31	caahi	caahi	CCONJ	_	_	_	_	_	orth=चाहि|gloss=but
+32	haai	haai	PART	_	_	_	_	_	orth=हाइ
+33	dong	dong	ADP	_	_	_	_	_	orth=दोङ|gloss=oss
+34	vaastaa	vaastaa	NOUN	_	_	_	_	_	orth=वास्ता|gloss=ign
+35	maapaavaa.	maapaavaa.	VERB	_	_	_	_	_	orth=मापावा।|gloss=ris
+36	odong	odong	CCONJ	_	_	_	_	_	orth=ओदोङ|gloss=So
+37	bhaaasing,	bhaaasing,	VERB	_	_	_	_	_	orth=भाअ्सिङ,|gloss=cor
+38	nelaai	nelaai	PRON	_	_	_	nsubj	_	orth=नेलाइ|gloss=you|Case=Nom|Person=2|PronType=Prs
+39	bung	bung	ADP	_	_	_	_	_	orth=बुङ|gloss=also
+40	paramesvar	paramesvar	PROPN	_	_	44	dobj	_	orth=परमेस्वर|gloss=God|Number=Sing
+41	kaalaau	kaalaau	CCONJ	_	_	_	_	_	orth=कालाउ
+42	dhan	dhan	NOUN	_	_	_	_	_	orth=धन|gloss=treasures
+43	nhemiko	nhemiko	VERB	_	_	_	acomp	_	orth=न्हेमिको|gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+44	sevaa	sevaa	VERB	_	_	0	root	_	orth=सेवा|gloss=serve|VerbForm=Inf
+45	paali	paali	VERB	_	_	_	_	_	orth=पालि|gloss=batch
+46	enong	enong	NUM	_	_	_	_	_	orth=एनोङ|gloss=united
+47	dong	dong	ADP	_	_	_	_	_	orth=दोङ|gloss=oss
+48	somoitaa	somoitaa	NOUN	_	_	_	_	_	orth=सोमोइता|gloss=managing
+49	paali	paali	VERB	_	_	_	_	_	orth=पालि|gloss=batch
+50	maadosvaanaa.”	maadosvaanaa.”	VERB	_	_	_	_	_	orth=मादोस्वाना।”|gloss=aboard
+
+# sent_id = 42024018
+# ref_id = Luke 24:18
+# eng_text = One of them , named Cleopas , answered him , " Are you the only one travelling in Jerusalem who doesn't know the things which have happened there in these days ? "
+# dhi_text = obaalaaiso emi kleopaas ming hikaa dyaang vaaseheng hiahi, baahaaraso lokaa paradesigelaaitaa haanikaa aale dinaagelaaitaa yaruselem saharataa ghaatekaa ghaattaanaagelaaiko baaretaa maagikaa saayad naaa khining emi dyaang vaalaa.
+# dhi_orth = ओबालाइसो एमि क्लेओपास मिङ हिका द्‍याङ वासेहेङ हिअ्हि, बाहारसो लोका परदेसिगेलाइता हानिका आले दिनागेलाइता यरुसेलेम सहरता घातेका घाटानागेलाइको बारेता मागिका सायद नाअ् खिनिङ एमि द्‍याङ वाला।
+1	obaalaaiso	obaalaaiso	unk	_	_	_	_	_	orth=ओबालाइसो|gloss=wise
+2	emi	emi	NUM	_	_	_	nsubj	_	orth=एमि|gloss=one|NumType=Card
+3	kleopaas	kleopaas	unk	_	_	_	_	_	orth=क्लेओपास
+4	ming	ming	unk	_	_	_	_	_	orth=मिङ|gloss=named
+5	hikaa	hikaa	ADV	_	_	_	_	_	orth=हिका|gloss=age
+6	dyaang	dyaang	NOUN	_	_	_	_	_	orth=द्‍याङ|gloss=man
+7	vaaseheng	vaaseheng	PRON	_	_	_	_	_	orth=वासेहेङ|gloss=him
+8	hiahi,	hiahi,	VERB	_	_	_	_	_	orth=हिअ्हि,|gloss=asked
+9	baahaaraso	baahaaraso	unk	_	_	_	_	_	orth=बाहारसो
+10	lokaa	lokaa	unk	_	_	_	_	_	orth=लोका|gloss=come
+11	paradesigelaaitaa	paradesigelaaitaa	unk	_	_	_	_	_	orth=परदेसिगेलाइता
+12	haanikaa	haanikaa	unk	_	_	_	_	_	orth=हानिका|gloss=id
+13	aale	aale	ADJ	_	_	_	amod	_	orth=आले|gloss=few|Degree=Pos
+14	dinaagelaaitaa	dinaagelaaitaa	unk	_	_	_	_	_	orth=दिनागेलाइता|gloss=men
+15	yaruselem	yaruselem	PROPN	_	_	_	pobj	_	orth=यरुसेलेम|gloss=Jerusalem|Number=Sing
+16	saharataa	saharataa	unk	_	_	_	_	_	orth=सहरता|gloss=reason
+17	ghaatekaa	ghaatekaa	unk	_	_	_	_	_	orth=घातेका
+18	ghaattaanaagelaaiko	ghaattaanaagelaaiko	unk	_	_	_	_	_	orth=घाटानागेलाइको
+19	baaretaa	baaretaa	unk	_	_	_	_	_	orth=बारेता|gloss=R
+20	maagikaa	maagikaa	unk	_	_	_	_	_	orth=मागिका|gloss=inking
+21	saayad	saayad	unk	_	_	_	_	_	orth=सायद
+22	naaa	naaa	PART	_	_	_	punct	_	orth=नाअ्|PunctSide=Fin|PunctType=Quot
+23	khining	khining	ADJ	_	_	_	amod	_	orth=खिनिङ|gloss=only|Degree=Pos
+24	emi	emi	NUM	_	_	_	nsubj	_	orth=एमि|gloss=one|NumType=Card
+25	dyaang	dyaang	NOUN	_	_	_	_	_	orth=द्‍याङ|gloss=man
+26	vaalaa.	vaalaa.	unk	_	_	_	_	_	orth=वाला।|gloss=offering
+
+# sent_id = 43001039
+# ref_id = John 1:39
+# eng_text = He said to them , " Come , and see . " They came and saw where he was staying , and they stayed with him that day . It was about the tenth hour .
+# dhi_text = vaa imbaalaaiheng doahi, loteng khaangasu, imbaalaai haanehi kaalaau vaako hikaa thaame tingahi. imbaalaai kokong dinaa vaako dophaa baasaa hi, haaipaalipaanu ensaang dyaa bajekaa highaahi.
+# dhi_orth = वा इम्बालाइहेङ दोअ्हि, लोतेङ खाङसु, इम्बालाइ हानेहि कालाउ वाको हिका थामे तिङहि। इम्बालाइ कोकोङ दिना वाको दोफा बासा हि, हाइपालिपानु एन्साङ द्‍या बजेका हिघाहि।
+1	vaa	vaa	PRON	_	_	14	nsubj	_	orth=वा|gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+2	imbaalaaiheng	imbaalaaiheng	unk	_	_	_	_	_	orth=इम्बालाइहेङ|gloss=them
+3	doahi,	doahi,	VERB	_	_	0	root	_	orth=दोअ्हि,|gloss=said|Tense=Past|VerbForm=Fin
+4	loteng	loteng	NOUN	_	_	_	pobj	_	orth=लोतेङ|gloss=afternoon|Number=Sing
+5	khaangasu,	khaangasu,	unk	_	_	_	_	_	orth=खाङसु,|gloss=ib
+6	imbaalaai	imbaalaai	PRON	_	_	18	nsubj	_	orth=इम्बालाइ|gloss=they|Case=Nom|Number=Plur|Person=3|PronType=Prs
+7	haanehi	haanehi	VERB	_	_	24	conj	_	orth=हानेहि|gloss=remained|Tense=Past|VerbForm=Fin
+8	kaalaau	kaalaau	CCONJ	_	_	_	_	_	orth=कालाउ
+9	vaako	vaako	unk	_	_	_	_	_	orth=वाको|gloss=his
+10	hikaa	hikaa	ADV	_	_	_	_	_	orth=हिका|gloss=age
+11	thaame	thaame	unk	_	_	_	_	_	orth=थामे|gloss=room
+12	tingahi.	tingahi.	VERB	_	_	_	_	_	orth=तिङहि।|gloss=un
+13	imbaalaai	imbaalaai	PRON	_	_	18	nsubj	_	orth=इम्बालाइ|gloss=they|Case=Nom|Number=Plur|Person=3|PronType=Prs
+14	kokong	kokong	VERB	_	_	_	relcl	_	orth=कोकोङ|gloss=staying|Aspect=Prog|Tense=Pres|VerbForm=Part
+15	dinaa	dinaa	NOUN	_	_	_	pobj	_	orth=दिना|gloss=day|Number=Sing
+16	vaako	vaako	unk	_	_	_	_	_	orth=वाको|gloss=his
+17	dophaa	dophaa	ADP	_	_	18	prep	_	orth=दोफा|gloss=with
+18	baasaa	baasaa	VERB	_	_	24	conj	_	orth=बासा|gloss=remained|Tense=Past|VerbForm=Fin
+19	hi,	hi,	PRON	_	_	_	_	_	orth=हि,|gloss=The
+20	haaipaalipaanu	haaipaalipaanu	unk	_	_	_	_	_	orth=हाइपालिपानु|gloss=For
+21	ensaang	ensaang	unk	_	_	_	_	_	orth=एन्साङ|gloss=same
+22	dyaa	dyaa	NUM	_	_	_	nummod	_	orth=द्‍या|gloss=four|NumType=Card
+23	bajekaa	bajekaa	unk	_	_	_	_	_	orth=बजेका
+24	highaahi.	highaahi.	VERB	_	_	14	aux	_	orth=हिघाहि।|gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+
+# sent_id = 43003016
+# ref_id = John 3:16
+# eng_text = For God so loved the world , that he gave his one and only Son , that whoever believes in him should not perish , but have eternal life .
+# dhi_text = “haaipaalipaanu paramesvar sumingako dyaangagelaaiheng isikaa prem paahi, kaalaau vaa dong taaiko emi khining caan pihi. kaalaauki vaaseheng khaangadhuri paakaalaai haasu bung naas maajyaako, bharu vaa dong aanaanta jiban ninaako.
+# dhi_orth = “हाइपालिपानु परमेस्वर सुमिङको द्‍याङगेलाइहेङ इसिका प्रेम पाहि, कालाउ वा दोङ ताइको एमि खिनिङ चान पिहि। कालाउकि वासेहेङ खाङधुरि पाकालाइ हासु बुङ नास माज्याको, भरु वा दोङ आनान्त जिबन निनाको।
+1	“haaipaalipaanu	“haaipaalipaanu	unk	_	_	_	_	_	orth=“हाइपालिपानु|gloss=ish
+2	paramesvar	paramesvar	PROPN	_	_	_	nsubj	_	orth=परमेस्वर|gloss=God|Number=Sing
+3	sumingako	sumingako	NOUN	_	_	_	dobj	_	orth=सुमिङको|gloss=world|Number=Sing
+4	dyaangagelaaiheng	dyaangagelaaiheng	unk	_	_	_	_	_	orth=द्‍याङगेलाइहेङ|gloss=burning
+5	isikaa	isikaa	unk	_	_	_	_	_	orth=इसिका|gloss=6
+6	prem	prem	unk	_	_	_	_	_	orth=प्रेम|gloss=love
+7	paahi,	paahi,	unk	_	_	_	_	_	orth=पाहि,|gloss=Greek
+8	kaalaau	kaalaau	CCONJ	_	_	_	_	_	orth=कालाउ
+9	vaa	vaa	PRON	_	_	15	nsubj	_	orth=वा|gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+10	dong	dong	ADP	_	_	_	_	_	orth=दोङ|gloss=oss
+11	taaiko	taaiko	unk	_	_	_	_	_	orth=ताइको|gloss=their
+12	emi	emi	NUM	_	_	15	dobj	_	orth=एमि|gloss=one|NumType=Card
+13	khining	khining	ADV	_	_	12	conj	_	orth=खिनिङ|gloss=only
+14	caan	caan	unk	_	_	_	_	_	orth=चान|gloss=son
+15	pihi.	pihi.	VERB	_	_	_	ccomp	_	orth=पिहि।|gloss=gave|Tense=Past|VerbForm=Fin
+16	kaalaauki	kaalaauki	unk	_	_	_	_	_	orth=कालाउकि|gloss=ected
+17	vaaseheng	vaaseheng	PRON	_	_	_	pobj	_	orth=वासेहेङ|gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+18	khaangadhuri	khaangadhuri	unk	_	_	_	_	_	orth=खाङधुरि|gloss=believe
+19	paakaalaai	paakaalaai	unk	_	_	_	_	_	orth=पाकालाइ|gloss=freedom
+20	haasu	haasu	PRON	_	_	_	_	_	orth=हासु|gloss=Who
+21	bung	bung	ADP	_	_	_	_	_	orth=बुङ|gloss=also
+22	naas	naas	unk	_	_	_	_	_	orth=नास|gloss=ish
+23	maajyaako,	maajyaako,	unk	_	_	_	_	_	orth=माज्याको,
+24	bharu	bharu	unk	_	_	_	_	_	orth=भरु|gloss=Instead
+25	vaa	vaa	PRON	_	_	15	nsubj	_	orth=वा|gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+26	dong	dong	ADP	_	_	_	_	_	orth=दोङ|gloss=oss
+27	aanaanta	aanaanta	ADJ	_	_	28	amod	_	orth=आनान्त|gloss=eternal|Degree=Pos
+28	jiban	jiban	NOUN	_	_	_	dobj	_	orth=जिबन|gloss=life|Number=Sing
+29	ninaako.	ninaako.	PRON	_	_	_	_	_	orth=निनाको।|gloss=ish
+
+# sent_id = 44002030
+# ref_id = Acts 2:30
+# eng_text = Therefore , being a prophet , and knowing that God had sworn with an oath to him that of the fruit of his body , according to the flesh , he would raise up the Christ to sit on his throne ,
+# dhi_text = raajaa daaud emi paramesvarako baktaa highaahi, kaalaau paramesvar vaako dophaa keraa caakaa kaathaa vaa gighaakhe. paramesvar raajaa daaudaheng baacaa pikaa highaakhe, ki vaakong haaraaguttiyaaso emiheng singahaasanataa raajaako koning yompaanga.
+# dhi_orth = राजा दाउद एमि परमेस्वरको बक्ता हिघाहि, कालाउ परमेस्वर वाको दोफा केरा चाका काथा वा गिघाखे। परमेस्वर राजा दाउदहेङ बाचा पिका हिघाखे, कि वाकोङ हारागुटियासो एमिहेङ सिङहासनता राजाको कोनिङ योम्पाङ।
+1	raajaa	raajaa	unk	_	_	_	_	_	orth=राजा|gloss=King
+2	daaud	daaud	PROPN	_	_	24	poss	_	orth=दाउद|gloss=David|Number=Sing
+3	emi	emi	NUM	_	_	_	nsubj	_	orth=एमि|gloss=one|NumType=Card
+4	paramesvarako	paramesvarako	PROPN	_	_	_	_	_	orth=परमेस्वरको|gloss=God’s
+5	baktaa	baktaa	unk	_	_	_	_	_	orth=बक्ता|gloss=osed
+6	highaahi,	highaahi,	VERB	_	_	_	_	_	orth=हिघाहि,|gloss=were
+7	kaalaau	kaalaau	CCONJ	_	_	_	_	_	orth=कालाउ
+8	paramesvar	paramesvar	PROPN	_	_	_	nsubj	_	orth=परमेस्वर|gloss=God|Number=Sing
+9	vaako	vaako	PRON	_	_	26	poss	_	orth=वाको|gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+10	dophaa	dophaa	ADP	_	_	_	prep	_	orth=दोफा|gloss=with
+11	keraa	keraa	NOUN	_	_	10	pobj	_	orth=केरा|gloss=oath|Number=Sing
+12	caakaa	caakaa	unk	_	_	_	_	_	orth=चाका|gloss=eat
+13	kaathaa	kaathaa	NOUN	_	_	_	_	_	orth=काथा|gloss=speaking
+14	vaa	vaa	PRON	_	_	_	nsubj	_	orth=वा|gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+15	gighaakhe.	gighaakhe.	unk	_	_	_	_	_	orth=गिघाखे।|gloss=enthusiastic
+16	paramesvar	paramesvar	PROPN	_	_	_	nsubj	_	orth=परमेस्वर|gloss=God|Number=Sing
+17	raajaa	raajaa	unk	_	_	_	_	_	orth=राजा|gloss=King
+18	daaudaheng	daaudaheng	unk	_	_	_	_	_	orth=दाउदहेङ
+19	baacaa	baacaa	unk	_	_	_	_	_	orth=बाचा|gloss=between
+20	pikaa	pikaa	VERB	_	_	_	_	_	orth=पिका|gloss=given
+21	highaakhe,	highaakhe,	unk	_	_	_	_	_	orth=हिघाखे,|gloss=forgotten
+22	ki	ki	CCONJ	_	_	_	mark	_	orth=कि|gloss=that
+23	vaakong	vaakong	unk	_	_	_	_	_	orth=वाकोङ|gloss=ell
+24	haaraaguttiyaaso	haaraaguttiyaaso	NOUN	_	_	_	pobj	_	orth=हारागुटियासो|gloss=descendants|Number=Plur
+25	emiheng	emiheng	NUM	_	_	_	_	_	orth=एमिहेङ|gloss=mill
+26	singahaasanataa	singahaasanataa	NOUN	_	_	_	pobj	_	orth=सिङहासनता|gloss=throne|Number=Sing
+27	raajaako	raajaako	unk	_	_	_	_	_	orth=राजाको|gloss=ac
+28	koning	koning	unk	_	_	_	_	_	orth=कोनिङ|gloss=ek
+29	yompaanga.	yompaanga.	unk	_	_	_	_	_	orth=योम्पाङ।
+
+# sent_id = 44009038
+# ref_id = Acts 9:38
+# eng_text = As Lydda was near Joppa , the disciples , hearing that Peter was there , sent two men to him , imploring him not to delay in coming to them .
+# dhi_text = liddaa nagar joppaa nagarako bherapaa highaahi, kaalaau caatyaagelaai patarus liddaa nagarataa hi doakaa hingateng vaakotaa nhemi dyaangagelaaiheng isikaa binti paali dingagilhi, “daayaa paateng kelaai hikaa thaametaa maaraphaa lopi.”
+# dhi_orth = लिडा नगर जोप्पा नगरको भेरपा हिघाहि, कालाउ चात्यागेलाइ पतरुस लिडा नगरता हि दोअ्का हिङतेङ वाकोता न्हेमि द्‍याङगेलाइहेङ इसिका बिन्ति पालि दिङगिल्हि, “दाया पातेङ केलाइ हिका थामेता मारफा लोपि।”
+1	liddaa	liddaa	unk	_	_	_	_	_	orth=लिडा|gloss=den
+2	nagar	nagar	unk	_	_	_	_	_	orth=नगर|gloss=Soon
+3	joppaa	joppaa	unk	_	_	_	_	_	orth=जोप्पा|gloss=Joppa
+4	nagarako	nagarako	unk	_	_	_	_	_	orth=नगरको|gloss=of
+5	bherapaa	bherapaa	unk	_	_	_	_	_	orth=भेरपा|gloss=beside
+6	highaahi,	highaahi,	VERB	_	_	_	_	_	orth=हिघाहि,|gloss=were
+7	kaalaau	kaalaau	CCONJ	_	_	_	_	_	orth=कालाउ
+8	caatyaagelaai	caatyaagelaai	unk	_	_	_	_	_	orth=चात्यागेलाइ|gloss=disciples
+9	patarus	patarus	PROPN	_	_	_	nsubj	_	orth=पतरुस|gloss=Peter|Number=Sing
+10	liddaa	liddaa	unk	_	_	_	_	_	orth=लिडा|gloss=den
+11	nagarataa	nagarataa	unk	_	_	_	_	_	orth=नगरता|gloss=Joppa
+12	hi	hi	PRON	_	_	_	_	_	orth=हि|gloss=committed
+13	doakaa	doakaa	VERB	_	_	_	_	_	orth=दोअ्का|gloss=told
+14	hingateng	hingateng	unk	_	_	_	_	_	orth=हिङतेङ|gloss=gra
+15	vaakotaa	vaakotaa	unk	_	_	_	_	_	orth=वाकोता|gloss=touch
+16	nhemi	nhemi	NUM	_	_	_	_	_	orth=न्हेमि|gloss=als
+17	dyaangagelaaiheng	dyaangagelaaiheng	unk	_	_	_	_	_	orth=द्‍याङगेलाइहेङ|gloss=burning
+18	isikaa	isikaa	unk	_	_	_	_	_	orth=इसिका|gloss=6
+19	binti	binti	unk	_	_	_	_	_	orth=बिन्ति|gloss=ert
+20	paali	paali	VERB	_	_	_	_	_	orth=पालि|gloss=batch
+21	dingagilhi,	dingagilhi,	unk	_	_	_	_	_	orth=दिङगिल्हि,|gloss=warned
+22	“daayaa	“daayaa	unk	_	_	_	_	_	orth=“दाया
+23	paateng	paateng	unk	_	_	_	_	_	orth=पातेङ|gloss=plan
+24	kelaai	kelaai	unk	_	_	_	_	_	orth=केलाइ|gloss=we
+25	hikaa	hikaa	ADV	_	_	_	_	_	orth=हिका|gloss=age
+26	thaametaa	thaametaa	NOUN	_	_	_	_	_	orth=थामेता|gloss=place
+27	maaraphaa	maaraphaa	unk	_	_	_	_	_	orth=मारफा
+28	lopi.”	lopi.”	unk	_	_	_	_	_	orth=लोपि।”|gloss=pleaded
+
+# sent_id = 44011011
+# ref_id = Acts 11:11
+# eng_text = Behold , immediately three men stood before the house where I was , having been sent from Caesarea to me .
+# dhi_text = kokong belaa kaisariyaa saharaso karnaliyas kaangakotaa pigilkaa sumi dyaangagelaai kelaai hikaa saaataa lohi.
+# dhi_orth = कोकोङ बेला कैसरिया सहरसो कर्नलियस काङकोता पिगिल्का सुमि द्‍याङगेलाइ केलाइ हिका साअ्ता लोहि।
+1	kokong	kokong	VERB	_	_	_	relcl	_	orth=कोकोङ|gloss=staying|Aspect=Prog|Tense=Pres|VerbForm=Part
+2	belaa	belaa	unk	_	_	_	_	_	orth=बेला|gloss=noon
+3	kaisariyaa	kaisariyaa	PROPN	_	_	_	pobj	_	orth=कैसरिया|gloss=Caesarea|Number=Sing
+4	saharaso	saharaso	unk	_	_	_	_	_	orth=सहरसो|gloss=ist
+5	karnaliyas	karnaliyas	unk	_	_	_	_	_	orth=कर्नलियस
+6	kaangakotaa	kaangakotaa	unk	_	_	_	_	_	orth=काङकोता|gloss=ns
+7	pigilkaa	pigilkaa	unk	_	_	_	_	_	orth=पिगिल्का|gloss=sends
+8	sumi	sumi	NUM	_	_	_	_	_	orth=सुमि|gloss=mountain
+9	dyaangagelaai	dyaangagelaai	unk	_	_	_	_	_	orth=द्‍याङगेलाइ|gloss=religious
+10	kelaai	kelaai	PRON	_	_	1	nsubj	_	orth=केलाइ|gloss=we|Case=Nom|Number=Plur|Person=1|PronType=Prs
+11	hikaa	hikaa	ADV	_	_	_	_	_	orth=हिका|gloss=age
+12	saaataa	saaataa	unk	_	_	_	_	_	orth=साअ्ता|gloss=home
+13	lohi.	lohi.	unk	_	_	_	_	_	orth=लोहि।|gloss=Thessalonica
+
+# sent_id = 44021034
+# ref_id = Acts 21:34
+# eng_text = Some shouted one thing , some another , among the crowd . When he couldn't find out the truth because of the noise , he commanded him to be brought into the barracks .
+# dhi_text = kaalaau ingako jeragelaai madhye aadhimi e khaalko kaathaa kaalaau aadhimi bheneng khaalako kaathaa doateng hrikaaihi, kaalaau senaapati ingako jogrekaanaang ghaattaanaa haai hi vaalaa thaahaa ningali maaninganaang paavalaheng byaarekataa cumpuli doateng aagyaa pihi.
+# dhi_orth = कालाउ इङको जेरगेलाइ मध्ये आधिमि ए खाल्को काथा कालाउ आधिमि भेनेङ खालको काथा दोअ्तेङ ह्रिकाइहि, कालाउ सेनापति इङको जोग्रेकानाङ घाटाना हाइ हि वाला थाहा निङलि मानिङनाङ पावलहेङ ब्यारेकता चुम्पुलि दोअ्तेङ आग्या पिहि।
+1	kaalaau	kaalaau	CCONJ	_	_	_	_	_	orth=कालाउ
+2	ingako	ingako	PRON	_	_	_	_	_	orth=इङको|gloss=it
+3	jeragelaai	jeragelaai	VERB	_	_	0	root	_	orth=जेरगेलाइ|gloss=shouted|Tense=Past|VerbForm=Fin
+4	madhye	madhye	DET	_	_	11	predet	_	orth=मध्ये|gloss=some
+5	aadhimi	aadhimi	DET	_	_	11	predet	_	orth=आधिमि|gloss=some
+6	e	e	unk	_	_	_	_	_	orth=ए|gloss=ons
+7	khaalko	khaalko	unk	_	_	_	_	_	orth=खाल्को|gloss=sexual
+8	kaathaa	kaathaa	NOUN	_	_	_	_	_	orth=काथा|gloss=speaking
+9	kaalaau	kaalaau	CCONJ	_	_	_	_	_	orth=कालाउ
+10	aadhimi	aadhimi	DET	_	_	11	predet	_	orth=आधिमि|gloss=some
+11	bheneng	bheneng	ADJ	_	_	_	conj	_	orth=भेनेङ|gloss=another
+12	khaalako	khaalako	unk	_	_	_	_	_	orth=खालको
+13	kaathaa	kaathaa	NOUN	_	_	_	_	_	orth=काथा|gloss=speaking
+14	doateng	doateng	VERB	_	_	_	_	_	orth=दोअ्तेङ|gloss=ants
+15	hrikaaihi,	hrikaaihi,	unk	_	_	_	_	_	orth=ह्रिकाइहि,|gloss=roar
+16	kaalaau	kaalaau	CCONJ	_	_	_	_	_	orth=कालाउ
+17	senaapati	senaapati	unk	_	_	_	_	_	orth=सेनापति|gloss=commander
+18	ingako	ingako	PRON	_	_	_	_	_	orth=इङको|gloss=it
+19	jogrekaanaang	jogrekaanaang	unk	_	_	_	_	_	orth=जोग्रेकानाङ
+20	ghaattaanaa	ghaattaanaa	unk	_	_	_	_	_	orth=घाटाना|gloss=happened
+21	haai	haai	PART	_	_	_	_	_	orth=हाइ
+22	hi	hi	PRON	_	_	_	_	_	orth=हि|gloss=committed
+23	vaalaa	vaalaa	unk	_	_	_	_	_	orth=वाला|gloss=x
+24	thaahaa	thaahaa	VERB	_	_	_	_	_	orth=थाहा|gloss=realize
+25	ningali	ningali	unk	_	_	_	_	_	orth=निङलि|gloss=ev
+26	maaninganaang	maaninganaang	unk	_	_	_	_	_	orth=मानिङनाङ|gloss=bitterly
+27	paavalaheng	paavalaheng	unk	_	_	_	_	_	orth=पावलहेङ|gloss=trial
+28	byaarekataa	byaarekataa	unk	_	_	_	_	_	orth=ब्यारेकता
+29	cumpuli	cumpuli	unk	_	_	_	_	_	orth=चुम्पुलि|gloss=forgotten
+30	doateng	doateng	VERB	_	_	_	_	_	orth=दोअ्तेङ|gloss=ants
+31	aagyaa	aagyaa	NOUN	_	_	_	_	_	orth=आग्या|gloss=instance
+32	pihi.	pihi.	unk	_	_	_	_	_	orth=पिहि।|gloss=gave
+
+# sent_id = 47012002
+# ref_id = 2 Corinthians 12:2
+# eng_text = I know a man in Christ , fourteen years ago ( whether in the body , I don't know , or whether out of the body , I don't know ; God knows ) , such a one caught up into the third heaven .
+# dhi_text = khristtataa kaa emi dyaangaheng naalkhaa, jaaiheng tedyaa baasaar laamphaa svarga thekaapaa tolleteng cumpuhi, idoi ghaattaanaa ghaattipaalaau vaa aajhaai jiutaang highaahi ki maanthughaahi ingako kaa maagyaangakaa, kaalaau paramesvar caahi paakkaa gikhe.
+# dhi_orth = ख्रिस्टता का एमि द्‍याङहेङ नाल्खा, जाइहेङ तेद्‍या बासार लाम्फा स्वर्ग थेकापा तोल्लेतेङ चुम्पुहि, इदोइ घाटाना घाटिपालाउ वा आझाइ जिउताङ हिघाहि कि मान्थुघाहि इङको का माग्याङका, कालाउ परमेस्वर चाहि पाक्का गिखे।
+1	khristtataa	khristtataa	unk	_	_	_	_	_	orth=ख्रिस्टता|gloss=on
+2	kaa	kaa	PRON	_	_	_	_	_	orth=का|gloss=pat
+3	emi	emi	NUM	_	_	_	_	_	orth=एमि|gloss=one
+4	dyaangaheng	dyaangaheng	unk	_	_	_	_	_	orth=द्‍याङहेङ|gloss=disappeared
+5	naalkhaa,	naalkhaa,	unk	_	_	_	_	_	orth=नाल्खा,|gloss=arethe
+6	jaaiheng	jaaiheng	unk	_	_	_	_	_	orth=जाइहेङ|gloss=ign
+7	tedyaa	tedyaa	NUM	_	_	8	nummod	_	orth=तेद्‍या|gloss=fourteen|NumType=Card
+8	baasaar	baasaar	NOUN	_	_	9	npadvmod	_	orth=बासार|gloss=years|Number=Plur
+9	laamphaa	laamphaa	ADV	_	_	_	advmod	_	orth=लाम्फा|gloss=ago
+10	svarga	svarga	PROPN	_	_	_	pobj	_	orth=स्वर्ग|gloss=heaven|Number=Sing
+11	thekaapaa	thekaapaa	NOUN	_	_	_	_	_	orth=थेकापा|gloss=still
+12	tolleteng	tolleteng	unk	_	_	_	_	_	orth=तोल्लेतेङ
+13	cumpuhi,	cumpuhi,	unk	_	_	_	_	_	orth=चुम्पुहि,|gloss=xt
+14	idoi	idoi	DET	_	_	_	_	_	orth=इदोइ|gloss=these
+15	ghaattaanaa	ghaattaanaa	unk	_	_	_	_	_	orth=घाटाना|gloss=happened
+16	ghaattipaalaau	ghaattipaalaau	unk	_	_	_	_	_	orth=घाटिपालाउ
+17	vaa	vaa	PRON	_	_	_	_	_	orth=वा|gloss=he
+18	aajhaai	aajhaai	unk	_	_	_	_	_	orth=आझाइ|gloss=ly
+19	jiutaang	jiutaang	unk	_	_	_	_	_	orth=जिउताङ
+20	highaahi	highaahi	VERB	_	_	_	_	_	orth=हिघाहि|gloss=sp
+21	ki	ki	CCONJ	_	_	_	_	_	orth=कि|gloss=that
+22	maanthughaahi	maanthughaahi	unk	_	_	_	_	_	orth=मान्थुघाहि
+23	ingako	ingako	PRON	_	_	_	_	_	orth=इङको|gloss=it
+24	kaa	kaa	PRON	_	_	_	_	_	orth=का|gloss=pat
+25	maagyaangakaa,	maagyaangakaa,	unk	_	_	_	_	_	orth=माग्याङका,
+26	kaalaau	kaalaau	CCONJ	_	_	_	_	_	orth=कालाउ
+27	paramesvar	paramesvar	PROPN	_	_	30	nsubj	_	orth=परमेस्वर|gloss=God|Number=Sing
+28	caahi	caahi	CCONJ	_	_	_	_	_	orth=चाहि|gloss=but
+29	paakkaa	paakkaa	unk	_	_	_	_	_	orth=पाक्का|gloss=ly
+30	gikhe.	gikhe.	VERB	_	_	0	root	_	orth=गिखे।|gloss=knows|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+
+# sent_id = 62004009
+# ref_id = 1 John 4:9
+# eng_text = By this was God's love revealed in us , that God has sent his only born Son into the world that we might live through him .
+# dhi_text = paramesvar kelaaiheng esaapaa prem tingapaahi, ki vaa dong taaiko emi khining caanaheng sumingataa dingagilhi, kaalaauki kelaai vaakoso aanaanta jiban ningali dvaako.
+# dhi_orth = परमेस्वर केलाइहेङ एसापा प्रेम तिङपाहि, कि वा दोङ ताइको एमि खिनिङ चानहेङ सुमिङता दिङगिल्हि, कालाउकि केलाइ वाकोसो आनान्त जिबन निङलि द्वाको।
+1	paramesvar	paramesvar	PROPN	_	_	_	nsubj	_	orth=परमेस्वर|gloss=God|Number=Sing
+2	kelaaiheng	kelaaiheng	PRON	_	_	_	dobj	_	orth=केलाइहेङ|gloss=us|Case=Acc|Number=Plur|Person=1|PronType=Prs
+3	esaapaa	esaapaa	unk	_	_	_	_	_	orth=एसापा|gloss=ming
+4	prem	prem	unk	_	_	_	_	_	orth=प्रेम|gloss=love
+5	tingapaahi,	tingapaahi,	unk	_	_	_	_	_	orth=तिङपाहि,|gloss=people’s
+6	ki	ki	CCONJ	_	_	_	mark	_	orth=कि|gloss=that
+7	vaa	vaa	PRON	_	_	_	nsubj	_	orth=वा|gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+8	dong	dong	ADP	_	_	_	_	_	orth=दोङ|gloss=oss
+9	taaiko	taaiko	unk	_	_	_	_	_	orth=ताइको|gloss=their
+10	emi	emi	NUM	_	_	_	dobj	_	orth=एमि|gloss=one|NumType=Card
+11	khining	khining	ADV	_	_	12	advmod	_	orth=खिनिङ|gloss=only
+12	caanaheng	caanaheng	PROPN	_	_	10	conj	_	orth=चानहेङ|gloss=Son|Number=Sing
+13	sumingataa	sumingataa	unk	_	_	_	_	_	orth=सुमिङता|gloss=me
+14	dingagilhi,	dingagilhi,	unk	_	_	_	_	_	orth=दिङगिल्हि,|gloss=warned
+15	kaalaauki	kaalaauki	unk	_	_	_	_	_	orth=कालाउकि|gloss=ected
+16	kelaai	kelaai	PRON	_	_	_	nsubj	_	orth=केलाइ|gloss=we|Case=Nom|Number=Plur|Person=1|PronType=Prs
+17	vaakoso	vaakoso	unk	_	_	_	_	_	orth=वाकोसो|gloss=Those
+18	aanaanta	aanaanta	ADJ	_	_	19	amod	_	orth=आनान्त|gloss=eternal|Degree=Pos
+19	jiban	jiban	NOUN	_	_	_	dobj	_	orth=जिबन|gloss=life|Number=Sing
+20	ningali	ningali	unk	_	_	_	_	_	orth=निङलि|gloss=ev
+21	dvaako.	dvaako.	unk	_	_	_	_	_	orth=द्वाको।|gloss=blasphe
+
+# sent_id = 63001005
+# ref_id = 2 John 1:5
+# eng_text = Now I beg you , dear lady , not as though I wrote to you a new commandment , but that which we had from the beginning , that we love one another .
+# dhi_text = elaa oi bebaal, kaa naaseheng aanurodh paakhaa ki kelaai emiso-bhenengaheng prem paali goikhe. idoi hidoi bung naavaa aagyaa maako kaalaau odong aagyaa dong jedong kelaai khristtaheng pitaaikaa somoisong ginaakhe.
+# dhi_orth = एला ओइ बेबाल, का नासेहेङ आनुरोध पाखा कि केलाइ एमिसो-भेनेङहेङ प्रेम पालि गोइखे। इदोइ हिदोइ बुङ नावा आग्या माको कालाउ ओदोङ आग्या दोङ जेदोङ केलाइ ख्रिस्टहेङ पिताइका सोमोइसोङ गिनाखे।
+1	elaa	elaa	unk	_	_	_	_	_	orth=एला|gloss=now
+2	oi	oi	unk	_	_	_	_	_	orth=ओइ|gloss=Dear
+3	bebaal,	bebaal,	unk	_	_	_	_	_	orth=बेबाल,|gloss=sickness
+4	kaa	kaa	PRON	_	_	_	_	_	orth=का|gloss=pat
+5	naaseheng	naaseheng	unk	_	_	_	_	_	orth=नासेहेङ|gloss=ius
+6	aanurodh	aanurodh	unk	_	_	_	_	_	orth=आनुरोध|gloss=appeal
+7	paakhaa	paakhaa	AUX	_	_	_	aux	_	orth=पाखा|gloss=am|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin
+8	ki	ki	CCONJ	_	_	11	mark	_	orth=कि|gloss=that
+9	kelaai	kelaai	PRON	_	_	_	nsubj	_	orth=केलाइ|gloss=we|Case=Nom|Number=Plur|Person=1|PronType=Prs
+10	emiso-bhenengaheng	emiso-bhenengaheng	unk	_	_	_	_	_	orth=एमिसो-भेनेङहेङ|gloss=each
+11	prem	prem	VERB	_	_	_	ccomp	_	orth=प्रेम|gloss=love|VerbForm=Inf
+12	paali	paali	VERB	_	_	_	_	_	orth=पालि|gloss=batch
+13	goikhe.	goikhe.	unk	_	_	_	_	_	orth=गोइखे।|gloss=dominate
+14	idoi	idoi	DET	_	_	_	_	_	orth=इदोइ|gloss=these
+15	hidoi	hidoi	DET	_	_	_	_	_	orth=हिदोइ|gloss=won’t
+16	bung	bung	ADP	_	_	_	_	_	orth=बुङ|gloss=also
+17	naavaa	naavaa	ADJ	_	_	_	amod	_	orth=नावा|gloss=new|Degree=Pos
+18	aagyaa	aagyaa	NOUN	_	_	_	_	_	orth=आग्या|gloss=instance
+19	maako	maako	unk	_	_	_	_	_	orth=माको|gloss=No
+20	kaalaau	kaalaau	CCONJ	_	_	_	_	_	orth=कालाउ
+21	odong	odong	CCONJ	_	_	_	_	_	orth=ओदोङ|gloss=So
+22	aagyaa	aagyaa	NOUN	_	_	_	_	_	orth=आग्या|gloss=instance
+23	dong	dong	ADP	_	_	_	_	_	orth=दोङ|gloss=oss
+24	jedong	jedong	unk	_	_	_	_	_	orth=जेदोङ|gloss=imate
+25	kelaai	kelaai	PRON	_	_	_	nsubj	_	orth=केलाइ|gloss=we|Case=Nom|Number=Plur|Person=1|PronType=Prs
+26	khristtaheng	khristtaheng	unk	_	_	_	_	_	orth=ख्रिस्टहेङ|gloss=realms
+27	pitaaikaa	pitaaikaa	unk	_	_	_	_	_	orth=पिताइका|gloss=hou
+28	somoisong	somoisong	unk	_	_	_	_	_	orth=सोमोइसोङ|gloss=Long
+29	ginaakhe.	ginaakhe.	unk	_	_	_	_	_	orth=गिनाखे।
+

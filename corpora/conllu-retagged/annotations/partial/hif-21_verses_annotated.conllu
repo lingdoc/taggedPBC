@@ -1,0 +1,862 @@
+## The following text has been annotated for parts of speech by students at NTU Singapore as part of a class project in AY 2025-26.
+## Verses are extracted from the taggedPBC. Annotations have been developed with a combination of manual and automated approaches, with reference to existing literature and (where possible) native speakers.
+## ISO 639-3: hif, Language: Fiji Hindi, Number of verses: 21
+## References: Gambhir, S. K., & Moag, R. F. (1981). Fiji Hindi. A Basic Course and Reference Grammar. Journal of the American Oriental Society, 101(4), 506. https://doi.org/10.2307/601362 ; John, J. T., & Library, A. (2024). A dictionary of Urdu, classical Hindi, and English. Uchicago.edu. http://dsal.uchicago.edu/dictionaries/platts ; Shameem, N. (2002). Multilingual Proficiency in Fiji Primary Schools. Journal of Multilingual and Multicultural Development, 23(5), 388–407. https://doi.org/10.1080/01434630208666476 ; Shameem, N. (2017). Fiji Hindi in Fiji. In C. A. Seals & S. Shah (Eds.), Heritage Language Policies around the World. Routledge. ; Siegel, J. (1998). Indian languages in Fiji: Past, present and future. South Asia: Journal of South Asian Studies, 21, 181–214. https://doi.org/10.1080/00856409808723355
+
+# sent_id = 40006024
+# ref_id = Matthew 6:24
+# eng_text = " No one can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You can't serve both God and Mammon .
+# hif_text = Koi bhi admi dui maalik ke sewa nai kare sake hei . U ya to ek se dusmani rakkhi aur dusra se prem kari , ya to ek ke maani aur dusra ke nai maani . Tum Parmeshwar aur sikka ( peisa ) , duuno ke ek sañghe sewa nai kare sakta .
+1	Koi	koi	PRON	_	_	_	_	_	gloss=Any
+2	bhi	bhi	ADV	_	_	_	_	_	gloss=also
+3	admi	admi	NOUN	_	_	_	_	_	gloss=man
+4	dui	dui	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+5	maalik	maalik	NOUN	_	_	_	_	_	gloss=master
+6	ke	ke	ADP	_	_	_	_	_	gloss=of
+7	sewa	sewa	VERB	_	_	0	root	_	gloss=serve|VerbForm=Inf
+8	nai	nai	PART	_	_	7	neg	_	gloss=not|Polarity=Neg
+9	kare	kare	VERB	_	_	_	_	_	gloss=do
+10	sake	sake	AEX	_	_	_	_	_	gloss=can
+11	hei	hei	AUX	_	_	_	_	_	gloss=is
+12	.	.	PUNCT	_	_	7	punct	_	PunctType=Peri
+13	U	u	PRON	_	_	_	_	_	gloss=He
+14	ya	ya	CCONJ	_	_	_	_	_	gloss=or
+15	to	to	ADV	_	_	_	_	_	gloss=emphasis
+16	ek	ek	DET	_	_	_	_	_	gloss=one
+17	se	se	ADP	_	_	_	_	_	gloss=from
+18	dusmani	dusmani	NOUN	_	_	_	_	_ gloss=enmity
+19	rakkhi	rakkhi	VERB	_	_	_	_	_	gloss=have/having
+20	aur	aur	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+21	dusra	dusra	NOUN	_	_	_	_	_	gloss=other
+22	se	se	ADP	_	_	_	_	_	gloss=from
+23	prem	prem	VERB	_	_	_	conj	_	gloss=love|VerbForm=Inf
+24	kari	kari	VERB	_	_	_	_	_	gloss=do
+25	,	,	PUNCT	_	_	_	_	_
+26	ya	ya	CCONJ	_	_	_	_	_	gloss=or
+27	to	to	ADV	_	_	_	_	_	gloss=emphasis
+28	ek	ek	DET	_	_	_	_	_	gloss=one
+29	ke	ke	ADP	_	_	_	_	_	gloss=of
+30	maani	maani	VERB	_	_	_	_	_	gloss=obey/follow
+31	aur	aur	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+32	dusra	dusra	NOUN	_	_	_	_	_	gloss=other
+33	ke	ke	ADP	_	_	_	_	_	gloss=of
+34	nai	nai	PART	_	_	49	neg	_	gloss=not|Polarity=Neg
+35	maani	maani	VERB	_	_	_	_	_	gloss=ally
+36	.	.	PUNCT	_	_	49	punct	_	PunctType=Peri
+37	Tum	tum	PRON	_	_	49	nsubj	_	gloss=You|Case=Nom|Person=2|PronType=Prs
+38	Parmeshwar	parmeshwar	PROPN	_	_	_	_	_	gloss=god
+39	aur	aur	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+40	sikka	sikka	NOUN	_	_	_	_	_	gloss=currency of money
+41	(	(	PUNCT	_	_	_	_	_	gloss=sn
+42	peisa	peisa	NOUN	_	_	_	conj	_	gloss=money|Number=Sing
+43	)	)	PUNCT	_	_	_	_	_	gloss=fourteen
+44	,	,	PUNCT	_	_	_	_	_
+45	duuno	duuno	ADJ	_	_	_	_	_	gloss=both
+46	ke	ke	ADP	_	_	_	_	_	gloss=of
+47	ek	ek	DET	_	_	_	_	_	gloss=one
+48	sañghe	sañghe	ADP	_	_	_	_	_	gloss=with
+49	sewa	sewa	VERB	_	_	0	root	_	gloss=serve|VerbForm=Inf
+50	nai	nai	PART	_	_	49	neg	_	gloss=not|Polarity=Neg
+51	kare	kare	VERB	_	_	_	_	_	gloss=do
+52	sakta	sakta	AUX	_	_	49	aux	_	gloss=can|VerbForm=Fin
+53	.	.	PUNCT	_	_	49	punct	_	PunctType=Peri
+
+# sent_id = 40018012
+# ref_id = Matthew 18:12
+# eng_text = " What do you think ? If a man has one hundred sheep , and one of them goes astray , doesn't he leave the ninety-nine , go to the mountains , and seek that which has gone astray ?
+# hif_text = Ham tum se i puuchhta hei . Tum kaa karta agar tumhaar lage ek sao bheṛa hei aur usman se ek bhaṭak jaay ? Kaa tum u naainṭinaain ( 99 ) ke pahaaṛ pe chhoṛ ke u ek heraan bheṛa ke khoje nai jaata ?
+1	Ham	ham	PRON	_	_	_	_	_	gloss=I
+2	tum	tum	PRON	_	_	_	_	_	gloss=you
+3	se	se	ADP	_	_	_	_	_	gloss=from
+4	i	i	AUX	_	_	_	_	_	gloss=this
+5	puuchhta	puuchhta	VERB	_	_	_	_	_	gloss=Ask (masculine)
+6	hei	hei	AUX	_	_	_	_	_	gloss=is
+7	.	.	PUNCT	_	_	_	_	_
+8	Tum	tum	PRON	_	_	_	_	_	gloss=You
+9	kaa	kaa	SCONJ	_	_	_	_	_	gloss=question
+10	karta	karta	VERB	_	_	_	_	_	gloss=Sit
+11	agar	agar	SCONJ	_	_	_	_	_	gloss=rej
+12	tumhaar	tumhaar	PRON	_	_	_	_	_	gloss=your
+13	lage	lage	ADP	_	_	_	_	_	gloss=understand
+14	ek	ek	DET	_	_	15	quantmod	_	gloss=a|Definite=Ind|PronType=Art
+15	sao	sao	NUM	_	_	16	nummod	_	gloss=hundred|NumType=Card
+16	bheṛa	bheṛa	NOUN	_	_	_	dobj	_	gloss=sheep|Number=Plur
+17	hei	hei	AUX	_	_	_	_	_	gloss=is
+18	aur	aur	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+19	usman	usman	PROPN	_	_	_	_	_	gloss=includ
+20	se	se	ADP	_	_	_	_	_	gloss=from
+21	ek	ek	DET	_	_	15	quantmod	_	gloss=a|Definite=Ind|PronType=Art
+22	bhaṭak	bhaṭak	VERB	_	_	_	ccomp	_	gloss=wanders|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+23	jaay	jaay	VERB	_	_	_	conj	_	gloss=go|VerbForm=Inf
+24	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+25	Kaa	kaa	PART	_	_	_	_	_	gloss=question
+26	tum	tum	PRON	_	_	_	_	_	gloss=you
+27	u	u	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+28	naainṭinaain	naainṭinaain	NUM	_	_	_	_	_	gloss=Won’t
+29	(	(	PUNCT	_	_	_	_	_	gloss=sn
+30	99	99	NUM	_	_	_	_	_
+31	)	)	PUNCT	_	_	_	_	_	gloss=fourteen
+32	ke	ke	ADP	_	_	_	_	_	gloss=of
+33	pahaaṛ	pahaaṛ	NOUN	_	_	_	_	_	gloss=mountain
+34	pe	pe	ADP	_	_	_	prep	_	gloss=on
+35	chhoṛ	chhoṛ	VERB	_	_	_	_	_	gloss=leave
+36	ke	ke	ADP	_	_	_	_	_	gloss=of
+37	u	u	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+38	ek	ek	DET	_	_	15	quantmod	_	gloss=a|Definite=Ind|PronType=Art
+39	heraan	heraan	VERB	_	_	_	_	_	gloss=pherd
+40	bheṛa	bheṛa	NOUN	_	_	_	dobj	_	gloss=sheep|Number=Plur
+41	ke	ke	ADP	_	_	_	_	_	gloss=of
+42	khoje	khoje	VERB	_	_	_	_	_	gloss=seeks|VerbForm=Inf
+43	nai	nai	ADV	_	_	_	_	_	gloss=not
+44	jaata	jaata	VERB	_	_	_	_	_	gloss=going|VerbForm=V2
+45	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 40020021
+# ref_id = Matthew 20:21
+# eng_text = He said to her , " What do you want ? " She said to him , " Command that these , my two sons , may sit , one on your right hand , and one on your left hand , in your kingdom . "
+# hif_text = Yeeshu usse puuchhis ki u kon cheej maañge hei , tab u bolis , “ Jab tum aapan raaj meñ aayga , tab hamaar i duuno laṛkan meñ se ek ke aapan raaiṭ saaiḍ aur dusra ke aapan lefṭ saaiḍ beiṭhe ke mauka dena . ”
+1	Yeeshu	yeeshu	PROPN	_	_	_	_	_	gloss=Jesus
+2	usse	usse	PRON	_	_	_	_	_	gloss=him
+3	puuchhis	puuchhis	VERB	_	_	0	root	_	gloss=asked|Tense=Past|VerbForm=Fin
+4	ki	ki	SCONJ	_	_	_	_	_	gloss=that
+5	u	u	PRON	_	_	3	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+6	kon	kon	DET	_	_	_	_	_	gloss=who
+7	cheej	cheej	NOUN	_	_	_	_	_	gloss=thing
+8	maañge	maañge	VERB	_	_	_	_	_	gloss=ask
+9	hei	hei	AUX	_	_	_	_	_	gloss=is
+10	,	,	PUNCT	_	_	_	_	_
+11	tab	tab	ADV	_	_	_	_	_	gloss=then
+12	u	u	PRON	_	_	3	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+13	bolis	bolis	VERB	_	_	_	_	_	gloss=said|Tense=Past|VerbForm=Inf
+14	,	,	PUNCT	_	_	_	_	_
+15	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+16	Jab	jab	SCONJ	_	_	_	_	_	gloss=when
+17	tum	tum	PRON	_	_	_	pobj	_	gloss=you|Case=Acc|Person=2|PronType=Prs
+18	aapan	aapan	DET	_	_	_	_	_	gloss=own
+19	raaj	raaj	PROPN	_	_	_	pobj	_	gloss=Kingdom|Number=Sing
+20	meñ	meñ	ADP	_	_	41	prep	_	gloss=in
+21	aayga	aayga	VERB	_	_	_	_	_	gloss=come
+22	,	,	PUNCT	_	_	_	_	_
+23	tab	tab	ADV	_	_	_	_	_	gloss=then
+24	hamaar	hamaar	PRON	_	_	_	poss	_	gloss=my|Number=Sing|Person=1|Poss=Yes|PronType=Prs
+25	i	i	DET	_	_	_	_	_	gloss=this
+26	duuno	duuno	ADJ	_	_	_	_	_	gloss=con
+27	laṛkan	laṛkan	NOUN	_	_	_	_	_	gloss=children
+28	meñ	meñ	ADP	_	_	41	prep	_	gloss=in
+29	se	se	ADP	_	_	_	_	_	gloss=from
+30	ek	ek	DET	_	_	_	_	_	gloss=one
+31	ke	ke	ADP	_	_	_	_	_	gloss=of
+32	aapan	aapan	DET	_	_	_	_	_	gloss=own
+33	raaiṭ	raaiṭ	NOUN	_	_	_	pobj	_	gloss=right|Number=Sing
+34	saaiḍ	saaiḍ	NOUN	_	_	_	_	_	gloss=wounds
+35	aur	aur	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+36	dusra	dusra	DET	_	_	_	_	_	gloss=other
+37	ke	ke	ADP	_	_	_	_	_	gloss=of
+38	aapan	aapan	DET	_	_	_	_	_	gloss=own
+39	lefṭ	lefṭ	NOUN	_	_	_	_	_	gloss=left
+40	saaiḍ	saaiḍ	NOUN	_	_	_	_	_	gloss=wounds
+41	beiṭhe	beiṭhe	VERB	_	_	_	ccomp	_	gloss=sit|Tense=Pres|VerbForm=Fin
+42	ke	ke	ADP	_	_	_	_	_	gloss=of
+43	mauka	mauka	NOUN	_	_	_	_	_	gloss=chance
+44	dena	dena	VERB	_	_	_	_	_	gloss=give
+45	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+46	”	”	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 40026002
+# ref_id = Matthew 26:2
+# eng_text = " You know that after two days the Passover is coming , and the Son of Man will be delivered up to be crucified . "
+# hif_text = “ Tum janta hei ki dui roj baad fasah ke teohaar aay waala hei , aur Manush ke laṛka kros pe chaṛhaawe ke waaste pakarwaawa jaai ! ”
+1	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+2	Tum	tum	PRON	_	_	_	_	_	gloss=You
+3	janta	janta	VERB	_	_	_	advcl	_	gloss=know|Tense=Pres|VerbForm=Fin
+4	hei	hei	AUX	_	_	_	_	_	gloss=is
+5	ki	ki	SCONJ	_	_	_	_	_	gloss=that
+6	dui	dui	NUM	_	_	7	nummod	_	gloss=two|NumType=Card
+7	roj	roj	NOUN	_	_	_	pobj	_	gloss=days|Number=Plur
+8	baad	baad	ADP	_	_	_	_	_	gloss=later
+9	fasah	fasah	PROPN	_	_	_	nsubj	_	gloss=Passover|Number=Sing
+10	ke	ke	ADP	_	_	_	_	_	gloss=of
+11	teohaar	teohaar	NOUN	_	_	_	_	_	gloss=festival
+12	aay	aay	VERB	_	_	_	_	_	gloss=come|VerbForm=Inf
+13	waala	waala	AUX	_	_	_	_	_	gloss=about-to
+14	hei	hei	AUX	_	_	_	_	_	gloss=is
+15	,	,	PUNCT	_	_	_	_	_
+16	aur	aur	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+17	Manush	manush	PROPN	_	_	_	pobj	_	gloss=Man|Number=Sing
+18	ke	ke	ADP	_	_	_	_	_	gloss=of
+19	laṛka	laṛka	PROPN	_	_	_	nsubjpass	_	gloss=boy|Number=Sing
+20	kros	kros	NOUN	_	_	_	_	_	gloss=cross
+21	pe	pe	ADP	_	_	_	_	_	gloss=on
+22	chaṛhaawe	chaṛhaawe	VERB	_	_	_	_	_
+23	ke	ke	ADP	_	_	_	_	_	gloss=of
+24	waaste	waaste	ADP	_	_	_	_	_	gloss=for
+25	pakarwaawa	pakarwaawa	VERB	_	_	_	_	_	gloss=captured
+26	jaai	jaai	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+27	!	!	PUNCT	_	_	_	_	_	gloss=indeed
+28	”	”	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 40026061
+# ref_id = Matthew 26:61
+# eng_text = and said , " This man said , ' I am able to destroy the temple of God , and to build it in three days . ' "
+# hif_text = “ I admi bolis raha , ‘ Ham Parmeshwar ke Mandir giraay ke teen roj meñ fir banaay de sakta hei . ” ‘
+1	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+2	I	i	ADV	_	_	_	_	_	gloss=so
+3	admi	admi	NOUN	_	_	4	nsubj	_	gloss=man|Number=Sing
+4	bolis	bolis	VERB	_	_	_	ccomp	_	gloss=said|Tense=Past|VerbForm=Fin
+5	raha	raha	AUX	_	_	_	_	_	gloss=was
+6	,	,	PUNCT	_	_	_	_	_
+7	‘	‘	PUNCT	_	_	4	punct	_	PunctSide=Ini|PunctType=Quot
+8	Ham	ham	PRON	_	_	_	_	_	gloss=I
+9	Parmeshwar	parmeshwar	PROPN	_	_	_	_	_	gloss=god
+10	ke	ke	ADP	_	_	_	_	_	gloss=of
+11	Mandir	mandir	PROPN	_	_	_	dobj	_	gloss=Temple|Number=Sing
+12	giraay	giraay	VERB	_	_	_	_	_	gloss=destroy
+13	ke	ke	ADP	_	_	_	_	_	gloss=of
+14	teen	teen	NUM	_	_	15	nummod	_	gloss=three|NumType=Card
+15	roj	roj	NOUN	_	_	16	pobj	_	gloss=days|Number=Plur
+16	meñ	meñ	ADP	_	_	_	prep	_	gloss=in
+17	fir	fir	ADV	_	_	_	_	_	gloss=again
+18	banaay	banaay	VERB	_	_	_	_	_	gloss=make
+19	de	de	AUX	_	_	_	_	_	gloss=give
+20	sakta	sakta	AUX	_	_	_	_	_	gloss=can
+21	hei	hei	AUX	_	_	_	_	_	gloss=is
+22	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+23	”	”	PUNCT	_	_	0	root	_	PunctSide=Fin|PunctType=Quot
+24	‘	‘	PUNCT	_	_	4	punct	_	PunctSide=Ini|PunctType=Quot
+
+# sent_id = 40028016
+# ref_id = Matthew 28:16
+# eng_text = But the eleven disciples went into Galilee , to the mountain where Jesus had sent them .
+# hif_text = Gyaara chela log Galeel meñ wahi pahaaṛ pe gain jahañ ulog ke Yeeshu jaay ke waaste bataais raha .
+1	Gyaara	gyaara	NUM	_	_	_	_	_ gloss=eleven
+2	chela	chela	NOUN	_	_	_	nsubj	_	gloss=disciples|Number=Plur
+3	log	log	NOUN	_	_	_	_	_	gloss=people
+4	Galeel	galeel	PROPN	_	_	_	pobj	_	gloss=Galilee|Number=Sing
+5	meñ	meñ	ADP	_	_	_	_	_	gloss=in
+6	wahi	wahi	DET	_	_	_	_	_	gloss=same
+7	pahaaṛ	pahaaṛ	NOUN	_	_	_	pobj	_	gloss=mountain|Number=Sing
+8	pe	pe	ADP	_	_	_	_	_	gloss=on
+9	gain	gain	VERB	_	_	_	_	_	gloss=went
+10	jahañ	jahañ	SCONJ	_	_	_	advmod	_	gloss=where
+11	ulog	ulog	PRON	_	_	_	_	_	gloss=they
+12	ke	ke	ADP	_	_	_	_	_	gloss=of
+13	Yeeshu	yeeshu	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+14	jaay	jaay	VERB	_	_	_	xcomp	_	gloss=go|VerbForm=Inf
+15	ke	ke	ADP	_	_	_	_	_	gloss=of
+16	waaste	waaste	ADP	_	_	_	_	_	gloss=for
+17	bataais	bataais	VERB	_	_	_	_	_	gloss=told
+18	raha	raha	AUX	_	_	_	_	_	gloss=was
+19	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41002023
+# ref_id = Mark 2:23
+# eng_text = It happened , that he was going on the Sabbath day through the grain fields , and his disciples began , as they went , to pluck the ears of grain .
+# hif_text = Sabat ke roj , Yeeshu khet meñ se jaawat raha . Uske chela log anaaj ke baali tuuṛe lagin .
+1	Sabat	sabat	PROPN	_	_	_	_	_	gloss=Sabbath
+2	ke	ke	ADP	_	_	_	_	_	gloss=of
+3	roj	roj	NOUN	_	_	_	_	_	gloss=days
+4	,	,	PUNCT	_	_	_	_	_
+5	Yeeshu	yeeshu	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+6	khet	khet	NOUN	_	_	_	_	_	gloss=farm
+7	meñ	meñ	ADP	_	_	_	_	_	gloss=in
+8	se	se	ADP	_	_	_	_	_	gloss=from
+9	jaawat	jaawat	VERB	_	_	_	_	_	gloss=going
+10	raha	raha	AUX	_	_	_	aux	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+11	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+12	Uske	uske	PRON	_	_	_	_	_	gloss=f
+13	chela	chela	NOUN	_	_	_	nsubj	_	gloss=disciples|Number=Plur
+14	log	log	NOUN	_	_	_	_	_	gloss=people
+15	anaaj	anaaj	NOUN	_	_	_	_	_	gloss=grain
+16	ke	ke	ADP	_	_	_	_	_	gloss=of
+17	baali	baali	NOUN	_	_	_	_	_ gloss=hoop
+18	tuuṛe	tuuṛe	VERB	_	_	_	_	_	gloss=
+19	lagin	lagin	AUX	_	_	_	_	_	gloss=began
+20	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41012032
+# ref_id = Mark 12:32
+# eng_text = The scribe said to him , " Truly , teacher , you have said well that he is one , and there is none other but he ,
+# hif_text = Shaastri , Yeeshu se bolis , “ E guru , tum ṭheek bola hei , aur sachche bola hei ki u ekke hei aur uske chhoṛ ke koi dusra nai .
+1	Shaastri	shaastri	NOUN	_	_	_	nsubj	_	gloss=teacher|Number=Sing
+2	,	,	PUNCT	_	_	_	_	_
+3	Yeeshu	yeeshu	PROPN	_	_	_	_	_	gloss=Jesus
+4	se	se	ADP	_	_	_	_	_	gloss=from
+5	bolis	bolis	VERB	_	_	_	ccomp	_	gloss=said|Tense=Past|VerbForm=Fin
+6	,	,	PUNCT	_	_	_	_	_
+7	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+8	E	e	INTJ	_	_	_	_	_	gloss=oh
+9	guru	guru	ADJ	_	_	_	amod	_	gloss=teacher|Degree=Pos
+10	,	,	PUNCT	_	_	_	_	_
+11	tum	tum	PRON	_	_	_	_	_	gloss=you
+12	ṭheek	ṭheek	ADJ	_	_	_	_	_	gloss=correct
+13	bola	bola	VERB	_	_	_	_	_	gloss=spoke
+14	hei	hei	AUX	_	_	_	_	_	gloss=is
+15	,	,	PUNCT	_	_	_	_	_
+16	aur	aur	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+17	sachche	sachche	NOUN	_	_	_	dobj	_	gloss=truth|Number=Sing
+18	bola	bola	VERB	_	_	_	_	_	gloss=spoke
+19	hei	hei	AUX	_	_	_	_	_	gloss=is
+20	ki	ki	SCONJ	_	_	_	mark	_	gloss=that
+21	u	u	PRON	_	_	_	_	_	gloss=he
+22	ekke	ekke	DET	_	_	_	_	_	gloss=one
+23	hei	hei	AUX	_	_	_	_	_	gloss=is
+24	aur	aur	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+25	uske	uske	PRON	_	_	_	_	_	gloss=his
+26	chhoṛ	chhoṛ	VERB	_	_	_	_	_	gloss=release
+27	ke	ke	ADP	_	_	_	_	_	gloss=of
+28	koi	koi	PRON	_	_	_	_	_	gloss=any
+29	dusra	dusra	NOUN	_	_	_	_	_	gloss=other
+30	nai	nai	PART	_	_	_	_	_	gloss=not
+31	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41014037
+# ref_id = Mark 14:37
+# eng_text = He came and found them sleeping , and said to Peter , " Simon , are you sleeping ? Couldn't you watch one hour ?
+# hif_text = Jab u lauṭ ke aais tab teeno chela log ke sote paais aur Saayman Peeṭa se bolis , “ Kaa tum soy gaya hei ? Kaa tum ek ghañṭa bhi jaga nai rahe sakta raha ? ”
+1	Jab	jab	SCONJ	_	_	_	_	_	gloss=When
+2	u	u	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+3	lauṭ	lauṭ	VERB	_	_	_	_	_	gloss=return
+4	ke	ke	ADP	_	_	_	_	_	gloss=of
+5	aais	aais	VERB	_	_	_	_	_	gloss=come
+6	tab	tab	ADV	_	_	_	_	_	gloss=then
+7	teeno	teeno	NUM	_	_	_	_	_	gloss=three
+8	chela	chela	NOUN	_	_	22	nsubj	_	gloss=disciples|Number=Plur
+9	log	log	NOUN	_	_	_	_	_	gloss=people
+10	ke	ke	ADP	_	_	_	_	_	gloss=of
+11	sote	sote	VERB	_	_	_	_	_	gloss=sleep
+12	paais	paais	VERB	_	_	_	_	_	gloss=found
+13	aur	aur	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+14	Saayman	saayman	PROPN	_	_	_	npadvmod	_	gloss=Simon|Number=Sing
+15	Peeṭa	peeṭa	PROPN	_	_	_	pobj	_	gloss=Peter|Number=Sing
+16	se	se	ADP	_	_	_	_	_	gloss=from
+17	bolis	bolis	VERB	_	_	0	root	_	gloss=said|Tense=Past|VerbForm=Fin
+18	,	,	PUNCT	_	_	_	_	_
+19	“	“	PUNCT	_	_	17	punct	_	PunctSide=Ini|PunctType=Quot
+20	Kaa	kaa	PART	_	_	_	_	_	gloss=question
+21	tum	tum	PRON	_	_	_	nsubj	_	gloss=you|Case=Nom|Person=2|PronType=Prs
+22	soy	soy	ADJ	_	_	_	acomp	_	gloss=asleep|Degree=Pos
+23	gaya	gaya	AUX	_	_	_	_	_	gloss=went
+24	hei	hei	AUX	_	_	_	_	_	gloss=is
+25	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+26	Kaa	kaa	PART	_	_	_	_	_	gloss=question
+27	tum	tum	PRON	_	_	_	nsubj	_	gloss=you|Case=Nom|Person=2|PronType=Prs
+28	ek	ek	DET	_	_	_	_	_	gloss=one
+29	ghañṭa	ghañṭa	NOUN	_	_	_	npadvmod	_	gloss=hour|Number=Sing
+30	bhi	bhi	ADV	_	_	_	_	_	gloss=also
+31	jaga	jaga	VERB	_	_	_	_	_ gloss=wake
+32	nai	nai	PART	_	_	_	_	_	gloss=not
+33	rahe	rahe	AUX	_	_	_	_	_	gloss=were
+34	sakta	sakta	AUX	_	_	_	_	_	gloss=can
+35	raha	raha	AUX	_	_	_	_	_	gloss=was
+36	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+37	”	”	PUNCT	_	_	_	_	_
+
+# sent_id = 42004002
+# ref_id = Luke 4:2
+# eng_text = for forty days , being tempted by the devil . He ate nothing in those days . Afterward , when they were completed , he was hungry .
+# hif_text = Aur chaalis ( 40 ) roj tak saitaan uske ṭesṭ karte raha . Otna roj tak u kuchh bhi nai khaais aur chaalis roj ke baad uske bahut jor se bhuuk lagis .
+1	Aur	aur	CCONJ	_	_	_	_	_	gloss=and
+2	chaalis	chaalis	NUM	_	_	6	nummod	_	gloss=forty|NumType=Card
+3	(	(	PUNCT	_	_	_	_	_	gloss=sn
+4	40	40	NUM	_	_	_	_	_	gloss=forty
+5	)	)	PUNCT	_	_	_	_	_	gloss=fourteen
+6	roj	roj	NOUN	_	_	_	pobj	_	gloss=days|Number=Plur
+7	tak	tak	ADP	_	_	_	_	_	gloss=until
+8	saitaan	saitaan	NOUN	_	_	_	pobj	_	gloss=devil|Number=Sing
+9	uske	uske	PRON	_	_	_	_	_	gloss=his
+10	ṭesṭ	ṭesṭ	NOUN	_	_	_	_	_	gloss=test
+11	karte	karte	VERB	_	_	_	_	_	gloss=doing
+12	raha	raha	AUX	_	_	_	auxpass	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+13	.	.	PUNCT	_	_	21	punct	_	PunctType=Peri
+14	Otna	otna	DET	_	_	_	_	_   gloss=that-much
+15	roj	roj	NOUN	_	_	_	pobj	_	gloss=days|Number=Plur
+16	tak	tak	ADP	_	_	_	_	_	gloss=until
+17	u	u	PRON	_	_	_	nsubjpass	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+18	kuchh	kuchh	DET	_	_	_	_	_	gloss=some
+19	bhi	bhi	ADV	_	_	_	_	_	gloss=also
+20	nai	nai	PART	_	_	_	_	_	gloss=not
+21	khaais	khaais	VERB	_	_	0	root	_	gloss=ate|Tense=Past|VerbForm=Fin
+22	aur	aur	CCONJ	_	_	21	cc	_	gloss=and|ConjType=Cmp
+23	chaalis	chaalis	NUM	_	_	24	nummod	_	gloss=forty|NumType=Card
+24	roj	roj	NOUN	_	_	_	pobj	_	gloss=days|Number=Plur
+25	ke	ke	ADP	_	_	_	_	_	gloss=of
+26	baad	baad	ADP	_	_	_	_	_	gloss=later
+27	uske	uske	PRON	_	_	_	_	_	gloss=his
+28	bahut	bahut	ADV	_	_	_	_	_	gloss=many
+29	jor	jor	ADJ	_	_	_	_	_	gloss=strong
+30	se	se	ADP	_	_	_	_	_	gloss=from
+31	bhuuk	bhuuk	ADJ	_	_	_	acomp	_	gloss=hunger|Degree=Pos
+32	lagis	lagis	VERB	_	_	_	_	_	gloss=felt
+33	.	.	PUNCT	_	_	21	punct	_	PunctType=Peri
+
+# sent_id = 42016013
+# ref_id = Luke 16:13
+# eng_text = No servant can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You aren't able to serve God and mammon . "
+# hif_text = “ Tum dui maalik ke naukar nai hoy sakta hei . Tum ek ke dusra se jaada chaahega ya ek ke nai laaik karega aur dusra se jaada prem karega . Tum Parmeshwar aur peisa ke ek sañghe nai sewa kare sakta . ”
+1	“	“	PUNCT	_	_	40	punct	_	PunctSide=Ini|PunctType=Quot
+2	Tum	tum	PRON	_	_	40	nsubj	_	gloss=You|Case=Nom|Person=2|PronType=Prs
+3	dui	dui	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+4	maalik	maalik	NOUN	_	_	_	_	_	gloss=master
+5	ke	ke	ADP	_	_	_	_	_	gloss=of
+6	naukar	naukar	NOUN	_	_	_	_	_	gloss=servant
+7	nai	nai	PART	_	_	40	neg	_	gloss=not|Polarity=Neg
+8	hoy	hoy	VERB	_	_	_	_	_	gloss=be
+9	sakta	sakta	AUX	_	_	40	aux	_	gloss=can|VerbForm=Fin
+10	hei	hei	AUX	_	_	_	_	_	gloss=is
+11	.	.	PUNCT	_	_	40	punct	_	PunctType=Peri
+12	Tum	tum	PRON	_	_	40	nsubj	_	gloss=You|Case=Nom|Person=2|PronType=Prs
+13	ek	ek	DET	_	_	_	_	_	gloss=one
+14	ke	ke	ADP	_	_	_	_	_	gloss=of
+15	dusra	dusra	NOUN	_	_	_	_	_	gloss=other
+16	se	se	ADP	_	_	_	_	_	gloss=from
+17	jaada	jaada	ADV	_	_	_	_	_	gloss=more
+18	chaahega	chaahega	VERB	_	_	_	_	_ gloss=want
+19	ya	ya	CCONJ	_	_	_	_	_	gloss=or
+20	ek	ek	DET	_	_	_	_	_	gloss=one
+21	ke	ke	ADP	_	_	_	_	_	gloss=of
+22	nai	nai	PART	_	_	40	neg	_	gloss=not|Polarity=Neg
+23	laaik	laaik	VERB	_	_	_	acomp	_	gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+24	karega	karega	VERB	_	_	_	_	_	gloss=do|Tense=Future
+25	aur	aur	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+26	dusra	dusra	NOUN	_	_	_	_	_	gloss=other
+27	se	se	ADP	_	_	_	_	_	gloss=from
+28	jaada	jaada	ADV	_	_	_	_	_	gloss=more
+29	prem	prem	VERB	_	_	_	conj	_	gloss=love|VerbForm=Inf
+30	karega	karega	VERB	_	_	_	_	_	gloss=do|Tense=Future
+31	.	.	PUNCT	_	_	40	punct	_	PunctType=Peri
+32	Tum	tum	PRON	_	_	40	nsubj	_	gloss=You|Case=Nom|Person=2|PronType=Prs
+33	Parmeshwar	parmeshwar	PROPN	_	_	_	_	_	gloss=god
+34	aur	aur	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+35	peisa	peisa	NOUN	_	_	_	conj	_	gloss=money|Number=Sing
+36	ke	ke	ADP	_	_	_	_	_	gloss=of
+37	ek	ek	DET	_	_	_	_	_	gloss=one
+38	sañghe	sañghe	ADP	_	_	_	_	_	gloss=with
+39	nai	nai	PART	_	_	40	neg	_	gloss=not|Polarity=Neg
+40	sewa	sewa	VERB	_	_	0	root	_	gloss=serve|VerbForm=Inf
+41	kare	kare	VERB	_	_	_	_	_	gloss=do
+42	sakta	sakta	AUX	_	_	40	aux	_	gloss=can|VerbForm=Fin
+43	.	.	PUNCT	_	_	40	punct	_	PunctType=Peri
+44	”	”	PUNCT	_	_	40	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 42024018
+# ref_id = Luke 24:18
+# eng_text = One of them , named Cleopas , answered him , " Are you the only one travelling in Jerusalem who doesn't know the things which have happened there in these days ? "
+# hif_text = Usman se ek ke naam Kliyopaas raha , aur u jawaab dees , “ Kaa tumahi ekke admi Yarushalam se aaya hei jon nai janta ki pichhle kuchh din huañ kon baat bhais hei ? ”
+1	Usman	usman	PROPN	_	_	_	_	_	gloss=person's name
+2	se	se	ADP	_	_	_	_	_	gloss=from
+3	ek	ek	DET	_	_	_	_	_	gloss=one
+4	ke	ke	ADP	_	_	_	_	_	gloss=of
+5	naam	naam	NOUN	_	_	_	_	_	gloss=name
+6	Kliyopaas	kliyopaas	PROPN	_	_	_	_	_   gloss=Cleopas
+7	raha	raha	AUX	_	_	_	_	_	gloss=was
+8	,	,	PUNCT	_	_	_	_	_
+9	aur	aur	CCONJ	_	_	_	_	_	gloss=and
+10	u	u	PRON	_	_	_	_	_	gloss=he
+11	jawaab	jawaab	VERB	_	_	0	root	_	gloss=replied|Tense=Past|VerbForm=Fin
+12	dees	dees	VERB	_	_	_	_	_	gloss=gave
+13	,	,	PUNCT	_	_	_	_	_
+14	“	“	PUNCT	_	_	11	punct	_	PunctSide=Ini|PunctType=Quot
+15	Kaa	kaa	PART	_	_	_	_	_	gloss=question
+16	tumahi	tumahi	PRON	_	_	_	_	_	gloss=you yourself
+17	ekke	ekke	DET	_	_	_	_	_	gloss=one
+18	admi	admi	NOUN	_	_	_	_	_	gloss=man
+19	Yarushalam	yarushalam	PROPN	_	_	_	pobj	_	gloss=Jerusalem|Number=Sing
+20	se	se	ADP	_	_	_	_	_	gloss=from
+21	aaya	aaya	VERB	_	_	_	_	_	gloss=come
+22	hei	hei	AUX	_	_	_	_	_	gloss=is
+23	jon	jon	PRON	_	_	_	nsubj	_	gloss=who
+24	nai	nai	PART	_	_	_	_	_	gloss=not
+25	janta	janta	VERB	_	_	_	_	_	gloss=know
+26	ki	ki	SCONJ	_	_	_	nsubj	_	gloss=that|PronType=Rel
+27	pichhle	pichhle	ADJ	_	_	_	_	_ gloss=previous
+28	kuchh	kuchh	DET	_	_	_	_	_	gloss=some
+29	din	din	ADJ	_	_	_	amod	_	gloss=day|Degree=Pos
+30	huañ	huañ	ADV	_	_	_	advmod	_	gloss=there|PronType=Dem
+31	kon	kon	DET	_	_	_	_	_	gloss=who
+32	baat	baat	NOUN	_	_	_	_	_	gloss=talks
+33	bhais	bhais	VERB	_	_	_	_	_	gloss=happened
+34	hei	hei	AUX	_	_	_	_	_	gloss=is
+35	?	?	PUNCT	_	_	_	_	_
+36	”	”	PUNCT	_	_	11	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 43001039
+# ref_id = John 1:39
+# eng_text = He said to them , " Come , and see . " They came and saw where he was staying , and they stayed with him that day . It was about the tenth hour .
+# hif_text = Yeeshu jawaab dees , “ Aao aur dekho ! ” U ṭaaim sanjha ke lagbhag chaar baja raha aur u sab chela jaay ke dekhin ki Yeeshu kahañ rahe hei . Aur baaki ṭaaim wahi ke sañghe bitaain .
+1	Yeeshu	yeeshu	PROPN	_	_	_	_	_	gloss=Jesus
+2	jawaab	jawaab	NOUN	_	_	_	_	_	gloss=response
+3	dees	dees	VERB	_	_	_	_	_	gloss=gave
+4	,	,	PUNCT	_	_	_	_	_
+5	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+6	Aao	aao	VERB	_	_	_	_	_	gloss=come
+7	aur	aur	CCONJ	_	_	18	cc	_	gloss=and|ConjType=Cmp
+8	dekho	dekho	VERB	_	_	_	_	_	gloss=see
+9	!	!	PUNCT	_	_	_	_	_	gloss=indeed
+10	”	”	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+11	U	u	PRON	_	_	_	_	_	gloss=he
+12	ṭaaim	ṭaaim	NOUN	_	_	_	_	_	gloss=time
+13	sanjha	sanjha	NOUN	_	_	_	_	_	gloss=evening
+14	ke	ke	ADP	_	_	_	_	_	gloss=of
+15	lagbhag	lagbhag	NOUN	_	_	18	attr	_	gloss=about|Number=Sing
+16	chaar	chaar	NUM	_	_	15	nummod	_	gloss=four|NumType=Card
+17	baja	baja	NOUN	_	_	_	_	_
+18	raha	raha	AUX	_	_	_	aux	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+19	aur	aur	CCONJ	_	_	18	cc	_	gloss=and|ConjType=Cmp
+20	u	u	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+21	sab	sab	DET	_	_	_	_	_	gloss=all
+22	chela	chela	NOUN	_	_	_	_	_	gloss=disciples
+23	jaay	jaay	VERB	_	_	_	_	_	gloss=go
+24	ke	ke	ADP	_	_	_	_	_	gloss=of
+25	dekhin	dekhin	VERB	_	_	_	_	_	gloss=saw
+26	ki	ki	SCONJ	_	_	_	_	_	gloss=that
+27	Yeeshu	yeeshu	PROPN	_	_	_	_	_	gloss=Jesus
+28	kahañ	kahañ	ADV	_	_	_	_	_	gloss=where
+29	rahe	rahe	AUX	_	_	_	_	_	gloss=was
+30	hei	hei	AUX	_	_	_	_	_	gloss=is
+31	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+32	Aur	aur	CCONJ	_	_	_	_	_	gloss=And
+33	baaki	baaki	NOUN	_	_	_	pobj	_	gloss=afternoon|Number=Sing
+34	ṭaaim	ṭaaim	NOUN	_	_	_	_	_	gloss=time
+35	wahi	wahi	DET	_	_	_	_	_	gloss=same
+36	ke	ke	ADP	_	_	_	_	_	gloss=of
+37	sañghe	sañghe	ADP	_	_	_	prep	_	gloss=with
+38	bitaain	bitaain	VERB	_	_	_	_	_	gloss=spent
+39	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 43003016
+# ref_id = John 3:16
+# eng_text = For God so loved the world , that he gave his one and only Son , that whoever believes in him should not perish , but have eternal life .
+# hif_text = Parmeshwar dunia ke log se etna pyaar karis ki aapan eklauta laṛka ke dunia meñ bhejis , ki jon koi bhi uspe biswaas kari , u naas nai hoi lekin anant jeewan paai .
+1	Parmeshwar	parmeshwar	PROPN	_	_	_	_	_	gloss=god
+2	dunia	dunia	NOUN	_	_	_	_	_	gloss=world’s
+3	ke	ke	ADP	_	_	_	_	_	gloss=of
+4	log	log	NOUN	_	_	_	_	_	gloss=people
+5	se	se	ADP	_	_	_	_	_	gloss=from
+6	etna	etna	ADV	_	_	_	_	_	gloss=so
+7	pyaar	pyaar	VERB	_	_	0	root	_	gloss=loved|Tense=Past|VerbForm=Fin
+8	karis	karis	VERB	_	_	_	_	_	gloss=did
+9	ki	ki	SCONJ	_	_	_	mark	_	gloss=that
+10	aapan	aapan	DET	_	_	_	_	_	gloss=own
+11	eklauta	eklauta	ADJ	_	_	_	_	_	gloss=only
+12	laṛka	laṛka	PROPN	_	_	_	appos	_	gloss=boy|Number=Sing
+13	ke	ke	ADP	_	_	_	_	_	gloss=of
+14	dunia	dunia	NOUN	_	_	_	_	_	gloss=world’s
+15	meñ	meñ	ADP	_	_	_	prep	_	gloss=in
+16	bhejis	bhejis	VERB	_	_	_	_	_	gloss=sent
+17	,	,	PUNCT	_	_	_	_	_
+18	ki	ki	SCONJ	_	_	_	mark	_	gloss=that
+19	jon	jon	PRON	_	_	_	nsubj	_	gloss=who
+20	koi	koi	PRON	_	_	_	_	_	gloss=any
+21	bhi	bhi	ADV	_	_	_	_	_	gloss=also
+22	uspe	uspe	PRON	_	_	_	_	_	gloss=colt
+23	biswaas	biswaas	NOUN	_	_	_	_	_	gloss=faith
+24	kari	kari	VERB	_	_	_	_	_	gloss=do
+25	,	,	PUNCT	_	_	_	_	_
+26	u	u	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+27	naas	naas	NOUN	_	_	_	_	_	gloss=destruction
+28	nai	nai	PART	_	_	_	neg	_	gloss=not|Polarity=Neg
+29	hoi	hoi	VERB	_	_	_	_	_	gloss=v
+30	lekin	lekin	CCONJ	_	_	_	cc	_	gloss=but|ConjType=Cmp
+31	anant	anant	ADJ	_	_	32	amod	_	gloss=eternal|Degree=Pos
+32	jeewan	jeewan	NOUN	_	_	_	dobj	_	gloss=life|Number=Sing
+33	paai	paai	VERB	_	_	_	_	_	gloss=get
+34	.	.	PUNCT	_	_	7	punct	_	PunctType=Peri
+
+# sent_id = 44002030
+# ref_id = Acts 2:30
+# eng_text = Therefore , being a prophet , and knowing that God had sworn with an oath to him that of the fruit of his body , according to the flesh , he would raise up the Christ to sit on his throne ,
+# hif_text = Lekin Ḍeiviḍ ek nabi raha , aur u jaanat raha ki Parmeshwar aapan promis puura kari . Parmeshwar uske bataais raha ki ek din uske palwaar meñ se ek jan ke raaja banaai .
+1	Lekin	lekin	CCONJ	_	_	5	cc	_	gloss=But|ConjType=Cmp
+2	Ḍeiviḍ	ḍeiviḍ	PROPN	_	_	_	poss	_	gloss=David|Number=Sing
+3	ek	ek	DET	_	_	4	det	_	gloss=a|Definite=Ind|PronType=Art
+4	nabi	nabi	NOUN	_	_	5	attr	_	gloss=prophet|Number=Sing
+5	raha	raha	AUX	_	_	0	root	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+6	,	,	PUNCT	_	_	_	_	_
+7	aur	aur	CCONJ	_	_	5	cc	_	gloss=and|ConjType=Cmp
+8	u	u	PRON	_	_	9	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+9	jaanat	jaanat	VERB	_	_	10	conj	_	gloss=knew|Tense=Past|VerbForm=Fin
+10	raha	raha	AUX	_	_	0	root	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+11	ki	ki	SCONJ	_	_	_	mark	_	gloss=that
+12	Parmeshwar	parmeshwar	PROPN	_	_	_	_	_	gloss=god
+13	aapan	aapan	DET	_	_	_	_	_	gloss=own
+14	promis	promis	NOUN	_	_	_	_	_	gloss=promise
+15	puura	puura	ADJ	_	_	_	_	_	gloss=complete
+16	kari	kari	VERB	_	_	_	_	_	gloss=do
+17	.	.	PUNCT	_	_	9	punct	_	PunctType=Peri
+18	Parmeshwar	parmeshwar	PROPN	_	_	_	_	_	gloss=god
+19	uske	uske	PRON	_	_	_	_	_	gloss=his
+20	bataais	bataais	VERB	_	_	_	_	_	gloss=told
+21	raha	raha	AUX	_	_	0	root	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+22	ki	ki	SCONJ	_	_	_	mark	_	gloss=that
+23	ek	ek	DET	_	_	4	det	_	gloss=a|Definite=Ind|PronType=Art
+24	din	din	NOUN	_	_	_	_	_	gloss=day
+25	uske	uske	PRON	_	_	_	_	_	gloss=his
+26	palwaar	palwaar	NOUN	_	_	_	_	_	gloss=lineage
+27	meñ	meñ	ADP	_	_	_	_	_	gloss=in
+28	se	se	ADP	_	_	_	_	_	gloss=from
+29	ek	ek	DET	_	_	4	det	_	gloss=a|Definite=Ind|PronType=Art
+30	jan	jan	NOUN	_	_	_	_	_	gloss=person
+31	ke	ke	ADP	_	_	_	_	_	gloss=of
+32	raaja	raaja	NOUN	_	_	_	_	_	gloss=king
+33	banaai	banaai	VERB	_	_	_	_	_	gloss=make
+34	.	.	PUNCT	_	_	9	punct	_	PunctType=Peri
+
+# sent_id = 44009038
+# ref_id = Acts 9:38
+# eng_text = As Lydda was near Joppa , the disciples , hearing that Peter was there , sent two men to him , imploring him not to delay in coming to them .
+# hif_text = Joppa , Liḍḍa se bahut duur nai raha , aur jab chela log ke pata laga ki Peeṭa huañ hei tab ulog dui admi ke bhej ke bataain , “ Jaldi se jaldi ham log ke lage aay jaao . ”
+1	Joppa	joppa	PROPN	_	_	_	_	_	gloss=Joppa
+2	,	,	PUNCT	_	_	_	_	_
+3	Liḍḍa	liḍḍa	PROPN	_	_	_	_	_
+4	se	se	ADP	_	_	_	_	_	gloss=from
+5	bahut	bahut	ADV	_	_	_	_	_	gloss=many
+6	duur	duur	ADJ	_	_	_	_	_	gloss=far
+7	nai	nai	PART	_	_	_	_	_	gloss=not
+8	raha	raha	AUX	_	_	_	ccomp	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+9	,	,	PUNCT	_	_	_	_	_
+10	aur	aur	CCONJ	_	_	_	_	_	gloss=and
+11	jab	jab	SCONJ	_	_	_	_	_	gloss=when
+12	chela	chela	NOUN	_	_	_	_	_	gloss=disciples
+13	log	log	NOUN	_	_	_	_	_	gloss=people
+14	ke	ke	ADP	_	_	_	_	_	gloss=of
+15	pata	pata	NOUN	_	_	_	_	_	gloss=knowledge
+16	laga	laga	VERB	_	_	_	_	_	gloss=feel
+17	ki	ki	SCONJ	_	_	8	mark	_	gloss=that
+18	Peeṭa	peeṭa	PROPN	_	_	8	nsubj	_	gloss=Peter|Number=Sing
+19	huañ	huañ	ADV	_	_	_	_	_	gloss=there
+20	hei	hei	AUX	_	_	_	_	_	gloss=is
+21	tab	tab	ADV	_	_	_	_	_	gloss=then
+22	ulog	ulog	PRON	_	_	_	_	_	gloss=they
+23	dui	dui	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+24	admi	admi	NOUN	_	_	_	_	_	gloss=man
+25	ke	ke	ADP	_	_	_	_	_	gloss=of
+26	bhej	bhej	VERB	_	_	_	_	_	gloss=send
+27	ke	ke	ADP	_	_	_	_	_	gloss=of
+28	bataain	bataain	VERB	_	_	_	_	_	gloss=told
+29	,	,	PUNCT	_	_	_	_	_
+30	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+31	Jaldi	jaldi	ADV	_	_	_	_	_	gloss=quickly
+32	se	se	ADP	_	_	_	_	_	gloss=from
+33	jaldi	jaldi	ADV	_	_	_	_	_	gloss=quickly
+34	ham	ham	PRON	_	_	_	_	_	gloss=we
+35	log	log	NOUN	_	_	_	_	_	gloss=people
+36	ke	ke	ADP	_	_	_	_	_	gloss=of
+37	lage	lage	ADP	_	_	_	_	_	gloss=understand
+38	aay	aay	VERB	_	_	_	xcomp	_	gloss=come|VerbForm=Inf
+39	jaao	jaao	VERB	_	_	_	_	_	gloss=go
+40	.	.	PUNCT	_	_	_	_	_
+41	”	”	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 44011011
+# ref_id = Acts 11:11
+# eng_text = Behold , immediately three men stood before the house where I was , having been sent from Caesarea to me .
+# hif_text = Achaanak , Kaisaria se teen admi ghar ke saamne aay ke khaṛa hoy gain jahañ ham rahat raha .
+1	Achaanak	achaanak	ADV	_	_	_	_	_	gloss=suddenly
+2	,	,	PUNCT	_	_	_	_	_
+3	Kaisaria	kaisaria	PROPN	_	_	4	pobj	_	gloss=Caesarea|Number=Sing
+4	se	se	ADP	_	_	_	prep	_	gloss=from
+5	teen	teen	NUM	_	_	_	nummod	_	gloss=three|NumType=Card
+6	admi	admi	NOUN	_	_	_	_	_	gloss=man
+7	ghar	ghar	NOUN	_	_	_	pobj	_	gloss=house|Number=Sing
+8	ke	ke	ADP	_	_	_	_	_	gloss=of
+9	saamne	saamne	ADP	_	_	_	_	_	gloss=el
+10	aay	aay	VERB	_	_	_	_	_	gloss=come
+11	ke	ke	ADP	_	_	_	_	_	gloss=of
+12	khaṛa	khaṛa	ADJ	_	_	_	_	_	gloss=standing
+13	hoy	hoy	VERB	_	_	_	_	_	gloss=be
+14	gain	gain	VERB	_	_	_	_	_	gloss=went
+15	jahañ	jahañ	SCONJ	_	_	_	advmod	_	gloss=where
+16	ham	ham	PRON	_	_	_	nsubj	_	gloss=we|Case=Nom|Number=Plur|Person=1|PronType=Prs
+17	rahat	rahat	PROPN	_	_	_	_	_	gloss=was
+18	raha	raha	AUX	_	_	_	_	_	gloss=was
+19	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 44021034
+# ref_id = Acts 21:34
+# eng_text = Some shouted one thing , some another , among the crowd . When he couldn't find out the truth because of the noise , he commanded him to be brought into the barracks .
+# hif_text = Kuchh log chillaay ke ek cheej bolat rahin aur baaki log kuchh aur chillaat rahin . Lekin ulog etna halla karat rahin ki sardaar kuchh nai jaane paais . Tab sardaar Pol ke ek foṭres meñ le jaay ke hukum dees .
+1	Kuchh	kuchh	DET	_	_	_	_	_	gloss=some
+2	log	log	NOUN	_	_	_	_	_	gloss=people
+3	chillaay	chillaay	VERB	_	_	0	root	_	gloss=shouted|Tense=Past|VerbForm=Fin
+4	ke	ke	ADP	_	_	_	_	_	gloss=of
+5	ek	ek	DET	_	_	_	_	_	gloss=one
+6	cheej	cheej	NOUN	_	_	_	_	_	gloss=thing
+7	bolat	bolat	VERB	_	_	_	_	_	gloss=speaking
+8	rahin	rahin	AUX	_	_	_	_	_	gloss=were
+9	aur	aur	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+10	baaki	baaki	DET	_	_	_	_	_	gloss=remaining
+11	log	log	NOUN	_	_	_	_	_	gloss=people
+12	kuchh	kuchh	DET	_	_	_	predet	_	gloss=some
+13	aur	aur	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+14	chillaat	chillaat	VERB	_	_	_	_	_	gloss=shouting
+15	rahin	rahin	AUX	_	_	_	_	_	gloss=were
+16	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+17	Lekin	lekin	CCONJ	_	_	_	_	_	gloss=but
+18	ulog	ulog	PRON	_	_	_	_	_	gloss=they
+19	etna	etna	ADV	_	_	_	_	_	gloss=so
+20	halla	halla	NOUN	_	_	_	_	_	gloss=noise
+21	karat	karat	VERB	_	_	_	_	_	gloss=cised
+22	rahin	rahin	AUX	_	_	_	_	_	gloss=were
+23	ki	ki	SCONJ	_	_	_	mark	_	gloss=that
+24	sardaar	sardaar	NOUN	_	_	_	_	_	gloss=leader
+25	kuchh	kuchh	DET	_	_	_	predet	_	gloss=some
+26	nai	nai	PART	_	_	_	_	_	gloss=not
+27	jaane	jaane	VERB	_	_	_	_	_	gloss=know
+28	paais	paais	VERB	_	_	_	_	_	gloss=found
+29	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+30	Tab	tab	ADV	_	_	_	_	_	gloss=Then
+31	sardaar	sardaar	NOUN	_	_	_	_	_	gloss=leader
+32	Pol	pol	PROPN	_	_	_	nsubjpass	_	gloss=Paul|Number=Sing
+33	ke	ke	ADP	_	_	_	_	_	gloss=of
+34	ek	ek	DET	_	_	_	_	_	gloss=one
+35	foṭres	foṭres	NOUN	_	_	_	_	_	gloss=fortress
+36	meñ	meñ	ADP	_	_	_	prep	_	gloss=in
+37	le	le	VERB	_	_	_	_	_	gloss=took
+38	jaay	jaay	VERB	_	_	_	_	_	gloss=go
+39	ke	ke	ADP	_	_	_	_	_	gloss=of
+40	hukum	hukum	NOUN	_	_	_	_	_	gloss=order
+41	dees	dees	VERB	_	_	_	_	_	gloss=gave
+42	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 47012002
+# ref_id = 2 Corinthians 12:2
+# eng_text = I know a man in Christ , fourteen years ago ( whether in the body , I don't know , or whether out of the body , I don't know ; God knows ) , such a one caught up into the third heaven .
+# hif_text = Ham Maseeh ke ek eisan admi ke janta hei , jon chauda ( 14 ) saal pahile tisra swarag meñ uṭhaay lewa gais raha . Ham nai janta ki u admi aapan deñhi meñ raha jab i bhais raha , lekin Parmeshwar sachche ke jaane hei .
+1	Ham	ham	PRON	_	_	_	_	_	gloss=We
+2	Maseeh	maseeh	PROPN	_	_	_	_	_	gloss=Messiah
+3	ke	ke	ADP	_	_	_	_	_	gloss=of
+4	ek	ek	DET	_	_	_	_	_	gloss=one
+5	eisan	eisan	ADJ	_	_	_	_	_	gloss=par
+6	admi	admi	NOUN	_	_	_	_	_	gloss=man
+7	ke	ke	ADP	_	_	_	_	_	gloss=of
+8	janta	janta	VERB	_	_	_	_	_	gloss=know
+9	hei	hei	AUX	_	_	_	_	_	gloss=is
+10	,	,	PUNCT	_	_	_	_	_
+11	jon	jon	SCONJ	_	_	_	_	_	gloss=who
+12	chauda	chauda	NUM	_	_	_	_	_	gloss=fourteen
+13	(	(	PUNCT	_	_	_	_	_	gloss=sn
+14	14	14	NUM	_	_	16	nummod	_	gloss=fourteen|NumType=Card
+15	)	)	NUM	_	_	16	nummod	_	gloss=fourteen|NumType=Card
+16	saal	saal	NOUN	_	_	_	npadvmod	_	gloss=years|Number=Plur
+17	pahile	pahile	ADV	_	_	_	_	_	gloss=before
+18	tisra	tisra	ADJ	_	_	19	amod	_	gloss=third|Degree=Pos
+19	swarag	swarag	PROPN	_	_	_	pobj	_	gloss=heaven|Number=Sing
+20	meñ	meñ	ADP	_	_	24	prep	_	gloss=in
+21	uṭhaay	uṭhaay	VERB	_	_	_	_	_	gloss=lift
+22	lewa	lewa	AUX	_	_	_	_	_	gloss=take
+23	gais	gais	VERB	_	_	_	prt	_	gloss=went
+24	raha	raha	AUX	_	_	45	advcl	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+25	.	.	PUNCT	_	_	45	punct	_	PunctType=Peri
+26	Ham	ham	PRON	_	_	_	_	_	gloss=I
+27	nai	nai	PART	_	_	_	_	_	gloss=not
+28	janta	janta	VERB	_	_	_	_	_	gloss=know
+29	ki	ki	SCONJ	_	_	_	_	_	gloss=that
+30	u	u	PRON	_	_	_	_	_	gloss=he
+31	admi	admi	NOUN	_	_	_	_	_	gloss=man
+32	aapan	aapan	DET	_	_	_	_	_	gloss=own
+33	deñhi	deñhi	NOUN	_	_	_	pobj	_	gloss=body|Number=Sing
+34	meñ	meñ	ADP	_	_	35	prep	_	gloss=in
+35	raha	raha	AUX	_	_	45	advcl	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+36	jab	jab	SCONJ	_	_	_	_	_	gloss=when
+37	i	i	PRON	_	_	_	_	_	gloss=this
+38	bhais	bhais	VERB	_	_	_	_	_	gloss=becomes
+39	raha	raha	AUX	_	_	45	advcl	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+40	,	,	PUNCT	_	_	_	_	_
+41	lekin	lekin	CCONJ	_	_	_	_	_	gloss=but
+42	Parmeshwar	parmeshwar	PROPN	_	_	_	_	_	gloss=god
+43	sachche	sachche	ADJ	_	_	_	_	_	gloss=true
+44	ke	ke	ADP	_	_	_	_	_	gloss=of
+45	jaane	jaane	VERB	_	_	0	root	_	gloss=know|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+46	hei	hei	AUX	_	_	_	_	_	gloss=is
+47	.	.	PUNCT	_	_	45	punct	_	PunctType=Peri
+
+# sent_id = 62004009
+# ref_id = 1 John 4:9
+# eng_text = By this was God's love revealed in us , that God has sent his only born Son into the world that we might live through him .
+# hif_text = Parmeshwar aapan prem ham log ke waaste dekhaais raha , jab u aapan eklauta beṭa ke i dunia meñ hamme jeewan dewe ke waaste bhejis raha .
+1	Parmeshwar	parmeshwar	PROPN	_	_	_	_	_	gloss=god
+2	aapan	aapan	DET	_	_	_	_	_	gloss=own
+3	prem	prem	NOUN	_	_	_	_	_	gloss=love
+4	ham	ham	PRON	_	_	_	nsubj	_	gloss=we|Case=Nom|Number=Plur|Person=1|PronType=Prs
+5	log	log	NOUN	_	_	_	_	_	gloss=people
+6	ke	ke	ADP	_	_	_	_	_	gloss=of
+7	waaste	waaste	ADP	_	_	_	_	_	gloss=for
+8	dekhaais	dekhaais	VERB	_	_	0	root	_	gloss=showed|Tense=Past|VerbForm=Fin
+9	raha	raha	AUX	_	_	_	_	_	gloss=was
+10	,	,	PUNCT	_	_	_	_	_
+11	jab	jab	SCONJ	_	_	_	_	_	gloss=when
+12	u	u	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+13	aapan	aapan	DET	_	_	_	_	_	gloss=own
+14	eklauta	eklauta	ADJ	_	_	_	_	_	gloss=only
+15	beṭa	beṭa	NOUN	_	_	_	_	_	gloss=son
+16	ke	ke	ADP	_	_	_	_	_	gloss=of
+17	i	i	DET	_	_	_	_	_	gloss=this
+18	dunia	dunia	NOUN	_	_	_	_	_	gloss=world’s
+19	meñ	meñ	ADP	_	_	_	_	_	gloss=in
+20	hamme	hamme	PRON	_	_	_	_	_	gloss=us
+21	jeewan	jeewan	NOUN	_	_	_	dobj	_	gloss=life|Number=Sing
+22	dewe	dewe	VERB	_	_	_	_	_	gloss=give
+23	ke	ke	ADP	_	_	_	_	_	gloss=of
+24	waaste	waaste	ADP	_	_	_	_	_	gloss=for
+25	bhejis	bhejis	VERB	_	_	_	_	_	gloss=sent
+26	raha	raha	AUX	_	_	_	_	_	gloss=was
+27	.	.	PUNCT	_	_	8	punct	_	PunctType=Peri
+
+# sent_id = 63001005
+# ref_id = 2 John 1:5
+# eng_text = Now I beg you , dear lady , not as though I wrote to you a new commandment , but that which we had from the beginning , that we love one another .
+# hif_text = Dost log , ham i nai likhta hei ki tumme aur tumhaar laṛkan se boli ki u kaam karo jon tum sab pahile nai kara hei . Ham likhta hei ki tum log ke bataai ki ek dusra se prem karo , jon ki pahila cheej tumme kare ke bataawa gay raha .
+1	Dost	dost	NOUN	_	_	_	_	_	gloss=friend
+2	log	log	NOUN	_	_	_	_	_	gloss=people
+3	,	,	PUNCT	_	_	_	_	_
+4	ham	ham	PRON	_	_	_	nsubj	_	gloss=we|Case=Nom|Number=Plur|Person=1|PronType=Prs
+5	i	i	PRON	_	_	_	_	_	gloss=this
+6	nai	nai	PART	_	_	_	neg	_	gloss=not|Polarity=Neg
+7	likhta	likhta	VERB	_	_	0	root	_	gloss=writing|Aspect=Prog|Tense=Pres|VerbForm=Part
+8	hei	hei	AUX	_	_	_	_	_	gloss=is
+9	ki	ki	SCONJ	_	_	40	mark	_	gloss=that
+10	tumme	tumme	PRON	_	_	_	_	_	gloss=beat
+11	aur	aur	CCONJ	_	_	_	_	_	gloss=and
+12	tumhaar	tumhaar	DET	_	_	_	_	_	gloss=your
+13	laṛkan	laṛkan	NOUN	_	_	_	_	_	gloss=children
+14	se	se	ADP	_	_	_	prep	_	gloss=from
+15	boli	boli	VERB	_	_	_	_	_	gloss=pract
+16	ki	ki	SCONJ	_	_	40	mark	_	gloss=that
+17	u	u	PRON	_	_	_	_	_	gloss=he
+18	kaam	kaam	NOUN	_	_	_	_	_	gloss=work
+19	karo	karo	VERB	_	_	_	_	_	gloss=ites
+20	jon	jon	SCONJ	_	_	_	_	_	gloss=who
+21	tum	tum	PRON	_	_	_	dobj	_	gloss=you|Case=Acc|Person=2|PronType=Prs
+22	sab	sab	DET	_	_	_	_	_	gloss=all
+23	pahile	pahile	ADV	_	_	_	_	_	gloss=before
+24	nai	nai	PART	_	_	_	neg	_	gloss=not|Polarity=Neg
+25	kara	kara	VERB	_	_	_	_	_	gloss=judged
+26	hei	hei	AUX	_	_	_	_	_	gloss=is
+27	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+28	Ham	ham	PRON	_	_	_	_	_	gloss=I
+29	likhta	likhta	VERB	_	_	0	root	_	gloss=writing|Aspect=Prog|Tense=Pres|VerbForm=Part
+30	hei	hei	AUX	_	_	_	_	_	gloss=is
+31	ki	ki	SCONJ	_	_	40	mark	_	gloss=that
+32	tum	tum	PRON	_	_	_	dobj	_	gloss=you|Case=Acc|Person=2|PronType=Prs
+33	log	log	NOUN	_	_	_	_	_	gloss=people
+34	ke	ke	ADP	_	_	_	_	_	gloss=of
+35	bataai	bataai	VERB	_	_	_	_	_	gloss=tell
+36	ki	ki	SCONJ	_	_	40	mark	_	gloss=that
+37	ek	ek	DET	_	_	_	det	_	gloss=a|Definite=Ind|PronType=Art
+38	dusra	dusra	DET	_	_	_	det	_	gloss=other
+39	se	se	ADP	_	_	_	prep	_	gloss=from
+40	prem	prem	VERB	_	_	29	ccomp	_	gloss=love|VerbForm=Inf
+41	karo	karo	VERB	_	_	_	_	_	gloss=ites
+42	,	,	PUNCT	_	_	_	_	_
+43	jon	jon	SCONJ	_	_	_	_	_	gloss=who
+44	ki	ki	SCONJ	_	_	40	mark	_	gloss=that
+45	pahila	pahila	ADJ	_	_	_	_	_	gloss=first
+46	cheej	cheej	NOUN	_	_	_	_	_	gloss=thing
+47	tumme	tumme	PRON	_	_	_	_	_	gloss=beat
+48	kare	kare	VERB	_	_	_	_	_	gloss=do
+49	ke	ke	ADP	_	_	_	_	_	gloss=of
+50	bataawa	bataawa	VERB	_	_	_	_	_	gloss=instructed
+51	gay	gay	AUX	_	_	_	_	_	gloss=further
+52	raha	raha	AUX	_	_	_	_	_	gloss=was
+53	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+

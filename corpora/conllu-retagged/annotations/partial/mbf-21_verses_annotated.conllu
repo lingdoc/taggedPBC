@@ -1,0 +1,790 @@
+## The following text has been annotated for parts of speech by students at NTU Singapore as part of a class project in AY 2025-26.
+## Verses are extracted from the taggedPBC. Annotations have been developed with a combination of manual and automated approaches, with reference to existing literature and (where possible) native speakers.
+## ISO 639-3: mbf, Language: Baba Malay, Number of verses: 21
+## References: Ansaldo, U., Lim, L., & Mufwene, S. S. (2007). The sociolinguistic history of the Peranakans: What it tells us about “creolization.” In U. Ansaldo, S. Matthews, & L. Lim (Eds.), Deconstructing creole (pp. 203–226). John Benjamins. https://doi.org/10.1075/tsl.73.11ans ; Bakker, P. (2025). Review of A grammar of modern Baba Malay, by N. H. Lee. Linguistic Typology, 29(2), 433–445. https://doi.org/10.1515/lingty-2024-0074 ; Gwee, W. T. H. (2006). Baba Malay Dictionary: The first comprehensive compendium of Straits Chinese terms and expressions. Tuttle Publishing. https://nlb.overdrive.com/media/2259786 ; Lee, N. H. (2014). A grammar of Baba Malay with sociophonetic considerations (Doctoral dissertation, University of Hawaiʻi at Mānoa). University of Hawaiʻi at Mānoa ScholarSpace. https://scholarspace.manoa.hawaii.edu/items/9ffe1df0-f0aa-41cb-9d58-ba35354bfeca ; Lee, N. H. (2018). Baba Malay: Diverging trends in two ecologies. Journal of Pidgin and Creole Languages, 33(1), 135–172. https://doi.org/10.1075/jpcl.00004.lee
+## Contributors: # XU MANJIE: mxu029 AT e DOT ntu DOT edu DOT sg #
+
+# sent_id = 40006024
+# ref_id = Matthew 6:24
+# eng_text = "" No one can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You can't serve both God and Mammon ."""
+# mbf_text = Satu orang pun ta’boleh jadi dua tuan punya hamba : kerna dia nanti bnchi satu dan kaseh yang lain ; atau dia nanti pegang sama satu dan kurang hormatkan yang lain . Kamu t’ada boleh jadi hamba Allah dan hamba kkaya’an dunia pun .
+1	Satu	satu	NUM	_	_	_	_	_	gloss=one|NumType=Card
+2	orang	orang	NOUN	_	_	_	_	_	gloss=person
+3	pun	pun	PART	_	_	_	_	_	gloss=even
+4	ta’boleh	ta’boleh	AUX	_	_	_	_	_	gloss=NEG.can
+5	jadi	jadi	VERB	_	_	_	_	_	gloss=become
+6	dua	dua	NUM	_	_	_	_	_	gloss=two|NumType=Card
+7	tuan	tuan	NOUN	_	_	_	_	_	gloss=master|Number=Plur
+8	punya	punya	PART	_	_	_	_	_	gloss=GEN
+9	hamba	hamba	NOUN	_	_	_	_	_	gloss=servant
+10	:	:	PUNCT	_	_	_	_	_	_
+11	kerna	kerna	SCONJ	_	_	_	_	_	gloss=because
+12	dia	dia	PRON	_	_	_	_	_	gloss=he/she|Person=3|PronType=Prs
+13	nanti	nanti	ADV	_	_	_	_	_	gloss=FUT
+14	bnchi	bnchi	VERB	_	_	_	_	_	gloss=hate
+15	satu	satu	PRON	_	_	_	_	_	gloss=one
+16	dan	dan	CCONJ	_	_	_	_	_	gloss=and|ConjType=Cmp
+17	kaseh	kaseh	VERB	_	_	_	_	_	gloss=love
+18	yang	yang	DET	_	_	_	_	_	gloss=that
+19	lain	lain	PRON	_	_	_	_	_	gloss=other
+20	;	;	PUNCT	_	_	_	_	_	_
+21	atau	atau	CCONJ	_	_	_	_	_	gloss=or
+22	dia	dia	PRON	_	_	_	_	_	gloss=he/she|Person=3|PronType=Prs
+23	nanti	nanti	ADV	_	_	_	_	_	gloss=FUT
+24	pegang	pegang	VERB	_	_	_	_	_	gloss=hold
+25	sama	sama	ADP	_	_	_	_	_	gloss=to/with
+26	satu	satu	PRON	_	_	_	_	_	gloss=one
+27	dan	dan	CCONJ	_	_	_	_	_	gloss=and|ConjType=Cmp
+28	kurang	kurang	ADV	_	_	_	_	_	gloss=less
+29	hormatkan	hormatkan	VERB	_	_	_	_	_	gloss=respect
+30	yang	yang	DET	_	_	_	_	_	gloss=that
+31	lain	lain	ADJ	_	_	_	_	_	gloss=other
+32	.	.	PUNCT	_	_	_	_	_	_
+33	Kamu	kamu	PRON	_	_	_	_	_	gloss=you|Person=2|PronType=Prs
+34	t’ada	t’ada	PART	_	_	_	_	_	gloss=NEG
+35	boleh	boleh	AUX	_	_	_	_	_	gloss=can
+36	jadi	jadi	VERB	_	_	_	_	_	gloss=become
+37	hamba	hamba	NOUN	_	_	_	_	_	gloss=servant
+38	Allah	allah	PROPN	_	_	_	_	_	gloss=God
+39	dan	dan	CCONJ	_	_	_	_	_	gloss=and|ConjType=Cmp
+40	hamba	hamba	NOUN	_	_	_	_	_	gloss=servant
+41	kkaya’an	kkaya’an	NOUN	_	_	_	_	_	gloss=wealth
+42	dunia	dunia	NOUN	_	_	_	_	_	gloss=world
+43	pun	pun	PART	_	_	_	_	_	gloss=even
+44	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = 40018012
+# ref_id = Matthew 18:12
+# eng_text = """" What do you think ? If a man has one hundred sheep , and one of them goes astray , doesn't he leave the ninety-nine , go to the mountains , and seek that which has gone astray ?"""
+# mbf_text = Bagimana kamu punya fikir ? jikalau siapa-siapa ada s-ratus ekor punya kambing , dan satu ekor sudah ssat , bukan-kah dia nanti tinggalkan yang smbilan-puloh-smbilan itu , dan pergi gunong-gunong chari yang ssat punya ?"""
+1	Bagimana	bagimana	ADV	_	_	_	_	_	gloss=how
+2	kamu	kamu	PRON	_	_	_	_	_	gloss=you|Person=2|PronType=Prs
+3	punya	punya	PART	_	_	_	_	_	gloss=GEN
+4	fikir	fikir	NOUN	_	_	_	_	_	gloss=thought
+5	?	?	PUNCT	_	_	_	_	_	_
+6	jikalau	jikalau	SCONJ	_	_	_	_	_	gloss=if
+7	siapa-siapa	siapa-siapa	PRON	_	_	_	_	_	gloss=anyone
+8	ada	ada	VERB	_	_	_	_	_	gloss=have
+9	s-ratus	s-ratus	NUM	_	_	_	_	_	gloss=hundred|NumType=Card
+10	ekor	ekor	NOUN	_	_	_	_	_	gloss=classifier
+11	punya	punya	PART	_	_	_	_	_	gloss=GEN
+12	kambing	kambing	NOUN	_	_	_	_	_	gloss=sheep|Number=Plur
+13	","	","	PUNCT	_	_	_	_	_	_
+14	dan	dan	CCONJ	_	_	_	_	_	gloss=and|ConjType=Cmp
+15	satu	satu	NUM	_	_	_	_	_	gloss=one|NumType=Card
+16	ekor	ekor	NOUN	_	_	_	_	_	gloss=classifier
+17	sudah	sudah	ADV	_	_	_	_	_	gloss=already|Aspect=Perf
+18	ssat	ssat	VERB	_	_	_	_	_	gloss=lost
+19	","	","	PUNCT	_	_	_	_	_	_
+20	bukan-kah	bukan-kah	PART	_	_	_	_	_	gloss=Q.NEG
+21	dia	dia	PRON	_	_	_	_	_	gloss=he/she|Person=3|PronType=Prs
+22	nanti	nanti	ADV	_	_	_	_	_	gloss=FUT
+23	tinggalkan	tinggalkan	VERB	_	_	_	_	_	gloss=leave
+24	yang	yang	DET	_	_	_	_	_	gloss=DET
+25	smbilan-puloh-smbilan	smbilan-puloh-smbilan	NUM	_	_	_	_	_	gloss=ninety-nine|NumType=Card
+26	itu	itu	DET	_	_	_	_	_	gloss=that
+27	","	","	PUNCT	_	_	_	_	_	_
+28	dan	dan	CCONJ	_	_	_	_	_	gloss=and|ConjType=Cmp
+29	pergi	pergi	VERB	_	_	_	_	_	gloss=go
+30	gunong-gunong	gunong-gunong	NOUN	_	_	_	_	_	gloss=mountains|Number=Plur
+31	chari	chari	VERB	_	_	_	_	_	gloss=seek
+32	yang	yang	DET	_	_	_	_	_	gloss=that
+33	ssat	ssat	VERB	_	_	_	_	_	gloss=lost
+34	punya	punya	PART	_	_	_	_	_	gloss=GEN
+35	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = 40020021
+# ref_id = Matthew 20:21
+# eng_text = He said to her , """" What do you want ? """" She said to him , """" Command that these , my two sons , may sit , one on your right hand , and one on your left hand , in your kingdom . """""""
+# mbf_text = Isa kata sama dia , """" Apa-kah angkau punya mau ? """" Itu prempuan kata sama Isa , """" Bri-lah hukum spaya dua anak sahya ini boleh dudok satu orang sblah kanan dan satu orang sblah kiri dalam tuan punya kraja’an . """""""
+1	Isa	isa	PROPN	_	_	_	_	_	gloss=Jesus
+2	kata	kata	VERB	_	_	_	_	_	gloss=say
+3	sama	sama	ADP	_	_	_	_	_	gloss=to/with
+4	dia	dia	PRON	_	_	_	_	_	gloss=him/her|Case=Acc|Person=3|PronType=Prs
+5	","	","	PUNCT	_	_	_	_	_	_
+6	""""	""""	PUNCT	_	_	_	_	_	_
+7	Apa-kah	apa-kah	PRON	_	_	_	_	_	gloss=What
+8	angkau	angkau	PRON	_	_	_	_	_	gloss=you|Person=2|PronType=Prs
+9	punya	punya	PART	_	_	_	_	_	gloss=GEN
+10	mau	mau	VERB	_	_	_	_	_	gloss=want
+11	?	?	PUNCT	_	_	_	_	_	_
+12	""""	""""	PUNCT	_	_	_	_	_	_
+13	Itu	itu	DET	_	_	_	_	_	gloss=that
+14	prempuan	prempuan	NOUN	_	_	_	_	_	gloss=woman
+15	kata	kata	VERB	_	_	_	_	_	gloss=say
+16	sama	sama	ADP	_	_	_	_	_	gloss=to/with
+17	Isa	isa	PROPN	_	_	_	_	_	gloss=Jesus
+18	","	","	PUNCT	_	_	_	_	_	_
+19	""""	""""	PUNCT	_	_	_	_	_	_
+20	Bri-lah	bri-lah	VERB	_	_	_	_	_	gloss=give-EMPH
+21	hukum	hukum	NOUM	_	_	_	_	_	gloss=command
+22	spaya	spaya	SCONJ	_	_	_	_	_	gloss=so.that
+23	dua	dua	NUM	_	_	_	_	_	gloss=two|NumType=Card
+24	anak	anak	NOUN	_	_	_	_	_	gloss=child
+25	sahya	sahya	PRON	_	_	_	_	_	gloss=my|Person=1|Poss=Yes
+26	ini	ini	DET	_	_	_	_	_	gloss=this
+27	boleh	boleh	AUX	_	_	_	_	_	gloss=can
+28	dudok	dudok	VERB	_	_	_	_	_	gloss=sit
+29	satu	satu	NUM	_	_	_	_	_	gloss=one|NumType=Card
+30	orang	orang	NOUN	_	_	_	_	_	gloss=person
+31	sblah	sblah	NOUN	_	_	_	_	_	gloss=side
+32	kanan	kanan	ADJ	_	_	_	_	_	gloss=right
+33	dan	dan	CCONJ	_	_	_	_	_	gloss=and|ConjType=Cmp
+34	satu	satu	NUM	_	_	_	_	_	gloss=one|NumType=Card
+35	orang	orang	NOUN	_	_	_	_	_	gloss=person
+36	sblah	sblah	NOUN	_	_	_	_	_	gloss=side
+37	kiri	kiri	ADJ	_	_	_	_	_	gloss=left
+38	dalam	dalam	ADP	_	_	_	_	_	gloss=in
+39	tuan	tuan	NOUN	_	_	_	_	_	gloss=master
+40	punya	punya	PART	_	_	_	_	_	gloss=GEN
+41	kraja’an	kraja’an	NOUM	_	_	_	_	_	gloss=Kingdom
+42	.	.	PUNCT	_	_	_	_	_	_
+43	""""	""""	PUNCT	_	_	_	_	_	_
+
+# sent_id = 40026002
+# ref_id = Matthew 26:2
+# eng_text = """" You know that after two days the Passover is coming , and the Son of Man will be delivered up to be crucified . """""""
+# mbf_text = """" Kamu tahu yang lpas dua hari jadi hari Paska , dan Anak-manusia nanti di-srahkan spaya kna salib . """""""
+1	""""	""""	PUNCT	_	_	_	_	_	_
+2	Kamu	kamu	PRON	_	_	_	_	_	gloss=you|Person=2|PronType=Prs
+3	tahu	tahu	VERB	_	_	_	_	_	gloss=know
+4	yang	yang	SCONJ	_	_	_	_	_	gloss=that
+5	lpas	lpas	ADP	_	_	_	_	_	gloss=after
+6	dua	dua	NUM	_	_	_	_	_	gloss=two|NumType=Card
+7	hari	hari	NOUN	_	_	_	_	_	gloss=days|Number=Plur
+8	jadi	jadi	VERB	_	_	_	_	_	gloss=become
+9	hari	hari	NOUN	_	_	_	_	_	gloss=days|Number=Plur
+10	Paska	paska	PROPN	_	_	_	_	_	gloss=Passover
+11	","	","	PUNCT	_	_	_	_	_	_
+12	dan	dan	CCONJ	_	_	_	_	_	gloss=and|ConjType=Cmp
+13	Anak-manusia	anak-manusia	NOUN	_	_	_	_	_	gloss=Son.of.man
+14	nanti	nanti	ADV	_	_	_	_	_	gloss=FUT
+15	di-srahkan	di-srahkan	VERB	_	_	_	_	_	gloss=be.handed.over
+16	spaya	spaya	SCONJ	_	_	_	_	_	gloss=so.that
+17	kna	kna	VERB	_	_	_	_	_	gloss=undergo
+18	salib	salib	NOUN	_	_	_	_	_	gloss=cross
+19	.	.	PUNCT	_	_	_	_	_	_
+20	""""	""""	PUNCT	_	_	_	_	_	_
+
+# sent_id = 40026061
+# ref_id = Matthew 26:61
+# eng_text = and said , """" This man said , ' I am able to destroy the temple of God , and to build it in three days . ' """""""
+# mbf_text = yang kata , " Ini orang sudah kata , ‘ Sahya ada kuasa rubohkan Allah punya ka’abah , dan naikkan dalam tiga hari . ’ "
+1	yang	yang	PRON	_	_	_	_	_	gloss=who
+2	kata	kata	VERB	_	_	_	_	_	gloss=say
+3	","	","	PUNCT	_	_	_	_	_	_
+4	""""	""""	PUNCT	_	_	_	_	_	_
+5	Ini	ini	DET	_	_	_	_	_	gloss=this
+6	orang	orang	NOUN	_	_	_	_	_	gloss=person
+7	sudah	sudah	ADV	_	_	_	_	_	gloss=already|Aspect=Perf
+8	kata	kata	VERB	_	_	_	_	_	gloss=say
+9	","	","	PUNCT	_	_	_	_	_	_
+10	‘   	‘ 	PUNCT	_	_	_	_	_	_
+11	Sahya	sahya	PRON	_	_	_	_	_	gloss=I|Person=1|PronType=Prs
+12	ada	ada	VERB	_	_	_	_	_	gloss=have
+13	kuasa	kuasa	NOUN	_	_	_	_	_	gloss=power
+14	rubohkan	rubohkan	VERB	_	_	_	_	_	gloss=destroy
+15	Allah	allah	PROPN	_	_	_	_	_	gloss=God
+16	punya	punya	PART	_	_	_	_	_	gloss=GEN
+17	ka’abah	ka’abah	NOUN	_	_	_	_	_	gloss=temple
+18	","	","	PUNCT	_	_	_	_	_	_
+19	dan	dan	CCONJ	_	_	_	_	_	gloss=and|ConjType=Cmp
+20	naikkan	naikkan	VERB	_	_	_	_	_	gloss=raise
+21	dalam	dalam	ADP	_	_	_	_	_	gloss=in
+22	tiga	tiga	NUM	_	_	_	_	_	gloss=three|NumType=Card
+23	hari	hari	NOUN	_	_	_	_	_	gloss=days|Number=Plur
+24	.	.	PUNCT	_	_	_	_	_	_
+25	’   	  ’ 	PUNCT	_		_		_	_
+26	""""	""""	PUNCT	_	_	_	_	_	_
+
+# sent_id = 40028016
+# ref_id = Matthew 28:16
+# eng_text = But the eleven disciples went into Galilee , to the mountain where Jesus had sent them ."
+# mbf_text = Ttapi itu s-blas murid-murid pergi Galil , dkat itu gunong yang Isa sudah tntukan sama dia-orang ."
+1	Ttapi	ttapi	CCONJ	_	_	_	_	_	gloss=but
+2	itu	itu	DET	_	_	_	_	_	gloss=that
+3	s-blas	s-blas	NUM	_	_	_	_	_	gloss=eleven|NumType=Card
+4	murid-murid	murid-murid	NOUN	_	_	_	_	_	gloss=disciples|Number=Plur
+5	pergi	pergi	VERB	_	_	_	_	_	gloss=go
+6	Galil	galil	PROPN	_	_	_	_	_	gloss=Galilee
+7	","	","	PUNCT	_	_	_	_	_	_
+8	dkat	dkat	ADP	_	_	_	_	_	gloss=to
+9	itu	itu	DET	_	_	_	_	_	gloss=that
+10	gunong	gunong	NOUN	_	_	_	_	_	gloss=mountain
+11	yang	yang	SCONJ	_	_	_	_	_	gloss=that
+12	Isa	isa	PROPN	_	_	_	_	_	gloss=Jesus
+13	sudah	sudah	ADV	_	_	_	_	_	gloss=already|Aspect=Perf
+14	tntukan	tntukan	VERB	_	_	_	_	_	gloss=appoint
+15	sama	sama	ADP	_	_	_	_	_	gloss=to
+16	dia-orang	dia-orang	PRON	_	_	_	_	_	gloss=them|Case=Acc|Person=3|PronType=Prs|Number=Plur
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = 41002023
+# ref_id = Mark 2:23
+# eng_text = It happened , that he was going on the Sabbath day through the grain fields , and his disciples began , as they went , to pluck the ears of grain ."
+# mbf_text = Dan ada satu hari perhentian , Isa berjalan lalu ladang trigu ; dan sambil berjalan dia punya murid-murid mula’i ptek tangkai-tangkai trigu ."
+1	Dan	dan	CCONJ	_	_	_	_	_	gloss=and
+2	ada	ada	VERB	_	_	_	_	_	gloss=have
+3	satu	satu	NUM	_	_	_	_	_	gloss=one|NumType=Card
+4	hari	hari	NOUN	_	_	_	_	_	gloss=day
+5	perhentian	perhentian	NOUN	_	_	_	_	_	gloss=rest
+6	","	","	PUNCT	_	_	_	_	_	_
+7	Isa	isa	PROPN	_	_	_	_	_	gloss=Jesus
+8	perjalan	perjalan	VERB	_	_	_	_	_	gloss=walk
+9	lalu	lalu	ADP	_	_	_	_	_	gloss=through
+10	ladang	ladang	NOUN	_	_	_	_	_	gloss=field
+11	trigu	trigu	NOUN	_	_	_	_	_	gloss=wheat
+12	;	;	PUNCT	_	_	_	_	_	_
+13	dan	dan	CCONJ	_	_	_	_	_	gloss=and|ConjType=Cmp
+14	sambil	sambil	SCONJ	_	_	_	_	_	gloss=while
+15	berjalan	berjalan	VERB	_	_	_	_	_	gloss=walk
+16	dia	dia	PRON	_	_	_	_	_	gloss=he/she|Person=3|PronType=Prs
+17	punya	punya	PART	_	_	_	_	_	gloss=GEN
+18	murid-murid	murid-murid	NOUN	_	_	_	_	_	gloss=disciples|Number=Plur
+19	mula’i	mula’i	VERB	_	_	_	_	_	gloss=begin
+20	ptek	ptek	VERB	_	_	_	_	_	gloss=pluck
+21	tangkai-tangkai	tangkai-tangkai	NOUN	_	_	_	_	_	gloss=stalks|Number=Plur
+22	trigu	trigu	NOUN	_	_	_	_	_	gloss=wheat
+23	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = 41012032
+# ref_id = Mark 12:32
+# eng_text = The scribe said to him , "" Truly , teacher , you have said well that he is one , and there is none other but he ,"
+# mbf_text = Itu orang pnulis kata sama Isa , "" Btul-lah , guru sudah kata bnar , yang dia itu satu saja , dan t’ada yang lain chuma dia :"
+1	Itu	itu	DET	_	_	_	_	_	gloss=that
+2	orang	orang	NOUN	_	_	_	_	_	gloss=person
+3	pnulis	pnulis	NOUN	_	_	_	_	_	gloss=scribe
+4	kata	kata	VERB	_	_	_	_	_	gloss=say
+5	sama	sama	ADP	_	_	_	_	_	gloss=to/with
+6	Isa	isa	PROPN	_	_	_	_	_	gloss=Jesus
+7	","	","	PUNCT	_	_	_	_	_	_
+8	"	"		PUNCT	_	_	_	_	_|_
+9	Btul-lah	btul-lah	ADJ	_	_	_	_	_	gloss=ture-EMPH|
+10	","	","	PUNCT	_	_	_	_	_	_
+11	guru	guru	NOUN	_	_	_	_	_	gloss=teacher
+12	sudah	sudah	ADV	_	_	_	_	_	gloss=already|Aspect=Perf
+13	kata	kata	VERB	_	_	_	_	_	gloss=say
+14	bnar	bnar	ADJ	_	_	_	_	_	gloss=true
+15	","	","	PUNCT	_	_	_	_	_	_
+16	yang	yang	SCONJ	_	_	_	_	_	gloss=that
+17	dia	dia	PRON	_	_	_	_	_	gloss=he/she|Person=3|PronType=Prs
+18	itu	itu	DET	_	_	_	_	_	gloss=that
+19	satu	satu	PRON	_	_	_	_	_	gloss=one
+20	saja	saja	PART	_	_	_	_	_	gloss=only
+21	","	","	PUNCT	_	_	_	_	_	_
+22	dan	dan	CCONJ	_	_	_	_	_	gloss=and|ConjType=Cmp
+23	t’ada	t’ada	PART	_	_	_	_	_	gloss=NEG
+24	yang	yang	DET	_	_	_	_	_	gloss=that
+25	lain	lain	ADJ	_	_	_	_	_	gloss=other
+26	chuma	chuma	ADP	_	_	_	_	_	gloss=except
+27	dia	dia	PRON	_	_	_	_	_	gloss=him/her|Person=3|PronType=Prs
+28	:	:	PUNCT	_	_	_	_	_	_
+
+# sent_id = 41014037
+# ref_id = Mark 14:37
+# eng_text = He came and found them sleeping , and said to Peter , "" Simon , are you sleeping ? Couldn't you watch one hour ?"
+# mbf_text = Isa datang , dan jumpa dia-orang tertidor , dan kata sama Petrus , "" Hei Simon , angkau tidor-kah ? angkau t’ada kuasa berjaga satu jam-kah ?"
+1	Isa	isa	PROPN	_	_	_	_	_	gloss=Jesus
+2	datang	datang	VERB	_	_	_	_	_	gloss=come
+3	","	","	PUNCT	_	_	_	_	_	_
+4	dan	dan	CCONJ	_	_	_	_	_	gloss=and|ConjType=Cmp
+5	jumpa	jumpa	VERB	_	_	_	_	_	gloss=find
+6	dia-orang	dia-orang	PRON	_	_	_	_	_	gloss=they/them|Person=3|PronType=Prs|Number=Plur
+7	tertidor	tertidor	VERB	_	_	_	_	_	gloss=asleep|Degree=Pos
+8	","	","	PUNCT	_	_	_	_	_	_
+9	dan	dan	CCONJ	_	_	_	_	_	gloss=and|ConjType=Cmp
+10	kata	kata	VERB	_	_	_	_	_	gloss=say
+11	sama	sama	ADP	_	_	_	_	_	gloss=to/with
+12	Petrus	petrus	PROPN	_	_	_	_	_	gloss=Peter
+13	","	","	PUNCT	_	_	_	_	_	_
+14	""""	""""	PUNCT	_	_	_	_	_	_
+15	Hei	hei	INTJ	_	_	_	_	_	gloss=hey
+16	Simon	simon	PROPN	_	_	_	_	_	gloss=Simon
+17	","	","	PUNCT	_	_	_	_	_	_
+18	angkau	angkau	PRON	_	_	_	_	_	gloss=you|Person=2|PronType=Prs
+19	tidor-kah	tidor-kah	VERB	_	_	_	_	_	_
+20	?	?	PUNCT	_	_	_	_	_	_
+21	angkau	angkau	PRON	_	_	_	_	_	gloss=you|Person=2|PronType=Prs
+22	t’ada	t’ada	PART	_	_	_	_	_	gloss=NEG
+23	kuasa	kuasa	NOUN	_	_	_	_	_	gloss=power
+24	berjaga	berjaga	VERB	_	_	_	_	_	gloss=stay.awake
+25	satu	satu	NUM	_	_	_	_	_	gloss=one|NumType=Card
+26	jam-kah	jam-kah	NOUN	_	_	_	_	_	gloss=hour-Q
+27	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = 42004002
+# ref_id = Luke 4:2
+# eng_text = for forty days , being tempted by the devil . He ate nothing in those days . Afterward , when they were completed , he was hungry ."
+# mbf_text = ampat-puloh hari punya lama , dan kna choba oleh iblis . Itu ktika dia t’ada makan satu apa pun : jadi bila sudah chukop hari-nya , dia naik lapar ."
+1	ampat-puloh	ampat-puloh	NUM	_	_	_	_	_	gloss=forty|NumType=Card
+2	hari	hari	NOUN	_	_	_	_	_	gloss=days|Number=Plur
+3	punya	punya	PART	_	_	_	_	_	gloss=GEN
+4	lama	lama	NOUN	_	_	_	_	_	gloss=duration
+5	","	","	PUNCT	_	_	_	_	_	_
+6	dan	dan	CCONJ	_	_	_	_	_	gloss=and|ConjType=Cmp
+7	kna	kna	VERB	_	_	_	_	_	gloss=undergo
+8	choba	choba	VERB	_	_	_	_	_	gloss=test
+9	oleh	oleh	ADP	_	_	_	_	_	gloss=by
+10	iblis	iblis	NOUN	_	_	_	_	_	gloss=devil
+11	.	.	PUNCT	_	_	_	_	_	_
+12	Itu	itu	DET	_	_	_	_	_	gloss=that
+13	ktika	ktika	NOUN	_	_	_	_	_	gloss=time
+14	dia	dia	PRON	_	_	_	_	_	gloss=he/she|Person=3|PronType=Prs
+15	t’ada	t’ada	PART	_	_	_	_	_	 gloss=NEG
+16	makan	makan	VERB	_	_	_	_	_	gloss=eat
+17	satu	satu	NUM	_	_	_	_	_	gloss=one|NumType=Card
+18	apa	apa	PRON	_	_	_	_	_	gloss=thing
+19	pun	pun	PART	_	_	_	_	_	gloss=even
+20	:	:	PUNCT	_	_	_	_	_	_
+21	jadi	jadi	CCONJ	_	_	_	_	_	gloss=so
+22	bila	bila	SCONJ	_	_	_	_	_	gloss=when
+23	sudah	sudah	ADV	_	_	_	_	_	gloss=already|Aspect=Perf
+24	chukop	chukop	ADJ	_	_	_	_	_	gloss=complete
+25	hari-nya	hari-nya	NOUN	_	_	_	_	_	gloss=day-3SG.POSS|Number=Sing
+26	","	","	PUNCT	_	_	_	_	_	_
+27	dia	dia	PRON	_	_	_	_	_	gloss=he/she|Person=3|PronType=Prs
+28	naik	naik	ADV	_	_	_	_	_	gloss=become
+29	lapar	lapar	ADJ	_	_	_	_	_	gloss=hungry|Degree=Pos
+30	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = 42016013
+# ref_id = Luke 16:13
+# eng_text = No servant can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You aren't able to serve God and mammon . """
+# mbf_text = Satu hamba ta’boleh jadi hamba sama dua tuan : kerna dia nanti bnchi satu dan kaseh yang lain ; atau dia nanti pegang sama satu dan kurang hormatkan yang lain . Kamu ta’boleh jadi hamba Allah dan hamba kkaya’an pun . """
+1	Satu	satu	NUM	_	_	_	_	_	gloss=one|NumType=Card
+2	hamba	hamba	NOUN	_	_	_	_	_	gloss=servant
+3	ta’boleh	ta’boleh	AUX	_	_	_	_	_	gloss=NEG.can
+4	jadi	jadi	VERB	_	_	_	_	_	gloss=become
+5	hamba	hamba	NOUN	_	_	_	_	_	gloss=servant
+6	sama	sama	ADP	_	_	_	_	_	gloss=to
+7	dua	dua	NUM	_	_	_	_	_	gloss=two|NumType=Card
+8	tuan	tuan	NOUN	_	_	_	_	_	gloss=master|Number=Plur
+9	:	:	PUNCT	_	_	_	_	_	_
+10	kerna	kerna	SCONJ	_	_	_	_	_	gloss=because
+11	dia	dia	PRON	_	_	_	_	_	gloss=he/she|Person=3|PronType=Prs
+12	nanti	nanti	ADV	_	_	_	_	_	gloss=FUT
+13	bnchi	bnchi	VERB	_	_	_	_	_	gloss=hate
+14	satu	satu	PRON	_	_	_	_	_	gloss=one
+15	dan	dan	CCONJ	_	_	_	_	_	gloss=and|ConjType=Cmp
+16	kaseh	kaseh	VERB	_	_	_	_	_	gloss=love
+17	yang	yang	DET	_	_	_	_	_	gloss=that
+18	lain	lain	ADJ	_	_	_	_	_	gloss=other
+19	;	;	PUNCT	_	_	_	_	_	_
+20	atau	atau	CCONJ	_	_	_	_	_	gloss=or
+21	dia	dia	PRON	_	_	_	_	_	gloss=he/she|Person=3|PronType=Prs
+22	nanti	nanti	ADV	_	_	_	_	_	gloss=FUT
+23	pegang	pegang	VERB	_	_	_	_	_	gloss=hold
+24	sama	sama	ADP	_	_	_	_	_	gloss=to/with
+25	satu	satu	PRON	_	_	_	_	_	gloss=one
+26	dan	dan	CCONJ	_	_	_	_	_	gloss=and|ConjType=Cmp
+27	kurang	kurang	DAV	_	_	_	_	_	gloss=less
+28	hormatkan	hormatkan	VERB	_	_	_	_	_	gloss=respect
+29	yang	yang	SET	_	_	_	_	_	gloss=that
+30	lain	lain	ADJ	_	_	_	_	_	gloss=other
+31	.	.	PUNCT	_	_	_	_	_	_
+32	Kamu	kamu	PRON	_	_	_	_	_	gloss=you|Person=2|PronType=Prs
+33	ta’boleh	ta’boleh	AUX	_	_	_	_	_	gloss=NEG.can
+34	jadi	jadi	VERB	_	_	_	_	_	gloss=become
+35	hamba	hamba	NOUN	_	_	_	_	_	gloss=servant
+36	Allah	allah	PROPN	_	_	_	_	_	gloss=God
+37	dan	dan	CCONJ	_	_	_	_	_	gloss=and|ConjType=Cmp
+38	hamba	hamba	NOUN	_	_	_	_	_	gloss=servant
+39	kkaya’an	kkaya’an	NOUN	_	_	_	_	_	gloss=wealth
+40	pun	pun	PART	_	_	_	_	_	gloss=even
+41	.	.	PUNCT	_	_	_	_	_	_
+42	""""	""""	PUNCT	_	_	_	_	_	_
+
+# sent_id = 42024018
+# ref_id = Luke 24:18
+# eng_text = One of them , named Cleopas , answered him , "" Are you the only one travelling in Jerusalem who doesn't know the things which have happened there in these days ? """
+# mbf_text = Dan satu orang yang bernama Kliopas jawab kata sama dia , "" Angkau ini tumpang s’orang-s’orang-kah di Yerusalim dan ta’tahu itu perkara-perkara yang sudah jadi di situ ini brapa hari ? """
+1	Dan	dan	CCONJ	_	_	_	_	_	gloss=Then|PronType=Dem
+2	satu	satu	NUM	_	_	_	_	_	gloss=one|NumType=Card
+3	orang	orang	NOUN	_	_	_	_	_	gloss=person
+4	yang	yang	PRON	_	_	_	_	_	gloss=who
+5	bernama	bernama	VERB	_	_	_	_	_	gloss=be.named
+6	Kliopas	kliopas	PROPN	_	_	_	_	_	gloss=Cleopas
+7	jawab	jawab	VERB	_	_	_	_	_	 gloss=answer
+8	kata	kata	VERB	_	_	_	_	_	gloss=say
+9	sama	sama	ADP	_	_	_	_	_	gloss=to/with
+10	dia	dia	PRON	_	_	_	_	_	gloss=he/she|Person=3|PronType=Prs
+11	","	","	PUNCT	_	_	_	_	_	_
+12	""""	""""	PUNCT	_	_	_	_	_	_
+13	Angkau	angkau	PRON	_	_	_	_	_	gloss=you|Person=2|PronType=Prs
+14	ini	ini	DET	_	_	_	_	_	gloss=this
+15	tumpang	tumpang	VERB	_	_	_	_	_	gloss=stay.as.stranger
+16	s’orang-s’orang-kah	s’orang-s’orang-kah	PRON	_	_	_	_	_	gloss=alone-Q
+17	di	di	ADP	_	_	_	_	_	gloss=in
+18	Yerusalim	yerusalim	PROPN	_	_	_	_	_	gloss=Jerusalem
+19	dan	dan	CCONJ	_	_	_	_	_	gloss=and
+20	ta’tahu	ta’tahu	VERB	_	_	_	_	_	gloss=NEG.know
+21	itu	itu	DET	_	_	_	_	_	gloss=that
+22	perkara-perkara	perkara-perkara	NOUN	_	_	_	_	_	gloss=matters|Number=Plur
+23	yang	yang	PRON	_	_	_	_	_	gloss=who
+24	sudah	sudah	ADV	_	_	_	_	_	gloss=has|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+25	jadi	jadi	VERB	_	_	_	_	_	gloss=become
+26	di	di	ADP	_	_	_	_	_	gloss=in
+27	situ	situ	PRON	_	_	_	_	_	gloss=there
+28	ini	ini	DET	_	_	_	_	_	gloss=this
+29	brapa	brapa	NUM	_	_	_	_	_	gloss=how.many|NumType=Card
+30	hari	hari	NOUN	_	_	_	_	_	gloss=days|Number=Plur
+31	?	?	PUNCT	_	_	_	_	_	_
+32	""""	""""	PUNCT	_	_	_	_	_	_
+
+# sent_id = 43001039
+# ref_id = John 1:39
+# eng_text = He said to them , "" Come , and see . "" They came and saw where he was staying , and they stayed with him that day . It was about the tenth hour ."
+# mbf_text = Dia kata sama dia-orang , "" Mari-lah , dan kamu nanti tengok . "" Jadi itu dia-orang datang , dan tengok di mana Isa tinggal ; dan itu hari dia-orang tinggal sama-sama dia : itu ktika ada dkat pukol ampat ptang ."
+1	Dia	dia	PRON	_	_	_	_	_	gloss=he/she|Person=3|PronType=Prs
+2	kata	kata	VERB	_	_	_	_	_	gloss=say
+3	sama	sama	ADP	_	_	_	_	_	gloss=to/with
+4	dia-orang	dia-orang	PRON	_	_	_	_	_	gloss=they/them|Person=3|PronType=Prs|Number=Plur
+5	","	","	PUNCT	_	_	_	_	_	_
+6	""""	""""	PUNCT	_	_	_	_	_	_
+7	Mari-lah	mari-lah	VERB	_	_	_	_	_	gloss=Come-EMPH
+8	","	","	PUNCT	_	_	_	_	_	_
+9	dan	dan	CCONJ	_	_	_	_	_	gloss=and|ConjType=Cmp
+10	kamu	kamu	PRON	_	_	_	_	_	gloss=you|Person=2|PronType=Prs|Number=Plur
+11	nanti	nanti	ADV	_	_	_	_	_	gloss=FUT
+12	tengok	tengok	VERB	_	_	_	_	_	gloss=see
+13	.	.	PUNCT	_	_	_	_	_	_
+14	""""	""""	PUNCT	_	_	_	_	_	_
+15	Jadi	jadi	CCONJ	_	_	_	_	_	gloss=so
+16	itu	itu	DET	_	_	_	_	_	gloss=that
+17	dia-orang	dia-orang	PRON	_	_	_	_	_	gloss=they/them|Person=3|PronType=Prs|Number=Plur
+18	datang	datang	VERB	_	_	_	_	_	gloss=come
+19	","	","	PUNCT	_	_	_	_	_	_
+20	dan	dan	CCONJ	_	_	_	_	_	gloss=and|ConjType=Cmp
+21	tengok	tengok	VERB	_	_	_	_	_	gloss=see
+22	di	di	ADP	_	_	_	_	_	gloss=in
+23	mana	mana	PRON	_	_	_	_	_	gloss=where
+24	Isa	isa	PROPN	_	_	_	_	_	gloss=Jesus
+25	tinggal	tinggal	VERB	_	_	_	_	_	gloss=stay
+26	;	;	PUNCT	_	_	_	_	_	_
+27	dan	dan	CCONJ	_	_	_	_	_	gloss=and|ConjType=Cmp
+28	itu	itu	DET	_	_	_	_	_	gloss=that
+29	hari	hari	NOUN	_	_	_	_	_	gloss=day
+30	dia-orang	dia-orang	PRON	_	_	_	_	_	gloss=they/them|Person=3|PronType=Prs|Number=Plur
+31	tinggal	tinggal	VERB	_	_	_	_	_	gloss=stay
+32	sama-sama	sama-sama	ADV	_	_	_	_	_	gloss=together
+33	dia	dia	PRON	_	_	_	_	_	gloss=he/she|Person=3|PronType=Prs
+34	:	:	PUNCT	_	_	_	_	_	_
+35	itu	itu	DET	_	_	_	_	_	gloss=that
+36	ktika	ktika	NOUN	_	_	_	_	_	gloss=time
+37	ada	ada	VERB	_	_	_	_	_	gloss=have
+38	dkat	dkat	ADP	_	_	_	_	_	gloss=at
+39	pukol	pukol	NOUN	_	_	_	_	_	gloss=o’clock
+40	ampat	ampat	NUM	_	_	_	_	_	gloss=four|NumType=Card
+41	ptang	ptang	NOUN	_	_	_	_	_	gloss=afternoon
+42	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = 43003016
+# ref_id = John 3:16
+# eng_text = For God so loved the world , that he gave his one and only Son , that whoever believes in him should not perish , but have eternal life ."
+# mbf_text = "" Kerna bgitu-lah Allah sudah kaseh ini dunia , sampai dia kasi Anak-nya yang tunggal spaya masing-masing orang yang perchaya sama dia jangan binasa , ttapi dapat hidop yang kkal ."
+1	""""	""""	PUNCT	_	_	_	_	_	_
+2	Kerna	kerna	SCONJ	_	_	_	_	_	gloss=because
+3	bgitu-lah	bgitu-lah	ADV	_	_	_	_	_	gloss=thus-EMPH
+4	Allah	allah	PROPN	_	_	_	_	_	gloss=God
+5	sudah	sudah	ADV	_	_	_	_	_	gloss=already|Aspect=Perf
+6	kaseh	kaseh	VERB	_	_	_	_	_	gloss=love
+7	ini	ini	DET	_	_	_	_	_	gloss=this
+8	dunia	dunia	NOUN	_	_	_	_	_	gloss=world
+9	","	","	PUNCT	_	_	_	_	_	_
+10	sampai	sampai	SCONJ	_	_	_	_	_	gloss=until
+11	dia	dia	PRON	_	_	_	_	_	gloss=he/she|Person=3|PronType=Prs
+12	kasi	kasi	VERB	_	_	_	_	_	gloss=give
+13	Anak-nya	anak-nya	PROPN	_	_	_	_	_	gloss=child-3SG.POSS
+14	yang	yang	PRON	_	_	_	_	_	gloss=who
+15	tunggal	tunggal	ADJ	_	_	_	_	_	gloss=single
+16	spaya	spaya	SCONJ	_	_	_	_	_	gloss=so.that
+17	masing-masing	masing-masing	PRON	_	_	_	_	_	gloss=each
+18	orang	orang	NOUN	_	_	_	_	_	gloss=person
+19	yang	yang	PRON	_	_	_	_	_	gloss=who
+20	perchaya	perchaya	VERB	_	_	_	_	_	gloss=believe
+21	sama	sama	ADP	_	_	_	_	_	gloss=in
+22	dia	dia	PRON	_	_	_	_	_	gloss=him/her|Person=3|PronType=Prs
+23	jangan	jangan	PART	_	_	_	_	_	gloss=NEG.IMP
+24	binasa	binasa	VERB	_	_	_	_	_	gloss=perish
+25	","	","	PUNCT	_	_	_	_	_	_
+26	ttapi	ttapi	CCONJ	_	_	_	_	_	gloss=but|ConjType=Cmp
+27	dapat	dapat	unk	_	_	_	_	_	gloss=find
+28	hidop	hidop	NOUN	_	_	_	_	_	gloss=life
+29	yang	yang	PRON	_	_	_	_	_	gloss=who
+30	kkal	kkal	ADJ	_	_	_	_	_	gloss=eternal|Degree=Pos
+31	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = 44002030
+# ref_id = Acts 2:30
+# eng_text = Therefore , being a prophet , and knowing that God had sworn with an oath to him that of the fruit of his body , according to the flesh , he would raise up the Christ to sit on his throne ,"
+# mbf_text = Sbab itu dalam hal dia satu nabi , dan sudah tahu Allah sudah bersumpah k-pada-nya yang dia nanti dudokkan satu orang deri-pada kturunan-nya di atas takhta kraja’an-nya ;"
+1	Sbab	sbab	SCONJ	_	_	_	_	_	gloss=Therefore
+2	itu	itu	PRON	_	_	_	_	_	gloss=that
+3	dalam	dalam	ADP	_	_	_	_	_	gloss=in
+4	hal	hal	NOUN	_	_	_	_	_	gloss=matter
+5	dia	dia	PRON	_	_	_	_	_	gloss=he/she|Person=3|PronType=Prs
+6	satu	satu	DET	_	_	_	_	_	gloss=one|NumType=Card
+7	nabi	nabi	NOUN	_	_	_	_	_	gloss=prophet
+8	","	","	PUNCT	_	_	_	_	_	_
+9	dan	dan	CCONJ	_	_	_	_	_	gloss=and|ConjType=Cmp
+10	sudah	sudah	ADV	_	_	_	_	_	gloss=already|Aspect=Perf
+11	tahu	tahu	VERB	_	_	_	_	_	gloss=know
+12	Allah	allah	PROPN	_	_	_	_	_	gloss=God
+13	sudah	sudah	ADV	_	_	_	_	_	gloss=already|Aspect=Perf
+14	bersumpah	bersumpah	VERB	_	_	_	_	_	gloss=swear
+15	k-pada-nya	k-pada-nya	ADP	_	_	_	_	_	gloss=to-3SG.POSS
+16	yang	yang	SCONJ	_	_	_	_	_	gloss=that
+17	dia	dia	PRON	_	_	_	_	_	gloss=he/she|Person=3|PronType=Prs
+18	nanti	nanti	ADV	_	_	_	_	_	gloss=FUT
+19	dudokkan	dudokkan	VERB	_	_	_	_	_	gloss=seat
+20	satu	satu	NUM	_	_	_	_	_	gloss=one|NumType=Card
+21	orang	orang	NOUN	_	_	_	_	_	gloss=person
+22	deri-pada	deri-pada	ADP	_	_	_	_	_	gloss=from
+23	kturunan-nya	kturunan-nya	NOUN	_	_	_	_	_	gloss=descendant-3SG.POSS
+24	di	di	ADP	_	_	_	_	_	gloss=on
+25	atas	atas	NOUN	_	_	_	_	_	gloss=top
+26	takhta	takhta	NOUN	_	_	_	_	_	gloss=throne
+27	kraja’an-nya	kraja’an-nya	NOUN	_	_	_	_	_	gloss=kingdom-3SG.POSS
+28	;	;	PUNCT	_	_	_	_	_	_
+
+# sent_id = 44009038
+# ref_id = Acts 9:38
+# eng_text = As Lydda was near Joppa , the disciples , hearing that Peter was there , sent two men to him , imploring him not to delay in coming to them ."
+# mbf_text = Dan sbab Ludda dkat Yafa , murid-murid dngar yang Petrus ada di situ , dan dia-orang suroh dua orang pergi sama dia , dan minta dia , "" Jangan-lah lengah datang k-pada kita . """
+1	Dan	dan	CCONJ	_	_	_	_	_	gloss=and
+2	sbab	sbab	SCONJ	_	_	_	_	_	gloss=because
+3	Ludda	ludda	PROPN	_	_	_	_	_	gloss=Lydda
+4	dkat	dkat	ADP	_	_	_	_	_	gloss=near
+5	Yafa	yafa	PROPN	_	_	_	_	_	gloss=Joppa
+6	","	","	PUNCT	_	_	_	_	_	_
+7	murid-murid	murid-murid	NOUN	_	_	_	_	_	gloss=disciples|Number=Plur
+8	dngar	dngar	VERB	_	_	_	_	_	gloss=hear
+9	yang	yang	SCONJ	_	_	_	_	_	gloss=that
+10	Petrus	petrus	PROPN	_	_	_	_	_	gloss=Peter
+11	ada	ada	VERB	_	_	_	_	_	gloss=be
+12	di	di	ADP	_	_	_	_	_	gloss=in
+13	situ	situ	PRON	_	_	_	_	_	gloss=there
+14	","	","	PUNCT	_	_	_	_	_	_
+15	dan	dan	CCONJ	_	_	_	_	_	gloss=and
+16	dia-orang	dia-orang	PRON	_	_	_	_	_	gloss=they/them|Person=3|PronType=Prs|Number=Plur
+17	suroh	suroh	VERB	_	_	_	_	_	gloss=send
+18	dua	dua	NUM	_	_	_	_	_	gloss=two|NumType=Card
+19	orang	orang	NOUN	_	_	_	_	_	gloss=person|Number=Plur
+20	pergi	pergi	VERB	_	_	_	_	_	gloss=go
+21	sama	sama	ADP	_	_	_	_	_	gloss=to/with
+22	dia	dia	PRON	_	_	_	_	_	gloss=him/her|Person=3|PronType=Prs
+23	","	","	PUNCT	_	_	_	_	_	_
+24	dan	dan	CCONJ	_	_	_	_	_	gloss=and
+25	minta	minta	VERB	_	_	_	_	_	gloss=ask
+26	dia	dia	PRON	_	_	_	_	_	gloss=him/her|Person=3|PronType=Prs
+27	","	","	PUNCT	_	_	_	_	_	_
+28	""""	""""	PUNCT	_	_	_	_	_	_
+29	Jangan-lah	jangan-lah	PART	_	_	_	_	_	gloss=NEG.IMP-EMPH
+30	lengah	lengah	VERB	_	_	_	_	_	gloss=delay
+31	datang	datang	VERB	_	_	_	_	_	gloss=come
+32	k-pada	k-pada	ADP	_	_	_	_	_	gloss=to
+33	kita	kita	PRON	_	_	_	_	_	gloss=us|Person=1|PronType=Prs|Number=Plur
+34	.	.	PUNCT	_	_	_	_	_	_
+35	""""	""""	PUNCT	_	_	_	_	_	_
+
+# sent_id = 44011011
+# ref_id = Acts 11:11
+# eng_text = Behold , immediately three men stood before the house where I was , having been sent from Caesarea to me ."
+# mbf_text = Dan itu juga ada tiga orang berdiri dpan rumah di mana kita ada , ia’itu orang-orang yang sudah di-hantarkan deri Kaisariah k-pada sahya ."
+1	Dan	dan	CCONJ	_	_	_	_	_	gloss=and
+2	itu	itu	PRON	_	_	_	_	_	gloss=that
+3	juga	juga	PART	_	_	_	_	_	gloss=also
+4	ada	ada	ADV	_	_	_	_	_	gloss=have
+5	tiga	tiga	NUM	_	_	_	_	_	gloss=three|NumType=Card
+6	orang	orang	NOUN	_	_	_	_	_	gloss=person|Number=Plur
+7	berdiri	berdiri	VERB	_	_	_	_	_	gloss=stand
+8	dpan	dpan	ADP	_	_	_	_	_	gloss=in.front.of
+9	rumah	rumah	NOUN	_	_	_	_	_	gloss=house
+10	di	di	ADP	_	_	_	_	_	gloss=in
+11	mana	mana	SCONJ	_	_	_	_	_	gloss=where
+12	kita	kita	PRON	_	_	_	_	_	gloss=we|Case=Nom|Number=Plur|Person=1|PronType=Prs
+13	ada	ada	VERB	_	_	_	_	_	gloss=have
+14	","	","	PUNCT	_	_	_	_	_	_
+15	ia’itu	ia’itu	SCONJ	_	_	_	_	_	gloss=that.is
+16	orang-orang	orang-orang	NOUN	_	_	_	_	_	gloss=people|Number=Plur
+17	yang	yang	PRON	_	_	_	_	_	gloss=who
+18	sudah	sudah	ADV	_	_	_	_	_	gloss=already|Aspect=Perf
+19	di-hantarkan	di-hantarkan	VERB	_	_	_	_	_	gloss=PASS.send
+20	deri	deri	ADP	_	_	_	_	_	gloss=from
+21	Kaisariah	kaisariah	PROPN	_	_	_	_	_	gloss=Caesarea
+22	k-pada	k-pada	ADP	_	_	_	_	_	gloss=to
+23	sahya	sahya	PRON	_	_	_	_	_	gloss=me|Person=1|PronType=Prs
+24	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = 44021034
+# ref_id = Acts 21:34
+# eng_text = Some shouted one thing , some another , among the crowd . When he couldn't find out the truth because of the noise , he commanded him to be brought into the barracks ."
+# mbf_text = Dan antara orang-banyak itu , s-tngah bertriak kata bgini , s-tngah kata bgitu : dan bila itu panglima ta’boleh tahu apa-apa dngan tntu deri sbab itu gadoh , dia suroh orang bawa Paulus masok kota ."
+1	Dan	dan	CCONJ	_	_	_	_	_	gloss=and
+2	antara	antara	ADP	_	_	_	_	_	gloss=among
+3	orang-banyak	orang-banyak	NOUN	_	_	_	_	_	gloss=crowd|Number=Plur
+4	itu	itu	DET	_	_	_	_	_	gloss=that
+5	","	","	PUNCT	_	_	_	_	_	_
+6	s-tngah	s-tngah	PRON	_	_	_	_	_	gloss=some|PronType=Ind
+7	bertriak	bertriak	VERB	_	_	_	_	_	gloss=shout
+8	kata	kata	VERB	_	_	_	_	_	gloss=say
+9	bgini	bgini	ADV	_	_	_	_	_	gloss=thus
+10	","	","	PUNCT	_	_	_	_	_	_
+11	s-tngah	s-tngah	PRON	_	_	_	_	_	gloss=some|PronType=Ind
+12	kata	kata	VERB	_	_	_	_	_	gloss=say
+13	bgitu	bgitu	ADV	_	_	_	_	_	gloss=thus
+14	:	:	PUNCT	_	_	_	_	_	_
+15	dan	dan	CCONJ	_	_	_	_	_	gloss=and|ConjType=Cmp
+16	bila	bila	SCONJ	_	_	_	_	_	gloss=when
+17	itu	itu	DET	_	_	_	_	_	gloss=that
+18	panglima	panglima	NOUN	_	_	_	_	_	gloss=commander
+19	ta’boleh	ta’boleh	AUX	_	_	_	_	_	gloss=NEG.can
+20	tahu	tahu	VERB	_	_	_	_	_	gloss=know
+21	apa-apa	apa-apa	PRON	_	_	_	_	_	gloss=anything
+22	dngan	dngan	ADP	_	_	_	_	_	gloss=with
+23	tntu	tntu	ADJ	_	_	_	_	_	gloss=certain
+24	deri	deri	ADP	_	_	_	_	_	gloss=from
+25	sbab	sbab	NOUN	_	_	_	_	_	gloss=cause
+26	itu	itu	DET	_	_	_	_	_	gloss=that
+27	gadoh	gadoh	NOUN	_	_	_	_	_	gloss=commotion
+28	","	","	PUNCT	_	_	_	_	_	_
+29	dia	dia	PRON	_	_	_	_	_	gloss=he/she|Person=3|PronType=Prs
+30	suroh	suroh	VERB	_	_	_	_	_	gloss=order
+31	orang	orang	NOUN	_	_	_	_	_	gloss=person|Number=Plur
+32	bawa	bawa	VERB	_	_	_	_	_	gloss=bring
+33	Paulus	paulus	PROPN	_	_	_	_	_	gloss=Paul
+34	masok	masok	VERB	_	_	_	_	_	gloss=enter
+35	kota	kota	NOUN	_	_	_	_	_	gloss=fortress
+36	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = 47012002
+# ref_id = 2 Corinthians 12:2
+# eng_text = I know a man in Christ , fourteen years ago ( whether in the body , I don't know , or whether out of the body , I don't know ; God knows ) , such a one caught up into the third heaven ."
+# mbf_text = Sahya tahu satu orang dalam Almaseh , ampat-blas tahun dhulu , itu orang sudah di-sambar naik sampai shorga yang nombor tiga ( ’ ntah di dalam badan-kah , sahya ta’tahu ; atau di luar badan-kah , sahya ta’tahu ; Allah juga yang tahu ) ,
+1	Sahya	sahya	PRON	_	_	_	_	_	gloss=I|Person=1|PronType=Prs
+2	tahu	tahu	VERB	_	_	_	_	_	gloss=know
+3	satu	satu	NUM	_	_	_	_	_	gloss=one|NumType=Card
+4	orang	orang	NOUN	_	_	_	_	_	gloss=person
+5	dalam	dalam	ADP	_	_	_	_	_	gloss=in
+6	Almaseh	almaseh	PROPN	_	_	_	_	_	gloss=Christ
+7	","	","	PUNCT	_	_	_	_	_	_
+8	ampat-blas	ampat-blas	NUM	_	_	_	_	_	gloss=fourteen|NumType=Card
+9	tahun	tahun	NOUN	_	_	_	_	_	gloss=years|Number=Plur
+10	dhulu	dhulu	ADV	_	_	_	_	_	gloss=ago
+11	","	","	PUNCT	_	_	_	_	_	_
+12	itu	itu	DET	_	_	_	_	_	gloss=that
+13	orang	orang	NOUN	_	_	_	_	_	gloss=person
+14	sudah	sudah	ADV	_	_	_	_	_	gloss=already|Aspect=Perf
+15	di-sambar	di-sambar	VERB	_	_	_	_	_	gloss=PASS.catch.up
+16	naik	naik	VERB	_	_	_	_	_	gloss=go.up
+17	sampai	sampai	ADP	_	_	_	_	_	gloss=to
+18	shorga	shorga	NOUN	_	_	_	_	_	gloss=Heaven
+19	yang	yang	PRON	_	_	_	_	_	gloss=that
+20	nombor	nombor	NOUN	_	_	_	_	_	gloss=number
+21	tiga	tiga	NUM	_	_	_	_	_	gloss=three|NumType=Card
+22	(	(	PUNCT	_	_	_	_	_	_
+23	’  	’	PUNCT	_	_	_	_	_	_
+24	ntah	ntah	ADV	_	_	_	_	_	gloss=whether
+25	di	di	ADP	_	_	_	_	_	gloss=in
+26	dalam	dalam	ADP	_	_	_	_	_	gloss=inside
+27	badan-kah	badan-kah	NOUN	_	_	_	_	_	gloss=body-Q
+28	","	","	PUNCT	_	_	_	_	_	_
+29	sahya	sahya	PRON	_	_	_	_	_	gloss=I|Person=1|PronType=Prs
+30	ta’tahu	ta’tahu	VERB	_	_	_	_	_	gloss=NEG.know
+31	;	;	PUNCT	_	_	_	_	_	_
+32	atau	atau	CCONJ	_	_	_	_	_	gloss=or|ConjType=Cmp
+33	di	di	ADP	_	_	_	_	_	gloss=out
+34	luar	luar	ADP	_	_	_	_	_	gloss=outside
+35	badan-kah	badan-kah	NOUN	_	_	_	_	_	gloss=body-Q
+36	","	","	PUNCT	_	_	_	_	_	_
+37	sahya	sahya	PRON	_	_	_	_	_	gloss=I|Person=1|PronType=Prs
+38	ta’tahu	ta’tahu	VERB	_	_	_	_	_	gloss=NEG.know
+39	;	;	PUNCT	_	_	_	_	_	_
+40	Allah	allah	PROPN	_	_	_	_	_	gloss=God
+41	juga	juga	ADV	_	_	_	_	_	gloss=also
+42	yang	yang	PRON	_	_	_	_	_	gloss=that
+43	tahu	tahu	VERB	_	_	_	_	_	gloss=know
+44	)	)	PUNCT	_	_	_	_	_	_
+45	","	","	PUNCT	_	_	_	_	_	_
+
+# sent_id = 62004009
+# ref_id = 1 John 4:9
+# eng_text = By this was God's love revealed in us , that God has sent his only born Son into the world that we might live through him ."
+# mbf_text = Kaseh Allah sudah di-nyatakan dalam kita punya hal dngan ini , ia’itu yang Allah sudah hantarkan Anak-nya yang tunggal itu masok dunia ini , spaya kita boleh hidop oleh dia ."
+1	Kaseh	kaseh	NOUN	_	_	_	_	_	gloss=love
+2	Allah	allah	PROPN	_	_	_	_	_	gloss=God
+3	sudah	sudah	ADV	_	_	_	_	_	gloss=already|Aspect=Perf
+4	di-nyatakan	di-nyatakan	VERB	_	_	_	_	_	gloss=PASS.make.known
+5	dalam	dalam	ADP	_	_	_	_	_	gloss=in
+6	kita	kita	PRON	_	_	_	_	_	gloss=we|Case=Nom|Number=Plur|Person=1|PronType=Prs
+7	punya	punya	PART	_	_	_	_	_	gloss=GEN
+8	hal	hal	NOUN	_	_	_	_	_	gloss=case
+9	dngan	dngan	ADP	_	_	_	_	_	gloss=by
+10	ini	ini	DET	_	_	_	_	_	gloss=this
+11	","	","	PUNCT	_	_	_	_	_	_
+12	ia’itu	ia’itu	SCONJ	_	_	_	_	_	gloss=that.is
+13	yang	yang	SCONJ	_	_	_	_	_	gloss=that
+14	Allah	allah	PROPN	_	_	_	_	_	gloss=God
+15	sudah	sudah	ADV	_	_	_	_	_	gloss=already|Aspect=Perf
+16	hantarkan	hantarkan	VERB	_	_	_	_	_	gloss=send
+17	Anak-nya	anak-nya	NOUN	_	_	_	_	_	gloss=Son-3SG.POSS
+18	yang	yang	PRON	_	_	_	_	_	gloss=that
+19	tunggal	tunggal	ADJ	_	_	_	_	_	gloss=single
+20	itu	itu	DET	_	_	_	_	_	gloss=that
+21	masok	masok	VERB	_	_	_	_	_	gloss=enter
+22	dunia	dunia	NOUN	_	_	_	_	_	gloss=world
+23	ini	ini	DET	_	_	_	_	_	gloss=this
+24	","	","	PUNCT	_	_	_	_	_	_
+25	spaya	spaya	SCONJ	_	_	_	_	_	gloss=so.that
+26	kita	kita	PRON	_	_	_	_	_	gloss=we|Case=Nom|Number=Plur|Person=1|PronType=Prs
+27	boleh	boleh	AUX	_	_	_	_	_	gloss=can
+28	hidop	hidop	VERB	_	_	_	_	_	gloss=live
+29	oleh	oleh	ADP	_	_	_	_	_	gloss=through
+30	dia	dia	PRON	_	_	_	_	_	gloss=he/she|Person=3|PronType=Prs
+31	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = 63001005
+# ref_id = 2 John 1:5
+# eng_text = Now I beg you , dear lady , not as though I wrote to you a new commandment , but that which we had from the beginning , that we love one another ."
+# mbf_text = Dan skarang , hei Nyonya , bukan-nya sperti sahya ada tulis satu hukum yang bharu k-pada Nyonya , ttapi itu hukum yang kita sudah ada deri mula-mula , ia’itu sahya minta sama Nyonya yang kita kaseh satu sama lain ."
+1	Dan	dan	CCONJ	_	_	_	_	_	gloss=and
+2	skarang	skarang	ADV	_	_	_	_	_	gloss=now
+3	","	","	PUNCT	_	_	_	_	_	_
+4	hei	hei	INTJ	_	_	_	_	_	gloss=hey
+5	Nyonya	nyonya	NOUN	_	_	_	_	_	gloss=lady
+6	","	","	PUNCT	_	_	_	_	_	_
+7	bukan-nya	bukan-nya	PART	_	_	_	_	_	gloss=NEG
+8	sperti	sperti	SCONJ	_	_	_	_	_	gloss=NEG
+9	sahya	sahya	PRON	_	_	_	_	_	gloss=I|Person=1|PronType=Prs
+10	ada	ada	VERB	_	_	_	_	_	gloss=have
+11	tulis	tulis	VERB	_	_	_	_	_	gloss=write
+12	satu	satu	NUM	_	_	_	_	_	gloss=one|NumType=Card
+13	hukum	hukum	NOUN	_	_	_	_	_	gloss=commandment
+14	yang	yang	PRON	_	_	_	_	_	gloss=that
+15	bharu	bharu	ADJ	_	_	_	_	_	gloss=new|Degree=Pos
+16	k-pada	k-pada	ADP	_	_	_	_	_	gloss=to
+17	Nyonya	nyonya	NOUN	_	_	_	_	_	gloss=lady
+18	","	","	PUNCT	_	_	_	_	_	_
+19	ttapi	ttapi	CCONJ	_	_	_	_	_	gloss=but|ConjType=Cmp
+20	itu	itu	DET	_	_	_	_	_	gloss=that
+21	hukum	hukum	NOUN	_	_	_	_	_	gloss=commandment
+22	yang	yang	PRON	_	_	_	_	_	gloss=that
+23	kita	kita	PRON	_	_	_	_	_	gloss=we|Case=Nom|Number=Plur|Person=1|PronType=Prs
+24	sudah	sudah	ADV	_	_	_	_	_	gloss=already|Aspect=Perf
+25	ada	ada	VERB	_	_	_	_	_	gloss=have
+26	deri	deri	ADP	_	_	_	_	_	gloss=from
+27	mula-mula	mula-mula	ADV	_	_	_	_	_	gloss=beginning
+28	","	","	PUNCT	_	_	_	_	_	_
+29	ia’itu	ia’itu	SCONJ	_	_	_	_	_	gloss=that.is
+30	sahya	sahya	PRON	_	_	_	_	_	gloss=I|Person=1|PronType=Prs
+31	minta	minta	VERB	_	_	_	_	_	gloss=ask
+32	sama	sama	ADP	_	_	_	_	_	gloss=to/with
+33	Nyonya	nyonya	NOUN	_	_	_	_	_	gloss=lady
+34	yang	yang	SCONJ	_	_	_	_	_	gloss=that
+35	kita	kita	PRON	_	_	_	_	_	gloss=we|Case=Nom|Number=Plur|Person=1|PronType=Prs
+36	kaseh	kaseh	VERB	_	_	_	_	_	gloss=love
+37	satu	satu	PRON	_	_	_	_	_	gloss=a|Definite=Ind|PronType=Art
+38	sama	sama	ADP	_	_	_	_	_	gloss=to/with
+39	lain	lain	ADJ	_	_	_	_	_	gloss=other
+40	.	.	PUNCT	_	_	_	_	_	_
+

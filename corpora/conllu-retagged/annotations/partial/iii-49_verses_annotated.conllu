@@ -1,0 +1,1802 @@
+## The following text has been annotated for parts of speech by students at NTU Singapore as part of a class project in AY 2025-26.
+## Verses are extracted from the taggedPBC. Annotations have been developed with a combination of manual and automated approaches, with reference to existing literature and (where possible) native speakers.
+## ISO 639-3: iii, Language: Sichuan Yi, Number of verses: 49
+## References: Gerner, M. (2013). A Grammar of Nuosu. Walter de Gruyter. ; Walters, S., & Walters, D. (2008). Nuosu Yi-Chinese-English glossary (彝汉英常用词词汇). Southwest University for Nationalities. https://www.researchgate.net/publication/360084203
+
+# sent_id = 40001016
+# ref_id = Matthew 1:16
+# eng_text = Jacob became the father of Joseph , the husband of Mary , from whom was born Jesus , who is called Christ .
+# iii_text = Źǃ ŧƪ Źƪ ųƸ ŹƩƪ . Źƪ ųƸ ŭǃ Ŭǐ Źǃ ų̬ ŗŵň Ůǐǆ Ź̙ ų̦ Ṳ̄ Ťǒ ţ̙ ŤĦǀ ŭŋŬǐ Ź̗ ŹƩƪ ųǑ Ůǐǆ .
+1	Źǃ	źǃ	unk	_	_	_	_	_	gloss=red|annotation_note=needs_manual
+2	ŧƪ	ŧƪ	PROPN	_	_	_	nsubj	_	gloss=Jacob|Number=Sing
+3	Źƪ	źƪ	PROPN	_	_	_	pobj	_	gloss=Joseph|Number=Sing
+4	ųƸ	ųƹ	unk	_	_	_	_	_	gloss=ide|annotation_note=needs_manual
+5	ŹƩƪ	źʃƪ	VERB	_	_	_	_	_	gloss=beget|annotation_note=dict_match
+6	.	.	PUNCT	_	_	_	_	_
+7	Źƪ	źƪ	PROPN	_	_	_	pobj	_	gloss=Joseph|Number=Sing
+8	ųƸ	ųƹ	unk	_	_	_	_	_	gloss=ide|annotation_note=needs_manual
+9	ŭǃ	ŭǃ	unk	_	_	_	_	_	gloss=alm|annotation_note=needs_manual
+10	Ŭǐ	ŭǐ	PROPN	_	_	_	_	_	gloss=[place name]|annotation_note=dict_match
+11	Źǃ	źǃ	unk	_	_	_	_	_	gloss=red|annotation_note=needs_manual
+12	ų̬	ų̬	NOUN	_	_	_	appos	_	gloss=husband|Number=Sing
+13	ŗŵň	ŗŵň	NOUN	_	_	_	appos	_	gloss=husband|Number=Sing
+14	Ůǐǆ	ůǐǆ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+15	Ź̙	ź̙	unk	_	_	_	_	_	gloss=planning|annotation_note=needs_manual
+16	ų̦	ų̦	PROPN	_	_	_	pobj	_	gloss=Jesus|Number=Sing
+17	Ṳ̄	ṳ̄	PROPN	_	_	_	oprd	_	gloss=Messiah|Number=Sing
+18	Ťǒ	ťǒ	unk	_	_	_	_	_	gloss=silent|annotation_note=needs_manual
+19	ţ̙	ţ̙	unk	_	_	_	_	_	annotation_note=needs_manual
+20	ŤĦǀ	ťħǀ	ADV	_	_	_	_	_	gloss=there|annotation_note=gloss_inferred
+21	ŭŋŬǐ	ŭŋŭǐ	unk	_	_	_	_	_	annotation_note=needs_manual
+22	Ź̗	ź̗	unk	_	_	_	_	_	gloss=liars|annotation_note=needs_manual
+23	ŹƩƪ	źʃƪ	VERB	_	_	_	_	_	gloss=beget|annotation_note=dict_match
+24	ųǑ	ųǒ	PRON	_	_	_	nsubjpass	_	gloss=who
+25	Ůǐǆ	ůǐǆ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+26	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40001023
+# ref_id = Matthew 1:23
+# eng_text = " Behold , the virgin shall be with child , and shall bring forth a son . They shall call his name Immanuel ; " which is , being interpreted , " God with us . "
+# iii_text = Ťŕũ ţ̙ ŮƸ Ŵǀ Ťŕŋ ŭǑ Ūŉ ūŵň ŢĦǅ Ÿ̬ ţ̌ źǑ Ţŉ ŶƸ , Ŷǁ ŴĦǁ Ťŕũ ŭƸǀ Ŵ̍ šǐ ŭǃ Ůǒǅ Ŭǐ ţ̙ ŶƸ . ( šǐ ŭǃ Ůǒǅ Ŭǐ ŢĦǑ ŤǑ Ŭǅ Źĺ ųǑ ŭ̕ Ű̌̔ Ţǁ Ţ̤Ħ Ūǁ ţ̙ ųǑ Ůǐǆ . )
+1	Ťŕũ	ťŕũ	PRON	_	_	_	dobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+2	ţ̙	ţ̙	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+3	ŮƸ	ůƹ	unk	_	_	_	_	_	gloss=sprout|annotation_note=needs_manual
+4	Ŵǀ	ŵǀ	unk	_	_	_	_	_	annotation_note=needs_manual
+5	Ťŕŋ	ťŕŋ	PART	_	_	_	det	_	gloss=a|Definite=Ind|PronType=Art|annotation_note=corrected: Yi has no articles; DET->PART
+6	ŭǑ	ŭǒ	ADV	_	_	_	_	_	gloss=much/very|annotation_note=dict_match
+7	Ūŉ	ūŉ	unk	_	_	_	_	_	gloss=silence|annotation_note=needs_manual
+8	ūŵň	ūŵň	NOUN	_	_	_	_	_	gloss=body|annotation_note=dict_match
+9	ŢĦǅ	ţħǆ	unk	_	_	_	_	_	gloss=hillside|annotation_note=needs_manual
+10	Ÿ̬	ÿ̬	unk	_	_	_	_	_	gloss=farmer|annotation_note=needs_manual
+11	ţ̌	ţ̌	NOUN	_	_	_	_	_	gloss=power|annotation_note=gloss_inferred
+12	źǑ	źǒ	NOUN	_	_	_	_	_	gloss=son|annotation_note=dict_match
+13	Ţŉ	ţŉ	unk	_	_	_	_	_	gloss=Oh|annotation_note=needs_manual
+14	ŶƸ	ŷƹ	unk	_	_	_	_	_	gloss=gin|annotation_note=needs_manual
+15	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+16	Ŷǁ	ŷǁ	NOUN	_	_	_	_	_	gloss=leaders/elders|annotation_note=dict_match
+17	ŴĦǁ	ŵħǁ	NOUN	_	_	_	_	_	gloss=man/person|annotation_note=dict_match
+18	Ťŕũ	ťŕũ	PRON	_	_	_	dobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+19	ŭƸǀ	ŭƹǀ	NOUN	_	_	_	_	_	gloss=name|annotation_note=dict_match
+20	Ŵ̍	ŵ̍	unk	_	_	_	_	_	gloss=creation|annotation_note=needs_manual
+21	šǐ	šǐ	PROPN	_	_	_	_	_	gloss=Immanuel|annotation_note=dict_match
+22	ŭǃ	ŭǃ	unk	_	_	_	_	_	gloss=alm|annotation_note=needs_manual
+23	Ůǒǅ	ůǒǆ	unk	_	_	_	_	_	gloss=vir|annotation_note=needs_manual
+24	Ŭǐ	ŭǐ	PROPN	_	_	_	_	_	gloss=[place name]|annotation_note=dict_match
+25	ţ̙	ţ̙	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+26	ŶƸ	ŷƹ	unk	_	_	_	_	_	gloss=gin|annotation_note=needs_manual
+27	.	.	PUNCT	_	_	_	_	_
+28	(	(	PUNCT	_	_	_	_	_	gloss=oth
+29	šǐ	šǐ	PROPN	_	_	_	_	_	gloss=Immanuel|annotation_note=dict_match
+30	ŭǃ	ŭǃ	unk	_	_	_	_	_	gloss=alm|annotation_note=needs_manual
+31	Ůǒǅ	ůǒǆ	unk	_	_	_	_	_	gloss=vir|annotation_note=needs_manual
+32	Ŭǐ	ŭǐ	PROPN	_	_	_	_	_	gloss=[place name]|annotation_note=dict_match
+33	ŢĦǑ	ţħǒ	ADP	_	_	_	_	_	gloss=of/belonging to|annotation_note=dict_match
+34	ŤǑ	ťǒ	PART	_	_	_	_	_	gloss=[modal particle]|annotation_note=dict_match
+35	Ŭǅ	ŭǆ	PART	_	_	_	_	_	gloss=[grammatical particle]|annotation_note=dict_match
+36	Źĺ	źĺ	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+37	ųǑ	ųǒ	PRON	_	_	_	_	_	gloss=who/which|annotation_note=dict_match
+38	ŭ̕	ŭ̕	NOUN	_	_	_	_	_	gloss=rulers|annotation_note=dict_match
+39	Ű̌̔	ű̌̔	PRON	_	_	_	_	_	gloss=we/us|annotation_note=dict_match
+40	Ţǁ	ţǁ	ADP	_	_	_	prep	_	gloss=to
+41	Ţ̤Ħ	ţ̤ħ	ADP	_	_	_	prep	_	gloss=with
+42	Ūǁ	ūǁ	CONJ	_	_	_	_	_	gloss=and/with|annotation_note=dict_match
+43	ţ̙	ţ̙	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+44	ųǑ	ųǒ	PRON	_	_	_	_	_	gloss=who/which|annotation_note=dict_match
+45	Ůǐǆ	ůǐǆ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+46	.	.	PUNCT	_	_	_	_	_
+47	)	)	PUNCT	_	_	_	advcl	_	gloss=means|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|annotation_note=corrected: closing bracket is PUNCT
+
+# sent_id = 40002002
+# ref_id = Matthew 2:2
+# eng_text = " Where is he who is born King of the Jews ? For we saw his star in the east , and have come to worship him . "
+# iii_text = ŗ̦̔ ŹƩƪ ź̗ Ŭō Źř Ť̟Ħ Ŷǁ ŴĦǁ šǒ ŭǒ Ţǅ ŶƸ ŤĦǀ ŧĦǁ ŭ̕ Ūǁ , Ű̌̔ Ūũ ţƪ ŭǐ Ūǁ Ťŕũ ŪǑǀ ŷǑ Űŉ , Ť̗Ħ Ŭō ŧǁ Ŭǅ Ťŕũ Ṳ̙̄ ŗǒǀ Ť̌Ħ Ŷĺ .
+1	ŗ̦̔	ŗ̦̔	unk	_	_	_	_	_	gloss=disobey|annotation_note=needs_manual
+2	ŹƩƪ	źʃƪ	VERB	_	_	_	_	_	gloss=beget|annotation_note=dict_match
+3	ź̗	ź̗	unk	_	_	_	_	_	gloss=down|annotation_note=needs_manual
+4	Ŭō	ŭō	VERB	_	_	26	conj	_	gloss=come|Aspect=Perf|Tense=Past|VerbForm=Part
+5	Źř	źř	unk	_	_	_	_	_	gloss=springs|annotation_note=needs_manual
+6	Ť̟Ħ	ť̟ħ	unk	_	_	_	_	_	gloss=ean|annotation_note=needs_manual
+7	Ŷǁ	ŷǁ	NOUN	_	_	_	_	_	gloss=leaders/elders|annotation_note=dict_match
+8	ŴĦǁ	ŵħǁ	NOUN	_	_	_	_	_	gloss=man/person|annotation_note=dict_match
+9	šǒ	šǒ	NOUN	_	_	_	_	_	gloss=king|annotation_note=dict_match
+10	ŭǒ	ŭǒ	ADV	_	_	_	_	_	gloss=very/much|annotation_note=dict_match
+11	Ţǅ	ţǆ	unk	_	_	_	_	_	gloss=Hum|annotation_note=needs_manual
+12	ŶƸ	ŷƹ	unk	_	_	_	_	_	gloss=gin|annotation_note=needs_manual
+13	ŤĦǀ	ťħǀ	ADV	_	_	_	_	_	gloss=there|annotation_note=gloss_inferred
+14	ŧĦǁ	ŧħǁ	unk	_	_	_	_	_	gloss=Nathan|annotation_note=needs_manual
+15	ŭ̕	ŭ̕	NOUN	_	_	_	_	_	gloss=rulers|annotation_note=dict_match
+16	Ūǁ	ūǁ	CONJ	_	_	_	_	_	gloss=and/with|annotation_note=dict_match
+17	,	,	PUNCT	_	_	26	punct	_	PunctType=Comm
+18	Ű̌̔	ű̌̔	PRON	_	_	26	nsubj	_	gloss=We|Case=Nom|Number=Plur|Person=1|PronType=Prs
+19	Ūũ	ūũ	unk	_	_	_	_	_	gloss=enemy|annotation_note=needs_manual
+20	ţƪ	ţƪ	unk	_	_	_	_	_	gloss=char|annotation_note=needs_manual
+21	ŭǐ	ŭǐ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+22	Ūǁ	ūǁ	CONJ	_	_	_	_	_	gloss=and/with|annotation_note=dict_match
+23	Ťŕũ	ťŕũ	PRON	_	_	_	dobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+24	ŪǑǀ	ūǒǀ	unk	_	_	_	_	_	gloss=struggle|annotation_note=needs_manual
+25	ŷǑ	ŷǒ	NOUN	_	_	_	_	_	gloss=benefit/good|annotation_note=dict_match
+26	Űŉ	űŉ	VERB	_	_	0	root	_	gloss=saw|Tense=Past|VerbForm=Fin
+27	,	,	PUNCT	_	_	26	punct	_	PunctType=Comm
+28	Ť̗Ħ	ť̗ħ	ADP	_	_	_	_	_	gloss=on/upon|annotation_note=dict_match
+29	Ŭō	ŭō	VERB	_	_	26	conj	_	gloss=come|Aspect=Perf|Tense=Past|VerbForm=Part
+30	ŧǁ	ŧǁ	VERB	_	_	_	_	_	gloss=go/run|annotation_note=dict_match
+31	Ŭǅ	ŭǆ	PART	_	_	_	_	_	gloss=[grammatical particle]|annotation_note=dict_match
+32	Ťŕũ	ťŕũ	PRON	_	_	_	dobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+33	Ṳ̙̄	ṳ̙̄	NOUN	_	_	_	_	_	gloss=service/ministry|annotation_note=dict_match
+34	ŗǒǀ	ŗǒǀ	unk	_	_	_	_	_	gloss=ag|annotation_note=needs_manual
+35	Ť̌Ħ	ť̌ħ	unk	_	_	_	_	_	gloss=worshiped|annotation_note=needs_manual
+36	Ŷĺ	ŷĺ	unk	_	_	_	_	_	gloss=will|annotation_note=needs_manual
+37	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40002004
+# ref_id = Matthew 2:4
+# eng_text = Gathering together all the chief priests and scribes of the people , he asked them where the Christ would be born .
+# iii_text = Ťŕũ Ţũ ţō ŤƸǀ ŧǃ ŮŴŵ ŭƪ Ťǐ Ť̌̔Ħ ŧǁ ūǒ ųǑ ų̥ ŮŴǒǑ ųǑ ŧĦǒ Ÿō Ŭō Ť̕ ŮǑ ŮŪƹ Ṳ̄ Ťƫ ŧĦǀ ŹƩƪ Ŵǁ .
+1	Ťŕũ	ťŕũ	PRON	_	_	_	_	_	gloss=him/his|annotation_note=dict_match
+2	Ţũ	ţũ	NOUN	_	_	_	_	_	gloss=shepherds|annotation_note=dict_match
+3	ţō	ţō	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+4	ŤƸǀ	ťƹǀ	VERB	_	_	_	ccomp	_	gloss=supposed|Tense=Past|VerbForm=Fin
+5	ŧǃ	ŧǃ	unk	_	_	_	_	_	gloss=twenty-four|annotation_note=needs_manual
+6	ŮŴŵ	ůŵŵ	VERB	_	_	_	amod	_	gloss=leading|Aspect=Prog|Tense=Pres|VerbForm=Part
+7	ŭƪ	ŭƪ	NOUN	_	_	_	_	_	gloss=heart|annotation_note=gloss_inferred
+8	Ťǐ	ťǐ	unk	_	_	_	_	_	gloss=made|annotation_note=needs_manual
+9	Ť̌̔Ħ	ť̌̔ħ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+10	ŧǁ	ŧǁ	VERB	_	_	_	_	_	gloss=go/run|annotation_note=dict_match
+11	ūǒ	ūǒ	unk	_	_	_	_	_	gloss=encouraged|annotation_note=needs_manual
+12	ųǑ	ųǒ	PRON	_	_	_	_	_	gloss=who/which|annotation_note=dict_match
+13	ų̥	ų̥	unk	_	_	_	_	_	gloss=wr|annotation_note=needs_manual
+14	ŮŴǒǑ	ůŵǒǒ	ADJ	_	_	_	amod	_	gloss=religious|Degree=Pos
+15	ųǑ	ųǒ	PRON	_	_	_	_	_	gloss=who/which|annotation_note=dict_match
+16	ŧĦǒ	ŧħǒ	unk	_	_	_	_	_	gloss=shouting|annotation_note=needs_manual
+17	Ÿō	ÿō	unk	_	_	_	_	_	gloss=lefto|annotation_note=needs_manual
+18	Ŭō	ŭō	VERB	_	_	_	_	_	gloss=come|annotation_note=dict_match
+19	Ť̕	ť̕	NOUN	_	_	_	_	_	gloss=words/speech|annotation_note=dict_match
+20	ŮǑ	ůǒ	unk	_	_	_	_	_	gloss=gu|annotation_note=needs_manual
+21	ŮŪƹ	ůūƹ	ADV	_	_	_	_	_	gloss=far/farther|annotation_note=dict_match
+22	Ṳ̄	ṳ̄	PROPN	_	_	4	nsubj	_	gloss=Messiah|Number=Sing
+23	Ťƫ	ťƫ	unk	_	_	_	_	_	gloss=Christ|annotation_note=needs_manual
+24	ŧĦǀ	ŧħǀ	unk	_	_	_	_	_	gloss=persu|annotation_note=needs_manual
+25	ŹƩƪ	źʃƪ	VERB	_	_	_	_	_	gloss=beget|annotation_note=dict_match
+26	Ŵǁ	ŵǁ	PART	_	_	_	_	_	gloss=[modal particle]|annotation_note=dict_match
+27	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40002007
+# ref_id = Matthew 2:7
+# eng_text = Then Herod secretly called the wise men , and learned from them exactly what time the star appeared .
+# iii_text = ŤĦǀ ŤĦǑ Ÿ̤ Ŭƹ ūŕŵň ūĦǒǀ ŭǑ ųǑ ų̥ ŮŴǒǑ Ŭ̗ ūǒǀ ŧĦǒ Ŭō Ũů Ūǐ ŭǑ Ť̌̔Ħ Ť̕ ŮǑ , ŪǑǀ ŤĦǀ ŭǑ ŧŕů Ť̥Ħ ŤǑ ųǑ Ůǐǆ .
+1	ŤĦǀ	ťħǀ	ADV	_	_	_	_	_	gloss=there|annotation_note=gloss_inferred
+2	ŤĦǑ	ťħǒ	unk	_	_	_	_	_	gloss=pe|annotation_note=needs_manual
+3	Ÿ̤	ÿ̤	NUM	_	_	_	_	_	gloss=seven|annotation_note=gloss_inferred
+4	Ŭƹ	ŭƹ	unk	_	_	_	_	_	gloss=iting|annotation_note=needs_manual
+5	ūŕŵň	ūŕŵň	unk	_	_	_	_	_	gloss=se|annotation_note=needs_manual
+6	ūĦǒǀ	ūħǒǀ	unk	_	_	_	_	_	gloss=horses|annotation_note=needs_manual
+7	ŭǑ	ŭǒ	ADV	_	_	_	_	_	gloss=much/very|annotation_note=dict_match
+8	ųǑ	ųǒ	PRON	_	_	_	_	_	gloss=who/which|annotation_note=dict_match
+9	ų̥	ų̥	unk	_	_	_	_	_	gloss=wr|annotation_note=needs_manual
+10	ŮŴǒǑ	ůŵǒǒ	unk	_	_	_	_	_	gloss=religious|annotation_note=needs_manual
+11	Ŭ̗	ŭ̗	NOUN	_	_	_	_	_	gloss=hands|annotation_note=dict_match
+12	ūǒǀ	ūǒǀ	NOUN	_	_	_	_	_	gloss=teachers/scribes|annotation_note=dict_match
+13	ŧĦǒ	ŧħǒ	unk	_	_	_	_	_	gloss=shouting|annotation_note=needs_manual
+14	Ŭō	ŭō	VERB	_	_	_	_	_	gloss=come|annotation_note=dict_match
+15	Ũů	ũů	VERB	_	_	_	_	_	gloss=marry|annotation_note=dict_match
+16	Ūǐ	ūǐ	unk	_	_	_	_	_	gloss=unc|annotation_note=needs_manual
+17	ŭǑ	ŭǒ	ADV	_	_	_	_	_	gloss=much/very|annotation_note=dict_match
+18	Ť̌̔Ħ	ť̌̔ħ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+19	Ť̕	ť̕	NOUN	_	_	_	_	_	gloss=words/speech|annotation_note=dict_match
+20	ŮǑ	ůǒ	unk	_	_	_	_	_	gloss=gu|annotation_note=needs_manual
+21	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+22	ŪǑǀ	ūǒǀ	unk	_	_	_	_	_	gloss=struggle|annotation_note=needs_manual
+23	ŤĦǀ	ťħǀ	ADV	_	_	_	_	_	gloss=there|annotation_note=gloss_inferred
+24	ŭǑ	ŭǒ	ADV	_	_	_	_	_	gloss=much/very|annotation_note=dict_match
+25	ŧŕů	ŧŕů	ADV	_	_	_	_	_	gloss=any/some|annotation_note=dict_match
+26	Ť̥Ħ	ť̥ħ	unk	_	_	_	_	_	gloss=iz|annotation_note=needs_manual
+27	ŤǑ	ťǒ	PART	_	_	_	_	_	gloss=[modal particle]|annotation_note=dict_match
+28	ųǑ	ųǒ	PRON	_	_	_	_	_	gloss=who/which|annotation_note=dict_match
+29	Ůǐǆ	ůǐǆ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+30	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40002008
+# ref_id = Matthew 2:8
+# eng_text = He sent them to Bethlehem , and said , " Go and search diligently for the young child . When you have found him , bring me word , so that I also may come and worship him . "
+# iii_text = Ţũ ţō Ť̌̔Ħ Ŵǐ Ţǀ Ṳ̆ ŨŎ ŧ̦̔ ţǐ , Ť̌̔Ħ Ţǁ Ť̙ Ů̌̔ Ũů Ūǐ ŭǑ š̗ ŮūǑǀ źǑ ŤĦǀ ŭǑ Ť̕ ŮǑ Ŭũ , ŸǒǑ ŷǑ Ţũ Ťō Űů Ť̕ Ťŕĺ Ŭō , ŰǑ Ůǐ ŧǁ Ŭũ Ťŕũ Ṳ̙̄ ŗǒǀ Ť̌Ħ Ŭũ Ū̕ .
+1	Ţũ	ţũ	NOUN	_	_	_	_	_	gloss=shepherds|annotation_note=dict_match
+2	ţō	ţō	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+3	Ť̌̔Ħ	ť̌̔ħ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+4	Ŵǐ	ŵǐ	unk	_	_	_	_	_	gloss=messenger|annotation_note=needs_manual
+5	Ţǀ	ţǀ	unk	_	_	_	_	_	gloss=ice|annotation_note=needs_manual
+6	Ṳ̆	ṳ̆	unk	_	_	_	_	_	gloss=J|annotation_note=needs_manual
+7	ŨŎ	ũŏ	unk	_	_	_	_	_	annotation_note=needs_manual
+8	ŧ̦̔	ŧ̦̔	ADP	_	_	_	_	_	gloss=into/in|annotation_note=dict_match
+9	ţǐ	ţǐ	unk	_	_	_	_	_	gloss=gone|annotation_note=needs_manual
+10	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+11	Ť̌̔Ħ	ť̌̔ħ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+12	Ţǁ	ţǁ	ADP	_	_	_	prep	_	gloss=to
+13	Ť̙	ť̙	unk	_	_	_	_	_	gloss=pick|annotation_note=needs_manual
+14	Ů̌̔	ů̌̔	PRON	_	_	_	nsubj	_	gloss=you|Case=Nom|Person=2|PronType=Prs
+15	Ũů	ũů	VERB	_	_	_	_	_	gloss=marry|annotation_note=dict_match
+16	Ūǐ	ūǐ	unk	_	_	_	_	_	gloss=unc|annotation_note=needs_manual
+17	ŭǑ	ŭǒ	ADV	_	_	_	_	_	gloss=much/very|annotation_note=dict_match
+18	š̗	š̗	NOUN	_	_	_	_	_	gloss=child/baby|annotation_note=dict_match
+19	ŮūǑǀ	ůūǒǀ	unk	_	_	_	_	_	gloss=ps|annotation_note=needs_manual
+20	źǑ	źǒ	NOUN	_	_	_	_	_	gloss=son|annotation_note=dict_match
+21	ŤĦǀ	ťħǀ	ADV	_	_	_	_	_	gloss=there|annotation_note=gloss_inferred
+22	ŭǑ	ŭǒ	ADV	_	_	_	_	_	gloss=much/very|annotation_note=dict_match
+23	Ť̕	ť̕	NOUN	_	_	_	_	_	gloss=words/speech|annotation_note=dict_match
+24	ŮǑ	ůǒ	unk	_	_	_	_	_	gloss=gu|annotation_note=needs_manual
+25	Ŭũ	ŭũ	ADJ	_	_	_	_	_	gloss=low/humble|annotation_note=dict_match
+26	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+27	ŸǒǑ	ÿǒǒ	VERB	_	_	_	_	_	gloss=seek|annotation_note=dict_match
+28	ŷǑ	ŷǒ	NOUN	_	_	_	_	_	gloss=benefit/good|annotation_note=dict_match
+29	Ţũ	ţũ	NOUN	_	_	_	_	_	gloss=shepherds|annotation_note=dict_match
+30	Ťō	ťō	unk	_	_	_	_	_	gloss=soil|annotation_note=needs_manual
+31	Űů	űů	PRON	_	_	_	dobj	_	gloss=me|Case=Acc|Number=Sing|Person=1|PronType=Prs
+32	Ť̕	ť̕	NOUN	_	_	_	_	_	gloss=words/speech|annotation_note=dict_match
+33	Ťŕĺ	ťŕĺ	unk	_	_	_	_	_	gloss=v|annotation_note=needs_manual
+34	Ŭō	ŭō	VERB	_	_	0	root	_	gloss=come|VerbForm=Inf
+35	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+36	ŰǑ	űǒ	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+37	Ůǐ	ůǐ	ADV	_	_	_	advmod	_	gloss=too
+38	ŧǁ	ŧǁ	VERB	_	_	_	_	_	gloss=go/run|annotation_note=dict_match
+39	Ŭũ	ŭũ	ADJ	_	_	_	_	_	gloss=low/humble|annotation_note=dict_match
+40	Ťŕũ	ťŕũ	PRON	_	_	_	dobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+41	Ṳ̙̄	ṳ̙̄	NOUN	_	_	_	_	_	gloss=service/ministry|annotation_note=dict_match
+42	ŗǒǀ	ŗǒǀ	unk	_	_	_	_	_	gloss=ag|annotation_note=needs_manual
+43	Ť̌Ħ	ť̌ħ	unk	_	_	_	_	_	gloss=worshiped|annotation_note=needs_manual
+44	Ŭũ	ŭũ	ADJ	_	_	_	_	_	gloss=low/humble|annotation_note=dict_match
+45	Ū̕	ū̕	unk	_	_	_	_	_	gloss=Alph|annotation_note=needs_manual
+46	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40002012
+# ref_id = Matthew 2:12
+# eng_text = Being warned in a dream that they shouldn't return to Herod , they went back to their own country another way .
+# iii_text = ųǑ ų̥ ŮŴǒǑ Ŷǁ ŴĦǁ Ź̤ ŭǃ ŧǁ ŧǒ ųĺň ŢĦǑŤ̌̔Ħ ŭ̥ , ŢǑ Ÿǐ Ŭƹ Űŉ Ŭũ ŭŋ Űǁţ̙ Ť̗Ħ Ŭō , Ţ̗Ħ Ṳ̊̚ Ūƫƪ ŭƪ Ūŕŉ ŢǑ ū̥ ţǑ .
+1	ųǑ	ųǒ	PRON	_	_	_	_	_	gloss=who/which|annotation_note=dict_match
+2	ų̥	ų̥	unk	_	_	_	_	_	gloss=wr|annotation_note=needs_manual
+3	ŮŴǒǑ	ůŵǒǒ	unk	_	_	_	_	_	gloss=religious|annotation_note=needs_manual
+4	Ŷǁ	ŷǁ	NOUN	_	_	_	_	_	gloss=leaders/elders|annotation_note=dict_match
+5	ŴĦǁ	ŵħǁ	NOUN	_	_	_	_	_	gloss=man/person|annotation_note=dict_match
+6	Ź̤	ź̤	unk	_	_	_	_	_	gloss=ind|annotation_note=needs_manual
+7	ŭǃ	ŭǃ	unk	_	_	_	_	_	gloss=alm|annotation_note=needs_manual
+8	ŧǁ	ŧǁ	VERB	_	_	_	_	_	gloss=go/run|annotation_note=dict_match
+9	ŧǒ	ŧǒ	unk	_	_	_	_	_	gloss=k|annotation_note=needs_manual
+10	ųĺň	ųĺň	NOUN	_	_	_	_	_	gloss=owner/master|annotation_note=dict_match
+11	ŢĦǑŤ̌̔Ħ	ţħǒť̌̔ħ	unk	_	_	_	_	_	annotation_note=needs_manual
+12	ŭ̥	ŭ̥	unk	_	_	_	_	_	gloss=taught|annotation_note=needs_manual
+13	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+14	ŢǑ	ţǒ	ADJ	_	_	_	_	_	gloss=nothing/empty|annotation_note=dict_match
+15	Ÿǐ	ÿǐ	unk	_	_	_	_	_	gloss=death|annotation_note=needs_manual
+16	Ŭƹ	ŭƹ	unk	_	_	_	_	_	gloss=iting|annotation_note=needs_manual
+17	Űŉ	űŉ	unk	_	_	_	_	_	gloss=saw|annotation_note=needs_manual
+18	Ŭũ	ŭũ	ADJ	_	_	_	_	_	gloss=low/humble|annotation_note=dict_match
+19	ŭŋ	ŭŋ	ADV	_	_	_	_	_	gloss=negation/not|annotation_note=dict_match
+20	Űǁţ̙	űǁţ̙	unk	_	_	_	_	_	annotation_note=needs_manual
+21	Ť̗Ħ	ť̗ħ	ADP	_	_	_	_	_	gloss=on/upon|annotation_note=dict_match
+22	Ŭō	ŭō	VERB	_	_	_	_	_	gloss=come|annotation_note=dict_match
+23	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+24	Ţ̗Ħ	ţ̗ħ	unk	_	_	_	_	_	gloss=else|annotation_note=needs_manual
+25	Ṳ̊̚	ṳ̊̚	unk	_	_	_	_	_	gloss=else|annotation_note=needs_manual
+26	Ūƫƪ	ūƫƪ	unk	_	_	_	_	_	gloss=road|annotation_note=needs_manual
+27	ŭƪ	ŭƪ	NOUN	_	_	_	_	_	gloss=heart|annotation_note=gloss_inferred
+28	Ūŕŉ	ūŕŉ	ADP	_	_	_	_	_	gloss=from|annotation_note=dict_match
+29	ŢǑ	ţǒ	ADJ	_	_	_	_	_	gloss=nothing/empty|annotation_note=dict_match
+30	ū̥	ū̥	unk	_	_	_	_	_	gloss=ened|annotation_note=needs_manual
+31	ţǑ	ţǒ	PRON	_	_	_	_	_	gloss=my/I|annotation_note=dict_match
+32	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40002015
+# ref_id = Matthew 2:15
+# eng_text = and was there until the death of Herod ; that it might be fulfilled which was spoken by the Lord through the prophet , saying , " Out of Egypt I called my son . "
+# iii_text = ŤĦǀ ŭǐ Ťǅ Ź̤ Ÿ̤ Ŭƹ Ÿ̤ ŨĦǑ Ť̥Ħ ţĺ . ŪĦǀ ųĺň ŢĦǑ ųǐ źǑ Ṳ̙̊ Ţŵ ŰǒǑ ŮŪƹ ųǑ Ť̕ ŧǁ ţƫƪ ūǒ ţ̙ ŰǑ šœ ŪƩ ŭǐ Ťǅ Ūŕŉ ŰǑ źǑ ŧĦǒ ŤǑ Ŭǅ .
+1	ŤĦǀ	ťħǀ	ADV	_	_	_	advmod	_	gloss=there|PronType=Dem
+2	ŭǐ	ŭǐ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+3	Ťǅ	ťǆ	NOUN	_	_	_	_	_	gloss=place|annotation_note=dict_match
+4	Ź̤	ź̤	unk	_	_	_	_	_	gloss=ind|annotation_note=needs_manual
+5	Ÿ̤	ÿ̤	NUM	_	_	_	_	_	gloss=seven|annotation_note=gloss_inferred
+6	Ŭƹ	ŭƹ	unk	_	_	_	_	_	gloss=iting|annotation_note=needs_manual
+7	Ÿ̤	ÿ̤	NUM	_	_	_	_	_	gloss=seven|annotation_note=gloss_inferred
+8	ŨĦǑ	ũħǒ	unk	_	_	_	_	_	annotation_note=needs_manual
+9	Ť̥Ħ	ť̥ħ	unk	_	_	_	_	_	gloss=iz|annotation_note=needs_manual
+10	ţĺ	ţĺ	VERB	_	_	_	_	_	gloss=ran|annotation_note=gloss_inferred
+11	.	.	PUNCT	_	_	_	_	_
+12	ŪĦǀ	ūħǀ	DET	_	_	_	_	_	gloss=this/that|annotation_note=dict_match
+13	ųĺň	ųĺň	NOUN	_	_	_	_	_	gloss=owner/master|annotation_note=dict_match
+14	ŢĦǑ	ţħǒ	ADP	_	_	_	_	_	gloss=of/belonging to|annotation_note=dict_match
+15	ųǐ	ųǐ	NOUN	_	_	_	pobj	_	gloss=prophet|Number=Sing
+16	źǑ	źǒ	PROPN	_	_	_	dobj	_	gloss=Son|Number=Sing
+17	Ṳ̙̊	ṳ̙̊	unk	_	_	_	_	_	gloss=unbelievers|annotation_note=needs_manual
+18	Ţŵ	ţŵ	unk	_	_	_	_	_	gloss=uth|annotation_note=needs_manual
+19	ŰǒǑ	űǒǒ	unk	_	_	_	_	_	gloss=local|annotation_note=needs_manual
+20	ŮŪƹ	ůūƹ	ADV	_	_	_	_	_	gloss=far/farther|annotation_note=dict_match
+21	ųǑ	ųǒ	PRON	_	_	_	_	_	gloss=who/which|annotation_note=dict_match
+22	Ť̕	ť̕	NOUN	_	_	_	_	_	gloss=words/speech|annotation_note=dict_match
+23	ŧǁ	ŧǁ	VERB	_	_	_	_	_	gloss=go/run|annotation_note=dict_match
+24	ţƫƪ	ţƫƪ	unk	_	_	_	_	_	gloss=fulfill|annotation_note=needs_manual
+25	ūǒ	ūǒ	unk	_	_	_	_	_	gloss=encouraged|annotation_note=needs_manual
+26	ţ̙	ţ̙	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+27	ŰǑ	űǒ	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+28	šœ	šœ	unk	_	_	_	_	_	gloss=Egyptian|annotation_note=needs_manual
+29	ŪƩ	ūʃ	PROPN	_	_	_	pobj	_	gloss=Egypt|Number=Sing
+30	ŭǐ	ŭǐ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+31	Ťǅ	ťǆ	NOUN	_	_	_	_	_	gloss=place|annotation_note=dict_match
+32	Ūŕŉ	ūŕŉ	ADP	_	_	_	_	_	gloss=from|annotation_note=dict_match
+33	ŰǑ	űǒ	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+34	źǑ	źǒ	PROPN	_	_	_	dobj	_	gloss=Son|Number=Sing
+35	ŧĦǒ	ŧħǒ	unk	_	_	_	_	_	gloss=shouting|annotation_note=needs_manual
+36	ŤǑ	ťǒ	PART	_	_	_	_	_	gloss=[modal particle]|annotation_note=dict_match
+37	Ŭǅ	ŭǆ	PART	_	_	_	_	_	gloss=[grammatical particle]|annotation_note=dict_match
+38	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40002019
+# ref_id = Matthew 2:19
+# eng_text = But when Herod was dead , behold , an angel of the Lord appeared in a dream to Joseph in Egypt , saying ,
+# iii_text = Ÿ̤ ŬĻ Ÿǐ šŵ Ț̌ , ųĺň ŢĦǑ Ŵǐ Ŭ̗ šœ ŪƩ ŧ̦̔ Źƪ ųƸ Ź̤ ŭǃ ŧǁ ūǒ ŧ̦̔ ţ̕Ħ ŤǑ Ŭǅ ŮŪƹ ,
+1	Ÿ̤	ÿ̤	NUM	_	_	_	_	_	gloss=seven|annotation_note=gloss_inferred
+2	ŬĻ	ŭļ	PROPN	_	_	_	nsubj	_	gloss=Herod|Number=Sing
+3	Ÿǐ	ÿǐ	unk	_	_	_	_	_	gloss=death|annotation_note=needs_manual
+4	šŵ	šŵ	unk	_	_	_	_	_	gloss=pregnant|annotation_note=needs_manual
+5	Ț̌	ț̌	NOUN	_	_	_	_	_	gloss=war/battle|annotation_note=dict_match
+6	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+7	ųĺň	ųĺň	NOUN	_	_	_	_	_	gloss=owner/master|annotation_note=dict_match
+8	ŢĦǑ	ţħǒ	ADP	_	_	_	_	_	gloss=of/belonging to|annotation_note=dict_match
+9	Ŵǐ	ŵǐ	unk	_	_	_	_	_	gloss=messenger|annotation_note=needs_manual
+10	Ŭ̗	ŭ̗	NOUN	_	_	_	_	_	gloss=hands|annotation_note=dict_match
+11	šœ	šœ	unk	_	_	_	_	_	gloss=Egyptian|annotation_note=needs_manual
+12	ŪƩ	ūʃ	PROPN	_	_	_	pobj	_	gloss=Egypt|Number=Sing
+13	ŧ̦̔	ŧ̦̔	ADP	_	_	_	_	_	gloss=into/in|annotation_note=dict_match
+14	Źƪ	źƪ	PROPN	_	_	_	pobj	_	gloss=Joseph|Number=Sing
+15	ųƸ	ųƹ	unk	_	_	_	_	_	gloss=ide|annotation_note=needs_manual
+16	Ź̤	ź̤	unk	_	_	_	_	_	gloss=ind|annotation_note=needs_manual
+17	ŭǃ	ŭǃ	unk	_	_	_	_	_	gloss=alm|annotation_note=needs_manual
+18	ŧǁ	ŧǁ	VERB	_	_	_	_	_	gloss=go/run|annotation_note=dict_match
+19	ūǒ	ūǒ	unk	_	_	_	_	_	gloss=encouraged|annotation_note=needs_manual
+20	ŧ̦̔	ŧ̦̔	ADP	_	_	_	_	_	gloss=into/in|annotation_note=dict_match
+21	ţ̕Ħ	ţ̕ħ	unk	_	_	_	_	_	gloss=direct|annotation_note=needs_manual
+22	ŤǑ	ťǒ	PART	_	_	_	_	_	gloss=[modal particle]|annotation_note=dict_match
+23	Ŭǅ	ŭǆ	PART	_	_	_	_	_	gloss=[grammatical particle]|annotation_note=dict_match
+24	ŮŪƹ	ůūƹ	ADV	_	_	_	_	_	gloss=far/farther|annotation_note=dict_match
+25	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+
+# sent_id = 40002020
+# ref_id = Matthew 2:20
+# eng_text = " Arise and take the young child and his mother , and go into the land of Israel , for those who sought the young child's life are dead . "
+# iii_text = ţǑ Ŭǅ š̗ ŮūǑǀ źǑ Ťǐ Ť̗Ħ ŭǅ Ũ̥̔ ŢǑ šǐ ųǀ ŬũŎ ŭǐ Ťǅ Ŭũ ţǑ , š̗ ŮūǑǀ źǑ šǒ ŧǁ Ū̪Ħ Ŷĺ ŤĦǀ Ŭǀ , šō Űǁ Ţǐ ŨǑ Ť̗Ħ Ŭō .
+1	ţǑ	ţǒ	PRON	_	_	_	_	_	gloss=my/I|annotation_note=dict_match
+2	Ŭǅ	ŭǆ	PART	_	_	_	_	_	gloss=[grammatical particle]|annotation_note=dict_match
+3	š̗	š̗	NOUN	_	_	_	_	_	gloss=child/baby|annotation_note=dict_match
+4	ŮūǑǀ	ůūǒǀ	unk	_	_	_	_	_	gloss=ps|annotation_note=needs_manual
+5	źǑ	źǒ	NOUN	_	_	_	_	_	gloss=son|annotation_note=dict_match
+6	Ťǐ	ťǐ	unk	_	_	_	_	_	gloss=made|annotation_note=needs_manual
+7	Ť̗Ħ	ť̗ħ	ADP	_	_	_	_	_	gloss=on/upon|annotation_note=dict_match
+8	ŭǅ	ŭǆ	NOUN	_	_	_	conj	_	gloss=mother|Number=Sing
+9	Ũ̥̔	ũ̥̔	unk	_	_	_	_	_	gloss=ep|annotation_note=needs_manual
+10	ŢǑ	ţǒ	ADJ	_	_	_	_	_	gloss=nothing/empty|annotation_note=dict_match
+11	šǐ	šǐ	PROPN	_	_	_	_	_	gloss=Immanuel|annotation_note=dict_match
+12	ųǀ	ųǀ	unk	_	_	_	_	_	gloss=Damascus|annotation_note=needs_manual
+13	ŬũŎ	ŭũŏ	PROPN	_	_	_	pobj	_	gloss=Israel|Number=Sing
+14	ŭǐ	ŭǐ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+15	Ťǅ	ťǆ	NOUN	_	_	_	_	_	gloss=place|annotation_note=dict_match
+16	Ŭũ	ŭũ	ADJ	_	_	_	_	_	gloss=low/humble|annotation_note=dict_match
+17	ţǑ	ţǒ	PRON	_	_	_	_	_	gloss=my/I|annotation_note=dict_match
+18	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+19	š̗	š̗	NOUN	_	_	_	_	_	gloss=child/baby|annotation_note=dict_match
+20	ŮūǑǀ	ůūǒǀ	unk	_	_	_	_	_	gloss=ps|annotation_note=needs_manual
+21	źǑ	źǒ	NOUN	_	_	_	_	_	gloss=son|annotation_note=dict_match
+22	šǒ	šǒ	NOUN	_	_	_	_	_	gloss=king|annotation_note=dict_match
+23	ŧǁ	ŧǁ	VERB	_	_	_	_	_	gloss=go/run|annotation_note=dict_match
+24	Ū̪Ħ	ū̪ħ	unk	_	_	_	_	_	gloss=har|annotation_note=needs_manual
+25	Ŷĺ	ŷĺ	unk	_	_	_	_	_	gloss=will|annotation_note=needs_manual
+26	ŤĦǀ	ťħǀ	ADV	_	_	_	_	_	gloss=there|annotation_note=gloss_inferred
+27	Ŭǀ	ŭǀ	NOUN	_	_	_	_	_	gloss=seat/place|annotation_note=dict_match
+28	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+29	šō	šō	ADV	_	_	_	_	_	gloss=now|annotation_note=gloss_inferred
+30	Űǁ	űǁ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+31	Ţǐ	ţǐ	unk	_	_	_	_	_	gloss=Peter|annotation_note=needs_manual
+32	ŨǑ	ũǒ	ADV	_	_	_	_	_	gloss=here|annotation_note=gloss_inferred
+33	Ť̗Ħ	ť̗ħ	ADP	_	_	_	_	_	gloss=on/upon|annotation_note=dict_match
+34	Ŭō	ŭō	VERB	_	_	_	_	_	gloss=come|annotation_note=dict_match
+35	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40002023
+# ref_id = Matthew 2:23
+# eng_text = and came and lived in a city called Nazareth ; that it might be fulfilled which was spoken through the prophets : " He will be called a Nazarene . "
+# iii_text = Ŭŵ Ťŕǀ ŭǑ ŧ̦̔ ŪĦǐ Ůŋ ųǃ Ŭǀ ŭƸǀ , Ţũ ţō ŤĦǀ ŧ̦̔ Ź̪ , ŪĦǀ ųǐ źǑ ŧŕů ŮŪƹ ųǑ ŧǁ ţǒǑ , Ťŕũ ţ̙ Ťŕũ Ůŋ ųŋ Ŭǀ Ŷǁ ŴĦǁ ţ̙ Ŷĺ Ť̕ Ůǐǆ .
+1	Ŭŵ	ŭŵ	NOUN	_	_	_	pobj	_	gloss=town|Number=Sing
+2	Ťŕǀ	ťŕǀ	unk	_	_	_	_	_	annotation_note=needs_manual
+3	ŭǑ	ŭǒ	ADV	_	_	_	_	_	gloss=much/very|annotation_note=dict_match
+4	ŧ̦̔	ŧ̦̔	ADP	_	_	_	_	_	gloss=into/in|annotation_note=dict_match
+5	ŪĦǐ	ūħǐ	VERB	_	_	_	_	_	gloss=arrive|annotation_note=dict_match
+6	Ůŋ	ůŋ	ADJ	_	_	_	_	_	gloss=purposeful|annotation_note=dict_match
+7	ųǃ	ųǃ	unk	_	_	_	_	_	gloss=planning|annotation_note=needs_manual
+8	Ŭǀ	ŭǀ	NOUN	_	_	_	_	_	gloss=seat/place|annotation_note=dict_match
+9	ŭƸǀ	ŭƹǀ	NOUN	_	_	_	_	_	gloss=name|annotation_note=dict_match
+10	,	,	PUNCT	_	_	_	_	_
+11	Ţũ	ţũ	NOUN	_	_	_	_	_	gloss=shepherds|annotation_note=dict_match
+12	ţō	ţō	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+13	ŤĦǀ	ťħǀ	ADV	_	_	_	_	_	gloss=there|annotation_note=gloss_inferred
+14	ŧ̦̔	ŧ̦̔	ADP	_	_	_	_	_	gloss=into/in|annotation_note=dict_match
+15	Ź̪	ź̪	unk	_	_	_	_	_	gloss=conv|annotation_note=needs_manual
+16	,	,	PUNCT	_	_	_	_	_
+17	ŪĦǀ	ūħǀ	DET	_	_	_	_	_	gloss=this/that|annotation_note=dict_match
+18	ųǐ	ųǐ	unk	_	_	_	_	_	gloss=prophet|annotation_note=needs_manual
+19	źǑ	źǒ	NOUN	_	_	_	_	_	gloss=son|annotation_note=dict_match
+20	ŧŕů	ŧŕů	ADV	_	_	_	_	_	gloss=any/some|annotation_note=dict_match
+21	ŮŪƹ	ůūƹ	ADV	_	_	_	_	_	gloss=far/farther|annotation_note=dict_match
+22	ųǑ	ųǒ	PRON	_	_	_	_	_	gloss=who/which|annotation_note=dict_match
+23	ŧǁ	ŧǁ	VERB	_	_	_	_	_	gloss=go/run|annotation_note=dict_match
+24	ţǒǑ	ţǒǒ	ADJ	_	_	_	_	_	gloss=precious/valuable|annotation_note=dict_match
+25	,	,	PUNCT	_	_	_	_	_
+26	Ťŕũ	ťŕũ	PRON	_	_	_	_	_	gloss=him/his|annotation_note=dict_match
+27	ţ̙	ţ̙	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+28	Ťŕũ	ťŕũ	PRON	_	_	_	_	_	gloss=him/his|annotation_note=dict_match
+29	Ůŋ	ůŋ	ADJ	_	_	_	_	_	gloss=purposeful|annotation_note=dict_match
+30	ųŋ	ųŋ	PROPN	_	_	_	oprd	_	gloss=Nazareth|Number=Sing
+31	Ŭǀ	ŭǀ	NOUN	_	_	_	_	_	gloss=seat/place|annotation_note=dict_match
+32	Ŷǁ	ŷǁ	NOUN	_	_	_	_	_	gloss=leaders/elders|annotation_note=dict_match
+33	ŴĦǁ	ŵħǁ	NOUN	_	_	_	_	_	gloss=man/person|annotation_note=dict_match
+34	ţ̙	ţ̙	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+35	Ŷĺ	ŷĺ	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+36	Ť̕	ť̕	NOUN	_	_	_	_	_	gloss=words/speech|annotation_note=dict_match
+37	Ůǐǆ	ůǐǆ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+38	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40003001
+# ref_id = Matthew 3:1
+# eng_text = In those days , John the Baptizer came , preaching in the wilderness of Judea , saying ,
+# iii_text = ŤĦǀ ŤĦǑ ŧ̦̔ ųů ŴĦǐ Ŭ̗ ūǒǀ ŹǑ ŨǍ ŤǑ Ŭǅ Źř Ť̟Ħ ŭǐ ţ̦̔ ŧ̦̔ Ŭũ ŤǑ ŭ̥ ŮŪƹ ,
+1	ŤĦǀ	ťħǀ	ADV	_	_	_	_	_	gloss=there|annotation_note=gloss_inferred
+2	ŤĦǑ	ťħǒ	unk	_	_	_	_	_	gloss=pe|annotation_note=needs_manual
+3	ŧ̦̔	ŧ̦̔	ADP	_	_	_	_	_	gloss=into/in|annotation_note=dict_match
+4	ųů	ųů	unk	_	_	_	_	_	gloss=thieves|annotation_note=needs_manual
+5	ŴĦǐ	ŵħǐ	unk	_	_	_	_	_	gloss=ial|annotation_note=needs_manual
+6	Ŭ̗	ŭ̗	NOUN	_	_	_	_	_	gloss=hands|annotation_note=dict_match
+7	ūǒǀ	ūǒǀ	NOUN	_	_	_	_	_	gloss=teachers/scribes|annotation_note=dict_match
+8	ŹǑ	źǒ	unk	_	_	_	_	_	gloss=ean|annotation_note=needs_manual
+9	ŨǍ	ũǎ	unk	_	_	_	_	_	gloss=John’s|annotation_note=needs_manual
+10	ŤǑ	ťǒ	PART	_	_	_	_	_	gloss=[modal particle]|annotation_note=dict_match
+11	Ŭǅ	ŭǆ	PART	_	_	_	_	_	gloss=[grammatical particle]|annotation_note=dict_match
+12	Źř	źř	unk	_	_	_	_	_	gloss=springs|annotation_note=needs_manual
+13	Ť̟Ħ	ť̟ħ	unk	_	_	_	_	_	gloss=ean|annotation_note=needs_manual
+14	ŭǐ	ŭǐ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+15	ţ̦̔	ţ̦̔	unk	_	_	_	_	_	gloss=doves|annotation_note=needs_manual
+16	ŧ̦̔	ŧ̦̔	ADP	_	_	_	_	_	gloss=into/in|annotation_note=dict_match
+17	Ŭũ	ŭũ	ADJ	_	_	_	_	_	gloss=low/humble|annotation_note=dict_match
+18	ŤǑ	ťǒ	PART	_	_	_	_	_	gloss=[modal particle]|annotation_note=dict_match
+19	ŭ̥	ŭ̥	unk	_	_	_	_	_	gloss=taught|annotation_note=needs_manual
+20	ŮŪƹ	ůūƹ	ADV	_	_	_	_	_	gloss=far/farther|annotation_note=dict_match
+21	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+
+# sent_id = 40003009
+# ref_id = Matthew 3:9
+# eng_text = Don't think to yourselves , ' We have Abraham for our father , ' for I tell you that God is able to raise up children to Abraham from these stones .
+# iii_text = Ů̌̔ Źŉ ŭǑ ŮƩ ŭƪ ŧ̦̔ Źǃ Ţň Ŭ̗ ŨǍ Ű̌̔ Ţ̦Ħ Ţŕũ Ůǐǆ ţō Űǒǁ ŭŋ Űǁ , ŰǑ Ů̌̔ Ť̕ Ťŕĺ Źĺ ųǑ ŭ̕ Ŭů Ţň ŪĦǀ ţň ŧ̦̔ Ūŕŉ Źǃ Ţǀ Ŭǃ ŨǍ źǑ ťǐ Ū̙ Źĺ ŷǑǀ ţǑ Ŭǅ ū̦̔ .
+1	Ů̌̔	ů̌̔	PRON	_	_	_	dobj	_	gloss=you|Case=Acc|Person=2|PronType=Prs
+2	Źŉ	źŉ	PART	_	_	_	det	_	gloss=each|annotation_note=corrected: Yi has no articles; DET->PART
+3	ŭǑ	ŭǒ	ADV	_	_	_	_	_	gloss=much/very|annotation_note=dict_match
+4	ŮƩ	ůʃ	unk	_	_	_	_	_	gloss=soul|annotation_note=needs_manual
+5	ŭƪ	ŭƪ	NOUN	_	_	_	_	_	gloss=heart|annotation_note=gloss_inferred
+6	ŧ̦̔	ŧ̦̔	ADP	_	_	_	_	_	gloss=into/in|annotation_note=dict_match
+7	Źǃ	źǃ	unk	_	_	_	_	_	gloss=red|annotation_note=needs_manual
+8	Ţň	ţň	unk	_	_	_	_	_	gloss=stone|annotation_note=needs_manual
+9	Ŭ̗	ŭ̗	NOUN	_	_	_	_	_	gloss=hands|annotation_note=dict_match
+10	ŨǍ	ũǎ	unk	_	_	_	_	_	gloss=John’s|annotation_note=needs_manual
+11	Ű̌̔	ű̌̔	PRON	_	_	_	nsubj	_	gloss=We|Case=Nom|Number=Plur|Person=1|PronType=Prs
+12	Ţ̦Ħ	ţ̦ħ	unk	_	_	_	_	_	gloss=Al|annotation_note=needs_manual
+13	Ţŕũ	ţŕũ	unk	_	_	_	_	_	gloss=ancestors|annotation_note=needs_manual
+14	Ůǐǆ	ůǐǆ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+15	ţō	ţō	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+16	Űǒǁ	űǒǁ	unk	_	_	_	_	_	gloss=ine|annotation_note=needs_manual
+17	ŭŋ	ŭŋ	ADV	_	_	_	_	_	gloss=negation/not|annotation_note=dict_match
+18	Űǁ	űǁ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+19	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+20	ŰǑ	űǒ	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+21	Ů̌̔	ů̌̔	PRON	_	_	_	dobj	_	gloss=you|Case=Acc|Person=2|PronType=Prs
+22	Ť̕	ť̕	NOUN	_	_	_	_	_	gloss=words/speech|annotation_note=dict_match
+23	Ťŕĺ	ťŕĺ	unk	_	_	_	_	_	gloss=v|annotation_note=needs_manual
+24	Źĺ	źĺ	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+25	ųǑ	ųǒ	PRON	_	_	_	_	_	gloss=who/which|annotation_note=dict_match
+26	ŭ̕	ŭ̕	NOUN	_	_	_	_	_	gloss=rulers|annotation_note=dict_match
+27	Ŭů	ŭů	unk	_	_	_	_	_	gloss=mountains|annotation_note=needs_manual
+28	Ţň	ţň	unk	_	_	_	_	_	gloss=stone|annotation_note=needs_manual
+29	ŪĦǀ	ūħǀ	DET	_	_	_	_	_	gloss=this/that|annotation_note=dict_match
+30	ţň	ţň	unk	_	_	_	_	_	gloss=ite|annotation_note=needs_manual
+31	ŧ̦̔	ŧ̦̔	ADP	_	_	_	_	_	gloss=into/in|annotation_note=dict_match
+32	Ūŕŉ	ūŕŉ	ADP	_	_	_	prep	_	gloss=from
+33	Źǃ	źǃ	unk	_	_	_	_	_	gloss=red|annotation_note=needs_manual
+34	Ţǀ	ţǀ	unk	_	_	_	_	_	gloss=ice|annotation_note=needs_manual
+35	Ŭǃ	ŭǃ	unk	_	_	_	_	_	gloss=Can|annotation_note=needs_manual
+36	ŨǍ	ũǎ	unk	_	_	_	_	_	gloss=John’s|annotation_note=needs_manual
+37	źǑ	źǒ	NOUN	_	_	_	_	_	gloss=son|annotation_note=dict_match
+38	ťǐ	ťǐ	unk	_	_	_	_	_	gloss=ach|annotation_note=needs_manual
+39	Ū̙	ū̙	PART	_	_	_	_	_	gloss=[aspect/modal particle]|annotation_note=dict_match
+40	Źĺ	źĺ	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+41	ŷǑǀ	ŷǒǀ	unk	_	_	_	_	_	gloss=greater|annotation_note=needs_manual
+42	ţǑ	ţǒ	PRON	_	_	_	_	_	gloss=my/I|annotation_note=dict_match
+43	Ŭǅ	ŭǆ	PART	_	_	_	_	_	gloss=[grammatical particle]|annotation_note=dict_match
+44	ū̦̔	ū̦̔	NOUN	_	_	_	_	_	gloss=lamp|annotation_note=dict_match
+45	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40003014
+# ref_id = Matthew 3:14
+# eng_text = But John would have hindered him , saying , " I need to be baptized by you , and you come to me ? "
+# iii_text = Źƪ ŨǍ Ťŕũ Ṳ̙̄ Ůţň ţō Űǒǁ ŮŪƹ Űů Ūǁ Ůǃ Ū̙ ŴĦǐ Ŵǁ , Ůǃ ŧ̥ ŢǑ Ťŋ ŰǑ Ţǁ ŪĦǀ ŭ̕ Ŭǅ Ŭŋ .
+1	Źƪ	źƪ	PROPN	_	_	_	_	_	gloss=Joseph|annotation_note=dict_match
+2	ŨǍ	ũǎ	unk	_	_	_	_	_	gloss=John’s|annotation_note=needs_manual
+3	Ťŕũ	ťŕũ	PRON	_	_	_	dobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+4	Ṳ̙̄	ṳ̙̄	NOUN	_	_	_	_	_	gloss=service/ministry|annotation_note=dict_match
+5	Ůţň	ůţň	unk	_	_	_	_	_	gloss=stop|annotation_note=needs_manual
+6	ţō	ţō	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+7	Űǒǁ	űǒǁ	unk	_	_	_	_	_	gloss=ine|annotation_note=needs_manual
+8	ŮŪƹ	ůūƹ	ADV	_	_	_	_	_	gloss=far/farther|annotation_note=dict_match
+9	Űů	űů	PRON	_	_	21	pobj	_	gloss=me|Case=Acc|Number=Sing|Person=1|PronType=Prs
+10	Ūǁ	ūǁ	CONJ	_	_	_	_	_	gloss=and/with|annotation_note=dict_match
+11	Ůǃ	ůǃ	PRON	_	_	_	_	_	gloss=yourself/you|annotation_note=dict_match
+12	Ū̙	ū̙	PART	_	_	_	_	_	gloss=[aspect/modal particle]|annotation_note=dict_match
+13	ŴĦǐ	ŵħǐ	unk	_	_	_	_	_	gloss=ial|annotation_note=needs_manual
+14	Ŵǁ	ŵǁ	PART	_	_	_	_	_	gloss=[modal particle]|annotation_note=dict_match
+15	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+16	Ůǃ	ůǃ	PRON	_	_	_	_	_	gloss=yourself/you|annotation_note=dict_match
+17	ŧ̥	ŧ̥	unk	_	_	_	_	_	gloss=spare|annotation_note=needs_manual
+18	ŢǑ	ţǒ	ADJ	_	_	_	_	_	gloss=nothing/empty|annotation_note=dict_match
+19	Ťŋ	ťŋ	unk	_	_	_	_	_	gloss=opinion|annotation_note=needs_manual
+20	ŰǑ	űǒ	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+21	Ţǁ	ţǁ	ADP	_	_	_	prep	_	gloss=to
+22	ŪĦǀ	ūħǀ	DET	_	_	_	_	_	gloss=this/that|annotation_note=dict_match
+23	ŭ̕	ŭ̕	NOUN	_	_	_	_	_	gloss=rulers|annotation_note=dict_match
+24	Ŭǅ	ŭǆ	PART	_	_	_	_	_	gloss=[grammatical particle]|annotation_note=dict_match
+25	Ŭŋ	ŭŋ	unk	_	_	_	_	_	gloss=lift|annotation_note=needs_manual
+26	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40003017
+# ref_id = Matthew 3:17
+# eng_text = Behold , a voice out of the heavens said , " This is my beloved Son , in whom I am well pleased . "
+# iii_text = ŭǒ ŧǁ Ť̗Ħ Ūŕŉ ŪĦǎ Ūŉ ŧĦǒ ŮŪƹ , ŪĦǀ ŰǑ ŮŪǎ źǑ Ÿ̥̔ Ůǐǆ , ŰǑ ŧŕů Ŭ̙ ųǑ Ůǐǆ .
+1	ŭǒ	ŭǒ	ADV	_	_	_	_	_	gloss=very/much|annotation_note=dict_match
+2	ŧǁ	ŧǁ	VERB	_	_	_	_	_	gloss=go/run|annotation_note=dict_match
+3	Ť̗Ħ	ť̗ħ	ADP	_	_	_	_	_	gloss=on/upon|annotation_note=dict_match
+4	Ūŕŉ	ūŕŉ	ADP	_	_	5	prep	_	gloss=from
+5	ŪĦǎ	ūħǎ	NOUN	_	_	_	nsubj	_	gloss=voice|Number=Sing
+6	Ūŉ	ūŉ	unk	_	_	_	_	_	gloss=silence|annotation_note=needs_manual
+7	ŧĦǒ	ŧħǒ	unk	_	_	_	_	_	gloss=shouting|annotation_note=needs_manual
+8	ŮŪƹ	ůūƹ	ADV	_	_	_	_	_	gloss=far/farther|annotation_note=dict_match
+9	,	,	PUNCT	_	_	13	punct	_	PunctType=Comm
+10	ŪĦǀ	ūħǀ	DET	_	_	_	_	_	gloss=this/that|annotation_note=dict_match
+11	ŰǑ	űǒ	unk	_	_	_	_	_	gloss=I|annotation_note=needs_manual
+12	ŮŪǎ	ůūǎ	VERB	_	_	13	amod	_	gloss=loved|Aspect=Perf|Tense=Past|VerbForm=Part
+13	źǑ	źǒ	PROPN	_	_	_	attr	_	gloss=Son|Number=Sing
+14	Ÿ̥̔	ÿ̥̔	unk	_	_	_	_	_	gloss=ished|annotation_note=needs_manual
+15	Ůǐǆ	ůǐǆ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+16	,	,	PUNCT	_	_	13	punct	_	PunctType=Comm
+17	ŰǑ	űǒ	unk	_	_	_	_	_	gloss=I|annotation_note=needs_manual
+18	ŧŕů	ŧŕů	ADV	_	_	_	_	_	gloss=any/some|annotation_note=dict_match
+19	Ŭ̙	ŭ̙	NOUN	_	_	_	_	_	gloss=matter/thing|annotation_note=dict_match
+20	ųǑ	ųǒ	PRON	_	_	_	nsubj	_	gloss=who
+21	Ůǐǆ	ůǐǆ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+22	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40004003
+# ref_id = Matthew 4:3
+# eng_text = The tempter came and said to him , " If you are the Son of God , command that these stones become bread . "
+# iii_text = ųů ŮŪƼ Ů ǐ Ŭ̗ ūǒǀ Ṳ̙̄ Ŭō Ťŕũ Ţǁ ţ̙ , Ůǃ Źĺ ųǑ ŭ̕ źǑ Ůǐǆ ţ̙ Ÿũ Ůǐǆ , ŮƩ ųƪ Ŭƪ Ţň Ūŕǃ Ţǁ ţ̙ ţ̌̔Ħ ŴǑ ţǒ Ŭ̥ .
+1	ųů	ųů	unk	_	_	_	_	_	gloss=thieves|annotation_note=needs_manual
+2	ŮŪƼ	ůūƽ	unk	_	_	_	_	_	gloss=ignor|annotation_note=needs_manual
+3	Ů	ů	unk	_	_	_	_	_	gloss=eed|annotation_note=needs_manual
+4	ǐ	ǐ	unk	_	_	_	_	_	annotation_note=needs_manual
+5	Ŭ̗	ŭ̗	NOUN	_	_	_	_	_	gloss=hands|annotation_note=dict_match
+6	ūǒǀ	ūǒǀ	NOUN	_	_	_	_	_	gloss=teachers/scribes|annotation_note=dict_match
+7	Ṳ̙̄	ṳ̙̄	NOUN	_	_	_	_	_	gloss=service/ministry|annotation_note=dict_match
+8	Ŭō	ŭō	VERB	_	_	_	_	_	gloss=come|annotation_note=dict_match
+9	Ťŕũ	ťŕũ	PRON	_	_	10	pobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+10	Ţǁ	ţǁ	PART	_	_	33	aux	_	gloss=to
+11	ţ̙	ţ̙	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+12	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+13	Ůǃ	ůǃ	PRON	_	_	_	_	_	gloss=yourself/you|annotation_note=dict_match
+14	Źĺ	źĺ	PROPN	_	_	_	pobj	_	gloss=God|Number=Sing
+15	ųǑ	ųǒ	PRON	_	_	_	_	_	gloss=who/which|annotation_note=dict_match
+16	ŭ̕	ŭ̕	NOUN	_	_	_	_	_	gloss=rulers|annotation_note=dict_match
+17	źǑ	źǒ	PROPN	_	_	_	attr	_	gloss=Son|Number=Sing
+18	Ůǐǆ	ůǐǆ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+19	ţ̙	ţ̙	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+20	Ÿũ	ÿũ	SCONJ	_	_	_	mark	_	gloss=If
+21	Ůǐǆ	ůǐǆ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+22	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+23	ŮƩ	ůʃ	unk	_	_	_	_	_	gloss=soul|annotation_note=needs_manual
+24	ųƪ	ųƪ	unk	_	_	_	_	_	gloss=rel|annotation_note=needs_manual
+25	Ŭƪ	ŭƪ	unk	_	_	_	_	_	gloss=lift|annotation_note=needs_manual
+26	Ţň	ţň	unk	_	_	_	_	_	gloss=stone|annotation_note=needs_manual
+27	Ūŕǃ	ūŕǃ	unk	_	_	_	_	_	annotation_note=needs_manual
+28	Ţǁ	ţǁ	PART	_	_	33	aux	_	gloss=to
+29	ţ̙	ţ̙	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+30	ţ̌̔Ħ	ţ̌̔ħ	unk	_	_	_	_	_	gloss=cor|annotation_note=needs_manual
+31	ŴǑ	ŵǒ	unk	_	_	_	_	_	gloss=eat|annotation_note=needs_manual
+32	ţǒ	ţǒ	PRON	_	_	_	_	_	gloss=my/I|annotation_note=dict_match
+33	Ŭ̥	ŭ̥	VERB	_	_	_	xcomp	_	gloss=become|VerbForm=Inf
+34	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40004004
+# ref_id = Matthew 4:4
+# eng_text = But he answered , " It is written , ' Man shall not live by bread alone , but by every word that proceeds out of the mouth of God . ' "
+# iii_text = Ź̙ ų̦ Ť̕ ŧĦǑ ţ̙ , ŭǒ ŧǁ ųǑ ų̥ Ť̗Ħ Ť̌ , Ŷǁ ŴĦǁ ŧǁ Ūǁ ųǑ ŴǑ ţǒ Ť̗Ħ Źǃ Ůŧǀ ųǑ ŭŋ ŮũŎ , Źĺ ųǑ ŭ̕ Ṳ̊̚ Ţŵ ŧ̦̔ ŧŕů ŮŪƹ ŤǑ Ŭǅ Ť̕ Ť̗Ħ Źǃ Ůŧǀ ųǑ Ůǐǆ .
+1	Ź̙	ź̙	unk	_	_	_	_	_	gloss=planning|annotation_note=needs_manual
+2	ų̦	ų̦	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+3	Ť̕	ť̕	NOUN	_	_	_	_	_	gloss=words/speech|annotation_note=dict_match
+4	ŧĦǑ	ŧħǒ	unk	_	_	_	_	_	gloss=torment|annotation_note=needs_manual
+5	ţ̙	ţ̙	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+6	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+7	ŭǒ	ŭǒ	ADV	_	_	_	_	_	gloss=very/much|annotation_note=dict_match
+8	ŧǁ	ŧǁ	VERB	_	_	_	_	_	gloss=go/run|annotation_note=dict_match
+9	ųǑ	ųǒ	PRON	_	_	_	_	_	gloss=who/which|annotation_note=dict_match
+10	ų̥	ų̥	unk	_	_	_	_	_	gloss=wr|annotation_note=needs_manual
+11	Ť̗Ħ	ť̗ħ	ADP	_	_	_	_	_	gloss=on/upon|annotation_note=dict_match
+12	Ť̌	ť̌	unk	_	_	_	_	_	gloss=belong|annotation_note=needs_manual
+13	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+14	Ŷǁ	ŷǁ	NOUN	_	_	_	_	_	gloss=leaders/elders|annotation_note=dict_match
+15	ŴĦǁ	ŵħǁ	NOUN	_	_	_	_	_	gloss=man/person|annotation_note=dict_match
+16	ŧǁ	ŧǁ	VERB	_	_	_	_	_	gloss=go/run|annotation_note=dict_match
+17	Ūǁ	ūǁ	CONJ	_	_	_	_	_	gloss=and/with|annotation_note=dict_match
+18	ųǑ	ųǒ	PRON	_	_	_	_	_	gloss=who/which|annotation_note=dict_match
+19	ŴǑ	ŵǒ	unk	_	_	_	_	_	gloss=eat|annotation_note=needs_manual
+20	ţǒ	ţǒ	PRON	_	_	_	_	_	gloss=my/I|annotation_note=dict_match
+21	Ť̗Ħ	ť̗ħ	ADP	_	_	_	_	_	gloss=on/upon|annotation_note=dict_match
+22	Źǃ	źǃ	unk	_	_	_	_	_	gloss=red|annotation_note=needs_manual
+23	Ůŧǀ	ůŧǀ	unk	_	_	_	_	_	gloss=prince|annotation_note=needs_manual
+24	ųǑ	ųǒ	PRON	_	_	_	_	_	gloss=who/which|annotation_note=dict_match
+25	ŭŋ	ŭŋ	ADV	_	_	_	_	_	gloss=negation/not|annotation_note=dict_match
+26	ŮũŎ	ůũŏ	unk	_	_	_	_	_	gloss=iet|annotation_note=needs_manual
+27	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+28	Źĺ	źĺ	PROPN	_	_	_	pobj	_	gloss=God|Number=Sing
+29	ųǑ	ųǒ	PRON	_	_	_	_	_	gloss=who/which|annotation_note=dict_match
+30	ŭ̕	ŭ̕	NOUN	_	_	_	_	_	gloss=rulers|annotation_note=dict_match
+31	Ṳ̊̚	ṳ̊̚	unk	_	_	_	_	_	gloss=else|annotation_note=needs_manual
+32	Ţŵ	ţŵ	unk	_	_	_	_	_	gloss=uth|annotation_note=needs_manual
+33	ŧ̦̔	ŧ̦̔	ADP	_	_	_	_	_	gloss=into/in|annotation_note=dict_match
+34	ŧŕů	ŧŕů	ADV	_	_	_	_	_	gloss=any/some|annotation_note=dict_match
+35	ŮŪƹ	ůūƹ	ADV	_	_	_	_	_	gloss=far/farther|annotation_note=dict_match
+36	ŤǑ	ťǒ	PART	_	_	_	_	_	gloss=[modal particle]|annotation_note=dict_match
+37	Ŭǅ	ŭǆ	PART	_	_	_	_	_	gloss=[grammatical particle]|annotation_note=dict_match
+38	Ť̕	ť̕	NOUN	_	_	_	_	_	gloss=words/speech|annotation_note=dict_match
+39	Ť̗Ħ	ť̗ħ	ADP	_	_	_	_	_	gloss=on/upon|annotation_note=dict_match
+40	Źǃ	źǃ	unk	_	_	_	_	_	gloss=red|annotation_note=needs_manual
+41	Ůŧǀ	ůŧǀ	unk	_	_	_	_	_	gloss=prince|annotation_note=needs_manual
+42	ųǑ	ųǒ	PRON	_	_	_	_	_	gloss=who/which|annotation_note=dict_match
+43	Ůǐǆ	ůǐǆ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+44	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40004005
+# ref_id = Matthew 4:5
+# eng_text = Then the devil took him into the holy city . He set him on the pinnacle of the temple ,
+# iii_text = Ŷǅ ŮŴŵ ŭƪ Ťŕũ Ũ̥̔ Ũŕŉ Ÿ̗ Ŭŵ ŧ̦̔ Ŭũ Ťŕũ Ū̙ ţƸǀ Ũĺň Ţŵ Ť̗Ħ Ũ̌ .
+1	Ŷǅ	ŷǆ	unk	_	_	_	_	_	gloss=demons|annotation_note=needs_manual
+2	ŮŴŵ	ůŵŵ	unk	_	_	_	_	_	gloss=leading|annotation_note=needs_manual
+3	ŭƪ	ŭƪ	NOUN	_	_	_	_	_	gloss=heart|annotation_note=gloss_inferred
+4	Ťŕũ	ťŕũ	PRON	_	_	_	dobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+5	Ũ̥̔	ũ̥̔	unk	_	_	_	_	_	gloss=ep|annotation_note=needs_manual
+6	Ũŕŉ	ũŕŉ	unk	_	_	_	_	_	gloss=holiness|annotation_note=needs_manual
+7	Ÿ̗	ÿ̗	unk	_	_	_	_	_	gloss=holiness|annotation_note=needs_manual
+8	Ŭŵ	ŭŵ	unk	_	_	_	_	_	gloss=town|annotation_note=needs_manual
+9	ŧ̦̔	ŧ̦̔	ADP	_	_	_	_	_	gloss=into/in|annotation_note=dict_match
+10	Ŭũ	ŭũ	ADJ	_	_	_	_	_	gloss=low/humble|annotation_note=dict_match
+11	Ťŕũ	ťŕũ	PRON	_	_	_	dobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+12	Ū̙	ū̙	PART	_	_	_	_	_	gloss=[aspect/modal particle]|annotation_note=dict_match
+13	ţƸǀ	ţƹǀ	unk	_	_	_	_	_	gloss=ume|annotation_note=needs_manual
+14	Ũĺň	ũĺň	unk	_	_	_	_	_	gloss=cornerstone|annotation_note=needs_manual
+15	Ţŵ	ţŵ	unk	_	_	_	_	_	gloss=uth|annotation_note=needs_manual
+16	Ť̗Ħ	ť̗ħ	ADP	_	_	_	_	_	gloss=on/upon|annotation_note=dict_match
+17	Ũ̌	ũ̌	unk	_	_	_	_	_	gloss=standing|annotation_note=needs_manual
+18	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40004008
+# ref_id = Matthew 4:8
+# eng_text = Again , the devil took him to an exceedingly high mountain , and showed him all the kingdoms of the world , and their glory .
+# iii_text = Ŷǅ ŮŴŵ ŭƪ Ṳ̙̄ ŢǑ Ťŕũ Ũ̥̔ Ťŋ ġŵň Ū̌̔ ŭŵ ŭǑ Ťŕŋ ŭǑ Ť̗Ħ ŪĦǐ , Ť̤ ŭǐ Ťŕŋ Ţƪ Źǁ Ŭŵ ŧŕů űŉ ųǑ Ů̔Ůň ŭ̥ Ťŕũ ūŉ .
+1	Ŷǅ	ŷǆ	unk	_	_	_	_	_	gloss=demons|annotation_note=needs_manual
+2	ŮŴŵ	ůŵŵ	unk	_	_	_	_	_	gloss=leading|annotation_note=needs_manual
+3	ŭƪ	ŭƪ	NOUN	_	_	_	_	_	gloss=heart|annotation_note=gloss_inferred
+4	Ṳ̙̄	ṳ̙̄	NOUN	_	_	_	_	_	gloss=service/ministry|annotation_note=dict_match
+5	ŢǑ	ţǒ	ADJ	_	_	_	_	_	gloss=nothing/empty|annotation_note=dict_match
+6	Ťŕũ	ťŕũ	PRON	_	_	_	dative	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+7	Ũ̥̔	ũ̥̔	unk	_	_	_	_	_	gloss=ep|annotation_note=needs_manual
+8	Ťŋ	ťŋ	unk	_	_	_	_	_	gloss=opinion|annotation_note=needs_manual
+9	ġŵň	ġŵň	NOUN	_	_	_	pobj	_	gloss=mountain|Number=Sing
+10	Ū̌̔	ū̌̔	unk	_	_	_	_	_	gloss=deny|annotation_note=needs_manual
+11	ŭŵ	ŭŵ	unk	_	_	_	_	_	gloss=atch|annotation_note=needs_manual
+12	ŭǑ	ŭǒ	ADV	_	_	_	_	_	gloss=much/very|annotation_note=dict_match
+13	Ťŕŋ	ťŕŋ	PART	_	_	9	det	_	gloss=a|Definite=Ind|PronType=Art|annotation_note=corrected: Yi has no articles; DET->PART
+14	ŭǑ	ŭǒ	ADV	_	_	_	_	_	gloss=much/very|annotation_note=dict_match
+15	Ť̗Ħ	ť̗ħ	ADP	_	_	_	_	_	gloss=on/upon|annotation_note=dict_match
+16	ŪĦǐ	ūħǐ	VERB	_	_	_	_	_	gloss=arrive|annotation_note=dict_match
+17	,	,	PUNCT	_	_	_	_	_
+18	Ť̤	ť̤	NOUN	_	_	_	pobj	_	gloss=world|Number=Sing
+19	ŭǐ	ŭǐ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+20	Ťŕŋ	ťŕŋ	PART	_	_	9	det	_	gloss=a|Definite=Ind|PronType=Art|annotation_note=corrected: Yi has no articles; DET->PART
+21	Ţƪ	ţƪ	unk	_	_	_	_	_	gloss=light|annotation_note=needs_manual
+22	Źǁ	źǁ	NOUN	_	_	_	conj	_	gloss=glory|Number=Sing
+23	Ŭŵ	ŭŵ	unk	_	_	_	_	_	gloss=town|annotation_note=needs_manual
+24	ŧŕů	ŧŕů	ADV	_	_	_	_	_	gloss=any/some|annotation_note=dict_match
+25	űŉ	űŉ	unk	_	_	_	_	_	gloss=fert|annotation_note=needs_manual
+26	ųǑ	ųǒ	PRON	_	_	_	_	_	gloss=who/which|annotation_note=dict_match
+27	Ů̔Ůň	ů̔ůň	unk	_	_	_	_	_	annotation_note=needs_manual
+28	ŭ̥	ŭ̥	unk	_	_	_	_	_	gloss=taught|annotation_note=needs_manual
+29	Ťŕũ	ťŕũ	PRON	_	_	_	dative	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+30	ūŉ	ūŉ	unk	_	_	_	_	_	gloss=xt|annotation_note=needs_manual
+31	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40004014
+# ref_id = Matthew 4:14
+# eng_text = that it might be fulfilled which was spoken through Isaiah the prophet , saying ,
+# iii_text = ŪĦǀ šǐ ųǋŹǃ ųǐ źǑ Ť̕ ŮŪƹ ųǑ ŧǁ ţƫƪ ,
+1	ŪĦǀ	ūħǀ	DET	_	_	_	_	_	gloss=this/that|annotation_note=dict_match
+2	šǐ	šǐ	PROPN	_	_	_	_	_	gloss=Immanuel|annotation_note=dict_match
+3	ųǋŹǃ	ųǌźǃ	VERB	_	_	0	root	_	gloss=fulfilled|Tense=Past|VerbForm=Fin
+4	ųǐ	ųǐ	NOUN	_	_	_	pobj	_	gloss=prophet|Number=Sing
+5	źǑ	źǒ	NOUN	_	_	_	_	_	gloss=son|annotation_note=dict_match
+6	Ť̕	ť̕	NOUN	_	_	_	_	_	gloss=words/speech|annotation_note=dict_match
+7	ŮŪƹ	ůūƹ	ADV	_	_	_	_	_	gloss=far/farther|annotation_note=dict_match
+8	ųǑ	ųǒ	PRON	_	_	_	_	_	gloss=who/which|annotation_note=dict_match
+9	ŧǁ	ŧǁ	VERB	_	_	_	_	_	gloss=go/run|annotation_note=dict_match
+10	ţƫƪ	ţƫƪ	unk	_	_	_	_	_	gloss=fulfill|annotation_note=needs_manual
+11	,	,	PUNCT	_	_	_	_	_
+
+# sent_id = 40004019
+# ref_id = Matthew 4:19
+# eng_text = He said to them , " Come , follow me , and I will make you fishers for men . "
+# iii_text = Ź̙ ų̦ Ť̌̔Ħ Ţǁ ţ̙ ŰǑ Ț̌ Ūŕŉ Ŭō , ŰǑ Ů̌̔ Ū̙ Ŷǁ ŴĦǁ ŷƪ ųǑ ŰǑ ŷƪ ųǑ Ŭ̙ Ŭǅ ŶƸ .
+1	Ź̙	ź̙	unk	_	_	_	_	_	gloss=planning|annotation_note=needs_manual
+2	ų̦	ų̦	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+3	Ť̌̔Ħ	ť̌̔ħ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+4	Ţǁ	ţǁ	PART	_	_	_	aux	_	gloss=to
+5	ţ̙	ţ̙	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+6	ŰǑ	űǒ	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+7	Ț̌	ț̌	NOUN	_	_	_	_	_	gloss=war/battle|annotation_note=dict_match
+8	Ūŕŉ	ūŕŉ	ADP	_	_	_	_	_	gloss=from|annotation_note=dict_match
+9	Ŭō	ŭō	VERB	_	_	_	_	_	gloss=come|annotation_note=dict_match
+10	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+11	ŰǑ	űǒ	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+12	Ů̌̔	ů̌̔	PRON	_	_	_	dobj	_	gloss=you|Case=Acc|Person=2|PronType=Prs
+13	Ū̙	ū̙	PART	_	_	_	_	_	gloss=[aspect/modal particle]|annotation_note=dict_match
+14	Ŷǁ	ŷǁ	NOUN	_	_	_	_	_	gloss=leaders/elders|annotation_note=dict_match
+15	ŴĦǁ	ŵħǁ	NOUN	_	_	_	_	_	gloss=man/person|annotation_note=dict_match
+16	ŷƪ	ŷƪ	unk	_	_	_	_	_	gloss=tre|annotation_note=needs_manual
+17	ųǑ	ųǒ	PRON	_	_	_	_	_	gloss=who/which|annotation_note=dict_match
+18	ŰǑ	űǒ	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+19	ŷƪ	ŷƪ	unk	_	_	_	_	_	gloss=tre|annotation_note=needs_manual
+20	ųǑ	ųǒ	PRON	_	_	_	_	_	gloss=who/which|annotation_note=dict_match
+21	Ŭ̙	ŭ̙	NOUN	_	_	_	_	_	gloss=matter/thing|annotation_note=dict_match
+22	Ŭǅ	ŭǆ	PART	_	_	_	_	_	gloss=[grammatical particle]|annotation_note=dict_match
+23	ŶƸ	ŷƹ	unk	_	_	_	_	_	gloss=gin|annotation_note=needs_manual
+24	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40004022
+# ref_id = Matthew 4:22
+# eng_text = They immediately left the boat and their father , and followed him .
+# iii_text = Ť̌̔Ħ Ŭŵň ţō Ŭǁ ţ̦̔Ħ ŮŤ̕ Ť̌̔Ħ Ţ̥Ħ Ṳ̙̄ Ũů Ź̙ ų̦ Ț̌ Ūŕŉ ţǐ .
+1	Ť̌̔Ħ	ť̌̔ħ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+2	Ŭŵň	ŭŵň	unk	_	_	_	_	_	gloss=ror|annotation_note=needs_manual
+3	ţō	ţō	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+4	Ŭǁ	ŭǁ	NOUN	_	_	_	dobj	_	gloss=boat|Number=Sing
+5	ţ̦̔Ħ	ţ̦̔ħ	unk	_	_	_	_	_	gloss=placing|annotation_note=needs_manual
+6	ŮŤ̕	ůť̕	unk	_	_	_	_	_	gloss=Other|annotation_note=needs_manual
+7	Ť̌̔Ħ	ť̌̔ħ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+8	Ţ̥Ħ	ţ̥ħ	NOUN	_	_	4	conj	_	gloss=father|Number=Sing
+9	Ṳ̙̄	ṳ̙̄	NOUN	_	_	_	_	_	gloss=service/ministry|annotation_note=dict_match
+10	Ũů	ũů	VERB	_	_	_	_	_	gloss=marry|annotation_note=dict_match
+11	Ź̙	ź̙	unk	_	_	_	_	_	gloss=planning|annotation_note=needs_manual
+12	ų̦	ų̦	PROPN	_	_	_	_	_	gloss=Jesus|annotation_note=dict_match
+13	Ț̌	ț̌	NOUN	_	_	_	_	_	gloss=war/battle|annotation_note=dict_match
+14	Ūŕŉ	ūŕŉ	ADP	_	_	_	_	_	gloss=from|annotation_note=dict_match
+15	ţǐ	ţǐ	unk	_	_	_	_	_	gloss=gone|annotation_note=needs_manual
+16	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40004025
+# ref_id = Matthew 4:25
+# eng_text = Great multitudes from Galilee , Decapolis , Jerusalem , Judea and from beyond the Jordan followed him .
+# iii_text = ŤĦǀ ŤĦǑ Ŷǁ ŴĦǁ ŧŕů Ůł Ū̐ Ŭǐ Ŭǐ Ťǐ Ū̐ Ţ̥ Ŭǐ Ź̙ Ŭǒ ųŋ Ŭň Źř ŤĦǋ Źů ŤǍ Źũ ġǒ Ṳ̙̊ Ū̕ Ūŕŉ Ťŕũ Ț̌ Ūŕŉ Ŭō .
+1	ŤĦǀ	ťħǀ	ADV	_	_	_	_	_	gloss=there|annotation_note=gloss_inferred
+2	ŤĦǑ	ťħǒ	unk	_	_	_	_	_	gloss=pe|annotation_note=needs_manual
+3	Ŷǁ	ŷǁ	NOUN	_	_	_	_	_	gloss=leaders/elders|annotation_note=dict_match
+4	ŴĦǁ	ŵħǁ	NOUN	_	_	_	_	_	gloss=man/person|annotation_note=dict_match
+5	ŧŕů	ŧŕů	ADV	_	_	_	_	_	gloss=any/some|annotation_note=dict_match
+6	Ůł	ůł	unk	_	_	_	_	_	gloss=many|annotation_note=needs_manual
+7	Ū̐	ū̐	PROPN	_	_	26	pobj	_	gloss=Galilee|Number=Sing
+8	Ŭǐ	ŭǐ	PROPN	_	_	26	pobj	_	gloss=Galilee|Number=Sing
+9	Ŭǐ	ŭǐ	PROPN	_	_	26	pobj	_	gloss=Galilee|Number=Sing
+10	Ťǐ	ťǐ	unk	_	_	_	_	_	gloss=made|annotation_note=needs_manual
+11	Ū̐	ū̐	PROPN	_	_	26	pobj	_	gloss=Galilee|Number=Sing
+12	Ţ̥	ţ̥	unk	_	_	_	_	_	gloss=Apollos|annotation_note=needs_manual
+13	Ŭǐ	ŭǐ	PROPN	_	_	26	pobj	_	gloss=Galilee|Number=Sing
+14	Ź̙	ź̙	unk	_	_	_	_	_	gloss=planning|annotation_note=needs_manual
+15	Ŭǒ	ŭǒ	unk	_	_	_	_	_	gloss=dragon|annotation_note=needs_manual
+16	ųŋ	ųŋ	unk	_	_	_	_	_	gloss=Nazareth|annotation_note=needs_manual
+17	Ŭň	ŭň	unk	_	_	_	_	_	gloss=aeus|annotation_note=needs_manual
+18	Źř	źř	unk	_	_	_	_	_	gloss=springs|annotation_note=needs_manual
+19	ŤĦǋ	ťħǌ	unk	_	_	_	_	_	gloss=mere|annotation_note=needs_manual
+20	Źů	źů	unk	_	_	_	_	_	gloss=athe|annotation_note=needs_manual
+21	ŤǍ	ťǎ	PROPN	_	_	_	compound	_	gloss=Jordan|Number=Sing
+22	Źũ	źũ	NOUN	_	_	_	_	_	gloss=water|annotation_note=gloss_inferred
+23	ġǒ	ġǒ	unk	_	_	_	_	_	gloss=ople|annotation_note=needs_manual
+24	Ṳ̙̊	ṳ̙̊	unk	_	_	_	_	_	gloss=unbelievers|annotation_note=needs_manual
+25	Ū̕	ū̕	unk	_	_	_	_	_	gloss=Alph|annotation_note=needs_manual
+26	Ūŕŉ	ūŕŉ	ADP	_	_	26	conj	_	gloss=from
+27	Ťŕũ	ťŕũ	PRON	_	_	_	dobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+28	Ț̌	ț̌	NOUN	_	_	_	_	_	gloss=war/battle|annotation_note=dict_match
+29	Ūŕŉ	ūŕŉ	ADP	_	_	29	conj	_	gloss=from
+30	Ŭō	ŭō	VERB	_	_	_	_	_	gloss=come|annotation_note=dict_match
+31	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40005001
+# ref_id = Matthew 5:1
+# eng_text = Seeing the multitudes , he went up onto a mountain . When he had sat down , his disciples came to him .
+# iii_text = Ź̙ ų̦ Ŷǁ ŴĦǁ ŪĦǀ Ůł Űŉ ġũ ţō Ţŵň Ť̗Ħ Ťǃ Ŭũ ŧǁ Ůǐ , Ț̌Ħ Ūŕŉ Ŭ̗ ūǒǀ Ťŕũ Ṳ̙̄ ŗǒǀ ŪĦǐ Ŭǅ .
+1	Ź̙	ź̙	unk	_	_	_	_	_	gloss=planning|annotation_note=needs_manual
+2	ų̦	ų̦	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+3	Ŷǁ	ŷǁ	NOUN	_	_	_	_	_	gloss=leaders/elders|annotation_note=dict_match
+4	ŴĦǁ	ŵħǁ	NOUN	_	_	_	_	_	gloss=man/person|annotation_note=dict_match
+5	ŪĦǀ	ūħǀ	DET	_	_	_	_	_	gloss=this/that|annotation_note=dict_match
+6	Ůł	ůł	unk	_	_	_	_	_	gloss=many|annotation_note=needs_manual
+7	Űŉ	űŉ	VERB	_	_	_	advcl	_	gloss=saw|Tense=Past|VerbForm=Fin
+8	ġũ	ġũ	unk	_	_	_	_	_	annotation_note=needs_manual
+9	ţō	ţō	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+10	Ţŵň	ţŵň	unk	_	_	_	_	_	gloss=sulfur|annotation_note=needs_manual
+11	Ť̗Ħ	ť̗ħ	ADP	_	_	_	prep	_	gloss=on
+12	Ťǃ	ťǃ	unk	_	_	_	_	_	gloss=David|annotation_note=needs_manual
+13	Ŭũ	ŭũ	ADJ	_	_	_	_	_	gloss=low/humble|annotation_note=dict_match
+14	ŧǁ	ŧǁ	VERB	_	_	_	_	_	gloss=go/run|annotation_note=dict_match
+15	Ůǐ	ůǐ	ADV	_	_	_	_	_	gloss=also/too|annotation_note=dict_match
+16	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+17	Ț̌Ħ	ț̌ħ	unk	_	_	_	_	_	gloss=drow|annotation_note=needs_manual
+18	Ūŕŉ	ūŕŉ	ADP	_	_	_	_	_	gloss=from|annotation_note=dict_match
+19	Ŭ̗	ŭ̗	NOUN	_	_	_	_	_	gloss=hands|annotation_note=dict_match
+20	ūǒǀ	ūǒǀ	NOUN	_	_	_	_	_	gloss=teachers/scribes|annotation_note=dict_match
+21	Ťŕũ	ťŕũ	PRON	_	_	_	pobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+22	Ṳ̙̄	ṳ̙̄	NOUN	_	_	_	_	_	gloss=service/ministry|annotation_note=dict_match
+23	ŗǒǀ	ŗǒǀ	unk	_	_	_	_	_	gloss=ag|annotation_note=needs_manual
+24	ŪĦǐ	ūħǐ	VERB	_	_	_	_	_	gloss=arrive|annotation_note=dict_match
+25	Ŭǅ	ŭǆ	PART	_	_	_	_	_	gloss=[grammatical particle]|annotation_note=dict_match
+26	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40005012
+# ref_id = Matthew 5:12
+# eng_text = " Rejoice , and be exceedingly glad , for great is your reward in heaven . For that is how they persecuted the prophets who were before you .
+# iii_text = Ŭ̙ Ŭǅ Ŭǁ ŭǑ Źǃ Ŵǁ , Ť̗Ħ Ŭō ŭǒ ŧǁ Ť̗Ħ Ÿǅ Ů̌̔ Ū̙ ųǑ Ū̌̔ ŷǑǀ . Ů̌̔ Ṳ̙̄ Ū̕ ųǐ źǑ ŤĦǀ ţǀ Ŷǁ ŴĦǁ Ůǐ ŪĦǀ Ŭǅ ŭǑ Ť̌̔Ħ Şŉ .
+1	Ŭ̙	ŭ̙	NOUN	_	_	_	_	_	gloss=matter/thing|annotation_note=dict_match
+2	Ŭǅ	ŭǆ	PART	_	_	_	_	_	gloss=[grammatical particle]|annotation_note=dict_match
+3	Ŭǁ	ŭǁ	unk	_	_	_	_	_	gloss=boat|annotation_note=needs_manual
+4	ŭǑ	ŭǒ	ADV	_	_	_	_	_	gloss=much/very|annotation_note=dict_match
+5	Źǃ	źǃ	unk	_	_	_	_	_	gloss=red|annotation_note=needs_manual
+6	Ŵǁ	ŵǁ	PART	_	_	_	_	_	gloss=[modal particle]|annotation_note=dict_match
+7	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+8	Ť̗Ħ	ť̗ħ	ADP	_	_	_	_	_	gloss=on/upon|annotation_note=dict_match
+9	Ŭō	ŭō	VERB	_	_	_	_	_	gloss=come|annotation_note=dict_match
+10	ŭǒ	ŭǒ	ADV	_	_	_	_	_	gloss=very/much|annotation_note=dict_match
+11	ŧǁ	ŧǁ	VERB	_	_	_	_	_	gloss=go/run|annotation_note=dict_match
+12	Ť̗Ħ	ť̗ħ	ADP	_	_	_	_	_	gloss=on/upon|annotation_note=dict_match
+13	Ÿǅ	ÿǆ	VERB	_	_	_	_	_	gloss=request|annotation_note=dict_match
+14	Ů̌̔	ů̌̔	PRON	_	_	_	dobj	_	gloss=you|Case=Acc|Person=2|PronType=Prs
+15	Ū̙	ū̙	PART	_	_	_	_	_	gloss=[aspect/modal particle]|annotation_note=dict_match
+16	ųǑ	ųǒ	PRON	_	_	_	_	_	gloss=who/which|annotation_note=dict_match
+17	Ū̌̔	ū̌̔	unk	_	_	_	_	_	gloss=deny|annotation_note=needs_manual
+18	ŷǑǀ	ŷǒǀ	unk	_	_	_	_	_	gloss=greater|annotation_note=needs_manual
+19	.	.	PUNCT	_	_	_	_	_
+20	Ů̌̔	ů̌̔	PRON	_	_	_	dobj	_	gloss=you|Case=Acc|Person=2|PronType=Prs
+21	Ṳ̙̄	ṳ̙̄	NOUN	_	_	_	_	_	gloss=service/ministry|annotation_note=dict_match
+22	Ū̕	ū̕	unk	_	_	_	_	_	gloss=Alph|annotation_note=needs_manual
+23	ųǐ	ųǐ	unk	_	_	_	_	_	gloss=prophet|annotation_note=needs_manual
+24	źǑ	źǒ	NOUN	_	_	_	_	_	gloss=son|annotation_note=dict_match
+25	ŤĦǀ	ťħǀ	ADV	_	_	_	_	_	gloss=there|annotation_note=gloss_inferred
+26	ţǀ	ţǀ	unk	_	_	_	_	_	gloss=ines|annotation_note=needs_manual
+27	Ŷǁ	ŷǁ	NOUN	_	_	_	_	_	gloss=leaders/elders|annotation_note=dict_match
+28	ŴĦǁ	ŵħǁ	NOUN	_	_	_	_	_	gloss=man/person|annotation_note=dict_match
+29	Ůǐ	ůǐ	ADV	_	_	_	_	_	gloss=also/too|annotation_note=dict_match
+30	ŪĦǀ	ūħǀ	DET	_	_	_	_	_	gloss=this/that|annotation_note=dict_match
+31	Ŭǅ	ŭǆ	PART	_	_	_	_	_	gloss=[grammatical particle]|annotation_note=dict_match
+32	ŭǑ	ŭǒ	ADV	_	_	_	_	_	gloss=much/very|annotation_note=dict_match
+33	Ť̌̔Ħ	ť̌̔ħ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+34	Şŉ	şŉ	unk	_	_	_	_	_	gloss=persecuting|annotation_note=needs_manual
+35	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40005013
+# ref_id = Matthew 5:13
+# eng_text = You are the salt of the earth , but if the salt has lost its flavor , what will it be salted with ? It is then good for nothing , but to be cast out and trodden under the feet of men .
+# iii_text = Ů̌̔ Ť̤ ŭǐ Ť̗Ħ ŴĦǒǑ Ůǐǆ , ŴĦǒǑ ŭŋ ġů Ÿũ Ůǐǆ ŧŕů ųƸ Ťŕũ Ū̙ Ṳ̙̄ Ů̌̔ ū̦̔ Ŭǃ . Ț̌ ŪĦǐ Ţǅ ţǒ ŭŋ Ūŉ , ŮŤ̕ Ṳ̙̊ Ū̕ ţǑ Ŷǁ ŴĦǁ Ū̙ ŮƼŮǐ Űǁ .
+1	Ů̌̔	ů̌̔	PRON	_	_	_	nsubj	_	gloss=you|Case=Nom|Person=2|PronType=Prs
+2	Ť̤	ť̤	unk	_	_	_	_	_	gloss=world|annotation_note=needs_manual
+3	ŭǐ	ŭǐ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+4	Ť̗Ħ	ť̗ħ	ADP	_	_	_	_	_	gloss=on/upon|annotation_note=dict_match
+5	ŴĦǒǑ	ŵħǒǒ	unk	_	_	_	_	_	gloss=av|annotation_note=needs_manual
+6	Ůǐǆ	ůǐǆ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+7	,	,	PUNCT	_	_	_	_	_
+8	ŴĦǒǑ	ŵħǒǒ	unk	_	_	_	_	_	gloss=av|annotation_note=needs_manual
+9	ŭŋ	ŭŋ	ADV	_	_	_	_	_	gloss=negation/not|annotation_note=dict_match
+10	ġů	ġů	unk	_	_	_	_	_	annotation_note=needs_manual
+11	Ÿũ	ÿũ	unk	_	_	_	_	_	gloss=If|annotation_note=needs_manual
+12	Ůǐǆ	ůǐǆ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+13	ŧŕů	ŧŕů	ADV	_	_	_	_	_	gloss=any/some|annotation_note=dict_match
+14	ųƸ	ųƹ	unk	_	_	_	_	_	gloss=ide|annotation_note=needs_manual
+15	Ťŕũ	ťŕũ	PRON	_	_	_	_	_	gloss=him/his|annotation_note=dict_match
+16	Ū̙	ū̙	PART	_	_	_	_	_	gloss=[aspect/modal particle]|annotation_note=dict_match
+17	Ṳ̙̄	ṳ̙̄	NOUN	_	_	_	_	_	gloss=service/ministry|annotation_note=dict_match
+18	Ů̌̔	ů̌̔	PRON	_	_	_	nsubj	_	gloss=you|Case=Nom|Person=2|PronType=Prs
+19	ū̦̔	ū̦̔	NOUN	_	_	_	_	_	gloss=lamp|annotation_note=dict_match
+20	Ŭǃ	ŭǃ	AUX	_	_	_	aux	_	gloss=Can|VerbForm=Fin
+21	.	.	PUNCT	_	_	_	_	_
+22	Ț̌	ț̌	NOUN	_	_	_	_	_	gloss=war/battle|annotation_note=dict_match
+23	ŪĦǐ	ūħǐ	VERB	_	_	_	_	_	gloss=arrive|annotation_note=dict_match
+24	Ţǅ	ţǆ	unk	_	_	_	_	_	gloss=Hum|annotation_note=needs_manual
+25	ţǒ	ţǒ	PRON	_	_	_	_	_	gloss=my/I|annotation_note=dict_match
+26	ŭŋ	ŭŋ	ADV	_	_	_	_	_	gloss=negation/not|annotation_note=dict_match
+27	Ūŉ	ūŉ	unk	_	_	_	_	_	gloss=silence|annotation_note=needs_manual
+28	,	,	PUNCT	_	_	_	_	_
+29	ŮŤ̕	ůť̕	unk	_	_	_	_	_	gloss=Other|annotation_note=needs_manual
+30	Ṳ̙̊	ṳ̙̊	unk	_	_	_	_	_	gloss=unbelievers|annotation_note=needs_manual
+31	Ū̕	ū̕	unk	_	_	_	_	_	gloss=Alph|annotation_note=needs_manual
+32	ţǑ	ţǒ	PRON	_	_	_	_	_	gloss=my/I|annotation_note=dict_match
+33	Ŷǁ	ŷǁ	NOUN	_	_	_	_	_	gloss=leaders/elders|annotation_note=dict_match
+34	ŴĦǁ	ŵħǁ	NOUN	_	_	_	_	_	gloss=man/person|annotation_note=dict_match
+35	Ū̙	ū̙	PART	_	_	_	_	_	gloss=[aspect/modal particle]|annotation_note=dict_match
+36	ŮƼŮǐ	ůƽůǐ	unk	_	_	_	_	_	annotation_note=needs_manual
+37	Űǁ	űǁ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+38	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40005015
+# ref_id = Matthew 5:15
+# eng_text = Neither do you light a lamp , and put it under a bushel basket , but on a stand ; and it shines to all who are in the house .
+# iii_text = Ŷǁ ŴĦǁ Ť̛Ħ ţ̥ Ÿǅ Ťƹ Ťŕŉ ū̦̔ ŭŋ ţů . ţǑ Ÿǅ ŭŵ Ťǅ ţǑ , Ťŕŋ ŗǀ Ŷǁ ŴĦǁ Ů̙ Ţƪ ŬƸ ţ̕Ħ źŉ .
+1	Ŷǁ	ŷǁ	NOUN	_	_	_	_	_	gloss=leaders/elders|annotation_note=dict_match
+2	ŴĦǁ	ŵħǁ	NOUN	_	_	_	_	_	gloss=man/person|annotation_note=dict_match
+3	Ť̛Ħ	ť̛ħ	unk	_	_	_	_	_	annotation_note=needs_manual
+4	ţ̥	ţ̥	unk	_	_	_	_	_	gloss=urn|annotation_note=needs_manual
+5	Ÿǅ	ÿǆ	VERB	_	_	_	_	_	gloss=request|annotation_note=dict_match
+6	Ťƹ	ťƹ	unk	_	_	_	_	_	gloss=stoop|annotation_note=needs_manual
+7	Ťŕŉ	ťŕŉ	ADP	_	_	_	prep	_	gloss=under
+8	ū̦̔	ū̦̔	NOUN	_	_	_	nsubjpass	_	gloss=lamp|Number=Sing
+9	ŭŋ	ŭŋ	ADV	_	_	_	_	_	gloss=negation/not|annotation_note=dict_match
+10	ţů	ţů	unk	_	_	_	_	_	gloss=impossible|annotation_note=needs_manual
+11	.	.	PUNCT	_	_	_	_	_
+12	ţǑ	ţǒ	PRON	_	_	_	_	_	gloss=my/I|annotation_note=dict_match
+13	Ÿǅ	ÿǆ	VERB	_	_	_	_	_	gloss=request|annotation_note=dict_match
+14	ŭŵ	ŭŵ	unk	_	_	_	_	_	gloss=atch|annotation_note=needs_manual
+15	Ťǅ	ťǆ	NOUN	_	_	_	_	_	gloss=place|annotation_note=dict_match
+16	ţǑ	ţǒ	PRON	_	_	_	_	_	gloss=my/I|annotation_note=dict_match
+17	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+18	Ťŕŋ	ťŕŋ	PART	_	_	_	det	_	gloss=a|Definite=Ind|PronType=Art|annotation_note=corrected: Yi has no articles; DET->PART
+19	ŗǀ	ŗǀ	unk	_	_	_	_	_	gloss=household|annotation_note=needs_manual
+20	Ŷǁ	ŷǁ	NOUN	_	_	_	_	_	gloss=leaders/elders|annotation_note=dict_match
+21	ŴĦǁ	ŵħǁ	NOUN	_	_	_	_	_	gloss=man/person|annotation_note=dict_match
+22	Ů̙	ů̙	unk	_	_	_	_	_	annotation_note=needs_manual
+23	Ţƪ	ţƪ	NOUN	_	_	_	dobj	_	gloss=light|Number=Sing
+24	ŬƸ	ŭƹ	unk	_	_	_	_	_	gloss=harsh|annotation_note=needs_manual
+25	ţ̕Ħ	ţ̕ħ	unk	_	_	_	_	_	gloss=direct|annotation_note=needs_manual
+26	źŉ	źŉ	VERB	_	_	_	_	_	gloss=promise/rise|annotation_note=dict_match
+27	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40005016
+# ref_id = Matthew 5:16
+# eng_text = Even so , let your light shine before men ; that they may see your good works , and glorify your Father who is in heaven .
+# iii_text = Ů̌̔ Ţƪ ŬƸ Ůǐ ŪĦǀ Ŭ̙ ŭǑ Ÿǅ ųů Ū̙ ţ̕Ħ Űǁ , Ť̌̔Ħ Ū̙ Ů̌̔ Ŵ̦ Ů̕ ŧŕů Ţō ųǑ ŷǑ Űŉ ţǑ , Ṳ̙̄ ŢǑ Źǁ Ŭŵ Ÿǅ Ů̌̔ ŭǒ ŧǁ Ť̗Ħ Ūǁ š̗ Ťǅ Ū̙ Űǁ .
+1	Ů̌̔	ů̌̔	PRON	_	_	_	_	_	gloss=you|annotation_note=dict_match
+2	Ţƪ	ţƪ	unk	_	_	_	_	_	gloss=light|annotation_note=needs_manual
+3	ŬƸ	ŭƹ	unk	_	_	_	_	_	gloss=harsh|annotation_note=needs_manual
+4	Ůǐ	ůǐ	ADV	_	_	_	_	_	gloss=also/too|annotation_note=dict_match
+5	ŪĦǀ	ūħǀ	DET	_	_	_	_	_	gloss=this/that|annotation_note=dict_match
+6	Ŭ̙	ŭ̙	NOUN	_	_	_	_	_	gloss=matter/thing|annotation_note=dict_match
+7	ŭǑ	ŭǒ	ADV	_	_	_	_	_	gloss=much/very|annotation_note=dict_match
+8	Ÿǅ	ÿǆ	VERB	_	_	_	_	_	gloss=request|annotation_note=dict_match
+9	ųů	ųů	unk	_	_	_	_	_	gloss=thieves|annotation_note=needs_manual
+10	Ū̙	ū̙	PART	_	_	_	_	_	gloss=[aspect/modal particle]|annotation_note=dict_match
+11	ţ̕Ħ	ţ̕ħ	unk	_	_	_	_	_	gloss=direct|annotation_note=needs_manual
+12	Űǁ	űǁ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+13	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+14	Ť̌̔Ħ	ť̌̔ħ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+15	Ū̙	ū̙	PART	_	_	_	_	_	gloss=[aspect/modal particle]|annotation_note=dict_match
+16	Ů̌̔	ů̌̔	PRON	_	_	_	_	_	gloss=you|annotation_note=dict_match
+17	Ŵ̦	ŵ̦	ADJ	_	_	_	_	_	gloss=good|annotation_note=gloss_inferred
+18	Ů̕	ů̕	unk	_	_	_	_	_	gloss=things|annotation_note=needs_manual
+19	ŧŕů	ŧŕů	ADV	_	_	_	_	_	gloss=any/some|annotation_note=dict_match
+20	Ţō	ţō	unk	_	_	_	_	_	gloss=iving|annotation_note=needs_manual
+21	ųǑ	ųǒ	PRON	_	_	_	_	_	gloss=who/which|annotation_note=dict_match
+22	ŷǑ	ŷǒ	NOUN	_	_	_	_	_	gloss=benefit/good|annotation_note=dict_match
+23	Űŉ	űŉ	unk	_	_	_	_	_	gloss=saw|annotation_note=needs_manual
+24	ţǑ	ţǒ	PRON	_	_	_	_	_	gloss=my/I|annotation_note=dict_match
+25	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+26	Ṳ̙̄	ṳ̙̄	NOUN	_	_	_	_	_	gloss=service/ministry|annotation_note=dict_match
+27	ŢǑ	ţǒ	ADJ	_	_	_	_	_	gloss=nothing/empty|annotation_note=dict_match
+28	Źǁ	źǁ	NOUN	_	_	_	_	_	gloss=glory|annotation_note=gloss_inferred
+29	Ŭŵ	ŭŵ	unk	_	_	_	_	_	gloss=town|annotation_note=needs_manual
+30	Ÿǅ	ÿǆ	VERB	_	_	_	_	_	gloss=request|annotation_note=dict_match
+31	Ů̌̔	ů̌̔	PRON	_	_	_	_	_	gloss=you|annotation_note=dict_match
+32	ŭǒ	ŭǒ	ADV	_	_	_	_	_	gloss=very/much|annotation_note=dict_match
+33	ŧǁ	ŧǁ	VERB	_	_	_	_	_	gloss=go/run|annotation_note=dict_match
+34	Ť̗Ħ	ť̗ħ	ADP	_	_	_	_	_	gloss=on/upon|annotation_note=dict_match
+35	Ūǁ	ūǁ	CONJ	_	_	_	_	_	gloss=and/with|annotation_note=dict_match
+36	š̗	š̗	NOUN	_	_	_	_	_	gloss=child/baby|annotation_note=dict_match
+37	Ťǅ	ťǆ	NOUN	_	_	_	_	_	gloss=place|annotation_note=dict_match
+38	Ū̙	ū̙	PART	_	_	_	_	_	gloss=[aspect/modal particle]|annotation_note=dict_match
+39	Űǁ	űǁ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+40	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40005024
+# ref_id = Matthew 5:24
+# eng_text = leave your gift there before the altar , and go your way . First be reconciled to your brother , and then come and offer your gift .
+# iii_text = Ŭŵň ūō ţƸǀ Ůǐǆ ŪƸ Ÿǅ ţƸǀ Ŵŉ Ṳ̙̄ ţǑ , Ṳ̙̄ Ŭũ Ůŋ Ŷ̪ ŭǑǀ Ůũů ŧĦǃ Ţǁ Ũĺ ŤĦǒǑ Ũů , šŵ Ț̌ ŢǑ Ŭǅ ţƸǀ ţǑ .
+1	Ŭŵň	ŭŵň	unk	_	_	_	_	_	gloss=ror|annotation_note=needs_manual
+2	ūō	ūō	unk	_	_	_	_	_	annotation_note=needs_manual
+3	ţƸǀ	ţƹǀ	unk	_	_	_	_	_	gloss=ume|annotation_note=needs_manual
+4	Ůǐǆ	ůǐǆ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+5	ŪƸ	ūƹ	unk	_	_	_	_	_	gloss=comp|annotation_note=needs_manual
+6	Ÿǅ	ÿǆ	VERB	_	_	_	_	_	gloss=request|annotation_note=dict_match
+7	ţƸǀ	ţƹǀ	unk	_	_	_	_	_	gloss=ume|annotation_note=needs_manual
+8	Ŵŉ	ŵŉ	NOUN	_	_	_	pobj	_	gloss=altar|Number=Sing
+9	Ṳ̙̄	ṳ̙̄	NOUN	_	_	_	_	_	gloss=service/ministry|annotation_note=dict_match
+10	ţǑ	ţǒ	PRON	_	_	_	_	_	gloss=my/I|annotation_note=dict_match
+11	,	,	PUNCT	_	_	_	_	_
+12	Ṳ̙̄	ṳ̙̄	NOUN	_	_	_	_	_	gloss=service/ministry|annotation_note=dict_match
+13	Ŭũ	ŭũ	ADJ	_	_	_	_	_	gloss=low/humble|annotation_note=dict_match
+14	Ůŋ	ůŋ	ADJ	_	_	_	_	_	gloss=purposeful|annotation_note=dict_match
+15	Ŷ̪	ŷ̪	unk	_	_	_	_	_	gloss=reconcil|annotation_note=needs_manual
+16	ŭǑǀ	ŭǒǀ	unk	_	_	_	_	_	gloss=dear|annotation_note=needs_manual
+17	Ůũů	ůũů	unk	_	_	_	_	_	gloss=brothers|annotation_note=needs_manual
+18	ŧĦǃ	ŧħǃ	unk	_	_	_	_	_	gloss=sisters|annotation_note=needs_manual
+19	Ţǁ	ţǁ	ADP	_	_	_	dative	_	gloss=to
+20	Ũĺ	ũĺ	unk	_	_	_	_	_	gloss=lim|annotation_note=needs_manual
+21	ŤĦǒǑ	ťħǒǒ	unk	_	_	_	_	_	gloss=gs|annotation_note=needs_manual
+22	Ũů	ũů	VERB	_	_	_	_	_	gloss=marry|annotation_note=dict_match
+23	,	,	PUNCT	_	_	_	_	_
+24	šŵ	šŵ	unk	_	_	_	_	_	gloss=pregnant|annotation_note=needs_manual
+25	Ț̌	ț̌	NOUN	_	_	_	_	_	gloss=war/battle|annotation_note=dict_match
+26	ŢǑ	ţǒ	ADJ	_	_	_	_	_	gloss=nothing/empty|annotation_note=dict_match
+27	Ŭǅ	ŭǆ	PART	_	_	_	_	_	gloss=[grammatical particle]|annotation_note=dict_match
+28	ţƸǀ	ţƹǀ	unk	_	_	_	_	_	gloss=ume|annotation_note=needs_manual
+29	ţǑ	ţǒ	PRON	_	_	_	_	_	gloss=my/I|annotation_note=dict_match
+30	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40005031
+# ref_id = Matthew 5:31
+# eng_text = " It was also said , ' Whoever shall put away his wife , let him give her a writing of divorce , '
+# iii_text = Ṳ̙̄ ŢǑ Ť̕ ųƸ ŮŪƹ ųǑ Ūŉ , Ŷǁ ŴĦǁ Ṳ̄Ħ Ŭ̦̔ Ũů Ŷĺ ū̦̔ Ÿũ Ůǐǆ , Ŭ̦̔ ųǒ Ůūƪ Ťŕũ Ū̙ Ŵǁ .
+1	Ṳ̙̄	ṳ̙̄	NOUN	_	_	_	_	_	gloss=service/ministry|annotation_note=dict_match
+2	ŢǑ	ţǒ	ADJ	_	_	_	_	_	gloss=nothing/empty|annotation_note=dict_match
+3	Ť̕	ť̕	NOUN	_	_	_	_	_	gloss=words/speech|annotation_note=dict_match
+4	ųƸ	ųƹ	unk	_	_	_	_	_	gloss=ide|annotation_note=needs_manual
+5	ŮŪƹ	ůūƹ	ADV	_	_	_	_	_	gloss=far/farther|annotation_note=dict_match
+6	ųǑ	ųǒ	PRON	_	_	_	_	_	gloss=who/which|annotation_note=dict_match
+7	Ūŉ	ūŉ	unk	_	_	_	_	_	gloss=silence|annotation_note=needs_manual
+8	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+9	Ŷǁ	ŷǁ	NOUN	_	_	_	_	_	gloss=leaders/elders|annotation_note=dict_match
+10	ŴĦǁ	ŵħǁ	NOUN	_	_	_	_	_	gloss=man/person|annotation_note=dict_match
+11	Ṳ̄Ħ	ṳ̄ħ	NOUN	_	_	12	dobj	_	gloss=wife|Number=Sing
+12	Ŭ̦̔	ŭ̦̔	NOUN	_	_	_	pobj	_	gloss=divorce|Number=Sing
+13	Ũů	ũů	VERB	_	_	_	_	_	gloss=marry|annotation_note=dict_match
+14	Ŷĺ	ŷĺ	unk	_	_	_	_	_	gloss=will|annotation_note=needs_manual
+15	ū̦̔	ū̦̔	NOUN	_	_	_	_	_	gloss=lamp|annotation_note=dict_match
+16	Ÿũ	ÿũ	unk	_	_	_	_	_	gloss=If|annotation_note=needs_manual
+17	Ůǐǆ	ůǐǆ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+18	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+19	Ŭ̦̔	ŭ̦̔	NOUN	_	_	_	pobj	_	gloss=divorce|Number=Sing
+20	ųǒ	ųǒ	PRON	_	_	_	_	_	gloss=who/which|annotation_note=dict_match
+21	Ůūƪ	ůūƪ	unk	_	_	_	_	_	gloss=tongue|annotation_note=needs_manual
+22	Ťŕũ	ťŕũ	PRON	_	_	_	_	_	gloss=him/his|annotation_note=dict_match
+23	Ū̙	ū̙	PART	_	_	_	_	_	gloss=[aspect/modal particle]|annotation_note=dict_match
+24	Ŵǁ	ŵǁ	PART	_	_	_	_	_	gloss=[modal particle]|annotation_note=dict_match
+25	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40006006
+# ref_id = Matthew 6:6
+# eng_text = But you , when you pray , enter into your inner chamber , and having shut your door , pray to your Father who is in secret , and your Father who sees in secret will reward you openly .
+# iii_text = Ůǃ ŪĦǅ ţŋŤĦǀ ŤĦǑ ŧ̦̔ Ůǃ Ũĺň ūŕŵň ŧ̦̔ Ŭũ šŋ ŮŧǒǑŢ̤ ţĺ Ůŋ ūŕŵň ŧ̦̔ Ūǁ Ůŋ ųǑ š̗ Ťǅ ŪĦǅ ţŋ , Ůŋ š̗ Ťǅ ūŕŵň ŧ̦̔ Ūǁ ŧǁ Ůŋ , Ŵ̌Ħ Ŵŕĺ Ÿǅ Ůŋ Ūũŉ ŬǑ .
+1	Ůǃ	ůǃ	PRON	_	_	_	pobj	_	gloss=yourself|Case=Acc|Person=2|PronType=Prs|Reflex=Yes
+2	ŪĦǅ	ūħǆ	unk	_	_	_	_	_	gloss=entrance|annotation_note=needs_manual
+3	ţŋŤĦǀ	ţŋťħǀ	unk	_	_	_	_	_	annotation_note=needs_manual
+4	ŤĦǑ	ťħǒ	unk	_	_	_	_	_	gloss=pe|annotation_note=needs_manual
+5	ŧ̦̔	ŧ̦̔	ADP	_	_	_	_	_	gloss=into/in|annotation_note=dict_match
+6	Ůǃ	ůǃ	PRON	_	_	_	pobj	_	gloss=yourself|Case=Acc|Person=2|PronType=Prs|Reflex=Yes
+7	Ũĺň	ũĺň	unk	_	_	_	_	_	gloss=cornerstone|annotation_note=needs_manual
+8	ūŕŵň	ūŕŵň	unk	_	_	_	_	_	gloss=se|annotation_note=needs_manual
+9	ŧ̦̔	ŧ̦̔	ADP	_	_	_	_	_	gloss=into/in|annotation_note=dict_match
+10	Ŭũ	ŭũ	ADJ	_	_	_	_	_	gloss=low/humble|annotation_note=dict_match
+11	šŋ	šŋ	unk	_	_	_	_	_	gloss=t|annotation_note=needs_manual
+12	ŮŧǒǑŢ̤	ůŧǒǒţ̤	unk	_	_	_	_	_	annotation_note=needs_manual
+13	ţĺ	ţĺ	VERB	_	_	_	_	_	gloss=ran|annotation_note=gloss_inferred
+14	Ůŋ	ůŋ	ADJ	_	_	_	_	_	gloss=purposeful|annotation_note=dict_match
+15	ūŕŵň	ūŕŵň	unk	_	_	_	_	_	gloss=se|annotation_note=needs_manual
+16	ŧ̦̔	ŧ̦̔	ADP	_	_	_	_	_	gloss=into/in|annotation_note=dict_match
+17	Ūǁ	ūǁ	CONJ	_	_	_	_	_	gloss=and/with|annotation_note=dict_match
+18	Ůŋ	ůŋ	ADJ	_	_	_	_	_	gloss=purposeful|annotation_note=dict_match
+19	ųǑ	ųǒ	PRON	_	_	_	nsubj	_	gloss=who
+20	š̗	š̗	NOUN	_	_	_	_	_	gloss=child/baby|annotation_note=dict_match
+21	Ťǅ	ťǆ	NOUN	_	_	_	_	_	gloss=place|annotation_note=dict_match
+22	ŪĦǅ	ūħǆ	unk	_	_	_	_	_	gloss=entrance|annotation_note=needs_manual
+23	ţŋ	ţŋ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+24	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+25	Ůŋ	ůŋ	ADJ	_	_	_	_	_	gloss=purposeful|annotation_note=dict_match
+26	š̗	š̗	NOUN	_	_	_	_	_	gloss=child/baby|annotation_note=dict_match
+27	Ťǅ	ťǆ	NOUN	_	_	_	_	_	gloss=place|annotation_note=dict_match
+28	ūŕŵň	ūŕŵň	unk	_	_	_	_	_	gloss=se|annotation_note=needs_manual
+29	ŧ̦̔	ŧ̦̔	ADP	_	_	_	_	_	gloss=into/in|annotation_note=dict_match
+30	Ūǁ	ūǁ	CONJ	_	_	_	_	_	gloss=and/with|annotation_note=dict_match
+31	ŧǁ	ŧǁ	VERB	_	_	_	_	_	gloss=go/run|annotation_note=dict_match
+32	Ůŋ	ůŋ	ADJ	_	_	_	_	_	gloss=purposeful|annotation_note=dict_match
+33	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+34	Ŵ̌Ħ	ŵ̌ħ	unk	_	_	_	_	_	gloss=salm|annotation_note=needs_manual
+35	Ŵŕĺ	ŵŕĺ	unk	_	_	_	_	_	gloss=salm|annotation_note=needs_manual
+36	Ÿǅ	ÿǆ	VERB	_	_	_	_	_	gloss=request|annotation_note=dict_match
+37	Ůŋ	ůŋ	ADJ	_	_	_	_	_	gloss=purposeful|annotation_note=dict_match
+38	Ūũŉ	ūũŉ	ADJ	_	_	_	amod	_	gloss=private|Degree=Pos
+39	ŬǑ	ŭǒ	unk	_	_	_	_	_	gloss=aps|annotation_note=needs_manual
+40	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40006008
+# ref_id = Matthew 6:8
+# eng_text = Therefore don't be like them , for your Father knows what things you need , before you ask him .
+# iii_text = Ů̌̔ Ť̌̔Ħ Ț̌ ŮŴǁ ŭŋ Űǁ , Ť̗Ħ Ŭō Ů̌̔ ŪĦǅŭŋ ţŋ Ṳ̙̄ ųǅŮ̌̔ ŧŕů źǀ źŉ ųǑ Ů̌̔ ŭǒ ŧǁ š̗ Ťǅ ŸǑǀ ŭǑ ų̚ ųǑ Ůǐǆ .
+1	Ů̌̔	ů̌̔	PRON	_	_	_	nsubj	_	gloss=you|Case=Nom|Person=2|PronType=Prs
+2	Ť̌̔Ħ	ť̌̔ħ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+3	Ț̌	ț̌	NOUN	_	_	_	_	_	gloss=war/battle|annotation_note=dict_match
+4	ŮŴǁ	ůŵǁ	unk	_	_	_	_	_	gloss=learn|annotation_note=needs_manual
+5	ŭŋ	ŭŋ	ADV	_	_	_	_	_	gloss=negation/not|annotation_note=dict_match
+6	Űǁ	űǁ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+7	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+8	Ť̗Ħ	ť̗ħ	ADP	_	_	_	_	_	gloss=on/upon|annotation_note=dict_match
+9	Ŭō	ŭō	VERB	_	_	_	_	_	gloss=come|annotation_note=dict_match
+10	Ů̌̔	ů̌̔	PRON	_	_	_	nsubj	_	gloss=you|Case=Nom|Person=2|PronType=Prs
+11	ŪĦǅŭŋ	ūħǆŭŋ	unk	_	_	_	_	_	annotation_note=needs_manual
+12	ţŋ	ţŋ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+13	Ṳ̙̄	ṳ̙̄	NOUN	_	_	_	_	_	gloss=service/ministry|annotation_note=dict_match
+14	ųǅŮ̌̔	ųǆů̌̔	unk	_	_	_	_	_	annotation_note=needs_manual
+15	ŧŕů	ŧŕů	ADV	_	_	_	_	_	gloss=any/some|annotation_note=dict_match
+16	źǀ	źǀ	unk	_	_	_	_	_	gloss=sla|annotation_note=needs_manual
+17	źŉ	źŉ	VERB	_	_	_	_	_	gloss=promise/rise|annotation_note=dict_match
+18	ųǑ	ųǒ	PRON	_	_	_	_	_	gloss=who/which|annotation_note=dict_match
+19	Ů̌̔	ů̌̔	PRON	_	_	_	nsubj	_	gloss=you|Case=Nom|Person=2|PronType=Prs
+20	ŭǒ	ŭǒ	ADV	_	_	_	_	_	gloss=very/much|annotation_note=dict_match
+21	ŧǁ	ŧǁ	VERB	_	_	_	_	_	gloss=go/run|annotation_note=dict_match
+22	š̗	š̗	NOUN	_	_	_	_	_	gloss=child/baby|annotation_note=dict_match
+23	Ťǅ	ťǆ	NOUN	_	_	_	_	_	gloss=place|annotation_note=dict_match
+24	ŸǑǀ	ÿǒǀ	unk	_	_	_	_	_	gloss=gold|annotation_note=needs_manual
+25	ŭǑ	ŭǒ	ADV	_	_	_	_	_	gloss=much/very|annotation_note=dict_match
+26	ų̚	ų̚	VERB	_	_	_	_	_	gloss=know|annotation_note=gloss_inferred
+27	ųǑ	ųǒ	PRON	_	_	_	_	_	gloss=who/which|annotation_note=dict_match
+28	Ůǐǆ	ůǐǆ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+29	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40006018
+# ref_id = Matthew 6:18
+# eng_text = that you are not seen by men to be fasting , but by your Father who is in secret , and your Father , who sees in secret , will reward you .
+# iii_text = ųů Ū̙ Ůǃ ŴǑ ţǒŴĺ ųǑ Ůǃ ŤǑ ŭŋ Ŭō , Ůŋ ŧŕŵň ŧ̦̔ Ūǁ Ůŋ ųǑ š̗ Ťǅ Ū̙ Źǃ Ůǃ ŤǑ Ŭǅ . Ůŋ š̗ Ťǅ ŧŕŵň ŧ̦̔ Ůǃ Űŉ Ŵ̌Ħ Ŵŕĺ Ůŋ Ūũŉ ŬǑ ,
+1	ųů	ųů	unk	_	_	_	_	_	gloss=thieves|annotation_note=needs_manual
+2	Ū̙	ū̙	PART	_	_	_	_	_	gloss=[aspect/modal particle]|annotation_note=dict_match
+3	Ůǃ	ůǃ	PRON	_	_	_	_	_	gloss=yourself/you|annotation_note=dict_match
+4	ŴǑ	ŵǒ	unk	_	_	_	_	_	gloss=eat|annotation_note=needs_manual
+5	ţǒŴĺ	ţǒŵĺ	unk	_	_	_	_	_	annotation_note=needs_manual
+6	ųǑ	ųǒ	PRON	_	_	_	nsubj	_	gloss=who
+7	Ůǃ	ůǃ	PRON	_	_	_	_	_	gloss=yourself/you|annotation_note=dict_match
+8	ŤǑ	ťǒ	PART	_	_	_	_	_	gloss=[modal particle]|annotation_note=dict_match
+9	ŭŋ	ŭŋ	ADV	_	_	_	_	_	gloss=negation/not|annotation_note=dict_match
+10	Ŭō	ŭō	VERB	_	_	_	_	_	gloss=come|annotation_note=dict_match
+11	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+12	Ůŋ	ůŋ	ADJ	_	_	_	_	_	gloss=purposeful|annotation_note=dict_match
+13	ŧŕŵň	ŧŕŵň	unk	_	_	_	_	_	gloss=express|annotation_note=needs_manual
+14	ŧ̦̔	ŧ̦̔	ADP	_	_	_	_	_	gloss=into/in|annotation_note=dict_match
+15	Ūǁ	ūǁ	CONJ	_	_	_	_	_	gloss=and/with|annotation_note=dict_match
+16	Ůŋ	ůŋ	ADJ	_	_	_	_	_	gloss=purposeful|annotation_note=dict_match
+17	ųǑ	ųǒ	PRON	_	_	_	nsubj	_	gloss=who
+18	š̗	š̗	NOUN	_	_	_	_	_	gloss=child/baby|annotation_note=dict_match
+19	Ťǅ	ťǆ	NOUN	_	_	_	_	_	gloss=place|annotation_note=dict_match
+20	Ū̙	ū̙	PART	_	_	_	_	_	gloss=[aspect/modal particle]|annotation_note=dict_match
+21	Źǃ	źǃ	unk	_	_	_	_	_	gloss=red|annotation_note=needs_manual
+22	Ůǃ	ůǃ	PRON	_	_	_	_	_	gloss=yourself/you|annotation_note=dict_match
+23	ŤǑ	ťǒ	PART	_	_	_	_	_	gloss=[modal particle]|annotation_note=dict_match
+24	Ŭǅ	ŭǆ	PART	_	_	_	_	_	gloss=[grammatical particle]|annotation_note=dict_match
+25	.	.	PUNCT	_	_	_	_	_
+26	Ůŋ	ůŋ	ADJ	_	_	_	_	_	gloss=purposeful|annotation_note=dict_match
+27	š̗	š̗	NOUN	_	_	_	_	_	gloss=child/baby|annotation_note=dict_match
+28	Ťǅ	ťǆ	NOUN	_	_	_	_	_	gloss=place|annotation_note=dict_match
+29	ŧŕŵň	ŧŕŵň	unk	_	_	_	_	_	gloss=express|annotation_note=needs_manual
+30	ŧ̦̔	ŧ̦̔	ADP	_	_	_	_	_	gloss=into/in|annotation_note=dict_match
+31	Ůǃ	ůǃ	PRON	_	_	_	_	_	gloss=yourself/you|annotation_note=dict_match
+32	Űŉ	űŉ	unk	_	_	_	_	_	gloss=saw|annotation_note=needs_manual
+33	Ŵ̌Ħ	ŵ̌ħ	unk	_	_	_	_	_	gloss=salm|annotation_note=needs_manual
+34	Ŵŕĺ	ŵŕĺ	unk	_	_	_	_	_	gloss=salm|annotation_note=needs_manual
+35	Ůŋ	ůŋ	ADJ	_	_	_	_	_	gloss=purposeful|annotation_note=dict_match
+36	Ūũŉ	ūũŉ	ADJ	_	_	_	amod	_	gloss=private|Degree=Pos
+37	ŬǑ	ŭǒ	unk	_	_	_	_	_	gloss=aps|annotation_note=needs_manual
+38	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+
+# sent_id = 40006019
+# ref_id = Matthew 6:19
+# eng_text = " Don't lay up treasures for yourselves on the earth , where moth and rust consume , and where thieves break through and steal ;
+# iii_text = Źŉ ŭǑ Ť̗Ħ Ŭō ţĦǒ ŸǑǀ Ťǐ ŢĦǒ ţ̌ Ů̕ šŵ Źǃ ŸǒǑ Ť̤ ŭǐ Ť̗Ħ ţǑ ŭŋ Űǁ , Ť̤ ŭǐ Ť̗Ħ ġŵ ŧǁ Ū̔Ħ Ŭō , źǘ ŧ̦̔ ţŋ ū̦̔ , ųů Ŵǆ Ůǐ Ŭŵ Ţŵ Ůţŵ ŧǁ ŧĦǒǀ Ŭō .
+1	Źŉ	źŉ	unk	_	_	_	_	_	gloss=each|annotation_note=needs_manual
+2	ŭǑ	ŭǒ	ADV	_	_	_	_	_	gloss=much/very|annotation_note=dict_match
+3	Ť̗Ħ	ť̗ħ	ADP	_	_	_	prep	_	gloss=on
+4	Ŭō	ŭō	VERB	_	_	_	_	_	gloss=come|annotation_note=dict_match
+5	ţĦǒ	ţħǒ	unk	_	_	_	_	_	gloss=feel|annotation_note=needs_manual
+6	ŸǑǀ	ÿǒǀ	unk	_	_	_	_	_	gloss=gold|annotation_note=needs_manual
+7	Ťǐ	ťǐ	unk	_	_	_	_	_	gloss=made|annotation_note=needs_manual
+8	ŢĦǒ	ţħǒ	unk	_	_	_	_	_	gloss=freely|annotation_note=needs_manual
+9	ţ̌	ţ̌	NOUN	_	_	_	_	_	gloss=power|annotation_note=gloss_inferred
+10	Ů̕	ů̕	unk	_	_	_	_	_	gloss=things|annotation_note=needs_manual
+11	šŵ	šŵ	unk	_	_	_	_	_	gloss=pregnant|annotation_note=needs_manual
+12	Źǃ	źǃ	unk	_	_	_	_	_	gloss=red|annotation_note=needs_manual
+13	ŸǒǑ	ÿǒǒ	VERB	_	_	_	_	_	gloss=seek|annotation_note=dict_match
+14	Ť̤	ť̤	unk	_	_	_	_	_	gloss=world|annotation_note=needs_manual
+15	ŭǐ	ŭǐ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+16	Ť̗Ħ	ť̗ħ	ADP	_	_	_	prep	_	gloss=on
+17	ţǑ	ţǒ	PRON	_	_	_	_	_	gloss=my/I|annotation_note=dict_match
+18	ŭŋ	ŭŋ	ADV	_	_	_	_	_	gloss=negation/not|annotation_note=dict_match
+19	Űǁ	űǁ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+20	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+21	Ť̤	ť̤	unk	_	_	_	_	_	gloss=world|annotation_note=needs_manual
+22	ŭǐ	ŭǐ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+23	Ť̗Ħ	ť̗ħ	ADP	_	_	_	prep	_	gloss=on
+24	ġŵ	ġŵ	unk	_	_	_	_	_	gloss=en|annotation_note=needs_manual
+25	ŧǁ	ŧǁ	VERB	_	_	_	_	_	gloss=go/run|annotation_note=dict_match
+26	Ū̔Ħ	ū̔ħ	unk	_	_	_	_	_	annotation_note=needs_manual
+27	Ŭō	ŭō	VERB	_	_	_	_	_	gloss=come|annotation_note=dict_match
+28	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+29	źǘ	źǘ	VERB	_	_	_	conj	_	gloss=steal|VerbForm=Inf
+30	ŧ̦̔	ŧ̦̔	ADP	_	_	_	_	_	gloss=into/in|annotation_note=dict_match
+31	ţŋ	ţŋ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+32	ū̦̔	ū̦̔	NOUN	_	_	_	_	_	gloss=lamp|annotation_note=dict_match
+33	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+34	ųů	ųů	NOUN	_	_	_	nsubj	_	gloss=thieves|Number=Plur
+35	Ŵǆ	ŵǆ	NOUN	_	_	_	nsubj	_	gloss=thieves|Number=Plur
+36	Ůǐ	ůǐ	ADV	_	_	_	_	_	gloss=also/too|annotation_note=dict_match
+37	Ŭŵ	ŭŵ	unk	_	_	_	_	_	gloss=town|annotation_note=needs_manual
+38	Ţŵ	ţŵ	unk	_	_	_	_	_	gloss=uth|annotation_note=needs_manual
+39	Ůţŵ	ůţŵ	unk	_	_	_	_	_	gloss=knocking|annotation_note=needs_manual
+40	ŧǁ	ŧǁ	VERB	_	_	_	_	_	gloss=go/run|annotation_note=dict_match
+41	ŧĦǒǀ	ŧħǒǀ	unk	_	_	_	_	_	gloss=ole|annotation_note=needs_manual
+42	Ŭō	ŭō	VERB	_	_	_	_	_	gloss=come|annotation_note=dict_match
+43	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40006020
+# ref_id = Matthew 6:20
+# eng_text = but lay up for yourselves treasures in heaven , where neither moth nor rust consume , and where thieves don't break through and steal ;
+# iii_text = ŢĦǒ ŧŕů ţ̌ ųǑ ŸǒǑ ŭǒ ŧǁ Ť̗Ħ ţǑ Űǁ . ŭǒ ŧǁ Ť̗Ħ ġŵ ŭŋ Ūŉ źǘ ŭŋ ūǒǀ ţŋ ŭŋ ūǒǀ . ųů Ŵǆ ŧǁ ūĦǒǀ ųǑ Ůǐ ŭŋ Ūǁ .
+1	ŢĦǒ	ţħǒ	unk	_	_	_	_	_	gloss=freely|annotation_note=needs_manual
+2	ŧŕů	ŧŕů	ADV	_	_	_	_	_	gloss=any/some|annotation_note=dict_match
+3	ţ̌	ţ̌	NOUN	_	_	_	_	_	gloss=power|annotation_note=gloss_inferred
+4	ųǑ	ųǒ	PRON	_	_	_	_	_	gloss=who/which|annotation_note=dict_match
+5	ŸǒǑ	ÿǒǒ	VERB	_	_	_	_	_	gloss=seek|annotation_note=dict_match
+6	ŭǒ	ŭǒ	ADV	_	_	_	_	_	gloss=very/much|annotation_note=dict_match
+7	ŧǁ	ŧǁ	VERB	_	_	_	_	_	gloss=go/run|annotation_note=dict_match
+8	Ť̗Ħ	ť̗ħ	ADP	_	_	_	_	_	gloss=on/upon|annotation_note=dict_match
+9	ţǑ	ţǒ	PRON	_	_	_	_	_	gloss=my/I|annotation_note=dict_match
+10	Űǁ	űǁ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+11	.	.	PUNCT	_	_	_	_	_
+12	ŭǒ	ŭǒ	ADV	_	_	_	_	_	gloss=very/much|annotation_note=dict_match
+13	ŧǁ	ŧǁ	VERB	_	_	_	_	_	gloss=go/run|annotation_note=dict_match
+14	Ť̗Ħ	ť̗ħ	ADP	_	_	_	_	_	gloss=on/upon|annotation_note=dict_match
+15	ġŵ	ġŵ	unk	_	_	_	_	_	gloss=en|annotation_note=needs_manual
+16	ŭŋ	ŭŋ	ADV	_	_	_	_	_	gloss=negation/not|annotation_note=dict_match
+17	Ūŉ	ūŉ	unk	_	_	_	_	_	gloss=silence|annotation_note=needs_manual
+18	źǘ	źǘ	VERB	_	_	_	conj	_	gloss=steal|VerbForm=Inf
+19	ŭŋ	ŭŋ	ADV	_	_	_	_	_	gloss=negation/not|annotation_note=dict_match
+20	ūǒǀ	ūǒǀ	NOUN	_	_	_	_	_	gloss=teachers/scribes|annotation_note=dict_match
+21	ţŋ	ţŋ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+22	ŭŋ	ŭŋ	ADV	_	_	_	_	_	gloss=negation/not|annotation_note=dict_match
+23	ūǒǀ	ūǒǀ	NOUN	_	_	_	_	_	gloss=teachers/scribes|annotation_note=dict_match
+24	.	.	PUNCT	_	_	_	_	_
+25	ųů	ųů	NOUN	_	_	_	nsubj	_	gloss=thieves|Number=Plur
+26	Ŵǆ	ŵǆ	NOUN	_	_	_	nsubj	_	gloss=thieves|Number=Plur
+27	ŧǁ	ŧǁ	VERB	_	_	_	_	_	gloss=go/run|annotation_note=dict_match
+28	ūĦǒǀ	ūħǒǀ	unk	_	_	_	_	_	gloss=horses|annotation_note=needs_manual
+29	ųǑ	ųǒ	PRON	_	_	_	_	_	gloss=who/which|annotation_note=dict_match
+30	Ůǐ	ůǐ	ADV	_	_	_	_	_	gloss=also/too|annotation_note=dict_match
+31	ŭŋ	ŭŋ	ADV	_	_	_	_	_	gloss=negation/not|annotation_note=dict_match
+32	Ūǁ	ūǁ	CONJ	_	_	_	_	_	gloss=and/with|annotation_note=dict_match
+33	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40006022
+# ref_id = Matthew 6:22
+# eng_text = The lamp of the body is the eye : if therefore your eye is sound , your whole body will be full of light .
+# iii_text = Ůŋ ţǒ ūŵň ŢĦƸ Ť̗Ħ Ţů Ŭĺ Ůǐǆ , Ůŋ Ůŋ ţǒ Ūũň ū̦̔ Ÿũ Ůǐǆ Ťŕŋ ūŵň ŢĦƸ ŭǑ Ůǃ Űǁ .
+1	Ůŋ	ůŋ	ADJ	_	_	_	_	_	gloss=purposeful|annotation_note=dict_match
+2	ţǒ	ţǒ	PRON	_	_	_	_	_	gloss=my/I|annotation_note=dict_match
+3	ūŵň	ūŵň	NOUN	_	_	_	nsubjpass	_	gloss=body|Number=Sing
+4	ŢĦƸ	ţħƹ	unk	_	_	_	_	_	gloss=wrath|annotation_note=needs_manual
+5	Ť̗Ħ	ť̗ħ	ADP	_	_	_	_	_	gloss=on/upon|annotation_note=dict_match
+6	Ţů	ţů	unk	_	_	_	_	_	gloss=qual|annotation_note=needs_manual
+7	Ŭĺ	ŭĺ	NOUN	_	_	_	pobj	_	gloss=light|Number=Sing
+8	Ůǐǆ	ůǐǆ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+9	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+10	Ůŋ	ůŋ	ADJ	_	_	_	_	_	gloss=purposeful|annotation_note=dict_match
+11	Ůŋ	ůŋ	ADJ	_	_	_	_	_	gloss=purposeful|annotation_note=dict_match
+12	ţǒ	ţǒ	PRON	_	_	_	_	_	gloss=my/I|annotation_note=dict_match
+13	Ūũň	ūũň	unk	_	_	_	_	_	gloss=ark|annotation_note=needs_manual
+14	ū̦̔	ū̦̔	NOUN	_	_	_	attr	_	gloss=lamp|Number=Sing
+15	Ÿũ	ÿũ	unk	_	_	_	_	_	gloss=If|annotation_note=needs_manual
+16	Ůǐǆ	ůǐǆ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+17	Ťŕŋ	ťŕŋ	PART	_	_	14	det	_	gloss=a|Definite=Ind|PronType=Art|annotation_note=corrected: Yi has no articles; DET->PART
+18	ūŵň	ūŵň	NOUN	_	_	_	nsubjpass	_	gloss=body|Number=Sing
+19	ŢĦƸ	ţħƹ	unk	_	_	_	_	_	gloss=wrath|annotation_note=needs_manual
+20	ŭǑ	ŭǒ	ADV	_	_	_	_	_	gloss=much/very|annotation_note=dict_match
+21	Ůǃ	ůǃ	PRON	_	_	_	_	_	gloss=yourself/you|annotation_note=dict_match
+22	Űǁ	űǁ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+23	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40006023
+# ref_id = Matthew 6:23
+# eng_text = But if your eye is evil , your whole body will be full of darkness . If therefore the light that is in you is darkness , how great is the darkness !
+# iii_text = Ůŋ ţǒ Ŷ̤ ū̦̔ Ÿũ Ůǐǆ Ťŕŋ ūŵň ŢĦƸ ŭǑ Ůŋţƹ ţƹ ŭǑ Źŋ . Ůŋ ūĦŵň ŧ̦̔ Ţƪ Ŭĺ Ů̗ Ůǃ ū̦̔ ŸƩ Ůǐǆ , Ůŋ ţƹ ţƹ ŤĦǀ ŧŕů ŷǑǀ Ūŉ ŭŋ ųǆ .
+1	Ůŋ	ůŋ	ADJ	_	_	_	_	_	gloss=purposeful|annotation_note=dict_match
+2	ţǒ	ţǒ	PRON	_	_	_	_	_	gloss=my/I|annotation_note=dict_match
+3	Ŷ̤	ŷ̤	unk	_	_	_	_	_	gloss=brothers|annotation_note=needs_manual
+4	ū̦̔	ū̦̔	NOUN	_	_	_	_	_	gloss=lamp|annotation_note=dict_match
+5	Ÿũ	ÿũ	unk	_	_	_	_	_	gloss=If|annotation_note=needs_manual
+6	Ůǐǆ	ůǐǆ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+7	Ťŕŋ	ťŕŋ	unk	_	_	_	_	_	gloss=a|annotation_note=needs_manual
+8	ūŵň	ūŵň	NOUN	_	_	_	nsubjpass	_	gloss=body|Number=Sing
+9	ŢĦƸ	ţħƹ	unk	_	_	_	_	_	gloss=wrath|annotation_note=needs_manual
+10	ŭǑ	ŭǒ	ADV	_	_	_	_	_	gloss=much/very|annotation_note=dict_match
+11	Ůŋţƹ	ůŋţƹ	unk	_	_	_	_	_	annotation_note=needs_manual
+12	ţƹ	ţƹ	NOUN	_	_	_	nsubj	_	gloss=darkness|Number=Sing
+13	ŭǑ	ŭǒ	ADV	_	_	_	_	_	gloss=much/very|annotation_note=dict_match
+14	Źŋ	źŋ	unk	_	_	_	_	_	gloss=tomorrow|annotation_note=needs_manual
+15	.	.	PUNCT	_	_	_	_	_
+16	Ůŋ	ůŋ	ADJ	_	_	_	_	_	gloss=purposeful|annotation_note=dict_match
+17	ūĦŵň	ūħŵň	unk	_	_	_	_	_	annotation_note=needs_manual
+18	ŧ̦̔	ŧ̦̔	ADP	_	_	_	_	_	gloss=into/in|annotation_note=dict_match
+19	Ţƪ	ţƪ	NOUN	_	_	_	nsubj	_	gloss=light|Number=Sing
+20	Ŭĺ	ŭĺ	NOUN	_	_	_	nsubj	_	gloss=light|Number=Sing
+21	Ů̗	ů̗	NOUN	_	_	_	_	_	gloss=bread|annotation_note=gloss_inferred
+22	Ůǃ	ůǃ	PRON	_	_	_	_	_	gloss=yourself/you|annotation_note=dict_match
+23	ū̦̔	ū̦̔	NOUN	_	_	_	_	_	gloss=lamp|annotation_note=dict_match
+24	ŸƩ	ÿʃ	unk	_	_	_	_	_	gloss=os|annotation_note=needs_manual
+25	Ůǐǆ	ůǐǆ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+26	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+27	Ůŋ	ůŋ	ADJ	_	_	_	_	_	gloss=purposeful|annotation_note=dict_match
+28	ţƹ	ţƹ	NOUN	_	_	_	nsubj	_	gloss=darkness|Number=Sing
+29	ţƹ	ţƹ	NOUN	_	_	_	nsubj	_	gloss=darkness|Number=Sing
+30	ŤĦǀ	ťħǀ	ADV	_	_	_	_	_	gloss=there|annotation_note=gloss_inferred
+31	ŧŕů	ŧŕů	ADV	_	_	_	_	_	gloss=any/some|annotation_note=dict_match
+32	ŷǑǀ	ŷǒǀ	unk	_	_	_	_	_	gloss=greater|annotation_note=needs_manual
+33	Ūŉ	ūŉ	unk	_	_	_	_	_	gloss=silence|annotation_note=needs_manual
+34	ŭŋ	ŭŋ	ADV	_	_	_	_	_	gloss=negation/not|annotation_note=dict_match
+35	ųǆ	ųǆ	unk	_	_	_	_	_	gloss=realize|annotation_note=needs_manual
+36	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40006024
+# ref_id = Matthew 6:24
+# eng_text = " No one can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You can't serve both God and Mammon .
+# iii_text = Ŷǁ ŴĦǁ Ťŕŋ Ŭǀ ųĺň ŢĦǑ Ṳ̊ Ŭǀ Ůū̗ ŸǒǑ ŭŋ ţů . ŪĦǀ Ŭǀ ŮƩ Ŵƫƪ ŗ̦̔ Ŭǀ Ť̗Ħ ŮŪǎ , ŪĦǀ Ŭǀ Ůŋ źŉ ŗ̦̔ Ŭǀ Ůǃ ŭŋ źŉ Ŭō ųǑ Ůǐǆ , Ů̌̔ Źĺ ųǑ ŭ̕ Ůǐ Ůŧ̗ ŸǒǑ , ŭŋ ŭň Ůǐ Ůŧ̗ ŸǒǑ ŭŋ ţů ŭŋ ŭň ţĦǒ Ūǐ ŢǑǀ Ŵǁ Ţǒǀ Ťŕĺ
+1	Ŷǁ	ŷǁ	NOUN	_	_	_	_	_	gloss=leaders/elders|annotation_note=dict_match
+2	ŴĦǁ	ŵħǁ	NOUN	_	_	_	_	_	gloss=man/person|annotation_note=dict_match
+3	Ťŕŋ	ťŕŋ	unk	_	_	_	_	_	gloss=a|annotation_note=needs_manual
+4	Ŭǀ	ŭǀ	NOUN	_	_	_	_	_	gloss=seat/place|annotation_note=dict_match
+5	ųĺň	ųĺň	NOUN	_	_	_	_	_	gloss=owner/master|annotation_note=dict_match
+6	ŢĦǑ	ţħǒ	ADP	_	_	_	_	_	gloss=of/belonging to|annotation_note=dict_match
+7	Ṳ̊	ṳ̊	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+8	Ŭǀ	ŭǀ	NOUN	_	_	_	_	_	gloss=seat/place|annotation_note=dict_match
+9	Ůū̗	ůū̗	VERB	_	_	_	acomp	_	gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+10	ŸǒǑ	ÿǒǒ	VERB	_	_	_	_	_	gloss=seek|annotation_note=dict_match
+11	ŭŋ	ŭŋ	ADV	_	_	_	_	_	gloss=negation/not|annotation_note=dict_match
+12	ţů	ţů	unk	_	_	_	_	_	gloss=impossible|annotation_note=needs_manual
+13	.	.	PUNCT	_	_	_	_	_
+14	ŪĦǀ	ūħǀ	DET	_	_	_	_	_	gloss=this/that|annotation_note=dict_match
+15	Ŭǀ	ŭǀ	NOUN	_	_	_	_	_	gloss=seat/place|annotation_note=dict_match
+16	ŮƩ	ůʃ	unk	_	_	_	_	_	gloss=soul|annotation_note=needs_manual
+17	Ŵƫƪ	ŵƫƪ	unk	_	_	_	_	_	gloss=argu|annotation_note=needs_manual
+18	ŗ̦̔	ŗ̦̔	unk	_	_	_	_	_	gloss=disobey|annotation_note=needs_manual
+19	Ŭǀ	ŭǀ	NOUN	_	_	_	_	_	gloss=seat/place|annotation_note=dict_match
+20	Ť̗Ħ	ť̗ħ	ADP	_	_	_	_	_	gloss=on/upon|annotation_note=dict_match
+21	ŮŪǎ	ůūǎ	unk	_	_	_	_	_	gloss=loved|annotation_note=needs_manual
+22	,	,	PUNCT	_	_	_	_	_
+23	ŪĦǀ	ūħǀ	DET	_	_	_	_	_	gloss=this/that|annotation_note=dict_match
+24	Ŭǀ	ŭǀ	NOUN	_	_	_	_	_	gloss=seat/place|annotation_note=dict_match
+25	Ůŋ	ůŋ	ADJ	_	_	_	_	_	gloss=purposeful|annotation_note=dict_match
+26	źŉ	źŉ	VERB	_	_	_	_	_	gloss=promise/rise|annotation_note=dict_match
+27	ŗ̦̔	ŗ̦̔	unk	_	_	_	_	_	gloss=disobey|annotation_note=needs_manual
+28	Ŭǀ	ŭǀ	NOUN	_	_	_	_	_	gloss=seat/place|annotation_note=dict_match
+29	Ůǃ	ůǃ	PRON	_	_	_	_	_	gloss=yourself/you|annotation_note=dict_match
+30	ŭŋ	ŭŋ	ADV	_	_	_	_	_	gloss=negation/not|annotation_note=dict_match
+31	źŉ	źŉ	VERB	_	_	_	_	_	gloss=promise/rise|annotation_note=dict_match
+32	Ŭō	ŭō	VERB	_	_	_	_	_	gloss=come|annotation_note=dict_match
+33	ųǑ	ųǒ	PRON	_	_	_	_	_	gloss=who/which|annotation_note=dict_match
+34	Ůǐǆ	ůǐǆ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+35	,	,	PUNCT	_	_	_	_	_
+36	Ů̌̔	ů̌̔	PRON	_	_	_	nsubj	_	gloss=you|Case=Nom|Person=2|PronType=Prs
+37	Źĺ	źĺ	PROPN	_	_	_	dobj	_	gloss=God|Number=Sing
+38	ųǑ	ųǒ	PRON	_	_	_	_	_	gloss=who/which|annotation_note=dict_match
+39	ŭ̕	ŭ̕	NOUN	_	_	_	_	_	gloss=rulers|annotation_note=dict_match
+40	Ůǐ	ůǐ	ADV	_	_	_	_	_	gloss=also/too|annotation_note=dict_match
+41	Ůŧ̗	ůŧ̗	VERB	_	_	_	_	_	gloss=cast|annotation_note=gloss_inferred
+42	ŸǒǑ	ÿǒǒ	VERB	_	_	_	_	_	gloss=seek|annotation_note=dict_match
+43	,	,	PUNCT	_	_	_	_	_
+44	ŭŋ	ŭŋ	ADV	_	_	_	_	_	gloss=negation/not|annotation_note=dict_match
+45	ŭň	ŭň	unk	_	_	_	_	_	gloss=Simon|annotation_note=needs_manual
+46	Ůǐ	ůǐ	ADV	_	_	_	_	_	gloss=also/too|annotation_note=dict_match
+47	Ůŧ̗	ůŧ̗	VERB	_	_	_	_	_	gloss=cast|annotation_note=gloss_inferred
+48	ŸǒǑ	ÿǒǒ	VERB	_	_	_	_	_	gloss=seek|annotation_note=dict_match
+49	ŭŋ	ŭŋ	ADV	_	_	_	_	_	gloss=negation/not|annotation_note=dict_match
+50	ţů	ţů	unk	_	_	_	_	_	gloss=impossible|annotation_note=needs_manual
+51	ŭŋ	ŭŋ	ADV	_	_	_	_	_	gloss=negation/not|annotation_note=dict_match
+52	ŭň	ŭň	unk	_	_	_	_	_	gloss=Simon|annotation_note=needs_manual
+53	ţĦǒ	ţħǒ	unk	_	_	_	_	_	gloss=feel|annotation_note=needs_manual
+54	Ūǐ	ūǐ	unk	_	_	_	_	_	gloss=unc|annotation_note=needs_manual
+55	ŢǑǀ	ţǒǀ	NOUN	_	_	37	conj	_	gloss=money|Number=Sing
+56	Ŵǁ	ŵǁ	PART	_	_	_	_	_	gloss=[modal particle]|annotation_note=dict_match
+57	Ţǒǀ	ţǒǀ	unk	_	_	_	_	_	gloss=mon|annotation_note=needs_manual
+58	Ťŕĺ	ťŕĺ	unk	_	_	_	_	_	gloss=v|annotation_note=needs_manual
+
+# sent_id = 40006031
+# ref_id = Matthew 6:31
+# eng_text = Therefore don't be anxious , saying , ' What will we eat ? ' , ' What will we drink ? ' or , ' With what will we be clothed ? '
+# iii_text = Ť̗Ħ Ŭō ŭǒ Ū̦ ŴǑ ŶƸ ŧ̦̔ ŭǒ Ū̦ ŮŤŉ Ŷĺ ŧ̦̔ ŭǒ Ū̦ ŧ̦̥ ŶƸ ū̦̔ ţō ŧĦǑ ţ̍Ħ ŭŋ Űǁ .
+1	Ť̗Ħ	ť̗ħ	ADP	_	_	_	_	_	gloss=on/upon|annotation_note=dict_match
+2	Ŭō	ŭō	VERB	_	_	_	_	_	gloss=come|annotation_note=dict_match
+3	ŭǒ	ŭǒ	ADV	_	_	_	_	_	gloss=very/much|annotation_note=dict_match
+4	Ū̦	ū̦	unk	_	_	_	_	_	gloss=ses|annotation_note=needs_manual
+5	ŴǑ	ŵǒ	VERB	_	_	_	ccomp	_	gloss=eat|VerbForm=Inf
+6	ŶƸ	ŷƹ	unk	_	_	_	_	_	gloss=gin|annotation_note=needs_manual
+7	ŧ̦̔	ŧ̦̔	ADP	_	_	_	_	_	gloss=into/in|annotation_note=dict_match
+8	ŭǒ	ŭǒ	ADV	_	_	_	_	_	gloss=very/much|annotation_note=dict_match
+9	Ū̦	ū̦	unk	_	_	_	_	_	gloss=ses|annotation_note=needs_manual
+10	ŮŤŉ	ůťŉ	VERB	_	_	0	root	_	gloss=drink|VerbForm=Inf
+11	Ŷĺ	ŷĺ	AUX	_	_	15	aux	_	gloss=will|VerbForm=Fin
+12	ŧ̦̔	ŧ̦̔	ADP	_	_	_	_	_	gloss=into/in|annotation_note=dict_match
+13	ŭǒ	ŭǒ	ADV	_	_	_	_	_	gloss=very/much|annotation_note=dict_match
+14	Ū̦	ū̦	unk	_	_	_	_	_	gloss=ses|annotation_note=needs_manual
+15	ŧ̦̥	ŧ̦̥	VERB	_	_	0	root	_	gloss=wear|VerbForm=Inf
+16	ŶƸ	ŷƹ	unk	_	_	_	_	_	gloss=gin|annotation_note=needs_manual
+17	ū̦̔	ū̦̔	NOUN	_	_	_	_	_	gloss=lamp|annotation_note=dict_match
+18	ţō	ţō	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+19	ŧĦǑ	ŧħǒ	unk	_	_	_	_	_	gloss=torment|annotation_note=needs_manual
+20	ţ̍Ħ	ţ̍ħ	unk	_	_	_	_	_	gloss=torment|annotation_note=needs_manual
+21	ŭŋ	ŭŋ	ADV	_	_	_	_	_	gloss=negation/not|annotation_note=dict_match
+22	Űǁ	űǁ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+23	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40006032
+# ref_id = Matthew 6:32
+# eng_text = For the Gentiles seek after all these things , for your heavenly Father knows that you need all these things .
+# iii_text = ŪĦǀ Ṳ̙̊ Ū̕ Ŷǁ ŴĦǁ ŸǒǑ ųǑ Ůǐǆ , Ů̌̔ ŧŕů źǀ źŉ ųǑ Ů̔ Ůň Ů̌̔ ŭǒ ŧǁ š̗ Ťǅ ŧǁ ų̚ ųǑ Ůǐǆ .
+1	ŪĦǀ	ūħǀ	DET	_	_	_	_	_	gloss=this/that|annotation_note=dict_match
+2	Ṳ̙̊	ṳ̙̊	NOUN	_	_	_	pobj	_	gloss=unbelievers|Number=Plur
+3	Ū̕	ū̕	unk	_	_	_	_	_	gloss=Alph|annotation_note=needs_manual
+4	Ŷǁ	ŷǁ	NOUN	_	_	_	_	_	gloss=leaders/elders|annotation_note=dict_match
+5	ŴĦǁ	ŵħǁ	NOUN	_	_	_	_	_	gloss=man/person|annotation_note=dict_match
+6	ŸǒǑ	ÿǒǒ	VERB	_	_	_	_	_	gloss=seek|annotation_note=dict_match
+7	ųǑ	ųǒ	PRON	_	_	_	_	_	gloss=who/which|annotation_note=dict_match
+8	Ůǐǆ	ůǐǆ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+9	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+10	Ů̌̔	ů̌̔	PRON	_	_	_	_	_	gloss=you|annotation_note=dict_match
+11	ŧŕů	ŧŕů	ADV	_	_	_	_	_	gloss=any/some|annotation_note=dict_match
+12	źǀ	źǀ	unk	_	_	_	_	_	gloss=sla|annotation_note=needs_manual
+13	źŉ	źŉ	VERB	_	_	_	_	_	gloss=promise/rise|annotation_note=dict_match
+14	ųǑ	ųǒ	PRON	_	_	_	_	_	gloss=who/which|annotation_note=dict_match
+15	Ů̔	ů̔	unk	_	_	_	_	_	gloss=iz|annotation_note=needs_manual
+16	Ůň	ůň	unk	_	_	_	_	_	gloss=drank|annotation_note=needs_manual
+17	Ů̌̔	ů̌̔	PRON	_	_	_	_	_	gloss=you|annotation_note=dict_match
+18	ŭǒ	ŭǒ	ADV	_	_	_	_	_	gloss=very/much|annotation_note=dict_match
+19	ŧǁ	ŧǁ	VERB	_	_	_	_	_	gloss=go/run|annotation_note=dict_match
+20	š̗	š̗	NOUN	_	_	_	_	_	gloss=child/baby|annotation_note=dict_match
+21	Ťǅ	ťǆ	NOUN	_	_	_	_	_	gloss=place|annotation_note=dict_match
+22	ŧǁ	ŧǁ	VERB	_	_	_	_	_	gloss=go/run|annotation_note=dict_match
+23	ų̚	ų̚	VERB	_	_	_	_	_	gloss=know|annotation_note=gloss_inferred
+24	ųǑ	ųǒ	PRON	_	_	_	_	_	gloss=who/which|annotation_note=dict_match
+25	Ůǐǆ	ůǐǆ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+26	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40007007
+# ref_id = Matthew 7:7
+# eng_text = " Ask , and it will be given you . Seek , and you will find . Knock , and it will be opened to you .
+# iii_text = Ů̌̔ ŪĦǅ ţŋ Ţũ ţō Ÿǅ Ů̌̔ Ū̙ Ţũ ţō ŸǒǑ Ţũţō ŸǒǑ ŷǑ . šŋ ŮŧǒǑ Ůţŵ Ţũ ţō Ů̌̔ Ū̕ Ţǁ šŋ ŮŧǒǑ Ţŕŵ ŬǑ .
+1	Ů̌̔	ů̌̔	PRON	_	_	23	pobj	_	gloss=you|Case=Acc|Person=2|PronType=Prs
+2	ŪĦǅ	ūħǆ	unk	_	_	_	_	_	gloss=entrance|annotation_note=needs_manual
+3	ţŋ	ţŋ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+4	Ţũ	ţũ	NOUN	_	_	_	_	_	gloss=shepherds|annotation_note=dict_match
+5	ţō	ţō	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+6	Ÿǅ	ÿǆ	VERB	_	_	_	_	_	gloss=request|annotation_note=dict_match
+7	Ů̌̔	ů̌̔	PRON	_	_	23	pobj	_	gloss=you|Case=Acc|Person=2|PronType=Prs
+8	Ū̙	ū̙	PART	_	_	_	_	_	gloss=[aspect/modal particle]|annotation_note=dict_match
+9	Ţũ	ţũ	NOUN	_	_	_	_	_	gloss=shepherds|annotation_note=dict_match
+10	ţō	ţō	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+11	ŸǒǑ	ÿǒǒ	NOUN	_	_	12	xcomp	_	gloss=seeking|Number=Sing
+12	Ţũţō	ţũţō	VERB	_	_	0	root	_	gloss=Keep|VerbForm=Inf
+13	ŸǒǑ	ÿǒǒ	NOUN	_	_	12	xcomp	_	gloss=seeking|Number=Sing
+14	ŷǑ	ŷǒ	NOUN	_	_	_	_	_	gloss=benefit/good|annotation_note=dict_match
+15	.	.	PUNCT	_	_	_	_	_
+16	šŋ	šŋ	unk	_	_	_	_	_	gloss=t|annotation_note=needs_manual
+17	ŮŧǒǑ	ůŧǒǒ	NOUN	_	_	26	nsubjpass	_	gloss=door|Number=Sing
+18	Ůţŵ	ůţŵ	VERB	_	_	12	xcomp	_	gloss=knocking|Aspect=Prog|Tense=Pres|VerbForm=Part
+19	Ţũ	ţũ	NOUN	_	_	_	_	_	gloss=shepherds|annotation_note=dict_match
+20	ţō	ţō	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+21	Ů̌̔	ů̌̔	PRON	_	_	23	pobj	_	gloss=you|Case=Acc|Person=2|PronType=Prs
+22	Ū̕	ū̕	unk	_	_	_	_	_	gloss=Alph|annotation_note=needs_manual
+23	Ţǁ	ţǁ	ADP	_	_	26	prep	_	gloss=to
+24	šŋ	šŋ	unk	_	_	_	_	_	gloss=t|annotation_note=needs_manual
+25	ŮŧǒǑ	ůŧǒǒ	NOUN	_	_	26	nsubjpass	_	gloss=door|Number=Sing
+26	Ţŕŵ	ţŕŵ	VERB	_	_	12	conj	_	gloss=opened|Aspect=Perf|Tense=Past|VerbForm=Part
+27	ŬǑ	ŭǒ	unk	_	_	_	_	_	gloss=aps|annotation_note=needs_manual
+28	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40007008
+# ref_id = Matthew 7:8
+# eng_text = For everyone who asks receives . He who seeks finds . To him who knocks it will be opened .
+# iii_text = Ť̗Ħ Ŭō ŪĦǅ ŧŕů ţŋ ųǑ ŷǑ ŷů , ŧŕů ŸǒǑ ųǑ ŸǒǑ ŷǑ šŋ ŮŧǒǑ ŧŕů Ůţŵ ųǑ Ťŕũ Ū̕ Ţǁšŋ ŮŧǒǑ Ţŕŵ .
+1	Ť̗Ħ	ť̗ħ	ADP	_	_	_	_	_	gloss=on/upon|annotation_note=dict_match
+2	Ŭō	ŭō	VERB	_	_	_	_	_	gloss=come|annotation_note=dict_match
+3	ŪĦǅ	ūħǆ	unk	_	_	_	_	_	gloss=entrance|annotation_note=needs_manual
+4	ŧŕů	ŧŕů	ADV	_	_	_	_	_	gloss=any/some|annotation_note=dict_match
+5	ţŋ	ţŋ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+6	ųǑ	ųǒ	PRON	_	_	_	nsubj	_	gloss=who
+7	ŷǑ	ŷǒ	NOUN	_	_	_	_	_	gloss=benefit/good|annotation_note=dict_match
+8	ŷů	ŷů	unk	_	_	_	_	_	gloss=u|annotation_note=needs_manual
+9	,	,	PUNCT	_	_	24	punct	_	PunctType=Comm
+10	ŧŕů	ŧŕů	ADV	_	_	_	_	_	gloss=any/some|annotation_note=dict_match
+11	ŸǒǑ	ÿǒǒ	VERB	_	_	_	_	_	gloss=seek|annotation_note=dict_match
+12	ųǑ	ųǒ	PRON	_	_	_	nsubj	_	gloss=who
+13	ŸǒǑ	ÿǒǒ	VERB	_	_	_	_	_	gloss=seek|annotation_note=dict_match
+14	ŷǑ	ŷǒ	NOUN	_	_	_	_	_	gloss=benefit/good|annotation_note=dict_match
+15	šŋ	šŋ	unk	_	_	_	_	_	gloss=t|annotation_note=needs_manual
+16	ŮŧǒǑ	ůŧǒǒ	NOUN	_	_	24	nsubjpass	_	gloss=door|Number=Sing
+17	ŧŕů	ŧŕů	ADV	_	_	_	_	_	gloss=any/some|annotation_note=dict_match
+18	Ůţŵ	ůţŵ	unk	_	_	_	_	_	gloss=knocking|annotation_note=needs_manual
+19	ųǑ	ųǒ	PRON	_	_	_	nsubj	_	gloss=who
+20	Ťŕũ	ťŕũ	PRON	_	_	_	_	_	gloss=him/his|annotation_note=dict_match
+21	Ū̕	ū̕	unk	_	_	_	_	_	gloss=Alph|annotation_note=needs_manual
+22	Ţǁšŋ	ţǁšŋ	unk	_	_	_	_	_	annotation_note=needs_manual
+23	ŮŧǒǑ	ůŧǒǒ	NOUN	_	_	24	nsubjpass	_	gloss=door|Number=Sing
+24	Ţŕŵ	ţŕŵ	VERB	_	_	0	root	_	gloss=opened|Aspect=Perf|Tense=Past|VerbForm=Part
+25	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40007011
+# ref_id = Matthew 7:11
+# eng_text = If you then , being evil , know how to give good gifts to your children , how much more will your Father who is in heaven give good things to those who ask him !
+# iii_text = Ů̌̔ Ŵ̦ ųǑ ŭŋ Ůǐǆ ŧǃ , Ů̌̔ ţǒǑ ŴƸ ųǑ Ÿǅ źǑ ŭƸ ŮƸ Ū̙ ų̚ , Ů̌̔ ŭǒ ŧǁ Ť̗Ħ Ūǁ š̗ Ťǅ Ū̥̔ Ū̥̔ ŭǑ ţǒǑ ŴƸ ųǑ Ÿǅ Ťŕũ ŪĦǅ ŧŕů ţŋ ųǑ Ū̙ ŭŋ ūǒǀ Ŭǃ .
+1	Ů̌̔	ů̌̔	PRON	_	_	_	nsubj	_	gloss=you|Case=Nom|Person=2|PronType=Prs
+2	Ŵ̦	ŵ̦	ADJ	_	_	_	_	_	gloss=good|annotation_note=gloss_inferred
+3	ųǑ	ųǒ	PRON	_	_	_	nsubj	_	gloss=who
+4	ŭŋ	ŭŋ	ADV	_	_	_	_	_	gloss=negation/not|annotation_note=dict_match
+5	Ůǐǆ	ůǐǆ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+6	ŧǃ	ŧǃ	unk	_	_	_	_	_	gloss=twenty-four|annotation_note=needs_manual
+7	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+8	Ů̌̔	ů̌̔	PRON	_	_	_	nsubj	_	gloss=you|Case=Nom|Person=2|PronType=Prs
+9	ţǒǑ	ţǒǒ	ADJ	_	_	_	_	_	gloss=precious/valuable|annotation_note=dict_match
+10	ŴƸ	ŵƹ	unk	_	_	_	_	_	gloss=Artemis|annotation_note=needs_manual
+11	ųǑ	ųǒ	PRON	_	_	_	nsubj	_	gloss=who
+12	Ÿǅ	ÿǆ	VERB	_	_	_	_	_	gloss=request|annotation_note=dict_match
+13	źǑ	źǒ	NOUN	_	_	_	_	_	gloss=son|annotation_note=dict_match
+14	ŭƸ	ŭƹ	unk	_	_	_	_	_	gloss=ild|annotation_note=needs_manual
+15	ŮƸ	ůƹ	unk	_	_	_	_	_	gloss=sprout|annotation_note=needs_manual
+16	Ū̙	ū̙	PART	_	_	_	_	_	gloss=[aspect/modal particle]|annotation_note=dict_match
+17	ų̚	ų̚	VERB	_	_	_	advcl	_	gloss=know|Tense=Pres|VerbForm=Fin
+18	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+19	Ů̌̔	ů̌̔	PRON	_	_	_	nsubj	_	gloss=you|Case=Nom|Person=2|PronType=Prs
+20	ŭǒ	ŭǒ	ADV	_	_	_	_	_	gloss=very/much|annotation_note=dict_match
+21	ŧǁ	ŧǁ	VERB	_	_	_	_	_	gloss=go/run|annotation_note=dict_match
+22	Ť̗Ħ	ť̗ħ	ADP	_	_	_	_	_	gloss=on/upon|annotation_note=dict_match
+23	Ūǁ	ūǁ	CONJ	_	_	_	_	_	gloss=and/with|annotation_note=dict_match
+24	š̗	š̗	NOUN	_	_	_	_	_	gloss=child/baby|annotation_note=dict_match
+25	Ťǅ	ťǆ	NOUN	_	_	_	_	_	gloss=place|annotation_note=dict_match
+26	Ū̥̔	ū̥̔	unk	_	_	_	_	_	gloss=privilege|annotation_note=needs_manual
+27	Ū̥̔	ū̥̔	unk	_	_	_	_	_	gloss=privilege|annotation_note=needs_manual
+28	ŭǑ	ŭǒ	ADV	_	_	_	advmod	_	gloss=much
+29	ţǒǑ	ţǒǒ	ADJ	_	_	_	_	_	gloss=precious/valuable|annotation_note=dict_match
+30	ŴƸ	ŵƹ	unk	_	_	_	_	_	gloss=Artemis|annotation_note=needs_manual
+31	ųǑ	ųǒ	PRON	_	_	_	nsubj	_	gloss=who
+32	Ÿǅ	ÿǆ	VERB	_	_	_	_	_	gloss=request|annotation_note=dict_match
+33	Ťŕũ	ťŕũ	PRON	_	_	_	dobj	_	gloss=him|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+34	ŪĦǅ	ūħǆ	unk	_	_	_	_	_	gloss=entrance|annotation_note=needs_manual
+35	ŧŕů	ŧŕů	ADV	_	_	_	_	_	gloss=any/some|annotation_note=dict_match
+36	ţŋ	ţŋ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+37	ųǑ	ųǒ	PRON	_	_	_	nsubj	_	gloss=who
+38	Ū̙	ū̙	PART	_	_	_	_	_	gloss=[aspect/modal particle]|annotation_note=dict_match
+39	ŭŋ	ŭŋ	ADV	_	_	_	_	_	gloss=negation/not|annotation_note=dict_match
+40	ūǒǀ	ūǒǀ	NOUN	_	_	_	_	_	gloss=teachers/scribes|annotation_note=dict_match
+41	Ŭǃ	ŭǃ	unk	_	_	_	_	_	gloss=Can|annotation_note=needs_manual
+42	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40007016
+# ref_id = Matthew 7:16
+# eng_text = By their fruits you will know them . Do you gather grapes from thorns , or figs from thistles ?
+# iii_text = Ť̌̔Ħ ŭů ţ̌ Ť̗Ħ Ūŕŉ Ť̌̔Ħ ų̚ ŤǑ Ŭǅ ţǑ . Ŵ̬ Ţŕŵň Ť̗Ħ ŧŕů ųĺ Ũŉ Ůũů ŭů Ũ̗Ħ ŷǑ ţǑ Ŭǃ . Ůţň Ţŕŵň ŧ̦̔ ŧŕů ųĺ ŪĦǐ ųŉ Ůǐ ŭů Ũ̗ ŷǑ ţǑ Ŭ̗ .
+1	Ť̌̔Ħ	ť̌̔ħ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+2	ŭů	ŭů	NOUN	_	_	_	pobj	_	gloss=fruit|Number=Sing
+3	ţ̌	ţ̌	NOUN	_	_	_	_	_	gloss=power|annotation_note=gloss_inferred
+4	Ť̗Ħ	ť̗ħ	ADP	_	_	_	_	_	gloss=on/upon|annotation_note=dict_match
+5	Ūŕŉ	ūŕŉ	ADP	_	_	_	prep	_	gloss=from
+6	Ť̌̔Ħ	ť̌̔ħ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+7	ų̚	ų̚	VERB	_	_	_	_	_	gloss=know|annotation_note=gloss_inferred
+8	ŤǑ	ťǒ	PART	_	_	_	_	_	gloss=[modal particle]|annotation_note=dict_match
+9	Ŭǅ	ŭǆ	PART	_	_	_	_	_	gloss=[grammatical particle]|annotation_note=dict_match
+10	ţǑ	ţǒ	PRON	_	_	_	_	_	gloss=my/I|annotation_note=dict_match
+11	.	.	PUNCT	_	_	_	_	_
+12	Ŵ̬	ŵ̬	unk	_	_	_	_	_	gloss=thorns|annotation_note=needs_manual
+13	Ţŕŵň	ţŕŵň	NOUN	_	_	_	dobj	_	gloss=grapes|Number=Plur
+14	Ť̗Ħ	ť̗ħ	ADP	_	_	_	_	_	gloss=on/upon|annotation_note=dict_match
+15	ŧŕů	ŧŕů	ADV	_	_	_	_	_	gloss=any/some|annotation_note=dict_match
+16	ųĺ	ųĺ	unk	_	_	_	_	_	gloss=ince|annotation_note=needs_manual
+17	Ũŉ	ũŉ	unk	_	_	_	_	_	gloss=sheep|annotation_note=needs_manual
+18	Ůũů	ůũů	unk	_	_	_	_	_	gloss=brothers|annotation_note=needs_manual
+19	ŭů	ŭů	NOUN	_	_	_	pobj	_	gloss=fruit|Number=Sing
+20	Ũ̗Ħ	ũ̗ħ	unk	_	_	_	_	_	gloss=hes|annotation_note=needs_manual
+21	ŷǑ	ŷǒ	NOUN	_	_	_	_	_	gloss=benefit/good|annotation_note=dict_match
+22	ţǑ	ţǒ	PRON	_	_	_	_	_	gloss=my/I|annotation_note=dict_match
+23	Ŭǃ	ŭǃ	AUX	_	_	_	aux	_	gloss=Can|VerbForm=Fin
+24	.	.	PUNCT	_	_	_	_	_
+25	Ůţň	ůţň	unk	_	_	_	_	_	gloss=stop|annotation_note=needs_manual
+26	Ţŕŵň	ţŕŵň	NOUN	_	_	_	dobj	_	gloss=grapes|Number=Plur
+27	ŧ̦̔	ŧ̦̔	ADP	_	_	_	_	_	gloss=into/in|annotation_note=dict_match
+28	ŧŕů	ŧŕů	ADV	_	_	_	_	_	gloss=any/some|annotation_note=dict_match
+29	ųĺ	ųĺ	unk	_	_	_	_	_	gloss=ince|annotation_note=needs_manual
+30	ŪĦǐ	ūħǐ	VERB	_	_	_	_	_	gloss=arrive|annotation_note=dict_match
+31	ųŉ	ųŉ	NOUN	_	_	_	dobj	_	gloss=grapes|Number=Plur
+32	Ůǐ	ůǐ	ADV	_	_	_	_	_	gloss=also/too|annotation_note=dict_match
+33	ŭů	ŭů	NOUN	_	_	_	pobj	_	gloss=fruit|Number=Sing
+34	Ũ̗	ũ̗	unk	_	_	_	_	_	gloss=Passover|annotation_note=needs_manual
+35	ŷǑ	ŷǒ	NOUN	_	_	_	_	_	gloss=benefit/good|annotation_note=dict_match
+36	ţǑ	ţǒ	PRON	_	_	_	_	_	gloss=my/I|annotation_note=dict_match
+37	Ŭ̗	ŭ̗	NOUN	_	_	_	_	_	gloss=hands|annotation_note=dict_match
+38	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40007017
+# ref_id = Matthew 7:17
+# eng_text = Even so , every good tree brings forth good fruit ; but the corrupt tree brings forth evil fruit .
+# iii_text = ŪĦǀ Ŭ̙ Ŭǅ ųƩ ţǒǑ ŧŕů ŴƸ ųǑ ŭů ţǒǑ ŴƸ ųǑ ţ̌ . ųƩ ţǒǑ ŭŋ ŴƸ ųǑ Źǃ ŭů ţǒǑ ŭŋ ŴƸ ųǑ ţ̌ .
+1	ŪĦǀ	ūħǀ	DET	_	_	_	_	_	gloss=this/that|annotation_note=dict_match
+2	Ŭ̙	ŭ̙	NOUN	_	_	_	_	_	gloss=matter/thing|annotation_note=dict_match
+3	Ŭǅ	ŭǆ	PART	_	_	_	_	_	gloss=[grammatical particle]|annotation_note=dict_match
+4	ųƩ	ųʃ	unk	_	_	_	_	_	gloss=cross|annotation_note=needs_manual
+5	ţǒǑ	ţǒǒ	ADJ	_	_	_	_	_	gloss=precious/valuable|annotation_note=dict_match
+6	ŧŕů	ŧŕů	ADV	_	_	_	_	_	gloss=any/some|annotation_note=dict_match
+7	ŴƸ	ŵƹ	unk	_	_	_	_	_	gloss=Artemis|annotation_note=needs_manual
+8	ųǑ	ųǒ	PRON	_	_	_	_	_	gloss=who/which|annotation_note=dict_match
+9	ŭů	ŭů	NOUN	_	_	_	dobj	_	gloss=fruit|Number=Sing
+10	ţǒǑ	ţǒǒ	ADJ	_	_	_	_	_	gloss=precious/valuable|annotation_note=dict_match
+11	ŴƸ	ŵƹ	unk	_	_	_	_	_	gloss=Artemis|annotation_note=needs_manual
+12	ųǑ	ųǒ	PRON	_	_	_	_	_	gloss=who/which|annotation_note=dict_match
+13	ţ̌	ţ̌	NOUN	_	_	_	_	_	gloss=power|annotation_note=gloss_inferred
+14	.	.	PUNCT	_	_	_	_	_
+15	ųƩ	ųʃ	unk	_	_	_	_	_	gloss=cross|annotation_note=needs_manual
+16	ţǒǑ	ţǒǒ	ADJ	_	_	_	_	_	gloss=precious/valuable|annotation_note=dict_match
+17	ŭŋ	ŭŋ	ADV	_	_	_	_	_	gloss=negation/not|annotation_note=dict_match
+18	ŴƸ	ŵƹ	unk	_	_	_	_	_	gloss=Artemis|annotation_note=needs_manual
+19	ųǑ	ųǒ	PRON	_	_	_	_	_	gloss=who/which|annotation_note=dict_match
+20	Źǃ	źǃ	unk	_	_	_	_	_	gloss=red|annotation_note=needs_manual
+21	ŭů	ŭů	NOUN	_	_	_	dobj	_	gloss=fruit|Number=Sing
+22	ţǒǑ	ţǒǒ	ADJ	_	_	_	_	_	gloss=precious/valuable|annotation_note=dict_match
+23	ŭŋ	ŭŋ	ADV	_	_	_	_	_	gloss=negation/not|annotation_note=dict_match
+24	ŴƸ	ŵƹ	unk	_	_	_	_	_	gloss=Artemis|annotation_note=needs_manual
+25	ųǑ	ųǒ	PRON	_	_	_	_	_	gloss=who/which|annotation_note=dict_match
+26	ţ̌	ţ̌	NOUN	_	_	_	_	_	gloss=power|annotation_note=gloss_inferred
+27	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40007018
+# ref_id = Matthew 7:18
+# eng_text = A good tree can't bring forth evil fruit , neither can a corrupt tree bring forth good fruit .
+# iii_text = ųƩ ţǒǑ ŴƸ ųǑ ŭů ţǒǑ ŭŋ ŴƸ ųǑ ţ̌ ŭŋ ūǒǀ . ųƩ ţǒǑ ŭŋ Ŵō ųǑ ŭů ţǒǑ ŴƸ ųǑ ţ̌ ŭŋ ūǒǀ .
+1	ųƩ	ųʃ	unk	_	_	_	_	_	gloss=cross|annotation_note=needs_manual
+2	ţǒǑ	ţǒǒ	ADJ	_	_	_	_	_	gloss=precious/valuable|annotation_note=dict_match
+3	ŴƸ	ŵƹ	unk	_	_	_	_	_	gloss=Artemis|annotation_note=needs_manual
+4	ųǑ	ųǒ	PRON	_	_	_	_	_	gloss=who/which|annotation_note=dict_match
+5	ŭů	ŭů	NOUN	_	_	_	dobj	_	gloss=fruit|Number=Sing
+6	ţǒǑ	ţǒǒ	ADJ	_	_	_	_	_	gloss=precious/valuable|annotation_note=dict_match
+7	ŭŋ	ŭŋ	ADV	_	_	_	_	_	gloss=negation/not|annotation_note=dict_match
+8	ŴƸ	ŵƹ	unk	_	_	_	_	_	gloss=Artemis|annotation_note=needs_manual
+9	ųǑ	ųǒ	PRON	_	_	_	_	_	gloss=who/which|annotation_note=dict_match
+10	ţ̌	ţ̌	NOUN	_	_	_	_	_	gloss=power|annotation_note=gloss_inferred
+11	ŭŋ	ŭŋ	ADV	_	_	_	_	_	gloss=negation/not|annotation_note=dict_match
+12	ūǒǀ	ūǒǀ	NOUN	_	_	_	_	_	gloss=teachers/scribes|annotation_note=dict_match
+13	.	.	PUNCT	_	_	_	_	_
+14	ųƩ	ųʃ	unk	_	_	_	_	_	gloss=cross|annotation_note=needs_manual
+15	ţǒǑ	ţǒǒ	ADJ	_	_	_	_	_	gloss=precious/valuable|annotation_note=dict_match
+16	ŭŋ	ŭŋ	ADV	_	_	_	_	_	gloss=negation/not|annotation_note=dict_match
+17	Ŵō	ŵō	unk	_	_	_	_	_	gloss=baskets|annotation_note=needs_manual
+18	ųǑ	ųǒ	PRON	_	_	_	_	_	gloss=who/which|annotation_note=dict_match
+19	ŭů	ŭů	NOUN	_	_	_	dobj	_	gloss=fruit|Number=Sing
+20	ţǒǑ	ţǒǒ	ADJ	_	_	_	_	_	gloss=precious/valuable|annotation_note=dict_match
+21	ŴƸ	ŵƹ	unk	_	_	_	_	_	gloss=Artemis|annotation_note=needs_manual
+22	ųǑ	ųǒ	PRON	_	_	_	_	_	gloss=who/which|annotation_note=dict_match
+23	ţ̌	ţ̌	NOUN	_	_	_	_	_	gloss=power|annotation_note=gloss_inferred
+24	ŭŋ	ŭŋ	ADV	_	_	_	_	_	gloss=negation/not|annotation_note=dict_match
+25	ūǒǀ	ūǒǀ	NOUN	_	_	_	_	_	gloss=teachers/scribes|annotation_note=dict_match
+26	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40007019
+# ref_id = Matthew 7:19
+# eng_text = Every tree that doesn't grow good fruit is cut down , and thrown into the fire .
+# iii_text = ŭů ţǒǑ ŴƸ ųǑ ŭŋ ţƸ ųũ Ţũ ţō ŪĦǐ ź̗ Ŭō ŮŤ̕ ŭǑ ţ̥ ū̦̔ Ūĺ .
+1	ŭů	ŭů	NOUN	_	_	_	dobj	_	gloss=fruit|Number=Sing
+2	ţǒǑ	ţǒǒ	ADJ	_	_	_	_	_	gloss=precious/valuable|annotation_note=dict_match
+3	ŴƸ	ŵƹ	unk	_	_	_	_	_	gloss=Artemis|annotation_note=needs_manual
+4	ųǑ	ųǒ	PRON	_	_	_	_	_	gloss=who/which|annotation_note=dict_match
+5	ŭŋ	ŭŋ	ADV	_	_	_	_	_	gloss=negation/not|annotation_note=dict_match
+6	ţƸ	ţƹ	unk	_	_	_	_	_	gloss=opped|annotation_note=needs_manual
+7	ųũ	ųũ	unk	_	_	_	_	_	annotation_note=needs_manual
+8	Ţũ	ţũ	NOUN	_	_	_	_	_	gloss=shepherds|annotation_note=dict_match
+9	ţō	ţō	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+10	ŪĦǐ	ūħǐ	VERB	_	_	_	_	_	gloss=arrive|annotation_note=dict_match
+11	ź̗	ź̗	ADP	_	_	_	prt	_	gloss=down
+12	Ŭō	ŭō	VERB	_	_	_	_	_	gloss=come|annotation_note=dict_match
+13	ŮŤ̕	ůť̕	unk	_	_	_	_	_	gloss=Other|annotation_note=needs_manual
+14	ŭǑ	ŭǒ	ADV	_	_	_	_	_	gloss=much/very|annotation_note=dict_match
+15	ţ̥	ţ̥	unk	_	_	_	_	_	gloss=urn|annotation_note=needs_manual
+16	ū̦̔	ū̦̔	NOUN	_	_	_	_	_	gloss=lamp|annotation_note=dict_match
+17	Ūĺ	ūĺ	unk	_	_	_	_	_	gloss=slaves|annotation_note=needs_manual
+18	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40007022
+# ref_id = Matthew 7:22
+# eng_text = Many will tell me in that day , ' Lord , Lord , didn't we prophesy by your name , by your name cast out demons , and by your name do many mighty works ? '
+# iii_text = ŤĦǀ Ůũ ŪĦǐ Ŷǁ ŴĦǁ ŧŕł Ůł ŰǑ Ţǁ ţ̙ ųĺň ŢĦǑ šǃ ųĺň ŢĦǑ šǃ , Ű̌̔ Ůŋ ŭƸǀ Ť̗Ħ Ūŕŉ Ŭũ ŤǑ ŮŪƹ , Ůŋ ŭƸǀ Ť̗Ħ Ūŕŉ Ŷǅ Ůŧ̗ , Ůŋ ŭƸǀ Ť̗Ħ Ūŕŉ Űŉ ūǀ Ů̕ ŧŕł Ůł Ţǅ Ů̕ ŭŋ ŮũŎ Ŭǃ .
+1	ŤĦǀ	ťħǀ	ADV	_	_	_	_	_	gloss=there|annotation_note=gloss_inferred
+2	Ůũ	ůũ	unk	_	_	_	_	_	gloss=days|annotation_note=needs_manual
+3	ŪĦǐ	ūħǐ	VERB	_	_	_	_	_	gloss=arrive|annotation_note=dict_match
+4	Ŷǁ	ŷǁ	NOUN	_	_	_	_	_	gloss=leaders/elders|annotation_note=dict_match
+5	ŴĦǁ	ŵħǁ	NOUN	_	_	_	_	_	gloss=man/person|annotation_note=dict_match
+6	ŧŕł	ŧŕł	unk	_	_	_	_	_	gloss=Supper|annotation_note=needs_manual
+7	Ůł	ůł	ADJ	_	_	_	amod	_	gloss=many|Degree=Pos
+8	ŰǑ	űǒ	unk	_	_	_	_	_	gloss=I|annotation_note=needs_manual
+9	Ţǁ	ţǁ	ADP	_	_	_	prep	_	gloss=to
+10	ţ̙	ţ̙	unk	_	_	_	_	_	annotation_note=needs_manual
+11	ųĺň	ųĺň	NOUN	_	_	_	_	_	gloss=owner/master|annotation_note=dict_match
+12	ŢĦǑ	ţħǒ	ADP	_	_	_	_	_	gloss=of/belonging to|annotation_note=dict_match
+13	šǃ	šǃ	unk	_	_	_	_	_	gloss=en|annotation_note=needs_manual
+14	ųĺň	ųĺň	NOUN	_	_	_	_	_	gloss=owner/master|annotation_note=dict_match
+15	ŢĦǑ	ţħǒ	ADP	_	_	_	_	_	gloss=of/belonging to|annotation_note=dict_match
+16	šǃ	šǃ	unk	_	_	_	_	_	gloss=en|annotation_note=needs_manual
+17	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+18	Ű̌̔	ű̌̔	PRON	_	_	_	nsubj	_	gloss=We|Case=Nom|Number=Plur|Person=1|PronType=Prs
+19	Ůŋ	ůŋ	ADJ	_	_	_	_	_	gloss=purposeful|annotation_note=dict_match
+20	ŭƸǀ	ŭƹǀ	NOUN	_	_	_	pobj	_	gloss=name|Number=Sing
+21	Ť̗Ħ	ť̗ħ	ADP	_	_	_	_	_	gloss=on/upon|annotation_note=dict_match
+22	Ūŕŉ	ūŕŉ	ADP	_	_	_	_	_	gloss=from|annotation_note=dict_match
+23	Ŭũ	ŭũ	ADJ	_	_	_	_	_	gloss=low/humble|annotation_note=dict_match
+24	ŤǑ	ťǒ	PART	_	_	_	_	_	gloss=[modal particle]|annotation_note=dict_match
+25	ŮŪƹ	ůūƹ	ADV	_	_	_	_	_	gloss=far/farther|annotation_note=dict_match
+26	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+27	Ůŋ	ůŋ	ADJ	_	_	_	_	_	gloss=purposeful|annotation_note=dict_match
+28	ŭƸǀ	ŭƹǀ	NOUN	_	_	_	pobj	_	gloss=name|Number=Sing
+29	Ť̗Ħ	ť̗ħ	ADP	_	_	_	_	_	gloss=on/upon|annotation_note=dict_match
+30	Ūŕŉ	ūŕŉ	ADP	_	_	_	_	_	gloss=from|annotation_note=dict_match
+31	Ŷǅ	ŷǆ	NOUN	_	_	32	dobj	_	gloss=demons|Number=Plur
+32	Ůŧ̗	ůŧ̗	VERB	_	_	_	conj	_	gloss=cast|Tense=Past|VerbForm=Fin
+33	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+34	Ůŋ	ůŋ	ADJ	_	_	_	_	_	gloss=purposeful|annotation_note=dict_match
+35	ŭƸǀ	ŭƹǀ	NOUN	_	_	_	pobj	_	gloss=name|Number=Sing
+36	Ť̗Ħ	ť̗ħ	ADP	_	_	_	_	_	gloss=on/upon|annotation_note=dict_match
+37	Ūŕŉ	ūŕŉ	ADP	_	_	_	_	_	gloss=from|annotation_note=dict_match
+38	Űŉ	űŉ	unk	_	_	_	_	_	gloss=saw|annotation_note=needs_manual
+39	ūǀ	ūǀ	unk	_	_	_	_	_	gloss=weeping|annotation_note=needs_manual
+40	Ů̕	ů̕	unk	_	_	_	_	_	gloss=things|annotation_note=needs_manual
+41	ŧŕł	ŧŕł	unk	_	_	_	_	_	gloss=Supper|annotation_note=needs_manual
+42	Ůł	ůł	ADJ	_	_	_	amod	_	gloss=many|Degree=Pos
+43	Ţǅ	ţǆ	unk	_	_	_	_	_	gloss=Hum|annotation_note=needs_manual
+44	Ů̕	ů̕	unk	_	_	_	_	_	gloss=things|annotation_note=needs_manual
+45	ŭŋ	ŭŋ	ADV	_	_	_	_	_	gloss=negation/not|annotation_note=dict_match
+46	ŮũŎ	ůũŏ	unk	_	_	_	_	_	gloss=iet|annotation_note=needs_manual
+47	Ŭǃ	ŭǃ	unk	_	_	_	_	_	gloss=Can|annotation_note=needs_manual
+48	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40007024
+# ref_id = Matthew 7:24
+# eng_text = " Everyone therefore who hears these words of mine , and does them , I will liken him to a wise man , who built his house on a rock .
+# iii_text = Ť̗Ħ Ŭō Űů Ťǁ Ūǎ Ť̗Ħ Ūŕŉ ŭǑ ŧŕů Ţǅ ųǑ , Ťŕũ Űŵň ų̚ Ŷǁ ŴĦǁ Ũĺň Ŵ̍ Ŭƪ ţŋ Ť̗Ħ ţǑ ųǑ ų̍ ,
+1	Ť̗Ħ	ť̗ħ	ADP	_	_	_	prep	_	gloss=on
+2	Ŭō	ŭō	VERB	_	_	_	_	_	gloss=come|annotation_note=dict_match
+3	Űů	űů	unk	_	_	_	_	_	gloss=me|annotation_note=needs_manual
+4	Ťǁ	ťǁ	unk	_	_	_	_	_	gloss=sol|annotation_note=needs_manual
+5	Ūǎ	ūǎ	unk	_	_	_	_	_	gloss=iled|annotation_note=needs_manual
+6	Ť̗Ħ	ť̗ħ	ADP	_	_	_	prep	_	gloss=on
+7	Ūŕŉ	ūŕŉ	ADP	_	_	_	_	_	gloss=from|annotation_note=dict_match
+8	ŭǑ	ŭǒ	ADV	_	_	_	_	_	gloss=much/very|annotation_note=dict_match
+9	ŧŕů	ŧŕů	ADV	_	_	_	_	_	gloss=any/some|annotation_note=dict_match
+10	Ţǅ	ţǆ	unk	_	_	_	_	_	gloss=Hum|annotation_note=needs_manual
+11	ųǑ	ųǒ	PRON	_	_	_	nsubj	_	gloss=who
+12	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+13	Ťŕũ	ťŕũ	PRON	_	_	_	_	_	gloss=him/his|annotation_note=dict_match
+14	Űŵň	űŵň	unk	_	_	_	_	_	gloss=wisdom|annotation_note=needs_manual
+15	ų̚	ų̚	VERB	_	_	_	_	_	gloss=know|annotation_note=gloss_inferred
+16	Ŷǁ	ŷǁ	NOUN	_	_	_	_	_	gloss=leaders/elders|annotation_note=dict_match
+17	ŴĦǁ	ŵħǁ	NOUN	_	_	_	_	_	gloss=man/person|annotation_note=dict_match
+18	Ũĺň	ũĺň	unk	_	_	_	_	_	gloss=cornerstone|annotation_note=needs_manual
+19	Ŵ̍	ŵ̍	unk	_	_	_	_	_	gloss=creation|annotation_note=needs_manual
+20	Ŭƪ	ŭƪ	unk	_	_	_	_	_	gloss=lift|annotation_note=needs_manual
+21	ţŋ	ţŋ	PART	_	_	_	_	_	gloss=[aspect particle]|annotation_note=dict_match
+22	Ť̗Ħ	ť̗ħ	ADP	_	_	_	prep	_	gloss=on
+23	ţǑ	ţǒ	PRON	_	_	_	poss	_	gloss=my|Number=Sing|Person=1|Poss=Yes|PronType=Prs
+24	ųǑ	ųǒ	PRON	_	_	_	nsubj	_	gloss=who
+25	ų̍	ų̍	unk	_	_	_	_	_	gloss=mustard|annotation_note=needs_manual
+26	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+

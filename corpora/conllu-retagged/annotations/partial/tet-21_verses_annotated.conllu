@@ -1,0 +1,983 @@
+## The following text has been annotated for parts of speech by students at NTU Singapore as part of a class project in AY 2025-26.
+## Verses are extracted from the taggedPBC. Annotations have been developed with a combination of manual and automated approaches, with reference to existing literature and (where possible) native speakers.
+## ISO 639-3: tet, Language: Tetum, Number of verses: 21
+## References: Williams-van Klinken, C. (1999). Tetun Dili: A Grammar of an East Timorese Language. Pacific Linguistics. ; Hull, G. (2002). Standard Tetum-English Dictionary. Allen & Unwin.
+
+# sent_id = 40006024
+# ref_id = Matthew 6:24
+# eng_text = " No one can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You can't serve both God and Mammon .
+# tet_text = Hotu Yesus dale naꞌak , “ Ema ida la bele serwisu bodik ulun naꞌin rua , tan nia nanis beer ida , taliꞌur ida . Kalo ita hanaꞌi baa osan , ita la fatan haꞌak Naꞌi Maromak mak itakaan Naꞌin .
+1	Hotu	hotu	ADV	_	_	_	_	_	gloss=Then
+2	Yesus	yesus	PROPN	_	_	_	_	_	gloss=Jesus
+3	dale	dale	VERB	_	_	_	_	_	gloss=speaking
+4	naꞌak	naꞌak	SCONJ	_	_	_	_	_	gloss=that
+5	,	,	PUNCT	_	_	_	_	_
+6	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+7	Ema	ema	NOUN	_	_	_	_	_	gloss=Jud
+8	ida	ida	DET	_	_	_	_	_	gloss=a
+9	la	la	PART	_	_	_	_	_	gloss=rejected
+10	bele	bele	AUX	_	_	_	_	_	gloss=easier
+11	serwisu	serwisu	VERB	_	_	_	_	_	gloss=work
+12	bodik	bodik	ADP	_	_	_	_	_	gloss=ag
+13	ulun	ulun	NOUN	_	_	_	_	_	gloss=leaders
+14	naꞌin	naꞌin	NOUN	_	_	_	_	_	gloss=burglar
+15	rua	rua	NUM	_	_	_	_	_	gloss=Two
+16	,	,	PUNCT	_	_	_	_	_
+17	tan	tan	SCONJ	_	_	_	_	_	gloss=because
+18	nia	nia	PRON	_	_	_	_	_	gloss=was
+19	nanis	nanis	ADV	_	_	_	_	_	gloss=devoted
+20	beer	beer	VERB	_	_	_	_	_	gloss=God-fearing
+21	ida	ida	DET	_	_	_	_	_	gloss=a
+22	,	,	PUNCT	_	_	_	_	_
+23	taliꞌur	taliꞌur	VERB	_	_	_	_	_	gloss=started
+24	ida	ida	DET	_	_	_	_	_	gloss=a
+25	.	.	PUNCT	_	_	_	_	_	gloss=iled
+26	Kalo	kalo	SCONJ	_	_	_	_	_	gloss=If
+27	ita	ita	PRON	_	_	_	_	_	gloss=Let’s
+28	hanaꞌi	hanaꞌi	VERB	_	_	_	_	_	gloss=both
+29	baa	baa	ADP	_	_	_	_	_	gloss=into
+30	osan	osan	NOUN	_	_	_	_	_	gloss=money|Number=Sing
+31	,	,	PUNCT	_	_	_	_	_
+32	ita	ita	PRON	_	_	_	_	_	gloss=Let’s
+33	la	la	PART	_	_	_	_	_	gloss=rejected
+34	fatan	fatan	VERB	_	_	_	_	_	gloss=itting
+35	haꞌak	haꞌak	SCONJ	_	_	_	_	_	gloss=ast
+36	Naꞌi	naꞌi	PROPN	_	_	_	_	_	gloss=God|Number=Sing
+37	Maromak	maromak	PROPN	_	_	_	_	_	gloss=Holy
+38	mak	mak	PART	_	_	_	_	_	gloss=who
+39	itakaan	itakaan	PRON	_	_	_	_	_	gloss=our
+40	Naꞌin	naꞌin	NOUN	_	_	_	_	_	gloss=Lord
+41	.	.	PUNCT	_	_	_	_	_	gloss=iled
+
+# sent_id = 40018012
+# ref_id = Matthew 18:12
+# eng_text = " What do you think ? If a man has one hundred sheep , and one of them goes astray , doesn't he leave the ninety-nine , go to the mountains , and seek that which has gone astray ?
+# tet_text = Tuir emi , oinsaa ? Kalo ema ida noo bibi-atan atus ida , hotu ida lakon , nia la husik hela bibi sia seluk sia neen nulu resin sia nebaa foho , baa buka ida mak lakon nia ka ?
+1	Tuir	tuir	ADP	_	_	_	_	_	gloss=followed
+2	emi	emi	PRON	_	_	_	_	_	gloss=makes
+3	,	,	PUNCT	_	_	_	_	_
+4	oinsaa	oinsaa	ADV	_	_	_	_	_	gloss=How
+5	?	?	PUNCT	_	_	_	_	_
+6	Kalo	kalo	SCONJ	_	_	_	_	_	gloss=If
+7	ema	ema	NOUN	_	_	_	_	_	gloss=person
+8	ida	ida	DET	_	_	_	_	_	gloss=a
+9	noo	noo	VERB	_	_	_	_	_	gloss=has
+10	bibi-atan	bibi-atan	NOUN	_	_	_	_	_	gloss=sheep
+11	atus	atus	NUM	_	_	_	_	_	gloss=hundred
+12	ida	ida	NUM	_	_	_	_	_	gloss=one
+13	,	,	PUNCT	_	_	_	_	_
+14	hotu	hotu	ADV	_	_	_	_	_	gloss=then
+15	ida	ida	PRON	_	_	_	_	_	gloss=one
+16	lakon	lakon	VERB	_	_	_	_	_	gloss=lost
+17	,	,	PUNCT	_	_	_	_	_
+18	nia	nia	PRON	_	_	_	_	_	gloss=he
+19	la	la	PART	_	_	_	_	_	gloss=not
+20	husik	husik	VERB	_	_	_	_	_	gloss=leave
+21	hela	hela	AUX	_	_	_	_	_	gloss=stay
+22	bibi	bibi	NOUN	_	_	_	_	_	gloss=sheep
+23	sia	sia	DET	_	_	_	_	_	gloss=the
+24	seluk	seluk	ADJ	_	_	_	_	_	gloss=other
+25	sia	PRON	_	_	_	_	_	_	gloss=them
+26	neen	neen	NUM	_	_	_	_	_	gloss=six
+27	nulu	nulu	NUM	_	_	_	_	_	gloss=tens
+28	resin	resin	NUM	_	_	_	_	_	gloss=plus
+29	sia	sia	NUM	_	_	_	_	_	gloss=nine
+30	nebaa	ADV	_	_	_	_	_	_	gloss=there
+31	foho	foho	NOUN	_	_	_	_	_	gloss=mountain
+32	,	,	PUNCT	_	_	_	_	_
+33	baa	baa	VERB	_	_	_	_	_	gloss=go
+34	buka	buka	VERB	_	_	_	_	_	gloss=seek
+35	ida	ida	PRON	_	_	_	_	_	gloss=one
+36	mak	mak	PART	_	_	_	_	_	gloss=who
+37	lakon	lakon	VERB	_	_	_	_	_	gloss=lost
+38	nia	nia	DET	_	_	_	_	_	gloss=that
+39	ka	ka	PART	_	_	_	_	_	gloss=query
+40	?	?	PUNCT	_	_	_	_	_
+
+# sent_id = 40020021
+# ref_id = Matthew 20:21
+# eng_text = He said to her , " What do you want ? " She said to him , " Command that these , my two sons , may sit , one on your right hand , and one on your left hand , in your kingdom . "
+# tet_text = Hotu Yesus nusu baa nia naꞌak , “ Ina atu musu saa ? ” Nia nataa naꞌak , “ Nuneꞌe Ama ! Haꞌu kusu nebee , kalo Ama kaer ukun tiꞌan , Ama foti haꞌukaan oan naꞌin rua neꞌe , nebee sia moos kaer ukun bele-bele no Ama . Haꞌu kusu nebee Ama natuur ida iha Ama sorin kwana , no ida iha sorin karuk . ”
+1	Hotu	hotu	ADV	_	_	_	_	_	gloss=Then
+2	Yesus	yesus	PROPN	_	_	_	_	_	gloss=Jesus
+3	nusu	nusu	VERB	_	_	0	root	_	gloss=asked|Tense=Past|VerbForm=Fin
+4	baa	baa	ADP	_	_	_	_	_	gloss=into
+5	nia	nia	PRON	_	_	_	_	_	gloss=was
+6	naꞌak	naꞌak	SCONJ	_	_	_	_	_	gloss=that
+7	,	,	PUNCT	_	_	_	_	_
+8	“	“	PUNCT	_	_	16	punct	_	PunctSide=Ini|PunctType=Quot
+9	Ina	ina	NOUN	_	_	_	nsubj	_	gloss=request|Number=Sing
+10	atu	atu	AUX	_	_	_	_	_	gloss=tor
+11	musu	musu	VERB	_	_	_	_	_	gloss=Ask
+12	saa	saa	PRON	_	_	_	attr	_	gloss=What
+13	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+14	”	”	PUNCT	_	_	16	punct	_	PunctSide=Fin|PunctType=Quot
+15	Nia	nia	PRON	_	_	_	_	_	gloss=amount
+16	nataa	nataa	VERB	_	_	0	root	_	gloss=replied|Tense=Past|VerbForm=Fin
+17	naꞌak	naꞌak	SCONJ	_	_	_	_	_	gloss=that
+18	,	,	PUNCT	_	_	_	_	_
+19	“	“	PUNCT	_	_	16	punct	_	PunctSide=Ini|PunctType=Quot
+20	Nuneꞌe	nuneꞌe	ADV	_	_	_	_	_	gloss=spiritually
+21	Ama	ama	PROPN	_	_	_	_	_	gloss=Ex
+22	!	!	PUNCT	_	_	_	_	_	gloss=dear
+23	Haꞌu	haꞌu	PRON	_	_	_	_	_	gloss=I
+24	kusu	kusu	VERB	_	_	_	_	_	gloss=ci
+25	nebee	nebee	SCONJ	_	_	_	_	_	gloss=been
+26	,	,	PUNCT	_	_	_	_	_
+27	kalo	kalo	SCONJ	_	_	_	_	_	gloss=possible
+28	Ama	ama	PROPN	_	_	_	_	_	gloss=Ex
+29	kaer	kaer	VERB	_	_	_	_	_
+30	ukun	ukun	NOUN	_	_	_	_	_	gloss=religious
+31	tiꞌan	tiꞌan	AUX	_	_	_	_	_	gloss=has
+32	,	,	PUNCT	_	_	_	_	_
+33	Ama	ama	PROPN	_	_	_	_	_	gloss=Ex
+34	foti	foti	VERB	_	_	_	_	_	gloss=oh
+35	haꞌukaan	haꞌukaan	PRON	_	_	_	poss	_	gloss=my|Number=Sing|Person=1|Poss=Yes|PronType=Prs
+36	oan	oan	NOUN	_	_	_	_	_	gloss=children
+37	naꞌin	naꞌin	NOUN	_	_	_	_	_	gloss=burglar
+38	rua	rua	NUM	_	_	_	_	_	gloss=Two
+39	neꞌe	neꞌe	DET	_	_	_	_	_	gloss=importantthe
+40	,	,	PUNCT	_	_	_	_	_
+41	nebee	nebee	SCONJ	_	_	_	_	_	gloss=been
+42	sia	sia	PRON	_	_	_	_	_	gloss=them
+43	moos	moos	ADV	_	_	_	_	_	gloss=And
+44	kaer	kaer	VERB	_	_	_	_	_
+45	ukun	ukun	NOUN	_	_	_	_	_	gloss=religious
+46	bele-bele	bele-bele	ADV	_	_	_	_	_	gloss=slipped
+47	no	no	CCONJ	_	_	_	_	_	gloss=with
+48	Ama	ama	PROPN	_	_	_	_	_	gloss=Ex
+49	.	.	PUNCT	_	_	_	_	_	gloss=iled
+50	Haꞌu	haꞌu	PRON	_	_	_	_	_	gloss=I
+51	kusu	kusu	VERB	_	_	_	_	_	gloss=ci
+52	nebee	nebee	SCONJ	_	_	_	_	_	gloss=been
+53	Ama	ama	PROPN	_	_	_	_	_	gloss=Ex
+54	natuur	natuur	VERB	_	_	_	_	_	gloss=carried
+55	ida	ida	DET	_	_	_	_	_	gloss=a
+56	iha	iha	ADP	_	_	_	_	_	gloss=med
+57	Ama	ama	PROPN	_	_	_	_	_	gloss=Ex
+58	sorin	sorin	NOUN	_	_	_	pobj	_	gloss=right|Number=Sing
+59	kwana	kwana	NOUN	_	_	_	pobj	_	gloss=right|Number=Sing
+60	,	,	PUNCT	_	_	_	_	_
+61	no	no	CCONJ	_	_	_	_	_	gloss=with
+62	ida	ida	DET	_	_	_	_	_	gloss=a
+63	iha	iha	ADP	_	_	_	_	_	gloss=med
+64	sorin	sorin	NOUN	_	_	_	pobj	_	gloss=right|Number=Sing
+65	karuk	karuk	NOUN	_	_	_	pobj	_	gloss=places|Number=Plur
+66	.	.	PUNCT	_	_	_	_	_	gloss=iled
+67	”	”	PUNCT	_	_	16	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 40026002
+# ref_id = Matthew 26:2
+# eng_text = " You know that after two days the Passover is coming , and the Son of Man will be delivered up to be crucified . "
+# tet_text = “ Emi hatene tiꞌan haꞌak baa loron rua tenik , itakaan loron diꞌak sia toꞌo mai ona . Loron diꞌak nia mak ita halo Dahur Tubi Bakae . Kalo loron diꞌak nia toꞌo tiꞌan , ema atu faꞌan Ema Raiklaran Isin neꞌe . Hotu sia nedi noꞌo Haꞌu baa ai karuus . ”
+1	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+2	Emi	emi	PRON	_	_	_	_	_	gloss=you
+3	hatene	hatene	VERB	_	_	_	_	_	gloss=know|Tense=Pres|VerbForm=Fin
+4	tiꞌan	tiꞌan	AUX	_	_	_	_	_	gloss=has
+5	haꞌak	haꞌak	SCONJ	_	_	_	_	_	gloss=that
+6	baa	baa	ADP	_	_	_	_	_	gloss=at
+7	loron	loron	NOUN	_	_	_	_	_	gloss=days|Number=Plur
+8	rua	rua	NUM	_	_	_	_	_	gloss=Two
+9	tenik	tenik	ADV	_	_	_	_	_	gloss=again/more
+10	,	,	PUNCT	_	_	_	_	_
+11	itakaan	itakaan	PRON	_	_	_	_	_	gloss=our
+12	loron	loron	NOUN	_	_	_	_	_	gloss=days|Number=Plur
+13	diꞌak	diꞌak	ADJ	_	_	_	_	_	gloss=good
+14	sia	sia	DET	_	_	_	_	_	gloss=the/plural
+15	toꞌo	toꞌo	VERB	_	_	_	_	_	gloss=arrive
+16	mai	mai	VERB	_	_	_	_	_	gloss=come
+17	ona	ona	PART	_	_	_	_	_	gloss=already
+18	.	.	PUNCT	_	_	_	_	_	gloss=iled
+19	Loron	loron	NOUN	_	_	_	_	_	gloss=day
+20	diꞌak	diꞌak	ADJ	_	_	_	_	_	gloss=good
+21	nia	nia	DET	_	_	_	_	_	gloss=that
+22	mak	mak	PART	_	_	_	_	_	gloss=which
+23	ita	ita	PRON	_	_	_	_	_	gloss=we
+24	halo	halo	VERB	_	_	_	_	_	gloss=do/make
+25	Dahur	dahur	PROPN	_	_	_	_	_	gloss=feast
+26	Tubi	tubi	PROPN	_	_	_	_	_	gloss=Passover
+27	Bakae	bakae	PROPN	_	_	_	_	_	gloss=Passover
+28	.	.	PUNCT	_	_	_	_	_	gloss=iled
+29	Kalo	kalo	SCONJ	_	_	_	_	_	gloss=If
+30	loron	loron	NOUN	_	_	_	_	_	gloss=day
+31	diꞌak	diꞌak	ADJ	_	_	_	_	_	gloss=good
+32	nia	nia	DET	_	_	_	_	_	gloss=that
+33	toꞌo	toꞌo	VERB	_	_	_	_	_	gloss=arrive
+34	tiꞌan	tiꞌan	AUX	_	_	_	_	_	gloss=has
+35	,	,	PUNCT	_	_	_	_	_
+36	ema	ema	NOUN	_	_	_	_	_	gloss=people
+37	atu	atu	AUX	_	_	_	_	_	gloss=will/to
+38	faꞌan	faꞌan	VERB	_	_	_	_	_	gloss=sell
+39	Ema	ema	PROPN	_	_	_	_	_	gloss=Son
+40	Raiklaran	raiklaran	PROPN	_	_	_	_	_	gloss=Man
+41	Isin	isin	PROPN	_	_	_	_	_	gloss=Body
+42	neꞌe	neꞌe	DET	_	_	_	_	_	gloss=this
+43	.	.	PUNCT	_	_	_	_	_	gloss=iled
+44	Hotu	hotu	ADV	_	_	_	_	_	gloss=Then
+45	sia	sia	PRON	_	_	_	_	_	gloss=they
+46	nedi	nedi	VERB	_	_	_	_	_	gloss=crucify
+47	noꞌo	noꞌo	VERB	_	_	_	_	_	gloss=kill
+48	Haꞌu	haꞌu	PRON	_	_	_	_	_	gloss=Me
+49	baa	baa	ADP	_	_	_	_	_	gloss=on
+50	ai	ai	NOUN	_	_	_	_	_	gloss=wood/tree
+51	karuus	karuus	NOUN	_	_	_	_	_	gloss=cross
+52	.	.	PUNCT	_	_	_	_	_	gloss=iled
+53	”	”	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 40026061
+# ref_id = Matthew 26:61
+# eng_text = and said , " This man said , ' I am able to destroy the temple of God , and to build it in three days . ' "
+# tet_text = mak nataa naꞌak , “ Ami rona Ema neꞌe dale naꞌak , ‘ Haꞌu atu karoꞌon Uma Hamulak Huun . Mais toꞌo wainrua , Haꞌu kariik kikar . ’ ”
+1	mak	mak	PART	_	_	_	_	_	gloss=who
+2	nataa	nataa	VERB	_	_	_	_	_	gloss=replied
+3	naꞌak	naꞌak	SCONJ	_	_	_	_	_	gloss=that
+4	,	,	PUNCT	_	_	_	_	_
+5	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+6	Ami	ami	PRON	_	_	_	_	_	gloss=We
+7	rona	rona	VERB	_	_	_	_	_	gloss=heard
+8	Ema	ema	NOUN	_	_	_	_	_	gloss=Man
+9	neꞌe	neꞌe	DET	_	_	_	_	_	gloss=this
+10	dale	dale	VERB	_	_	_	_	_	gloss=speaking
+11	naꞌak	naꞌak	SCONJ	_	_	_	_	_	gloss=that
+12	,	,	PUNCT	_	_	_	_	_
+13	‘	‘	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+14	Haꞌu	haꞌu	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+15	atu	atu	AUX	_	_	_	_	_	gloss=will/to
+16	karoꞌon	karoꞌon	VERB	_	_	_	_	_	gloss=destroy
+17	Uma	uma	PROPN	_	_	_	_	_	gloss=House
+18	Hamulak	hamulak	PROPN	_	_	_	_	_	gloss=Pray
+19	Huun	huun	PROPN	_	_	_	_	_	gloss=Main
+20	.	.	PUNCT	_	_	_	_	_	gloss=iled
+21	Mais	mais	CCONJ	_	_	_	_	_	gloss=But
+22	toꞌo	toꞌo	ADP	_	_	_	_	_	gloss=until
+23	wainrua	wainrua	NOUN	_	_	_	_	_	gloss=third-day/day-after-tomorrow
+24	,	,	PUNCT	_	_	_	_	_
+25	Haꞌu	haꞌu	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+26	kariik	kariik	VERB	_	_	_	_	_	gloss=stand-up
+27	kikar	kikar	ADV	_	_	_	_	_	gloss=again
+28	.	.	PUNCT	_	_	_	_	_	gloss=iled
+29	’	’	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+30	”	”	PUNCT	_	_	0	root	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 40028016
+# ref_id = Matthew 28:16
+# eng_text = But the eleven disciples went into Galilee , to the mountain where Jesus had sent them .
+# tet_text = Nunia hotu , Yesus Niakaan maktuir naꞌin sanulu resin ida baa Galilea atu nasoru Nia iha foho ida , tuir Niakaan mamenon uluk nia .
+1	Nunia	nunia	ADV	_	_	_	_	_	gloss=thus/like-that
+2	hotu	hotu	ADV	_	_	_	_	_	gloss=after/finish
+3	,	,	PUNCT	_	_	_	_	_
+4	Yesus	yesus	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+5	Niakaan	niakaan	PRON	_	_	_	_	_	gloss=his
+6	maktuir	maktuir	NOUN	_	_	_	nsubj	_	gloss=disciples|Number=Plur
+7	naꞌin	naꞌin	NOUN	_	_	_	_	_	gloss=person-classifier
+8	sanulu	sanulu	NUM	_	_	_	_	_	gloss=ten
+9	resin	resin	NUM	_	_	_	_	_	gloss=extra/plus
+10	ida	ida	NUM	_	_	_	_	_	gloss=one
+11	baa	baa	VERB	_	_	_	_	_	gloss=go-to
+12	Galilea	galilea	PROPN	_	_	_	pobj	_	gloss=Galilee|Number=Sing
+13	atu	atu	AUX	_	_	_	_	_	gloss=to/will
+14	nasoru	nasoru	VERB	_	_	_	_	_	gloss=meet
+15	Nia	nia	PRON	_	_	_	_	_	gloss=Him
+16	iha	iha	ADP	_	_	_	_	_	gloss=at/in
+17	foho	foho	NOUN	_	_	_	pobj	_	gloss=mountain|Number=Sing
+18	ida	ida	DET	_	_	_	_	_	gloss=a
+19	,	,	PUNCT	_	_	_	_	_
+20	tuir	tuir	ADP	_	_	_	_	_	gloss=according-to
+21	Niakaan	niakaan	PRON	_	_	_	_	_	gloss=His
+22	mamenon	mamenon	NOUN	_	_	_	_	_	gloss=command/promise
+23	uluk	uluk	ADJ	_	_	_	_	_	gloss=former/previous
+24	nia	nia	DET	_	_	_	_	_	gloss=that
+25	.	.	PUNCT	_	_	_	_	_	gloss=iled
+
+# sent_id = 41002023
+# ref_id = Mark 2:23
+# eng_text = It happened , that he was going on the Sabbath day through the grain fields , and his disciples began , as they went , to pluck the ears of grain .
+# tet_text = Baa loron ida , kona baa ema Yahudi siakaan loron hamulak no loron hanawa serwisu , Yesus no Niakaan maktuir sia laꞌo tuir toꞌos ida . Maktuir sia kuꞌu nola hare gandum , nodi naa la-laꞌok .
+1	Baa	baa	ADP	_	_	_	_	_	gloss=at
+2	loron	loron	NOUN	_	_	_	_	_	gloss=day
+3	ida	ida	DET	_	_	_	_	_	gloss=one
+4	,	,	PUNCT	_	_	_	_	_
+5	kona	kona	ADP	_	_	_	_	_	gloss=regarding
+6	baa	baa	ADP	_	_	_	_	_	gloss=to
+7	ema	ema	NOUN	_	_	_	_	_	gloss=people
+8	Yahudi	yahudi	PROPN	_	_	_	_	_	gloss=Jews
+9	siakaan	siakaan	PRON	_	_	_	_	_	gloss=their
+10	loron	loron	NOUN	_	_	_	_	_	gloss=day
+11	hamulak	hamulak	VERB	_	_	_	_	_	gloss=pray
+12	no	no	CCONJ	_	_	_	_	_	gloss=and
+13	loron	loron	NOUN	_	_	_	_	_	gloss=day
+14	hanawa	hanawa	VERB	_	_	_	_	_	gloss=stop
+15	serwisu	serwisu	NOUN	_	_	_	_	_	gloss=work
+16	,	,	PUNCT	_	_	_	_	_
+17	Yesus	yesus	PROPN	_	_	_	_	_	gloss=Jesus
+18	no	no	CCONJ	_	_	_	_	_	gloss=and
+19	Niakaan	niakaan	PRON	_	_	_	_	_	gloss=His
+20	maktuir	maktuir	NOUN	_	_	_	_	_	gloss=disciples
+21	sia	sia	DET	_	_	_	_	_	gloss=plural
+22	laꞌo	laꞌo	VERB	_	_	_	_	_	gloss=walk
+23	tuir	tuir	ADP	_	_	_	_	_	gloss=follow/through
+24	toꞌos	toꞌos	NOUN	_	_	_	_	_	gloss=field
+25	ida	ida	DET	_	_	_	_	_	gloss=a
+26	.	.	PUNCT	_	_	_	_	_	gloss=iled
+27	Maktuir	maktuir	NOUN	_	_	_	_	_	gloss=disciples
+28	sia	sia	DET	_	_	_	_	_	gloss=plural
+29	kuꞌu	kuꞌu	VERB	_	_	_	_	_	gloss=pluck
+30	nola	nola	VERB	_	_	_	_	_	gloss=get/take
+31	hare	hare	NOUN	_	_	_	_	_	gloss=grain
+32	gandum	gandum	NOUN	_	_	_	_	_	gloss=wheat
+33	,	,	PUNCT	_	_	_	_	_
+34	nodi	nodi	CCONJ	_	_	_	_	_	gloss=while/and
+35	naa	naa	VERB	_	_	_	_	_	gloss=eat
+36	la-laꞌok	la-laꞌok	ADV	_	_	_	_	_	gloss=as-they-go
+37	.	.	PUNCT	_	_	_	_	_	gloss=iled
+
+# sent_id = 41012032
+# ref_id = Mark 12:32
+# eng_text = The scribe said to him , " Truly , teacher , you have said well that he is one , and there is none other but he ,
+# tet_text = Hotu , manorik ukun nia simu Yesus naꞌak , “ Tebes Ama ! Saa mak Ama Boot katak nia loos . Naꞌi Maromak ida dei ! La noo seluk tenik . Nia mesan dei .
+1	Hotu	hotu	ADV	_	_	_	_	_	gloss=Then
+2	,	,	PUNCT	_	_	_	_	_
+3	manorik	manorik	NOUN	_	_	_	_	_	gloss=teacher
+4	ukun	ukun	NOUN	_	_	_	_	_	gloss=law
+5	nia	nia	DET	_	_	_	_	_	gloss=that
+6	simu	simu	VERB	_	_	_	_	_	gloss=answer/accept
+7	Yesus	yesus	PROPN	_	_	_	_	_	gloss=Jesus
+8	naꞌak	naꞌak	SCONJ	_	_	_	mark	_	gloss=that
+9	,	,	PUNCT	_	_	_	_	_
+10	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+11	Tebes	tebes	ADV	_	_	_	_	_	gloss=true/truly
+12	Ama	ama	PROPN	_	_	_	_	_	gloss=Father/Lord
+13	!	!	PUNCT	_	_	_	_	_	gloss=exclamation
+14	Saa	saa	PRON	_	_	_	_	_	gloss=what
+15	mak	mak	PART	_	_	_	_	_	gloss=which
+16	Ama	ama	PROPN	_	_	_	_	_	gloss=Lord
+17	Boot	boot	ADJ	_	_	_	_	_	gloss=Great
+18	katak	katak	VERB	_	_	_	_	_	gloss=say
+19	nia	nia	PRON	_	_	_	_	_	gloss=it
+20	loos	loos	ADJ	_	_	_	_	_	gloss=correct
+21	.	.	PUNCT	_	_	_	_	_	gloss=iled
+22	Naꞌi	naꞌi	PROPN	_	_	_	_	_	gloss=Lord
+23	Maromak	maromak	PROPN	_	_	_	_	_	gloss=God
+24	ida	ida	NUM	_	_	_	_	_	gloss=one
+25	dei	dei	ADV	_	_	_	_	_	gloss=only
+26	!	!	PUNCT	_	_	_	_	_	gloss=exclamation
+27	La	la	PART	_	_	_	_	_	gloss=not
+28	noo	noo	VERB	_	_	_	_	_	gloss=have/exist
+29	seluk	seluk	ADJ	_	_	_	_	_	gloss=other
+30	tenik	tenik	ADV	_	_	_	_	_	gloss=again/more
+31	.	.	PUNCT	_	_	_	_	_	gloss=iled
+32	Nia	nia	PRON	_	_	_	_	_	gloss=He
+33	mesan	mesan	ADJ	_	_	_	_	_	gloss=alone/only
+34	dei	dei	ADV	_	_	_	_	_	gloss=only
+35	.	.	PUNCT	_	_	_	_	_	gloss=iled
+
+# sent_id = 41014037
+# ref_id = Mark 14:37
+# eng_text = He came and found them sleeping , and said to Peter , " Simon , are you sleeping ? Couldn't you watch one hour ?
+# tet_text = Namulak notu , Yesus baa nikar maktuir naꞌin tolu nia . Mais , sia toba dukur . Hotu , Nia katak baa Petrus naꞌak , “ Hoi , Petrus ! O toba ka ? Tan saa emi la bele daka oda no ?
+1	Namulak	namulak	VERB	_	_	_	_	_	gloss=pray
+2	notu	notu	ADV	_	_	_	_	_	gloss=after/finish
+3	,	,	PUNCT	_	_	_	_	_
+4	Yesus	yesus	PROPN	_	_	_	_	_	gloss=Jesus
+5	baa	baa	VERB	_	_	_	_	_	gloss=go
+6	nikar	nikar	ADV	_	_	_	_	_	gloss=back
+7	maktuir	maktuir	NOUN	_	_	_	_	_	gloss=disciples
+8	naꞌin	naꞌin	NOUN	_	_	_	_	_	gloss=person-classifier
+9	tolu	tolu	NUM	_	_	_	_	_	gloss=three
+10	nia	nia	DET	_	_	_	_	_	gloss=that/the
+11	.	.	PUNCT	_	_	_	_	_	gloss=iled
+12	Mais	mais	CCONJ	_	_	_	_	_	gloss=But
+13	,	,	PUNCT	_	_	_	_	_
+14	sia	sia	PRON	_	_	_	_	_	gloss=they
+15	toba	toba	VERB	_	_	_	_	_	gloss=lie-down
+16	dukur	dukur	VERB	_	_	_	_	_	gloss=sleep
+17	.	.	PUNCT	_	_	_	_	_	gloss=iled
+18	Hotu	hotu	ADV	_	_	_	_	_	gloss=Then
+19	,	,	PUNCT	_	_	_	_	_
+20	Nia	nia	PRON	_	_	_	_	_	gloss=He
+21	katak	katak	VERB	_	_	_	_	_	gloss=say
+22	baa	baa	ADP	_	_	_	_	_	gloss=to
+23	Petrus	petrus	PROPN	_	_	_	_	_	gloss=Peter
+24	naꞌak	naꞌak	SCONJ	_	_	_	_	_	gloss=that
+25	,	,	PUNCT	_	_	_	_	_
+26	“	“	PUNCT	_	_	_	_	_	PunctSide=Ini|PunctType=Quot
+27	Hoi	hoi	INTJ	_	_	_	_	_	gloss=hey
+28	,	,	PUNCT	_	_	_	_	_
+29	Petrus	petrus	PROPN	_	_	_	_	_	gloss=Peter
+30	!	!	PUNCT	_	_	_	_	_	gloss=exclamation
+31	O	o	PRON	_	_	_	_	_	gloss=You
+32	toba	toba	VERB	_	_	_	_	_	gloss=sleep
+33	ka	ka	PART	_	_	_	_	_	gloss=query-particle
+34	?	?	PUNCT	_	_	_	_	_	PunctType=Peri
+35	Tan	tan	SCONJ	_	_	_	_	_	gloss=because
+36	saa	saa	PRON	_	_	_	_	_	gloss=what
+37	emi	emi	PRON	_	_	_	_	_	gloss=you-plural
+38	la	la	PART	_	_	_	_	_	gloss=not
+39	bele	bele	AUX	_	_	_	_	_	gloss=can
+40	daka	daka	VERB	_	_	_	_	_	gloss=watch
+41	oda	oda	NOUN	_	_	_	_	_	gloss=moment/hour
+42	no	no	ADV	_	_	_	_	_	gloss=yet/just
+43	?	?	PUNCT	_	_	_	_	_	PunctType=Peri
+
+# sent_id = 42004002
+# ref_id = Luke 4:2
+# eng_text = for forty days , being tempted by the devil . He ate nothing in those days . Afterward , when they were completed , he was hungry .
+# tet_text = Yesus nein iha fatin nia toꞌo loron haat nulu . Nia la naa sa-saa , toꞌo salaen mate . Hotu diabu ulun mai sokur kokon Nia .
+1	Yesus	yesus	PROPN	_	_	_	_	_	gloss=Jesus
+2	nein	nein	VERB	_	_	_	_	_	gloss=stayed
+3	iha	iha	ADP	_	_	_	_	_	gloss=at/in
+4	fatin	fatin	NOUN	_	_	_	_	_	gloss=place
+5	nia	nia	DET	_	_	_	_	_	gloss=that
+6	toꞌo	toꞌo	ADP	_	_	_	_	_	gloss=until
+7	loron	loron	NOUN	_	_	_	_	_	gloss=day
+8	haat	haat	NUM	_	_	_	_	_	gloss=four
+9	nulu	nulu	NUM	_	_	_	_	_	gloss=ten/forty
+10	.	.	PUNCT	_	_	_	_	_	gloss=iled
+11	Nia	nia	PRON	_	_	_	_	_	gloss=He
+12	la	la	PART	_	_	_	_	_	gloss=not
+13	naa	naa	VERB	_	_	_	_	_	gloss=eat
+14	sa-saa	sa-saa	PRON	_	_	_	_	_	gloss=anything
+15	,	,	PUNCT	_	_	_	_	_
+16	toꞌo	toꞌo	SCONJ	_	_	_	_	_	gloss=until
+17	salaen	salaen	ADJ	_	_	_	_	_	gloss=hungry
+18	mate	mate	ADV	_	_	_	_	_	gloss=deadly/extremely
+19	.	.	PUNCT	_	_	_	_	_	gloss=iled
+20	Hotu	hotu	ADV	_	_	_	_	_	gloss=Then
+21	diabu	diabu	NOUN	_	_	_	_	_	gloss=devil
+22	ulun	ulun	NOUN	_	_	_	_	_	gloss=head/leader
+23	mai	mai	VERB	_	_	_	_	_	gloss=come
+24	sokur	sokur	VERB	_	_	_	_	_	gloss=tempt
+25	kokon	kokon	AUX	_	_	_	_	_	gloss=try
+26	Nia	nia	PRON	_	_	_	_	_	gloss=Him
+27	.	.	PUNCT	_	_	_	_	_	gloss=iled
+
+# sent_id = 42016013
+# ref_id = Luke 16:13
+# eng_text = No servant can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You aren't able to serve God and mammon . "
+# tet_text = Ata ida la bele serwisu namutuk bodik ulun naꞌin rua , tan nia beer ida , hirus ida . Nia titu ida , la titu ida . Nunia moos emi . Emi la bele serwisu hamutuk bodik Naꞌi Maromak no serwisu bodik osan . ”
+1	Ata	ata	NOUN	_	_	_	_	_	gloss=servant/slave
+2	ida	ida	DET	_	_	_	_	_	gloss=a/one
+3	la	la	PART	_	_	_	_	_	gloss=not
+4	bele	bele	AUX	_	_	_	_	_	gloss=can
+5	serwisu	serwisu	VERB	_	_	_	_	_	gloss=work
+6	namutuk	namutuk	ADV	_	_	_	_	_	gloss=together
+7	bodik	bodik	ADP	_	_	_	_	_	gloss=for
+8	ulun	ulun	NOUN	_	_	_	_	_	gloss=head/leader
+9	naꞌin	naꞌin	NOUN	_	_	_	_	_	gloss=owner/lord
+10	rua	rua	NUM	_	_	_	_	_	gloss=two
+11	,	,	PUNCT	_	_	_	_	_
+12	tan	tan	SCONJ	_	_	_	_	_	gloss=because
+13	nia	nia	PRON	_	_	_	_	_	gloss=he
+14	beer	beer	VERB	_	_	_	_	_	gloss=like/desire
+15	ida	ida	DET	_	_	_	_	_	gloss=one
+16	,	,	PUNCT	_	_	_	_	_
+17	hirus	hirus	VERB	_	_	_	_	_	gloss=hate/angry-at
+18	ida	ida	DET	_	_	_	_	_	gloss=one
+19	.	.	PUNCT	_	_	_	_	_	gloss=iled
+20	Nia	nia	PRON	_	_	_	_	_	gloss=he
+21	titu	titu	VERB	_	_	_	_	_	gloss=look-after/care-for
+22	ida	ida	DET	_	_	_	_	_	gloss=one
+23	,	,	PUNCT	_	_	_	_	_
+24	la	la	PART	_	_	_	_	_	gloss=not
+25	titu	titu	VERB	_	_	_	_	_	gloss=look-after/care-for
+26	ida	ida	DET	_	_	_	_	_	gloss=one
+27	.	.	PUNCT	_	_	_	_	_	gloss=iled
+28	Nunia	nunia	ADV	_	_	_	_	_	gloss=thus/like-that
+29	moos	moos	ADV	_	_	_	_	_	gloss=also
+30	emi	emi	PRON	_	_	_	nsubj	_	gloss=you|Case=Nom|Person=2|PronType=Prs
+31	.	.	PUNCT	_	_	_	_	_	gloss=iled
+32	Emi	emi	PRON	_	_	_	_	_	gloss=you
+33	la	la	PART	_	_	_	_	_	gloss=not
+34	bele	bele	AUX	_	_	_	_	_	gloss=can
+35	serwisu	serwisu	VERB	_	_	_	_	_	gloss=work
+36	hamutuk	hamutuk	ADV	_	_	_	_	_	gloss=together
+37	bodik	bodik	ADP	_	_	_	_	_	gloss=for
+38	Naꞌi	naꞌi	PROPN	_	_	_	dobj	_	gloss=Lord
+39	Maromak	maromak	PROPN	_	_	_	_	_	gloss=God
+40	no	no	CCONJ	_	_	_	_	_	gloss=and
+41	serwisu	serwisu	VERB	_	_	_	_	_	gloss=work
+42	bodik	bodik	ADP	_	_	_	_	_	gloss=for
+43	osan	osan	NOUN	_	_	38	conj	_	gloss=money|Number=Sing
+44	.	.	PUNCT	_	_	_	_	_	gloss=iled
+45	”	”	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 42024018
+# ref_id = Luke 24:18
+# eng_text = One of them , named Cleopas , answered him , " Are you the only one travelling in Jerusalem who doesn't know the things which have happened there in these days ? "
+# tet_text = Ida mak naran Kleopas , nusu Yesus naꞌak , “ Ama neꞌe , ema foun ka ? Ama la natene lia mak foin dadi iha Yerusalem neꞌe ka ? ”
+1	Ida	ida	PRON	_	_	_	_	_	gloss=one
+2	mak	mak	PART	_	_	_	_	_	gloss=who/that
+3	naran	naran	NOUN	_	_	_	_	_	gloss=name
+4	Kleopas	kleopas	PROPN	_	_	_	_	_	gloss=Cleopas
+5	,	,	PUNCT	_	_	_	_	_
+6	nusu	nusu	VERB	_	_	_	_	_	gloss=asked
+7	Yesus	yesus	PROPN	_	_	_	_	_	gloss=Jesus
+8	naꞌak	naꞌak	SCONJ	_	_	_	_	_	gloss=that
+9	,	,	PUNCT	_	_	_	_	_
+10	“	“	PUNCT	_	_	_	_	_	PunctSide=Ini|PunctType=Quot
+11	Ama	ama	PROPN	_	_	_	_	_	gloss=Sir/Lord
+12	neꞌe	neꞌe	DET	_	_	_	_	_	gloss=this
+13	,	,	PUNCT	_	_	_	_	_
+14	ema	ema	NOUN	_	_	_	_	_	gloss=person
+15	foun	foun	ADJ	_	_	_	_	_	gloss=new/stranger
+16	ka	ka	PART	_	_	_	_	_	gloss=query-particle
+17	?	?	PUNCT	_	_	_	_	_	PunctType=Peri
+18	Ama	ama	PROPN	_	_	_	_	_	gloss=Sir/Lord
+19	la	la	PART	_	_	_	_	_	gloss=not
+20	natene	natene	VERB	_	_	_	_	_	gloss=know
+21	lia	lia	NOUN	_	_	_	_	_	gloss=matter/word
+22	mak	mak	PART	_	_	_	_	_	gloss=that
+23	foin	foin	ADV	_	_	_	_	_	gloss=just/recently
+24	dadi	dadi	VERB	_	_	_	_	_	gloss=happen/become
+25	iha	iha	ADP	_	_	_	_	_	gloss=in
+26	Yerusalem	yerusalem	PROPN	_	_	_	_	_	gloss=Jerusalem
+27	neꞌe	neꞌe	DET	_	_	_	_	_	gloss=this
+28	ka	ka	PART	_	_	_	_	_	gloss=query-particle
+29	?	?	PUNCT	_	_	_	_	_	PunctType=Peri
+30	”	”	PUNCT	_	_	_	_	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 43001039
+# ref_id = John 1:39
+# eng_text = He said to them , " Come , and see . " They came and saw where he was staying , and they stayed with him that day . It was about the tenth hour .
+# tet_text = Hotu Yesus nataa naꞌak , “ Mai , baa haree duꞌuk . ” Hotu sia tuir Nia , baa naree Niakaan hein fatin . Toꞌo nebaa , takseer tuku haat loro malirin . Sia moos nein no Nia toꞌo loro monu .
+1	Hotu	hotu	ADV	_	_	_	_	_	gloss=Then
+2	Yesus	yesus	PROPN	_	_	_	_	_	gloss=Jesus
+3	nataa	nataa	VERB	_	_	_	_	_	gloss=replied
+4	naꞌak	naꞌak	SCONJ	_	_	_	_	_	gloss=that
+5	,	,	PUNCT	_	_	_	_	_
+6	“	“	PUNCT	_	_	_	_	_	PunctSide=Ini|PunctType=Quot
+7	Mai	mai	VERB	_	_	_	_	_	gloss=Come
+8	,	,	PUNCT	_	_	_	_	_
+9	baa	baa	VERB	_	_	_	_	_	gloss=go
+10	haree	haree	VERB	_	_	_	_	_	gloss=see
+11	duꞌuk	duꞌuk	ADV	_	_	_	_	_	gloss=self/personally
+12	.	.	PUNCT	_	_	_	_	_	gloss=iled
+13	”	”	PUNCT	_	_	_	_	_	PunctSide=Fin|PunctType=Quot
+14	Hotu	hotu	ADV	_	_	_	_	_	gloss=Then
+15	sia	sia	PRON	_	_	_	_	_	gloss=they
+16	tuir	tuir	VERB	_	_	_	_	_	gloss=follow
+17	Nia	nia	PRON	_	_	_	_	_	gloss=Him
+18	,	,	PUNCT	_	_	_	_	_
+19	baa	baa	VERB	_	_	_	_	_	gloss=go
+20	naree	naree	VERB	_	_	_	_	_	gloss=see
+21	Niakaan	niakaan	PRON	_	_	_	_	_	gloss=His
+22	hein	hein	VERB	_	_	_	_	_	gloss=wait/stay
+23	fatin	fatin	NOUN	_	_	_	_	_	gloss=place
+24	.	.	PUNCT	_	_	_	_	_	gloss=iled
+25	Toꞌo	toꞌo	VERB	_	_	_	_	_	gloss=arrive
+26	nebaa	nebaa	ADV	_	_	_	_	_	gloss=there
+27	,	,	PUNCT	_	_	_	_	_
+28	takseer	takseer	ADV	_	_	_	_	_	gloss=approximately
+29	tuku	tuku	NOUN	_	_	_	_	_	gloss=o’clock
+30	haat	haat	NUM	_	_	_	_	_	gloss=four
+31	loro	loro	NOUN	_	_	_	_	_	gloss=sun/day
+32	malirin	malirin	ADJ	_	_	_	_	_	gloss=cool/afternoon
+33	.	.	PUNCT	_	_	_	_	_	gloss=iled
+34	Sia	sia	PRON	_	_	_	_	_	gloss=They
+35	moos	moos	ADV	_	_	_	_	_	gloss=also
+36	nein	nein	VERB	_	_	_	_	_	gloss=stayed
+37	no	no	ADP	_	_	_	_	_	gloss=with
+38	Nia	nia	PRON	_	_	_	_	_	gloss=Him
+39	toꞌo	toꞌo	ADP	_	_	_	_	_	gloss=until
+40	loro	loro	NOUN	_	_	_	_	_	gloss=sun
+41	monu	monu	VERB	_	_	_	_	_	gloss=fall/set
+42	.	.	PUNCT	_	_	_	_	_	gloss=iled
+
+# sent_id = 43003016
+# ref_id = John 3:16
+# eng_text = For God so loved the world , that he gave his one and only Son , that whoever believes in him should not perish , but have eternal life .
+# tet_text = Naꞌi Maromak nadomi ema raiklaran , toꞌo Nia solok Oan Mane mesak mai raiklaran neꞌe . Hodi nunia , ema hotu-hotu mak fiar baa Oan , la kona kastikar mak sasa faꞌe sia nosi Naꞌi Maromak ona , mais sia netan moris nima-nimak no Nia .
+1	Naꞌi	naꞌi	PROPN	_	_	_	_	_	gloss=Lord
+2	Maromak	maromak	PROPN	_	_	_	_	_	gloss=God
+3	nadomi	nadomi	VERB	_	_	_	_	_	gloss=loves
+4	ema	ema	NOUN	_	_	_	_	_	gloss=people
+5	raiklaran	raiklaran	NOUN	_	_	_	_	_	gloss=world
+6	,	,	PUNCT	_	_	_	_	_
+7	toꞌo	toꞌo	SCONJ	_	_	_	_	_	gloss=so-that
+8	Nia	nia	PRON	_	_	_	_	_	gloss=He
+9	solok	solok	VERB	_	_	_	_	_	gloss=send
+10	Oan	oan	PROPN	_	_	_	_	_	gloss=Son
+11	Mane	mane	PROPN	_	_	_	_	_	gloss=Male
+12	mesak	mesak	ADJ	_	_	_	_	_	gloss=only/alone
+13	mai	mai	VERB	_	_	_	_	_	gloss=come
+14	raiklaran	raiklaran	NOUN	_	_	_	_	_	gloss=world
+15	neꞌe	neꞌe	DET	_	_	_	_	_	gloss=this
+16	.	.	PUNCT	_	_	_	_	_	gloss=iled
+17	Hodi	hodi	ADP	_	_	_	_	_	gloss=with/by
+18	nunia	nunia	ADV	_	_	_	_	_	gloss=that-way
+19	,	,	PUNCT	_	_	_	_	_
+20	ema	ema	NOUN	_	_	_	_	_	gloss=people
+21	hotu-hotu	hotu-hotu	PRON	_	_	_	_	_	gloss=everyone
+22	mak	mak	PART	_	_	_	_	_	gloss=who
+23	fiar	fiar	VERB	_	_	_	_	_	gloss=believe
+24	baa	baa	ADP	_	_	_	_	_	gloss=in/to
+25	Oan	oan	PROPN	_	_	_	_	_	gloss=Son
+26	,	,	PUNCT	_	_	_	_	_
+27	la	la	PART	_	_	_	_	_	gloss=not
+28	kona	kona	VERB	_	_	_	_	_	gloss=touch/experience
+29	kastikar	kastikar	NOUN	_	_	_	_	_	gloss=punishment
+30	mak	mak	PART	_	_	_	_	_	gloss=that
+31	sasa	sasa	VERB	_	_	_	_	_	gloss=separate
+32	faꞌe	faꞌe	VERB	_	_	_	_	_	gloss=divide
+33	sia	sia	PRON	_	_	_	_	_	gloss=them
+34	nosi	nosi	ADP	_	_	_	_	_	gloss=from
+35	Naꞌi	naꞌi	PROPN	_	_	_	_	_	gloss=Lord
+36	Maromak	maromak	PROPN	_	_	_	_	_	gloss=God
+37	ona	ona	PART	_	_	_	_	_	gloss=already
+38	,	,	PUNCT	_	_	_	_	_
+39	mais	mais	CCONJ	_	_	_	_	_	gloss=but
+40	sia	sia	PRON	_	_	_	_	_	gloss=they
+41	netan	netan	VERB	_	_	_	_	_	gloss=get/receive
+42	moris	moris	NOUN	_	_	_	_	_	gloss=life
+43	nima-nimak	nima-nimak	ADJ	_	_	42	amod	_	gloss=eternal
+44	no	no	ADP	_	_	_	_	_	gloss=with
+45	Nia	nia	PRON	_	_	_	_	_	gloss=Him
+46	.	.	PUNCT	_	_	_	_	_	gloss=iled
+
+# sent_id = 44002030
+# ref_id = Acts 2:30
+# eng_text = Therefore , being a prophet , and knowing that God had sworn with an oath to him that of the fruit of his body , according to the flesh , he would raise up the Christ to sit on his throne ,
+# tet_text = Naꞌi Daud nia , Maromak makoꞌan . Baa oras nia dale nunia , nia natene naꞌak Naꞌi Maromak narai aan tiꞌan nodi nameno naꞌak , Nia atu boi Naꞌi Daud husar-binan ida atu kaer ukun .
+1	Naꞌi	naꞌi	PROPN	_	_	_	_	_	gloss=Lord
+2	Daud	daud	PROPN	_	_	_	_	_	gloss=David
+3	nia	nia	DET	_	_	_	_	_	gloss=that
+4	,	,	PUNCT	_	_	_	_	_
+5	Maromak	maromak	PROPN	_	_	_	_	_	gloss=God
+6	makoꞌan	makoꞌan	NOUN	_	_	_	_	_	gloss=prophet
+7	.	.	PUNCT	_	_	_	_	_	gloss=iled
+8	Baa	baa	ADP	_	_	_	_	_	gloss=at
+9	oras	oras	NOUN	_	_	_	_	_	gloss=time
+10	nia	nia	DET	_	_	_	_	_	gloss=that
+11	dale	dale	VERB	_	_	_	_	_	gloss=speak
+12	nunia	nunia	ADV	_	_	_	_	_	gloss=thus
+13	,	,	PUNCT	_	_	_	_	_
+14	nia	nia	PRON	_	_	_	_	_	gloss=he
+15	natene	natene	VERB	_	_	_	_	_	gloss=know
+16	naꞌak	naꞌak	SCONJ	_	_	_	_	_	gloss=that
+17	Naꞌi	naꞌi	PROPN	_	_	_	_	_	gloss=Lord
+18	Maromak	maromak	PROPN	_	_	_	_	_	gloss=God
+19	narai	narai	VERB	_	_	_	_	_	gloss=vow/swear
+20	aan	aan	PRON	_	_	_	_	_	gloss=self
+21	tiꞌan	tiꞌan	AUX	_	_	_	_	_	gloss=already
+22	nodi	nodi	CCONJ	_	_	_	_	_	gloss=and/with
+23	nameno	nameno	VERB	_	_	_	_	_	gloss=promise
+24	naꞌak	naꞌak	SCONJ	_	_	_	_	_	gloss=that
+25	,	,	PUNCT	_	_	_	_	_
+26	Nia	nia	PRON	_	_	_	_	_	gloss=He
+27	atu	atu	AUX	_	_	_	_	_	gloss=will
+28	boi	boi	VERB	_	_	_	_	_	gloss=choose
+29	Naꞌi	naꞌi	PROPN	_	_	_	_	_	gloss=Lord
+30	Daud	daud	PROPN	_	_	_	_	_	gloss=David
+31	husar-binan	husar-binan	NOUN	_	_	_	_	_	gloss=descendant
+32	ida	ida	DET	_	_	_	_	_	gloss=one
+33	atu	atu	AUX	_	_	_	_	_	gloss=to
+34	kaer	kaer	VERB	_	_	_	_	_	gloss=hold
+35	ukun	ukun	NOUN	_	_	_	_	_	gloss=rule/authority
+36	.	.	PUNCT	_	_	_	_	_	gloss=iled
+
+# sent_id = 44009038
+# ref_id = Acts 9:38
+# eng_text = As Lydda was near Joppa , the disciples , hearing that Peter was there , sent two men to him , imploring him not to delay in coming to them .
+# tet_text = Oras nia moos , sia rona Petrus iha leo Lida . Leo nia dook nosi kota Yope , laꞌo rai kreꞌis loron baluk ida . Sia solok ema naꞌin rua baa bolu nola Petrus . Nasoru tiꞌan , sia katak naꞌak , “ Ama ! Ami hakara ama mai lai-lais baa kota Yope lai . ”
+1	Oras	oras	NOUN	_	_	_	_	_	gloss=time
+2	nia	nia	DET	_	_	_	_	_	gloss=that
+3	moos	moos	ADV	_	_	_	_	_	gloss=also
+4	,	,	PUNCT	_	_	_	_	_
+5	sia	sia	PRON	_	_	_	_	_	gloss=they
+6	rona	rona	VERB	_	_	_	_	_	gloss=hear
+7	Petrus	petrus	PROPN	_	_	_	_	_	gloss=Peter
+8	iha	iha	ADP	_	_	_	_	_	gloss=at
+9	leo	leo	NOUN	_	_	_	_	_	gloss=village/town
+10	Lida	lida	PROPN	_	_	_	_	_	gloss=Lydda
+11	.	.	PUNCT	_	_	_	_	_	gloss=iled
+12	Leo	leo	NOUN	_	_	_	_	_	gloss=town
+13	nia	nia	DET	_	_	_	_	_	gloss=that
+14	dook	dook	ADJ	_	_	_	_	_	gloss=far
+15	nosi	nosi	ADP	_	_	_	_	_	gloss=from
+16	kota	kota	NOUN	_	_	_	_	_	gloss=city
+17	Yope	yope	PROPN	_	_	_	_	_	gloss=Joppa
+18	,	,	PUNCT	_	_	_	_	_
+19	laꞌo	laꞌo	VERB	_	_	_	_	_	gloss=walk
+20	rai	rai	NOUN	_	_	_	_	_	gloss=land/ground
+21	kreꞌis	kreꞌis	ADV	_	_	_	_	_	gloss=near/about
+22	loron	loron	NOUN	_	_	_	_	_	gloss=day
+23	baluk	baluk	NOUN	_	_	_	_	_	gloss=part/half
+24	ida	ida	NUM	_	_	_	_	_	gloss=one
+25	.	.	PUNCT	_	_	_	_	_	gloss=iled
+26	Sia	sia	PRON	_	_	_	_	_	gloss=they
+27	solok	solok	VERB	_	_	_	_	_	gloss=send
+28	ema	ema	NOUN	_	_	_	_	_	gloss=person
+29	naꞌin	naꞌin	NOUN	_	_	_	_	_	gloss=person-classifier
+30	rua	rua	NUM	_	_	_	_	_	gloss=two
+31	baa	baa	ADP	_	_	_	_	_	gloss=to
+32	bolu	bolu	VERB	_	_	_	_	_	gloss=call
+33	nola	nola	VERB	_	_	_	_	_	gloss=fetch/get
+34	Petrus	petrus	PROPN	_	_	_	_	_	gloss=Peter
+35	.	.	PUNCT	_	_	_	_	_	gloss=iled
+36	Nasoru	nasoru	VERB	_	_	_	_	_	gloss=meet
+37	tiꞌan	tiꞌan	AUX	_	_	_	_	_	gloss=already
+38	,	,	PUNCT	_	_	_	_	_
+39	sia	sia	PRON	_	_	_	_	_	gloss=they
+40	katak	katak	VERB	_	_	_	_	_	gloss=say
+41	naꞌak	naꞌak	SCONJ	_	_	_	_	_	gloss=that
+42	,	,	PUNCT	_	_	_	_	_
+43	“	“	PUNCT	_	_	_	_	_	PunctSide=Ini|PunctType=Quot
+44	Ama	ama	PROPN	_	_	_	_	_	gloss=Sir/Father
+45	!	!	PUNCT	_	_	_	_	_	gloss=exclamation
+46	Ami	ami	PRON	_	_	_	_	_	gloss=we
+47	hakara	hakara	VERB	_	_	_	_	_	gloss=want
+48	ama	ama	PROPN	_	_	_	_	_	gloss=Sir/you
+49	mai	mai	VERB	_	_	_	_	_	gloss=come
+50	lai-lais	lai-lais	ADV	_	_	_	_	_	gloss=quickly
+51	baa	baa	ADP	_	_	_	_	_	gloss=to
+52	kota	kota	NOUN	_	_	_	_	_	gloss=city
+53	Yope	yope	PROPN	_	_	_	_	_	gloss=Joppa
+54	lai	lai	PART	_	_	_	_	_	gloss=briefly/first
+55	.	.	PUNCT	_	_	_	_	_	gloss=iled
+56	”	”	PUNCT	_	_	_	_	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 44011011
+# ref_id = Acts 11:11
+# eng_text = Behold , immediately three men stood before the house where I was , having been sent from Caesarea to me .
+# tet_text = Baa oras nia moos , ema naꞌin tolu toꞌo uma nia . Sia nosi Kaisarea mai buka haꞌu .
+1	Baa	baa	ADP	_	_	_	_	_	gloss=at
+2	oras	oras	NOUN	_	_	_	_	_	gloss=time
+3	nia	nia	DET	_	_	_	_	_	gloss=that
+4	moos	moos	ADV	_	_	_	_	_	gloss=also/even
+5	,	,	PUNCT	_	_	_	_	_
+6	ema	ema	NOUN	_	_	_	_	_	gloss=people
+7	naꞌin	naꞌin	NOUN	_	_	_	_	_	gloss=person-classifier
+8	tolu	tolu	NUM	_	_	_	_	_	gloss=three
+9	toꞌo	toꞌo	VERB	_	_	_	_	_	gloss=arrive
+10	uma	uma	NOUN	_	_	_	_	_	gloss=house
+11	nia	nia	DET	_	_	_	_	_	gloss=that
+12	.	.	PUNCT	_	_	_	_	_	gloss=iled
+13	Sia	sia	PRON	_	_	_	_	_	gloss=they
+14	nosi	nosi	ADP	_	_	_	_	_	gloss=from
+15	Kaisarea	kaisarea	PROPN	_	_	_	_	_	gloss=Caesarea
+16	mai	mai	VERB	_	_	_	_	_	gloss=come
+17	buka	buka	VERB	_	_	_	_	_	gloss=look-for/seek
+18	haꞌu	haꞌu	PRON	_	_	_	_	_	gloss=me
+19	.	.	PUNCT	_	_	_	_	_	gloss=iled
+
+# sent_id = 44021034
+# ref_id = Acts 21:34
+# eng_text = Some shouted one thing , some another , among the crowd . When he couldn't find out the truth because of the noise , he commanded him to be brought into the barracks .
+# tet_text = Mais sia nataa la kona baa malu . Balu naꞌak , “ Nalo nuneꞌe ” . Balu tenik naꞌak , “ Nalo nunia . ” Ema lear nia nahii bele-bele , toꞌo sondadu ulun boot benar , tan la natene lia nia huun-dikin . Hotu nia naruka sondadu sia nodi Paulus baa sondadu fatin .
+1	Mais	mais	CCONJ	_	_	_	_	_	gloss=but
+2	sia	sia	PRON	_	_	_	_	_	gloss=they
+3	nataa	nataa	VERB	_	_	_	_	_	gloss=answer/shout
+4	la	la	PART	_	_	_	_	_	gloss=not
+5	kona	kona	VERB	_	_	_	_	_	gloss=hit/match
+6	baa	baa	ADP	_	_	_	_	_	gloss=to
+7	malu	malu	PRON	_	_	_	_	_	gloss=each-other
+8	.	.	PUNCT	_	_	_	_	_	gloss=iled
+9	Balu	balu	PRON	_	_	_	_	_	gloss=some
+10	naꞌak	naꞌak	SCONJ	_	_	_	_	_	gloss=that
+11	,	,	PUNCT	_	_	_	_	_
+12	“	“	PUNCT	_	_	_	_	_	PunctSide=Ini|PunctType=Quot
+13	Nalo	nalo	VERB	_	_	_	_	_	gloss=do/make
+14	nuneꞌe	nuneꞌe	ADV	_	_	_	_	_	gloss=like-this
+15	”	”	PUNCT	_	_	_	_	_	PunctSide=Fin|PunctType=Quot
+16	.	.	PUNCT	_	_	_	_	_	gloss=iled
+17	Balu	balu	PRON	_	_	_	_	_	gloss=some
+18	tenik	tenik	ADV	_	_	_	_	_	gloss=again/also
+19	naꞌak	naꞌak	SCONJ	_	_	_	_	_	gloss=that
+20	,	,	PUNCT	_	_	_	_	_
+21	“	“	PUNCT	_	_	_	_	_	PunctSide=Ini|PunctType=Quot
+22	Nalo	nalo	VERB	_	_	_	_	_	gloss=do/make
+23	nunia	nunia	ADV	_	_	_	_	_	gloss=like-that
+24	.	.	PUNCT	_	_	_	_	_	gloss=iled
+25	”	”	PUNCT	_	_	_	_	_	PunctSide=Fin|PunctType=Quot
+26	Ema	ema	NOUN	_	_	_	_	_	gloss=person/people
+27	lear	lear	ADJ	_	_	_	_	_	gloss=many/crowd
+28	nia	nia	DET	_	_	_	_	_	gloss=that
+29	nahii	nahii	VERB	_	_	_	_	_	gloss=shout/noise
+30	bele-bele	bele-bele	ADV	_	_	_	_	_	gloss=continuously/uncontrollably
+31	,	,	PUNCT	_	_	_	_	_
+32	toꞌo	toꞌo	SCONJ	_	_	_	_	_	gloss=until/so-that
+33	sondadu	sondadu	NOUN	_	_	_	_	_	gloss=soldier
+34	ulun	ulun	NOUN	_	_	_	_	_	gloss=head
+35	boot	boot	ADJ	_	_	_	_	_	gloss=great/big
+36	benar	benar	VERB	_	_	_	_	_	gloss=confused/dazed
+37	,	,	PUNCT	_	_	_	_	_
+38	tan	tan	SCONJ	_	_	_	_	_	gloss=because
+39	la	la	PART	_	_	_	_	_	gloss=not
+40	natene	natene	VERB	_	_	_	_	_	gloss=know
+41	lia	lia	NOUN	_	_	_	_	_	gloss=matter/word
+42	nia	nia	DET	_	_	_	_	_	gloss=that
+43	huun-dikin	huun-dikin	NOUN	_	_	_	_	_	gloss=origin/details
+44	.	.	PUNCT	_	_	_	_	_	gloss=iled
+45	Hotu	hotu	ADV	_	_	_	_	_	gloss=then
+46	nia	nia	PRON	_	_	_	_	_	gloss=he
+47	naruka	naruka	VERB	_	_	_	_	_	gloss=command/order
+48	sondadu	sondadu	NOUN	_	_	_	_	_	gloss=soldier
+49	sia	sia	DET	_	_	_	_	_	gloss=plural/those
+50	nodi	CCONJ	_	_	_	_	_	_	gloss=to/and
+51	Paulus	Paulus	PROPN	_	_	_	_	_	gloss=Paul
+52	baa	baa	ADP	_	_	_	_	_	gloss=to
+53	sondadu	sondadu	NOUN	_	_	_	_	_	gloss=soldier
+54	fatin	fatin	NOUN	_	_	_	_	_	gloss=place
+55	.	.	PUNCT	_	_	_	_	_	gloss=iled
+
+# sent_id = 47012002
+# ref_id = 2 Corinthians 12:2
+# eng_text = I know a man in Christ , fourteen years ago ( whether in the body , I don't know , or whether out of the body , I don't know ; God knows ) , such a one caught up into the third heaven .
+# tet_text = Haꞌu katene ema ida mak talin aan no Kristus . Tinan sanulu resin haat mak liu tiꞌan , nia kona loi saꞌe baa laleꞌan mak aas kaliuk . Haꞌu la katene , oras saꞌe nia , sei nodi isin lolon ka , nodi kmalar dei . Naꞌi Maromak mesan mak natene . Mais haꞌu katene malorek kaꞌak , baa oras nia saꞌe baa Naꞌi Maromak Fatin Kabaas nia , nia rona lia fuan sia mak makaꞌas basuk , toꞌo ema raiklaran la bele dale .
+1	Haꞌu	haꞌu	PRON	_	_	_	_	_	gloss=I
+2	katene	katene	VERB	_	_	_	_	_	gloss=know
+3	ema	ema	NOUN	_	_	_	_	_	gloss=person
+4	ida	ida	DET	_	_	_	_	_	gloss=a/one
+5	mak	mak	PART	_	_	_	_	_	gloss=who
+6	talin	talin	VERB	_	_	_	_	_	gloss=bind/connect
+7	aan	aan	PRON	_	_	_	_	_	gloss=self
+8	no	no	ADP	_	_	_	_	_	gloss=with
+9	Kristus	kristus	PROPN	_	_	_	_	_	gloss=Christ
+10	.	.	PUNCT	_	_	_	_	_	gloss=iled
+11	Tinan	tinan	NOUN	_	_	_	_	_	gloss=year
+12	sanulu	sanulu	NUM	_	_	_	_	_	gloss=ten
+13	resin	resin	NOUN	_	_	_	_	_	gloss=extra
+14	haat	haat	NUM	_	_	_	_	_	gloss=four
+15	mak	mak	PART	_	_	_	_	_	gloss=that
+16	liu	liu	VERB	_	_	_	_	_	gloss=pass
+17	tiꞌan	tiꞌan	AUX	_	_	_	_	_	gloss=already
+18	,	,	PUNCT	_	_	_	_	_
+19	nia	nia	PRON	_	_	_	_	_	gloss=he
+20	kona	kona	VERB	_	_	_	_	_	gloss=experience/happen
+21	loi	loi	ADV	_	_	_	_	_	gloss=suddenly/forcefully
+22	saꞌe	saꞌe	VERB	_	_	_	_	_	gloss=ascend/go-up
+23	baa	baa	ADP	_	_	_	_	_	gloss=to
+24	laleꞌan	laleꞌan	NOUN	_	_	_	_	_	gloss=heaven
+25	mak	mak	PART	_	_	_	_	_	gloss=that
+26	aas	aas	ADJ	_	_	_	_	_	gloss=high
+27	kaliuk	kaliuk	ADV	_	_	_	_	_	gloss=most/extremely
+28	.	.	PUNCT	_	_	_	_	_	gloss=iled
+29	Haꞌu	haꞌu	PRON	_	_	_	_	_	gloss=I
+30	la	la	PART	_	_	_	_	_	gloss=not
+31	katene	katene	VERB	_	_	_	_	_	gloss=know
+32	,	,	PUNCT	_	_	_	_	_
+33	oras	oras	NOUN	_	_	_	_	_	gloss=time
+34	saꞌe	saꞌe	VERB	_	_	_	_	_	gloss=ascend
+35	nia	nia	DET	_	_	_	_	_	gloss=that
+36	,	,	PUNCT	_	_	_	_	_
+37	sei	sei	AUX	_	_	_	_	_	gloss=still/was
+38	nodi	nodi	VERB	_	_	_	_	_	gloss=with/carry
+39	isin	isin	NOUN	_	_	_	_	_	gloss=body
+40	lolon	lolon	NOUN	_	_	_	_	_	gloss=trunk/whole
+41	ka	ka	CCONJ	_	_	_	_	_	gloss=or
+42	,	,	PUNCT	_	_	_	_	_
+43	nodi	nodi	VERB	_	_	_	_	_	gloss=with/carry
+44	kmalar	kmalar	NOUN	_	_	_	_	_	gloss=soul/spirit
+45	dei	dei	ADV	_	_	_	_	_	gloss=only
+46	.	.	PUNCT	_	_	_	_	_	gloss=iled
+47	Naꞌi	naꞌi	PROPN	_	_	_	_	_	gloss=Lord
+48	Maromak	maromak	PROPN	_	_	_	_	_	gloss=God
+49	mesan	mesan	ADJ	_	_	_	_	_	gloss=alone/only
+50	mak	mak	PART	_	_	_	_	_	gloss=who
+51	natene	natene	VERB	_	_	_	_	_	gloss=know
+52	.	.	PUNCT	_	_	_	_	_	gloss=iled
+53	Mais	mais	CCONJ	_	_	_	_	_	gloss=but
+54	haꞌu	haꞌu	PRON	_	_	_	_	_	gloss=I
+55	katene	katene	VERB	_	_	_	_	_	gloss=know
+56	malorek	malorek	ADV	_	_	_	_	_	gloss=clearly
+57	kaꞌak	kaꞌak	SCONJ	_	_	_	_	_	gloss=that
+58	,	,	PUNCT	_	_	_	_	_
+59	baa	baa	ADP	_	_	_	_	_	gloss=at
+60	oras	oras	NOUN	_	_	_	_	_	gloss=time
+61	nia	nia	DET	_	_	_	_	_	gloss=that
+62	saꞌe	saꞌe	VERB	_	_	_	_	_	gloss=ascend
+63	baa	baa	ADP	_	_	_	_	_	gloss=to
+64	Naꞌi	naꞌi	PROPN	_	_	_	_	_	gloss=Lord
+65	Maromak	maromak	PROPN	_	_	_	_	_	gloss=God
+66	Fatin	fatin	NOUN	_	_	_	_	_	gloss=place
+67	Kabaas	kabaas	ADJ	_	_	_	_	_	gloss=holy/wonderful
+68	nia	nia	DET	_	_	_	_	_	gloss=that
+69	,	,	PUNCT	_	_	_	_	_
+70	nia	nia	PRON	_	_	_	_	_	gloss=he
+71	rona	rona	VERB	_	_	_	_	_	gloss=hear
+72	lia	lia	NOUN	_	_	_	_	_	gloss=word
+73	fuan	fuan	NOUN	_	_	_	_	_	gloss=fruit/core
+74	sia	sia	DET	_	_	_	_	_	gloss=plural
+75	mak	mak	PART	_	_	_	_	_	gloss=that
+76	makaꞌas	makaꞌas	ADJ	_	_	_	_	_	gloss=strong/mighty
+77	basuk	basuk	ADV	_	_	_	_	_	gloss=extremely
+78	,	,	PUNCT	_	_	_	_	_
+79	toꞌo	toꞌo	SCONJ	_	_	_	_	_	gloss=until
+80	ema	ema	NOUN	_	_	_	_	_	gloss=person
+81	raiklaran	raiklaran	NOUN	_	_	_	_	_	gloss=world
+82	la	la	PART	_	_	_	_	_	gloss=not
+83	bele	bele	AUX	_	_	_	_	_	gloss=can
+84	dale	dale	VERB	_	_	_	_	_	gloss=speak
+85	.	.	PUNCT	_	_	_	_	_	gloss=iled
+
+# sent_id = 62004009
+# ref_id = 1 John 4:9
+# eng_text = By this was God's love revealed in us , that God has sent his only born Son into the world that we might live through him .
+# tet_text = Naꞌi Maromak natudu dadomin baa ita nuneꞌe : Nia solok Niakaan Oa Mane mesak mai raiklaran neꞌe , atu loke dalan bodik ita , nebee ita bele moris ho Nia toꞌo nima-nimak .
+1	Naꞌi	naꞌi	PROPN	_	_	_	_	_	gloss=Lord
+2	Maromak	maromak	PROPN	_	_	_	_	_	gloss=God
+3	natudu	natudu	VERB	_	_	_	_	_	gloss=show/reveal
+4	dadomin	dadomin	NOUN	_	_	_	_	_	gloss=love
+5	baa	baa	ADP	_	_	_	_	_	gloss=to
+6	ita	ita	PRON	_	_	_	_	_	gloss=us
+7	nuneꞌe	nuneꞌe	ADV	_	_	_	_	_	gloss=like-this
+8	:	:	PUNCT	_	_	_	_	_
+9	Nia	nia	PRON	_	_	_	_	_	gloss=He
+10	solok	solok	VERB	_	_	_	_	_	gloss=send
+11	Niakaan	niakaan	PRON	_	_	_	_	_	gloss=His
+12	Oa	oa	PROPN	_	_	_	_	_	gloss=Child/Son
+13	Mane	mane	PROPN	_	_	_	_	_	gloss=Male
+14	mesak	mesak	ADJ	_	_	_	_	_	gloss=only/alone
+15	mai	mai	VERB	_	_	_	_	_	gloss=come
+16	raiklaran	raiklaran	NOUN	_	_	_	_	_	gloss=world
+17	neꞌe	neꞌe	DET	_	_	_	_	_	gloss=this
+18	,	,	PUNCT	_	_	_	_	_
+19	atu	atu	AUX	_	_	_	_	_	gloss=to/will
+20	loke	loke	VERB	_	_	_	_	_	gloss=open
+21	dalan	dalan	NOUN	_	_	_	_	_	gloss=way/road
+22	bodik	bodik	ADP	_	_	_	_	_	gloss=for
+23	ita	ita	PRON	_	_	_	_	_	gloss=us
+24	,	,	PUNCT	_	_	_	_	_
+25	nebee	nebee	SCONJ	_	_	_	_	_	gloss=so-that
+26	ita	ita	PRON	_	_	_	_	_	gloss=we
+27	bele	bele	AUX	_	_	_	_	_	gloss=can
+28	moris	moris	VERB	_	_	_	_	_	gloss=live
+29	ho	ho	ADP	_	_	_	_	_	gloss=with
+30	Nia	nia	PRON	_	_	_	_	_	gloss=Him
+31	toꞌo	toꞌo	ADP	_	_	_	_	_	gloss=until
+32	nima-nimak	nima-nimak	ADJ	_	_	_	_	_	gloss=eternal/forever
+33	.	.	PUNCT	_	_	_	_	_	gloss=iled
+
+# sent_id = 63001005
+# ref_id = 2 John 1:5
+# eng_text = Now I beg you , dear lady , not as though I wrote to you a new commandment , but that which we had from the beginning , that we love one another .
+# tet_text = Ina mak haꞌu kadomi ! Haꞌu kaloon nebee ita hotu-hotu hadomi malu . Ukun nia , lahoos ukun foun mais ukun mak ita simu kedan hori uluk .
+1	Ina	ina	PROPN	_	_	_	_	_	gloss=Lady/Mother
+2	mak	mak	PART	_	_	_	_	_	gloss=whom
+3	haꞌu	haꞌu	PRON	_	_	_	_	_	gloss=I
+4	kadomi	kadomi	VERB	_	_	_	_	_	gloss=love
+5	!	!	PUNCT	_	_	_	_	_	gloss=exclamation
+6	Haꞌu	haꞌu	PRON	_	_	_	_	_	gloss=I
+7	kaloon	kaloon	VERB	_	_	_	_	_	gloss=request/hope
+8	nebee	nebee	SCONJ	_	_	_	_	_	gloss=that
+9	ita	ita	PRON	_	_	_	_	_	gloss=we
+10	hotu-hotu	hotu-hotu	PRON	_	_	_	_	_	gloss=all
+11	hadomi	hadomi	VERB	_	_	_	_	_	gloss=love
+12	malu	malu	PRON	_	_	_	_	_	gloss=each-other
+13	.	.	PUNCT	_	_	_	_	_	gloss=iled
+14	Ukun	ukun	NOUN	_	_	_	_	_	gloss=commandment
+15	nia	nia	DET	_	_	_	_	_	gloss=that
+16	,	,	PUNCT	_	_	_	_	_
+17	lahoos	lahoos	PART	_	_	_	_	_	gloss=not
+18	ukun	ukun	NOUN	_	_	_	_	_	gloss=commandment
+19	foun	foun	ADJ	_	_	_	_	_	gloss=new
+20	mais	mais	CCONJ	_	_	_	_	_	gloss=but
+21	ukun	ukun	NOUN	_	_	_	_	_	gloss=commandment
+22	mak	mak	PART	_	_	_	_	_	gloss=that
+23	ita	ita	PRON	_	_	_	_	_	gloss=we
+24	simu	simu	VERB	_	_	_	_	_	gloss=receive
+25	kedan	kedan	ADV	_	_	_	_	_	gloss=already/immediately
+26	hori	hori	ADP	_	_	_	_	_	gloss=since
+27	uluk	uluk	NOUN	_	_	_	_	_	gloss=beginning/formerly
+28	.	.	PUNCT	_	_	_	_	_	gloss=iled
+

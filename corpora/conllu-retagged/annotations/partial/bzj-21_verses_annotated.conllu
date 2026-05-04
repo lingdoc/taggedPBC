@@ -1,0 +1,848 @@
+## The following text has been annotated for parts of speech by students at NTU Singapore as part of a class project in AY 2025-26.
+## Verses are extracted from the taggedPBC. Annotations have been developed with a combination of manual and automated approaches, with reference to existing literature and (where possible) native speakers.
+## ISO 639-3: bzj, Language: Belize Kriol English, Number of verses: 21
+## References: Bembridge, N., Crosbie, C., Crosbie, P., Frank, D., Herrera, Y., & Rodriguez, A. (2024). Kriol-Inglish dikshineri: English-Kriol dictionary (2nd ed.). National Kriol Council. ; Escure, G. (1998). Gender and tense/aspect in Belizean creole. In J. Tent & F. Mugler (Eds.), SICOL: Proceedings of the Second International Conference on Oceanic Linguistics (pp. 27–41). Pacific Linguistics. Available at https://openresearch-repository.anu.edu.au/server/api/core/bitstreams/6e91d862-f734-4b19-a78a-7dc49345e542/content ; Gómez Menjívar, J., & Salmon, W. (2018). Tropical tongues: Language and identity in Belize. University of North Carolina at Chapel Hill. ; Salmon, W. (2015). Language ideology, gender, and varieties of Belizean Kriol. Journal of Black Studies, 46(6), 605–625. http://www.jstor.org/stable/24572901 ; Schneider, E. W. (2017). English around the world: An introduction. Cambridge University Press.
+## Contributors: # KANG HAIXUAN: kang0154 AT e DOT ntu DOT edu DOT sg #
+
+# sent_id = 40006024
+# ref_id = Matthew 6:24
+# eng_text = " No one can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You can't serve both God and Mammon .
+# bzj_text = “ Nobadi kyaahn serv too maasta . Eeda yu wahn hayt wan ahn lov di neks , er yu wahn rispek wan ahn kyaahn stan di neks wan . Rait soh , unu kyaahn serv Gaad ahn moni sayhn taim .
+1	“	“	PUNCT	_	_	4	punct	_	PunctSide=Ini|PunctType=Quot
+2	Nobadi	nobadi	PRON	_	_	_	_	_	gloss=nobody
+3	kyaahn	kyaahn	VERB	_	_	_	_	_	gloss=cannot
+4	serv	serv	VERB	_	_	0	root	_	gloss=serve|VerbForm=Inf
+5	too	too	NUM	_	_	6	nummod	_	gloss=two|NumType=Card
+6	maasta	maasta	NOUN	_	_	4	dobj	_	gloss=masters|Number=Plur
+7	.	.	PUNCT	_	_	4	punct	_	PunctType=Peri
+8	Eeda	eeda	VERB	_	_	_	acomp	_	gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+9	yu	you	PRON	_	_	_	_	_	gloss=you
+10	wahn	wahn	AUX	_	_	_	_	_	gloss=will
+11	hayt	hayt	VERB	_	_	_	_	_	gloss=hate
+12	wan	wan	NUM	_	_	_	pobj	_	gloss=one|NumType=Card
+13	ahn	ahn	CCONJ	_	_	36	cc	_	gloss=and|ConjType=Cmp
+14	lov	lov	VERB	_	_	_	conj	_	gloss=love|VerbForm=Inf
+15	di	the	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+16	neks	neks	ADJ	_	_	_	_	_	gloss=other
+17	,	,	PUNCT	_	_	_	_	_
+18	er	er	CCONJ	_	_	_	_	_	gloss=or
+19	yu	you	PRON	_	_	_	_	_	gloss=you
+20	wahn	wahn	AUX	_	_	_	_	_	gloss=will
+21	rispek	rispek	VERB	_	_	_	_	_	gloss=respect
+22	wan	wan	NUM	_	_	_	pobj	_	gloss=one|NumType=Card
+23	ahn	ahn	CCONJ	_	_	36	cc	_	gloss=and|ConjType=Cmp
+24	kyaahn	kyaahn	VERB	_	_	_	_	_	gloss=cannot
+25	stan	stan	VERB	_	_	_	_	_	gloss=stand
+26	di	the	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+27	neks	neks	ADJ	_	_	_	_	_	gloss=other
+28	wan	wan	NUM	_	_	_	pobj	_	gloss=one|NumType=Card
+29	.	.	PUNCT	_	_	35	punct	_	PunctType=Peri
+30	Rait	right	ADV	_	_	_	_	_	gloss=right
+31	soh	so	ADV	_	_	_	_	_	gloss=so
+32	,	,	PUNCT	_	_	_	_	_
+33	unu	unu	PRON	_	_	_	nsubj	_	gloss=you|Case=Nom|Person=2|PronType=Prs
+34	kyaahn	kyaahn	VERB	_	_	_	_	_	gloss=cannot
+35	serv	serv	VERB	_	_	0	root	_	gloss=serve|VerbForm=Inf
+36	Gaad	gaad	PROPN	_	_	35	dobj	_	gloss=God|Number=Sing
+37	ahn	ahn	CCONJ	_	_	36	cc	_	gloss=and|ConjType=Cmp
+38	moni	moni	NOUN	_	_	36	conj	_	gloss=money|Number=Sing
+39	sayhn	sayhn	ADJ	_	_	_	_	_	gloss=same
+40	taim	taim	NOUN	_	_	_	_	_	gloss=time
+41	.	.	PUNCT	_	_	35	punct	_	PunctType=Peri
+
+# sent_id = 40018012
+# ref_id = Matthew 18:12
+# eng_text = " What do you think ? If a man has one hundred sheep , and one of them goes astray , doesn't he leave the ninety-nine , go to the mountains , and seek that which has gone astray ?
+# bzj_text = “ Now unu noh tink seh if wahn shepad ga wahn honjrid sheep , ahn wan a dehn laas , ih noh wahn lef di nainti-nain sheep pahn di hil ahn goh luk fi di wan weh laas ?
+1	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+2	Now	now	ADV	_	_	_	_	_	gloss=now
+3	unu	unu	PRON	_	_	_	_	_	gloss=you
+4	noh	noh	PART	_	_	_	_	_	gloss=not
+5	tink	tink	VERB	_	_	_	_	_	gloss=think
+6	seh	seh	SCONJ	_	_	_	_	_	gloss=that
+7	if	if	SCONJ	_	_	_	_	_	gloss=if
+8	wahn	wahn	DET	_	_	12	quantmod	_	gloss=a|Definite=Ind|PronType=Art
+9	shepad	shepherd	NOUN	_	_	_	_	_	gloss=shepherd
+10	ga	ga	VERB	_	_	_	_	_	gloss=have
+11	wahn	wahn	DET	_	_	12	quantmod	_	gloss=a|Definite=Ind|PronType=Art
+12	honjrid	honjrid	NUM	_	_	13	nummod	_	gloss=hundred|NumType=Card
+13	sheep	sheep	NOUN	_	_	_	dobj	_	gloss=sheep|Number=Plur
+14	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+15	ahn	ahn	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+16	wan	wan	NOUN	_	_	34	pobj	_	gloss=one|Number=Sing
+17	a	a	ADP	_	_	16	prep	_	gloss=of
+18	dehn	3PL	PRON	_	_	17	pobj	_	gloss=them|Case=Acc|Number=Plur|Person=3|PronType=Prs
+19	laas	laas	VERB	_	_	16	relcl	_	gloss=lost|Aspect=Perf|Tense=Past|VerbForm=Part
+20	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+21	ih	3SG	PRON	_	_	_	_	_	gloss=he
+22	noh	noh	PART	_	_	_	_	_	gloss=not
+23	wahn	wahn	DET	_	_	12	quantmod	_	gloss=a|Definite=Ind|PronType=Art
+24	lef	lef	VERB	_	_	_	_	_	gloss=leave
+25	di	the	DET	_	_	16	det	_	gloss=the|Definite=Def|PronType=Art
+26	nainti-nain	nainti-nain	NUM	_	_	_	_	_	gloss=ninety-nine
+27	sheep	sheep	NOUN	_	_	_	dobj	_	gloss=sheep|Number=Plur
+28	pahn	pahn	ADP	_	_	_	_	_	gloss=on
+29	di	the	DET	_	_	36	det	_	gloss=the|Definite=Def|PronType=Art
+30	hil	hil	NOUN	_	_	_	_	_	gloss=hill
+31	ahn	ahn	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+32	goh	goh	VERB	_	_	_	conj	_	gloss=go|VerbForm=Inf
+33	luk	luk	VERB	_	_	_	_	_	gloss=look
+34	fi	for	ADP	_	_	_	prep	_	gloss=for
+35	di	the	DET	_	_	36	det	_	gloss=the|Definite=Def|PronType=Art
+36	wan	wan	NOUN	_	_	34	pobj	_	gloss=one|Number=Sing
+37	weh	WH/REL	PRON	_	_	_	_	_	gloss=that
+38	laas	laas	VERB	_	_	36	relcl	_	gloss=lost|Aspect=Perf|Tense=Past|VerbForm=Part
+39	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 40020021
+# ref_id = Matthew 20:21
+# eng_text = He said to her , " What do you want ? " She said to him , " Command that these , my two sons , may sit , one on your right hand , and one on your left hand , in your kingdom . "
+# bzj_text = Ahn Jeezas aks ahn seh , “ Da weh yu mi waahn ? ” Di laydi tel ahn seh , “ Ai waahn yoo pramis mi fi mek wan a mi son sidong pahn yu rait han said ahn wan pahn yu lef wen yu ton king . ”
+1	Ahn	ahn	CCONJ	_	_	_	_	_	gloss=and
+2	Jeezas	Jesus	PROPN	_	_	_	_	_	gloss=Jesus
+3	aks	aks	VERB	_	_	_	_	_	gloss=ask
+4	ahn	ahn	CCONJ	_	_	29	cc	_	gloss=and|ConjType=Cmp
+5	seh	seh	VERB	_	_	_	_	_	gloss=say
+6	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+7	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+8	Da	da	VERB	_	_	_	_	_	gloss=is
+9	weh	WH/REL	PRON	_	_	_	_	_	gloss=what
+10	yu	you	PRON	_	_	43	poss	_	gloss=your|Person=2|Poss=Yes|PronType=Prs
+11	mi	PST	AUX	_	_	_	_	_	gloss=PAST
+12	waahn	waahn	VERB	_	_	_	_	_	gloss=want
+13	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+14	”	”	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+15	Di	the	DET	_	_	_	_	_	gloss=the
+16	laydi	laydi	NOUN	_	_	_	_	_	gloss=lady
+17	tel	tel	VERB	_	_	_	_	_	gloss=tell
+18	ahn	ahn	CCONJ	_	_	29	cc	_	gloss=and|ConjType=Cmp
+19	seh	seh	VERB	_	_	_	_	_	gloss=say
+20	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+21	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+22	Ai	ai	PRON	_	_	_	_	_	gloss=I
+23	waahn	waahn	VERB	_	_	_	_	_	gloss=want
+24	yoo	you	PRON	_	_	_	_	_	gloss=you
+25	pramis	pramis	VERB	_	_	_	_	_	gloss=promise
+26	mi	me	PRON	_	_	_	_	_	gloss=me
+27	fi	to	PART	_	_	_	_	_	gloss=to
+28	mek	mek	VERB	_	_	_	_	_	gloss=make
+29	wan	wan	NUM	_	_	_	npadvmod	_	gloss=one|NumType=Card
+30	a	a	ADP	_	_	_	prep	_	gloss=of
+31	mi	my	DET	_	_	_	_	_	gloss=my
+32	son	son	NOUN	_	_	_	_	_	gloss=son
+33	sidong	sit.down	VERB	_	_	_	_	_	gloss=sit down
+34	pahn	pahn	ADP	_	_	_	_	_	gloss=on
+35	yu	you	PRON	_	_	43	poss	_	gloss=your|Person=2|Poss=Yes|PronType=Prs
+36	rait	right	NOUN	_	_	_	pobj	_	gloss=right|Number=Sing
+37	han	han	NOUN	_	_	_	_	_	gloss=hand
+38	said	said	NOUN	_	_	_	_	_	gloss=side
+39	ahn	ahn	CCONJ	_	_	40	cc	_	gloss=and|ConjType=Cmp
+40	wan	wan	NUM	_	_	_	npadvmod	_	gloss=one|NumType=Card
+41	pahn	pahn	ADP	_	_	_	_	_	gloss=on
+42	yu	you	PRON	_	_	43	poss	_	gloss=your|Person=2|Poss=Yes|PronType=Prs
+43	lef	lef	NOUN	_	_	_	pobj	_	gloss=left|Number=Sing
+44	wen	wen	SCONJ	_	_	_	_	_	gloss=when
+45	yu	you	PRON	_	_	43	poss	_	gloss=your|Person=2|Poss=Yes|PronType=Prs
+46	ton	become	VERB	_	_	_	_	_	gloss=become
+47	king	king	NOUN	_	_	_	_	_	gloss=king
+48	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+49	”	”	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 40026002
+# ref_id = Matthew 26:2
+# eng_text = " You know that after two days the Passover is coming , and the Son of Man will be delivered up to be crucified . "
+# bzj_text = “ Unu noa dat di Paasoava selibrayshan wahn staat eena too dayz , ahn dehn wahn han oava di Son a Man fi mek dehn kroosifai ahn . ”
+1	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+2	Unu	unu	PRON	_	_	_	_	_	gloss=you
+3	noa	noa	VERB	_	_	_	advcl	_	gloss=know|Tense=Pres|VerbForm=Fin
+4	dat	dat	SCONJ	_	_	_	_	_	gloss=that
+5	di	the	DET	_	_	20	det	_	gloss=the|Definite=Def|PronType=Art
+6	Paasoava	paasoava	PROPN	_	_	_	nsubj	_	gloss=Passover|Number=Sing
+7	selibrayshan	selibrayshan	NOUN	_	_	_	_	_	gloss=celebration
+8	wahn	wahn	AUX	_	_	_	_	_	gloss=will
+9	staat	staat	VERB	_	_	_	_	_	gloss=start
+10	eena	eena	ADP	_	_	_	_	_	gloss=in
+11	too	too	NUM	_	_	12	nummod	_	gloss=two|NumType=Card
+12	dayz	dayz	NOUN	_	_	_	pobj	_	gloss=days|Number=Plur
+13	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+14	ahn	ahn	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+15	dehn	3PL	PRON	_	_	_	_	_	gloss=they
+16	wahn	wahn	AUX	_	_	_	_	_	gloss=will
+17	han	han	VERB	_	_	_	_	_	gloss=hand
+18	oava	oava	ADP	_	_	_	prt	_	gloss=over
+19	di	the	DET	_	_	20	det	_	gloss=the|Definite=Def|PronType=Art
+20	Son	son	PROPN	_	_	_	nsubjpass	_	gloss=Son|Number=Sing
+21	a	a	ADP	_	_	20	prep	_	gloss=of
+22	Man	man	PROPN	_	_	21	pobj	_	gloss=Man|Number=Sing
+23	fi	to	PART	_	_	_	_	_	gloss=to
+24	mek	mek	VERB	_	_	_	_	_	gloss=make
+25	dehn	3PL	PRON	_	_	_	_	_	gloss=him
+26	kroosifai	kroosifai	VERB	_	_	_	advcl	_	gloss=crucified|Aspect=Perf|Tense=Past|VerbForm=Part
+27	ahn	ahn	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+28	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+29	”	”	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 40026061
+# ref_id = Matthew 26:61
+# eng_text = and said , " This man said , ' I am able to destroy the temple of God , and to build it in three days . ' "
+# bzj_text = ahn seh , “ Dis man seh , ‘ Ai ku brok dong Gaad templ ahn bil it bak eena chree dayz . ’ ”
+1	ahn	ahn	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+2	seh	seh	VERB	_	_	_	_	_	gloss=say
+3	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+4	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+5	Dis	this	DET	_	_	6	det	_	gloss=This|Number=Sing|PronType=Dem
+6	man	man	NOUN	_	_	_	nsubj	_	gloss=man|Number=Sing
+7	seh	seh	VERB	_	_	_	_	_	gloss=say
+8	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+9	‘	‘	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+10	Ai	ai	PRON	_	_	_	_	_	gloss=I
+11	ku	ku	AUX	_	_	_	_	_	gloss=can
+12	brok	brok	VERB	_	_	_	_	_	gloss=break
+13	dong	dong	ADV	_	_	_	_	_	gloss=down
+14	Gaad	gaad	PROPN	_	_	_	pobj	_	gloss=God|Number=Sing
+15	templ	templ	PROPN	_	_	_	dobj	_	gloss=Temple|Number=Sing
+16	ahn	ahn	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+17	bil	bil	VERB	_	_	_	_	_	gloss=build
+18	it	it	PRON	_	_	_	_	_	gloss=it
+19	bak	bak	ADV	_	_	_	_	_	gloss=back
+20	eena	eena	ADP	_	_	_	_	_	gloss=in
+21	chree	chree	NUM	_	_	22	nummod	_	gloss=three|NumType=Card
+22	dayz	dayz	NOUN	_	_	_	pobj	_	gloss=days|Number=Plur
+23	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+24	’	’	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+25	”	”	PUNCT	_	_	0	root	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 40028016
+# ref_id = Matthew 28:16
+# eng_text = But the eleven disciples went into Galilee , to the mountain where Jesus had sent them .
+# bzj_text = Den di ilebm disaipl dehn gaahn da Gyalilee da di mongtin weh Jeezas mi tel dehn fi goh .
+1	Den	den	ADV	_	_	_	advmod	_	gloss=Then|PronType=Dem
+2	di	the	DET	_	_	11	det	_	gloss=the|Definite=Def|PronType=Art
+3	ilebm	eleven	NUM	_	_	_	_	_
+4	disaipl	disaipl	NOUN	_	_	_	nsubj	_	gloss=disciples|Number=Plur
+5	dehn	PL	PART	_	_	_	dobj	_	gloss=PL
+6	gaahn	gaahn	VERB	_	_	_	_	_	gloss=went
+7	da	at	ADP	_	_	_	_	_	gloss=to
+8	Gyalilee	gyalilee	PROPN	_	_	17	pobj	_	gloss=Galilee|Number=Sing
+9	da	at	ADP	_	_	_	_	_	gloss=to
+10	di	the	DET	_	_	11	det	_	gloss=the|Definite=Def|PronType=Art
+11	mongtin	mongtin	NOUN	_	_	_	pobj	_	gloss=mountain|Number=Sing
+12	weh	where	ADV	_	_	_	_	_	gloss=where
+13	Jeezas	Jesus	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+14	mi	PST	AUX	_	_	_	aux	_	gloss=had|Tense=Past|VerbForm=Fin
+15	tel	tel	VERB	_	_	_	_	_	gloss=tell
+16	dehn	3PL	PRON	_	_	_	dobj	_	gloss=them|Case=Acc|Number=Plur|Person=3|PronType=Prs
+17	fi	to	PART	_	_	_	prep	_	gloss=to
+18	goh	goh	VERB	_	_	_	xcomp	_	gloss=go|VerbForm=Inf
+19	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41002023
+# ref_id = Mark 2:23
+# eng_text = It happened , that he was going on the Sabbath day through the grain fields , and his disciples began , as they went , to pluck the ears of grain .
+# bzj_text = Wahn day wen da mi di Sabat , Jeezas ahn ih disaipl dehn mi-di paas chroo sohn weet feel . Ih disaipl dehn pap aaf di tap a som a di weet az dehn mi-di goh lang .
+1	Wahn	wahn	DET	_	_	_	_	_	gloss=a
+2	day	day	NOUN	_	_	_	npadvmod	_	gloss=day|Number=Sing
+3	wen	wen	SCONJ	_	_	_	_	_	gloss=when
+4	da	be	VERB	_	_	_	_	_	gloss=was
+5	mi	PST	AUX	_	_	_	_	_	gloss=PAST
+6	di	the	DET	_	_	_	_	_	gloss=the
+7	Sabat	sabat	PROPN	_	_	2	compound	_	gloss=Sabbath|Number=Sing
+8	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+9	Jeezas	Jesus	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+10	ahn	ahn	CCONJ	_	_	_	_	_	gloss=and
+11	ih	3SG	PRON	_	_	12	poss	_	gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+12	disaipl	disaipl	NOUN	_	_	_	nsubj	_	gloss=disciples|Number=Plur
+13	dehn	PL	PART	_	_	_	_	_	gloss=PL
+14	mi-di	mi-di	AUX	_	_	_	_	_	gloss=PST.PROG
+15	paas	pass	VERB	_	_	_	_	_	gloss=pass
+16	chroo	through	ADP	_	_	_	_	_	gloss=through
+17	sohn	some	DET	_	_	_	_	_	gloss=some
+18	weet	wheat	NOUN	_	_	_	_	_	gloss=wheat
+19	feel	field	NOUN	_	_	_	_	_	gloss=field
+20	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+21	Ih	ih	PRON	_	_	_	_	_	gloss=he
+22	disaipl	disaipl	NOUN	_	_	_	nsubj	_	gloss=disciples|Number=Plur
+23	dehn	PL	PART	_	_	_	_	_	gloss=PL
+24	pap	pluck	VERB	_	_	_	_	_	gloss=pluck
+25	aaf	aaf	ADP	_	_	_	prt	_	gloss=off
+26	di	the	DET	_	_	_	_	_	gloss=the
+27	tap	top	NOUN	_	_	_	_	_	gloss=top
+28	a	a	ADP	_	_	_	prep	_	gloss=of
+29	som	som	DET	_	_	_	det	_	gloss=some
+30	a	a	ADP	_	_	_	prep	_	gloss=of
+31	di	the	DET	_	_	_	_	_	gloss=the
+32	weet	wheat	NOUN	_	_	_	_	_	gloss=wheat
+33	az	as	SCONJ	_	_	_	_	_	gloss=as
+34	dehn	3PL	PRON	_	_	_	_	_	gloss=they
+35	mi-di	mi-di	AUX	_	_	_	_	_	gloss=PST.PROG
+36	goh	goh	VERB	_	_	_	_	_	gloss=go
+37	lang	along	ADV	_	_	_	_	_	gloss=along
+38	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41012032
+# ref_id = Mark 12:32
+# eng_text = The scribe said to him , " Truly , teacher , you have said well that he is one , and there is none other but he ,
+# bzj_text = Di teecha a di Laa seh , “ Sa , yu soh rait wen yu seh dat oanli wan Gaad deh ahn oanli hihn wan da Gaad .
+1	Di	the	DET	_	_	_	_	_	gloss=the
+2	teecha	teecha	NOUN	_	_	_	_	_	gloss=teacher
+3	a	a	ADP	_	_	_	prep	_	gloss=of
+4	di	the	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+5	Laa	laa	NOUN	_	_	_	_	_	gloss=law
+6	seh	seh	VERB	_	_	_	_	_	gloss=say
+7	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+8	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+9	Sa	sir	INTJ	_	_	_	_	_	gloss=sir
+10	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+11	yu	you	PRON	_	_	_	_	_	gloss=you
+12	soh	so	ADV	_	_	_	_	_	gloss=so
+13	rait	right	ADV	_	_	_	_	_	gloss=right
+14	wen	wen	SCONJ	_	_	_	_	_	gloss=when
+15	yu	you	PRON	_	_	_	_	_	gloss=you
+16	seh	seh	VERB	_	_	_	_	_	gloss=say
+17	dat	dat	SCONJ	_	_	_	mark	_	gloss=that
+18	oanli	only	ADV	_	_	_	_	_	gloss=only
+19	wan	wan	NUM	_	_	20	nummod	_	gloss=one|NumType=Card
+20	Gaad	gaad	PROPN	_	_	_	attr	_	gloss=God|Number=Sing
+21	deh	deh	VERB	_	_	_	expl	_	gloss=is
+22	ahn	ahn	CCONJ	_	_	20	cc	_	gloss=and|ConjType=Cmp
+23	oanli	only	ADV	_	_	_	_	_	gloss=only
+24	hihn	hihn	PRON	_	_	_	_	_	gloss=he
+25	wan	wan	NUM	_	_	27	nummod	_	gloss=one|NumType=Card
+26	da	be	VERB	_	_	_	_	_	gloss=is
+27	Gaad	gaad	PROPN	_	_	_	attr	_	gloss=God|Number=Sing
+28	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 41014037
+# ref_id = Mark 14:37
+# eng_text = He came and found them sleeping , and said to Peter , " Simon , are you sleeping ? Couldn't you watch one hour ?
+# bzj_text = Den Jeezas gaahn bak da weh di disaipl dehn mi deh , ahn ih fain dehn di sleep . Ih seh , “ Saiman ! Yu di sleep , man ? Yu kudn stay op wid mi fi jos wan owa ?
+1	Den	den	ADV	_	_	_	advmod	_	gloss=Then|PronType=Dem
+2	Jeezas	Jesus	PROPN	_	_	_	_	_	gloss=Jesus
+3	gaahn	gaahn	VERB	_	_	_	_	_	gloss=went
+4	bak	bak	ADV	_	_	_	_	_	gloss=back
+5	da	at	ADP	_	_	_	_	_	gloss=to
+6	weh	where	ADV	_	_	_	_	_	gloss=where
+7	di	the	DET	_	_	8	det	_	gloss=the|Definite=Def|PronType=Art
+8	disaipl	disaipl	NOUN	_	_	18	nsubj	_	gloss=disciples|Number=Plur
+9	dehn	PL	PART	_	_	_	_	_	gloss=PL
+10	mi	PST	AUX	_	_	_	_	_	gloss=PAST
+11	deh	deh	VERB	_	_	_	_	_	gloss=were
+12	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+13	ahn	ahn	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+14	ih	3SG	PRON	_	_	_	_	_	gloss=he
+15	fain	fain	VERB	_	_	_	_	_	gloss=find
+16	dehn	3PL	PRON	_	_	_	_	_	gloss=them
+17	di	the	DET	_	_	8	det	_	gloss=the|Definite=Def|PronType=Art
+18	sleep	sleep	ADJ	_	_	_	acomp	_	gloss=asleep|Degree=Pos
+19	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+20	Ih	ih	PRON	_	_	_	_	_	gloss=he
+21	seh	seh	VERB	_	_	_	_	_	gloss=say
+22	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+23	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+24	Saiman	saiman	PROPN	_	_	_	npadvmod	_	gloss=Simon|Number=Sing
+25	!	!	PUNCT	_	_	_	_	_
+26	Yu	yu	PRON	_	_	_	_	_	gloss=you
+27	di	the	DET	_	_	8	det	_	gloss=the|Definite=Def|PronType=Art
+28	sleep	sleep	ADJ	_	_	_	acomp	_	gloss=asleep|Degree=Pos
+29	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+30	man	man	INTJ	_	_	_	_	_	gloss=man
+31	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+32	Yu	yu	PRON	_	_	_	_	_	gloss=you
+33	kudn	kudn	AUX	_	_	_	_	_	gloss=couldn't
+34	stay	stay	VERB	_	_	_	_	_	gloss=stay
+35	op	up	ADV	_	_	_	_	_	gloss=up
+36	wid	wid	ADP	_	_	_	_	_	gloss=with
+37	mi	me	PRON	_	_	_	_	_	gloss=me
+38	fi	for	ADP	_	_	_	_	_	gloss=for
+39	jos	jos	ADV	_	_	_	_	_	gloss=just
+40	wan	wan	NUM	_	_	41	nummod	_	gloss=one|NumType=Card
+41	owa	owa	NOUN	_	_	_	npadvmod	_	gloss=hour|Number=Sing
+42	?	?	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 42004002
+# ref_id = Luke 4:2
+# eng_text = for forty days , being tempted by the devil . He ate nothing in those days . Afterward , when they were completed , he was hungry .
+# bzj_text =
+
+# sent_id = 42016013
+# ref_id = Luke 16:13
+# eng_text = No servant can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You aren't able to serve God and mammon . "
+# bzj_text = “ No servant kyaahn serv too maasta . Eeda yu wahn hayt wan ahn lov di neks , er yu wahn rispek wan ahn kyaahn stan di neks wan . Rait soh , unu kyaahn serv Gaad ahn moni sayhn taim . ”
+1	“	“	PUNCT	_	_	5	punct	_	PunctSide=Ini|PunctType=Quot
+2	No	no	DET	_	_	13	det	_	gloss=No
+3	servant	servant	NOUN	_	_	_	_	_	gloss=servant
+4	kyaahn	kyaahn	VERB	_	_	_	_	_	gloss=cannot
+5	serv	serv	VERB	_	_	0	root	_	gloss=serve|VerbForm=Inf
+6	too	too	NUM	_	_	7	nummod	_	gloss=two|NumType=Card
+7	maasta	maasta	NOUN	_	_	5	dobj	_	gloss=masters|Number=Plur
+8	.	.	PUNCT	_	_	5	punct	_	PunctType=Peri
+9	Eeda	eeda	VERB	_	_	_	acomp	_	gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+10	yu	you	PRON	_	_	_	_	_	gloss=you
+11	wahn	wahn	AUX	_	_	_	_	_	gloss=will
+12	hayt	hayt	VERB	_	_	_	_	_	gloss=hate
+13	wan	wan	NUM	_	_	_	pobj	_	gloss=one|NumType=Card
+14	ahn	ahn	CCONJ	_	_	37	cc	_	gloss=and|ConjType=Cmp
+15	lov	lov	VERB	_	_	_	conj	_	gloss=love|VerbForm=Inf
+16	di	the	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+17	neks	neks	ADJ	_	_	_	_	_	gloss=other
+18	,	,	PUNCT	_	_	_	_	_
+19	er	er	CCONJ	_	_	_	_	_	gloss=or
+20	yu	you	PRON	_	_	_	_	_	gloss=you
+21	wahn	wahn	AUX	_	_	_	_	_	gloss=will
+22	rispek	rispek	VERB	_	_	_	_	_	gloss=respect
+23	wan	wan	NUM	_	_	_	pobj	_	gloss=one|NumType=Card
+24	ahn	ahn	CCONJ	_	_	37	cc	_	gloss=and|ConjType=Cmp
+25	kyaahn	kyaahn	VERB	_	_	_	_	_	gloss=cannot
+26	stan	stan	VERB	_	_	_	_	_	gloss=stand
+27	di	the	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+28	neks	neks	ADJ	_	_	_	_	_	gloss=other
+29	wan	wan	NUM	_	_	_	pobj	_	gloss=one|NumType=Card
+30	.	.	PUNCT	_	_	36	punct	_	PunctType=Peri
+31	Rait	right	ADV	_	_	_	_	_	gloss=right
+32	soh	so	ADV	_	_	_	_	_	gloss=so
+33	,	,	PUNCT	_	_	_	_	_
+34	unu	unu	PRON	_	_	_	nsubj	_	gloss=you|Case=Nom|Person=2|PronType=Prs
+35	kyaahn	kyaahn	VERB	_	_	_	_	_	gloss=cannot
+36	serv	serv	VERB	_	_	0	root	_	gloss=serve|VerbForm=Inf
+37	Gaad	gaad	PROPN	_	_	36	dobj	_	gloss=God|Number=Sing
+38	ahn	ahn	CCONJ	_	_	37	cc	_	gloss=and|ConjType=Cmp
+39	moni	moni	NOUN	_	_	37	conj	_	gloss=money|Number=Sing
+40	sayhn	sayhn	ADJ	_	_	_	_	_	gloss=same
+41	taim	taim	NOUN	_	_	_	_	_	gloss=time
+42	.	.	PUNCT	_	_	36	punct	_	PunctType=Peri
+43	”	”	PUNCT	_	_	36	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 42024018
+# ref_id = Luke 24:18
+# eng_text = One of them , named Cleopas , answered him , " Are you the only one travelling in Jerusalem who doesn't know the things which have happened there in these days ? "
+# bzj_text = Den wan a dehn weh mi nayhn Kliyopas ansa ahn seh , “ Yoo da mosi di oanli persn fahn Jeroosalem weh noh noa weh aal mi hapm dehsoh dehn paas fyoo dayz . ”
+1	Den	den	ADV	_	_	_	advmod	_	gloss=Then|PronType=Dem
+2	wan	wan	NUM	_	_	_	nsubj	_	gloss=one|NumType=Card
+3	a	a	ADP	_	_	2	prep	_	gloss=of
+4	dehn	3PL	PRON	_	_	3	pobj	_	gloss=them|Case=Acc|Number=Plur|Person=3|PronType=Prs
+5	weh	WH/REL	PRON	_	_	_	_	_	gloss=who
+6	mi	my	DET	_	_	_	_	_	gloss=my
+7	nayhn	nayhn	NUM	_	_	_	_	_	gloss=nine
+8	Kliyopas	kliyopas	unk	_	_	_	_	_
+9	ansa	ansa	VERB	_	_	_	_	_	gloss=answer
+10	ahn	ahn	CCONJ	_	_	_	_	_	gloss=and
+11	seh	seh	VERB	_	_	_	_	_	gloss=say
+12	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+13	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+14	Yoo	yoo	PRON	_	_	_	_	_	gloss=you
+15	da	be	VERB	_	_	_	_	_	gloss=are
+16	mosi	mostly	ADV	_	_	_	_	_	gloss=mostly
+17	di	the	DET	_	_	33	det	_	gloss=the|Definite=Def|PronType=Art
+18	oanli	only	ADV	_	_	_	_	_	gloss=only
+19	persn	persn	NOUN	_	_	_	attr	_	gloss=person|Number=Sing
+20	fahn	fahn	ADP	_	_	_	_	_	gloss=from
+21	Jeroosalem	jeroosalem	PROPN	_	_	_	pobj	_	gloss=Jerusalem|Number=Sing
+22	weh	WH/REL	PRON	_	_	_	_	_	gloss=who
+23	noh	noh	PART	_	_	_	_	_	gloss=not
+24	noa	noa	VERB	_	_	_	_	_	gloss=know
+25	weh	WH/REL	PRON	_	_	_	_	_	gloss=what
+26	aal	all	DET	_	_	_	_	_	gloss=all
+27	mi	PST	AUX	_	_	_	_	_	gloss=PAST
+28	hapm	hapm	unk	_	_	_	_	_	gloss=happen
+29	dehsoh	here	ADV	_	_	_	_	_	gloss=here
+30	dehn	their	DET	_	_	3	pobj	_	gloss=these
+31	paas	past	ADP	_	_	_	_	_	gloss=past
+32	fyoo	fyoo	ADJ	_	_	33	amod	_	gloss=few|Degree=Pos
+33	dayz	dayz	NOUN	_	_	_	npadvmod	_	gloss=days|Number=Plur
+34	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+35	”	”	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 43001039
+# ref_id = John 1:39
+# eng_text = He said to them , " Come , and see . " They came and saw where he was staying , and they stayed with him that day . It was about the tenth hour .
+# bzj_text = Jeezas tel dehn seh , “ Kohn si noh ? ” Soh dehn gaahn gaahn si weh ih mi-di stay . Da mi bowt foar aklak da aftanoon wen dehn gaan , ahn dehn stay wid ahn fi di res a di day .
+1	Jeezas	Jesus	PROPN	_	_	_	_	_	gloss=Jesus
+2	tel	tel	VERB	_	_	_	_	_	gloss=tell
+3	dehn	3PL	PRON	_	_	_	_	_	gloss=them
+4	seh	seh	VERB	_	_	_	_	_	gloss=say
+5	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+6	“	“	PUNCT	_	_	7	punct	_	PunctSide=Ini|PunctType=Quot
+7	Kohn	kohn	VERB	_	_	_	ccomp	_	gloss=Come|VerbForm=Inf
+8	si	si	VERB	_	_	_	_	_	gloss=see
+9	noh	noh	INTJ	_	_	_	_	_	gloss=isn’t that so
+10	?	?	PUNCT	_	_	_	_	_
+11	”	”	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot
+12	Soh	soh	ADV	_	_	_	_	_	gloss=so
+13	dehn	3PL	PRON	_	_	_	_	_	gloss=they
+14	gaahn	gaahn	VERB	_	_	_	_	_	gloss=went
+15	gaahn	gaahn	VERB	_	_	_	_	_	gloss=went
+16	si	si	VERB	_	_	_	_	_	gloss=see
+17	weh	where	ADV	_	_	_	_	_	gloss=where
+18	ih	3SG	PRON	_	_	_	_	_	gloss=he
+19	mi-di	mi-di	AUX	_	_	_	_	_	gloss=PST.PROG
+20	stay	stay	VERB	_	_	_	_	_	gloss=stay
+21	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+22	Da	da	ADP	_	_	_	_	_	gloss=at
+23	mi	PST	AUX	_	_	_	_	_	gloss=PAST
+24	bowt	bowt	ADV	_	_	_	advmod	_	gloss=about
+25	foar	four	NUM	_	_	_	_	_
+26	aklak	aklak	NOUN	_	_	_	attr	_	gloss=o’clock|Number=Sing
+27	da	at	ADP	_	_	_	_	_	gloss=at
+28	aftanoon	aftanoon	NOUN	_	_	_	pobj	_	gloss=afternoon|Number=Sing
+29	wen	wen	SCONJ	_	_	31	advmod	_	gloss=when
+30	dehn	3PL	PRON	_	_	_	_	_	gloss=they
+31	gaan	gaan	VERB	_	_	_	advcl	_	gloss=went|Tense=Past|VerbForm=Fin
+32	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+33	ahn	ahn	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+34	dehn	3PL	PRON	_	_	_	_	_	gloss=they
+35	stay	stay	VERB	_	_	_	_	_	gloss=stay
+36	wid	wid	ADP	_	_	_	_	_	gloss=with
+37	ahn	ahn	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+38	fi	for	ADP	_	_	_	_	_	gloss=for
+39	di	the	DET	_	_	43	det	_	gloss=the|Definite=Def|PronType=Art
+40	res	res	NOUN	_	_	_	dobj	_	gloss=rest|Number=Sing
+41	a	a	ADP	_	_	40	prep	_	gloss=of
+42	di	the	DET	_	_	43	det	_	gloss=the|Definite=Def|PronType=Art
+43	day	day	NOUN	_	_	41	pobj	_	gloss=day|Number=Sing
+44	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 43003016
+# ref_id = John 3:16
+# eng_text = For God so loved the world , that he gave his one and only Son , that whoever believes in him should not perish , but have eternal life .
+# bzj_text = “ Yu si , Gaad lov di peepl dehn eena dis werl soh moch dat ih giv op ih wan ahn oanli Son fi dehn , soh dat enibadi weh put dehn fayt eena ahn wahn neva ded ; insteda dat , dehn wahn liv wid Gaad fareva .
+1	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+2	Yu	yu	PRON	_	_	_	_	_	gloss=you
+3	si	si	VERB	_	_	_	_	_	gloss=see
+4	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+5	Gaad	gaad	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+6	lov	lov	VERB	_	_	_	_	_	gloss=love
+7	di	the	DET	_	_	12	det	_	gloss=the|Definite=Def|PronType=Art
+8	peepl	peepl	NOUN	_	_	_	_	_	gloss=people
+9	dehn	PL	PART	_	_	_	_	_	gloss=PL
+10	eena	eena	ADP	_	_	_	_	_	gloss=in
+11	dis	dis	DET	_	_	_	_	_	gloss=this
+12	werl	werl	NOUN	_	_	_	dobj	_	gloss=world|Number=Sing
+13	soh	so	SCONJ	_	_	_	mark	_	gloss=so
+14	moch	moch	ADV	_	_	_	_	_	gloss=much
+15	dat	dat	SCONJ	_	_	_	mark	_	gloss=that
+16	ih	3SG	PRON	_	_	20	poss	_	gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+17	giv	giv	VERB	_	_	_	_	_	gloss=give
+18	op	up	ADV	_	_	_	_	_	gloss=up
+19	ih	3SG	PRON	_	_	20	poss	_	gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+20	wan	wan	NUM	_	_	_	dobj	_	gloss=one|NumType=Card
+21	ahn	ahn	CCONJ	_	_	20	cc	_	gloss=and|ConjType=Cmp
+22	oanli	only	ADV	_	_	_	_	_	gloss=only
+23	Son	son	PROPN	_	_	20	appos	_	gloss=Son|Number=Sing
+24	fi	for	ADP	_	_	_	_	_	gloss=for
+25	dehn	3PL	PRON	_	_	_	_	_	gloss=them
+26	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+27	soh	so	SCONJ	_	_	_	mark	_	gloss=so
+28	dat	dat	SCONJ	_	_	_	mark	_	gloss=that
+29	enibadi	enibadi	PRON	_	_	_	_	_	gloss=anybody
+30	weh	WH/REL	PRON	_	_	_	_	_	gloss=who
+31	put	put	VERB	_	_	_	_	_	gloss=put
+32	dehn	their	DET	_	_	_	_	_	gloss=their
+33	fayt	fayt	VERB	_	_	_	_	_	gloss=fight
+34	eena	eena	ADP	_	_	_	_	_	gloss=in
+35	ahn	ahn	CCONJ	_	_	20	cc	_	gloss=and|ConjType=Cmp
+36	wahn	wahn	AUX	_	_	_	_	_	gloss=will
+37	neva	never	ADV	_	_	_	_	_	gloss=never
+38	ded	ded	VERB	_	_	_	_	_	gloss=die
+39	;	;	PUNCT	_	_	_	_	_	gloss=knocks
+40	insteda	insteda	ADV	_	_	_	_	_	gloss=instead
+41	dat	dat	SCONJ	_	_	_	mark	_	gloss=that
+42	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+43	dehn	3PL	PRON	_	_	_	_	_	gloss=they
+44	wahn	wahn	AUX	_	_	_	_	_	gloss=will
+45	liv	liv	VERB	_	_	_	_	_	gloss=live
+46	wid	wid	ADP	_	_	_	_	_	gloss=with
+47	Gaad	gaad	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+48	fareva	fareva	ADV	_	_	_	_	_	gloss=forever
+49	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 44002030
+# ref_id = Acts 2:30
+# eng_text = Therefore , being a prophet , and knowing that God had sworn with an oath to him that of the fruit of his body , according to the flesh , he would raise up the Christ to sit on his throne ,
+# bzj_text = Dayvid da-mi wahn prafit , ahn hihn mi noa weh Gaad mi pramis ahn : Gaad mi mek wahn vow dat ih mi wahn mek wan a fi hihn disendant dehn bee wahn king , jos laik hihn .
+1	Dayvid	dayvid	PROPN	_	_	_	poss	_	gloss=David|Number=Sing
+2	da-mi	to.me	ADP	_	_	_	_	_	gloss=to.me
+3	wahn	wahn	DET	_	_	4	det	_	gloss=a|Definite=Ind|PronType=Art
+4	prafit	prafit	NOUN	_	_	_	attr	_	gloss=prophet|Number=Sing
+5	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+6	ahn	ahn	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+7	hihn	hihn	PRON	_	_	_	_	_	gloss=he
+8	mi	PST	AUX	_	_	_	aux	_	gloss=had|Tense=Past|VerbForm=Fin
+9	noa	noa	VERB	_	_	_	_	_	gloss=know
+10	weh	WH/REL	PRON	_	_	_	_	_	gloss=what
+11	Gaad	gaad	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+12	mi	PST	AUX	_	_	_	aux	_	gloss=had|Tense=Past|VerbForm=Fin
+13	pramis	pramis	VERB	_	_	_	_	_	gloss=promise
+14	ahn	ahn	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+15	:	:	PUNCT	_	_	_	_	_	gloss=tong
+16	Gaad	gaad	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+17	mi	PST	AUX	_	_	_	aux	_	gloss=had|Tense=Past|VerbForm=Fin
+18	mek	mek	VERB	_	_	_	_	_	gloss=make
+19	wahn	wahn	DET	_	_	4	det	_	gloss=a|Definite=Ind|PronType=Art
+20	vow	vow	NOUN	_	_	_	pobj	_	gloss=oath|Number=Sing
+21	dat	dat	SCONJ	_	_	_	mark	_	gloss=that
+22	ih	3SG	PRON	_	_	_	poss	_	gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+23	mi	PST	AUX	_	_	_	aux	_	gloss=had|Tense=Past|VerbForm=Fin
+24	wahn	wahn	DET	_	_	4	det	_	gloss=a|Definite=Ind|PronType=Art
+25	mek	mek	VERB	_	_	_	_	_	gloss=make
+26	wan	wan	NUM	_	_	_	nsubj	_	gloss=one|NumType=Card
+27	a	a	ADP	_	_	26	prep	_	gloss=of
+28	fi	for	ADP	_	_	_	_	_	gloss=of
+29	hihn	hihn	PRON	_	_	_	_	_	gloss=him
+30	disendant	disendant	NOUN	_	_	_	_	_	gloss=descendant
+31	dehn	PL	PART	_	_	_	_	_	gloss=PL
+32	bee	bee	VERB	_	_	_	_	_	gloss=be
+33	wahn	wahn	DET	_	_	4	det	_	gloss=a|Definite=Ind|PronType=Art
+34	king	king	NOUN	_	_	_	_	_	gloss=king
+35	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+36	jos	jos	ADV	_	_	_	_	_	gloss=just
+37	laik	laik	ADP	_	_	_	_	_	gloss=like
+38	hihn	hihn	PRON	_	_	_	_	_	gloss=him
+39	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 44009038
+# ref_id = Acts 9:38
+# eng_text = As Lydda was near Joppa , the disciples , hearing that Peter was there , sent two men to him , imploring him not to delay in coming to them .
+# bzj_text = Di tong a Lida neva deh faar fahn Japa , ahn wen di bileeva dehn yehr dat Peeta mi deh rait da Lida , dehn sen too man fi goh bayg ahn seh , “ Pleez hori mikays kohn wid wi da Japa . ”
+1	Di	the	DET	_	_	_	_	_	gloss=the
+2	tong	tong	NOUN	_	_	_	_	_	gloss=tongue
+3	a	a	DET	_	_	_	_	_	gloss=a
+4	Lida	Lida	PROPN	_	_	_	_	_	gloss=Lida
+5	neva	never	ADV	_	_	_	_	_	gloss=did not
+6	deh	deh	VERB	_	_	_	_	_	gloss=was
+7	faar	faar	ADV	_	_	_	_	_	gloss=far
+8	fahn	fahn	ADP	_	_	_	_	_	gloss=from
+9	Japa	Joppa	PROPN	_	_	_	_	_	gloss=Joppa
+10	,	,	PUNCT	_	_	26	punct	_	PunctType=Comm
+11	ahn	ahn	CCONJ	_	_	_	_	_	gloss=and
+12	wen	wen	SCONJ	_	_	_	_	_	gloss=when
+13	di	the	DET	_	_	14	det	_	gloss=the|Definite=Def|PronType=Art
+14	bileeva	bileeva	NOUN	_	_	_	nsubj	_	gloss=believers|Number=Plur
+15	dehn	PL	PART	_	_	_	_	_	gloss=PL
+16	yehr	yehr	NOUN	_	_	_	_	_	gloss=year
+17	dat	dat	SCONJ	_	_	_	mark	_	gloss=that
+18	Peeta	peeta	PROPN	_	_	_	nsubj	_	gloss=Peter|Number=Sing
+19	mi	PST	AUX	_	_	_	aux	_	gloss=had|Tense=Past|VerbForm=Fin
+20	deh	deh	VERB	_	_	_	_	_	gloss=was
+21	rait	right	ADV	_	_	_	_	_	gloss=right
+22	da	at	ADP	_	_	_	_	_	gloss=at
+23	Lida	Lida	PROPN	_	_	_	_	_	gloss=Lida
+24	,	,	PUNCT	_	_	26	punct	_	PunctType=Comm
+25	dehn	3PL	PRON	_	_	_	_	_	gloss=they
+26	sen	sen	VERB	_	_	0	root	_	gloss=sent|Tense=Past|VerbForm=Fin
+27	too	too	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+28	man	man	NOUN	_	_	_	_	_	gloss=man
+29	fi	to	PART	_	_	_	_	_	gloss=to
+30	goh	goh	VERB	_	_	_	_	_	gloss=go
+31	bayg	bayg	VERB	_	_	_	_	_	gloss=beg
+32	ahn	ahn	CCONJ	_	_	_	_	_	gloss=and
+33	seh	seh	VERB	_	_	_	_	_	gloss=say
+34	,	,	PUNCT	_	_	26	punct	_	PunctType=Comm
+35	“	“	PUNCT	_	_	26	punct	_	PunctSide=Ini|PunctType=Quot
+36	Pleez	pleez	INTJ	_	_	39	intj	_	gloss=Please
+37	hori	hori	VERB	_	_	_	_	_	gloss=hurry
+38	mikays	quickly	ADV	_	_	_	_	_	gloss=quickly
+39	kohn	kohn	VERB	_	_	26	xcomp	_	gloss=come|VerbForm=Inf
+40	wid	wid	ADP	_	_	_	_	_	gloss=with
+41	wi	we	PRON	_	_	_	_	_	gloss=us
+42	da	at	ADP	_	_	_	_	_	gloss=to
+43	Japa	Joppa	PROPN	_	_	_	_	_	gloss=Joppa
+44	.	.	PUNCT	_	_	_	_	_
+45	”	”	PUNCT	_	_	26	punct	_	PunctSide=Fin|PunctType=Quot
+
+# sent_id = 44011011
+# ref_id = Acts 11:11
+# eng_text = Behold , immediately three men stood before the house where I was , having been sent from Caesarea to me .
+# bzj_text = “ Sayhn taim chree man fahn Seezareeya kohn da di hows weh Ah mi deh .
+1	“	“	PUNCT	_	_	_	punct	_	PunctSide=Ini|PunctType=Quot
+2	Sayhn	sayhn	ADV	_	_	_	advmod	_	gloss=Just
+3	taim	taim	NOUN	_	_	_	_	_	gloss=time
+4	chree	chree	NUM	_	_	_	nummod	_	gloss=three|NumType=Card
+5	man	man	NOUN	_	_	_	_	_	gloss=man
+6	fahn	fahn	ADP	_	_	_	prep	_	gloss=from
+7	Seezareeya	seezareeya	PROPN	_	_	6	pobj	_	gloss=Caesarea|Number=Sing
+8	kohn	kohn	VERB	_	_	_	_	_	gloss=come
+9	da	at	ADP	_	_	_	_	_	gloss=to
+10	di	the	DET	_	_	11	det	_	gloss=the|Definite=Def|PronType=Art
+11	hows	hows	NOUN	_	_	_	pobj	_	gloss=house|Number=Sing
+12	weh	where	ADV	_	_	_	_	_	gloss=where
+13	Ah	ah	PRON	_	_	_	_	_	gloss=I
+14	mi	PST	AUX	_	_	_	aux	_	gloss=had|Tense=Past|VerbForm=Fin
+15	deh	deh	VERB	_	_	_	_	_	gloss=was
+16	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 44021034
+# ref_id = Acts 21:34
+# eng_text = Some shouted one thing , some another , among the crowd . When he couldn't find out the truth because of the noise , he commanded him to be brought into the barracks .
+# bzj_text = Sohn hala wan ting ahn sohn hala sohnting els . Di komanda kudn mek no sens owta weh dehn mi-di seh , soh ih aada ih soalja dehn fi kehr Paal da di baraks .
+1	Sohn	sohn	NOUN	_	_	_	_	_	gloss=son
+2	hala	hala	VERB	_	_	_	_	_	gloss=shout
+3	wan	wan	NUM	_	_	_	nummod	_	gloss=one|NumType=Card
+4	ting	ting	NOUN	_	_	_	_	_	gloss=thing
+5	ahn	ahn	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+6	sohn	some	DET	_	_	_	_	_	gloss=some
+7	hala	hala	VERB	_	_	_	_	_	gloss=shout
+8	sohnting	sohnting	NOUN	_	_	_	_	_	gloss=something
+9	els	els	ADV	_	_	_	_	_	gloss=else
+10	.	.	PUNCT	_	_	25	punct	_	PunctType=Peri
+11	Di	the	DET	_	_	_	_	_	gloss=the
+12	komanda	komanda	NOUN	_	_	_	_	_	gloss=commander
+13	kudn	kudn	AUX	_	_	_	_	_	gloss=couldn't
+14	mek	mek	VERB	_	_	_	_	_	gloss=make
+15	no	no	DET	_	_	_	_	_	gloss=no
+16	sens	sens	NOUN	_	_	_	_	_	gloss=sense
+17	owta	owta	ADP	_	_	_	_	_	gloss=out of
+18	weh	WH/REL	PRON	_	_	_	_	_	gloss=what
+19	dehn	3PL	PRON	_	_	_	_	_	gloss=they
+20	mi-di	mi-di	AUX	_	_	_	_	_	gloss=PST.PROG
+21	seh	seh	VERB	_	_	_	_	_	gloss=say
+22	,	,	PUNCT	_	_	25	punct	_	PunctType=Comm
+23	soh	so	ADV	_	_	_	_	_	gloss=so
+24	ih	3SG	PRON	_	_	_	_	_	gloss=he
+25	aada	aada	VERB	_	_	0	root	_	gloss=ordered|Tense=Past|VerbForm=Fin
+26	ih	POSS.3SG	DET	_	_	_	_	_	gloss=his
+27	soalja	soalja	NOUN	_	_	_	_	_	gloss=soldier
+28	dehn	PL	PART	_	_	_	_	_	gloss=PL
+29	fi	to	PART	_	_	_	_	_	gloss=to
+30	kehr	kehr	VERB	_	_	_	_	_	gloss=take
+31	Paal	paal	PROPN	_	_	_	nsubjpass	_	gloss=Paul|Number=Sing
+32	da	at	ADP	_	_	_	_	_	gloss=to
+33	di	the	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+34	baraks	barracks	NOUN	_	_	_	_	_
+35	.	.	PUNCT	_	_	25	punct	_	PunctType=Peri
+
+# sent_id = 47012002
+# ref_id = 2 Corinthians 12:2
+# eng_text = I know a man in Christ , fourteen years ago ( whether in the body , I don't know , or whether out of the body , I don't know ; God knows ) , such a one caught up into the third heaven .
+# bzj_text = Ah mi noa wahn bileeva weh mi geh kehr op eena di haiyis hevn wehpaa Gaad liv , bowt foateen yaaz abak . Ah noh noa if di man mi eena ih badi , er if da oanli ih spirit weh gaan op—oanli Gaad noa .
+1	Ah	ah	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+2	mi	PST	AUX	_	_	_	_	_	gloss=PAST
+3	noa	noa	VERB	_	_	_	_	_	gloss=know
+4	wahn	wahn	DET	_	_	_	_	_	gloss=a
+5	bileeva	bileeva	VERB	_	_	_	_	_	gloss=believe
+6	weh	WH/REL	PRON	_	_	_	_	_	gloss=who
+7	mi	PST	AUX	_	_	_	_	_	gloss=PAST
+8	geh	geh	VERB	_	_	_	_	_	gloss=get
+9	kehr	kehr	VERB	_	_	_	_	_	gloss=take
+10	op	up	ADV	_	_	_	_	_	gloss=up
+11	eena	eena	ADP	_	_	_	_	_	gloss=in
+12	di	the	DET	_	_	14	det	_	gloss=the|Definite=Def|PronType=Art
+13	haiyis	highest	ADJ	_	_	_	_	_
+14	hevn	hevn	PROPN	_	_	_	pobj	_	gloss=heaven|Number=Sing
+15	wehpaa	where	ADV	_	_	_	_	_	gloss=where
+16	Gaad	gaad	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+17	liv	liv	VERB	_	_	_	_	_	gloss=live
+18	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+19	bowt	bowt	ADP	_	_	_	_	_	gloss=about
+20	foateen	foateen	NUM	_	_	21	nummod	_	gloss=fourteen|NumType=Card
+21	yaaz	yaaz	NOUN	_	_	_	npadvmod	_	gloss=years|Number=Plur
+22	abak	back	ADV	_	_	_	_	_
+23	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+24	Ah	ah	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+25	noh	noh	PART	_	_	_	_	_	gloss=not
+26	noa	noa	VERB	_	_	_	_	_	gloss=know
+27	if	if	SCONJ	_	_	_	_	_	gloss=if
+28	di	the	DET	_	_	14	det	_	gloss=the|Definite=Def|PronType=Art
+29	man	man	NOUN	_	_	_	_	_	gloss=man
+30	mi	be	VERB	_	_	_	_	_	gloss=be
+31	eena	eena	ADP	_	_	_	_	_	gloss=in
+32	ih	POSS.3SG	DET	_	_	_	_	_	gloss=his
+33	badi	badi	NOUN	_	_	_	pobj	_	gloss=body|Number=Sing
+34	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+35	er	er	CCONJ	_	_	_	cc	_	gloss=or|ConjType=Cmp
+36	if	if	SCONJ	_	_	_	_	_	gloss=if
+37	da	be	VERB	_	_	_	_	_	gloss=is
+38	oanli	only	ADV	_	_	_	_	_	gloss=only
+39	ih	POSS.3SG	DET	_	_	_	_	_	gloss=his
+40	spirit	spirit	NOUN	_	_	_	_	_	gloss=spirit
+41	weh	WH/REL	PRON	_	_	_	_	_	gloss=that
+42	gaan	gaan	VERB	_	_	_	_	_	gloss=went
+43	op—oanli	op—oanli	unk	_	_	_	_	_
+44	Gaad	gaad	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+45	noa	noa	VERB	_	_	_	_	_	gloss=know
+46	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 62004009
+# ref_id = 1 John 4:9
+# eng_text = By this was God's love revealed in us , that God has sent his only born Son into the world that we might live through him .
+# bzj_text = Dis da di way how Gaad mi shoa ih lov tu wi : ih sen ih oanli Son eena di werl soh dat chroo hihn , wee ku ga laif weh wahn neva en .
+1	Dis	this	PRON	_	_	_	_	_	gloss=this
+2	da	be	VERB	_	_	_	_	_	gloss=is
+3	di	the	DET	_	_	21	det	_	gloss=the|Definite=Def|PronType=Art
+4	way	way	NOUN	_	_	_	_	_	gloss=way
+5	how	how	SCONJ	_	_	_	advmod	_	gloss=how
+6	Gaad	gaad	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+7	mi	PST	AUX	_	_	_	_	_	gloss=PAST
+8	shoa	shoa	VERB	_	_	_	_	_	gloss=show
+9	ih	3SG	PRON	_	_	_	poss	_	gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+10	lov	lov	VERB	_	_	_	_	_	gloss=love
+11	tu	tu	ADP	_	_	_	_	_	gloss=to
+12	wi	we	PRON	_	_	_	dobj	_	gloss=us|Case=Acc|Number=Plur|Person=1|PronType=Prs
+13	:	:	PUNCT	_	_	_	_	_	gloss=tong
+14	ih	3SG	PRON	_	_	_	poss	_	gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+15	sen	sen	VERB	_	_	_	_	_	gloss=send
+16	ih	3SG	PRON	_	_	_	poss	_	gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+17	oanli	only	ADV	_	_	_	_	_	gloss=only
+18	Son	son	PROPN	_	_	_	conj	_	gloss=Son|Number=Sing
+19	eena	eena	ADP	_	_	_	_	_	gloss=into
+20	di	the	DET	_	_	21	det	_	gloss=the|Definite=Def|PronType=Art
+21	werl	werl	NOUN	_	_	_	pobj	_	gloss=world|Number=Sing
+22	soh	so	SCONJ	_	_	_	mark	_	gloss=so
+23	dat	dat	SCONJ	_	_	_	mark	_	gloss=that
+24	chroo	through	ADP	_	_	_	_	_	gloss=through
+25	hihn	hihn	PRON	_	_	_	_	_	gloss=him
+26	,	,	PUNCT	_	_	_	_	_
+27	wee	wee	PRON	_	_	_	_	_	gloss=we
+28	ku	ku	AUX	_	_	_	_	_	gloss=can
+29	ga	ga	VERB	_	_	_	_	_	gloss=have
+30	laif	laif	NOUN	_	_	_	dobj	_	gloss=life|Number=Sing
+31	weh	WH/REL	PRON	_	_	_	_	_	gloss=that
+32	wahn	wahn	AUX	_	_	_	_	_	gloss=will
+33	neva	never	ADV	_	_	_	_	_	gloss=never
+34	en	en	CCONJ	_	_	_	_	_	gloss=and
+35	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+
+# sent_id = 63001005
+# ref_id = 2 John 1:5
+# eng_text = Now I beg you , dear lady , not as though I wrote to you a new commandment , but that which we had from the beginning , that we love one another .
+# bzj_text = Now , dyaa laydi , Ah di bayg yu : Mek wi lov wan anada . Dis koman weh Ah di rait da noh no nyoo ting . Da weh wi mi noa fahn wen wi mi fos bileev .
+1	Now	now	ADV	_	_	_	_	_	gloss=now
+2	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+3	dyaa	dyaa	NOUN	_	_	_	npadvmod	_	gloss=friends|Number=Plur
+4	laydi	laydi	NOUN	_	_	_	_	_	gloss=lady
+5	,	,	PUNCT	_	_	_	punct	_	PunctType=Comm
+6	Ah	ah	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+7	di	the	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+8	bayg	bayg	VERB	_	_	_	_	_	gloss=beg
+9	yu	you	PRON	_	_	_	_	_	gloss=you
+10	:	:	PUNCT	_	_	_	_	_	gloss=tong
+11	Mek	mek	VERB	_	_	_	_	_	gloss=let
+12	wi	we	PRON	_	_	_	_	_	gloss=we
+13	lov	lov	VERB	_	_	_	ccomp	_	gloss=love|VerbForm=Inf
+14	wan	wan	NUM	_	_	_	conj	_	gloss=one|NumType=Card
+15	anada	anada	DET	_	_	_	_	_	gloss=another
+16	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+17	Dis	this	PRON	_	_	_	nsubj	_	gloss=This|Number=Sing|PronType=Dem
+18	koman	koman	VERB	_	_	_	_	_	gloss=command
+19	weh	WH/REL	PRON	_	_	_	_	_	gloss=that
+20	Ah	ah	PRON	_	_	_	nsubj	_	gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+21	di	the	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+22	rait	write	VERB	_	_	_	_	_	gloss=write
+23	da	be	AUX	_	_	_	aux	_	gloss=am|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin
+24	noh	noh	PART	_	_	_	neg	_	gloss=not|Polarity=Neg
+25	no	no	DET	_	_	_	_	_	gloss=no
+26	nyoo	nyoo	ADJ	_	_	_	amod	_	gloss=new|Degree=Pos
+27	ting	ting	NOUN	_	_	_	_	_	gloss=thing
+28	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+29	Da	da	VERB	_	_	_	_	_	gloss=is
+30	weh	WH/REL	PRON	_	_	_	_	_	gloss=what
+31	wi	we	PRON	_	_	_	_	_	gloss=we
+32	mi	PST	AUX	_	_	14	relcl	_	gloss=PAST
+33	noa	noa	VERB	_	_	_	_	_	gloss=know
+34	fahn	fahn	ADP	_	_	32	prep	_	gloss=from
+35	wen	wen	SCONJ	_	_	_	_	_	gloss=when
+36	wi	we	PRON	_	_	_	_	_	gloss=we
+37	mi	PST	AUX	_	_	14	relcl	_	gloss=PAST
+38	fos	first	ADV	_	_	_	_	_	gloss=first
+39	bileev	bileev	VERB	_	_	_	_	_	gloss=believe
+40	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri
+

@@ -1,0 +1,799 @@
+## The following text has been annotated for parts of speech by students at NTU Singapore as part of a class project in AY 2025-26.
+## Verses are extracted from the taggedPBC. Annotations have been developed with a combination of manual and automated approaches, with reference to existing literature and (where possible) native speakers.
+## ISO 639-3: hak, Language: Hakka Chinese, Number of verses: 21
+## References: Chappell, H. (2017). Languages of China in their East and Southeast Asian Context. In Cambridge University Press eBooks (pp. 651–676). https://doi.org/10.1017/9781107279872.025 ; Cortazzi, M., & Chen, W. (2026b). A Critical analysis on the revival of Hakka Diversity. Studies of Applied Linguistics in Asia, 1(1), 35–45. https://doi.org/10.53941/sala.2026.100004 ; Ministry of Education. (n.d.). Hakka Knowledge Base [Kè-yǔ Zhīshìkù]. Taiwan Hakka Dictionary [Táiwān Kè-yǔ Cídiǎn]. https://hakkadict.moe.edu.tw/
+
+# sent_id = 40006024
+# ref_id = Matthew 6:24
+# eng_text = ‘ No one can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You can't serve both God and Mammon .
+# hak_text = ‘ Mò ngìn nèn fu̍k-sṳ lióng-ke chú-ngìn . M̀-he nâu liá-ke , oi ke-ke , chhiu-he khon-chhung liá-ke , khon-khiâng ke-ke . Ngì-têu mò khó-nèn thùng-sṳ̀ cho Song-ti ke phu̍k-ngìn , yu cho kîm-chhièn ke nùng-chhòi .
+# hak_text_han = 無人能服侍兩個主人。不是恨這個，愛那個，就是看重這個，輕看那個。你們不能同時作上帝的僕人，又作金錢的奴才。
+# chi_text = 一個人不能事奉兩個主．不是惡這個愛那個，就是重這個輕那個．你們不能又事奉神，又事奉瑪門。〔瑪門是財利的意思〕
+1	‘	PUNCT	_	_	_	_	_		_
+2	Mò	mò	DET	_	_	_	det	_	gloss=no
+3	ngìn	ngìn	NOUN	_	_	_	_	_	gloss=man
+4	nèn	nèn	AUX	_	_	_	_	_	gloss=able
+5	fu̍k-sṳ	fu̍k-sṳ	VERB	_	_	0	root	_	gloss=serve
+6	lióng-ke	lióng-ke	NUM	_	_	_	_	_	gloss=two
+7	chú-ngìn	chú-ngìn	NOUN	_	_	_	_	_	gloss=master
+8	.	.	PUNCT	_	_	14	punct	_	_
+9	M̀-he	m̀-he	CCONJ	_	_	_	acomp	_	gloss=either
+10	nâu	nâu	VERB	_	_	_	_	_	gloss=hate
+11	liá-ke	liá-ke	PRON	_	_	_	_	_	gloss=this-one
+12	,	,	PUNCT	_	_	_	_	_	_
+13	oi	oi	VERB	_	_	_	_	_	gloss=love
+14	ke-ke	ke-ke	PRON	_	_	0	root	_	gloss=that-one
+15	,	,	PUNCT	_	_	_	_	_	_
+16	chhiu-he	chhiu-he	CCONJ	_	_	_	_	_	gloss=or-else
+17	khon-chhung	khon-chhung	VERB	_	_	_	acomp	_	gloss=value
+18	liá-ke	liá-ke	PRON	_	_	_	_	_	gloss=this-one
+19	,	,	PUNCT	_	_	_	_	_	_
+20	khon-khiâng	khon-khiâng	VERB	_	_	_	_	_	gloss=disregard
+21	ke-ke	ke-ke	PRON	_	_	0	root	_	gloss=that-one
+22	.	.	PUNCT	_	_	21	punct	_	_
+23	Ngì-têu	ngì-têu	PRON	_	Number=Plur|Person=2	_	_	_	gloss=you-all
+24	mò	mò	DET	_	_	_	_	_	gloss=no
+25	khó-nèn	khó-nèn	NOUN	_	_	_	_	_	gloss=possibility
+26	thùng-sṳ̀	thùng-sṳ̀	ADV	_	_	_	_	_	gloss=at-the-same-time
+27	cho	cho	AUX	_	_	_	_	_	gloss=be
+28	Song-ti	song-ti	PROPN	_	_	21	dobj	_	gloss=God
+29	ke	ke	PART	_	_	_	det	_	_
+30	phu̍k-ngìn	phu̍k-ngìn	NOUN	_	_	_	_	_	gloss=servant
+31	,	,	PUNCT	_	_	_	_	_	_
+32	yu	yu	CCONJ	_	_	_	_	_	gloss=and-also
+33	cho	cho	AUX	_	_	_	_	_	gloss=be
+34	kîm-chhièn	kîm-chhièn	NOUN	_	_	_	conj	_	gloss=money
+35	ke	ke	PART	_	_	_	det	_	_
+36	nùng-chhòi	nùng-chhòi	NOUN	_	_	_	conj	_	gloss=minion
+37	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 40018012
+# ref_id = Matthew 18:12
+# eng_text = ‘  What do you think? If a man has one hundred sheep, and one of them goes astray, doesn't he leave the ninety-nine, go to the mountains, and seek that which has gone astray?
+# hak_text = ‘ Ngì-têu sióng khon-é, na-he yit-ke ngìn yû yit-pak-chak yòng, khì-chûng yit-chak hàng mì-lu, kì kám m̀-voi chiông kiú-sṳ̍p-kiú-chak piong chhai sân-phài-táng, hi chhìm ke-chak mì-lu ke yòng mâ?
+# hak_text_han = 你哋想看下，若果一個人有一百隻羊，其中一隻行迷路，佢敢唔會將九十九隻放喺山坡頂，去尋嗰隻迷路嘅羊嗎？
+# chi_text= 一個人若有一百隻羊，一隻走迷了路，你們的意思如何？他豈不撇下這九十九之，往山裡去找那隻迷路的羊麼？
+1	‘	PUNCT	_	_	_	_	_		_
+2	Ngì-têu	ngì-têu	PRON	_	Number=Plur|Person=2	_	_	_	gloss=you-all
+3	sióng	sióng	VERB	_	_	_	_	_	gloss=think
+4	khon-é	khon-é	VERB	_	_	_	_	_	gloss=see
+5	,	,	PUNCT	_	_	_	_	_	_
+6	na-he	na-he	SCONJ	_	_	_	mark	_	gloss=if
+7	yit-ke	yit-ke	NUM	_	_	_	pobj	_	gloss=one
+8	ngìn	ngìn	NOUN	_	_	_	_	_	gloss=man
+9	yû	yû	VERB	_	_	_	_	_	gloss=have
+10	yit-pak-chak	yit-pak-chak	NUM	_	_	_	_	_	gloss=one-hundred
+11	yòng	yòng	NOUN	_	_	_	dobj	_	gloss=sheep
+12	,	,	PUNCT	_	_	_	_	_	_
+13	khì-chûng	khì-chûng	DET	_	_	_	_	_	gloss=of-which
+14	yit-chak	yit-chak	NUM	_	_	_	_	_	gloss=one
+15	hàng	hàng	VERB	_	_	_	_	_	gloss=walk
+16	mì-lu	mì-lu	VERB	_	_	_	_	_	gloss=lost
+17	,	,	PUNCT	_	_	_	_	_	_
+18	kì	kì	PRON	_	Number=Sing|Person=2	_	_	_	_
+19	kám	kám	ADV	_	_	_	_	_	gloss=dare
+20	m̀-voi	m̀-voi	AUX	_	_	_	_	_	gloss=will-not
+21	chiông	chiông	ADP	_	_	_	_	_	_
+22	kiú-sṳ̍p-kiú-chak	kiú-sṳ̍p-kiú-chak	NUM	_	_	_	_	_	gloss=ninety-nine
+23	piong	piong	VERB	_	_	_	_	_	gloss=leave
+24	chhai	chhai	ADP	_	_	_	_	_	gloss=in
+25	sân-phài-táng	sân-phài-táng	NOUN	_	_	_	_	_	gloss=hill
+26	,	,	PUNCT	_	_	_	_	_	_
+27	hi	hi	VERB	_	_	_	_	_	gloss=go
+28	chhìm	chhìm	VERB	_	_	_	advcl	_	gloss=search
+29	ke-chak	ke-chak	DET	_	_	_	_	_	gloss=that
+30	mì-lu	mì-lu	ADJ	_	_	_	_	_	gloss=lost
+31	ke	ke	PART	_	_	7	det	_	_
+32	yòng	yòng	NOUN	_	_	_	dobj	_	gloss=sheep
+33	mâ	mâ	PART	_	_	_	_	_	_
+34	?	?	PUNCT	_	_	_	punct	_	_
+
+# sent_id = 40020021
+# ref_id = Matthew 20:21
+# eng_text = He said to her, ‘ What do you want? ’ She said to him, ‘ Command that these, my two sons, may sit, one on your right hand, and one on your left hand, in your kingdom.’
+# hak_text = Yâ-sû mun kì kóng: ‘ Ngì oi má-ke? ’ Kì kóng : ‘ Khiù ngì tap-yin, chhai ngì cho vòng ke sṳ̀, pûn ngài liá lióng-ke lai-é yit-ke chhô chhai ngì ke yu-phién, yit-ke chhô chhai ngì ke chó-phién.’
+# hak_text_han = 耶穌問佢講：「你愛麼个？」佢講：「求你答應，在你做王嘅時，畀我這兩个來裔一個坐喺你嘅右片，一個坐喺你嘅左片。」
+# chi_text = 耶穌說： 你要什麼呢？他說：願你叫我這兩個兒子在你國裡，一個坐在你右邊，一個坐在你左邊。
+1	Yâ-sû	yâ-sû	PROPN	_	_	_	_	_	gloss=Jesus
+2	mun	mun	VERB	_	_	0	root	_	gloss=ask
+3	kì	kì	PRON	_	Number=Sing|Person=3	_	_	_	_
+4	kóng	kóng	VERB	_	_	_	_	_	gloss=say
+5	:	:	PUNCT	_	_	_	_	_	_
+6	‘	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot	_
+7	Ngì	ngì	PRON	_	Number=Sing|Person=2	_	_	_	gloss=you
+8	oi	oi	VERB	_	_	_	_	_	gloss=want
+9	má-ke	má-ke	PRON	_	_	_	_	_	gloss=what
+10	?	?	PUNCT	_	_	_	punct	_	_
+11	‘	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot	_
+12	Kì	kì	PRON	_	Number=Sing|Person=3	_	_	_	_
+13	kóng	kóng	VERB	_	_	_	_	_	gloss=say
+14	:	:	PUNCT	_	_	_	_	_	_
+15	‘	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot	_
+16	Khiù	khiù	VERB	_	_	_	nsubj	_	gloss=request
+17	ngì	ngì	PRON	_	Number=Sing|Person=2	_	poss	_	gloss=you
+18	tap-yin	tap-yin	VERB	_	_	_	nsubj	_	gloss=promise
+19	,	,	PUNCT	_	_	_	_	_	_
+20	chhai	chhai	ADP	_	_	_	prep	_	gloss=during
+21	ngì	ngì	PRON	_	Number=Sing|Person=2	_	poss	_	gloss=you
+22	cho	cho	AUX	_	_	_	_	_	gloss=be
+23	vòng	vòng	NOUN	_	_	_	_	_	gloss=king
+24	ke	ke	PART	_	_	_	det	_	_
+25	sṳ̀	sṳ̀	ADP	_	_	_	_	_	gloss=period
+26	,	,	PUNCT	_	_	_	_	_	_
+27	pûn	pûn	ADP	_	_	_	_	_	_
+28	ngài	ngài	PRON	_	Number=Sing|Person=1	_	_	_	gloss=I
+29	liá	liá	PRON	_	_	_	_	_	gloss=these
+30	lióng-ke	lióng-ke	NUM	_	_	_	_	_	gloss=two
+31	lai-é	lai-é	NOUN	_	_	_	_	_	gloss=son
+32	yit-ke	yit-ke	NUM	_	_	_	npadvmod	_	gloss=one
+33	chhô	chhô	VERB	_	_	_	_	_	gloss=sit
+34	chhai	chhai	ADP	_	_	_	prep	_	gloss=in
+35	ngì	ngì	PRON	_	Number=Sing|Person=2	_	poss	_	gloss=you
+36	ke	ke	PART	_	_	_	det	_	_
+37	yu-phién	yu-phién	NOUN	_	_	_	pobj	_	gloss=right
+38	,	,	PUNCT	_	_	_	_	_	_
+39	yit-ke	yit-ke	NUM	_	_	_	npadvmod	_	gloss=one
+40	chhô	chhô	VERB	_	_	_	_	_	gloss=sit
+41	chhai	chhai	ADP	_	_	_	prep	_	gloss=in
+42	ngì	ngì	PRON	_	Number=Sing|Person=2	_	poss	_	gloss=you
+43	ke	ke	PART	_	_	_	det	_	_
+44	chó-phién	chó-phién	NOUN	_	_	41	pobj	_	gloss=left
+45	.	.	PUNCT	_	_	_	punct	_	_
+46	‘	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot	_
+
+# sent_id = 40026002
+# ref_id = Matthew 26:2
+# eng_text = ‘ You know that after two days the Passover is coming, and the Son of Man will be delivered up to be crucified.’
+# hak_text = ‘ Ngì-têu tî, kâ lióng-ngit chhiu-he Phàn-ko-chiet, Ngìn-chṳ́ voi pûn-ngìn chhut-mai, hi tâng sṳ̍p-sṳ-ka.’
+# hak_text_han = 汝兜知，過兩日就係 潘過節，人子會 畀人出賣，去釘十字架。
+# chi_text = 你們知道過兩天是逾越節，人子將要被交給人，釘在十字架上。
+1	‘	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot	_
+2	Ngì-têu	ngì-têu	PRON	_	Number=Plur|Person=2	_	_	_	gloss=you-all
+3	tî	tî	VERB	_	_	_	_	_	gloss=know
+4	,	,	PUNCT	_	_	_	_	_	_
+5	kâ	kâ	ADV	_	_	_	_	_	gloss=after
+6	lióng-ngit	lióng-ngit	NUM	_	_	_	_	_	gloss=two-days
+7	chhiu-he	chhiu-he	AUX	_	_	_	_	_	gloss=be
+8	Phàn-ko-chiet	phàn-ko-chiet	PROPN	_	_	_	nsubj	_	gloss=Passover
+9	,	,	PUNCT	_	_	_	_	_	_
+10	Ngìn-chṳ́	ngìn-chṳ́	PROPN	_	_	_	pobj	_	gloss=Son-of-Man
+11	voi	voi	AUX	_	_	_	_	_	gloss=will
+12	pûn-ngìn	pûn-ngìn	ADP	_	_	_	_	_	_
+13	chhut-mai	chhut-mai	VERB	_	_	_	_	_	gloss=betray
+14	,	,	PUNCT	_	_	_	_	_	_
+15	hi	hi	VERB	_	_	_	_	_	gloss=go
+16	tâng	tâng	VERB	_	_	_	advcl	_	gloss=crucify
+17	sṳ̍p-sṳ-ka	sṳ̍p-sṳ-ka	NOUN	_	_	_	_	_	gloss=cross
+18	.	.	PUNCT	_	_	_	punct	_	_
+19	‘	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot	_
+
+# sent_id = 40026061
+# ref_id = Matthew 26:61
+# eng_text = and said , ‘ This man said , ' I am able to destroy the temple of God , and to build it in three days . '
+# hak_text = Liá-ke ngìn sṳt kóng : ' Ngài yû phan-fap chhak-thet Song-ti ke sṳn-thien , sâm-ngit-nui yu chiông kì chhùng-kien hí-lòi .
+# hak_text_han = 這個人說 : 我有辦法拆毀上帝的聖殿，三日內又將它重建起來。
+# chi_text = 這個人曾說，我能拆毀神的殿，三日內又建造起來。
+1	‘	PUNCT	_	_	0	root	_	PunctSide=Fin|PunctType=Quot	_
+2	Liá-ke	liá-ke	DET	_	_	_	_	_	gloss=this
+3	ngìn	ngìn	NOUN	_	_	_	_	_	gloss=man
+4	sṳt	sṳt	ADV	_	_	_	_	_	gloss=once
+5	kóng	kóng	VERB	_	_	_	_	_	gloss=say
+6	:	:	PUNCT	_	_	_	punct	_	_
+7	'	'	PUNCT	_	_	_	punct	_	_
+8	Ngài	ngài	PRON	_	Number=Sing|Person=1	_	nsubj	_	glosss=I
+9	yû	yû	VERB	_	_	_	_	_	gloss=have
+10	phan-fap	phan-fap	NOUN	_	_	_	_	_	gloss=means
+11	chhak-thet	chhak-thet	VERB	_	_	_	_	_	gloss=destroy
+12	Song-ti	song-ti	PROPN	_	_	_	pobj	_	gloss=God
+13	ke	ke	PART	_	_	_	det	_	_
+14	sṳn-thien	sṳn-thien	NOUN	_	_	_	_	_	gloss=temple
+15	,	,	PUNCT	_	_	_	_	_	_
+16	sâm-ngit-nui	sâm-ngit-nui	ADV	_	_	_	_	_	gloss=within-three-days
+17	yu	yu	ADV	_	_	_	_	_	gloss=once-again
+18	chiông	chiông	ADP	_	_	_	_	_	_
+19	kì	kì	PRON	_	Number=Sing|Person=3	_	_	_	gloss=it
+20	chhùng-kien	chhùng-kien	VERB	_	_	_	_	_	gloss=rebuild
+21	hí-lòi	hí-lòi	PART	_	_	_	_	_	_
+22	.	.	PUNCT	_	_	_	punct	_	_
+23	'	'	PUNCT	_	_	_	punct	_	_
+24	‘	PUNCT	_	_	0	root	_	PunctSide=Fin|PunctType=Quot	_
+
+# sent_id = 40028016
+# ref_id = Matthew 28:16
+# eng_text = But the eleven disciples went into Galilee, to the mountain where Jesus had sent them.
+# hak_text = Sṳ̍p-yit-ke ho̍k-sâng hi Kâ-li-li, to Yâ-sû fûn-fu kì-têu hi ke sân-táng.
+# hak_text_han = 十一个學生去加利利，到耶穌吩咐佢哋去的山頂。
+# chi_text = 十一個門徒往加利利去，到了耶穌約定的山上。
+1	Sṳ̍p-yit-ke	sṳ̍p-yit-ke	NUM	_	_	_	_	_	gloss=eleven
+2	ho̍k-sâng	ho̍k-sâng	NOUN	_	_	_	nsubj	_	gloss=student
+3	hi	hi	VERB	_	_	_	_	_	gloss=go
+4	Kâ-li-li	kâ-li-li	PROPN	_	_	_	pobj	_	gloss=Galilee
+5	,	,	PUNCT	_	_	_	_	_	_
+6	to	to	ADP	_	_	_	_	_	gloss=to
+7	Yâ-sû	yâ-sû	PROPN	_	_	_	nsubj	_	gloss=Jesus
+8	fûn-fu	fûn-fu	VERB	_	_	_	_	_	gloss=instruct
+9	kì-têu	kì-têu	PRON	_	Number=Plur|Person=3	_	dobj	_	gloss=them
+10	hi	hi	VERB	_	_	_	_	_	gloss=go
+11	ke	ke	PART	_	_	12	det	_	_
+12	sân-táng	sân-táng	NOUN	_	_	_	pobj	_	gloss=mountain
+13	.	.	PUNCT	_	_	_	punct	_	_
+
+# sent_id = 41002023
+# ref_id = Mark 2:23
+# eng_text = It happened , that he was going on the Sabbath day through the grain fields , and his disciples began , as they went , to pluck the ears of grain .
+# hak_text = Yû yit-ke Ôn-sit-ngit, Yâ-sû kîn-ko ma̍k-thièn, kiâ ho̍k-sâng ya thùng kì khiung-ha hàng; kì-têu yit-phién hàng yit-phién lo̍t têu ma̍k-chhon.
+# hak_text_han = 有一个安息日，耶稣经过麦田，他的门徒又同他一起走；他们一边走一边掐麦穗。
+# chi_text = 耶穌當安息日從麥地經過。他門徒行路的時候，掐了麥穗 。
+1	Yû	yû	VERB	_	_	_	_	_	gloss=there-be
+2	yit-ke	yit-ke	NUM	_	_	_	_	_	gloss=one
+3	Ôn-sit-ngit	ôn-sit-ngit	PROPN	_	_	_	compound	_	gloss=Sabbath
+4	,	,	PUNCT	_	_	_	_	_	_
+5	Yâ-sû	yâ-sû	PROPN	_	_	15	nsubj	_	gloss=Jesus
+6	kîn-ko	kîn-ko	VERB	_	_	_	_	_	gloss=pass-by
+7	ma̍k-thièn	ma̍k-thièn	NOUN	_	_	_	_	_	gloss=grain-fields
+8	,	,	PUNCT	_	_	_	_	_	_
+9	kiâ	kiâ	PRON	_	Number=Sing|Person=3	_	_	_	gloss=his
+10	ho̍k-sâng	ho̍k-sâng	NOUN	_	_	_	nsubj	_	gloss=student
+11	ya	ya	ADV	_	_	_	_	_	gloss=also
+12	thùng	thùng	ADP	_	_	_	_	_	gloss=with
+13	kì	kì	PRON	_	Number=Sing|Person=3	_	_	_	gloss=him
+14	khiung-ha	khiung-ha	ADV	_	_	_	_	_	gloss=together
+15	hàng	hàng	VERB	_	_	_	advcl	_	gloss=walk
+16	;	;	PUNCT	_	_	_	_	_	_
+17	kì-têu	kì-têu	PRON	_	Number=Plur|Person=3	_	_	_	gloss=they
+18	yit-phién	yit-phién	CCONJ	_	_	_	_	_	gloss=on-one-hand
+19	hàng	hàng	VERB	_	_	_	advcl	_	gloss=walk
+20	yit-phién	yit-phién	CCONJ	_	_	_	_	_	gloss=on-the-other-hand
+21	lo̍t	lo̍t	VERB	_	_	_	_	_	gloss=pluck
+22	têu	têu	DET	_	_	_	prt	_	gloss=those
+23	ma̍k-chhon	ma̍k-chhon	NOUN	_	_	_	_	_	gloss=wheat-ear
+24	.	.	PUNCT	_	_	_	punct	_	_
+
+# sent_id = 41012032
+# ref_id = Mark 12:32
+# eng_text = The scribe said to him , ‘Truly, teacher, you have said well that he is one, and there is none other but he.
+# hak_text = Ke kîn-ho̍k kau-sṳ̂ tui Yâ-sû kóng : ‘ Sîn-sâng , ngì só kóng ke chhin chho̍k ! Chhiu-chhiong ngì só kóng , Song-ti he vì-yit ke Chú , chhù-liáu Kì yî-ngoi mò phe̍t ke Song-ti .
+# hak_text_han = 其經學教師對耶穌講：「先生，你所講嘅真著！就象你所講，上帝係唯一嘅主，除了祂以外冇別個上帝。」
+# chi_text = 那文士對耶穌說：「夫子說，神是一位，實在不錯；除了他以外，再沒有別的神；
+1	Ke	ke	DET	_	_	_	_	_	gloss=that
+2	kîn-ho̍k	kîn-ho̍k	NOUN	_	_	_	_	_	gloss=Chinese-classical-studies
+3	kau-sṳ̂	kau-sṳ̂	NOUN	_	_	_	amod	_	gloss=teacher
+4	tui	tui	ADP	_	_	_	_	_	gloss=towards
+5	Yâ-sû	yâ-sû	PROPN	_	_	_	_	_	gloss=Jesus
+6	kóng	kóng	VERB	_	_	_	_	_	gloss=say
+7	:	:	PUNCT	_	_	_	_	_	_
+8	‘	PUNCT	_	_	_	_	_		_
+9	Sîn-sâng	sîn-sâng	NOUN	_	_	_	npadvmod	_	gloss=teacher
+10	,	,	PUNCT	_	_	_	_	_	_
+11	ngì	ngì	PRON	_	Number=Sing|Person=2	_	_	_	gloss=you
+12	só	só	PART	_	_	_	_	_	_
+13	kóng	kóng	VERB	_	_	_	_	_	gloss=say
+14	ke	ke	PART	_	_	_	det	_	_
+15	chhin	chhin	ADJ	_	_	_	_	_	gloss=authentic
+16	chho̍k	chho̍k	ADJ	_	_	_	_	_	gloss=accurate
+17	!	!	PUNCT	_	_	_	_	_	_
+18	Chhiu-chhiong	chhiu-chhiong	ADV	_	_	_	_	_	gloss=like
+19	ngì	ngì	PRON	_	Number=Plur|Person=2	_	_	_	gloss=you
+20	só	só	PART	_	_	_	_	_	_
+21	kóng	kóng	VERB	_	_	_	_	_	gloss=say
+22	,	,	PUNCT	_	_	_	_	_	_
+23	Song-ti	song-ti	PROPN	_	_	24	attr	_	gloss=God
+24	he	he	AUX	_	_	_	ccomp	_	gloss=be
+25	vì-yit	vì-yit	ADJ	_	_	_	_	_	gloss=one-and-only
+26	ke	ke	PART	_	_	_	det	_	_
+27	Chú	chú	NOUN	_	_	_	_	_	gloss=lord
+28	,	,	PUNCT	_	_	_	_	_	_
+29	chhù-liáu	chhù-liáu	SCONJ	_	_	_	_	_	gloss=besides
+30	Kì	kì	PRON	_	Number=Sing|Person=3	_	_	_	gloss=him
+31	yî-ngoi	yî-ngoi	ADP	_	_	_	_	_	_
+32	mò	mò	AUX	_	_	_	_	_	gloss=no
+33	phe̍t	phe̍t	DET	_	_	_	_	_	gloss=other
+34	ke	ke	NOUN	_	_	_	det	_	_
+35	Song-ti	song-ti	PROPN	_	_	24	attr	_	gloss=God
+36	.	.	PUNCT	_	_	_	punct	_	_
+
+# sent_id = 41014037
+# ref_id = Mark 14:37
+# eng_text = He came and found them sleeping , and said to Peter , ‘ Simon , are you sleeping ? Couldn't you watch one hour ?
+# hak_text = Kì to-chón-lòi ke sṳ̀ , fat-hien sâm-ke ho̍k-sâng soi-thet , chhiu lâu Pí-tet kóng : ‘ Sî-mùn , ngì chhai liá soi-muk he-mò ? Mò fap-thu kín-siáng yit-tiám-chûng kiú mâ ?
+# hak_text_han = 佢倒轉來个時，發現三個學生睡忒，就摎彼得講：「西門，你喺遮睡目係無？無法度警醒一滴鐘久嗎？」
+# chi_text = 耶穌回來，見他們睡著了，就對彼得 說，西門 ，你睡覺麼。不能儆醒片時麼。
+1	Kì	kì	PRON	_	Number=Sing|Person=3	_	nsubj	_	gloss=he
+2	to-chón-lòi	to-chón-lòi	VERB	_	_	_	_	_	gloss=return
+3	ke	ke	PART	_	_	8	det	_	_
+4	sṳ̀	sṳ̀	ADP	_	_	_	_	_	gloss=time
+5	,	,	PUNCT	_	_	_	_	_	_
+6	fat-hien	fat-hien	VERB	_	_	_	acomp	_	gloss=find
+7	sâm-ke	sâm-ke	NUM	_	_	_	_	_	gloss=three
+8	ho̍k-sâng	ho̍k-sâng	NOUN	_	_	9	nsubj	_	gloss=student
+9	soi-thet	soi-thet	VERB	_	_	_	acomp	_	gloss=sleep
+10	,	,	PUNCT	_	_	_	_	_	_
+11	chhiu	chhiu	ADV	_	_	_	_	_	gloss=then
+12	lâu	lâu	ADP	_	_	_	cc	_	gloss=towards
+13	Pí-tet	pí-tet	PROPN	_	_	_	pobj	_	gloss=Peter
+14	kóng	kóng	VERB	_	_	_	_	_	gloss=say
+15	:	:	PUNCT	_	_	_	_	_	_
+16	‘	PUNCT	_	_	_	_	_		_
+17	Sî-mùn	sî-mùn	PROPN	_	_	_	npadvmod	_	gloss=Simon
+18	,	,	PUNCT	_	_	_	_	_	_
+19	ngì	ngì	PRON	_	Number=Sing|Person=2	_	_	_	gloss=you
+20	chhai	chhai	ADP	_	_	_	_	_	gloss=in
+21	liá	liá	PRON	_	_	_	_	_	gloss=here
+22	soi-muk	soi-muk	VERB	_	_	_	_	_	gloss=sleep
+23	he-mò	he-mò	PART	_	_	_	_	_	_
+24	?	?	PUNCT	_	_	27	punct	_	_
+25	Mò	mò	DET	_	_	_	_	_	gloss=no
+26	fap-thu	fap-thu	NOUN	_	_	_	_	_	gloss=means
+27	kín-siáng	kín-siáng	VERB	_	_	0	root	_	gloss=awake
+28	yit-tiám-chûng	yit-tiám-chûng	NUM	_	_	_	_	_	gloss=one-hour
+29	kiú	kiú	ADJ	_	_	_	_	_	gloss=long
+30	mâ	mâ	PART	_	_	_	_	_	_
+31	?	?	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 42004002
+# ref_id = Luke 4:2
+# eng_text = for forty days , being tempted by the devil . He ate nothing in those days . Afterward , when they were completed , he was hungry .
+# hak_text = chhai ke-vi si-sṳ̍p-ngit , su Mô-kúi ke sṳ-tham . Ke-têu ngit-è , kì má-ke ya mò sṳ̍t , ngit-khì yit-ko , kì chhiu tú-kî .
+# hak_text_han = 在曠野四十天，受魔鬼的試探。那些日子，他什麼也沒吃，過了那幾天，他就餓了。
+# chi_text = 四十天受魔鬼的试探。在那些日子，他没有吃什么，日子满了，他饿了。
+1	chhai	chhai	ADP	_	_	_	_	_	gloss=during
+2	ke-vi	ke-vi	DET	_	_	_	_	_	gloss=those
+3	si-sṳ̍p-ngit	si-sṳ̍p-ngit	NUM	_	_	_	_	_	gloss=forty-days
+4	,	,	PUNCT	_	_	_	_	_	_
+5	su	su	VERB	_	_	_	_	_	gloss= receive
+6	Mô-kúi	mô-kúi	NOUN	_	_	_	pobj	_	gloss=devil
+7	ke	ke	PART	_	_	6	det	_	_
+8	sṳ-tham	sṳ-tham	NOUN	_	_	_	_	_	gloss=temptation
+9	.	.	PUNCT	_	_	_	punct	_	_
+10	Ke-têu	ke-têu	DET	_	_	_	_	_	gloss=those
+11	ngit-è	ngit-è	NOUN	_	_	_	_	_	gloss=days
+12	,	,	PUNCT	_	_	_	_	_	_
+13	kì	kì	PRON	_	Number=Sing|Person=3	_	_	_	gloss=he
+14	má-ke	má-ke	PRON	_	_	_	_	_	gloss=what
+15	ya	ya	ADV	_	_	_	_	_	gloss=also
+16	mò	mò	DET	_	_	_	_	_	gloss=no
+17	sṳ̍t	sṳ̍t	VERB	_	_	_	_	_	gloss=eat
+18	,	,	PUNCT	_	_	_	_	_	_
+19	ngit-khì	ngit-khì	NOUN	_	_	_	_	_	gloss=day
+20	yit-ko	yit-ko	ADP	_	_	_	_	_	gloss=pass
+21	,	,	PUNCT	_	_	_	_	_	_
+22	kì	kì	PRON	_	Number=Sing|Person=3	_	_	_	gloss=he
+23	chhiu	chhiu	ADV	_	_	_	_	_	gloss=then
+24	tú-kî	tú-kî	ADJ	_	_	_	acomp	_	gloss=hungry
+25	.	.	PUNCT	_	_	_	punct	_	_
+
+# sent_id = 42016013
+# ref_id = Luke 16:13
+# eng_text = No servant can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You aren't able to serve God and mammon . ‘
+# hak_text = ‘Mò yit-ke phu̍k-ngìn nèn fu̍k-sṳ lióng-ke chú-ngìn . M̀-he nâu liá-ke , oi ke-ke , chhiu-he khon-chhung liá-ke , khon-khiâng ke-ke . Ngì-têu mò khó-nèn thùng-sṳ̀ cho Song-ti ke phu̍k-ngìn , yu cho kîm-chhièn ke nùng-chhòi . ‘
+"# hak_text_han = ""莫有一個僕人能服侍兩個主人。毋係惱這個，愛該個，就係看重這個，看輕該個。恁兜無可能同時做上帝的僕人，又做金錢的奴才。"""
+# chi_text = 一個僕人不能事奉兩個主；不是惡這個愛那個，就是重這個輕那個。你們不能又事奉神，又事奉瑪門。」
+1	‘	PUNCT	_	_	15	punct	_	PunctSide=Fin|PunctType=Quot	_
+2	Mò	mò	DET	_	_	3	det	_	gloss=no
+3	yit-ke	yit-ke	NUM	_	_	_	pobj	_	gloss=one
+4	phu̍k-ngìn	phu̍k-ngìn	NOUN	_	_	_	_	_	gloss=servant
+5	nèn	nèn	AUX	_	_	_	_	_	gloss=able
+6	fu̍k-sṳ	fu̍k-sṳ	VERB	_	_	0	root	_	gloss=serve
+7	lióng-ke	lióng-ke	NUM	_	_	_	_	_	gloss=two
+8	chú-ngìn	chú-ngìn	NOUN	_	_	_	_	_	gloss=master
+9	.	.	PUNCT	_	_	15	punct	_	_
+10	M̀-he	m̀-he	CCONJ	_	_	_	acomp	_	gloss=either
+11	nâu	nâu	VERB	_	_	_	_	_	gloss=hate
+12	liá-ke	liá-ke	PRON	_	_	_	_	_	gloss=this-one
+13	,	,	PUNCT	_	_	_	_	_	_
+14	oi	oi	VERB	_	_	_	_	_	gloss=love
+15	ke-ke	ke-ke	PRON	_	_	0	root	_	gloss=that-one
+16	,	,	PUNCT	_	_	_	_	_	_
+17	chhiu-he	chhiu-he	CCONJ	_	_	_	_	_	gloss=or-else
+18	khon-chhung	khon-chhung	VERB	_	_	_	acomp	_	gloss=value
+19	liá-ke	liá-ke	PRON	_	_	_	_	_	gloss=this-one
+20	,	,	PUNCT	_	_	_	_	_	_
+21	khon-khiâng	khon-khiâng	VERB	_	_	_	_	_	gloss=disregard
+22	ke-ke	ke-ke	PRON	_	_	0	root	_	gloss=that-one
+23	.	.	PUNCT	_	_	22	punct	_	_
+24	Ngì-têu	ngì-têu	PRON	_	_	_	_	_	gloss=you-all
+25	mò	mò	DET	_	_	_	_	_	gloss=no
+26	khó-nèn	khó-nèn	NOUN	_	_	_	_	_	gloss=possibility
+27	thùng-sṳ̀	thùng-sṳ̀	ADV	_	_	_	_	_	gloss=at-the-same-time
+28	cho	cho	AUX	_	_	_	_	_	gloss=be
+29	Song-ti	song-ti	PROPN	_	_	22	dobj	_	gloss=God
+30	ke	ke	PART	_	_	_	det	_	_
+31	phu̍k-ngìn	phu̍k-ngìn	NOUN	_	_	_	_	_	gloss=servant
+32	,	,	PUNCT	_	_	_	_	_	_
+33	yu	yu	CCONJ	_	_	_	_	_	gloss=and-also
+34	cho	cho	AUX	_	_	_	_	_	gloss=be
+35	kîm-chhièn	kîm-chhièn	NOUN	_	_	_	conj	_	gloss=money
+36	ke	ke	PART	_	_	_	det	_	_
+37	nùng-chhòi	nùng-chhòi	NOUN	_	_	_	conj	_	gloss=minion
+38	.	.	PUNCT	_	_	22	punct	_	_
+39	‘	PUNCT	_	_	22	punct	_	PunctSide=Fin|PunctType=Quot	_
+
+# sent_id = 42024018
+# ref_id = Luke 24:18
+# eng_text = One of them , named Cleopas , answered him , ‘ Are you the only one travelling in Jerusalem who doesn't know the things which have happened there in these days ? ’
+# hak_text = Khì-chûng yit-ke miàng ôn-to Kiet-liù-pâ ke , mun Yâ-sû kóng : ‘ Liá kí-ngit chhai Yâ-lu-sat-lâng fat-sên ke sṳ-chhìn , kám kóng chṳ́-yû ngì yit-ke cho ngìn-hak ke m̀-tî he-mò ? ’
+# hak_text_han = 其中有一個名叫革流巴的，問耶穌講：「這幾日在耶路撒冷發生的事情，敢講只有你一個做行客的唔知係嗎？」
+# chi_text = 兩人中有一個名叫革流巴的回答：「你是在耶路撒冷的旅客中，惟一還不知道這幾天在那裏發生了甚麼事的人嗎？」
+1	Khì-chûng	khì-chûng	DET	_	_	_	_	_	gloss=of-which
+2	yit-ke	yit-ke	NUM	_	_	_	nsubj	_	gloss=one
+3	miàng	miàng	VERB	_	_	_	_	_	gloss=name
+4	ôn-to	ôn-to	VERB	_	_	_	_	_	gloss=refer
+5	Kiet-liù-pâ	kiet-liù-pâ	PROPN	_	_	_	_	_	gloss=Cleopas
+6	ke	ke	PART	_	_	_	det	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	mun	mun	VERB	_	_	_	_	_	gloss=ask
+9	Yâ-sû	yâ-sû	PROPN	_	_	_	_	_	gloss=Jesus
+10	kóng	kóng	VERB	_	_	_	_	_	gloss=say
+11	:	:	PUNCT	_	_	_	_	_	_
+12	‘	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot	_
+13	Liá	liá	DET	_	_	_	_	_	gloss=these
+14	kí-ngit	kí-ngit	NOUN	_	_	_	_	_	gloss=few-days
+15	chhai	chhai	ADP	_	_	_	prep	_	gloss=in
+16	Yâ-lu-sat-lâng	yâ-lu-sat-lâng	PROPN	_	_	15	pobj	_	gloss=Jerusalem
+17	fat-sên	fat-sên	VERB	_	_	_	_	_	gloss=happen
+18	ke	ke	PART	_	_	_	det	_	_
+19	sṳ-chhìn	sṳ-chhìn	NOUN	_	_	_	_	_	gloss=event
+20	,	,	PUNCT	_	_	_	_	_	_
+21	kám	kám	AUX	_	_	_	_	_	gloss=dare
+22	kóng	kóng	VERB	_	_	_	_	_	gloss=say
+23	chṳ́-yû	chṳ́-yû	ADV	_	_	_	amod	_	gloss=only
+24	ngì	ngì	PRON	_	Number=Sing|Person=2	_	_	_	gloss=you
+25	yit-ke	yit-ke	NUM	_	_	_	nsubj	_	gloss=one
+26	cho	cho	AUX	_	_	_	_	_	gloss=be
+27	ngìn-hak	ngìn-hak	NOUN	_	_	_	_	_	gloss=traveller
+28	ke	ke	PART	_	_	_	det	_	_
+29	m̀-tî	m̀-tî	VERB	_	_	_	_	_	gloss=do-not-know
+30	he-mò	he-mò	PART	_	_	_	_	_	_
+31	?	?	PUNCT	_	_	_	_	_	_
+32	‘	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot	_
+
+# sent_id = 43001039
+# ref_id = John 1:39
+# eng_text = He said to them , ‘ Come , and see . ’ They came and saw where he was staying , and they stayed with him that day . It was about the tenth hour .
+# hak_text = Yâ-sû kóng : ‘ Ngì-têu lòi khon ! ’ Kì-têu thèn kì hi , khon-tó kì he̍t ke só-chhai , ke-ngit chhiu thùng kì khiung-ha he̍t . ( Ke-sṳ̀ thai-yok he hâ-chu si-tiám-chûng . )
+# hak_text_han = 耶穌講：「你們來看！」佢哋聽佢去，看到佢歇嘅所在，隔日就同佢共享歇。（嗰時大約係下晝四點鐘。）
+# chi_text = 他说：“你们来就看见了。”于是他们去了，看见耶稣住的地方，那天就住在他那里；那时大约是下午四时。
+1	Yâ-sû	yâ-sû	PROPN	_	_	_	_	_	gloss=Jesus
+2	kóng	kóng	VERB	_	_	_	_	_	gloss=say
+3	:	:	PUNCT	_	_	_	_	_	_
+4	‘	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot	_
+5	Ngì-têu	ngì-têu	PRON	_	Number=Plur|Person=2	_	_	_	gloss=you-all
+6	lòi	lòi	VERB	_	_	_	_	_	gloss=come
+7	khon	khon	VERB	_	_	_	_	_	gloss=see
+8	!	!	PUNCT	_	_	_	_	_	_
+9	"	"	PUNCT	_	_	_	punct	_	PunctSide=Fin|PunctType=Quot	_
+10	Kì-têu	kì-têu	PRON	_	Number=Plur|Person=3	_	_	_	gloss=they
+11	thèn	thèn	VERB	_	_	_	_	_	gloss=listen
+12	kì	kì	PRON	_	Number=Sing|Person=3	_	_	_	gloss=him
+13	hi	hi	VERB	_	_	_	advcl	_	gloss=go
+14	,	,	PUNCT	_	_	_	_	_	_
+15	khon-tó	khon-tó	VERB	_	_	_	_	_	gloss=see
+16	kì	kì	PRON	_	Number=Sing|Person=3	_	_	_	gloss=he
+17	he̍t	he̍t	VERB	_	_	_	_	_	gloss=stay
+18	ke	ke	PART	_	_	_	det	_	_
+19	só-chhai	só-chhai	NOUN	_	_	_	pobj	_	gloss=place
+20	,	,	PUNCT	_	_	_	_	_	_
+21	ke-ngit	ke-ngit	PRON	_	_	_	_	_	gloss=that-day
+22	chhiu	chhiu	ADV	_	_	_	_	_	gloss=then
+23	thùng	thùng	ADP	_	_	_	prep	_	gloss=with
+24	kì	kì	PRON	_	Number=Sing|Person=3	_	_	_	gloss=him
+25	khiung-ha	khiung-ha	ADP	_	_	_	prep	_	gloss=together
+26	he̍t	he̍t	VERB	_	_	_	_	_	gloss=stay
+27	.	.	PUNCT	_	_	_	punct	_	_
+28	(	(	PUNCT	_	_	_	_	_	_
+29	Ke-sṳ̀	ke-sṳ̀	PRON	_	_	_	_	_	gloss=that-time
+30	thai-yok	thai-yok	ADV	_	_	_	_	_	gloss=around
+31	he	he	AUX	_	_	_	_	_	gloss=be
+32	hâ-chu	hâ-chu	NOUN	_	_	_	attr	_	gloss=afternoon
+33	si-tiám-chûng	si-tiám-chûng	NOUN	_	_	_	_	_	gloss=three-o-clock
+34	.	.	PUNCT	_	_	_	punct	_	_
+35	)	)	PUNCT	_	_	_	_	_	_
+
+# sent_id = 43003016
+# ref_id = John 3:16
+# eng_text = For God so loved the world , that he gave his one and only Son , that whoever believes in him should not perish , but have eternal life .
+# hak_text = ‘ Yîn-vi Song-ti thung-siak sṳ-kiên-ngìn , só-yî chiông Kì Thu̍k-yit ke Lai-é su-pûn kì-têu , oi pûn yit-chhiet sin kì ke ngìn m̀-voi me̍t-mòng , fán-chón tet-tó yún-yén ke sâng-miang .
+# hak_text_han = 因為上帝疼惜世間人，所以將祂獨一个賴仔賜分𠊤兜，凡是信祂个个人毋會滅亡，反轉得著永遠个生命。
+# chi_text = 神愛世人,甚至將他的獨生子賜給他們,叫一切信他的、不至滅亡、反得永生。
+1	‘	PUNCT	_	_	_	_	_		_
+2	Yîn-vi	yîn-vi	SCONJ	_	_	_	prep	_	gloss=because
+3	Song-ti	song-ti	PROPN	_	_	_	nsubj	_	gloss=God
+4	thung-siak	thung-siak	VERB	_	_	_	_	_	gloss=love
+5	sṳ-kiên-ngìn	sṳ-kiên-ngìn	NOUN	_	_	_	dobj	_	gloss=man
+6	,	,	PUNCT	_	_	_	_	_	_
+7	só-yî	só-yî	ADV	_	_	_	_	_	gloss=therefore
+8	chiông	chiông	ADP	_	_	_	_	_	_
+9	Kì	kì	PRON	_	Number=Sing|Person=3	_	_	_	gloss=his
+10	Thu̍k-yit	thu̍k-yit	ADJ	_	_	_	_	_	gloss=one-and-only
+11	ke	ke	PART	_	_	5	det	_	_
+12	Lai-é	lai-é	NOUN	_	_	_	appos	_	gloss=Son
+13	su-pûn	su-pûn	VERB	_	_	_	_	_	gloss=give
+14	kì-têu	kì-têu	PRON	_	Number=Plur|Person=3	_	_	_	gloss=them
+15	,	,	PUNCT	_	_	_	_	_	_
+16	oi	oi	VERB	_	_	_	_	_	_
+17	pûn	pûn	ADP	_	_	_	_	_	_
+18	yit-chhiet	yit-chhiet	PRON	_	_	_	_	_	gloss=all
+19	sin	sin	VERB	_	_	_	_	_	gloss=believe
+20	kì	kì	PRON	_	Number=Sing|Person=3	_	_	_	gloss=he
+21	ke	ke	PART	_	_	5	det	_	_
+22	ngìn	ngìn	NOUN	_	_	_	_	_	gloss=people
+23	m̀-voi	m̀-voi	AUX	_	_	_	_	_	gloss=will-not
+24	me̍t-mòng	me̍t-mòng	VERB	_	_	_	_	_	gloss=destroy
+25	,	,	PUNCT	_	_	_	_	_	_
+26	fán-chón	fán-chón	ADV	_	_	_	_	_	gloss=but
+27	tet-tó	tet-tó	VERB	_	_	_	punct	_	gloss=receive
+28	yún-yén	yún-yén	ADJ	_	_	30	amod	_	gloss=eternal
+29	ke	ke	PART	_	_	5	det	_	_
+30	sâng-miang	sâng-miang	NOUN	_	_	_	dobj	_	gloss=life
+31	.	.	PUNCT	_	_	_	punct	_	_
+
+# sent_id = 44002030
+# ref_id = Acts 2:30
+# eng_text = Therefore , being a prophet , and knowing that God had sworn with an oath to him that of the fruit of his body , according to the flesh , he would raise up the Christ to sit on his throne ,
+# hak_text = Kì ki-yèn he siên-tî , chhiu tî Song-ti tui kì ke yin-hí : Song-ti sṳt fat-sṳ oi tui kì ke chṳ́-sûn chûng sat-li̍p yit-ke vòng lòi chhô kì ke pó-chho .
+# hak_text_han = 佢既係先知，就知上帝對佢嘅應許：上帝實發事愛對佢嘅子孫中設立一個王嚟坐佢嘅寶座。
+# chi_text = 大衛既是先知，又曉得神曾向他起誓，要從他的後裔中，立一位坐在他的寶座上。
+1	Kì	kì	PRON	_	Number=Sing|Person=3	_	_	_	_
+2	ki-yèn	ki-yèn	SCONJ	_	_	_	_	_	gloss=now-that
+3	he	he	AUX	_	_	_	_	_	gloss=be
+4	siên-tî	siên-tî	NOUN	_	_	_	_	_	gloss=prophet
+5	,	,	PUNCT	_	_	_	_	_	_
+6	chhiu	chhiu	ADV	_	_	_	_	_	gloss=then
+7	tî	tî	VERB	_	_	_	_	_	gloss=know
+8	Song-ti	song-ti	PROPN	_	_	_	nsubj	_	gloss=God
+9	tui	tui	ADP	_	_	_	_	_	gloss=towards
+10	kì	kì	PRON	_	Number=Sing|Person=3	_	_	_	_
+11	ke	ke	PART	_	_	_	_	_	_
+12	yin-hí	yin-hí	NOUN	_	_	_	_	_	gloss=promise
+13	:	:	PUNCT	_	_	_	_	_	_
+14	Song-ti	song-ti	PROPN	_	_	_	nsubj	_	gloss=God
+15	sṳt	sṳt	ADV	_	_	_	_	_	gloss=once
+16	fat-sṳ	fat-sṳ	VERB	_	_	_	pobj	_	gloss=swear
+17	oi	oi	VERB	_	_	_	_	_	gloss=need
+18	tui	tui	ADP	_	_	_	_	_	gloss=from
+19	kì	kì	PRON	_	Number=Sing|Person=3	_	_	_	_
+20	ke	ke	PART	_	_	_	_	_	_
+21	chṳ́-sûn	chṳ́-sûn	NOUN	_	_	_	_	_	gloss=descendant
+22	chûng	chûng	ADP	_	_	_	_	_	gloss=amongst
+23	sat-li̍p	sat-li̍p	VERB	_	_	_	_	_	gloss=establish
+24	yit-ke	yit-ke	NUM	_	_	_	nsubj	_	gloss=one
+25	vòng	vòng	NOUN	_	_	_	_	_	gloss=king
+26	lòi	lòi	SCONJ	_	_	_	_	_	gloss=to
+27	chhô	chhô	VERB	_	_	_	_	_	gloss=sit
+28	kì	kì	PRON	_	Number=Sing|Person=3	_	_	_	gloss=he
+29	ke	ke	PART	_	_	_	_	_	_
+30	pó-chho	pó-chho	NOUN	_	_	_	pobj	_	gloss=throne
+31	.	.	PUNCT	_	_	_	punct	_	_
+
+# sent_id = 44009038
+# ref_id = Acts 9:38
+# eng_text = As Lydda was near Joppa , the disciples , hearing that Peter was there , sent two men to him , imploring him not to delay in coming to them .
+# hak_text = Yok-pha lì Lî-thai mò kí-yén . Chhai Yok-pha ke sin-thù thâng-tó Pí-tet chhai Lî-thai , chhiu phai lióng-ke ngìn hi kien kì , yêu-khiù kì kóng : ‘ Chhiáng ngì kón-kín lòi ngài-têu liá-vi ! ’
+# hak_text_han = 約帕離呂大不遠。在約帕的信徒聽見彼得在呂大，就打發兩個人去見他，求他說：「請你快點到我們這裡來！」
+# chi_text = 利达离约帕不远，门徒们听说彼得在利达，就派了两个人到他那里，恳求他说：“请你来到我们这里，不要耽延！”
+1	Yok-pha	yok-pha	PROPN	_	_	_	_	_	gloss=Joppa
+2	lì	lì	ADP	_	_	_	prep	_	gloss=from
+3	Lî-thai	lî-thai	PROPN	_	_	17	advcl	_	gloss=Lydda
+4	mò	mò	DET	_	_	_	_	_	gloss=no
+5	kí-yén	kí-yén	ADJ	_	_	_	_	_	gloss=far
+6	.	.	PUNCT	_	_	_	_	_	_
+7	Chhai	chhai	ADP	_	_	_	_	_	gloss=in
+8	Yok-pha	yok-pha	PROPN	_	_	_	_	_	gloss=Joppa
+9	ke	ke	PART	_	_	10	det	_	_
+10	sin-thù	sin-thù	NOUN	_	_	11	nsubj	_	gloss=believer
+11	thâng-tó	thâng-tó	VERB	_	_	17	ccomp	_	gloss=hear
+12	Pí-tet	pí-tet	PROPN	_	_	_	nsubj	_	gloss=Peter
+13	chhai	chhai	ADP	_	_	_	_	_	gloss=in
+14	Lî-thai	lî-thai	PROPN	_	_	17	advcl	_	gloss=Lydda
+15	,	,	PUNCT	_	_	_	_	_	_
+16	chhiu	chhiu	ADV	_	_	_	_	_	gloss=then
+17	phai	phai	VERB	_	_	0	root	_	gloss=send
+18	lióng-ke	lióng-ke	NUM	_	_	_	_	_	gloss=two
+19	ngìn	ngìn	NOUN	_	_	_	_	_	gloss=man
+20	hi	hi	VERB	_	_	_	_	_	gloss=go
+21	kien	kien	VERB	_	_	_	_	_	gloss=see
+22	kì	kì	PRON	_	Number=Sing|Person=3	_	_	_	gloss=him
+23	,	,	PUNCT	_	_	_	_	_	_
+24	yêu-khiù	yêu-khiù	VERB	_	_	_	_	_	gloss=implore
+25	kì	kì	PRON	_	Number=Sing|Person=3	_	_	_	gloss=him
+26	kóng	kóng	VERB	_	_	_	_	_	gloss=say
+27	:	:	PUNCT	_	_	_	_	_	_
+28	‘	PUNCT	_	_	17	punct	_	PunctSide=Fin|PunctType=Quot	_
+29	Chhiáng	chhiáng	VERB	_	_	_	_	_	gloss=please
+30	ngì	ngì	PRON	_	Number=Sing|Person=2	_	_	_	gloss=you
+31	kón-kín	kón-kín	ADV	_	_	_	_	_	gloss=quickly
+32	lòi	lòi	VERB	_	_	_	_	_	gloss=come
+33	ngài-têu	ngài-têu	PRON	_	Number=Plur|Person=1	_	_	_	gloss=us
+34	liá-vi	liá-vi	PRON	_	_	_	_	_	gloss=here
+35	!	!	PUNCT	_	_	17	punct	_	_
+36	‘	PUNCT	_	_	17	punct	_	PunctSide=Fin|PunctType=Quot	_
+
+# sent_id = 44011011
+# ref_id = Acts 11:11
+# eng_text = Behold , immediately three men stood before the house where I was , having been sent from Caesarea to me .
+# hak_text = Tú-tú chhai ke-sṳ̀ , su phai tui Khái-sat-li-â lòi chhìm ngài ke sâm-ke ngìn , to ngài só-he̍t ke kâ-ngìn ke vuk-hâ .
+# hak_text_han = 就在那時，他們派遣了三個人從凱撒利亞到我的住所來找我。
+# chi_text = 就在那个时候，有三个从该撒利亚派到我这里来的人，站在我住的房子门前。
+1	Tú-tú	tú-tú	ADV	_	_	_	_	_	gloss=right
+2	chhai	chhai	ADP	_	_	_	_	_	gloss=in
+3	ke-sṳ̀	ke-sṳ̀	PRON	_	_	_	_	_	gloss=that-time
+4	,	,	PUNCT	_	_	_	_	_	_
+5	su	su	ADP	_	_	_	_	_	_
+6	phai	phai	VERB	_	_	_	relcl	_	gloss=send
+7	tui	tui	ADP	_	_	6	prep	_	gloss=from
+8	Khái-sat-li-â	khái-sat-li-â	PROPN	_	_	7	pobj	_	gloss=Caesarea
+9	lòi	lòi	VERB	_	_	_	_	_	gloss=come
+10	chhìm	chhìm	VERB	_	_	_	_	_	gloss=search
+11	ngài	ngài	PRON	_	Number=Sing|Person=1	_	_	_	_
+12	ke	ke	PART	_	_	22	det	_	_
+13	sâm-ke	sâm-ke	NUM	_	_	_	nummod	_	gloss=three
+14	ngìn	ngìn	NOUN	_	_	_	_	_	gloss=man
+15	,	,	PUNCT	_	_	_	_	_	_
+16	to	to	ADP	_	_	_	_	_	gloss=to
+17	ngài	ngài	PRON	_	Number=Sing|Person=1	_	_	_	gloss=I
+18	só-he̍t	só-he̍t	NOUN	_	_	_	_	_	gloss=live
+19	ke	ke	PART	_	_	22	det	_	_
+20	kâ-ngìn	kâ-ngìn	NOUN	_	_	_	_	_	gloss=family
+21	ke	ke	PART	_	_	22	det	_	_
+22	vuk-hâ	vuk-hâ	NOUN	_	_	_	pobj	_	gloss=house
+23	.	.	PUNCT	_	_	_	punct	_	_
+
+# sent_id = 44021034
+# ref_id = Acts 21:34
+# eng_text = Some shouted one thing , some another , among the crowd . When he couldn't find out the truth because of the noise , he commanded him to be brought into the barracks .
+# hak_text = Ngìn-khiùn chûng , yû-ngìn hêm tûng , yû-ngìn hêm sî , lon-cho yit-thòn ; chṳ́-fî-kôn mò fap-thu chhà-chhut chṳ̂n-siong , chhiu min-lin phu-ha tai Pó-lò ngi̍p yàng-fòng .
+# hak_text_han = 人群中，有人喊東，有人喊西，亂作一團；指揮官無法查出真相，就命令部下帶保羅入營房。
+# chi_text = 人群當中，有的喊這個，有的喊那個；千夫長因為騷亂，無法知道真相，就下令把保羅帶到營樓裡去。
+1	Ngìn-khiùn	ngìn-khiùn	NOUN	_	_	_	_	_	gloss=crowd
+2	chûng	chûng	ADP	_	_	_	_	_	gloss=among
+3	,	,	PUNCT	_	_	_	_	_	_
+4	yû-ngìn	yû-ngìn	PRON	_	_	_	_	_	gloss=someone
+5	hêm	hêm	VERB	_	_	_	_	_	gloss=shout
+6	tûng	tûng	NOUN	_	_	_	prep	_	gloss=east
+7	,	,	PUNCT	_	_	_	_	_	_
+8	yû-ngìn	yû-ngìn	PRON	_	_	_	_	_	gloss=someone
+9	hêm	hêm	VERB	_	_	_	_	_	gloss=shout
+10	sî	sî	NOUN	_	_	_	prep	_	gloss=west
+11	,	,	PUNCT	_	_	_	_	_	_
+12	lon-cho	lon-cho	VERB	_	_	_	_	_	gloss=making
+13	yit-thòn	yit-thòn	NOUN	_	_	_	_	_	gloss=mess
+14	;	;	PUNCT	_	_	_	auxpass	_	_
+15	chṳ́-fî-kôn	chṳ́-fî-kôn	NOUN	_	_	_	_	_	gloss=Chiliarch
+16	mò	mò	DET	_	_	_	_	_	gloss=no
+17	fap-thu	fap-thu	NOUN	_	_	_	_	_	gloss=means
+18	chhà-chhut	chhà-chhut	VERB	_	_	_	_	_	gloss=find-out
+19	chṳ̂n-siong	chṳ̂n-siong	NOUN	_	_	_	_	_	gloss=truth
+20	,	,	PUNCT	_	_	_	_	_	_
+21	chhiu	chhiu	ADV	_	_	_	_	_	gloss=then
+22	min-lin	min-lin	VERB	_	_	_	_	_	gloss=command
+23	phu-ha	phu-ha	NOUN	_	_	_	_	_	gloss=subordinate
+24	tai	tai	VERB	_	_	_	_	_	gloss=bring
+25	Pó-lò	pó-lò	PROPN	_	_	_	nsubjpass	_	gloss=Paul
+26	ngi̍p	ngi̍p	ADP	_	_	_	_	_	gloss=entered
+27	yàng-fòng	yàng-fòng	NOUN	_	_	_	_	_	gloss=barracks
+28	.	.	PUNCT	_	_	_	punct	_	_
+
+# sent_id = 47012002
+# ref_id = 2 Corinthians 12:2
+# eng_text = I know a man in Christ , fourteen years ago ( whether in the body , I don't know , or whether out of the body , I don't know ; God knows ) , such a one caught up into the third heaven .
+# hak_text = Ngài tî yû yit-ke su̍k Kî-tuk ke ngìn , sṳ̍p-si-ngièn chhièn , kì su-thì to thiên-táng ke chui-kô yit-chhèn hi ( ngài m̀-tî kì he ngiuk-sṳ̂n sông-hi , ya-he chhai yi-siong chûng sông-hi , chṳ́-yû Song-ti tî ) .
+# hak_text2 = 我知道有一個屬於基督徒的人，十四年前，他被提到天堂的最高一層（我不知道他是在肉身中被提到，還是在異象中被提到，只有上帝知道）。
+# chi_text = 我认识一个在基督里的人，他十四年前被提到第三层天上去。（是带着身体被提的呢？我不知道，是离开了身体呢？我也不知道，只有　神知道。）
+1	Ngài	ngài	PRON	_	Number=Sing|Person=1	_	nsubj	_	gloss=I
+2	tî	tî	VERB	_	_	_	_	_	gloss=know
+3	yû	yû	VERB	_	_	_	_	_	gloss=there-be
+4	yit-ke	yit-ke	NUM	_	_	_	_	_	gloss=one
+5	su̍k	su̍k	ADP	_	_	_	_	_	gloss=belong
+6	Kî-tuk	kî-tuk	NOUN	_	_	_	_	_	gloss=Christ
+7	ke	ke	PART	_	_	16	det	_	_
+8	ngìn	ngìn	NOUN	_	_	_	_	_	gloss=person
+9	,	,	PUNCT	_	_	_	_	_	_
+10	sṳ̍p-si-ngièn	sṳ̍p-si-ngièn	NUM	_	_	_	_	_	gloss=fourteen-years
+11	chhièn	chhièn	ADP	_	_	_	_	_	gloss=ago
+12	,	,	PUNCT	_	_	_	_	_	_
+13	kì	kì	PRON	_	Number=Sing|Person=3	_	_	_	_
+14	su-thì	su-thì	VERB	_	_	_	_	_	gloss=lift
+15	to	to	ADP	_	_	_	_	_	gloss=to
+16	thiên-táng	thiên-táng	PROPN	_	_	_	pobj	_	gloss=heaven
+17	ke	ke	DET	_	_	16	det	_
+18	chui-kô	chui-kô	ADJ	_	_	_	_	_	gloss=highest
+19	yit-chhèn	yit-chhèn	NUM	_	_	_	_	_	gloess=level
+20	hi	hi	VERB	_	_	_	_	_	gloss=go
+21	(	(	PUNCT	_	_	_	_	_	_
+22	ngài	ngài	PRON	_	Number=Sing|Person=1	_	_	_	gloss=I
+23	m̀-tî	m̀-tî	VERB	_	_	_	_	_	gloss=do-not-know
+24	kì	kì	PRON	_	Number=Sing|Person=2	_	_	_	_
+25	he	he	VERB	_	_	_	_	_	gloss=be
+26	ngiuk-sṳ̂n	ngiuk-sṳ̂n	NOUN	_	_	_	_	_	gloss=body
+27	sông-hi	sông-hi	VERB	_	_	_	_	_	gloss=go-up
+28	,	,	PUNCT	_	_	_	_	_	_
+29	ya-he	ya-he	CCONJ	_	_	30	cc	_	gloss=or
+30	chhai	chhai	ADP	_	_	_	prep	_	gloss=in
+31	yi-siong	yi-siong	NOUN	_	_	_	_	_	gloss=vision
+32	chûng	chûng	ADP	_	_	_	_	_	_
+33	sông-hi	sông-hi	VERB	_	_	_	_	_	gloss=go-up
+34	,	,	PUNCT	_	_	_	_	_	_
+35	chṳ́-yû	chṳ́-yû	ADV	_	_	_	_	_	gloss=only
+36	Song-ti	song-ti	PROPN	_	_	_	nsubj	_	gloss=God
+37	tî	tî	VERB	_	_	_	_	_	gloss=know
+38	)	)	PUNCT	_	_	_	_	_	_
+39	.	.	PUNCT	_	_	_	punct	_	_
+
+# sent_id = 62004009
+# ref_id = 1 John 4:9
+# eng_text = By this was God's love revealed in us , that God has sent his only born Son into the world that we might live through him .
+# hak_text = Song-ti chhâi-phai Kì Thu̍k-yit ke Lai-é to sṳ-kiên lòi , pûn ngài-têu thûng-ko kì tet-tó sâng-miang ; Song-ti yung án-ngiòng lòi hién-mìn Kì siak ngài-têu .
+# hak_text 2 = 上帝差派祂獨一嘅仔到世界來，畀我哋通過佢得到生命；上帝用愛嚟顯明佢錫我哋。
+# chi_text = 神差遣他的独生子到世上来，要使我们藉着他而活；　神的爱就在我们中间显明了。
+1	Song-ti	song-ti	PROPN	_	_	_	nsubj	_	gloss=God
+2	chhâi-phai	chhâi-phai	VERB	_	_	_	pcomp	_	gloss=send
+3	Kì	kì	PRON	_	Number=Sing|Person=3	_	_	_	gloss=he
+4	Thu̍k-yit	thu̍k-yit	ADJ	_	_	_	pcomp	_	gloss=one-and-only
+5	ke	ke	PART	_	_	_	det	_	_
+6	Lai-é	lai-é	NOUN	_	_	_	conj	_	gloss=son
+7	to	to	ADP	_	_	_	_	_	gloss=to
+8	sṳ-kiên	sṳ-kiên	NOUN	_	_	_	_	_	gloss=world
+9	lòi	lòi	VERB	_	_	_	_	_	gloss=come
+10	,	,	PUNCT	_	_	_	_	_	_
+11	pûn	pûn	ADP	_	_	_	_	_	_
+12	ngài-têu	ngài-têu	PRON	_	Number=Plur|Person=1	_	_	_	gloss=we
+13	thûng-ko	thûng-ko	ADP	_	_	_	prep	_	gloss=through
+14	kì	kì	PRON	_	Number=Sing|Person=3	_	_	_	gloss=him
+15	tet-tó	tet-tó	VERB	_	_	_	_	_	gloss=obtain
+16	sâng-miang	sâng-miang	NOUN	_	_	_	dobj	_	gloss=life
+17	;	;	PUNCT	_	_	_	_	_	_
+18	Song-ti	song-ti	PROPN	_	_	_	nsubj	_	gloss=God
+19	yung	yung	ADP	_	_	_	_	_	gloss=use
+20	án-ngiòng	án-ngiòng	NOUN	_	_	_	_	_	gloss=love
+21	lòi	lòi	SCONJ	_	_	_	_	_	gloss=to
+22	hién-mìn	hién-mìn	VERB	_	_	_	_	_	gloss=reveal
+23	Kì	kì	PRON	_	Number=Sing|Person=3	_	_	_	gloss=he
+24	siak	siak	VERB	_	_	_	ccomp	_	gloss=love
+25	ngài-têu	ngài-têu	PRON	_	Number=Plur|Person=1	_	_	_	gloss=us
+26	.	.	PUNCT	_	_	_	punct	_	_
+
+# sent_id = 63001005
+# ref_id = 2 John 1:5
+# eng_text = Now I beg you , dear lady , not as though I wrote to you a new commandment , but that which we had from the beginning , that we love one another .
+# hak_text = Só-yî , chhîn-oi ke fû-ngìn , ngài khiù ngì , ngài-têu thai-kâ oi pí-chhṳ́ siông-siak . Ngài siá pûn ngì ke , pin m̀-he yit-thiàu sîn ke min-lin , hàn-he ngài-têu tui yit khôi-sṳ́ chhiu liâng-su ke .
+# hak_text2 = 所以，親愛的扶人，我求你，我們大家愛彼此相愛。我寫給你的，並不是一條新的命令，而是我們從一開始就領受的。
+# chi_text = 太太阿、我現在勸你、我們大家要彼此相愛．這並不是我寫一條新命令給你、乃是我們從起初所受的命令。
+1	Só-yî	só-yî	ADV	_	_	_	_	_	gloss=therefore
+2	,	,	PUNCT	_	_	_	_	_	_
+3	chhîn-oi	chhîn-oi	ADJ	_	_	_	_	_	gloss=dear
+4	ke	ke	PART	_	_	34	det	_	_
+5	fû-ngìn	fû-ngìn	NOUN	_	_	0	root	_	gloss=lady
+6	,	,	PUNCT	_	_	_	_	_	_
+7	ngài	ngài	PRON	_	Number=Sing|Person=1	_	_	_	gloss=I
+8	khiù	khiù	VERB	_		_	_	_	gloss=plead
+9	ngì	ngì	PRON	_	Number=Sing|Person=2	_	_	_	gloss=you
+10	,	,	PUNCT	_	_	_	_	_	_
+11	ngài-têu	ngài-têu	PRON	_	Number=Plur|Person=1	_	_	_	gloss=we
+12	thai-kâ	thai-kâ	PRON	_	_	_	_	_	gloss=everyone
+13	oi	oi	VERB	_	_	_	_	_	gloss=love
+14	pí-chhṳ́	pí-chhṳ́	PRON	_	_	_	_	_	gloss=each-other
+15	siông-siak	siông-siak	NOUN	_	_	5	ccomp	_	gloss=acquitance
+16	.	.	PUNCT	_	_	_	punct	_	_
+17	Ngài	ngài	PRON	_	Number=Sing|Person=1	5	nsubj	_	gloss=I
+18	siá	siá	VERB	_	_	_	_	_	gloss=write
+19	pûn	pûn	ADP	_	_	_	_	_	_
+20	ngì	ngì	PRON	_	Number=Sing|Person=2	_	_	_	gloss=you
+21	ke	ke	PART	_	_	34	det	_	_
+22	,	,	PUNCT	_	_	_	_	_	_
+23	pin	pin	ADV	_	_	_	_	_	_
+24	m̀-he	m̀-he	AUX	_	_	_	_	_	gloss=not
+25	yit-thiàu	yit-thiàu	NUM	_	_	_	_	_	gloss=one
+26	sîn	sîn	ADJ	_	_	_	amod	_	gloss=new
+27	ke	ke	PART	_	_	34	det	_	_
+28	min-lin	min-lin	NOUN	_	_	_	_	_	gloss=command
+29	,	,	PUNCT	_	_	_	_	_	_
+30	hàn-he	hàn-he	CCONJ	_	_	_	_	_	gloss=but
+31	ngài-têu	ngài-têu	PRON	_	Number=Plur|Person=1	_	_	_	gloss=we
+32	tui	tui	ADP	_	_	_	prep	_	gloss=from
+33	yit	yit	ADJ	_	_	_	_	_	gloss=most
+34	khôi-sṳ́	khôi-sṳ́	NOUN	_	_	32	pobj	_	gloss=beginning
+35	chhiu	chhiu	ADV	_	_	_	_	_	gloss=already
+36	liâng-su	liâng-su	VERB	_	_	_	_	_	gloss=receive
+37	ke	ke	PART	_	_	34	det	_	_
+38	.	.	PUNCT	_	_	_	punct	_	_
+

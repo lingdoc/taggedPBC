@@ -1,0 +1,763 @@
+## The following text has been annotated for parts of speech by students at NTU Singapore as part of a class project in AY 2025-26.
+## Verses are extracted from the taggedPBC. Annotations have been developed with a combination of manual and automated approaches, with reference to existing literature and (where possible) native speakers.
+## ISO 639-3: npi, Language: Nepali, Number of verses: 21
+## References: Hardie, A., Lohani, R., Regmi, B., & Yadava, Y. (2005). Categorisation for automated morphosyntactic analysis of Nepali: Introducing the Nelralec Tagset (NT-01). Technical report, Bhasa Sanchar, Kathmandu. ; Shrestha, I., & Dhakal, S. S. (2021). Fine-grained part-of-speech tagging in Nepali text. Procedia Computer Science, 189, 300–311. https://doi.org/10.1016/j.procs.2021.05.099
+
+# sent_id = 40006024
+# ref_id = Matthew 6:24
+# eng_text = " No one can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You can't serve both God and Mammon .
+# npi_text = “ kasaile pani duii maalikako sevaa ekai samayamaa garna sakdain . usale euttaalaaii ghrnnaa ra arkolaaii prem garnech . athavaa tyo euttaasit jhuknech , ra arkolaaii tuccha gannech . yasaile euttai samayamaa ekai saathamaa timiiharuule parameshvar ra dhanako caakarii garna sakdainau .
+# npi_orth = “ कसैले पनि दुई मालिकको सेवा एकै समयमा गर्न सक्दैन । उसले एउटालाई घृणा र अर्कोलाई प्रेम गर्नेछ । अथवा त्यो एउटासित झुक्नेछ , र अर्कोलाई तुच्छ गन्नेछ । यसैले एउटै समयमा एकै साथमा तिमीहरूले परमेश्वर र धनको चाकरी गर्न सक्दैनौ ।
+1	“	“	PUNCT	_	_	6	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+2	kasaile	kasaile	ADV	_	_	_	_	_	orth=कसैले|gloss=someone
+3	pani	pani	PART	_	_	_	_	_	orth=पनि|gloss=also
+4	duii	duii	NUM	_	_	5	nummod	_	orth=दुई|gloss=two|NumType=Card
+5	maalikako	maalikako	NOUN	_	_	6	dobj	_	orth=मालिकको|gloss=masters|Number=Plur
+6	sevaa	sevaa	VERB	_	_	0	root	_	orth=सेवा|gloss=serve|VerbForm=Inf
+7	ekai	ekai	CCONJ	_	_	_	det	_	orth=एकै|gloss=both|ConjType=Cmp
+8	samayamaa	samayamaa	NOUN	_	_	_	_	_	orth=समयमा|gloss=very
+9	garna	garna	NOUN	_	_	_	_	_	orth=गर्न|gloss=ar
+10	sakdain	sakdain	VERB	_	_	_	conj	_	orth=सक्दैन|gloss=despise|VerbForm=Inf
+11	.	.	PUNCT	_	_	_	_	_	orth=।
+12	usale	usale	NOUN	_	_	_	_	_	orth=उसले|gloss=rej
+13	euttaalaaii	euttaalaaii	VERB	_	_	_	conj	_	orth=एउटालाई|gloss=despise|VerbForm=Inf
+14	ghrnnaa	ghrnnaa	VERB	_	_	_	_	_	orth=घृणा|gloss=hates
+15	ra	ra	CCONJ	_	_	_	_	_	orth=र|gloss=fulfilling
+16	arkolaaii	arkolaaii	NOUN	_	_	_	_	_	orth=अर्कोलाई|gloss=als
+17	prem	prem	VERB	_	_	_	conj	_	orth=प्रेम|gloss=love|VerbForm=Inf
+18	garnech	garnech	NOUN	_	_	_	_	_	orth=गर्नेछ|gloss=believes
+19	.	.	PUNCT	_	_	_	_	_	orth=।
+20	athavaa	athavaa	NOUN	_	_	_	_	_	orth=अथवा|gloss=or
+21	tyo	tyo	DET	_	_	_	_	_	orth=त्यो|gloss=it
+22	euttaasit	euttaasit	NOUN	_	_	_	_	_	orth=एउटासित
+23	jhuknech	jhuknech	NOUN	_	_	_	_	_	orth=झुक्नेछ
+24	,	,	PUNCT	_	_	_	_	_	orth=,
+25	ra	ra	CCONJ	_	_	_	_	_	orth=र|gloss=fulfilling
+26	arkolaaii	arkolaaii	NOUN	_	_	_	_	_	orth=अर्कोलाई|gloss=als
+27	tuccha	tuccha	NOUN	_	_	_	_	_	orth=तुच्छ|gloss=presence
+28	gannech	gannech	NOUN	_	_	_	_	_	orth=गन्नेछ
+29	.	.	PUNCT	_	_	_	_	_	orth=।
+30	yasaile	yasaile	ADV	_	_	_	_	_	orth=यसैले|gloss=atch
+31	euttai	euttai	NOUN	_	_	_	_	_	orth=एउटै|gloss=ered
+32	samayamaa	samayamaa	NOUN	_	_	_	_	_	orth=समयमा|gloss=very
+33	ekai	ekai	CCONJ	_	_	_	det	_	orth=एकै|gloss=both|ConjType=Cmp
+34	saathamaa	saathamaa	VERB	_	_	_	conj	_	orth=साथमा|gloss=despise|VerbForm=Inf
+35	timiiharuule	timiiharuule	NOUN	_	_	_	_	_	orth=तिमीहरूले|gloss=forgiveness
+36	parameshvar	parameshvar	NOUN	_	_	_	_	_	orth=परमेश्वर|gloss=eg
+37	ra	ra	CCONJ	_	_	_	_	_	orth=र|gloss=fulfilling
+38	dhanako	dhanako	NOUN	_	_	_	_	_	orth=धनको
+39	caakarii	caakarii	ADJ	_	_	_	_	_	orth=चाकरी
+40	garna	garna	NOUN	_	_	_	_	_	orth=गर्न|gloss=ar
+41	sakdainau	sakdainau	VERB	_	_	_	_	_	orth=सक्दैनौ|gloss=Couldn’t
+42	.	.	PUNCT	_	_	_	_	_	orth=।
+
+# sent_id = 40018012
+# ref_id = Matthew 18:12
+# eng_text = " What do you think ? If a man has one hundred sheep , and one of them goes astray , doesn't he leave the ninety-nine , go to the mountains , and seek that which has gone astray ?
+# npi_text = “ timiiharuu ke socchau ? yadi kunai maanisako 100 vattaa bheddaaharuu chan , ani kunai euttaa haraaeko cha , bhane aruu 99 vattaa bheddaalaaii ddaamddaamaa chodder uu haraaeko euttaa bhemddaalaaii khojna jaamdain ? ke yo tthiik hoin ?
+# npi_orth = “ तिमीहरू के सोच्छौ ? यदि कुनै मानिसको 100 वटा भेडाहरू छन् , अनि कुनै एउटा हराएको छ , भने अरू 99 वटा भेडालाई डाँडामा छोडेर ऊ हराएको एउटा भेंडालाई खोज्न जाँदैन ? के यो ठीक होइन ?
+1	“	“	PUNCT	_	_	_	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+2	timiiharuu	timiiharuu	NOUN	_	_	_	_	_	orth=तिमीहरू|gloss=yourselves
+3	ke	ke	PART	_	_	_	_	_	orth=के|gloss=What
+4	socchau	socchau	NOUN	_	_	_	_	_	orth=सोच्छौ
+5	?	?	PUNCT	_	_	_	punct	_	orth=?|PunctType=Peri
+6	yadi	yadi	SCONJ	_	_	18	mark	_	orth=यदि|gloss=If
+7	kunai	kunai	NOUN	_	_	_	_	_	orth=कुनै|gloss=any
+8	maanisako	maanisako	NOUN	_	_	_	_	_	orth=मानिसको|gloss=Man
+9	100	100	NUM	_	_	_	_	_	orth=100
+10	vattaa	vattaa	ADV	_	_	_	_	_	orth=वटा|gloss=Won’t
+11	bheddaaharuu	bheddaaharuu	NOUN	_	_	_	_	_	orth=भेडाहरू
+12	chan	chan	VERB	_	_	_	_	_	orth=छन्|gloss=lear
+13	,	,	PUNCT	_	_	_	punct	_	orth=,|PunctType=Comm
+14	ani	ani	CCONJ	_	_	_	cc	_	orth=अनि|gloss=and|ConjType=Cmp
+15	kunai	kunai	NOUN	_	_	_	_	_	orth=कुनै|gloss=any
+16	euttaa	euttaa	ADV	_	_	_	_	_	orth=एउटा|gloss=arri
+17	haraaeko	haraaeko	VERB	_	_	_	relcl	_	orth=हराएको|gloss=lost|Aspect=Perf|Tense=Past|VerbForm=Part
+18	cha	cha	VERB	_	_	_	advcl	_	orth=छ|gloss=has|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+19	,	,	PUNCT	_	_	_	punct	_	orth=,|PunctType=Comm
+20	bhane	bhane	VERB	_	_	_	_	_	orth=भने|gloss=Ex
+21	aruu	aruu	NOUN	_	_	_	dobj	_	orth=अरू|gloss=others|Number=Plur
+22	99	99	NUM	_	_	_	_	_	orth=99
+23	vattaa	vattaa	ADV	_	_	_	_	_	orth=वटा|gloss=Won’t
+24	bheddaalaaii	bheddaalaaii	NOUN	_	_	_	_	_	orth=भेडालाई
+25	ddaamddaamaa	ddaamddaamaa	NOUN	_	_	_	_	_	orth=डाँडामा|gloss=sang
+26	chodder	chodder	NOUN	_	_	_	_	_	orth=छोडेर|gloss=leaving
+27	uu	uu	VERB	_	_	_	relcl	_	orth=ऊ|gloss=lost|Aspect=Perf|Tense=Past|VerbForm=Part
+28	haraaeko	haraaeko	VERB	_	_	_	relcl	_	orth=हराएको|gloss=lost|Aspect=Perf|Tense=Past|VerbForm=Part
+29	euttaa	euttaa	ADV	_	_	_	_	_	orth=एउटा|gloss=arri
+30	bhemddaalaaii	bhemddaalaaii	NOUN	_	_	_	_	_	orth=भेंडालाई
+31	khojna	khojna	NOUN	_	_	_	_	_	orth=खोज्न
+32	jaamdain	jaamdain	VERB	_	_	_	_	_	orth=जाँदैन
+33	?	?	PUNCT	_	_	_	punct	_	orth=?|PunctType=Peri
+34	ke	ke	PART	_	_	_	_	_	orth=के|gloss=What
+35	yo	yo	DET	_	_	_	_	_	orth=यो|gloss=this
+36	tthiik	tthiik	NOUN	_	_	_	_	_	orth=ठीक|gloss=very
+37	hoin	hoin	VERB	_	_	_	_	_	orth=होइन|gloss=not
+38	?	?	PUNCT	_	_	_	punct	_	orth=?|PunctType=Peri
+
+# sent_id = 40020021
+# ref_id = Matthew 20:21
+# eng_text = He said to her , " What do you want ? " She said to him , " Command that these , my two sons , may sit , one on your right hand , and one on your left hand , in your kingdom . "
+# npi_text = yeshuule sodhnubhayo , “ timii ke caahanchau ? ” unale bhanin , “ tapaaiimko raajyamaa yii meraa choraaharuumadhye ekajanaalaaii tapaaiimko daahinehaatapatttti ra arkolaaii tapaaiimko debre haatapatttti basna paaune pratijnyaa garnuhos . ”
+# npi_orth = येशूले सोध्नुभयो , “ तिमी के चाहन्छौ ? ” उनले भनिन् , “ तपाईंको राज्यमा यी मेरा छोराहरूमध्ये एकजनालाई तपाईंको दाहिनेहातपट्टि र अर्कोलाई तपाईंको देब्रे हातपट्टि बस्न पाउने प्रतिज्ञा गर्नुहोस् । ”
+1	yeshuule	yeshuule	NOUN	_	_	_	_	_	orth=येशूले|gloss=Jesus
+2	sodhnubhayo	sodhnubhayo	VERB	_	_	_	_	_	orth=सोध्नुभयो|gloss=tled
+3	,	,	PUNCT	_	_	_	punct	_	orth=,|PunctType=Comm
+4	“	“	PUNCT	_	_	_	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+5	timii	timii	PRON	_	_	_	_	_	orth=तिमी|gloss=prayers
+6	ke	ke	PRON	_	_	_	attr	_	orth=के|gloss=What
+7	caahanchau	caahanchau	NOUN	_	_	_	_	_	orth=चाहन्छौ|gloss=Would
+8	?	?	PUNCT	_	_	_	punct	_	orth=?|PunctType=Peri
+9	”	”	PUNCT	_	_	_	punct	_	orth=”|PunctSide=Fin|PunctType=Quot
+10	unale	unale	NOUN	_	_	_	_	_	orth=उनले|gloss=dawn
+11	bhanin	bhanin	VERB	_	_	_	_	_	orth=भनिन्|gloss=ant
+12	,	,	PUNCT	_	_	_	punct	_	orth=,|PunctType=Comm
+13	“	“	PUNCT	_	_	_	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+14	tapaaiimko	tapaaiimko	NOUN	_	_	_	_	_	orth=तपाईंको|gloss=ume
+15	raajyamaa	raajyamaa	PROPN	_	_	_	pobj	_	orth=राज्यमा|gloss=Kingdom|Number=Sing
+16	yii	yii	NOUN	_	_	_	_	_	orth=यी|gloss=these
+17	meraa	meraa	PRON	_	_	27	poss	_	orth=मेरा|gloss=my|Number=Sing|Person=1|Poss=Yes|PronType=Prs
+18	choraaharuumadhye	choraaharuumadhye	NOUN	_	_	_	_	_	orth=छोराहरूमध्ये
+19	ekajanaalaaii	ekajanaalaaii	NOUN	_	_	_	nsubj	_	orth=एकजनालाई|gloss=request|Number=Sing
+20	tapaaiimko	tapaaiimko	NOUN	_	_	_	_	_	orth=तपाईंको|gloss=ume
+21	daahinehaatapatttti	daahinehaatapatttti	NOUN	_	_	_	_	_	orth=दाहिनेहातपट्टि
+22	ra	ra	CCONJ	_	_	_	_	_	orth=र|gloss=fulfilling
+23	arkolaaii	arkolaaii	NOUN	_	_	_	_	_	orth=अर्कोलाई|gloss=als
+24	tapaaiimko	tapaaiimko	NOUN	_	_	_	_	_	orth=तपाईंको|gloss=ume
+25	debre	debre	NOUN	_	_	_	pobj	_	orth=देब्रे|gloss=left|Number=Sing
+26	haatapatttti	haatapatttti	NOUN	_	_	_	_	_	orth=हातपट्टि
+27	basna	basna	NOUN	_	_	_	nsubj	_	orth=बस्न|gloss=sons|Number=Plur
+28	paaune	paaune	VERB	_	_	_	_	_	orth=पाउने|gloss=ag
+29	pratijnyaa	pratijnyaa	NOUN	_	_	_	_	_	orth=प्रतिज्ञा|gloss=promise
+30	garnuhos	garnuhos	VERB	_	_	_	_	_	orth=गर्नुहोस्|gloss=def
+31	.	.	PUNCT	_	_	_	_	_	orth=।
+32	”	”	PUNCT	_	_	_	punct	_	orth=”|PunctSide=Fin|PunctType=Quot
+
+# sent_id = 40026002
+# ref_id = Matthew 26:2
+# eng_text = " You know that after two days the Passover is coming , and the Son of Man will be delivered up to be crucified . "
+# npi_text = “ timiiharuulaaii thaahai cha dui dinapachi nistaar-caadd shuruu hunech . tyasai din maaniko putralaaii kruusamaa ttaagnalaaii shatruharuu kahaam sumpiinech . ”
+# npi_orth = “ तिमीहरूलाई थाहै छ दुइ दिनपछि निस्तार-चाड शुरू हुनेछ । त्यसै दिन मानिको पुत्रलाई क्रूसमा टाग्नलाई शत्रुहरू कहाँ सुम्पिइनेछ । ”
+1	“	“	PUNCT	_	_	_	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+2	timiiharuulaaii	timiiharuulaaii	NOUN	_	_	_	_	_	orth=तिमीहरूलाई|gloss=tell
+3	thaahai	thaahai	NOUN	_	_	_	_	_	orth=थाहै
+4	cha	cha	VERB	_	_	_	_	_	orth=छ|gloss=has
+5	dui	dui	NUM	_	_	_	_	_	orth=दुइ|gloss=6
+6	dinapachi	dinapachi	NOUN	_	_	_	pobj	_	orth=दिनपछि|gloss=days|Number=Plur
+7	nistaar-caadd	nistaar-caadd	NOUN	_	_	_	_	_	orth=निस्तार-चाड
+8	shuruu	shuruu	NOUN	_	_	_	_	_	orth=शुरू|gloss=stirred
+9	hunech	hunech	AUX	_	_	_	aux	_	orth=हुनेछ|gloss=will|VerbForm=Fin
+10	.	.	PUNCT	_	_	_	_	_	orth=।
+11	tyasai	tyasai	NOUN	_	_	_	_	_	orth=त्यसै|gloss=Because
+12	din	din	VERB	_	_	_	_	_	orth=दिन|gloss=day
+13	maaniko	maaniko	NOUN	_	_	_	_	_	orth=मानिको
+14	putralaaii	putralaaii	PROPN	_	_	_	nsubjpass	_	orth=पुत्रलाई|gloss=Son|Number=Sing
+15	kruusamaa	kruusamaa	VERB	_	_	_	advcl	_	orth=क्रूसमा|gloss=crucified|Aspect=Perf|Tense=Past|VerbForm=Part
+16	ttaagnalaaii	ttaagnalaaii	NOUN	_	_	_	_	_	orth=टाग्नलाई
+17	shatruharuu	shatruharuu	NOUN	_	_	_	_	_	orth=शत्रुहरू
+18	kahaam	kahaam	NOUN	_	_	_	_	_	orth=कहाँ|gloss=Where
+19	sumpiinech	sumpiinech	NOUN	_	_	_	_	_	orth=सुम्पिइनेछ|gloss=betrayed
+20	.	.	PUNCT	_	_	_	_	_	orth=।
+21	”	”	PUNCT	_	_	_	punct	_	orth=”|PunctSide=Fin|PunctType=Quot
+
+# sent_id = 40026061
+# ref_id = Matthew 26:61
+# eng_text = and said , " This man said , ' I am able to destroy the temple of God , and to build it in three days . ' "
+# npi_text = “ yo maanisale ‘ ma parameshvarako mandir bhatkaaun sakchu ani tiin dinabhitra pheri ma yasalaaii banaaidin sakchu bhaneko cha . ’ ”
+# npi_orth = “ यो मानिसले ‘ म परमेश्वरको मन्दिर भत्काउन सक्छु अनि तीन दिनभित्र फेरि म यसलाई बनाइदिन सक्छु भनेको छ । ’ ”
+1	“	“	PUNCT	_	_	_	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+2	yo	yo	DET	_	_	_	_	_	orth=यो|gloss=this
+3	maanisale	maanisale	NOUN	_	_	_	nsubj	_	orth=मानिसले|gloss=man|Number=Sing
+4	‘	‘	PUNCT	_	_	_	punct	_	orth=‘|PunctSide=Ini|PunctType=Quot
+5	ma	ma	PRON	_	_	_	nsubj	_	orth=म|gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+6	parameshvarako	parameshvarako	NOUN	_	_	_	_	_	orth=परमेश्वरको|gloss=God’s
+7	mandir	mandir	PROPN	_	_	_	dobj	_	orth=मन्दिर|gloss=Temple|Number=Sing
+8	bhatkaaun	bhatkaaun	NOUN	_	_	_	_	_	orth=भत्काउन
+9	sakchu	sakchu	NOUN	_	_	_	_	_	orth=सक्छु|gloss=Sir
+10	ani	ani	CCONJ	_	_	_	cc	_	orth=अनि|gloss=and|ConjType=Cmp
+11	tiin	tiin	NUM	_	_	_	nummod	_	orth=तीन|gloss=three|NumType=Card
+12	dinabhitra	dinabhitra	NOUN	_	_	_	_	_	orth=दिनभित्र
+13	pheri	pheri	VERB	_	_	_	_	_	orth=फेरि|gloss=again
+14	ma	ma	PRON	_	_	_	nsubj	_	orth=म|gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+15	yasalaaii	yasalaaii	NOUN	_	_	_	_	_	orth=यसलाई|gloss=emple
+16	banaaidin	banaaidin	VERB	_	_	_	_	_	orth=बनाइदिन
+17	sakchu	sakchu	NOUN	_	_	_	_	_	orth=सक्छु|gloss=Sir
+18	bhaneko	bhaneko	NOUN	_	_	_	_	_	orth=भनेको|gloss=listened
+19	cha	cha	VERB	_	_	_	_	_	orth=छ|gloss=has
+20	.	.	PUNCT	_	_	_	_	_	orth=।
+21	’	’	PUNCT	_	_	_	punct	_	orth=’|PunctSide=Fin|PunctType=Quot
+22	”	”	PUNCT	_	_	0	root	_	orth=”|PunctSide=Fin|PunctType=Quot
+
+# sent_id = 40028016
+# ref_id = Matthew 28:16
+# eng_text = But the eleven disciples went into Galilee , to the mountain where Jesus had sent them .
+# npi_text = eghaarajanaa celaaharuu gaaliil gae .
+# npi_orth = एघारजना चेलाहरू गालील गए ।
+1	eghaarajanaa	eghaarajanaa	VERB	_	_	_	_	_	orth=एघारजना
+2	celaaharuu	celaaharuu	NOUN	_	_	_	nsubj	_	orth=चेलाहरू|gloss=disciples|Number=Plur
+3	gaaliil	gaaliil	NOUN	_	_	_	_	_	orth=गालील|gloss=Galilean
+4	gae	gae	NOUN	_	_	_	_	_	orth=गए|gloss=went
+5	.	.	PUNCT	_	_	_	_	_	orth=।
+
+# sent_id = 41002023
+# ref_id = Mark 2:23
+# eng_text = It happened , that he was going on the Sabbath day through the grain fields , and his disciples began , as they went , to pluck the ears of grain .
+# npi_text = vishraamako dinamaa , yeshuu aaphnaa celaaharuusamgai annakaa khetaharuu bhaer jaamdai hunuhunthyo , celaaharuule himddadai gardaa annakaa baalaaharuu ttipna laage .
+# npi_orth = विश्रामको दिनमा , येशू आफ्ना चेलाहरूसंगै अन्नका खेतहरू भएर जाँदै हुनुहुन्थ्यो , चेलाहरूले हिँडदै गर्दा अन्नका बालाहरू टिप्न लागे ।
+1	vishraamako	vishraamako	PROPN	_	_	2	compound	_	orth=विश्रामको|gloss=Sabbath|Number=Sing
+2	dinamaa	dinamaa	NOUN	_	_	_	npadvmod	_	orth=दिनमा|gloss=day|Number=Sing
+3	,	,	PUNCT	_	_	_	punct	_	orth=,|PunctType=Comm
+4	yeshuu	yeshuu	PROPN	_	_	_	nsubj	_	orth=येशू|gloss=Jesus|Number=Sing
+5	aaphnaa	aaphnaa	PRON	_	_	_	_	_	orth=आफ्ना|gloss=Masters
+6	celaaharuusamgai	celaaharuusamgai	NOUN	_	_	_	_	_	orth=चेलाहरूसंगै
+7	annakaa	annakaa	NOUN	_	_	_	_	_	orth=अन्नका
+8	khetaharuu	khetaharuu	NOUN	_	_	_	_	_	orth=खेतहरू
+9	bhaer	bhaer	NOUN	_	_	_	_	_	orth=भएर|gloss=towns
+10	jaamdai	jaamdai	VERB	_	_	_	_	_	orth=जाँदै|gloss=Jericho
+11	hunuhunthyo	hunuhunthyo	VERB	_	_	_	_	_	orth=हुनुहुन्थ्यो|gloss=ield
+12	,	,	PUNCT	_	_	_	punct	_	orth=,|PunctType=Comm
+13	celaaharuule	celaaharuule	NOUN	_	_	_	_	_	orth=चेलाहरूले|gloss=meant
+14	himddadai	himddadai	VERB	_	_	_	_	_	orth=हिँडदै
+15	gardaa	gardaa	VERB	_	_	_	_	_	orth=गर्दा|gloss=Did
+16	annakaa	annakaa	NOUN	_	_	_	_	_	orth=अन्नका
+17	baalaaharuu	baalaaharuu	NOUN	_	_	_	_	_	orth=बालाहरू
+18	ttipna	ttipna	NOUN	_	_	_	_	_	orth=टिप्न
+19	laage	laage	NOUN	_	_	_	_	_	orth=लागे|gloss=hip
+20	.	.	PUNCT	_	_	_	_	_	orth=।
+
+# sent_id = 41012032
+# ref_id = Mark 12:32
+# eng_text = The scribe said to him , " Truly , teacher , you have said well that he is one , and there is none other but he ,
+# npi_text = shaastriiharuule uttar die , “ he gurujyuu , tyahii nai tthiik uttar ho . tapaaiimle je bhannubhayo tyo tthik ho . parameshvar euttai paramaprabhu hun ani aruu kunai parameshvar chainan .
+# npi_orth = शास्त्रीहरूले उत्तर दिए , “ हे गुरुज्यू , त्यही नै ठीक उत्तर हो । तपाईंले जे भन्नुभयो त्यो ठिक हो । परमेश्वर एउटै परमप्रभु हुन् अनि अरू कुनै परमेश्वर छैनन् ।
+1	shaastriiharuule	shaastriiharuule	ADJ	_	_	_	amod	_	orth=शास्त्रीहरूले|gloss=religious|Degree=Pos
+2	uttar	uttar	VERB	_	_	0	root	_	orth=उत्तर|gloss=replied|Tense=Past|VerbForm=Fin
+3	die	die	NOUN	_	_	_	_	_	orth=दिए|gloss=beat
+4	,	,	PUNCT	_	_	17	punct	_	orth=,|PunctType=Comm
+5	“	“	PUNCT	_	_	2	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+6	he	he	NOUN	_	_	_	_	_	orth=हे|gloss=O
+7	gurujyuu	gurujyuu	NOUN	_	_	17	npadvmod	_	orth=गुरुज्यू|gloss=Teacher|Number=Sing
+8	,	,	PUNCT	_	_	17	punct	_	orth=,|PunctType=Comm
+9	tyahii	tyahii	NOUN	_	_	_	_	_	orth=त्यही|gloss=rejoice
+10	nai	nai	PART	_	_	_	_	_	orth=नै|gloss=imate
+11	tthiik	tthiik	NOUN	_	_	_	_	_	orth=ठीक|gloss=very
+12	uttar	uttar	VERB	_	_	0	root	_	orth=उत्तर|gloss=replied|Tense=Past|VerbForm=Fin
+13	ho	ho	PART	_	_	_	_	_	orth=हो|gloss=Bl
+14	.	.	PUNCT	_	_	_	_	_	orth=।
+15	tapaaiimle	tapaaiimle	NOUN	_	_	_	_	_	orth=तपाईंले|gloss=def
+16	je	je	DET	_	_	_	_	_	orth=जे|gloss=whatever
+17	bhannubhayo	bhannubhayo	VERB	_	_	12	ccomp	_	orth=भन्नुभयो|gloss=said|Tense=Past|VerbForm=Fin
+18	tyo	tyo	DET	_	_	_	_	_	orth=त्यो|gloss=it
+19	tthik	tthik	NOUN	_	_	_	_	_	orth=ठिक|gloss=itting
+20	ho	ho	PART	_	_	_	_	_	orth=हो|gloss=Bl
+21	.	.	PUNCT	_	_	_	_	_	orth=।
+22	parameshvar	parameshvar	NOUN	_	_	_	_	_	orth=परमेश्वर|gloss=eg
+23	euttai	euttai	NOUN	_	_	_	_	_	orth=एउटै|gloss=ered
+24	paramaprabhu	paramaprabhu	NOUN	_	_	_	_	_	orth=परमप्रभु|gloss=Lord
+25	hun	hun	NOUN	_	_	_	_	_	orth=हुन्|gloss=womb
+26	ani	ani	CCONJ	_	_	_	cc	_	orth=अनि|gloss=and|ConjType=Cmp
+27	aruu	aruu	DET	_	_	_	_	_	orth=अरू|gloss=others
+28	kunai	kunai	NOUN	_	_	_	_	_	orth=कुनै|gloss=any
+29	parameshvar	parameshvar	NOUN	_	_	_	_	_	orth=परमेश्वर|gloss=eg
+30	chainan	chainan	VERB	_	_	_	_	_	orth=छैनन्|gloss=lic
+31	.	.	PUNCT	_	_	_	_	_	orth=।
+
+# sent_id = 41014037
+# ref_id = Mark 14:37
+# eng_text = He came and found them sleeping , and said to Peter , " Simon , are you sleeping ? Couldn't you watch one hour ?
+# npi_text = tab yeshuu aaphnaa celaaharuu bhaeko tthaaummaa pharkii aaunubhayo . uhaamle tiniiharuulaaii sutiraheko paaunu bhayo . uhaamle patrusalaaii bhannubhayo , “ simon , timii sutirahekaa chau ? ke mero nimti ekaghannttaasamma pani jaagaa rahan saktainau
+# npi_orth = तब येशू आफ्ना चेलाहरू भएको ठाउँमा फर्की आउनुभयो । उहाँले तिनीहरूलाई सुतिरहेको पाउनु भयो । उहाँले पत्रुसलाई भन्नुभयो , “ सिमोन , तिमी सुतिरहेका छौ ? के मेरो निम्ति एकघण्टासम्म पनि जागा रहन सक्तैनौ
+1	tab	tab	ADV	_	_	_	advmod	_	orth=तब|gloss=Then|PronType=Dem
+2	yeshuu	yeshuu	NOUN	_	_	_	_	_	orth=येशू|gloss=Jesus
+3	aaphnaa	aaphnaa	PRON	_	_	_	_	_	orth=आफ्ना|gloss=Masters
+4	celaaharuu	celaaharuu	NOUN	_	_	_	nsubj	_	orth=चेलाहरू|gloss=disciples|Number=Plur
+5	bhaeko	bhaeko	NOUN	_	_	_	_	_	orth=भएको|gloss=had
+6	tthaaummaa	tthaaummaa	NOUN	_	_	_	_	_	orth=ठाउँमा|gloss=place
+7	pharkii	pharkii	VERB	_	_	_	conj	_	orth=फर्की|gloss=found|Tense=Past|VerbForm=Fin
+8	aaunubhayo	aaunubhayo	VERB	_	_	_	_	_	orth=आउनुभयो|gloss=sed
+9	.	.	PUNCT	_	_	_	_	_	orth=।
+10	uhaamle	uhaamle	NOUN	_	_	_	_	_	orth=उहाँले|gloss=ow
+11	tiniiharuulaaii	tiniiharuulaaii	NOUN	_	_	_	_	_	orth=तिनीहरूलाई|gloss=them
+12	sutiraheko	sutiraheko	NOUN	_	_	_	_	_	orth=सुतिरहेको|gloss=lying
+13	paaunu	paaunu	VERB	_	_	_	_	_	orth=पाउनु|gloss=deser
+14	bhayo	bhayo	VERB	_	_	_	_	_	orth=भयो|gloss=up
+15	.	.	PUNCT	_	_	_	_	_	orth=।
+16	uhaamle	uhaamle	NOUN	_	_	_	_	_	orth=उहाँले|gloss=ow
+17	patrusalaaii	patrusalaaii	NOUN	_	_	_	_	_	orth=पत्रुसलाई|gloss=ord
+18	bhannubhayo	bhannubhayo	VERB	_	_	0	root	_	orth=भन्नुभयो|gloss=said|Tense=Past|VerbForm=Fin
+19	,	,	PUNCT	_	_	_	punct	_	orth=,|PunctType=Comm
+20	“	“	PUNCT	_	_	18	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+21	simon	simon	NOUN	_	_	_	_	_	orth=सिमोन
+22	,	,	PUNCT	_	_	_	punct	_	orth=,|PunctType=Comm
+23	timii	timii	PRON	_	_	_	_	_	orth=तिमी|gloss=prayers
+24	sutirahekaa	sutirahekaa	NOUN	_	_	_	_	_	orth=सुतिरहेका
+25	chau	chau	VERB	_	_	_	_	_	orth=छौ|gloss=obeyed
+26	?	?	PUNCT	_	_	32	punct	_	orth=?|PunctType=Peri
+27	ke	ke	PART	_	_	_	_	_	orth=के|gloss=What
+28	mero	mero	PRON	_	_	_	_	_	orth=मेरो|gloss=my
+29	nimti	nimti	NOUN	_	_	_	_	_	orth=निम्ति|gloss=for
+30	ekaghannttaasamma	ekaghannttaasamma	NOUN	_	_	_	_	_	orth=एकघण्टासम्म
+31	pani	pani	PART	_	_	_	_	_	orth=पनि|gloss=also
+32	jaagaa	jaagaa	VERB	_	_	0	root	_	orth=जागा|gloss=watch|VerbForm=Inf
+33	rahan	rahan	NOUN	_	_	_	_	_	orth=रहन|gloss=ides
+34	saktainau	saktainau	NOUN	_	_	_	_	_	orth=सक्तैनौ|gloss=vine
+
+# sent_id = 42004002
+# ref_id = Luke 4:2
+# eng_text = for forty days , being tempted by the devil . He ate nothing in those days . Afterward , when they were completed , he was hungry .
+# npi_text = tyahaam caaliis dinasamma uhaamlaaii shaitaanale parikssaa liyo . uhaamle tyasabelaa kehii pani khaanu bhaen . jab tii dinaharuu bite , uhaam khubai bhokaaunu bhayo .
+# npi_orth = त्यहाँ चालीस दिनसम्म उहाँलाई शैतानले परिक्षा लियो । उहाँले त्यसबेला केही पनि खानु भएन । जब ती दिनहरू बिते , उहाँ खुबै भोकाउनु भयो ।
+1	tyahaam	tyahaam	NOUN	_	_	_	_	_	orth=त्यहाँ|gloss=there
+2	caaliis	caaliis	NUM	_	_	3	nummod	_	orth=चालीस|gloss=forty|NumType=Card
+3	dinasamma	dinasamma	NOUN	_	_	_	pobj	_	orth=दिनसम्म|gloss=days|Number=Plur
+4	uhaamlaaii	uhaamlaaii	NOUN	_	_	_	_	_	orth=उहाँलाई|gloss=him
+5	shaitaanale	shaitaanale	NOUN	_	_	_	pobj	_	orth=शैतानले|gloss=devil|Number=Sing
+6	parikssaa	parikssaa	NOUN	_	_	_	_	_	orth=परिक्षा
+7	liyo	liyo	VERB	_	_	_	_	_	orth=लियो|gloss=stepped
+8	.	.	PUNCT	_	_	_	_	_	orth=।
+9	uhaamle	uhaamle	NOUN	_	_	_	_	_	orth=उहाँले|gloss=ow
+10	tyasabelaa	tyasabelaa	VERB	_	_	_	_	_	orth=त्यसबेला|gloss=In
+11	kehii	kehii	NOUN	_	_	_	_	_	orth=केही|gloss=few
+12	pani	pani	PART	_	_	_	_	_	orth=पनि|gloss=also
+13	khaanu	khaanu	VERB	_	_	_	_	_	orth=खानु|gloss=tempt
+14	bhaen	bhaen	NOUN	_	_	_	_	_	orth=भएन|gloss=vi
+15	.	.	PUNCT	_	_	_	_	_	orth=।
+16	jab	jab	NOUN	_	_	_	_	_	orth=जब|gloss=When
+17	tii	tii	NOUN	_	_	_	_	_	orth=ती|gloss=ning
+18	dinaharuu	dinaharuu	NOUN	_	_	_	_	_	orth=दिनहरू
+19	bite	bite	NOUN	_	_	_	_	_	orth=बिते
+20	,	,	PUNCT	_	_	_	_	_	orth=,
+21	uhaam	uhaam	NOUN	_	_	_	_	_	orth=उहाँ|gloss=after
+22	khubai	khubai	NOUN	_	_	_	_	_	orth=खुबै|gloss=sad
+23	bhokaaunu	bhokaaunu	VERB	_	_	_	_	_	orth=भोकाउनु
+24	bhayo	bhayo	VERB	_	_	_	_	_	orth=भयो|gloss=up
+25	.	.	PUNCT	_	_	_	_	_	orth=।
+
+# sent_id = 42016013
+# ref_id = Luke 16:13
+# eng_text = No servant can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You aren't able to serve God and mammon . "
+# npi_text = “ ekai samayamaa euttaa nokarale duijanaa maalikako sevaa garna saktain . tyo nokarale ekajanaa maalikalaaii ghrnnaa garcha ani arkolaaii prem garcha , athavaa tyo ekajanaako bhakta huncha bhane arkolaaii man paraaumdain . ekai samayamaa timiiharuule parameshvar ra sampattiko sevaa garna saktainau . ”
+# npi_orth = “ एकै समयमा एउटा नोकरले दुइजना मालिकको सेवा गर्न सक्तैन । त्यो नोकरले एकजना मालिकलाई घृणा गर्छ अनि अर्कोलाई प्रेम गर्छ , अथवा त्यो एकजनाको भक्त हुन्छ भने अर्कोलाई मन पराउँदैन । एकै समयमा तिमीहरूले परमेश्वर र सम्पत्तिको सेवा गर्न सक्तैनौ । ”
+1	“	“	PUNCT	_	_	8	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+2	ekai	ekai	CCONJ	_	_	_	det	_	orth=एकै|gloss=both|ConjType=Cmp
+3	samayamaa	samayamaa	NOUN	_	_	_	_	_	orth=समयमा|gloss=very
+4	euttaa	euttaa	ADV	_	_	_	_	_	orth=एउटा|gloss=arri
+5	nokarale	nokarale	NOUN	_	_	_	_	_	orth=नोकरले|gloss=celebr
+6	duijanaa	duijanaa	NUM	_	_	7	nummod	_	orth=दुइजना|gloss=two|NumType=Card
+7	maalikako	maalikako	NOUN	_	_	8	dobj	_	orth=मालिकको|gloss=masters|Number=Plur
+8	sevaa	sevaa	VERB	_	_	0	root	_	orth=सेवा|gloss=serve|VerbForm=Inf
+9	garna	garna	NOUN	_	_	_	_	_	orth=गर्न|gloss=ar
+10	saktain	saktain	VERB	_	_	_	_	_	orth=सक्तैन|gloss=desert
+11	.	.	PUNCT	_	_	_	_	_	orth=।
+12	tyo	tyo	DET	_	_	_	_	_	orth=त्यो|gloss=it
+13	nokarale	nokarale	NOUN	_	_	_	_	_	orth=नोकरले|gloss=celebr
+14	ekajanaa	ekajanaa	VERB	_	_	_	_	_	orth=एकजना|gloss=ib
+15	maalikalaaii	maalikalaaii	NOUN	_	_	_	_	_	orth=मालिकलाई|gloss=asks
+16	ghrnnaa	ghrnnaa	VERB	_	_	_	_	_	orth=घृणा|gloss=hates
+17	garcha	garcha	NOUN	_	_	_	_	_	orth=गर्छ|gloss=anyone
+18	ani	ani	CCONJ	_	_	_	cc	_	orth=अनि|gloss=and|ConjType=Cmp
+19	arkolaaii	arkolaaii	NOUN	_	_	_	_	_	orth=अर्कोलाई|gloss=als
+20	prem	prem	VERB	_	_	_	conj	_	orth=प्रेम|gloss=love|VerbForm=Inf
+21	garcha	garcha	NOUN	_	_	_	_	_	orth=गर्छ|gloss=anyone
+22	,	,	PUNCT	_	_	_	_	_	orth=,
+23	athavaa	athavaa	NOUN	_	_	_	_	_	orth=अथवा|gloss=or
+24	tyo	tyo	DET	_	_	_	_	_	orth=त्यो|gloss=it
+25	ekajanaako	ekajanaako	NOUN	_	_	_	_	_	orth=एकजनाको|gloss=worked
+26	bhakta	bhakta	NOUN	_	_	_	_	_	orth=भक्त
+27	huncha	huncha	VERB	_	_	_	_	_	orth=हुन्छ|gloss=behalf
+28	bhane	bhane	VERB	_	_	_	_	_	orth=भने|gloss=Ex
+29	arkolaaii	arkolaaii	NOUN	_	_	_	_	_	orth=अर्कोलाई|gloss=als
+30	man	man	NOUN	_	_	_	_	_	orth=मन|gloss=enough
+31	paraaumdain	paraaumdain	VERB	_	_	_	_	_	orth=पराउँदैन
+32	.	.	PUNCT	_	_	_	_	_	orth=।
+33	ekai	ekai	CCONJ	_	_	_	det	_	orth=एकै|gloss=both|ConjType=Cmp
+34	samayamaa	samayamaa	NOUN	_	_	_	_	_	orth=समयमा|gloss=very
+35	timiiharuule	timiiharuule	NOUN	_	_	_	_	_	orth=तिमीहरूले|gloss=forgiveness
+36	parameshvar	parameshvar	NOUN	_	_	_	_	_	orth=परमेश्वर|gloss=eg
+37	ra	ra	CCONJ	_	_	_	_	_	orth=र|gloss=fulfilling
+38	sampattiko	sampattiko	NOUN	_	_	_	_	_	orth=सम्पत्तिको
+39	sevaa	sevaa	VERB	_	_	0	root	_	orth=सेवा|gloss=serve|VerbForm=Inf
+40	garna	garna	NOUN	_	_	_	_	_	orth=गर्न|gloss=ar
+41	saktainau	saktainau	NOUN	_	_	_	_	_	orth=सक्तैनौ|gloss=vine
+42	.	.	PUNCT	_	_	_	_	_	orth=।
+43	”	”	PUNCT	_	_	39	punct	_	orth=”|PunctSide=Fin|PunctType=Quot
+
+# sent_id = 42024018
+# ref_id = Luke 24:18
+# eng_text = One of them , named Cleopas , answered him , " Are you the only one travelling in Jerusalem who doesn't know the things which have happened there in these days ? "
+# npi_text = tiniiharuu madhye ekajanaa kleopaas naaum bhaekole bhane , “ yaruushalemako ekajanaa maanis yaruushalemamaa ghatteko ghattanaaharuu baare najaanne maanis saayad timii maatra hau ki ? ”
+# npi_orth = तिनीहरू मध्ये एकजना क्लेओपास नाउँ भएकोले भने , “ यरूशलेमको एकजना मानिस यरूशलेममा घटेको घटनाहरू बारे नजान्ने मानिस सायद तिमी मात्र हौ कि ? ”
+1	tiniiharuu	tiniiharuu	NOUN	_	_	_	_	_	orth=तिनीहरू|gloss=They
+2	madhye	madhye	NOUN	_	_	_	_	_	orth=मध्ये|gloss=bystanders
+3	ekajanaa	ekajanaa	VERB	_	_	_	_	_	orth=एकजना|gloss=ib
+4	kleopaas	kleopaas	NOUN	_	_	_	_	_	orth=क्लेओपास
+5	naaum	naaum	NOUN	_	_	_	_	_	orth=नाउँ|gloss=named
+6	bhaekole	bhaekole	NOUN	_	_	_	_	_	orth=भएकोले|gloss=op
+7	bhane	bhane	VERB	_	_	_	_	_	orth=भने|gloss=Ex
+8	,	,	PUNCT	_	_	_	punct	_	orth=,|PunctType=Comm
+9	“	“	PUNCT	_	_	_	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+10	yaruushalemako	yaruushalemako	NOUN	_	_	_	_	_	orth=यरूशलेमको
+11	ekajanaa	ekajanaa	VERB	_	_	_	_	_	orth=एकजना|gloss=ib
+12	maanis	maanis	VERB	_	_	_	_	_	orth=मानिस|gloss=ledge
+13	yaruushalemamaa	yaruushalemamaa	PROPN	_	_	_	pobj	_	orth=यरूशलेममा|gloss=Jerusalem|Number=Sing
+14	ghatteko	ghatteko	NOUN	_	_	_	_	_	orth=घटेको
+15	ghattanaaharuu	ghattanaaharuu	NOUN	_	_	_	_	_	orth=घटनाहरू|gloss=judg
+16	baare	baare	NOUN	_	_	_	_	_	orth=बारे|gloss=best
+17	najaanne	najaanne	VERB	_	_	_	_	_	orth=नजान्ने
+18	maanis	maanis	VERB	_	_	_	_	_	orth=मानिस|gloss=ledge
+19	saayad	saayad	NOUN	_	_	_	_	_	orth=सायद
+20	timii	timii	PRON	_	_	_	_	_	orth=तिमी|gloss=prayers
+21	maatra	maatra	ADJ	_	_	_	amod	_	orth=मात्र|gloss=only|Degree=Pos
+22	hau	hau	PART	_	_	_	_	_	orth=हौ|gloss=importantthe
+23	ki	ki	PRON	_	_	_	nsubj	_	orth=कि|gloss=that|PronType=Rel
+24	?	?	PUNCT	_	_	_	_	_	orth=?
+25	”	”	PUNCT	_	_	_	punct	_	orth=”|PunctSide=Fin|PunctType=Quot
+
+# sent_id = 43001039
+# ref_id = John 1:39
+# eng_text = He said to them , " Come , and see . " They came and saw where he was staying , and they stayed with him that day . It was about the tenth hour .
+# npi_text = yeshuule uttar dinubhayo , “ masamga aao ani timiiharuule dekhnechau . ” tab tii duijanaa yeshuusamga gae . tiniiharuule yeshuu basnu bhaeko tthaaum dekhe . tyas din yeshuusamgai tiniiharuu vaas base . tyasabelaa caar bajii sakeko thiyo .
+# npi_orth = येशूले उत्तर दिनुभयो , “ मसँग आओ अनि तिमीहरूले देख्नेछौ । ” तब ती दुइजना येशूसंग गए । तिनीहरूले येशू बस्नु भएको ठाउँ देखे । त्यस दिन येशूसंगै तिनीहरू वास बसे । त्यसबेला चार बजी सकेको थियो ।
+1	yeshuule	yeshuule	NOUN	_	_	_	_	_	orth=येशूले|gloss=Jesus
+2	uttar	uttar	ADJ	_	_	_	_	_	orth=उत्तर|gloss=replied
+3	dinubhayo	dinubhayo	VERB	_	_	_	_	_	orth=दिनुभयो|gloss=gave
+4	,	,	PUNCT	_	_	37	punct	_	orth=,|PunctType=Comm
+5	“	“	PUNCT	_	_	7	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+6	masamga	masamga	NOUN	_	_	_	_	_	orth=मसँग|gloss=companions
+7	aao	aao	VERB	_	_	_	ccomp	_	orth=आओ|gloss=Come|VerbForm=Inf
+8	ani	ani	CCONJ	_	_	37	cc	_	orth=अनि|gloss=and|ConjType=Cmp
+9	timiiharuule	timiiharuule	NOUN	_	_	_	_	_	orth=तिमीहरूले|gloss=forgiveness
+10	dekhnechau	dekhnechau	VERB	_	_	7	conj	_	orth=देख्नेछौ|gloss=see|VerbForm=Inf
+11	.	.	PUNCT	_	_	_	_	_	orth=।
+12	”	”	PUNCT	_	_	_	punct	_	orth=”|PunctSide=Fin|PunctType=Quot
+13	tab	tab	NOUN	_	_	_	_	_	orth=तब|gloss=Then
+14	tii	tii	NOUN	_	_	_	_	_	orth=ती|gloss=ning
+15	duijanaa	duijanaa	VERB	_	_	_	_	_	orth=दुइजना|gloss=two
+16	yeshuusamga	yeshuusamga	NOUN	_	_	_	_	_	orth=येशूसंग|gloss=appeared
+17	gae	gae	VERB	_	_	37	advcl	_	orth=गए|gloss=went|Tense=Past|VerbForm=Fin
+18	.	.	PUNCT	_	_	_	_	_	orth=।
+19	tiniiharuule	tiniiharuule	PRON	_	_	30	nsubj	_	orth=तिनीहरूले|gloss=they|Case=Nom|Number=Plur|Person=3|PronType=Prs
+20	yeshuu	yeshuu	NOUN	_	_	_	_	_	orth=येशू|gloss=Jesus
+21	basnu	basnu	VERB	_	_	_	_	_	orth=बस्नु|gloss=sub
+22	bhaeko	bhaeko	NOUN	_	_	_	_	_	orth=भएको|gloss=had
+23	tthaaum	tthaaum	NOUN	_	_	_	pobj	_	orth=ठाउँ|gloss=place|Number=Sing
+24	dekhe	dekhe	NOUN	_	_	_	_	_	orth=देखे|gloss=saw
+25	.	.	PUNCT	_	_	_	_	_	orth=।
+26	tyas	tyas	DET	_	_	_	_	_	orth=त्यस|gloss=woman
+27	din	din	NOUN	_	_	_	pobj	_	orth=दिन|gloss=day|Number=Sing
+28	yeshuusamgai	yeshuusamgai	NOUN	_	_	_	_	_	orth=येशूसंगै|gloss=begged
+29	tiniiharuu	tiniiharuu	NOUN	_	_	_	_	_	orth=तिनीहरू|gloss=They
+30	vaas	vaas	VERB	_	_	37	conj	_	orth=वास|gloss=remained|Tense=Past|VerbForm=Fin
+31	base	base	NOUN	_	_	_	_	_	orth=बसे|gloss=stayed
+32	.	.	PUNCT	_	_	_	_	_	orth=।
+33	tyasabelaa	tyasabelaa	VERB	_	_	_	_	_	orth=त्यसबेला|gloss=In
+34	caar	caar	NUM	_	_	_	nummod	_	orth=चार|gloss=four|NumType=Card
+35	bajii	bajii	NOUN	_	_	_	_	_	orth=बजी
+36	sakeko	sakeko	NOUN	_	_	_	_	_	orth=सकेको|gloss=problem
+37	thiyo	thiyo	AUX	_	_	_	aux	_	orth=थियो|gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+38	.	.	PUNCT	_	_	_	_	_	orth=।
+
+# sent_id = 43003016
+# ref_id = John 3:16
+# eng_text = For God so loved the world , that he gave his one and only Son , that whoever believes in him should not perish , but have eternal life .
+# npi_text = ho , parameshvarale samsaaralaaii yati saahro prem garnubhayo , ki uhaamle aaphnaa ekamaatra putralaaii dinu bhayo . parameshvarale aaphnaa putralaaii dinu bhayo tyas dvaaraa uhaammaathi vishvaas garne kohiipani naash hune chain , tar ananta jiivan praapta garnech .
+# npi_orth = हो , परमेश्वरले संसारलाई यति साह्रो प्रेम गर्नुभयो , कि उहाँले आफ्ना एकमात्र पुत्रलाई दिनु भयो । परमेश्वरले आफ्ना पुत्रलाई दिनु भयो त्यस द्वारा उहाँमाथि विश्वास गर्ने कोहीपनि नाश हुने छैन , तर अनन्त जीवन प्राप्त गर्नेछ ।
+1	ho	ho	PART	_	_	_	_	_	orth=हो|gloss=Bl
+2	,	,	PUNCT	_	_	_	punct	_	orth=,|PunctType=Comm
+3	parameshvarale	parameshvarale	NOUN	_	_	_	_	_	orth=परमेश्वरले|gloss=our
+4	samsaaralaaii	samsaaralaaii	NOUN	_	_	_	dobj	_	orth=संसारलाई|gloss=world|Number=Sing
+5	yati	yati	DET	_	_	_	_	_	orth=यति|gloss=sanctuary
+6	saahro	saahro	ADJ	_	_	_	_	_	orth=साह्रो
+7	prem	prem	NOUN	_	_	_	_	_	orth=प्रेम|gloss=love
+8	garnubhayo	garnubhayo	VERB	_	_	_	_	_	orth=गर्नुभयो|gloss=possible
+9	,	,	PUNCT	_	_	_	punct	_	orth=,|PunctType=Comm
+10	ki	ki	SCONJ	_	_	_	mark	_	orth=कि|gloss=that
+11	uhaamle	uhaamle	NOUN	_	_	_	_	_	orth=उहाँले|gloss=ow
+12	aaphnaa	aaphnaa	PRON	_	_	_	_	_	orth=आफ्ना|gloss=Masters
+13	ekamaatra	ekamaatra	NOUN	_	_	_	_	_	orth=एकमात्र|gloss=se
+14	putralaaii	putralaaii	PROPN	_	_	_	appos	_	orth=पुत्रलाई|gloss=Son|Number=Sing
+15	dinu	dinu	VERB	_	_	_	_	_	orth=दिनु|gloss=tor
+16	bhayo	bhayo	VERB	_	_	_	_	_	orth=भयो|gloss=up
+17	.	.	PUNCT	_	_	_	_	_	orth=।
+18	parameshvarale	parameshvarale	NOUN	_	_	_	_	_	orth=परमेश्वरले|gloss=our
+19	aaphnaa	aaphnaa	PRON	_	_	_	_	_	orth=आफ्ना|gloss=Masters
+20	putralaaii	putralaaii	PROPN	_	_	_	appos	_	orth=पुत्रलाई|gloss=Son|Number=Sing
+21	dinu	dinu	VERB	_	_	_	_	_	orth=दिनु|gloss=tor
+22	bhayo	bhayo	VERB	_	_	_	_	_	orth=भयो|gloss=up
+23	tyas	tyas	DET	_	_	_	_	_	orth=त्यस|gloss=woman
+24	dvaaraa	dvaaraa	ADJ	_	_	_	_	_	orth=द्वारा|gloss=sheet
+25	uhaammaathi	uhaammaathi	NOUN	_	_	_	_	_	orth=उहाँमाथि|gloss=De
+26	vishvaas	vishvaas	NOUN	_	_	_	_	_	orth=विश्वास|gloss=believe
+27	garne	garne	VERB	_	_	_	_	_	orth=गर्ने|gloss=innocent
+28	kohiipani	kohiipani	NOUN	_	_	_	_	_	orth=कोहीपनि
+29	naash	naash	NOUN	_	_	_	_	_	orth=नाश|gloss=destroy
+30	hune	hune	VERB	_	_	_	_	_	orth=हुने|gloss=ia
+31	chain	chain	VERB	_	_	_	_	_	orth=छैन|gloss=fit
+32	,	,	PUNCT	_	_	_	punct	_	orth=,|PunctType=Comm
+33	tar	tar	CCONJ	_	_	_	cc	_	orth=तर|gloss=but|ConjType=Cmp
+34	ananta	ananta	ADJ	_	_	35	amod	_	orth=अनन्त|gloss=eternal|Degree=Pos
+35	jiivan	jiivan	NOUN	_	_	_	dobj	_	orth=जीवन|gloss=life|Number=Sing
+36	praapta	praapta	NOUN	_	_	_	_	_	orth=प्राप्त|gloss=de
+37	garnech	garnech	VERB	_	_	_	relcl	_	orth=गर्नेछ|gloss=believes|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+38	.	.	PUNCT	_	_	_	_	_	orth=।
+
+# sent_id = 44002030
+# ref_id = Acts 2:30
+# eng_text = Therefore , being a prophet , and knowing that God had sworn with an oath to him that of the fruit of his body , according to the flesh , he would raise up the Christ to sit on his throne ,
+# npi_text = daauud ek agamavaktaa thie ani parameshvarale bhannu bhaekaa kuraaharuu jaandathe . parameshvarale daauudalaaii vacan dinu bhaeko thiyo ki unakai parivaarabaatt kunai ekajanaalaaii daauud jastai raajaa banaaunechu bhanii .
+# npi_orth = दाऊद एक अगमवक्ता थिए अनि परमेश्वरले भन्नु भएका कुराहरू जान्दथे । परमेश्वरले दाऊदलाई वचन दिनु भएको थियो कि उनकै परिवारबाट कुनै एकजनालाई दाऊद जस्तै राजा बनाउनेछु भनी ।
+1	daauud	daauud	PROPN	_	_	26	poss	_	orth=दाऊद|gloss=David|Number=Sing
+2	ek	ek	NUM	_	_	_	nsubj	_	orth=एक|gloss=one|NumType=Card
+3	agamavaktaa	agamavaktaa	NOUN	_	_	17	attr	_	orth=अगमवक्ता|gloss=prophet|Number=Sing
+4	thie	thie	NOUN	_	_	_	_	_	orth=थिए|gloss=were
+5	ani	ani	CCONJ	_	_	17	cc	_	orth=अनि|gloss=and|ConjType=Cmp
+6	parameshvarale	parameshvarale	NOUN	_	_	_	_	_	orth=परमेश्वरले|gloss=our
+7	bhannu	bhannu	VERB	_	_	_	_	_	orth=भन्नु|gloss=speaking
+8	bhaekaa	bhaekaa	NOUN	_	_	_	_	_	orth=भएका|gloss=’ve
+9	kuraaharuu	kuraaharuu	NOUN	_	_	_	_	_	orth=कुराहरू|gloss=things
+10	jaandathe	jaandathe	NOUN	_	_	_	pobj	_	orth=जान्दथे|gloss=descendants|Number=Plur
+11	.	.	PUNCT	_	_	_	_	_	orth=।
+12	parameshvarale	parameshvarale	NOUN	_	_	_	_	_	orth=परमेश्वरले|gloss=our
+13	daauudalaaii	daauudalaaii	NOUN	_	_	_	_	_	orth=दाऊदलाई
+14	vacan	vacan	NOUN	_	_	_	_	_	orth=वचन|gloss=represents
+15	dinu	dinu	VERB	_	_	_	_	_	orth=दिनु|gloss=tor
+16	bhaeko	bhaeko	AUX	_	_	_	aux	_	orth=भएको|gloss=had|Tense=Past|VerbForm=Fin
+17	thiyo	thiyo	AUX	_	_	0	root	_	orth=थियो|gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+18	ki	ki	SCONJ	_	_	_	mark	_	orth=कि|gloss=that
+19	unakai	unakai	NOUN	_	_	_	_	_	orth=उनकै|gloss=devout
+20	parivaarabaatt	parivaarabaatt	NOUN	_	_	_	_	_	orth=परिवारबाट|gloss=liness
+21	kunai	kunai	NOUN	_	_	_	_	_	orth=कुनै|gloss=any
+22	ekajanaalaaii	ekajanaalaaii	NOUN	_	_	_	_	_	orth=एकजनालाई|gloss=request
+23	daauud	daauud	PROPN	_	_	26	poss	_	orth=दाऊद|gloss=David|Number=Sing
+24	jastai	jastai	NOUN	_	_	_	_	_	orth=जस्तै|gloss=like
+25	raajaa	raajaa	NOUN	_	_	_	_	_	orth=राजा|gloss=king
+26	banaaunechu	banaaunechu	NOUN	_	_	_	pobj	_	orth=बनाउनेछु|gloss=descendants|Number=Plur
+27	bhanii	bhanii	SCONJ	_	_	_	_	_	orth=भनी|gloss=You’re
+28	.	.	PUNCT	_	_	_	_	_	orth=।
+
+# sent_id = 44009038
+# ref_id = Acts 9:38
+# eng_text = As Lydda was near Joppa , the disciples , hearing that Peter was there , sent two men to him , imploring him not to delay in coming to them .
+# npi_text = joppaamaa bhaekaa celaaharuule patrus liddddaamaa thiyo bhanne sune . liddddaa joppaako cheumaa thiyo . yasartha tiniiharuule patrusakahaam duijanaa maanisaharuu patthaae . tiniiharuule unalaaii bintii gare , “ dayaa garer haamii bhaeko tthaaummaa chitto aaunuhos . ”
+# npi_orth = जोप्पामा भएका चेलाहरूले पत्रुस लिड्डामा थियो भन्ने सुने । लिड्डा जोप्पाको छेउमा थियो । यसर्थ तिनीहरूले पत्रुसकहाँ दुइजना मानिसहरू पठाए । तिनीहरूले उनलाई बिन्ती गरे , “ दया गरेर हामी भएको ठाउँमा छिटो आउनुहोस् । ”
+1	joppaamaa	joppaamaa	NOUN	_	_	_	_	_	orth=जोप्पामा
+2	bhaekaa	bhaekaa	NOUN	_	_	_	_	_	orth=भएका|gloss=’ve
+3	celaaharuule	celaaharuule	NOUN	_	_	_	_	_	orth=चेलाहरूले|gloss=meant
+4	patrus	patrus	PROPN	_	_	6	nsubj	_	orth=पत्रुस|gloss=Peter|Number=Sing
+5	liddddaamaa	liddddaamaa	NOUN	_	_	_	_	_	orth=लिड्डामा
+6	thiyo	thiyo	AUX	_	_	8	ccomp	_	orth=थियो|gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+7	bhanne	bhanne	SCONJ	_	_	_	_	_	orth=भन्ने|gloss=Skull
+8	sune	sune	VERB	_	_	20	ccomp	_	orth=सुने|gloss=heard|Aspect=Perf|Tense=Past|VerbForm=Part
+9	.	.	PUNCT	_	_	_	_	_	orth=।
+10	liddddaa	liddddaa	VERB	_	_	_	_	_	orth=लिड्डा
+11	joppaako	joppaako	NOUN	_	_	_	_	_	orth=जोप्पाको
+12	cheumaa	cheumaa	NOUN	_	_	_	_	_	orth=छेउमा|gloss=viol
+13	thiyo	thiyo	AUX	_	_	8	ccomp	_	orth=थियो|gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+14	.	.	PUNCT	_	_	_	_	_	orth=।
+15	yasartha	yasartha	NOUN	_	_	_	_	_	orth=यसर्थ|gloss=So
+16	tiniiharuule	tiniiharuule	PRON	_	_	20	nsubj	_	orth=तिनीहरूले|gloss=they|Case=Nom|Number=Plur|Person=3|PronType=Prs
+17	patrusakahaam	patrusakahaam	NOUN	_	_	_	_	_	orth=पत्रुसकहाँ|gloss=acc
+18	duijanaa	duijanaa	NUM	_	_	_	nummod	_	orth=दुइजना|gloss=two|NumType=Card
+19	maanisaharuu	maanisaharuu	NOUN	_	_	_	_	_	orth=मानिसहरू|gloss=weeping
+20	patthaae	patthaae	VERB	_	_	0	root	_	orth=पठाए|gloss=sent|Tense=Past|VerbForm=Fin
+21	.	.	PUNCT	_	_	_	_	_	orth=।
+22	tiniiharuule	tiniiharuule	PRON	_	_	20	nsubj	_	orth=तिनीहरूले|gloss=they|Case=Nom|Number=Plur|Person=3|PronType=Prs
+23	unalaaii	unalaaii	NOUN	_	_	_	_	_	orth=उनलाई|gloss=sw
+24	bintii	bintii	NOUN	_	_	_	_	_	orth=बिन्ती|gloss=begged
+25	gare	gare	NOUN	_	_	_	_	_	orth=गरे|gloss=ks
+26	,	,	PUNCT	_	_	20	punct	_	orth=,|PunctType=Comm
+27	“	“	PUNCT	_	_	20	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+28	dayaa	dayaa	NOUN	_	_	_	_	_	orth=दया|gloss=ci
+29	garer	garer	NOUN	_	_	_	_	_	orth=गरेर|gloss=forgiveness
+30	haamii	haamii	PRON	_	_	_	_	_	orth=हामी|gloss=we
+31	bhaeko	bhaeko	AUX	_	_	8	aux	_	orth=भएको|gloss=had|Tense=Past|VerbForm=Fin
+32	tthaaummaa	tthaaummaa	NOUN	_	_	_	_	_	orth=ठाउँमा|gloss=place
+33	chitto	chitto	NOUN	_	_	_	_	_	orth=छिटो
+34	aaunuhos	aaunuhos	VERB	_	_	_	_	_	orth=आउनुहोस्|gloss=witness
+35	.	.	PUNCT	_	_	_	_	_	orth=।
+36	”	”	PUNCT	_	_	20	punct	_	orth=”|PunctSide=Fin|PunctType=Quot
+
+# sent_id = 44011011
+# ref_id = Acts 11:11
+# eng_text = Behold , immediately three men stood before the house where I was , having been sent from Caesarea to me .
+# npi_text = tyasai samayamaa ma basiraheko gharamaa tiinajanaa maaniharuu aae . tii tiinajanaa maanisaharuulaaii sijariyaa shaharabaatt mero nimti patthaaikaa thie .
+# npi_orth = त्यसै समयमा म बसिरहेको घरमा तीनजना मानिहरू आए । ती तीनजना मानिसहरूलाई सिजरिया शहरबाट मेरो निम्ति पठाइका थिए ।
+1	tyasai	tyasai	NOUN	_	_	_	_	_	orth=त्यसै|gloss=Because
+2	samayamaa	samayamaa	NOUN	_	_	_	_	_	orth=समयमा|gloss=very
+3	ma	ma	PRON	_	_	_	_	_	orth=म|gloss=I
+4	basiraheko	basiraheko	PROPN	_	_	_	pobj	_	orth=बसिरहेको|gloss=Caesarea|Number=Sing
+5	gharamaa	gharamaa	NOUN	_	_	_	pobj	_	orth=घरमा|gloss=house|Number=Sing
+6	tiinajanaa	tiinajanaa	VERB	_	_	_	_	_	orth=तीनजना|gloss=uzz
+7	maaniharuu	maaniharuu	PROPN	_	_	_	pobj	_	orth=मानिहरू|gloss=Caesarea|Number=Sing
+8	aae	aae	NOUN	_	_	_	_	_	orth=आए|gloss=came
+9	.	.	PUNCT	_	_	_	_	_	orth=।
+10	tii	tii	NOUN	_	_	_	_	_	orth=ती|gloss=ning
+11	tiinajanaa	tiinajanaa	VERB	_	_	_	_	_	orth=तीनजना|gloss=uzz
+12	maanisaharuulaaii	maanisaharuulaaii	NOUN	_	_	_	_	_	orth=मानिसहरूलाई|gloss=ary
+13	sijariyaa	sijariyaa	PROPN	_	_	_	pobj	_	orth=सिजरिया|gloss=Caesarea|Number=Sing
+14	shaharabaatt	shaharabaatt	ADV	_	_	_	advmod	_	orth=शहरबाट|gloss=Just
+15	mero	mero	PRON	_	_	_	_	_	orth=मेरो|gloss=my
+16	nimti	nimti	NOUN	_	_	_	_	_	orth=निम्ति|gloss=for
+17	patthaaikaa	patthaaikaa	NOUN	_	_	_	_	_	orth=पठाइका
+18	thie	thie	AUX	_	_	_	aux	_	orth=थिए|gloss=were|Mood=Ind|Tense=Past|VerbForm=Fin
+19	.	.	PUNCT	_	_	_	_	_	orth=।
+
+# sent_id = 44021034
+# ref_id = Acts 21:34
+# eng_text = Some shouted one thing , some another , among the crowd . When he couldn't find out the truth because of the noise , he commanded him to be brought into the barracks .
+# npi_text = katipaya maanisaharuule ek thariikaa kuraaharuu garirahekaa thie ani anya katipaya maanisaharuule arko thariikaa kuraaharuu garirehakaa thie . . yasto anyolakaa kuraaharuule gardaa senaapatile satya kuraa pattaa lagaaun sakenan . tasartha , senaapatile senaaharuulaaii senaa bhavanamaa paavalalaaii laijaan bhanne hukuum gare .
+# npi_orth = कतिपय मानिसहरूले एक थरीका कुराहरू गरिरहेका थिए अनि अन्य कतिपय मानिसहरूले अर्को थरीका कुराहरू गरिरेहका थिए । । यस्तो अन्योलका कुराहरूले गर्दा सेनापतिले सत्य कुरा पत्ता लगाउन सकेनन् । तसर्थ , सेनापतिले सेनाहरूलाई सेना भवनमा पावललाई लैजान भन्ने हुकूम गरे ।
+1	katipaya	katipaya	NOUN	_	_	_	_	_	orth=कतिपय|gloss=became
+2	maanisaharuule	maanisaharuule	NOUN	_	_	_	_	_	orth=मानिसहरूले|gloss=picked
+3	ek	ek	NUM	_	_	_	nummod	_	orth=एक|gloss=one|NumType=Card
+4	thariikaa	thariikaa	NOUN	_	_	_	_	_	orth=थरीका|gloss=troubles
+5	kuraaharuu	kuraaharuu	NOUN	_	_	_	_	_	orth=कुराहरू|gloss=things
+6	garirahekaa	garirahekaa	NOUN	_	_	_	_	_	orth=गरिरहेका|gloss=ra
+7	thie	thie	NOUN	_	_	_	_	_	orth=थिए|gloss=were
+8	ani	ani	CCONJ	_	_	_	cc	_	orth=अनि|gloss=and|ConjType=Cmp
+9	anya	anya	NOUN	_	_	_	_	_	orth=अन्य|gloss=Tw
+10	katipaya	katipaya	NOUN	_	_	_	_	_	orth=कतिपय|gloss=became
+11	maanisaharuule	maanisaharuule	NOUN	_	_	_	_	_	orth=मानिसहरूले|gloss=picked
+12	arko	arko	PRON	_	_	_	conj	_	orth=अर्को|gloss=another
+13	thariikaa	thariikaa	NOUN	_	_	_	_	_	orth=थरीका|gloss=troubles
+14	kuraaharuu	kuraaharuu	NOUN	_	_	_	_	_	orth=कुराहरू|gloss=things
+15	garirehakaa	garirehakaa	NOUN	_	_	_	_	_	orth=गरिरेहका
+16	thie	thie	NOUN	_	_	_	_	_	orth=थिए|gloss=were
+17	.	.	PUNCT	_	_	_	_	_	orth=।
+18	.	.	PUNCT	_	_	_	_	_	orth=।
+19	yasto	yasto	DET	_	_	_	_	_	orth=यस्तो|gloss=F
+20	anyolakaa	anyolakaa	NOUN	_	_	_	_	_	orth=अन्योलका
+21	kuraaharuule	kuraaharuule	NOUN	_	_	_	_	_	orth=कुराहरूले
+22	gardaa	gardaa	VERB	_	_	_	_	_	orth=गर्दा|gloss=Did
+23	senaapatile	senaapatile	ADV	_	_	_	_	_	orth=सेनापतिले|gloss=commander
+24	satya	satya	NOUN	_	_	_	_	_	orth=सत्य|gloss=true
+25	kuraa	kuraa	ADJ	_	_	_	_	_	orth=कुरा|gloss=happen
+26	pattaa	pattaa	ADV	_	_	_	_	_	orth=पत्ता|gloss=learned
+27	lagaaun	lagaaun	NOUN	_	_	_	_	_	orth=लगाउन
+28	sakenan	sakenan	VERB	_	_	_	_	_	orth=सकेनन्|gloss=ery
+29	.	.	PUNCT	_	_	_	_	_	orth=।
+30	tasartha	tasartha	NOUN	_	_	_	_	_	orth=तसर्थ
+31	,	,	PUNCT	_	_	_	punct	_	orth=,|PunctType=Comm
+32	senaapatile	senaapatile	ADV	_	_	_	_	_	orth=सेनापतिले|gloss=commander
+33	senaaharuulaaii	senaaharuulaaii	NOUN	_	_	_	_	_	orth=सेनाहरूलाई
+34	senaa	senaa	VERB	_	_	_	_	_	orth=सेना|gloss=offic
+35	bhavanamaa	bhavanamaa	NOUN	_	_	_	_	_	orth=भवनमा
+36	paavalalaaii	paavalalaaii	PROPN	_	_	_	nsubjpass	_	orth=पावललाई|gloss=Paul|Number=Sing
+37	laijaan	laijaan	NOUN	_	_	_	_	_	orth=लैजान|gloss=forgotten
+38	bhanne	bhanne	SCONJ	_	_	_	_	_	orth=भन्ने|gloss=Skull
+39	hukuum	hukuum	NOUN	_	_	_	_	_	orth=हुकूम
+40	gare	gare	NOUN	_	_	_	_	_	orth=गरे|gloss=ks
+41	.	.	PUNCT	_	_	_	_	_	orth=।
+
+# sent_id = 47012002
+# ref_id = 2 Corinthians 12:2
+# eng_text = I know a man in Christ , fourteen years ago ( whether in the body , I don't know , or whether out of the body , I don't know ; God knows ) , such a one caught up into the third heaven .
+# npi_text = ma khriisstta vishvaasii ek janaa yasto maanisalaaii cinchu jasalaaii tesro svargamaa sojhai ucaali lageko thiyo . yo caudh rvass aghiko kuro ho . tyas maanisalaaii shariirasitai vaa shariir binaa lagieko thiyo tyo ta ma jaandinam tar parameshvar jaannuhuncha .
+# npi_orth = म ख्रीष्ट विश्वासी एक जना यस्तो मानिसलाई चिन्छु जसलाई तेस्रो स्वर्गमा सोझै उचालि लगेको थियो । यो चौध र्वष अघिको कुरो हो । त्यस मानिसलाई शरीरसितै वा शरीर बिना लगिएको थियो त्यो त म जान्दिनँ तर परमेश्वर जान्नुहुन्छ ।
+1	ma	ma	PRON	_	_	_	nsubj	_	orth=म|gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+2	khriisstta	khriisstta	NOUN	_	_	_	_	_	orth=ख्रीष्ट|gloss=Messiah
+3	vishvaasii	vishvaasii	NOUN	_	_	_	_	_	orth=विश्वासी|gloss=faithful
+4	ek	ek	NUM	_	_	_	_	_	orth=एक|gloss=one
+5	janaa	janaa	NOUN	_	_	_	_	_	orth=जना|gloss=sev
+6	yasto	yasto	DET	_	_	_	_	_	orth=यस्तो|gloss=F
+7	maanisalaaii	maanisalaaii	NOUN	_	_	_	_	_	orth=मानिसलाई|gloss=e
+8	cinchu	cinchu	NOUN	_	_	_	_	_	orth=चिन्छु|gloss=claims
+9	jasalaaii	jasalaaii	NOUN	_	_	_	_	_	orth=जसलाई|gloss=purpose
+10	tesro	tesro	ADJ	_	_	11	amod	_	orth=तेस्रो|gloss=third|Degree=Pos
+11	svargamaa	svargamaa	PROPN	_	_	_	pobj	_	orth=स्वर्गमा|gloss=heaven|Number=Sing
+12	sojhai	sojhai	NOUN	_	_	_	_	_	orth=सोझै
+13	ucaali	ucaali	NOUN	_	_	_	_	_	orth=उचालि
+14	lageko	lageko	NOUN	_	_	_	_	_	orth=लगेको
+15	thiyo	thiyo	AUX	_	_	38	advcl	_	orth=थियो|gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+16	.	.	PUNCT	_	_	_	_	_	orth=।
+17	yo	yo	DET	_	_	_	_	_	orth=यो|gloss=this
+18	caudh	caudh	NUM	_	_	19	nummod	_	orth=चौध|gloss=fourteen|NumType=Card
+19	rvass	rvass	NOUN	_	_	_	npadvmod	_	orth=र्वष|gloss=years|Number=Plur
+20	aghiko	aghiko	SCONJ	_	_	15	mark	_	orth=अघिको|gloss=Whether
+21	kuro	kuro	ADJ	_	_	_	_	_	orth=कुरो|gloss=os
+22	ho	ho	PART	_	_	_	_	_	orth=हो|gloss=Bl
+23	.	.	PUNCT	_	_	_	_	_	orth=।
+24	tyas	tyas	DET	_	_	_	_	_	orth=त्यस|gloss=woman
+25	maanisalaaii	maanisalaaii	NOUN	_	_	_	_	_	orth=मानिसलाई|gloss=e
+26	shariirasitai	shariirasitai	NOUN	_	_	_	_	_	orth=शरीरसितै
+27	vaa	vaa	CCONJ	_	_	_	cc	_	orth=वा|gloss=or|ConjType=Cmp
+28	shariir	shariir	NOUN	_	_	_	pobj	_	orth=शरीर|gloss=body|Number=Sing
+29	binaa	binaa	ADP	_	_	_	_	_	orth=बिना|gloss=ap
+30	lagieko	lagieko	NOUN	_	_	_	_	_	orth=लगिएको
+31	thiyo	thiyo	AUX	_	_	38	advcl	_	orth=थियो|gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+32	tyo	tyo	DET	_	_	_	_	_	orth=त्यो|gloss=it
+33	ta	ta	PRON	_	_	_	_	_	orth=त|gloss=vation
+34	ma	ma	PRON	_	_	_	nsubj	_	orth=म|gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+35	jaandinam	jaandinam	NOUN	_	_	_	_	_	orth=जान्दिनँ|gloss=Wom
+36	tar	tar	ADJ	_	_	_	_	_	orth=तर|gloss=but
+37	parameshvar	parameshvar	NOUN	_	_	_	_	_	orth=परमेश्वर|gloss=eg
+38	jaannuhuncha	jaannuhuncha	VERB	_	_	0	root	_	orth=जान्नुहुन्छ|gloss=knows|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+39	.	.	PUNCT	_	_	_	_	_	orth=।
+
+# sent_id = 62004009
+# ref_id = 1 John 4:9
+# eng_text = By this was God's love revealed in us , that God has sent his only born Son into the world that we might live through him .
+# npi_text = yasarii parameshvarale haamiilaaii uhaamko prem darshaaunu bhaeko cha parameshvarale uhaamko euttai putra yas samsaaramaa patthaaunu bhayo yasartha uhaam maarphat haamii jiivan paaun sakchaum .
+# npi_orth = यसरी परमेश्वरले हामीलाई उहाँको प्रेम दर्शाउनु भएको छ परमेश्वरले उहाँको एउटै पुत्र यस संसारमा पठाउनु भयो यसर्थ उहाँ मार्फत हामी जीवन पाउन सक्छौं ।
+1	yasarii	yasarii	ADV	_	_	_	_	_	orth=यसरी|gloss=lived
+2	parameshvarale	parameshvarale	NOUN	_	_	_	_	_	orth=परमेश्वरले|gloss=our
+3	haamiilaaii	haamiilaaii	PRON	_	_	_	dobj	_	orth=हामीलाई|gloss=us|Case=Acc|Number=Plur|Person=1|PronType=Prs
+4	uhaamko	uhaamko	NOUN	_	_	_	_	_	orth=उहाँको|gloss=gra
+5	prem	prem	NOUN	_	_	_	_	_	orth=प्रेम|gloss=love
+6	darshaaunu	darshaaunu	VERB	_	_	_	_	_	orth=दर्शाउनु
+7	bhaeko	bhaeko	NOUN	_	_	_	_	_	orth=भएको|gloss=had
+8	cha	cha	VERB	_	_	_	_	_	orth=छ|gloss=has
+9	parameshvarale	parameshvarale	NOUN	_	_	_	_	_	orth=परमेश्वरले|gloss=our
+10	uhaamko	uhaamko	NOUN	_	_	_	_	_	orth=उहाँको|gloss=gra
+11	euttai	euttai	NOUN	_	_	_	_	_	orth=एउटै|gloss=ered
+12	putra	putra	PROPN	_	_	_	conj	_	orth=पुत्र|gloss=Son|Number=Sing
+13	yas	yas	DET	_	_	_	_	_	orth=यस|gloss=mystery
+14	samsaaramaa	samsaaramaa	NOUN	_	_	_	pobj	_	orth=संसारमा|gloss=world|Number=Sing
+15	patthaaunu	patthaaunu	VERB	_	_	_	_	_	orth=पठाउनु|gloss=sent
+16	bhayo	bhayo	VERB	_	_	_	_	_	orth=भयो|gloss=up
+17	yasartha	yasartha	NOUN	_	_	_	_	_	orth=यसर्थ|gloss=So
+18	uhaam	uhaam	NOUN	_	_	_	_	_	orth=उहाँ|gloss=after
+19	maarphat	maarphat	ADP	_	_	_	prep	_	orth=मार्फत|gloss=through
+20	haamii	haamii	PRON	_	_	_	nsubj	_	orth=हामी|gloss=we|Case=Nom|Number=Plur|Person=1|PronType=Prs
+21	jiivan	jiivan	NOUN	_	_	_	dobj	_	orth=जीवन|gloss=life|Number=Sing
+22	paaun	paaun	NOUN	_	_	_	_	_	orth=पाउन|gloss=stand
+23	sakchaum	sakchaum	AUX	_	_	_	aux	_	orth=सक्छौं|gloss=might|VerbForm=Fin
+24	.	.	PUNCT	_	_	_	_	_	orth=।
+
+# sent_id = 63001005
+# ref_id = 2 John 1:5
+# eng_text = Now I beg you , dear lady , not as though I wrote to you a new commandment , but that which we had from the beginning , that we love one another .
+# npi_text = ani , ab priya mahilaa , ma timiilaaii bhanchu haamii sabaile ek-arkolaaii prem garnuparcha . yo nayaam aajnyaa hoin . yo tyahii aajnyaa ho jo haamiisit shuru dekhi nai thiyo .
+# npi_orth = अनि , अब प्रिय महिला , म तिमीलाई भन्छु हामी सबैले एक-अर्कोलाई प्रेम गर्नुपर्छ । यो नयाँ आज्ञा होइन । यो त्यही आज्ञा हो जो हामीसित शुरु देखि नै थियो ।
+1	ani	ani	NOUN	_	_	_	_	_	orth=अनि|gloss=and
+2	,	,	PUNCT	_	_	_	punct	_	orth=,|PunctType=Comm
+3	ab	ab	NOUN	_	_	_	_	_	orth=अब|gloss=Now
+4	priya	priya	ADJ	_	_	_	amod	_	orth=प्रिय|gloss=dear|Degree=Pos
+5	mahilaa	mahilaa	VERB	_	_	_	_	_	orth=महिला
+6	,	,	PUNCT	_	_	_	punct	_	orth=,|PunctType=Comm
+7	ma	ma	PRON	_	_	_	nsubj	_	orth=म|gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+8	timiilaaii	timiilaaii	NOUN	_	_	_	_	_	orth=तिमीलाई|gloss=instantly
+9	bhanchu	bhanchu	NOUN	_	_	_	_	_	orth=भन्छु|gloss=Human
+10	haamii	haamii	PRON	_	_	_	nsubj	_	orth=हामी|gloss=we|Case=Nom|Number=Plur|Person=1|PronType=Prs
+11	sabaile	sabaile	ADV	_	_	_	_	_	orth=सबैले|gloss=pat
+12	ek-arkolaaii	ek-arkolaaii	NOUN	_	_	_	_	_	orth=एक-अर्कोलाई
+13	prem	prem	VERB	_	_	_	ccomp	_	orth=प्रेम|gloss=love|VerbForm=Inf
+14	garnuparcha	garnuparcha	NOUN	_	_	_	_	_	orth=गर्नुपर्छ|gloss=mind
+15	.	.	PUNCT	_	_	_	_	_	orth=।
+16	yo	yo	DET	_	_	_	_	_	orth=यो|gloss=this
+17	nayaam	nayaam	ADJ	_	_	28	amod	_	orth=नयाँ|gloss=new|Degree=Pos
+18	aajnyaa	aajnyaa	NOUN	_	_	_	_	_	orth=आज्ञा|gloss=rebellious
+19	hoin	hoin	PART	_	_	_	neg	_	orth=होइन|gloss=not|Polarity=Neg
+20	.	.	PUNCT	_	_	_	_	_	orth=।
+21	yo	yo	DET	_	_	_	_	_	orth=यो|gloss=this
+22	tyahii	tyahii	NOUN	_	_	_	_	_	orth=त्यही|gloss=rejoice
+23	aajnyaa	aajnyaa	NOUN	_	_	_	_	_	orth=आज्ञा|gloss=rebellious
+24	ho	ho	PART	_	_	_	_	_	orth=हो|gloss=Bl
+25	jo	jo	DET	_	_	_	_	_	orth=जो|gloss=unt
+26	haamiisit	haamiisit	NOUN	_	_	_	_	_	orth=हामीसित|gloss=accompan
+27	shuru	shuru	NOUN	_	_	_	pobj	_	orth=शुरु|gloss=beginning|Number=Sing
+28	dekhi	dekhi	NOUN	_	_	_	attr	_	orth=देखि|gloss=commandment|Number=Sing
+29	nai	nai	PART	_	_	_	_	_	orth=नै|gloss=imate
+30	thiyo	thiyo	VERB	_	_	_	_	_	orth=थियो|gloss=was
+31	.	.	PUNCT	_	_	_	_	_	orth=।
+

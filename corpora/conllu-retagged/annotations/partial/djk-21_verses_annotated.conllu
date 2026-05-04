@@ -1,0 +1,1204 @@
+## The following text has been annotated for parts of speech by students at NTU Singapore as part of a class project in AY 2025-26.
+## Verses are extracted from the taggedPBC. Annotations have been developed with a combination of manual and automated approaches, with reference to existing literature and (where possible) native speakers.
+## ISO 639-3: djk, Language: Aukan, Number of verses: 21
+## References: Aukan - English Interactive Dictionary: https://suriname-languages.sil.org/Aukan/English/AukanEngDictIndex.html ; Huttar, G. L., & Huttar, M. L. (1994). Ndyuka. Routledge. http://www.loc.gov/catdir/enhancements/fy0648/94008590-d.html ; Wetering, W. van, & Thoden van Velzen, H. U. E. (1999). Culture summary: Ndyuka. HRAF. https://ehrafworldcultures.yale.edu/cultures/sr14/documents/000
+
+# sent_id = 40006024
+# ref_id = Matthew 6:24
+# eng_text = " No one can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You can't serve both God and Mammon .
+# djk_text = Namo Masaa Jesesi taki baka taki : “ Ná wan sama di o poi dini tu masaa , sondee fu lobi awan moo enke a taawan . Bika a o lobi awan e teke en taki , moo enke a taawan . Soseefi wan sama á poi dini Masaa Gadu efu moni de wan basi fi en tu .
+1	Namo	namo	ADV	_	_	_	_	_	Gloss=continuously
+2	Masaa	masaa	NOUN	_	_	_	_	_	Gloss=boss
+3	Jesesi	jesesi	NOUN	_	_	_	_	_	Gloss=Jesus; Jesus Christ
+4	taki	taki	VERB	_	_	_	_	_	Gloss=speak; talk; say
+5	baka	baka	ADV	_	_	_	_	_	Gloss=again
+6	taki	taki	VERB	_	_	_	_	_	Gloss=speak; talk; say
+7	:	:	PUNCT	_	_	_	PunctSide=Ini	PunctType=Quot	Gloss=punctuation
+8	“	“	PUNCT	_	_	_	PunctSide=Ini	PunctType=Quot	Gloss=punctuation
+9	Ná	ná	PART	_	_	_	_	_	Gloss=negation marker
+10	wan	wan	NOUN	_	_	_	_	_	Gloss=another one
+11	sama	sama	NOUN	_	_	_	_	_	Gloss=people; person
+12	di	di	PRON	_	_	_	_	_	Gloss=who; which
+13	o	o	AUX	_	_	_	_	VerbForm=Fin	Gloss=future marker
+14	poi	poi	VERB	_	_	_	_	_	Gloss=can; be able
+15	dini	dini	VERB	_	_	0	root	_	VerbForm=Inf	Gloss=serve
+16	tu	tu	NOUN	_	_	_	_	_	NumType=Card	Gloss=pair; by twos
+17	masaa	masaa	NOUN	_	_	_	_	_	Gloss=boss
+18	,	,	PUNCT	_	_	_	_	_
+19	sondee	sondee	ADP	_	_	_	_	_	Gloss=without
+20	fu	fu	ADP	_	_	_	_	Gloss=of; belonging to; connected to
+21	lobi	lobi	VERB	_	_	_	VerbForm=Inf	Gloss=smear
+22	awan	awan	ADJ	_	_	_	_	_	Gloss=same; alike
+_	moo	moo	NOUN	_	_	_	_	_	Gloss=more; anymore; remaining; left
+24	enke	enke	ADV	_	_	_	_	_	Gloss=as; like
+_	a	a	PRON	_	_	_	_	_   gloss=third person singular pronoun; he
+26	taawan	taawan	NOUN	_	_	_	 	_	VerbForm=Inf	Gloss=other one
+27	.	.	PUNCT	_	_	_	PunctType=Peri	Gloss=punctuation
+28	Bika	bika	SCONJ	_	_	_	Gloss=because
+29	a	a	PRON	_	_	_	_	_   gloss=third person singular pronoun; he
+30	o	o	AUX	_	_	_	VerbForm=Fin	Gloss=future marker
+31	lobi	lobi	VERB	_	_	_	VerbForm=Inf	Gloss=smear
+32	awan	awan	ADJ	_	_	_	_	_	Gloss=same; alike
+33	e	e	PART	_	_	_	_	_	Gloss=progressive marker
+34	teke	teke	VERB	_	_	_	_	_	Gloss=take
+35	en	en	PRON	_	_	_	_	_	Gloss=he; she; it; 3rd person singular pronoun emphatic form
+36	taki	taki	VERB	_	_	_	_	_	Gloss=speak; talk; say
+37	,	,	PUNCT	_	_	_	_	_
+38	moo	moo	NOUN	_	_	_	_	_	Gloss=more; anymore; remaining; left
+39	enke	enke	ADV	_	_	_	_	_	Gloss=as; like
+40	a	a	PRON	_	_	_	_	_   gloss=third person singular pronoun; he
+41	taawan	taawan	NOUN	_	_	_	 	_	VerbForm=Inf	Gloss=other one
+42	.	.	PUNCT	_	_	_	PunctType=Peri	Gloss=punctuation
+43	Soseefi	soseefi	CONJ	_	_	_	_	_	Gloss=in the same way; and
+44	wan	wan	NOUN	_	_	_	_	_	Gloss=another one
+45	sama	sama	NOUN	_	_	_	_	_	Gloss=people; person
+_	á	ná	PART	_	_	Gloss=negation marker;no
+47	poi	poi	VERB	_	_	_	_	_	Gloss=can; be able
+48	dini	dini	VERB	_	_	0	root	_	VerbForm=Inf	Gloss=serve
+49	Masaa	masaa	NOUN	_	_	_	_	_	Gloss=boss
+50	Gadu	gadu	NOUN	_	_	_	_	_	Gloss=ritual dance
+51	efu	efu	SCONJ	_	_	_	_	VerbForm=Inf	Gloss=if
+52	moni	moni	NOUN	_	_	_	_	Number=Sing	Gloss=money; currency
+53	de	de	VERB	_	_	_	_	_	Gloss=be
+54	wan	wan	NOUN	_	_	_	_	_	Gloss=another one
+55	basi	basi	VERB	_	_	_	_	_	Gloss=master
+56	fi	fi	ADP	_	_	_	_	_	Gloss=of; belonging to; connected to
+57	en	en	PRON	_	_	_	_	_	Gloss=he; she; it; 3rd person singular pronoun emphatic form
+58	tu	tu	NOUN	_	_	_	_	NumType=Card	Gloss=pair; by twos
+59	.	.	PUNCT	_	_	_	PunctType=Peri	Gloss=punctu
+
+# sent_id = 40018012
+# ref_id = Matthew 18:12
+# eng_text = " What do you think ? If a man has one hundred sheep , and one of them goes astray , doesn't he leave the ninety-nine , go to the mountains , and seek that which has gone astray ?
+# djk_text = We , ne Masaa Jesesi gi den wan ageisi toli taki : “ Fa i denki fu wan sama di abi wan ondoo sikapu ? Kon u taki , wan fu den komoto a den taawan mindii go lasi . Da san i denki ? A masaa fi en o fika den neigintenti a neigin taawan a pe den de e nyan na a sabana , da a go suku a lasi wan , te enke a fende en ?
+1	We	we	INTJ	_	_	_	_	_	Gloss=well
+2	,	,	PUNCT	_	_	_	_	_
+3	ne	ne	ADP	_	_	_	_	_	Gloss=according to; at; by, as a locative preposition
+4	Masaa	masaa	NOUN	_	_	_	_	_	Gloss=boss
+5	Jesesi	jesesi	NOUN	_	_	_	_	_	Gloss=Jesus; Jesus Christ
+6	gi	gi	VERB	_	_	_	_	_	Gloss=give
+7	den	den	NOUN	_	_	_	_	_	Gloss=ancestors as a collective group
+8	wan	wan	NOUN	_	_	_	Definite=Ind	PronType=Art	Gloss=another one
+9	ageisi	ageisi	NOUN	_	_	_	_	_	Gloss=parable; figurative story used to teach a principle
+10	toli	toli	NOUN	_	_	_	_	_	Gloss=story; matter; affair
+11	taki	taki	VERB	_	_	_	PronType=Rel	Gloss=speak; talk; say
+12	:	:	PUNCT	_	_	_		PunctSide=Ini	PunctType=Quot	Gloss=punctuation
+13	“	“	PUNCT	_	_	_	_	PunctSide=Ini	PunctType=Quot	Gloss=punctuation
+14	Fa	fa	SCONJ	_	_	_	_	_	Gloss=how
+15	i	i	PRON	_	_	_	_	_	Gloss=singular, second person pronoun
+16	denki	denki	VERB	_	_	_	_	_	Gloss=think
+17	fu	fu	ADP	_	_	_	_	Gloss=of; belonging to; connected to
+18	wan	wan	NOUN	_	_	_	Definite=Ind	PronType=Art	Gloss=another one
+19	sama	sama	NOUN	_	_	_	_	_	Gloss=people; person
+20	di	di	PRON	_	_	_	_	_	Gloss=who; which
+21	abi	abi	VERB	_	_	_	_	_	Gloss=have; be in possession of
+22	wan	wan	NOUN	_	_		_	Definite=Ind	PronType=Art	Gloss=another one
+_	ondoo	ondoo	NOUN	_	_	_	NumType=Card	Gloss=on earth
+24	sikapu	sikapu	NOUN	_	_	_	 	_	Number=Plur	Gloss=sheep, Ovis aries
+_	?	?	PUNCT	_	_	_	_	PunctType=Peri	Gloss=punctuation
+26	Kon	kon	VERB	_	_	_	_	_	Gloss=come
+27	u	u	PRON	_	_	_	_	_	Gloss=plural, non-3rd person pronoun
+28	taki	taki	VERB	_	_	_	PronType=Rel	Gloss=speak; talk; say
+29	,	,	PUNCT	_	_	_	_	_
+30	wan	wan	NOUN	_	_		_	Definite=Ind	PronType=Art	Gloss=another one
+31	fu	fu	ADP	_	_	_	_	Gloss=of; belonging to; connected to
+32	den	den	NOUN	_	_	_	_	_	Gloss=ancestors as a collective group
+33	komoto	komoto	VERB	_	_	_	_	_	Gloss=leave; come out
+34	a	a	PRON	_	_	_	_	_   gloss=third person singular pronoun; he
+35	den	den	NOUN	_	_	_	_	_	Gloss=ancestors as a collective group
+36	taawan	taawan	NOUN	_	_	_	_	_	Gloss=other one
+37	mindii	mindii	NOUN	_	_	_	_	_	Gloss=noon
+38	go	go	VERB	_	_	_	_	_	Gloss=go
+39	lasi	lasi	NOUN	_	_	_	_	_	Aspect=Perf	Tense=Past	VerbForm=Part	Gloss=end; bottom
+40	.	.	PUNCT	_	_	_	_	_
+41	Da	da	NOUN	_	_	_	_	_	Gloss=
+42	san	san	INTJ	_	_	_	_	_	Gloss=exclamation of surprise; What! San! Den man bigin feti a Busi Kondee fu kii somen sama baka? What! Have they started fighting in the Interior and killing so many people again? See: tan 2
+43	i	i	PRON	_	_	_	_	_	Gloss=singular, second person pronoun
+44	denki	denki	VERB	_	_	_	_	_	Gloss=think
+45	?	?	PUNCT	_	_	_	PunctType=Peri	Gloss=punctuation
+_	A	a	PRON	_	_	_	_	_	Gloss=he; she; it
+47	masaa	masaa	NOUN	_	_	_	_	_	Gloss=boss
+48	fi	fi	ADP	_	_	_	_	_	Gloss=of; belonging to; connected to
+49	en	en	PRON	_	_	_	_	_	Gloss=he; she; it; 3rd person singular pronoun emphatic form
+50	o	o	AUX	_	_	_	_	VerbForm=Fin	Gloss=future marker
+51	fika	fika	VERB	_	_	_	_	_	Gloss=leave ; abandon
+52	den	den	NOUN	_	_	_	_	_	Gloss=ancestors as a collective group
+53	neigintenti	neigintenti	NUM	_	_	_	_	_	Gloss=ninety
+54	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+55	neigin	neigin	NOUN	_	_	_	_	_	Gloss=nine o'clock
+56	taawan	taawan	NOUN	_	_	_	_	_	Gloss=other one
+57	a	a	PRON	_	_	_	_	_	Gloss= he
+58	pe	pe	ADV	_	_	_	_	_	Gloss=where
+59	den	den	NOUN	_	_	_	_	_	Gloss=ancestors as a collective group
+60	de	de	VERB	_	_	_	_	_	Gloss=be
+61	e	e	PART	_	_	_	_	_	Gloss=progressive marker
+62	nyan	nyan	NOUN	_	_	_	_	_	Gloss=matrilineage of the Aukan
+63	na	na	VERB	_	_	_	_	_	Gloss=be; copula
+64	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+65	sabana	sabana	NOUN	_	_	_	_	_	Gloss=savannah; meadow; pasture
+66	,	,	PUNCT	_	_	_	_	_
+67	da	da	NOUN	_	_	_	_	_	Gloss=
+68	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+69	go	go	VERB	_	_	_	_	_	Gloss=go
+70	suku	suku	VERB	_	_	_	_	_	Gloss=look for; seek; search for
+71	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+72	lasi	lasi	NOUN	_	_	_	_	_	Aspect=Perf	Tense=Past	VerbForm=Part	Gloss=end; bottom
+73	wan	wan	NOUN	_	_	_		_	Definite=Ind	PronType=Art	Gloss=another one
+74	,	,	PUNCT	_	_	_	_	_
+75	te	te	NOUN	_	_	_	_	_	Gloss=tea
+76	enke	enke	ADV	_	_	_	_	_	Gloss=as; like
+77	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+78	fende	fende	VERB	_	_	_	_	_	Gloss=find
+79	en	en	PRON	_	_	_	_	_	Gloss=he; she; it; 3rd person singular pronoun emphatic form
+80	?	?	PUNCT	_	_	_	_	PunctType=Peri	Gloss=punctuation
+
+# sent_id = 40020021
+# ref_id = Matthew 20:21
+# eng_text = He said to her , " What do you want ? " She said to him , " Command that these , my two sons , may sit , one on your right hand , and one on your left hand , in your kingdom . "
+# djk_text = Namo Masaa Jesesi akisi en taki : “ San i wani ? ” Namo a mma piki taki : “ We , Masaa ! Dyonson , yu o de Kownu a ini a Nyun Tii fu Masaa Gadu . Da gaantangi ! Meke den tu manpikin fu mi ya sidon a yu se , baa ? Wan fu den a yu letise ana , a taawan a yu kukutuse ana . ”
+1	Namo	namo	ADV	_	_	_	_	_	Gloss=continuously
+2	Masaa	masaa	NOUN	_	_	_	_	_	Gloss=boss
+3	Jesesi	jesesi	NOUN	_	_	_	_	_	Gloss=Jesus; Jesus Christ
+4	akisi	akisi	VERB	_	_	0	root	_	Tense=Past	VerbForm=Fin	Gloss=ask; get information
+5	en	en	PRON	_	_	_	_	_	Gloss=he; she; it; 3rd person singular pronoun emphatic form
+6	taki	taki	VERB	_	_	_	_	_	Gloss=speak; talk; say
+7	:	:	PUNCT	_	_	_	_	PunctSide=Ini	PunctType=Quot	Gloss=punctuation
+8	“	“	PUNCT	_	_	_	_	PunctSide=Ini	PunctType=Quot	Gloss=punctuation
+9	San	san	INTJ	_	_	_	_	_	Gloss=exclamation of surprise; What! San! Den man bigin feti a Busi Kondee fu kii somen sama baka? What! Have they started fighting in the Interior and killing so many people again? See: tan 2
+10	i	i	PRON	_	_	_	_	_	Gloss=singular, second person pronoun
+11	wani	wani	VERB	_	_	_	_	_	Gloss=want; wish; desire
+12	?	?	PUNCT	_	_	_	_	PunctType=Peri	Gloss=punctuation
+13	”	”	PUNCT	_	_	_	_	_	Gloss=punctuation
+14	Namo	namo	ADV	_	_	_	_	_	Gloss=continuously
+15	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+16	mma	mma	NOUN	_	_	_	_	_	Gloss=mother; mama
+17	piki	piki	VERB	_	_	0	root	_	Tense=Past	VerbForm=Fin	Gloss=pick up; gather; collect
+18	taki	taki	VERB	_	_	_	_	_	Gloss=speak; talk; say
+19	:	:	PUNCT	_	_	_	_	PunctSide=Ini	PunctType=Quot	Gloss=punctuation
+20	“	“	PUNCT	_	_	_	_	PunctSide=Ini	PunctType=Quot	Gloss=punctuation
+21	We	we	INTJ	_	_	_	_	_	Gloss=well
+22	,	,	PUNCT	_	_	_	_	_
+_	Masaa	masaa	NOUN	_	_	_	_	_	Gloss=boss
+24	!	!	PUNCT	_	_	_	_	_	Gloss=punctuation
+_	Dyonson	dyonson	PROPN	_	_	_	_	_
+26	,	,	PUNCT	_	_	_	_	_
+27	yu	yu	PRON	_	_	_	_	_	Gloss=singular, second person pronoun
+28	o	o	AUX	_	_	_	_	_	Gloss=future marker
+29	de	de	VERB	_	_	_	_	_	Gloss=be
+30	Kownu	kownu	NOUN	_	_	_	_	_	Gloss=king
+31	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+32	ini	ini	ADP	_	_	_	_	_	Gloss=inside; in
+33	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+34	Nyun	nyun	ADJ	_	_	_	 	_	Number=Sing	Gloss=new
+35	Tii	tii	VERB	_	_	_	 	_	Number=Sing	Gloss=govern; rule
+36	fu	fu	ADP	_	_	_	_	Gloss=of; belonging to; connected to
+37	Masaa	masaa	NOUN	_	_	_	_	_	Gloss=boss
+38	Gadu	gadu	NOUN	_	_	_	_	_	Gloss=ritual dance
+39	.	.	PUNCT	_	_	_	_	PunctType=Peri	Gloss=punctuation
+40	Da	da	NOUN	_	_	_	_	_	Gloss=
+41	gaantangi	gaantangi	INTJ	_	_	_	_	Gloss=thanks
+42	!	!	PUNCT	_	_	_	_	_	Gloss=punctuation
+43	Meke	meke	NOUN	_	_	_	_	_	Gloss=period of three months after giving birth
+44	den	den	NOUN	_	_	_	_	_	Gloss=ancestors as a collective group
+45	tu	tu	NOUN	_	_	_	_	_	NumType=Card	Gloss=pair; by twos
+_	manpikin	manpikin	NOUN	_	_	_	 	_	Number=Plur	Gloss=man
+47	fu	fu	ADP	_	_	_	_	Gloss=of; belonging to; connected to
+48	mi	mi	PRON	_	_	_	_	Number=Sing	Person=1	Poss=Yes	PronType=Prs	Gloss=1st person singular nominative or objective pronoun; I; me
+49	ya	ya	INTJ	_	_	_	_	_	Gloss=yes
+50	sidon	sidon	VERB	_	_	_	_	_	Gloss=sit
+51	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+52	yu	yu	PRON	_	_	_	_	_	Gloss=singular, second person pronoun
+53	se	se	NOUN	_	_	_	_	_	Gloss=American sea cow; manatee, Trichechus manatus
+54	,	,	PUNCT	_	_	_	_	_
+55	baa	baa	NOUN	_	_	_	_	_	Gloss=male friend
+56	?	?	PUNCT	_	_	_	_	PunctType=Peri	Gloss=punctuation
+57	Wan	wan	NOUN	_	_	_	_	_	Gloss=another one
+58	fu	fu	ADP	_	_	_	_	Gloss=of; belonging to; connected to
+59	den	den	NOUN	_	_	_	_	_	Gloss=ancestors as a collective group
+60	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+61	yu	yu	PRON	_	_	_	_	_	Gloss=singular, second person pronoun
+62	letise	letise	NOUN	_	_	_	_	_	Gloss=right side
+63	ana	ana	NOUN	_	_	_	_	_	Gloss=hand; arm; finger
+64	,	,	PUNCT	_	_	_	_	_
+65	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+66	taawan	taawan	NOUN	_	_	_	_	_	Gloss=other one
+67	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+68	yu	yu	PRON	_	_	_	_	_	Gloss=singular, second person pronoun
+69	kukutuse	kukutuse    NOUN	_	_	_	_	_Gloss=left side
+70	ana	ana	NOUN	_	_	_	_	_	Gloss=hand; arm; finger
+71	.	.	PUNCT	_	_	_	_	PunctType=Peri	Gloss=punctuation
+72	”	”	PUNCT	_	_	_	_	_	Gloss=punctuation
+
+# sent_id = 40026002
+# ref_id = Matthew 26:2
+# eng_text = " You know that after two days the Passover is coming , and the Son of Man will be delivered up to be crucified . "
+# djk_text = A taki : “ Enke fa u de , da u sabi taki taa tamaa , da wi o fii a Pasika Fesa . Da den o kisi a Manpikin di saka kon toon libisama ya , tyai go gi sama , den sipikii a koloisi kii . ”
+1	A	a	PRON	_	_	_	_	_	Gloss=he; she; it
+2	taki	taki	VERB	_	_	_	_	_	Gloss=speak; talk; say
+3	:	:	PUNCT	_	_	_	_	PunctSide=Ini	PunctType=Quot	Gloss=punctuation
+4	“	“	PUNCT	_	_	_	_	PunctSide=Ini	PunctType=Quot	Gloss=punctuation
+5	Enke	enke	ADV	_	_	_	_	_	Gloss=as; like
+6	fa	fa	SCONJ	_	_	_	_	_	Gloss=how
+7	u	u	PRON	_	_	_	_	_	Gloss=plural, non-3rd person pronoun
+8	de	de	VERB	_	_	_	_	_	Gloss=be
+9	,	,	PUNCT	_	_	_	_	_
+10	da	da	NOUN	_	_	_	_	_	Gloss=
+11	u	u	PRON	_	_	_	_	_	Gloss=plural, non-3rd person pronoun
+12	sabi	sabi	VERB	_	_	_	advcl	_	Tense=Pres	VerbForm=Fin	Gloss=know
+13	taki	taki	VERB	_	_	_	_	_	Gloss=speak; talk; say
+14	taa	taa	NOUN	_	_	_	_	_	Gloss=next day; day after tomorrow
+15	tamaa	tamaa	NOUN	_	_	_	_	_	Gloss=tomorrow
+16	,	,	PUNCT	_	_	_	_	_
+17	da	da	ADV		_	_	_	_	Gloss=then; so then
+18	wi	wi	PRON	_	_	_	_	_	Gloss=plural, non-3rd person pronoun
+19	o	o	AUX	_	_	_	VerbForm=Fin	Gloss=future marker
+20	fii	fii	VERB	_	_	_	_	_	Gloss=be free
+21	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+22	Pasika	pasika	PROPN	_	_	_	 	_	Number=Sing	Gloss=Passover
+_	Fesa	fesa	NOUN	_	_	_	 	_	Number=Sing	Gloss=celebration; party; feast
+24	.	.	PUNCT	_	_	_	_	PunctType=Peri	Gloss=punctuation
+_	Da	da	ADV		_	_	_	_	Gloss=then; so then
+26	den	den	NOUN	_	_	_	_	_	Gloss=ancestors as a collective group
+27	o	o	AUX	_	_	_	VerbForm=Fin	Gloss=future marker
+28	kisi	kisi	VERB	_	_	_	_	_	Gloss=catch; get
+29	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+30	Manpikin	manpikin	NOUN	_	_	_	 pass	_	Number=Sing	Gloss=man
+31	di	di	PRON	_	_	_	_	_	Gloss=who; which
+32	saka	saka	NOUN	_	_	_	_	_	Gloss=humility
+33	kon	kon	VERB	_	_	_	_	_	Gloss=come
+34	toon	toon	VERB	_	_	_	_	_	Gloss=become; turn into
+35	libisama	libisama	NOUN	_	_	_	_	_	Gloss=human being; people; person
+36	ya	ya	INTJ	_	_	_	_	_	Gloss=yes
+37	,	,	PUNCT	_	_	_	_	_
+38	tyai	tyai	VERB	_	_	_	_	_	Gloss=bring; carry
+39	go	go	VERB	_	_	_	_	_	Gloss=go
+40	gi	gi	VERB	_	_	_	_	_	Gloss=give
+41	sama	sama	NOUN	_	_	_	_	_	Gloss=people; person
+42	,	,	PUNCT	_	_	_	_	_
+43	den	den	NOUN	_	_	_	_	_	Gloss=ancestors as a collective group
+44	sipikii	sipikii	NOUN	_	_	_	advcl	_	Aspect=Perf	Tense=Past	VerbForm=Part	Gloss=mirror
+45	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+_	koloisi	koloisi	NOUN	_	_	_	_	_	Gloss=wooden cross
+47	kii	kii	VERB	_	_	_	_	_	Gloss=kill
+48	.	.	PUNCT	_	_	_	_	PunctType=Peri	Gloss=punctuation
+49	”	”	PUNCT	_	_	_	_	_	Gloss=punctuation
+
+# sent_id = 40026061
+# ref_id = Matthew 26:61
+# eng_text = and said , " This man said , ' I am able to destroy the temple of God , and to build it in three days . ' "
+# djk_text = Ne den bali taki : “ A be gafa taki , a sa booko a Mama Keliki , da a ini dii dei a sa meke en baka . ”
+1	Ne	ne	ADP	_	_	_	_	_	Gloss=according to; at; by, as a locative preposition
+2	den	den	NOUN	_	_	_	_	_	Gloss=ancestors as a collective group
+3	bali	bali	NOUN	_	_	_	_	_	Gloss=barrel
+4	taki	taki	VERB	_	_	_	_	_	Gloss=speak; talk; say
+5	:	:	PUNCT	_	_	_	_	PunctSide=Ini	PunctType=Quot	Gloss=punctuation
+6	“	“	PUNCT	_	_	_	_	PunctSide=Ini	PunctType=Quot	Gloss=punctuation
+7	A	a	PRON	_	_	_	_	_	Gloss=he; she; it
+8	be	be	AUX	_	_	_	_	_	Gloss=past marker
+9	gafa	gafa	VERB	_	_	_	_	_	Gloss=brag; boast
+10	taki	taki	VERB	_	_	_	_	_	Gloss=speak; talk; say
+11	,	,	PUNCT	_	_	_	_	_
+12	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+13	sa	sa	AUX		_	_	_	_	Gloss=will; shall; can
+14	booko	booko	VERB	_	_	_	_	_	Gloss=break; break down
+15	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+16	Mama	mama	NOUN	_	_	_	_	Number=Sing	  Gloss=quail-like birds of the family Tinamidae
+17	Keliki	keliki	NOUN	_	_	_	_	Number=Sing	  Gloss=church building
+18	,	,	PUNCT	_	_	_	_	_
+19	da	da	ADV		_	_	_	_	Gloss=then; so then
+20	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+21	ini	ini	ADP	_	_	_	_	_	Gloss=inside; in
+22	dii	dii	NOUN	_	_	_	_	_	Gloss=March
+_	dei	dei	NOUN	_	_	_	_	_	Gloss=day; a 24-hour period
+24	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+_	sa	sa	AUX		_	_	_	_	Gloss=will; shall; can "Mrs"
+26	meke	meke	NOUN	_	_	_	_	_	Gloss=period of three months after giving birth
+27	en	en	PRON	_	_	_	_	_	Gloss=he; she; it; 3rd person singular pronoun emphatic form
+28	baka	baka	NOUN	_	_	_	_	_	Gloss=chamber pot
+29	.	.	PUNCT	_	_	_	_	PunctType=Peri	Gloss=punctuation
+30	”	”	PUNCT	_	_	_	_	_	Gloss=punctuation
+
+# sent_id = 40028016
+# ref_id = Matthew 28:16
+# eng_text = But the eleven disciples went into Galilee , to the mountain where Jesus had sent them .
+# djk_text = We , ne den elufu bakaman fu Masaa Jesesi go a Galileya Kondee . Ne den go na a mongo , di a be taigi den a fesi fu den go .
+1	We	we	INTJ	_	_	_	_	_	Gloss=well
+2	,	,	PUNCT	_	_	_	_	_
+3	ne	ne	ADP	_	_	_	_	_	Gloss=according to; at; by, as a locative preposition
+4	den	den	NOUN	_	_	_	_	_	Gloss=ancestors as a collective group
+5	elufu	elufu	NOUN	_	_	_	_	_	Gloss=November
+6	bakaman	bakaman	NOUN	_	_	_	_	Number=Plur	Gloss=follower
+7	fu	fu	ADP	_	_	_	Gloss=of; belonging to; connected to
+8	Masaa	masaa	NOUN	_	_	_	_	_	Gloss=boss
+9	Jesesi	jesesi	NOUN	_	_	_	_	Number=Sing	Gloss=Jesus; Jesus Christ
+10	go	go	VERB	_	_	_	_	_	Gloss=go
+11	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+12	Galileya	galileya	PROPN	_	_	_	 	_	Number=Sing	Gloss=Galilee
+13	Kondee	kondee	NOUN	_	_	_	_	_	Gloss=country
+14	.	.	PUNCT	_	_	_	_	PunctType=Peri	Gloss=punctuation
+15	Ne	ne	ADP	_	_	_	_	_	Gloss=according to; at; by, as a locative preposition
+16	den	den	NOUN	_	_	_	_	_	Gloss=ancestors as a collective group
+17	go	go	VERB	_	_	_	_	_	Gloss=go
+18	na	na	VERB	_	_	_	_	_	Gloss=be; copula
+19	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+20	mongo	mongo	NOUN	_	_	_	Number=Sing	Gloss=Moengo, the town in eastern Suriname
+21	,	,	PUNCT	_	_	_	_	_
+22	di	di	PRON	_	_	_	_	_	Gloss=who; which
+_	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+24	be	be	AUX	_	_	_	Tense=Past	VerbForm=Fin	Gloss=past marker
+_	taigi	taigi	VERB	_	_	_	Aspect=Perf	Tense=Past	VerbForm=Part	Gloss=tell
+26	den	den	NOUN	_	_	_	_	_	Gloss=ancestors as a collective group
+27	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+28	fesi	fesi	NOUN	_	_	_	_	_	Gloss=forehead
+29	fu	fu	ADP	_	_	_	_	Gloss=of; belonging to; connected to
+30	den	den	NOUN	_	_	_	_	_	Gloss=ancestors as a collective group
+31	go	go	VERB	_	_	_	_	_	Gloss=go
+32	.	.	PUNCT	_	_	_	_	PunctType=Peri	Gloss=punctuation
+
+# sent_id = 41002023
+# ref_id = Mark 2:23
+# eng_text = It happened , that he was going on the Sabbath day through the grain fields , and his disciples began , as they went , to pluck the ears of grain .
+# djk_text = Da na a kina dei fu den Dyu , ne Masaa Jesesi anga den bakaman fi en e waka pasa a ini wan goon . Ne den bakaman fi en e booko den ede fu wan sani gei kalu , di den sama paandi a ini a goon , e pii e nyan .
+1	Da	da	ADV		_	_	_	_	Gloss=then; so then
+2	na	na	VERB	_	_	_	_	_	Gloss=be; copula
+3	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+4	kina	kina	NOUN	_	_	_	Number=Sing	Gloss=taboo which is believed to bring on sickness
+5	dei	dei	NOUN	_	_	_	_	_	Number=Sing	Gloss=day; a 24-hour period
+6	fu	fu	ADP	_	_	_	_	Gloss=of; belonging to; connected to
+7	den	den	NOUN	_	_	_	_	_	Gloss=ancestors as a collective group
+8	Dyu	dyu	NOUN	_	_	_	_	_	Gloss=Jews; the Jewish people
+9	,	,	PUNCT	_	_	_	_	_
+10	ne	ne	ADP	_	_	_	_	_	Gloss=according to; at; by, as a locative preposition
+11	Masaa	masaa	NOUN	_	_	_	_	_	Gloss=boss
+12	Jesesi	jesesi	NOUN	_	_	_	 	_	Number=Sing	Gloss=Jesus; Jesus Christ
+13	anga	anga	NOUN	_	_	_	_	_	Gloss=clothes hanger
+14	den	den	NOUN	_	_	_	_	_	Gloss=ancestors as a collective group
+15	bakaman	bakaman	NOUN	_	_	_	 	_	Number=Plur	Gloss=follower
+16	fi	fi	ADP	_	_	_	_	_	Gloss=of; belonging to; connected to
+17	en	en	PRON	_	_	_	_	_	Gloss=he; she; it; 3rd person singular pronoun emphatic form
+18	e	e	PART	_	_	_	_	_	Gloss=progressive marker
+19	waka	waka	VERB	_	_	_	_	_	Gloss=walk
+20	pasa	pasa	VERB	_	_	_	_	_	Gloss=take place; happen
+21	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+22	ini	ini	ADP	_	_	_	_	_	Gloss=inside; in
+_	wan	wan	NOUN	_	_	_	_	_	Gloss=another one
+24	goon	goon	NOUN	_	_	_	_	_	Gloss=planting ground
+_	.	.	PUNCT	_	_	_	_	PunctType=Peri	Gloss=punctuation
+26	Ne	ne	ADP	_	_	_	_	_	Gloss=according to; at; by, as a locative preposition
+27	den	den	NOUN	_	_	_	_	_	Gloss=ancestors as a collective group
+28	bakaman	bakaman	NOUN	_	_	_	 	_	Number=Plur	Gloss=follower
+29	fi	fi	ADP	_	_	_	_	_	Gloss=of; belonging to; connected to
+30	en	en	PRON	_	_	_	_	_	Gloss=he; she; it; 3rd person singular pronoun emphatic form
+31	e	e	PART	_	_	_	_	_	Gloss=progressive marker
+32	booko	booko	VERB	_	_	_	_	_	Gloss=break; break down
+33	den	den	NOUN	_	_	_	_	_	Gloss=ancestors as a collective group
+34	ede	ede	NOUN	_	_	_	_	_	Gloss=boatman who sits and steers the head of boat
+35	fu	fu	ADP	_	_	_	_	Gloss=of; belonging to; connected to
+36	wan	wan	NOUN	_	_	_	_	_	Gloss=another one
+37	sani	sani	NOUN	_	_	_	_	_	Gloss=thing
+38	gei	gei	VERB	_	_	_	_	_	Gloss=look alike; resemble; be the same
+39	kalu	kalu	NOUN	_	_	_	_	Gloss=corn
+40	,	,	PUNCT	_	_	_	_	_
+41	di	di	PRON	_	_	_	_	_	Gloss=who; which
+42	den	den	NOUN	_	_	_	_	_	Gloss=ancestors as a collective group
+43	sama	sama	NOUN	_	_	_	_	_	Gloss=people; person
+44	paandi	paandi	VERB	_	_	_	_	_	Gloss=plant
+45	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+_	ini	ini	ADP	_	_	_	_	_	Gloss=inside; in
+47	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+48	goon	goon	NOUN	_	_	_	_	_	Gloss=planting ground
+49	,	,	PUNCT	_	_	_	_	_
+50	e	e	PART	_	_	_	_	_	Gloss=progressive marker
+51	pii	pii	NOUN	_	_	_	_	_	Gloss=chicken with no feathers on the neck
+52	e	e	PART	_	_	_	_	_	Gloss=progressive marker
+53	nyan	nyan	NOUN	_	_	_	_	_	Gloss=matrilineage of the Aukan
+54	.	.	PUNCT	_	_	_	_	PunctType=Peri	Gloss=punctuation
+
+# sent_id = 41012032
+# ref_id = Mark 12:32
+# eng_text = The scribe said to him , " Truly , teacher , you have said well that he is one , and there is none other but he ,
+# djk_text = Ne a leliman fu Dyuweiti taigi en taki : “ Na tuu Masaa , san yu taki . Na wan kodo tuutuu Gadu namo de . Da ná wan taa Gadu de enke en .
+1	Ne	ne	ADP	_	_	_	_	_	Gloss=according to; at; by, as a locative preposition
+2	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+3	leliman	leliman	NOUN	_	_	_	_	_	Gloss=teacher
+4	fu	fu	ADP	_	_	_	_	_	Gloss=of; belonging to; connected to
+5	Dyuweiti	dyuweiti	NOUN	_	_	_	 	_	Degree=Pos	Gloss=the Mosaic Law; the Jewish law
+6	taigi	taigi	VERB	_	_	_	_	_	Gloss=tell
+7	en	en	PRON	_	_	_	_	_	Gloss=he; she; it; 3rd person singular pronoun emphatic form
+8	taki	taki	VERB	_	_	_	_	Gloss=speak; talk; say
+9	:	:	PUNCT	_	_	_	_	PunctSide=Ini	PunctType=Quot	Gloss=punctuation
+10	“	“	PUNCT	_	_	_	_	PunctSide=Ini	PunctType=Quot	Gloss=punctuation
+11	Na	na	VERB	_	_	_	Aspect=Perf	Tense=Past	VerbForm=Part	Gloss=be; copula
+12	tuu	tuu	ADV	_	_	_	_	_	Gloss=true
+13	Masaa	masaa	NOUN	_	_	_	_	_	Gloss=boss
+14	,	,	PUNCT	_	_	_	_	_
+15	san	san	INTJ	_	_	_	_	_	Gloss=exclamation of surprise; What! San! Den man bigin feti a Busi Kondee fu kii somen sama baka? What! Have they started fighting in the Interior and killing so many people again? See: tan 2
+16	yu	yu	PRON	_	_	_	_	_	Gloss=singular, second person pronoun
+17	taki	taki	VERB	_	_	_	mark	_	Gloss=speak; talk; say
+18	.	.	PUNCT	_	_		_	PunctType=Peri	Gloss=punctuation
+19	Na	na	VERB	_	_	0	root	_	Aspect=Perf	Tense=Past	VerbForm=Part	Gloss=be; copula
+20	wan	wan	NOUN	_	_	_	_	_	Gloss=another one
+21	kodo	kodo	X	_	_	_	_	Gloss=ideophone
+22	tuutuu	tuu	ADV	_	_	_	Number=Sing	Gloss=truly
+_	Gadu	gadu	NOUN	_	_	_	_	_	Gloss=ritual dance
+24	namo	namo	ADV	_	_	_	_	_	Gloss=continuously
+_	de	de	VERB	_	_	_	_	_	Gloss=be
+26	.	.	PUNCT	_	_		_	PunctType=Peri	Gloss=punctuation
+27	Da	da	ADV		_	_	_	_	Gloss=then; so then
+28	ná	ná	PART	_	_	_	_	_	Gloss=emphasis marker
+29	wan	wan	NOUN	_	_	_	_	_	Gloss=another one
+30	taa	taa	NOUN	_	_	_	_	_	Gloss=next day; day after tomorrow
+31	Gadu	gadu	NOUN	_	_	_	_	_	Gloss=ritual dance
+32	de	de	VERB	_	_	_	_	_	Gloss=be
+33	enke	enke	ADV	_	_	_	_	_	Gloss=as; like
+34	en	en	PRON	_	_	_	_	_	Gloss=he; she; it; 3rd person singular pronoun emphatic form
+35	.	.	PUNCT	_	_	_	PunctType=Peri	Gloss=punctuation
+
+# sent_id = 41014037
+# ref_id = Mark 14:37
+# eng_text = He came and found them sleeping , and said to Peter , " Simon , are you sleeping ? Couldn't you watch one hour ?
+# djk_text = Da , di Masaa Jesesi begi so , ne a go a den dii bakaman fi en baka . Ne a si den siibi siibi . Ne a weki den . Ne a akisi Peitilisi taki : “ Simon ! Yu e siibi ? Yu á poi meke taanga sikin , fu de anga ain wankodo yuu langa anga mi seefi , no ?
+1	Da	da	ADV		_	_	_	_	Gloss=then; so then
+2	,	,	PUNCT	_	_	_	_	_
+3	di	di	PRON	_	_	_	_	_	Gloss=who; which
+4	Masaa	masaa	NOUN	_	_	_	_	_	Gloss=boss
+5	Jesesi	jesesi	NOUN	_	_	_	_	_	Gloss=Jesus; Jesus Christ
+6	begi	begi	VERB	_	_	_	_	_	Gloss=ask politely for something
+7	so	so	ADV	_	_	_	_	_	Gloss=so
+8	,	,	PUNCT	_	_	_	_	_
+9	ne	ne	ADP	_	_	_	_	_	Gloss=according to; at; by, as a locative preposition
+10	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+11	go	go	VERB	_	_	_	_	_	Gloss=go
+12	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+13	den	den	NOUN	_	_	_	_	_	Gloss=ancestors as a collective group
+14	dii	dii	NOUN	_	_	_	_	_	Gloss=March
+15	bakaman	bakaman	NOUN	_	_	_	 	_	Number=Plur	Gloss=follower
+16	fi	fi	ADP	_	_	_	_	_	Gloss=of; belonging to; connected to
+17	en	en	PRON	_	_	_	_	_	Gloss=he; she; it; 3rd person singular pronoun emphatic form
+18	baka	baka	NOUN	_	_	_	_	_	Gloss=chamber pot
+19	.	.	PUNCT	_	_	_	_	PunctType=Peri	Gloss=punctuation
+20	Ne	ne	ADP	_	_	_	_	_	Gloss=according to; at; by, as a locative preposition
+21	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+22	si	si	VERB	_	_	_	_	_	Gloss=see; recognize
+_	den	den	NOUN	_	_	_	_	_	Gloss=ancestors as a collective group
+24	siibi	siibi	NOUN	_	_	_	_	_	Gloss=pijamas
+_	siibi	siibi	NOUN	_	_	_	_	_	Gloss=pijamas
+26	.	.	PUNCT	_	_	_	_	PunctType=Peri	Gloss=punctuation
+27	Ne	ne	ADP	_	_	_	_	_	Gloss=according to; at; by, as a locative preposition
+28	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+29	weki	weki	VERB	_	_	_	_	_	Gloss=wake up
+30	den	den	NOUN	_	_	_	_	_	Gloss=ancestors as a collective group
+31	.	.	PUNCT	_	_	_	_	PunctType=Peri	Gloss=punctuation
+32	Ne	ne	ADP	_	_	_	_	_	Gloss=according to; at; by, as a locative preposition
+33	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+34	akisi	akisi	VERB	_	_	_	_	_	Gloss=ask; get information
+35	Peitilisi	peitilisi	NOUN	_	_	_	Number=Sing	Gloss=the Apostle Peter, one of the disciples of Jesus Christ
+36	taki	taki	VERB	_	_	_	_	_	Gloss=speak; talk; say
+37	:	:	PUNCT	_	_	_	_	PunctSide=Ini	PunctType=Quot	Gloss=punctuation
+38	“	“	PUNCT	_	_	_	_	PunctSide=Ini	PunctType=Quot	Gloss=punctuation
+39	Simon	simon	PROPN	_	_	_	_	_	Number=Sing	Gloss=Simon
+40	!	!	PUNCT	_	_	_	_	_	Gloss=punctuation
+41	Yu	yu	PRON	_	_	_	_	_	Gloss=singular, second person pronoun
+42	e	e	PART	_	_	_	_	_	Gloss=progressive marker
+43	siibi	siibi	NOUN	_	_	_	_	_	Gloss=pijamas
+44	?	?	PUNCT	_	_	_	_	PunctType=Peri	Gloss=punctuation
+45	Yu	yu	PRON	_	_	_	_	_	Gloss=singular, second person pronoun
+_	á	ná	PART	_	_	_	_	_	Gloss= ation
+47	poi	poi	VERB	_	_	_	_	_	Gloss=can; be able
+48	meke	meke	NOUN	_	_	_	_	_	Gloss=period of three months after giving birth
+49	taanga	taanga	NOUN	_	_	_	_	_	Gloss=small fly sp
+50	sikin	sikin	NOUN	_	_	_	_	_	Gloss=shore
+51	,	,	PUNCT	_	_	_	_	_
+52	fu	fu	ADP	_	_	_	_	Gloss=of; belonging to; connected to
+53	de	de	VERB	_	_	_	_	_	Gloss=be
+54	anga	anga	NOUN	_	_	_	Gloss=clothes hanger
+55	ain	ain	NOUN	_	_	_	_	_	Gloss=eye
+56	wankodo	wankodo	ADJ	_	_	_	_	_	Gloss=unique
+57	yuu	yuu	NOUN	_	_	_	_	Number=Sing	Gloss=o'clock
+58	langa	langa	NOUN	_	_	_	_	_	Gloss=long-sleeved shirt
+59	anga	anga	NOUN	_	_	_	_	Gloss=clothes hanger
+60	mi	mi	PRON	_	_	_	_	_	Gloss=1st person singular nominative or objective pronoun; I; me
+61	seefi	seefi	ADV	_	_	_	_	_	Gloss=even
+62	,	,	PUNCT	_	_	_	_	_
+63	no	no	INTJ	_	_	_	_	_	Gloss=tag at end of questions
+64	?	?	PUNCT	_	_	_	_	PunctType=Peri	Gloss=punctuation
+
+# sent_id = 42004002
+# ref_id = Luke 4:2
+# eng_text = for forty days , being tempted by the devil . He ate nothing in those days . Afterward , when they were completed , he was hungry .
+# djk_text = Ne a didibii go tesi en anda . Bika Masaa Jesesi poti nyanyan a wanse , fu begi fotenti dei anga fotenti neti langa a ini a gaan sabana anda . Na so di den fotenti dei pasa , ne angii moo en .
+1	Ne	ne	ADP	_	_	_	_	_	Gloss=according to; at; by, as a locative preposition
+2	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+3	didibii	didibii	NOUN	_	_	_	_	Number=Sing	Gloss=evil person
+4	go	go	VERB	_	_	_	_	_	Gloss=go
+5	tesi	tesi	VERB	_	_	_	_	_	Gloss=taste; test by tasting
+6	en	en	PRON	_	_	_	_	_	Gloss=he; she; it; 3rd person singular pronoun emphatic form
+7	anda	anda	ADV	_	_	_	_	_	Gloss=there (general)
+8	.	.	PUNCT	_	_	_	_	PunctType=Peri	Gloss=punctuation
+9	Bika	bika	SCONJ	_	_	_	_	_	Gloss=because
+10	Masaa	masaa	NOUN	_	_	_	_	_	Gloss=boss
+11	Jesesi	jesesi	NOUN	_	_	_	_	Number=Sing	Gloss=Jesus; Jesus Christ
+12	poti	poti	VERB	_	_	_	_	_	Gloss=set; put; lay
+13	nyanyan	nyanyan	NOUN	_	_	_	_	_	Gloss=food
+14	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+15	wanse	wanse	ADJ	_	_	_	_	_	Gloss=one side
+16	,	,	PUNCT	_	_	_	_	_
+17	fu	fu	ADP	_	_	_	_	_	Gloss=of; belonging to; connected to
+18	begi	begi	VERB	_	_	_	_	_	Gloss=ask politely for something  sp
+19	fotenti	fotenti	NUM	_	_	_	_	NumType=Card	Gloss=forty
+20	dei	dei	NOUN	_	_	_	_	_	Gloss=day; a 24-hour period
+21	anga	anga	NOUN	_	_	_	_	_	Gloss=clothes hanger
+22	fotenti	fotenti	NUM	_	_	_	_	NumType=Card	Gloss=forty
+_	neti	neti	NOUN	_	_	_	_	_	Gloss=early evening (between 5-6 p
+24	langa	langa	NOUN	_	_	_	_	_	Gloss=long-sleeved shirt
+_	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+26	ini	ini	ADP	_	_	_	_	_	Gloss=inside; in
+27	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+28	gaan	gaan	NOUN	_	_	_	_	_	Gloss=great mother-in-law; grandmother of in-law
+29	sabana	sabana	NOUN	_	_	_	_	_	Gloss=savannah; meadow; pasture
+30	anda	anda	ADV	_	_	_	_	_	Gloss=there (general)
+31	.	.	PUNCT	_	_	_	PunctType=Peri	Gloss=punctuation
+32	Na	na	VERB	_	_	_	_	_	Gloss=be; copula
+33	so	so	ADV	_	_	_	_	_	Gloss=so
+34	di	di	PRON	_	_	_	_	_	Gloss=who; which
+35	den	den	NOUN	_	_	_	_	_	Gloss=ancestors as a collective group
+36	fotenti	fotenti	NUM	_	_	_	_	_	NumType=Card	Gloss=forty
+37	dei	dei	NOUN	_	_	_	_	_	Gloss=day; a 24-hour period
+38	pasa	pasa	VERB	_	_	_	_	_	Gloss=take place; happen
+39	,	,	PUNCT	_	_	_	_	_
+40	ne	ne	ADP	_	_	_	_	_	Gloss=according to; at; by, as a locative preposition
+41	angii	angii	NOUN	_	_	_	_	Degree=Pos	Gloss=hunger
+42	moo	moo	NOUN	_	_	_	_	_	Gloss=more; anymore; remaining; left
+43	en	en	PRON	_	_	_	_	_	Gloss=he; she; it; 3rd person singular pronoun emphatic form
+44	.	.	PUNCT	_	_	_	_	PunctType=Peri	Gloss=punctuation
+
+# sent_id = 42016013
+# ref_id = Luke 16:13
+# eng_text = No servant can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You aren't able to serve God and mammon . "
+# djk_text = “ Bika ná wan sama sa dini tu masaa makandii . Dati á kan ! Ofu yu o lobi awan moo a taawan . Ofu yu o booko a wan saka , da i opo a taawan . Ma yu á poi lobi ala den tu a seefi fasi . Yu á poi waka a Masaa Gadu baka , da yu e feti a moni baka tu . Yu o lobi awan moo a taawan . ”
+1	“	“	PUNCT	_	_	_	PunctSide=Ini	PunctType=Quot	Gloss=punctuation
+2	Bika	bika	SCONJ	_	_	Gloss=because
+3	ná	ná	PART	_	_	_	_	_	Gloss=emphasis marker
+4	wan	wan	NOUN	_	_	_	_	_	Gloss=another one
+5	sama	sama	NOUN	_	_	_	_	_	Gloss=people; person
+6	sa	sa	AUX		_	_	_	_	Gloss=will; shall; can “Mrs
+7	dini	dini	VERB	_	_	0	root	_	VerbForm=Inf	Gloss=serve
+8	tu	tu	NOUN	_	_	_	_	NumType=Card	Gloss=pair; by twos
+9	masaa	masaa	NOUN	_	_	_	_	_	Gloss=boss
+10	makandii	makandii	ADV	_	_	_	_	_	Gloss=together
+11	.	.	PUNCT	_	_	7	_	PunctType=Peri	Gloss=punctuation
+12	Dati	dati	PRON	_	_	_	_	_	Gloss=that
+13	á	ná	PART	_	_	7	Polarity= 	Gloss= ation
+14	kan	kan	VERB	_	_	_	_	_	Gloss=can; be able
+15	!	!	PUNCT	_	_	_	_	_	Gloss=punctuation
+16	Ofu	ofu	CCONJ	_	_	_	_	_	Gloss=or
+17	yu	yu	PRON	_	_	_	_	_	Gloss=singular, second person pronoun
+18	o	o	AUX	_	_	_	_	VerbForm=Fin	Gloss=future marker
+19	lobi	lobi	VERB	_	_	_	VerbForm=Inf	Gloss=rub; smear
+20	awan	awan	ADJ	_	_	_	_	_	Gloss=same; alike
+21	moo	moo	NOUN	_	_	_	_	_	Gloss=more; anymore; remaining; left
+22	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+_	taawan	taawan	NOUN	_	_	_	_	VerbForm=Inf	Gloss=other one
+24	.	.	PUNCT	_	_	_	PunctType=Peri	Gloss=punctuation
+_	Ofu	ofu	CCONJ	_	_	_	_	_	Gloss=or
+26	yu	yu	PRON	_	_	_	_	_	Gloss=singular, second person pronoun
+27	o	o	AUX	_	_	_	_	VerbForm=Fin	Gloss=future marker
+28	booko	booko	VERB	_	_	_	_	_	Gloss=break; break down
+29	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+30	wan	wan	NOUN	_	_	_	_	_	Gloss=another one
+31	saka	saka	NOUN	_	_	_	_	_	Gloss=humility
+32	,	,	PUNCT	_	_	_	_	_
+33	da	da	ADV		_	_	_	_	Gloss=then; so then
+34	i	i	PRON	_	_	_	_	_	Gloss=singular, second person pronoun
+35	opo	opo	NOUN	_	_	_	_	_	Gloss=open-backed vehicle
+36	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+37	taawan	taawan	NOUN	_	_	_	_	VerbForm=Inf	Gloss=other one
+38	.	.	PUNCT	_	_	_	PunctType=Peri	Gloss=punctuation
+39	Ma	ma	NOUN	_	_	_	_	_	Gloss=Mrs
+40	yu	yu	PRON	_	_	_	_	_	Gloss=singular, second person pronoun
+41	á	ná	PART	_	_	_	Gloss= ation
+42	poi	poi	VERB	_	_	_	_	_	Gloss=can; be able
+43	lobi	lobi	VERB	_	_	_	VerbForm=Inf	Gloss=rub; smear
+44	ala	ala	ADJ	_	_	_	_	_	Gloss=all; every
+45	den	den	NOUN	_	_	_	_	_	Gloss=ancestors as a collective group
+_	tu	tu	NOUN	_	_	_	_	NumType=Card	Gloss=pair; by twos
+47	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+48	seefi	seefi	ADV	_	_	_	_	_	Gloss=even
+49	fasi	fasi	VERB	_	_	_	_	_	Gloss=stick; adhere
+50	.	.	PUNCT	_	_	_	PunctType=Peri	Gloss=punctuation
+51	Yu	yu	PRON	_	_	_	_	_	Gloss=singular, second person pronoun
+52	á	ná	PART	_	_	Gloss= ation
+53	poi	poi	VERB	_	_	_	_	_	Gloss=can; be able
+54	waka	waka	VERB	_	_	_	_	_	Gloss=walk
+55	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+56	Masaa	masaa	NOUN	_	_	_	_	_	Gloss=boss
+57	Gadu	gadu	NOUN	_	_	_	_	_	Gloss=ritual dance
+58	baka	baka	NOUN	_	_	_	_	_	Gloss=chamber pot
+59	,	,	PUNCT	_	_	_	_	_
+60	da	da	ADV		_	_	_	_	Gloss=then; so then
+61	yu	yu	PRON	_	_	_	_	_	Gloss=singular, second person pronoun
+62	e	e	PART	_	_	_	_	_	Gloss=progressive marker
+63	feti	feti	NOUN	_	_	_	_	_	Gloss=war spirit
+64	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+65	moni	moni	NOUN	_	_	_	_	Number=Sing	Gloss=money; currency
+66	baka	baka	NOUN	_	_	_	_	_	Gloss=chamber pot
+67	tu	tu	NOUN	_	_	_	_	NumType=Card	Gloss=pair; by twos
+68	.	.	PUNCT	_	_	_	PunctType=Peri	Gloss=punctuation
+69	Yu	yu	PRON	_	_	_	_	_	Gloss=singular, second person pronoun
+70	o	o	AUX	_	_	_		VerbForm=Fin	Gloss=future marker
+71	lobi	lobi	VERB	_	_	_	VerbForm=Inf	Gloss=rub; smear
+72	awan	awan	ADJ	_	_	_	_	_	Gloss=same; alike
+73	moo	moo	NOUN	_	_	_	_	_	Gloss=more; anymore; remaining; left
+74	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+75	taawan	taawan	NOUN	_	_	_	VerbForm=Inf	Gloss=other one
+76	.	.	PUNCT	_	_	_	PunctType=Peri	Gloss=punctuation
+77	”	”	PUNCT	_	_	_	_	_	Gloss=punctuation
+
+# sent_id = 42024018
+# ref_id = Luke 24:18
+# eng_text = One of them , named Cleopas , answered him , " Are you the only one travelling in Jerusalem who doesn't know the things which have happened there in these days ? "
+# djk_text = Ne wan fu den tu man ya , di den be e kai Keleyopasi , piki en taki : “ Na yu wawan na awan kodo sama di á yee a gaan ogii di pasa a Jelusalem de ? ”
+1	Ne	ne	ADP	_	_	_	_	_	Gloss=according to; at; by, as a locative preposition
+2	wan	wan	NOUN	_	_	_	_	_	Gloss=another one
+3	fu	fu	ADP	_	_	_	_	_	Gloss=of; belonging to; connected to
+4	den	den	NOUN	_	_	_	_	_	Gloss=ancestors as a collective group
+5	tu	tu	NOUN	_	_	_	_	_	Gloss=pair; by twos
+6	man	man	VERB	_	_	_	_	_	Gloss=can; be able
+7	ya	ya	INTJ	_	_	_	_	_	Gloss=yes
+8	,	,	PUNCT	_	_	_	_	_
+9	di	di	PRON	_	_ 	_	Gloss=who; which
+10	den	den	NOUN	_	_	_	_	_	Gloss=ancestors as a collective group
+11	be	be	AUX	_	_	_	_	_	Gloss=past marker
+12	e	e	PART	_	_	_	_	_	Gloss=progressive marker
+13	kai	kai	VERB	_	_	_	_	_	Gloss=fall
+14	Keleyopasi	keleyopasi	PROPN	_	_	_	_	_
+15	,	,	PUNCT	_	_	_	_	_
+16	piki	piki	VERB	_	_	0	root	_	Tense=Past	VerbForm=Fin	Gloss=pick up; gather; collect
+17	en	en	PRON	_	_	_	_	_	Gloss=he; she; it; 3rd person singular pronoun emphatic form
+18	taki	taki	VERB	_	_	_	 	_	PronType=Rel	Gloss=speak; talk; say
+19	:	:	PUNCT	_	_	_	PunctSide=Ini	PunctType=Quot	Gloss=punctuation
+20	“	“	PUNCT	_	_	_	PunctSide=Ini	PunctType=Quot	Gloss=punctuation
+21	Na	na	VERB	_	_	_	_	_	Gloss=be; copula
+22	yu	yu	PRON	_	_	_	_	_	Gloss=singular, second person pronoun
+_	wawan	wanwan	ADJ	_	_	_	_	_	Gloss=alone
+24	na	na	VERB	_	_	_	_	_	Gloss=be; copula
+_	awan	awan	ADJ	_	_	_	_	_	Gloss=same; alike
+26	kodo	kodo	X	_	_	_	_	_	Gloss=ideophone
+27	sama	sama	NOUN	_	_	_	_	_	Gloss=people; person
+28	di	di	PRON	_	_	_	Gloss=who; which
+29	á	ná	PART	_	_	_	_	_	Gloss= ation
+30	yee	yee	VERB	_	_	_	_	_	Aspect=Perf	Tense=Past	VerbForm=Part	Gloss=hear; listen
+31	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+32	gaan	gaan	NOUN	_	_	_	_	_	Gloss=great mother-in-law; grandmother of in-law
+33	ogii	ogii	NOUN	_	_	_	_	_	Gloss=evil or strict look
+34	di	di	PRON	_	_	_	Gloss=who; which
+35	pasa	pasa	VERB	_	_	_	_	_	Gloss=take place; happen
+36	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+37	Jelusalem	jelusalem	PROPN	_	_	_	 	_	Number=Sing	Gloss=Jerusalem
+38	de	de	VERB	_	_	_	_	_	Gloss=be
+39	?	?	PUNCT	_	_	_	_	_
+40	”	”	PUNCT	_	_	_	_	_	Gloss=punctuation
+
+# sent_id = 43001039
+# ref_id = John 1:39
+# eng_text = He said to them , " Come , and see . " They came and saw where he was staying , and they stayed with him that day . It was about the tenth hour .
+# djk_text = Ne a taigi den taki : “ We , u kon go anga mi , da u sa si . ” Ne den go luku pe ai tan . Ne di den go , ne den tan anga en de te bakadina . Da a be de wan sani fu fo yuu bakadina so .
+1	Ne	ne	ADP	_	_	_	_	_	Gloss=according to; at; by, as a locative preposition
+2	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+3	taigi	taigi	VERB	_	_	_	_	_	Gloss=tell
+4	den	den	NOUN	_	_	_	 	_	Case=Nom	Number=Plur	Person=3	PronType=Prs	Gloss=ancestors as a collective group
+5	taki	taki	VERB	_	_	_	_	_	Gloss=speak; talk; say
+6	:	:	PUNCT	_	_	_	_	PunctSide=Ini	PunctType=Quot	Gloss=punctuation
+7	“	“	PUNCT	_	_	_	_	PunctSide=Ini	PunctType=Quot	Gloss=punctuation
+8	We	we	INTJ	_	_	_	_	_	Gloss=well
+9	,	,	PUNCT	_	_	_	_	_
+10	u	u	PRON	_	_	_	_	_	Gloss=plural, non-3rd person pronoun
+11	kon	kon	VERB	_	_	_	_	_	Gloss=come
+12	go	go	VERB	_	_	_	_	_	Gloss=go
+13	anga	anga	NOUN	_	_	_	prep	_	Gloss=clothes hanger
+14	mi	mi	PRON	_	_	_	_	_	Gloss=1st person singular nominative or objective pronoun; I; me
+15	,	,	PUNCT	_	_	_	_	_
+16	da	da	ADV		_	_	_	_	Gloss=then; so then
+17	u	u	PRON	_	_	_	_	_	Gloss=plural, non-3rd person pronoun
+18	sa	sa	AUX		_	_	_	_	Gloss=will; shall; can
+19	si	si	VERB	_	_	_	_	_	Gloss=see; recognize
+20	.	.	PUNCT	_	_	_	_	PunctType=Peri	Gloss=punctuation
+21	”	”	PUNCT	_	_	_	_	_	Gloss=punctuation
+22	Ne	ne	ADP	_	_	_	_	_	Gloss=according to; at; by, as a locative preposition
+_	den	den	NOUN	_	_	_	 	_	Case=Nom	Number=Plur	Person=3	PronType=Prs	Gloss=ancestors as a collective group
+24	go	go	VERB	_	_	_	_	_	Gloss=go
+_	luku	luku	NOUN	_	_	_	_	_	Gloss=mirror
+26	pe	pe	ADV	_	_	_	_	_	Gloss=where
+27	ai	ai	NOUN	_	_	_	_	_	Gloss=color
+28	tan	tan	INTJ	_	_	_	_	_	Gloss=exclamation of surprise or indignation
+29	.	.	PUNCT	_	_	_	_	PunctType=Peri	Gloss=punctuation
+30	Ne	ne	ADP	_	_	_	_	_	Gloss=according to; at; by, as a locative preposition
+31	di	di	PRON	_	_	_	_	_	Gloss=who; which
+32	den	den	NOUN	_	_	_	 	_	Case=Nom	Number=Plur	Person=3	PronType=Prs	Gloss=ancestors as a collective group
+33	go	go	VERB	_	_	_	_	_	Gloss=go
+34	,	,	PUNCT	_	_	_	_	_
+35	ne	ne	ADP	_	_	_	_	_	Gloss=according to; at; by, as a locative preposition
+36	den	den	NOUN	_	_	_	_	Case=Nom	Number=Plur	Person=3	PronType=Prs	Gloss=ancestors as a collective group
+37	tan	tan	INTJ	_	_	_	_	_	Gloss=exclamation of surprise or indignation
+38	anga	anga	NOUN	_	_	_	_	Gloss=clothes hanger
+39	en	en	PRON	_	_	_	Case=Acc	Gender=Masc	Number=Sing	Person=3	PronType=Prs	Gloss=he; she; it; 3rd person singular pronoun emphatic form
+40	de	de	VERB	_	_	_	_	_	Gloss=be
+41	te	te	NOUN	_	_	_	_	_	Gloss=tea
+42	bakadina	bakadina	NOUN	_	_	_	 	_	Number=Sing	Gloss=afternoon hours (between 3-6 p
+43	.	.	PUNCT	_	_	_	_	PunctType=Peri	Gloss=punctuation
+44	Da	da	ADV		_	_	_	_	Gloss=then; so then
+45	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+_	be	be	AUX	_	_	_	_	_	Gloss=past marker
+47	de	de	VERB	_	_	_	_	_	Gloss=be
+48	wan	wan	NOUN	_	_	_	_	_	Gloss=another one
+49	sani	sani	NOUN	_	_	_	_	_	Gloss=thing
+50	fu	fu	ADP	_	_	_	_	Gloss=of; belonging to; connected to
+51	fo	fo	NOUN	_	_	_	_	_	Gloss=April
+52	yuu	yuu	NOUN	_	_	_	_	_	Gloss=o'clock
+53	bakadina	bakadina	NOUN	_	_	_	 	_	Number=Sing	Gloss=afternoon hours (between 3-6 p
+54	so	so	ADV	_	_	_	_	_	Gloss=so
+55	.	.	PUNCT	_	_	_	_	PunctType=Peri	Gloss=punctuation
+
+# sent_id = 43003016
+# ref_id = John 3:16
+# eng_text = For God so loved the world , that he gave his one and only Son , that whoever believes in him should not perish , but have eternal life .
+# djk_text = “ We , bika Masaa Gadu lobi goontapu te , ne a gi den a wankodo Manpikin fi en , fu ibiiwan sama di e biibi ne en á mu go lasi , ma fu den fende a libi fu tego .
+1	“	“	PUNCT	_	_	_	_	PunctSide=Ini	PunctType=Quot	Gloss=punctuation
+2	We	we	INTJ	_	_	_	_	_	Gloss=well
+3	,	,	PUNCT	_	_	_	_	_
+4	bika	bika	SCONJ	_	_	_	_	_	Gloss=because
+5	Masaa	masaa	NOUN	_	_	_	_	_	Gloss=boss
+6	Gadu	gadu	NOUN	_	_	_	_	_	Gloss=ritual dance
+7	lobi	lobi	VERB	_	_	_	_	_	Gloss=rub; smear
+8	goontapu	goontapu	NOUN	_	_	_	_	_	Gloss=world
+9	te	te	NOUN	_	_	_	_	_	Gloss=tea
+10	,	,	PUNCT	_	_	_	_	_
+11	ne	ne	ADP	_	_	_	_	_	Gloss=according to; at; by, as a locative preposition
+12	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+13	gi	gi	VERB	_	_	_	_	_	Gloss=give
+14	den	den	NOUN	_	_	_	_	_	Gloss=ancestors as a collective group
+15	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+16	wankodo	wankodo	ADJ	_	_	_	_	_	Gloss=unique
+17	Manpikin	manpikin	NOUN	_	_	_	_	Number=Sing	Gloss=man
+18	fi	fi	ADP	_	_	_	_	_	Gloss=of; belonging to; connected to
+19	en	en	PRON	_	_	_	 	_	Case=Acc	Gender=Masc	Number=Sing	Person=3	PronType=Prs	Gloss=he; she; it; 3rd person singular pronoun emphatic form
+20	,	,	PUNCT	_	_	_	_	_
+21	fu	fu	ADP	_	_	_	_	_	Gloss=of; belonging to; connected to
+22	ibiiwan	ibiiwan	PRON	_	_	_	_	_	Gloss=everybody; every person; everyone
+_	sama	sama	NOUN	_	_	_	_	_	Gloss=people; person
+24	di	di	PRON	_	_	_	 	_	Gloss=who; which
+_	e	e	PART	_	_	_	_	_	Gloss=progressive marker
+26	biibi	biibi	VERB	_	_	_	_	_	Gloss=believe
+27	ne	ne	ADP	_	_	_	_	_	Gloss=according to; at; by, as a locative preposition
+28	en	en	PRON	_	_	_	 	_	Case=Acc	Gender=Masc	Number=Sing	Person=3	PronType=Prs	Gloss=he; she; it; 3rd person singular pronoun emphatic form
+29	á	ná	PART	_	_	_	 	_	Polarity= 	Gloss= ation
+30	mu	mu	AUX	_	_	_	_	_	Gloss=must; should
+31	go	go	VERB	_	_	_	_	_	Gloss=go
+32	lasi	lasi	NOUN	_	_	_	_	_	Gloss=end; bottom
+33	,	,	PUNCT	_	_	_	_	_
+34	ma	ma	NOUN	_	_	_	_	_	Gloss=Mrs
+35	fu	fu	ADP	_	_	_	_	_	Gloss=of; belonging to; connected to
+36	den	den	NOUN	_	_	_	_	_	Gloss=ancestors as a collective group
+37	fende	fende	VERB	_	_	_	_	_	Gloss=find
+38	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+39	libi	libi	VERB	_	_	_	_	_	Gloss=live
+40	fu	fu	ADP	_	_	_	_	_	Gloss=of; belonging to; connected to
+41	tego	tego	NOUN	_	_	_	_	Degree=Pos	Gloss=eternity
+42	.	.	PUNCT	_	_	_	_	PunctType=Peri	Gloss=punctuation
+
+# sent_id = 44002030
+# ref_id = Acts 2:30
+# eng_text = Therefore , being a prophet , and knowing that God had sworn with an oath to him that of the fruit of his body , according to the flesh , he would raise up the Christ to sit on his throne ,
+# djk_text = Ma a be e sikiifi sani di Masaa Gadu be e piki en , anga ala sweli seefi taki , dati musu fu pasa so . Masaa Gadu taki : ‘ Wan bakaten pikin fu Dafeti paansu , na dati mi o gi yu kownu sutuu , fu tii sani enke yu seefi . ’ A Dafeti ya na be tuutuu apaiti takiman fu Masaa Gadu , di ai piki san a fiti poti fu du .
+1	Ma	ma	NOUN	_	_	_	_	ConjType=Cmp	Gloss=Mrs
+2	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+3	be	be	AUX	_	_	_	Tense=Past	VerbForm=Fin	Gloss=past marker
+4	e	e	PART	_	_	_	_	_	Gloss=progressive marker
+5	sikiifi	sikiifi	NOUN	_	_	_	_	_	Gloss=pencil
+6	sani	sani	NOUN	_	_	_	_	_	Gloss=thing
+7	di	di	PRON	_	_	_	_	_	Gloss=who; which
+8	Masaa	masaa	NOUN	_	_	_	_	_	Gloss=boss
+9	Gadu	gadu	NOUN	_	_	_	_	_	Gloss=ritual dance
+10	be	be	AUX	_	_	_	_	Tense=Past	VerbForm=Fin	Gloss=past marker
+11	e	e	PART	_	_	_	_	_	Gloss=progressive marker
+12	piki	piki	VERB	_	_	_	_	_	Gloss=pick up; gather; collect
+13	en	en	PRON	_	_	_	_	_	Gloss=he; she; it; 3rd person singular pronoun emphatic form
+14	,	,	PUNCT	_	_	_	_	_
+15	anga	anga	NOUN	_	_	_	prep	_	Gloss=clothes hanger
+16	ala	ala	ADJ	_	_	_	_	_	Gloss=all; every
+17	sweli	sweli	VERB	_ 	_	Number=Sing	Gloss=bloat; swell
+18	seefi	seefi	ADV	_	_	_	_	_	Gloss=even
+19	taki	taki	VERB	_	_	_	_	Gloss=speak; talk; say
+20	,	,	PUNCT	_	_	_	_	_
+21	dati	dati	PRON	_	_	_	_	_	Gloss=that
+22	musu	musu	NOUN	_	_	_	_	_	Gloss=visorless cloth cap; beret
+_	fu	fu	ADP	_	_	_	_	_	Gloss=of; belonging to; connected to
+24	pasa	pasa	VERB	_	_	_	_	_	Gloss=take place; happen
+_	so	so	ADV	_	_	_	_	_	Gloss=so
+26	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri	Gloss=punctuation
+27	Masaa	masaa	NOUN	_	_	_	_	_	Gloss=boss
+28	Gadu	gadu	NOUN	_	_	_	_	_	Gloss=ritual dance
+29	taki	taki	VERB	_	_	_	Gloss=speak; talk; say
+30	:	:	PUNCT	_	_	_	_	_
+31	‘	‘	PUNCT	_	_	_	_	_
+32	Wan	wan	NOUN	_	_	_	_	_	Gloss=another one
+33	bakaten	bakaten	ADJ	_	_	_	_	_	Gloss=future time
+34	pikin	pikin	NOUN	_	_	_	_	_	Gloss=small knife used in woodcarving
+35	fu	fu	ADP	_	_	_	_	_	Gloss=of; belonging to; connected to
+36	Dafeti	dafeti	X	_	_	_	_	Number=Sing	Gloss=unknown
+37	paansu	paansu	NOUN	_	_	_	_	_	Gloss=shoot; sprig; sprout; cutting of plant for replanting
+38	,	,	PUNCT	_	_	_	_	_
+39	na	na	VERB	_	_	_	_	_	Gloss=be; copula
+40	dati	dati	PRON	_	_	_	_	_	Gloss=that
+41	mi	mi	PRON	_	_	_	_	_	Gloss=1st person singular nominative or objective pronoun; I; me
+42	o	o	AUX	_	_	_	_	_	Gloss=future marker
+43	gi	gi	VERB	_	_	_	_	_	Gloss=give
+44	yu	yu	PRON	_	_	_	_	_	Gloss=singular, second person pronoun
+45	kownu	kownu	NOUN	_	_	_	_	_	Gloss=king
+_	sutuu	sutuu	NOUN	_	_	_	_	_	Gloss=chair
+47	,	,	PUNCT	_	_	_	_	_
+48	fu	fu	ADP	_	_	_	_	_	Gloss=of; belonging to; connected to
+49	tii	tii	VERB	_	_	_	_	_	Gloss=govern; rule
+50	sani	sani	NOUN	_	_	_	_	_	Gloss=thing
+51	enke	enke	ADV	_	_	_	_	_	Gloss=as; like
+52	yu	yu	PRON	_	_	_	_	_	Gloss=singular, second person pronoun
+53	seefi	seefi	ADV	_	_	_	_	_	Gloss=even
+54	.	.	PUNCT	_	_	_	_	PunctType=Peri	Gloss=punctuation
+55	’	’	PUNCT	_	_	_	_	_
+56	A	a	PRON	_	_	_	_	_	Gloss=he; she; it
+57	Dafeti	dafeti	X	_	_	_	_	Number=Sing	Gloss=unknown
+58	ya	ya	INTJ	_	_	_	_	_	Gloss=yes
+59	na	na	VERB	_	_	_	_	_	Gloss=be; copula
+60	be	be	AUX	_	_	_	_	Tense=Past	VerbForm=Fin	Gloss=past marker
+61	tuutuu	tuu	ADV	_	_	_	_	_	Gloss=truly
+62	apaiti	apaiti	ADJ	_	_	_	_	_	Gloss=holy
+63	takiman	takiman	NOUN	_	_	_	_	_	Gloss=speaker
+64	fu	fu	ADP	_	_	_	_	_	Gloss=of; belonging to; connected to
+65	Masaa	masaa	NOUN	_	_	_	_	_	Gloss=boss
+66	Gadu	gadu	NOUN	_	_	_	_	_	Gloss=ritual dance
+67	,	,	PUNCT	_	_	_	_	_
+68	di	di	PRON	_	_	_	_	_	Gloss=who; which
+69	ai	ai	NOUN	_	_	_	_	_	Gloss=color
+70	piki	piki	VERB	_	_	_	_	_	Gloss=pick up; gather; collect
+71	san	san	INTJ	_	_	_	_	_	Gloss=exclamation of surprise; What! San! Den man bigin feti a Busi Kondee fu kii somen sama baka? What! Have they started fighting in the Interior and killing so many people again? See: tan 2
+72	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+73	fiti	fiti	VERB	_	_	_	_	_	Gloss=discuss; arrive at a consensus
+74	poti	poti	VERB	_	_	_	_	_	Gloss=set; put; lay
+75	fu	fu	ADP	_	_	_	_	_	Gloss=of; belonging to; connected to
+76	du	du	VERB	_	_	_	_	_	Gloss=do
+77	.	.	PUNCT	_	_	_	_	PunctType=Peri	Gloss=punctuation
+
+# sent_id = 44009038
+# ref_id = Acts 9:38
+# eng_text = As Lydda was near Joppa , the disciples , hearing that Peter was there , sent two men to him , imploring him not to delay in coming to them .
+# djk_text = Lida Foto á be faawe fu Jopa Foto . Ne biibiwan a Jopa Foto yee taki , Peitilisi de ape . Ne den sende tu manengee go piki en taki , Tabita dede a Jopa Foto . Meke a kon a den sondee daai daai .
+1	Lida	lida	PROPN	_	_	_	_	_	Gloss=Lydda
+2	Foto	foto	NOUN	_	_	_	_	_	Gloss=the capital city of Suriname; Paramaribo
+3	á	ná	PART	_	_	_	_	_	Gloss= ation
+4	be	be	AUX	_	_	_	Tense=Past	VerbForm=Fin	Gloss=past marker
+5	faawe	faawe	ADV	_	_	_	_	_	Gloss=farther
+6	fu	fu	ADP	_	_	_	_	Gloss=of; belonging to; connected to
+7	Jopa	jopa	PROPN	_	_	_	_	_	Gloss=Joppa
+8	Foto	foto	NOUN	_	_	_	_	_	Gloss=the capital city of Suriname; Paramaribo
+9	.	.	PUNCT	_	_	_	_	_
+10	Ne	ne	ADP	_	_	_	_	_	Gloss=according to; at; by, as a locative preposition
+11	biibiwan	biibiwan	NOUN	_	_	15	 	_	Number=Plur	Gloss=believer in the Lord God
+12	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+13	Jopa	jopa	PROPN	_	_	_	_	_	Gloss=Joppa
+14	Foto	foto	NOUN	_	_	_	_	_	Gloss=the capital city of Suriname; Paramaribo
+15	yee	yee	VERB	_	_	24	 _	Aspect=Perf	Tense=Past	VerbForm=Part	Gloss=hear; listen
+16	taki	taki	VERB	_	_	_	_	Gloss=speak; talk; say
+17	,	,	PUNCT	_	_	_	_	_
+18	Peitilisi	peitilisi	NOUN	_	_	_	 	_	Number=Sing	Gloss=the Apostle Peter, one of the disciples of Jesus Christ
+19	de	de	VERB	_	_	_	_	_	Gloss=be
+20	ape	ape	ADV	_	_	_	_	_	Gloss=there (specific)
+21	.	.	PUNCT	_	_	_	_	_
+22	Ne	ne	ADP	_	_	_	_	_	Gloss=according to; at; by, as a locative preposition
+_	den	den	NOUN	_	_		_	Case=Nom	Number=Plur	Person=3	PronType=Prs	Gloss=ancestors as a collective group
+24	sende	sende	VERB	_	_	0	root	_	Tense=Past	VerbForm=Fin	Gloss=send
+_	tu	tu	NOUN	_	_	_	_	_	NumType=Card	Gloss=pair; by twos
+26	manengee	manengee	NOUN	_	_	_	_	_	Gloss=flirt
+27	go	go	VERB	_	_	_	_	_	Gloss=go
+28	piki	piki	VERB	_	_	_	_	_	Gloss=pick up; gather; collect
+29	en	en	PRON	_	_	_	 	_	Case=Acc	Gender=Masc	Number=Sing	Person=3	PronType=Prs	Gloss=he; she; it; 3rd person singular pronoun emphatic form
+30	taki	taki	VERB	_	_	_	_	Gloss=speak; talk; say
+31	,	,	PUNCT	_	_	_	_	_
+32	Tabita	tabita	PROPN	_	_	_	_	_	Gloss=Tabitha
+33	dede	dede	VERB	_	_	_	_	_	Gloss=be dull
+34	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+35	Jopa	jopa	PROPN	_	_	_	_	_	Gloss=Joppa
+36	Foto	foto	NOUN	_	_	_	_	_	Gloss=the capital city of Suriname; Paramaribo
+37	.	.	PUNCT	_	_	_	_	_
+38	Meke	meke	NOUN	_	_	_	_	_	Gloss=period of three months after giving birth
+39	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+40	kon	kon	VERB	_	_	_	_	_	Gloss=come
+41	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+42	den	den	NOUN	_	_	_	Case=Nom	Number=Plur	Person=3	PronType=Prs	Gloss=ancestors as a collective group
+43	sondee	sondee	ADP	_	_	_	_	_	Gloss=without
+44	daai	daai	NOUN	_	_	_	_	_	Gloss=whirlwind
+45	daai	daai	NOUN	_	_	_	_	_	Gloss=whirlwind
+_	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 44011011
+# ref_id = Acts 11:11
+# eng_text = Behold , immediately three men stood before the house where I was , having been sent from Caesarea to me .
+# djk_text = Na a seefi yuu de , dii man doo na a doo mofu pe mi be e tan anga sama . Den komoto a Sesaleya Foto , pe sama sende den kon kai mi .
+1	Na	na	VERB	_	_	_	_	_	Gloss=be; copula
+2	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+3	seefi	seefi	ADV	_	_	_	_	_	Gloss=even
+4	yuu	yuu	NOUN	_	_	_	_	_	Gloss=o'clock
+5	de	de	VERB	_	_	_	_	_	Gloss=be
+6	,	,	PUNCT	_	_	_	_	_
+7	dii	dii	NOUN	_	_	_	_	_	Gloss=March
+8	man	man	VERB	_	_	_	_	_	Gloss=can; be able
+9	doo	doo	VERB	_	_	_	_	_	Gloss=cut ; sever; chop
+10	na	na	VERB	_	_	_	_	_	Gloss=be; copula
+11	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+12	doo	doo	VERB	_	_	_	_	_	Gloss=cut ; sever; chop
+13	mofu	mofu	NOUN	_	_	_	_	_	Gloss=mouth
+14	pe	pe	ADV	_	_	_	_	Gloss=where
+15	mi	mi	PRON	_	_	_	_	_	Gloss=1st person singular nominative or objective pronoun; I; me
+16	be	be	AUX	_	_	_	Tense=Past	VerbForm=Fin	Gloss=past marker
+17	e	e	PART	_	_	_	_	_	Gloss=progressive marker
+18	tan	tan	INTJ	_	_	_	_	_	Gloss=exclamation of surprise or indignation
+19	anga	anga	NOUN	_	_	_	_	_	Gloss=clothes hanger
+20	sama	sama	NOUN	_	_	_	_	_	Gloss=people; person
+21	.	.	PUNCT	_	_	_	_	PunctType=Peri	Gloss=punctuation
+22	Den	den	NOUN	_	_	_	_	_	Gloss=ancestors as a collective group
+_	komoto	komoto	VERB	_	_	Gloss=leave; come out
+24	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+_	Sesaleya	sesaleya	PROPN	_	_	_	Number=Sing	Gloss=Caesarea
+26	Foto	foto	NOUN	_	_	_	_	_	Gloss=the capital city of Suriname; Paramaribo
+27	,	,	PUNCT	_	_	_	_	_
+28	pe	pe	ADV	_	_	_	_	_	Gloss=where
+29	sama	sama	NOUN	_	_	_	_	_	Gloss=people; person
+30	sende	sende	VERB	_	_	_	_	_	Aspect=Perf	Tense=Past	VerbForm=Part	Gloss=send
+31	den	den	NOUN	_	_	_	_	_	Gloss=ancestors as a collective group
+32	kon	kon	VERB	_	_	_	_	_	Gloss=come
+33	kai	kai	VERB	_	_	_	_	_	Gloss=fall
+34	mi	mi	PRON	_	_	_	_	_	Gloss=1st person singular nominative or objective pronoun; I; me
+35	.	.	PUNCT	_	_	_	_	PunctType=Peri	Gloss=punctuation
+
+# sent_id = 44021034
+# ref_id = Acts 21:34
+# eng_text = Some shouted one thing , some another , among the crowd . When he couldn't find out the truth because of the noise , he commanded him to be brought into the barracks .
+# djk_text = Ma a hii kulu Dyusama e piki buuya buuya . Ibiiwan e taki disi dati . A gaan komandanti á poi fusutan . Ne a meke suudati tyai Pawlesi gwe na a gaan suudati dyali di be meke a wan sodoo , fu tan luku sani a ondoo .
+1	Ma	ma	NOUN	_	_	_	_	_	Gloss=Mrs
+2	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+3	hii	hii	NOUN	_	_	_	_	_	Gloss=pile of wood to be burned which did not burn up when the planting ground was first burned
+4	kulu	kulu	NOUN	_	_	_	_	_	Gloss=crowd; group of people; as a group
+5	Dyusama	dyusama	NOUN	_	_	_	_	_	Gloss=the Jewish people
+6	e	e	PART	_	_	_	_	_	Gloss=progressive marker
+7	piki	piki	VERB	_	_	_	_	_	Gloss=pick up; gather; collect
+8	buuya	buuya	VERB	_	_	_	_	_	Gloss=be upset; be confused; wander
+9	buuya	buuya	VERB	_	_	_	_	_	Gloss=be upset; be confused; wander
+10	.	.	PUNCT	_	_	_	_	PunctType=Peri	Gloss=punctuation
+11	Ibiiwan	ibiiwan	PRON	_	_	_	_	_	Gloss=everybody; every person; everyone
+12	e	e	PART	_	_	_	_	_	Gloss=progressive marker
+13	taki	taki	VERB	_	_	_	mark	_	Gloss=speak; talk; say
+14	disi	disi	PRON	_	_	_	_	_	Gloss=this
+15	dati	dati	PRON	_	_	_	_	_	Gloss=that
+16	.	.	PUNCT	_	_	_	_	PunctType=Peri	Gloss=punctuation
+17	A	a	PRON	_	_	_	_	_	Gloss=he; she; it
+18	gaan	gaan	NOUN	_	_	_	_	_	Gloss=great mother-in-law; grandmother of in-law
+19	komandanti	komandanti	NOUN	_	_	_	_	_	Gloss=commandant
+20	á	ná	PART	_	_	_	_	_	Gloss= ation
+21	poi	poi	VERB	_	_	_	_	_	Gloss=can; be able
+22	fusutan	fusutan	VERB	_	_	_	_	_	Gloss=understand
+_	.	.	PUNCT	_	_	_	_	PunctType=Peri	Gloss=punctuation
+24	Ne	ne	ADP	_	_	_	_	_	Gloss=according to; at; by, as a locative preposition
+_	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+26	meke	meke	NOUN	_	_	_	_	_	Gloss=period of three months after giving birth
+27	suudati	suudati	NOUN	_	_	_	_	_	Gloss=soldier
+28	tyai	tyai	VERB	_	_	_	_	_	Gloss=bring; carry
+29	Pawlesi	pawlesi	NOUN	_	_	_	 pass	_	Number=Sing	Gloss=the Apostle Paul of the New Testament
+30	gwe	gwe	VERB	_	_	_	_	_	Gloss=go away; leave
+31	na	na	VERB	_	_	_	_	_	Gloss=be; copula
+32	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+33	gaan	gaan	NOUN	_	_	_	_	_	Gloss=great mother-in-law; grandmother of in-law
+34	suudati	suudati	NOUN	_	_	_	_	_	Gloss=soldier
+35	dyali	dyali	NOUN	_	_	_	_	_	Gloss=yard
+36	di	di	PRON	_	_	_	_	_	Gloss=who; which
+37	be	be	AUX	_	_	_	_	_	Gloss=past marker
+38	meke	meke	NOUN	_	_	_	_	_	Gloss=period of three months after giving birth
+39	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+40	wan	wan	NOUN	_	_	_	_	_	Gloss=another one
+41	sodoo	sodoo	NOUN	_	_	_	_	_	Gloss=multistory house or building
+42	,	,	PUNCT	_	_	_	_	_
+43	fu	fu	ADP	_	_	_	_	Gloss=of; belonging to; connected to
+44	tan	tan	INTJ	_	_	_	_	_	Gloss=exclamation of surprise or indignation
+45	luku	luku	NOUN	_	_	_	_	_	Gloss=mirror
+_	sani	sani	NOUN	_	_	_	_	_	Gloss=thing
+47	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+48	ondoo	ondoo	NOUN	_	_	_	_	_	Gloss=on earth
+49	.	.	PUNCT	_	_	_	_	PunctType=Peri	Gloss=punctuation
+
+# sent_id = 47012002
+# ref_id = 2 Corinthians 12:2
+# eng_text = I know a man in Christ , fourteen years ago ( whether in the body , I don't know , or whether out of the body , I don't know ; God knows ) , such a one caught up into the third heaven .
+# djk_text = Ma na di mi sabi wan sama di libi mokisa anga Kelestesi . Tin na fo yali pasa , Masaa Gadu be tyai en go doo en kondee a tapu anda . Mi á kaba fusutan fu na anga ala en libisama fasi anga sikin ofu na jeje fasi sondee sikin . Masaa Gadu wawan sabi .
+1	Ma	ma	NOUN	_	_	_	_	_	Gloss=Mrs
+2	na	na	VERB	_	_	_	_	_	Gloss=be; copula
+3	di	di	PRON	_	_	_	_	_	Gloss=who; which
+4	mi	mi	PRON	_	_	_	Number=Sing	Person=1	Poss=Yes	PronType=Prs	Gloss=1st person singular nominative or objective pronoun; I; me
+5	sabi	sabi	VERB	_	_	_	_	_	Gloss=know
+6	wan	wan	NOUN	_	_	_	_	_	Gloss=another one
+7	sama	sama	NOUN	_	_	_	_	_	Gloss=people; person
+8	di	di	PRON	_	_	_	_	_	Gloss=who; which
+9	libi	libi	VERB	_	_	_	_	_	Gloss=live
+10	mokisa	mokisa	NOUN	_	_	_	_	_	Gloss=fried rice
+11	anga	anga	NOUN	_	_	_	_	_	Gloss=clothes hanger
+12	Kelestesi	kelestesi	NOUN	_	_	_	_	_	Gloss=Christ; Jesus Christ; God's Messiah
+13	.	.	PUNCT	_	_	_	PunctType=Peri	Gloss=punctuation
+14	Tin	tin	NOUN	_	_	_	_	_	Gloss=ten o'clock
+15	na	na	VERB	_	_	_	_	_	Gloss=be; copula
+16	fo	fo	NOUN	_	_	_	_	_	Gloss=April
+17	yali	yali	NOUN	_	_	_	_	_	Number=Plur	Gloss=year
+18	pasa	pasa	VERB	_	_	_	_	_	Gloss=take place; happen
+19	,	,	PUNCT	_	_	_	_	_
+20	Masaa	masaa	NOUN	_	_	_	_	_	Gloss=boss
+21	Gadu	gadu	NOUN	_	_	_	_	_	Gloss=ritual dance
+22	be	be	AUX	_	_	_	_	_	Gloss=past marker
+_	tyai	tyai	VERB	_	_	_	_	_	Gloss=bring; carry
+24	en	en	PRON	_	_	_	_	_	Gloss=he; she; it; 3rd person singular pronoun emphatic form
+_	go	go	VERB	_	_	_	_	_	Gloss=go
+26	doo	doo	VERB	_	_	_	Gloss=cut ; sever; chop
+27	en	en	PRON	_	_	_	_	_	Gloss=he; she; it; 3rd person singular pronoun emphatic form
+28	kondee	kondee	NOUN	_	_	_	_	_	Gloss=country
+29	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+30	tapu	tapu	NOUN	_	_	_	_	_	Gloss=top of the water
+31	anda	anda	ADV	_	_	_	_	_	Gloss=there (general)
+32	.	.	PUNCT	_	_	_	_	PunctType=Peri	Gloss=punctuation
+33	Mi	mi	PRON	_	_	_	_	_	Gloss=1st person singular nominative or objective pronoun; I; me
+34	á	ná	PART	_	_	_	_	_	Gloss= ation
+35	kaba	kaba	NOUN	_	_	_	_	_	Gloss=end
+36	fusutan	fusutan	VERB	_	_	_	_	_	Gloss=understand
+37	fu	fu	ADP	_	_	_	_	Gloss=of; belonging to; connected to
+38	na	na	VERB	_	_	_	_	_	Gloss=be; copula
+39	anga	anga	NOUN	_	_	_	_	_	Gloss=clothes hanger
+40	ala	ala	ADJ	_	_	_	_	_	Gloss=all; every
+41	en	en	PRON	_	_	_	_	_	Gloss=he; she; it; 3rd person singular pronoun emphatic form
+42	libisama	libisama	NOUN	_	_	_	_	_	Gloss=human being; people; person
+43	fasi	fasi	VERB	_	_	_	_	_	Gloss=stick; adhere
+44	anga	anga	NOUN	_	_	_	_	_	Gloss=clothes hanger
+45	sikin	sikin	NOUN	_	_	_	 	_	Number=Sing	Gloss=shore
+_	ofu	ofu	CCONJ	_	_	_	_	_	Gloss=or
+47	na	na	VERB	_	_	_	_	_	Gloss=be; copula
+48	jeje	jeje	NOUN	_	_	_	_	_	Gloss=spirit
+49	fasi	fasi	VERB	_	_	_	_	_	Gloss=stick; adhere
+50	sondee	sondee	ADP	_	_	_	_	_	Gloss=without
+51	sikin	sikin	NOUN	_	_	_	 	_	Number=Sing	Gloss=shore
+52	.	.	PUNCT	_	_	_	_	PunctType=Peri	Gloss=punctuation
+53	Masaa	masaa	NOUN	_	_	_	_	_	Gloss=boss
+54	Gadu	gadu	NOUN	_	_	_	_	_	Gloss=ritual dance
+55	wawan	wanwan	ADJ	_	_	_	_	_	Gloss=alone
+56	sabi	sabi	VERB	_	_	_	_	_	Gloss=know
+57	.	.	PUNCT	_	_	_	_	PunctType=Peri	Gloss=punctuation
+
+# sent_id = 62004009
+# ref_id = 1 John 4:9
+# eng_text = By this was God's love revealed in us , that God has sent his only born Son into the world that we might live through him .
+# djk_text = Da , wi si taki Masaa Gadu lobi wi tuu . Bika , a sende en wankodo Manpikin kon a goontapu fu dede a wi peesi , puu ala takuudu anga ogii a wi tapu gi wi fu wi be sa libi tuutuu .
+1	Da	da	ADV		_	_	_	_	Gloss=then; so then
+2	,	,	PUNCT	_	_	_	_	_
+3	wi	wi	PRON	_	_	_	 	_	Case=Acc	Number=Plur	Person=1	PronType=Prs	Gloss=plural, non-3rd person pronoun
+4	si	si	VERB	_	_	_	_	_	Gloss=see; recognize
+5	taki	taki	VERB	_	_	_	Gloss=speak; talk; say
+6	Masaa	masaa	NOUN	_	_	_	_	_	Gloss=boss
+7	Gadu	gadu	NOUN	_	_	_	_	_	Gloss=ritual dance
+8	lobi	lobi	VERB	_	_	_	_	_	Gloss=rub; smear
+9	wi	wi	PRON	_	_	_	 	_	Case=Acc	Number=Plur	Person=1	PronType=Prs	Gloss=plural, non-3rd person pronoun
+10	tuu	tuu	ADV	_	_	_	_	_	Gloss=true
+11	.	.	PUNCT	_	_	_	punct	_	PunctType=Peri	Gloss=punctuation
+12	Bika	bika	SCONJ	_	_	_	_	_	Gloss=because
+13	,	,	PUNCT	_	_	_	_	_
+14	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+15	sende	sende	VERB	_	_	_	_	_	Gloss=send
+16	en	en	PRON	_	_	_	 	_	Case=Acc	Gender=Masc	Number=Sing	Person=3	PronType=Prs	Gloss=he; she; it; 3rd person singular pronoun emphatic form
+17	wankodo	wankodo	ADJ	_	_	_	_	_	Gloss=unique
+18	Manpikin	manpikin	NOUN	_	_	_	_	Number=Sing	Gloss=man
+19	kon	kon	VERB	_	_	_	_	_	Gloss=come
+20	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+21	goontapu	goontapu	NOUN	_	_	_	_	_	Gloss=world
+22	fu	fu	ADP	_	_	_	_	_	Gloss=of; belonging to; connected to
+_	dede	dede	VERB	_	_	_	_	_	Gloss=be dull
+24	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+_	wi	wi	PRON	_	_	_	 	_	Case=Acc	Number=Plur	Person=1	PronType=Prs	Gloss=plural, non-3rd person pronoun
+26	peesi	peesi	NOUN	_	_	_	_	_	Gloss=many places
+27	,	,	PUNCT	_	_	_	_	_
+28	puu	puu	VERB	_	_	_	_	_	Gloss=pull off; remove
+29	ala	ala	ADJ	_	_	_	_	_	Gloss=all; every
+30	takuudu	takuudu	NOUN	_	_	_	_	_	Gloss=evildoing; sin
+31	anga	anga	NOUN	_	_	_	_	_	Gloss=clothes hanger
+32	ogii	ogii	NOUN	_	_	_	_	_	Gloss=evil or strict look
+33	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+34	wi	wi	PRON	_	_	_	 	_	Case=Acc	Number=Plur	Person=1	PronType=Prs	Gloss=plural, non-3rd person pronoun
+35	tapu	tapu	NOUN	_	_	_	_	_	Gloss=top of the water
+36	gi	gi	VERB	_	_	_	_	_	Gloss=give
+37	wi	wi	PRON	_	_	_	 	_	Case=Acc	Number=Plur	Person=1	PronType=Prs	Gloss=plural, non-3rd person pronoun
+38	fu	fu	ADP	_	_	_	_	_	Gloss=of; belonging to; connected to
+39	wi	wi	PRON	_	_	_	 	_	Case=Acc	Number=Plur	Person=1	PronType=Prs	Gloss=plural, non-3rd person pronoun
+40	be	be	AUX	_	_	_	_	_	Gloss=past marker
+41	sa	sa	AUX		_	_	_	_	Gloss=will; shall; can “Mrs
+42	libi	libi	VERB	_	_	_	_	_	Gloss=live
+43	tuutuu	tuu	ADV	_	_	_	_	_	Gloss=truly
+44	.	.	PUNCT	_	_	_	_	PunctType=Peri	Gloss=punctuation
+
+# sent_id = 63001005
+# ref_id = 2 John 1:5
+# eng_text = Now I beg you , dear lady , not as though I wrote to you a new commandment , but that which we had from the beginning , that we love one another .
+# djk_text = Da mi lobi sisa ! Meke u tan lobi useefi naamo sondee kaba . Disi a ná wan nyun weiti . Ma na a gaan haw wan , di Masaa Gadu be gi wi , senten di u be bigin waka a Jesesi Kelestesi baka . Na so mi sikiifi taigi u .
+1	Da	da	ADV		_	_	_	_	Gloss=then; so then
+2	mi	mi	PRON	_	_	_	_	_	Gloss=1st person singular nominative or objective pronoun; I; me
+3	lobi	lobi	VERB	_	_	_	 	_	VerbForm=Inf	Gloss=rub; smear
+4	sisa	sisa	NOUN	_	_	_	_	_	Gloss=nephew
+5	!	!	PUNCT	_	_	_	 	_	Degree=Pos	Gloss=punctuation
+6	Meke	meke	NOUN	_	_	_	_	_	Gloss=period of three months after giving birth
+7	u	u	PRON	_	_	_	_	_	Gloss=plural, non-3rd person pronoun
+8	tan	tan	INTJ	_	_	_	_	_	Gloss=exclamation of surprise or indignation
+9	lobi	lobi	VERB	_	_	_	 	_	VerbForm=Inf	Gloss=rub; smear
+10	useefi	useefi	PRON	_	_	_	_	_	Gloss=plural, non-3rd person pronoun
+11	naamo	namo	ADV	_	_	_	_	_	Gloss=continuously
+12	sondee	sondee	ADP	_	_	_	_	_	Gloss=without
+13	kaba	kaba	NOUN	_	_	_	_	_	Gloss=end
+14	.	.	PUNCT	_	_	_	_	PunctType=Peri	Gloss=punctuation
+15	Disi	disi	PRON	_	_	_	_	_	Gloss=this
+16	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+17	ná	ná	PART	_	_	_	_	_	Gloss=emphasis marker
+18	wan	wan	NOUN	_	_	_	_	Definite=Ind	PronType=Art	Gloss=another one
+19	nyun	nyun	ADJ	_	_	_	 	_	Degree=Pos	Gloss=new
+20	weiti	weiti	NOUN	_	_	_	_	_	Gloss=law; rule; norm
+21	.	.	PUNCT	_	_	_	_	PunctType=Peri	Gloss=punctuation
+22	Ma	ma	NOUN	_	_	_	_	_	Gloss=Mrs
+_	na	na	VERB	_	_	_	Mood=Ind	Number=Sing	Person=1	Tense=Pres	VerbForm=Fin	Gloss=be; copula
+24	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+_	gaan	gaan	NOUN	_	_	_	_	_	Gloss=great mother-in-law; grandmother of in-law
+26	haw	haw	VERB	_	_	_	_	_	Gloss=be old
+27	wan	wan	NOUN	_	_	_	_	Definite=Ind	PronType=Art	Gloss=another one
+28	,	,	PUNCT	_	_	_	_	_
+29	di	di	PRON	_	_	_	_	_	Gloss=who; which
+30	Masaa	masaa	NOUN	_	_	_	_	_	Gloss=boss
+31	Gadu	gadu	NOUN	_	_	_	_	_	Gloss=ritual dance
+32	be	be	AUX	_	_	_	_	Aspect=Perf	Tense=Past	VerbForm=Part	Gloss=past marker
+33	gi	gi	VERB	_	_	_	_	_	Gloss=give
+34	wi	wi	PRON	_	_	_	_	_	Gloss=plural, non-3rd person pronoun
+35	,	,	PUNCT	_	_	_	_	_
+36	senten	senten	ADV	_	_	_	_	_	Gloss=since
+37	di	di	PRON	_	_	_	_	_	Gloss=who; which
+38	u	u	PRON	_	_	_	_	_	Gloss=plural, non-3rd person pronoun
+39	be	be	AUX	_	_	_	_	_	Aspect=Perf	Tense=Past	VerbForm=Part	Gloss=past marker
+40	bigin	bigin	VERB	_	_	_	_	_	Gloss=begin
+41	waka	waka	VERB	_	_	_	_	_	Gloss=walk
+42	a	a	PRON	_	_	_     Gloss=third person singular pronoun; he
+43	Jesesi	jesesi	NOUN	_	_	_	_	_	Gloss=Jesus; Jesus Christ
+44	Kelestesi	kelestesi	NOUN	_	_	_	_	_	Gloss=Christ; Jesus Christ; God's Messiah
+45	baka	baka	NOUN	_	_	_	_	_	Gloss=chamber pot
+_	.	.	PUNCT	_	_	_	_	PunctType=Peri	Gloss=punctuation
+47	Na	na	VERB	_	_	_	_	_	Gloss=be; copula
+48	so	so	ADV	_	_	_	_	_	Gloss=so
+49	mi	mi	PRON	_	_	_	_	_	Gloss=1st person singular nominative or objective pronoun; I; me
+50	sikiifi	sikiifi	NOUN	_	_	_	_	_	Gloss=pencil
+51	taigi	taigi	VERB	_	_	_	_	_	Gloss=tell
+52	u	u	PRON	_	_	_	_	_	Gloss=plural, non-3rd person pronoun
+53	.	.	PUNCT	_	_	_	_	PunctType=Peri	Gloss=punctuation
+

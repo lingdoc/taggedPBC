@@ -1,0 +1,806 @@
+## The following text has been annotated for parts of speech by students at NTU Singapore as part of a class project in AY 2025-26.
+## Verses are extracted from the taggedPBC. Annotations have been developed with a combination of manual and automated approaches, with reference to existing literature and (where possible) native speakers.
+## ISO 639-3: pap, Language: Papiamento, Number of verses: 21
+
+# sent_id = 40006024
+# ref_id = Matthew 6:24
+# eng_text = " No one can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You can't serve both God and Mammon .
+# pap_text = Niun hende no por sirbi dos shon , pasobra lo e odia esun i stima e otro . Lo e pega un na su kurason i menospresiá e otro . Ta imposibel sirbi Dios i plaka tambe .
+1	Niun	niun	PRON	_	_	_	_	_	gloss=puts
+2	hende	hende	NOUN	_	_	_	_	_	gloss=Man
+3	no	no	PART	_	_	_	neg	_	gloss=not|Polarity=Neg
+4	por	por	AUX	_	_	_	aux	_	gloss=can|VerbForm=Fin
+5	sirbi	sirbi	NOUN	_	_	_	_	_	gloss=worthless
+6	dos	dos	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+7	shon	shon	NOUN	_	_	_	_	_	gloss=master
+8	,	,	PUNCT	_	_	_	_	_
+9	pasobra	pasobra	SCONJ	_	_	_	_	_	gloss=because
+10	lo	lo	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+11	e	e	DET	_	_	17	det	_	gloss=the|Definite=Def|PronType=Art
+12	odia	odia	VERB	_	_	_	_	_	gloss=hates
+13	esun	esun	PRON	_	_	_	_	_	gloss=v
+14	i	i	CCONJ	_	_	34	cc	_	gloss=and|ConjType=Cmp
+15	stima	stima	VERB	_	_	_	conj	_	gloss=love|VerbForm=Inf
+16	e	e	DET	_	_	17	det	_	gloss=the|Definite=Def|PronType=Art
+17	otro	otro	ADJ	_	_	_	dobj	_	gloss=other|Degree=Pos
+18	.	.	PUNCT	_	_	_	_	_
+19	Lo	lo	AUX	_	_	_	_	_	gloss=vir
+20	e	e	DET	_	_	17	det	_	gloss=the|Definite=Def|PronType=Art
+21	pega	pega	VERB	_	_	_	acomp	_	gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+22	un	un	DET	_	_	_	_	_	gloss=a
+23	na	na	ADP	_	_	_	_	_	gloss=at
+24	su	su	PRON	_	_	_	_	_	gloss=his
+25	kurason	kurason	NOUN	_	_	_	_	_	gloss=heart
+26	i	i	CCONJ	_	_	34	cc	_	gloss=and|ConjType=Cmp
+27	menospresiá	menospresiá	VERB	_	_	_	_	_
+28	e	e	DET	_	_	29	det	_	gloss=the|Definite=Def|PronType=Art
+29	otro	otro	ADJ	_	_	_	dobj	_	gloss=other|Degree=Pos
+30	.	.	PUNCT	_	_	_	_	_
+31	Ta	ta	AUX	_	_	_	_	_	gloss=interf
+32	imposibel	imposibel	ADJ	_	_	_	_	_	gloss=impossible
+33	sirbi	sirbi	NOUN	_	_	_	_	_	gloss=worthless
+34	Dios	dios	PROPN	_	_	_	dobj	_	gloss=God|Number=Sing
+35	i	i	CCONJ	_	_	34	cc	_	gloss=and|ConjType=Cmp
+36	plaka	plaka	NOUN	_	_	34	conj	_	gloss=money|Number=Sing
+37	tambe	tambe	ADV	_	_	_	_	_	gloss=benefit
+38	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 40018012
+# ref_id = Matthew 18:12
+# eng_text = " What do you think ? If a man has one hundred sheep , and one of them goes astray , doesn't he leave the ninety-nine , go to the mountains , and seek that which has gone astray ?
+# pap_text = Kiko ta boso opinion tokante lo siguiente . Suponé ku ún karné di un doño di shen karné pèrdè kaminda . E doño lo no laga e otro 99 karnénan den seru , pa e bai buska esun pèrdí ?
+1	Kiko	kiko	PRON	_	_	_	_	_	gloss=What
+2	ta	ta	AUX	_	_	_	auxpass	_	gloss=is|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+3	boso	boso	PRON	_	_	_	_	_	gloss=you
+4	opinion	opinion	NOUN	_	_	_	_	_
+5	tokante	tokante	ADP	_	_	_	_	_	gloss=regarding
+6	lo	lo	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+7	siguiente	siguiente	ADJ _	_	_	_	_	gloss=tim
+8	.	.	PUNCT	_	_	_	_	_
+9	Suponé	suponé	VERB	_	_	_	_	_
+10	ku	ku	PRON	_	_	_	nsubjpass	_	gloss=that|PronType=Rel
+11	ún	ún	DET	_	_	_	_	_	gloss=cerer
+12	karné	karné	NOUN	_	_	_	dobj	_	gloss=sheep|Number=Plur
+13	di	di	ADP	_	_	_	prep	_	gloss=of
+14	un	un	DET	_	_	17	quantmod	_	gloss=a|Definite=Ind|PronType=Art
+15	doño	doño	NOUN	_	_	_	_	_
+16	di	di	ADP	_	_	_	prep	_	gloss=of
+17	shen	shen	NUM	_	_	18	nummod	_	gloss=hundred|NumType=Card
+18	karné	karné	NOUN	_	_	_	dobj	_	gloss=sheep|Number=Plur
+19	pèrdè	pèrdè	VERB	_	_	_	_	_
+20	kaminda	kaminda	NOUN	_	_	_	_	_	gloss=where
+21	.	.	PUNCT	_	_	_	_	_
+22	E	e	DET	_	_	_	_	_	gloss=The
+23	doño	doño	NOUN	_	_	_	_	_
+24	lo	lo	AUX	_	_	_	aux	_	gloss=will|VerbForm=Fin
+25	no	no	PART	_	_	_	_	_	gloss=not
+26	laga	laga	VERB	_	_	_	_	_	gloss=let
+27	e	e	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+28	otro	otro	ADJ	_	_	_	_	_	gloss=other
+29	99	99	NUM	_	_	_	_	_	gloss=ety
+30	karnénan	karnénan	NOUN	_	_	_	_	_
+31	den	den	ADP	_	_	_	_	_	gloss=number
+32	seru	seru	NOUN	_	_	_	_	_	gloss=mountain
+33	,	,	PUNCT	_	_	_	_	_
+34	pa	pa	ADP	_	_	37	prep	_	gloss=for
+35	e	e	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+36	bai	bai	AUX	_	_	_	_	_	gloss=went
+37	buska	buska	VERB	_	_	_	advcl	_	gloss=search|VerbForm=Inf
+38	esun	esun	PRON	_	_	_	_	_	gloss=v
+39	pèrdí	pèrdí	VERB	_	_	_	_	_
+40	?	?	PUNCT	_	_	_	_	_
+
+# sent_id = 40020021
+# ref_id = Matthew 20:21
+# eng_text = He said to her , " What do you want ? " She said to him , " Command that these , my two sons , may sit , one on your right hand , and one on your left hand , in your kingdom . "
+# pap_text = Hesus a bis'é : ‘ Kiko bo ke ? ’ E ora ei , e mama a bis'É : ‘ Duna òrdu pa e dos yu hòmbernan di mi akí sinta huntu ku bo den bo reino : un na bo man drechi , e otro na bo man robes . ’
+1	Hesus	hesus	PROPN	_	_	_	_	_	gloss=Jesus
+2	a	a	AUX	_	_	_	_	_
+3	bis'é	bis'é	VERB	_	_	_	_	_	gloss=Your
+4	:	:	PUNCT	_	_	_	_	_
+5	‘	‘	PUNCT	_	_	_	_	_
+6	Kiko	kiko	PRON	_	_	_	attr	_	gloss=What
+7	bo	bo	PRON	_	_	_	poss	_	gloss=your|Person=2|Poss=Yes|PronType=Prs
+8	ke	ke	VERB	_	_	_	_	_	gloss=want
+9	?	?	PUNCT	_	_	_	_	_
+10	’	’	PUNCT	_	_	_	_	_
+11	E	e	DET	_	_	_	_	_	gloss=The
+12	ora	ora	ADV	_	_	_	_	_	gloss=when
+13	ei	ei	PRON	_	_	_	_	_	gloss=iled
+14	,	,	PUNCT	_	_	_	_	_
+15	e	e	DET	_	_	46	det	_	gloss=the|Definite=Def|PronType=Art
+16	mama	mama	NOUN	_	_	_	_	_	gloss=mother
+17	a	a	AUX	_	_	_	_	_
+18	bis'É	bis'é	VERB	_	_	_	_	_	gloss=Your
+19	:	:	PUNCT	_	_	_	_	_
+20	‘	‘	PUNCT	_	_	_	_	_
+21	Duna	duna	VERB	_	_	_	_	_	gloss=Samaritan
+22	òrdu	òrdu	NOUN	_	_	_	_	_
+23	pa	pa	ADP	_	_	_	_	_	gloss=for
+24	e	e	DET	_	_	46	det	_	gloss=the|Definite=Def|PronType=Art
+25	dos	dos	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+26	yu	yu	NOUN	_	_	_	_	_	gloss=son
+27	hòmbernan	hòmbernan	NOUN	_	_	_	_	_
+28	di	di	ADP	_	_	50	prep	_	gloss=of
+29	mi	mi	PRON	_	_	_	poss	_	gloss=my|Number=Sing|Person=1|Poss=Yes|PronType=Prs
+30	akí	akí	ADV	_	_	_	_	_	gloss=these
+31	sinta	sinta	VERB	_	_	_	_	_	gloss=sat
+32	huntu	huntu	ADV	_	_	_	_	_	gloss=noticed
+33	ku	ku	SCONJ	_	_	_	_	_	gloss=that
+34	bo	bo	PRON	_	_	_	poss	_	gloss=your|Person=2|Poss=Yes|PronType=Prs
+35	den	den	ADP	_	_	_	_	_	gloss=number
+36	bo	bo	PRON	_	_	_	poss	_	gloss=your|Person=2|Poss=Yes|PronType=Prs
+37	reino	reino	PROPN	_	_	_	pobj	_	gloss=Kingdom|Number=Sing
+38	:	:	PUNCT	_	_	_	_	_
+39	un	un	DET	_	_	_	_	_	gloss=a
+40	na	na	ADP	_	_	_	_	_	gloss=at
+41	bo	bo	PRON	_	_	_	poss	_	gloss=your|Person=2|Poss=Yes|PronType=Prs
+42	man	man	NOUN	_	_	_	_	_	gloss=hands
+43	drechi	drechi	NOUN	_	_	_	pobj	_	gloss=right|Number=Sing
+44	,	,	PUNCT	_	_	_	_	_
+45	e	e	DET	_	_	46	det	_	gloss=the|Definite=Def|PronType=Art
+46	otro	otro	ADJ	_	_	_	conj	_	gloss=other|Degree=Pos
+47	na	na	ADP	_	_	_	_	_	gloss=at
+48	bo	bo	PRON	_	_	_	poss	_	gloss=your|Person=2|Poss=Yes|PronType=Prs
+49	man	man	unk	_	_	_	_	_	gloss=hands
+50	robes	robes	NOUN	_	_	_	pobj	_	gloss=places|Number=Plur
+51	.	.	PUNCT	_	_	_	_	_
+52	’	’	PUNCT	_	_	_	_	_
+
+# sent_id = 40026002
+# ref_id = Matthew 26:2
+# eng_text = " You know that after two days the Passover is coming , and the Son of Man will be delivered up to be crucified . "
+# pap_text = ‘ Boso sa ku aki dos dia ta fiesta di Pésag . E ora ei ta entregá Yu di hende pa nan krusifik'É . ’
+1	‘	‘	PUNCT	_	_	_	_	_
+2	Boso	boso	PRON	_	_	_	_	_	gloss=domin
+3	sa	sa	VERB	_	_	_	advcl	_	gloss=know|Tense=Pres|VerbForm=Fin
+4	ku	ku	SCONJ	_	_	_	_	_	gloss=that
+5	aki	aki	ADV	_	_	_	_	_	gloss=here
+6	dos	dos	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+7	dia	dia	NOUN	_	_	_	_	_	gloss=day
+8	ta	ta	AUX	_	_	_	_	_	gloss=is
+9	fiesta	fiesta	NOUN	_	_	_	_	_	gloss=celebration
+10	di	di	ADP	_	_	18	prep	_	gloss=of
+11	Pésag	pésag	PROPN	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_
+13	E	e	DET	_	_	_	_	_	gloss=The
+14	ora	ora	ADV	_	_	_	_	_	gloss=when
+15	ei	ei	PRON	_	_	_	_	_	gloss=iled
+16	ta	ta	AUX	_	_	_	_	_	gloss=is
+17	entregá	entregá	VERB	_	_	_	_	_
+18	Yu	yu	PROPN	_	_	_	nsubjpass	_	gloss=Son|Number=Sing
+19	di	di	ADP	_	_	18	prep	_	gloss=of
+20	hende	hende	PROPN	_	_	19	pobj	_	gloss=Man|Number=Sing
+21	pa	pa	ADP	_	_	_	_	_	gloss=for
+22	nan	nan	DET	_	_	_	_	_	gloss=them
+23	krusifik'É	krusifik'é	VERB	_	_	_	advcl	_	gloss=crucified|Aspect=Perf|Tense=Past|VerbForm=Part
+24	.	.	PUNCT	_	_	_	_	_
+25	’	’	PUNCT	_	_	_	_	_
+
+# sent_id = 40026061
+# ref_id = Matthew 26:61
+# eng_text = and said , " This man said , ' I am able to destroy the temple of God , and to build it in three days . ' "
+# pap_text = bin bisa : ‘ Nos a tend'é bisa : “ Mi por destruí e tèmpel di Dios i Mi ta lant'é atrobe den tres dia . ” ’
+1	bin	bin	AUX	_	_	_	_	_	gloss=garden
+2	bisa	bisa	VERB	_	_	_	_	_	gloss=say
+3	:	:	PUNCT	_	_	_	_	_
+4	‘	‘	PUNCT	_	_	_	_	_
+5	Nos	nos	PRON	_	_	_	_	_	gloss=We
+6	a	a	AUX	_	_	_	_	_
+7	tend'é	tend'é	VERB	_	_	_	_	_
+8	bisa	bisa	VERB	_	_	_	_	_	gloss=say
+9	:	:	PUNCT	_	_	_	_	_
+10	“	“	PUNCT	_	_	_	_	_
+11	Mi	mi	PRON	_	_	_	_	_	gloss=expensive
+12	por	por	ADP	_	_	_	_	_	gloss=can
+13	destruí	destruí	VERB	_	_	_	xcomp	_	gloss=destroy|VerbForm=Inf
+14	e	e	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+15	tèmpel	tèmpel	NOUN	_	_	_	_	_
+16	di	di	ADP	_	_	_	prep	_	gloss=of
+17	Dios	dios	PROPN	_	_	16	pobj	_	gloss=God|Number=Sing
+18	i	i	CCONJ	_	_	13	cc	_	gloss=and|ConjType=Cmp
+19	Mi	mi	PRON	_	_	_	_	_	gloss=expensive
+20	ta	ta	AUX	_	_	_	_	_	gloss=is
+21	lant'é	lant'é	VERB	_	_	_	_	_
+22	atrobe	atrobe	ADV	_	_	_	_	_	gloss=sight
+23	den	den	ADP	_	_	_	_	_	gloss=number
+24	tres	tres	NUM	_	_	_	nummod	_	gloss=three|NumType=Card
+25	dia	dia	NOUN	_	_	_	_	_	gloss=day
+26	.	.	PUNCT	_	_	_	_	_
+27	”	”	PUNCT	_	_	_	_	_
+28	’	’	PUNCT	_	_	_	_	_
+
+# sent_id = 40028016
+# ref_id = Matthew 28:16
+# eng_text = But the eleven disciples went into Galilee , to the mountain where Jesus had sent them .
+# pap_text = E diesun disipelnan a bai e seru na Galilea , kaminda Hesus a bisa nan pa bai .
+1	E	e	DET	_	_	_	_	_	gloss=The
+2	diesun	diesun	NUM	_	_	_	_	_
+3	disipelnan	disipelnan	NOUN	_	_	_	nsubj	_	gloss=disciples|Number=Plur
+4	a	a	AUX	_	_	_	_	_
+5	bai	bai	AUX	_	_	_	_	_	gloss=went
+6	e	e	DET	_	_	7	det	_	gloss=the|Definite=Def|PronType=Art
+7	seru	seru	NOUN	_	_	_	pobj	_	gloss=mountain|Number=Sing
+8	na	na	ADP	_	_	_	_	_	gloss=at
+9	Galilea	galilea	PROPN	_	_	16	pobj	_	gloss=Galilee|Number=Sing
+10	,	,	PUNCT	_	_	_	_	_
+11	kaminda	kaminda	SCONJ	_	_	_	advmod	_	gloss=where
+12	Hesus	hesus	PROPN	_	_	_	nsubj	_	gloss=Jesus|Number=Sing
+13	a	a	AUX	_	_	_	_	_
+14	bisa	bisa	VERB	_	_	_	_	_	gloss=say
+15	nan	nan	PRON	_	_	_	dobj	_	gloss=them|Case=Acc|Number=Plur|Person=3|PronType=Prs
+16	pa	pa	ADP	_	_	_	prep	_	gloss=for
+17	bai	bai	AUX	_	_	_	_	_	gloss=went
+18	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 41002023
+# ref_id = Mark 2:23
+# eng_text = It happened , that he was going on the Sabbath day through the grain fields , and his disciples began , as they went , to pluck the ears of grain .
+# pap_text = Un dia di sabat Hesus tabata kana den e kunukunan di trigo i na kaminda su disipelnan a kuminsá piki tapushi di trigo .
+1	Un	un	DET	_	_	_	_	_	gloss=Other
+2	dia	dia	NOUN	_	_	_	npadvmod	_	gloss=day|Number=Sing
+3	di	di	ADP	_	_	_	prep	_	gloss=of
+4	sabat	sabat	PROPN	_	_	2	compound	_	gloss=Sabbath|Number=Sing
+5	Hesus	hesus	PROPN	_	_	7	nsubj	_	gloss=Jesus|Number=Sing
+6	tabata	tabata	AUX	_	_	7	aux	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+7	kana	kana	VERB	_	_	_	advcl	_	gloss=walking|Aspect=Prog|Tense=Pres|VerbForm=Part
+8	den	den	ADP	_	_	_	_	_	gloss=number
+9	e	e	DET	_	_	_	_	_	gloss=the
+10	kunukunan	kunukunan	NOUN	_	_	_	_	_
+11	di	di	ADP	_	_	_	prep	_	gloss=of
+12	trigo	trigo	NOUN	_	_	11	pobj	_	gloss=grain|Number=Sing
+13	i	i	CCONJ	_	_	_	_	_	gloss=and
+14	na	na	ADP	_	_	_	_	_	gloss=at
+15	kaminda	kaminda	ADV	_	_	_	_	_	gloss=where
+16	su	su	PRON	_	_	17	poss	_	gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+17	disipelnan	disipelnan	NOUN	_	_	_	nsubj	_	gloss=disciples|Number=Plur
+18	a	a	AUX	_	_	_	_	_
+19	kuminsá	kuminsá	VERB	_	_	_	_	_
+20	piki	piki	VERB	_	_	_	_	_	gloss=thorn
+21	tapushi	tapushi	NOUN	_	_	_	_	_
+22	di	di	ADP	_	_	_	prep	_	gloss=of
+23	trigo	trigo	NOUN	_	_	22	pobj	_	gloss=grain|Number=Sing
+24	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 41012032
+# ref_id = Mark 12:32
+# eng_text = The scribe said to him , " Truly , teacher , you have said well that he is one , and there is none other but he ,
+# pap_text = E dòktor di lei a bisa Hesus : ‘ Bon bon , Maestro ! Bèrdat , ta un Dios so tin i no tin niun otro dios ku n' t'E so .
+1	E	e	DET	_	_	_	det	_	gloss=The|Definite=Def|PronType=Art
+2	dòktor	dòktor	NOUN	_	_	_	_	_
+3	di	di	ADP	_	_	_	prep	_	gloss=of
+4	lei	lei	NOUN	_	_	3	pobj	_	gloss=law|Number=Sing
+5	a	a	AUX	_	_	_	_	_
+6	bisa	bisa	VERB	_	_	_	_	_	gloss=say
+7	Hesus	hesus	PROPN	_	_	_	_	_	gloss=Jesus
+8	:	:	PUNCT	_	_	_	_	_
+9	‘	‘	PUNCT	_	_	_	_	_
+10	Bon	bon	INTJ	_	_	_	intj	_	gloss=Well
+11	bon	bon	ADV	_	_	_	_	_	gloss=Good
+12	,	,	PUNCT	_	_	_	_	_
+13	Maestro	maestro	NOUN	_	_	_	npadvmod	_	gloss=Teacher|Number=Sing
+14	!	!	PUNCT	_	_	_	_	_
+15	Bèrdat	bèrdat	ADV	_	_	_	_	_
+16	,	,	PUNCT	_	_	_	_	_
+17	ta	ta	VERB	_	_	_	ccomp	_	gloss=is|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+18	un	un	DET	_	_	_	_	_	gloss=a
+19	Dios	dios	PROPN	_	_	17	attr	_	gloss=God|Number=Sing
+20	so	so	PRON	_	_	_	_	_	gloss=alone
+21	tin	tin	VERB	_	_	_	_	_	gloss=flour
+22	i	i	CCONJ	_	_	19	cc	_	gloss=and|ConjType=Cmp
+23	no	no	PART	_	_	_	_	_	gloss=not
+24	tin	tin	VERB	_	_	_	_	_	gloss=flour
+25	niun	niun	PRON	_	_	_	_	_	gloss=none
+26	otro	otro	ADJ	_	_	19	conj	_	gloss=other|Degree=Pos
+27	dios	dios	NOUN	_	_	_	_	_	gloss=gods
+28	ku	ku	SCONJ	_	_	17	mark	_	gloss=that
+29	n'	n'	PART	_	_	_	_	_	gloss=cerer
+30	t'E	t'e	AUX	_	_	_	_	_
+31	so	so	PRON	_	_	_	_	_	gloss=alone
+32	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 41014037
+# ref_id = Mark 14:37
+# eng_text = He came and found them sleeping , and said to Peter , " Simon , are you sleeping ? Couldn't you watch one hour ?
+# pap_text = El a bai bèk i haña e tres disipelnan drumí na soño . El a bisa Pedro : ‘ Simon , bo ta drumí no ? Bo no por a keda ni sikiera un ora lantá ?
+1	El	el	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+2	a	a	AUX	_	_	_	_	_
+3	bai	bai	AUX	_	_	_	_	_	gloss=went
+4	bèk	bèk	ADV	_	_	_	_	_
+5	i	i	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+6	haña	haña	PRON	_	_	_	_	_
+7	e	e	DET	_	_	9	det	_	gloss=the|Definite=Def|PronType=Art
+8	tres	tres	NUM	_	_	_	_	_	gloss=three
+9	disipelnan	disipelnan	NOUN	_	_	_	nsubj	_	gloss=disciples|Number=Plur
+10	drumí	drumí	VERB	_	_	_	_	_	gloss=ger
+11	na	na	ADP	_	_	_	_	_	gloss=at
+12	soño	soño	NOUN	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_
+14	El	el	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+15	a	a	AUX	_	_	_	_	_
+16	bisa	bisa	VERB	_	_	_	_	_	gloss=say
+17	Pedro	pedro	PROPN	_	_	_	pobj	_	gloss=Peter|Number=Sing
+18	:	:	PUNCT	_	_	_	_	_
+19	‘	‘	PUNCT	_	_	_	_	_
+20	Simon	simon	PROPN	_	_	_	npadvmod	_	gloss=Simon|Number=Sing
+21	,	,	PUNCT	_	_	_	_	_
+22	bo	bo	PRON	_	_	_	_	_	gloss=your
+23	ta	ta	AUX	_	_	_	_	_	gloss=is
+24	drumí	drumí	VERB	_	_	_	_	_	gloss=ger
+25	no	no	PART	_	_	_	_	_	gloss=not
+26	?	?	PUNCT	_	_	_	_	_
+27	Bo	bo	PRON	_	_	_	_	_	gloss=Your
+28	no	no	PART	_	_	_	_	_	gloss=not
+29	por	por	ADP	_	_	_	_	_	gloss=can
+30	a	a	AUX	_	_	_	_	_
+31	keda	keda	VERB	_	_	_	_	_	gloss=stayed
+32	ni	ni	ADV	_	_	_	_	_	gloss=nor
+33	sikiera	sikiera	ADV	_	_	_	_	_	gloss=untie
+34	un	un	DET	_	_	_	_	_	gloss=a
+35	ora	ora	ADV	_	_	_	_	_	gloss=when
+36	lantá	lantá	VERB	_	_	_	_	_
+37	?	?	PUNCT	_	_	_	_	_
+
+# sent_id = 42004002
+# ref_id = Luke 4:2
+# eng_text = for forty days , being tempted by the devil . He ate nothing in those days . Afterward , when they were completed , he was hungry .
+# pap_text = Ei diabel a purba lag'É kai den tentashon durante kuarenta dia largu . E no a kome nada durante e dianan ei i na final El a haña hamber .
+1	Ei	ei	PRON	_	_	_	_	_	gloss=ace
+2	diabel	diabel	NOUN	_	_	_	pobj	_	gloss=devil|Number=Sing
+3	a	a	AUX	_	_	_	_	_
+4	purba	purba	VERB	_	_	_	_	_	gloss=using
+5	lag'É	lag'é	VERB	_	_	_	_	_
+6	kai	kai	VERB	_	_	_	_	_	gloss=fall
+7	den	den	ADP	_	_	_	_	_	gloss=number
+8	tentashon	tentashon	NOUN	_	_	_	_	_	gloss=temptation
+9	durante	durante	NUM	_	_	_	nummod	_	gloss=forty|NumType=Card
+10	kuarenta	kuarenta	NUM	_	_	_	nummod	_	gloss=forty|NumType=Card
+11	dia	dia	NOUN	_	_	_	_	_	gloss=day
+12	largu	largu	ADJ	_	_	_	_	_	gloss=trip
+13	.	.	PUNCT	_	_	_	_	_
+14	E	e	DET	_	_	_	_	_	gloss=The
+15	no	no	PART	_	_	_	_	_	gloss=not
+16	a	a	AUX	_	_	_	_	_
+17	kome	kome	VERB	_	_	_	_	_	gloss=feed
+18	nada	nada	PRON	_	_	_	dobj	_	gloss=nothing|Number=Sing|PronType=Ind
+19	durante	durante	NUM	_	_	_	nummod	_	gloss=forty|NumType=Card
+20	e	e	DET	_	_	2	det	_	gloss=the|Definite=Def|PronType=Art
+21	dianan	dianan	NOUN	_	_	_	_	_	gloss=pour
+22	ei	ei	PRON	_	_	_	_	_	gloss=iled
+23	i	i	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+24	na	na	ADP	_	_	_	_	_	gloss=at
+25	final	final	NOUN	_	_	_	_	_	gloss=ichr
+26	El	el	PRON	_	_	_	nsubjpass	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+27	a	a	AUX	_	_	_	_	_
+28	haña	haña	PRON	_	_	_	_	_
+29	hamber	hamber	ADJ	_	_	_	acomp	_	gloss=hungry|Degree=Pos
+30	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 42016013
+# ref_id = Luke 16:13
+# eng_text = No servant can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You aren't able to serve God and mammon . "
+# pap_text = Niun katibu di kas no por sirbi dos shon , pasobra òf e ta odia esun i stima e otro , òf e ta pega un na su kurason i menospresiá e otro . Boso no por sirbi Dios i plaka pareu . ’
+1	Niun	niun	PRON	_	_	_	_	_	gloss=puts
+2	katibu	katibu	NOUN	_	_	_	_	_	gloss=slaves
+3	di	di	ADP	_	_	_	_	_	gloss=of
+4	kas	kas	NOUN	_	_	_	_	_	gloss=house
+5	no	no	PART	_	_	_	neg	_	gloss=not|Polarity=Neg
+6	por	por	AUX	_	_	_	aux	_	gloss=can|VerbForm=Fin
+7	sirbi	sirbi	NOUN	_	_	_	_	_	gloss=worthless
+8	dos	dos	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+9	shon	shon	NOUN	_	_	_	_	_	gloss=master
+10	,	,	PUNCT	_	_	_	_	_
+11	pasobra	pasobra	SCONJ	_	_	_	_	_	gloss=because
+12	òf	òf	CCONJ	_	_	_	_	_	gloss=or
+13	e	e	DET	_	_	20	det	_	gloss=the|Definite=Def|PronType=Art
+14	ta	ta	AUX	_	_	_	_	_	gloss=is
+15	odia	odia	VERB	_	_	_	_	_	gloss=hates
+16	esun	esun	PRON	_	_	_	_	_	gloss=v
+17	i	i	CCONJ	_	_	39	cc	_	gloss=and|ConjType=Cmp
+18	stima	stima	VERB	_	_	_	conj	_	gloss=love|VerbForm=Inf
+19	e	e	DET	_	_	20	det	_	gloss=the|Definite=Def|PronType=Art
+20	otro	otro	ADJ	_	_	_	dobj	_	gloss=other|Degree=Pos
+21	,	,	PUNCT	_	_	_	_	_
+22	òf	òf	CCONJ	_	_	_	_	_	gloss=or
+23	e	e	DET	_	_	20	det	_	gloss=the|Definite=Def|PronType=Art
+24	ta	ta	AUX	_	_	_	_	_	gloss=is
+25	pega	pega	VERB	_	_	_	acomp	_	gloss=devoted|Aspect=Perf|Tense=Past|VerbForm=Part
+26	un	un	DET	_	_	_	_	_	gloss=a
+27	na	na	ADP	_	_	_	_	_	gloss=at
+28	su	su	PRON	_	_	_	_	_	gloss=his
+29	kurason	kurason	NOUN	_	_	_	_	_	gloss=heart
+30	i	i	CCONJ	_	_	39	cc	_	gloss=and|ConjType=Cmp
+31	menospresiá	menospresiá	VERB	_	_	_	_	_
+32	e	e	DET	_	_	33	det	_	gloss=the|Definite=Def|PronType=Art
+33	otro	otro	ADJ	_	_	_	dobj	_	gloss=other|Degree=Pos
+34	.	.	PUNCT	_	_	_	_	_
+35	Boso	boso	PRON	_	_	_	_	_	gloss=domin
+36	no	no	PART	_	_	_	neg	_	gloss=not|Polarity=Neg
+37	por	por	AUX	_	_	_	aux	_	gloss=can|VerbForm=Fin
+38	sirbi	sirbi	NOUN	_	_	_	_	_	gloss=worthless
+39	Dios	dios	PROPN	_	_	_	dobj	_	gloss=God|Number=Sing
+40	i	i	CCONJ	_	_	39	cc	_	gloss=and|ConjType=Cmp
+41	plaka	plaka	NOUN	_	_	39	conj	_	gloss=money|Number=Sing
+42	pareu	pareu	ADV	_	_	_	_	_	gloss=tender
+43	.	.	PUNCT	_	_	_	_	_
+44	’	’	PUNCT	_	_	_	_	_
+
+# sent_id = 42024018
+# ref_id = Luke 24:18
+# eng_text = One of them , named Cleopas , answered him , " Are you the only one travelling in Jerusalem who doesn't know the things which have happened there in these days ? "
+# pap_text = Un di nan , Kleopas , a kontest'É : ‘ Abo ta e úniko bishitante na Herusalèm ku no sa loke a sosodé aya den e último dianan akí ? ’
+1	Un	un	DET	_	_	_	_	_	gloss=Other
+2	di	di	ADP	_	_	_	prep	_	gloss=of
+3	nan	nan	PRON	_	_	2	pobj	_	gloss=them|Case=Acc|Number=Plur|Person=3|PronType=Prs
+4	,	,	PUNCT	_	_	_	_	_
+5	Kleopas	kleopas	PRON	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_
+7	a	a	AUX	_	_	_	_	_
+8	kontest'É	kontest'é	VERB	_	_	_	_	_
+9	:	:	PUNCT	_	_	_	_	_
+10	‘	‘	PUNCT	_	_	_	_	_
+11	Abo	abo	PRON	_	_	_	_	_	gloss=tort
+12	ta	ta	AUX	_	_	_	_	_	gloss=is
+13	e	e	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+14	úniko	úniko	ADJ	_	_	_	_	_
+15	bishitante	bishitante	NOUN	_	_	_	_	_
+16	na	na	ADP	_	_	_	_	_	gloss=at
+17	Herusalèm	herusalèm	PROPN	_	_	_	_	_
+18	ku	ku	PRON	_	_	_	nsubj	_	gloss=that|PronType=Rel
+19	no	no	PART	_	_	_	_	_	gloss=not
+20	sa	sa	AUX	_	_	_	_	_	gloss=know
+21	loke	loke	PRON	_	_	_	_	_	gloss=what
+22	a	a	AUX	_	_	_	_	_
+23	sosodé	sosodé	VERB	_	_	_	_	_
+24	aya	aya	ADV	_	_	_	_	_	gloss=ide
+25	den	den	ADP	_	_	_	_	_	gloss=number
+26	e	e	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+27	último	último	ADJ	_	_	_	_	_
+28	dianan	dianan	NOUN	_	_	_	_	_	gloss=pour
+29	akí	akí	ADV	_	_	_	_	_	gloss=these
+30	?	?	PUNCT	_	_	_	_	_
+31	’	’	PUNCT	_	_	_	_	_
+
+# sent_id = 43001039
+# ref_id = John 1:39
+# eng_text = He said to them , " Come , and see . " They came and saw where he was staying , and they stayed with him that day . It was about the tenth hour .
+# pap_text = Hesus a bisa nan : ‘ Bini i boso lo mira . ’ Nan a bai mira i a keda serka Hesus e dia ei , pasobra ya tabata kuat'or djatardi .
+1	Hesus	hesus	PROPN	_	_	_	_	_	gloss=Jesus
+2	a	a	AUX	_	_	_	_	_
+3	bisa	bisa	VERB	_	_	_	_	_	gloss=say
+4	nan	nan	DET	_	_	_	_	_	gloss=them
+5	:	:	PUNCT	_	_	_	_	_
+6	‘	‘	PUNCT	_	_	_	_	_
+7	Bini	bini	VERB	_	_	_	ccomp	_	gloss=Come|VerbForm=Inf
+8	i	i	CCONJ	_	_	29	cc	_	gloss=and|ConjType=Cmp
+9	boso	boso	PRON	_	_	_	_	_	gloss=you
+10	lo	lo	AUX	_	_	_	_	_	gloss=will
+11	mira	mira	VERB	_	_	_	_	_	gloss=saw
+12	.	.	PUNCT	_	_	_	_	_
+13	’	’	PUNCT	_	_	_	_	_
+14	Nan	nan	DET	_	_	_	_	_	gloss=They
+15	a	a	AUX	_	_	_	_	_
+16	bai	bai	VERB	_	_	29	advcl	_	gloss=went|Tense=Past|VerbForm=Fin
+17	mira	mira	VERB	_	_	_	_	_	gloss=saw
+18	i	i	CCONJ	_	_	29	cc	_	gloss=and|ConjType=Cmp
+19	a	a	AUX	_	_	_	_	_
+20	keda	keda	VERB	_	_	_	_	_	gloss=stayed
+21	serka	serka	PRON	_	_	_	_	_	gloss=ter
+22	Hesus	hesus	PROPN	_	_	_	_	_	gloss=Jesus
+23	e	e	DET	_	_	24	det	_	gloss=the|Definite=Def|PronType=Art
+24	dia	dia	NOUN	_	_	_	pobj	_	gloss=day|Number=Sing
+25	ei	ei	PRON	_	_	_	_	_	gloss=iled
+26	,	,	PUNCT	_	_	_	_	_
+27	pasobra	pasobra	SCONJ	_	_	_	_	_	gloss=because
+28	ya	ya	ADV	_	_	_	_	_	gloss=tenant
+29	tabata	tabata	AUX	_	_	_	aux	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+30	kuat'or	kuat'or	NOUN	_	_	_	_	_
+31	djatardi	djatardi	NOUN	_	_	_	_	_
+32	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 43003016
+# ref_id = John 3:16
+# eng_text = For God so loved the world , that he gave his one and only Son , that whoever believes in him should not perish , but have eternal life .
+# pap_text = Pasobra Dios a stima mundu asina tantu ku El a duna su úniko Yu , pa tur esnan ku kere den djE no bai pèrdí , ma haña bida eterno .
+1	Pasobra	pasobra	ADP	_	_	_	prep	_	gloss=For
+2	Dios	dios	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+3	a	a	AUX	_	_	_	_	_
+4	stima	stima	VERB	_	_	_	_	_	gloss=love
+5	mundu	mundu	NOUN	_	_	_	dobj	_	gloss=world|Number=Sing
+6	asina	asina	ADV	_	_	_	_	_	gloss=ushed
+7	tantu	tantu	VERB	_	_	11	advcl	_	gloss=perish|VerbForm=Inf
+8	ku	ku	SCONJ	_	_	7	mark	_	gloss=that
+9	El	el	PRON	_	_	11	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+10	a	a	AUX	_	_	_	_	_
+11	duna	duna	VERB	_	_	_	ccomp	_	gloss=gave|Tense=Past|VerbForm=Fin
+12	su	su	PRON	_	_	_	poss	_	gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+13	úniko	úniko	ADJ	_	_	_	_	_
+14	Yu	yu	PROPN	_	_	_	appos	_	gloss=Son|Number=Sing
+15	,	,	PUNCT	_	_	_	_	_
+16	pa	pa	ADP	_	_	_	_	_	gloss=for
+17	tur	tur	DET	_	_	_	_	_	gloss=all
+18	esnan	esnan	PRON 	_	_	_	_	_	gloss=those
+19	ku	ku	SCONJ	_	_	7	mark	_	gloss=that
+20	kere	kere	VERB	_	_	_	_	_	gloss=believe
+21	den	den	ADP	_	_	_	_	_	gloss=number
+22	djE	dje	PRON	_	_	_	_	_	gloss=v
+23	no	no	PART	_	_	7	neg	_	gloss=not|Polarity=Neg
+24	bai	bai	AUX	_	_	_	_	_	gloss=went
+25	pèrdí	pèrdí	VERB	_	_	_	_	_
+26	,	,	PUNCT	_	_	_	_	_
+27	ma	ma	CCONJ	_	_	_	_	_	gloss=cont
+28	haña	haña	PRON	_	_	_	_	_
+29	bida	bida	NOUN	_	_	_	dobj	_	gloss=life|Number=Sing
+30	eterno	eterno	ADJ	_	_	29	amod	_	gloss=eternal|Degree=Pos
+31	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 44002030
+# ref_id = Acts 2:30
+# eng_text = Therefore , being a prophet , and knowing that God had sworn with an oath to him that of the fruit of his body , according to the flesh , he would raise up the Christ to sit on his throne ,
+# pap_text = Pero pasobra e tabata profeta i tabata sa ku Dios a hur'é ku un di su desendientenan lo a siguié riba su trono ,
+1	Pero	pero	CCONJ	_	_	_	_	_	gloss=Th
+2	pasobra	pasobra	SCONJ	_	_	_	_	_	gloss=because
+3	e	e	DET	_	_	_	_	_	gloss=the
+4	tabata	tabata	AUX	_	_	0	root	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+5	profeta	profeta	NOUN	_	_	4	attr	_	gloss=prophet|Number=Sing
+6	i	i	CCONJ	_	_	7	cc	_	gloss=and|ConjType=Cmp
+7	tabata	tabata	AUX	_	_	0	root	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+8	sa	sa	AUX	_	_	_	_	_	gloss=know
+9	ku	ku	SCONJ	_	_	_	mark	_	gloss=that
+10	Dios	dios	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+11	a	a	AUX	_	_	_	_	_
+12	hur'é	hur'é	VERB	_	_	_	_	_
+13	ku	ku	SCONJ	_	_	_	mark	_	gloss=that
+14	un	un	DET	_	_	5	det	_	gloss=a|Definite=Ind|PronType=Art
+15	di	di	ADP	_	_	_	prep	_	gloss=of
+16	su	su	PRON	_	_	23	poss	_	gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+17	desendientenan	desendientenan	NOUN	_	_	_	_	_	gloss=ungod
+18	lo	lo	AUX	_	_	_	_	_	gloss=will
+19	a	a	AUX	_	_	_	_	_
+20	siguié	siguié	VERB	_	_	_	_	_	gloss=follow
+21	riba	riba	ADP	_	_	_	prep	_	gloss=on
+22	su	su	PRON	_	_	23	poss	_	gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+23	trono	trono	NOUN	_	_	21	pobj	_	gloss=throne|Number=Sing
+24	,	,	PUNCT	_	_	_	_	_
+
+# sent_id = 44009038
+# ref_id = Acts 9:38
+# eng_text = As Lydda was near Joppa , the disciples , hearing that Peter was there , sent two men to him , imploring him not to delay in coming to them .
+# pap_text = E siudatnan Lida i Yope tabata keda pegá ku otro . P'esei ora e disipelnan a tende ku Pedro tabata na Lida , nan a manda dos hende serka dje ku e siguiente petishon : ‘ Por fabor , bini lihé serka nos ! ’
+1	E	e	DET	_	_	_	_	_	gloss=The
+2	siudatnan	siudatnan	NOUN	_	_	_	_	_	gloss=towns
+3	Lida	lida	PROPN	_	_	_	_	_	gloss=Ly
+4	i	i	CCONJ	_	_	_	_	_	gloss=and
+5	Yope	yope	PROPN	_	_	_	_	_	gloss=Joppa
+6	tabata	tabata	AUX	_	_	17	ccomp	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+7	keda	keda	VERB	_	_	_	_	_	gloss=stayed
+8	pegá	pegá	ADJ	_	_	_	_	_
+9	ku	ku	SCONJ	_	_	6	mark	_	gloss=that
+10	otro	otro	ADJ	_	_	_	_	_	gloss=other
+11	.	.	PUNCT	_	_	_	_	_
+12	P'esei	p'esei	SCONJ	_	_	_	_	_
+13	ora	ora	ADV	_	_	_	_	_	gloss=when
+14	e	e	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+15	disipelnan	disipelnan	NOUN	_	_	_	_	_	gloss=disciples
+16	a	a	AUX	_	_	_	_	_
+17	tende	tende	VERB	_	_	26	ccomp	_	gloss=heard|Aspect=Perf|Tense=Past|VerbForm=Part
+18	ku	ku	SCONJ	_	_	20	mark	_	gloss=that
+19	Pedro	pedro	PROPN	_	_	20	nsubj	_	gloss=Peter|Number=Sing
+20	tabata	tabata	AUX	_	_	17	ccomp	_	gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+21	na	na	ADP	_	_	20	prep	_	gloss=at
+22	Lida	lida	PROPN	_	_	_	_	_	gloss=Ly
+23	,	,	PUNCT	_	_	_	_	_
+24	nan	nan	DET	_	_	_	_	_	gloss=them
+25	a	a	AUX	_	_	_	_	_
+26	manda	manda	VERB	_	_	0	root	_	gloss=sent|Tense=Past|VerbForm=Fin
+27	dos	dos	NUM	_	_	_	nummod	_	gloss=two|NumType=Card
+28	hende	hende	NOUN	_	_	_	_	_	gloss=Man
+29	serka	serka	PRON	_	_	_	_	_	gloss=ter
+30	dje	dje	PRON	_	_	_	_	_	gloss=disapp
+31	ku	ku	SCONJ	_	_	20	mark	_	gloss=that
+32	e	e	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+33	siguiente	siguiente	ADJ	_	_	_	_	_	gloss=tim
+34	petishon	petishon	NOUN	_	_	_	_	_	gloss=Such
+35	:	:	PUNCT	_	_	_	_	_
+36	‘	‘	PUNCT	_	_	_	_	_
+37	Por	por	ADP	_	_	_	_	_	gloss=poss
+38	fabor	fabor	INTJ	_	_	_	intj	_	gloss=Please
+39	,	,	PUNCT	_	_	_	_	_
+40	bini	bini	VERB	_	_	_	_	_	gloss=coming
+41	lihé	lihé	ADV	_	_	_	_	_
+42	serka	serka	PRON	_	_	_	_	_	gloss=ter
+43	nos	nos	PRON	_	_	_	_	_	gloss=our
+44	!	!	PUNCT	_	_	_	_	_
+45	’	’	PUNCT	_	_	_	_	_
+
+# sent_id = 44011011
+# ref_id = Acts 11:11
+# eng_text = Behold , immediately three men stood before the house where I was , having been sent from Caesarea to me .
+# pap_text = Na mes momento tres hòmber , mandá for di Sesarea pa buska mi , a yega e kas kaminda mi tabata keda .
+1	Na	na	ADP	_	_	_	_	_	gloss=ident
+2	mes	mes	ADJ	_	_	_	_	_	gloss=own
+3	momento	momento	NOUN	_	_	_	_	_	gloss=eagerly
+4	tres	tres	NUM	_	_	_	nummod	_	gloss=three|NumType=Card
+5	hòmber	hòmber	NOUN	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_
+7	mandá	mandá	VERB	_	_	_	_	_
+8	for	for	ADP	_	_	_	prep	_	gloss=from
+9	di	di	ADP	_	_	_	_	_	gloss=of
+10	Sesarea	sesarea	PROPN	_	_	8	pobj	_	gloss=Caesarea|Number=Sing
+11	pa	pa	ADP	_	_	_	_	_	gloss=for
+12	buska	buska	VERB	_	_	_	_	_	gloss=search
+13	mi	mi	PRON	_	_	_	_	_	gloss=my
+14	,	,	PUNCT	_	_	_	_	_
+15	a	a	AUX	_	_	_	_	_
+16	yega	yega	VERB	_	_	_	_	_	gloss=ide
+17	e	e	DET	_	_	18	det	_	gloss=the|Definite=Def|PronType=Art
+18	kas	kas	NOUN	_	_	_	pobj	_	gloss=house|Number=Sing
+19	kaminda	kaminda	SCONJ	_	_	_	advmod	_	gloss=where
+20	mi	mi	PRON	_	_	_	_	_	gloss=my
+21	tabata	tabata	AUX	_	_	_	_	_	gloss=was
+22	keda	keda	VERB	_	_	_	_	_	gloss=stayed
+23	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 44021034
+# ref_id = Acts 21:34
+# eng_text = Some shouted one thing , some another , among the crowd . When he couldn't find out the truth because of the noise , he commanded him to be brought into the barracks .
+# pap_text = Algun hende tabata grita esaki i otro tabata grita esaya . Tabatin asina un konfushon ku e komandante no por a averiguá presis ta kiko a pasa i el a duna òrdu pa hiba Pablo den fòrti .
+1	Algun	algun	PRON	_	_	4	nsubj	_	gloss=Some
+2	hende	hende	NOUN	_	_	_	_	_	gloss=Man
+3	tabata	tabata	AUX	_	_	_	_	_	gloss=was
+4	grita	grita	VERB	_	_	0	root	_	gloss=shouted|Tense=Past|VerbForm=Fin
+5	esaki	esaki	PRON	_	_	_	_	_	gloss=ues
+6	i	i	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+7	otro	otro	ADJ	_	_	_	_	_	gloss=other
+8	tabata	tabata	AUX	_	_	_	_	_	gloss=was
+9	grita	grita	VERB	_	_	0	root	_	gloss=shouted|Tense=Past|VerbForm=Fin
+10	esaya	esaya	PRON	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_
+12	Tabatin	tabatin	VERB	_	_	_	_	_	gloss=aked
+13	asina	asina	ADV	_	_	_	_	_	gloss=ushed
+14	un	un	DET	_	_	_	_	_	gloss=a
+15	konfushon	konfushon	NOUN	_	_	_	_	_	gloss=ailing
+16	ku	ku	SCONJ	_	_	_	mark	_	gloss=that
+17	e	e	DET	_	_	_	det	_	gloss=the|Definite=Def|PronType=Art
+18	komandante	komandante	NOUN	_	_	_	_	_	gloss=commander
+19	no	no	PART	_	_	_	_	_	gloss=not
+20	por	por	ADP	_	_	_	_	_	gloss=can
+21	a	a	AUX	_	_	_	_	_
+22	averiguá	averiguá	VERB	_	_	_	_	_	gloss=fort
+23	presis	presis	ADV	_	_	_	_	_	gloss=learned
+24	ta	ta	AUX	_	_	_	_	_	gloss=is
+25	kiko	kiko	PRON	_	_	_	_	_	gloss=av
+26	a	a	AUX	_	_	_	_	_
+27	pasa	pasa	VERB	_	_	_	_	_	gloss=below
+28	i	i	CCONJ	_	_	_	cc	_	gloss=and|ConjType=Cmp
+29	el	el	PRON	_	_	_	_	_	gloss=grape
+30	a	a	AUX	_	_	_	_	_
+31	duna	duna	VERB	_	_	_	_	_	gloss=gave
+32	òrdu	òrdu	NOUN	_	_	_	_	_
+33	pa	pa	ADP	_	_	_	_	_	gloss=for
+34	hiba	hiba	VERB	_	_	_	_	_	gloss=su
+35	Pablo	pablo	PROPN	_	_	_	nsubjpass	_	gloss=Paul|Number=Sing
+36	den	den	ADP	_	_	_	_	_	gloss=number
+37	fòrti	fòrti	NOUN	_	_	_	_	_
+38	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 47012002
+# ref_id = 2 Corinthians 12:2
+# eng_text = I know a man in Christ , fourteen years ago ( whether in the body , I don't know , or whether out of the body , I don't know ; God knows ) , such a one caught up into the third heaven .
+# pap_text = Mi konosé un siguidó di Kristu ku dieskuater aña pasá a keda tumá serka Dios den e shelu di mas altu . Mi no sa si esaki a pasa di bèrdat òf den un vishon ; Dios so sa .
+1	Mi	mi	PRON	_	_	_	_	_	gloss=expensive
+2	konosé	konosé	VERB	_	_	_	_	_	gloss=th
+3	un	un	DET	_	_	_	_	_	gloss=a
+4	siguidó	siguidó	NOUN	_	_	_	_	_
+5	di	di	ADP	_	_	_	prep	_	gloss=of
+6	Kristu	kristu	PROPN	_	_	_	_	_	gloss=Christ
+7	ku	ku	SCONJ	_	_	_	_	_	gloss=that
+8	dieskuater	dieskuater	NUM	_	_	_	_	_	gloss=dawn
+9	aña	aña	NOUN	_	_	_	_	_
+10	pasá	pasá	VERB	_	_	_	_	_	gloss=peace
+11	a	a	AUX	_	_	_	_	_
+12	keda	keda	VERB	_	_	_	_	_	gloss=stayed
+13	tumá	tumá	VERB	_	_	_	_	_	gloss=hether
+14	serka	serka	PRON	_	_	_	_	_	gloss=ter
+15	Dios	dios	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+16	den	den	ADP	_	_	_	_	_	gloss=number
+17	e	e	DET	_	_	18	det	_	gloss=the|Definite=Def|PronType=Art
+18	shelu	shelu	PROPN	_	_	_	pobj	_	gloss=heaven|Number=Sing
+19	di	di	ADP	_	_	_	prep	_	gloss=of
+20	mas	mas	ADV	_	_	_	_	_	gloss=ror
+21	altu	altu	ADJ	_	_	_	_	_	gloss=highest
+22	.	.	PUNCT	_	_	_	_	_
+23	Mi	mi	PRON	_	_	_	_	_	gloss=expensive
+24	no	no	PART	_	_	_	_	_	gloss=not
+25	sa	sa	AUX	_	_	_	_	_	gloss=know
+26	si	si	SCONJ	_	_	_	_	_	gloss=if
+27	esaki	esaki	PRON	_	_	_	_	_	gloss=ues
+28	a	a	AUX	_	_	_	_	_
+29	pasa	pasa	VERB	_	_	_	_	_	gloss=below
+30	di	di	ADP	_	_	_	prep	_	gloss=of
+31	bèrdat	bèrdat	NOUN	_	_	_	_	_
+32	òf	òf	CCONJ	_	_	_	cc	_	gloss=or|ConjType=Cmp
+33	den	den	ADP	_	_	_	_	_	gloss=number
+34	un	un	DET	_	_	_	_	_	gloss=a
+35	vishon	vishon	NOUN	_	_	_	_	_	gloss=vision
+36	;	;	PUNCT	_	_	_	_	_
+37	Dios	dios	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+38	so	so	PRON	_	_	_	_	_	gloss=alone
+39	sa	sa	AUX	_	_	_	_	_	gloss=know
+40	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 62004009
+# ref_id = 1 John 4:9
+# eng_text = By this was God's love revealed in us , that God has sent his only born Son into the world that we might live through him .
+# pap_text = Na esaki nos ta mira Dios su amor pa nos : El a manda su úniko Yu na mundu , pa asina nos biba pa medio di djE .
+1	Na	na	ADP	_	_	_	_	_	gloss=ident
+2	esaki	esaki	PRON	_	_	_	_	_	gloss=ues
+3	nos	nos	PRON	_	_	_	_	_	gloss=our
+4	ta	ta	AUX	_	_	_	_	_	gloss=is
+5	mira	mira	VERB	_	_	_	_	_	gloss=saw
+6	Dios	dios	PROPN	_	_	_	nsubj	_	gloss=God|Number=Sing
+7	su	su	PRON	_	_	_	poss	_	gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+8	amor	amor	NOUN	_	_	_	_	_	gloss=love
+9	pa	pa	ADP	_	_	_	_	_	gloss=for
+10	nos	nos	PRON	_	_	_	_	_	gloss=our
+11	:	:	PUNCT	_	_	_	_	_
+12	El	el	PRON	_	_	_	nsubj	_	gloss=he|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+13	a	a	AUX	_	_	_	_	_
+14	manda	manda	VERB	_	_	_	_	_	gloss=sent
+15	su	su	PRON	_	_	_	poss	_	gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+16	úniko	úniko	ADJ	_	_	_	_	_
+17	Yu	yu	PROPN	_	_	_	conj	_	gloss=Son|Number=Sing
+18	na	na	ADP	_	_	_	_	_	gloss=at
+19	mundu	mundu	NOUN	_	_	_	pobj	_	gloss=world|Number=Sing
+20	,	,	PUNCT	_	_	_	_	_
+21	pa	pa	ADP	_	_	_	_	_	gloss=for
+22	asina	asina	ADV	_	_	_	_	_	gloss=ushed
+23	nos	nos	PRON	_	_	_	_	_	gloss=our
+24	biba	biba	VERB	_	_	_	_	_	gloss=lived
+25	pa	pa	ADP	_	_	_	_	_	gloss=for
+26	medio	medio	ADP	_	_	_	prep	_	gloss=through
+27	di	di	ADP	_	_	_	_	_	gloss=of
+28	djE	dje	PRON	_	_	_	_	_	gloss=v
+29	.	.	PUNCT	_	_	_	_	_
+
+# sent_id = 63001005
+# ref_id = 2 John 1:5
+# eng_text = Now I beg you , dear lady , not as though I wrote to you a new commandment , but that which we had from the beginning , that we love one another .
+# pap_text = Awor mi ta pidi bo , Señora stimá , laga nos stima otro . Loke mi ta skibi boso no ta un mandamentu nobo , ma ta esun ku nos a risibí for di kuminsamentu .
+1	Awor	awor	ADV	_	_	_	_	_	gloss=eding
+2	mi	mi	PRON	_	_	_	_	_	gloss=my
+3	ta	ta	AUX	_	_	0	root	_	gloss=is|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+4	pidi	pidi	VERB	_	_	_	_	_	gloss=knock
+5	bo	bo	PRON	_	_	_	_	_	gloss=your
+6	,	,	PUNCT	_	_	_	_	_
+7	Señora	señora	NOUN	_	_	_	_	_
+8	stimá	stimá	ADJ	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_
+10	laga	laga	VERB	_	_	_	_	_	gloss=let
+11	nos	nos	PRON	_	_	_	_	_	gloss=our
+12	stima	stima	VERB	_	_	_	ccomp	_	gloss=love|VerbForm=Inf
+13	otro	otro	ADJ	_	_	_	_	_	gloss=other
+14	.	.	PUNCT	_	_	_	_	_
+15	Loke	loke	PRON	_	_	_	_	_	gloss=aven
+16	mi	mi	PRON	_	_	_	_	_	gloss=my
+17	ta	ta	AUX	_	_	0	root	_	gloss=is|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+18	skibi	skibi	VERB	_	_	_	_	_	gloss=ort
+19	boso	boso	PRON	_	_	_	dobj	_	gloss=you|Case=Acc|Person=2|PronType=Prs
+20	no	no	PART	_	_	21	neg	_	gloss=not|Polarity=Neg
+21	ta	ta	AUX	_	_	0	root	_	gloss=is|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+22	un	un	DET	_	_	23	det	_	gloss=a|Definite=Ind|PronType=Art
+23	mandamentu	mandamentu	NOUN	_	_	21	attr	_	gloss=commandment|Number=Sing
+24	nobo	nobo	ADJ	_	_	23	amod	_	gloss=new|Degree=Pos
+25	,	,	PUNCT	_	_	_	_	_
+26	ma	ma	CCONJ	_	_	_	_	_	gloss=cont
+27	ta	ta	AUX	_	_	0	root	_	gloss=is|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+28	esun	esun	PRON	_	_	_	_	_	gloss=v
+29	ku	ku	SCONJ	_	_	12	mark	_	gloss=that
+30	nos	nos	PRON	_	_	_	_	_	gloss=our
+31	a	a	AUX	_	_	_	_	_
+32	risibí	risibí	unk	_	_	_	_	_
+33	for	for	ADP	_	_	_	prep	_	gloss=from
+34	di	di	ADP	_	_	_	_	_	gloss=of
+35	kuminsamentu	kuminsamentu	NOUN	_	_	_	_	_	gloss=record
+36	.	.	PUNCT	_	_	_	_	_
+

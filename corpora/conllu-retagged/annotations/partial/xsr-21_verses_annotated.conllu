@@ -1,0 +1,802 @@
+## The following text has been annotated for parts of speech by students at NTU Singapore as part of a class project in AY 2025-26.
+## Verses are extracted from the taggedPBC. Annotations have been developed with a combination of manual and automated approaches, with reference to existing literature and (where possible) native speakers.
+## ISO 639-3: xsr, Language: Solu-Khumbu Sherpa, Number of verses: 21
+## References: Salaka-Binasa Sherpa, L. D., Salaka Sherpa, C. T., & Krämer, K.-H. (2009). Dictionary of the Sherpa Language (1st ed.). Self-published. ; Tournadre, N. (2014). The Tibetic languages and their classification. In T. Owen-Smith & N. Hill (Eds.), Trans-Himalayan Linguistics (pp. 105–129). De Gruyter Mouton.
+
+# sent_id = 40006024
+# ref_id = Matthew 6:24
+# eng_text = " No one can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You can't serve both God and Mammon .
+# xsr_text = “ sii saang jyindaak ngyiilaa shabjyii ki muthupii . cyilaasisin tiikii jyindaak cyikalaa ti ngyingmar kivii , cyikalaa ti ngyingjye kivii . yaangnaa cyikalaa ti taangden kivii , cyikalaa ti mo bepkivii . tii doke khyiraang konchyok taang ttongbaa ngyikaralaa shabjyii ki muthupii . ”
+# xsr_orth = “ सी साङ ज्यिन्दाक ङ्यीला शब्ज्यी कि मुथुपी । च्यिलासिसिन तीकी ज्यिन्दाक च्यिकला ति ङ्यिङ्मर किवी , च्यिकला ति ङ्यिङ्ज्ये किवी । याङ्ना च्यिकला ति ताङ्देन किवी , च्यिकला ति मो बेप्किवी । ती दोके ख्यिराङ कोन्छ्योक ताङ टोङ्बा ङ्यिकरला शब्ज्यी कि मुथुपी । ”
+1	“	“	PUNCT	_	_	6	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+2	sii	sii	PRON	_	PronType=Ind	6	nsubj	_	orth=सी|gloss=anyone
+3	saang	saang	PART	_	_	6	advmod	_	orth=साङ|gloss=also/even
+4	jyindaak	jyindaak	NOUN	_	Number=Sing	6	nsubj	_	orth=ज्यिन्दाक|gloss=master
+5	ngyiilaa	ngyiilaa	NUM	_	_	12	nummod	_	orth=ङ्यीला|gloss=two|NumType=Card
+6	shabjyii	shabjyii	VERB	_	_	0	root	_	orth=शब्ज्यी|gloss=serve|VerbForm=Inf
+7	ki	ki	PART	_	Polarity=Neg	6	neg	_	orth=कि|gloss=NEG
+8	muthupii	muthupii	VERB	_	Polarity=Neg|VerbForm=Fin	6	ccomp	_	orth=मुथुपी|gloss=impossible
+9	.	.	PUNCT	_	_	8	punct	_	orth=।
+10	cyilaasisin	cyilaasisin	ADP	_	_	40	prep	_	orth=च्यिलासिसिन|gloss=because/for
+11	tiikii	tii	PRON	_	Case=Erg|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	orth=तीकी|gloss=he/she-ERG
+12	jyindaak	jyindaak	NOUN	_	Number=Sing	6	obj	_	orth=ज्यिन्दाक|gloss=master
+13	cyikalaa	cyik	NUM	_	NumType=Card	37	nummod	_	orth=च्यिकला|gloss=the.one/each
+14	ti	ti	SCONJ	_	_	15	mark	_	orth=ति|gloss=that
+15	ngyingmar	ngyingmar	VERB	_	_	6	ccomp	_	orth=ङ्यिङ्मर|gloss=hate|VerbForm=Inf
+16	kivii	kivii	AUX	_	Tense=Fut|VerbForm=Fin	15	aux	_	orth=किवी|gloss=will.be
+17	,	,	PUNCT	_	_	16	punct	_	orth=,
+18	cyikalaa	cyik	NUM	_	NumType=Card	37	nummod	_	orth=च्यिकला|gloss=the.one/each
+19	ti	ti	SCONJ	_	_	20	mark	_	orth=ति|gloss=that
+20	ngyingjye	ngyingjye	VERB	_	_	40	conj	_	orth=ङ्यिङ्ज्ये|gloss=love|VerbForm=Inf
+21	kivii	kivii	AUX	_	Tense=Fut|VerbForm=Fin	20	aux	_	orth=किवी|gloss=will.be
+22	.	.	PUNCT	_	_	21	punct	_	orth=।
+23	yaangnaa	yaangnaa	VERB	_	_	6	ccomp	_	orth=याङ्ना|gloss=or.else|Aspect=Perf|Tense=Past|VerbForm=Part
+24	cyikalaa	cyik	NUM	_	NumType=Card	37	nummod	_	orth=च्यिकला|gloss=the.one/each
+25	ti	ti	SCONJ	_	_	26	mark	_	orth=ति|gloss=that
+26	taangden	taangden	VERB	_	VerbForm=Inf	6	advcl	_	orth=ताङ्देन|gloss=honor
+27	kivii	kivii	AUX	_	Tense=Fut|VerbForm=Fin	26	aux	_	orth=किवी|gloss=will.be
+28	,	,	PUNCT	_	_	27	punct	_	orth=,
+29	cyikalaa	cyik	NUM	_	NumType=Card	37	nummod	_	orth=च्यिकला|gloss=the.one/each
+30	ti	ti	SCONJ	_	_	31	mark	_	orth=ति|gloss=that
+31	mo	mo	VERB	_	_	6	ccomp	_	orth=मो|gloss=NEG|Aspect=Perf|Tense=Past|VerbForm=Part
+32	bepkivii	bepkivii	VERB	_	Tense=Fut|VerbForm=Fin	6	ccomp	_	orth=बेप्किवी|gloss=beating
+33	.	.	PUNCT	_	_	32	punct	_	orth=।
+34	tii	tii	DET	_	_	36	det	_	orth=ती|gloss=the|Definite=Def|PronType=Art
+35	doke	doke	ADP	_	_	29	case	_	orth=दोके|gloss=like/as
+36	khyiraang	khyiraang	PRON	_	Number=Plur|Person=2|PronType=Prs	6	obj	_	orth=ख्यिराङ|gloss=you.PL
+37	konchyok	konchyok	PROPN	_	Number=Sing	6	obj	_	orth=कोन्छ्योक|gloss=God
+38	taang	taang	CCONJ	_	_	39	cc	_	orth=ताङ|gloss=and
+39	ttongbaa	ttongbaa	NOUN	_	Number=Sing	6	obj	_	orth=टोङ्बा|gloss=treasures
+40	ngyikaralaa	ngyikaralaa	VERB	_	_	6	ccomp	_	orth=ङ्यिकरला|gloss=hate|VerbForm=Inf
+41	shabjyii	shabjyii	VERB	_	_	0	root	_	orth=शब्ज्यी|gloss=serve|VerbForm=Inf
+42	ki	ki	PART	_	Polarity=Neg	41	neg	_	orth=कि|gloss=NEG
+43	muthupii	muthupii	VERB	_	Polarity=Neg|VerbForm=Fin	6	ccomp	_	orth=मुथुपी|gloss=impossible
+44	.	.	PUNCT	_	_	43	punct	_	orth=।
+45	”	”	PUNCT	_	_	43	punct	_	orth=”
+
+# sent_id = 40018012
+# ref_id = Matthew 18:12
+# eng_text = " What do you think ? If a man has one hundred sheep , and one of them goes astray , doesn't he leave the ninety-nine , go to the mountains , and seek that which has gone astray ?
+# xsr_text = khyiraa naasaamalaa cukai ve ? dojo mii lalaaikii ti luk sayii cyik ve , tii naanglaa cyik ti penii gaalsung sisin tii mii tiikii luk khal gu taang gu tiilaa riilaa raang kyur jyaaknii kaang tii penii galup luk cyik ti chol moddovii ro ?
+# xsr_orth = ख्यिरा नासामला चुकै वे ? दोजो मी ललाइकी ति लुक सयी च्यिक वे , ती नाङ्ला च्यिक ति पेनी गाल्सुङ सिसिन ती मी तीकी लुक खल गु ताङ गु तीला रीला राङ क्युर ज्याक्नी काङ ती पेनी गलुप लुक च्यिक ति छोल मोडोवी रो ?
+1	khyiraa	khyiraa	PRON	_	Number=Plur|Person=2|PronType=Prs	20	nsubj	_	orth=ख्यिरा|gloss=you.PL
+2	naasaamalaa	naasaam	PRON	_	PronType=Int	20	nsubj	_	orth=नासामला|gloss=what/how
+3	cukai	cukai	VERB	_	VerbForm=Inf	20	advcl	_	orth=चुकै|gloss=think.about
+4	ve	ve	VERB	_	_	20	ccomp	_	orth=वे|gloss=is/has|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+5	?	?	PUNCT	_	_	4	punct	_	orth=?|PunctType=Peri
+6	dojo	dojo	SCONJ	_	_	4	mark	_	orth=दोजो|gloss=if
+7	mii	mii	NOUN	_	Number=Sing	20	nsubj	_	orth=मी|gloss=person
+8	lalaaikii	lalaai	DET	_	PronType=Ind	9	det	_	orth=ललाइकी|gloss=some
+9	ti	ti	PRON	_	_	20	nsubj	_	orth=ति|gloss=that|PronType=Rel
+10	luk	luk	NOUN	_	Number=Sing	20	nsubj	_	orth=लुक|gloss=sheep
+11	sayii	sayii	NUM	_	_	23	nummod	_	orth=सयी|gloss=hundred|NumType=Card
+12	cyik	cyik	NUM	_	NumType=Card	23	nummod	_	orth=च्यिक|gloss=one
+13	ve	ve	VERB	_	_	20	ccomp	_	orth=वे|gloss=is/has|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+14	,	,	PUNCT	_	_	13	punct	_	orth=,|PunctType=Comm
+15	tii	tii	DET	_	_	18	det	_	orth=ती|gloss=the|Definite=Def|PronType=Art
+16	naanglaa	naang	ADP	_	_	12	case	_	orth=नाङ्ला|gloss=inside/from.that
+17	cyik	cyik	NUM	_	NumType=Card	23	nummod	_	orth=च्यिक|gloss=one
+18	ti	ti	PRON	_	_	20	nsubj	_	orth=ति|gloss=that|PronType=Rel
+19	penii	pe	VERB	_	VerbForm=Part	20	ccomp	_	orth=पेनी|gloss=gone.astray
+20	gaalsung	gaal	VERB	_	Tense=Past|VerbForm=Fin	0	root	_	orth=गाल्सुङ|gloss=went
+21	sisin	sisin	SCONJ	_	Mood=Cnd	33	mark	_	orth=सिसिन|gloss=if
+22	tii	tii	DET	_	_	23	det	_	orth=ती|gloss=the|Definite=Def|PronType=Art
+23	mii	mii	NOUN	_	Number=Sing	20	obj	_	orth=मी|gloss=person
+24	tiikii	tii	PRON	_	Case=Erg|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	orth=तीकी|gloss=he/she-ERG
+25	luk	luk	NOUN	_	Number=Sing	20	obj	_	orth=लुक|gloss=sheep
+26	khal	khal	NUM	_	NumType=Card	31	nummod	_	orth=खल|gloss=twenty
+27	gu	gu	PART	_	_	20	advmod	_	orth=गु|gloss=Won’t
+28	taang	taang	CCONJ	_	_	31	cc	_	orth=ताङ|gloss=and
+29	gu	gu	PART	_	_	20	advmod	_	orth=गु|gloss=Won’t
+30	tiilaa	tii	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	20	obj	_	orth=तीला|gloss=to.him/her
+31	riilaa	rii	NOUN	_	Number=Sing	20	obj	_	orth=रीला|gloss=mountain
+32	raang	raang	PART	_	Reflex=Yes	20	advmod	_	orth=राङ|gloss=self/alone
+33	kyur	kyur	VERB	_	VerbForm=Inf	20	advcl	_	orth=क्युर|gloss=leave/abandon
+34	jyaaknii	jyaak	VERB	_	VerbForm=Conv	20	advcl	_	orth=ज्याक्नी|gloss=go.seeking
+35	kaang	kaang	PRON	_	PronType=Int	20	obj	_	orth=काङ|gloss=what
+36	tii	tii	DET	_	_	39	det	_	orth=ती|gloss=the|Definite=Def|PronType=Art
+37	penii	pe	VERB	_	VerbForm=Part	20	ccomp	_	orth=पेनी|gloss=gone.astray
+38	galup	galup	VERB	_	VerbForm=Conv	20	advcl	_	orth=गलुप|gloss=going
+39	luk	luk	NOUN	_	Number=Sing	20	obj	_	orth=लुक|gloss=sheep
+40	cyik	cyik	NUM	_	NumType=Card	39	nummod	_	orth=च्यिक|gloss=one
+41	ti	ti	PRON	_	_	20	obj	_	orth=ति|gloss=that|PronType=Rel
+42	chol	chol	VERB	_	_	20	ccomp	_	orth=छोल|gloss=seek/search|VerbForm=Inf
+43	moddovii	moddovii	VERB	_	VerbForm=Fin	20	ccomp	_	orth=मोडोवी|gloss=perish
+44	ro	ro	PART	_	_	20	advmod	_	orth=रो|gloss=question.PART
+45	?	?	PUNCT	_	_	44	punct	_	orth=?|PunctType=Peri
+
+# sent_id = 40020021
+# ref_id = Matthew 20:21
+# eng_text = He said to her , " What do you want ? " She said to him , " Command that these , my two sons , may sit , one on your right hand , and one on your left hand , in your kingdom . "
+# xsr_text = tamaa yeshuukii tiilaa “ khyurungalaa kaang gokivii ? ” sinii tti naangsung . tiikii “ nge pujyung ngyivulaa gekenakii gyelkhaapalaa cyik ti gekenakii yaavii thaakaalaa , cyik ti yenbii thaakaalaa detup ngyeshii . ” sinii sikyaasung .
+# xsr_orth = तमा येशूकी तीला “ ख्युरुङला काङ गोकिवी ? ” सिनी टि नाङ्सुङ । तीकी “ ङे पुज्युङ ङ्यिवुला गेकेनकी ग्येल्खापला च्यिक ति गेकेनकी यावी थाकाला , च्यिक ति येन्बी थाकाला देतुप ङ्येशी । ” सिनी सिक्यासुङ ।
+1	tamaa	tamaa	CCONJ	_	_	2	cc	_	orth=तमा|gloss=and.then
+2	yeshuukii	yeshuu	PROPN	_	Number=Sing	12	nsubj	_	orth=येशूकी|gloss=Jesus-ERG
+3	tiilaa	tii	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	orth=तीला|gloss=to.him/her
+4	“	“	PUNCT	_	_	3	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+5	khyurungalaa	khyurung	PRON	_	Case=Dat|Number=Sing|Person=2|PronType=Prs	12	nsubj	_	orth=ख्युरुङला|gloss=to.you
+6	kaang	kaang	PRON	_	_	12	nsubj	_	orth=काङ|gloss=what
+7	gokivii	gokivii	VERB	_	VerbForm=Inf	12	advcl	_	orth=गोकिवी|gloss=want
+8	?	?	PUNCT	_	_	7	punct	_	orth=?|PunctType=Peri
+9	”	”	PUNCT	_	_	7	punct	_	orth=”|PunctSide=Fin|PunctType=Quot
+10	sinii	sinii	ADP	_	_	6	case	_	orth=सिनी|gloss=QUOT
+11	tti	tti	PART	_	_	12	advmod	_	orth=टि|gloss=then/thereupon
+12	naangsung	naang	VERB	_	Tense=Past|VerbForm=Fin	0	root	_	orth=नाङ्सुङ|gloss=gave/replied
+13	.	.	PUNCT	_	_	12	punct	_	orth=।
+14	tiikii	tii	PRON	_	Case=Erg|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	orth=तीकी|gloss=he/she-ERG
+15	“	“	PUNCT	_	_	14	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+16	nge	nge	PRON	_	_	12	obj	_	orth=ङे|gloss=my|Number=Sing|Person=1|Poss=Yes|PronType=Prs
+17	pujyung	pujyung	NOUN	_	Number=Sing	12	obj	_	orth=पुज्युङ|gloss=son
+18	ngyivulaa	ngyivulaa	NOUN	_	_	12	obj	_	orth=ङ्यिवुला|gloss=places|Number=Plur
+19	gekenakii	geken	NOUN	_	Number=Sing	12	obj	_	orth=गेकेनकी|gloss=teacher-GEN
+20	gyelkhaapalaa	gyelkhaapalaa	PROPN	_	_	12	obj	_	orth=ग्येल्खापला|gloss=Kingdom|Number=Sing
+21	cyik	cyik	NUM	_	NumType=Card	23	nummod	_	orth=च्यिक|gloss=one
+22	ti	ti	SCONJ	_	_	31	mark	_	orth=ति|gloss=that
+23	gekenakii	geken	NOUN	_	Number=Sing	12	obj	_	orth=गेकेनकी|gloss=teacher-GEN
+24	yaavii	yaavii	NOUN	_	_	12	obj	_	orth=यावी|gloss=right.side|Number=Sing
+25	thaakaalaa	thaak	NOUN	_	Number=Sing	12	obj	_	orth=थाकाला|gloss=at.the.side/hand
+26	,	,	PUNCT	_	_	32	punct	_	orth=,|PunctType=Comm
+27	cyik	cyik	NUM	_	NumType=Card	29	nummod	_	orth=च्यिक|gloss=one
+28	ti	ti	SCONJ	_	_	31	mark	_	orth=ति|gloss=that
+29	yenbii	yenbii	NOUN	_	Number=Sing	12	obj	_	orth=येन्बी|gloss=left.side
+30	thaakaalaa	thaak	NOUN	_	Number=Sing	12	obj	_	orth=थाकाला|gloss=at.the.side/hand
+31	detup	detup	VERB	_	VerbForm=Inf	12	advcl	_	orth=देतुप|gloss=residing/staying
+32	ngyeshii	ngyeshii	VERB	_	_	12	ccomp	_	orth=ङ्येशी|gloss=sit|Tense=Pres|VerbForm=Fin
+33	.	.	PUNCT	_	_	32	punct	_	orth=।
+34	”	”	PUNCT	_	_	32	punct	_	orth=”|PunctSide=Fin|PunctType=Quot
+35	sinii	sinii	ADP	_	_	30	case	_	orth=सिनी|gloss=QUOT
+36	sikyaasung	sikyaa	VERB	_	Tense=Past|VerbForm=Fin	12	ccomp	_	orth=सिक्यासुङ|gloss=said/declared
+37	.	.	PUNCT	_	_	36	punct	_	orth=।
+
+# sent_id = 40026002
+# ref_id = Matthew 26:2
+# eng_text = " You know that after two days the Passover is coming , and the Son of Man will be delivered up to be crucified . "
+# xsr_text = “ taphenakii ngyimaa ngyii jyuklaa yahuudii tharup tuchyen givii sirup ti khyiraangalaa chyaa ve . tii pelaa miitivii nga mii pujyungalaa gyangshingalaa kalnii setupalaa cek tekivii . ”
+# xsr_orth = “ तफेनकी ङ्यिमा ङ्यी ज्युक्ला यहूदी थरुप तुछ्येन गिवी सिरुप ति ख्यिराङला छ्या वे । ती पेला मीतिवी ङ मी पुज्युङला ग्यङ्शिङला कल्नी सेतुपला चेक तेकिवी । ”
+1	“	“	PUNCT	_	_	9	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+2	taphenakii	taphen	ADP	_	_	9	case	_	orth=तफेनकी|gloss=after.these.days
+3	ngyimaa	ngyimaa	NOUN	_	_	9	nsubj	_	orth=ङ्यिमा|gloss=day/days|Number=Plur
+4	ngyii	ngyii	NUM	_	_	3	nummod	_	orth=ङ्यी|gloss=two|NumType=Card
+5	jyuklaa	jyuk	ADP	_	_	4	case	_	orth=ज्युक्ला|gloss=after
+6	yahuudii	yahuudii	ADJ	_	Degree=Pos	7	amod	_	orth=यहूदी|gloss=Jewish
+7	tharup	tharup	PROPN	_	_	9	nsubj	_	orth=थरुप|gloss=Passover|Number=Sing
+8	tuchyen	tuchyen	NOUN	_	Number=Sing	9	nsubj	_	orth=तुछ्येन|gloss=feast/festival
+9	givii	givii	VERB	_	Tense=Fut|VerbForm=Fin	0	root	_	orth=गिवी|gloss=comes/will.come
+10	sirup	sirup	PART	_	_	9	advmod	_	orth=सिरुप|gloss=named/called
+11	ti	ti	SCONJ	_	_	13	mark	_	orth=ति|gloss=that
+12	khyiraangalaa	khyiraangalaa	PRON	_	_	9	obj	_	orth=ख्यिराङला|gloss=to.you.PL|Case=Nom|Person=2|PronType=Prs
+13	chyaa	chyaa	VERB	_	VerbForm=Inf	9	advcl	_	orth=छ्या|gloss=know/realize
+14	ve	ve	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	orth=वे|gloss=is/has
+15	.	.	PUNCT	_	_	14	punct	_	orth=।
+16	tii	tii	DET	_	_	18	det	_	orth=ती|gloss=the|Definite=Def|PronType=Art
+17	pelaa	pelaa	SCONJ	_	_	22	mark	_	orth=पेला|gloss=when/at.that.time
+18	miitivii	mii	NOUN	_	Number=Plur	9	obj	_	orth=मीतिवी|gloss=Son.of.Man
+19	nga	nga	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	obj	_	orth=ङ|gloss=I
+20	mii	mii	NOUN	_	Number=Sing	9	obj	_	orth=मी|gloss=person
+21	pujyungalaa	pujyung	NOUN	_	Number=Sing	9	obj	_	orth=पुज्युङला|gloss=to.the.Son
+22	gyangshingalaa	gyangshingalaa	VERB	_	_	9	ccomp	_	orth=ग्यङ्शिङला|gloss=to.the.cross|Aspect=Perf|Tense=Past|VerbForm=Part
+23	kalnii	kal	VERB	_	VerbForm=Conv	9	advcl	_	orth=कल्नी|gloss=having.led
+24	setupalaa	setup	VERB	_	VerbForm=Inf	9	advcl	_	orth=सेतुपला|gloss=to.be.crucified
+25	cek	cek	VERB	_	VerbForm=Fin	9	ccomp	_	orth=चेक|gloss=given.over
+26	tekivii	tekivii	VERB	_	Tense=Fut|VerbForm=Fin	9	ccomp	_	orth=तेकिवी|gloss=put/placed
+27	.	.	PUNCT	_	_	26	punct	_	orth=।
+28	”	”	PUNCT	_	_	26	punct	_	orth=”|PunctSide=Fin|PunctType=Quot
+
+# sent_id = 40026061
+# ref_id = Matthew 26:61
+# eng_text = and said , " This man said , ' I am able to destroy the temple of God , and to build it in three days . ' "
+# xsr_text = “ dii mii tiikii konchyokakii lhangaang shiknii ngyimaa sumalaa raang joyii sinii sikyaasung . ”
+# xsr_orth = “ दी मी तीकी कोन्छ्योककी ल्हङाङ शिक्नी ङ्यिमा सुमला राङ जोयी सिनी सिक्यासुङ । ”
+1	“	“	PUNCT	_	_	13	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+2	dii	dii	DET	_	Definite=Ind|PronType=Dem	3	det	_	orth=दी|gloss=this
+3	mii	mii	NOUN	_	Number=Sing	13	nsubj	_	orth=मी|gloss=person
+4	tiikii	tii	PRON	_	Case=Erg|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	orth=तीकी|gloss=he/she-ERG
+5	konchyokakii	konchyokakii	PROPN	_	_	13	nsubj	_	orth=कोन्छ्योककी|gloss=God-ERG|Number=Sing
+6	lhangaang	lhangaang	PROPN	_	_	13	nsubj	_	orth=ल्हङाङ|gloss=Temple|Number=Sing
+7	shiknii	shik	VERB	_	VerbForm=Inf	13	advcl	_	orth=शिक्नी|gloss=destroy
+8	ngyimaa	ngyimaa	NOUN	_	_	13	nsubj	_	orth=ङ्यिमा|gloss=day/days|Number=Plur
+9	sumalaa	sum	NUM	_	NumType=Ord	8	nummod	_	orth=सुमला|gloss=in.three
+10	raang	raang	PART	_	Reflex=Yes	13	advmod	_	orth=राङ|gloss=self/alone
+11	joyii	joyii	VERB	_	VerbForm=Inf	13	advcl	_	orth=जोयी|gloss=rebuild/build.up
+12	sinii	sinii	PART	_	_	13	discourse	_	orth=सिनी|gloss=QUOT
+13	sikyaasung	sikyaasung	VERB	_	_	0	root	_	orth=सिक्यासुङ|gloss=said/declared|Tense=Past|VerbForm=Fin
+14	.	.	PUNCT	_	_	13	punct	_	orth=।
+15	”	”	PUNCT	_	_	0	root	_	orth=”|PunctSide=Fin|PunctType=Quot
+
+# sent_id = 40028016
+# ref_id = Matthew 28:16
+# eng_text = But the eleven disciples went into Galilee , to the mountain where Jesus had sent them .
+# xsr_text = tamaa yeshuukii lomaa miraa cyucyikativaa gaaliilalaa galnii khokii tivaalaa gyuk sinii sunggup pamdokalaa gaal .
+# xsr_orth = तमा येशूकी लोमा मिरा च्युच्यिकतिवा गालीलला गल्नी खोकी तिवाला ग्युक सिनी सुङ्गुप पम्दोकला गाल ।
+1	tamaa	tamaa	CCONJ	_	_	2	cc	_	orth=तमा|gloss=and.then
+2	yeshuukii	yeshuukii	PROPN	_	_	10	nsubj	_	orth=येशूकी|gloss=Jesus-ERG|Number=Sing
+3	lomaa	lomaa	NOUN	_	Number=Plur	10	nsubj	_	orth=लोमा|gloss=disciples
+4	miraa	miraa	NOUN	_	Number=Plur	10	nsubj	_	orth=मिरा|gloss=men
+5	cyucyikativaa	cyucyika	NUM	_	NumType=Card	6	nummod	_	orth=च्युच्यिकतिवा
+6	gaaliilalaa	gaaliilalaa	PROPN	_	_	10	nsubj	_	orth=गालीलला|gloss=Galilee|Number=Sing
+7	galnii	galnii	VERB	_	_	10	ccomp	_	orth=गल्नी|gloss=go/going|VerbForm=Inf
+8	khokii	kho	PRON	_	Case=Erg|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	orth=खोकी|gloss=he-ERG
+9	tivaalaa	tivaalaa	PRON	_	_	10	nsubj	_	orth=तिवाला|gloss=to.them|Case=Acc|Number=Plur|Person=3|PronType=Prs
+10	gyuk	gyuk	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	orth=ग्युक|gloss=tell.to.go
+11	sinii	sinii	PART	_	_	7	aux	_	orth=सिनी|gloss=QUOT
+12	sunggup	sunggup	VERB	_	VerbForm=Part	10	ccomp	_	orth=सुङ्गुप|gloss=fulfilled
+13	pamdokalaa	pamdok	NOUN	_	Number=Sing	10	obj	_	orth=पम्दोकला|gloss=ual
+14	gaal	gaal	VERB	_	Tense=Past|VerbForm=Fin	10	ccomp	_	orth=गाल|gloss=went
+15	.	.	PUNCT	_	_	14	punct	_	orth=।
+
+# sent_id = 41002023
+# ref_id = Mark 2:23
+# eng_text = It happened , that he was going on the Sabbath day through the grain fields , and his disciples began , as they went , to pluck the ears of grain .
+# xsr_text = ngaasop ngyimaalaa yeshuu taang khokii lomaativaa tte shing kha nevaa kyaanii phepin kitup pelaa lomaativii tte ngyimaa thusung .
+# xsr_orth = ङासोप ङ्यिमाला येशू ताङ खोकी लोमातिवा टे शिङ ख नेवा क्यानी फेपिन कितुप पेला लोमातिवी टे ङ्यिमा थुसुङ ।
+1	ngaasop	ngaasop	PROPN	_	_	18	nsubj	_	orth=ङासोप|gloss=Sabbath|Number=Sing
+2	ngyimaalaa	ngyimaalaa	PROPN	_	_	18	nsubj	_	orth=ङ्यिमाला|gloss=day|Number=Sing
+3	yeshuu	yeshuu	PROPN	_	Number=Sing	18	nsubj	_	orth=येशू|gloss=Jesus
+4	taang	taang	CCONJ	_	_	6	cc	_	orth=ताङ|gloss=and
+5	khokii	kho	PRON	_	Case=Erg|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	orth=खोकी|gloss=he-ERG
+6	lomaativaa	lomaativaa	NOUN	_	_	18	nsubj	_	orth=लोमातिवा|gloss=disciples|Number=Plur
+7	tte	tte	NOUN	_	Number=Plur	18	nsubj	_	orth=टे|gloss=grain.fields
+8	shing	shing	NOUN	_	Number=Plur	18	nsubj	_	orth=शिङ|gloss=trees/fields
+9	kha	kha	ADP	_	_	8	case	_	orth=ख|gloss=edges/through
+10	nevaa	nevaa	ADP	_	_	8	case	_	orth=नेवा|gloss=passing.through
+11	kyaanii	kyaa	ADP	_	_	8	case	_	orth=क्यानी|gloss=through/while
+12	phepin	phepin	VERB	_	VerbForm=Conv	18	advcl	_	orth=फेपिन|gloss=walking/going
+13	kitup	kitup	VERB	_	VerbForm=Inf	18	advcl	_	orth=कितुप|gloss=to.do
+14	pelaa	pe	SCONJ	_	_	18	mark	_	orth=पेला|gloss=when/at.that.time
+15	lomaativii	lomaativii	NOUN	_	_	18	nsubj	_	orth=लोमातिवी|gloss=disciples-ERG|Number=Plur
+16	tte	tte	NOUN	_	Number=Plur	18	nsubj	_	orth=टे|gloss=grain.fields
+17	ngyimaa	ngyimaa	NOUN	_	Number=Plur	18	nsubj	_	orth=ङ्यिमा|gloss=day/days
+18	thusung	thu	VERB	_	Tense=Past|VerbForm=Fin	0	root	_	orth=थुसुङ|gloss=plucked
+19	.	.	PUNCT	_	_	18	punct	_	orth=।
+
+# sent_id = 41012032
+# ref_id = Mark 12:32
+# eng_text = The scribe said to him , " Truly , teacher , you have said well that he is one , and there is none other but he ,
+# xsr_text = tii thonii tii yahuudii chyokii geken tiikii yeshuulaa sikyaasung , “ gekenakii tteke sungsung . konchyok cyik raang ve , kho misin yambaa su saang me .
+# xsr_orth = ती थोनी ती यहूदी छ्योकी गेकेन तीकी येशूला सिक्यासुङ , “ गेकेनकी टेके सुङ्सुङ । कोन्छ्योक च्यिक राङ वे , खो मिसिन यम्बा सु साङ मे ।
+1	tii	tii	DET	_	_	6	det	_	orth=ती|gloss=the|Definite=Def|PronType=Art
+2	thonii	tho	VERB	_	Aspect=Perf|VerbForm=Part	9	ccomp	_	orth=थोनी|gloss=having.heard
+3	tii	tii	DET	_	_	6	det	_	orth=ती|gloss=the|Definite=Def|PronType=Art
+4	yahuudii	yahuudii	ADJ	_	Degree=Pos	6	amod	_	orth=यहूदी|gloss=Jewish
+5	chyokii	chyokii	ADJ	_	_	6	amod	_	orth=छ्योकी|gloss=religious|Degree=Pos
+6	geken	geken	NOUN	_	_	14	npadvmod	_	orth=गेकेन|gloss=teacher|Number=Sing
+7	tiikii	tii	PRON	_	Case=Erg|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	orth=तीकी|gloss=he/she-ERG
+8	yeshuulaa	yeshuu	PROPN	_	Number=Sing	9	nsubj	_	orth=येशूला|gloss=to.Jesus
+9	sikyaasung	sikyaa	VERB	_	Tense=Past|VerbForm=Fin	0	root	_	orth=सिक्यासुङ|gloss=said/declared
+10	,	,	PUNCT	_	_	14	punct	_	orth=,|PunctType=Comm
+11	“	“	PUNCT	_	_	9	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+12	gekenakii	gekenakii	NOUN	_	_	9	obj	_	orth=गेकेनकी|gloss=teacher-GEN|Number=Sing
+13	tteke	tteke	ADV	_	_	9	advmod	_	orth=टेके|gloss=truly/rightly
+14	sungsung	sungsung	VERB	_	_	9	ccomp	_	orth=सुङ्सुङ|gloss=said|Tense=Past|VerbForm=Fin
+15	.	.	PUNCT	_	_	14	punct	_	orth=।
+16	konchyok	konchyok	PROPN	_	Number=Sing	9	obj	_	orth=कोन्छ्योक|gloss=God
+17	cyik	cyik	NUM	_	NumType=Card	16	nummod	_	orth=च्यिक|gloss=one
+18	raang	raang	PART	_	Reflex=Yes	9	advmod	_	orth=राङ|gloss=self/alone
+19	ve	ve	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	orth=वे|gloss=is/has
+20	,	,	PUNCT	_	_	14	punct	_	orth=,|PunctType=Comm
+21	kho	kho	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	orth=खो|gloss=he
+22	misin	misin	PART	_	_	9	advmod	_	orth=मिसिन|gloss=except/besides
+23	yambaa	yambaa	DET	_	PronType=Ind	24	det	_	orth=यम्बा|gloss=other
+24	su	su	PRON	_	PronType=Int	9	obj	_	orth=सु|gloss=who
+25	saang	saang	PART	_	_	9	advmod	_	orth=साङ|gloss=also/even
+26	me	me	PART	_	Polarity=Neg	19	neg	_	orth=मे|gloss=NEG.is
+27	.	.	PUNCT	_	_	26	punct	_	orth=।
+
+# sent_id = 41014037
+# ref_id = Mark 14:37
+# eng_text = He came and found them sleeping , and said to Peter , " Simon , are you sleeping ? Couldn't you watch one hour ?
+# xsr_text = tamaa yeshuu lomaa sumakii caalaa loknii phepsaalensin tivaa ngyilong raang votup thongsung . khokii patrusalaa sungsung , “ simon , khyurung ngyiloknii raang ve ? khyurung chyujii cyik saang ngyimaalokaa kyaanii de muthupnok ?
+# xsr_orth = तमा येशू लोमा सुमकी चाला लोक्नी फेप्सालेन्सिन तिवा ङ्यिलोङ राङ वोतुप थोङ्सुङ । खोकी पत्रुसला सुङ्सुङ , “ सिमोन , ख्युरुङ ङ्यिलोक्नी राङ वे ? ख्युरुङ छ्युजी च्यिक साङ ङ्यिमालोका क्यानी दे मुथुप्नोक ?
+1	tamaa	tamaa	CCONJ	_	_	2	cc	_	orth=तमा|gloss=and.then
+2	yeshuu	yeshuu	PROPN	_	Number=Sing	6	nsubj	_	orth=येशू|gloss=Jesus
+3	lomaa	lomaa	NOUN	_	Number=Plur	6	nsubj	_	orth=लोमा|gloss=disciples
+4	sumakii	sum	NUM	_	NumType=Card	15	nummod	_	orth=सुमकी|gloss=three-GEN
+5	caalaa	ca	ADP	_	_	4	case	_	orth=चाला|gloss=beside/near
+6	loknii	loknii	VERB	_	_	0	root	_	orth=लोक्नी|gloss=returned/came.back|Tense=Past|VerbForm=Fin
+7	phepsaalensin	phepsaalensin	VERB	_	VerbForm=Conv	6	advcl	_	orth=फेप्सालेन्सिन|gloss=Lea
+8	tivaa	tivaa	PRON	_	Number=Plur|Person=3|PronType=Prs	6	obj	_	orth=तिवा|gloss=they
+9	ngyilong	ngyilong	ADJ	_	Degree=Pos	15	amod	_	orth=ङ्यिलोङ|gloss=sleeping/asleep
+10	raang	raang	PART	_	Reflex=Yes	6	advmod	_	orth=राङ|gloss=self/alone
+11	votup	votup	ADJ	_	Degree=Pos	15	amod	_	orth=वोतुप|gloss=only/single
+12	thongsung	thong	VERB	_	Tense=Past|VerbForm=Fin	6	ccomp	_	orth=थोङ्सुङ|gloss=found/saw
+13	.	.	PUNCT	_	_	12	punct	_	orth=।
+14	khokii	khokii	PRON	_	_	6	nsubj	_	orth=खोकी|gloss=he-ERG|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+15	patrusalaa	patrus	PROPN	_	Number=Sing	6	obj	_	orth=पत्रुसला|gloss=to.Peter
+16	sungsung	sungsung	VERB	_	_	0	root	_	orth=सुङ्सुङ|gloss=said|Tense=Past|VerbForm=Fin
+17	,	,	PUNCT	_	_	16	punct	_	orth=,|PunctType=Comm
+18	“	“	PUNCT	_	_	16	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+19	simon	simon	PROPN	_	_	6	obj	_	orth=सिमोन|gloss=Simon|Number=Sing
+20	,	,	PUNCT	_	_	19	punct	_	orth=,|PunctType=Comm
+21	khyurung	khyurung	PRON	_	Number=Sing|Person=2|PronType=Prs	6	obj	_	orth=ख्युरुङ|gloss=you.SG
+22	ngyiloknii	ngyilok	VERB	_	VerbForm=Conv	6	advcl	_	orth=ङ्यिलोक्नी|gloss=sleeping
+23	raang	raang	PART	_	Reflex=Yes	6	advmod	_	orth=राङ|gloss=self/alone
+24	ve	ve	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	aux	_	orth=वे|gloss=is/has
+25	?	?	PUNCT	_	_	30	punct	_	orth=?|PunctType=Peri
+26	khyurung	khyurung	PRON	_	Number=Sing|Person=2|PronType=Prs	6	obj	_	orth=ख्युरुङ|gloss=you.SG
+27	chyujii	chyujii	NOUN	_	Number=Sing	6	obj	_	orth=छ्युजी|gloss=hour
+28	cyik	cyik	NUM	_	NumType=Card	27	nummod	_	orth=च्यिक|gloss=one
+29	saang	saang	PART	_	_	6	advmod	_	orth=साङ|gloss=also/even
+30	ngyimaalokaa	ngyimaalokaa	VERB	_	_	0	root	_	orth=ङ्यिमालोका|gloss=watch/keep.vigil|VerbForm=Inf
+31	kyaanii	kyaa	ADP	_	_	28	case	_	orth=क्यानी|gloss=through/while
+32	de	de	ADV	_	PronType=Dem	6	advmod	_	orth=दे|gloss=here
+33	muthupnok	muthupnok	VERB	_	Polarity=Neg|VerbForm=Fin	6	ccomp	_	orth=मुथुप्नोक|gloss=impossible
+34	?	?	PUNCT	_	_	30	punct	_	orth=?|PunctType=Peri
+
+# sent_id = 42004002
+# ref_id = Luke 4:2
+# eng_text = for forty days , being tempted by the devil . He ate nothing in those days . Afterward , when they were completed , he was hungry .
+# xsr_text = te ngyimaa khal ngyii sek shaitaanakii kholaa khokpaa lhaasung . tii pelaa sek khokii kaang saang maashe , tamaa tii ngyimaativaa chesimaa kholaa lhovaa laasung .
+# xsr_orth = ते ङ्यिमा खल ङ्यी सेक शैतानकी खोला खोक्पा ल्हासुङ । ती पेला सेक खोकी काङ साङ माशे , तमा ती ङ्यिमातिवा छेसिमा खोला ल्होवा लासुङ ।
+1	te	te	ADV	_	PronType=Dem	9	advmod	_	orth=ते|gloss=there
+2	ngyimaa	ngyimaa	NOUN	_	_	9	nsubj	_	orth=ङ्यिमा|gloss=day/days|Number=Plur
+3	khal	khal	NUM	_	NumType=Card	6	nummod	_	orth=खल|gloss=twenty
+4	ngyii	ngyii	NUM	_	NumType=Card	6	nummod	_	orth=ङ्यी|gloss=two
+5	sek	sek	NUM	_	NumType=Card	6	nummod	_	orth=सेक|gloss=times
+6	shaitaanakii	shaitaanakii	NOUN	_	_	9	nsubj	_	orth=शैतानकी|gloss=devil|Number=Sing
+7	kholaa	kho	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	orth=खोला|gloss=to.him
+8	khokpaa	khokpaa	NOUN	_	Number=Sing	9	nsubj	_	orth=खोक्पा|gloss=trap
+9	lhaasung	lhaa	VERB	_	Tense=Past|VerbForm=Fin	0	root	_	orth=ल्हासुङ|gloss=received/underwent
+10	.	.	PUNCT	_	_	9	punct	_	orth=।
+11	tii	tii	DET	_	_	6	det	_	orth=ती|gloss=the|Definite=Def|PronType=Art
+12	pelaa	pe	SCONJ	_	_	25	mark	_	orth=पेला|gloss=when/at.that.time
+13	sek	sek	NUM	_	NumType=Card	21	nummod	_	orth=सेक|gloss=times
+14	khokii	khokii	PRON	_	_	9	obj	_	orth=खोकी|gloss=he-ERG|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+15	kaang	kaang	PRON	_	PronType=Int	9	obj	_	orth=काङ|gloss=what
+16	saang	saang	PART	_	_	9	advmod	_	orth=साङ|gloss=also/even
+17	maashe	maashe	PART	_	Polarity=Neg	9	neg	_	orth=माशे|gloss=See
+18	,	,	PUNCT	_	_	17	punct	_	orth=,
+19	tamaa	tamaa	CCONJ	_	_	21	cc	_	orth=तमा|gloss=and.then
+20	tii	tii	DET	_	_	6	det	_	orth=ती|gloss=the|Definite=Def|PronType=Art
+21	ngyimaativaa	ngyimaa	NOUN	_	Number=Plur	9	obj	_	orth=ङ्यिमातिवा
+22	chesimaa	chesimaa	ADJ	_	Degree=Pos	21	amod	_	orth=छेसिमा|gloss=having.ended
+23	kholaa	kho	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	orth=खोला|gloss=to.him
+24	lhovaa	lhovaa	ADJ	_	_	21	amod	_	orth=ल्होवा|gloss=hungry|Degree=Pos
+25	laasung	laa	VERB	_	Tense=Past|VerbForm=Fin	9	ccomp	_	orth=लासुङ|gloss=became
+26	.	.	PUNCT	_	_	25	punct	_	orth=।
+
+# sent_id = 42016013
+# ref_id = Luke 16:13
+# eng_text = No servant can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You aren't able to serve God and mammon . "
+# xsr_text = laavaa cyikakii jyindaak ngyiilaa shabjyii ki muthupii . tiikii cyikalaa ti ngyingmar kivii , yambaalaa ti ngyingjye kivii . yaangnaa cyikalaa ti tengivii , yambaalaa ti ngyapcye kivii . tii doke kyaanii khyiraang konchyok taang ttongbaa ngyikaralaa shabjyii ki muthupii . ”
+# xsr_orth = लावा च्यिककी ज्यिन्दाक ङ्यीला शब्ज्यी कि मुथुपी । तीकी च्यिकला ति ङ्यिङ्मर किवी , यम्बाला ति ङ्यिङ्ज्ये किवी । याङ्ना च्यिकला ति तेन्गिवी , यम्बाला ति ङ्यप्च्ये किवी । ती दोके क्यानी ख्यिराङ कोन्छ्योक ताङ टोङ्बा ङ्यिकरला शब्ज्यी कि मुथुपी । ”
+1	laavaa	laavaa	NOUN	_	Number=Sing	5	nsubj	_	orth=लावा|gloss=servant
+2	cyikakii	cyik	PRON	_	_	5	nsubj	_	orth=च्यिककी|gloss=each-ERG
+3	jyindaak	jyindaak	NOUN	_	Number=Sing	5	nsubj	_	orth=ज्यिन्दाक|gloss=master
+4	ngyiilaa	ngyiilaa	NUM	_	_	34	nummod	_	orth=ङ्यीला|gloss=two|NumType=Card
+5	shabjyii	shabjyii	VERB	_	_	0	root	_	orth=शब्ज्यी|gloss=serve|VerbForm=Inf
+6	ki	ki	PART	_	Polarity=Neg	5	neg	_	orth=कि|gloss=NEG
+7	muthupii	muthupii	VERB	_	Polarity=Neg|VerbForm=Fin	5	ccomp	_	orth=मुथुपी|gloss=impossible
+8	.	.	PUNCT	_	_	7	punct	_	orth=।
+9	tiikii	tii	PRON	_	Case=Erg|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	orth=तीकी|gloss=he/she-ERG
+10	cyikalaa	cyik	NUM	_	NumType=Card	34	nummod	_	orth=च्यिकला|gloss=the.one/each
+11	ti	ti	SCONJ	_	_	12	mark	_	orth=ति|gloss=that
+12	ngyingmar	ngyingmar	VERB	_	_	5	ccomp	_	orth=ङ्यिङ्मर|gloss=hate|VerbForm=Inf
+13	kivii	kivii	AUX	_	Tense=Fut|VerbForm=Fin	12	aux	_	orth=किवी|gloss=will.be
+14	,	,	PUNCT	_	_	13	punct	_	orth=,
+15	yambaalaa	yamb	DET	_	PronType=Ind	33	det	_	orth=यम्बाला|gloss=to.the.other
+16	ti	ti	SCONJ	_	_	17	mark	_	orth=ति|gloss=that
+17	ngyingjye	ngyingjye	VERB	_	_	37	conj	_	orth=ङ्यिङ्ज्ये|gloss=love|VerbForm=Inf
+18	kivii	kivii	AUX	_	Tense=Fut|VerbForm=Fin	17	aux	_	orth=किवी|gloss=will.be
+19	.	.	PUNCT	_	_	18	punct	_	orth=।
+20	yaangnaa	yaangnaa	VERB	_	_	5	ccomp	_	orth=याङ्ना|gloss=or.else|Aspect=Perf|Tense=Past|VerbForm=Part
+21	cyikalaa	cyik	NUM	_	NumType=Card	34	nummod	_	orth=च्यिकला|gloss=the.one/each
+22	ti	ti	SCONJ	_	_	23	mark	_	orth=ति|gloss=that
+23	tengivii	tengivii	VERB	_	Tense=Fut|VerbForm=Fin	5	ccomp	_	orth=तेन्गिवी
+24	,	,	PUNCT	_	_	23	punct	_	orth=,
+25	yambaalaa	yamb	DET	_	PronType=Ind	33	det	_	orth=यम्बाला|gloss=to.the.other
+26	ti	ti	SCONJ	_	_	27	mark	_	orth=ति|gloss=that
+27	ngyapcye	ngyapcye	VERB	_	_	5	ccomp	_	orth=ङ्यप्च्ये|gloss=despise|VerbForm=Inf
+28	kivii	kivii	AUX	_	Tense=Fut|VerbForm=Fin	27	aux	_	orth=किवी|gloss=will.be
+29	.	.	PUNCT	_	_	28	punct	_	orth=।
+30	tii	tii	DET	_	_	33	det	_	orth=ती|gloss=the|Definite=Def|PronType=Art
+31	doke	doke	ADP	_	_	21	case	_	orth=दोके|gloss=like/as
+32	kyaanii	kyaa	ADP	_	_	21	case	_	orth=क्यानी|gloss=through/while
+33	khyiraang	khyiraang	PRON	_	Number=Plur|Person=2|PronType=Prs	5	obj	_	orth=ख्यिराङ|gloss=you.PL
+34	konchyok	konchyok	PROPN	_	Number=Sing	5	obj	_	orth=कोन्छ्योक|gloss=God
+35	taang	taang	CCONJ	_	_	36	cc	_	orth=ताङ|gloss=and
+36	ttongbaa	ttongbaa	NOUN	_	Number=Sing	5	obj	_	orth=टोङ्बा|gloss=treasures
+37	ngyikaralaa	ngyikaralaa	VERB	_	_	5	ccomp	_	orth=ङ्यिकरला|gloss=hate|VerbForm=Inf
+38	shabjyii	shabjyii	VERB	_	_	0	root	_	orth=शब्ज्यी|gloss=serve|VerbForm=Inf
+39	ki	ki	PART	_	Polarity=Neg	38	neg	_	orth=कि|gloss=NEG
+40	muthupii	muthupii	VERB	_	Polarity=Neg|VerbForm=Fin	5	ccomp	_	orth=मुथुपी|gloss=impossible
+41	.	.	PUNCT	_	_	40	punct	_	orth=।
+42	”	”	PUNCT	_	_	38	punct	_	orth=”|PunctSide=Fin|PunctType=Quot
+
+# sent_id = 42024018
+# ref_id = Luke 24:18
+# eng_text = One of them , named Cleopas , answered him , " Are you the only one travelling in Jerusalem who doesn't know the things which have happened there in these days ? "
+# xsr_text = tamaa tivaa ngyivukii par nemaa kleopaas sirup tiikii yeshuulaa ttisung , “ khyurung yaruushalemalaa koraa gyapnii vaasinaang tasaam pelaa te cyunggup taamnge khyurungalaa tiraang chyaa me ? ”
+# xsr_orth = तमा तिवा ङ्यिवुकी पर नेमा क्लेओपास सिरुप तीकी येशूला टिसुङ , “ ख्युरुङ यरूशलेमला कोरा ग्यप्नी वासिनाङ तसाम पेला ते च्युङ्गुप ताम्ङे ख्युरुङला तिराङ छ्या मे ? ”
+1	tamaa	tamaa	CCONJ	_	_	4	cc	_	orth=तमा|gloss=and.then
+2	tivaa	tivaa	PRON	_	Number=Plur|Person=3|PronType=Prs	10	nsubj	_	orth=तिवा|gloss=they
+3	ngyivukii	ngyivukii	PART	_	_	10	advmod	_	orth=ङ्यिवुकी|gloss=one.of
+4	par	par	ADV	_	_	10	advmod	_	orth=पर|gloss=one/a.certain
+5	nemaa	nemaa	DET	_	PronType=Ind	6	det	_	orth=नेमा|gloss=one/a.certain
+6	kleopaas	kleopaas	PROPN	_	Number=Sing	10	nsubj	_	orth=क्लेओपास|gloss=Cleopas
+7	sirup	sirup	PART	_	_	10	advmod	_	orth=सिरुप|gloss=named/called
+8	tiikii	tii	PRON	_	Case=Erg|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	orth=तीकी|gloss=he/she-ERG
+9	yeshuulaa	yeshuu	PROPN	_	Number=Sing	10	nsubj	_	orth=येशूला|gloss=to.Jesus
+10	ttisung	tti	VERB	_	Tense=Past|VerbForm=Fin	0	root	_	orth=टिसुङ|gloss=answered/said
+11	,	,	PUNCT	_	_	10	punct	_	orth=,|PunctType=Comm
+12	“	“	PUNCT	_	_	10	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+13	khyurung	khyurung	PRON	_	Number=Sing|Person=2|PronType=Prs	10	obj	_	orth=ख्युरुङ|gloss=you.SG
+14	yaruushalemalaa	yaruushalemalaa	PROPN	_	_	10	obj	_	orth=यरूशलेमला|gloss=Jerusalem|Number=Sing
+15	koraa	koraa	VERB	_	VerbForm=Conv	10	advcl	_	orth=कोरा|gloss=going.around
+16	gyapnii	gyap	VERB	_	VerbForm=Conv	10	advcl	_	orth=ग्यप्नी|gloss=having.made
+17	vaasinaang	vaasinaang	VERB	_	VerbForm=Conv	10	advcl	_	orth=वासिनाङ|gloss=while.residing
+18	tasaam	tasaam	ADV	_	_	10	advmod	_	orth=तसाम|gloss=these.days/now
+19	pelaa	pe	SCONJ	_	_	21	mark	_	orth=पेला|gloss=when/at.that.time
+20	te	te	ADV	_	_	21	advmod	_	orth=ते|gloss=there|PronType=Dem
+21	cyunggup	cyunggup	VERB	_	_	10	ccomp	_	orth=च्युङ्गुप|gloss=happened/occurred|Aspect=Perf|Tense=Past|VerbForm=Part
+22	taamnge	taamnge	NOUN	_	Number=Plur	10	obj	_	orth=ताम्ङे|gloss=words/speech
+23	khyurungalaa	khyurung	PRON	_	Case=Dat|Number=Sing|Person=2|PronType=Prs	10	obj	_	orth=ख्युरुङला|gloss=to.you
+24	tiraang	tiraang	ADJ	_	_	22	amod	_	orth=तिराङ|gloss=only/alone|Degree=Pos
+25	chyaa	chyaa	VERB	_	VerbForm=Inf	10	advcl	_	orth=छ्या|gloss=know/realize
+26	me	me	PART	_	Polarity=Neg	25	neg	_	orth=मे|gloss=NEG.is
+27	?	?	PUNCT	_	_	26	punct	_	orth=?
+28	”	”	PUNCT	_	_	26	punct	_	orth=”|PunctSide=Fin|PunctType=Quot
+
+# sent_id = 43001039
+# ref_id = John 1:39
+# eng_text = He said to them , " Come , and see . " They came and saw where he was staying , and they stayed with him that day . It was about the tenth hour .
+# xsr_text = khokii tivaalaa “ khyiraang shok , tamaa khyiraa thonggivii . ” sinii sungsung . tamaa tivaa khokii mulaa raang galnii kho jyuvu daasaa ti lhaanii tii chermu te raang shaasaa desung . tii pelaa ti gomii chyujii jyii coyii gaalnok .
+# xsr_orth = खोकी तिवाला “ ख्यिराङ शोक , तमा ख्यिरा थोङ्गिवी । ” सिनी सुङ्सुङ । तमा तिवा खोकी मुला राङ गल्नी खो ज्युवु दासा ति ल्हानी ती छेर्मु ते राङ शासा देसुङ । ती पेला ति गोमी छ्युजी ज्यी चोयी गाल्नोक ।
+1	khokii	khokii	PRON	_	_	13	nsubj	_	orth=खोकी|gloss=he-ERG|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+2	tivaalaa	tiv	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	orth=तिवाला|gloss=to.them
+3	“	“	PUNCT	_	_	2	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+4	khyiraang	khyiraang	PRON	_	Number=Plur|Person=2|PronType=Prs	13	nsubj	_	orth=ख्यिराङ|gloss=you.PL
+5	shok	shok	VERB	_	Mood=Imp|VerbForm=Fin	13	ccomp	_	orth=शोक|gloss=come.PL
+6	,	,	PUNCT	_	_	5	punct	_	orth=,|PunctType=Comm
+7	tamaa	tamaa	CCONJ	_	_	9	cc	_	orth=तमा|gloss=and.then
+8	khyiraa	khyiraa	PRON	_	Number=Plur|Person=2|PronType=Prs	13	nsubj	_	orth=ख्यिरा|gloss=you.PL
+9	thonggivii	thonggivii	VERB	_	Tense=Fut|VerbForm=Fin	13	ccomp	_	orth=थोङ्गिवी|gloss=will.see
+10	.	.	PUNCT	_	_	9	punct	_	orth=।
+11	”	”	PUNCT	_	_	13	punct	_	orth=”|PunctSide=Fin|PunctType=Quot
+12	sinii	sinii	ADP	_	_	8	case	_	orth=सिनी|gloss=QUOT
+13	sungsung	sungsung	VERB	_	_	0	root	_	orth=सुङ्सुङ|gloss=said|Tense=Past|VerbForm=Fin
+14	.	.	PUNCT	_	_	13	punct	_	orth=।
+15	tamaa	tamaa	CCONJ	_	_	20	cc	_	orth=तमा|gloss=and.then
+16	tivaa	tivaa	PRON	_	Number=Plur|Person=3|PronType=Prs	13	obj	_	orth=तिवा|gloss=they
+17	khokii	khokii	PRON	_	_	13	obj	_	orth=खोकी|gloss=he-ERG|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+18	mulaa	mulaa	ADP	_	_	17	case	_	orth=मुला|gloss=with/together
+19	raang	raang	PART	_	Reflex=Yes	13	advmod	_	orth=राङ|gloss=self/alone
+20	galnii	gal	VERB	_	VerbForm=Conv	13	advcl	_	orth=गल्नी|gloss=go/going
+21	kho	kho	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	orth=खो|gloss=he
+22	jyuvu	jyuvu	ADV	_	PronType=Int	13	advmod	_	orth=ज्युवु|gloss=where
+23	daasaa	daasaa	NOUN	_	Number=Sing	13	obj	_	orth=दासा|gloss=place/dwelling
+24	ti	ti	SCONJ	_	_	25	mark	_	orth=ति|gloss=that
+25	lhaanii	lhaa	VERB	_	Tense=Past|VerbForm=Fin	13	ccomp	_	orth=ल्हानी|gloss=saw/found
+26	tii	tii	DET	_	_	27	det	_	orth=ती|gloss=the|Definite=Def|PronType=Art
+27	chermu	chermu	NOUN	_	Number=Sing	13	obj	_	orth=छेर्मु|gloss=that.same.day
+28	te	te	ADV	_	PronType=Dem	13	advmod	_	orth=ते|gloss=there
+29	raang	raang	PART	_	Reflex=Yes	13	advmod	_	orth=राङ|gloss=self/alone
+30	shaasaa	shaasaa	VERB	_	Tense=Past|VerbForm=Fin	13	ccomp	_	orth=शासा|gloss=stayed/dwelt
+31	desung	de	VERB	_	Tense=Past|VerbForm=Fin	13	ccomp	_	orth=देसुङ|gloss=stayed/dwelt
+32	.	.	PUNCT	_	_	31	punct	_	orth=।
+33	tii	tii	DET	_	_	37	det	_	orth=ती|gloss=the|Definite=Def|PronType=Art
+34	pelaa	pe	SCONJ	_	_	40	mark	_	orth=पेला|gloss=when/at.that.time
+35	ti	ti	SCONJ	_	_	40	mark	_	orth=ति|gloss=that
+36	gomii	gomii	ADV	_	_	13	advmod	_	orth=गोमी|gloss=about/approximately
+37	chyujii	chyujii	NOUN	_	_	13	obj	_	orth=छ्युजी|gloss=hour|Number=Sing
+38	jyii	jyii	NUM	_	_	39	nummod	_	orth=ज्यी|gloss=four|NumType=Card
+39	coyii	coyii	NOUN	_	Number=Sing	13	obj	_	orth=चोयी|gloss=o'clock
+40	gaalnok	gaalnok	VERB	_	Tense=Past|VerbForm=Fin	13	ccomp	_	orth=गाल्नोक|gloss=it.was
+41	.	.	PUNCT	_	_	40	punct	_	orth=।
+
+# sent_id = 43003016
+# ref_id = John 3:16
+# eng_text = For God so loved the world , that he gave his one and only Son , that whoever believes in him should not perish , but have eternal life .
+# xsr_text = konchyokakii jambulingakii miitivaalaa dukaa ngyingjye kyaa naangnii khokii cyik raang votup sevu ti jambulingalaa taangsung . tii ti sii kholaa tepaa kive , tivaa ngyelaalaa moddoshii , yine naamsaang mishivu mijii thopshii sinii yin .
+# xsr_orth = कोन्छ्योककी जम्बुलिङकी मीतिवाला दुका ङ्यिङ्ज्ये क्या नाङ्नी खोकी च्यिक राङ वोतुप सेवु ति जम्बुलिङला ताङ्सुङ । ती ति सी खोला तेपा किवे , तिवा ङ्येलाला मोडोशी , यिने नाम्साङ मिशिवु मिजी थोप्शी सिनी यिन ।
+1	konchyokakii	konchyokakii	PROPN	_	_	6	nsubj	_	orth=कोन्छ्योककी|gloss=God-ERG|Number=Sing
+2	jambulingakii	jambulingakii	NOUN	_	_	6	nsubj	_	orth=जम्बुलिङकी|gloss=world|Number=Sing
+3	miitivaalaa	miitiv	NOUN	_	Number=Plur	6	nsubj	_	orth=मीतिवाला|gloss=to.the.people
+4	dukaa	dukaa	NOUN	_	Number=Sing	6	nsubj	_	orth=दुका|gloss=great.love
+5	ngyingjye	ngyingjye	VERB	_	VerbForm=Inf	6	advcl	_	orth=ङ्यिङ्ज्ये|gloss=love
+6	kyaa	kyaa	VERB	_	Tense=Past|VerbForm=Fin	0	root	_	orth=क्या|gloss=showed/gave
+7	naangnii	naang	VERB	_	VerbForm=Conv	6	advcl	_	orth=नाङ्नी|gloss=having.given
+8	khokii	khokii	PRON	_	_	6	obj	_	orth=खोकी|gloss=he-ERG|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+9	cyik	cyik	NUM	_	NumType=Card	12	nummod	_	orth=च्यिक|gloss=one
+10	raang	raang	PART	_	Reflex=Yes	6	advmod	_	orth=राङ|gloss=self/alone
+11	votup	votup	ADJ	_	Degree=Pos	12	amod	_	orth=वोतुप|gloss=only/single
+12	sevu	sevu	PROPN	_	_	6	obj	_	orth=सेवु|gloss=Son|Number=Sing
+13	ti	ti	SCONJ	_	_	15	mark	_	orth=ति|gloss=that
+14	jambulingalaa	jambuling	NOUN	_	Number=Sing	6	obj	_	orth=जम्बुलिङला|gloss=to.the.world
+15	taangsung	taang	VERB	_	Tense=Past|VerbForm=Fin	6	ccomp	_	orth=ताङ्सुङ|gloss=sent
+16	.	.	PUNCT	_	_	15	punct	_	orth=।
+17	tii	tii	DET	_	_	2	det	_	orth=ती|gloss=the|Definite=Def|PronType=Art
+18	ti	ti	SCONJ	_	_	22	mark	_	orth=ति|gloss=that
+19	sii	sii	PRON	_	PronType=Ind	6	obj	_	orth=सी|gloss=anyone
+20	kholaa	kho	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	orth=खोला|gloss=to.him
+21	tepaa	tepaa	NOUN	_	Number=Sing	6	obj	_	orth=तेपा|gloss=faith/believe
+22	kive	kive	VERB	_	_	6	ccomp	_	orth=किवे|gloss=believe|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+23	,	,	PUNCT	_	_	22	punct	_	orth=,|PunctType=Comm
+24	tivaa	tivaa	PRON	_	Number=Plur|Person=3|PronType=Prs	6	obj	_	orth=तिवा|gloss=they
+25	ngyelaalaa	ngyel	NOUN	_	Number=Sing	6	obj	_	orth=ङ्येलाला|gloss=to.perishing
+26	moddoshii	moddoshii	VERB	_	VerbForm=Fin	6	ccomp	_	orth=मोडोशी|gloss=perish
+27	,	,	PUNCT	_	_	26	punct	_	orth=,|PunctType=Comm
+28	yine	yine	CCONJ	_	_	29	cc	_	orth=यिने|gloss=but/however
+29	naamsaang	naamsaang	ADJ	_	_	31	amod	_	orth=नाम्साङ|gloss=eternal|Degree=Pos
+30	mishivu	mishivu	ADJ	_	_	31	amod	_	orth=मिशिवु|gloss=eternal|Degree=Pos
+31	mijii	mijii	NOUN	_	_	6	obj	_	orth=मिजी|gloss=life|Number=Sing
+32	thopshii	thopshii	VERB	_	VerbForm=Fin	6	ccomp	_	orth=थोप्शी|gloss=receive/obtain
+33	sinii	si	PART	_	PartType=Quot	6	discourse	_	orth=सिनी|gloss=QUOT
+34	yin	yin	AUX	_	VerbForm=Fin	32	aux	_	orth=यिन|gloss=is/am
+35	.	.	PUNCT	_	_	34	punct	_	orth=।
+
+# sent_id = 44002030
+# ref_id = Acts 2:30
+# eng_text = Therefore , being a prophet , and knowing that God had sworn with an oath to him that of the fruit of his body , according to the flesh , he would raise up the Christ to sit on his throne ,
+# xsr_text = kho konchyokakii lungtembaa yii yindup tapkii khore gipaa nemaa raang miraa cyik gyelaa kitup mii kyenii khore tthiilaa dekivii sirup daauudalaa chyaa nok . dii ti konchyokakii daauud taang mulaa thaakchyevu yin .
+# xsr_orth = खो कोन्छ्योककी लुङ्तेम्बा यी यिन्दुप तप्की खोरे गिपा नेमा राङ मिरा च्यिक ग्येला कितुप मी क्येनी खोरे ठीला देकिवी सिरुप दाऊदला छ्या नोक । दी ति कोन्छ्योककी दाऊद ताङ मुला थाक्छ्येवु यिन ।
+1	kho	kho	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	orth=खो|gloss=he
+2	konchyokakii	konchyokakii	PROPN	_	_	19	nsubj	_	orth=कोन्छ्योककी|gloss=God-ERG|Number=Sing
+3	lungtembaa	lungtembaa	NOUN	_	_	19	nsubj	_	orth=लुङ्तेम्बा|gloss=prophet|Number=Sing
+4	yii	yii	AUX	_	VerbForm=Part	19	aux	_	orth=यी|gloss=being
+5	yindup	yindup	AUX	_	VerbForm=Part	19	aux	_	orth=यिन्दुप|gloss=being.so
+6	tapkii	tap	SCONJ	_	_	8	mark	_	orth=तप्की|gloss=therefore/because
+7	khore	khore	PRON	_	Number=Sing|Person=3|Poss=Yes	19	nsubj	_	orth=खोरे|gloss=his
+8	gipaa	gipaa	VERB	_	VerbForm=Conv	19	advcl	_	orth=गिपा|gloss=descended.from
+9	nemaa	nemaa	DET	_	PronType=Ind	11	det	_	orth=नेमा|gloss=one/a.certain
+10	raang	raang	PART	_	Reflex=Yes	19	advmod	_	orth=राङ|gloss=self/alone
+11	miraa	miraa	NOUN	_	Number=Plur	19	nsubj	_	orth=मिरा|gloss=men
+12	cyik	cyik	NUM	_	NumType=Card	13	nummod	_	orth=च्यिक|gloss=one
+13	gyelaa	gye	NOUN	_	Number=Sing	19	nsubj	_	orth=ग्येला|gloss=throne/kingdom
+14	kitup	kitup	VERB	_	VerbForm=Inf	19	advcl	_	orth=कितुप|gloss=to.do
+15	mii	mii	NOUN	_	Number=Sing	19	nsubj	_	orth=मी|gloss=person
+16	kyenii	kye	ADP	_	_	15	case	_	orth=क्येनी|gloss=according.to
+17	khore	khore	PRON	_	Number=Sing|Person=3|Poss=Yes	19	nsubj	_	orth=खोरे|gloss=his
+18	tthiilaa	tthii	NOUN	_	Number=Sing	19	nsubj	_	orth=ठीला|gloss=on.his.throne
+19	dekivii	dekivii	VERB	_	Tense=Fut|VerbForm=Fin	0	root	_	orth=देकिवी|gloss=sat/stayed
+20	sirup	sirup	PART	_	_	19	advmod	_	orth=सिरुप|gloss=named/called
+21	daauudalaa	daauud	PROPN	_	Number=Sing	19	obj	_	orth=दाऊदला|gloss=to/for.David
+22	chyaa	chyaa	VERB	_	VerbForm=Inf	19	advcl	_	orth=छ्या|gloss=know/realize
+23	nok	nok	AUX	_	VerbForm=Fin	22	aux	_	orth=नोक|gloss=is/be
+24	.	.	PUNCT	_	_	23	punct	_	orth=।
+25	dii	dii	DET	_	Definite=Ind|PronType=Dem	27	det	_	orth=दी|gloss=this
+26	ti	ti	SCONJ	_	_	31	mark	_	orth=ति|gloss=that
+27	konchyokakii	konchyokakii	PROPN	_	_	19	obj	_	orth=कोन्छ्योककी|gloss=God-ERG|Number=Sing
+28	daauud	daauud	PROPN	_	_	19	obj	_	orth=दाऊद|gloss=David|Number=Sing
+29	taang	taang	CCONJ	_	_	31	cc	_	orth=ताङ|gloss=and
+30	mulaa	mulaa	ADP	_	_	28	case	_	orth=मुला|gloss=with/together
+31	thaakchyevu	thaakchyevu	VERB	_	Aspect=Perf|VerbForm=Part	19	ccomp	_	orth=थाक्छ्येवु|gloss=sworn/promised
+32	yin	yin	AUX	_	VerbForm=Fin	31	aux	_	orth=यिन|gloss=is/am
+33	.	.	PUNCT	_	_	32	punct	_	orth=।
+
+# sent_id = 44009038
+# ref_id = Acts 9:38
+# eng_text = As Lydda was near Joppa , the disciples , hearing that Peter was there , sent two men to him , imploring him not to delay in coming to them .
+# xsr_text = patrus ti luddddaalaa ve sirup ti lomaativii thonii mii miraa ngyiilaa “ ngyiraa te ngamu phep . ” sinii gongbaa shu taangsung . cyilaasisin luddddaa ti yoppaa nevaa thaakngyimu raang khyelginok .
+# xsr_orth = पत्रुस ति लुड्डाला वे सिरुप ति लोमातिवी थोनी मी मिरा ङ्यीला “ ङ्यिरा ते ङमु फेप । ” सिनी गोङ्बा शु ताङ्सुङ । च्यिलासिसिन लुड्डा ति योप्पा नेवा थाक्ङ्यिमु राङ ख्येल्गिनोक ।
+1	patrus	patrus	PROPN	_	_	22	nsubj	_	orth=पत्रुस|gloss=Peter|Number=Sing
+2	ti	ti	SCONJ	_	_	8	mark	_	orth=ति|gloss=that
+3	luddddaalaa	ludddd	PROPN	_	Number=Sing	22	nsubj	_	orth=लुड्डाला|gloss=to.Lydda
+4	ve	ve	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	aux	_	orth=वे|gloss=is/has
+5	sirup	sirup	PART	_	_	22	advmod	_	orth=सिरुप|gloss=named/called
+6	ti	ti	SCONJ	_	_	8	mark	_	orth=ति|gloss=that
+7	lomaativii	lomaa	NOUN	_	Number=Plur	22	nsubj	_	orth=लोमातिवी|gloss=disciples-ERG
+8	thonii	thonii	VERB	_	_	22	ccomp	_	orth=थोनी|gloss=having.heard|Aspect=Perf|Tense=Past|VerbForm=Part
+9	mii	mii	NOUN	_	Number=Sing	22	nsubj	_	orth=मी|gloss=person
+10	miraa	miraa	NOUN	_	_	22	dobj	_	orth=मिरा|gloss=men|Number=Plur
+11	ngyiilaa	ngyiilaa	NUM	_	_	10	nummod	_	orth=ङ्यीला|gloss=two|NumType=Card
+12	“	“	PUNCT	_	_	22	punct	_	orth=“|PunctSide=Ini|PunctType=Quot
+13	ngyiraa	ngyiraa	PRON	_	Number=Plur|Person=1|PronType=Prs	22	nsubj	_	orth=ङ्यिरा|gloss=we/us
+14	te	te	ADV	_	PronType=Dem	22	advmod	_	orth=ते|gloss=there
+15	ngamu	ngamu	ADV	_	_	22	advmod	_	orth=ङमु|gloss=soon/quickly
+16	phep	phep	VERB	_	Mood=Imp|VerbForm=Fin	22	ccomp	_	orth=फेप|gloss=come
+17	.	.	PUNCT	_	_	16	punct	_	orth=।
+18	”	”	PUNCT	_	_	22	punct	_	orth=”|PunctSide=Fin|PunctType=Quot
+19	sinii	sinii	PART	_	_	22	discourse	_	orth=सिनी|gloss=QUOT
+20	gongbaa	gongbaa	VERB	_	VerbForm=Inf	22	advcl	_	orth=गोङ्बा|gloss=urge/request
+21	shu	shu	ADV	_	_	22	advmod	_	orth=शु|gloss=quickly
+22	taangsung	taangsung	VERB	_	_	0	root	_	orth=ताङ्सुङ|gloss=sent|Tense=Past|VerbForm=Fin
+23	.	.	PUNCT	_	_	22	punct	_	orth=।
+24	cyilaasisin	cyilaa	SCONJ	_	_	31	mark	_	orth=च्यिलासिसिन|gloss=because/for
+25	luddddaa	luddddaa	PROPN	_	Number=Sing	22	obj	_	orth=लुड्डा|gloss=Lydda
+26	ti	ti	SCONJ	_	_	31	mark	_	orth=ति|gloss=that
+27	yoppaa	yoppaa	PROPN	_	Number=Sing	22	obj	_	orth=योप्पा|gloss=Joppa
+28	nevaa	nevaa	ADP	_	_	27	case	_	orth=नेवा|gloss=passing.through
+29	thaakngyimu	thaakngyimu	ADJ	_	_	27	amod	_	orth=थाक्ङ्यिमु|gloss=far
+30	raang	raang	ADP	_	_	27	case	_	orth=राङ|gloss=self/alone
+31	khyelginok	khyelginok	VERB	_	Tense=Pres|VerbForm=Fin	22	ccomp	_	orth=ख्येल्गिनोक|gloss=is.near
+32	.	.	PUNCT	_	_	31	punct	_	orth=।
+
+# sent_id = 44011011
+# ref_id = Acts 11:11
+# eng_text = Behold , immediately three men stood before the house where I was , having been sent from Caesarea to me .
+# xsr_text = tii pelaa raang kaisariyaa nesur ngalaa katong tanggup mii miraa sumativaa nga detup khaangbii ge caalaa raang vaanok .
+# xsr_orth = ती पेला राङ कैसरिया नेसुर ङला कतोङ तङ्गुप मी मिरा सुमतिवा ङ देतुप खाङ्बी गे चाला राङ वानोक ।
+1	tii	tii	DET	_	_	14	det	_	orth=ती|gloss=the|Definite=Def|PronType=Art
+2	pelaa	pe	SCONJ	_	_	7	mark	_	orth=पेला|gloss=when/at.that.time
+3	raang	raang	ADP	_	_	18	case	_	orth=राङ|gloss=self/alone
+4	kaisariyaa	kaisariyaa	PROPN	_	_	18	nsubj	_	orth=कैसरिया|gloss=Caesarea|Number=Sing
+5	nesur	nesur	ADP	_	_	4	case	_	orth=नेसुर|gloss=from
+6	ngalaa	ng	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	orth=ङला|gloss=to.me
+7	katong	katong	VERB	_	VerbForm=Conv	18	advcl	_	orth=कतोङ|gloss=having.sent
+8	tanggup	tanggup	VERB	_	VerbForm=Conv	18	advcl	_	orth=तङ्गुप|gloss=sent
+9	mii	mii	NOUN	_	Number=Sing	18	nsubj	_	orth=मी|gloss=person
+10	miraa	miraa	NOUN	_	_	18	nsubj	_	orth=मिरा|gloss=men|Number=Plur
+11	sumativaa	sumativaa	PROPN	_	_	18	nsubj	_	orth=सुमतिवा|gloss=three.people|Number=Sing
+12	nga	nga	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	orth=ङ|gloss=I
+13	detup	detup	VERB	_	VerbForm=Inf	18	advcl	_	orth=देतुप|gloss=residing/staying
+14	khaangbii	khaangbii	NOUN	_	_	17	pobj	_	orth=खाङ्बी|gloss=house|Number=Sing
+15	ge	ge	NOUN	_	Number=Sing	18	nsubj	_	orth=गे|gloss=door/gate
+16	caalaa	ca	ADP	_	_	15	case	_	orth=चाला|gloss=beside/near
+17	raang	raang	ADP	_	_	15	case	_	orth=राङ|gloss=self/alone
+18	vaanok	vaanok	VERB	_	Tense=Past|VerbForm=Fin	0	root	_	orth=वानोक|gloss=arrived/came
+19	.	.	PUNCT	_	_	18	punct	_	orth=।
+
+# sent_id = 44021034
+# ref_id = Acts 21:34
+# eng_text = Some shouted one thing , some another , among the crowd . When he couldn't find out the truth because of the noise , he commanded him to be brought into the barracks .
+# xsr_text = yine mii maangchyokakii parlaa lalaaikii taamnge cyik , lalaaikii taamnge yambaa yii sinii voru tennii haraang hurung kyaavu tapkii te cyunggup taamnge ti kaang yin sinii makmii chye tiikii haakmaako . tuk kyaanii paavalalaa makmiitivaa detup daasaalaa tti gyuk sinii makmiitivaalaa ka binsung .
+# xsr_orth = यिने मी माङ्छ्योककी पर्ला ललाइकी ताम्ङे च्यिक , ललाइकी ताम्ङे यम्बा यी सिनी वोरु तेन्नी हराङ हुरुङ क्यावु तप्की ते च्युङ्गुप ताम्ङे ति काङ यिन सिनी मक्मी छ्ये तीकी हाक्माको । तुक क्यानी पावलला मक्मीतिवा देतुप दासाला टि ग्युक सिनी मक्मीतिवाला क बिन्सुङ ।
+1	yine	yine	CCONJ	_	_	2	cc	_	orth=यिने|gloss=but/however
+2	mii	mii	NOUN	_	Number=Sing	41	nsubj	_	orth=मी|gloss=person
+3	maangchyokakii	maangchyok	NOUN	_	Number=Sing	41	nsubj	_	orth=माङ्छ्योककी|gloss=in.the.crowd
+4	parlaa	par	ADP	_	_	3	case	_	orth=पर्ला|gloss=among
+5	lalaaikii	lalaaikii	DET	_	_	6	det	_	orth=ललाइकी|gloss=some
+6	taamnge	taamnge	NOUN	_	Number=Plur	41	nsubj	_	orth=ताम्ङे|gloss=words/speech
+7	cyik	cyik	NUM	_	NumType=Card	10	nummod	_	orth=च्यिक|gloss=one
+8	,	,	PUNCT	_	_	42	punct	_	orth=,|PunctType=Comm
+9	lalaaikii	lalaaikii	DET	_	_	10	det	_	orth=ललाइकी|gloss=some
+10	taamnge	taamnge	NOUN	_	Number=Plur	41	nsubj	_	orth=ताम्ङे|gloss=words/speech
+11	yambaa	yambaa	DET	_	PronType=Ind	14	det	_	orth=यम्बा|gloss=other
+12	yii	yii	AUX	_	VerbForm=Part	41	aux	_	orth=यी|gloss=being
+13	sinii	sinii	ADP	_	_	10	case	_	orth=सिनी|gloss=QUOT
+14	voru	voru	NOUN	_	Number=Sing	41	nsubj	_	orth=वोरु|gloss=noise/uproar
+15	tennii	ten	VERB	_	VerbForm=Conv	41	advcl	_	orth=तेन्नी|gloss=filling/becoming
+16	haraang	haraang	NOUN	_	_	41	nsubj	_	orth=हराङ|gloss=uproar|Number=Sing
+17	hurung	hurung	NOUN	_	_	41	nsubj	_	orth=हुरुङ|gloss=uproar|Number=Sing
+18	kyaavu	kyaavu	VERB	_	VerbForm=Conv	41	advcl	_	orth=क्यावु|gloss=making/causing
+19	tapkii	tap	SCONJ	_	_	21	mark	_	orth=तप्की|gloss=therefore/because
+20	te	te	ADV	_	PronType=Dem	41	advmod	_	orth=ते|gloss=there
+21	cyunggup	cyunggup	VERB	_	Aspect=Perf|VerbForm=Part	41	ccomp	_	orth=च्युङ्गुप|gloss=happened/occurred
+22	taamnge	taamnge	NOUN	_	Number=Plur	41	nsubj	_	orth=ताम्ङे|gloss=words/speech
+23	ti	ti	SCONJ	_	_	30	mark	_	orth=ति|gloss=that
+24	kaang	kaang	PRON	_	PronType=Int	41	nsubj	_	orth=काङ|gloss=what
+25	yin	yin	AUX	_	VerbForm=Fin	21	aux	_	orth=यिन|gloss=is/am
+26	sinii	sinii	ADP	_	_	24	case	_	orth=सिनी|gloss=QUOT
+27	makmii	makmii	NOUN	_	Number=Sing	41	nsubj	_	orth=मक्मी|gloss=soldier/officer
+28	chye	chye	ADJ	_	Degree=Pos	34	amod	_	orth=छ्ये|gloss=great/chief
+29	tiikii	tii	PRON	_	Case=Erg|Number=Sing|Person=3|PronType=Prs	41	nsubj	_	orth=तीकी|gloss=he/she-ERG
+30	haakmaako	haakmaako	VERB	_	Polarity=Neg	41	ccomp	_	orth=हाक्माको|gloss=could.not.know
+31	.	.	PUNCT	_	_	30	punct	_	orth=।
+32	tuk	tuk	ADV	_	_	41	advmod	_	orth=तुक|gloss=therefore/so
+33	kyaanii	kyaa	ADP	_	_	29	case	_	orth=क्यानी|gloss=through/while
+34	paavalalaa	paaval	PROPN	_	Number=Sing	41	nsubj	_	orth=पावलला|gloss=Festus
+35	makmiitivaa	makmii	NOUN	_	Number=Plur	41	nsubj	_	orth=मक्मीतिवा|gloss=soldiers
+36	detup	detup	VERB	_	VerbForm=Inf	41	advcl	_	orth=देतुप|gloss=residing/staying
+37	daasaalaa	daas	NOUN	_	Number=Sing	41	nsubj	_	orth=दासाला|gloss=to.the.place
+38	tti	tti	PART	_	_	41	advmod	_	orth=टि|gloss=then/thereupon
+39	gyuk	gyuk	VERB	_	Mood=Imp|VerbForm=Fin	41	ccomp	_	orth=ग्युक|gloss=tell.to.go
+40	sinii	sinii	ADP	_	_	37	case	_	orth=सिनी|gloss=QUOT
+41	makmiitivaalaa	makmiitivaalaa	VERB	_	_	0	root	_	orth=मक्मीतिवाला|gloss=ordered|Tense=Past|VerbForm=Fin
+42	ka	ka	VERB	_	_	0	root	_	orth=क|gloss=ordered|Tense=Past|VerbForm=Fin
+43	binsung	bin	VERB	_	Tense=Past|VerbForm=Fin	41	ccomp	_	orth=बिन्सुङ|gloss=gave/handed
+44	.	.	PUNCT	_	_	43	punct	_	orth=।
+
+# sent_id = 47012002
+# ref_id = 2 Corinthians 12:2
+# eng_text = I know a man in Christ , fourteen years ago ( whether in the body , I don't know , or whether out of the body , I don't know ; God knows ) , such a one caught up into the third heaven .
+# xsr_text = yeshuu khriissttalaa tepaa kitup mii miraa cyikalaa nge ngo shekivii . tii ti lo cyupjyii gomaalaa terii sinaang yer devaacyen sek teknii gaalsung . yine tii ti ju taang ddeke teknii galup yinde kii , ju metaa kyaanii galup yinde ngalaa chyaa me . konchyokalaa tiraang chyaa ve .
+# xsr_orth = येशू ख्रीष्टला तेपा कितुप मी मिरा च्यिकला ङे ङो शेकिवी । ती ति लो च्युप्ज्यी गोमाला तेरी सिनाङ येर देवाच्येन सेक तेक्नी गाल्सुङ । यिने ती ति जु ताङ डेके तेक्नी गलुप यिन्दे की , जु मेता क्यानी गलुप यिन्दे ङला छ्या मे । कोन्छ्योकला तिराङ छ्या वे ।
+1	yeshuu	yeshuu	PROPN	_	Number=Sing	10	nsubj	_	orth=येशू|gloss=Jesus
+2	khriissttalaa	khriisstt	PROPN	_	Number=Sing	10	nsubj	_	orth=ख्रीष्टला|gloss=in.Christ
+3	tepaa	tepaa	NOUN	_	Number=Sing	10	nsubj	_	orth=तेपा|gloss=faith/believe
+4	kitup	kitup	VERB	_	VerbForm=Inf	10	advcl	_	orth=कितुप|gloss=to.do
+5	mii	mii	NOUN	_	Number=Sing	10	nsubj	_	orth=मी|gloss=person
+6	miraa	miraa	NOUN	_	Number=Plur	10	nsubj	_	orth=मिरा|gloss=men
+7	cyikalaa	cyik	NUM	_	NumType=Card	14	nummod	_	orth=च्यिकला|gloss=the.one/each
+8	nge	nge	PRON	_	_	28	poss	_	orth=ङे|gloss=my|Number=Sing|Person=1|Poss=Yes|PronType=Prs
+9	ngo	ngo	PRON	_	Number=Sing|Person=1|Reflex=Yes	10	nsubj	_	orth=ङो|gloss=I.myself
+10	shekivii	shekivii	VERB	_	Tense=Fut|VerbForm=Fin	0	root	_	orth=शेकिवी|gloss=know
+11	.	.	PUNCT	_	_	10	punct	_	orth=।
+12	tii	tii	DET	_	_	20	det	_	orth=ती|gloss=the|Definite=Def|PronType=Art
+13	ti	ti	SCONJ	_	_	22	mark	_	orth=ति|gloss=that
+14	lo	lo	NOUN	_	_	10	obj	_	orth=लो|gloss=years|Number=Plur
+15	cyupjyii	cyupjyii	NUM	_	_	14	nummod	_	orth=च्युप्ज्यी|gloss=fourteen|NumType=Card
+16	gomaalaa	gom	ADP	_	_	15	case	_	orth=गोमाला|gloss=before/ago
+17	terii	terii	ADV	_	_	10	advmod	_	orth=तेरी|gloss=all/entirely
+18	sinaang	sinaang	SCONJ	_	_	22	mark	_	orth=सिनाङ|gloss=whether
+19	yer	yer	ADV	_	_	10	advmod	_	orth=येर|gloss=truly/even
+20	devaacyen	devaacyen	PROPN	_	_	10	obj	_	orth=देवाच्येन|gloss=third.heaven|Number=Sing
+21	sek	sek	NUM	_	NumType=Card	28	nummod	_	orth=सेक|gloss=times
+22	teknii	tek	VERB	_	VerbForm=Conv	10	advcl	_	orth=तेक्नी|gloss=having.gone
+23	gaalsung	gaal	VERB	_	Tense=Past|VerbForm=Fin	10	ccomp	_	orth=गाल्सुङ|gloss=went
+24	.	.	PUNCT	_	_	23	punct	_	orth=।
+25	yine	yine	CCONJ	_	_	28	cc	_	orth=यिने|gloss=but/however
+26	tii	tii	DET	_	_	20	det	_	orth=ती|gloss=the|Definite=Def|PronType=Art
+27	ti	ti	SCONJ	_	_	31	mark	_	orth=ति|gloss=that
+28	ju	ju	NOUN	_	_	10	obj	_	orth=जु|gloss=body|Number=Sing
+29	taang	taang	CCONJ	_	_	31	cc	_	orth=ताङ|gloss=and|ConjType=Cmp
+30	ddeke	ddeke	ADP	_	_	28	case	_	orth=डेके|gloss=outside.of
+31	teknii	tek	VERB	_	VerbForm=Conv	10	advcl	_	orth=तेक्नी|gloss=having.gone
+32	galup	galup	VERB	_	VerbForm=Conv	10	advcl	_	orth=गलुप|gloss=going
+33	yinde	yinde	AUX	_	Mood=Cnd|VerbForm=Fin	32	aux	_	orth=यिन्दे|gloss=would.be
+34	kii	kii	SCONJ	_	_	39	mark	_	orth=की|gloss=whether/if
+35	,	,	PUNCT	_	_	34	punct	_	orth=,|PunctType=Comm
+36	ju	ju	NOUN	_	_	10	obj	_	orth=जु|gloss=body|Number=Sing
+37	metaa	metaa	ADP	_	_	36	case	_	orth=मेता|gloss=without
+38	kyaanii	kyaa	ADP	_	_	36	case	_	orth=क्यानी|gloss=through/while
+39	galup	galup	VERB	_	VerbForm=Conv	10	advcl	_	orth=गलुप|gloss=going
+40	yinde	yinde	AUX	_	Mood=Cnd|VerbForm=Fin	39	aux	_	orth=यिन्दे|gloss=would.be
+41	ngalaa	ng	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	10	obj	_	orth=ङला|gloss=to.me
+42	chyaa	chyaa	VERB	_	VerbForm=Inf	10	advcl	_	orth=छ्या|gloss=know/realize
+43	me	me	PART	_	Polarity=Neg	42	neg	_	orth=मे|gloss=NEG.is
+44	.	.	PUNCT	_	_	43	punct	_	orth=।
+45	konchyokalaa	konchyok	PROPN	_	Number=Sing	10	obj	_	orth=कोन्छ्योकला|gloss=to.God
+46	tiraang	tiraang	ADV	_	_	10	advmod	_	orth=तिराङ|gloss=only/alone
+47	chyaa	chyaa	VERB	_	VerbForm=Inf	10	advcl	_	orth=छ्या|gloss=know/realize
+48	ve	ve	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	47	aux	_	orth=वे|gloss=is/has
+49	.	.	PUNCT	_	_	48	punct	_	orth=।
+
+# sent_id = 62004009
+# ref_id = 1 John 4:9
+# eng_text = By this was God's love revealed in us , that God has sent his only born Son into the world that we might live through him .
+# xsr_text = konchyokakii daakpulaa cuk kyaanii ngyingjye kyaasung sisin khokii sevulaa tepaa kyaanii daakpu senbu lushii sinii khokii cyik raang votup sevu ti dii jambulingalaa taangsung .
+# xsr_orth = कोन्छ्योककी दाक्पुला चुक क्यानी ङ्यिङ्ज्ये क्यासुङ सिसिन खोकी सेवुला तेपा क्यानी दाक्पु सेन्बु लुशी सिनी खोकी च्यिक राङ वोतुप सेवु ति दी जम्बुलिङला ताङ्सुङ ।
+1	konchyokakii	konchyokakii	PROPN	_	_	6	nsubj	_	orth=कोन्छ्योककी|gloss=God-ERG|Number=Sing
+2	daakpulaa	daakpu	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	orth=दाक्पुला|gloss=to.us
+3	cuk	cuk	ADV	_	_	6	advmod	_	orth=चुक|gloss=How
+4	kyaanii	kyaa	ADP	_	_	2	case	_	orth=क्यानी|gloss=through/while
+5	ngyingjye	ngyingjye	VERB	_	VerbForm=Inf	6	advcl	_	orth=ङ्यिङ्ज्ये|gloss=love
+6	kyaasung	kyaa	VERB	_	Tense=Past|VerbForm=Fin	0	root	_	orth=क्यासुङ|gloss=did/made
+7	sisin	sisin	SCONJ	_	Mood=Cnd	13	mark	_	orth=सिसिन|gloss=if
+8	khokii	khokii	PRON	_	_	6	obj	_	orth=खोकी|gloss=he-ERG|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+9	sevulaa	sevu	PROPN	_	Number=Sing	6	obj	_	orth=सेवुला|gloss=to.the.Son
+10	tepaa	tepaa	NOUN	_	Number=Sing	6	obj	_	orth=तेपा|gloss=faith/believe
+11	kyaanii	kyaa	ADP	_	_	10	case	_	orth=क्यानी|gloss=through/while
+12	daakpu	daakpu	PRON	_	Number=Plur|Person=1|PronType=Prs	6	obj	_	orth=दाक्पु|gloss=we
+13	senbu	senbu	VERB	_	VerbForm=Fin	6	ccomp	_	orth=सेन्बु|gloss=live/thrive
+14	lushii	lushii	PART	_	_	6	advmod	_	orth=लुशी|gloss=so.that
+15	sinii	si	PART	_	PartType=Quot	6	discourse	_	orth=सिनी|gloss=QUOT
+16	khokii	khokii	PRON	_	_	6	obj	_	orth=खोकी|gloss=he-ERG|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+17	cyik	cyik	NUM	_	NumType=Card	20	nummod	_	orth=च्यिक|gloss=one
+18	raang	raang	PART	_	Reflex=Yes	6	advmod	_	orth=राङ|gloss=self/alone
+19	votup	votup	ADJ	_	Degree=Pos	20	amod	_	orth=वोतुप|gloss=only/single
+20	sevu	sevu	PROPN	_	_	6	obj	_	orth=सेवु|gloss=Son|Number=Sing
+21	ti	ti	SCONJ	_	_	24	mark	_	orth=ति|gloss=that
+22	dii	dii	DET	_	Definite=Ind|PronType=Dem	23	det	_	orth=दी|gloss=this
+23	jambulingalaa	jambuling	NOUN	_	Number=Sing	6	obj	_	orth=जम्बुलिङला|gloss=to.the.world
+24	taangsung	taang	VERB	_	Tense=Past|VerbForm=Fin	6	ccomp	_	orth=ताङ्सुङ|gloss=sent
+25	.	.	PUNCT	_	_	24	punct	_	orth=।
+
+# sent_id = 63001005
+# ref_id = 2 John 1:5
+# eng_text = Now I beg you , dear lady , not as though I wrote to you a new commandment , but that which we had from the beginning , that we love one another .
+# xsr_text = o pumo , ta yaang khyurungalaa nge ka sambaa ttivu min , tong nejyu votup ka ngyingbaa raang ttivu yino . daakpu cyikakii cyikalaa ngyingjye kitup sinii nga khyurungalaa gongbaa shoyino .
+# xsr_orth = ओ पुमो , त याङ ख्युरुङला ङे क सम्बा टिवु मिन , तोङ नेज्यु वोतुप क ङ्यिङ्बा राङ टिवु यिनो । दाक्पु च्यिककी च्यिकला ङ्यिङ्ज्ये कितुप सिनी ङ ख्युरुङला गोङ्बा शोयिनो ।
+1	o	o	INTJ	_	_	8	discourse	_	orth=ओ|gloss=O
+2	pumo	pumo	NOUN	_	Number=Sing	8	nsubj	_	orth=पुमो|gloss=lady/woman
+3	,	,	PUNCT	_	_	2	punct	_	orth=,|PunctType=Comm
+4	ta	ta	PART	_	_	8	advmod	_	orth=त|gloss=now/well
+5	yaang	yaang	PART	_	_	8	advmod	_	orth=याङ|gloss=also/too
+6	khyurungalaa	khyurung	PRON	_	Case=Dat|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	orth=ख्युरुङला|gloss=to.you
+7	nge	nge	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nsubj	_	orth=ङे|gloss=my
+8	ka	ka	VERB	_	Tense=Past|VerbForm=Fin	0	root	_	orth=क|gloss=ordered
+9	sambaa	sambaa	ADJ	_	_	2	amod	_	orth=सम्बा|gloss=new|Degree=Pos
+10	ttivu	ttivu	DET	_	Definite=Ind|PronType=Dem	22	det	_	orth=टिवु|gloss=our/this
+11	min	min	PART	_	_	8	advmod	_	orth=मिन|gloss=NEG|Polarity=Neg
+12	,	,	PUNCT	_	_	11	punct	_	orth=,|PunctType=Comm
+13	tong	tong	ADV	_	_	8	advmod	_	orth=तोङ|gloss=from.the.beginning
+14	nejyu	nejyu	ADP	_	_	7	case	_	orth=नेज्यु|gloss=since/from
+15	votup	votup	ADJ	_	Degree=Pos	2	amod	_	orth=वोतुप|gloss=only/single
+16	ka	ka	VERB	_	Tense=Past|VerbForm=Fin	8	ccomp	_	orth=क|gloss=ordered
+17	ngyingbaa	ngyingbaa	ADJ	_	Degree=Pos	2	amod	_	orth=ङ्यिङ्बा|gloss=old/former
+18	raang	raang	PART	_	Reflex=Yes	8	advmod	_	orth=राङ|gloss=self/alone
+19	ttivu	ttivu	DET	_	Definite=Ind|PronType=Dem	22	det	_	orth=टिवु|gloss=our/this
+20	yino	yino	AUX	_	VerbForm=Fin	16	aux	_	orth=यिनो|gloss=is
+21	.	.	PUNCT	_	_	20	punct	_	orth=।
+22	daakpu	daakpu	PRON	_	Number=Plur|Person=1|PronType=Prs	8	obj	_	orth=दाक्पु|gloss=we
+23	cyikakii	cyik	PRON	_	_	8	obj	_	orth=च्यिककी|gloss=each-ERG
+24	cyikalaa	cyik	NUM	_	NumType=Card	2	nummod	_	orth=च्यिकला|gloss=the.one/each
+25	ngyingjye	ngyingjye	VERB	_	_	8	ccomp	_	orth=ङ्यिङ्ज्ये|gloss=love|VerbForm=Inf
+26	kitup	kitup	VERB	_	VerbForm=Inf	8	advcl	_	orth=कितुप|gloss=to.do
+27	sinii	sinii	PART	_	_	8	discourse	_	orth=सिनी|gloss=QUOT
+28	nga	nga	PRON	_	_	8	obj	_	orth=ङ|gloss=I|Case=Nom|Number=Sing|Person=1|PronType=Prs
+29	khyurungalaa	khyurung	PRON	_	Case=Dat|Number=Sing|Person=2|PronType=Prs	8	obj	_	orth=ख्युरुङला|gloss=to.you
+30	gongbaa	gongbaa	VERB	_	VerbForm=Inf	8	advcl	_	orth=गोङ्बा|gloss=urge/request
+31	shoyino	shoyino	VERB	_	Tense=Pres|VerbForm=Fin	8	ccomp	_	orth=शोयिनो|gloss=I.urge.you
+32	.	.	PUNCT	_	_	31	punct	_	orth=।
+
