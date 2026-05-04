@@ -20,7 +20,11 @@ If you use this data, please cite the following source or one (or all) of the pa
 	year = {2026}}
 ```
 
-## Updates
+### Updates
+<details>
+
+<summary> Click to expand </summary>
+<br>
 
 **UPDATE** *4 May 2026*: Added complete re-tagged data for 14 existing languages and partial re-tagged annotations for 28 existing languages (produced by student projects). Results remain largely unchanged.
 
@@ -31,6 +35,8 @@ If you use this data, please cite the following source or one (or all) of the pa
 **UPDATE** *01 July 2025*: Added parallel data from 345 additional languages, bringing the count of corpora to 1,944 (from 1,599). Results remain largely unchanged from initial findings reported in first drafts of papers linked here. This README and associated files in the repository have been updated with revised findings.
 
 **UPDATE** *29 June 2025*: Removed `json` formatted corpora and converted scripts to use only CoNLL-U formatted corpora.
+
+</details>
 
 ## Aims and Description of the repository
 
