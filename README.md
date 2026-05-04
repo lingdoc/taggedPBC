@@ -22,6 +22,8 @@ If you use this data, please cite the following source or one (or all) of the pa
 
 ## Updates
 
+**UPDATE** *4 May 2026*: Added complete re-tagged data for 14 existing languages and partial re-tagged annotations for 28 existing languages (produced by student projects). Results remain largely unchanged.
+
 **UPDATE** *10 Jan 2026*: Added complete re-tagged data for 6 existing languages and partial re-tagged annotations for 15 existing languages (produced by student projects). Results remain largely unchanged.
 
 **UPDATE** *19 Dec 2025*: Added re-tagged data for 38 existing languages, based on trained NLTK POS taggers from UD corpora of 200+ sentences and for which the POS-tagger achieved > 0.85 accuracy on a random held-out test set for a given corpus. Results remain largely unchanged from revised findings.
