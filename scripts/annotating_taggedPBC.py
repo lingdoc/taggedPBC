@@ -13,27 +13,28 @@ fileslist = [x for x in glob.glob(datafold+"*.conllu")] # a list of the conllu f
 # here we get the re-tagged files developed by compling student group projects
 clfold = "../corpora/conllu-retagged/annotations/complete/"
 clfiles = [x for x in glob.glob(clfold+"*.conllu")] # a list of the conllu files for each tagged language
-clisos = [x.split("/")[-1].split("-")[0] for x in clfiles] # isos present in the files
+# clisos = [x.split("/")[-1].split("-")[0] for x in clfiles] # isos present in the files
 
 # here we get the re-tagged files from the UD set (tagged automatically with NLTK taggers that achieve > 0.85 acc)
 datafold2 = "../corpora/conllu-retagged/autoUD/" # the location of tagged PBC files re-tagged via UD data
 dfiles2 = [x for x in glob.glob(datafold2+"*.conllu")]
-reisos = [x.split("/")[-1].split("-")[0] for x in dfiles2 if x.split("/")[-1].split("-")[0] not in clisos] # remove isos already in clfiles
-dfiles2 = [x for x in dfiles2 if x.split("/")[-1].split("-")[0] in reisos] # remove files not in the filtered list
-
-print(f"Files in the re-annotated set {len(clisos)}")
-print(f"Files in the UDT tagged set {len(reisos)}")
-
-reisos = clisos+reisos # combine the isolists
-print(f"Files in the re-taggedPBC {len(reisos)}")
-
-# here we get the files for languages in the taggedPBC that aren't in the re-tagged list
-dfiles = [x for x in fileslist if x.split("/")[-1].split("-")[0] not in reisos]
-print(f"Files in the taggedPBC {len(dfiles)}")
+# reisos = [x.split("/")[-1].split("-")[0] for x in dfiles2 if x.split("/")[-1].split("-")[0] not in clisos] # remove isos already in clfiles
+# # dfiles2 = [x for x in dfiles2 if x.split("/")[-1].split("-")[0] in reisos] # remove files not in the filtered list
+#
+# print(f"Files in the re-annotated set {len(clisos)}")
+# print(f"Files in the UDT tagged set {len(reisos)}")
+#
+# reisos = clisos+reisos # combine the isolists
+# print(f"Files in the re-taggedPBC {len(reisos)}")
+#
+# # here we get the files for languages in the taggedPBC that aren't in the re-tagged list
+# dfiles = [x for x in fileslist if x.split("/")[-1].split("-")[0] not in reisos]
+# print(f"Files in the taggedPBC {len(dfiles)}")
 
 # now we combine the two
-fileslist = clfiles+dfiles2+dfiles
-print(f"Total: {len(fileslist)}")
+# fileslist = clfiles+dfiles2+dfiles
+fileslist = clfiles+dfiles2+fileslist
+# print(f"Total: {len(fileslist)}")
 
 outputfile = "data/output/stats_All.xlsx" # this is the spreadsheet for the analyses
 # if the spreadsheet doesn't exist, do the following (delete spreadsheet if you want to re-run the analyses)

@@ -47,7 +47,7 @@ def convert_conllu(bibfile, misc="gloss=", trans=False):
                 for anno in gl:
                     if misc in anno:
                         gloss = anno.replace(misc, "")
-            
+
             tagged[1].append((word, pos, deprel, gloss)) # append this word-level info to the tagging list
     if trans==True:
         return alines, engtrans
@@ -185,7 +185,7 @@ def get_wordorders(iso, taggedbib, isodict, verses=False):
                     verbs.append(word[0]) # add the item to our list of verbs
                 if "AUX" == word[1]:
                     auxs.append(word[0]) # add the item to our list of auxiliaries
-        
+
         # now go through indices for subject, object, and verb for this sentence
         # if all three indices have been updated, add to the respective
         # order in our dictionary of counts
@@ -248,15 +248,15 @@ def get_wordorders(iso, taggedbib, isodict, verses=False):
                 n1dict["N1_only"] += 1
 
     # here we count various things and store values in a dict
-    lengthsdict = {"Verse_counts": len(taggedbib), "Ns_count": len(get_ulen(nouns)), 
-                    "Vs_count": len(get_ulen(verbs)), "Prons_count": len(get_ulen(prons)), 
-                    "Propns_count": len(get_ulen(propns)), "Auxs_count": len(get_ulen(auxs)), 
-                    "Args_count": len(get_ulen(arguments)), "Preds_count": len(get_ulen(predicates)), 
-                    "Nlen": get_uavg(nouns), "Pronlen": get_uavg(prons), "Propnlen": get_uavg(propns), 
-                    "Vlen": get_uavg(verbs), "Auxlen": get_uavg(auxs), "Arglen": get_uavg(arguments), 
-                    "Predlen": get_uavg(predicates), "Nlen_freq": get_favg(nouns), 
-                    "Pronlen_freq": get_favg(prons), "Propnlen_freq": get_favg(propns), 
-                    "Vlen_freq": get_favg(verbs), "Auxlen_freq": get_favg(auxs), 
+    lengthsdict = {"Verse_counts": len(taggedbib), "Ns_count": len(get_ulen(nouns)),
+                    "Vs_count": len(get_ulen(verbs)), "Prons_count": len(get_ulen(prons)),
+                    "Propns_count": len(get_ulen(propns)), "Auxs_count": len(get_ulen(auxs)),
+                    "Args_count": len(get_ulen(arguments)), "Preds_count": len(get_ulen(predicates)),
+                    "Nlen": get_uavg(nouns), "Pronlen": get_uavg(prons), "Propnlen": get_uavg(propns),
+                    "Vlen": get_uavg(verbs), "Auxlen": get_uavg(auxs), "Arglen": get_uavg(arguments),
+                    "Predlen": get_uavg(predicates), "Nlen_freq": get_favg(nouns),
+                    "Pronlen_freq": get_favg(prons), "Propnlen_freq": get_favg(propns),
+                    "Vlen_freq": get_favg(verbs), "Auxlen_freq": get_favg(auxs),
                     "Arglen_freq": get_favg(arguments), "Predlen_freq": get_favg(predicates)}
 
     # here we get the totals for all verses with 3 elements (the 6 transitive word orders)
@@ -271,7 +271,7 @@ def get_wordorders(iso, taggedbib, isodict, verses=False):
         ordersdict[k] = v
     for k, v in vecdict2.items():
         ordersdict[k] = v
-    
+
     # now add VI, VM, VF
     n1dict["VI"] = sum([ordersdict["VOS"], ordersdict["VSO"]])
     n1dict["VM"] = sum([ordersdict["SVO"], ordersdict["OVS"]])
@@ -325,9 +325,46 @@ def get_isodict(bibfile):
 # using tqdm.process_map for faster execution
 def get_orders_from_conllu(outfile, fileslist, workers):
 
-    values = process_map(get_isodict, fileslist, max_workers=workers, chunksize=1)
-    
-    isodict = {k[0]: k[1] for k in values}
+    # the list of files with duplicated/additional annotations
+    isolist = [k for k, v in Counter([x.split("/")[-1].split("-")[0] for x in fileslist]).items() if v > 1]
+    # the list of files without duplicated annotations
+    normlist = [x for x in fileslist if x.split("/")[-1].split("-")[0] not in isolist]
+
+    isomult = {k: [] for k in isolist} # dict to store the duplicated files
+    # go through each dup file and add it to the `isomult` dict
+    for x in fileslist:
+        if x.split("/")[-1].split("-")[0] in isolist:
+            isomult[x.split("/")[-1].split("-")[0]].append(x)
+
+    print(f"Updating counts for main files... ({len(normlist)})")
+    # process the normal corpora
+    values = process_map(get_isodict, normlist, max_workers=workers, chunksize=1)
+
+    print(f"Updating counts for re-annotated files... ({len(isomult)})")
+    # process the duplicated files, in order
+    for iso in tqdm.tqdm(isomult.keys()):
+        newdict = {} # create a new dict to store verses
+        for bib in isomult[iso]:
+            # if there is already data
+            if iso in newdict.keys():
+                # get the list of existing verses
+                existing = [verse[0] for verse in newdict[iso]]
+                taggedbib = convert_conllu(bib) # convert the new file
+                for verse in taggedbib:
+                    # add verses that don't already exist in the iso dict (assumes first listed files are most recent/complete)
+                    if verse[0] not in existing:
+                        newdict[iso].append(verse)
+            else:
+                # if there isn't data, convert it and add to dict
+                newdict[iso] = convert_conllu(bib)
+
+        ndict = {} # new storage dict
+        ndict[iso] = {} # new iso dict for counts
+        ndict = get_wordorders(iso, newdict[iso], ndict) # get the wordorders from the updated set
+        values.append([iso, ndict[iso]]) # append to our process-mapped list
+
+    isodict = {k[0]: k[1] for k in values} # store in a dict for writing
     df = pd.DataFrame.from_dict(isodict, orient='index').reset_index() # convert to dataframe
+    print(f"Total files: {len(df)}")
 
     return df
