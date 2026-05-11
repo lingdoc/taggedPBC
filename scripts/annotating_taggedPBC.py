@@ -272,7 +272,7 @@ for data in datasets:
     if "auto" in data:
         rpldict = {"V=1": "VS", "V=3": "SV", "V=2": "SV"}
         df['Noun_Verb_order'] = df['PositionVBasicLex'].replace(rpldict)
-        df.to_excel("data/output/comparisons_Autotyp.xlsx")
+        df.to_excel("data/output/comparisons_AUTOTYP.xlsx")
     elif "wals" in data:
         rpldict = {"No dominant order": "free"}#, 'SV': 'N1', 'VS': 'V1'}
         df['Noun_Verb_order'] = df['Order of Subject and Verb'].replace(rpldict)
@@ -298,12 +298,12 @@ newdf = newdf[finalcols]
 newdf.to_excel("data/output/All_comparisons_intransitive.xlsx", index=False)
 
 ## the following code computes statistics for the N1 ratio and word order classifications in
-## three typological databases: Grambank, WALS, and Autotyp
+## three typological databases: Grambank, WALS, and AUTOTYP
 import analysis.anovas
 from analysis.anovas import *
 
 # check the comparisons between the N1 ratio and word order values in the three databases
-datasets = ['comparisons_Grambank.xlsx', 'comparisons_WALS.xlsx', 'comparisons_Autotyp.xlsx',]
+datasets = ['comparisons_Grambank.xlsx', 'comparisons_WALS.xlsx', 'comparisons_AUTOTYP.xlsx',]
 datasets = ['data/output/'+x for x in datasets]
 
 for nfile in datasets:

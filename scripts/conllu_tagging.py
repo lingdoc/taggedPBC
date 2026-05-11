@@ -102,7 +102,7 @@ for data in datasets:
         rpldict2 = {"AOV": "SOV", "AVO": "SVO", "OAV": "OSV", "OVA": "OVS", "VAO": "VSO", "VOA": "VOS", "Vxx": "VI", "V-2": "VM", "xxV": "VF"}
         df['SOV_order'] = df['WordOrderAPVBasicLex'].replace(rpldict2)
         print(df['SOV_order'].value_counts())
-        df.to_excel("data/output/comparisons_Autotyp.xlsx")
+        df.to_excel("data/output/comparisons_AUTOTYP.xlsx")
     elif "wals" in data:
         rpldict = {"No dominant order": "free"}#, 'SV': 'N1', 'VS': 'V1'}
         df['SOV_order'] = df['Order of Subject, Object and Verb'].replace(rpldict)
@@ -111,7 +111,7 @@ for data in datasets:
         df.to_excel("data/output/comparisons_WALS.xlsx")
     elif "grambank" in data:
         df['Noun_Verb_order'] = df['Intrans_Order']
-        
+
         rpldict = {"notVI": 0, "VI": 1, "notVM": 0, "VM": 1, "notVF": 0, "VF": 1, "UNK": 0}
         df['SOV_order'] = ""
         df['Trans_VI'] = df['Trans_VI'].replace(rpldict)
@@ -127,7 +127,7 @@ for data in datasets:
         df.loc[(df['Trans_VI'] == 0) & (df['Trans_VM'] == 1) & (df['Trans_VF'] == 0), 'SOV_order'] = "VM"
         df.loc[(df['Trans_VI'] == 0) & (df['Trans_VM'] == 0) & (df['Trans_VF'] == 1), 'SOV_order'] = "VF"
         df.loc[(df['Trans_VI'] == 0) & (df['Trans_VM'] == 0) & (df['Trans_VF'] == 0), 'SOV_order'] = "UNK"
-        
+
         df.loc[(df['Order_Fixed'] == "UNK") & (df['Trans_VI'] == "UNK") & (df['Trans_VM'] == "UNK") & (df['Trans_VF'] == "UNK"), 'SOV_order'] = "UNK"
         df.loc[(df['Order_Fixed']=="Free"), 'SOV_order'] = 'free'
         # df['SOV_order'] = df['Intrans_Order'].replace(rpldict)
@@ -155,7 +155,7 @@ print(newdf['SOV_order'].value_counts())
 newdf.to_excel("data/output/All_comparisons_transitive.xlsx", index=False)
 
 ## the following code computes statistics for the N1 ratio and word order classifications in
-## three typological databases: Grambank, WALS, and Autotyp
+## three typological databases: Grambank, WALS, and AUTOTYP
 import analysis.anovas
 from analysis.anovas import *
 
