@@ -36,7 +36,12 @@ def convert_conllu(bibfile, misc="gloss=", trans=False):
             linelist = line.split("\t") # split the line on tabs
             word = linelist[1] # the headword is at index 1
             pos = linelist[3] # the part of speech is at index 3
-            deprel = linelist[7] # the dependency relation is at index 7
+            try:
+                deprel = linelist[7] # the dependency relation is at index 7
+            except:
+                print(bibfile)
+                print(line)
+                exit()
             # there is automated English glossing at index 9
             # (experimental) as well as some other stuff
             # in the "MISC" field - here we only get the info if it
