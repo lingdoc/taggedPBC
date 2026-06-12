@@ -50,9 +50,13 @@ $ git sparse-checkout init --no-cone
 #### Add the corpus file from the online repo and download via terminal
 
 In the same directory, add the file(s) that you want. Keep in mind that the web link will not be the same as the internal repository path, i.e. for the Aymara taggedPBC corpus, the following link:
-`https://github.com/lingdoc/taggedPBC/blob/main/corpora/conllu/ayr-eng-tagged-ayr-x-bible_parsed.conllu`
+
+- `https://github.com/lingdoc/taggedPBC/blob/main/corpora/conllu/ayr-eng-tagged-ayr-x-bible_parsed.conllu`
+
 would be shortened to:
-`corpora/conllu/ayr-eng-tagged-ayr-x-bible_parsed.conllu`
+
+- `corpora/conllu/ayr-eng-tagged-ayr-x-bible_parsed.conllu`
+
 (removing the first part `https://github.com/lingdoc/taggedPBC/blob/main/`)
 and this gives us the following local command in the terminal:
 
