@@ -6,7 +6,7 @@
 
 If you use this data, please cite the following source or one (or all) of the papers listed further below:
 
-- Ring, Hiram. 2026. The *taggedPBC*: annotating a massive parallel corpus for crosslinguistic investigations. *Lang Resources & Evaluation* 60, 1, 1-20. https://doi.org/10.1007/s10579-026-09902-2
+- Ring, Hiram. 2026. The *taggedPBC*: annotating a massive parallel corpus for crosslinguistic investigations. *Lang Resources & Evaluation* 60, 1, 1-20. https://doi.org/10.1007/s10579-026-09902-2 [Can't read/access it? Try this link](https://rdcu.be/e0vMk)
 
 ```
 @article{Ring:2026,
@@ -19,6 +19,8 @@ If you use this data, please cite the following source or one (or all) of the pa
 	volume = {60},
 	year = {2026}}
 ```
+
+These corpora are an open dataset freely available for research purposes. You may want to download a subset of data for more detailed annotation for a given research question. If you do so, it would be appreciated if you contribute your (improved/additional) annotations to the *taggedPBC* for the benefit of other researchers.
 
 ### Updates
 <details>

@@ -2,6 +2,8 @@
 
 As noted in other documents, the main aim of this repository is to provide a baseline dataset of parallel annotated corpora for crosslinguistic investigations. A secondary aim is to allow for ongoing annotation of corpora to support NLP for low-resource languages. As annotations are improved it is hoped that this will allow for more detailed comparisons and linguistic insights.
 
+These corpora are an open dataset freely available for research purposes. You may want to download a subset of data for more detailed annotation for a given research question. If you do so, it would be appreciated if you contribute your (improved/additional) annotations to the *taggedPBC* for the benefit of other researchers.
+
 One way to improve the annotations is for specialists to manually annotate parts of speech and gloss the text. If you are a specialist or native speaker who would like to support this effort, please get in touch by opening an issue or sending an email to one of the maintainers, or simply download the corpus for the language you want to work on and start annotating. Some suggestions on verses to start with are given in [Guidelines for annotation](#guidelines-for-annotation). Basic instructions for downloading and annotating individual corpora are found under [Getting started 1](#getting-started-1), and sparse checkout instructions for the git-oriented user can be found under [Getting started 2](#getting-started-2).
 
 ### Getting started 1
