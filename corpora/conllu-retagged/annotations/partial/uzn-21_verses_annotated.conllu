@@ -1,0 +1,546 @@
+# sent_id = 40006024
+# ref_id = Matthew 6:24
+# eng_text = " No one can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You can't serve both God and Mammon .
+# uzn_text = Hech kim ikki khuzhaiinga khizmat kilolmaidi. U e birini emon kurib, boshkasini yakhshi kuradi, eki biriga baghishlanib, boshkasini mensimaidi. Sizlar ham Khudoga, ham boilikka birdek khizmat kila olmaisizlar.
+# uzn_orth = Ҳеч ким икки хўжайинга хизмат қилолмайди. У ё бирини ёмон кўриб, бошқасини яхши кўради, ёки бирига бағишланиб, бошқасини менсимайди. Сизлар ҳам Худога, ҳам бойликка бирдек хизмат қила олмайсизлар.
+1	Hech	hech	DET	_	_	_	det	_	orth=Ҳеч|gloss=No/None
+2	kim	kim	WP	_	_	_	_	_	orth=ким|gloss=Who
+3	ikki	ikki	NUM	_	_	_	nummod	_	orth=икки|gloss=two|NumType=Card
+4	khuzhaiinga	khuzhaiinga	NOUN	_	_	_	_	_	orth=хўжайинга|gloss=master
+5	khizmat	khizmat	NOUN	_	_	0	root	_	orth=хизмат|gloss=service
+6	kilolmaidi.	kilolmaidi.	VERB	_	_	_	_	_	orth=қилолмайди.|gloss=is_unable_to_do
+7	U	u	PRON	_	_	_	_	_	orth=У|gloss=He
+8	e	e	CCONJ	_	_	_	_	_	orth=ё|gloss=either
+9	birini	birini	PRON	_	_	_	_	_	orth=бирини|gloss=either/one_of_them
+10	emon	emon	ADV	_	_	_	_	_	orth=ёмон|gloss=badly
+11	kurib,	kurib,	VERB	_	_	_	_	_	orth=кўриб,|gloss=saw
+12	boshkasini	boshkasini	PRON	_	_	_	conj	_	orth=бошқасини|gloss=another/the_other_one
+13	yakhshi	yakhshi	ADJ	_	_	_	_	_	orth=яхши|gloss=good
+14	kuradi,	kuradi,	VERB	_	_	_	acomp	_	orth=кўради,|gloss=loves|Aspect=Perf|Tense=Past|VerbForm=Part
+15	eki	eki	CCONJ	_	_	_	_	_	orth=ёки|gloss=or
+16	biriga	biriga	PRON	_	_	_	_	_	orth=бирига|gloss=to_one
+17	baghishlanib,	baghishlanib,	VERB	_	_	_	conj	_	orth=бағишланиб,|gloss=devoted
+18	boshkasini	boshkasini	PRON	_	_	_	conj	_	orth=бошқасини|gloss=another
+19	mensimaidi.	mensimaidi.	VERB	_	_	_	_	_	orth=менсимайди.|gloss=disregards
+20	Sizlar	sizlar	PRON	_	_	27	nsubj	_	orth=Сизлар|gloss=You|Case=Nom|Person=2|PronType=Prs
+21	ham	ham	CCONJ	_	_	_	_	_	orth=ҳам|gloss=both
+22	Khudoga,	khudoga,	PROPN	_	_	_	_	_	orth=Худога,|gloss=God
+23	ham	ham	CCONJ	_	_	_	_	_	orth=ҳам|gloss=and
+24	boilikka	boilikka	NOUN	_	_	_	conj	_	orth=бойликка|gloss=to_wealth
+25	birdek	birdek	ADV	_	_	_	_	_	orth=бирдек|gloss=equally
+26	khizmat	khizmat	NOUN	_	_	0	root	_	orth=хизмат|gloss=service
+27	kila	kila	VERB	_	_	0	root	_	orth=қила|gloss=doing
+28	olmaisizlar.	olmaisizlar.	VERB	_	_	_	_	_	orth=олмайсизлар.|gloss=cannot
+
+# sent_id = 40018012
+# ref_id = Matthew 18:12
+# eng_text = " What do you think ? If a man has one hundred sheep , and one of them goes astray , doesn't he leave the ninety-nine , go to the mountains , and seek that which has gone astray ?
+# uzn_text = Nima deb uilaisiz: agar bir odamning yuzta kuii bulsa–yu, ulardan biri adashib kolsa, u tukson tukkiztasini toghlarda koldirib, adashib kolganini izlab ketmaidimi?!
+# uzn_orth = Нима деб ўйлайсиз: агар бир одамнинг юзта қўйи бўлса–ю, улардан бири адашиб қолса, у тўқсон тўққизтасини тоғларда қолдириб, адашиб қолганини излаб кетмайдими?!
+1	Nima	nima	PRON	_	_	_	_	_	orth=Нима|gloss=What
+2	deb	deb	VERB	_	_	_	punct	_	orth=деб|gloss=thinking/that
+3	uilaisiz:	uilaisiz:	VERB	_	_	_	_	_	orth=ўйлайсиз:|gloss=do_you_think
+4	agar	agar	SCONJ	_	_	_	_	_	orth=агар|gloss=if
+5	bir	bir	DET	_	_	_	quantmod	_	orth=бир|gloss=a|Definite=Ind|PronType=Art
+6	odamning	odamning	NOUN	_	_	_	_	_	orth=одамнинг|gloss=of_person
+7	yuzta	yuzta	NUM	_	_	_	_	_	orth=юзта|gloss=one_hundred
+8	kuii	kuii	NOUN	_	_	_	_	_	orth=қўйи|gloss=sheep
+9	bulsa–yu,	bulsa–yu,	VERB	_	_	_	_	_	orth=бўлса–ю,|gloss=as_long_as
+10	ulardan	ulardan	PRON	_	_	_	_	_	orth=улардан|gloss=of_them
+11	biri	biri	NUM	_	_	_	_	_	orth=бири|gloss=one
+12	adashib	adashib	VERB	_	_	_	dobj	_	orth=адашиб|gloss=get_lost
+13	kolsa,	kolsa,	AUX	_	_	_	_	_	orth=қолса,|gloss=astray
+14	u	u	PRON	_	_	_	_	_	orth=у|gloss=he
+15	tukson	tukson	NUM	_	_	_	_	_	orth=тўқсон|gloss=ninety
+16	tukkiztasini	tukkiztasini	NUM	_	_	_	_	_	orth=тўққизтасини|gloss=the_nine
+17	toghlarda	toghlarda	NOUN	_	_	_	_	_	orth=тоғларда|gloss=in_the_mountains
+18	koldirib,	koldirib,	VERB	_	_	_	_	_	orth=қолдириб,|gloss=leaving
+19	adashib	adashib	VERB	_	_	_	dobj	_	orth=адашиб|gloss=get_lost
+20	kolganini	kolganini	NOUN	_	_	_	_	_	orth=қолганини|gloss=the_lost
+21	izlab	izlab	VERB	_	_	_	_	_	orth=излаб|gloss=search
+22	ketmaidimi?!	ketmaidimi?!	VERB	_	_	_	_	_	orth=кетмайдими?!|gloss=will_he_not_go
+
+# sent_id = 40020021
+# ref_id = Matthew 20:21
+# eng_text = He said to her , " What do you want ? " She said to him , " Command that these , my two sons , may sit , one on your right hand , and one on your left hand , in your kingdom . "
+# uzn_text = Iso aeldan: — Nima istaisiz? — deb suradi. — Shohligingizda ughillarimning biri Sizning ung tomoningizda, biri chap tomoningizda utirsin! — dedi Unga ael.
+# uzn_orth = Исо аёлдан: — Нима истайсиз? — деб сўради. — Шоҳлигингизда ўғилларимнинг бири Сизнинг ўнг томонингизда, бири чап томонингизда ўтирсин! — деди Унга аёл.
+1	Iso	iso	PROPN	_	_	_	_	_	orth=Исо|gloss=Jesus
+2	aeldan:	aeldan:	NOUN	_	_	_	_	_	orth=аёлдан:
+3	—	—	PUNCT	_	_	_	punct	_	orth=—|PunctSide=Ini|PunctType=Quot
+4	Nima	nima	PRON	_	_	_	_	_	orth=Нима|gloss=Her
+5	istaisiz?	istaisiz?	VERB	_	_	_	_	_	orth=истайсиз?|gloss=wish/want
+6	—	—	PUNCT	_	_	_	punct	_	orth=—|PunctSide=Ini|PunctType=Quot
+7	deb	deb	VERB	_	_	_	punct	_	orth=деб|gloss=say
+8	suradi.	suradi.	VERB	_	_	0	root	_	orth=сўради.|gloss=asked|Tense=Past|VerbForm=Fin
+9	—	—	PUNCT	_	_	_	punct	_	orth=—|PunctSide=Ini|PunctType=Quot
+10	Shohligingizda	shohligingizda	NOUN	_	_	_	_	_	orth=Шоҳлигингизда|gloss=in_your_kingdom
+11	ughillarimning	ughillarimning	NOUN	_	_	_	_	_	orth=ўғилларимнинг|gloss=of_my_sons
+12	biri	biri	NUM	_	_	_	_	_	orth=бири|gloss=one
+13	Sizning	sizning	PRON	_	_	_	_	_	orth=Сизнинг|gloss=your
+14	ung	ung	ADJ	_	_	_	pobj	_	orth=ўнг|gloss=right
+15	tomoningizda,	tomoningizda,	NOUN	_	_	_	_	_	orth=томонингизда,|gloss=side
+16	biri	biri	NUM	_	_	_	_	_	orth=бири|gloss=one
+17	chap	chap	ADJ	_	_	_	pobj	_	orth=чап|gloss=left
+18	tomoningizda	tomoningizda	NOUN	_	_	_	_	_	orth=томонингизда|gloss=side
+19	utirsin!	utirsin!	VERB	_	_	_	_	_	orth=ўтирсин!|gloss=may_sit
+20	—	—	PUNCT	_	_	_	punct	_	orth=—|PunctSide=Ini|PunctType=Quot
+21	dedi	dedi	VERB	_	_	_	punct	_	orth=деди|gloss=said
+22	Unga	unga	PRON	_	_	_	_	_	orth=Унга|gloss=him
+23	ael.	ael.	NOUN	_	_	_	_	_	orth=аёл.|gloss=woman
+
+# sent_id = 40026002
+# ref_id = Matthew 26:2
+# eng_text = " You know that after two days the Passover is coming , and the Son of Man will be delivered up to be crucified . "
+# uzn_text = “Ikki kundan keiin Fisih ziefati bulishini bilasizlar. Ana ushanda Inson Ughliga khoinlik kilishadi, Uni khochga mikhlashadi.”
+# uzn_orth = “Икки кундан кейин Фисиҳ зиёфати бўлишини биласизлар. Ана ўшанда Инсон Ўғлига хоинлик қилишади, Уни хочга михлашади.”
+1	“Ikki	“ikki	NUM	_	_	_	_	_	orth=“Икки|gloss=two
+2	kundan	kundan	NOUN	_	_	_	pobj	_	orth=кундан|gloss=days|Number=Plur
+3	keiin	keiin	ADP	_	_	_	_	_	orth=кейин|gloss=after
+4	Fisih	fisih	PROPN	_	_	_	nsubj	_	orth=Фисиҳ|gloss=Passover|Number=Sing
+5	ziefati	ziefati	NOUN	_	_	_	_	_	orth=зиёфати|gloss=feast
+6	bulishini	bulishini	VERB	_	_	_	_	_	orth=бўлишини|gloss=happen
+7	bilasizlar.	bilasizlar.	VERB	_	_	_	_	_	orth=биласизлар.|gloss=know
+8	Ana	ana	PART	_	_	_	_	_	orth=Ана|gloss=look/right
+9	ushanda	ushanda	ADV	_	_	_	_	_	orth=ўшанда|gloss=then
+10	Inson	inson	PROPN	_	_	_	pobj	_	orth=Инсон|gloss=Man|Number=Sing
+11	Ughliga	ughliga	PROPN	_	_	_	pobj	_	orth=Ўғлига|gloss=Son|Number=Sing
+12	khoinlik	khoinlik	NOUN	_	_	_	_	_	orth=хоинлик|gloss=betrayal
+13	kilishadi,	kilishadi,	VERB	_	_	_	_	_	orth=қилишади,|gloss=commit
+14	Uni	uni	PRON	_	_	_	_	_	orth=Уни|gloss=him
+15	khochga	khochga	NOUN	_	_	_	advcl	_	orth=хочга|gloss=cross
+16	mikhlashadi.”	mikhlashadi.”	VERB	_	_	_	_	_	orth=михлашади.”|gloss=nail
+
+# sent_id = 40026061
+# ref_id = Matthew 26:61
+# eng_text = and said , " This man said , ' I am able to destroy the temple of God , and to build it in three days . ' "
+# uzn_text = shundai aitishdi: — Bu Odam: “Men Khudoning Mabadini buzib, uch kunda uni tiklai olaman”, degan.
+# uzn_orth = шундай айтишди: — Бу Одам: “Мен Худонинг Маъбадини бузиб, уч кунда уни тиклай оламан”, деган.
+1	shundai	shundai	ADV	_	_	_	_	_	orth=шундай|gloss=thus
+2	aitishdi:	aitishdi:	VERB	_	_	_	_	_	orth=айтишди:|gloss=said
+3	—	—	PUNCT	_	_	_	punct	_	orth=—|PunctSide=Ini|PunctType=Quot
+4	Bu	bu	DET	_	_	_	det	_	orth=Бу|gloss=This|Number=Sing|PronType=Dem
+5	Odam:	odam:	NOUN	_	_	_	_	_	orth=Одам:|gloss=man
+6	“Men	“men	PRON	_	_	_	_	_	orth=“Мен|gloss=I
+7	Khudoning	khudoning	PROPN	_	_	_	_	_	orth=Худонинг|gloss=god
+8	Mabadini	mabadini	NOUN	_	_	_	_	_	orth=Маъбадини|gloss=temple
+9	buzib,	buzib,	VERB	_	_	_	_	_	orth=бузиб,|gloss=destroy
+10	uch	uch	NUM	_	_	_	nummod	_	orth=уч|gloss=three|NumType=Card
+11	kunda	kunda	NOUN	_	_	_	_	_	orth=кунда|gloss=day
+12	uni	uni	PRON	_	_	_	_	_	orth=уни|gloss=it
+13	tiklai	tiklai	VERB	_	_	_	_	_	orth=тиклай|gloss=rebuild
+14	olaman”,	olaman”,	VERB	_	_	_	_	_	orth=оламан”,|gloss=can
+15	degan.	degan.	VERB	_	_	_	_	_	orth=деган.|gloss=said
+
+# sent_id = 40028016
+# ref_id = Matthew 28:16
+# eng_text = But the eleven disciples went into Galilee , to the mountain where Jesus had sent them .
+# uzn_text = Un bir shogird Zhalila hududiga, Iso ularga taiin etgan tokka bordilar.
+# uzn_orth = Ўн бир шогирд Жалила ҳудудига, Исо уларга тайин этган тоққа бордилар.
+1	Un	un	NUM	_	_	_	_	_	orth=Ўн|gloss=ten
+2	bir	bir	NUM	_	_	_	_	_	orth=бир|gloss=one
+3	shogird	shogird	NOUN	_	_	_	_	_	orth=шогирд|gloss=disciple
+4	Zhalila	zhalila	PROPN	_	_	_	pobj	_	orth=Жалила|gloss=Galilee|Number=Sing
+5	hududiga,	hududiga,	NOUN	_	_	_	_	_	orth=ҳудудига,|gloss=region
+6	Iso	iso	PROPN	_	_	_	nsubj	_	orth=Исо|gloss=Jesus|Number=Sing
+7	ularga	ularga	PRON	_	_	_	dobj	_	orth=уларга|gloss=them|Case=Acc|Number=Plur|Person=3|PronType=Prs
+8	taiin	taiin	ADJ	_	_	_	_	_	orth=тайин|gloss=appointed
+9	etgan	etgan	VERB	_	_	_	_	_	orth=этган|gloss=made
+10	tokka	tokka	NOUN	_	_	_	pobj	_	orth=тоққа|gloss=mountain|Number=Sing
+11	bordilar.	bordilar.	VERB	_	_	_	_	_	orth=бордилар.|gloss=went
+
+# sent_id = 41002023
+# ref_id = Mark 2:23
+# eng_text = It happened , that he was going on the Sabbath day through the grain fields , and his disciples began , as they went , to pluck the ears of grain .
+# uzn_text = Shabbat kunlarining birida Iso bughdoizordan utib ketaetgan edi. Uning shogirdlari iul–iulakai boshoklarni uza boshladilar.
+# uzn_orth = Шаббат кунларининг бирида Исо буғдойзордан ўтиб кетаётган эди. Унинг шогирдлари йўл–йўлакай бошоқларни уза бошладилар.
+1	Shabbat	shabbat	PROPN	_	_	_	compound	_	orth=Шаббат|gloss=Sabbath|Number=Sing
+2	kunlarining	kunlarining	NOUN	_	_	_	_	_	orth=кунларининг|gloss=day
+3	birida	birida	PRON	_	_	_	_	_	orth=бирида|gloss=one
+4	Iso	iso	PROPN	_	_	_	nsubj	_	orth=Исо|gloss=Jesus|Number=Sing
+5	bughdoizordan	bughdoizordan	NOUN	_	_	_	_	_	orth=буғдойзордан|gloss=wheat_field
+6	utib	utib	VERB	_	_	_	_	_	orth=ўтиб|gloss=crossed
+7	ketaetgan	ketaetgan	VERB	_	_	_	_	_	orth=кетаётган|gloss=going
+8	edi.	edi.	AUX	_	_	_	aux	_	orth=эди.|gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+9	Uning	uning	PRON	_	_	10	poss	_	orth=Унинг|gloss=his|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs
+10	shogirdlari	shogirdlari	NOUN	_	_	_	nsubj	_	orth=шогирдлари|gloss=disciples|Number=Plur
+11	iul–iulakai	iul–iulakai	ADV	_	_	_	_	_	orth=йўл–йўлакай|gloss=along
+12	boshoklarni	boshoklarni	NOUN	_	_	_	_	_	orth=бошоқларни|gloss=grain
+13	uza	uza	VERB	_	_	_	_	_	orth=уза|gloss=pluck
+14	boshladilar.	boshladilar.	VERB	_	_	_	_	_	orth=бошладилар.|gloss=began
+
+# sent_id = 41012032
+# ref_id = Mark 12:32
+# eng_text = The scribe said to him , " Truly , teacher , you have said well that he is one , and there is none other but he ,
+# uzn_text = — Yakhshi gapirdingiz, Ustoz, — dedi Isoga tafsirchi. — Khudo tanhodir, Undan boshka Khudo iuk, deb tughri aitdingiz.
+# uzn_orth = — Яхши гапирдингиз, Устоз, — деди Исога тафсирчи. — Худо танҳодир, Ундан бошқа Худо йўқ, деб тўғри айтдингиз.
+1	—	—	PUNCT	_	_	_	punct	_	orth=—|PunctSide=Ini|PunctType=Quot
+2	Yakhshi	yakhshi	ADV	_	_	_	_	_	orth=Яхши|gloss=well
+3	gapirdingiz,	gapirdingiz,	VERB	_	_	_	_	_	orth=гапирдингиз,|gloss=spoke
+4	Ustoz,	ustoz,	NOUN	_	_	_	npadvmod	_	orth=Устоз,|gloss=Teacher|Number=Sing
+5	—	—	PUNCT	_	_	_	punct	_	orth=—|PunctSide=Ini|PunctType=Quot
+6	dedi	dedi	VERB	_	_	_	_	_	orth=деди|gloss=said
+7	Isoga	isoga	PROPN	_	_	_	_	_	orth=Исога|gloss=Jesus
+8	tafsirchi.	tafsirchi.	NOUN	_	_	_	_	_	orth=тафсирчи.|gloss=scribe
+9	—	—	PUNCT	_	_	_	punct	_	orth=—|PunctSide=Ini|PunctType=Quot
+10	Khudo	khudo	PROPN	_	_	_	attr	_	orth=Худо|gloss=God|Number=Sing
+11	tanhodir,	tanhodir,	ADJ	_	_	_	_	_	orth=танҳодир,|gloss=unique
+12	Undan	undan	PRON	_	_	_	_	_	orth=Ундан|gloss=ask
+13	boshka	boshka	ADJ	_	_	14	conj	_	orth=бошқа|gloss=other|Degree=Pos
+14	Khudo	khudo	PROPN	_	_	_	attr	_	orth=Худо|gloss=God|Number=Sing
+15	iuk,	iuk,	VERB	_	_	_	pcomp	_	orth=йўқ,|gloss=is_none
+16	deb	deb	VERB	_	_	_	_	_	orth=деб|gloss=saying
+17	tughri	tughri	ADV	_	_	_	_	_	orth=тўғри|gloss=fair
+18	aitdingiz.	aitdingiz.	VERB	_	_	_	_	_	orth=айтдингиз.|gloss=said
+
+# sent_id = 41014037
+# ref_id = Mark 14:37
+# eng_text = He came and found them sleeping , and said to Peter , " Simon , are you sleeping ? Couldn't you watch one hour ?
+# uzn_text = Iso kaitib kelib, shogirdlarining ukhlab etganini kurdi. Butrusga dedi: — Shimun! Ukhlayapsanmi? Bir soatgina ham uighok utira olmadingmi?
+# uzn_orth = Исо қайтиб келиб, шогирдларининг ухлаб ётганини кўрди. Бутрусга деди: — Шимўн! Ухлаяпсанми? Бир соатгина ҳам уйғоқ ўтира олмадингми?
+1	Iso	iso	PROPN	_	_	_	_	_	orth=Исо|gloss=Jesus
+2	kaitib	kaitib	VERB	_	_	0	root	_	orth=қайтиб|gloss=returned|Tense=Past|VerbForm=Fin
+3	kelib,	kelib,	VERB	_	_	_	_	_	orth=келиб,|gloss=came
+4	shogirdlarining	shogirdlarining	NOUN	_	_	_	_	_	orth=шогирдларининг|gloss=disciples
+5	ukhlab	ukhlab	VERB	_	_	_	acomp	_	orth=ухлаб|gloss=sleeping
+6	etganini	etganini	VERB	_	_	_	acomp	_	orth=ётганини|gloss=being
+7	kurdi.	kurdi.	VERB	_	_	_	acomp	_	orth=кўрди.|gloss=find
+8	Butrusga	butrusga	PROPN	_	_	_	_	_	orth=Бутрусга|gloss=Peter
+9	dedi:	dedi:	VERB	_	_	0	root	_	orth=деди:|gloss=said|Tense=Past|VerbForm=Fin
+10	—	—	PUNCT	_	_	9	punct	_	orth=—|PunctSide=Ini|PunctType=Quot
+11	Shimun!	shimun!	PROPN	_	_	_	_	_	orth=Шимўн!|gloss=Simon
+12	Ukhlayapsanmi?	ukhlayapsanmi?	VERB	_	_	_	_	_	orth=Ухлаяпсанми?|gloss=sleeping
+13	Bir	bir	NUM	_	_	_	_	_	orth=Бир|gloss=one
+14	soatgina	soatgina	NOUN	_	_	_	_	_	orth=соатгина|gloss=hour
+15	ham	ham	PART	_	_	_	_	_	orth=ҳам|gloss=also
+16	uighok	uighok	ADJ	_	_	0	root	_	orth=уйғоқ|gloss=awake
+17	utira	utira	VERB	_	_	_	_	_	orth=ўтира|gloss=stay
+18	olmadingmi?	olmadingmi?	VERB	_	_	_	_	_	orth=олмадингми?|gloss=couldn’t
+
+# sent_id = 42004002
+# ref_id = Luke 4:2
+# eng_text = for forty days , being tempted by the devil . He ate nothing in those days . Afterward , when they were completed , he was hungry .
+# uzn_text = Sahroda Isoni iblis kirk kun vasvasaga soldi. Usha kunlar davomida Iso hech narsa emadi, okhiri och koldi.
+# uzn_orth = Саҳрода Исони иблис қирқ кун васвасага солди. Ўша кунлар давомида Исо ҳеч нарса емади, охири оч қолди.
+1	Sahroda	sahroda	NOUN	_	_	_	_	_	orth=Саҳрода|gloss=desert
+2	Isoni	isoni	PROPN	_	_	_	_	_	orth=Исони|gloss=Jesus
+3	iblis	iblis	NOUN	_	_	_	pobj	_	orth=иблис|gloss=devil|Number=Sing
+4	kirk	kirk	NUM	_	_	5	nummod	_	orth=қирқ|gloss=forty|NumType=Card
+5	kun	kun	NOUN	_	_	_	pobj	_	orth=кун|gloss=days|Number=Plur
+6	vasvasaga	vasvasaga	NOUN	_	_	_	_	_	orth=васвасага|gloss=temptation
+7	soldi.	soldi.	VERB	_	_	_	_	_	orth=солди.|gloss=subject
+8	Usha	usha	PRON	_	_	_	_	_	orth=Ўша|gloss=those
+9	kunlar	kunlar	NOUN	_	_	_	_	_	orth=кунлар|gloss=days
+10	davomida	davomida	ADP	_	_	5	nummod	_	orth=давомида|gloss=during
+11	Iso	iso	PROPN	_	_	_	nsubj	_	orth=Исо|gloss=Jesus|Number=Sing
+12	hech	hech	DET	_	_	_	_	_	orth=ҳеч|gloss=no
+13	narsa	narsa	NOUN	_	_	_	_	_	orth=нарса|gloss=nothing
+14	emadi,	emadi,	VERB	_	_	_	_	_	orth=емади,|gloss=eat
+15	okhiri	okhiri	ADV	_	_	_	_	_	orth=охири|gloss=afterward
+16	och	och	ADJ	_	_	_	acomp	_	orth=оч|gloss=hungry|Degree=Pos
+17	koldi.	koldi.	VERB	_	_	_	_	_	orth=қолди.|gloss=stayed
+
+# sent_id = 42016013
+# ref_id = Luke 16:13
+# eng_text = No servant can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You aren't able to serve God and mammon . "
+# uzn_text = Hech kandai khizmatkor ikki khuzhaiinga khizmat kilolmaidi. U e birini emon kurib, boshkasini yakhshi kuradi, eki biriga baghishlanib, boshkasini mensimaidi. Sizlar ham Khudoga, ham boilikka birdek khizmat kila olmaisizlar.”
+# uzn_orth = Ҳеч қандай хизматкор икки хўжайинга хизмат қилолмайди. У ё бирини ёмон кўриб, бошқасини яхши кўради, ёки бирига бағишланиб, бошқасини менсимайди. Сизлар ҳам Худога, ҳам бойликка бирдек хизмат қила олмайсизлар.”
+1	Hech	hech	DET	_	_	_	det	_	orth=Ҳеч|gloss=No
+2	kandai	kandai	DET	_	_	_	_	_	orth=қандай|gloss=how
+3	khizmatkor	khizmatkor	NOUN	_	_	_	_	_	orth=хизматкор|gloss=servant
+4	ikki	ikki	NUM	_	_	_	nummod	_	orth=икки|gloss=two|NumType=Card
+5	khuzhaiinga	khuzhaiinga	NOUN	_	_	_	_	_	orth=хўжайинга|gloss=master
+6	khizmat	khizmat	NOUN	_	_	0	root	_	orth=хизмат|gloss=service
+7	kilolmaidi.	kilolmaidi.	VERB	_	_	_	_	_	orth=қилолмайди.
+8	U	u	PRON	_	_	_	_	_	orth=У|gloss=He
+9	e	e	CCONJ	_	_	_	_	_	orth=ё|gloss=either
+10	birini	birini	PRON	_	_	_	acomp	_	orth=бирини|gloss=either
+11	emon	emon	ADV	_	_	_	_	_	orth=ёмон|gloss=bad
+12	kurib,	kurib,	VERB	_	_	_	_	_	orth=кўриб,|gloss=saw
+13	boshkasini	boshkasini	VERB	_	_	_	conj	_	orth=бошқасини|gloss=another
+14	yakhshi	yakhshi	ADJ	_	_	_	_	_	orth=яхши|gloss=good
+15	kuradi,	kuradi,	VERB	_	_	_	acomp	_	orth=кўради,|gloss=loves|Aspect=Perf|Tense=Past|VerbForm=Part
+16	eki	eki	CCONJ	_	_	_	_	_	orth=ёки|gloss=or
+17	biriga	biriga	PRON	_	_	_	_	_	orth=бирига
+18	baghishlanib,	baghishlanib,	VERB	_	_	_	conj	_	orth=бағишланиб,
+19	boshkasini	boshkasini	PRON	_	_	_	conj	_	orth=бошқасини|gloss=another
+20	mensimaidi.	mensimaidi.	VERB	_	_	_	_	_	orth=менсимайди.
+21	Sizlar	sizlar	PRON	_	_	28	nsubj	_	orth=Сизлар|gloss=You|Case=Nom|Person=2|PronType=Prs
+22	ham	ham	CCONJ	_	_	_	_	_	orth=ҳам|gloss=also
+23	Khudoga,	khudoga,	PROPN	_	_	_	_	_	orth=Худога,
+24	ham	ham	CCONJ	_	_	_	_	_	orth=ҳам|gloss=also
+25	boilikka	boilikka	NOUN	_	_	_	conj	_	orth=бойликка
+26	birdek	birdek	ADV	_	_	_	_	_	orth=бирдек
+27	khizmat	khizmat	NOUN	_	_	0	root	_	orth=хизмат|gloss=service
+28	kila	kila	VERB	_	_	0	root	_	orth=қила|gloss=doing
+29	olmaisizlar.”	olmaisizlar.”	VERB	_	_	_	_	_	orth=олмайсизлар.”
+
+# sent_id = 42024018
+# ref_id = Luke 24:18
+# eng_text = One of them , named Cleopas , answered him , " Are you the only one travelling in Jerusalem who doesn't know the things which have happened there in these days ? "
+# uzn_text = Shogirdlaridan Kleopas degani Unga zhavob berdi: — Shu kunlarda Kuddusda kup vokealar yuz berdi. Bulardan bekhabar kolgan musofir elghiz Siz bulsangiz kerak.
+# uzn_orth = Шогирдларидан Клеопас дегани Унга жавоб берди: — Шу кунларда Қуддусда кўп воқеалар юз берди. Булардан бехабар қолган мусофир ёлғиз Сиз бўлсангиз керак.
+1	Shogirdlaridan	shogirdlaridan	NOUN	_	_	_	_	_	orth=Шогирдларидан|gloss=disciples
+2	Kleopas	kleopas	PROPN	_	_	_	_	_	orth=Клеопас|gloss=Cleopas
+3	degani	degani	VERB	_	_	_	_	_	orth=дегани|gloss=called
+4	Unga	unga	PRON	_	_	_	_	_	orth=Унга|gloss=him
+5	zhavob	zhavob	NOUN	_	_	0	root	_	orth=жавоб|gloss=answer
+6	berdi:	berdi:	VERB	_	_	0	root	_	orth=берди:|gloss=gave
+7	—	—	PUNCT	_	_	6	punct	_	orth=—|PunctSide=Ini|PunctType=Quot
+8	Shu	shu	DET	_	_	_	_	_	orth=Шу|gloss=these
+9	kunlarda	kunlarda	NOUN	_	_	_	_	_	orth=кунларда|gloss=days
+10	Kuddusda	kuddusda	PROPN	_	_	_	_	_	orth=Қуддусда|gloss=Jerusalem
+11	kup	kup	ADJ	_	_	_	_	_	orth=кўп|gloss=many
+12	vokealar	vokealar	NOUN	_	_	_	_	_	orth=воқеалар|gloss=events
+13	yuz	yuz	NOUN	_	_	_	_	_	orth=юз|gloss=face
+14	berdi.	berdi.	VERB	_	_	_	_	_	orth=берди.|gloss=giving
+15	Bulardan	bulardan	PRON	_	_	_	_	_	orth=Булардан|gloss=these
+16	bekhabar	bekhabar	ADJ	_	_	_	_	_	orth=бехабар|gloss=uninformed
+17	kolgan	kolgan	VERB	_	_	_	_	_	orth=қолган|gloss=remain
+18	musofir	musofir	NOUN	_	_	_	_	_	orth=мусофир|gloss=traveller
+19	elghiz	elghiz	ADJ	_	_	_	_	_	orth=ёлғиз|gloss=alone
+20	Siz	siz	PRON	_	_	_	_	_	orth=Сиз|gloss=you
+21	bulsangiz	bulsangiz	VERB	_	_	_	_	_	orth=бўлсангиз|gloss=are
+22	kerak.	kerak.	ADJ	_	_	_	pobj	_	orth=керак.|gloss=necessary
+
+# sent_id = 43001039
+# ref_id = John 1:39
+# eng_text = He said to them , " Come , and see . " They came and saw where he was staying , and they stayed with him that day . It was about the tenth hour .
+# uzn_text = — Yuringlar, kurasizlar, — dedi Iso. Ular borib, Isoning turar zhoiini kurganlarida, soat turt bulib kolgan edi. Shuning uchun ular usha kuni Iso bilan kolishdi.
+# uzn_orth = — Юринглар, кўрасизлар, — деди Исо. Улар бориб, Исонинг турар жойини кўрганларида, соат тўрт бўлиб қолган эди. Шунинг учун улар ўша куни Исо билан қолишди.
+1	—	—	PUNCT	_	_	_	punct	_	orth=—|PunctSide=Ini|PunctType=Quot
+2	Yuringlar,	yuringlar,	VERB	_	_	_	_	_	orth=Юринглар,|gloss=come
+3	kurasizlar,	kurasizlar,	VERB	_	_	_	_	_	orth=кўрасизлар,|gloss=see
+4	—	—	PUNCT	_	_	_	punct	_	orth=—|PunctSide=Ini|PunctType=Quot
+5	dedi	dedi	VERB	_	_	_	punct	_	orth=деди|gloss=said
+6	Iso.	iso.	PROPN	_	_	_	pobj	_	orth=Исо.|gloss=Jesus
+7	Ular	ular	PRON	_	_	_	_	_	orth=Улар|gloss=They
+8	borib,	borib,	VERB	_	_	17	advcl	_	orth=бориб,|gloss=went|Tense=Past|VerbForm=Fin
+9	Isoning	isoning	PROPN	_	_	_	_	_	orth=Исонинг|gloss=Jesus
+10	turar	turar	VERB	_	_	_	nummod	_	orth=турар|gloss=living
+11	zhoiini	zhoiini	NOUN	_	_	_	_	_	orth=жойини|gloss=residence
+12	kurganlarida,	kurganlarida,	VERB	_	_	_	_	_	orth=кўрганларида,|gloss=saw
+13	soat	soat	NOUN	_	_	_	pobj	_	orth=соат|gloss=afternoon|Number=Sing
+14	turt	turt	NUM	_	_	_	nummod	_	orth=тўрт|gloss=four|NumType=Card
+15	bulib	bulib	VERB	_	_	_	_	_	orth=бўлиб|gloss=become
+16	kolgan	kolgan	VERB	_	_	_	_	_	orth=қолган|gloss=stay
+17	edi.	edi.	AUX	_	_	_	aux	_	orth=эди.|gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+18	Shuning	shuning	PRON	_	_	_	_	_	orth=Шунинг|gloss=this
+19	uchun	uchun	ADP	_	_	_	_	_	orth=учун|gloss=for
+20	ular	ular	PRON	_	_	_	_	_	orth=улар|gloss=they
+21	usha	usha	DET	_	_	_	_	_	orth=ўша|gloss=that
+22	kuni	kuni	NOUN	_	_	_	pobj	_	orth=куни|gloss=day|Number=Sing
+23	Iso	iso	PROPN	_	_	_	_	_	orth=Исо|gloss=Jesus
+24	bilan	bilan	ADP	_	_	_	prep	_	orth=билан|gloss=with
+25	kolishdi.	kolishdi.	VERB	_	_	_	_	_	orth=қолишди.|gloss=stay
+
+# sent_id = 43003016
+# ref_id = John 3:16
+# eng_text = For God so loved the world , that he gave his one and only Son , that whoever believes in him should not perish , but have eternal life .
+# uzn_text = Zero, Khudo olamni shunchalik sevdiki, Uzining yagona Ughlini berdi. Toki Unga ishonganlardan birontasi halok bulmasin, balki abady haetga ega bulsin.
+# uzn_orth = Зеро, Худо оламни шунчалик севдики, Ўзининг ягона Ўғлини берди. Токи Унга ишонганлардан биронтаси ҳалок бўлмасин, балки абадий ҳаётга эга бўлсин.
+1	Zero,	zero,	SCONJ	_	_	_	prep	_	orth=Зеро,|gloss=For
+2	Khudo	khudo	PROPN	_	_	_	nsubj	_	orth=Худо|gloss=God|Number=Sing
+3	olamni	olamni	NOUN	_	_	_	_	_	orth=оламни|gloss=world
+4	shunchalik	shunchalik	ADV	_	_	_	_	_	orth=шунчалик|gloss=much
+5	sevdiki,	sevdiki,	VERB	_	_	_	_	_	orth=севдики,|gloss=loved
+6	Uzining	uzining	PRON	_	_	_	_	_	orth=Ўзининг|gloss=his
+7	yagona	yagona	ADJ	_	_	18	amod	_	orth=ягона|gloss=only
+8	Ughlini	ughlini	NOUN	_	_	_	appos	_	orth=Ўғлини|gloss=Son|Number=Sing
+9	berdi.	berdi.	VERB	_	_	_	_	_	orth=берди.|gloss=gave
+10	Toki	toki	SCONJ	_	_	_	_	_	orth=Токи|gloss=so
+11	Unga	unga	PRON	_	_	_	_	_	orth=Унга|gloss=him
+12	ishonganlardan	ishonganlardan	NOUN	_	_	_	_	_	orth=ишонганлардан|gloss=believers
+13	birontasi	birontasi	PRON	_	_	_	_	_	orth=биронтаси|gloss=anyone
+14	halok	halok	NOUN	_	_	_	_	_	orth=ҳалок|gloss=perish
+15	bulmasin,	bulmasin,	VERB	_	_	_	_	_	orth=бўлмасин,|gloss=be
+16	balki	balki	CCONJ	_	_	_	_	_	orth=балки|gloss=rather
+17	abady	abady	ADJ	_	_	18	amod	_	orth=абадий|gloss=eternal|Degree=Pos
+18	haetga	haetga	NOUN	_	_	_	dobj	_	orth=ҳаётга|gloss=life|Number=Sing
+19	ega	ega	NOUN	_	_	_	_	_	orth=эга|gloss=possession
+20	bulsin.	bulsin.	VERB	_	_	_	_	_	orth=бўлсин.|gloss=have
+
+# sent_id = 44002030
+# ref_id = Acts 2:30
+# eng_text = Therefore , being a prophet , and knowing that God had sworn with an oath to him that of the fruit of his body , according to the flesh , he would raise up the Christ to sit on his throne ,
+# uzn_text = U paighambar bulgani bois, Khudo unga: «Uz naslingdan bulgan bittasini takhtingga utkazaman», deb ichgan ontini edida tutardi.
+# uzn_orth = У пайғамбар бўлгани боис, Худо унга: «Ўз наслингдан бўлган биттасини тахтингга ўтқазаман», деб ичган онтини ёдида тутарди.
+1	U	u	PRON	_	_	_	_	_	orth=У|gloss=He
+2	paighambar	paighambar	NOUN	_	_	_	attr	_	orth=пайғамбар|gloss=prophet|Number=Sing
+3	bulgani	bulgani	VERB	_	_	_	_	_	orth=бўлгани|gloss=being
+4	bois,	bois,	ADP	_	_	_	_	_	orth=боис,|gloss=because
+5	Khudo	khudo	PROPN	_	_	_	nsubj	_	orth=Худо|gloss=God|Number=Sing
+6	unga:	unga:	PRON	_	_	_	_	_	orth=унга:|gloss=him
+7	«Uz	«uz	PRON	_	_	_	_	_	orth=«Ўз|gloss=own
+8	naslingdan	naslingdan	NOUN	_	_	_	_	_	orth=наслингдан|gloss=descendant
+9	bulgan	bulgan	VERB	_	_	_	_	_	orth=бўлган|gloss=being
+10	bittasini	bittasini	PRON	_	_	_	_	_	orth=биттасини|gloss=them
+11	takhtingga	takhtingga	NOUN	_	_	_	_	_	orth=тахтингга|gloss=throne
+12	utkazaman»,	utkazaman»,	VERB	_	_	_	_	_	orth=ўтқазаман»,|gloss=place
+13	deb	deb	VERB	_	_	_	_	_	orth=деб|gloss=say
+14	ichgan	ichgan	VERB	_	_	_	pobj	_	orth=ичган|gloss=swear
+15	ontini	ontini	NOUN	_	_	_	_	_	orth=онтини|gloss=oath
+16	edida	edida	NOUN	_	_	_	_	_	orth=ёдида|gloss=memory
+17	tutardi.	tutardi.	VERB	_	_	_	_	_	orth=тутарди.|gloss=kept
+
+# sent_id = 44009038
+# ref_id = Acts 9:38
+# eng_text = As Lydda was near Joppa , the disciples , hearing that Peter was there , sent two men to him , imploring him not to delay in coming to them .
+# uzn_text = Lud shahri Yaffa shahriga yakin edi. Shogirdlar Butrus u erda ekanini eshitdilar va uning oldiga ikki kishini yuborib: “Iltimos, hayallamai biz tomonga keling”, deb khabar yubordilar.
+# uzn_orth = Лўд шаҳри Яффа шаҳрига яқин эди. Шогирдлар Бутрус у ерда эканини эшитдилар ва унинг олдига икки кишини юбориб: “Илтимос, ҳаялламай биз томонга келинг”, деб хабар юбордилар.
+1	Lud	lud	PROPN	_	_	_	_	_	orth=Лўд|gloss=Lydda
+2	shahri	shahri	NOUN	_	_	_	intj	_	orth=шаҳри|gloss=city
+3	Yaffa	yaffa	PROPN	_	_	_	_	_	orth=Яффа|gloss=Joppa
+4	shahriga	shahriga	NOUN	_	_	_	_	_	orth=шаҳрига|gloss=city
+5	yakin	yakin	ADJ	_	_	_	_	_	orth=яқин|gloss=near
+6	edi.	edi.	AUX	_	_	_	ccomp	_	orth=эди.|gloss=was|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+7	Shogirdlar	shogirdlar	NOUN	_	_	_	_	_	orth=Шогирдлар|gloss=disciples
+8	Butrus	butrus	PROPN	_	_	6	nsubj	_	orth=Бутрус|gloss=Peter|Number=Sing
+9	u	u	DET	_	_	_	_	_	orth=у|gloss=that
+10	erda	erda	NOUN	_	_	_	_	_	orth=ерда|gloss=there
+11	ekanini	ekanini	VERB	_	_	_	_	_	orth=эканини|gloss=was
+12	eshitdilar	eshitdilar	VERB	_	_	_	_	_	orth=эшитдилар|gloss=hear
+13	va	va	CCONJ	_	_	_	_	_	orth=ва|gloss=and
+14	uning	uning	PRON	_	_	_	_	_	orth=унинг|gloss=its
+15	oldiga	oldiga	NOUN	_	_	_	_	_	orth=олдига|gloss=presence
+16	ikki	ikki	NUM	_	_	_	nummod	_	orth=икки|gloss=two|NumType=Card
+17	kishini	kishini	NOUN	_	_	_	_	_	orth=кишини|gloss=men
+18	yuborib:	yuborib:	VERB	_	_	_	_	_	orth=юбориб:|gloss=send
+19	“Iltimos,	“iltimos,	INTJ	_	_	_	_	_	orth=“Илтимос,|gloss=please
+20	hayallamai	hayallamai	ADV	_	_	_	_	_	orth=ҳаялламай|gloss=without_delay
+21	biz	biz	PRON	_	_	_	_	_	orth=биз|gloss=us
+22	tomonga	tomonga	ADP	_	_	_	_	_	orth=томонга|gloss=towards
+23	keling”,	keling”,	VERB	_	_	_	_	_	orth=келинг”,|gloss=come
+24	deb	deb	VERB	_	_	_	_	_	orth=деб|gloss=say
+25	khabar	khabar	NOUN	_	_	_	_	_	orth=хабар|gloss=message
+26	yubordilar.	yubordilar.	VERB	_	_	_	_	_	orth=юбордилар.|gloss=sent
+
+# sent_id = 44011011
+# ref_id = Acts 11:11
+# eng_text = Behold , immediately three men stood before the house where I was , having been sent from Caesarea to me .
+# uzn_text = Khuddi shu paitda Kaisariyadan yuborilgan uchta odam men turgan uiga etib kelgan edi.
+# uzn_orth = Худди шу пайтда Қайсариядан юборилган учта одам мен турган уйга етиб келган эди.
+1	Khuddi	khuddi	ADV	_	_	12	pobj	_	orth=Худди|gloss=exactly
+2	shu	shu	DET	_	_	_	_	_	orth=шу|gloss=this
+3	paitda	paitda	NOUN	_	_	_	advmod	_	orth=пайтда|gloss=time
+4	Kaisariyadan	kaisariyadan	PROPN	_	_	_	_	_	orth=Қайсариядан|gloss=Caesarea
+5	yuborilgan	yuborilgan	VERB	_	_	_	_	_	orth=юборилган|gloss=sent
+6	uchta	uchta	NUM	_	_	_	_	_	orth=учта|gloss=three
+7	odam	odam	NOUN	_	_	_	_	_	orth=одам|gloss=man
+8	men	men	PRON	_	_	_	_	_	orth=мен|gloss=I’
+9	turgan	turgan	VERB	_	_	_	_	_	orth=турган|gloss=staying
+10	uiga	uiga	NOUN	_	_	_	_	_	orth=уйга|gloss=house
+11	etib	etib	VERB	_	_	_	_	_	orth=етиб|gloss=arrive
+12	kelgan	kelgan	VERB	_	_	_	prep	_	orth=келган|gloss=came
+13	edi.	edi.	AUX	_	_	_	_	_	orth=эди.|gloss=was
+
+# sent_id = 44021034
+# ref_id = Acts 21:34
+# eng_text = Some shouted one thing , some another , among the crowd . When he couldn't find out the truth because of the noise , he commanded him to be brought into the barracks .
+# uzn_text = Olomon orasidan bazilari bir nimalar deb shovkin soldi, boshkasi yana nimalardir dedi. GHala–ghovur bulganidan mingboshi nima yuz berganini anik bila olmadi. Shuning uchun u Pavlusni kalaga olib borishni buyurdi.
+# uzn_orth = Оломон орасидан баъзилари бир нималар деб шовқин солди, бошқаси яна нималардир деди. Ғала–ғовур бўлганидан мингбоши нима юз берганини аниқ била олмади. Шунинг учун у Павлусни қалъага олиб боришни буюрди.
+1	Olomon	olomon	NOUN	_	_	_	_	_	orth=Оломон|gloss=crowds
+2	orasidan	orasidan	ADP	_	_	_	_	_	orth=орасидан|gloss=among
+3	bazilari	bazilari	PRON	_	_	_	predet	_	orth=баъзилари|gloss=some
+4	bir	bir	DET	_	_	_	_	_	orth=бир|gloss=a
+5	nimalar	nimalar	PRON	_	_	_	_	_	orth=нималар|gloss=thing
+6	deb	deb	VERB	_	_	_	_	_	orth=деб|gloss=say
+7	shovkin	shovkin	NOUN	_	_	_	_	_	orth=шовқин|gloss=shout
+8	soldi,	soldi,	VERB	_	_	_	_	_	orth=солди,|gloss=throw
+9	boshkasi	boshkasi	PRON	_	_	_	_	_	orth=бошқаси|gloss=another
+10	yana	yana	ADV	_	_	_	_	_	orth=яна|gloss=again
+11	nimalardir	nimalardir	NOUN	_	_	_	_	_	orth=нималардир|gloss=something
+12	dedi.	dedi.	VERB	_	_	_	_	_	orth=деди.|gloss=said
+13	GHala–ghovur	ghala–ghovur	NOUN	_	_	_	_	_	orth=Ғала–ғовур|gloss=uproar
+14	bulganidan	bulganidan	VERB	_	_	_	_	_	orth=бўлганидан|gloss=being
+15	mingboshi	mingboshi	NOUN	_	_	_	_	_	orth=мингбоши|gloss=commander
+16	nima	nima	PRON	_	_	_	_	_	orth=нима|gloss=What
+17	yuz	yuz	NOUN	_	_	_	_	_	orth=юз|gloss=face
+18	berganini	berganini	VERB	_	_	_	_	_	orth=берганини|gloss=occur
+19	anik	anik	ADV	_	_	_	_	_	orth=аниқ|gloss=truth
+20	bila	bila	VERB	_	_	_	_	_	orth=била|gloss=knows
+21	olmadi.	olmadi.	VERB	_	_	_	_	_	orth=олмади.|gloss=couldn’t
+22	Shuning	shuning	PRON	_	_	_	_	_	orth=Шунинг|gloss=this
+23	uchun	uchun	ADP	_	_	_	_	_	orth=учун|gloss=for
+24	u	u	PRON	_	_	_	_	_	orth=у|gloss=he
+25	Pavlusni	pavlusni	PROPN	_	_	_	_	_	orth=Павлусни|gloss=Paul
+26	kalaga	kalaga	NOUN	_	_	_	_	_	orth=қалъага|gloss=fortress
+27	olib	olib	VERB	_	_	_	_	_	orth=олиб|gloss=brought
+28	borishni	borishni	VERB	_	_	_	_	_	orth=боришни|gloss=take
+29	buyurdi.	buyurdi.	VERB	_	_	_	_	_	orth=буюрди.|gloss=order
+
+# sent_id = 47012002
+# ref_id = 2 Corinthians 12:2
+# eng_text = I know a man in Christ , fourteen years ago ( whether in the body , I don't know , or whether out of the body , I don't know ; God knows ) , such a one caught up into the third heaven .
+# uzn_text = Masihga karashli bir odamni bilaman. Un turt iil oldin usha odam erdan arshi aloga kutarildi. Badanda edimi eki badandan tashkarida edimi, bilmaiman, Khudo biladi.
+# uzn_orth = Масиҳга қарашли бир одамни биламан. Ўн тўрт йил олдин ўша одам ердан арши аълога кўтарилди. Баданда эдими ёки бадандан ташқарида эдими, билмайман, Худо билади.
+1	Masihga	masihga	PROPN	_	_	_	_	_	orth=Масиҳга|gloss=Christ
+2	karashli	karashli	ADJ	_	_	_	_	_	orth=қарашли|gloss=belonging
+3	bir	bir	DET	_	_	_	_	_	orth=бир|gloss=a
+4	odamni	odamni	NOUN	_	_	_	_	_	orth=одамни|gloss=man
+5	bilaman.	bilaman.	VERB	_	_	_	_	_	orth=биламан.|gloss=know
+6	Un	un	NUM	_	_	8	nummod	_	orth=Ўн|gloss=ten|NumType=Card
+7	turt	turt	NUM	_	_	_	_	_	orth=тўрт|gloss=four
+8	iil	iil	NOUN	_	_	_	npadvmod	_	orth=йил|gloss=years|Number=Plur
+9	oldin	oldin	ADP	_	_	_	_	_	orth=олдин|gloss=ago
+10	usha	usha	DET	_	_	_	_	_	orth=ўша|gloss=that
+11	odam	odam	NOUN	_	_	_	_	_	orth=одам|gloss=man
+12	erdan	erdan	NOUN	_	_	_	_	_	orth=ердан|gloss=earth
+13	arshi	arshi	NOUN	_	_	_	_	_	orth=арши|gloss=throne
+14	aloga	aloga	ADJ	_	_	_	_	_	orth=аълога|gloss=highest
+15	kutarildi.	kutarildi.	VERB	_	_	_	_	_	orth=кўтарилди.|gloss=taken
+16	Badanda	badanda	NOUN	_	_	_	_	_	orth=Баданда|gloss=body
+17	edimi	edimi	AUX	_	_	_	_	_	orth=эдими|gloss=was
+18	eki	eki	CCONJ	_	_	_	cc	_	orth=ёки|gloss=or|ConjType=Cmp
+19	badandan	badandan	NOUN	_	_	_	_	_	orth=бадандан|gloss=body
+20	tashkarida	tashkarida	ADV	_	_	_	_	_	orth=ташқарида|gloss=outside
+21	edimi,	edimi,	AUX	_	_	_	_	_	orth=эдими,|gloss=was
+22	bilmaiman,	bilmaiman,	VERB	_	_	_	_	_	orth=билмайман,|gloss=do_not_know
+23	Khudo	khudo	PROPN	_	_	_	nsubj	_	orth=Худо|gloss=God|Number=Sing
+24	biladi.	biladi.	VERB	_	_	_	_	_	orth=билади.|gloss=know
+
+# sent_id = 62004009
+# ref_id = 1 John 4:9
+# eng_text = By this was God's love revealed in us , that God has sent his only born Son into the world that we might live through him .
+# uzn_text = Khudo bizga bulgan sevgisini shundai namoen kildi: U bizga haet berish uchun yagona Ughlini dunega yubordi.
+# uzn_orth = Худо бизга бўлган севгисини шундай намоён қилди: У бизга ҳаёт бериш учун ягона Ўғлини дунёга юборди.
+1	Khudo	khudo	PROPN	_	_	_	nsubj	_	orth=Худо|gloss=God|Number=Sing
+2	bizga	bizga	PRON	_	_	_	dobj	_	orth=бизга|gloss=us|Case=Acc|Number=Plur|Person=1|PronType=Prs
+3	bulgan	bulgan	VERB	_	_	_	_	_	orth=бўлган|gloss=is
+4	sevgisini	sevgisini	NOUN	_	_	_	_	_	orth=севгисини|gloss=love
+5	shundai	shundai	ADV	_	_	_	_	_	orth=шундай|gloss=thus
+6	namoen	namoen	ADJ	_	_	_	_	_	orth=намоён|gloss=visible
+7	kildi:	kildi:	VERB	_	_	_	_	_	orth=қилди:|gloss=made
+8	U	u	PRON	_	_	_	_	_	orth=У|gloss=He
+9	bizga	bizga	PRON	_	_	_	dobj	_	orth=бизга|gloss=us|Case=Acc|Number=Plur|Person=1|PronType=Prs
+10	haet	haet	NOUN	_	_	_	dobj	_	orth=ҳаёт|gloss=life|Number=Sing
+11	berish	berish	VERB	_	_	_	_	_	orth=бериш|gloss=give
+12	uchun	uchun	ADP	_	_	_	_	_	orth=учун|gloss=for
+13	yagona	yagona	ADJ	_	_	10	amod	_	orth=ягона|gloss=eternal|Degree=Pos
+14	Ughlini	ughlini	PROPN	_	_	_	conj	_	orth=Ўғлини|gloss=Son|Number=Sing
+15	dunega	dunega	NOUN	_	_	_	pobj	_	orth=дунёга|gloss=world|Number=Sing
+16	yubordi.	yubordi.	VERB	_	_	_	_	_	orth=юборди.|gloss=sent
+
+# sent_id = 63001005
+# ref_id = 2 John 1:5
+# eng_text = Now I beg you , dear lady , not as though I wrote to you a new commandment , but that which we had from the beginning , that we love one another .
+# uzn_text = Sizdan bir iltimosim bor, bir–birimizni yakhshi kurailik. Sizga yangi amrni ezaetganim iuk, bu amr bizga boshidan berilgan.
+# uzn_orth = Сиздан бир илтимосим бор, бир–биримизни яхши кўрайлик. Сизга янги амрни ёзаётганим йўқ, бу амр бизга бошидан берилган.
+1	Sizdan	sizdan	PRON	_	_	_	_	_	orth=Сиздан|gloss=you
+2	bir	bir	DET	_	_	14	det	_	orth=бир|gloss=a|Definite=Ind|PronType=Art
+3	iltimosim	iltimosim	NOUN	_	_	_	_	_	orth=илтимосим|gloss=request
+4	bor,	bor,	VERB	_	_	_	_	_	orth=бор,|gloss=have
+5	bir–birimizni	bir–birimizni	PRON	_	_	_	_	_	orth=бир–биримизни|gloss=each_other
+6	yakhshi	yakhshi	ADJ	_	_	_	_	_	orth=яхши|gloss=good
+7	kurailik.	kurailik.	VERB	_	_	_	_	_	orth=кўрайлик.|gloss=love
+8	Sizga	sizga	PRON	_	_	_	_	_	orth=Сизга|gloss=you
+9	yangi	yangi	ADJ	_	_	14	amod	_	orth=янги|gloss=new|Degree=Pos
+10	amrni	amrni	NOUN	_	_	_	attr	_	orth=амрни|gloss=commandment|Number=Sing
+11	ezaetganim	ezaetganim	VERB	_	_	_	_	_	orth=ёзаётганим|gloss=write
+12	iuk,	iuk,	ADJ	_	_	_	_	_	orth=йўқ,|gloss=not
+13	bu	bu	PRON	_	_	_	_	_	orth=бу|gloss=this
+14	amr	amr	NOUN	_	_	_	attr	_	orth=амр|gloss=commandment|Number=Sing
+15	bizga	bizga	PRON	_	_	_	_	_	orth=бизга|gloss=us
+16	boshidan	boshidan	NOUN	_	_	_	_	_	orth=бошидан|gloss=beginning
+17	berilgan.	berilgan.	VERB	_	_	_	_	_	orth=берилган.|gloss=given
+
