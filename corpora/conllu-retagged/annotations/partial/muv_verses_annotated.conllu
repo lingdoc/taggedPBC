@@ -1,0 +1,604 @@
+## The following text has been annotated for parts of speech by students at NTU Singapore as part of a class project in AY 2026-27.
+## Verses are extracted from the taggedPBC. Annotations have been developed with manual approaches, with reference to existing literature and (where possible) native speakers.
+## ISO 639-3: muv, Language: Muthuvan, Number of verses: 21
+## References: Glosbe (Muthuvan to English Dictionary), (n.d.) https://glosbe.com/muv/en; Laratranslate, (n.d.). https://laratranslate.com/translate; Living Dictionaries (Muthuvan entries), (n.d.). https://livingdictionaries.app/muthuvan/entries; Manjusha, K.A. (2013). LIGHTS AND SHADOWS OF TRIBAL DEVELOPMENT IN KERALA: A STUDY ON THE MUTHUVAN TRIBE OF EDAMALAKKUDY TRIBAL SETTLEMENT IN IDUKKI DISTRICT, The Dawn Journal, 2(1), pp.274-283.; New Dravidian Etymological Dictionary, (n.d.). https://kolichala.com/DEDR/ ; 
+## Contributor(s): Saranya Mushila <github.com/saranyamushila>
+
+# sent_id = 40006024
+# ref_id = Matthew 6:24
+# eng_text = " No one can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You can't serve both God and Mammon .
+# muv_text = rranntt eemaanamaarkk veelayettappaanikki orattankkum nookkanntta ; avana orattana verrtt merrrriivana shneekikkum ; illanrre aattiittiivanootta ceent nenrr merrrriivana tallllikkallayattam ceyyum ; oree shamayatt teyvattkk veenntti veela ettappaanikkum urravaayna shneekippaanikkum nookkanntta .
+# muv_orth = റണ്ട് ഏമാൻമാര്ക്ക് വേലയെടപ്പാനിക്കി ഒരത്തന്ക്കും നോക്കണ്ട ; അവൻ ഒരത്തന വെറ്ത്ത് മെറ്റീവന ശ്‌നേകിക്കും ; ഇല്ലന്റെ ആത്തീത്തീവനോട ചേന്ത് നെന്റ് മെറ്റീവന തള്ളിക്കളയത്തം ചെയ്യും ; ഒരേ ശമയത്ത് തെയ്‌വത്ത്ക്ക് വേണ്ടി വേല എടപ്പാനിക്കും ഉറവായ്‌ന ശ്‌നേകിപ്പാനിക്കും നോക്കണ്ട .
+1	rranntt	rranntt	NUM	_	_	_	_	_	orth=റണ്ട്|gloss=two
+2	eemaanamaarkk	eemaanamaarkk	NOUN	_	_	_	_	_	orth=ഏമാൻമാര്ക്ക്|gloss=for the masters
+3	veelayettappaanikki	veelayettappaanikki	VERB	_	_	_	_	_	orth=വേലയെടപ്പാനിക്കി|gloss=to complete the job
+4	orattankkum	orattankkum	NOUN	_	_	_	_	_	orth=ഒരത്തന്ക്കും|gloss=to anyone
+5	nookkanntta	nookkanntta	VERB	_	_	_	_	_	orth=നോക്കണ്ട|gloss=cannot look
+6	;	;	PUNCT	_	_	_	_	_	orth=;
+7	avana	avana	PRON	_	_	_	_	_	orth=അവൻ|gloss=He
+8	orattana	orattana	NOUN	_	_	_	_	_	orth=ഒരത്തന|gloss=a person
+9	verrtt	verrtt	VERB	_	_	_	_	_	orth=വെറ്ത്ത്|gloss=hate
+10	merrrriivana	merrrriivana	VERB	_	_	_	_	_	orth=മെറ്റീവന|gloss=serve
+11	shneekikkum	shneekikkum	VERB	_	_	_	_	_	orth=ശ്‌നേകിക്കും|gloss=love
+12	;	;	PUNCT	_	_	_	_	_	orth=;
+13	illanrre	illanrre	DET	_	_	_	_	_	orth=ഇല്ലന്റെ|gloss=no
+14	aattiittiivanootta	aattiittiivanootta	NOUN	_	_	_	_	_	orth=ആത്തീത്തീവനോട
+15	ceent	ceent	CCONJ	_	_	_	_	_	orth=ചേന്ത്|gloss=together with
+16	nenrr	nenrr	ADP	_	_	_	_	_	orth=നെന്റ്|gloss=from (day)
+17	merrrriivana	merrrriivana	VERB	_	_	_	_	_	orth=മെറ്റീവന|gloss=serve
+18	tallllikkallayattam	tallllikkallayattam	NOUN	_	_	_	_	_	orth=തള്ളിക്കളയത്തം|gloss=rejection
+19	ceyyum	ceyyum	VERB	_	_	_	_	_	orth=ചെയ്യും|gloss=doing
+20	;	;	PUNCT	_	_	_	_	_	orth=;
+21	oree	oree	ADJ	_	_	_	_	_	orth=ഒരേ|gloss=same
+22	shamayatt	shamayatt	NOUN	_	_	_	_	_	orth=ശമയത്ത്|gloss=time
+23	teyvattkk	teyvattkk	NOUN	_	_	_	_	_	orth=തെയ്‌വത്ത്ക്ക്|gloss=for the God
+24	veenntti	veenntti	ADP	_	_	_	_	_	orth=വേണ്ടി|gloss=desiring
+25	veela	veela	NOUN	_	_	_	_	_	orth=വേല|gloss=work
+26	ettappaanikkum	ettappaanikkum	VERB	_	_	_	_	_	orth=എടപ്പാനിക്കും
+27	urravaayna	urravaayna	ADV	_	_	_	_	_	orth=ഉറവായ്‌ന|gloss=to be in a relationship
+28	shneekippaanikkum	shneekippaanikkum	VERB	_	_	_	_	_	orth=ശ്‌നേകിപ്പാനിക്കും|gloss=love
+29	nookkanntta	nookkanntta	VERB	_	_	_	_	_	orth=നോക്കണ്ട|gloss=cannot look
+30	.	.	PUNCT	_	_	_	_	_	orth=.
+
+# sent_id = 40018012
+# ref_id = Matthew 18:12
+# eng_text = " What do you think ? If a man has one hundred sheep , and one of them goes astray , doesn't he leave the ninety-nine , go to the mountains , and seek that which has gone astray ?
+# muv_text = “ ningnga entana nenikkinrrar ? ningngalla kuuttttattiil orattankk nuurr aattkall onntt inrr irkktttt ; atiil onrr tellippiyye avana veerra tonnnnuurrrriyompatnayum malayinrra miita vitttt tellippiyya aattna teettippoottlyaa ?
+# muv_orth = “ നിങ്ങ എന്തൻ നെനിക്കിന്റര് ? നിങ്ങള കൂട്ടത്തീല് ഒരത്തന്ക്ക് നൂറ് ആട്കള് ഒണ്ട് ഇന്റ് ഇര്ക്ക്ട്ട് ; അതീല് ഒന്റ് തെല്ലിപ്പിയ്യെ അവൻ വേറ തൊണ്ണൂറ്റിയൊമ്പത്‌നയും മലയിന്റ മീത വിട്ട് തെല്ലിപ്പിയ്യ ആട്ന തേടിപ്പോത്ത്‌ല്‌യാ ?
+1	“	“	PUNCT	_	_	_	_	_	orth=“
+2	ningnga	ningnga	PRON	_	_	_	_	_	orth=നിങ്ങ|gloss=you.PL
+3	entana	entana	PRON	_	_	_	_	_	orth=എന്തൻ|gloss=what
+4	nenikkinrrar	nenikkinrrar	VERB	_	_	_	_	_	orth=നെനിക്കിന്റര്|gloss=think
+5	?	?	PUNCT	_	_	_	_	_	orth=?
+6	ningngalla	ningngalla	PRON	_	_	_	_	_	orth=നിങ്ങള|gloss=your
+7	kuuttttattiil	kuuttttattiil	ADV	_	_	_	_	_	orth=കൂട്ടത്തീല്|gloss=in a crowd
+8	orattankk	orattankk	NOUN	_	_	_	_	_	orth=ഒരത്തന്ക്ക്|gloss=a person
+9	nuurr	nuurr	NUM	_	_	_	_	_	orth=നൂറ്|gloss=hundred
+10	aattkall	aattkall	NOUN	_	_	_	_	_	orth=ആട്കള്|gloss=sheep.PL
+11	onntt	onntt	VERB	_	_	_	_	_	orth=ഒണ്ട്|gloss=to join
+12	inrr	inrr	SCONJ	_	_	_	_	_	orth=ഇന്റ്|gloss=quotation
+13	irkktttt	irkktttt	VERB	_	_	_	_	_	orth=ഇര്ക്ക്ട്ട്|gloss=to drag
+14	;	;	PUNCT	_	_	_	_	_	orth=;
+15	atiil	atiil	ADP	_	_	_	_	_	orth=അതീല്|gloss=in that
+16	onrr	onrr	NUM	_	_	_	_	_	orth=ഒന്റ്|gloss=one
+17	tellippiyye	tellippiyye	VERB	_	_	_	_	_	orth=തെല്ലിപ്പിയ്യെ|gloss=goes some distance away
+18	avana	avana	PRON	_	_	_	_	_	orth=അവൻ|gloss=He
+19	veerra	veerra	ADJ	_	_	_	_	_	orth=വേറ|gloss=other
+20	tonnnnuurrrriyompatnayum	tonnnnuurrrriyompatnayum	NUM	_	_	_	_	_	orth=തൊണ്ണൂറ്റിയൊമ്പത്‌നയും|gloss=also the ninety-nine
+21	malayinrra	malayinrra	NOUN	_	_	_	_	_	orth=മലയിന്റ|gloss=mountain
+22	miita	miita	ADP	_	_	_	_	_	orth=മീത|gloss=remaining
+23	vitttt	vitttt	VERB	_	_	_	_	_	orth=വിട്ട്|gloss=leave
+24	tellippiyya	tellippiyya	VERB	_	_	_	_	_	orth=തെല്ലിപ്പിയ്യ|gloss=goes some distance away
+25	aattna	aattna	NOUN	_	_	_	_	_	orth=ആട്ന|gloss=sheep.SG
+26	teettippoottlyaa	teettippoottlyaa	VERB	_	_	_	_	_	orth=തേടിപ്പോത്ത്‌ല്‌യാ|gloss=go searching for
+27	?	?	PUNCT	_	_	_	_	_	orth=?
+
+# sent_id = 40020021
+# ref_id = Matthew 20:21
+# eng_text = He said to her , " What do you want ? " She said to him , " Command that these , my two sons , may sit , one on your right hand , and one on your left hand , in your kingdom . "
+# muv_text = “ nikk entana veennam ? ” inrr eeshu avallootta keettttaana . atkk avll avanootta , “ niyy raashaavaavinikki enrra iyya rranntt aangkunycla orattana ninrra ettattiimerppilum orattana ninrra valattiimerppiilum irttannam ” inrr peeshiit .
+# muv_orth = “ നിക്ക് എന്തൻ വേണം ? ” ഇന്റ് ഏശു അവളോട കേട്ടാൻ . അത്ക്ക് അവ്ള് അവനോട , “ നിയ്യ് രാശാവാവിനിക്കി എന്റ ഇയ്യ റണ്ട് ആങ്കുഞ്ച്‌ല ഒരത്തന നിന്റ എടത്തീമെര്പ്പിലും ഒരത്തന നിന്റ വലത്തീമെര്പ്പീലും ഇര്ത്തണം ” ഇന്റ് പേശീത് .
+1	“	“	PUNCT	_	_	_	_	_	orth=“
+2	nikk	nikk	PRON	_	_	_	_	_	orth=നിക്ക്|gloss=you.SG
+3	entana	entana	PRON	_	_	_	_	_	orth=എന്തൻ|gloss=What
+4	veennam	veennam	VERB	_	_	_	_	_	orth=വേണം|gloss=want
+5	?	?	PUNCT	_	_	_	_	_	orth=?
+6	”	”	PUNCT	_	_	_	_	_	orth=”
+7	inrr	inrr	SCONJ	_	_	_	_	_	orth=ഇന്റ്|gloss=quotation
+8	eeshu	eeshu	PROPN	_	_	_	_	_	orth=ഏശു|gloss=Jesus
+9	avallootta	avallootta	PRON	_	_	_	_	_	orth=അവളോട|gloss=her
+10	keettttaana	keettttaana	VERB	_	_	_	_	_	orth=കേട്ടാൻ|gloss=asked
+11	.	.	PUNCT	_	_	_	_	_	orth=.
+12	atkk	atkk	VERB	_	_	_	_	_	orth=അത്ക്ക്|gloss=replied
+13	avll	avll	PRON	_	_	_	_	_	orth=അവ്ള്|gloss=she
+14	avanootta	avanootta	PRON	_	_	_	_	_	orth=അവനോട|gloss=him
+15	,	,	PUNCT	_	_	_	_	_	orth=,
+16	“	“	PUNCT	_	_	_	_	_	orth=“
+17	niyy	niyy	PRON	_	_	_	_	_	orth=നിയ്യ്|gloss=you.SG
+18	raashaavaavinikki	raashaavaavinikki	NOUN	_	_	_	_	_	orth=രാശാവാവിനിക്കി|gloss=make a king
+19	enrra	enrra	PRON	_	_	_	_	_	orth=എന്റ|gloss=my
+20	iyya	iyya	DET	_	_	_	_	_	orth=ഇയ്യ|gloss=this
+21	rranntt	rranntt	NUM	_	_	_	_	_	orth=റണ്ട്|gloss=two
+22	aangkunycla	aangkunycla	VERB	_	_	_	_	_	orth=ആങ്കുഞ്ച്‌ല|gloss=command
+23	orattana	orattana	NOUN	_	_	_	_	_	orth=ഒരത്തന|gloss=to anyone
+24	ninrra	ninrra	PRON	_	_	_	_	_	orth=നിന്റ|gloss=Your
+25	ettattiimerppilum	ettattiimerppilum	ADV	_	_	_	_	_	orth=എടത്തീമെര്പ്പിലും|gloss=in left hand and
+26	orattana	orattana	NOUN	_	_	_	_	_	orth=ഒരത്തന|gloss=to anyone
+27	ninrra	ninrra	PRON	_	_	_	_	_	orth=നിന്റ|gloss=Your
+28	valattiimerppiilum	valattiimerppiilum	ADV	_	_	_	_	_	orth=വലത്തീമെര്പ്പീലും|gloss=in right hand and
+29	irttannam	irttannam	NOUN	_	_	_	_	_	orth=ഇര്ത്തണം|gloss=place
+30	”	”	PUNCT	_	_	_	_	_	orth=”
+31	inrr	inrr	SCONJ	_	_	_	_	_	orth=ഇന്റ്|gloss=quotation
+32	peeshiit	peeshiit	VERB	_	_	_	_	_	orth=പേശീത്|gloss=said
+33	.	.	PUNCT	_	_	_	_	_	orth=.
+
+# sent_id = 40026002
+# ref_id = Matthew 26:2
+# eng_text = " You know that after two days the Passover is coming , and the Son of Man will be delivered up to be crucified . "
+# muv_text = “ rranntt anti vellicc peshakayaannum inrr ningngkk tikkonnttilloo ? anrr manshnaanyny vanta kayyana kurishiil tarrappaanikki eeppippirr ” inrr peeshiyaana .
+# muv_orth = “ റണ്ട് അന്തി വെളിച്ച് പെശകയാണും ഇന്റ് നിങ്ങ്ക്ക് തിക്കൊണ്ടില്ലോ ? അന്റ് മന്ശ്‌നാഞ്ഞ് വന്ത കയ്യന കുരിശീല് തറപ്പാനിക്കി ഏപ്പിപ്പിറ് ” ഇന്റ് പേശിയാൻ .
+1	“	“	PUNCT	_	_	_	_	_	orth=“
+2	rranntt	rranntt	NUM	_	_	_	_	_	orth=റണ്ട്|gloss=two
+3	anti	anti	ADV	_	_	_	_	_	orth=അന്തി|gloss=evening
+4	vellicc	vellicc	VERB	_	_	_	_	_	orth=വെളിച്ച്|gloss=outside
+5	peshakayaannum	peshakayaannum	VERB	_	_	_	_	_	orth=പെശകയാണും|gloss=be delivered
+6	inrr	inrr	SCONJ	_	_	_	_	_	orth=ഇന്റ്|gloss=quotation
+7	ningngkk	ningngkk	PRON	_	_	_	_	_	orth=നിങ്ങ്ക്ക്|gloss=You.PL
+8	tikkonnttilloo	tikkonnttilloo	PART	_	_	_	_	_	orth=തിക്കൊണ്ടില്ലോ|gloss=Do you know
+9	?	?	PUNCT	_	_	_	_	_	orth=?
+10	anrr	anrr	ADV	_	_	_	_	_	orth=അന്റ്|gloss=on that day
+11	manshnaanyny	manshnaanyny	PROPN	_	_	_	_	_	orth=മന്ശ്‌നാഞ്ഞ്|gloss=Man
+12	vanta	vanta	PROPN	_	_	_	_	_	orth=വന്ത|gloss=come
+13	kayyana	kayyana	PROPN	_	_	_	_	_	orth=കയ്യന|gloss=Son
+14	kurishiil	kurishiil	ADP	_	_	_	_	_	orth=കുരിശീല്|gloss=in the crucifix
+15	tarrappaanikki	tarrappaanikki	VERB	_	_	_	_	_	orth=തറപ്പാനിക്കി|gloss=give
+16	eeppippirr	eeppippirr	VERB	_	_	_	_	_	orth=ഏപ്പിപ്പിറ്|gloss=be raised onto
+17	”	”	PUNCT	_	_	_	_	_	orth=”
+18	inrr	inrr	SCONJ	_	_	_	_	_	orth=ഇന്റ്|gloss=quotation
+19	peeshiyaana	peeshiyaana	VERB	_	_	_	_	_	orth=പേശിയാൻ|gloss=said
+20	.	.	PUNCT	_	_	_	_	_	orth=.
+
+# sent_id = 40026061
+# ref_id = Matthew 26:61
+# eng_text = and said , " This man said , ' I am able to destroy the temple of God , and to build it in three days . ' "
+# muv_text = “ ‘ naan ekuutanamaara veliipalllli pollicc muunrr naallkonntt atna pinnayam kettttvina’ inrr ii manshana peeshiyaana ” inrr peeshiyaar .
+# muv_orth = “ ‘ നാന് എകൂതൻമാര വെലീപള്ളി പൊളിച്ച് മൂന്റ് നാള്കൊണ്ട് അത്‌ന പിന്നയം കെട്ട്‌വിൻ’ ഇന്റ് ഈ മന്ശൻ പേശിയാൻ ” ഇന്റ് പേശിയാര് .
+1	“	“	PUNCT	_	_	_	_	_	orth=“
+2	‘	‘	PUNCT	_	_	_	_	_	orth=‘
+3	naan	naan	PRON	_	_	_	_	_	orth=നാന്|gloss=I
+4	ekuutanamaara	ekuutanamaara	PROPN	_	_	_	_	_	orth=എകൂതൻമാര|gloss=of God
+5	veliipalllli	veliipalllli	NOUN	_	_	_	_	_	orth=വെലീപള്ളി|gloss=temple
+6	pollicc	pollicc	VERB	_	_	_	_	_	orth=പൊളിച്ച്|gloss=destroy
+7	muunrr	muunrr	NUM	_	_	_	_	_	orth=മൂന്റ്|gloss=three
+8	naallkonntt	naallkonntt	ADP	_	_	_	_	_	orth=നാള്കൊണ്ട്|gloss=with day(s)
+9	atna	atna	PRON	_	_	_	_	_	orth=അത്‌ന|gloss=that
+10	pinnayam	pinnayam	ADV	_	_	_	_	_	orth=പിന്നയം|gloss=again
+11	kettttvina’	kettttvina’	VERB	_	_	_	_	_	orth=കെട്ട്‌വിൻ’|gloss=build
+12	inrr	inrr	SCONJ	_	_	_	_	_	orth=ഇന്റ്|gloss=quotation
+13	ii	ii	DET	_	_	_	_	_	orth=ഈ|gloss=this
+14	manshana	manshana	NOUN	_	_	_	_	_	orth=മന്ശൻ|gloss=man
+15	peeshiyaana	peeshiyaana	VERB	_	_	_	_	_	orth=പേശിയാൻ|gloss=said
+16	”	”	PUNCT	_	_	_	_	_	orth=”
+17	inrr	inrr	SCONJ	_	_	_	_	_	orth=ഇന്റ്|gloss=quotation
+18	peeshiyaar	peeshiyaar	VERB	_	_	_	_	_	orth=പേശിയാര്|gloss=said
+19	.	.	PUNCT	_	_	_	_	_	orth=.
+
+# sent_id = 40028016
+# ref_id = Matthew 28:16
+# eng_text = But the eleven disciples went into Galilee , to the mountain where Jesus had sent them .
+# muv_text = avanrra patinonrr shishiyanamaarum eeshu peeshiveccatpeela keliilayila aa malakki piyyaar .
+# muv_orth = അവന്റ പതിനൊന്റ് ശിശിയൻമാരും ഏശു പേശിവെച്ചത്പേല കെലീലയില ആ മലക്കി പിയ്യാര് .
+1	avanrra	avanrra	PRON	_	_	_	_	_	orth=അവന്റ|gloss=his
+2	patinonrr	patinonrr	NUM	_	_	_	_	_	orth=പതിനൊന്റ്|gloss=eleven
+3	shishiyanamaarum	shishiyanamaarum	NOUN	_	_	_	_	_	orth=ശിശിയൻമാരും|gloss=disciples
+4	eeshu	eeshu	PROPN	_	_	_	_	_	orth=ഏശു|gloss=Jesus
+5	peeshiveccatpeela	peeshiveccatpeela	ADV	_	_	_	_	_	orth=പേശിവെച്ചത്പേല|gloss=as had been said
+6	keliilayila	keliilayila	PROPN	_	_	_	_	_	orth=കെലീലയില|gloss=in Galilee
+7	aa	aa	DET	_	_	_	_	_	orth=ആ|gloss=that
+8	malakki	malakki	NOUN	_	_	_	_	_	orth=മലക്കി|gloss=to the mountain
+9	piyyaar	piyyaar	VERB	_	_	_	_	_	orth=പിയ്യാര്|gloss=sent
+10	.	.	PUNCT	_	_	_	_	_	orth=.
+
+# sent_id = 41002023
+# ref_id = Mark 2:23
+# eng_text = It happened , that he was going on the Sabbath day through the grain fields , and his disciples began , as they went , to pluck the ears of grain .
+# muv_text = ora shavatt naallakki eeshu ora kannttam veyikki nattann piyyappana , shishiyanamaar ketrr piccttppaanikki tottangngiyaar .
+# muv_orth = ഒര ശവത്ത് നാളക്കി ഏശു ഒര കണ്ടം വെയിക്കി നടന്ന് പിയ്യപ്പൻ , ശിശിയൻമാര് കെത്റ് പിച്ച്ട്‌പ്പാനിക്കി തൊടങ്ങിയാര് .
+1	ora	ora	NUM	_	_	_	_	_	orth=ഒര|gloss=a
+2	shavatt	shavatt	PROPN	_	_	_	_	_	orth=ശവത്ത്|gloss=Sabbath
+3	naallakki	naallakki	NOUN	_	_	_	_	_	orth=നാളക്കി|gloss=day
+4	eeshu	eeshu	PROPN	_	_	_	_	_	orth=ഏശു|gloss=Jesus
+5	ora	ora	NUM	_	_	_	_	_	orth=ഒര|gloss=a
+6	kannttam	kannttam	NOUN	_	_	_	_	_	orth=കണ്ടം|gloss=grain fields
+7	veyikki	veyikki	ADP	_	_	_	_	_	orth=വെയിക്കി|gloss=through
+8	nattann	nattann	VERB	_	_	_	_	_	orth=നടന്ന്|gloss=walking
+9	piyyappana	piyyappana	NOUN	_	_	_	_	_	orth=പിയ്യപ്പൻ|gloss=he who plucks
+10	,	,	PUNCT	_	_	_	_	_	orth=,
+11	shishiyanamaar	shishiyanamaar	NOUN	_	_	_	_	_	orth=ശിശിയൻമാര്|gloss=disciples
+12	ketrr	ketrr	NOUN	_	_	_	_	_	orth=കെത്റ്|gloss=ears of grain
+13	piccttppaanikki	piccttppaanikki	VERB	_	_	_	_	_	orth=പിച്ച്ട്‌പ്പാനിക്കി|gloss=to pluck
+14	tottangngiyaar	tottangngiyaar	VERB	_	_	_	_	_	orth=തൊടങ്ങിയാര്|gloss=began
+15	.	.	PUNCT	_	_	_	_	_	orth=.
+
+# sent_id = 41012032
+# ref_id = Mark 12:32
+# eng_text = The scribe said to him , " Truly , teacher , you have said well that he is one , and there is none other but he ,
+# muv_text = matattnapperrrri pattippikkinrravana eeshuvootta peeshiyaana , “ emaanee , niyy peeshiit nesham tinna , ora teyvamee ollll , avana illaanntti veerra ora teyvamilla .
+# muv_orth = മതത്ത്നപ്പെറ്റി പടിപ്പിക്കിന്റവൻ ഏശുവോട പേശിയാൻ , “ എമാനേ , നിയ്യ് പേശീത് നെശം തിന്ന , ഒര തെയ്‌വമേ ഒള്ള് , അവൻ ഇല്ലാണ്ടി വേറ ഒര തെയ്‌വമില്ല .
+1	matattnapperrrri	matattnapperrrri	ADJ	_	_	_	_	_	orth=മതത്ത്നപ്പെറ്റി|gloss=religious
+2	pattippikkinrravana	pattippikkinrravana	NOUN	_	_	_	_	_	orth=പടിപ്പിക്കിന്റവൻ|gloss=teacher
+3	eeshuvootta	eeshuvootta	PROPN	_	_	_	_	_	orth=ഏശുവോട|gloss=with Jesus
+4	peeshiyaana	peeshiyaana	VERB	_	_	_	_	_	orth=പേശിയാൻ|gloss=said
+5	,	,	PUNCT	_	_	_	_	_	orth=,
+6	“	“	PUNCT	_	_	_	_	_	orth=“
+7	emaanee	emaanee	NOUN	_	_	_	_	_	orth=എമാനേ|gloss=Oh master
+8	,	,	PUNCT	_	_	_	_	_	orth=,
+9	niyy	niyy	PRON	_	_	_	_	_	orth=നിയ്യ്|gloss=you.SG
+10	peeshiit	peeshiit	VERB	_	_	_	_	_	orth=പേശീത്|gloss=said
+11	nesham	nesham	ADV	_	_	_	_	_	orth=നെശം|gloss=true
+12	tinna	tinna	SCONJ	_	_	_	_	_	orth=തിന്ന|gloss=that
+13	,	,	PUNCT	_	_	_	_	_	orth=,
+14	ora	ora	NUM	_	_	_	_	_	orth=ഒര|gloss=a
+15	teyvamee	teyvamee	NOUN	_	_	_	_	_	orth=തെയ്‌വമേ|gloss=deity
+16	ollll	ollll	VERB	_	_	_	_	_	orth=ഒള്ള്|gloss=there is
+17	,	,	PUNCT	_	_	_	_	_	orth=,
+18	avana	avana	PRON	_	_	_	_	_	orth=അവൻ|gloss=He
+19	illaanntti	illaanntti	ADV	_	_	_	_	_	orth=ഇല്ലാണ്ടി|gloss=without
+20	veerra	veerra	ADJ	_	_	_	_	_	orth=വേറ|gloss=other
+21	ora	ora	NUM	_	_	_	_	_	orth=ഒര|gloss=a
+22	teyvamilla	teyvamilla	INTJ	_	_	_	_	_	orth=തെയ്‌വമില്ല|gloss=there is no God
+23	.	.	PUNCT	_	_	_	_	_	orth=.
+
+# sent_id = 41014037
+# ref_id = Mark 14:37
+# eng_text = He came and found them sleeping , and said to Peter , " Simon , are you sleeping ? Couldn't you watch one hour ?
+# muv_text = pinna eeshu tilmpi vantappana , muunrr shishiyanamaarum orrangnganrrat kannttaana . appinikki avana pattrrooshootta , shimoonee niyy orrangnganrrataa ? ora mannikkuurr orrangngaanntti irappaana nikk nookkannttayaa .
+# muv_orth = പിന്ന ഏശു തില്‌മ്പി വന്തപ്പൻ , മൂന്റ് ശിശിയൻമാരും ഒറങ്ങന്റത് കണ്ടാൻ . അപ്പിനിക്കി അവൻ പത്ത്റോശോട , ശിമോനേ നിയ്യ് ഒറങ്ങന്റതാ ? ഒര മണിക്കൂറ് ഒറങ്ങാണ്ടി ഇരപ്പാൻ നിക്ക് നോക്കണ്ടയാ .
+1	pinna	pinna	ADV	_	_	_	_	_	orth=പിന്ന|gloss=Then
+2	eeshu	eeshu	PROPN	_	_	_	_	_	orth=ഏശു|gloss=Jesus
+3	tilmpi	tilmpi	VERB	_	_	_	_	_	orth=തില്‌മ്പി|gloss=returned
+4	vantappana	vantappana	VERB	_	_	_	_	_	orth=വന്തപ്പൻ|gloss=after coming
+5	,	,	PUNCT	_	_	_	_	_	orth=,
+6	muunrr	muunrr	NUM	_	_	_	_	_	orth=മൂന്റ്|gloss=three
+7	shishiyanamaarum	shishiyanamaarum	NOUN	_	_	_	_	_	orth=ശിശിയൻമാരും|gloss=disciples
+8	orrangnganrrat	orrangnganrrat	ADJ	_	_	_	_	_	orth=ഒറങ്ങന്റത്|gloss=asleep
+9	kannttaana	kannttaana	VERB	_	_	_	_	_	orth=കണ്ടാൻ|gloss=see-PST-3SG.M
+10	.	.	PUNCT	_	_	_	_	_	orth=.
+11	appinikki	appinikki	SCONJ	_	_	_	_	_	orth=അപ്പിനിക്കി|gloss=then
+12	avana	avana	PRON	_	_	_	_	_	orth=അവൻ|gloss=He
+13	pattrrooshootta	pattrrooshootta	PROPN	_	_	_	_	_	orth=പത്ത്റോശോട|gloss=with Peter
+14	,	,	PUNCT	_	_	_	_	_	orth=,
+15	shimoonee	shimoonee	PROPN	_	_	_	_	_	orth=ശിമോനേ|gloss=Simon
+16	niyy	niyy	PRON	_	_	_	_	_	orth=നിയ്യ്|gloss=you.SG
+17	orrangnganrrataa	orrangnganrrataa	VERB	_	_	_	_	_	orth=ഒറങ്ങന്റതാ|gloss=are sleeping
+18	?	?	PUNCT	_	_	_	_	_	orth=?
+19	ora	ora	NUM	_	_	_	_	_	orth=ഒര|gloss=a
+20	mannikkuurr	mannikkuurr	NOUN	_	_	_	_	_	orth=മണിക്കൂറ്|gloss=hour
+21	orrangngaanntti	orrangngaanntti	VERB	_	_	_	_	_	orth=ഒറങ്ങാണ്ടി|gloss=without sleeping
+22	irappaana	irappaana	VERB	_	_	_	_	_	orth=ഇരപ്പാൻ|gloss=be-PRS-3SG.M
+23	nikk	nikk	PRON	_	_	_	_	_	orth=നിക്ക്|gloss=you.SG
+24	nookkannttayaa	nookkannttayaa	VERB	_	_	_	_	_	orth=നോക്കണ്ടയാ|gloss=cannot look
+25	.	.	PUNCT	_	_	_	_	_	orth=.
+
+# sent_id = 42004002
+# ref_id = Luke 4:2
+# eng_text = for forty days , being tempted by the devil . He ate nothing in those days . Afterward , when they were completed , he was hungry .
+# muv_text = avatta naappat raay iccaraati eeshuvna pariviishicct . annaallakkokka eeshu onrrum tinaannttiyirannaar ; at keyinynyappana eeshuvkk penycpitticcat .
+# muv_orth = അവട നാപ്പത് രായ് ഇച്ചരാതി ഏശുവ്ന പരിവീശിച്ച്ത് . അന്നാളക്കൊക്ക ഏശു ഒന്റും തിനാണ്ടിയിരന്നാര് ; അത് കെയിഞ്ഞപ്പൻ ഏശുവ്ക്ക് പെഞ്ച്പിടിച്ചത് .
+1	avatta	avatta	ADV	_	_	_	_	_	orth=അവട|gloss=there
+2	naappat	naappat	NUM	_	_	_	_	_	orth=നാപ്പത്|gloss=40
+3	raay	raay	NOUN	_	_	_	_	_	orth=രായ്|gloss=day
+4	iccaraati	iccaraati	VERB	_	_	_	_	_	orth=ഇച്ചരാതി|gloss=tempted
+5	eeshuvna	eeshuvna	PROPN	_	_	_	_	_	orth=ഏശുവ്ന|gloss=Jesus
+6	pariviishicct	pariviishicct	VERB	_	_	_	_	_	orth=പരിവീശിച്ച്ത്|gloss=being
+7	.	.	PUNCT	_	_	_	_	_	orth=.
+8	annaallakkokka	annaallakkokka	NOUN	_	_	_	_	_	orth=അന്നാളക്കൊക്ക|gloss=food
+9	eeshu	eeshu	PROPN	_	_	_	_	_	orth=ഏശു|gloss=Jesus
+10	onrrum	onrrum	PRON	_	_	_	_	_	orth=ഒന്റും|gloss=nothing
+11	tinaannttiyirannaar	tinaannttiyirannaar	VERB	_	_	_	_	_	orth=തിനാണ്ടിയിരന്നാര്|gloss=did not eat anything
+12	;	;	PUNCT	_	_	_	_	_	orth=;
+13	at	at	DET	_	_	_	_	_	orth=അത്|gloss=those
+14	keyinynyappana	keyinynyappana	NOUN	_	_	_	_	_	orth=കെയിഞ്ഞപ്പൻ|gloss=the devil
+15	eeshuvkk	eeshuvkk	PROPN	_	_	_	_	_	orth=ഏശുവ്ക്ക്|gloss=for Jesus
+16	penycpitticcat	penycpitticcat	ADJ	_	_	_	_	_	orth=പെഞ്ച്പിടിച്ചത്|gloss=hungry
+17	.	.	PUNCT	_	_	_	_	_	orth=.
+
+# sent_id = 42016013
+# ref_id = Luke 16:13
+# eng_text = No servant can serve two masters , for either he will hate the one , and love the other ; or else he will hold to one , and despise the other . You aren't able to serve God and mammon . "
+# muv_text = “ rranntt eemaanamaarkk veelayettappaanikki ora veelakkaarrankkum nookkanntta ; avana orattana verrtt merrrriivana shneekikkum ; illanrre aattiittiivanootta ceent nenrr merrrriivana tallllikkallayattam ceyyum . oree shamayatt teyvattkk veenntti veela ceyvaanum urravaayna shneekippaanikkum nookkanntta . ”
+# muv_orth = “ റണ്ട് ഏമാൻമാര്ക്ക് വേലയെടപ്പാനിക്കി ഒര വേലക്കാറന്ക്കും നോക്കണ്ട ; അവൻ ഒരത്തന വെറ്ത്ത് മെറ്റീവന ശ്‌നേകിക്കും ; ഇല്ലന്റെ ആത്തീത്തീവനോട ചേന്ത് നെന്റ് മെറ്റീവന തള്ളിക്കളയത്തം ചെയ്യും . ഒരേ ശമയത്ത് തെയ്‌വത്ത്ക്ക് വേണ്ടി വേല ചെയ്‌വാനും ഉറവായ്‌ന ശ്‌നേകിപ്പാനിക്കും നോക്കണ്ട . ”
+1	“	“	PUNCT	_	_	_	_	_	orth=“
+2	rranntt	rranntt	NUM	_	_	_	_	_	orth=റണ്ട്|gloss=two
+3	eemaanamaarkk	eemaanamaarkk	NOUN	_	_	_	_	_	orth=ഏമാൻമാര്ക്ക്|gloss=for the masters
+4	veelayettappaanikki	veelayettappaanikki	VERB	_	_	_	_	_	orth=വേലയെടപ്പാനിക്കി|gloss=to complete the job
+5	ora	ora	NUM	_	_	_	_	_	orth=ഒര|gloss=a
+6	veelakkaarrankkum	veelakkaarrankkum	NOUN	_	_	_	_	_	orth=വേലക്കാറന്ക്കും|gloss=servant
+7	nookkanntta	nookkanntta	VERB	_	_	_	_	_	orth=നോക്കണ്ട|gloss=cannot look
+8	;	;	PUNCT	_	_	_	_	_	orth=;
+9	avana	avana	PRON	_	_	_	_	_	orth=അവൻ|gloss=He
+10	orattana	orattana	NOUN	_	_	_	_	_	orth=ഒരത്തന|gloss=to anyone
+11	verrtt	verrtt	VERB	_	_	_	_	_	orth=വെറ്ത്ത്|gloss=hate
+12	merrrriivana	merrrriivana	VERB	_	_	_	_	_	orth=മെറ്റീവന|gloss=serve
+13	shneekikkum	shneekikkum	VERB	_	_	_	_	_	orth=ശ്‌നേകിക്കും|gloss=love
+14	;	;	PUNCT	_	_	_	_	_	orth=;
+15	illanrre	illanrre	DET	_	_	_	_	_	orth=ഇല്ലന്റെ|gloss=no
+16	aattiittiivanootta	aattiittiivanootta	NOUN	_	_	_	_	_	orth=ആത്തീത്തീവനോട
+17	ceent	ceent	CCONJ	_	_	_	_	_	orth=ചേന്ത്|gloss=together with
+18	nenrr	nenrr	ADP	_	_	_	_	_	orth=നെന്റ്|gloss=from (day)
+19	merrrriivana	merrrriivana	VERB	_	_	_	_	_	orth=മെറ്റീവന|gloss=serve
+20	tallllikkallayattam	tallllikkallayattam	NOUN	_	_	_	_	_	orth=തള്ളിക്കളയത്തം|gloss=rejection
+21	ceyyum	ceyyum	VERB	_	_	_	_	_	orth=ചെയ്യും|gloss=doing
+22	.	.	PUNCT	_	_	_	_	_	orth=.
+23	oree	oree	ADJ	_	_	_	_	_	orth=ഒരേ|gloss=same
+24	shamayatt	shamayatt	NOUN	_	_	_	_	_	orth=ശമയത്ത്|gloss=time
+25	teyvattkk	teyvattkk	NOUN	_	_	_	_	_	orth=തെയ്‌വത്ത്ക്ക്|gloss=for the God
+26	veenntti	veenntti	ADP	_	_	_	_	_	orth=വേണ്ടി|gloss=desiring
+27	veela	veela	NOUN	_	_	_	_	_	orth=വേല|gloss=work
+28	ceyvaanum	ceyvaanum	NOUN	_	_	_	_	_	orth=ചെയ്‌വാനും|gloss=will do (male)
+29	urravaayna	urravaayna	ADV	_	_	_	_	_	orth=ഉറവായ്‌ന|gloss=to be in a relationship
+30	shneekippaanikkum	shneekippaanikkum	VERB	_	_	_	_	_	orth=ശ്‌നേകിപ്പാനിക്കും|gloss=love
+31	nookkanntta	nookkanntta	VERB	_	_	_	_	_	orth=നോക്കണ്ട|gloss=cannot look
+32	.	.	PUNCT	_	_	_	_	_	orth=.
+33	”	”	PUNCT	_	_	_	_	_	orth=”
+
+# sent_id = 42024018
+# ref_id = Luke 24:18
+# eng_text = One of them , named Cleopas , answered him , " Are you the only one travelling in Jerusalem who doesn't know the things which have happened there in these days ? "
+# muv_text = appinikki killeyooppaav inrr peeshanrra orattana , “ iyyettakki ershaleemil nattanna kaariyam tikklaatta veerra naattttkaarranaanynya oree orattana nii maattttkkmaa ? ” inrr keettttaana .
+# muv_orth = അപ്പിനിക്കി കിളെയോപ്പാവ് ഇന്റ് പേശന്റ ഒരത്തൻ , “ ഇയ്യെടക്കി എര്ശലേമില് നടന്ന കാരിയം തിക്ക്‌ലാത്ത വേറ നാട്ട്കാറനാഞ്ഞ ഒരേ ഒരത്തൻ നീ മാട്ട്ക്ക്മാ ? ” ഇന്റ് കേട്ടാൻ .
+1	appinikki	appinikki	SCONJ	_	_	_	_	_	orth=അപ്പിനിക്കി|gloss=then
+2	killeyooppaav	killeyooppaav	PROPN	_	_	_	_	_	orth=കിളെയോപ്പാവ്|gloss=Cleopas
+3	inrr	inrr	SCONJ	_	_	_	_	_	orth=ഇന്റ്|gloss=quotation
+4	peeshanrra	peeshanrra	VERB	_	_	_	_	_	orth=പേശന്റ|gloss=said
+5	orattana	orattana	NOUN	_	_	_	_	_	orth=ഒരത്തൻ|gloss=to anyone
+6	,	,	PUNCT	_	_	_	_	_	orth=,
+7	“	“	PUNCT	_	_	_	_	_	orth=“
+8	iyyettakki	iyyettakki	ADV	_	_	_	_	_	orth=ഇയ്യെടക്കി|gloss=there
+9	ershaleemil	ershaleemil	PROPN	_	_	_	_	_	orth=എര്ശലേമില്|gloss=Jerusalem
+10	nattanna	nattanna	VERB	_	_	_	_	_	orth=നടന്ന|gloss=happened
+11	kaariyam	kaariyam	NOUN	_	_	_	_	_	orth=കാരിയം|gloss=action
+12	tikklaatta	tikklaatta	VERB	_	_	_	_	_	orth=തിക്ക്‌ലാത്ത|gloss=does not know
+13	veerra	veerra	ADJ	_	_	_	_	_	orth=വേറ|gloss=other
+14	naattttkaarranaanynya	naattttkaarranaanynya	NOUN	_	_	_	_	_	orth=നാട്ട്കാറനാഞ്ഞ|gloss=foreigner
+15	oree	oree	ADJ	_	_	_	_	_	orth=ഒരേ|gloss=same
+16	orattana	orattana	NOUN	_	_	_	_	_	orth=ഒരത്തൻ|gloss=to anyone
+17	nii	nii	PRON	_	_	_	_	_	orth=നീ|gloss=you.SG
+18	maattttkkmaa	maattttkkmaa	VERB	_	_	_	_	_	orth=മാട്ട്ക്ക്മാ|gloss=not
+19	?	?	PUNCT	_	_	_	_	_	orth=?
+20	”	”	PUNCT	_	_	_	_	_	orth=”
+21	inrr	inrr	SCONJ	_	_	_	_	_	orth=ഇന്റ്|gloss=quotation
+22	keettttaana	keettttaana	VERB	_	_	_	_	_	orth=കേട്ടാൻ|gloss=asked
+23	.	.	PUNCT	_	_	_	_	_	orth=.
+
+# sent_id = 43001039
+# ref_id = John 1:39
+# eng_text = He said to them , " Come , and see . " They came and saw where he was staying , and they stayed with him that day . It was about the tenth hour .
+# muv_text = “ ningnga vant kaannana ” inrr avana avangngallootta peeshiyaana . aanna shishiyanamaar piyy avana kuttiyirakkanrra taav kannttaar ; appinikki eerrakkoorra naalmanni aanynyatkonntt shishiyanamaar avanrra kuuttttatt avatta kettannaar .
+# muv_orth = “ നിങ്ങ വന്ത് കാണൻ ” ഇന്റ് അവൻ അവങ്ങളോട പേശിയാൻ . ആണ ശിശിയൻമാര് പിയ്യ് അവൻ കുടിയിരക്കന്റ താവ് കണ്ടാര് ; അപ്പിനിക്കി ഏറക്കോറ നാല്‌മണി ആഞ്ഞത്കൊണ്ട് ശിശിയൻമാര് അവന്റ കൂട്ടത്ത് അവട കെടന്നാര് .
+1	“	“	PUNCT	_	_	_	_	_	orth=“
+2	ningnga	ningnga	PRON	_	_	_	_	_	orth=നിങ്ങ|gloss=you.PL
+3	vant	vant	VERB	_	_	_	_	_	orth=വന്ത്|gloss=come
+4	kaannana	kaannana	VERB	_	_	_	_	_	orth=കാണൻ|gloss=see
+5	”	”	PUNCT	_	_	_	_	_	orth=”
+6	inrr	inrr	SCONJ	_	_	_	_	_	orth=ഇന്റ്|gloss=quotation
+7	avana	avana	PRON	_	_	_	_	_	orth=അവൻ|gloss=He
+8	avangngallootta	avangngallootta	PRON	_	_	_	_	_	orth=അവങ്ങളോട|gloss=them
+9	peeshiyaana	peeshiyaana	VERB	_	_	_	_	_	orth=പേശിയാൻ|gloss=said
+10	.	.	PUNCT	_	_	_	_	_	orth=.
+11	aanna	aanna	DET	_	_	_	_	_	orth=ആണ|gloss=Those
+12	shishiyanamaar	shishiyanamaar	NOUN	_	_	_	_	_	orth=ശിശിയൻമാര്|gloss=disciples
+13	piyy	piyy	VERB	_	_	_	_	_	orth=പിയ്യ്|gloss=came
+14	avana	avana	PRON	_	_	_	_	_	orth=അവൻ|gloss=He
+15	kuttiyirakkanrra	kuttiyirakkanrra	VERB	_	_	_	_	_	orth=കുടിയിരക്കന്റ|gloss=staying
+16	taav	taav	NOUN	_	_	_	_	_	orth=താവ്|gloss=place
+17	kannttaar	kannttaar	VERB	_	_	_	_	_	orth=കണ്ടാര്|gloss=saw
+18	;	;	PUNCT	_	_	_	_	_	orth=;
+19	appinikki	appinikki	SCONJ	_	_	_	_	_	orth=അപ്പിനിക്കി|gloss=then
+20	eerrakkoorra	eerrakkoorra	ADV	_	_	_	_	_	orth=ഏറക്കോറ|gloss=approximately
+21	naalmanni	naalmanni	NOUN	_	_	_	_	_	orth=നാല്‌മണി|gloss=4 o'clock
+22	aanynyatkonntt	aanynyatkonntt	ADJ	_	_	_	_	_	orth=ആഞ്ഞത്കൊണ്ട്
+23	shishiyanamaar	shishiyanamaar	NOUN	_	_	_	_	_	orth=ശിശിയൻമാര്|gloss=disciples
+24	avanrra	avanrra	PRON	_	_	_	_	_	orth=അവന്റ|gloss=his
+25	kuuttttatt	kuuttttatt	NOUN	_	_	_	_	_	orth=കൂട്ടത്ത്|gloss=with the crowd/group
+26	avatta	avatta	ADV	_	_	_	_	_	orth=അവട|gloss=there
+27	kettannaar	kettannaar	VERB	_	_	_	_	_	orth=കെടന്നാര്|gloss=stayed
+28	.	.	PUNCT	_	_	_	_	_	orth=.
+
+# sent_id = 43003016
+# ref_id = John 3:16
+# eng_text = For God so loved the world , that he gave his one and only Son , that whoever believes in him should not perish , but have eternal life .
+# muv_text = avangngalla orrrrakayyana nampanrra orattanam nayiccketttt pookaannttiyum eppanmolllla ushrr avngngkk kittttvaanikkiveennttiyum teyvam avana kottappaanikki takkavannnnam attarramaattttkkum olakattna shneekiccaar .
+# muv_orth = അവങ്ങള ഒറ്റകയ്യന നമ്പന്റ ഒരത്തനം നയിച്ച്കെട്ട് പോകാണ്ടിയും എപ്പന്‌മൊള്ള ഉശ്റ് അവ്ങ്ങ്ക്ക് കിട്ട്‌വാനിക്കിവേണ്ടിയും തെയ്‌വം അവന കൊടപ്പാനിക്കി തക്കവണ്ണം അത്തറമാട്ട്ക്കും ഒലകത്ത്ന ശ്‌നേകിച്ചാര് .
+1	avangngalla	avangngalla	PRON	_	_	_	_	_	orth=അവങ്ങള|gloss=His
+2	orrrrakayyana	orrrrakayyana	NOUN	_	_	_	_	_	orth=ഒറ്റകയ്യന|gloss=only son
+3	nampanrra	nampanrra	ADJ	_	_	_	_	_	orth=നമ്പന്റ|gloss=believes
+4	orattanam	orattanam	NOUN	_	_	_	_	_	orth=ഒരത്തനം|gloss=to anyone
+5	nayiccketttt	nayiccketttt	ADV	_	_	_	_	_	orth=നയിച്ച്കെട്ട്|gloss=Not
+6	pookaannttiyum	pookaannttiyum	VERB	_	_	_	_	_	orth=പോകാണ്ടിയും|gloss=will not go
+7	eppanmolllla	eppanmolllla	ADJ	_	_	_	_	_	orth=എപ്പന്‌മൊള്ള|gloss=eternal
+8	ushrr	ushrr	NOUN	_	_	_	_	_	orth=ഉശ്റ്|gloss=life
+9	avngngkk	avngngkk	PRON	_	_	_	_	_	orth=അവ്ങ്ങ്ക്ക്|gloss=His
+10	kittttvaanikkiveennttiyum	kittttvaanikkiveennttiyum	VERB	_	_	_	_	_	orth=കിട്ട്‌വാനിക്കിവേണ്ടിയും|gloss=wishing to bestow upon
+11	teyvam	teyvam	PROPN	_	_	_	_	_	orth=തെയ്‌വം|gloss=God
+12	avana	avana	PRON	_	_	_	_	_	orth=അവന|gloss=He
+13	kottappaanikki	kottappaanikki	VERB	_	_	_	_	_	orth=കൊടപ്പാനിക്കി|gloss=give
+14	takkavannnnam	takkavannnnam	ADP	_	_	_	_	_	orth=തക്കവണ്ണം|gloss=in that way
+15	attarramaattttkkum	attarramaattttkkum	SCONJ	_	_	_	_	_	orth=അത്തറമാട്ട്ക്കും|gloss=thus
+16	olakattna	olakattna	NOUN	_	_	_	_	_	orth=ഒലകത്ത്ന|gloss=the world
+17	shneekiccaar	shneekiccaar	VERB	_	_	_	_	_	orth=ശ്‌നേകിച്ചാര്|gloss=loved
+18	.	.	PUNCT	_	_	_	_	_	orth=.
+
+# sent_id = 44002030
+# ref_id = Acts 2:30
+# eng_text = Therefore , being a prophet , and knowing that God had sworn with an oath to him that of the fruit of his body , according to the flesh , he would raise up the Christ to sit on his throne ,
+# muv_text = avana ora vlaattiyaanynyt ; avanappeelatinna avanrra cerrrrkaarriinenrr orattana raashaavaakki atikaarattattttiil irttminrr teyvam avankk shattiyam ceynyny kottatta vaakk nenacct konntt ,
+# muv_orth = അവൻ ഒര വ്‌ലാത്തിയാഞ്ഞ്ത് ; അവനപ്പേലതിന്ന അവന്റ ചെറ്റ്കാറീനെന്റ് ഒരത്തന രാശാവാക്കി അതികാരത്തട്ടീല് ഇര്ത്ത്മിന്റ് തെയ്‌വം അവന്ക്ക് ശത്തിയം ചെയ്ഞ്ഞ് കൊടത്ത വാക്ക് നെനച്ച്ത് കൊണ്ട് ,
+1	avana	avana	PRON	_	_	_	_	_	orth=അവൻ|gloss=He
+2	ora	ora	NUM	_	_	_	_	_	orth=ഒര|gloss=a
+3	vlaattiyaanynyt	vlaattiyaanynyt	NOUN	_	_	_	_	_	orth=വ്‌ലാത്തിയാഞ്ഞ്ത്|gloss=prophet
+4	;	;	PUNCT	_	_	_	_	_	orth=;
+5	avanappeelatinna	avanappeelatinna	NOUN	_	_	_	_	_	orth=അവനപ്പേലതിന്ന|gloss=like him
+6	avanrra	avanrra	PRON	_	_	_	_	_	orth=അവന്റ|gloss=his
+7	cerrrrkaarriinenrr	cerrrrkaarriinenrr	VERB	_	_	_	_	_	orth=ചെറ്റ്കാറീനെന്റ്|gloss=to set
+8	orattana	orattana	NOUN	_	_	_	_	_	orth=ഒരത്തന|gloss=to anyone
+9	raashaavaakki	raashaavaakki	VERB	_	_	_	_	_	orth=രാശാവാക്കി|gloss=make a king
+10	atikaarattattttiil	atikaarattattttiil	NOUN	_	_	_	_	_	orth=അതികാരത്തട്ടീല്|gloss=throne
+11	irttminrr	irttminrr	NOUN	_	_	_	_	_	orth=ഇര്ത്ത്മിന്റ്|gloss=flesh
+12	teyvam	teyvam	PROPN	_	_	_	_	_	orth=തെയ്‌വം|gloss=God
+13	avankk	avankk	PRON	_	_	_	_	_	orth=അവന്ക്ക്|gloss=to him
+14	shattiyam	shattiyam	NOUN	_	_	_	_	_	orth=ശത്തിയം|gloss=oath
+15	ceynyny	ceynyny	VERB	_	_	_	_	_	orth=ചെയ്ഞ്ഞ്|gloss=made
+16	kottatta	kottatta	VERB	_	_	_	_	_	orth=കൊടത്ത|gloss=gave
+17	vaakk	vaakk	NOUN	_	_	_	_	_	orth=വാക്ക്|gloss=promise
+18	nenacct	nenacct	VERB	_	_	_	_	_	orth=നെനച്ച്ത്|gloss=thought
+19	konntt	konntt	VERB	_	_	_	_	_	orth=കൊണ്ട്|gloss=had
+20	,	,	PUNCT	_	_	_	_	_	orth=,
+
+# sent_id = 44009038
+# ref_id = Acts 9:38
+# eng_text = As Lydda was near Joppa , the disciples , hearing that Peter was there , sent two men to him , imploring him not to delay in coming to them .
+# muv_text = pattrroosh attaavkk kittttayolllla luttayil onnttinrr ooppayila shishiyanamaar keettttaar ; pittiyinrr ooppakki verannaminrr kenycippeeshvaanikki rrannttaalla luttakki peeshivittttaar .
+# muv_orth = പത്ത്റോശ് അത്താവ്ക്ക് കിട്ടയൊള്ള ലുത്തയില് ഒണ്ടിന്റ് ഓപ്പയില ശിശിയൻമാര് കേട്ടാര് ; പിടിയിന്റ് ഓപ്പക്കി വെരണമിന്റ് കെഞ്ചിപ്പേശ്‌വാനിക്കി റണ്ടാള ലുത്തക്കി പേശിവിട്ടാര് .
+1	pattrroosh	pattrroosh	PROPN	_	_	_	_	_	orth=പത്ത്റോശ്|gloss=Peter
+2	attaavkk	attaavkk	ADV	_	_	_	_	_	orth=അത്താവ്ക്ക്
+3	kittttayolllla	kittttayolllla	VERB	_	_	_	_	_	orth=കിട്ടയൊള്ള|gloss=was near
+4	luttayil	luttayil	PROPN	_	_	_	_	_	orth=ലുത്തയില്|gloss=in Lydda
+5	onnttinrr	onnttinrr	VERB	_	_	_	_	_	orth=ഒണ്ടിന്റ്|gloss=to come
+6	ooppayila	ooppayila	PROPN	_	_	_	_	_	orth=ഓപ്പയില|gloss=in Joppa
+7	shishiyanamaar	shishiyanamaar	NOUN	_	_	_	_	_	orth=ശിശിയൻമാര്|gloss=disciples
+8	keettttaar	keettttaar	VERB	_	_	_	_	_	orth=കേട്ടാര്|gloss=asked
+9	;	;	PUNCT	_	_	_	_	_	orth=;
+10	pittiyinrr	pittiyinrr	ADV	_	_	_	_	_	orth=പിടിയിന്റ്|gloss=soon
+11	ooppakki	ooppakki	PROPN	_	_	_	_	_	orth=ഓപ്പക്കി|gloss=to Joppa
+12	verannaminrr	verannaminrr	VERB	_	_	_	_	_	orth=വെരണമിന്റ്|gloss=to come
+13	kenycippeeshvaanikki	kenycippeeshvaanikki	VERB	_	_	_	_	_	orth=കെഞ്ചിപ്പേശ്‌വാനിക്കി|gloss=begged
+14	rrannttaalla	rrannttaalla	NOUN	_	_	_	_	_	orth=റണ്ടാള|gloss=two men
+15	luttakki	luttakki	PROPN	_	_	_	_	_	orth=ലുത്തക്കി|gloss=to Lydda
+16	peeshivittttaar	peeshivittttaar	VERB	_	_	_	_	_	orth=പേശിവിട്ടാര്|gloss=beg
+17	.	.	PUNCT	_	_	_	_	_	orth=.
+
+# sent_id = 44011011
+# ref_id = Acts 11:11
+# eng_text = Behold , immediately three men stood before the house where I was , having been sent from Caesarea to me .
+# muv_text = appattinna kayshariya taaviinenrr peeshivitttta muunrraall naan kuttiyiranna viittttnrra vaaccakkaal ettiyaar .
+# muv_orth = അപ്പത്തിന്ന കയ്ശരിയ താവീനെന്റ് പേശിവിട്ട മൂന്റാള് നാന് കുടിയിരന്ന വീട്ട്ന്റ വാച്ചക്കാല് എത്തിയാര് .
+1	appattinna	appattinna	ADV	_	_	_	_	_	orth=അപ്പത്തിന്ന|gloss=immediately
+2	kayshariya	kayshariya	PROPN	_	_	_	_	_	orth=കയ്ശരിയ|gloss=Caesarea
+3	taaviinenrr	taaviinenrr	VERB	_	_	_	_	_	orth=താവീനെന്റ്|gloss=Behold
+4	peeshivitttta	peeshivitttta	ADV	_	_	_	_	_	orth=പേശിവിട്ട|gloss=had spoken
+5	muunrraall	muunrraall	NOUN	_	_	_	_	_	orth=മൂന്റാള്|gloss=three men
+6	naan	naan	PRON	_	_	_	_	_	orth=നാന്|gloss=I
+7	kuttiyiranna	kuttiyiranna	VERB	_	_	_	_	_	orth=കുടിയിരന്ന|gloss=stayed
+8	viittttnrra	viittttnrra	NOUN	_	_	_	_	_	orth=വീട്ട്ന്റ|gloss=house
+9	vaaccakkaal	vaaccakkaal	NOUN	_	_	_	_	_	orth=വാച്ചക്കാല്|gloss=at the entrance
+10	ettiyaar	ettiyaar	VERB	_	_	_	_	_	orth=എത്തിയാര്|gloss=stood
+11	.	.	PUNCT	_	_	_	_	_	orth=.
+
+# sent_id = 44021034
+# ref_id = Acts 21:34
+# eng_text = Some shouted one thing , some another , among the crowd . When he couldn't find out the truth because of the noise , he commanded him to be brought into the barracks .
+# muv_text = kuuttttattiil olllla celaallkall orashiiriyilum veerra kuuttttattiil olllla aallkall veerra shiiriyilum villicc kuukiyaar ; payangkara ekallayaanynyatkonntt entana perrrriitinrr avankk tikklaanynyt ; atkonntt pavlooshna koottttakki etttt poovaana avana peeshiyaana .
+# muv_orth = കൂട്ടത്തീല് ഒള്ള ചെലാള്കള് ഒരശീരിയിലും വേറ കൂട്ടത്തീല് ഒള്ള ആള്കള് വേറ ശീരിയിലും വിളിച്ച് കൂകിയാര് ; പയങ്കര എകളയാഞ്ഞത്കൊണ്ട് എന്തൻ പെറ്റീതിന്റ് അവന്ക്ക് തിക്ക്‌ലാഞ്ഞ്ത് ; അത്കൊണ്ട് പവ്‌ലോശ്‌ന കോട്ടക്കി എട്ത്ത് പോവാൻ അവൻ പേശിയാൻ .
+1	kuuttttattiil	kuuttttattiil	ADV	_	_	_	_	_	orth=കൂട്ടത്തീല്|gloss=in the crowd
+2	olllla	olllla	AUX	_	_	_	_	_	orth=ഒള്ള|gloss=who are in
+3	celaallkall	celaallkall	NOUN	_	_	_	_	_	orth=ചെലാള്കള്|gloss=some people
+4	orashiiriyilum	orashiiriyilum	NOUN	_	_	_	_	_	orth=ഒരശീരിയിലും|gloss=one way
+5	veerra	veerra	ADJ	_	_	_	_	_	orth=വേറ|gloss=other
+6	kuuttttattiil	kuuttttattiil	ADV	_	_	_	_	_	orth=കൂട്ടത്തീല്|gloss=in a crowd
+7	olllla	olllla	AUX	_	_	_	_	_	orth=ഒള്ള|gloss=who are in
+8	aallkall	aallkall	NOUN	_	_	_	_	_	orth=ആള്കള്|gloss=people
+9	veerra	veerra	ADJ	_	_	_	_	_	orth=വേറ|gloss=other
+10	shiiriyilum	shiiriyilum	NOUN	_	_	_	_	_	orth=ശീരിയിലും|gloss=way
+11	villicc	villicc	VERB	_	_	_	_	_	orth=വിളിച്ച്|gloss=called
+12	kuukiyaar	kuukiyaar	VERB	_	_	_	_	_	orth=കൂകിയാര്|gloss=shouted
+13	;	;	PUNCT	_	_	_	_	_	orth=;
+14	payangkara	payangkara	ADJ	_	_	_	_	_	orth=പയങ്കര|gloss=roared
+15	ekallayaanynyatkonntt	ekallayaanynyatkonntt	VERB	_	_	_	_	_	orth=എകളയാഞ്ഞത്കൊണ്ട്
+16	entana	entana	PRON	_	_	_	_	_	orth=എന്തൻ|gloss=what
+17	perrrriitinrr	perrrriitinrr	VERB	_	_	_	_	_	orth=പെറ്റീതിന്റ്|gloss=receive
+18	avankk	avankk	PRON	_	_	_	_	_	orth=അവന്ക്ക്|gloss=He
+19	tikklaanynyt	tikklaanynyt	VERB	_	_	_	_	_	orth=തിക്ക്‌ലാഞ്ഞ്ത്|gloss=did not know
+20	;	;	PUNCT	_	_	_	_	_	orth=;
+21	atkonntt	atkonntt	VERB	_	_	_	_	_	orth=അത്കൊണ്ട്|gloss=noise
+22	pavlooshna	pavlooshna	NOUN	_	_	_	_	_	orth=പവ്‌ലോശ്‌ന|gloss=barracks
+23	koottttakki	koottttakki	VERB	_	_	_	_	_	orth=കോട്ടക്കി|gloss=asked
+24	etttt	etttt	VERB	_	_	_	_	_	orth=എട്ത്ത്|gloss=put
+25	poovaana	poovaana	VERB	_	_	_	_	_	orth=പോവാൻ|gloss=will go
+26	avana	avana	PRON	_	_	_	_	_	orth=അവൻ|gloss=He
+27	peeshiyaana	peeshiyaana	VERB	_	_	_	_	_	orth=പേശിയാൻ|gloss=said
+28	.	.	PUNCT	_	_	_	_	_	orth=.
+
+# sent_id = 47012002
+# ref_id = 2 Corinthians 12:2
+# eng_text = I know a man in Christ , fourteen years ago ( whether in the body , I don't know , or whether out of the body , I don't know ; God knows ) , such a one caught up into the third heaven .
+# muv_text = patinaal vershattkk munti muunrraamatti meelookam verayam ettatta ora manshna ekk tikkonntt ; at teekattoottayoo teekam illaannttiyoo inrr ekk tikkla , inrre teyvattkk at tikkonntt .
+# muv_orth = പതിനാല് വെര്ശത്ത്ക്ക് മുന്തി മൂന്റാമത്തി മേലോകം വെരയം എടത്ത ഒര മന്ശ്‌ന എക്ക് തിക്കൊണ്ട് ; അത് തേകത്തോടയോ തേകം ഇല്ലാണ്ടിയോ ഇന്റ് എക്ക് തിക്ക്‌ല , ഇന്റെ തെയ്‌വത്ത്ക്ക് അത് തിക്കൊണ്ട് .
+1	patinaal	patinaal	NUM	_	_	_	_	_	orth=പതിനാല്|gloss=fourteen
+2	vershattkk	vershattkk	NOUN	_	_	_	_	_	orth=വെര്ശത്ത്ക്ക്|gloss=years
+3	munti	munti	ADP	_	_	_	_	_	orth=മുന്തി|gloss=before
+4	muunrraamatti	muunrraamatti	ADJ	_	_	_	_	_	orth=മൂന്റാമത്തി|gloss=third
+5	meelookam	meelookam	NOUN	_	_	_	_	_	orth=മേലോകം|gloss=Heaven
+6	verayam	verayam	ADP	_	_	_	_	_	orth=വെരയം|gloss=until
+7	ettatta	ettatta	NOUN	_	_	_	_	_	orth=എടത്ത|gloss=place
+8	ora	ora	NUM	_	_	_	_	_	orth=ഒര|gloss=a
+9	manshna	manshna	NOUN	_	_	_	_	_	orth=മന്ശ്‌ന|gloss=man
+10	ekk	ekk	PRON	_	_	_	_	_	orth=എക്ക്|gloss=to me
+11	tikkonntt	tikkonntt	VERB	_	_	_	_	_	orth=തിക്കൊണ്ട്|gloss=do not know
+12	;	;	PUNCT	_	_	_	_	_	orth=;
+13	at	at	DET	_	_	_	_	_	orth=അത്|gloss=those
+14	teekattoottayoo	teekattoottayoo	NOUN	_	_	_	_	_	orth=തേകത്തോടയോ|gloss=with the body
+15	teekam	teekam	NOUN	_	_	_	_	_	orth=തേകം|gloss=body
+16	illaannttiyoo	illaannttiyoo	VERB	_	_	_	_	_	orth=ഇല്ലാണ്ടിയോ|gloss=without
+17	inrr	inrr	SCONJ	_	_	_	_	_	orth=ഇന്റ്|gloss=quotation
+18	ekk	ekk	PRON	_	_	_	_	_	orth=എക്ക്|gloss=to me
+19	tikkla	tikkla	VERB	_	_	_	_	_	orth=തിക്ക്‌ല|gloss=do not know
+20	,	,	PUNCT	_	_	_	_	_	orth=,
+21	inrre	inrre	SCONJ	_	_	_	_	_	orth=ഇന്റെ|gloss=quotation
+22	teyvattkk	teyvattkk	NOUN	_	_	_	_	_	orth=തെയ്‌വത്ത്ക്ക്|gloss=for the God
+23	at	at	DET	_	_	_	_	_	orth=അത്|gloss=those
+24	tikkonntt	tikkonntt	VERB	_	_	_	_	_	orth=തിക്കൊണ്ട്|gloss=do not know
+25	.	.	PUNCT	_	_	_	_	_	orth=.
+
+# sent_id = 62004009
+# ref_id = 1 John 4:9
+# eng_text = By this was God's love revealed in us , that God has sent his only born Son into the world that we might live through him .
+# muv_text = namma avaniil pollappaanikki veenntti appanaanynya teyvam avanrra oree ora kayyana olakattkk vittttaar ; itiil teyvattkk nammallootta olllla shneekam vellippattttat .
+# muv_orth = നമ്മ അവനീല് പൊളപ്പാനിക്കി വേണ്ടി അപ്പനാഞ്ഞ തെയ്‌വം അവന്റ ഒരേ ഒര കയ്യന ഒലകത്ത്ക്ക് വിട്ടാര് ; ഇതീല് തെയ്‌വത്ത്ക്ക് നമ്മളോട ഒള്ള ശ്‌നേകം വെളിപ്പട്ടത് .
+1	namma	namma	PRON	_	_	_	_	_	orth=നമ്മ|gloss=we
+2	avaniil	avaniil	NOUN	_	_	_	_	_	orth=അവനീല്|gloss=through him
+3	pollappaanikki	pollappaanikki	VERB	_	_	_	_	_	orth=പൊളപ്പാനിക്കി|gloss=live
+4	veenntti	veenntti	ADP	_	_	_	_	_	orth=വേണ്ടി|gloss=desiring
+5	appanaanynya	appanaanynya	SCONJ	_	_	_	_	_	orth=അപ്പനാഞ്ഞ|gloss=that
+6	teyvam	teyvam	PROPN	_	_	_	_	_	orth=തെയ്‌വം|gloss=God
+7	avanrra	avanrra	PRON	_	_	_	_	_	orth=അവന്റ|gloss=his
+8	oree	oree	ADJ	_	_	_	_	_	orth=ഒരേ|gloss=only
+9	ora	ora	NUM	_	_	_	_	_	orth=ഒര|gloss=a
+10	kayyana	kayyana	PROPN	_	_	_	_	_	orth=കയ്യന|gloss=Son
+11	olakattkk	olakattkk	NOUN	_	_	_	_	_	orth=ഒലകത്ത്ക്ക്|gloss=world
+12	vittttaar	vittttaar	VERB	_	_	_	_	_	orth=വിട്ടാര്|gloss=sent
+13	;	;	PUNCT	_	_	_	_	_	orth=;
+14	itiil	itiil	NOUN	_	_	_	_	_	orth=ഇതീല്|gloss=in this
+15	teyvattkk	teyvattkk	NOUN	_	_	_	_	_	orth=തെയ്‌വത്ത്ക്ക്|gloss=for the God
+16	nammallootta	nammallootta	PRON	_	_	_	_	_	orth=നമ്മളോട|gloss=for us
+17	olllla	olllla	AUX	_	_	_	_	_	orth=ഒള്ള|gloss=who are in
+18	shneekam	shneekam	NOUN	_	_	_	_	_	orth=ശ്‌നേകം|gloss=love
+19	vellippattttat	vellippattttat	VERB	_	_	_	_	_	orth=വെളിപ്പട്ടത്|gloss=is revealed
+20	.	.	PUNCT	_	_	_	_	_	orth=.
+
+# sent_id = 63001005
+# ref_id = 2 John 1:5
+# eng_text = Now I beg you , dear lady , not as though I wrote to you a new commandment , but that which we had from the beginning , that we love one another .
+# muv_text = ippana pillllee , namma tammllittammlli shneekikkannam inrr naan kenycikkeekkanrrana . it ora puttana uttarrav illa . namma eeshuvna nampiya kaalam totttt nammkk onnttaanynya atee uttarrav tinnayaannum naan ningngkk eytanrrat .
+# muv_orth = ഇപ്പൻ പിള്ളേ , നമ്മ തമ്മ്ളിത്തമ്മ്ളി ശ്‌നേകിക്കണം ഇന്റ് നാന് കെഞ്ചിക്കേക്കന്റൻ . ഇത് ഒര പുത്തൻ ഉത്തറവ് ഇല്ല . നമ്മ ഏശുവ്ന നമ്പിയ കാലം തൊട്ട് നമ്മ്ക്ക് ഒണ്ടാഞ്ഞ അതേ ഉത്തറവ് തിന്നയാണും നാന് നിങ്ങ്ക്ക് എയ്‌തന്റത് .
+1	ippana	ippana	ADV	_	_	_	_	_	orth=ഇപ്പൻ|gloss=now
+2	pillllee	pillllee	NOUN	_	_	_	_	_	orth=പിള്ളേ|gloss=daughter
+3	,	,	PUNCT	_	_	_	_	_	orth=,
+4	namma	namma	PRON	_	_	_	_	_	orth=നമ്മ|gloss=we
+5	tammllittammlli	tammllittammlli	NOUN	_	_	_	_	_	orth=തമ്മ്ളിത്തമ്മ്ളി|gloss=each
+6	shneekikkannam	shneekikkannam	VERB	_	_	_	_	_	orth=ശ്‌നേകിക്കണം|gloss=love
+7	inrr	inrr	SCONJ	_	_	_	_	_	orth=ഇന്റ്|gloss=quotation
+8	naan	naan	PRON	_	_	_	_	_	orth=നാന്|gloss=I
+9	kenycikkeekkanrrana	kenycikkeekkanrrana	VERB	_	_	_	_	_	orth=കെഞ്ചിക്കേക്കന്റൻ|gloss=beg
+10	.	.	PUNCT	_	_	_	_	_	orth=.
+11	it	it	DET	_	_	_	_	_	orth=ഇത്|gloss=this
+12	ora	ora	NUM	_	_	_	_	_	orth=ഒര|gloss=a
+13	puttana	puttana	ADJ	_	_	_	_	_	orth=പുത്തൻ|gloss=new
+14	uttarrav	uttarrav	NOUN	_	_	_	_	_	orth=ഉത്തറവ്|gloss=commandment
+15	illa	illa	VERB	_	_	_	_	_	orth=ഇല്ല|gloss=not
+16	.	.	PUNCT	_	_	_	_	_	orth=.
+17	namma	namma	PRON	_	_	_	_	_	orth=നമ്മ|gloss=we
+18	eeshuvna	eeshuvna	PROPN	_	_	_	_	_	orth=ഏശുവ്ന|gloss=Jesus
+19	nampiya	nampiya	VERB	_	_	_	_	_	orth=നമ്പിയ|gloss=believed
+20	kaalam	kaalam	NOUN	_	_	_	_	_	orth=കാലം|gloss=time
+21	totttt	totttt	ADP	_	_	_	_	_	orth=തൊട്ട്|gloss=since
+22	nammkk	nammkk	PRON	_	_	_	_	_	orth=നമ്മ്ക്ക്|gloss=for us
+23	onnttaanynya	onnttaanynya	VERB	_	_	_	_	_	orth=ഒണ്ടാഞ്ഞ|gloss=without joining
+24	atee	atee	ADJ	_	_	_	_	_	orth=അതേ|gloss=the same
+25	uttarrav	uttarrav	NOUN	_	_	_	_	_	orth=ഉത്തറവ്|gloss=commandment
+26	tinnayaannum	tinnayaannum	VERB	_	_	_	_	_	orth=തിന്നയാണും
+27	naan	naan	PRON	_	_	_	_	_	orth=നാന്|gloss=I
+28	ningngkk	ningngkk	PRON	_	_	_	_	_	orth=നിങ്ങ്ക്ക്|gloss=you.PL
+29	eytanrrat	eytanrrat	VERB	_	_	_	_	_	orth=എയ്‌തന്റത്|gloss=writing
+30	.	.	PUNCT	_	_	_	_	_	orth=.
+
